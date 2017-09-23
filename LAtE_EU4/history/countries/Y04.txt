@@ -1,0 +1,27 @@
+# Biloxi
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 921
+3042.8.23 = {
+	monarch = {
+		name = "Jehan"
+		birth_date = 3012.9.2
+		dynasty = "Waltney"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 921
+	add_treasury = 29
+	add_prestige = -49
+	elector = no
+}

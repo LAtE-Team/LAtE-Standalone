@@ -1,0 +1,32 @@
+government = daimyo
+government_rank = 1
+primary_culture = edokko
+religion = shinto
+technology_group = chinese
+capital = 4189	# Tokyo-3
+
+3039.1.1 = { 
+	monarch = {
+		name = "Gendo"
+		dynasty = "Ikari"
+		birth_date = 3005.4.29
+		death_date = 3100.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+3039.6.6 = {
+	heir = {
+		name = "Shinji"
+		monarch_name = "Shinji"
+		dynasty = "Ikari"
+		birth_date = 3039.6.6
+		death_date = 3100.1.1
+		claim = 80
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}

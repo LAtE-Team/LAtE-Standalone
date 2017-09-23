@@ -1,0 +1,26 @@
+# Florida Keys
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4717
+3043.9.15 = {
+	monarch = {
+		name = "Earl"
+		birth_date = 3029.8.22
+		dynasty = "Mahone"
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 4717
+	add_treasury = 449
+	add_prestige = 26
+	elector = no
+}

@@ -1,0 +1,123 @@
+# The Great Lakes
+graphical_culture = westerngfx
+color = { 153 189 234 }
+
+
+
+
+leader_names = {
+
+	"Sculpin" "Alexander" "Alvin" "Anders" "Abel" "Abram" "Burbot" "Benson" "Bollard" "Clark" 
+	"Carl" "Cyrus" "Cable" "Cyril" "Dexter" "Davit" "Dodge" "Dromond" "Dale" "Elmhart" 
+	"Edmund" "Elisha" "Edsel" "Eric" "Fitzgerald" "Fardage" "Frederick" "Franklin" "Glenlyon" "Griffon" 
+	"George" "Gudgeon" "Gideon" "Gybe" "Gordon" "Gregory" "Hamilton" "Henry" "Hyac" "Hydrus" 
+	"Hackett" "Halyard" "Hannibal" "Irvin" "Ishmail" "Jeffrey" "Jack" "James" "Kedge" "Lawrence" 
+	"Lewis" "Lazaret" "Lorne" "Madison" "Martin" "Mather" "Michael" "Mark" "Marin" "Mammut" 
+	"Ned" "Owen" "Oakum" "Oliver" "Odocoil" "Pike" "Paul" "Peter" "Picton" "Pinus" 
+	"Robert" "Richard" "Rogday" "Rubin" "Roband" "Reeve" "Robin" "Steffan" "Scotiadoc" "Sullivan" 
+	"Stemson" "Stevedore" "Seymour" "Spencer" "Salvelin" "Tim" "Theodore" "Thaddeus" "Townsend" "Will" 
+	"Walleye" "Wyandot" "Wyatt" "Zachary" }
+monarch_names = {
+	"Sculpin #0" = 18
+	"Alexander #0" = 0
+	"Alvin #0" = 0
+	"Anders #0" = 0
+	"Abel #0" = 0
+	"Abram #0" = 0
+	"Burbot #0" = 0
+	"Benson #0" = 0
+	"Bollard #0" = 0
+	"Clark #0" = 0
+	"Carl #0" = 0
+	"Cyrus #0" = 0
+	"Cable #0" = 0
+	"Cyril #0" = 0
+	"Dexter #0" = 0
+	"Davit #0" = 0
+	"Dodge #0" = 0
+	"Dromond #0" = 0
+	"Dale #0" = 0
+	"Elmhart #0" = 0
+	"Edmund #0" = 0
+	"Elisha #0" = 0
+	"Edsel #0" = 0
+	"Eric #0" = 0
+	"Fitzgerald #0" = 0
+	"Fardage #0" = 0
+	"Frederick #0" = 0
+	"Franklin #0" = 0
+	"Glenlyon #0" = 0
+	"Griffon #0" = 0
+	"George #0" = 0
+	"Gudgeon #0" = 0
+	"Gideon #0" = 0
+	"Gybe #0" = 0
+	"Gordon #0" = 0
+	"Gregory #0" = 0
+	"Hamilton #0" = 0
+	"Henry #0" = 0
+	"Hyac #0" = 0
+	"Hydrus #0" = 0
+	"Hackett #0" = 0
+	"Halyard #0" = 0
+	"Hannibal #0" = 0
+	"Irvin #0" = 0
+	"Ishmail #0" = 0
+	"Jeffrey #0" = 0
+	"Jack #0" = 0
+	"James #0" = 0
+	"Kedge #0" = 0
+	"Lawrence #0" = 0
+	"Lewis #0" = 0
+	"Lazaret #0" = 0
+	"Lorne #0" = 0
+	"Madison #0" = 0
+	"Martin #0" = 0
+	"Mather #0" = 0
+	"Michael #0" = 10
+	"Mark #0" = 0
+	"Marin #0" = 0
+	"Mammut #0" = 0
+	"Ned #0" = 0
+	"Owen #0" = 0
+	"Oakum #0" = 0
+	"Oliver #0" = 0
+	"Odocoil #0" = 0
+	"Pike #0" = 0
+	"Paul #0" = 0
+	"Peter #0" = 0
+	"Picton #0" = 0
+	"Pinus #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Rogday #0" = 0
+	"Rubin #0" = 0
+	"Roband #0" = 0
+	"Reeve #0" = 0
+	"Robin #0" = 0
+	"Steffan #0" = 0
+	"Scotiadoc #0" = 0
+	"Sullivan #0" = 0
+	"Stemson #0" = 0
+	"Stevedore #0" = 0
+	"Seymour #0" = 0
+	"Spencer #0" = 0
+	"Salvelin #0" = 0
+	"Tim #0" = 0
+	"Theodore #0" = 0
+	"Thaddeus #0" = 0
+	"Townsend #0" = 0
+	"Will #0" = 0
+	"Walleye #0" = 0
+	"Wyandot #0" = 0
+	"Wyatt #0" = 0
+	"Zachary #0" = 0
+
+
+	"Sprite #0" = -1
+	"Nancy #0" = -1
+	"Iris #0" = -1
+	"Alyssa #0" = -1
+	"Ann #0" = -1
+}
+

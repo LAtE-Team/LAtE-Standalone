@@ -1,0 +1,17 @@
+government = oligarchic_republic
+primary_culture = russian
+religion = rust_cultist
+technology_group = indian
+capital = 1075	# Tyumen
+government_rank = 1
+
+
+3020.1.1 = {
+	monarch = {
+		name = "David"
+		dynasty = "Turov"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}

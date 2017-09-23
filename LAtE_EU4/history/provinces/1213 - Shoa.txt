@@ -1,0 +1,17 @@
+#1213 - Shoa
+
+culture = amhara 
+religion = sunni
+capital = "Badeqe"
+base_manpower = 3
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = east_african
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian

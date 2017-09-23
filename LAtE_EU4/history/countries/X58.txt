@@ -1,0 +1,25 @@
+# Guajira
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = truenonato
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 2807
+3052.4.28 = {
+	monarch = {
+		name = "Ramón"
+		birth_date = 3009.6.15
+		dynasty = "Serrano"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 2807
+	add_treasury = 17
+	add_prestige = 298
+}

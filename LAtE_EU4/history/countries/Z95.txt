@@ -1,0 +1,27 @@
+# Okeechobee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2535
+3031.8.7 = {
+	monarch = {
+		name = "Bubba"
+		birth_date = 3019.9.26
+		dynasty = "Crayclaw"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 2535
+	add_treasury = 46
+	add_prestige = 148
+	elector = no
+}

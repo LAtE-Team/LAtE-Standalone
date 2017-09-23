@@ -1,0 +1,152 @@
+# Sonora
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 169 104 75 }
+
+
+
+
+leader_names = {
+
+	"Darío" "Lázaro" "Ángel" "Adrián" "Arellano" "Anselmo" "Arango" "Agustín" "Anacleto" "Armando" 
+	"Atilano" "Arnoldo" "Alejando" "Audencio" "Arechiga" "Baldenegro" "Benjamín" "Braulio" "Belisario" "Bonifacio" 
+	"Bacauda" "Coronel" "Cipriano" "Carlos" "Christoforo" "Calixto" "Candelario" "Celso" "Cesáreo" "Campeyo" 
+	"Conancio" "Canuto" "Doroteo" "Delgado" "Emilio" "Eugenio" "Eulalio" "Esteban" "Exuperio" "Eladio" 
+	"Eufemio" "Eusebio" "Erubiel" "Fonte" "Félix" "Fernando" "Felipe" "Federico" "Fructuoso" "Faluax" 
+	"Guzmán" "Gallardo" "Gregorio" "Gastélum" "Héctor" "Homobono" "Hipólito" "Hilario" "Homar" "Isidro" 
+	"Ismael" "Ignacio" "Isicio" "Idefonso" "Javier" "Joaquín" "Jesús" "Julio" "Justo" "Lucio" 
+	"Luis" "Laulfo" "Marcos" "Maldonado" "Mateo" "Maximiano" "Molinar" "Martiniano" "Magdaleno" "Maclovio" 
+	"Montano" "Melancio" "Miguel" "Montalvo" "Natividad" "Nicolás" "Orozco" "Orestes" "Pablo" "Ponce" 
+	"Palma" "Pancho" "Pascual" "Praumato" "Paulato" "Pretextat" "Paciano" "Próspero" "Plutarco" "Quintero" 
+	"Quinto" "Quevedo" "Roque" "Raúl" "Rosalío" "Simental" "Saturnino" "Severino" "Sinticio" "Sisberto" 
+	"Torres" "Teodoro" "Teodomiro" "Toribio" "Teoderico" "Trinidad" "Tovar" "Vito" "Zambada" "Zertuche" }
+monarch_names = {
+	"Darío #1" = 18
+	"Lázaro #1" = 18
+	"Ángel #0" = 0
+	"Adrián #0" = 0
+	"Arellano #0" = 0
+	"Anselmo #0" = 0
+	"Arango #0" = 0
+	"Agustín #0" = 0
+	"Anacleto #0" = 0
+	"Armando #0" = 0
+	"Atilano #0" = 0
+	"Arnoldo #0" = 0
+	"Alejando #0" = 0
+	"Audencio #0" = 0
+	"Arechiga #0" = 0
+	"Baldenegro #0" = 0
+	"Benjamín #0" = 0
+	"Braulio #0" = 0
+	"Belisario #0" = 0
+	"Bonifacio #0" = 0
+	"Bacauda #0" = 0
+	"Coronel #0" = 0
+	"Cipriano #0" = 0
+	"Carlos #0" = 0
+	"Christoforo #0" = 0
+	"Calixto #0" = 0
+	"Candelario #0" = 0
+	"Celso #0" = 0
+	"Cesáreo #0" = 0
+	"Campeyo #0" = 0
+	"Conancio #0" = 0
+	"Canuto #0" = 0
+	"Doroteo #0" = 0
+	"Delgado #0" = 0
+	"Emilio #0" = 0
+	"Eugenio #0" = 0
+	"Eulalio #0" = 0
+	"Esteban #0" = 0
+	"Exuperio #0" = 0
+	"Eladio #0" = 0
+	"Eufemio #0" = 0
+	"Eusebio #0" = 0
+	"Erubiel #0" = 0
+	"Fonte #0" = 0
+	"Félix #0" = 0
+	"Fernando #0" = 0
+	"Felipe #0" = 0
+	"Federico #0" = 0
+	"Fructuoso #0" = 0
+	"Faluax #0" = 0
+	"Guzmán #0" = 0
+	"Gallardo #0" = 0
+	"Gregorio #0" = 0
+	"Gastélum #0" = 0
+	"Héctor #0" = 0
+	"Homobono #0" = 0
+	"Hipólito #0" = 0
+	"Hilario #0" = 0
+	"Homar #0" = 0
+	"Isidro #0" = 0
+	"Ismael #0" = 0
+	"Ignacio #0" = 0
+	"Isicio #0" = 0
+	"Idefonso #0" = 0
+	"Javier #0" = 0
+	"Joaquín #0" = 0
+	"Jesús #0" = 0
+	"Julio #0" = 0
+	"Justo #0" = 0
+	"Lucio #0" = 0
+	"Luis #0" = 0
+	"Laulfo #0" = 0
+	"Marcos #0" = 0
+	"Maldonado #0" = 0
+	"Mateo #0" = 0
+	"Maximiano #0" = 0
+	"Molinar #0" = 0
+	"Martiniano #0" = 0
+	"Magdaleno #0" = 0
+	"Maclovio #0" = 0
+	"Montano #0" = 0
+	"Melancio #0" = 0
+	"Miguel #0" = 0
+	"Montalvo #0" = 0
+	"Natividad #0" = 0
+	"Nicolás #0" = 0
+	"Orozco #0" = 0
+	"Orestes #0" = 0
+	"Pablo #0" = 0
+	"Ponce #0" = 0
+	"Palma #0" = 0
+	"Pancho #0" = 0
+	"Pascual #0" = 0
+	"Praumato #0" = 0
+	"Paulato #0" = 0
+	"Pretextat #0" = 0
+	"Paciano #0" = 0
+	"Próspero #0" = 0
+	"Plutarco #0" = 0
+	"Quintero #0" = 0
+	"Quinto #0" = 0
+	"Quevedo #0" = 0
+	"Roque #0" = 0
+	"Raúl #0" = 0
+	"Rosalío #0" = 0
+	"Simental #0" = 0
+	"Saturnino #0" = 0
+	"Severino #0" = 0
+	"Sinticio #0" = 0
+	"Sisberto #0" = 0
+	"Torres #0" = 0
+	"Teodoro #0" = 0
+	"Teodomiro #0" = 0
+	"Toribio #0" = 0
+	"Teoderico #0" = 0
+	"Trinidad #0" = 0
+	"Tovar #0" = 0
+	"Vito #0" = 0
+	"Zambada #0" = 0
+	"Zertuche #0" = 0
+
+
+	"Prudentia #0" = -1
+	"Teodora #0" = -1
+	"Renata #0" = -1
+	"Dominica #0" = -1
+	"Rosalia #0" = -1
+}
+

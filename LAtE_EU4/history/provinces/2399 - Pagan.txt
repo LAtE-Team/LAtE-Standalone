@@ -1,0 +1,39 @@
+#2399 - Pagan
+
+#owner = AVA
+#controller = AVA
+culture = burmese
+religion = buddhism
+capital = "Pagan"
+trade_goods = tropical_wood
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = no
+#add_core= AVA
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+# = {
+	#owner = SST
+	#controller = SST
+	#add_core= SST
+	remove_core = AVA
+#}
+# = { discovered_by = POR }
+# = { #add_core= TAU }
+# = { #controller = TAU }
+# = {	
+	#owner = TAU
+	remove_core = SST
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

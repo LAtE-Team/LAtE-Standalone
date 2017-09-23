@@ -1,0 +1,16 @@
+government = steppe_horde
+primary_culture = novgorodian
+religion = tengri_pagan_reformed
+technology_group = indian
+capital = 314	# Vologda
+
+
+3022.1.1 = {
+	monarch = {
+		name = "Demetrius"
+		dynasty = "Pinesky"
+		dip = 3
+		adm = 2
+		mil = 2
+	}
+}

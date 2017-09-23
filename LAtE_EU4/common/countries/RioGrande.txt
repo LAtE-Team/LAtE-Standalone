@@ -1,0 +1,87 @@
+# Rio Grande
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 154 163 201 }
+
+
+
+
+leader_names = {
+
+	"Ignacio" "Luis" "Paola" "Carbajal" "Pancho" "Octavio" "Antonio" "Alarico" "Amalarico" "Ardón" 
+	"Álvaro" "Alfonso" "Agustín" "Aureliano" "Ahumada" "Arnulfo" "Abel" "Asa" "Benito" "Bernardo" 
+	"Beltrán" "Carlito" "César" "Doroteo" "Dimas" "David" "Elías" "Enrique" "Ernesto" "Felipe" 
+	"Gildardo" "Hipólito" "Heriberto" "Hiram" "Ismael" "Jorge" "Jesús" "José" "Jeroboam" "Manuel" 
+	"Madero" "Melquiades" "Oscar" "Oribe" "Pedro" "Paulo" "Plutarco" "Pasqual" "Rodrigo" "Recardo" 
+	"Rafael" "Roboam" "Sigerico" "Sancho" "Salvador" "Saúl" "Salomón" "Teodorico" "Venustiano" "Villa" 
+	"Zacarías" }
+monarch_names = {
+	"Ignacio #0" = 1
+	"Luis #0" = 1
+	"Paola #0" = -1
+	"Carbajal #1" = 18
+	"Pancho #1" = 18
+	"Octavio #1" = 18
+	"Antonio #0" = 0
+	"Alarico #0" = 0
+	"Amalarico #0" = 0
+	"Ardón #0" = 0
+	"Álvaro #0" = 0
+	"Alfonso #0" = 0
+	"Agustín #0" = 0
+	"Aureliano #0" = 0
+	"Ahumada #0" = 0
+	"Arnulfo #0" = 0
+	"Abel #0" = 0
+	"Asa #0" = 0
+	"Benito #0" = 0
+	"Bernardo #0" = 0
+	"Beltrán #0" = 0
+	"Carlito #0" = 0
+	"César #0" = 0
+	"Doroteo #0" = 0
+	"Dimas #0" = 0
+	"David #0" = 0
+	"Elías #0" = 0
+	"Enrique #0" = 0
+	"Ernesto #0" = 0
+	"Felipe #0" = 0
+	"Gildardo #0" = 0
+	"Hipólito #0" = 0
+	"Heriberto #0" = 0
+	"Hiram #0" = 0
+	"Ismael #0" = 0
+	"Jorge #0" = 0
+	"Jesús #0" = 0
+	"José #0" = 0
+	"Jeroboam #0" = 0
+	"Manuel #0" = 0
+	"Madero #0" = 0
+	"Melquiades #0" = 0
+	"Oscar #0" = 0
+	"Oribe #0" = 0
+	"Pedro #0" = 0
+	"Paulo #0" = 0
+	"Plutarco #0" = 0
+	"Pasqual #0" = 0
+	"Rodrigo #0" = 0
+	"Recardo #0" = 0
+	"Rafael #0" = 0
+	"Roboam #0" = 0
+	"Sigerico #0" = 0
+	"Sancho #0" = 0
+	"Salvador #0" = 0
+	"Saúl #0" = 0
+	"Salomón #0" = 0
+	"Teodorico #0" = 0
+	"Venustiano #0" = 0
+	"Villa #0" = 0
+	"Zacarías #0" = 0
+
+
+	"Imelda #0" = -1
+	"Dulce #0" = -1
+	"Bernadette #0" = -1
+	"Ruth #0" = -1
+}
+

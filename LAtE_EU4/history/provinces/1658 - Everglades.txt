@@ -1,0 +1,18 @@
+
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = CRE
+# = { discovered_by = CAS } # Juan Ponce de Leon
+# = { discovered_by = SPA }
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

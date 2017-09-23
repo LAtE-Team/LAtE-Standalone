@@ -1,0 +1,6 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = gondi
+capital = 550	# Garha

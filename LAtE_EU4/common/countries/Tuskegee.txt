@@ -1,0 +1,144 @@
+# Tuskegee
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 115 55 99 }
+
+
+
+
+leader_names = {
+
+	"Emma" "Huey" "Omar" "Jade" "Amery" "Antoine" "Ali" "Alexander" "Arnaud" "Armstrong" 
+	"Alain" "Avery" "Avon" "Braylon" "Booker" "Coleman" "Chris" "Caleb" "Carver" "Cassius" 
+	"Claudius" "Clarence" "Clay" "Chandler" "Columbus" "Cal" "Cab" "Darnell" "Denzel" "Dave" 
+	"Darius" "Deangelo" "Deandre" "Dennis" "Dubois" "Douglass" "Darryl" "Evan" "Eldridge" "Elgin" 
+	"Elijah" "Freeman" "Frederick" "Grady" "George" "Garvey" "Grant" "Hasker" "Henry" "Hassan" 
+	"Jason" "Jaylon" "Jamal" "Jordan" "Joshua" "Josiah" "Julius" "Jamie" "James" "Joel" 
+	"Jonas" "Kanye" "Kwame" "Kevin" "Kobe" "Lamar" "Lawrence" "Lucius" "Leroy" "Langston" 
+	"Louis" "Luther" "Lincoln" "Levi" "Leslie" "Marquis" "Michael" "Malik" "Maurice" "Marcus" 
+	"Mosiah" "Malcolm" "Morton" "Marlo" "Nathan" "Ossian" "Quantell" "Quint" "Ray" "Rufus" 
+	"Reginald" "Riley" "Robert" "Sam" "Scipio" "Scott" "Sheridan" "Sherman" "Sterling" "Tecumseh" 
+	"Tyrone" "Terrell" "Terrance" "Tom" "Tim" "Terry" "Virgil" "Willie" "Wilson" "Washington" 
+	"Xavier" "Xerxes" "Zeebo" "Zeus" }
+monarch_names = {
+	"Emma #0" = -1
+	"Huey #1" = 18
+	"Omar #0" = 1
+	"Jade #0" = -1
+	"Amery #0" = 0
+	"Antoine #0" = 0
+	"Ali #0" = 0
+	"Alexander #0" = 0
+	"Arnaud #0" = 0
+	"Armstrong #0" = 0
+	"Alain #0" = 0
+	"Avery #0" = 0
+	"Avon #0" = 0
+	"Braylon #0" = 0
+	"Booker #0" = 0
+	"Coleman #0" = 0
+	"Chris #0" = 0
+	"Caleb #0" = 0
+	"Carver #0" = 0
+	"Cassius #0" = 0
+	"Claudius #0" = 0
+	"Clarence #0" = 0
+	"Clay #0" = 0
+	"Chandler #0" = 0
+	"Columbus #0" = 0
+	"Cal #0" = 0
+	"Cab #0" = 0
+	"Darnell #0" = 0
+	"Denzel #0" = 0
+	"Dave #0" = 0
+	"Darius #0" = 0
+	"Deangelo #0" = 0
+	"Deandre #0" = 0
+	"Dennis #0" = 0
+	"Dubois #0" = 0
+	"Douglass #0" = 0
+	"Darryl #0" = 0
+	"Evan #0" = 0
+	"Eldridge #0" = 0
+	"Elgin #0" = 0
+	"Elijah #0" = 0
+	"Freeman #0" = 0
+	"Frederick #0" = 0
+	"Grady #0" = 0
+	"George #0" = 0
+	"Garvey #0" = 0
+	"Grant #0" = 0
+	"Hasker #0" = 0
+	"Henry #0" = 0
+	"Hassan #0" = 0
+	"Jason #0" = 0
+	"Jaylon #0" = 0
+	"Jamal #0" = 0
+	"Jordan #0" = 0
+	"Joshua #0" = 0
+	"Josiah #0" = 0
+	"Julius #0" = 0
+	"Jamie #0" = 0
+	"James #0" = 0
+	"Joel #0" = 0
+	"Jonas #0" = 0
+	"Kanye #0" = 0
+	"Kwame #0" = 0
+	"Kevin #0" = 0
+	"Kobe #0" = 0
+	"Lamar #0" = 0
+	"Lawrence #0" = 0
+	"Lucius #0" = 0
+	"Leroy #0" = 0
+	"Langston #0" = 0
+	"Louis #0" = 0
+	"Luther #0" = 0
+	"Lincoln #0" = 0
+	"Levi #0" = 0
+	"Leslie #0" = 0
+	"Marquis #0" = 0
+	"Michael #0" = 0
+	"Malik #0" = 0
+	"Maurice #0" = 0
+	"Marcus #0" = 0
+	"Mosiah #0" = 0
+	"Malcolm #0" = 0
+	"Morton #0" = 0
+	"Marlo #0" = 0
+	"Nathan #0" = 0
+	"Ossian #0" = 0
+	"Quantell #0" = 0
+	"Quint #0" = 0
+	"Ray #0" = 0
+	"Rufus #0" = 0
+	"Reginald #0" = 0
+	"Riley #0" = 0
+	"Robert #0" = 0
+	"Sam #0" = 0
+	"Scipio #0" = 0
+	"Scott #0" = 0
+	"Sheridan #0" = 0
+	"Sherman #0" = 0
+	"Sterling #0" = 0
+	"Tecumseh #0" = 0
+	"Tyrone #0" = 0
+	"Terrell #0" = 0
+	"Terrance #0" = 0
+	"Tom #0" = 0
+	"Tim #0" = 0
+	"Terry #0" = 0
+	"Virgil #0" = 0
+	"Willie #0" = 0
+	"Wilson #0" = 0
+	"Washington #0" = 0
+	"Xavier #0" = 0
+	"Xerxes #0" = 0
+	"Zeebo #0" = 0
+	"Zeus #0" = 0
+
+
+	"Jean #0" = -1
+	"Loretta #0" = -1
+	"Tituba #0" = -1
+}
+

@@ -1,0 +1,68 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 198 249 255 }
+
+monarch_names = {	
+	"Benoît #0" = 0
+	"Clément #0" = 0
+	"François #0" = 0
+	
+	"Adrienne #0" = -1
+	"Angèle #0" = -1
+	"Anne #0" = -1
+	"Ada #0" = -1
+	"Anastasia #0" = -1
+	"Alexandra #0" = -1
+	"Blandine #0" = -1
+	"Bella #0" = -1
+	"Constantia #0" = -1
+	"Celestina #0" = -1
+	"Dorothea #0" = -1
+	"Dona #0" = -1
+	"Francisca #0" = -1
+	"Florentia #0" = -1
+	"Galla #0" = -1
+	"Helene #0" = -1
+	"Honoria #0" = -1
+	"Hilaria #0" = -1
+	"Josephine #0" = -1
+	"Jeanne #0" = -1
+	"Julie #0" = -1
+	"Justina #0" = -1
+	"Louise #0" = -1
+	"Laurentine #0" = -1
+	"Maria #0" = -1
+	"Madeleine #0" = -1
+	"Marguerite #0" = -1
+	"Pia #0" = -1
+	"Regina #0" = -1
+	"Sofia #0" = -1
+	"Severina #0" = -1
+	"Theodora #0" = -1
+	"Ursule #0" = -1
+}
+
+leader_names = {
+	Aucoin
+	Béliveau Bergeron Bouchard Boulton Bourque Brisebois
+	Chouniard Cloutier
+	Deveraux
+	Gagné Giguère
+	Lacroix Lambert	Lecavalier Lemieux
+	Roy
+	Ysebeart
+}
+
+ship_names = {
+	"le Montréal"
+	"le Québec"
+	"le Trois-Rivières"
+	"l'Acadie"
+	"le Louisbourg"
+	"le Duquesne"
+	"l'Île-Royale" "l'Île Saint-Jean"
+	"la Sainte-Croix"
+	"le Gaspé"
+}

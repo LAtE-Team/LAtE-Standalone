@@ -1,0 +1,50 @@
+
+# Eastern Religions
+harmonized_cetic = {
+	meritocracy = 0.5
+	legitimacy = 0.5
+	devotion = 0.5
+	republican_tradition = 0.25
+	religion = yes
+}
+
+harmonized_gaian = {
+	idea_cost = -0.07 #
+	religion = yes
+}
+
+# Religion Groups
+harmonized_oldworld = {
+	global_institution_spread = 0.16 #
+	religion = yes
+}
+
+harmonized_afro_syncretic = {
+	global_unrest = -0.5 #
+	religion = yes
+}
+
+harmonized_pirate = {
+	trade_efficiency = 0.05 #
+	religion = yes
+}
+
+harmonized_mesoamerican = {
+	trade_efficiency = 0.1 #
+	religion = yes
+}
+
+harmonized_cult_of_saints = {
+	tolerance_own = 1 #
+	religion = yes
+}
+
+harmonized_latter_day_saints = {
+	global_manpower_modifier = 0.1
+	religion = yes
+}
+
+harmonized_american_native = {
+	discipline = 0.05
+	religion = yes
+}

@@ -1,0 +1,22 @@
+#Finland, incl. Åbo.
+
+#owner = SWE
+#controller = SWE
+#add_core= SWE
+#add_core= FIN
+culture = swedish
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = grain
+base_manpower = 2
+capital = "Åbo"
+is_city = no
+fort_15th = yes
+discovered_by = high_american 
+discovered_by = RED
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

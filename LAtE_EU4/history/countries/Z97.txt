@@ -1,0 +1,26 @@
+# Kittatinny
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4622
+3051.7.18 = {
+	monarch = {
+		name = "Griflet"
+		birth_date = 2998.8.20
+		dynasty = " Kittatinny"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = scholar_personality
+}
+3053.1.1 {
+	capital = 4622
+	add_treasury = 54
+	add_prestige = 29
+	elector = no
+}

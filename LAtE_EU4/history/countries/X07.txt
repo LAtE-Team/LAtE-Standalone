@@ -1,0 +1,26 @@
+# North End
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = haida
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 4552
+3040.10.19 = {
+	monarch = {
+		name = "S'gana"
+		birth_date = 3027.6.15
+		dynasty = "Chukeu"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 4552
+	add_treasury = 71
+	add_prestige = 115
+}

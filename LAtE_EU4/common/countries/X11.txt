@@ -1,0 +1,228 @@
+# Horse Heaven
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 138 97 67 }
+
+
+
+
+leader_names = {
+
+	"Glenn" "Roseanne" "Berry" "Vincent" "Esperanza" "Glory" "Jarman" "Katsu" "Miranda" "Dallas" 
+	"Michelle" "Edie" "Maya" "Maria" "Goldblum" "Susan" "Rozz" "Eleanor" "Roe" "Amanda" 
+	"Kirk" "Frank" "Nance" "Carrie" "Hammond" "Aimee" "Elliott" "Brock" "Anna" "Ray" 
+	"Amber" "Breen" "Faust" "Lance" "Jay" "Martina" "Spike" "Chloe" "Erika" "Kaitlin" 
+	"Olivia" "Claire" "Aubrey" "Donald" "Mercedes" "Linux" "Norman" "Eckhart" "Nina" "Sierra" 
+	"Wash" "Gus" "Garner" "Veronica" "Hagen" "Mikki" "Zooey" "Sally" "Jenny" "Melissa" 
+	"Peter" "Ernest" "Wrick" "Angel" "Floscella" "Maxine" "Vanessa" "Natasha" "Schoon" "Brigitte" 
+	"Tonya" "Simon" "Skagits" "Kumail" "Gray" "Sheila" "Skowkale" "Greg" "Ellen" "Katee" 
+	"Mark" "Guujaaw" "Judd" "Pattehus" "Chelamela" "Sulktalthscosum" "Sawehamish" "Josh" "Lou" "Rupp" 
+	"Olga" "Eric" "Semiahmoo" "Dorothy" "Brad" "Catherine" "Melanie" "Monte" "Elvamox" "Corina" 
+	"Andrew" "Marilyn" "Rose" "Karey" "Becca" "Caitlin" "Ashby" "Emily" "Jinx" "Courtney" 
+	"Adam" "Allen" "Art" "Bosko" "Boyle" "Brandon" "Brendan" "Carr" "Clive" "Collin" 
+	"Corbett" "Craig" "Cramer" "Creed" "Curtis" "Damian" "Daniel" "Douglass" "Dunn" "Ebbe" 
+	"Edward" "Egan" "Ehren" "Ellis" "Emerson" "Engelbart" "Farel" "Feldberg" "Francis" "Fred" 
+	"Gabe" "Gaffer" "Galen" "Gordon" "Graham" "Henry" "Hud" "Jack" "Jaime" "Jason" 
+	"Jeff" "Jello" "Jonathan" "Justin" "Kaufman" "Keith" "Kurt" "Kyle" "Lawrence" "Linus" 
+	"Logan" "Lucas" "Malcolm" "Marcus" "Mario" "Marshall" "Matt" "Mel" "Mikey" "Nicholas" 
+	"Obo" "Oort" "Orlando" "Oswalt" "Patton" "Pharoah" "Pietro" "Powell" "Pratchett" "Robb" 
+	"Ryan" "Salim" "Sam" "Sean" "Shepard" "Steffan" "Steve" "Stewart" "Storm" "Terrell" 
+	"Tucker" "Tyler" "Wagner" "Warren" "Wright" }
+monarch_names = {
+	"Glenn #4" = 39
+	"Roseanne #0" = -1
+	"Berry #0" = -1
+	"Vincent #0" = 1
+	"Esperanza #0" = -1
+	"Glory #0" = -1
+	"Jarman #0" = 1
+	"Katsu #0" = -1
+	"Miranda #0" = -1
+	"Dallas #0" = 1
+	"Michelle #0" = -1
+	"Edie #0" = -1
+	"Maya #0" = -1
+	"Maria #0" = -1
+	"Goldblum #0" = 1
+	"Susan #0" = -1
+	"Rozz #1" = 24
+	"Eleanor #0" = -1
+	"Roe #0" = 1
+	"Amanda #0" = -1
+	"Kirk #0" = 1
+	"Frank #0" = 1
+	"Nance #0" = -1
+	"Carrie #1" = -22
+	"Hammond #2" = 36
+	"Aimee #0" = -1
+	"Elliott #1" = 21
+	"Brock #0" = 1
+	"Anna #0" = -1
+	"Ray #2" = 33
+	"Amber #0" = -1
+	"Breen #1" = 27
+	"Faust #0" = 1
+	"Lance #0" = 1
+	"Jay #0" = 1
+	"Martina #0" = -1
+	"Spike #0" = 1
+	"Chloe #0" = -1
+	"Erika #0" = -1
+	"Kaitlin #0" = -1
+	"Olivia #0" = -1
+	"Claire #0" = -1
+	"Aubrey #0" = -1
+	"Donald #0" = 1
+	"Mercedes #0" = -1
+	"Linux #0" = 1
+	"Norman #0" = 1
+	"Eckhart #0" = 1
+	"Nina #0" = -1
+	"Sierra #0" = -1
+	"Wash #0" = 1
+	"Gus #1" = 30
+	"Garner #1" = 21
+	"Veronica #0" = -1
+	"Hagen #1" = 21
+	"Mikki #0" = -1
+	"Zooey #0" = -1
+	"Sally #0" = -1
+	"Jenny #0" = -1
+	"Melissa #0" = -1
+	"Peter #0" = 1
+	"Ernest #0" = 1
+	"Wrick #0" = 1
+	"Angel #0" = -1
+	"Floscella #0" = -1
+	"Maxine #0" = -1
+	"Vanessa #0" = -1
+	"Natasha #0" = -1
+	"Schoon #0" = 1
+	"Brigitte #0" = -1
+	"Tonya #0" = -1
+	"Simon #0" = 1
+	"Skagits #0" = -1
+	"Kumail #0" = 1
+	"Gray #1" = 21
+	"Sheila #0" = -1
+	"Skowkale #0" = -1
+	"Greg #0" = 1
+	"Ellen #0" = -1
+	"Katee #0" = -1
+	"Mark #0" = 1
+	"Guujaaw #0" = 1
+	"Judd #0" = 1
+	"Pattehus #0" = 1
+	"Chelamela #0" = -1
+	"Sulktalthscosum #0" = 1
+	"Sawehamish #0" = -1
+	"Josh #0" = 1
+	"Lou #0" = 1
+	"Rupp #1" = 21
+	"Olga #0" = -1
+	"Eric #0" = 1
+	"Semiahmoo #0" = -1
+	"Dorothy #0" = -1
+	"Brad #0" = 1
+	"Catherine #0" = -1
+	"Melanie #0" = -1
+	"Monte #0" = 1
+	"Elvamox #0" = -1
+	"Corina #0" = -1
+	"Andrew #0" = 1
+	"Marilyn #0" = -1
+	"Rose #0" = -1
+	"Karey #0" = -1
+	"Becca #0" = -1
+	"Caitlin #0" = -1
+	"Ashby #0" = 1
+	"Emily #0" = -1
+	"Jinx #0" = -1
+	"Courtney #0" = -1
+	"Adam #0" = 0
+	"Allen #0" = 0
+	"Art #0" = 0
+	"Bosko #0" = 0
+	"Boyle #0" = 0
+	"Brandon #0" = 0
+	"Brendan #0" = 0
+	"Carr #0" = 0
+	"Clive #0" = 0
+	"Collin #0" = 0
+	"Corbett #0" = 0
+	"Craig #0" = 0
+	"Cramer #0" = 0
+	"Creed #0" = 0
+	"Curtis #0" = 0
+	"Damian #0" = 0
+	"Daniel #0" = 0
+	"Douglass #0" = 0
+	"Dunn #0" = 0
+	"Ebbe #0" = 0
+	"Edward #0" = 0
+	"Egan #0" = 0
+	"Ehren #0" = 0
+	"Ellis #0" = 0
+	"Emerson #0" = 0
+	"Engelbart #0" = 0
+	"Farel #0" = 0
+	"Feldberg #0" = 0
+	"Francis #0" = 0
+	"Fred #0" = 0
+	"Gabe #0" = 0
+	"Gaffer #0" = 0
+	"Galen #0" = 0
+	"Gordon #0" = 0
+	"Graham #0" = 0
+	"Henry #0" = 0
+	"Hud #0" = 0
+	"Jack #0" = 0
+	"Jaime #0" = 0
+	"Jason #0" = 0
+	"Jeff #0" = 0
+	"Jello #0" = 0
+	"Jonathan #0" = 0
+	"Justin #0" = 0
+	"Kaufman #0" = 0
+	"Keith #0" = 0
+	"Kurt #0" = 0
+	"Kyle #0" = 0
+	"Lawrence #0" = 0
+	"Linus #0" = 0
+	"Logan #0" = 0
+	"Lucas #0" = 0
+	"Malcolm #0" = 0
+	"Marcus #0" = 0
+	"Mario #0" = 0
+	"Marshall #0" = 0
+	"Matt #0" = 0
+	"Mel #0" = 0
+	"Mikey #0" = 0
+	"Nicholas #0" = 0
+	"Obo #0" = 0
+	"Oort #0" = 0
+	"Orlando #0" = 0
+	"Oswalt #0" = 0
+	"Patton #0" = 0
+	"Pharoah #0" = 0
+	"Pietro #0" = 0
+	"Powell #0" = 0
+	"Pratchett #0" = 0
+	"Robb #0" = 0
+	"Ryan #0" = 0
+	"Salim #0" = 0
+	"Sam #0" = 0
+	"Sean #0" = 0
+	"Shepard #0" = 0
+	"Steffan #0" = 0
+	"Steve #0" = 0
+	"Stewart #0" = 0
+	"Storm #0" = 0
+	"Terrell #0" = 0
+	"Tucker #0" = 0
+	"Tyler #0" = 0
+	"Wagner #0" = 0
+	"Warren #0" = 0
+	"Wright #0" = 0
+}
+

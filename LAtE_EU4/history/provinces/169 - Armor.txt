@@ -1,0 +1,42 @@
+# 169 Armor - Principal cities: Rennes
+
+#owner = BRI
+#controller = BRI
+capital = "Rennes"
+is_city = no
+culture = breton
+religion = cult_of_reason
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+estate = estate_church
+#add_core= BRI
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #add_core= FRA }
+# = { #owner = FRA #controller = FRA } # Union Treaty
+# = { religion = reformed }
+# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+# = { unrest = 3 } # Revolt imminent
+# = { unrest = 0 }
+# = { unrest = 3 } 
+# = { unrest = 0 }
+# = { religion = cult_of_reason } # Dragonnard campaign succesful: region reverts back to cult_of_reasonism
+# = { base_tax = 1ase_production = 1 # The Eden Agreement }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

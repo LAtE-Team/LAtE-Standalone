@@ -1,0 +1,18 @@
+#Buganda
+
+culture = ganda
+religion = mwari
+capital = "Kitala" #Should really change with each monarch
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+discovered_by = central_african

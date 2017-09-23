@@ -1,0 +1,24 @@
+# Fayetteville
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+capital = 4646
+3050.10.11 = {
+	monarch = {
+		name = "Saturn"
+		birth_date = 3048.3.10
+		dynasty = "Faulcon"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 4646
+	add_treasury = 46
+	add_prestige = 15
+	elector = no
+}

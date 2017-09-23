@@ -1,0 +1,26 @@
+# - Sauce
+
+owner = LAP
+controller = LAP
+add_core = LAP
+add_core = CDB
+culture = platinean
+discovered_by = south_american
+religion = candomble
+capital = "Sauce"
+trade_goods = unknown
+is_city = yes
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+
+#note: Cordoba should have a claim here implying a recent conquest from La Plata
+#note2: must have a reference to something as “Sauce” should not be passed up
+
+
+
+

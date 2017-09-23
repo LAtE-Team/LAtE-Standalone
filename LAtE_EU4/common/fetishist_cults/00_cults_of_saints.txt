@@ -1,0 +1,327 @@
+# Sagrado Corazon, default
+marian_guadalupe =
+{
+	tolerance_own = 2
+
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = marian_guadalupe
+			AND = {
+				NOT = { technology_group = ottoman }
+				NOT = { technology_group = chinese }
+			}
+		}
+	}
+	sprite = 21
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+marian_santa_muerte =
+{
+	land_attrition = -0.15
+
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = marian_santa_muerte
+			AND = {
+				NOT = { technology_group = ottoman }
+				NOT = { technology_group = chinese }
+			}
+		}
+	}
+	sprite = 21
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+marian_el_santo =
+{
+	manpower_recovery_speed = 0.15
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = marian_el_santo
+			AND = {
+				NOT = { technology_group = ottoman }
+				NOT = { technology_group = chinese }
+			}
+		}
+	}
+	sprite = 23
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+#Gracia Divina
+
+gracia_inmaculado = {
+	sprite = 22
+	allow  = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = gracia_inmaculado
+			technology_group = ottoman
+		}
+	}
+	improve_relation_modifier = 0.2
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_diplomat
+			factor = 2
+		}
+	}
+}
+
+gracia_libertador = {
+	sprite = 22
+	global_unrest = -2
+	allow  = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = gracia_libertador
+			technology_group = ottoman
+		}
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_diplomat
+			factor = 2
+		}
+	}
+}
+
+gracia_dorado = {
+	sprite = 17
+	allow  = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = gracia_dorado
+			technology_group = ottoman
+		}
+	}
+	global_tax_modifier = 0.05
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_capitalist
+			factor = 2
+		}
+	}
+}
+
+#Philippines
+santo_nino = {
+	diplomatic_reputation = 1
+	
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = santo_nino
+			technology_group = chinese
+		}
+	}
+	sprite = 10
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_diplomat
+			factor = 2
+		}
+	}
+}
+
+jose_rizal = {
+	war_exhaustion = -0.05
+
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = jose_rizal	
+			technology_group = chinese
+		}
+	}
+	sprite = 10
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+maria_kannon = {
+	land_attrition = -0.15
+
+	allow = {
+		religion = cult_of_saints
+		OR = {
+			has_unlocked_cult = maria_kannon
+			technology_group = chinese
+		}
+	}
+	sprite = 10
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+#ROTW Cults
+
+cos_catholic = { # Catholic
+	sprite = 10
+	allow  = {
+		religion = cult_of_saints
+		has_unlocked_cult = cos_catholic
+	}
+	global_own_trade_power = 0.25
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_capitalist
+			factor = 2
+		}
+	}
+}
+
+cos_washington = { # Americanist
+	sprite = 18
+	allow  = {
+		religion = cult_of_saints
+		has_unlocked_cult = cos_washington
+	}
+	global_institution_spread = 0.1
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+haile_selassie = { # Rastafarian
+	sprite = 19
+	allow  = {
+		religion = cult_of_saints
+		has_unlocked_cult = haile_selassie
+	}
+	development_cost = -0.1
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+marian_navigators = { # Santeria
+	sprite = 1
+	allow  = {
+		religion = cult_of_saints
+		has_unlocked_cult = marian_navigators
+	}
+	naval_maintenance_modifier = -0.15
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+los_angeles = { # Cetic
+	sprite = 12
+	allow  = {
+		religion = cult_of_saints
+		has_unlocked_cult = los_angeles
+	}
+	global_trade_goods_size_modifier = 0.1	
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_capitalist
+			factor = 2
+		}
+	}
+}
+
+madonna_of_the_trail = { # Gaian
+	sprite = 8
+	allow = {
+		religion = cult_of_saints
+		has_unlocked_cult = madonna_of_the_trail
+	}
+	colonists = 2
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+archangel_moroni = { # Mormon
+	sprite = 24
+	allow = {
+		religion = cult_of_saints
+		has_unlocked_cult = archangel_moroni
+	}
+	global_missionary_strength = 0.01
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+machine_saints = { # Rust Cult
+	sprite = 20
+	allow = {
+		religion = cult_of_saints
+		has_unlocked_cult = machine_saints
+	}
+	build_cost = -0.10
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_capitalist
+			factor = 2
+		}
+	}
+}

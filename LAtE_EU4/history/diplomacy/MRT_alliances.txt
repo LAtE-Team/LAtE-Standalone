@@ -1,0 +1,6 @@
+vassal = {
+	first = MRT
+	second = Y37
+	start_date = 3053.1.1
+	end_date = 1900.1.1
+}

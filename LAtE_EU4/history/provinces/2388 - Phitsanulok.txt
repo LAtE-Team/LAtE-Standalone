@@ -1,0 +1,30 @@
+#2388 - Phitsanulok
+
+#owner = AYU 
+#controller = AYU
+culture = central_thai
+religion = buddhism
+capital = "Phitsanulok"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = no
+#add_core= AYU
+#add_core= SUK
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+# = { discovered_by = POR }
+
+# = { unrest = 7 } # The Ayutthaya kingdom began to crumble
+# = { unrest = 0 }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

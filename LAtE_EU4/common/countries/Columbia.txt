@@ -1,0 +1,144 @@
+# The Potomac
+graphical_culture = easterngfx
+color = { 174 221 225 }
+
+
+
+
+leader_names = {
+
+	"Franklin" "Arthur" "Albert" "Arnold" "Alphonse" "Alexander" "Anthony" "Benning" "Burleith" "Booker" 
+	"Barnaby" "Burke" "Bergstrom" "Benjamin" "Benedict" "Bernard" "Bannister" "Brutus" "Carver" "Charles" 
+	"Chase" "Clark" "Cloture" "Calvin" "Cornelius" "Douglass" "Dewey" "Dupont" "Eugene" "Elliot" 
+	"Emerson" "Edgar" "Elias" "Filibuster" "Farragut" "Garfield" "Golias" "George" "Grant" "Hawthorne" 
+	"Herbert" "Hamilton" "Harrison" "Hancock" "Henry" "Jefferson" "John" "Jackson" "Jussolis" "Justus" 
+	"Julius" "Julian" "Kent" "Knox" "Lincoln" "Lamond" "Langston" "Lawrence" "Logan" "Lewis" 
+	"Locke" "Luther" "Monroe" "Myer" "Morgan" "Meriweather" "Mason" "Maxwell" "Michael" "Mark" 
+	"Naylor" "Nicholas" "Petworth" "Penn" "Prentice" "Peter" "Paul" "Pershing" "Patton" "Preamble" 
+	"Quincy" "Quorum" "Quentin" "Rexford" "Ronald" "Rutherford" "Robert" "Rutledge" "Shaw" "Shipley" 
+	"Smith" "Seymour" "Stephen" "Samuel" "Sherman" "Sidney" "Silvan" "Truxton" "Totten" "Tenley" 
+	"Thaddeus" "Theodore" "Truman" "Thomas" "Ulysses" "Vernon" "Victor" "Washington" "Wesley" "Woodrow" 
+	"Walter" "William" "Zachary" }
+monarch_names = {
+	"Franklin #0" = 18
+	"Arthur #0" = 0
+	"Albert #0" = 0
+	"Arnold #0" = 0
+	"Alphonse #0" = 0
+	"Alexander #0" = 0
+	"Anthony #0" = 0
+	"Benning #0" = 0
+	"Burleith #0" = 0
+	"Booker #0" = 0
+	"Barnaby #0" = 0
+	"Burke #0" = 0
+	"Bergstrom #0" = 0
+	"Benjamin #0" = 0
+	"Benedict #0" = 0
+	"Bernard #0" = 0
+	"Bannister #0" = 0
+	"Brutus #0" = 0
+	"Carver #0" = 0
+	"Charles #0" = 0
+	"Chase #0" = 0
+	"Clark #0" = 0
+	"Cloture #0" = 0
+	"Calvin #0" = 0
+	"Cornelius #0" = 0
+	"Douglass #0" = 0
+	"Dewey #0" = 0
+	"Dupont #0" = 0
+	"Eugene #0" = 0
+	"Elliot #0" = 0
+	"Emerson #0" = 0
+	"Edgar #0" = 0
+	"Elias #0" = 0
+	"Filibuster #0" = 0
+	"Farragut #0" = 0
+	"Garfield #0" = 0
+	"Golias #0" = 0
+	"George #0" = 0
+	"Grant #0" = 0
+	"Hawthorne #0" = 0
+	"Herbert #0" = 0
+	"Hamilton #0" = 0
+	"Harrison #0" = 0
+	"Hancock #0" = 0
+	"Henry #0" = 0
+	"Jefferson #0" = 0
+	"John #0" = 0
+	"Jackson #0" = 0
+	"Jussolis #0" = 0
+	"Justus #0" = 0
+	"Julius #0" = 0
+	"Julian #0" = 0
+	"Kent #0" = 0
+	"Knox #0" = 0
+	"Lincoln #0" = 0
+	"Lamond #0" = 0
+	"Langston #0" = 0
+	"Lawrence #0" = 0
+	"Logan #0" = 0
+	"Lewis #0" = 0
+	"Locke #0" = 0
+	"Luther #0" = 0
+	"Monroe #0" = 0
+	"Myer #0" = 0
+	"Morgan #0" = 0
+	"Meriweather #0" = 0
+	"Mason #0" = 0
+	"Maxwell #0" = 0
+	"Michael #0" = 0
+	"Mark #0" = 0
+	"Naylor #0" = 0
+	"Nicholas #0" = 0
+	"Petworth #0" = 0
+	"Penn #0" = 0
+	"Prentice #0" = 0
+	"Peter #0" = 0
+	"Paul #0" = 0
+	"Pershing #0" = 0
+	"Patton #0" = 0
+	"Preamble #0" = 0
+	"Quincy #0" = 0
+	"Quorum #0" = 0
+	"Quentin #0" = 0
+	"Rexford #0" = 0
+	"Ronald #0" = 0
+	"Rutherford #0" = 0
+	"Robert #0" = 0
+	"Rutledge #0" = 0
+	"Shaw #0" = 0
+	"Shipley #0" = 0
+	"Smith #0" = 0
+	"Seymour #0" = 0
+	"Stephen #0" = 0
+	"Samuel #0" = 0
+	"Sherman #0" = 0
+	"Sidney #0" = 0
+	"Silvan #0" = 0
+	"Truxton #0" = 0
+	"Totten #0" = 0
+	"Tenley #0" = 0
+	"Thaddeus #0" = 0
+	"Theodore #0" = 0
+	"Truman #0" = 0
+	"Thomas #0" = 0
+	"Ulysses #0" = 0
+	"Vernon #0" = 0
+	"Victor #0" = 0
+	"Washington #0" = 0
+	"Wesley #0" = 0
+	"Woodrow #0" = 0
+	"Walter #0" = 0
+	"William #0" = 0
+	"Zachary #0" = 0
+
+
+	"Nongrata #0" = -1
+	"Columbia #0" = -1
+	"Miranda #0" = -1
+	"Libertas #0" = -1
+	"Stella #0" = -1
+}
+

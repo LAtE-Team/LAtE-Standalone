@@ -1,0 +1,49 @@
+#Kovno
+
+#owner = LIT
+#controller = LIT
+culture = lithuanian
+religion = cult_of_reason
+capital = "Kovno"
+estate = estate_nobles
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#fort_15th = yes
+#add_core= LIT
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { religion = reformed }
+# = {
+	#owner = PLC
+	#controller = PLC
+	#add_core= PLC
+#} # Union of Lublin
+# = { fort_16th = yes } #Birzai
+# = { fort_16th = no fort_17th = yes } #Birzai
+# = { #controller = SWE } # Swedish occupation
+# = { #controller = PLC } # Treaty of Altranstadt
+# = { unrest = 6 } # Kosciuszko uprising
+# = { unrest = 0 }
+# = { #owner = RUS #controller = RUS #add_core= RUS } # Annexed by Russia, third partition
+# = { #controller = FRA } # Occupied by French troops
+# = { #controller = RUS }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

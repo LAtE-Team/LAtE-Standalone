@@ -1,0 +1,178 @@
+# Glacier
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 75 122 147 }
+
+
+
+
+leader_names = {
+
+	"Catharine" "Sara" "Charlotte" "Magdelaine" "Tom" "Yvonne" "Sandra" "Nancy" "Pascal" "Chantell" 
+	"Cuthbert" "Solomon" "Pearl" "Roseanne" "Norma" "Colleen" "John" "Honoré" "Suzanne" "Joanne" 
+	"Charles-Michel" "Gallant" "Thomas" "Ian" "Doyle" "Alec" "Wade" "Antonine" "Julie" "Dydim" 
+	"Therese" "James" "Kalib" "Thelma" "Michel" "Marie-Thérèse" "Joe" "Arron" "Paul" "Jean" 
+	"William" "Louis" "Evelyn" "Laurette" "Tanto" "Hélène" "Marguerite" "Kinnie" "Maria" "Andrea" 
+	"Frechette" "Rose-Marie" "Keith" "Derrick" "Ralph" "Josette" "Andrew" "Gil" "Marilyn" "Tony" 
+	"Denis" "Tête" "Rod" "Laura" "Mary" "Laird" "Ray" "Jules" "Christine" "Christi" 
+	"Harley" "Jani" "Bryan" "Audrey" "Elizabeth" "Isabelle" "Chanta" "Kevin" "Katherena" "Gerald" 
+	"Tamal" "Belva" "Lynne" "Moyle" "Nash" "Lewisand" "Alluviel" "Zenas" "Albert" "Alexander" 
+	"Ambroise-Dydime" "Ambrose" "Andy" "Angus" "Antoine" "Arthur" "Asham" "August" "Augustin" "Axel" 
+	"Baptiste" "Bob" "Brian" "Calvin" "Charles" "Clément" "Cyril" "David" "Don" "Douglas" 
+	"Dwight" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gregory" "Guillaume" "Henri" 
+	"Howard" "Jacco" "Jaco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Jon" "Jonathan" "Laurent-Salomon" 
+	"Lawrence" "Malcolm" "Maxime" "Peter" "Pierre" "Ranald" "Raymond" "Rene" "René" "Rick" 
+	"Robert" "Salomon" "Shan" "Sheldon" "Theoren" "Todd" "Vic" "Wayne" "Xavier" "Yvon" }
+monarch_names = {
+	"Catharine #0" = -1
+	"Sara #0" = -1
+	"Charlotte #0" = -1
+	"Magdelaine #0" = -1
+	"Tom #0" = 1
+	"Yvonne #0" = -1
+	"Sandra #0" = -1
+	"Nancy #0" = -1
+	"Pascal #0" = 1
+	"Chantell #0" = -1
+	"Cuthbert #0" = 1
+	"Solomon #0" = 1
+	"Pearl #0" = -1
+	"Roseanne #0" = -1
+	"Norma #0" = -1
+	"Colleen #0" = -1
+	"John #0" = 1
+	"Honoré #0" = 1
+	"Suzanne #0" = -1
+	"Joanne #0" = -1
+	"Charles-Michel #0" = 1
+	"Gallant #0" = 1
+	"Thomas #1" = 30
+	"Ian #1" = 18
+	"Doyle #1" = 21
+	"Alec #0" = 1
+	"Wade #0" = 1
+	"Antonine #0" = -1
+	"Julie #0" = -1
+	"Dydim #0" = 1
+	"Therese #0" = -1
+	"James #3" = 30
+	"Kalib #0" = 1
+	"Thelma #0" = -1
+	"Michel #1" = 24
+	"Marie-Thérèse #0" = -1
+	"Joe #0" = 1
+	"Arron #0" = 1
+	"Paul #2" = 27
+	"Jean #0" = 1
+	"William #1" = 30
+	"Louis #0" = 1
+	"Evelyn #0" = -1
+	"Laurette #0" = -1
+	"Tanto #0" = -1
+	"Hélène #0" = -1
+	"Marguerite #0" = -1
+	"Kinnie #0" = -1
+	"Maria #0" = -1
+	"Andrea #0" = -1
+	"Frechette #0" = -1
+	"Rose-Marie #0" = -1
+	"Keith #0" = 1
+	"Derrick #0" = 1
+	"Ralph #0" = 1
+	"Josette #0" = -1
+	"Andrew #0" = 1
+	"Gil #0" = 1
+	"Marilyn #0" = -1
+	"Tony #0" = 1
+	"Denis #0" = 1
+	"Tête #0" = 1
+	"Rod #0" = 1
+	"Laura #0" = -1
+	"Mary #0" = -1
+	"Laird #0" = 1
+	"Ray #0" = 1
+	"Jules #0" = 1
+	"Christine #0" = -1
+	"Christi #0" = -1
+	"Harley #1" = 18
+	"Jani #0" = -1
+	"Bryan #0" = 1
+	"Audrey #0" = -1
+	"Elizabeth #0" = -1
+	"Isabelle #0" = -1
+	"Chanta #0" = -1
+	"Kevin #0" = 1
+	"Katherena #0" = -1
+	"Gerald #0" = 1
+	"Tamal #1" = -1
+	"Belva #1" = -1
+	"Lynne #1" = -1
+	"Moyle #1" = 0
+	"Nash #1" = 0
+	"Lewisand #2" = 0
+	"Alluviel #1" = 0
+	"Zenas #1" = 0
+	"Albert #0" = 0
+	"Alexander #0" = 0
+	"Ambroise-Dydime #0" = 0
+	"Ambrose #0" = 0
+	"Andy #0" = 0
+	"Angus #0" = 0
+	"Antoine #0" = 0
+	"Arthur #0" = 0
+	"Asham #0" = 0
+	"August #0" = 0
+	"Augustin #0" = 0
+	"Axel #0" = 0
+	"Baptiste #0" = 0
+	"Bob #0" = 0
+	"Brian #0" = 0
+	"Calvin #0" = 0
+	"Charles #0" = 0
+	"Clément #0" = 0
+	"Cyril #0" = 0
+	"David #0" = 0
+	"Don #0" = 0
+	"Douglas #0" = 0
+	"Dwight #0" = 0
+	"Dylan #0" = 0
+	"Elzéar #0" = 0
+	"Eugène #0" = 0
+	"François #0" = 0
+	"Gabriel #0" = 0
+	"George #0" = 0
+	"Gregory #0" = 0
+	"Guillaume #0" = 0
+	"Henri #0" = 0
+	"Howard #0" = 0
+	"Jacco #0" = 0
+	"Jaco #0" = 0
+	"Jacques #0" = 0
+	"Jaxon #0" = 0
+	"Jean-Baptiste #0" = 0
+	"Jess #0" = 0
+	"Jon #0" = 0
+	"Jonathan #0" = 0
+	"Laurent-Salomon #0" = 0
+	"Lawrence #0" = 0
+	"Malcolm #0" = 0
+	"Maxime #0" = 0
+	"Peter #0" = 0
+	"Pierre #0" = 0
+	"Ranald #0" = 0
+	"Raymond #0" = 0
+	"Rene #0" = 0
+	"René #0" = 0
+	"Rick #0" = 0
+	"Robert #0" = 0
+	"Salomon #0" = 0
+	"Shan #0" = 0
+	"Sheldon #0" = 0
+	"Theoren #0" = 0
+	"Todd #0" = 0
+	"Vic #0" = 0
+	"Wayne #0" = 0
+	"Xavier #0" = 0
+	"Yvon #0" = 0
+}
+

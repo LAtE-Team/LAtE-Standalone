@@ -1,0 +1,116 @@
+# Florida
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 234 169 121 }
+
+
+
+
+leader_names = {
+
+	"Panfile" "Azalea" "Florence" "Marcus" "Jaumet" "Ardo" "Atlas" "Ashton" "Augustine" "Adam" 
+	"Allen" "Antoine" "Autrane" "Alexandre" "Alonso" "Bernard" "Bell" "Carles" "Chester" "Cotton" 
+	"Calhoun" "Colin" "Citrand" "David" "Diego" "Duarte" "Elias" "Eduard" "Francis" "Frederic" 
+	"Ferdinand" "Forrest" "Ferran" "Fulwar" "Galves" "Girard" "Garcia" "Gomer" "Georges" "Gonzalo" 
+	"Gaspar" "Gutierre" "Hernand" "Henry" "Harrison" "Humbert" "Jehan" "Jackson" "Jay" "Javier" 
+	"Joaquim" "Junipero" "Louis" "Lasker" "Leon" "Lucas" "Macond" "Moyne" "Malaric" "Malhad" 
+	"Menard" "Mitchell" "Montfort" "Mathias" "Montserrat" "Melchor" "Neptune" "Narcis" "Oceanus" "Offatt" 
+	"Orelian" "Palustris" "Pelecand" "Pere" "Ponce" "Robard" "Roland" "Ramon" "Roderic" "Soto" 
+	"Sander" "Sam" "Taylor" "Tammand" "Tomas" "Tristan" "Velasce" "Victor" "Xavier" }
+monarch_names = {
+	"Panfile #0" = 1
+	"Azalea #0" = -1
+	"Florence #0" = -1
+	"Marcus #0" = 1
+	"Jaumet #0" = 1
+	"Ardo #0" = 0
+	"Atlas #0" = 0
+	"Ashton #0" = 0
+	"Augustine #0" = 0
+	"Adam #0" = 0
+	"Allen #0" = 0
+	"Antoine #0" = 0
+	"Autrane #0" = 0
+	"Alexandre #0" = 0
+	"Alonso #0" = 0
+	"Bernard #0" = 0
+	"Bell #0" = 0
+	"Carles #0" = 0
+	"Chester #0" = 0
+	"Cotton #0" = 0
+	"Calhoun #0" = 0
+	"Colin #0" = 0
+	"Citrand #0" = 0
+	"David #0" = 0
+	"Diego #0" = 0
+	"Duarte #0" = 0
+	"Elias #0" = 0
+	"Eduard #0" = 0
+	"Francis #0" = 0
+	"Frederic #0" = 0
+	"Ferdinand #0" = 0
+	"Forrest #0" = 0
+	"Ferran #0" = 0
+	"Fulwar #0" = 0
+	"Galves #0" = 0
+	"Girard #0" = 0
+	"Garcia #0" = 0
+	"Gomer #0" = 0
+	"Georges #0" = 0
+	"Gonzalo #0" = 0
+	"Gaspar #0" = 0
+	"Gutierre #0" = 0
+	"Hernand #0" = 0
+	"Henry #0" = 0
+	"Harrison #0" = 0
+	"Humbert #0" = 0
+	"Jehan #0" = 0
+	"Jackson #0" = 0
+	"Jay #0" = 0
+	"Javier #0" = 0
+	"Joaquim #0" = 0
+	"Junipero #0" = 0
+	"Louis #0" = 0
+	"Lasker #0" = 0
+	"Leon #0" = 0
+	"Lucas #0" = 0
+	"Macond #0" = 0
+	"Moyne #0" = 0
+	"Malaric #0" = 0
+	"Malhad #0" = 0
+	"Menard #0" = 0
+	"Mitchell #0" = 0
+	"Montfort #0" = 0
+	"Mathias #0" = 0
+	"Montserrat #0" = 0
+	"Melchor #0" = 0
+	"Neptune #0" = 0
+	"Narcis #0" = 0
+	"Oceanus #0" = 0
+	"Offatt #0" = 0
+	"Orelian #0" = 0
+	"Palustris #0" = 0
+	"Pelecand #0" = 0
+	"Pere #0" = 0
+	"Ponce #0" = 0
+	"Robard #0" = 0
+	"Roland #0" = 0
+	"Ramon #0" = 0
+	"Roderic #0" = 0
+	"Soto #0" = 0
+	"Sander #0" = 0
+	"Sam #0" = 0
+	"Taylor #0" = 0
+	"Tammand #0" = 0
+	"Tomas #0" = 0
+	"Tristan #0" = 0
+	"Velasce #0" = 0
+	"Victor #0" = 0
+	"Xavier #0" = 0
+
+
+	"Cola #0" = -1
+	"Jeanne #0" = -1
+	"Grace #0" = -1
+}
+

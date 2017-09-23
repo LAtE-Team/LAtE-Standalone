@@ -1,0 +1,151 @@
+# Coalland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 99 100 87 }
+
+
+
+
+leader_names = {
+
+	"Jaylyne" "Tammie" "Rocky" "Brittney" "Junior" "Jem" "John" "Abram" "Dorothea" "Samuel" 
+	"Rhett" "Bedivere" "Scipio" "Theophilus" "Fulgent" "Lamartine" "Ambrose" "Quadratus" "Claudius" "Winfield" 
+	"Jackson" "Lucan" "Geraint" "Meleager" "Anthemeol" "Arnold" "Garth" "Abelard" "Adalfrid" "Adalhelm" 
+	"Adalrich" "Aldous" "Adalfuns" "Adalbert" "Arnuld" "Amalrich" "Andreas" "Amos" "Anaklet" "Agatho" 
+	"Bertrand" "Benjamin" "Benedikt" "Bruno" "Bernhard" "Christian" "Clemens" "Calixt" "Cajus" "Coelestin" 
+	"David" "Dietrich" "Elijah" "Eberhard" "Emmanuel" "Ernst" "Eugen" "Frederich" "Fredegar" "Ferdinand" 
+	"Felix" "Franziskus" "Fredegisel" "Georg" "Gerhard" "Gideon" "Gregor" "Gebhard" "Gotfrid" "Heinrich" 
+	"Hesso" "Hermann" "Helmuth" "Hippolyt" "Hildebrand" "Innozenz" "Johannes" "Joseph" "Jakob" "Julius" 
+	"Karl" "Konstantin" "Kasimir" "Lorenz" "Lothar" "Ludwig" "Linus" "Leonardt" "Markus" "Menno" 
+	"Marius" "Maginulf" "Martin" "Nicolaus" "Otto" "Obediah" "Otacher" "Octavius" "Oskar" "Petrus" 
+	"Paulus" "Philip" "Philibert" "Pius" "Paschalis" "Robrecht" "Rollant" "Reuchlin" "Stephan" "Simon" 
+	"Silvester" "Sebastian" "Theodor" "Thomas" "Urban" "Ursus" "Valentin" "Viktor" "Wilhelm" "Wibert" 
+	"Zachariah" "Zephaniah" }
+monarch_names = {
+	"Jaylyne #0" = -1
+	"Tammie #0" = -1
+	"Rocky #1" = 21
+	"Brittney #0" = -1
+	"Junior #0" = 1
+	"Jem #0" = 1
+	"John #0" = 1
+	"Abram #1" = 0
+	"Dorothea #1" = -1
+	"Samuel #1" = 0
+	"Rhett #1" = 0
+	"Bedivere #1" = 0
+	"Scipio #1" = 0
+	"Theophilus #3" = 0
+	"Fulgent #2" = 0
+	"Lamartine #1" = 0
+	"Ambrose #1" = 0
+	"Quadratus #1" = 0
+	"Claudius #2" = 0
+	"Winfield #1" = 0
+	"Jackson #2" = 0
+	"Lucan #1" = 0
+	"Geraint #1" = 0
+	"Meleager #1" = 0
+	"Anthemeol #1" = 0
+	"Arnold #3" = 0
+	"Garth #1" = 0
+	"Abelard #0" = 0
+	"Adalfrid #0" = 0
+	"Adalhelm #0" = 0
+	"Adalrich #0" = 0
+	"Aldous #0" = 0
+	"Adalfuns #0" = 0
+	"Adalbert #0" = 0
+	"Arnuld #0" = 0
+	"Amalrich #0" = 0
+	"Andreas #0" = 0
+	"Amos #0" = 0
+	"Anaklet #0" = 0
+	"Agatho #0" = 0
+	"Bertrand #0" = 0
+	"Benjamin #0" = 0
+	"Benedikt #0" = 0
+	"Bruno #0" = 0
+	"Bernhard #0" = 0
+	"Christian #0" = 0
+	"Clemens #0" = 0
+	"Calixt #0" = 0
+	"Cajus #0" = 0
+	"Coelestin #0" = 0
+	"David #0" = 0
+	"Dietrich #0" = 0
+	"Elijah #0" = 0
+	"Eberhard #0" = 0
+	"Emmanuel #0" = 0
+	"Ernst #0" = 0
+	"Eugen #0" = 0
+	"Frederich #0" = 0
+	"Fredegar #0" = 0
+	"Ferdinand #0" = 0
+	"Felix #0" = 0
+	"Franziskus #0" = 0
+	"Fredegisel #0" = 0
+	"Georg #0" = 0
+	"Gerhard #0" = 0
+	"Gideon #0" = 0
+	"Gregor #0" = 0
+	"Gebhard #0" = 0
+	"Gotfrid #0" = 0
+	"Heinrich #0" = 0
+	"Hesso #0" = 0
+	"Hermann #0" = 0
+	"Helmuth #0" = 0
+	"Hippolyt #0" = 0
+	"Hildebrand #0" = 0
+	"Innozenz #0" = 0
+	"Johannes #0" = 0
+	"Joseph #0" = 0
+	"Jakob #0" = 0
+	"Julius #0" = 0
+	"Karl #0" = 0
+	"Konstantin #0" = 0
+	"Kasimir #0" = 0
+	"Lorenz #0" = 0
+	"Lothar #0" = 0
+	"Ludwig #0" = 0
+	"Linus #0" = 0
+	"Leonardt #0" = 0
+	"Markus #0" = 0
+	"Menno #0" = 0
+	"Marius #0" = 0
+	"Maginulf #0" = 0
+	"Martin #0" = 0
+	"Nicolaus #0" = 0
+	"Otto #0" = 0
+	"Obediah #0" = 0
+	"Otacher #0" = 0
+	"Octavius #0" = 0
+	"Oskar #0" = 0
+	"Petrus #0" = 0
+	"Paulus #0" = 0
+	"Philip #0" = 0
+	"Philibert #0" = 0
+	"Pius #0" = 0
+	"Paschalis #0" = 0
+	"Robrecht #0" = 0
+	"Rollant #0" = 0
+	"Reuchlin #0" = 0
+	"Stephan #0" = 0
+	"Simon #0" = 0
+	"Silvester #0" = 0
+	"Sebastian #0" = 0
+	"Theodor #0" = 0
+	"Thomas #0" = 0
+	"Urban #0" = 0
+	"Ursus #0" = 0
+	"Valentin #0" = 0
+	"Viktor #0" = 0
+	"Wilhelm #0" = 0
+	"Wibert #0" = 0
+	"Zachariah #0" = 0
+	"Zephaniah #0" = 0
+
+
+	"Swanhilde #0" = -1
+}
+

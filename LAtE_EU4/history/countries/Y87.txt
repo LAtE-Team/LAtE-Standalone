@@ -1,0 +1,39 @@
+# Pembina
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = dakota
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2016
+3038.8.15 = {
+	monarch = {
+		name = "Odakotah"
+		birth_date = 3017.12.11
+		dynasty = "Mnisala"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3044.2.5 = {
+	heir = {
+		name = "Chayton"
+		monarch_name = "Chayton II"
+		dynasty = "Mnisala"
+		birth_date = 3044.2.5
+		death_date = 3124.2.5
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = calm_personality
+}
+3053.1.1 {
+	capital = 2016
+	add_treasury = -10
+	add_prestige = 97
+}

@@ -1,0 +1,25 @@
+#2444 - Bashgird
+
+owner = PRM
+controller = PRM
+add_core = PRM
+culture = russian
+religion = rust_cultist
+trade_goods = iron
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+discovered_by = indian
+
+
+capital = "Bashgird"
+
+discovered_by = high_american 
+discovered_by = RED
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

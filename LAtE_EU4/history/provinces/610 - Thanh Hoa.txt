@@ -1,0 +1,25 @@
+#610 - Thanh Hoa
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = mahayana
+capital = "Thanh Hoa"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+fort_15th = yes #Than Hoa Citadel
+is_city = yes
+add_core= DAI
+
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

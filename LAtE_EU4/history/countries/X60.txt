@@ -1,0 +1,26 @@
+# Falcón
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 2808
+3024.10.5 = {
+	monarch = {
+		name = "Willian"
+		birth_date = 2987.1.5
+		dynasty = "Belmonte"
+		adm = 3
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 2808
+	add_treasury = 10
+	add_prestige = 250
+}

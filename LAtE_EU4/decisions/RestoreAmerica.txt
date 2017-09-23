@@ -1,0 +1,121 @@
+country_decisions = {
+
+	restore_america = {
+		major = yes
+		potential = {
+			owns = 953
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = HLR }
+			NOT = { tag = USA }
+			NOT = { exists = USA }
+			OR = {
+				religion_group = christian
+				religion_group = oldworld
+				religion_group = pagan
+			}
+		}
+		allow = {
+			northeast_america_region = {
+				type = all
+				owned_by = ROOT
+			}
+			southeast_america_region = {
+				type = all
+				owned_by = ROOT
+			}
+			great_lakes_region = {
+				type = all
+				owned_by = ROOT
+			}
+			west_florida_area = {
+				type = all
+				owned_by = ROOT
+			}
+			alabama_area = {
+				type = all
+				owned_by = ROOT
+			}
+			kentucky_area = {
+				type = all
+				owned_by = ROOT
+			}
+			appalachia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			south_appalachia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mississippi_area = {
+				type = all
+				owned_by = ROOT
+			}
+			choctaw_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mississippi_plain_area = {
+				type = all
+				owned_by = ROOT
+			}
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+		}
+		effect = {
+			change_tag = USA
+			#Could make primary culture American
+			#custom_tooltip = roman_culture_provinces_tooltip
+			#hidden_effect = {
+			#	every_owned_province = {
+			#		limit = {
+			#			has_owner_culture = yes
+			#		}
+			#		change_culture = roman
+			#	}
+			#}
+			#change_primary_culture = roman
+			custom_tooltip = restore_america_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			add_prestige = 50
+			set_capital = 953 # Washington
+			add_core = 953 # Washington
+			#if = {
+			#	limit = {
+			#		is_part_of_hre = yes
+			#		is_elector = no
+			#	}
+			#	every_owned_province = {
+			#		limit = {
+			#			is_part_of_hre = yes
+			#		}
+			#		set_in_empire = no
+			#	}
+			#}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

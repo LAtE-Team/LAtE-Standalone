@@ -1,0 +1,37 @@
+# Salem
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = ozark
+religion = catholic
+clear_scripted_personalities = yes
+capital = 899
+3034.1.24 = {
+	monarch = {
+		name = "Gene"
+		birth_date = 2995.12.9
+		dynasty = "McDaniels"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = drunkard_personality
+	heir = {
+		name = "Elishah"
+		monarch_name = "Elishah II"
+		dynasty = "McDaniels"
+		birth_date = 3013.8.18
+		death_date = 3093.8.18
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	add_heir_personality = sinner_personality
+}
+3053.1.1 {
+	capital = 899
+	add_treasury = 23
+	add_prestige = 138
+}

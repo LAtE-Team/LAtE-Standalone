@@ -1,0 +1,18 @@
+#1175 - Lesser Namaqualand
+
+owner = KIM
+controller = KIM
+add_core = KIM
+culture = afrikaner
+religion = mwari
+capital = "Lesser Namaqualand"
+trade_goods = wine
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 7
+is_city = yes
+discovered_by = central_african

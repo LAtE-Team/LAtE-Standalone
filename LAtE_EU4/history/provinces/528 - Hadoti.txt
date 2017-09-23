@@ -1,0 +1,25 @@
+#528 - Hadoti
+
+owner = MLW
+controller = MLW
+culture = rajput
+religion = hinduism
+capital = "Kota"
+trade_goods = cotton
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core= MLW
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,25 @@
+#2056 - Rewa Kantha
+
+owner = GUJ
+controller = GUJ
+culture = gujarati
+religion = hinduism
+capital = "Godhra"
+trade_goods = wool
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= GUJ
+fort_15th = yes #Champaner Fort
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

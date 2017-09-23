@@ -1,0 +1,6 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = singaporean
+religion = brethren
+technology_group = chinese
+capital = 2686	# Singapore

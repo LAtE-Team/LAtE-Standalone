@@ -1,0 +1,23 @@
+#366 - The Canarias
+
+owner = CVD
+controller = CVD
+add_core = CVD
+is_city = yes
+culture = portugese
+religion = brethren
+capital = "The Canarias"
+trade_goods = sugar
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian

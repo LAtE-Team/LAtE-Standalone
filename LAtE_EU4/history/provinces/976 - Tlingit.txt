@@ -1,0 +1,24 @@
+#976 - Tlingit
+
+owner = NRA
+controller = NRA
+add_core = NRA
+culture = novorusskiy
+religion = atomicist
+capital = "Tlingit"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 10
+native_ferocity = 2 
+native_hostileness = 3 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = NRU
+discovered_by = NRA

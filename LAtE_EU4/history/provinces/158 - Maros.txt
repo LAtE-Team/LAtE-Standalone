@@ -1,0 +1,81 @@
+#158 - Maros
+
+# = HUN
+# = HUN 
+culture = transylvanian #Szeklers
+religion = catholic
+capital = "Targu Mures"
+estate = estate_nobles #Szekelyföld
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+# = HUN
+# = TRA
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+
+
+
+# = { revolt = { type = nationalist_rebels size = 1 } # = REB } # Szekely rebellion
+# = { revolt = {} # = HUN }
+# = { revolt = { type = anti_tax_rebels size = 0 } # = REB } # Peasant rebellion against Hungary's magnates
+# = { revolt = {} # = HUN }
+# = { 
+	# = TRA 
+	# = TRA
+#} #Hungary fractured after Battle of Mohacs
+# = { # = TUR }
+# = {
+	# = HAB
+	# = HAB
+	# = HAB
+#} # Ferdinand gains Transylvania from Treaty of Weissenburg
+# = { # = TRA # = TRA } # Isabella Jagiello is restored as queen of Transylvania
+# = { revolt = { type = nationalist_rebels size = 1 } # = REB } # Szekely rebellion
+# = { # = HAB } # End of Ottoman-Habsburg War
+# = { revolt = {} # = TRA }
+# = { religion = reformed } # Synod of Debrecen
+# = {
+	# = WAL
+	# = WAL
+	# = WAL
+#} # Battle of Selimbar, Michael the brave gained control
+# = {
+	# = TRA
+	# = TRA
+	# = WAL
+#} # Michael is assasinated
+# = { # = HAB # = HAB }
+# = { revolt = { type = nationalist_rebels size = 1 } # = REB }
+# = { revolt = {} # = TRA # = TRA } # Stephen becomes prince of Transylvania
+# = {
+	# = HAB
+#} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+# = {
+	# = HAB
+	# = HAB
+	# = TUR
+#} # Treaty of Karlowitz
+# = { revolt = { type = nationalist_rebels size = 1 } # = REB } # Kuruc rebellion, led by Francisc Rakoczy
+# = { revolt = {} # = HAB } # The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+# = { revolt = { type = heretic_rebels size = 1 } # = REB } # Visarion Sarai stir up an orthodox rebellion against the Uniate church
+# = { revolt = {} # = HAB }
+# = { revolt = { type = anti_tax_rebels size = 2 } # = REB } # Peasant rebellion against the nobles
+# = { revolt = {} # = HAB } # The leaders are arrested and executed
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

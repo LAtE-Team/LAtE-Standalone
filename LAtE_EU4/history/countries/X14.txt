@@ -1,0 +1,25 @@
+# Sweetwater
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = salish
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 2003
+3044.5.7 = {
+	monarch = {
+		name = "Chelamela"
+		birth_date = 3029.10.7
+		dynasty = "Tlakaumoot"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 2003
+	add_treasury = 15
+	add_prestige = 45
+}

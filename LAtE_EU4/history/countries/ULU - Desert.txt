@@ -1,0 +1,18 @@
+government = tribal_kingdom
+government_rank = 2
+technology_group = chinese
+religion = animism # Dreaming
+primary_culture = strayan
+capital = 4634	# King Country
+
+3050.1.1 = {
+	monarch = {
+		name = "Priscilla I"
+		dynasty = "Belrose"
+		female = yes
+		birth_date = 3030.9.8
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,25 @@
+#2038 - Midnapore
+
+owner = ORI
+controller = ORI
+culture = bengali
+religion = hinduism
+capital = "Midnapore"
+trade_goods = spices #Opium
+hre = no
+base_tax = 5 
+base_production = 6
+base_manpower = 3
+is_city = yes
+add_core= ORI
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

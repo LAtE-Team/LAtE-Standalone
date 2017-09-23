@@ -1,0 +1,58 @@
+#142 - Corfu
+
+#owner = CEP
+#controller = CEP
+culture = greek
+religion = hellenic_pagan
+capital = "Corfu"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+fort_15th = yes
+#add_core= CEP
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #add_core= VEN}
+# = { #owner = VEN #controller = VEN }
+# = { unrest = 7 } # Exploatation by the nobles, several minor revolts
+# = { unrest = 0 }
+# = { #add_core= GRE }
+# = {
+	#owner = FRA
+	#controller = FRA
+	#add_core= FRA
+	remove_core = VEN
+#} # The Treaty of Campo Formio, Corfu is ceded to France
+# = {
+	#owner = CEP
+	#controller = CEP
+	remove_core = FRA
+#} # The Septinsular Republic
+
+# = {	#owner = FRA
+	#controller = FRA
+	#add_core= FRA
+#} # Back under French control after the Treaty of Tilsit
+# = {
+	#owner = GBR
+	#controller = GBR
+	#add_core= GBR
+	remove_core = FRA
+#} # The Second Treaty of Paris
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,64 @@
+#213 - Barcelona
+
+#owner = ARA	#Alfons V of Aragon
+#controller = ARA
+#add_core= ARA
+#add_core= CAT
+culture = catalan
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Barcelona" 
+is_city = no
+estate = estate_burghers
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB } # Jaime d'Urgell Uprising
+# = { revolt = {} #controller = ARA }
+# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
+# = { revolt = {} #controller = CAS } # The Generalitat capitulates to King Joan, the civil war ends. Succession war
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB } # Uprising
+# = { revolt = {} #controller = PRO } # Succession war against Provence
+# = { #controller = ARA }
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # "Corpus of blood". The Viceroy is killed and the Catalan sublevation begins, fastly spreading to other cities. 
+# = {
+	revolt = {}
+	#owner = FRA
+	#controller = FRA
+	#add_core= FRA
+#} # Louis XIII of France, Count of Barcelona.
+# = { #owner = SPA #controller = SPA remove_core = FRA } # Barcelona surrenders
+# = { unrest = 5 } # Peasant revolt of the "barretines"
+# = { unrest = 0 } # End of the revolt
+# = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # Peasant revolt against new taxes to fund the war against France
+# = { revolt = {} #controller = SPA } # The peasants retreat from Barcelona
+# = { #controller = FRA	} # Barcelona falls to the French
+# = { #controller = SPA } # Peace of Ryswick
+# = { #controller = HAB } # Catalonia recognises Archduke Carlos as their sovereign, joining the Anglo-Austrian cause in the War of Spanish Succession. The loyalist troops in Barcelona are defeated.
+# = { revolt = { type = nationalist_rebels size = 2 leader = "Rafel Casanova" } #controller = REB } # Catalan authorities don't recognise the Peace of Utrecht, and face war alone against the Franco-Spanish army.
+# = { remove_core = ARA }
+# = { revolt = {} #controller = SPA } # Barcelona surrenders
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

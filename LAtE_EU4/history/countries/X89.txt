@@ -1,0 +1,25 @@
+# Istmo
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = zapotek
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 4751
+3053.1.1 {
+	monarch = {
+		name = "Aldo"
+		birth_date = 3024.12.20
+		dynasty = "de El Espinal"
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 4751
+	add_treasury = 10
+	add_prestige = 0
+}

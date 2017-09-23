@@ -1,0 +1,26 @@
+# Amarillo
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = shoshone
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 885
+3028.6.4 = {
+	monarch = {
+		name = "Albert"
+		birth_date = 3007.3.26
+		dynasty = "Bourque"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 885
+	add_treasury = 20
+	add_prestige = 208
+}

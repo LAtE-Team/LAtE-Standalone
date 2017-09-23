@@ -1,0 +1,43 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 240 220 20 }
+
+monarch_names = {	
+	"Paramount #0" = 10
+	"Calynx #0" = 0
+	"Phantis #0" = 0
+	"Scaphio #0" = 0
+	
+	"Kalyba #0" = -1
+	"Melene #0" = -1
+	"Nekaya #0" = -1
+	"Phylla #0" = -1
+	"Salata #0" = -1
+	"Zara #0" = -1
+}
+
+leader_names = {
+	Barre Blushington
+	Corcoran
+	Dramaleigh
+	Fitzbattleaxe
+	Goldbury
+}
+
+ship_names = {
+	"Thespis"
+	"Trial by Jury"
+	"The Sorceror"
+	"Pinafore"
+	"Penzance"
+	"Patience"
+	"Iolanthe"
+	"Princess Ida"
+	"The Mikado"
+	"Ruddigore"
+	"Yeomen of the Guard"
+	"Gondolier"
+	"Grand Duke"
+}

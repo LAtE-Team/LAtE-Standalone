@@ -1,0 +1,27 @@
+# Ocmulgee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4667
+3017.7.7 = {
+	monarch = {
+		name = "Tertius"
+		birth_date = 3002.7.7
+		dynasty = "Macon"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+}
+3053.1.1 {
+	capital = 4667
+	add_treasury = 77
+	add_prestige = 186
+	elector = no
+}

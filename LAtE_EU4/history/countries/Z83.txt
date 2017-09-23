@@ -1,0 +1,27 @@
+# Conecuh
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2532
+3029.3.12 = {
+	monarch = {
+		name = "Pompey"
+		birth_date = 3014.11.24
+		dynasty = "Leftwich"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = martial_educator_personality
+}
+3053.1.1 {
+	capital = 2532
+	add_treasury = 43
+	add_prestige = 141
+	elector = no
+}

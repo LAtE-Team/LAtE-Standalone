@@ -1,0 +1,22 @@
+#1031 - Kamikawa
+
+culture = ainu
+religion = shinto
+capital = "Kamikawa"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = ANU
+controller = ANU
+add_core= ANU
+is_city = yes
+
+
+
+discovered_by = chinese
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

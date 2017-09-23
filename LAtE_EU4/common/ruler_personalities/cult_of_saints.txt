@@ -1,0 +1,24 @@
+marian_personality = {
+	allow = {
+	}
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+	
+	nation_designer_cost = 0
+}
+gracia_personality = {
+	allow = {
+	}
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+	
+	nation_designer_cost = 0
+}

@@ -1,0 +1,24 @@
+# - Tiahuanoco
+
+owner = CRA
+controller = CRA
+add_core= CRA
+culture = aimara
+religion = inti
+capital = "Tiahuanoco"
+is_city = yes
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

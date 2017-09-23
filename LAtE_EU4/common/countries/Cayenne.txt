@@ -1,0 +1,124 @@
+# Cayenne
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 53 78 69 }
+
+
+
+
+leader_names = {
+
+	"Lyrical" "Marc-Antoine" "Virginie" "Gabriel" "Wendy" "Albert" "Alexandre" "Amine" "Antoine" "Aubin" 
+	"Bardney" "Bastos" "Bernard" "Bob" "Cece" "Cédric" "Claude" "Cocoto" "Cyrille" "Dominique" 
+	"Donovan" "Édouard" "Élie" "Emric" "Enzo" "Eric" "Félix" "Florent" "Florian" "François" 
+	"Gary" "Gaston" "Georges" "Ghislain" "Gilles" "Grémillon" "Hadama" "Halan" "Henri" "Hubert" 
+	"Ismael" "Jaïr" "Jean" "Jean-Claude" "Jean-Philippe" "Joffrey" "José" "Jules" "Justin" "Kevin" 
+	"Kévin" "Kisinio" "Laurent" "Lecscinel" "Léon" "Léopold" "Lesly" "Livio" "Loïc" "Ludovic" 
+	"Ludrck" "Marc" "Marvin" "Mathieu" "Mickaël" "Miguel" "Mike" "Neki" "Nel" "Nithilan" 
+	"Patrice" "Raoul" "Raymond" "René" "Rhudy" "Robin" "Rodolphe" "Romain" "Roy" "Sangokou" 
+	"Shannon" "Silver" "Sloan" "Stanley" "Steeve" "Stéfan" "Stephan" "Stéphane" "Sylvio" "Thomas" 
+	"Tom" "Tyers" "Vegeta" "Vivien" "Warren" "Yann" }
+monarch_names = {
+	"Lyrical #1" = 21
+	"Marc-Antoine #0" = 1
+	"Virginie #0" = -1
+	"Gabriel #0" = 1
+	"Wendy #0" = -1
+	"Albert #0" = 0
+	"Alexandre #0" = 0
+	"Amine #0" = 0
+	"Antoine #0" = 0
+	"Aubin #0" = 0
+	"Bardney #0" = 0
+	"Bastos #0" = 0
+	"Bernard #0" = 0
+	"Bob #0" = 0
+	"Cece #0" = 0
+	"Cédric #0" = 0
+	"Claude #0" = 0
+	"Cocoto #0" = 0
+	"Cyrille #0" = 0
+	"Dominique #0" = 0
+	"Donovan #0" = 0
+	"Édouard #0" = 0
+	"Élie #0" = 0
+	"Emric #0" = 0
+	"Enzo #0" = 0
+	"Eric #0" = 0
+	"Félix #0" = 0
+	"Florent #0" = 0
+	"Florian #0" = 0
+	"François #0" = 0
+	"Gary #0" = 0
+	"Gaston #0" = 0
+	"Georges #0" = 0
+	"Ghislain #0" = 0
+	"Gilles #0" = 0
+	"Grémillon #0" = 0
+	"Hadama #0" = 0
+	"Halan #0" = 0
+	"Henri #0" = 0
+	"Hubert #0" = 0
+	"Ismael #0" = 0
+	"Jaïr #0" = 0
+	"Jean #0" = 0
+	"Jean-Claude #0" = 0
+	"Jean-Philippe #0" = 0
+	"Joffrey #0" = 0
+	"José #0" = 0
+	"Jules #0" = 0
+	"Justin #0" = 0
+	"Kevin #0" = 0
+	"Kévin #0" = 0
+	"Kisinio #0" = 0
+	"Laurent #0" = 0
+	"Lecscinel #0" = 0
+	"Léon #0" = 0
+	"Léopold #0" = 0
+	"Lesly #0" = 0
+	"Livio #0" = 0
+	"Loïc #0" = 0
+	"Ludovic #0" = 0
+	"Ludrck #0" = 0
+	"Marc #0" = 0
+	"Marvin #0" = 0
+	"Mathieu #0" = 0
+	"Mickaël #0" = 0
+	"Miguel #0" = 0
+	"Mike #0" = 0
+	"Neki #0" = 0
+	"Nel #0" = 0
+	"Nithilan #0" = 0
+	"Patrice #0" = 0
+	"Raoul #0" = 0
+	"Raymond #0" = 0
+	"René #0" = 0
+	"Rhudy #0" = 0
+	"Robin #0" = 0
+	"Rodolphe #0" = 0
+	"Romain #0" = 0
+	"Roy #0" = 0
+	"Sangokou #0" = 0
+	"Shannon #0" = 0
+	"Silver #0" = 0
+	"Sloan #0" = 0
+	"Stanley #0" = 0
+	"Steeve #0" = 0
+	"Stéfan #0" = 0
+	"Stephan #0" = 0
+	"Stéphane #0" = 0
+	"Sylvio #0" = 0
+	"Thomas #0" = 0
+	"Tom #0" = 0
+	"Tyers #0" = 0
+	"Vegeta #0" = 0
+	"Vivien #0" = 0
+	"Warren #0" = 0
+	"Yann #0" = 0
+
+
+	"Charline #0" = -1
+	"Patricia #0" = -1
+	"Françoise #0" = -1
+}
+

@@ -1,0 +1,23 @@
+#353 - Tataouine
+
+owner = MSE
+controller = MSE
+add_core = MSE
+is_city = yes
+culture = tunisian
+religion = brethren
+capital = "Tataouine"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

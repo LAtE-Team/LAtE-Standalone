@@ -1,0 +1,15 @@
+
+discovered_by = indian
+discovered_by = indian
+discovered_by = east_african
+
+
+
+# = { discovered_by = MNG }
+# = { discovered_by = POR }
+# = { discovered_by = FRA } # Parmentier Brothers
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

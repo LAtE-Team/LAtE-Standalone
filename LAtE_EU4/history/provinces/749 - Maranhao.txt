@@ -1,0 +1,14 @@
+#749 - Maranhao
+
+culture = brazilian
+discovered_by = south_american
+religion = candomble
+capital = "São Luis"
+trade_goods = tropical_wood
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,243 @@
+# Andina
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 184 52 36 }
+
+
+
+
+leader_names = {
+
+	"Laura" "Natalia Pulgarin" "Clitómaco" "Sebastián" "María del Carmen" "Paola Andrea" "Tititorres" "Mike" "Luz Marina" "Helicóptero" 
+	"Johana" "Mario" "Mariana" "Daniela" "Aderbal" "Juan Pablo" "Carmen" "Lena" "Jhon Ortega" "Claudia" 
+	"Edwin" "Arturo" "María José" "Brayan" "Juan Diego" "Jorge Luís" "Fernando" "Goku" "Luka" "Sara Ortiz" 
+	"Sami" "Daviana" "Luís Carlos" "Alonso" "Camila Peñuela" "Yeni" "Carmen Alicia" "Luís Fernando" "Valentina" "Sara Belissa" 
+	"Rene" "Lizeth Camila" "David Restrepo" "Juan David" "Johan" "Yessica" "Angélica María" "Guillermo" "Bomílcar" "Yenni" 
+	"Yury" "Augusto Luís" "María Eugenia" "Diana Carolina" "Alka" "Liliana" "Dulcina" "Melchor" "Paula Milena" "Ana" 
+	"Luz Astrid" "Gueta" "Juan Carlos" "Ipuana" "Lina" "David Marcelo" "Andrés Felipe" "Carlos Alberto" "Carlos Andrés" "Carlos Arturo" 
+	"Carlos José" "Carlos Mario" "Diego Fernando" "Fabio Augusto" "Giovanni Ceron" "Guillermo Andres" "Jhoan Botero" "Jhoan Sebastian" "Jhon Jairo" "Joakin Eduardo" 
+	"John Jairo" "Jorge Eliécer" "José Antonio" "José Guzman" "José Luís" "Juan Camilo" "Juan Esteban" "Juan José" "Juan Manuel" "Juan Sebastian" 
+	"Julian Andres" "Julio Cesar" "Luís Alberto" "Luís Eduardo" "Luís Felipe" "Mateo Chaguala" "Miguel Angel" "Neider Eduardo" "Pablo Sanchez" "Pedro Claver" 
+	"Rico Leon" "Rubén Dario" "Sebastian Herrera" "Sebastian Quintero" "Walter Andres" "Alberto" "Alejandro" "Alex" "Alexander" "Amílcar" 
+	"Andrés" "Andrew" "Aníbal" "Antonio" "Asdrúbal" "Augusto" "Baltazar" "Barule" "Boodes" "Bostar" 
+	"Bryan" "Cachimbal" "Camilo" "Carlos" "Cartalón" "Cesar" "Chorizo" "Christ" "Cristian" "Daniel" 
+	"Danna" "Daudy" "David" "Diego" "Diógenes" "Eddy" "Eduard" "Emanuel" "Enrique" "Epícides" 
+	"Esteban" "Fabio" "Felipe" "Francisco" "Gaspar" "Gianfranco" "Giovanni" "Giscón" "Gustavo" "Hannón" 
+	"Hector" "Henry" "Hernan" "Himilcón" "Hipócrates" "Jack" "Jaime" "Jairo" "Jesús" "Jhewer" 
+	"Jhoan" "Jhon" "Jimmy" "Joakin" "John" "Jorge" "José" "Juan" "Juandi" "Julian" 
+	"Julio" "Jusayú" "Kristhian" "Kumar" "Lucas" "Luís" "Magón" "Manuel" "Mark" "Mateo" 
+	"Matthew" "Miguel" "Ministro" "Moises" "Neider" "Nelson" "Nicolás" "Nilson" "Oscar" "Pablo" 
+	"Paul" "Pedro" "Rafael" "Ramon" "Ricardo" "Richard" "Rico" "Rodrigo" "Rubén" "Samuél" 
+	"Santiago" "Saub" "Sergio" "Stiven" "Tavo" "Usnavy" "Walter" "Wisnaldo" "Yicelub" }
+monarch_names = {
+	"Laura #0" = -1
+	"Natalia Pulgarin #0" = -1
+	"Clitómaco #4" = 33
+	"Sebastián #0" = 1
+	"María del Carmen #0" = -1
+	"Paola Andrea #0" = -1
+	"Tititorres #0" = -1
+	"Mike #0" = 1
+	"Luz Marina #0" = -1
+	"Helicóptero #0" = 1
+	"Johana #0" = -1
+	"Mario #0" = 1
+	"Mariana #0" = -1
+	"Daniela #0" = -1
+	"Aderbal #0" = 1
+	"Juan Pablo #0" = 1
+	"Carmen #0" = -1
+	"Lena #0" = -1
+	"Jhon Ortega #0" = 1
+	"Claudia #0" = -1
+	"Edwin #0" = 1
+	"Arturo #0" = 1
+	"María José #0" = -1
+	"Brayan #0" = 1
+	"Juan Diego #0" = 1
+	"Jorge Luís #0" = 1
+	"Fernando #0" = 1
+	"Goku #0" = 1
+	"Luka #0" = -1
+	"Sara Ortiz #0" = -1
+	"Sami #0" = -1
+	"Daviana #0" = -1
+	"Luís Carlos #0" = 1
+	"Alonso #0" = 1
+	"Camila Peñuela #0" = -1
+	"Yeni #0" = -1
+	"Carmen Alicia #0" = -1
+	"Luís Fernando #0" = 1
+	"Valentina #0" = -1
+	"Sara Belissa #0" = -1
+	"Rene #1" = 30
+	"Lizeth Camila #0" = -1
+	"David Restrepo #0" = 1
+	"Juan David #0" = 1
+	"Johan #0" = 1
+	"Yessica #0" = -1
+	"Angélica María #0" = -1
+	"Guillermo #0" = 1
+	"Bomílcar #0" = 1
+	"Yenni #0" = -1
+	"Yury #0" = -1
+	"Augusto Luís #1" = 24
+	"María Eugenia #0" = -1
+	"Diana Carolina #0" = -1
+	"Alka #0" = -1
+	"Liliana #0" = -1
+	"Dulcina #0" = -1
+	"Melchor #0" = 1
+	"Paula Milena #0" = -1
+	"Ana #0" = -1
+	"Luz Astrid #0" = -1
+	"Gueta #0" = -1
+	"Juan Carlos #0" = 1
+	"Ipuana #0" = -1
+	"Lina #0" = -1
+	"David Marcelo #0" = 1
+	"Andrés Felipe #0" = 0
+	"Carlos Alberto #0" = 0
+	"Carlos Andrés #0" = 0
+	"Carlos Arturo #0" = 0
+	"Carlos José #0" = 0
+	"Carlos Mario #0" = 0
+	"Diego Fernando #0" = 0
+	"Fabio Augusto #0" = 0
+	"Giovanni Ceron #0" = 0
+	"Guillermo Andres #0" = 0
+	"Jhoan Botero #0" = 0
+	"Jhoan Sebastian #0" = 0
+	"Jhon Jairo #0" = 0
+	"Joakin Eduardo #0" = 0
+	"John Jairo #0" = 0
+	"Jorge Eliécer #0" = 0
+	"José Antonio #0" = 0
+	"José Guzman #0" = 0
+	"José Luís #0" = 0
+	"Juan Camilo #0" = 0
+	"Juan Esteban #0" = 0
+	"Juan José #0" = 0
+	"Juan Manuel #0" = 0
+	"Juan Sebastian #0" = 0
+	"Julian Andres #0" = 0
+	"Julio Cesar #0" = 0
+	"Luís Alberto #0" = 0
+	"Luís Eduardo #0" = 0
+	"Luís Felipe #0" = 0
+	"Mateo Chaguala #0" = 0
+	"Miguel Angel #0" = 0
+	"Neider Eduardo #0" = 0
+	"Pablo Sanchez #0" = 0
+	"Pedro Claver #0" = 0
+	"Rico Leon #0" = 0
+	"Rubén Dario #0" = 0
+	"Sebastian Herrera #0" = 0
+	"Sebastian Quintero #0" = 0
+	"Walter Andres #0" = 0
+	"Alberto #0" = 0
+	"Alejandro #0" = 0
+	"Alex #0" = 0
+	"Alexander #0" = 0
+	"Amílcar #0" = 0
+	"Andrés #0" = 0
+	"Andrew #0" = 0
+	"Aníbal #0" = 0
+	"Antonio #0" = 0
+	"Asdrúbal #0" = 0
+	"Augusto #0" = 0
+	"Baltazar #0" = 0
+	"Barule #0" = 0
+	"Boodes #0" = 0
+	"Bostar #0" = 0
+	"Bryan #0" = 0
+	"Cachimbal #0" = 0
+	"Camilo #0" = 0
+	"Carlos #0" = 0
+	"Cartalón #0" = 0
+	"Cesar #0" = 0
+	"Chorizo #0" = 0
+	"Christ #0" = 0
+	"Cristian #0" = 0
+	"Daniel #0" = 0
+	"Danna #0" = 0
+	"Daudy #0" = 0
+	"David #0" = 0
+	"Diego #0" = 0
+	"Diógenes #0" = 0
+	"Eddy #0" = 0
+	"Eduard #0" = 0
+	"Emanuel #0" = 0
+	"Enrique #0" = 0
+	"Epícides #0" = 0
+	"Esteban #0" = 0
+	"Fabio #0" = 0
+	"Felipe #0" = 0
+	"Francisco #0" = 0
+	"Gaspar #0" = 0
+	"Gianfranco #0" = 0
+	"Giovanni #0" = 0
+	"Giscón #0" = 0
+	"Gustavo #0" = 0
+	"Hannón #0" = 0
+	"Hector #0" = 0
+	"Henry #0" = 0
+	"Hernan #0" = 0
+	"Himilcón #0" = 0
+	"Hipócrates #0" = 0
+	"Jack #0" = 0
+	"Jaime #0" = 0
+	"Jairo #0" = 0
+	"Jesús #0" = 0
+	"Jhewer #0" = 0
+	"Jhoan #0" = 0
+	"Jhon #0" = 0
+	"Jimmy #0" = 0
+	"Joakin #0" = 0
+	"John #0" = 0
+	"Jorge #0" = 0
+	"José #0" = 0
+	"Juan #0" = 0
+	"Juandi #0" = 0
+	"Julian #0" = 0
+	"Julio #0" = 0
+	"Jusayú #0" = 0
+	"Kristhian #0" = 0
+	"Kumar #0" = 0
+	"Lucas #0" = 0
+	"Luís #0" = 0
+	"Magón #0" = 0
+	"Manuel #0" = 0
+	"Mark #0" = 0
+	"Mateo #0" = 0
+	"Matthew #0" = 0
+	"Miguel #0" = 0
+	"Ministro #0" = 0
+	"Moises #0" = 0
+	"Neider #0" = 0
+	"Nelson #0" = 0
+	"Nicolás #0" = 0
+	"Nilson #0" = 0
+	"Oscar #0" = 0
+	"Pablo #0" = 0
+	"Paul #0" = 0
+	"Pedro #0" = 0
+	"Rafael #0" = 0
+	"Ramon #0" = 0
+	"Ricardo #0" = 0
+	"Richard #0" = 0
+	"Rico #0" = 0
+	"Rodrigo #0" = 0
+	"Rubén #0" = 0
+	"Samuél #0" = 0
+	"Santiago #0" = 0
+	"Saub #0" = 0
+	"Sergio #0" = 0
+	"Stiven #0" = 0
+	"Tavo #0" = 0
+	"Usnavy #0" = 0
+	"Walter #0" = 0
+	"Wisnaldo #0" = 0
+	"Yicelub #0" = 0
+}
+

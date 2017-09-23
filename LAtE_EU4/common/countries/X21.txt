@@ -1,0 +1,136 @@
+# Olympus
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 108 157 50 }
+
+
+
+
+leader_names = {
+
+	"Moore" "Ben" "Gary" "Goldin" "Marjorie" "Lisa" "Sgaana" "Ross" "Andrew" "Bertram" 
+	"Kagan" "Jaahguhl" "Guulaas" "Ghaltsaakw" "Skaay" "Trevor" "ERROR" "Hiljuuwaas" "Wiiaa" "Tanu" 
+	"Shan" "Rene" "Ambroise-Dydime" "Jean-Baptiste" "Yvon" "James" "Xavier" "Kimberly" "Atewaas" "Cha'atl" 
+	"Chee Xial Taaiixou" "Chiin" "Cuneah" "Dayaang" "Gaahlaa" "Gaahlaay" "Ganiihlaas" "Gidansda" "Gidkun" "Ginaawaan" 
+	"Giteewans" "Gitkinjuuwaas" "Gogiid" "Guujaaw" "Guusk'an" "Gwaay Guu Ganhlin" "Gya'awhlans" "Gyaahlans" "Haina" "Hidansuu" 
+	"Hiellan" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hlgitun" "Hluunaagad" "Hluuwee" "Howkan" "Ihldiinii" "K'ap" 
+	"Kaat" "Kayung" "Kilsdlaa Xidguns" "Kithlaigaa" "Kiusta" "Klinkwan" "Koya" "Kun" "Kung" "Masset" 
+	"Nang Jingwas" "Nang Kilsdlaas" "S'gana" "Sdiithldaa" "Sgaal" "Sgaann Hiwhwaans" "Siigee" "Skaaxwad" "Skedans" "Skidegate" 
+	"Skil Hiilans" "Skil Tiis" "Skilhlang" "Skilkaadgan" "Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "T'lajung Nung Kingaas" 
+	"Taan" "Tahaygen" "Thasi" "Tl'aagaang Quna" "Tsaa Hamjuuwee" "Tsaak" "Tsahtsaa" "Tsinni" "Wigaanad" "Xa" 
+	"Xunts" "Xuut" "Yahguaas" "Yahl" "Yahl Gwaawaas" "Yahl Hinku" "Yahl Kangwaas" "Yahl Naaw" "Yahl Sgoansins" }
+monarch_names = {
+	"Moore #1" = 24
+	"Ben #0" = 1
+	"Gary #0" = 1
+	"Goldin #1" = 21
+	"Marjorie #0" = -1
+	"Lisa #0" = -1
+	"Sgaana #1" = -19
+	"Ross #0" = 1
+	"Andrew #0" = 1
+	"Bertram #0" = 1
+	"Kagan #1" = 0
+	"Jaahguhl #1" = 0
+	"Guulaas #1" = 0
+	"Ghaltsaakw #1" = 0
+	"Skaay #2" = 0
+	"Trevor #2" = 0
+	"ERROR #3" = 0
+	"Hiljuuwaas #1" = 0
+	"Wiiaa #1" = 0
+	"Tanu #1" = 0
+	"Shan #1" = 0
+	"Rene #1" = 0
+	"Ambroise-Dydime #1" = 0
+	"Jean-Baptiste #1" = 0
+	"Yvon #1" = 0
+	"James #1" = 0
+	"Xavier #2" = 0
+	"Kimberly #1" = -1
+	"Atewaas #0" = 0
+	"Cha'atl #0" = 0
+	"Chee Xial Taaiixou #0" = 0
+	"Chiin #0" = 0
+	"Cuneah #0" = 0
+	"Dayaang #0" = 0
+	"Gaahlaa #0" = 0
+	"Gaahlaay #0" = 0
+	"Ganiihlaas #0" = 0
+	"Gidansda #0" = 0
+	"Gidkun #0" = 0
+	"Ginaawaan #0" = 0
+	"Giteewans #0" = 0
+	"Gitkinjuuwaas #0" = 0
+	"Gogiid #0" = 0
+	"Guujaaw #0" = 0
+	"Guusk'an #0" = 0
+	"Gwaay Guu Ganhlin #0" = 0
+	"Gya'awhlans #0" = 0
+	"Gyaahlans #0" = 0
+	"Haina #0" = 0
+	"Hidansuu #0" = 0
+	"Hiellan #0" = 0
+	"Hiidangsaa #0" = 0
+	"Hiidangsdaa #0" = 0
+	"Hiitl'daa #0" = 0
+	"Hlgitun #0" = 0
+	"Hluunaagad #0" = 0
+	"Hluuwee #0" = 0
+	"Howkan #0" = 0
+	"Ihldiinii #0" = 0
+	"K'ap #0" = 0
+	"Kaat #0" = 0
+	"Kayung #0" = 0
+	"Kilsdlaa Xidguns #0" = 0
+	"Kithlaigaa #0" = 0
+	"Kiusta #0" = 0
+	"Klinkwan #0" = 0
+	"Koya #0" = 0
+	"Kun #0" = 0
+	"Kung #0" = 0
+	"Masset #0" = 0
+	"Nang Jingwas #0" = 0
+	"Nang Kilsdlaas #0" = 0
+	"S'gana #0" = 0
+	"Sdiithldaa #0" = 0
+	"Sgaal #0" = 0
+	"Sgaann Hiwhwaans #0" = 0
+	"Siigee #0" = 0
+	"Skaaxwad #0" = 0
+	"Skedans #0" = 0
+	"Skidegate #0" = 0
+	"Skil Hiilans #0" = 0
+	"Skil Tiis #0" = 0
+	"Skilhlang #0" = 0
+	"Skilkaadgan #0" = 0
+	"Skilkingaans #0" = 0
+	"Skilkwiitlaas #0" = 0
+	"Skuujgee Gong #0" = 0
+	"Stuut Jubgaab #0" = 0
+	"Sukkwan #0" = 0
+	"T'lajung Nung Kingaas #0" = 0
+	"Taan #0" = 0
+	"Tahaygen #0" = 0
+	"Thasi #0" = 0
+	"Tl'aagaang Quna #0" = 0
+	"Tsaa Hamjuuwee #0" = 0
+	"Tsaak #0" = 0
+	"Tsahtsaa #0" = 0
+	"Tsinni #0" = 0
+	"Wigaanad #0" = 0
+	"Xa #0" = 0
+	"Xunts #0" = 0
+	"Xuut #0" = 0
+	"Yahguaas #0" = 0
+	"Yahl #0" = 0
+	"Yahl Gwaawaas #0" = 0
+	"Yahl Hinku #0" = 0
+	"Yahl Kangwaas #0" = 0
+	"Yahl Naaw #0" = 0
+	"Yahl Sgoansins #0" = 0
+
+
+	"Sidney #0" = -1
+}
+

@@ -1,0 +1,36 @@
+# Antioquia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = rochela
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 827
+3046.5.11 = {
+	monarch = {
+		name = "Evaristo"
+		birth_date = 3017.1.14
+		dynasty = "Cedeno"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = inspiring_leader_personality
+	heir = {
+		name = "Martinez"
+		monarch_name = "Martinez"
+		dynasty = "Cedeno"
+		birth_date = 3015.6.28
+		death_date = 3095.6.28
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	add_heir_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 827
+	add_treasury = -41
+	add_prestige = 139
+}

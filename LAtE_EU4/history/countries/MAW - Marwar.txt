@@ -1,0 +1,5 @@
+government = despotic_monarchy
+primary_culture = rajput
+religion = jain
+technology_group = indian
+capital = 514	# Jodphur

@@ -1,0 +1,26 @@
+# Saluda
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2541
+3046.9.1 = {
+	monarch = {
+		name = "Frederick"
+		birth_date = 3009.1.6
+		dynasty = "Trumpauer"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 2541
+	add_treasury = 10
+	add_prestige = 79
+	elector = no
+}

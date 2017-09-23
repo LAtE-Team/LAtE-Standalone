@@ -1,0 +1,163 @@
+# Ozarks
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 162 181 147 }
+
+
+
+
+leader_names = {
+
+	"Earl" "Adonias" "Alf" "Art" "Ashford" "Abibo" "Allen" "Arach" "Aram" "Azor" 
+	"Amon" "Asaph" "Baptist" "Boston" "Burris" "Benet" "Backus" "Barret" "Byron" "Clark" 
+	"Chester" "Cotter" "Conway" "Chanute" "Coop" "Calhoun" "Caiaphas" "Cran" "Cyrus" "Darter" 
+	"Dwayne" "Dedan" "Emery" "Elvin" "Elwood" "Elishah" "Elam" "Eber" "Griffin" "Guire" 
+	"Glenn" "Gene" "Gamaliel" "Gomer" "Gyges" "Gether" "Garrah" "Harris" "Hunt" "Hillel" 
+	"Heron" "Hyrcan" "Herod" "Hul" "Hadoram" "Hodiah" "Ilroy" "Jesse" "Jordan" "Jedediah" 
+	"Jethro" "Joezer" "Jochanan" "Japtheth" "Javan" "Jerah" "Jobab" "Joel" "Jotham" "Jairus" 
+	"Kelley" "Lamar" "Leggett" "Levi" "Lud" "Milburn" "Mul" "Melchi" "Natan" "Nahum" 
+	"Orel" "Origer" "Obal" "Ophir" "Obed" "Porter" "Powell" "Pyatt" "Pollion" "Perachiah" 
+	"Peleg" "Quantrill" "Russell" "Riley" "Rubin" "Rainie" "Rufe" "Rhoder" "Redbone" "Reed" 
+	"Ross" "Riphath" "Siloam" "Slim" "Shetach" "Sanders" "Sturkie" "Seth" "Sheleph" "Sirach" 
+	"Turner" "Ty" "Truman" "Taber" "Tarf" "Tucker" "Tiras" "Tubal" "Urias" "Uzziel" 
+	"Walden" "Wilson" "Withrow" "Witt" "Wharton" "Yell" "Zechariah" "Zemah" "Zerub" "Zarephath" }
+monarch_names = {
+	"Earl #0" = 18
+	"Adonias #0" = 0
+	"Alf #0" = 0
+	"Art #0" = 0
+	"Ashford #0" = 0
+	"Abibo #0" = 0
+	"Allen #0" = 0
+	"Arach #0" = 0
+	"Aram #0" = 0
+	"Azor #0" = 0
+	"Amon #0" = 0
+	"Asaph #0" = 0
+	"Baptist #0" = 0
+	"Boston #0" = 0
+	"Burris #0" = 0
+	"Benet #0" = 0
+	"Backus #0" = 0
+	"Barret #0" = 0
+	"Byron #0" = 0
+	"Clark #0" = 0
+	"Chester #0" = 10
+	"Cotter #0" = 0
+	"Conway #0" = 0
+	"Chanute #0" = 0
+	"Coop #0" = 0
+	"Calhoun #0" = 0
+	"Caiaphas #0" = 0
+	"Cran #0" = 0
+	"Cyrus #0" = 0
+	"Darter #0" = 0
+	"Dwayne #0" = 0
+	"Dedan #0" = 0
+	"Emery #0" = 0
+	"Elvin #0" = 0
+	"Elwood #0" = 0
+	"Elishah #0" = 0
+	"Elam #0" = 0
+	"Eber #0" = 0
+	"Griffin #0" = 10
+	"Guire #0" = 0
+	"Glenn #0" = 0
+	"Gene #0" = 0
+	"Gamaliel #0" = 0
+	"Gomer #0" = 0
+	"Gyges #0" = 0
+	"Gether #0" = 0
+	"Garrah #0" = 0
+	"Harris #0" = 0
+	"Hunt #0" = 0
+	"Hillel #0" = 0
+	"Heron #0" = 0
+	"Hyrcan #0" = 0
+	"Herod #0" = 0
+	"Hul #0" = 0
+	"Hadoram #0" = 0
+	"Hodiah #0" = 0
+	"Ilroy #0" = 0
+	"Jesse #0" = 0
+	"Jordan #0" = 0
+	"Jedediah #0" = 0
+	"Jethro #0" = 0
+	"Joezer #0" = 0
+	"Jochanan #0" = 0
+	"Japtheth #0" = 0
+	"Javan #0" = 0
+	"Jerah #0" = 0
+	"Jobab #0" = 0
+	"Joel #0" = 0
+	"Jotham #0" = 0
+	"Jairus #0" = 0
+	"Kelley #0" = 0
+	"Lamar #0" = 0
+	"Leggett #0" = 0
+	"Levi #0" = 0
+	"Lud #0" = 0
+	"Milburn #0" = 0
+	"Mul #0" = 0
+	"Melchi #0" = 0
+	"Natan #0" = 0
+	"Nahum #0" = 0
+	"Orel #0" = 0
+	"Origer #0" = 0
+	"Obal #0" = 0
+	"Ophir #0" = 0
+	"Obed #0" = 10
+	"Porter #0" = 0
+	"Powell #0" = 0
+	"Pyatt #0" = 0
+	"Pollion #0" = 0
+	"Perachiah #0" = 0
+	"Peleg #0" = 0
+	"Quantrill #0" = 0
+	"Russell #0" = 0
+	"Riley #0" = 0
+	"Rubin #0" = 0
+	"Rainie #0" = 0
+	"Rufe #0" = 0
+	"Rhoder #0" = 0
+	"Redbone #0" = 0
+	"Reed #0" = 0
+	"Ross #0" = 0
+	"Riphath #0" = 0
+	"Siloam #0" = 0
+	"Slim #0" = 0
+	"Shetach #0" = 0
+	"Sanders #0" = 0
+	"Sturkie #0" = 0
+	"Seth #0" = 0
+	"Sheleph #0" = 0
+	"Sirach #0" = 0
+	"Turner #0" = 0
+	"Ty #0" = 0
+	"Truman #0" = 0
+	"Taber #0" = 0
+	"Tarf #0" = 0
+	"Tucker #0" = 0
+	"Tiras #0" = 0
+	"Tubal #0" = 0
+	"Urias #0" = 10
+	"Uzziel #0" = 0
+	"Walden #0" = 0
+	"Wilson #0" = 0
+	"Withrow #0" = 0
+	"Witt #0" = 0
+	"Wharton #0" = 0
+	"Yell #0" = 0
+	"Zechariah #0" = 0
+	"Zemah #0" = 0
+	"Zerub #0" = 0
+	"Zarephath #0" = 0
+
+
+	"Nancy #0" = -1
+	"Rhoda #0" = -1
+	"Jochebed #0" = -1
+	"Clemintine #0" = -1
+	"Karla #0" = -1
+}
+

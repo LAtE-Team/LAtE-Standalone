@@ -1,0 +1,22 @@
+#1825 - Aki
+
+owner = KOB
+controller = KOB
+culture = japanese
+religion = shinto
+capital = "Hiroshima"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_manpower = 3
+base_production = 4
+is_city = yes
+add_core= KOB
+
+
+
+discovered_by = chinese
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,104 @@
+# Soo
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 187 196 130 }
+
+
+
+
+leader_names = {
+
+	"Garrison" "Loke" "Stenvar" "Odd" "Karolina" "Hanna" "Bjartur" "Casper" "Bodil" "Ivarr" 
+	"Torleif" "Arto" "Arnbjorg" "Thomm" "Lumen" "Ladislaus" "Marshall" "Durant" "Stahlrich" "Nathan" 
+	"Stahlgar" "Armstrong" "Hudson" "Axel" "Ander" "Nelkir" "Snorre" "Pierre" "Michel" "Ludvig" 
+	"Rudolf" "Arne" "Albert" "Aapo" "Aimo" "Alvar" "Anton" "Aulis" "Christer" "Erno" 
+	"Eino" "Edvard" "Edvin" "Emil" "Eero" "Elias" "Fredrik" "Filip" "Frans" "Harve" 
+	"Henrik" "Heikki" "Harri" "Heino" "Ivar" "Jimmer" "Johan" "Joakim" "Juho" "Jorma" 
+	"Kris" "Kalan" "Kupar" "Kivi" "Karl" "Kauko" "Lunta" "Leo" "Otto" "Osmo" 
+	"Ole" "Pasi" "Reuben" "Remnar" "Ransom" "Samuel" "Seppo" "Tommo" "Tohmas" "Torvald" 
+	"Toivo" "Wolf" }
+monarch_names = {
+	"Garrison #0" = 1
+	"Loke #0" = 1
+	"Stenvar #1" = 18
+	"Odd #0" = 1
+	"Karolina #0" = -1
+	"Hanna #0" = -1
+	"Bjartur #0" = -1
+	"Casper #0" = 1
+	"Bodil #0" = -1
+	"Ivarr #0" = 1
+	"Torleif #0" = 1
+	"Arto #1" = 0
+	"Arnbjorg #1" = -1
+	"Thomm #1" = 0
+	"Lumen #1" = 0
+	"Ladislaus #1" = 0
+	"Marshall #1" = 0
+	"Durant #2" = 0
+	"Stahlrich #2" = 0
+	"Nathan #1" = 0
+	"Stahlgar #1" = 0
+	"Armstrong #1" = 0
+	"Hudson #1" = 0
+	"Axel #1" = 0
+	"Ander #1" = 0
+	"Nelkir #1" = 0
+	"Snorre #1" = 0
+	"Pierre #2" = 0
+	"Michel #1" = 0
+	"Ludvig #3" = 0
+	"Rudolf #1" = 0
+	"Arne #0" = 0
+	"Albert #0" = 0
+	"Aapo #0" = 0
+	"Aimo #0" = 0
+	"Alvar #0" = 0
+	"Anton #0" = 0
+	"Aulis #0" = 0
+	"Christer #0" = 0
+	"Erno #0" = 0
+	"Eino #0" = 0
+	"Edvard #0" = 0
+	"Edvin #0" = 0
+	"Emil #0" = 0
+	"Eero #0" = 0
+	"Elias #0" = 0
+	"Fredrik #0" = 0
+	"Filip #0" = 0
+	"Frans #0" = 0
+	"Harve #0" = 0
+	"Henrik #0" = 0
+	"Heikki #0" = 0
+	"Harri #0" = 0
+	"Heino #0" = 0
+	"Ivar #0" = 0
+	"Jimmer #0" = 0
+	"Johan #0" = 0
+	"Joakim #0" = 0
+	"Juho #0" = 0
+	"Jorma #0" = 0
+	"Kris #0" = 0
+	"Kalan #0" = 0
+	"Kupar #0" = 0
+	"Kivi #0" = 0
+	"Karl #0" = 0
+	"Kauko #0" = 0
+	"Lunta #0" = 0
+	"Leo #0" = 0
+	"Otto #0" = 0
+	"Osmo #0" = 0
+	"Ole #0" = 0
+	"Pasi #0" = 0
+	"Reuben #0" = 0
+	"Remnar #0" = 0
+	"Ransom #0" = 0
+	"Samuel #0" = 0
+	"Seppo #0" = 0
+	"Tommo #0" = 0
+	"Tohmas #0" = 0
+	"Torvald #0" = 0
+	"Toivo #0" = 0
+	"Wolf #0" = 0
+}
+

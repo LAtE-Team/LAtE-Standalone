@@ -1,0 +1,7 @@
+government = siberian_native_council #Till we make a european equivalent
+government_rank = 1
+primary_culture = hessian
+add_accepted_culture = bavarian
+religion = cult_of_reason
+technology_group = high_american
+capital = 1761	# Pfalz

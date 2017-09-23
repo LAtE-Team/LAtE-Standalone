@@ -1,0 +1,14 @@
+north_pacific = {
+	cascadian = {
+		primary = CSC
+		dynasty_names = { "Gable" "Gearhart" "Thielsen" "Honeyman" "Reno" }
+	}
+	portlander = {
+		primary = OGN
+		dynasty_names = { "Kaskey" "Lovejoy" "Hollins" "Sabonis" "Aldridge" "Kersey" "Midthun" "Nesmith" "Harman" "Rawlins" "Preston" "Jerome" }
+	}
+	canuck = {
+		primary = CSC
+		dynasty_names = { "Strathcona" }
+	}
+}

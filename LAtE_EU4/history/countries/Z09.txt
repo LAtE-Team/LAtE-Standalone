@@ -1,0 +1,26 @@
+# Coalland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = deitsch
+religion = anabaptist
+clear_scripted_personalities = yes
+capital = 4621
+3053.1.1 {
+	monarch = {
+		name = "Rocky"
+		birth_date = 3020.4.25
+		dynasty = "Reamstown"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 4621
+	add_treasury = 20
+	add_prestige = 33
+	elector = no
+}

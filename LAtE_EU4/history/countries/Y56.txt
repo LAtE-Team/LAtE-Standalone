@@ -1,0 +1,26 @@
+# Chisholm
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = shoshone
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2672
+3045.2.3 = {
+	monarch = {
+		name = "Coby"
+		birth_date = 3031.10.3
+		dynasty = "Danvorn"
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 2672
+	add_treasury = 19
+	add_prestige = 65
+}

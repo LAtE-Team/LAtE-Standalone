@@ -1,0 +1,264 @@
+# Costa Rica
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 35 206 186 }
+
+
+
+
+leader_names = {
+
+	"Fernando" "Yazmin" "Justine" "Ubarragá" "Jazmín" "Reina" "Estefan" "Alegría" "Hugo" "Carmen" 
+	"Estevan" "Nando" "Levi" "Campos" "Roberta" "William" "Chloé" "Jane" "Hilario" "Mao" 
+	"Ingrid" "Carmita" "Leonardo" "Cacique" "Mercedes" "Cristina" "Yvelisse" "Emmanuel" "Dominga" "Jaime" 
+	"Josimar" "Gabriel" "Oscar" "Stephanie" "Andrea" "Javier" "Pedrarias" "Nizias" "Dinorah" "Laura" 
+	"Nidio" "Mariam" "Yamilex" "Alicia" "Adolfo" "Yomara" "Juan" "Daphne" "Andrés" "Oziel" 
+	"Adelgonda" "Paz" "Alajandro" "Carlos" "Nadia" "Jordan" "Sebastian" "Pablo" "Jhon" "Beatriz" 
+	"Olga" "Ivelisse" "Stephany" "Esteban" "Yanina" "Angela" "Picado" "Alba" "Lidia" "Panama" 
+	"Chrisanne" "Harmodio" "Kenya" "Mauricio" "Bayano" "Kathy" "Aitana" "Jasleen" "Mateo" "Marlon" 
+	"Roxana" "Paulette" "Manuela" "Nazareth" "Gaspar" "Anthony" "Kayla" "Claudia" "Jocelyn" "Ezeuiel" 
+	"Eva" "Anyi" "Salazar" "Xaviera" "Marilyn" "Roberto" "Merce" "Libia" "Evita" "Patricia" 
+	"Pilar" "Lorna" "Maribelle" "Adolfina" "Adrián" "Miguel" "Raul" "Marlen" "Clau" "Mireya" 
+	"Isabel" "Joiner" "Maritza" "Ascencion" "Urracá" "Sevastián" "Dorlan" "Castro" "Yendry" "Elizabeth" 
+	"Rodolfo" "Eliseo" "Karen" "Veronica" "Isabell" "Jorge" "Isidro" "Paul" "Karla" "Adolfa" 
+	"Guillermo" "Erika" "Estefani" "Olevia" "Savannah" "Cruze" "Adelmo" "Alberto" "Alejandro" "Alfonso" 
+	"Alfredo" "Allan" "Alonso" "Alvarez" "Alvaro" "Andre" "Ángel" "Angelo" "Aquileo" "Arnulfo" 
+	"Arsenio" "Belisario" "Benicio" "Braulio" "Brian" "Chafil" "Charlie" "Chavela" "Clodomiro" "Concepción" 
+	"Cruz" "Danilo" "Darryn" "David" "Diego" "Domingo" "Édgar" "Edwardo" "Edwin" "Enrique" 
+	"Ernesto" "Eusebio" "Felipe" "Felipo" "Felix" "Floyd" "Fortunato" "Francisco" "Gerardo" "Grego" 
+	"Greivin" "Hector" "Ignacio" "Jacián" "Jeremías" "Joaquin" "Joaquín" "Jonathan" "José" "Julian" 
+	"Julio" "Kevyn" "Keylor" "Luis" "Machiel" "Maniá" "Manuel" "Marcelo" "Marco" "Martín" 
+	"Nicolao" "Nicolas" "Nilhs" "Orlando" "Óscar" "Pedro" "Rafael" "Ramiro" "Ramón" "Rebessi" 
+	"Ricardo" "Rolando" "Romeo" "Rommel" "Rouro" "Rubén" "Rudy" "Sergio" "Teodorico" "Tigrí" 
+	"Tomás" "Valeriano" "Victor" "Víctor" "Victoriano" "Westenbe" "Xavier" "Yonder" }
+monarch_names = {
+	"Fernando #2" = 27
+	"Yazmin #0" = -1
+	"Justine #0" = -1
+	"Ubarragá #3" = 33
+	"Jazmín #0" = -1
+	"Reina #0" = -1
+	"Estefan #0" = 1
+	"Alegría #0" = -1
+	"Hugo #0" = 1
+	"Carmen #0" = -1
+	"Estevan #0" = 1
+	"Nando #0" = 1
+	"Levi #0" = 1
+	"Campos #0" = 1
+	"Roberta #0" = -1
+	"William #0" = 1
+	"Chloé #0" = -1
+	"Jane #0" = -1
+	"Hilario #0" = 1
+	"Mao #0" = 1
+	"Ingrid #0" = -1
+	"Carmita #0" = -1
+	"Leonardo #1" = 33
+	"Cacique #0" = 1
+	"Mercedes #0" = -1
+	"Cristina #0" = -1
+	"Yvelisse #0" = -1
+	"Emmanuel #0" = 1
+	"Dominga #0" = -1
+	"Jaime #1" = 21
+	"Josimar #0" = 1
+	"Gabriel #0" = 1
+	"Oscar #0" = 1
+	"Stephanie #0" = -1
+	"Andrea #0" = -1
+	"Javier #2" = 24
+	"Pedrarias #0" = 1
+	"Nizias #0" = 1
+	"Dinorah #0" = -1
+	"Laura #0" = -1
+	"Nidio #4" = 30
+	"Mariam #0" = -1
+	"Yamilex #0" = -1
+	"Alicia #0" = -1
+	"Adolfo #0" = 1
+	"Yomara #0" = -1
+	"Juan #0" = 1
+	"Daphne #0" = -1
+	"Andrés #1" = 27
+	"Oziel #0" = 1
+	"Adelgonda #0" = -1
+	"Paz #0" = -1
+	"Alajandro #0" = 1
+	"Carlos #0" = 1
+	"Nadia #0" = -1
+	"Jordan #0" = 1
+	"Sebastian #0" = 1
+	"Pablo #0" = 1
+	"Jhon #1" = 27
+	"Beatriz #0" = -1
+	"Olga #0" = -1
+	"Ivelisse #0" = -1
+	"Stephany #0" = -1
+	"Esteban #0" = 1
+	"Yanina #0" = -1
+	"Angela #0" = -1
+	"Picado #0" = 1
+	"Alba #0" = -1
+	"Lidia #0" = -1
+	"Panama #0" = 1
+	"Chrisanne #0" = -1
+	"Harmodio #0" = 1
+	"Kenya #0" = -1
+	"Mauricio #0" = 1
+	"Bayano #2" = 24
+	"Kathy #0" = -1
+	"Aitana #0" = -1
+	"Jasleen #0" = -1
+	"Mateo #0" = 1
+	"Marlon #0" = 1
+	"Roxana #0" = -1
+	"Paulette #0" = -1
+	"Manuela #0" = -1
+	"Nazareth #0" = -1
+	"Gaspar #0" = 1
+	"Anthony #0" = 1
+	"Kayla #0" = -1
+	"Claudia #0" = -1
+	"Jocelyn #1" = -25
+	"Ezeuiel #0" = 1
+	"Eva #0" = -1
+	"Anyi #0" = -1
+	"Salazar #0" = 1
+	"Xaviera #0" = -1
+	"Marilyn #0" = -1
+	"Roberto #0" = 1
+	"Merce #0" = -1
+	"Libia #0" = -1
+	"Evita #0" = -1
+	"Patricia #0" = -1
+	"Pilar #0" = -1
+	"Lorna #0" = -1
+	"Maribelle #0" = -1
+	"Adolfina #0" = -1
+	"Adrián #0" = 1
+	"Miguel #0" = 1
+	"Raul #0" = 1
+	"Marlen #0" = -1
+	"Clau #0" = 1
+	"Mireya #0" = -1
+	"Isabel #0" = -1
+	"Joiner #0" = 1
+	"Maritza #0" = -1
+	"Ascencion #0" = -1
+	"Urracá #0" = 1
+	"Sevastián #0" = 1
+	"Dorlan #0" = 1
+	"Castro #0" = 1
+	"Yendry #0" = -1
+	"Elizabeth #0" = -1
+	"Rodolfo #0" = 1
+	"Eliseo #0" = 1
+	"Karen #0" = -1
+	"Veronica #0" = -1
+	"Isabell #0" = -1
+	"Jorge #0" = 1
+	"Isidro #0" = 1
+	"Paul #0" = 1
+	"Karla #0" = -1
+	"Adolfa #0" = -1
+	"Guillermo #0" = 1
+	"Erika #0" = -1
+	"Estefani #0" = -1
+	"Olevia #0" = -1
+	"Savannah #0" = -1
+	"Cruze #1" = 0
+	"Adelmo #0" = 0
+	"Alberto #0" = 0
+	"Alejandro #0" = 0
+	"Alfonso #0" = 0
+	"Alfredo #0" = 0
+	"Allan #0" = 0
+	"Alonso #0" = 0
+	"Alvarez #0" = 0
+	"Alvaro #0" = 0
+	"Andre #0" = 0
+	"Ángel #0" = 0
+	"Angelo #0" = 0
+	"Aquileo #0" = 0
+	"Arnulfo #0" = 0
+	"Arsenio #0" = 0
+	"Belisario #0" = 0
+	"Benicio #0" = 0
+	"Braulio #0" = 0
+	"Brian #0" = 0
+	"Chafil #0" = 0
+	"Charlie #0" = 0
+	"Chavela #0" = 0
+	"Clodomiro #0" = 0
+	"Concepción #0" = 0
+	"Cruz #0" = 0
+	"Danilo #0" = 0
+	"Darryn #0" = 0
+	"David #0" = 0
+	"Diego #0" = 0
+	"Domingo #0" = 0
+	"Édgar #0" = 0
+	"Edwardo #0" = 0
+	"Edwin #0" = 0
+	"Enrique #0" = 0
+	"Ernesto #0" = 0
+	"Eusebio #0" = 0
+	"Felipe #0" = 0
+	"Felipo #0" = 0
+	"Felix #0" = 0
+	"Floyd #0" = 0
+	"Fortunato #0" = 0
+	"Francisco #0" = 0
+	"Gerardo #0" = 0
+	"Grego #0" = 0
+	"Greivin #0" = 0
+	"Hector #0" = 0
+	"Ignacio #0" = 0
+	"Jacián #0" = 0
+	"Jeremías #0" = 0
+	"Joaquin #0" = 0
+	"Joaquín #0" = 0
+	"Jonathan #0" = 0
+	"José #0" = 0
+	"Julian #0" = 0
+	"Julio #0" = 0
+	"Kevyn #0" = 0
+	"Keylor #0" = 0
+	"Luis #0" = 0
+	"Machiel #0" = 0
+	"Maniá #0" = 0
+	"Manuel #0" = 0
+	"Marcelo #0" = 0
+	"Marco #0" = 0
+	"Martín #0" = 0
+	"Nicolao #0" = 0
+	"Nicolas #0" = 0
+	"Nilhs #0" = 0
+	"Orlando #0" = 0
+	"Óscar #0" = 0
+	"Pedro #0" = 0
+	"Rafael #0" = 0
+	"Ramiro #0" = 0
+	"Ramón #0" = 0
+	"Rebessi #0" = 0
+	"Ricardo #0" = 0
+	"Rolando #0" = 0
+	"Romeo #0" = 0
+	"Rommel #0" = 0
+	"Rouro #0" = 0
+	"Rubén #0" = 0
+	"Rudy #0" = 0
+	"Sergio #0" = 0
+	"Teodorico #0" = 0
+	"Tigrí #0" = 0
+	"Tomás #0" = 0
+	"Valeriano #0" = 0
+	"Victor #0" = 0
+	"Víctor #0" = 0
+	"Victoriano #0" = 0
+	"Westenbe #0" = 0
+	"Xavier #0" = 0
+	"Yonder #0" = 0
+}
+

@@ -1,0 +1,14 @@
+# Redcoat Dominion
+government = english_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = british
+religion = thelemic
+clear_scripted_personalities = yes
+capital = 236
+3053.1.1 {
+	capital = 236
+	add_treasury = 0
+	add_prestige = 4
+}

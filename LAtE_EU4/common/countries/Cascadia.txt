@@ -1,0 +1,85 @@
+# Cascadia
+graphical_culture = asiangfx
+color = { 113 166 210 }
+
+
+
+
+leader_names = {
+
+	"Marilyn" "Joaquin" "Sprague" "Ross" "Ginger" "Winchuck" "James" "Jonathan" "Bristow" "Benbow" 
+	"Clough" "Clark" "Clyde" "Casey" "Chetco" "Dale" "Eugene" "Fraser" "Fanno" "Glenn" 
+	"Hood" "Holman" "Harris" "Irrigon" "Jefferson" "Jedediah" "Jeff" "Keswick" "Kirk" "Larch" 
+	"Lewis" "Lowell" "Ladd" "Milo" "Meamber" "Metolius" "Nehalem" "Nathaniel" "Oswald" "Ochoco" 
+	"Obediah" "Pinus" "Pierson" "Quentin" "Rainier" "Stanley" "Stanford" "Silsby" "Sutter" "Sycan" 
+	"Scott" "Shepard" "Tumalo" "Trask" "Trevor" "Ukiah" "Vinzenz" "Vanduzen" "Wash" "Whychus" 
+	"Zalophus" }
+monarch_names = {
+	"Marilyn #0" = -1
+	"Joaquin #0" = 21
+	"Sprague #0" = 21
+	"Ross #0" = 1
+	"Ginger #0" = -1
+	"Winchuck #0" = 18
+	"James #0" = 18
+	"Jonathan #0" = 0
+	"Bristow #0" = 0
+	"Benbow #0" = 0
+	"Clough #0" = 0
+	"Clark #0" = 0
+	"Clyde #0" = 0
+	"Casey #0" = 0
+	"Chetco #0" = 0
+	"Dale #0" = 0
+	"Eugene #0" = 0
+	"Fraser #0" = 0
+	"Fanno #0" = 0
+	"Glenn #0" = 0
+	"Hood #0" = 0
+	"Holman #0" = 0
+	"Harris #0" = 0
+	"Irrigon #0" = 0
+	"Jefferson #0" = 0
+	"Jedediah #0" = 0
+	"Jeff #0" = 0
+	"Keswick #0" = 0
+	"Kirk #0" = 0
+	"Larch #0" = 0
+	"Lewis #0" = 0
+	"Lowell #0" = 0
+	"Ladd #0" = 0
+	"Milo #0" = 0
+	"Meamber #0" = 0
+	"Metolius #0" = 0
+	"Nehalem #0" = 0
+	"Nathaniel #0" = 0
+	"Oswald #0" = 0
+	"Ochoco #0" = 0
+	"Obediah #0" = 0
+	"Pinus #0" = 0
+	"Pierson #0" = 0
+	"Quentin #0" = 0
+	"Rainier #0" = 0
+	"Stanley #0" = 0
+	"Stanford #0" = 0
+	"Silsby #0" = 0
+	"Sutter #0" = 0
+	"Sycan #0" = 0
+	"Scott #0" = 0
+	"Shepard #0" = 0
+	"Tumalo #0" = 0
+	"Trask #0" = 0
+	"Trevor #0" = 0
+	"Ukiah #0" = 0
+	"Vinzenz #0" = 0
+	"Vanduzen #0" = 0
+	"Wash #0" = 0
+	"Whychus #0" = 0
+	"Zalophus #0" = 0
+
+
+	"Lostine #0" = -1
+	"Minam #0" = -1
+	"Heceta #0" = -1
+}
+

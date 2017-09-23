@@ -1,0 +1,40 @@
+#847 - Mixtec
+
+#owner = MIX 
+#controller = MIX
+culture = mixtec 
+religion = nahuatl
+capital = "Totopec" 
+trade_goods = unknown
+hre = no 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= MIX
+
+
+
+discovered_by = MAY
+discovered_by = ZAP
+discovered_by = AZT
+
+
+# = { capital = "Huasyacac" } 
+# = {
+	#discovered_by = SPA 
+	#owner = SPA 
+	#controller = SPA 
+	#add_core= SPA
+}
+# = {
+	culture = castillian
+	religion = catholic
+} # First settlers
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
+# = { #controller = MEX } # Conquered by José María Morelos
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

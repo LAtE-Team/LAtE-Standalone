@@ -1,0 +1,36 @@
+# Biniwaabikong
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = anishinabe
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 4697
+3047.9.11 = {
+	monarch = {
+		name = "Makataimeshekia"
+		birth_date = 3017.11.25
+		dynasty = "Nawakamigok"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = conqueror_personality
+	heir = {
+		name = "Makataimeshekia"
+		monarch_name = "Makataimeshekia"
+		dynasty = "Nawakamigok"
+		birth_date = 3042.1.2
+		death_date = 3122.1.2
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_heir_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 4697
+	add_treasury = 31
+	add_prestige = 72
+}

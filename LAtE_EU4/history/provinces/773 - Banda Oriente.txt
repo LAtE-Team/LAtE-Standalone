@@ -1,0 +1,18 @@
+#773 - Banda Oriental
+
+owner = BRZ
+controller = BRZ
+add_core= BRZ
+is_city = yes
+culture = litoraleno
+discovered_by = south_american
+religion = candomble
+capital = "Fuerte San Miguel"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

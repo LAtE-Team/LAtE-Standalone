@@ -1,0 +1,140 @@
+# Shasta Cascade
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 107 125 190 }
+
+
+
+
+leader_names = {
+
+	"Pierson" "Ochoco" "Joaquin" "Jeff" "Quentin" "Alta" "Ladd" "Annie" "Abiqua" "Yakweakwioose" 
+	"Kirk" "Manzanita" "Clyde" "Williamette" "Sutter" "Minam" "Iris" "Shepard" "Juniper" "Jedediah" 
+	"Maud" "Stanford" "Crystal" "Jefferson" "Harris" "Vinzenz_Vincent" "Lostine" "Psuedotsuga" "Neahkahnie" "Ginger" 
+	"Murrelet" "Branta" "Tumalo" "McKenzie" "Multnomah" "Pinus" "Winchuck" "Edna" "Nehalem" "Coquille" 
+	"Trevor" "Larch" "Love" "Dale" "Silsby" "Wallowa" "Catherine" "Alsea" "Zostera" "Irrigon" 
+	"Hood" "Keswick" "Mabel" "Sprague" "Molalla" "Metolius" "Milo" "Bernicla" "Ewauna" "Ukiah" 
+	"Azalez" "Winema" "Lewis" "Cecilia" "Eda" "Kent" "Eugene" "Hannah" "Pacifica" "Yulalona" 
+	"Opal" "Wash" "Shasta" "Glenn" "Columbia" "Emma" "Morton" "Doran" "Sarah" "Yaquina" 
+	"Casey" "Fraser" "Ashlie" "Laoma" "Trask" "Nathaniel" "Chetco" "Isa" "Vanduzen" "Zoe" 
+	"Millicoma" "Hilgard" "Tolowa" "Ross" "Zalophus" "Chloe" "Tara" "Rainier" "Obediah" "Stanley" 
+	"Ponderosa" "Sycan" "Lowell" "Boudicca" "Bristow" "Benbow" "Clough" "Clark" "Fanno" "Holman" 
+	"Meamber" "Oswald" "Scott" "Vinzenz" "Whychus" }
+monarch_names = {
+	"Pierson #2" = 30
+	"Ochoco #0" = 1
+	"Joaquin #0" = 1
+	"Jeff #0" = 1
+	"Quentin #0" = 1
+	"Alta #0" = -1
+	"Ladd #2" = 42
+	"Annie #0" = -1
+	"Abiqua #0" = -1
+	"Yakweakwioose #0" = -1
+	"Kirk #1" = 33
+	"Manzanita #0" = -1
+	"Clyde #0" = 1
+	"Williamette #0" = -1
+	"Sutter #3" = 39
+	"Minam #0" = -1
+	"Iris #0" = -1
+	"Shepard #0" = 1
+	"Juniper #0" = -1
+	"Jedediah #2" = 30
+	"Maud #0" = -1
+	"Stanford #1" = 33
+	"Crystal #0" = -1
+	"Jefferson #1" = 24
+	"Harris #0" = 1
+	"Vinzenz_Vincent #0" = 1
+	"Lostine #0" = -1
+	"Psuedotsuga #0" = -1
+	"Neahkahnie #0" = -1
+	"Ginger #0" = -1
+	"Murrelet #0" = -1
+	"Branta #0" = -1
+	"Tumalo #0" = 1
+	"McKenzie #0" = -1
+	"Multnomah #0" = -1
+	"Pinus #1" = 27
+	"Winchuck #0" = 1
+	"Edna #0" = -1
+	"Nehalem #0" = 1
+	"Coquille #0" = -1
+	"Trevor #2" = 24
+	"Larch #2" = 27
+	"Love #0" = -1
+	"Dale #0" = 1
+	"Silsby #0" = 1
+	"Wallowa #0" = -1
+	"Catherine #0" = -1
+	"Alsea #0" = -1
+	"Zostera #0" = -1
+	"Irrigon #0" = 1
+	"Hood #0" = 1
+	"Keswick #1" = 21
+	"Mabel #0" = -1
+	"Sprague #0" = 1
+	"Molalla #0" = -1
+	"Metolius #0" = 1
+	"Milo #1" = 36
+	"Bernicla #0" = -1
+	"Ewauna #0" = -1
+	"Ukiah #0" = 1
+	"Azalez #0" = -1
+	"Winema #0" = -1
+	"Lewis #1" = 24
+	"Cecilia #0" = -1
+	"Eda #0" = -1
+	"Kent #0" = 1
+	"Eugene #0" = 1
+	"Hannah #0" = -1
+	"Pacifica #0" = -1
+	"Yulalona #0" = -1
+	"Opal #0" = -1
+	"Wash #0" = 1
+	"Shasta #0" = -1
+	"Glenn #0" = 1
+	"Columbia #0" = -1
+	"Emma #0" = -1
+	"Morton #0" = 1
+	"Doran #4" = 36
+	"Sarah #0" = -1
+	"Yaquina #0" = -1
+	"Casey #1" = 24
+	"Fraser #0" = 1
+	"Ashlie #0" = -1
+	"Laoma #0" = -1
+	"Trask #1" = 18
+	"Nathaniel #0" = 1
+	"Chetco #0" = 1
+	"Isa #0" = -1
+	"Vanduzen #0" = 1
+	"Zoe #0" = -1
+	"Millicoma #0" = -1
+	"Hilgard #0" = -1
+	"Tolowa #0" = -1
+	"Ross #0" = 1
+	"Zalophus #0" = 1
+	"Chloe #0" = -1
+	"Tara #0" = -1
+	"Rainier #0" = 1
+	"Obediah #0" = 1
+	"Stanley #0" = 1
+	"Ponderosa #0" = -1
+	"Sycan #0" = 1
+	"Lowell #0" = 1
+	"Boudicca #0" = -1
+	"Bristow #0" = 0
+	"Benbow #0" = 0
+	"Clough #0" = 0
+	"Clark #0" = 0
+	"Fanno #0" = 0
+	"Holman #0" = 0
+	"Meamber #0" = 0
+	"Oswald #0" = 0
+	"Scott #0" = 0
+	"Vinzenz #0" = 0
+	"Whychus #0" = 0
+}
+

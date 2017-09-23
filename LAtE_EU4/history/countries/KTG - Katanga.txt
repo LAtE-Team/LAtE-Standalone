@@ -1,0 +1,7 @@
+government = tribal_kingdom
+primary_culture = bemba
+religion = mwari
+technology_group = central_african
+
+unit_type = sub_saharan
+capital = 4104	# Lubumbashi

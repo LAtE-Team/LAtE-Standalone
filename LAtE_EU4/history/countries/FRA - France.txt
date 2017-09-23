@@ -1,0 +1,8 @@
+government = siberian_native_council #Till we make a european equivalent
+primary_culture = cosmopolitan_french
+add_accepted_culture = gascon
+add_accepted_culture = occitain
+religion = cult_of_reason
+technology_group = high_american
+capital = 183 # Paris
+national_focus = DIP

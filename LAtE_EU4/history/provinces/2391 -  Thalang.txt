@@ -1,0 +1,46 @@
+#2391 - Thalang
+
+#owner = LIG
+#controller = LIG
+culture = malayan
+religion = sunni
+capital = "Thalang"
+trade_goods = fish
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = no
+#add_core= LIG
+#add_core= AYU
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+
+# = { discovered_by = MNG }
+# = { discovered_by = POR }
+# = { discovered_by = SPA }
+
+# = {
+	#owner = AYU
+	#controller = AYU
+#}
+# = {
+	#owner = LIG
+	#controller = LIG
+#}
+# = {
+	#owner = AYU
+	#controller = AYU
+	remove_core = LIG
+#}
+# = { #add_core= TAU }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

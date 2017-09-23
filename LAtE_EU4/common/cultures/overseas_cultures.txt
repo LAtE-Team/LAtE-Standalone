@@ -1,0 +1,52 @@
+#singaporean
+malay = {
+	singaporean = {
+		primary = SGP
+		dynasty_names = { }
+	}
+}
+#hawaiian
+polynesian_g = {
+	hawaiian = {
+		primary = HWI
+		dynasty_names = { }
+	}
+}
+#nigerian
+west_african = {
+	nigerian = {
+		primary = NGR
+		dynasty_names = { }
+	}
+}
+#edokko
+japanese_g = {
+	edokko = {
+		primary = JAP
+		dynasty_names = { }
+	}
+}
+#british
+british = {
+	british = {
+		primary = GBR
+		dynasty_names = { "Tackleford" "Stigson" "Cockswain" "Sternhead" "Fox" "of Peterborough" "Hartnell" "Arlanc" "Spatley" "Bolstrood" "May" "Cloxton" "of Providence" "of Sheboygan" "of Muskego" "of Falmouth" "Hammond" "of Middleton" "of Quincy" "of Worcester" }
+	}
+}
+#brazilian
+iberian = {
+	brazilian = {
+		primary = BRZ
+		dynasty_names = { "Leão" "de Anna Regina" "de New Amsterdam" "de Changement" "de Groningen" "de Urañon" "de Guasdualito" "de Cayenne" "Dutra" "de Puerto Carreño" "de El Aceitico" "Assunção" "de Cravo Norte" "Neves" "Saraiva" "de Usaquén" "de La Calera" "de Girardot" "de La Dorada" "de Ibagué" "de Tucupita" "de Alvarado" "de Santa Rita" "de El Pino" "de Brokopondo" "Assunção" "de Neiva" "de Trujillo" "de La Pica" "de Curiapo" }
+	}
+	roraimense = {
+		dynasty_names = { }
+	}
+}
+#novorusskiy
+east_slavic = { # Or Tatar?
+	novorusskiy = {
+		primary = NRU
+		dynasty_names = { }
+	}
+}

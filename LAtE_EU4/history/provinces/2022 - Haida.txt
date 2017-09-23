@@ -1,0 +1,22 @@
+# 2022 - Haida
+
+owner = SAL
+controller = SAL
+add_core = SAL
+is_city = yes
+culture = haida
+religion = raven_tales 
+capital = "Haida"
+trade_goods = unknown
+hre = no 
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 25
+native_ferocity = 2
+native_hostileness = 8
+
+
+
+discovered_by = western
+discovered_by = eastern

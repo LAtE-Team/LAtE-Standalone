@@ -1,0 +1,220 @@
+# Chickasawhay
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 0 157 225 }
+
+
+
+
+leader_names = {
+
+	"Sosipater" "India" "Melisende" "Raphael" "Helen" "Sonja" "Lula" "Lamar" "Goode" "Nichole" 
+	"Joanna" "Kiana" "Nathan" "Natalie" "Bluebell" "Dionysia" "Morgause" "Willie" "Lamartine" "Julius" 
+	"Ladonna" "Freeman" "Kayla" "Zeebo" "Caleb" "Jayla" "Jaylon" "Carver" "George" "Sam" 
+	"Scott" "Braylon" "Cassius" "Jade" "Washington" "Jason" "Jamal" "Rufus" "Rosa" "Alexa" 
+	"Luther" "Louis" "Darius" "Booker" "Calpurnia" "Terrance" "Armstrong" "May" "Xavier" "Winfield" 
+	"Estelle" "Melantha" "Sarah" "Alexandra" "Brianna" "Eleanora" "Ray" "Virgil" "Joyce" "Langston" 
+	"Levi" "Tammie" "Ivory" "Alain" "Bianca" "Nalia" "Dennis" "Octavia" "Zeus" "Leroy" 
+	"Lennis" "Isis" "Leslie" "Loretta" "Jasmine" "Chandler" "Indiana" "Grady" "Grant" "Amery" 
+	"Sterling" "Eula" "Jamie" "Josephine" "Scipio" "Chloe" "Nia" "Imani" "Frederick" "Dorothea" 
+	"Tim" "Precious" "Tecumseh" "Roalie" "Michael" "Petunia" "Marlo" "Ariel" "Rosemary" "Carolyn" 
+	"Billie" "Sapphire" "Chris" "Aisha" "Violet" "Tanika" "Josiah" "Gareth" "Elgin" "Teayonna" 
+	"Destiny" "Mayella" "Sharla" "Eldridge" "Claudius" "Susanne" "Zenia" "Eloise" "Neptune" "Columbus" 
+	"Timon" "Kobe" "Vernessa" "Donda" "Gabrielle" "Georgia" "Augusta" "Blanchet" "Dave" "Roberta" 
+	"Antoine" "Ali" "Alexander" "Arnaud" "Avery" "Avon" "Coleman" "Clarence" "Clay" "Cal" 
+	"Cab" "Darnell" "Denzel" "Deangelo" "Deandre" "Dubois" "Douglass" "Darryl" "Evan" "Elijah" 
+	"Garvey" "Hasker" "Henry" "Hassan" "Huey" "Jordan" "Joshua" "James" "Joel" "Jonas" 
+	"Kanye" "Kwame" "Kevin" "Lawrence" "Lucius" "Lincoln" "Marquis" "Malik" "Maurice" "Marcus" 
+	"Mosiah" "Malcolm" "Morton" "Omar" "Ossian" "Quantell" "Quint" "Reginald" "Riley" "Robert" 
+	"Sheridan" "Sherman" "Tyrone" "Terrell" "Tom" "Terry" "Wilson" "Xerxes" }
+monarch_names = {
+	"Sosipater #0" = 1
+	"India #0" = -1
+	"Melisende #0" = -1
+	"Raphael #0" = 1
+	"Helen #0" = -1
+	"Sonja #0" = -1
+	"Lula #0" = -1
+	"Lamar #0" = 1
+	"Goode #0" = 1
+	"Nichole #0" = -1
+	"Joanna #0" = -1
+	"Kiana #0" = -1
+	"Nathan #0" = 1
+	"Natalie #0" = -1
+	"Bluebell #0" = -1
+	"Dionysia #0" = -1
+	"Morgause #0" = -1
+	"Willie #0" = 1
+	"Lamartine #0" = 1
+	"Julius #0" = 1
+	"Ladonna #0" = -1
+	"Freeman #0" = 1
+	"Kayla #0" = -1
+	"Zeebo #0" = 1
+	"Caleb #0" = 1
+	"Jayla #0" = -1
+	"Jaylon #0" = 1
+	"Carver #0" = 1
+	"George #0" = 1
+	"Sam #0" = 1
+	"Scott #0" = 1
+	"Braylon #0" = 1
+	"Cassius #0" = 1
+	"Jade #0" = -1
+	"Washington #0" = 1
+	"Jason #0" = 1
+	"Jamal #0" = 1
+	"Rufus #0" = 1
+	"Rosa #0" = -1
+	"Alexa #0" = -1
+	"Luther #0" = 1
+	"Louis #0" = 1
+	"Darius #0" = 1
+	"Booker #0" = 1
+	"Calpurnia #0" = -1
+	"Terrance #0" = 1
+	"Armstrong #0" = 1
+	"May #0" = -1
+	"Xavier #0" = 1
+	"Winfield #0" = 1
+	"Estelle #0" = -1
+	"Melantha #0" = -1
+	"Sarah #0" = -1
+	"Alexandra #0" = -1
+	"Brianna #0" = -1
+	"Eleanora #0" = -1
+	"Ray #0" = 1
+	"Virgil #0" = 1
+	"Joyce #0" = -1
+	"Langston #0" = 1
+	"Levi #0" = 1
+	"Tammie #0" = -1
+	"Ivory #0" = -1
+	"Alain #0" = 1
+	"Bianca #0" = -1
+	"Nalia #0" = -1
+	"Dennis #0" = 1
+	"Octavia #0" = -1
+	"Zeus #0" = 1
+	"Leroy #0" = 1
+	"Lennis #0" = -1
+	"Isis #0" = -1
+	"Leslie #0" = 1
+	"Loretta #0" = -1
+	"Jasmine #0" = -1
+	"Chandler #0" = 1
+	"Indiana #0" = -1
+	"Grady #0" = 1
+	"Grant #0" = 1
+	"Amery #0" = 1
+	"Sterling #0" = 1
+	"Eula #0" = -1
+	"Jamie #0" = 1
+	"Josephine #0" = -1
+	"Scipio #0" = 1
+	"Chloe #0" = -1
+	"Nia #0" = -1
+	"Imani #0" = -1
+	"Frederick #0" = 1
+	"Dorothea #0" = -1
+	"Tim #0" = 1
+	"Precious #0" = -1
+	"Tecumseh #0" = 1
+	"Roalie #0" = -1
+	"Michael #0" = 1
+	"Petunia #0" = -1
+	"Marlo #0" = 1
+	"Ariel #0" = -1
+	"Rosemary #0" = -1
+	"Carolyn #0" = -1
+	"Billie #0" = -1
+	"Sapphire #0" = -1
+	"Chris #0" = 1
+	"Aisha #0" = -1
+	"Violet #0" = -1
+	"Tanika #0" = -1
+	"Josiah #0" = 1
+	"Gareth #0" = 1
+	"Elgin #0" = 1
+	"Teayonna #0" = -1
+	"Destiny #0" = -1
+	"Mayella #0" = -1
+	"Sharla #0" = -1
+	"Eldridge #0" = 1
+	"Claudius #0" = 1
+	"Susanne #0" = -1
+	"Zenia #0" = -1
+	"Eloise #0" = -1
+	"Neptune #0" = 1
+	"Columbus #0" = 1
+	"Timon #0" = 1
+	"Kobe #0" = 1
+	"Vernessa #0" = -1
+	"Donda #0" = -1
+	"Gabrielle #0" = -1
+	"Georgia #0" = -1
+	"Augusta #0" = -1
+	"Blanchet #0" = -1
+	"Dave #0" = 1
+	"Roberta #0" = -1
+	"Antoine #0" = 0
+	"Ali #0" = 0
+	"Alexander #0" = 0
+	"Arnaud #0" = 0
+	"Avery #0" = 0
+	"Avon #0" = 0
+	"Coleman #0" = 0
+	"Clarence #0" = 0
+	"Clay #0" = 0
+	"Cal #0" = 0
+	"Cab #0" = 0
+	"Darnell #0" = 0
+	"Denzel #0" = 0
+	"Deangelo #0" = 0
+	"Deandre #0" = 0
+	"Dubois #0" = 0
+	"Douglass #0" = 0
+	"Darryl #0" = 0
+	"Evan #0" = 0
+	"Elijah #0" = 0
+	"Garvey #0" = 0
+	"Hasker #0" = 0
+	"Henry #0" = 0
+	"Hassan #0" = 0
+	"Huey #0" = 0
+	"Jordan #0" = 0
+	"Joshua #0" = 0
+	"James #0" = 0
+	"Joel #0" = 0
+	"Jonas #0" = 0
+	"Kanye #0" = 0
+	"Kwame #0" = 0
+	"Kevin #0" = 0
+	"Lawrence #0" = 0
+	"Lucius #0" = 0
+	"Lincoln #0" = 0
+	"Marquis #0" = 0
+	"Malik #0" = 0
+	"Maurice #0" = 0
+	"Marcus #0" = 0
+	"Mosiah #0" = 0
+	"Malcolm #0" = 0
+	"Morton #0" = 0
+	"Omar #0" = 0
+	"Ossian #0" = 0
+	"Quantell #0" = 0
+	"Quint #0" = 0
+	"Reginald #0" = 0
+	"Riley #0" = 0
+	"Robert #0" = 0
+	"Sheridan #0" = 0
+	"Sherman #0" = 0
+	"Tyrone #0" = 0
+	"Terrell #0" = 0
+	"Tom #0" = 0
+	"Terry #0" = 0
+	"Wilson #0" = 0
+	"Xerxes #0" = 0
+}
+

@@ -1,0 +1,27 @@
+# Demopolis
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4678
+3013.7.17 = {
+	monarch = {
+		name = "Neptune"
+		birth_date = 2990.7.19
+		dynasty = "Echols"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = tolerant_personality
+}
+3053.1.1 {
+	capital = 4678
+	add_treasury = 72
+	add_prestige = 177
+	elector = no
+}

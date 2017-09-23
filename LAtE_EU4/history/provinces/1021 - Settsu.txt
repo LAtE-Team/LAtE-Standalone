@@ -1,0 +1,22 @@
+#1021 - Settsu
+
+owner = SUZ
+controller = SUZ
+culture = japanese
+religion = shinto
+capital = "Osaka"
+trade_goods = chinaware
+hre = no
+base_tax = 6
+base_manpower = 3
+base_production = 6
+is_city = yes
+add_core= SUZ
+
+
+
+discovered_by = chinese
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

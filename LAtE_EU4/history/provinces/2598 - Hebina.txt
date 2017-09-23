@@ -1,0 +1,33 @@
+# No previous file for Hebina
+
+culture = nakota
+religion = totemism
+capital = "Hebina"
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+
+# = { discovered_by = ENG } #Henry Kelsey
+# = { discovered_by = GBR }
+
+# = {
+	#owner = ASI
+	#controller = ASI
+	#add_core= ASI
+	culture = nakota
+	trade_goods = unknown
+	is_city = no 
+} #Great Plain tribes spread over vast territories

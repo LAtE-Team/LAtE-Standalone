@@ -1,0 +1,17 @@
+caribeno = {
+	cubano = {
+		primary = CUB
+		dynasty_names = { "Arnaz" "de Mazariegos" }
+	}
+	dominicano = {
+		primary = DOM
+		dynasty_names = { }
+	}
+	boricua = {
+		primary = PTR
+		dynasty_names = { "Barceló" }
+	}
+	nuyorican = {
+		dynasty_names = { }
+	}
+}

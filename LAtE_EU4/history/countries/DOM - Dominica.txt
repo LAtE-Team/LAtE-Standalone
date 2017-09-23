@@ -1,0 +1,26 @@
+# Dominica
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 2659
+3008.8.22 = {
+	monarch = {
+		name = "Cecil II"
+		birth_date = 3007.11.15
+		dynasty = "McGann"
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2659
+	add_treasury = -4
+	add_prestige = 304
+}

@@ -1,0 +1,143 @@
+# Gran Meta
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 57 202 140 }
+
+
+
+
+leader_names = {
+
+	"Orlondo" "Milagro" "Bartolo" "Jerico" "Flavio" "Ramón" "Ubaldo" "Yoel" "Narciso" "Alfonso" 
+	"Jeffrén" "Montes" "Leon" "Joaquin" "Teodoro" "Jorge" "Uxío" "Benedito" "Valerio" "Maximiliano" 
+	"Guilherme" "Leonardo" "Abran" "Alano" "Alejandro" "Alexander" "Alvaro" "Alvino" "Andres" "Angelino" 
+	"Angelito" "Aquila" "Armando" "Arnoldo" "Beltran" "Bemabe" "Bembe" "Betulio" "Bonifacio" "Bonifaco" 
+	"Calvino" "Carlos" "César" "Chano" "Charro" "Che" "Chucho" "Ciceron" "Claudio" "Criston" 
+	"Damario" "Edwin" "Elias" "Eloy" "Emesto" "Estevon" "Ezequiel" "Faron" "Felipe" "Fernando" 
+	"Frederico" "Gabriel" "Galtero" "Generosb" "Giovanni" "Guadalupe" "Guido" "Guillermo" "Hidalgo" "Honor" 
+	"Hugo" "Ignado" "Igone" "Johan" "José" "Josef" "Juan" "Julio" "Lonzo" "Lorenzo" 
+	"Luciano" "Luis" "Macario" "Magglio" "Manny" "Manuelo" "Marco" "Marcos" "Martino" "Massimo" 
+	"Mauro" "Neron" "Nicolas" "Niguel" "Normando" "Oliverio" "Omar" "Platon" "Ramiro" "Raul" 
+	"Rayman" "Reyes" "Richard" "Salomón" "Santiago" "Stefano" "Tabor" "Toli" "Tomás" "Tonio" 
+	"Vicente" }
+monarch_names = {
+	"Orlondo #2" = 0
+	"Milagro #1" = 0
+	"Bartolo #1" = 0
+	"Jerico #1" = 0
+	"Flavio #1" = 0
+	"Ramón #1" = 0
+	"Ubaldo #1" = 0
+	"Yoel #1" = 0
+	"Narciso #1" = 0
+	"Alfonso #1" = 0
+	"Jeffrén #2" = 0
+	"Montes #1" = 0
+	"Leon #1" = 0
+	"Joaquin #1" = 0
+	"Teodoro #1" = 0
+	"Jorge #1" = 0
+	"Uxío #1" = 0
+	"Benedito #1" = 0
+	"Valerio #1" = 0
+	"Maximiliano #1" = 0
+	"Guilherme #1" = 0
+	"Leonardo #1" = 0
+	"Abran #0" = 0
+	"Alano #0" = 0
+	"Alejandro #0" = 0
+	"Alexander #0" = 0
+	"Alvaro #0" = 0
+	"Alvino #0" = 0
+	"Andres #0" = 0
+	"Angelino #0" = 0
+	"Angelito #0" = 0
+	"Aquila #0" = 0
+	"Armando #0" = 0
+	"Arnoldo #0" = 0
+	"Beltran #0" = 0
+	"Bemabe #0" = 0
+	"Bembe #0" = 0
+	"Betulio #0" = 0
+	"Bonifacio #0" = 0
+	"Bonifaco #0" = 0
+	"Calvino #0" = 0
+	"Carlos #0" = 0
+	"César #0" = 0
+	"Chano #0" = 0
+	"Charro #0" = 0
+	"Che #0" = 0
+	"Chucho #0" = 0
+	"Ciceron #0" = 0
+	"Claudio #0" = 0
+	"Criston #0" = 0
+	"Damario #0" = 0
+	"Edwin #0" = 0
+	"Elias #0" = 0
+	"Eloy #0" = 0
+	"Emesto #0" = 0
+	"Estevon #0" = 0
+	"Ezequiel #0" = 0
+	"Faron #0" = 0
+	"Felipe #0" = 0
+	"Fernando #0" = 0
+	"Frederico #0" = 0
+	"Gabriel #0" = 0
+	"Galtero #0" = 0
+	"Generosb #0" = 0
+	"Giovanni #0" = 0
+	"Guadalupe #0" = 0
+	"Guido #0" = 0
+	"Guillermo #0" = 0
+	"Hidalgo #0" = 0
+	"Honor #0" = 0
+	"Hugo #0" = 0
+	"Ignado #0" = 0
+	"Igone #0" = 0
+	"Johan #0" = 0
+	"José #0" = 0
+	"Josef #0" = 0
+	"Juan #0" = 0
+	"Julio #0" = 0
+	"Lonzo #0" = 0
+	"Lorenzo #0" = 0
+	"Luciano #0" = 0
+	"Luis #0" = 0
+	"Macario #0" = 0
+	"Magglio #0" = 0
+	"Manny #0" = 0
+	"Manuelo #0" = 0
+	"Marco #0" = 0
+	"Marcos #0" = 0
+	"Martino #0" = 0
+	"Massimo #0" = 0
+	"Mauro #0" = 0
+	"Neron #0" = 0
+	"Nicolas #0" = 0
+	"Niguel #0" = 0
+	"Normando #0" = 0
+	"Oliverio #0" = 0
+	"Omar #0" = 0
+	"Platon #0" = 0
+	"Ramiro #0" = 0
+	"Raul #0" = 0
+	"Rayman #0" = 0
+	"Reyes #0" = 0
+	"Richard #0" = 0
+	"Salomón #0" = 0
+	"Santiago #0" = 0
+	"Stefano #0" = 0
+	"Tabor #0" = 0
+	"Toli #0" = 0
+	"Tomás #0" = 0
+	"Tonio #0" = 0
+	"Vicente #0" = 0
+
+
+	"Eufémia #0" = -1
+	"Dorotéia #0" = -1
+	"Joana #0" = -1
+	"Bárbara #0" = -1
+	"Sara #0" = -1
+}
+

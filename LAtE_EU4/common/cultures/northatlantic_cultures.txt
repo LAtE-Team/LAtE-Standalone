@@ -1,0 +1,26 @@
+north_atlantic = {
+	gothamite = {
+		primary = NYS
+		dynasty_names = { "van Chester" }
+	}
+	hudsonian = {
+		primary = NYS
+		dynasty_names = { "Groot" "Dongan" "Langmuir" "Westingson" "Ranvincle" "Allen" "Wents" "Schenectady" "Rittner" "Mackerras" "Ranvincle" "Chambersburg" "Altoona" "Rodham" "Vedder" "Schermerhorn" "Dongan" "Ranvincle" "Herkimer" "Elran" }
+	}
+	delawarean = {
+		primary = DLW
+		dynasty_names = { }
+	}
+	yankee = {
+		primary = NEN
+		dynasty_names = { "Spermacetty" "Winthrop" }
+	}
+	maritimer = {
+		primary = MRT
+		dynasty_names = { "Beaton" "Jacartier" "Conmara" "Duchambon" "Tracadie" "Beaubassin" "Jolicure" "Luciphy" "Tidnish" "Uniacke" "Brundage" "Aggermore" "Cuthbert" "Cavendish" "Carmody" "Blythe" "Hitt" "Davison" "Mac Scalaidhe" "Criss" "de Betsiamites" "de Limestone" "de Lyndon" "de Dorchester" "de Kingsclear" "de Rivière-du-Loup" "Abegweit" "de Heath Point" "Carmody" "Kilmarnock" "Bunbury" "MacKay" "Tyndal" "de Avonlea" }
+	}
+	newfie = {
+		primary = NFL
+		dynasty_names = { "Sturge" "St. Anthony" }
+	}
+}

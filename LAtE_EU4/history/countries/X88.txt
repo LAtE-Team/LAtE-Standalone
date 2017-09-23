@@ -1,0 +1,25 @@
+# Chiapas
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chapin
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2638
+3050.8.10 = {
+	monarch = {
+		name = "Everardo"
+		birth_date = 3001.3.5
+		dynasty = "de  Pueblo Neuvo"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 2638
+	add_treasury = 48
+	add_prestige = 52
+}

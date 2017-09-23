@@ -1,0 +1,25 @@
+# Bottineau
+government = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = northlander
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 909
+3053.1.1 {
+	monarch = {
+		name = "William"
+		birth_date = 3021.8.12
+		dynasty = "Bottineau"
+		adm = 2
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 909
+	add_treasury = 12
+	add_prestige = 31
+}

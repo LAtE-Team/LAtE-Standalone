@@ -1,0 +1,132 @@
+# Madeleine Islands
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 70 180 50 }
+
+
+
+
+leader_names = {
+
+	"Peter-Paul" "Henri" "Kji-Keptin" "Jerry" "Elsie" "Rachel" "Marie" "Everett" "Charles" "Annie" 
+	"Katherine" "Mae" "Mary" "Michael" "Alice" "Frye" "Rachel-Mary" "Allan" "Cope" "Gabriel" 
+	"Wilfred" "Rita" "Murdena" "Azure" "Jacquotte" "Maxw" "Troy" "Amiskw" "Yakaw" "Apikusis" 
+	"Lawrence" "Wolf" "Marshall" "Aubin" "Augustule" "Adhémar" "Alden" "Amédée" "Azor" "Beausejour" 
+	"Baudouin" "Bruin" "Bourbon" "Baptiste" "Boishebert" "Camille" "Clovis" "Claude" "Chenard" "Cyprien" 
+	"Calixte" "David" "Daniel" "Dupont" "Étienne" "Eymard" "Félix" "Firmin" "Gérald" "Gagnon" 
+	"Grégoire" "Gontran" "Gozlin" "Godefroi" "Heribert" "Herménégilde" "Hidulphe" "Isidore" "Isaie" "Jean" 
+	"Jacques" "Joseph" "Louis" "Leonce" "Lévite" "Marcel" "Martin" "Mathurin" "Norbert" "Neil" 
+	"Noël" "Nicolas" "Octave" "Odo" "Pier" "Paul" "Paris" "Pépin" "René" "Rhéal" 
+	"Roméo" "Réginald" "Roland" "Robert" "Richard" "Renart" "Rorgon" "Richelieu" "Samuel" "Sidoine" 
+	"Télésphore" "Tybalt" "Thomas" "Vernon" "Valois" "Valentin" "Wilifred" "Yvon" }
+monarch_names = {
+	"Peter-Paul #0" = 1
+	"Henri #0" = 1
+	"Kji-Keptin #0" = 1
+	"Jerry #1" = 18
+	"Elsie #0" = -1
+	"Rachel #0" = -1
+	"Marie #0" = -1
+	"Everett #0" = 1
+	"Charles #2" = 24
+	"Annie #0" = -1
+	"Katherine #0" = -1
+	"Mae #0" = -1
+	"Mary #0" = -1
+	"Michael #0" = 1
+	"Alice #0" = -1
+	"Frye #1" = 21
+	"Rachel-Mary #0" = -1
+	"Allan #1" = 21
+	"Cope #0" = 1
+	"Gabriel #0" = 1
+	"Wilfred #0" = 1
+	"Rita #0" = -1
+	"Murdena #0" = -1
+	"Azure #0" = -1
+	"Jacquotte #1" = -1
+	"Maxw #1" = 0
+	"Troy #1" = 0
+	"Amiskw #1" = -1
+	"Yakaw #1" = 0
+	"Apikusis #1" = -1
+	"Lawrence #2" = 0
+	"Wolf #1" = 0
+	"Marshall #1" = 0
+	"Aubin #0" = 0
+	"Augustule #0" = 0
+	"Adhémar #0" = 0
+	"Alden #0" = 0
+	"Amédée #0" = 0
+	"Azor #0" = 0
+	"Beausejour #0" = 0
+	"Baudouin #0" = 0
+	"Bruin #0" = 0
+	"Bourbon #0" = 0
+	"Baptiste #0" = 0
+	"Boishebert #0" = 0
+	"Camille #0" = 0
+	"Clovis #0" = 0
+	"Claude #0" = 0
+	"Chenard #0" = 0
+	"Cyprien #0" = 0
+	"Calixte #0" = 0
+	"David #0" = 0
+	"Daniel #0" = 0
+	"Dupont #0" = 0
+	"Étienne #0" = 0
+	"Eymard #0" = 0
+	"Félix #0" = 0
+	"Firmin #0" = 0
+	"Gérald #0" = 0
+	"Gagnon #0" = 0
+	"Grégoire #0" = 0
+	"Gontran #0" = 0
+	"Gozlin #0" = 0
+	"Godefroi #0" = 0
+	"Heribert #0" = 0
+	"Herménégilde #0" = 0
+	"Hidulphe #0" = 0
+	"Isidore #0" = 0
+	"Isaie #0" = 0
+	"Jean #0" = 0
+	"Jacques #0" = 0
+	"Joseph #0" = 0
+	"Louis #0" = 0
+	"Leonce #0" = 0
+	"Lévite #0" = 0
+	"Marcel #0" = 0
+	"Martin #0" = 0
+	"Mathurin #0" = 0
+	"Norbert #0" = 0
+	"Neil #0" = 0
+	"Noël #0" = 0
+	"Nicolas #0" = 0
+	"Octave #0" = 0
+	"Odo #0" = 0
+	"Pier #0" = 0
+	"Paul #0" = 0
+	"Paris #0" = 0
+	"Pépin #0" = 0
+	"René #0" = 0
+	"Rhéal #0" = 0
+	"Roméo #0" = 0
+	"Réginald #0" = 0
+	"Roland #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Renart #0" = 0
+	"Rorgon #0" = 0
+	"Richelieu #0" = 0
+	"Samuel #0" = 0
+	"Sidoine #0" = 0
+	"Télésphore #0" = 0
+	"Tybalt #0" = 0
+	"Thomas #0" = 0
+	"Vernon #0" = 0
+	"Valois #0" = 0
+	"Valentin #0" = 0
+	"Wilifred #0" = 0
+	"Yvon #0" = 0
+}
+

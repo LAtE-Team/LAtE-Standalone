@@ -1,0 +1,26 @@
+# Monashee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = haida
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 2607
+3029.8.12 = {
+	monarch = {
+		name = "Henry"
+		birth_date = 3019.2.11
+		dynasty = "Kiusta"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2607
+	add_treasury = 5
+	add_prestige = 131
+}

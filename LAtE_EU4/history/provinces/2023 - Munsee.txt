@@ -1,0 +1,65 @@
+#2023 - Munsee #North-eastern Pennsylvania
+
+culture = delaware
+religion = totemism
+capital = "Munsee"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 4
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+
+
+# = {
+	#owner = LEN
+	#controller = LEN
+	#add_core= LEN
+	is_city = no
+	trade_goods = unknown
+ #Extent of the Lenape c. the Beaver Wars
+
+
+
+# = { discovered_by = SWE 
+# = { discovered_by = NED 
+# = { discovered_by = ENG 
+# = { discovered_by = GBR 
+
+# = { 
+	#owner = GBR
+	#controller = GBR
+	#discovered_by = GBR 
+	#add_core= GBR
+	culture = english
+	religion = protestant
+	trade_goods = unknown
+  #Settlers from Connecticut
+# = { culture = american 
+# = {
+	capital = "Wilkes-Barre" 
+
+# = { unrest = 5  #conflicts between Pennsylvania and Connecticut over the region.
+# = { unrest = 9  #Pennsylvania militia attacks Connecticut settlement
+# = {
+	#owner = USA
+	#controller = USA 
+	#add_core= USA
+	unrest = 6 
+ #Declaration of independence, Yankee-Pennamite wars take a backseat to revolution
+# = { unrest = 10  #Congress confirms Pennsylvania's claim, Connecticut and Vermont send men. 
+# = { remove_core = GBR 
+# = { unrest = 3  #Pennsylvania confirms the rights of Connecticut landholders
+# = { unrest = 0  #Integrated in Pennsylvania.
+
+discovered_by = GBR

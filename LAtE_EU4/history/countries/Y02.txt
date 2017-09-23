@@ -1,0 +1,26 @@
+# Leaf
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2529
+3051.8.28 = {
+	monarch = {
+		name = "Antoine"
+		birth_date = 3016.8.28
+		dynasty = "Gump"
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 2529
+	add_treasury = 23
+	add_prestige = 73
+	elector = no
+}

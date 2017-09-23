@@ -1,0 +1,36 @@
+#888 - Atakapa
+
+culture = caddo
+religion = totemism
+capital = "Atakapa"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 2
+native_hostileness = 4
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+
+# = { discovered_by = SPA } # Alvarez de Piñeda explored the Gulf Coast
+# = { discovered_by = FRA }
+
+# = {
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	is_city = no
+	culture = castillian
+	capital = "Los Adaes"
+	religion = catholic
+	trade_goods = unknown
+} # Spanish missions
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence

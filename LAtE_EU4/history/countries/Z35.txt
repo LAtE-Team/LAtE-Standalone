@@ -1,0 +1,26 @@
+# Itta Homma
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = creole
+religion = protestant
+clear_scripted_personalities = yes
+capital = 921
+3053.1.1 {
+	monarch = {
+		name = "Bohemond"
+		birth_date = 3016.12.4
+		dynasty = "St. Francisville"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+3053.1.1 {
+	capital = 921
+	add_treasury = 10
+	add_prestige = 10
+	elector = no
+}

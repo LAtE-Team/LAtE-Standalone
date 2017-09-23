@@ -1,0 +1,26 @@
+# Custer
+government = tribal_kingdom
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cree
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2505
+3029.11.12 = {
+	monarch = {
+		name = "Takoyestamix"
+		birth_date = 3011.11.14
+		dynasty = "Niopwatuk"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2505
+	add_treasury = 16
+	add_prestige = 106
+}

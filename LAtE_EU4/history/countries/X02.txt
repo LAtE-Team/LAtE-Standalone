@@ -1,0 +1,26 @@
+# Northern Basin
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = utahn
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 4517
+3023.6.20 = {
+	monarch = {
+		name = "Lance III"
+		birth_date = 3008.7.4
+		dynasty = "Sabonis"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 4517
+	add_treasury = 28
+	add_prestige = 126
+}

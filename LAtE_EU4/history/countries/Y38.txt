@@ -1,0 +1,26 @@
+# Miramichi
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+clear_scripted_personalities = yes
+capital = 985
+3018.12.18 = {
+	monarch = {
+		name = "Ceallach III"
+		birth_date = 3000.4.20
+		dynasty = "Duchambon"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 985
+	add_treasury = 24
+	add_prestige = 213
+}

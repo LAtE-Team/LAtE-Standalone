@@ -1,0 +1,41 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 42 69 137 }
+
+# Polynesian or at least modern Hawaiian names
+monarch_names = {
+	"Kamehameha #5" = 30
+	"Lunalilo #1" = 10
+	"Kalakaua #1" = 10
+	"Daniel #0" = 20
+	"John #0" = 0
+	
+	"Lili'uokalani #1" = -10
+}
+
+leader_names = { 
+	Bourke Darling
+	Brisbane Macquarie
+	Bligh King Butler
+	Hunter Phillip Denison
+	Fitzroy Belmore
+	Robinson
+	Loftus Carrington
+	Duff Hampden Beauchamp Rawson
+	Chelmsford Yagan 
+	Strickland Davidson
+	Grey Flinders
+	Bass
+}
+
+ship_names = {
+	Sidney Coromandel
+	Yarra Dumbarton
+	Gascoyne Perth
+	Huon Stuart
+	Hawkesbury Toowoomba
+	Maryborough Norman 
+	Warramunga Parramatta
+}

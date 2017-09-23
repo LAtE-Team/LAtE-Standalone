@@ -1,0 +1,184 @@
+# Sierra Madre
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 207 202 170 }
+
+
+
+
+leader_names = {
+
+	"Paraérciniro" "Luis" "Jesús" "Ree" "Jórsinila" "Bacá" "Cuta" "Francisco" "Maci" "Kóci" 
+	"Ropokókiri" "Gará" "Tito" "Ahuí" "Biré" "Ricibúrsiri" "Abi" "Abijí" "Acá" "Acénisa" 
+	"Acmu" "Ahúmari" "Amí" "Anahuí" "Ané" "Areponápuchi" "Arí" "Arihuá" "Ariósibá" "Asári" 
+	"Asésiñ" "Atisi" "Awáscina" "Awírsiniri" "Ayásimi" "Baarí" "Bahi" "Bahíncina" "Bene" "Benérsina" 
+	"Bichihuá" "Biné" "Binori" "Biquiyá" "Biriná" "Bitebá" "Bitechí" "Botonáma" "Buchí" "Bucurí" 
+	"Bure" "Burito" "Candameña" "Caniri" "Capi" "Capó" "Carari" "Carichí" "Carihué" "Chabé" 
+	"Chibi" "Chicúri" "Cíba" "Cota" "Echi" "Gamé" "Gerérami" "Hué" "Huiyé" "Icínsima" 
+	"Isi" "Isíinsia" "Iyé" "Jabu" "Jicuri" "Juri" "Kacísiniri" "Káwi" "Kéchicaniri" "Kobisi" 
+	"Korútisimi" "Kupa" "Maparí" "Marí" "Muchari" "Muné" "Muquira" "Muripi" "Musena" "Naharápnima" 
+	"Nahuají" "Napari" "Napé" "Napíciu" "Naquí" "Narákuri" "Narcurí" "Naré" "Naríhuani" "Narúciri" 
+	"Nata" "Nira" "Noca" "Noko" "Ohi" "Omero" "Opéscanaro" "Opésciniro" "Osa" "Pagótami" 
+	"Pakótami" "Páksinima" "Pamachi" "Picíra" "Pura" "Químare" "Rahui" "Rajá" "Reméncani" "Rihibánsa" 
+	"Riné" "Rokó" "Roróoncani" "Sapársimi" "Saté" "Seba" "Seka" "Simásnura" "Sináscina" "Siwa" 
+	"Sokoruame" "Soma" "Sopori" "Soru" "Sumé" "Suré" "Súrniri" "Tarí" "Teporaca" "Ticíksima" 
+	"Tonachi" "Torécani" "Uba" "Ubáscani" "Urí" "Wari" "Wasa" "Wikaráncane" "Wikuwáscina" "Wiri" }
+monarch_names = {
+	"Paraérciniro #1" = 18
+	"Luis #2" = 0
+	"Jesús #1" = 0
+	"Ree #2" = 0
+	"Jórsinila #1" = 0
+	"Bacá #2" = 0
+	"Cuta #1" = 0
+	"Francisco #1" = 0
+	"Maci #1" = 0
+	"Kóci #2" = 0
+	"Ropokókiri #1" = 0
+	"Gará #1" = 0
+	"Tito #1" = 0
+	"Ahuí #1" = 0
+	"Biré #1" = -1
+	"Ricibúrsiri #1" = 0
+	"Abi #0" = 0
+	"Abijí #0" = 0
+	"Acá #0" = 0
+	"Acénisa #0" = 0
+	"Acmu #0" = 0
+	"Ahúmari #0" = 0
+	"Amí #0" = 0
+	"Anahuí #0" = 0
+	"Ané #0" = 0
+	"Areponápuchi #0" = 0
+	"Arí #0" = 0
+	"Arihuá #0" = 0
+	"Ariósibá #0" = 0
+	"Asári #0" = 0
+	"Asésiñ #0" = 0
+	"Atisi #0" = 0
+	"Awáscina #0" = 0
+	"Awírsiniri #0" = 0
+	"Ayásimi #0" = 0
+	"Baarí #0" = 0
+	"Bahi #0" = 0
+	"Bahíncina #0" = 0
+	"Bene #0" = 0
+	"Benérsina #0" = 0
+	"Bichihuá #0" = 0
+	"Biné #0" = 0
+	"Binori #0" = 0
+	"Biquiyá #0" = 0
+	"Biriná #0" = 0
+	"Bitebá #0" = 0
+	"Bitechí #0" = 0
+	"Botonáma #0" = 0
+	"Buchí #0" = 0
+	"Bucurí #0" = 0
+	"Bure #0" = 0
+	"Burito #0" = 0
+	"Candameña #0" = 0
+	"Caniri #0" = 0
+	"Capi #0" = 0
+	"Capó #0" = 0
+	"Carari #0" = 0
+	"Carichí #0" = 0
+	"Carihué #0" = 0
+	"Chabé #0" = 0
+	"Chibi #0" = 0
+	"Chicúri #0" = 0
+	"Cíba #0" = 0
+	"Cota #0" = 0
+	"Echi #0" = 0
+	"Gamé #0" = 0
+	"Gerérami #0" = 0
+	"Hué #0" = 0
+	"Huiyé #0" = 0
+	"Icínsima #0" = 0
+	"Isi #0" = 0
+	"Isíinsia #0" = 0
+	"Iyé #0" = 0
+	"Jabu #0" = 0
+	"Jicuri #0" = 0
+	"Juri #0" = 0
+	"Kacísiniri #0" = 0
+	"Káwi #0" = 0
+	"Kéchicaniri #0" = 0
+	"Kobisi #0" = 0
+	"Korútisimi #0" = 0
+	"Kupa #0" = 0
+	"Maparí #0" = 0
+	"Marí #0" = 0
+	"Muchari #0" = 0
+	"Muné #0" = 0
+	"Muquira #0" = 0
+	"Muripi #0" = 0
+	"Musena #0" = 0
+	"Naharápnima #0" = 0
+	"Nahuají #0" = 0
+	"Napari #0" = 0
+	"Napé #0" = 0
+	"Napíciu #0" = 0
+	"Naquí #0" = 0
+	"Narákuri #0" = 0
+	"Narcurí #0" = 0
+	"Naré #0" = 0
+	"Naríhuani #0" = 0
+	"Narúciri #0" = 0
+	"Nata #0" = 0
+	"Nira #0" = 0
+	"Noca #0" = 0
+	"Noko #0" = 0
+	"Ohi #0" = 0
+	"Omero #0" = 0
+	"Opéscanaro #0" = 0
+	"Opésciniro #0" = 0
+	"Osa #0" = 0
+	"Pagótami #0" = 0
+	"Pakótami #0" = 0
+	"Páksinima #0" = 0
+	"Pamachi #0" = 0
+	"Picíra #0" = 0
+	"Pura #0" = 0
+	"Químare #0" = 0
+	"Rahui #0" = 0
+	"Rajá #0" = 0
+	"Reméncani #0" = 0
+	"Rihibánsa #0" = 0
+	"Riné #0" = 0
+	"Rokó #0" = 0
+	"Roróoncani #0" = 0
+	"Sapársimi #0" = 0
+	"Saté #0" = 0
+	"Seba #0" = 0
+	"Seka #0" = 0
+	"Simásnura #0" = 0
+	"Sináscina #0" = 0
+	"Siwa #0" = 0
+	"Sokoruame #0" = 0
+	"Soma #0" = 0
+	"Sopori #0" = 0
+	"Soru #0" = 0
+	"Sumé #0" = 0
+	"Suré #0" = 0
+	"Súrniri #0" = 0
+	"Tarí #0" = 0
+	"Teporaca #0" = 0
+	"Ticíksima #0" = 0
+	"Tonachi #0" = 0
+	"Torécani #0" = 0
+	"Uba #0" = 0
+	"Ubáscani #0" = 0
+	"Urí #0" = 0
+	"Wari #0" = 0
+	"Wasa #0" = 0
+	"Wikaráncane #0" = 0
+	"Wikuwáscina #0" = 0
+	"Wiri #0" = 0
+
+
+	"Sipúca #0" = -1
+	"Ahuí #0" = -1
+	"Koriméni #0" = -1
+	"Jípi #0" = -1
+}
+

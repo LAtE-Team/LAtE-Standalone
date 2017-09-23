@@ -1,0 +1,40 @@
+#663 - Wenshan
+
+#owner = MNG
+#controller = MNG
+#add_core= MNG
+culture = bai
+religion = buddhism
+capital = "Guangnan"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= CDL
+
+
+
+discovered_by = chinese
+discovered_by = indian
+#discovered_by = nomad_group
+
+# = { discovered_by = SPA }#Novus Atlas Sinensis
+
+# = {
+	#owner = CZH
+	#controller = CZH
+	#add_core= CZH
+#} # Three Feudatories - Wu Sangui titled as Prince of Pingxi in Yunnan
+# = { trade_goods = unknownme the main focus during the Qing Dynasty.
+# = {
+	#owner = QNG
+	#controller = QNG
+	#add_core= QNG
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,26 @@
+# Los Angeles
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4507
+3027.5.5 = {
+	monarch = {
+		name = "Herbert"
+		birth_date = 3018.8.14
+		dynasty = "Sutter"
+		adm = 5
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 4507
+	add_treasury = 41
+	add_prestige = 93
+}

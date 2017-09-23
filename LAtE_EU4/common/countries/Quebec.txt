@@ -1,0 +1,165 @@
+# Québec
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 70 120 220 }
+
+
+
+
+leader_names = {
+
+	"Ambrose" "Cyrille" "Chloé" "Amaury" "Frédérique" "Joelle" "Nérée" "Acadie" "Danielle" "Charlotte" 
+	"Macha" "Maximilien" "Samuel" "Constance" "Barthélémy" "Marguerite" "Aude" "Michel" "Véronique" "Jacques" 
+	"Adrianne" "Paul" "Denise" "Sharon" "Henri" "Isidora" "Geneviève" "Régis" "Joseph" "Roland" 
+	"Xavier" "Adam" "Stéphanie" "Maurice" "Robert" "Jacqueline" "Gertraud" "Camillien" "Lucie" "Leo" 
+	"Gautier" "Agrippine" "Justin" "Alphonse" "Augustin" "Foulques" "Concordie" "Sulpice" "Sarah" "Pierre" 
+	"Laura" "Frédéric" "Louis" "Arianne" "Tancrède" "Louise" "Marie" "Réal" "Camille" "Jérome" 
+	"Hélène" "Béatrice" "Édouard" "Jeannot" "Charles" "Mélissa" "Chenard" "Alix" "Caroline" "Marcelline" 
+	"Nancy" "Anne" "François" "Alexandre" "Mylène" "Isabelle" "Henriette" "Vincent" "Andronic" "Rohard" 
+	"Serge" "Balian" "Jeannine" "Guy" "Olivier" "Denis" "Lucien" "Daniel" "Cecil" "Athanase" 
+	"Albert" "Alain" "André" "Adrien" "Aurèle" "Baudouin" "Bohémond" "Cartier" "Claude" "Christophe" 
+	"Damase" "Dustin" "Étienne" "Éphrem" "Fabien" "Ferreol" "Ghislain" "Georges" "Geoffroy" "Guillaume" 
+	"Gilles" "Gabriel" "Gaétan" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jean" 
+	"Josselin" "Josue" "Julien" "Laurent" "Marc" "Marcel" "Napoleon" "Ovide" "Odon" "Onfroy" 
+	"Pascal" "Philippe" "René" "Roger" "Raymond" "Renaud" "Roupen" "Wilfrid" }
+monarch_names = {
+	"Ambrose #3" = 21
+	"Cyrille #3" = 24
+	"Chloé #0" = -1
+	"Amaury #0" = 1
+	"Frédérique #0" = -1
+	"Joelle #0" = -1
+	"Nérée #0" = 1
+	"Acadie #0" = -1
+	"Danielle #0" = -1
+	"Charlotte #0" = -1
+	"Macha #0" = -1
+	"Maximilien #0" = 1
+	"Samuel #0" = 1
+	"Constance #0" = -1
+	"Barthélémy #1" = 24
+	"Marguerite #0" = -1
+	"Aude #0" = -1
+	"Michel #0" = 1
+	"Véronique #1" = -19
+	"Jacques #0" = 1
+	"Adrianne #0" = -1
+	"Paul #0" = 1
+	"Denise #0" = -1
+	"Sharon #0" = -1
+	"Henri #0" = 1
+	"Isidora #0" = -1
+	"Geneviève #0" = -1
+	"Régis #0" = 1
+	"Joseph #0" = 1
+	"Roland #0" = 1
+	"Xavier #0" = 1
+	"Adam #0" = 1
+	"Stéphanie #0" = -1
+	"Maurice #0" = 1
+	"Robert #0" = 1
+	"Jacqueline #0" = -1
+	"Gertraud #0" = -1
+	"Camillien #0" = 1
+	"Lucie #0" = -1
+	"Leo #0" = 1
+	"Gautier #0" = 1
+	"Agrippine #0" = -1
+	"Justin #0" = 1
+	"Alphonse #0" = 1
+	"Augustin #0" = 1
+	"Foulques #0" = 1
+	"Concordie #0" = -1
+	"Sulpice #0" = 1
+	"Sarah #0" = -1
+	"Pierre #0" = 1
+	"Laura #0" = -1
+	"Frédéric #0" = 1
+	"Louis #1" = 18
+	"Arianne #0" = -1
+	"Tancrède #0" = 1
+	"Louise #0" = -1
+	"Marie #0" = -1
+	"Réal #0" = 1
+	"Camille #0" = 1
+	"Jérome #0" = 1
+	"Hélène #0" = -1
+	"Béatrice #0" = -1
+	"Édouard #1" = 21
+	"Jeannot #0" = 1
+	"Charles #0" = 1
+	"Mélissa #0" = -1
+	"Chenard #0" = 1
+	"Alix #0" = -1
+	"Caroline #0" = -1
+	"Marcelline #0" = -1
+	"Nancy #0" = -1
+	"Anne #0" = -1
+	"François #1" = 24
+	"Alexandre #0" = 1
+	"Mylène #0" = -1
+	"Isabelle #0" = -1
+	"Henriette #0" = -1
+	"Vincent #0" = 1
+	"Andronic #0" = 1
+	"Rohard #1" = 18
+	"Serge #0" = 1
+	"Balian #0" = 1
+	"Jeannine #0" = -1
+	"Guy #1" = 18
+	"Olivier #1" = 0
+	"Denis #1" = 0
+	"Lucien #1" = 0
+	"Daniel #1" = 0
+	"Cecil #1" = 0
+	"Athanase #0" = 0
+	"Albert #0" = 0
+	"Alain #0" = 0
+	"André #0" = 0
+	"Adrien #0" = 0
+	"Aurèle #0" = 0
+	"Baudouin #0" = 0
+	"Bohémond #0" = 0
+	"Cartier #0" = 0
+	"Claude #0" = 0
+	"Christophe #0" = 0
+	"Damase #0" = 0
+	"Dustin #0" = 0
+	"Étienne #0" = 0
+	"Éphrem #0" = 0
+	"Fabien #0" = 0
+	"Ferreol #0" = 0
+	"Ghislain #0" = 0
+	"Georges #0" = 0
+	"Geoffroy #0" = 0
+	"Guillaume #0" = 0
+	"Gilles #0" = 0
+	"Gabriel #0" = 0
+	"Gaétan #0" = 0
+	"Hector #0" = 0
+	"Hilaire #0" = 0
+	"Hughes #0" = 0
+	"Hubert #0" = 0
+	"Isidore #0" = 0
+	"Ignace #0" = 0
+	"Jean #0" = 0
+	"Josselin #0" = 0
+	"Josue #0" = 0
+	"Julien #0" = 0
+	"Laurent #0" = 0
+	"Marc #0" = 0
+	"Marcel #0" = 0
+	"Napoleon #0" = 0
+	"Ovide #0" = 0
+	"Odon #0" = 0
+	"Onfroy #0" = 0
+	"Pascal #0" = 0
+	"Philippe #0" = 0
+	"René #0" = 0
+	"Roger #0" = 0
+	"Raymond #0" = 0
+	"Renaud #0" = 0
+	"Roupen #0" = 0
+	"Wilfrid #0" = 0
+}
+

@@ -1,0 +1,25 @@
+# Agraciado Empire
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 828
+3051.12.5 = {
+	monarch = {
+		name = "Maolenin"
+		birth_date = 3023.7.8
+		dynasty = "Ureno"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 828
+	add_treasury = 56
+	add_prestige = 250
+}

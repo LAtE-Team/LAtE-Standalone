@@ -1,0 +1,37 @@
+# Redcoat Dominion
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = british
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 968
+3039.12.16 = {
+	monarch = {
+		name = "Outgrabe"
+		birth_date = 2986.3.8
+		dynasty = "of  Boston"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Claudas"
+		monarch_name = "Claudas"
+		dynasty = "of  Boston"
+		birth_date = 2993.9.30
+		death_date = 3073.9.30
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 968
+	add_treasury = 29
+	add_prestige = 121
+}

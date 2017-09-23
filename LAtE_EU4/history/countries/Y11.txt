@@ -1,0 +1,26 @@
+# Bayou Pierre
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2529
+3044.4.27 = {
+	monarch = {
+		name = "Elias"
+		birth_date = 3003.12.21
+		dynasty = " Bayou Pierre"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2529
+	add_treasury = 57
+	add_prestige = 16
+	elector = no
+}

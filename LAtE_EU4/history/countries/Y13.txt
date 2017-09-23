@@ -1,0 +1,27 @@
+# Everglades
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4717
+3023.11.23 = {
+	monarch = {
+		name = "Johnny"
+		birth_date = 3007.6.15
+		dynasty = "Pember"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 4717
+	add_treasury = 62
+	add_prestige = 72
+	elector = no
+}

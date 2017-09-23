@@ -1,0 +1,26 @@
+# Olympus
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = haida
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2485
+3008.8.22 = {
+	monarch = {
+		name = "Goldin"
+		birth_date = 2999.4.19
+		dynasty = "Irshill"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = scholar_personality
+}
+3053.1.1 {
+	capital = 2485
+	add_treasury = 29
+	add_prestige = 146
+}

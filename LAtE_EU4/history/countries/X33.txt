@@ -1,0 +1,25 @@
+# Ensenada
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = californio
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2620
+3053.1.1 {
+	monarch = {
+		name = "Teng"
+		birth_date = 2992.5.27
+		dynasty = "Riggs"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = sinner_personality
+}
+3053.1.1 {
+	capital = 2620
+	add_treasury = 28
+	add_prestige = 70
+}

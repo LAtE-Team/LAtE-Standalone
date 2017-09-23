@@ -1,0 +1,27 @@
+# Magnolia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = riverlander
+religion = protestant
+clear_scripted_personalities = yes
+capital = 920
+3035.7.20 = {
+	monarch = {
+		name = "Pere III"
+		birth_date = 3029.7.15
+		dynasty = "Gump"
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 920
+	add_treasury = -55
+	add_prestige = 253
+	elector = yes
+}

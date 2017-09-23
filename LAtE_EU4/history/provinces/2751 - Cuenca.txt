@@ -1,0 +1,48 @@
+#2751 - Cuenca
+
+#owner = CAS		#Juan II of Castille
+#controller = CAS
+#add_core= CAS
+culture = castillian
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Cuenca" 
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # The revolt of the comuneros
+# = { revolt = {} #controller = SPA } # The Comuneros are defeated
+# = { unrest = 3 } # Restlessness due to prolonged famines
+# = { unrest = 0 } # The King is forced to adopt measures to appease the population, a new corregidor is elected
+# = { #controller = ENG } # Anglo-portuguese troops take the city in the name of Archduke Carlos of Austria
+# = { #controller = SPA } # Troops loyal to Felipe V recover the city
+# = { #controller = HAB } # Archduke Carlos takes the city
+# = { #controller = SPA } # Archduke Carlos leaves the city due to the pressure of partidaries of Felipe V
+# = { remove_core = CAS }
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

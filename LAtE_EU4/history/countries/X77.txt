@@ -1,0 +1,25 @@
+# Gitmo
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 4714
+3046.8.19 = {
+	monarch = {
+		name = "Glenville"
+		birth_date = 3018.2.22
+		dynasty = "McKenzie"
+		adm = 5
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = careful_personality
+}
+3053.1.1 {
+	capital = 4714
+	add_treasury = 142
+	add_prestige = -17
+}

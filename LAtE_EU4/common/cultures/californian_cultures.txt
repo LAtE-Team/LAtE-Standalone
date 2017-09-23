@@ -1,0 +1,17 @@
+californian = {
+	angeleno = {
+		primary = LAX
+		dynasty_names = { "Davis" "Douglas" "Hayworth" "Hitchcock" "Zinnemann" "Huston" "Kubrick" "Norton" "Huang" "Chan" "Muniz" "La Mesa" "Lincoln" "Simi Valley" "Pasadena" "Ramis" "Iglesias" "Cloverdale" "Li" "Cohen" "Hemet" "Cohn" "Sheridan" "Brooks" "Nyongo" "Chaplin" "Indian Wells" "Crawford" "Hitchcock" "Newman" "Sanchez" "Keaton" "Guzman" }
+	}
+	bayfolk = {
+		primary = BAY
+		dynasty_names = { "Caymus" "Barryessa" "Oroenpaz" "Sloat" "Hayesval" "Clarendeights" "Irshill" "Kitill" "Oceanave" "Holloway" "Lagonda" "Releights" "Merceding" "Alcatraz" "Berkeley" "San Mateo" "Walnut Creek" "Seabeck" "Mill Valley" "Milpitas" "Yountville" "Federal Way" "Moclips" "Grand Mound" "Sequim" "Merceding" }
+	}
+	valleyan = {
+		primary = VAL
+		dynasty_names = { "Hargraves" "Armour" "Sutter" "Riggs" "Lyell" "Moyle" "Tribble" "Wickes" "Winkler" "Yosemite" "Edwards" "Zins" "Derrick" "Sing" "Nayarit" "Vista" "Fresno" "Gibbs" "Oakdale" "Tecate" "Nayarit" "Zins" "Planada" "Sutter" "Ahwahnee" "Newman" "Dana Point" }
+	}
+	calaotian = {
+		dynasty_names = { "Templar" }
+	}
+}

@@ -1,0 +1,25 @@
+# Anzoátegui
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 741
+3047.1.12 = {
+	monarch = {
+		name = "Montes"
+		birth_date = 3018.1.28
+		dynasty = "Jonaitis"
+		adm = 3
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = lawgiver_personality
+}
+3053.1.1 {
+	capital = 741
+	add_treasury = 89
+	add_prestige = 120
+}

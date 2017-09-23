@@ -1,0 +1,17 @@
+#1991 - Gilbert Islands
+
+owner = UTP
+controller = UTP
+add_core = UTP
+is_city = yes
+culture = gilbertese
+religion = consumerist
+capital = "Utopia"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 1
+native_ferocity = 1
+native_hostileness = 1

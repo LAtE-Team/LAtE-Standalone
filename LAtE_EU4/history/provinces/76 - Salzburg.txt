@@ -1,0 +1,25 @@
+#76 - Salzburg
+
+#owner = SLZ
+#controller = SLZ 
+culture = austrian
+religion = celticist
+capital = "Salzburg"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= SLZ
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

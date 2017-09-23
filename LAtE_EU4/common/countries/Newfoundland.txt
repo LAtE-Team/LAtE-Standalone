@@ -1,0 +1,196 @@
+# Newfoundland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 26 164 141 }
+
+
+
+
+leader_names = {
+
+	"Philip" "Aileen" "Bride" "Magnolia" "Mellan" "Simon" "Daniel" "Laurie" "Fergus" "May" 
+	"Olive" "Sinead" "Aurelia" "Caitlin" "Therese" "Ivor" "Labhras" "Keavy" "Bairre" "Patrig" 
+	"Ceallach" "Marielle" "Jonatan" "Chrestian" "Clara" "Ryerson" "Eustace" "Carey" "Aurora" "Ophelia" 
+	"Donovan" "Rearden" "Blair" "Marilla" "Goban" "Sarah" "Eilis" "Caroline" "Tessa" "Agnes" 
+	"Enos" "Garvan" "Melody" "Neasa" "Lile" "Gallant" "Sean" "Bairbre" "Enya" "Quinn" 
+	"Linda" "Fiona" "Gearalt" "Adam" "Albert" "Alex" "Alexander" "Alfred" "Allan" "Ambrose" 
+	"Andrew" "Anthony" "Archibald" "Arthur" "Augustus" "Baxter" "Benjamin" "Bernard" "Bertram" "Charles" 
+	"Chesley" "Christopher" "Clarence" "Claude" "Clayton" "Cyril" "David" "Dennis" "Dorman" "Douglas" 
+	"Edgar" "Edmund" "Edward" "Edwin" "Eli" "Elias" "Elijah" "Eric" "Ernest" "Eugene" 
+	"Francis" "Frank" "Fred" "Frederick" "Garland" "George" "Gerald" "Gilbert" "Gordon" "Harold" 
+	"Harry" "Harvey" "Hayward" "Heber" "Hedley" "Henry" "Herbert" "Howard" "Hubert" "Hugh" 
+	"Isaac" "Jack" "Jacob" "James" "Jean" "Job" "John" "Joseph" "Josiah" "Kenneth" 
+	"Kevin" "Lawrence" "Leo" "Leonard" "Leslie" "Levi" "Lewis" "Lloyd" "Malcolm" "Mark" 
+	"Martin" "Matthew" "Maurice" "Maxwell" "Michael" "Nathaniel" "Nicholas" "Norman" "Patrick" "Paul" 
+	"Peter" "Ralph" "Raymond" "Reginald" "Reuben" "Richard" "Robert" "Roland" "Ronald" "Roy" 
+	"Samuel" "Sidney" "Solomon" "Stanley" "Stephen" "Stewart" "Thomas" "Timothy" "Victor" "Vincent" 
+	"Wallace" "Walter" "Wilfred" "William" "Willis" "Wilson" }
+monarch_names = {
+	"Philip #0" = 1
+	"Aileen #0" = -1
+	"Bride #0" = -1
+	"Magnolia #0" = -1
+	"Mellan #0" = 1
+	"Simon #0" = 1
+	"Daniel #0" = 1
+	"Laurie #1" = 18
+	"Fergus #0" = 1
+	"May #0" = -1
+	"Olive #0" = -1
+	"Sinead #0" = -1
+	"Aurelia #0" = -1
+	"Caitlin #0" = -1
+	"Therese #0" = -1
+	"Ivor #0" = 1
+	"Labhras #0" = 1
+	"Keavy #0" = -1
+	"Bairre #0" = 1
+	"Patrig #0" = 1
+	"Ceallach #1" = 27
+	"Marielle #0" = -1
+	"Jonatan #0" = 1
+	"Chrestian #0" = 1
+	"Clara #0" = -1
+	"Ryerson #0" = 1
+	"Eustace #0" = 1
+	"Carey #0" = -1
+	"Aurora #0" = -1
+	"Ophelia #0" = -1
+	"Donovan #1" = 21
+	"Rearden #0" = 1
+	"Blair #2" = 24
+	"Marilla #0" = -1
+	"Goban #0" = 1
+	"Sarah #0" = -1
+	"Eilis #0" = -1
+	"Caroline #0" = -1
+	"Tessa #0" = -1
+	"Agnes #0" = -1
+	"Enos #1" = 18
+	"Garvan #0" = 1
+	"Melody #0" = -1
+	"Neasa #0" = -1
+	"Lile #0" = -1
+	"Gallant #0" = 1
+	"Sean #0" = 1
+	"Bairbre #0" = -1
+	"Enya #0" = -1
+	"Quinn #0" = 1
+	"Linda #0" = -1
+	"Fiona #0" = -1
+	"Gearalt #0" = 1
+	"Adam #0" = 0
+	"Albert #0" = 0
+	"Alex #0" = 0
+	"Alexander #0" = 0
+	"Alfred #0" = 0
+	"Allan #0" = 0
+	"Ambrose #0" = 0
+	"Andrew #0" = 0
+	"Anthony #0" = 0
+	"Archibald #0" = 0
+	"Arthur #0" = 0
+	"Augustus #0" = 0
+	"Baxter #0" = 0
+	"Benjamin #0" = 0
+	"Bernard #0" = 0
+	"Bertram #0" = 0
+	"Charles #0" = 0
+	"Chesley #0" = 0
+	"Christopher #0" = 0
+	"Clarence #0" = 0
+	"Claude #0" = 0
+	"Clayton #0" = 0
+	"Cyril #0" = 0
+	"David #0" = 0
+	"Dennis #0" = 0
+	"Dorman #0" = 0
+	"Douglas #0" = 0
+	"Edgar #0" = 0
+	"Edmund #0" = 0
+	"Edward #0" = 0
+	"Edwin #0" = 0
+	"Eli #0" = 0
+	"Elias #0" = 0
+	"Elijah #0" = 0
+	"Eric #0" = 0
+	"Ernest #0" = 0
+	"Eugene #0" = 0
+	"Francis #0" = 0
+	"Frank #0" = 0
+	"Fred #0" = 0
+	"Frederick #0" = 0
+	"Garland #0" = 0
+	"George #0" = 0
+	"Gerald #0" = 0
+	"Gilbert #0" = 0
+	"Gordon #0" = 0
+	"Harold #0" = 0
+	"Harry #0" = 0
+	"Harvey #0" = 0
+	"Hayward #0" = 0
+	"Heber #0" = 0
+	"Hedley #0" = 0
+	"Henry #0" = 0
+	"Herbert #0" = 0
+	"Howard #0" = 0
+	"Hubert #0" = 0
+	"Hugh #0" = 0
+	"Isaac #0" = 0
+	"Jack #0" = 0
+	"Jacob #0" = 0
+	"James #0" = 0
+	"Jean #0" = 0
+	"Job #0" = 0
+	"John #0" = 0
+	"Joseph #0" = 0
+	"Josiah #0" = 0
+	"Kenneth #0" = 0
+	"Kevin #0" = 0
+	"Lawrence #0" = 0
+	"Leo #0" = 0
+	"Leonard #0" = 0
+	"Leslie #0" = 0
+	"Levi #0" = 0
+	"Lewis #0" = 0
+	"Lloyd #0" = 0
+	"Malcolm #0" = 0
+	"Mark #0" = 0
+	"Martin #0" = 0
+	"Matthew #0" = 0
+	"Maurice #0" = 0
+	"Maxwell #0" = 0
+	"Michael #0" = 0
+	"Nathaniel #0" = 0
+	"Nicholas #0" = 0
+	"Norman #0" = 0
+	"Patrick #0" = 0
+	"Paul #0" = 0
+	"Peter #0" = 0
+	"Ralph #0" = 0
+	"Raymond #0" = 0
+	"Reginald #0" = 0
+	"Reuben #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roland #0" = 0
+	"Ronald #0" = 0
+	"Roy #0" = 0
+	"Samuel #0" = 0
+	"Sidney #0" = 0
+	"Solomon #0" = 0
+	"Stanley #0" = 0
+	"Stephen #0" = 0
+	"Stewart #0" = 0
+	"Thomas #0" = 0
+	"Timothy #0" = 0
+	"Victor #0" = 0
+	"Vincent #0" = 0
+	"Wallace #0" = 0
+	"Walter #0" = 0
+	"Wilfred #0" = 0
+	"William #0" = 0
+	"Willis #0" = 0
+	"Wilson #0" = 0
+}
+

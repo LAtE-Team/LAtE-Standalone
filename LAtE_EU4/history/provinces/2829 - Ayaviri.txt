@@ -1,0 +1,24 @@
+# - Ayaviri
+
+owner = PEU
+controller = PEU
+add_core= PEU
+culture = aimara
+religion = inti
+capital = "Ayaviri"
+is_city = yes
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

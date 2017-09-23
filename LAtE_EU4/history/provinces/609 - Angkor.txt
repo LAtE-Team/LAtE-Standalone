@@ -1,0 +1,44 @@
+#609 - Angkor
+
+#owner = KHM
+#controller = KHM
+culture = khmer
+religion = hinduism
+capital = "Angkor"
+trade_goods = tropical_wood
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = no
+#add_core= KHM
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+# = { religion = buddhism }
+# = { discovered_by = POR }
+# = {
+	#owner = AYU
+	#controller = AYU
+	#add_core= AYU
+#}
+# = { capital = "Siem Riep" }
+# = {
+	#owner = KHM
+	#controller = KHM
+#}
+# = {
+	#owner = AYU
+	#controller = AYU
+#}
+# = { unrest = 5 } # The Siamese-Cambodian Rebellion
+# = { unrest = 0 }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

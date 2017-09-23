@@ -1,0 +1,128 @@
+# Estacado
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 158 58 43 }
+
+
+
+
+leader_names = {
+
+	"Fellipa" "Natalia" "Irlanda" "Yñigo" "Alina" "Cabrillo" "Gustavito" "Miguel" "Marina" "Francisco" 
+	"Isabel" "Beltrán" "Cavo" "Rosalinda" "Inés" "Digna" "Gonzalo" "Gaspar" "Parosawano" "Pahhauca" 
+	"Lenna" "Cushunarahah" "Bowahquasuh" "Ettah" "Kanaretah" "Pahtrisula" "Hotoyokohwot" "Mooraquetop" "Monneconnahheh" "Perna-peta" 
+	"Diego García" "Colón" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Baltasar" "Bahamonde" "Bruno" 
+	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cuauhtémoc" "Diesel" "Demián" "Daniel" "Diego Carlos" "Epifanio" 
+	"Édgar" "Giraldo" "Gastón" "García" "Gil" "Garcilaso" "Gabino" "Hernando" "Huggo" "Honorio" 
+	"Horacio" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís" "Lorenzo" "Lope" "Leonor" 
+	"Magallanes" "Melchior" "Martín" "Marcos" "Melchor" "Mariano" "Montejo" "Ñuflo" "Olid" "Osvaldo" 
+	"Pizarro" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Rodrigo" "Roque" "Renato" "René" 
+	"Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" "Ulises" "Urbano" 
+	"Vela" "Vasco" "Wenceslao" "Xemen" }
+monarch_names = {
+	"Fellipa #0" = -1
+	"Natalia #0" = -1
+	"Irlanda #0" = -1
+	"Yñigo #0" = 1
+	"Alina #0" = -1
+	"Cabrillo #1" = 18
+	"Gustavito #0" = 1
+	"Miguel #0" = 1
+	"Marina #0" = -1
+	"Francisco #0" = 1
+	"Isabel #0" = -1
+	"Beltrán #0" = 1
+	"Cavo #0" = 1
+	"Rosalinda #0" = -1
+	"Inés #0" = 1
+	"Digna #0" = -1
+	"Gonzalo #1" = 0
+	"Gaspar #2" = 0
+	"Parosawano #1" = 0
+	"Pahhauca #1" = 0
+	"Lenna #1" = -1
+	"Cushunarahah #1" = 0
+	"Bowahquasuh #1" = 0
+	"Ettah #1" = 0
+	"Kanaretah #1" = 0
+	"Pahtrisula #1" = 0
+	"Hotoyokohwot #1" = 0
+	"Mooraquetop #1" = 0
+	"Monneconnahheh #1" = 0
+	"Perna-peta #1" = -1
+	"Diego García #1" = 0
+	"Colón #1" = 0
+	"Américo #0" = 0
+	"Alejo #0" = 0
+	"Alvarado #0" = 0
+	"Aldo #0" = 0
+	"Bartolomé #0" = 0
+	"Baltasar #0" = 0
+	"Bahamonde #0" = 0
+	"Bruno #0" = 0
+	"Cristóbal #0" = 0
+	"Cruz #0" = 0
+	"Cabeza #0" = 0
+	"Coronado #0" = 0
+	"Cuauhtémoc #0" = 0
+	"Diesel #0" = 0
+	"Demián #0" = 0
+	"Daniel #0" = 0
+	"Diego Carlos #0" = 0
+	"Epifanio #0" = 0
+	"Édgar #0" = 0
+	"Giraldo #0" = 0
+	"Gastón #0" = 0
+	"García #0" = 0
+	"Gil #0" = 0
+	"Garcilaso #0" = 0
+	"Gabino #0" = 0
+	"Hernando #0" = 0
+	"Huggo #0" = 0
+	"Honorio #0" = 0
+	"Horacio #0" = 0
+	"Jofre #0" = 0
+	"Jerónimo #0" = 0
+	"Jacinto #0" = 0
+	"Kino #0" = 0
+	"León #0" = 0
+	"Luís #0" = 0
+	"Lorenzo #0" = 0
+	"Lope #0" = 0
+	"Leonor #0" = 0
+	"Magallanes #0" = 0
+	"Melchior #0" = 0
+	"Martín #0" = 0
+	"Marcos #0" = 0
+	"Melchor #0" = 0
+	"Mariano #0" = 0
+	"Montejo #0" = 0
+	"Ñuflo #0" = 0
+	"Olid #0" = 0
+	"Osvaldo #0" = 0
+	"Pizarro #0" = 0
+	"Porfirio #0" = 0
+	"Pánfilo #0" = 0
+	"Ponce #0" = 0
+	"Puná #0" = 0
+	"Pío #0" = 0
+	"Rodrigo #0" = 0
+	"Roque #0" = 0
+	"Renato #0" = 0
+	"René #0" = 0
+	"Rosario #0" = 0
+	"Ruy #0" = 0
+	"Soto #0" = 0
+	"Sandoval #0" = 0
+	"Sergio #0" = 0
+	"Santiago #0" = 0
+	"Tito #0" = 0
+	"Tristán #0" = 0
+	"Ulises #0" = 0
+	"Urbano #0" = 0
+	"Vela #0" = 0
+	"Vasco #0" = 0
+	"Wenceslao #0" = 0
+	"Xemen #0" = 0
+}
+

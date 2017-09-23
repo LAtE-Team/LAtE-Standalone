@@ -1,0 +1,25 @@
+#1030 - Owari
+
+owner = KRU
+controller = KRU
+culture = edokko
+religion = shinto
+capital = "Kiyosu"
+trade_goods = dyes
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core= KRU
+discovered_by = chinese
+
+add_permanent_province_modifier = {
+	name = ise_grand_shrine
+	duration = -1
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,25 @@
+# Vautour
+government = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2501
+3053.1.1 {
+	monarch = {
+		name = "Brian"
+		birth_date = 3016.8.9
+		dynasty = "Vautour"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 2501
+	add_treasury = 10
+	add_prestige = 60
+}

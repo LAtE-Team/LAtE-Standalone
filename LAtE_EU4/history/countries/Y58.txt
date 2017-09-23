@@ -1,0 +1,26 @@
+# Pueblo
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = coloradan
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2496
+3018.8.8 = {
+	monarch = {
+		name = "Elliot"
+		birth_date = 3000.9.6
+		dynasty = "Zeamays"
+		adm = 6
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 2496
+	add_treasury = 16
+	add_prestige = 191
+}

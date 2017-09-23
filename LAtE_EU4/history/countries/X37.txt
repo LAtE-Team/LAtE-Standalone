@@ -1,0 +1,25 @@
+# Berdoo
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = californio
+religion = cetic
+clear_scripted_personalities = yes
+capital = 865
+3053.1.1= {
+	monarch = {
+		name = "Calvin"
+		birth_date = 3028.11.13
+		dynasty = "Sutter"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 865
+	add_treasury = 11
+	add_prestige = 48
+}

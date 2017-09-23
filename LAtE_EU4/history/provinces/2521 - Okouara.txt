@@ -1,0 +1,53 @@
+# No previous file for Okouara
+
+culture = mesquakie
+religion = totemism
+capital = "Okouara"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+
+# = { discovered_by = FRA 
+# = { discovered_by = ENG 
+
+# = {
+	#owner = OTT
+	#controller = OTT
+	#add_core= OTT
+	is_city = no
+	trade_goods = unknown
+	culture = anishinabe 
+ #Beaver Wars situation
+# = {
+	#owner = IRO
+	#controller = IRO
+	culture = iroquois 
+ #Taken by Iroquois in Beaver Wars.
+# = {
+	#owner = OTT
+	#controller = OTT
+	is_city = no
+	culture = anishinabe 
+ #Retaken by French/Allies in Beaver Wars
+# = { discovered_by = GBR 
+# = {
+	#owner = USA
+	#controller = USA
+	#add_core= USA
+	culture = american
+	religion = protestant 
+ #The death of Tecumseh mark the end of organized native resistance 
+discovered_by = GBR

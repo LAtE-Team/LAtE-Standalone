@@ -1,0 +1,47 @@
+# - Rioja
+
+#owner = CAS		#Juan II of Castille
+#controller = CAS
+#add_core= CAS
+culture = castillian
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Logroño"
+estate = estate_nobles
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { unrest = 3 } # Nobiliary uprising against King Enrique, Castilla goes into anarchy
+# = { unrest = 0 } # Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved
+# = { unrest = 3 } # Isabel marries with Fernando of Aragon, breaking the Pacts of Guisando. King Enrique choses his daughter Juana ("La Beltraneja") as new heiress and a succession War erupts.
+# = { unrest = 0 } # Peace of Alcaçovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB } # War of the Comunidades
+# = { revolt = {} #controller = SPA } # The army of the "Comuneros" is defeated at Villalar. Its leaders are promptly beheaded.
+# = { remove_core = CAS }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

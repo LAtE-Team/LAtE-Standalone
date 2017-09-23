@@ -1,0 +1,26 @@
+# Aguas
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 2807
+3042.11.21 = {
+	monarch = {
+		name = "Herwis II"
+		birth_date = 3040.7.21
+		dynasty = "Dominguez"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 2807
+	add_treasury = 68
+	add_prestige = 37
+}

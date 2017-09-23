@@ -1,0 +1,150 @@
+# Monashee
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 0 0 115 }
+
+
+
+
+leader_names = {
+
+	"Ihldiinii" "Henry" "Pratchett" "Shannon" "Josh" "Kimana" "Hluuwee" "Raina" "Sguii" "Ltsuq" 
+	"Sandlenee" "Cha'atl" "Xuut" "Klinkwan" "Kagan" "Skaay" "Kit" "Nang Kilsdlaas" "Wah-Kah-Nee" "Tl'aagaang Quna" 
+	"Kwaa Hiiwans" "Kayung" "Yaanans" "Sgaann Hiwhwaans" "Hluunaagad" "Aitchelitz" "Gyaahlans" "Masset" "Tsaak" "Tahaygen" 
+	"Willow" "Gaahlaa" "Waawga" "Tanu" "Haina" "Maria" "Sgaana" "Cumshewa" "S'gana" "Guusk'an" 
+	"Gwaay Guu Ganhlin" "Guubii" "Howkan" "Xhalkuts" "Yahl Sgoansins" "Kiusta" "Sgaana Guujaanga" "Kaat" "Wiiaa" "Naani" 
+	"Yahl Gwaawaas" "Yahl" "Tsang" "Kwoiyang" "Iris" "Kilsdlaa Xidguns" "Skidegate" "Chiin" "Koya" "Kimama" 
+	"Ninstints" "Esperanza" "Boyle" "Kristine" "Jacquiline" "Jenny" "Yahl Kangwaas" "Skedans" "Hiellan" "T'lajung Nung Kingaas" 
+	"Ginaawaan" "Tsaa Hamjuuwee" "Justin" "Warren" "Thasi" "Atewaas" "Chee Xial Taaiixou" "Cuneah" "Dayaang" "Gaahlaay" 
+	"Ganiihlaas" "Ghaltsaakw" "Gidansda" "Gidkun" "Giteewans" "Gitkinjuuwaas" "Gogiid" "Guujaaw" "Guulaas" "Gya'awhlans" 
+	"Hidansuu" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hiljuuwaas" "Hlgitun" "Jaahguhl" "K'ap" "Kithlaigaa" "Kun" 
+	"Kung" "Nang Jingwas" "Sdiithldaa" "Sgaal" "Siigee" "Skaaxwad" "Skil Hiilans" "Skil Tiis" "Skilhlang" "Skilkaadgan" 
+	"Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "Taan" "Tsahtsaa" "Tsinni" "Wigaanad" "Xa" 
+	"Xunts" "Yahguaas" "Yahl Hinku" "Yahl Naaw" }
+monarch_names = {
+	"Ihldiinii #0" = 1
+	"Henry #1" = 18
+	"Pratchett #0" = 1
+	"Shannon #0" = -1
+	"Josh #1" = 21
+	"Kimana #0" = -1
+	"Hluuwee #1" = -25
+	"Raina #0" = -1
+	"Sguii #0" = -1
+	"Ltsuq #0" = -1
+	"Sandlenee #0" = -1
+	"Cha'atl #0" = 1
+	"Xuut #0" = 1
+	"Klinkwan #0" = 1
+	"Kagan #0" = -1
+	"Skaay #0" = 1
+	"Kit #0" = -1
+	"Nang Kilsdlaas #0" = 1
+	"Wah-Kah-Nee #0" = -1
+	"Tl'aagaang Quna #0" = 1
+	"Kwaa Hiiwans #0" = -1
+	"Kayung #0" = -1
+	"Yaanans #0" = -1
+	"Sgaann Hiwhwaans #0" = 1
+	"Hluunaagad #0" = -1
+	"Aitchelitz #0" = -1
+	"Gyaahlans #0" = 1
+	"Masset #0" = -1
+	"Tsaak #0" = -1
+	"Tahaygen #0" = 1
+	"Willow #0" = -1
+	"Gaahlaa #0" = 1
+	"Waawga #0" = -1
+	"Tanu #0" = 1
+	"Haina #0" = 1
+	"Maria #0" = -1
+	"Sgaana #1" = -22
+	"Cumshewa #0" = -1
+	"S'gana #0" = 1
+	"Guusk'an #0" = 1
+	"Gwaay Guu Ganhlin #0" = 1
+	"Guubii #0" = -1
+	"Howkan #0" = -1
+	"Xhalkuts #0" = -1
+	"Yahl Sgoansins #0" = 1
+	"Kiusta #0" = -1
+	"Sgaana Guujaanga #0" = -1
+	"Kaat #1" = 24
+	"Wiiaa #0" = 1
+	"Naani #0" = -1
+	"Yahl Gwaawaas #0" = -1
+	"Yahl #0" = -1
+	"Tsang #0" = -1
+	"Kwoiyang #0" = -1
+	"Iris #0" = -1
+	"Kilsdlaa Xidguns #1" = 18
+	"Skidegate #0" = 1
+	"Chiin #0" = 1
+	"Koya #0" = 1
+	"Kimama #0" = -1
+	"Ninstints #0" = -1
+	"Esperanza #0" = -1
+	"Boyle #0" = 1
+	"Kristine #0" = -1
+	"Jacquiline #0" = -1
+	"Jenny #0" = -1
+	"Yahl Kangwaas #4" = 0
+	"Skedans #1" = 0
+	"Hiellan #1" = 0
+	"T'lajung Nung Kingaas #3" = 0
+	"Ginaawaan #1" = 0
+	"Tsaa Hamjuuwee #1" = 0
+	"Justin #1" = 0
+	"Warren #1" = 0
+	"Thasi #1" = 0
+	"Atewaas #0" = 0
+	"Chee Xial Taaiixou #0" = 0
+	"Cuneah #0" = 0
+	"Dayaang #0" = 0
+	"Gaahlaay #0" = 0
+	"Ganiihlaas #0" = 0
+	"Ghaltsaakw #0" = 0
+	"Gidansda #0" = 0
+	"Gidkun #0" = 0
+	"Giteewans #0" = 0
+	"Gitkinjuuwaas #0" = 0
+	"Gogiid #0" = 0
+	"Guujaaw #0" = 0
+	"Guulaas #0" = 0
+	"Gya'awhlans #0" = 0
+	"Hidansuu #0" = 0
+	"Hiidangsaa #0" = 0
+	"Hiidangsdaa #0" = 0
+	"Hiitl'daa #0" = 0
+	"Hiljuuwaas #0" = 0
+	"Hlgitun #0" = 0
+	"Jaahguhl #0" = 0
+	"K'ap #0" = 0
+	"Kithlaigaa #0" = 0
+	"Kun #0" = 0
+	"Kung #0" = 0
+	"Nang Jingwas #0" = 0
+	"Sdiithldaa #0" = 0
+	"Sgaal #0" = 0
+	"Siigee #0" = 0
+	"Skaaxwad #0" = 0
+	"Skil Hiilans #0" = 0
+	"Skil Tiis #0" = 0
+	"Skilhlang #0" = 0
+	"Skilkaadgan #0" = 0
+	"Skilkingaans #0" = 0
+	"Skilkwiitlaas #0" = 0
+	"Skuujgee Gong #0" = 0
+	"Stuut Jubgaab #0" = 0
+	"Sukkwan #0" = 0
+	"Taan #0" = 0
+	"Tsahtsaa #0" = 0
+	"Tsinni #0" = 0
+	"Wigaanad #0" = 0
+	"Xa #0" = 0
+	"Xunts #0" = 0
+	"Yahguaas #0" = 0
+	"Yahl Hinku #0" = 0
+	"Yahl Naaw #0" = 0
+}
+

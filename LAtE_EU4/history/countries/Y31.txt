@@ -1,0 +1,23 @@
+# Cuyahoga
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = consumerist
+capital = 947
+3053.1.1 {
+	monarch = {
+		name = "Ladislaus II"
+		birth_date = 3052.9.7
+		dynasty = "Domschke"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+3053.1.1 {
+	capital = 947
+	add_treasury = 12
+	add_prestige = 55
+}

@@ -1,0 +1,24 @@
+# 2749 - Tikhvin
+add_core = YAR
+owner = YAR
+add_core = YAR
+controller = YAR  
+culture = russian
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+discovered_by = indian
+capital = "Tikhvin"
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

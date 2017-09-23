@@ -1,0 +1,16 @@
+#2446 - Chara
+
+culture = buryat
+religion = tengri_pagan_reformed
+capital = "Chara"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

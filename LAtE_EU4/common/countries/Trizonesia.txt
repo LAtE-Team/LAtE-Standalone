@@ -1,0 +1,69 @@
+graphical_culture = westerngfx
+
+color = { 75  130  135 }
+revolutionary_colors = { 1  5  8 }
+
+monarch_names = {
+	"Friedrich #0" = 60
+	"Albrecht #0" = 50
+	"Ferdinand #0" = 30
+	"Wilhelm #0" = 30
+	"Karl #0" = 20
+	"Christian #0" = 20
+	"Maximilian #0" = 20
+	"Franz #0" = 20
+	"Joseph #0" = 20
+	"Heinrich #0" = 15
+	"August #0" = 15
+	"Ernest #0" = 15
+	"Franz #0 Stefan" = 15
+	"Georg #0" = 15
+	"Johann #0" = 15
+	"Ladislav #0" = 15
+	"Leopold #0" = 15
+	"Matthias #0" = 15
+	"Mortiz #0" = 15
+	"Siegmund #0" = 15
+	"Ludwig #0" = 10
+	"Alexander #0" = 10
+	"Anton #0" = 10
+	"Hektor #0" = 10
+	"Ruprecht #0" = 10
+	"Wenzel #0" = 10
+	
+	"Ortrun #0" = -1
+	"Marianne #0" = -1
+	"Raffaela #0" = -1
+}
+
+leader_names = { 
+	Adam Angermann Appelt Arndt Beck Becker Bening Blasius
+	Brilz Bröser Büttner Carl Dahm Deneke Eckstein Edelmann 
+	Elsner Feil Fischer Franke Giewer Haase Hafner Hertel 
+	Hirsch Höhn Kammel Keller Kessler Koeppe Kohn Krämer
+	Kuhn Lindner Mertesdorf Meyer Mick Müller Necker Noell 
+	Oelgemöller Raabe Rainer Scharfbillig Schave Scheler 
+	Schmitt Schneider Schumann Stephan Thelen Trierweiler
+	Uhlig "von Franken" "von Rothenburg" "von Schwaben"
+	"von Vitzgau" "von Weimar" Wachsmuth Wacht "von Werl"
+	Walther Wecker
+}
+
+ship_names = {
+	Ariadne Habicht Adler Albatross Amazone
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+	Möwe Mücke Luchs König Kaiser Eber Drache
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+	Greif Condor Cormoran Comet Wacht Tiger
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+	Bussard Vulkan
+}
+
+army_names = {
+	"Kaiserliche Armee" "Armee von $PROVINCE$" 
+}
+
+fleet_names = {
+	"Kaiserliche Flotte"
+}

@@ -1,0 +1,13 @@
+british = {
+	anglo_saxon = {
+		primary = ENG
+		dynasty_names = { }
+	}
+}
+
+gaelic = {
+	pictish = {
+		primary = SCO
+		dynasty_names = { }
+	}
+}

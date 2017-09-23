@@ -1,0 +1,18 @@
+# Blood Wood
+government = siberian_native_council #Till we make a european equivalent
+government_rank = 1
+technology_group = high_american
+primary_culture = ruthenian # for now
+religion = atomicist
+capital = 280
+3050.1.1 = {
+	monarch = {
+		name = "Alachia"
+		dynasty = "Ni'Fairra"
+		female = yes
+		birth_date = 3027.1.1
+		adm = 3
+		dip = 3
+		mil = 3		
+	}
+}

@@ -1,0 +1,26 @@
+# Petén
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = mayan
+religion = uahomche
+clear_scripted_personalities = yes
+capital = 842
+3030.10.28 = {
+	monarch = {
+		name = "Hun-Came II"
+		birth_date = 3010.8.7
+		dynasty = "Bolonchen"
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 842
+	add_treasury = 38
+	add_prestige = 156
+}

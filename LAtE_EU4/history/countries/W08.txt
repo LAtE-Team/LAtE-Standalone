@@ -1,0 +1,26 @@
+# Cesar
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = cartagenero
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 828
+2994.3.3 = {
+	monarch = {
+		name = "Danna"
+		birth_date = 2984.12.7
+		dynasty = "Uria"
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 828
+	add_treasury = 35
+	add_prestige = 385
+}

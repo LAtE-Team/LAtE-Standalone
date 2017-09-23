@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = kiwi
+capital = 1109	# Dunedin
+
+3050.1.1 = {
+	monarch = {
+		name = "Aragorn II"
+		dynasty = "Telcontar"
+		birth_date = 3019.5.1 # Date of the Return of the King, not going to attempt a 210 year old Numenorean
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

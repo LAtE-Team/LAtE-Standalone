@@ -1,0 +1,272 @@
+# Aroostook
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 71 194 99 }
+
+
+
+
+leader_names = {
+
+	"Jonatan" "Gallagher" "Briana" "Monat" "Conley" "Eilis" "Art" "Allison" "Laoise" "Oran" 
+	"Chrestian" "Angus" "Dymphna" "Bedelia" "Honora" "Finbar" "Columban" "Nioclas" "Dermot" "Quiggen" 
+	"Driscoll" "Lovarck" "Federlma" "Brogan" "Donovan" "Maire" "Ella" "Kiera" "Farquhar" "Domnall" 
+	"Muirgel" "Garvan" "Fergal" "Darina" "Magnolia" "Naomh" "Liadan" "Nainsi" "Lorcan" "Cadogan" 
+	"Caroline" "Clara" "Ophelia" "Patricia" "Ross" "Donnchad" "Keavy" "Heber" "Eileen" "Grace" 
+	"Keenan" "Fionnuala" "Increase" "Duncan" "Herbert" "Meredith" "Edward" "Hawthorne" "Rory" "Brian" 
+	"Cathan" "Evan" "Owen" "Abel" "Adam" "Arthur" "Archibald" "Anchor" "Adlard" "Alveredus" 
+	"Ambrose" "Augustine" "Annanias" "Adrian" "Abimelech" "Abbadon" "Arunah" "Bidwell" "Barton" "Benjamin" 
+	"Balthasar" "Bradley" "Barnabas" "Batholomew" "Bertram" "Bruce" "Benedict" "Bellingham" "Bennett" "Bevil" 
+	"Botolph" "Bildad" "Charles" "Curtis" "Chester" "Christopher" "Cornelius" "Cadwallader" "Cuthbert" "Cluton" 
+	"Cagin" "Crallo" "Celephaïs" "David" "Degory" "Denton" "Edwin" "Edmund" "Elijah" "Ezekiel" 
+	"Ebulus" "Emannuel" "Emery" "Emmett" "Enoch" "Everard" "Enderby" "Elon" "Franklin" "Francis" 
+	"Fulkes" "George" "Gregory" "Goliath" "Giles" "Gilbert" "Garnet" "Garrett" "Gavin" "Gentile" 
+	"Gervase" "Goughe" "Guy" "Howard" "Henry" "Horace" "Hector" "Helegor" "Heneage" "Harman" 
+	"Humphrey" "Havlock" "Isaac" "Ingram" "Jonathan" "James" "Jacob" "Joseph" "Jesper" "Jermanus" 
+	"Jerome" "Joshua" "Jordan" "Jucentius" "Judovell" "Jeroboam" "Jehoram" "Jotham" "Joconiah" "Jepthah" 
+	"Keziah" "Lemuel" "Liam" "Leo" "Lambert" "Lazarus" "Ludowick" "Lucas" "Malcolm" "Marcus" 
+	"Mason" "Myles" "Machutus" "Manasses" "Marmaduke" "Melchior" "Moab" "Michael" "Melville" "Menahem" 
+	"Norman" "Nehem" "Nathaniel" "Ninion" "Newton" "Obed" "Oceanus" "Ottewell" "Oakborn" "Onesiphorus" 
+	"Othniel" "Philipp" "Phineas" "Peregrine" "Peter" "Paschall" "Polidore" "Paul" "Quentin" "Quirinus" 
+	"Randolph" "Robert" "Richmond" "Ronald" "Raymond" "Roger" "Rhys" "Rehoboam" "Shem" "Stephen" 
+	"Samuel" "Solomon" "Seaborn" "Saltborn" "Simeon" "Sidrach" "Sampson" "Shadrach" "Shane" "Thomas" 
+	"Theophile" "Tobias" "Thadeus" "Vincent" "Valentine" "Walter" "Wayland" "Wilbur" "William" "Watkin" 
+	"Warham" "Wombell" "Wymond" "Zadok" "Zacharias" }
+monarch_names = {
+	"Jonatan #0" = 1
+	"Gallagher #0" = 1
+	"Briana #0" = -1
+	"Monat #0" = -1
+	"Conley #1" = 18
+	"Eilis #0" = -1
+	"Art #0" = 1
+	"Allison #0" = 1
+	"Laoise #0" = -1
+	"Oran #0" = 1
+	"Chrestian #0" = 1
+	"Angus #2" = 21
+	"Dymphna #0" = -1
+	"Bedelia #0" = -1
+	"Honora #0" = -1
+	"Finbar #0" = 1
+	"Columban #1" = 21
+	"Nioclas #0" = 1
+	"Dermot #0" = 1
+	"Quiggen #0" = 1
+	"Driscoll #0" = 1
+	"Lovarck #1" = 27
+	"Federlma #0" = -1
+	"Brogan #0" = -1
+	"Donovan #0" = 1
+	"Maire #0" = -1
+	"Ella #0" = -1
+	"Kiera #0" = -1
+	"Farquhar #0" = 1
+	"Domnall #0" = 1
+	"Muirgel #0" = -1
+	"Garvan #0" = 1
+	"Fergal #0" = 1
+	"Darina #0" = -1
+	"Magnolia #0" = -1
+	"Naomh #0" = -1
+	"Liadan #0" = -1
+	"Nainsi #0" = -1
+	"Lorcan #0" = 1
+	"Cadogan #0" = 1
+	"Caroline #0" = -1
+	"Clara #0" = -1
+	"Ophelia #0" = -1
+	"Patricia #0" = -1
+	"Ross #0" = 1
+	"Donnchad #1" = 18
+	"Keavy #0" = -1
+	"Heber #0" = 1
+	"Eileen #0" = -1
+	"Grace #0" = -1
+	"Keenan #0" = 1
+	"Fionnuala #0" = -1
+	"Increase #1" = 0
+	"Duncan #1" = 0
+	"Herbert #1" = 0
+	"Meredith #2" = 0
+	"Edward #1" = 0
+	"Hawthorne #1" = 0
+	"Rory #1" = 0
+	"Brian #3" = 0
+	"Cathan #1" = 0
+	"Evan #1" = 0
+	"Owen #1" = 0
+	"Abel #0" = 0
+	"Adam #0" = 0
+	"Arthur #0" = 0
+	"Archibald #0" = 0
+	"Anchor #0" = 0
+	"Adlard #0" = 0
+	"Alveredus #0" = 0
+	"Ambrose #0" = 0
+	"Augustine #0" = 0
+	"Annanias #0" = 0
+	"Adrian #0" = 0
+	"Abimelech #0" = 0
+	"Abbadon #0" = 0
+	"Arunah #0" = 0
+	"Bidwell #0" = 0
+	"Barton #0" = 0
+	"Benjamin #0" = 0
+	"Balthasar #0" = 0
+	"Bradley #0" = 0
+	"Barnabas #0" = 0
+	"Batholomew #0" = 0
+	"Bertram #0" = 0
+	"Bruce #0" = 0
+	"Benedict #0" = 0
+	"Bellingham #0" = 0
+	"Bennett #0" = 0
+	"Bevil #0" = 0
+	"Botolph #0" = 0
+	"Bildad #0" = 0
+	"Charles #0" = 0
+	"Curtis #0" = 0
+	"Chester #0" = 0
+	"Christopher #0" = 0
+	"Cornelius #0" = 0
+	"Cadwallader #0" = 0
+	"Cuthbert #0" = 0
+	"Cluton #0" = 0
+	"Cagin #0" = 0
+	"Crallo #0" = 0
+	"Celephaïs #0" = 0
+	"David #0" = 0
+	"Degory #0" = 0
+	"Denton #0" = 0
+	"Edwin #0" = 0
+	"Edmund #0" = 0
+	"Elijah #0" = 0
+	"Ezekiel #0" = 0
+	"Ebulus #0" = 0
+	"Emannuel #0" = 0
+	"Emery #0" = 0
+	"Emmett #0" = 0
+	"Enoch #0" = 0
+	"Everard #0" = 0
+	"Enderby #0" = 0
+	"Elon #0" = 0
+	"Franklin #0" = 0
+	"Francis #0" = 0
+	"Fulkes #0" = 0
+	"George #0" = 0
+	"Gregory #0" = 0
+	"Goliath #0" = 0
+	"Giles #0" = 0
+	"Gilbert #0" = 0
+	"Garnet #0" = 0
+	"Garrett #0" = 0
+	"Gavin #0" = 0
+	"Gentile #0" = 0
+	"Gervase #0" = 0
+	"Goughe #0" = 0
+	"Guy #0" = 0
+	"Howard #0" = 0
+	"Henry #0" = 0
+	"Horace #0" = 0
+	"Hector #0" = 0
+	"Helegor #0" = 0
+	"Heneage #0" = 0
+	"Harman #0" = 0
+	"Humphrey #0" = 0
+	"Havlock #0" = 0
+	"Isaac #0" = 0
+	"Ingram #0" = 0
+	"Jonathan #0" = 0
+	"James #0" = 0
+	"Jacob #0" = 0
+	"Joseph #0" = 0
+	"Jesper #0" = 0
+	"Jermanus #0" = 0
+	"Jerome #0" = 0
+	"Joshua #0" = 0
+	"Jordan #0" = 0
+	"Jucentius #0" = 0
+	"Judovell #0" = 0
+	"Jeroboam #0" = 0
+	"Jehoram #0" = 0
+	"Jotham #0" = 0
+	"Joconiah #0" = 0
+	"Jepthah #0" = 0
+	"Keziah #0" = 0
+	"Lemuel #0" = 0
+	"Liam #0" = 0
+	"Leo #0" = 0
+	"Lambert #0" = 0
+	"Lazarus #0" = 0
+	"Ludowick #0" = 0
+	"Lucas #0" = 0
+	"Malcolm #0" = 0
+	"Marcus #0" = 0
+	"Mason #0" = 0
+	"Myles #0" = 0
+	"Machutus #0" = 0
+	"Manasses #0" = 0
+	"Marmaduke #0" = 0
+	"Melchior #0" = 0
+	"Moab #0" = 0
+	"Michael #0" = 0
+	"Melville #0" = 0
+	"Menahem #0" = 0
+	"Norman #0" = 0
+	"Nehem #0" = 0
+	"Nathaniel #0" = 0
+	"Ninion #0" = 0
+	"Newton #0" = 0
+	"Obed #0" = 0
+	"Oceanus #0" = 0
+	"Ottewell #0" = 0
+	"Oakborn #0" = 0
+	"Onesiphorus #0" = 0
+	"Othniel #0" = 0
+	"Philipp #0" = 0
+	"Phineas #0" = 0
+	"Peregrine #0" = 0
+	"Peter #0" = 0
+	"Paschall #0" = 0
+	"Polidore #0" = 0
+	"Paul #0" = 0
+	"Quentin #0" = 0
+	"Quirinus #0" = 0
+	"Randolph #0" = 0
+	"Robert #0" = 0
+	"Richmond #0" = 0
+	"Ronald #0" = 0
+	"Raymond #0" = 0
+	"Roger #0" = 0
+	"Rhys #0" = 0
+	"Rehoboam #0" = 0
+	"Shem #0" = 0
+	"Stephen #0" = 0
+	"Samuel #0" = 0
+	"Solomon #0" = 0
+	"Seaborn #0" = 0
+	"Saltborn #0" = 0
+	"Simeon #0" = 0
+	"Sidrach #0" = 0
+	"Sampson #0" = 0
+	"Shadrach #0" = 0
+	"Shane #0" = 0
+	"Thomas #0" = 0
+	"Theophile #0" = 0
+	"Tobias #0" = 0
+	"Thadeus #0" = 0
+	"Vincent #0" = 0
+	"Valentine #0" = 0
+	"Walter #0" = 0
+	"Wayland #0" = 0
+	"Wilbur #0" = 0
+	"William #0" = 0
+	"Watkin #0" = 0
+	"Warham #0" = 0
+	"Wombell #0" = 0
+	"Wymond #0" = 0
+	"Zadok #0" = 0
+	"Zacharias #0" = 0
+}
+

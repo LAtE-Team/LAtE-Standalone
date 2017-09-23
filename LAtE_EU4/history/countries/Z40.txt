@@ -1,0 +1,26 @@
+# Mobile
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 922
+3053.1.1 {
+	monarch = {
+		name = "Panfile"
+		birth_date = 3014.7.11
+		dynasty = "Daphne"
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = naive_personality
+}
+3053.1.1 {
+	capital = 922
+	add_treasury = 6
+	add_prestige = 28
+	elector = no
+}

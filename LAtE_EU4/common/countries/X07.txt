@@ -1,0 +1,143 @@
+# North End
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 60 156 205 }
+
+
+
+
+leader_names = {
+
+	"Gya'awhlans" "Wewick" "Sgaana Hiiwans" "Kayung" "Yahl" "Atewaas" "S'gana" "Jaadaa" "Skilkaadgan" "Hluuwee" 
+	"Kaisun" "Daa Heeigan" "Hlk'yah Gaawga" "Sholeetsa" "Tahaygen" "Kikisoblu" "Skil Tiis" "Howkan" "Klinkwan" "Tsahtsaa" 
+	"Yaanans" "Ninstints" "Koya" "Gyhldeptis" "Guujaaw" "Hlgitun" "Hiidangsaa" "Yahl Kangwaas" "Ghaltsaakw" "Hiljuuwaas" 
+	"Masset" "Ladalia" "Kung" "Kit" "Yan" "Sandlenee" "Skil Hiilans" "Hluunaagad" "Sguii" "Kristin" 
+	"Gitkinjuuwaas" "Guusk'an" "Flynn" "Kagan" "Kasaan" "Sgaana Guujaanga" "Mercedes" "Kiusta" "Kimama" "Taan" 
+	"Sdiithldaa" "Tanu" "Chee Xial Taaiixou" "Guulaas" "Tsaak" "Nance" "Skidegate" "Nang Kilsdlaas" "Guubii" "Yaahl" 
+	"Skaay" "Giteewans" "Kithlaigaa" "Tsaa Hamjuuwee" "Sukkwan" "Wigaanad" "Yeptah" "Sawehamish" "Yahl Sgoansins" "Patchkanam" 
+	"Siigee" "Skedans" "Thasi" "Nang Jingwas" "Haina" "Gidansda" "Cha'atl" "Chiin" "Cuneah" "Dayaang" 
+	"Gaahlaa" "Gaahlaay" "Ganiihlaas" "Gidkun" "Ginaawaan" "Gogiid" "Gwaay Guu Ganhlin" "Gyaahlans" "Hidansuu" "Hiellan" 
+	"Hiidangsdaa" "Hiitl'daa" "Ihldiinii" "Jaahguhl" "K'ap" "Kaat" "Kilsdlaa Xidguns" "Kun" "Sgaal" "Sgaana" 
+	"Sgaann Hiwhwaans" "Skaaxwad" "Skilhlang" "Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "T'lajung Nung Kingaas" "Tl'aagaang Quna" "Tsinni" 
+	"Wiiaa" "Xa" "Xunts" "Xuut" "Yahguaas" "Yahl Gwaawaas" "Yahl Hinku" "Yahl Naaw" }
+monarch_names = {
+	"Gya'awhlans #0" = 1
+	"Wewick #0" = -1
+	"Sgaana Hiiwans #0" = -1
+	"Kayung #0" = -1
+	"Yahl #0" = 1
+	"Atewaas #1" = 30
+	"S'gana #1" = 18
+	"Jaadaa #0" = -1
+	"Skilkaadgan #0" = 1
+	"Hluuwee #0" = -1
+	"Kaisun #0" = -1
+	"Daa Heeigan #0" = -1
+	"Hlk'yah Gaawga #0" = -1
+	"Sholeetsa #0" = -1
+	"Tahaygen #0" = 1
+	"Kikisoblu #0" = -1
+	"Skil Tiis #0" = 1
+	"Howkan #1" = -19
+	"Klinkwan #0" = -1
+	"Tsahtsaa #0" = 1
+	"Yaanans #0" = -1
+	"Ninstints #0" = -1
+	"Koya #0" = 1
+	"Gyhldeptis #0" = -1
+	"Guujaaw #0" = 1
+	"Hlgitun #0" = -1
+	"Hiidangsaa #3" = 18
+	"Yahl Kangwaas #0" = 1
+	"Ghaltsaakw #0" = 1
+	"Hiljuuwaas #0" = 1
+	"Masset #0" = 1
+	"Ladalia #0" = -1
+	"Kung #0" = 1
+	"Kit #0" = -1
+	"Yan #0" = -1
+	"Sandlenee #0" = -1
+	"Skil Hiilans #0" = 1
+	"Hluunaagad #0" = -1
+	"Sguii #0" = -1
+	"Kristin #0" = -1
+	"Gitkinjuuwaas #0" = 1
+	"Guusk'an #0" = 1
+	"Flynn #0" = 1
+	"Kagan #0" = 1
+	"Kasaan #0" = -1
+	"Sgaana Guujaanga #0" = -1
+	"Mercedes #0" = -1
+	"Kiusta #0" = -1
+	"Kimama #0" = -1
+	"Taan #0" = -1
+	"Sdiithldaa #0" = 1
+	"Tanu #0" = 1
+	"Chee Xial Taaiixou #0" = 1
+	"Guulaas #0" = -1
+	"Tsaak #0" = 1
+	"Nance #1" = -19
+	"Skidegate #0" = 1
+	"Nang Kilsdlaas #0" = 1
+	"Guubii #0" = -1
+	"Yaahl #0" = -1
+	"Skaay #1" = 18
+	"Giteewans #1" = 0
+	"Kithlaigaa #1" = 0
+	"Tsaa Hamjuuwee #1" = 0
+	"Sukkwan #1" = 0
+	"Wigaanad #2" = 0
+	"Yeptah #1" = 0
+	"Sawehamish #2" = 0
+	"Yahl Sgoansins #1" = 0
+	"Patchkanam #1" = 0
+	"Siigee #4" = 0
+	"Skedans #1" = -1
+	"Thasi #1" = 0
+	"Nang Jingwas #2" = 0
+	"Haina #1" = 0
+	"Gidansda #1" = 0
+	"Cha'atl #0" = 0
+	"Chiin #0" = 0
+	"Cuneah #0" = 0
+	"Dayaang #0" = 0
+	"Gaahlaa #0" = 0
+	"Gaahlaay #0" = 0
+	"Ganiihlaas #0" = 0
+	"Gidkun #0" = 0
+	"Ginaawaan #0" = 0
+	"Gogiid #0" = 0
+	"Gwaay Guu Ganhlin #0" = 0
+	"Gyaahlans #0" = 0
+	"Hidansuu #0" = 0
+	"Hiellan #0" = 0
+	"Hiidangsdaa #0" = 0
+	"Hiitl'daa #0" = 0
+	"Ihldiinii #0" = 0
+	"Jaahguhl #0" = 0
+	"K'ap #0" = 0
+	"Kaat #0" = 0
+	"Kilsdlaa Xidguns #0" = 0
+	"Kun #0" = 0
+	"Sgaal #0" = 0
+	"Sgaana #0" = 0
+	"Sgaann Hiwhwaans #0" = 0
+	"Skaaxwad #0" = 0
+	"Skilhlang #0" = 0
+	"Skilkingaans #0" = 0
+	"Skilkwiitlaas #0" = 0
+	"Skuujgee Gong #0" = 0
+	"Stuut Jubgaab #0" = 0
+	"T'lajung Nung Kingaas #0" = 0
+	"Tl'aagaang Quna #0" = 0
+	"Tsinni #0" = 0
+	"Wiiaa #0" = 0
+	"Xa #0" = 0
+	"Xunts #0" = 0
+	"Xuut #0" = 0
+	"Yahguaas #0" = 0
+	"Yahl Gwaawaas #0" = 0
+	"Yahl Hinku #0" = 0
+	"Yahl Naaw #0" = 0
+}
+

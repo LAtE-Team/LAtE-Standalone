@@ -1,0 +1,26 @@
+# Costa Gracia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 831
+3043.1.11 = {
+	monarch = {
+		name = "Darwin"
+		birth_date = 3031.12.8
+		dynasty = "Serrano"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 831
+	add_treasury = 32
+	add_prestige = 262
+}

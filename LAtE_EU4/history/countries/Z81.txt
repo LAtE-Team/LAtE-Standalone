@@ -1,0 +1,27 @@
+# Chattahoochee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 931
+3032.2.17 = {
+	monarch = {
+		name = "Julius"
+		birth_date = 3010.1.22
+		dynasty = "Angelos"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = pious_personality
+}
+3053.1.1 {
+	capital = 931
+	add_treasury = 23
+	add_prestige = 261
+	elector = no
+}

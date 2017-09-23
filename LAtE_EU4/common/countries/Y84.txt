@@ -1,0 +1,158 @@
+# Oklahoma
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 64 54 29 }
+
+
+
+
+leader_names = {
+
+	"Ecka-peta" "Pareiya" "Tsate" "Coby" "Zi-yeh" "Tosacowadi" "Nadua" "Lenna" "Mahchettawookey" "Tosa Pokoo" 
+	"Ecka-wipe" "Leahwiddikah" "Perna-peta" "Tabaqueena" "Kumaquai" "Ekta" "Chaten-a-yacke" "Kiyou" "Coro-pwoonie" "Tahkna" 
+	"Puku" "Lotsee" "Dahteste" "Yera-petun" "Tonarcy" "Bowahquasuh" "Quenatosavit" "Topsanna" "Kobay-oburra" "Potsunakwahipu" 
+	"Wuleaboo" "Jaquan" "Boyahwahtoyehe" "Ettah" "Mo'pie" "Sargento" "Wayabatosa" "Nascha" "Tabi-tosavit" "Parusawano" 
+	"Quanah" "Cuerno" "Topsannah" "Chomoparua" "Kiwatchee" "Qua'va-a-ytchy" "Taqquanno" "Poah'pah-choko" "Gouyen" "Huera" 
+	"Paranuarimuco" "Tabby-nocca" "Chihuahua" "Leosanni" "Tabi-yetch" "Ih-Tedda" "Chony" "Sonsee-array" "Tosawi" "Eschiti" 
+	"Tavis" "Sanaco" "Po-hebitsquash" "Yanny-va-too'ah" "Pahayoko" "Anunka" "Skah" "Ohiyesa" "Chumani" "Dale" 
+	"Anson" "Oso Ballo" "Akachuata" "Warakonalta" "Tomo-a-tooah" "Parraocoom" "Poechna Quahip" "Aurel" "Argent" "Antero" 
+	"Auliffe" "Buren" "Blair" "Bouldron" "Belden" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus" 
+	"Gray" "Garrald" "Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum" 
+	"Lowry" "Lykin" "Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Oso" 
+	"Ossos" "Ossin" "Petrus" "Pike" "Plumblon" "Plumead" "Ptarmigan" "Rockhart" "Regis" "Raton" 
+	"Stone" "Silveranos" "Stonarm" "Stonear" "Sloan" "Tell" "Tarryall" "Vissarion" "Waugh" "Zebulon" 
+	"Zirkel" }
+monarch_names = {
+	"Ecka-peta #0" = -1
+	"Pareiya #1" = 21
+	"Tsate #0" = 1
+	"Coby #0" = -1
+	"Zi-yeh #0" = -1
+	"Tosacowadi #1" = 18
+	"Nadua #0" = -1
+	"Lenna #1" = -22
+	"Mahchettawookey #0" = -1
+	"Tosa Pokoo #0" = 1
+	"Ecka-wipe #0" = -1
+	"Leahwiddikah #0" = 1
+	"Perna-peta #0" = -1
+	"Tabaqueena #0" = 1
+	"Kumaquai #0" = -1
+	"Ekta #0" = -1
+	"Chaten-a-yacke #0" = -1
+	"Kiyou #0" = 1
+	"Coro-pwoonie #0" = 1
+	"Tahkna #0" = 1
+	"Puku #0" = -1
+	"Lotsee #0" = -1
+	"Dahteste #0" = -1
+	"Yera-petun #0" = -1
+	"Tonarcy #0" = -1
+	"Bowahquasuh #1" = 18
+	"Quenatosavit #0" = 1
+	"Topsanna #0" = -1
+	"Kobay-oburra #0" = 1
+	"Potsunakwahipu #0" = 1
+	"Wuleaboo #0" = 1
+	"Jaquan #0" = 1
+	"Boyahwahtoyehe #0" = 1
+	"Ettah #0" = 1
+	"Mo'pie #0" = -1
+	"Sargento #0" = 1
+	"Wayabatosa #0" = 1
+	"Nascha #0" = -1
+	"Tabi-tosavit #0" = -1
+	"Parusawano #1" = 18
+	"Quanah #0" = -1
+	"Cuerno #0" = 1
+	"Topsannah #0" = -1
+	"Chomoparua #1" = 18
+	"Kiwatchee #0" = 1
+	"Qua'va-a-ytchy #0" = -1
+	"Taqquanno #0" = 1
+	"Poah'pah-choko #0" = 1
+	"Gouyen #0" = -1
+	"Huera #0" = -1
+	"Paranuarimuco #1" = 21
+	"Tabby-nocca #0" = 1
+	"Chihuahua #0" = 1
+	"Leosanni #0" = -1
+	"Tabi-yetch #0" = -1
+	"Ih-Tedda #0" = -1
+	"Chony #0" = -1
+	"Sonsee-array #1" = -19
+	"Tosawi #0" = 1
+	"Eschiti #0" = 1
+	"Tavis #0" = -1
+	"Sanaco #0" = 1
+	"Po-hebitsquash #0" = 1
+	"Yanny-va-too'ah #0" = -1
+	"Pahayoko #1" = 0
+	"Anunka #1" = 0
+	"Skah #1" = -1
+	"Ohiyesa #1" = 0
+	"Chumani #1" = -1
+	"Dale #1" = 0
+	"Anson #2" = 0
+	"Oso Ballo #1" = 0
+	"Akachuata #1" = 0
+	"Warakonalta #1" = 0
+	"Tomo-a-tooah #1" = -1
+	"Parraocoom #1" = 0
+	"Poechna Quahip #1" = 0
+	"Aurel #0" = 0
+	"Argent #0" = 0
+	"Antero #0" = 0
+	"Auliffe #0" = 0
+	"Buren #0" = 0
+	"Blair #0" = 0
+	"Bouldron #0" = 0
+	"Belden #0" = 0
+	"Belcaro #0" = 0
+	"Barnum #0" = 0
+	"Bushnell #0" = 0
+	"Clayton #0" = 0
+	"Eolus #0" = 0
+	"Gray #0" = 0
+	"Garrald #0" = 0
+	"Hale #0" = 0
+	"Hendrick #0" = 0
+	"Hague #0" = 0
+	"Herard #0" = 0
+	"Hesperus #0" = 0
+	"Jasper #0" = 0
+	"Ledon #0" = 0
+	"Leadblum #0" = 0
+	"Lowry #0" = 0
+	"Lykin #0" = 0
+	"Lyon #0" = 0
+	"Mineran #0" = 0
+	"Mineralis #0" = 0
+	"Montanos #0" = 0
+	"Marston #0" = 0
+	"Morris #0" = 0
+	"Olympos #0" = 0
+	"Oso #0" = 0
+	"Ossos #0" = 0
+	"Ossin #0" = 0
+	"Petrus #0" = 0
+	"Pike #0" = 0
+	"Plumblon #0" = 0
+	"Plumead #0" = 0
+	"Ptarmigan #0" = 0
+	"Rockhart #0" = 0
+	"Regis #0" = 0
+	"Raton #0" = 0
+	"Stone #0" = 0
+	"Silveranos #0" = 0
+	"Stonarm #0" = 0
+	"Stonear #0" = 0
+	"Sloan #0" = 0
+	"Tell #0" = 0
+	"Tarryall #0" = 0
+	"Vissarion #0" = 0
+	"Waugh #0" = 0
+	"Zebulon #0" = 0
+	"Zirkel #0" = 0
+}
+

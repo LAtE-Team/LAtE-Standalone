@@ -1,0 +1,26 @@
+# Huronia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ontarian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2586
+3031.9.25 = {
+	monarch = {
+		name = "George IV"
+		birth_date = 3016.1.24
+		dynasty = "Dunsworth"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 2586
+	add_treasury = 26
+	add_prestige = 49
+}

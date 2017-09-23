@@ -1,0 +1,26 @@
+#123 - Calabria
+
+#owner = NAP
+#controller = NAP
+culture = sicilian 
+religion = hellenic_pagan 
+hre = no 
+base_tax = 1
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Reggio di Calabria"
+is_city = no 
+#add_core= NAP
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

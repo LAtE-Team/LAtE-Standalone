@@ -1,0 +1,25 @@
+# Rio Grande
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = tejano
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 883
+3053.1.1= {
+	monarch = {
+		name = "Ignacio II"
+		birth_date = 2999.8.11
+		dynasty = "Menchaca"
+		adm = 3
+		dip = 5
+		mil = 1
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 883
+	add_treasury = 4
+	add_prestige = 75
+}

@@ -1,0 +1,21 @@
+#1152 - Idah
+
+owner = NGR
+controller = NGR
+add_core = NGR
+is_city = yes
+culture = nigerian
+religion = ahmadi
+capital = "Idah"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = ivory
+native_size = 50
+native_ferocity = 4
+native_hostileness = 9 
+
+
+
+discovered_by = sub_saharan

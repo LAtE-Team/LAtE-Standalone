@@ -1,0 +1,37 @@
+# Channel Islands
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bayfolk
+religion = brethren
+clear_scripted_personalities = yes
+capital = 4508
+3025.10.15 = {
+	monarch = {
+		name = "Brad"
+		birth_date = 3000.11.6
+		dynasty = "Hayesval"
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = scholar_personality
+	heir = {
+		name = "Rayburn"
+		monarch_name = "Rayburn"
+		dynasty = "Hayesval"
+		birth_date = 3024.10.9
+		death_date = 3104.10.9
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_heir_personality = babbling_buffoon_personality
+}
+3053.1.1 {
+	capital = 4508
+	add_treasury = 85
+	add_prestige = 177
+}

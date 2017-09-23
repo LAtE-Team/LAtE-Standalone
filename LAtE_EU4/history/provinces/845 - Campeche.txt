@@ -1,0 +1,38 @@
+#845 - Campeche
+
+#owner = XIU
+#controller = XIU
+culture = yucatec 
+religion = mesoamerican_religion
+capital = "Campeche" 
+trade_goods = unknown
+hre = no 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= XIU
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+
+# = { discovered_by = SPA }
+
+# = {
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	culture = castillian
+	religion = catholic
+} # the lord of Mani submits peacefully to the Spanish and converts
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

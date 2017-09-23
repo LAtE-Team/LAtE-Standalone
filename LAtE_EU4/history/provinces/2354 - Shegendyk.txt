@@ -1,0 +1,22 @@
+# 2354 - Shegendyk
+
+
+capital = "Shegendyk"
+trade_goods = iron
+
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+
+culture = bavarian
+religion = matrem
+hre = no
+add_core = TSE
+owner = TSE
+controller = TSE
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

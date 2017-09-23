@@ -1,0 +1,749 @@
+# Istmo
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 198 234 239 }
+
+
+
+
+leader_names = {
+
+	"Aldo" "Copichja" "Seti Gyalana" "Dzawindanda Yizii" "Tawi Nalina" "Naguchi Bexoo" "Esteban Kkalee" "Taiyari Yizee" "Mariano" "Ramón Belao" 
+	"Guillermo Kkalechi" "Gustavito" "René" "Diego García" "Huggo" "Vargas" "Bzojj Chsáaxcejj" "Chonna Bicu" "Cocijopi Jzió" "Cocijopi Xolo" 
+	"Gael García" "Ji Jzió" "José Luis" "José Manuel" "Juan Diego" "Juan Germán" "Martín Carlos" "Martín José" "Na Yel" "Ngolbex An" 
+	"Nguiiu Rire" "Nisa Ro" "Pijje Jzió" "Pwuix Dao" "Sabino Martín" "Semeel Jak" "Tobi Rusiguunda" "Zne Yel" "Agosto" "Alfonso" 
+	"Alfredo" "Algonso" "Aluar" "Álvaro" "Americo" "Andrés" "Ángel" "Antonio" "Areas" "Arias" 
+	"Armando" "Atl" "Atlahua" "Atonal" "Augusto" "Beé" "Beenda" "Beljjw" "Benechaaba" "Benito" 
+	"Berenguel" "Bernardo" "Bibejw" "Binech" "Canneo" "Carlos" "Cháalaxa" "Cocijo" "Cocijocza" "Cocijoeza" 
+	"Cocijopi" "Cocijouza" "Cociyo" "Cocobi" "Coqui" "Cosichaguela" "Cosijoeza" "Cosijopii" "Cozaana" "Cozichacozee" 
+	"Cristian" "Dagoberto" "Danaá" "Diago" "Diego" "Djoraxa" "Domingo" "Duran" "Dzawindanda" "Edmundo" 
+	"Eduardo" "Emilio" "Enrique" "Erasmo" "Erendirani" "Erick" "Esteban" "Esteuao" "Eufrosina" "Fernan" 
+	"Fernández" "Fernando" "Ferran" "Ferrand" "Ferrando" "Francisco" "Garcia" "Gerardo" "Gomes" "Goncalo" 
+	"Goncalu" "Goncaluo" "Goncalvo" "Gozio" "Guillermo" "Gus" "Gwèibóoné" "Gwpeibóoné" "Gyazob" "Gyejj" 
+	"Hasen" "Hedía" "Hernan" "Horacio" "Humberto" "Ikal" "Iktan" "Ipalnemoani" "Irepani" "Itzamatul" 
+	"Izel" "Jacob" "Jacome" "Jesus" "Jituh" "Jocabo" "Johan" "Jorge" "Jose" "José" 
+	"Joseph" "Juan" "Julio" "Jzió" "Kabil" "Kasakir" "Láxdaóxo" "Leonardo" "Lope" "Lopo" 
+	"Luis" "Lyebe" "Maatiaak" "Mallobo" "Manuel" "Marco" "Martin" "Masawa" "Mauricio" "Mbalaz" 
+	"Miguel" "Nacho" "Naquichinisa" "Naran" "Naxiñanguiiu" "Nestor" "Nicollas" "Nima" "Nucano" "Pablo" 
+	"Pascual" "Pasqual" "Pecala" "Pedro" "Peeci" "Pero" "Pezelao" "Pitao" "Polo" "Porfirio" 
+	"Quetzal" "Rafael" "Rahui" "Ramón" "Raul" "Raúl" "Ricardo" "Roberto" "Rodolfo" "Rodrigo" 
+	"Rogelio" "Roy" "Ruben" "Rufino" "Ruy" "Sabino" "Saluador" "Sancho" "Santiago" "Saul" 
+	"Sebastian" "Séneca" "Seti" "Shanarani" "Simon" "Suré" "Surem" "Taiyari" "Tanok" "Tigr" 
+	"Tito" "Tlayolotl" "Tsijiari" "Uriel" "Vaasco" "Val" "Véeni" "Veziá" "Vziá" "Xoo" 
+	"Yacua" "Yoltzin" "Yooko" "Zaachilla" "Zniá" "Zyrx" "Agosto Beolela" "Agosto Gyajopa" "Alfonso Billaappe" "Alfonso Gyaxoo" 
+	"Alfredo Bezetzina" "Alfredo Bezexoo" "Algonso Yezelao" "Algonso Yolee" "Algonso Yolotela" "Aluar Belii" "Aluar Kkaletzi" "Aluar Nelechi" "Álvaro Beoxoo" "Álvaro Betela" 
+	"Americo Kkalepag" "Americo Kwalela" "Andrés Billachila" "Andrés Kkaxoo" "Ángel Binoloo" "Ángel Natzina" "Antonio Beoletzi" "Antonio Kkalao" "Antonio Naxoo" "Areas Billii" 
+	"Areas Binepag" "Areas Nalana" "Arias Beoloo" "Arias Nalechi" "Arias Nalepag" "Armando Bele" "Armando Beoloo" "Armando Beotzina" "Atl Kkachila" "Atl Nelee" 
+	"Atlahua Gyazii" "Atlahua Kwatela" "Atonal Gyatela" "Atonal Nelopa" "Augusto Kkalela" "Augusto Kkatzina" "Beé Billaxoo" "Beé Billee" "Beé Billina" "Beenda Kwatzina" 
+	"Beenda Nexoo" "Beljjw Kwalii" "Beljjw Yezechila" "Benechaaba Gyaloo" "Benechaaba Yizii" "Benito Bezee" "Benito Bezepiia" "Benito Gyaloo" "Berenguel Beolao" "Berenguel Binopa" 
+	"Bernardo Beletzi" "Bernardo Yolechi" "Bibejw Billana" "Bibejw Neloo" "Binech Belaxoo" "Binech Kwalepag" "Canneo Belapiia" "Canneo Beolaappe" "Carlos Belaappe" "Carlos Bezechila" 
+	"Cháalaxa Billii" "Cháalaxa Kkalee" "Cocijo Belatela" "Cocijo Belechi" "Cocijo Billaxoo" "Cocijocza Nalela" "Cocijocza Yizechi" "Cocijoeza Beolela" "Cocijoeza Kwalaappe" "Cocijopi Billaappe" 
+	"Cocijopi Binochila" "Cocijopi Yoloopa" "Cocijouza Bezetela" "Cocijouza Bezetzina" "Cociyo Bezelana" "Cociyo Yizaappe" "Cociyo Yolee" "Cocobi Bezeepag" "Cocobi Billatzina" "Cocobi Kkaletzi" 
+	"Copichja Beoxoo" "Copichja Kwalopa" "Coqui Kwalela" "Coqui Yizee" "Cosichaguela Bezechila" "Cosichaguela Gyajechi" "Cosichaguela Kkaxoo" "Cosijoeza Nalina" "Cosijoeza Natzina" "Cosijopii Beolii" 
+	"Cosijopii Kkalao" "Cozaana Binechi" "Cozaana Gyaxoo" "Cozaana Nalana" "Cozichacozee Beolechi" "Cozichacozee Nalepag" "Cristian Beotzina" "Cristian Betela" "Cristian Yezelana" "Dagoberto Kkachila" 
+	"Dagoberto Nachila" "Danaá Binozii" "Danaá Gyazii" "Diago Kkalechi" "Diago Nelopa" "Diego Kkaloo" "Diego Kkatzina" "Djoraxa Billee" "Djoraxa Kwaloo" "Djoraxa Yolochila" 
+	"Domingo Netzina" "Domingo Nexoo" "Duran Kwalii" "Duran Naloo" "Dzawindanda Betzina" "Edmundo Belepag" "Edmundo Bezee" "Eduardo Belana" "Eduardo Binopa" "Emilio Binotzina" 
+	"Emilio Yolechi" "Enrique Billana" "Enrique Nelii" "Erasmo Gyajaappe" "Erasmo Kwalepag" "Erendirani Beolaappe" "Erendirani Kkalana" "Erick Belaappe" "Erick Beochila" "Erick Yolepag" 
+	"Esteban Napiia" "Esteban Yizechi" "Esteuao Belatela" "Esteuao Beolao" "Esteuao Yezepiia" "Eufrosina Nalela" "Eufrosina Nalopa" "Fernan Belapiia" "Fernan Kwalaappe" "Fernan Yolina" 
+	"Fernández Kkalii" "Fernández Nalii" "Fernández Yoloopa" "Fernando Bezetela" "Fernando Natela" "Ferran Gyalao" "Ferran Yizaappe" "Ferran Yizina" "Ferrand Belazii" "Ferrand Bezeepag" 
+	"Ferrando Billachila" "Ferrando Kkapiia" "Ferrando Kwalopa" "Francisco Bezeloo" "Francisco Kwalao" "Francisco Yizee" "Garcia Bepiia" "Garcia Gyajechi" "Garcia Nalechi" "Gerardo Nale" 
+	"Gerardo Nalina" "Gomes Beolii" "Gomes Billela" "Gomes Kwalina" "Goncalo Beolina" "Goncalo Binechi" "Goncalu Beolechi" "Goncalu Binela" "Goncaluo Bechila" "Goncaluo Neloo" 
+	"Goncaluo Yezelana" "Goncalvo Gyajela" "Goncalvo Nachila" "Gozio Binozii" "Gozio Nelaappe" "Gozio Nelana" "Guillermo Nezii" "Gus Beletzi" "Gus Kkaloo" "Gus Yolana" 
+	"Gwèibóoné Yolochila" "Gwèibóoné Yolozii" "Gwpeibóoné Nelepag" "Gwpeibóoné Netzina" "Gyazob Beozii" "Gyazob Naloo" "Gyejj Betzina" "Gyejj Bezeela" "Hasen Belepag" "Hasen Billetzi" 
+	"Hedía Belana" "Hedía Yizepag" "Hernan Binopiia" "Hernan Binotzina" "Horacio Bezelao" "Horacio Nelii" "Humberto Bexoo" "Humberto Gyajaappe" "Ikal Beolepag" "Ikal Kkalana" 
+	"Iktan Beochila" "Iktan Yolela" "Ipalnemoani Kkalaappe" "Ipalnemoani Napiia" "Irepani Binolao" "Irepani Binotela" "Irepani Yezepiia" "Itzamatul Naletzi" "Itzamatul Nalopa" "Izel Bezexoo" 
+	"Izel Yolina" "Izel Yoloxoo" "Jacob Kkalepag" "Jacob Kwachila" "Jacob Nalii" "Jacome Billechi" "Jacome Natela" "Jesus Binetzi" "Jesus Gyalao" "Jituh Belazii" 
+	"Jituh Beopa" "Jituh Binee" "Jocabo Kkapiia" "Jocabo Kwaletzi" "Johan Beolopa" "Johan Kwalao" "Johan Kwatela" "Jorge Bepiia" "Jorge Billepag" "Jose Beloo" 
+	"José Billela" "José Kwapiia" "Jose Nale" "Joseph Beolina" "Joseph Billopa" "Juan Binela" "Juan Nelao" "Julio Bechila" "Julio Binii" "Julio Gyatela" 
+	"Jzió Gyajela" "Jzió Gyajepag" "Jzió Kwazii" "Kabil Gyajopa" "Kabil Nelaappe" "Kabil Yezetzina" "Kasakir Neletzi" "Kasakir Nezii" "Láxdaóxo Belina" "Láxdaóxo Yolana" 
+	"Leonardo Yolopiia" "Leonardo Yolozii" "Lope Billazii" "Lope Nelepag" "Lopo Beozii" "Lopo Bezii" "Luis Bezeela" "Luis Bezeetzi" "Lyebe Billetzi" "Lyebe Nazii" 
+	"Lyebe Yezetzi" "Maatiaak Nelina" "Maatiaak Yezetela" "Maatiaak Yizepag" "Mallobo Beolana" "Mallobo Binopiia" "Manuel Bezelao" "Manuel Billoo" "Manuel Nelechi" "Marco Bexoo" 
+	"Marco Bezezii" "Mariano Beolepag" "Mariano Nelee" "Mariano Yoletzi" "Martin Billapiia" "Martin Yolela" "Martin Yolii" "Masawa Beotela" "Masawa Gyajii" "Masawa Kkalaappe" 
+	"Mauricio Binotela" "Mauricio Gyapiia" "Mbalaz Kwalee" "Mbalaz Naletzi" "Mbalaz Nelela" "Miguel Bezopa" "Miguel Yoloxoo" "Nacho Kwachila" "Nacho Yolao" "Naquichinisa Billechi" 
+	"Naquichinisa Binina" "Naran Binetzi" "Naran Nepiia" "Naxiñanguiiu Beopa" "Naxiñanguiiu Kwalechi" "Nestor Kwaletzi" "Nestor Yezezii" "Nicollas Beolopa" "Nicollas Kkatela" "Nicollas Netela" 
+	"Nima Belatzina" "Nima Billepag" "Nima Yizela" "Nucano Beloo" "Nucano Gyajee" "Pablo Binaappe" "Pablo Kwapiia" "Pascual Belaopa" "Pascual Billopa" "Pasqual Gyalana" 
+	"Pasqual Nelao" "Pecala Binii" "Pecala Yoloo" "Pedro Kwazii" "Pedro Yolotzina" "Peeci Billao" "Peeci Binoloo" "Peeci Yezetzina" "Pero Neletzi" "Pero Yolaappe" 
+	"Pezelao Belina" "Pezelao Billatela" "Pitao Bezaappe" "Pitao Kkalopa" "Pitao Yolopiia" "Polo Billazii" "Polo Yizopa" "Porfirio Bezii" "Porfirio Kkalina" "Quetzal Bezeetzi" 
+	"Quetzal Yezeloo" "Rafael Belela" "Rafael Gyatzina" "Rafael Yezetzi" "Rahui Billina" "Rahui Kwaxoo" "Rahui Yezetela" "Ramón Beolana" "Raúl Bezezii" "Raúl Bezina" 
+	"Raul Billoo" "Raul Gyachila" "Raul Naxoo" "Ricardo Belee" "Ricardo Yoletzi" "Roberto Billapiia" "Roberto Kkazii" "Rodolfo Gyajii" "Rodolfo Nalao" "Rodrigo Gyajetzi" 
+	"Rodrigo Gyapiia" "Rogelio Binolana" "Rogelio Kwalana" "Rogelio Nelela" "Roy Bezopa" "Roy Nelchila" "Ruben Binoxoo" "Ruben Kwatzina" "Ruben Yolao" "Rufino Bezeechi" 
+	"Rufino Binina" "Ruy Binepag" "Ruy Gyajina" "Ruy Nepiia" "Sabino Beolee" "Sabino Kwalechi" "Saluador Bele" "Saluador Yezezii" "Sancho Belela" "Sancho Kkatela" 
+	"Santiago Bezaappe" "Santiago Yizela" "Saul Binee" "Saul Gyajee" "Sebastian Beopiia" "Sebastian Binaappe" "Séneca Belaopa" "Séneca Yezexoo" "Séneca Yolii" "Seti Yolepag" 
+	"Shanarani Nazii" "Shanarani Yoloo" "Sicuane Yezelao" "Sicuane Yolotela" "Sicuane Yolotzina" "Simon Billao" "Simon Kkalii" "Suré Billatzina" "Suré Yolaappe" "Surem Beotela" 
+	"Surem Billatela" "Surem Kkalela" "Taiyari Kkalopa" "Taiyari Netela" "Tanok Nelina" "Tanok Yizopa" "Tigr Kkalina" "Tigr Yezexoo" "Tito Bezelana" "Tito Yezeloo" 
+	"Tlayolotl Beoletzi" "Tlayolotl Gyatzina" "Tsijiari Kwaloo" "Tsijiari Kwaxoo" "Uriel Belao" "Uriel Binochila" "Uriel Yezechila" "Vaasco Belaxoo" "Vaasco Belii" "Vaasco Gyachila" 
+	"Val Bezina" "Val Yizina" "Véeni Belatzina" "Véeni Belee" "Véeni Nalaappe" "Veziá Beopiia" "Veziá Kkazii" "Veziá Kwalana" "Vziá Kwalina" "Vziá Nalao" 
+	"Xoo Gyajepag" "Xoo Gyajetzi" "Yacua Binolana" "Yacua Nalaappe" "Yoltzin Bezeloo" "Yoltzin Nelchila" "Yooko Belechi" "Yooko Binoxoo" "Zaachilla Bezeechi" "Zaachilla Bezepiia" 
+	"Zaachilla Kwalee" "Zniá Gyajina" "Zniá Nelana" "Zyrx Beolee" "Zyrx Binolao" }
+monarch_names = {
+	"Aldo #1" = 18
+	"Copichja #2" = 0
+	"Seti Gyalana #1" = 0
+	"Dzawindanda Yizii #1" = 0
+	"Tawi Nalina #1" = -1
+	"Naguchi Bexoo #1" = -1
+	"Esteban Kkalee #1" = 0
+	"Taiyari Yizee #1" = -1
+	"Mariano #1" = 0
+	"Ramón Belao #2" = 0
+	"Guillermo Kkalechi #2" = 0
+	"Gustavito #1" = 0
+	"René #2" = 0
+	"Diego García #1" = 0
+	"Huggo #1" = 0
+	"Vargas #1" = 0
+	"Bzojj Chsáaxcejj #0" = 0
+	"Chonna Bicu #0" = 0
+	"Cocijopi Jzió #0" = 0
+	"Cocijopi Xolo #0" = 0
+	"Gael García #0" = 0
+	"Ji Jzió #0" = 0
+	"José Luis #0" = 0
+	"José Manuel #0" = 0
+	"Juan Diego #0" = 0
+	"Juan Germán #0" = 0
+	"Martín Carlos #0" = 0
+	"Martín José #0" = 0
+	"Na Yel #0" = 0
+	"Ngolbex An #0" = 0
+	"Nguiiu Rire #0" = 0
+	"Nisa Ro #0" = 0
+	"Pijje Jzió #0" = 0
+	"Pwuix Dao #0" = 0
+	"Sabino Martín #0" = 0
+	"Semeel Jak #0" = 0
+	"Tobi Rusiguunda #0" = 0
+	"Zne Yel #0" = 0
+	"Agosto #0" = 0
+	"Alfonso #0" = 0
+	"Alfredo #0" = 0
+	"Algonso #0" = 0
+	"Aluar #0" = 0
+	"Álvaro #0" = 0
+	"Americo #0" = 0
+	"Andrés #0" = 0
+	"Ángel #0" = 0
+	"Antonio #0" = 0
+	"Areas #0" = 0
+	"Arias #0" = 0
+	"Armando #0" = 0
+	"Atl #0" = 0
+	"Atlahua #0" = 0
+	"Atonal #0" = 0
+	"Augusto #0" = 0
+	"Beé #0" = 0
+	"Beenda #0" = 0
+	"Beljjw #0" = 0
+	"Benechaaba #0" = 0
+	"Benito #0" = 0
+	"Berenguel #0" = 0
+	"Bernardo #0" = 0
+	"Bibejw #0" = 0
+	"Binech #0" = 0
+	"Canneo #0" = 0
+	"Carlos #0" = 0
+	"Cháalaxa #0" = 0
+	"Cocijo #0" = 0
+	"Cocijocza #0" = 0
+	"Cocijoeza #0" = 0
+	"Cocijopi #0" = 0
+	"Cocijouza #0" = 0
+	"Cociyo #0" = 0
+	"Cocobi #0" = 0
+	"Coqui #0" = 0
+	"Cosichaguela #0" = 0
+	"Cosijoeza #0" = 0
+	"Cosijopii #0" = 0
+	"Cozaana #0" = 0
+	"Cozichacozee #0" = 0
+	"Cristian #0" = 0
+	"Dagoberto #0" = 0
+	"Danaá #0" = 0
+	"Diago #0" = 0
+	"Diego #0" = 0
+	"Djoraxa #0" = 0
+	"Domingo #0" = 0
+	"Duran #0" = 0
+	"Dzawindanda #0" = 0
+	"Edmundo #0" = 0
+	"Eduardo #0" = 0
+	"Emilio #0" = 0
+	"Enrique #0" = 0
+	"Erasmo #0" = 0
+	"Erendirani #0" = 0
+	"Erick #0" = 0
+	"Esteban #0" = 0
+	"Esteuao #0" = 0
+	"Eufrosina #0" = 0
+	"Fernan #0" = 0
+	"Fernández #0" = 0
+	"Fernando #0" = 0
+	"Ferran #0" = 0
+	"Ferrand #0" = 0
+	"Ferrando #0" = 0
+	"Francisco #0" = 0
+	"Garcia #0" = 0
+	"Gerardo #0" = 0
+	"Gomes #0" = 0
+	"Goncalo #0" = 0
+	"Goncalu #0" = 0
+	"Goncaluo #0" = 0
+	"Goncalvo #0" = 0
+	"Gozio #0" = 0
+	"Guillermo #0" = 0
+	"Gus #0" = 0
+	"Gwèibóoné #0" = 0
+	"Gwpeibóoné #0" = 0
+	"Gyazob #0" = 0
+	"Gyejj #0" = 0
+	"Hasen #0" = 0
+	"Hedía #0" = 0
+	"Hernan #0" = 0
+	"Horacio #0" = 0
+	"Humberto #0" = 0
+	"Ikal #0" = 0
+	"Iktan #0" = 0
+	"Ipalnemoani #0" = 0
+	"Irepani #0" = 0
+	"Itzamatul #0" = 0
+	"Izel #0" = 0
+	"Jacob #0" = 0
+	"Jacome #0" = 0
+	"Jesus #0" = 0
+	"Jituh #0" = 0
+	"Jocabo #0" = 0
+	"Johan #0" = 0
+	"Jorge #0" = 0
+	"Jose #0" = 0
+	"José #0" = 0
+	"Joseph #0" = 0
+	"Juan #0" = 0
+	"Julio #0" = 0
+	"Jzió #0" = 0
+	"Kabil #0" = 0
+	"Kasakir #0" = 0
+	"Láxdaóxo #0" = 0
+	"Leonardo #0" = 0
+	"Lope #0" = 0
+	"Lopo #0" = 0
+	"Luis #0" = 0
+	"Lyebe #0" = 0
+	"Maatiaak #0" = 0
+	"Mallobo #0" = 0
+	"Manuel #0" = 0
+	"Marco #0" = 0
+	"Martin #0" = 0
+	"Masawa #0" = 0
+	"Mauricio #0" = 0
+	"Mbalaz #0" = 0
+	"Miguel #0" = 0
+	"Nacho #0" = 0
+	"Naquichinisa #0" = 0
+	"Naran #0" = 0
+	"Naxiñanguiiu #0" = 0
+	"Nestor #0" = 0
+	"Nicollas #0" = 0
+	"Nima #0" = 0
+	"Nucano #0" = 0
+	"Pablo #0" = 0
+	"Pascual #0" = 0
+	"Pasqual #0" = 0
+	"Pecala #0" = 0
+	"Pedro #0" = 0
+	"Peeci #0" = 0
+	"Pero #0" = 0
+	"Pezelao #0" = 0
+	"Pitao #0" = 0
+	"Polo #0" = 0
+	"Porfirio #0" = 0
+	"Quetzal #0" = 0
+	"Rafael #0" = 0
+	"Rahui #0" = 0
+	"Ramón #0" = 0
+	"Raul #0" = 0
+	"Raúl #0" = 0
+	"Ricardo #0" = 0
+	"Roberto #0" = 0
+	"Rodolfo #0" = 0
+	"Rodrigo #0" = 0
+	"Rogelio #0" = 0
+	"Roy #0" = 0
+	"Ruben #0" = 0
+	"Rufino #0" = 0
+	"Ruy #0" = 0
+	"Sabino #0" = 0
+	"Saluador #0" = 0
+	"Sancho #0" = 0
+	"Santiago #0" = 0
+	"Saul #0" = 0
+	"Sebastian #0" = 0
+	"Séneca #0" = 0
+	"Seti #0" = 0
+	"Shanarani #0" = 0
+	"Simon #0" = 0
+	"Suré #0" = 0
+	"Surem #0" = 0
+	"Taiyari #0" = 0
+	"Tanok #0" = 0
+	"Tigr #0" = 0
+	"Tito #0" = 0
+	"Tlayolotl #0" = 0
+	"Tsijiari #0" = 0
+	"Uriel #0" = 0
+	"Vaasco #0" = 0
+	"Val #0" = 0
+	"Véeni #0" = 0
+	"Veziá #0" = 0
+	"Vziá #0" = 0
+	"Xoo #0" = 0
+	"Yacua #0" = 0
+	"Yoltzin #0" = 0
+	"Yooko #0" = 0
+	"Zaachilla #0" = 0
+	"Zniá #0" = 0
+	"Zyrx #0" = 0
+	"Agosto Beolela #0" = 0
+	"Agosto Gyajopa #0" = 0
+	"Alfonso Billaappe #0" = 0
+	"Alfonso Gyaxoo #0" = 0
+	"Alfredo Bezetzina #0" = 0
+	"Alfredo Bezexoo #0" = 0
+	"Algonso Yezelao #0" = 0
+	"Algonso Yolee #0" = 0
+	"Algonso Yolotela #0" = 0
+	"Aluar Belii #0" = 0
+	"Aluar Kkaletzi #0" = 0
+	"Aluar Nelechi #0" = 0
+	"Álvaro Beoxoo #0" = 0
+	"Álvaro Betela #0" = 0
+	"Americo Kkalepag #0" = 0
+	"Americo Kwalela #0" = 0
+	"Andrés Billachila #0" = 0
+	"Andrés Kkaxoo #0" = 0
+	"Ángel Binoloo #0" = 0
+	"Ángel Natzina #0" = 0
+	"Antonio Beoletzi #0" = 0
+	"Antonio Kkalao #0" = 0
+	"Antonio Naxoo #0" = 0
+	"Areas Billii #0" = 0
+	"Areas Binepag #0" = 0
+	"Areas Nalana #0" = 0
+	"Arias Beoloo #0" = 0
+	"Arias Nalechi #0" = 0
+	"Arias Nalepag #0" = 0
+	"Armando Bele #0" = 0
+	"Armando Beoloo #0" = 0
+	"Armando Beotzina #0" = 0
+	"Atl Kkachila #0" = 0
+	"Atl Nelee #0" = 0
+	"Atlahua Gyazii #0" = 0
+	"Atlahua Kwatela #0" = 0
+	"Atonal Gyatela #0" = 0
+	"Atonal Nelopa #0" = 0
+	"Augusto Kkalela #0" = 0
+	"Augusto Kkatzina #0" = 0
+	"Beé Billaxoo #0" = 0
+	"Beé Billee #0" = 0
+	"Beé Billina #0" = 0
+	"Beenda Kwatzina #0" = 0
+	"Beenda Nexoo #0" = 0
+	"Beljjw Kwalii #0" = 0
+	"Beljjw Yezechila #0" = 0
+	"Benechaaba Gyaloo #0" = 0
+	"Benechaaba Yizii #0" = 0
+	"Benito Bezee #0" = 0
+	"Benito Bezepiia #0" = 0
+	"Benito Gyaloo #0" = 0
+	"Berenguel Beolao #0" = 0
+	"Berenguel Binopa #0" = 0
+	"Bernardo Beletzi #0" = 0
+	"Bernardo Yolechi #0" = 0
+	"Bibejw Billana #0" = 0
+	"Bibejw Neloo #0" = 0
+	"Binech Belaxoo #0" = 0
+	"Binech Kwalepag #0" = 0
+	"Canneo Belapiia #0" = 0
+	"Canneo Beolaappe #0" = 0
+	"Carlos Belaappe #0" = 0
+	"Carlos Bezechila #0" = 0
+	"Cháalaxa Billii #0" = 0
+	"Cháalaxa Kkalee #0" = 0
+	"Cocijo Belatela #0" = 0
+	"Cocijo Belechi #0" = 0
+	"Cocijo Billaxoo #0" = 0
+	"Cocijocza Nalela #0" = 0
+	"Cocijocza Yizechi #0" = 0
+	"Cocijoeza Beolela #0" = 0
+	"Cocijoeza Kwalaappe #0" = 0
+	"Cocijopi Billaappe #0" = 0
+	"Cocijopi Binochila #0" = 0
+	"Cocijopi Yoloopa #0" = 0
+	"Cocijouza Bezetela #0" = 0
+	"Cocijouza Bezetzina #0" = 0
+	"Cociyo Bezelana #0" = 0
+	"Cociyo Yizaappe #0" = 0
+	"Cociyo Yolee #0" = 0
+	"Cocobi Bezeepag #0" = 0
+	"Cocobi Billatzina #0" = 0
+	"Cocobi Kkaletzi #0" = 0
+	"Copichja Beoxoo #0" = 0
+	"Copichja Kwalopa #0" = 0
+	"Coqui Kwalela #0" = 0
+	"Coqui Yizee #0" = 0
+	"Cosichaguela Bezechila #0" = 0
+	"Cosichaguela Gyajechi #0" = 0
+	"Cosichaguela Kkaxoo #0" = 0
+	"Cosijoeza Nalina #0" = 0
+	"Cosijoeza Natzina #0" = 0
+	"Cosijopii Beolii #0" = 0
+	"Cosijopii Kkalao #0" = 0
+	"Cozaana Binechi #0" = 0
+	"Cozaana Gyaxoo #0" = 0
+	"Cozaana Nalana #0" = 0
+	"Cozichacozee Beolechi #0" = 0
+	"Cozichacozee Nalepag #0" = 0
+	"Cristian Beotzina #0" = 0
+	"Cristian Betela #0" = 0
+	"Cristian Yezelana #0" = 0
+	"Dagoberto Kkachila #0" = 0
+	"Dagoberto Nachila #0" = 0
+	"Danaá Binozii #0" = 0
+	"Danaá Gyazii #0" = 0
+	"Diago Kkalechi #0" = 0
+	"Diago Nelopa #0" = 0
+	"Diego Kkaloo #0" = 0
+	"Diego Kkatzina #0" = 0
+	"Djoraxa Billee #0" = 0
+	"Djoraxa Kwaloo #0" = 0
+	"Djoraxa Yolochila #0" = 0
+	"Domingo Netzina #0" = 0
+	"Domingo Nexoo #0" = 0
+	"Duran Kwalii #0" = 0
+	"Duran Naloo #0" = 0
+	"Dzawindanda Betzina #0" = 0
+	"Edmundo Belepag #0" = 0
+	"Edmundo Bezee #0" = 0
+	"Eduardo Belana #0" = 0
+	"Eduardo Binopa #0" = 0
+	"Emilio Binotzina #0" = 0
+	"Emilio Yolechi #0" = 0
+	"Enrique Billana #0" = 0
+	"Enrique Nelii #0" = 0
+	"Erasmo Gyajaappe #0" = 0
+	"Erasmo Kwalepag #0" = 0
+	"Erendirani Beolaappe #0" = 0
+	"Erendirani Kkalana #0" = 0
+	"Erick Belaappe #0" = 0
+	"Erick Beochila #0" = 0
+	"Erick Yolepag #0" = 0
+	"Esteban Napiia #0" = 0
+	"Esteban Yizechi #0" = 0
+	"Esteuao Belatela #0" = 0
+	"Esteuao Beolao #0" = 0
+	"Esteuao Yezepiia #0" = 0
+	"Eufrosina Nalela #0" = 0
+	"Eufrosina Nalopa #0" = 0
+	"Fernan Belapiia #0" = 0
+	"Fernan Kwalaappe #0" = 0
+	"Fernan Yolina #0" = 0
+	"Fernández Kkalii #0" = 0
+	"Fernández Nalii #0" = 0
+	"Fernández Yoloopa #0" = 0
+	"Fernando Bezetela #0" = 0
+	"Fernando Natela #0" = 0
+	"Ferran Gyalao #0" = 0
+	"Ferran Yizaappe #0" = 0
+	"Ferran Yizina #0" = 0
+	"Ferrand Belazii #0" = 0
+	"Ferrand Bezeepag #0" = 0
+	"Ferrando Billachila #0" = 0
+	"Ferrando Kkapiia #0" = 0
+	"Ferrando Kwalopa #0" = 0
+	"Francisco Bezeloo #0" = 0
+	"Francisco Kwalao #0" = 0
+	"Francisco Yizee #0" = 0
+	"Garcia Bepiia #0" = 0
+	"Garcia Gyajechi #0" = 0
+	"Garcia Nalechi #0" = 0
+	"Gerardo Nale #0" = 0
+	"Gerardo Nalina #0" = 0
+	"Gomes Beolii #0" = 0
+	"Gomes Billela #0" = 0
+	"Gomes Kwalina #0" = 0
+	"Goncalo Beolina #0" = 0
+	"Goncalo Binechi #0" = 0
+	"Goncalu Beolechi #0" = 0
+	"Goncalu Binela #0" = 0
+	"Goncaluo Bechila #0" = 0
+	"Goncaluo Neloo #0" = 0
+	"Goncaluo Yezelana #0" = 0
+	"Goncalvo Gyajela #0" = 0
+	"Goncalvo Nachila #0" = 0
+	"Gozio Binozii #0" = 0
+	"Gozio Nelaappe #0" = 0
+	"Gozio Nelana #0" = 0
+	"Guillermo Nezii #0" = 0
+	"Gus Beletzi #0" = 0
+	"Gus Kkaloo #0" = 0
+	"Gus Yolana #0" = 0
+	"Gwèibóoné Yolochila #0" = 0
+	"Gwèibóoné Yolozii #0" = 0
+	"Gwpeibóoné Nelepag #0" = 0
+	"Gwpeibóoné Netzina #0" = 0
+	"Gyazob Beozii #0" = 0
+	"Gyazob Naloo #0" = 0
+	"Gyejj Betzina #0" = 0
+	"Gyejj Bezeela #0" = 0
+	"Hasen Belepag #0" = 0
+	"Hasen Billetzi #0" = 0
+	"Hedía Belana #0" = 0
+	"Hedía Yizepag #0" = 0
+	"Hernan Binopiia #0" = 0
+	"Hernan Binotzina #0" = 0
+	"Horacio Bezelao #0" = 0
+	"Horacio Nelii #0" = 0
+	"Humberto Bexoo #0" = 0
+	"Humberto Gyajaappe #0" = 0
+	"Ikal Beolepag #0" = 0
+	"Ikal Kkalana #0" = 0
+	"Iktan Beochila #0" = 0
+	"Iktan Yolela #0" = 0
+	"Ipalnemoani Kkalaappe #0" = 0
+	"Ipalnemoani Napiia #0" = 0
+	"Irepani Binolao #0" = 0
+	"Irepani Binotela #0" = 0
+	"Irepani Yezepiia #0" = 0
+	"Itzamatul Naletzi #0" = 0
+	"Itzamatul Nalopa #0" = 0
+	"Izel Bezexoo #0" = 0
+	"Izel Yolina #0" = 0
+	"Izel Yoloxoo #0" = 0
+	"Jacob Kkalepag #0" = 0
+	"Jacob Kwachila #0" = 0
+	"Jacob Nalii #0" = 0
+	"Jacome Billechi #0" = 0
+	"Jacome Natela #0" = 0
+	"Jesus Binetzi #0" = 0
+	"Jesus Gyalao #0" = 0
+	"Jituh Belazii #0" = 0
+	"Jituh Beopa #0" = 0
+	"Jituh Binee #0" = 0
+	"Jocabo Kkapiia #0" = 0
+	"Jocabo Kwaletzi #0" = 0
+	"Johan Beolopa #0" = 0
+	"Johan Kwalao #0" = 0
+	"Johan Kwatela #0" = 0
+	"Jorge Bepiia #0" = 0
+	"Jorge Billepag #0" = 0
+	"Jose Beloo #0" = 0
+	"José Billela #0" = 0
+	"José Kwapiia #0" = 0
+	"Jose Nale #0" = 0
+	"Joseph Beolina #0" = 0
+	"Joseph Billopa #0" = 0
+	"Juan Binela #0" = 0
+	"Juan Nelao #0" = 0
+	"Julio Bechila #0" = 0
+	"Julio Binii #0" = 0
+	"Julio Gyatela #0" = 0
+	"Jzió Gyajela #0" = 0
+	"Jzió Gyajepag #0" = 0
+	"Jzió Kwazii #0" = 0
+	"Kabil Gyajopa #0" = 0
+	"Kabil Nelaappe #0" = 0
+	"Kabil Yezetzina #0" = 0
+	"Kasakir Neletzi #0" = 0
+	"Kasakir Nezii #0" = 0
+	"Láxdaóxo Belina #0" = 0
+	"Láxdaóxo Yolana #0" = 0
+	"Leonardo Yolopiia #0" = 0
+	"Leonardo Yolozii #0" = 0
+	"Lope Billazii #0" = 0
+	"Lope Nelepag #0" = 0
+	"Lopo Beozii #0" = 0
+	"Lopo Bezii #0" = 0
+	"Luis Bezeela #0" = 0
+	"Luis Bezeetzi #0" = 0
+	"Lyebe Billetzi #0" = 0
+	"Lyebe Nazii #0" = 0
+	"Lyebe Yezetzi #0" = 0
+	"Maatiaak Nelina #0" = 0
+	"Maatiaak Yezetela #0" = 0
+	"Maatiaak Yizepag #0" = 0
+	"Mallobo Beolana #0" = 0
+	"Mallobo Binopiia #0" = 0
+	"Manuel Bezelao #0" = 0
+	"Manuel Billoo #0" = 0
+	"Manuel Nelechi #0" = 0
+	"Marco Bexoo #0" = 0
+	"Marco Bezezii #0" = 0
+	"Mariano Beolepag #0" = 0
+	"Mariano Nelee #0" = 0
+	"Mariano Yoletzi #0" = 0
+	"Martin Billapiia #0" = 0
+	"Martin Yolela #0" = 0
+	"Martin Yolii #0" = 0
+	"Masawa Beotela #0" = 0
+	"Masawa Gyajii #0" = 0
+	"Masawa Kkalaappe #0" = 0
+	"Mauricio Binotela #0" = 0
+	"Mauricio Gyapiia #0" = 0
+	"Mbalaz Kwalee #0" = 0
+	"Mbalaz Naletzi #0" = 0
+	"Mbalaz Nelela #0" = 0
+	"Miguel Bezopa #0" = 0
+	"Miguel Yoloxoo #0" = 0
+	"Nacho Kwachila #0" = 0
+	"Nacho Yolao #0" = 0
+	"Naquichinisa Billechi #0" = 0
+	"Naquichinisa Binina #0" = 0
+	"Naran Binetzi #0" = 0
+	"Naran Nepiia #0" = 0
+	"Naxiñanguiiu Beopa #0" = 0
+	"Naxiñanguiiu Kwalechi #0" = 0
+	"Nestor Kwaletzi #0" = 0
+	"Nestor Yezezii #0" = 0
+	"Nicollas Beolopa #0" = 0
+	"Nicollas Kkatela #0" = 0
+	"Nicollas Netela #0" = 0
+	"Nima Belatzina #0" = 0
+	"Nima Billepag #0" = 0
+	"Nima Yizela #0" = 0
+	"Nucano Beloo #0" = 0
+	"Nucano Gyajee #0" = 0
+	"Pablo Binaappe #0" = 0
+	"Pablo Kwapiia #0" = 0
+	"Pascual Belaopa #0" = 0
+	"Pascual Billopa #0" = 0
+	"Pasqual Gyalana #0" = 0
+	"Pasqual Nelao #0" = 0
+	"Pecala Binii #0" = 0
+	"Pecala Yoloo #0" = 0
+	"Pedro Kwazii #0" = 0
+	"Pedro Yolotzina #0" = 0
+	"Peeci Billao #0" = 0
+	"Peeci Binoloo #0" = 0
+	"Peeci Yezetzina #0" = 0
+	"Pero Neletzi #0" = 0
+	"Pero Yolaappe #0" = 0
+	"Pezelao Belina #0" = 0
+	"Pezelao Billatela #0" = 0
+	"Pitao Bezaappe #0" = 0
+	"Pitao Kkalopa #0" = 0
+	"Pitao Yolopiia #0" = 0
+	"Polo Billazii #0" = 0
+	"Polo Yizopa #0" = 0
+	"Porfirio Bezii #0" = 0
+	"Porfirio Kkalina #0" = 0
+	"Quetzal Bezeetzi #0" = 0
+	"Quetzal Yezeloo #0" = 0
+	"Rafael Belela #0" = 0
+	"Rafael Gyatzina #0" = 0
+	"Rafael Yezetzi #0" = 0
+	"Rahui Billina #0" = 0
+	"Rahui Kwaxoo #0" = 0
+	"Rahui Yezetela #0" = 0
+	"Ramón Beolana #0" = 0
+	"Raúl Bezezii #0" = 0
+	"Raúl Bezina #0" = 0
+	"Raul Billoo #0" = 0
+	"Raul Gyachila #0" = 0
+	"Raul Naxoo #0" = 0
+	"Ricardo Belee #0" = 0
+	"Ricardo Yoletzi #0" = 0
+	"Roberto Billapiia #0" = 0
+	"Roberto Kkazii #0" = 0
+	"Rodolfo Gyajii #0" = 0
+	"Rodolfo Nalao #0" = 0
+	"Rodrigo Gyajetzi #0" = 0
+	"Rodrigo Gyapiia #0" = 0
+	"Rogelio Binolana #0" = 0
+	"Rogelio Kwalana #0" = 0
+	"Rogelio Nelela #0" = 0
+	"Roy Bezopa #0" = 0
+	"Roy Nelchila #0" = 0
+	"Ruben Binoxoo #0" = 0
+	"Ruben Kwatzina #0" = 0
+	"Ruben Yolao #0" = 0
+	"Rufino Bezeechi #0" = 0
+	"Rufino Binina #0" = 0
+	"Ruy Binepag #0" = 0
+	"Ruy Gyajina #0" = 0
+	"Ruy Nepiia #0" = 0
+	"Sabino Beolee #0" = 0
+	"Sabino Kwalechi #0" = 0
+	"Saluador Bele #0" = 0
+	"Saluador Yezezii #0" = 0
+	"Sancho Belela #0" = 0
+	"Sancho Kkatela #0" = 0
+	"Santiago Bezaappe #0" = 0
+	"Santiago Yizela #0" = 0
+	"Saul Binee #0" = 0
+	"Saul Gyajee #0" = 0
+	"Sebastian Beopiia #0" = 0
+	"Sebastian Binaappe #0" = 0
+	"Séneca Belaopa #0" = 0
+	"Séneca Yezexoo #0" = 0
+	"Séneca Yolii #0" = 0
+	"Seti Yolepag #0" = 0
+	"Shanarani Nazii #0" = 0
+	"Shanarani Yoloo #0" = 0
+	"Sicuane Yezelao #0" = 0
+	"Sicuane Yolotela #0" = 0
+	"Sicuane Yolotzina #0" = 0
+	"Simon Billao #0" = 0
+	"Simon Kkalii #0" = 0
+	"Suré Billatzina #0" = 0
+	"Suré Yolaappe #0" = 0
+	"Surem Beotela #0" = 0
+	"Surem Billatela #0" = 0
+	"Surem Kkalela #0" = 0
+	"Taiyari Kkalopa #0" = 0
+	"Taiyari Netela #0" = 0
+	"Tanok Nelina #0" = 0
+	"Tanok Yizopa #0" = 0
+	"Tigr Kkalina #0" = 0
+	"Tigr Yezexoo #0" = 0
+	"Tito Bezelana #0" = 0
+	"Tito Yezeloo #0" = 0
+	"Tlayolotl Beoletzi #0" = 0
+	"Tlayolotl Gyatzina #0" = 0
+	"Tsijiari Kwaloo #0" = 0
+	"Tsijiari Kwaxoo #0" = 0
+	"Uriel Belao #0" = 0
+	"Uriel Binochila #0" = 0
+	"Uriel Yezechila #0" = 0
+	"Vaasco Belaxoo #0" = 0
+	"Vaasco Belii #0" = 0
+	"Vaasco Gyachila #0" = 0
+	"Val Bezina #0" = 0
+	"Val Yizina #0" = 0
+	"Véeni Belatzina #0" = 0
+	"Véeni Belee #0" = 0
+	"Véeni Nalaappe #0" = 0
+	"Veziá Beopiia #0" = 0
+	"Veziá Kkazii #0" = 0
+	"Veziá Kwalana #0" = 0
+	"Vziá Kwalina #0" = 0
+	"Vziá Nalao #0" = 0
+	"Xoo Gyajepag #0" = 0
+	"Xoo Gyajetzi #0" = 0
+	"Yacua Binolana #0" = 0
+	"Yacua Nalaappe #0" = 0
+	"Yoltzin Bezeloo #0" = 0
+	"Yoltzin Nelchila #0" = 0
+	"Yooko Belechi #0" = 0
+	"Yooko Binoxoo #0" = 0
+	"Zaachilla Bezeechi #0" = 0
+	"Zaachilla Bezepiia #0" = 0
+	"Zaachilla Kwalee #0" = 0
+	"Zniá Gyajina #0" = 0
+	"Zniá Nelana #0" = 0
+	"Zyrx Beolee #0" = 0
+	"Zyrx Binolao #0" = 0
+
+
+	"Vanessa #0" = -1
+	"Jacqueline #0" = -1
+}
+

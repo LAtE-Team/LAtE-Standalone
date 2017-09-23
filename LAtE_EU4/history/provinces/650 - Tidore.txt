@@ -1,0 +1,28 @@
+#650 - Tidore
+
+#owner = TID
+#controller = TID
+culture = moluccan
+religion = sunni
+capital = "Tidore"
+trade_goods = spices
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = no
+#add_core= TID
+
+
+
+discovered_by = chinese
+
+
+add_permanent_province_modifier = {
+	name = spice_islands_modifier
+	duration = -1
+}
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

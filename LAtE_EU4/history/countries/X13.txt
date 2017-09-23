@@ -1,0 +1,26 @@
+# Georgia Strait
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = haida
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 974
+3049.12.1 = {
+	monarch = {
+		name = "Haina"
+		birth_date = 2987.8.13
+		dynasty = "Tlgunghung"
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = pious_personality
+}
+3053.1.1 {
+	capital = 974
+	add_treasury = 0
+	add_prestige = 279
+}

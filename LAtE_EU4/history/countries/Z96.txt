@@ -1,0 +1,26 @@
+# Chicot
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 895
+3046.12.28 = {
+	monarch = {
+		name = "Girard"
+		birth_date = 3010.9.28
+		dynasty = "Philippi"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 895
+	add_treasury = 61
+	add_prestige = 72
+	elector = no
+}

@@ -1,0 +1,24 @@
+#1016 - Ha Tinh
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = mahayana
+capital = "Ha Tinh"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= DAI
+
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

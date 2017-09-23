@@ -1,0 +1,26 @@
+# Blackshear
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4668
+3051.2.12 = {
+	monarch = {
+		name = "Vinton"
+		birth_date = 3005.10.17
+		dynasty = " Blackshear"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 4668
+	add_treasury = 119
+	add_prestige = 24
+	elector = no
+}

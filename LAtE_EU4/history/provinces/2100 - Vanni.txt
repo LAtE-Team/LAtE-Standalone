@@ -1,0 +1,24 @@
+#2100 - Vanni
+
+owner = MAD
+controller = MAD
+culture = tamil
+religion = hinduism
+capital = "Yapapatuna"
+trade_goods = tropical_wood #And Pearls
+hre = no
+base_tax = 2 
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = MAD
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+discovered_by = chinese
+discovered_by = east_african
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

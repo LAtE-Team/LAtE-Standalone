@@ -1,0 +1,37 @@
+# Michigan
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 4555
+3026.1.17 = {
+	monarch = {
+		name = "Lucius"
+		birth_date = 2992.12.15
+		dynasty = "Hartnell"
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = malevolent_personality
+	heir = {
+		name = "Lucius"
+		monarch_name = "Lucius II"
+		dynasty = "Hartnell"
+		birth_date = 3017.3.13
+		death_date = 3097.3.13
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 4555
+	add_treasury = 499
+	add_prestige = 344
+}

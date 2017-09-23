@@ -1,0 +1,19 @@
+#1093 - Barunggam
+
+owner = BBQ
+controller = BBQ
+add_core = BBQ
+is_city = yes
+culture = strayan
+religion = animism
+trade_goods = unknown
+capital = "Barunggam"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 4
+native_hostileness = 3
+
+discovered_by = chinese

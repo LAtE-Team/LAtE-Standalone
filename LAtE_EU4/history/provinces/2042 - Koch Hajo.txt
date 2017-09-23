@@ -1,0 +1,25 @@
+#2042 - Koch Hajo
+
+owner = ASS
+controller = ASS
+culture = assamese
+religion = hinduism
+capital = "Gauhauti"
+trade_goods = cotton
+hre = no
+base_tax = 2 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core= ASS
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

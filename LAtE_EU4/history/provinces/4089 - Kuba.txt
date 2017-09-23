@@ -1,0 +1,16 @@
+owner = KON
+controller = KON
+add_core = KON
+is_city = yes
+culture = kuba
+religion = ahmadi
+capital = "Kuba"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 3
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = central_african

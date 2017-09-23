@@ -1,0 +1,45 @@
+#214 - Aragón
+
+#owner = ARA		# Alfons V of Aragon
+#controller = ARA
+#add_core= ARA
+culture = aragonese
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Zaragoza" 
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # Foral riots in Zaragoza 
+# = { revolt = {} #controller = SPA } # The army is dispatched to quell the riots
+# = { #controller = HAB } # Aragon joins the Austrian side in the War of Spanish Succession
+# = { #controller = SPA } # Aragon falls to the Borbonic troops
+# = { #controller = HAB } # Archduke Carlos takes Zaragoza, paving again the way to Madrid
+# = { #controller = SPA } # Felipe V reorganises his army and is able to force the retreat of the Archduke's army
+# = { remove_core = ARA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

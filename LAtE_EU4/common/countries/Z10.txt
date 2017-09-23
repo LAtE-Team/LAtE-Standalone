@@ -1,0 +1,211 @@
+# Vicksburg
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 178 129 54 }
+
+
+
+
+leader_names = {
+
+	"Terra" "Nautilia" "Menard" "Willow" "Jay" "Harry" "Eduard" "Alexandre" "Melody" "Candy" 
+	"Danielle" "Vanity" "Perdida" "Sam" "Waynelle" "Sue" "Josephine" "Ellen" "Magnolia" "Roderic" 
+	"Solon" "Caroline" "Tomas" "Neptune" "Panfile" "Marcus" "Audrey" "Duarte" "Layla" "Jeanne" 
+	"Aucilla" "Lasker" "Pere" "Joan" "Arlene" "Louis" "Carmen" "Mathias" "Jehan" "Cavalla" 
+	"Azalea" "Marianne" "Alonso" "Atlas" "Cola" "Citronelle" "Javier" "Alicia" "Louisa" "Wacissa" 
+	"Orelian" "Soto" "Citrand" "Roxie" "Madeline" "Autrania" "Mitchell" "Hermine" "Adam" "Roslyn" 
+	"Antoine" "Gabrielle" "Eulalia" "Fulwar" "Anna" "Fay" "Flora" "Mercedita" "Henry" "Allison" 
+	"Humbert" "Fern" "Garcia" "Feliciana" "Jeannette" "Calhoun" "Delia" "David" "Montfort" "Scout" 
+	"Gomer" "Georges" "Macond" "Oceanus" "Florence" "Pearl" "Sandy" "Pina" "Victor" "Gaspar" 
+	"Claudette" "Elias" "Grace" "Torreya" "Debra" "Forrest" "Nyssa" "Mangifera" "Lucia" "Purvis" 
+	"Daisy" "Jackson" "Diego" "Eloise" "Beulah" "Ferdinand" "Rita" "Lyndon" "Melisende" "Malaric" 
+	"Clint" "Francis" "Reb" "Jozelle" "Cotton" "Billup" "Diamond" "Buddy" "Moon" "Rubyanne" 
+	"Pamilia" "Bella" "Margarida" "Stephanie" "Haley" "Alexandra" "Homer" "Chuck" "Savannah" "Peach" 
+	"Jeremy" "Nyla" "Luther" "Raynault" "Philus" "Beryl" "Sarah" "Willa" "Woody" "Ardo" 
+	"Ashton" "Augustine" "Allen" "Autrane" "Bernard" "Bell" "Carles" "Chester" "Colin" "Frederic" 
+	"Ferran" "Galves" "Girard" "Gonzalo" "Gutierre" "Hernand" "Harrison" "Jaumet" "Joaquim" "Junipero" 
+	"Leon" "Lucas" "Moyne" "Malhad" "Montserrat" "Melchor" "Narcis" "Offatt" "Palustris" "Pelecand" 
+	"Ponce" "Robard" "Roland" "Ramon" "Sander" "Taylor" "Tammand" "Tristan" "Velasce" "Xavier" }
+monarch_names = {
+	"Terra #0" = -1
+	"Nautilia #0" = -1
+	"Menard #0" = 1
+	"Willow #0" = -1
+	"Jay #0" = 1
+	"Harry #0" = 1
+	"Eduard #0" = 1
+	"Alexandre #0" = 1
+	"Melody #0" = -1
+	"Candy #0" = -1
+	"Danielle #0" = -1
+	"Vanity #0" = -1
+	"Perdida #0" = -1
+	"Sam #0" = 1
+	"Waynelle #0" = -1
+	"Sue #0" = -1
+	"Josephine #0" = -1
+	"Ellen #0" = -1
+	"Magnolia #0" = -1
+	"Roderic #0" = 1
+	"Solon #0" = 1
+	"Caroline #0" = -1
+	"Tomas #0" = 1
+	"Neptune #0" = 1
+	"Panfile #0" = 1
+	"Marcus #0" = 1
+	"Audrey #0" = -1
+	"Duarte #0" = 1
+	"Layla #0" = -1
+	"Jeanne #0" = -1
+	"Aucilla #0" = -1
+	"Lasker #0" = 1
+	"Pere #0" = 1
+	"Joan #0" = -1
+	"Arlene #0" = -1
+	"Louis #0" = 1
+	"Carmen #0" = -1
+	"Mathias #0" = 1
+	"Jehan #0" = 1
+	"Cavalla #0" = -1
+	"Azalea #0" = -1
+	"Marianne #0" = -1
+	"Alonso #0" = 1
+	"Atlas #0" = 1
+	"Cola #0" = -1
+	"Citronelle #0" = -1
+	"Javier #0" = 1
+	"Alicia #0" = -1
+	"Louisa #0" = -1
+	"Wacissa #0" = -1
+	"Orelian #0" = 1
+	"Soto #0" = 1
+	"Citrand #0" = 1
+	"Roxie #0" = -1
+	"Madeline #0" = -1
+	"Autrania #0" = -1
+	"Mitchell #0" = 1
+	"Hermine #0" = -1
+	"Adam #0" = 1
+	"Roslyn #0" = -1
+	"Antoine #0" = 1
+	"Gabrielle #0" = -1
+	"Eulalia #0" = -1
+	"Fulwar #0" = 1
+	"Anna #0" = -1
+	"Fay #0" = -1
+	"Flora #0" = -1
+	"Mercedita #0" = -1
+	"Henry #0" = 1
+	"Allison #0" = -1
+	"Humbert #0" = 1
+	"Fern #0" = -1
+	"Garcia #0" = 1
+	"Feliciana #0" = -1
+	"Jeannette #0" = -1
+	"Calhoun #0" = 1
+	"Delia #0" = -1
+	"David #0" = 1
+	"Montfort #0" = 1
+	"Scout #0" = -1
+	"Gomer #0" = 1
+	"Georges #0" = 1
+	"Macond #0" = 1
+	"Oceanus #0" = 1
+	"Florence #0" = -1
+	"Pearl #0" = -1
+	"Sandy #0" = -1
+	"Pina #0" = -1
+	"Victor #0" = 1
+	"Gaspar #0" = 1
+	"Claudette #0" = -1
+	"Elias #0" = 1
+	"Grace #0" = -1
+	"Torreya #0" = -1
+	"Debra #0" = -1
+	"Forrest #0" = 1
+	"Nyssa #0" = -1
+	"Mangifera #0" = -1
+	"Lucia #0" = -1
+	"Purvis #0" = 1
+	"Daisy #0" = -1
+	"Jackson #0" = 1
+	"Diego #0" = 1
+	"Eloise #0" = -1
+	"Beulah #0" = -1
+	"Ferdinand #0" = 1
+	"Rita #0" = -1
+	"Lyndon #0" = 1
+	"Melisende #0" = -1
+	"Malaric #0" = 1
+	"Clint #0" = 1
+	"Francis #0" = 1
+	"Reb #0" = 1
+	"Jozelle #0" = -1
+	"Cotton #0" = 1
+	"Billup #0" = 1
+	"Diamond #0" = -1
+	"Buddy #0" = 1
+	"Moon #0" = -1
+	"Rubyanne #0" = -1
+	"Pamilia #0" = -1
+	"Bella #0" = -1
+	"Margarida #0" = -1
+	"Stephanie #0" = -1
+	"Haley #0" = -1
+	"Alexandra #0" = -1
+	"Homer #0" = 1
+	"Chuck #0" = 1
+	"Savannah #0" = -1
+	"Peach #0" = -1
+	"Jeremy #0" = 1
+	"Nyla #0" = -1
+	"Luther #0" = 1
+	"Raynault #0" = 1
+	"Philus #0" = 1
+	"Beryl #0" = -1
+	"Sarah #0" = -1
+	"Willa #0" = -1
+	"Woody #0" = 1
+	"Ardo #0" = 0
+	"Ashton #0" = 0
+	"Augustine #0" = 0
+	"Allen #0" = 0
+	"Autrane #0" = 0
+	"Bernard #0" = 0
+	"Bell #0" = 0
+	"Carles #0" = 0
+	"Chester #0" = 0
+	"Colin #0" = 0
+	"Frederic #0" = 0
+	"Ferran #0" = 0
+	"Galves #0" = 0
+	"Girard #0" = 0
+	"Gonzalo #0" = 0
+	"Gutierre #0" = 0
+	"Hernand #0" = 0
+	"Harrison #0" = 0
+	"Jaumet #0" = 0
+	"Joaquim #0" = 0
+	"Junipero #0" = 0
+	"Leon #0" = 0
+	"Lucas #0" = 0
+	"Moyne #0" = 0
+	"Malhad #0" = 0
+	"Montserrat #0" = 0
+	"Melchor #0" = 0
+	"Narcis #0" = 0
+	"Offatt #0" = 0
+	"Palustris #0" = 0
+	"Pelecand #0" = 0
+	"Ponce #0" = 0
+	"Robard #0" = 0
+	"Roland #0" = 0
+	"Ramon #0" = 0
+	"Sander #0" = 0
+	"Taylor #0" = 0
+	"Tammand #0" = 0
+	"Tristan #0" = 0
+	"Velasce #0" = 0
+	"Xavier #0" = 0
+}
+

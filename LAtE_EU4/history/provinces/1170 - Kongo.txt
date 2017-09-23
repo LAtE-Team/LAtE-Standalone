@@ -1,0 +1,23 @@
+#1170 - Kongo
+
+owner = KON
+controller = KON
+add_core = KON
+is_city = yes
+culture = kongolese
+religion = ahmadi
+capital = "M'banza Kongo"
+trade_goods = unknown
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = central_african
+discovered_by = sub_saharan
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}

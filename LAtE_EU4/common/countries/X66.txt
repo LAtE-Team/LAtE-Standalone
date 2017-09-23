@@ -1,0 +1,282 @@
+# Eeyou Istchee
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 12 150 100 }
+
+
+
+
+leader_names = {
+
+	"Catahecassa" "Mahvipah" "Chacon" "Anakausuen" "Jacques" "Isidore" "Jeanette" "Richard" "Adrianne" "René" 
+	"Gautier" "Josselin" "Samuel" "Milaine" "Frédéric" "Ermengunde" "Justin" "Sarah" "Eschive" "Vincent" 
+	"Isabelle" "Hector" "Cyrille" "Aguagonabe" "Amickoneena" "Aneuwayba" "Anueemaycounbeeme" "Aquoqua" "Arron" "Asiniiwin" 
+	"Atowagesek" "Aushetayawnekusa" "Autowaynabee" "Ayaakwe" "Bagwunagijik" "Bayaaswaa" "Beshkno" "Bizhiki" "Cannematchie" "Capontwa" 
+	"Catchacommu" "Catchemackeseo" "Chagasort" "Chekaqua" "Chimokemow" "Choukeka" "Cobmoosa" "Egushawa" "Endus" "Enmegahbowh" 
+	"Eshkibagikoonzhe" "Fonegawne" "Gaa-binagwiiyaas" "Hache-hi" "Hanshequarhiqua" "Hokolesqua" "Hosa" "Kakagouryan" "Kataka" "Kauguest" 
+	"Kaujagonaygee" "Kawgeshequm" "Kawotoktame" "Kechaswa" "Kechewaishke" "Keesheswa" "Kekenutchega" "Kekenutchegun" "Kenekuk" "Keneobe" 
+	"Kennewobe" "Keokuk" "Kewageone" "Kewaytinam" "Kewinoquot" "Keyacum" "Kineubenae" "Kinistin" "Kishkaukou" "Kitcheenoting" 
+	"Kitcheonundeeyo" "Kitchewawashen" "Kitchmokooman" "Kitsheematush" "Kogkakeshik" "Kokoosh" "Lalawethika" "Lalyurva" "Maajigwaneyaash" "Machenamau" 
+	"Mackkatananamakee" "Macquettequet" "Makataimeshekia" "Malasenokama" "Mamaangezide" "Mamawsecuta" "Mandowescence" "Maneleugobwawaa" "Markkenwuwbe" "Mataqua" 
+	"Mawmawkens" "Mayneeseno" "Mayto" "Maytwayaushing" "Mecaitch" "Meckseonne" "Medweganoonind" "Meewayson" "Mehcihcakanihs" "Mesnakrea" 
+	"Metewa" "Minequet" "Minggeeseetay" "Mishecaqua" "Misheneanonquet" "Miskokwanep" "Miskwaanakwad" "Mixabee" "Mixmunitou" "Moksauba" 
+	"Montons" "Mooksonga" "Mowhinin" "Muckcumcinau" "Muckkatwagout" "Muskobenense" "Mutchwetau" "Nagan" "Nakos" "Namachewana" 
+	"Namakagon" "Namasosanamet" "Namiid" "Nanochaatasa" "Nashashuk" "Nautakawa" "Nawgonisee" "Naynooautienishkoan" "Nayokeeman" "Neebeenaquin" 
+	"Negwagon" "Nemarqua" "Nemekas" "Nemetetowwa" "Nenaa'angebi" "Neshota" "Nikan" "Nimeke" "Nonosecash" "Norval" 
+	"Noukonwabe" "Nowkeshuc" "Nuwagon" "Obizaan" "Obwandiyag" "Obwole" "Ocanauck" "Odell" "Ogeebouinse" "Ogemaunkeketo" 
+	"Ogima" "Ogontz" "Okeemanpeenaysee" "Okemans" "Okooyousinse" "Okumanpinase" "Omikou" "Omquo" "Ondottowaugane" "Onewequa" 
+	"Otauson" "Outchequaka" "Owenisham" "Pakenosega" "Papiquan" "Paquampa" "Pashchenene" "Pashepaho" "Pashkeekou" "Pashkobwis" 
+	"Paupemiskobe" "Paymeenoting" "Paymusawtom" "Peaypaymanshee" "Pecama" "Pechegechequistqum" "Peenaysee" "Pemaw" "Penaysewaykesek" "Peshquescum" 
+	"Pesotaka" "Petosegay" "Pierremaskin" "Puckanese" "Puckwash" "Quashquame" "Reaume" "Sabo" "Saguhosh" "Saugassauway" 
+	"Saybo" "Sepewan" "Sha-có-pay" "Shaconk" "Shamaga" "Shashebak" "Shawshauwenaubais" "Sheemaugua" "Shimnanaquette" "Shingwalk" 
+	"Sigonak" "Singgok" "Taimah" "Tecumseh" "Tenskwatawa" "Tussegua" "Waabojiig" "Waapaca" "Wabanquot" "Wabbicommicot" 
+	"Walkcaykeejugo" "Wapasai" "Wapello" "Waseneso" "Waseya" "Wassau" "Wasson" "Wathohuck" "Waubeekeenew" "Waubishcan" 
+	"Waubonoosa" "Wausaquanai" "Wauwassack" "Wauweeyatam" "Wawapenishik" "Wawatam" "Wawaubequak" "Weesaka" "Wepecumgegut" "Weshkii" 
+	"Wiishkobak" "Wonakasa" "Zebi" "Zheewegonab" }
+monarch_names = {
+	"Catahecassa #1" = 18
+	"Mahvipah #1" = 0
+	"Chacon #1" = 0
+	"Anakausuen #2" = 0
+	"Jacques #2" = 0
+	"Isidore #1" = 0
+	"Jeanette #1" = -1
+	"Richard #1" = 0
+	"Adrianne #1" = -1
+	"René #2" = 0
+	"Gautier #1" = 0
+	"Josselin #1" = 0
+	"Samuel #1" = 0
+	"Milaine #1" = -1
+	"Frédéric #1" = 0
+	"Ermengunde #1" = -1
+	"Justin #1" = 0
+	"Sarah #1" = -1
+	"Eschive #1" = -1
+	"Vincent #1" = 0
+	"Isabelle #1" = -1
+	"Hector #1" = 0
+	"Cyrille #1" = 0
+	"Aguagonabe #0" = 0
+	"Amickoneena #0" = 0
+	"Aneuwayba #0" = 0
+	"Anueemaycounbeeme #0" = 0
+	"Aquoqua #0" = 0
+	"Arron #0" = 0
+	"Asiniiwin #0" = 0
+	"Atowagesek #0" = 0
+	"Aushetayawnekusa #0" = 0
+	"Autowaynabee #0" = 0
+	"Ayaakwe #0" = 0
+	"Bagwunagijik #0" = 0
+	"Bayaaswaa #0" = 0
+	"Beshkno #0" = 0
+	"Bizhiki #0" = 0
+	"Cannematchie #0" = 0
+	"Capontwa #0" = 0
+	"Catchacommu #0" = 0
+	"Catchemackeseo #0" = 0
+	"Chagasort #0" = 0
+	"Chekaqua #0" = 0
+	"Chimokemow #0" = 0
+	"Choukeka #0" = 0
+	"Cobmoosa #0" = 0
+	"Egushawa #0" = 0
+	"Endus #0" = 0
+	"Enmegahbowh #0" = 0
+	"Eshkibagikoonzhe #0" = 0
+	"Fonegawne #0" = 0
+	"Gaa-binagwiiyaas #0" = 0
+	"Hache-hi #0" = 0
+	"Hanshequarhiqua #0" = 0
+	"Hokolesqua #0" = 0
+	"Hosa #0" = 0
+	"Kakagouryan #0" = 0
+	"Kataka #0" = 0
+	"Kauguest #0" = 0
+	"Kaujagonaygee #0" = 0
+	"Kawgeshequm #0" = 0
+	"Kawotoktame #0" = 0
+	"Kechaswa #0" = 0
+	"Kechewaishke #0" = 0
+	"Keesheswa #0" = 0
+	"Kekenutchega #0" = 0
+	"Kekenutchegun #0" = 0
+	"Kenekuk #0" = 0
+	"Keneobe #0" = 0
+	"Kennewobe #0" = 0
+	"Keokuk #0" = 0
+	"Kewageone #0" = 0
+	"Kewaytinam #0" = 0
+	"Kewinoquot #0" = 0
+	"Keyacum #0" = 0
+	"Kineubenae #0" = 0
+	"Kinistin #0" = 0
+	"Kishkaukou #0" = 0
+	"Kitcheenoting #0" = 0
+	"Kitcheonundeeyo #0" = 0
+	"Kitchewawashen #0" = 0
+	"Kitchmokooman #0" = 0
+	"Kitsheematush #0" = 0
+	"Kogkakeshik #0" = 0
+	"Kokoosh #0" = 0
+	"Lalawethika #0" = 0
+	"Lalyurva #0" = 0
+	"Maajigwaneyaash #0" = 0
+	"Machenamau #0" = 0
+	"Mackkatananamakee #0" = 0
+	"Macquettequet #0" = 0
+	"Makataimeshekia #0" = 0
+	"Malasenokama #0" = 0
+	"Mamaangezide #0" = 0
+	"Mamawsecuta #0" = 0
+	"Mandowescence #0" = 0
+	"Maneleugobwawaa #0" = 0
+	"Markkenwuwbe #0" = 0
+	"Mataqua #0" = 0
+	"Mawmawkens #0" = 0
+	"Mayneeseno #0" = 0
+	"Mayto #0" = 0
+	"Maytwayaushing #0" = 0
+	"Mecaitch #0" = 0
+	"Meckseonne #0" = 0
+	"Medweganoonind #0" = 0
+	"Meewayson #0" = 0
+	"Mehcihcakanihs #0" = 0
+	"Mesnakrea #0" = 0
+	"Metewa #0" = 0
+	"Minequet #0" = 0
+	"Minggeeseetay #0" = 0
+	"Mishecaqua #0" = 0
+	"Misheneanonquet #0" = 0
+	"Miskokwanep #0" = 0
+	"Miskwaanakwad #0" = 0
+	"Mixabee #0" = 0
+	"Mixmunitou #0" = 0
+	"Moksauba #0" = 0
+	"Montons #0" = 0
+	"Mooksonga #0" = 0
+	"Mowhinin #0" = 0
+	"Muckcumcinau #0" = 0
+	"Muckkatwagout #0" = 0
+	"Muskobenense #0" = 0
+	"Mutchwetau #0" = 0
+	"Nagan #0" = 0
+	"Nakos #0" = 0
+	"Namachewana #0" = 0
+	"Namakagon #0" = 0
+	"Namasosanamet #0" = 0
+	"Namiid #0" = 0
+	"Nanochaatasa #0" = 0
+	"Nashashuk #0" = 0
+	"Nautakawa #0" = 0
+	"Nawgonisee #0" = 0
+	"Naynooautienishkoan #0" = 0
+	"Nayokeeman #0" = 0
+	"Neebeenaquin #0" = 0
+	"Negwagon #0" = 0
+	"Nemarqua #0" = 0
+	"Nemekas #0" = 0
+	"Nemetetowwa #0" = 0
+	"Nenaa'angebi #0" = 0
+	"Neshota #0" = 0
+	"Nikan #0" = 0
+	"Nimeke #0" = 0
+	"Nonosecash #0" = 0
+	"Norval #0" = 0
+	"Noukonwabe #0" = 0
+	"Nowkeshuc #0" = 0
+	"Nuwagon #0" = 0
+	"Obizaan #0" = 0
+	"Obwandiyag #0" = 0
+	"Obwole #0" = 0
+	"Ocanauck #0" = 0
+	"Odell #0" = 0
+	"Ogeebouinse #0" = 0
+	"Ogemaunkeketo #0" = 0
+	"Ogima #0" = 0
+	"Ogontz #0" = 0
+	"Okeemanpeenaysee #0" = 0
+	"Okemans #0" = 0
+	"Okooyousinse #0" = 0
+	"Okumanpinase #0" = 0
+	"Omikou #0" = 0
+	"Omquo #0" = 0
+	"Ondottowaugane #0" = 0
+	"Onewequa #0" = 0
+	"Otauson #0" = 0
+	"Outchequaka #0" = 0
+	"Owenisham #0" = 0
+	"Pakenosega #0" = 0
+	"Papiquan #0" = 0
+	"Paquampa #0" = 0
+	"Pashchenene #0" = 0
+	"Pashepaho #0" = 0
+	"Pashkeekou #0" = 0
+	"Pashkobwis #0" = 0
+	"Paupemiskobe #0" = 0
+	"Paymeenoting #0" = 0
+	"Paymusawtom #0" = 0
+	"Peaypaymanshee #0" = 0
+	"Pecama #0" = 0
+	"Pechegechequistqum #0" = 0
+	"Peenaysee #0" = 0
+	"Pemaw #0" = 0
+	"Penaysewaykesek #0" = 0
+	"Peshquescum #0" = 0
+	"Pesotaka #0" = 0
+	"Petosegay #0" = 0
+	"Pierremaskin #0" = 0
+	"Puckanese #0" = 0
+	"Puckwash #0" = 0
+	"Quashquame #0" = 0
+	"Reaume #0" = 0
+	"Sabo #0" = 0
+	"Saguhosh #0" = 0
+	"Saugassauway #0" = 0
+	"Saybo #0" = 0
+	"Sepewan #0" = 0
+	"Sha-có-pay #0" = 0
+	"Shaconk #0" = 0
+	"Shamaga #0" = 0
+	"Shashebak #0" = 0
+	"Shawshauwenaubais #0" = 0
+	"Sheemaugua #0" = 0
+	"Shimnanaquette #0" = 0
+	"Shingwalk #0" = 0
+	"Sigonak #0" = 0
+	"Singgok #0" = 0
+	"Taimah #0" = 0
+	"Tecumseh #0" = 0
+	"Tenskwatawa #0" = 0
+	"Tussegua #0" = 0
+	"Waabojiig #0" = 0
+	"Waapaca #0" = 0
+	"Wabanquot #0" = 0
+	"Wabbicommicot #0" = 0
+	"Walkcaykeejugo #0" = 0
+	"Wapasai #0" = 0
+	"Wapello #0" = 0
+	"Waseneso #0" = 0
+	"Waseya #0" = 0
+	"Wassau #0" = 0
+	"Wasson #0" = 0
+	"Wathohuck #0" = 0
+	"Waubeekeenew #0" = 0
+	"Waubishcan #0" = 0
+	"Waubonoosa #0" = 0
+	"Wausaquanai #0" = 0
+	"Wauwassack #0" = 0
+	"Wauweeyatam #0" = 0
+	"Wawapenishik #0" = 0
+	"Wawatam #0" = 0
+	"Wawaubequak #0" = 0
+	"Weesaka #0" = 0
+	"Wepecumgegut #0" = 0
+	"Weshkii #0" = 0
+	"Wiishkobak #0" = 0
+	"Wonakasa #0" = 0
+	"Zebi #0" = 0
+	"Zheewegonab #0" = 0
+}
+

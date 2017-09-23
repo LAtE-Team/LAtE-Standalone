@@ -1,0 +1,18 @@
+east_slavic = {
+	ilmenian = {
+		primary = NOV
+		dynasty_names = { }
+	}
+	volhynian = {
+		primary = KIE
+		dynasty_names = { }
+	}
+	severian = {
+		primary = KIE
+		dynasty_names = { }
+	}
+	russian_culture = {
+		primary = RUS
+		dynasty_names = { }
+	}
+}

@@ -1,0 +1,7 @@
+# Auralia
+government = feudal_monarchy
+government_rank = 2
+technology_group = chinese
+primary_culture = strayan
+religion = atomicist
+capital = 4640 # Kalgoorlie

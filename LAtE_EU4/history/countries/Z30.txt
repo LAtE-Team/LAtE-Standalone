@@ -1,0 +1,26 @@
+# Augusta
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2540
+3050.11.28 = {
+	monarch = {
+		name = "Jackson"
+		birth_date = 3004.4.28
+		dynasty = "Longroad"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 2540
+	add_treasury = 49
+	add_prestige = 68
+	elector = no
+}

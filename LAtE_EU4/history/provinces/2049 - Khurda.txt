@@ -1,0 +1,24 @@
+#2103 - Khurda (Orissa Tributary States)
+
+owner = ORI
+controller = ORI
+culture = garjati
+religion = hinduism
+capital = "Khurda"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core= ORI
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

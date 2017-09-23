@@ -1,0 +1,27 @@
+# Wilmington
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = delawarean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 957
+3006.3.6 = {
+	monarch = {
+		name = "Fulgent"
+		birth_date = 3000.8.15
+		dynasty = "Royall"
+		adm = 1
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 957
+	add_treasury = 35
+	add_prestige = 145
+	elector = no
+}

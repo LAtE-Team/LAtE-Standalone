@@ -1,0 +1,170 @@
+# Antioquia
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 199 193 23 }
+
+
+
+
+leader_names = {
+
+	"Nestor" "Aarón" "Abel" "Adrian" "Adrián" "Agapito" "Agaton" "Aguilera" "Aimar" "Akier" 
+	"Alba" "Alcides" "Alejandro" "Alexander" "Alverez" "Andolin" "Andoni" "Andrés" "Androción" "Androniko" 
+	"Angelo" "Antíoco" "Apeles" "Aquiles" "Aristides" "Aristio" "Aristipo" "Aristóteles" "Atenágoras" "Balan" 
+	"Bazkoare" "Bernardo" "Camilo" "Carlos" "Clímaco" "Concepcion" "Corpuz" "Cristian" "Cristián" "Cristofer" 
+	"Danel" "Éder" "Efrain" "Emiliano" "Epifanio" "Ernio" "Errando" "Errolan" "Erroman" "Fabián" 
+	"Felipe" "Feo" "Florentino" "Francisco" "Gabriel" "Gaio" "Gaitan" "Gaston" "Gilberto" "Giron" 
+	"Guadalupe" "Gustavo" "Helibelton" "Heliodoro" "Héracles" "Hernan" "Herodoto" "Hidalgo" "Holguin" "Honor" 
+	"Hugo" "Idomeneo" "Isidoro" "Ismael" "Jeison" "Jerrald" "Jose" "Josue" "Juan" "Kiritz" 
+	"Lantz" "Leano" "Leontzio" "Luis" "Luken" "Macario" "Magallanez" "Manuel" "Matro" "Menelao" 
+	"Metelo" "Montealegre" "Montrel" "Nepote" "Neso" "Nicátor" "Nizias" "Pablo" "Paléfato" "Pancho" 
+	"Pedro" "Peralta" "Pirro" "Plutarco" "Plutón" "Polen" "Polentzi" "Porfiro" "Pupieno" "Radamel" 
+	"Rafael" "Ramone" "Regal" "Remedios" "Renteria" "Rubiano" "Sabas" "Sabino" "Santiago" "Sejano" 
+	"Seleuco" "Simon" "Sócrates" "Stefan" "Talamantez" "Temístocles" "Teófilo" "Txare" "Urtats" "Uztaritz" 
+	"Víctor" "Victorino" "Vita" "Vitor" "Wílmar" "Zina" }
+monarch_names = {
+	"Nestor #1" = 21
+	"Aarón #0" = 0
+	"Abel #0" = 0
+	"Adrian #0" = 0
+	"Adrián #0" = 0
+	"Agapito #0" = 0
+	"Agaton #0" = 0
+	"Aguilera #0" = 0
+	"Aimar #0" = 0
+	"Akier #0" = 0
+	"Alba #0" = 0
+	"Alcides #0" = 0
+	"Alejandro #0" = 0
+	"Alexander #0" = 0
+	"Alverez #0" = 0
+	"Andolin #0" = 0
+	"Andoni #0" = 0
+	"Andrés #0" = 0
+	"Androción #0" = 0
+	"Androniko #0" = 0
+	"Angelo #0" = 0
+	"Antíoco #0" = 0
+	"Apeles #0" = 0
+	"Aquiles #0" = 0
+	"Aristides #0" = 0
+	"Aristio #0" = 0
+	"Aristipo #0" = 0
+	"Aristóteles #0" = 0
+	"Atenágoras #0" = 0
+	"Balan #0" = 0
+	"Bazkoare #0" = 0
+	"Bernardo #0" = 0
+	"Camilo #0" = 0
+	"Carlos #0" = 0
+	"Clímaco #0" = 0
+	"Concepcion #0" = 0
+	"Corpuz #0" = 0
+	"Cristian #0" = 0
+	"Cristián #0" = 0
+	"Cristofer #0" = 0
+	"Danel #0" = 0
+	"Éder #0" = 0
+	"Efrain #0" = 0
+	"Emiliano #0" = 0
+	"Epifanio #0" = 0
+	"Ernio #0" = 0
+	"Errando #0" = 0
+	"Errolan #0" = 0
+	"Erroman #0" = 0
+	"Fabián #0" = 0
+	"Felipe #0" = 0
+	"Feo #0" = 0
+	"Florentino #0" = 0
+	"Francisco #0" = 0
+	"Gabriel #0" = 0
+	"Gaio #0" = 0
+	"Gaitan #0" = 0
+	"Gaston #0" = 0
+	"Gilberto #0" = 0
+	"Giron #0" = 0
+	"Guadalupe #0" = 0
+	"Gustavo #0" = 0
+	"Helibelton #0" = 0
+	"Heliodoro #0" = 0
+	"Héracles #0" = 0
+	"Hernan #0" = 0
+	"Herodoto #0" = 0
+	"Hidalgo #0" = 0
+	"Holguin #0" = 0
+	"Honor #0" = 0
+	"Hugo #0" = 0
+	"Idomeneo #0" = 0
+	"Isidoro #0" = 0
+	"Ismael #0" = 0
+	"Jeison #0" = 0
+	"Jerrald #0" = 0
+	"Jose #0" = 0
+	"Josue #0" = 0
+	"Juan #0" = 0
+	"Kiritz #0" = 0
+	"Lantz #0" = 0
+	"Leano #0" = 0
+	"Leontzio #0" = 0
+	"Luis #0" = 0
+	"Luken #0" = 0
+	"Macario #0" = 0
+	"Magallanez #0" = 0
+	"Manuel #0" = 0
+	"Matro #0" = 0
+	"Menelao #0" = 0
+	"Metelo #0" = 0
+	"Montealegre #0" = 0
+	"Montrel #0" = 0
+	"Nepote #0" = 0
+	"Neso #0" = 0
+	"Nicátor #0" = 0
+	"Nizias #0" = 0
+	"Pablo #0" = 0
+	"Paléfato #0" = 0
+	"Pancho #0" = 0
+	"Pedro #0" = 0
+	"Peralta #0" = 0
+	"Pirro #0" = 0
+	"Plutarco #0" = 0
+	"Plutón #0" = 0
+	"Polen #0" = 0
+	"Polentzi #0" = 0
+	"Porfiro #0" = 0
+	"Pupieno #0" = 0
+	"Radamel #0" = 0
+	"Rafael #0" = 0
+	"Ramone #0" = 0
+	"Regal #0" = 0
+	"Remedios #0" = 0
+	"Renteria #0" = 0
+	"Rubiano #0" = 0
+	"Sabas #0" = 0
+	"Sabino #0" = 0
+	"Santiago #0" = 0
+	"Sejano #0" = 0
+	"Seleuco #0" = 0
+	"Simon #0" = 0
+	"Sócrates #0" = 0
+	"Stefan #0" = 0
+	"Talamantez #0" = 0
+	"Temístocles #0" = 0
+	"Teófilo #0" = 0
+	"Txare #0" = 0
+	"Urtats #0" = 0
+	"Uztaritz #0" = 0
+	"Víctor #0" = 0
+	"Victorino #0" = 0
+	"Vita #0" = 0
+	"Vitor #0" = 0
+	"Wílmar #0" = 0
+	"Zina #0" = 0
+
+
+	"Ilazki #0" = -1
+	"Marina #0" = -1
+	"Marizuri #0" = -1
+	"Katalin #0" = -1
+	"Perséfone #0" = -1
+}
+

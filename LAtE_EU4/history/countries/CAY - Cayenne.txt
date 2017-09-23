@@ -1,0 +1,25 @@
+# Cayenne
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = cayennais
+religion = candomble
+clear_scripted_personalities = yes
+capital = 746
+3045.4.8 = {
+	monarch = {
+		name = "Raphaël III"
+		birth_date = 3040.7.23
+		dynasty = "Boulet"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = scholar_personality
+}
+3053.1.1 {
+	capital = 746
+	add_treasury = 27
+	add_prestige = 92
+}

@@ -1,0 +1,25 @@
+# Cozumel
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = garinagu
+religion = brethren
+clear_scripted_personalities = yes
+capital = 2652
+3049.1.6 = {
+	monarch = {
+		name = "Nelson"
+		birth_date = 3042.6.5
+		dynasty = "Green"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = fertile_personality
+}
+3053.1.1 {
+	capital = 2652
+	add_treasury = 292
+	add_prestige = 3
+}

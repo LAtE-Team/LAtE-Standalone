@@ -1,0 +1,37 @@
+# Antilles
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = venteux
+religion = brethren
+clear_scripted_personalities = yes
+capital = 496
+3053.1.1= {
+	monarch = {
+		name = "Brutil"
+		birth_date = 3019.8.25
+		dynasty = "van Deshaies"
+		adm = 6
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	heir = {
+		name = "Tania"
+		monarch_name = "Tania"
+		dynasty = "van Deshaies"
+		birth_date = 3023.11.25
+		death_date = 3103.11.25
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 496
+	add_treasury = 170
+	add_prestige = 79
+}

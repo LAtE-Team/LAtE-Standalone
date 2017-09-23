@@ -1,0 +1,27 @@
+# Southside
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 949
+3038.8.9 = {
+	monarch = {
+		name = "Saturn II"
+		birth_date = 3007.10.25
+		dynasty = "Longroad"
+		adm = 0
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 949
+	add_treasury = 15
+	add_prestige = 236
+	elector = no
+}

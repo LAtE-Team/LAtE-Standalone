@@ -1,0 +1,6 @@
+government = tribal_kingdom
+government_rank = 1
+primary_culture = jharkhandi
+technology_group = indian
+religion = hinduism
+capital = 560 # Jharkhand

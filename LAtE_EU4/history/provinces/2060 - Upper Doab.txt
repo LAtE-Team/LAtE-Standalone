@@ -1,0 +1,25 @@
+#2060 - Upper Doab
+
+owner = DLH
+controller = DLH
+culture = kanauji
+religion = hinduism
+capital = "Meerut"
+trade_goods = cotton
+hre = no
+base_tax = 7 
+base_production = 7
+base_manpower = 4
+is_city = yes
+add_core= DLH
+
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

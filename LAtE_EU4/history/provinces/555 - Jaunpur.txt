@@ -1,0 +1,26 @@
+#555 - Jaunpur
+
+owner = ODH
+controller = ODH
+culture = avadhi
+religion = hinduism
+capital = "Jaunpur"
+trade_goods = cloth #Carpets
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 3
+is_city = yes
+add_core= ODH
+fort_15th = yes #Jaunpur Quilla
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,286 @@
+# Zapata
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 188 57 50 }
+
+
+
+
+leader_names = {
+
+	"Shaila" "Tito" "Laura" "Tuapuri" "Perico" "Popol Hol" "Acantuns" "Cualli" "Chaac Uayab Xoc" "Andrés" 
+	"Yudelle" "Cabrakan" "Jesús Manik" "Teófilo Jacawitz" "Antonio Kooj" "Jorge Hobnil" "Jesús" "Inka" "Augustine" "Juan Chaac" 
+	"Genaro Camazotz" "Gaspar" "Vargas" "A'Ciliz" "A'Tabai" "Acan" "Acat" "Ac Yanto" "Ah Ahaual" "Ah Cacao" 
+	"Ah Kin" "Ah Kinchil" "Ah Mex" "Ah Muzen Cab" "Ah Peku" "Ah Puch" "Ah Tabai" "Ah Tzul" "Ah Ulil" "Ah Uuc Ticab" 
+	"Ah-Bolon-Abta" "Ahau" "Ahau Chamahez" "Ahmakiq" "Ahua" "Ajbit" "Ajtzak" "Akbal" "Akbit" "Alom" 
+	"Angél" "Aníbal" "Apoxpalon" "Armando" "Atl" "Bacabs" "B'alaj" "Bahlam" "Balam" "Bernal" 
+	"Bitol" "Bolontiku" "Bolon Ts'akab" "Buluc" "Buluc Chabtan" "Buluk Kab" "Butz Chan" "Bydo" "Caban" "Cabracan" 
+	"Cacoch" "Cakulha" "Camazotz" "Cantzicnal" "Carlos" "Chaac" "Chac" "Chac-Xib-Chac" "Chacxibchac" "Chak Tok Ich'aak" 
+	"Chan Bahlum" "Cauac" "Chicahua" "Chiccan" "Chicchan" "Chicilkin" "Chin" "Chipahua" "Chocano" "Chuen" 
+	"Cib" "Cimi" "Cit-Bolon-Tum" "Cizin" "Cocijo" "Cocom" "Colop U Uichkin" "Coyopa" "Cozaana" "Crescencio" 
+	"Crescenio" "Cuellar" "Cu Ix" "Cum Hau" "Damil" "Eb" "Ek Chauj" "Ekahau" "Ekchuah" "Ek Zip" 
+	"Eliseo" "Etznab" "Eztli" "Grijalva" "Gucumatz" "Gukumatz" "Hachak'yum" "Harakan" "Hilario" "Hobnil" 
+	"Hosanek" "Hozanek" "Huehuetlotl" "Humberto" "Hun-Ahpu" "Hun-Apu" "Hun-Batz" "Hun-Came" "Hun-Chowen" "Hun-Ixim" 
+	"Hunac" "Hunac Ceel" "Hunahpu-Gutch" "Hunahpu-Utiu" "Hun Choen" "Hun Nal" "Huracan" "Ich'aak" "Ichik" "Ik" 
+	"Ikal" "Ikan" "Iktan" "Itzamatul" "Itzam K'an Ahk" "Itzamna" "Itzamnaaj" "Itzananohk'u" "Ix" "Ixbalanque" 
+	"Ixpiyacoc" "Izel" "Iztali" "Jacawitz" "Jacinto" "Jasaw" "Jose" "Juan" "Kabil" "Kan" 
+	"K'an-Ak" "Kan-Bahlum-Mo" "Kan Boar" "K'awiil" "K'inich Yo'nal Ahk" "Kaloomte'" "Kan-U-Uayeyab" "Kauil" "Kinich Ahau" "Kinich Kakmo" 
+	"Kish" "Kisin" "Kooj" "Kukucan" "Kukulcan" "Kukulkan" "Lamat" "Luis" "Malah" "Mam" 
+	"Manik" "Manzanero" "Marcial" "Marcos" "Maximon" "Men" "Montejo" "Muluc" "Muyal" "Nacon" 
+	"Namox" "Napuc" "Napuc Chi" "Ndan" "Necahual" "Nohochacyum" "Nuracan" "Oc" "Ometecuhtli" "Pacal" 
+	"Pacal Balam" "Papan" "Paxbolonacha" "Polo" "Q'uq'umatz" "Qaholom" "Ramiro" "Saccimi" "Sak-Lu" "Siyaj" 
+	"Siyaj K'ak" "Soberón" "Sotz" "Tabscoob" "Tajal Chan Ahk" "Tecú" "Tepeu" "Teyacapan" "Tohil" "Tutul Xiu" 
+	"Vatanchu" "Votan" "Vucub" "Vucab-Caquix" "Waaw" "Wayaan" "Xaman" "Xaman Ek" "Xbalanque" "Xcarruchan" 
+	"Xipe Totec" "Xipil" "Xpiayoc" "Xul" "Yaluk" "Yaotl" "Yax Cocay Mut" "Yax Kuk Mo" "Yax Nuun Ayiin" "Yax Pac" 
+	"Yaxun Balam" "Yich'aak B'alam" "Yik'in" "Yochi" "Yum Kaax" "Zipacna" "Zotz" "Zyanya" }
+monarch_names = {
+	"Shaila #0" = -1
+	"Tito #1" = 18
+	"Laura #0" = -1
+	"Tuapuri #0" = -1
+	"Perico #0" = 1
+	"Popol Hol #1" = 0
+	"Acantuns #1" = 0
+	"Cualli #1" = -1
+	"Chaac Uayab Xoc #1" = 0
+	"Andrés #1" = 0
+	"Yudelle #1" = -1
+	"Cabrakan #1" = 0
+	"Jesús Manik #1" = 0
+	"Teófilo Jacawitz #2" = 0
+	"Antonio Kooj #2" = 0
+	"Jorge Hobnil #2" = 0
+	"Jesús #1" = 0
+	"Inka #1" = -1
+	"Augustine #1" = 0
+	"Juan Chaac #1" = 0
+	"Genaro Camazotz #1" = 0
+	"Gaspar #1" = 0
+	"Vargas #1" = 0
+	"A'Ciliz #0" = 0
+	"A'Tabai #0" = 0
+	"Acan #0" = 0
+	"Acat #0" = 0
+	"Ac Yanto #0" = 0
+	"Ah Ahaual #0" = 0
+	"Ah Cacao #0" = 0
+	"Ah Kin #0" = 0
+	"Ah Kinchil #0" = 0
+	"Ah Mex #0" = 0
+	"Ah Muzen Cab #0" = 0
+	"Ah Peku #0" = 0
+	"Ah Puch #0" = 0
+	"Ah Tabai #0" = 0
+	"Ah Tzul #0" = 0
+	"Ah Ulil #0" = 0
+	"Ah Uuc Ticab #0" = 0
+	"Ah-Bolon-Abta #0" = 0
+	"Ahau #0" = 0
+	"Ahau Chamahez #0" = 0
+	"Ahmakiq #0" = 0
+	"Ahua #0" = 0
+	"Ajbit #0" = 0
+	"Ajtzak #0" = 0
+	"Akbal #0" = 0
+	"Akbit #0" = 0
+	"Alom #0" = 0
+	"Angél #0" = 0
+	"Aníbal #0" = 0
+	"Apoxpalon #0" = 0
+	"Armando #0" = 0
+	"Atl #0" = 0
+	"Bacabs #0" = 0
+	"B'alaj #0" = 0
+	"Bahlam #0" = 0
+	"Balam #0" = 0
+	"Bernal #0" = 0
+	"Bitol #0" = 0
+	"Bolontiku #0" = 0
+	"Bolon Ts'akab #0" = 0
+	"Buluc #0" = 0
+	"Buluc Chabtan #0" = 0
+	"Buluk Kab #0" = 0
+	"Butz Chan #0" = 0
+	"Bydo #0" = 0
+	"Caban #0" = 0
+	"Cabracan #0" = 0
+	"Cacoch #0" = 0
+	"Cakulha #0" = 0
+	"Camazotz #0" = 0
+	"Cantzicnal #0" = 0
+	"Carlos #0" = 0
+	"Chaac #0" = 0
+	"Chac #0" = 0
+	"Chac-Xib-Chac #0" = 0
+	"Chacxibchac #0" = 0
+	"Chak Tok Ich'aak #0" = 0
+	"Chan Bahlum #0" = 0
+	"Cauac #0" = 0
+	"Chicahua #0" = 0
+	"Chiccan #0" = 0
+	"Chicchan #0" = 0
+	"Chicilkin #0" = 0
+	"Chin #0" = 0
+	"Chipahua #0" = 0
+	"Chocano #0" = 0
+	"Chuen #0" = 0
+	"Cib #0" = 0
+	"Cimi #0" = 0
+	"Cit-Bolon-Tum #0" = 0
+	"Cizin #0" = 0
+	"Cocijo #0" = 0
+	"Cocom #0" = 0
+	"Colop U Uichkin #0" = 0
+	"Coyopa #0" = 0
+	"Cozaana #0" = 0
+	"Crescencio #0" = 0
+	"Crescenio #0" = 0
+	"Cuellar #0" = 0
+	"Cu Ix #0" = 0
+	"Cum Hau #0" = 0
+	"Damil #0" = 0
+	"Eb #0" = 0
+	"Ek Chauj #0" = 0
+	"Ekahau #0" = 0
+	"Ekchuah #0" = 0
+	"Ek Zip #0" = 0
+	"Eliseo #0" = 0
+	"Etznab #0" = 0
+	"Eztli #0" = 0
+	"Grijalva #0" = 0
+	"Gucumatz #0" = 0
+	"Gukumatz #0" = 0
+	"Hachak'yum #0" = 0
+	"Harakan #0" = 0
+	"Hilario #0" = 0
+	"Hobnil #0" = 0
+	"Hosanek #0" = 0
+	"Hozanek #0" = 0
+	"Huehuetlotl #0" = 0
+	"Humberto #0" = 0
+	"Hun-Ahpu #0" = 0
+	"Hun-Apu #0" = 0
+	"Hun-Batz #0" = 0
+	"Hun-Came #0" = 0
+	"Hun-Chowen #0" = 0
+	"Hun-Ixim #0" = 0
+	"Hunac #0" = 0
+	"Hunac Ceel #0" = 0
+	"Hunahpu-Gutch #0" = 0
+	"Hunahpu-Utiu #0" = 0
+	"Hun Choen #0" = 0
+	"Hun Nal #0" = 0
+	"Huracan #0" = 0
+	"Ich'aak #0" = 0
+	"Ichik #0" = 0
+	"Ik #0" = 0
+	"Ikal #0" = 0
+	"Ikan #0" = 0
+	"Iktan #0" = 0
+	"Itzamatul #0" = 0
+	"Itzam K'an Ahk #0" = 0
+	"Itzamna #0" = 0
+	"Itzamnaaj #0" = 0
+	"Itzananohk'u #0" = 0
+	"Ix #0" = 0
+	"Ixbalanque #0" = 0
+	"Ixpiyacoc #0" = 0
+	"Izel #0" = 0
+	"Iztali #0" = 0
+	"Jacawitz #0" = 0
+	"Jacinto #0" = 0
+	"Jasaw #0" = 0
+	"Jose #0" = 0
+	"Juan #0" = 0
+	"Kabil #0" = 0
+	"Kan #0" = 0
+	"K'an-Ak #0" = 0
+	"Kan-Bahlum-Mo #0" = 0
+	"Kan Boar #0" = 0
+	"K'awiil #0" = 0
+	"K'inich Yo'nal Ahk #0" = 0
+	"Kaloomte' #0" = 0
+	"Kan-U-Uayeyab #0" = 0
+	"Kauil #0" = 0
+	"Kinich Ahau #0" = 0
+	"Kinich Kakmo #0" = 0
+	"Kish #0" = 0
+	"Kisin #0" = 0
+	"Kooj #0" = 0
+	"Kukucan #0" = 0
+	"Kukulcan #0" = 0
+	"Kukulkan #0" = 0
+	"Lamat #0" = 0
+	"Luis #0" = 0
+	"Malah #0" = 0
+	"Mam #0" = 0
+	"Manik #0" = 0
+	"Manzanero #0" = 0
+	"Marcial #0" = 0
+	"Marcos #0" = 0
+	"Maximon #0" = 0
+	"Men #0" = 0
+	"Montejo #0" = 0
+	"Muluc #0" = 0
+	"Muyal #0" = 0
+	"Nacon #0" = 0
+	"Namox #0" = 0
+	"Napuc #0" = 0
+	"Napuc Chi #0" = 0
+	"Ndan #0" = 0
+	"Necahual #0" = 0
+	"Nohochacyum #0" = 0
+	"Nuracan #0" = 0
+	"Oc #0" = 0
+	"Ometecuhtli #0" = 0
+	"Pacal #0" = 0
+	"Pacal Balam #0" = 0
+	"Papan #0" = 0
+	"Paxbolonacha #0" = 0
+	"Polo #0" = 0
+	"Q'uq'umatz #0" = 0
+	"Qaholom #0" = 0
+	"Ramiro #0" = 0
+	"Saccimi #0" = 0
+	"Sak-Lu #0" = 0
+	"Siyaj #0" = 0
+	"Siyaj K'ak #0" = 0
+	"Soberón #0" = 0
+	"Sotz #0" = 0
+	"Tabscoob #0" = 0
+	"Tajal Chan Ahk #0" = 0
+	"Tecú #0" = 0
+	"Tepeu #0" = 0
+	"Teyacapan #0" = 0
+	"Tohil #0" = 0
+	"Tutul Xiu #0" = 0
+	"Vatanchu #0" = 0
+	"Votan #0" = 0
+	"Vucub #0" = 0
+	"Vucab-Caquix #0" = 0
+	"Waaw #0" = 0
+	"Wayaan #0" = 0
+	"Xaman #0" = 0
+	"Xaman Ek #0" = 0
+	"Xbalanque #0" = 0
+	"Xcarruchan #0" = 0
+	"Xipe Totec #0" = 0
+	"Xipil #0" = 0
+	"Xpiayoc #0" = 0
+	"Xul #0" = 0
+	"Yaluk #0" = 0
+	"Yaotl #0" = 0
+	"Yax Cocay Mut #0" = 0
+	"Yax Kuk Mo #0" = 0
+	"Yax Nuun Ayiin #0" = 0
+	"Yax Pac #0" = 0
+	"Yaxun Balam #0" = 0
+	"Yich'aak B'alam #0" = 0
+	"Yik'in #0" = 0
+	"Yochi #0" = 0
+	"Yum Kaax #0" = 0
+	"Zipacna #0" = 0
+	"Zotz #0" = 0
+	"Zyanya #0" = 0
+}
+

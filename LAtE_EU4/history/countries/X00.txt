@@ -1,0 +1,39 @@
+# Yellowstone
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = portlander
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 4601
+3019.10.16 = {
+	monarch = {
+		name = "Craig"
+		birth_date = 3005.1.21
+		dynasty = "Chuga"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = fertile_personality
+}
+3025.12.18 = {
+	heir = {
+		name = "Pharoah"
+		monarch_name = "Pharoah"
+		dynasty = "Chuga"
+		birth_date = 3025.12.18
+		death_date = 3105.12.18
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 4601
+	add_treasury = 37
+	add_prestige = 268
+}

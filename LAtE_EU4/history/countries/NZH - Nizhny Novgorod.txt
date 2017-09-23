@@ -1,0 +1,20 @@
+# Principality of Nizhny Novgorod-Suzdal
+
+government = oligarchic_republic
+government_rank = 1
+primary_culture = russian
+religion = rust_cultist
+technology_group = indian
+capital = 306	# Nizhny Novgorod
+
+1350.1.1 = {
+	monarch = {
+		name = "Rotislav"
+		dynasty = "Belosselsky"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+# 1392 to Muscowy

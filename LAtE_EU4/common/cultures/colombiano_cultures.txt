@@ -1,0 +1,14 @@
+colombiano = {
+	paisa = {
+		primary = ANQ
+		dynasty_names = { }
+	}
+	cartagenero = {
+		primary = COL
+		dynasty_names = { "Giron" "Uria" "de El Tejar" }
+	}
+	rochela = {
+		primary = COL
+		dynasty_names = { "Pose" "Carrillo" "Rausseo" "Tallon" "Saldívar" "de Fredonia" "de Chinchiná" "de Kukrahill" }
+	}
+}

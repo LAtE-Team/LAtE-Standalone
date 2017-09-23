@@ -1,0 +1,36 @@
+# Deseret
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = utahn
+religion = mormon
+clear_scripted_personalities = yes
+capital = 2490
+3053.1.1= {
+	monarch = {
+		name = "Richard"
+		birth_date = 3039.10.23
+		dynasty = "Edwards"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+	heir = {
+		name = "Marcel"
+		monarch_name = "Marcel"
+		dynasty = "Edwards"
+		birth_date = 3043.8.23
+		death_date = 3123.8.23
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2490
+	add_treasury = 20
+	add_prestige = 44
+}

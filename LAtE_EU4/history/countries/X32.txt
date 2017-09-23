@@ -1,0 +1,25 @@
+# Baja Sur
+government = oligarchic_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chino
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4742
+3044.11.19 = {
+	monarch = {
+		name = "Iohan II"
+		birth_date = 2996.9.13
+		dynasty = "Murrieta"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 4742
+	add_treasury = 109
+	add_prestige = 142
+}

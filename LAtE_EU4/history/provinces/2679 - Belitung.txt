@@ -1,0 +1,18 @@
+#2679 - Belitung
+
+culture = sumatran
+religion = sunni
+capital = "Belitung"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+native_size = 5
+native_ferocity = 3
+native_hostileness = 2
+
+
+
+discovered_by = chinese
+discovered_by = indian

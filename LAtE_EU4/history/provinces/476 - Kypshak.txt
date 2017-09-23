@@ -1,0 +1,20 @@
+#476 - Kypshak
+
+
+capital = "Astana"
+owner = KRG
+controller = KRG
+add_core = KRG
+culture = khazak
+religion = tengri_pagan_reformed
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

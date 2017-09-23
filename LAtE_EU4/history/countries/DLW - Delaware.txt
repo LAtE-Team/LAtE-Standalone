@@ -1,0 +1,27 @@
+# Delmarva
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = delawarean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 957
+3031.5.14 = {
+	monarch = {
+		name = "Regulus"
+		birth_date = 3009.9.8
+		dynasty = "Josias"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+}
+3053.1.1 {
+	capital = 957
+	add_treasury = 45
+	add_prestige = 342
+	elector = no
+}

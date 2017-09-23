@@ -1,0 +1,8 @@
+# Setheefrika
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = central_african
+primary_culture = afrikaner
+religion = mwari
+capital = 833

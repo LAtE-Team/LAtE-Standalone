@@ -1,0 +1,38 @@
+# Timberland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachia
+religion = neoroman
+clear_scripted_personalities = yes
+capital = 894
+3034.7.14 = {
+	monarch = {
+		name = "Salathiel"
+		birth_date = 3021.1.28
+		dynasty = "Hutchinson"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3047.2.7 = {
+	heir = {
+		name = "Salathiel"
+		monarch_name = "Salathiel II"
+		dynasty = "Hutchinson"
+		birth_date = 3047.2.7
+		death_date = 3127.2.7
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 894
+	add_treasury = 20
+	add_prestige = 72
+}

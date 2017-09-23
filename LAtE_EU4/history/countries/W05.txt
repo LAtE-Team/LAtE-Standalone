@@ -1,0 +1,26 @@
+# Costa Rica
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = istmeno
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 836
+3037.7.2 = {
+	monarch = {
+		name = "Leonardo"
+		birth_date = 3001.10.2
+		dynasty = "Moralez"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 836
+	add_treasury = 85
+	add_prestige = 309
+}

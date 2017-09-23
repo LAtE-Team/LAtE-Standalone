@@ -1,0 +1,27 @@
+# Athens
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4663
+3027.8.22 = {
+	monarch = {
+		name = "Sosipater"
+		birth_date = 3004.8.10
+		dynasty = "Gee"
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 4663
+	add_treasury = 244
+	add_prestige = 162
+	elector = no
+}

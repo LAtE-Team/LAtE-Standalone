@@ -1,0 +1,24 @@
+#607 - Vijaya
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = mahayana
+capital = "Vijaya"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+fort_15th = yes
+is_city = yes
+add_core= DAI
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,17 @@
+# 2154 - Kelang
+
+culture = cantonese
+religion = confucianism
+capital = "Kelang"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 60
+native_ferocity = 1
+native_hostileness = 5
+
+
+
+discovered_by = chinese

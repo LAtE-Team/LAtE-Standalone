@@ -1,0 +1,151 @@
+# Callihoo
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 228 247 195 }
+
+
+
+
+leader_names = {
+
+	"Gallant" "Jean" "Nancy" "Laura" "Kevin" "Pearl" "Dylan" "Katherena" "Janet" "Laurette" 
+	"Ambrose" "Henri" "Ambroise-Dydime" "Yvonne" "Evelyn" "Maxime" "Rod" "Hélène" "David" "Keith" 
+	"Thelma" "Dydim" "Douglas" "Sandra" "Bryan" "Jaco" "Frechette" "Marianne" "Marguerite" "Alexander" 
+	"Maria" "Albert" "James" "Peter" "Antonine" "Carole" "Josette" "Laird" "Sara" "Blanche" 
+	"Norma" "Brian" "Shan" "Honoré" "Derrick" "Chantell" "Kinnie" "Josephin" "Alec" "Andrew" 
+	"Andy" "Angus" "Antoine" "Arron" "Arthur" "Asham" "August" "Augustin" "Axel" "Baptiste" 
+	"Bob" "Calvin" "Charles" "Charles-Michel" "Clément" "Cuthbert" "Cyril" "Denis" "Don" "Doyle" 
+	"Dwight" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gerald" "Gil" "Gregory" "Guillaume" 
+	"Harley" "Howard" "Ian" "Jacco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Joe" "John" 
+	"Jon" "Jonathan" "Jules" "Kalib" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Michel" "Pascal" 
+	"Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" "Rick" "Robert" 
+	"Salomon" "Sheldon" "Solomon" "Theoren" "Thomas" "Todd" "Tom" "Tony" "Tête" "Vic" 
+	"Wade" "Wayne" "William" "Xavier" "Yvon" }
+monarch_names = {
+	"Gallant #0" = 1
+	"Jean #1" = 18
+	"Nancy #0" = -1
+	"Laura #0" = -1
+	"Kevin #0" = 1
+	"Pearl #0" = -1
+	"Dylan #0" = 1
+	"Katherena #0" = -1
+	"Janet #0" = -1
+	"Laurette #0" = -1
+	"Ambrose #0" = 1
+	"Henri #0" = 1
+	"Ambroise-Dydime #0" = 1
+	"Yvonne #0" = -1
+	"Evelyn #0" = -1
+	"Maxime #0" = 1
+	"Rod #0" = 1
+	"Hélène #0" = -1
+	"David #0" = 1
+	"Keith #0" = 1
+	"Thelma #0" = -1
+	"Dydim #0" = 1
+	"Douglas #0" = 1
+	"Sandra #0" = -1
+	"Bryan #0" = 1
+	"Jaco #0" = 1
+	"Frechette #0" = -1
+	"Marianne #0" = -1
+	"Marguerite #0" = -1
+	"Alexander #0" = 1
+	"Maria #0" = -1
+	"Albert #0" = 1
+	"James #0" = 1
+	"Peter #0" = 1
+	"Antonine #0" = -1
+	"Carole #0" = -1
+	"Josette #0" = -1
+	"Laird #0" = 1
+	"Sara #0" = -1
+	"Blanche #0" = -1
+	"Norma #0" = -1
+	"Brian #0" = 1
+	"Shan #0" = 1
+	"Honoré #0" = 1
+	"Derrick #0" = 1
+	"Chantell #0" = -1
+	"Kinnie #0" = -1
+	"Josephin #0" = -1
+	"Alec #0" = 0
+	"Andrew #0" = 0
+	"Andy #0" = 0
+	"Angus #0" = 0
+	"Antoine #0" = 0
+	"Arron #0" = 0
+	"Arthur #0" = 0
+	"Asham #0" = 0
+	"August #0" = 0
+	"Augustin #0" = 0
+	"Axel #0" = 0
+	"Baptiste #0" = 0
+	"Bob #0" = 0
+	"Calvin #0" = 0
+	"Charles #0" = 0
+	"Charles-Michel #0" = 0
+	"Clément #0" = 0
+	"Cuthbert #0" = 0
+	"Cyril #0" = 0
+	"Denis #0" = 0
+	"Don #0" = 0
+	"Doyle #0" = 0
+	"Dwight #0" = 0
+	"Elzéar #0" = 0
+	"Eugène #0" = 0
+	"François #0" = 0
+	"Gabriel #0" = 0
+	"George #0" = 0
+	"Gerald #0" = 0
+	"Gil #0" = 0
+	"Gregory #0" = 0
+	"Guillaume #0" = 0
+	"Harley #0" = 0
+	"Howard #0" = 0
+	"Ian #0" = 0
+	"Jacco #0" = 0
+	"Jacques #0" = 0
+	"Jaxon #0" = 0
+	"Jean-Baptiste #0" = 0
+	"Jess #0" = 0
+	"Joe #0" = 0
+	"John #0" = 0
+	"Jon #0" = 0
+	"Jonathan #0" = 0
+	"Jules #0" = 0
+	"Kalib #0" = 0
+	"Laurent-Salomon #0" = 0
+	"Lawrence #0" = 0
+	"Louis #0" = 0
+	"Malcolm #0" = 0
+	"Michel #0" = 0
+	"Pascal #0" = 0
+	"Paul #0" = 0
+	"Pierre #0" = 0
+	"Ralph #0" = 0
+	"Ranald #0" = 0
+	"Ray #0" = 0
+	"Raymond #0" = 0
+	"Rene #0" = 0
+	"René #0" = 0
+	"Rick #0" = 0
+	"Robert #0" = 0
+	"Salomon #0" = 0
+	"Sheldon #0" = 0
+	"Solomon #0" = 0
+	"Theoren #0" = 0
+	"Thomas #0" = 0
+	"Todd #0" = 0
+	"Tom #0" = 0
+	"Tony #0" = 0
+	"Tête #0" = 0
+	"Vic #0" = 0
+	"Wade #0" = 0
+	"Wayne #0" = 0
+	"William #0" = 0
+	"Xavier #0" = 0
+	"Yvon #0" = 0
+}
+

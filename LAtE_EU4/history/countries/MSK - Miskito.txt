@@ -1,0 +1,36 @@
+# Mosquito
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = rochela
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 840
+3053.1.1= {
+	monarch = {
+		name = "Alex"
+		birth_date = 3015.3.10
+		dynasty = "Rausseo"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Jherson"
+		monarch_name = "Jherson"
+		dynasty = "Rausseo"
+		birth_date = 3036.12.20
+		death_date = 3116.12.20
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 840
+	add_treasury = 30
+	add_prestige = 105
+}

@@ -1,0 +1,20 @@
+#315 - Finnmark
+
+#owner = NOR
+#controller = NOR
+culture = sapmi
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "Vardø"
+is_city = no
+#add_core= NOR
+discovered_by = high_american 
+discovered_by = RED
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

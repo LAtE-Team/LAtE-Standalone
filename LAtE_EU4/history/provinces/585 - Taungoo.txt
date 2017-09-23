@@ -1,0 +1,38 @@
+#585 - Toungoo
+
+#owner = TAU
+#controller = TAU
+culture = burmese
+religion = buddhism
+capital = "Toungoo"
+trade_goods = chinaware
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+is_city = no
+#add_core= TAU
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+# = { discovered_by = POR }
+
+# = { fort_15th = yes }
+# = {
+	#owner = PEG
+	#controller = PEG
+	#add_core= PEG
+#}
+# = {
+	#owner = TAU
+	#controller = TAU
+	remove_core = PEG
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

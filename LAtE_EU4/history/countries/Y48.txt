@@ -1,0 +1,25 @@
+# Green Bay
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4566
+3053.1.1 {
+	monarch = {
+		name = "Ivarr"
+		birth_date = 3022.7.21
+		dynasty = "Glensheen"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = inspiring_leader_personality
+}
+3053.1.1 {
+	capital = 4566
+	add_treasury = 1
+	add_prestige = -7
+}

@@ -1,0 +1,6 @@
+government = theocratic_government
+government_rank = 1
+technology_group = indian
+religion = nestorian
+primary_culture = malayalam
+capital = 534	# Calicut

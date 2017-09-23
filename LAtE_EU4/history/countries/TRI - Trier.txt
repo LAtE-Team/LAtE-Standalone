@@ -1,0 +1,5 @@
+government = siberian_native_council #Till we make a european equivalent
+technology_group = high_american
+religion = cult_of_reason
+primary_culture = hessian
+capital = 80	# Trier

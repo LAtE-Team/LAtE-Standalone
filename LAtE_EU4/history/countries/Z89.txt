@@ -1,0 +1,27 @@
+# Deepstep
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2538
+3016.8.16 = {
+	monarch = {
+		name = "Aloys"
+		birth_date = 3010.9.26
+		dynasty = "Hairston"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 2538
+	add_treasury = 25
+	add_prestige = 37
+	elector = no
+}

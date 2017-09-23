@@ -1,0 +1,22 @@
+#1186 - Sofala
+
+owner = ZIM
+controller = ZIM
+add_core = ZIM
+culture = nguni
+religion = mwari
+capital = "Sofala"
+is_city = yes
+base_manpower = 2
+trade_goods = gold
+hre = no
+base_tax = 3 
+base_production = 4
+discovered_by = east_african
+discovered_by = indian
+discovered_by = indian
+discovered_by = central_african
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,26 @@
+# Portuguesa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 2809
+3031.1.12 = {
+	monarch = {
+		name = "Tomás"
+		birth_date = 2998.10.4
+		dynasty = "Belmonte"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 2809
+	add_treasury = 17
+	add_prestige = 296
+}

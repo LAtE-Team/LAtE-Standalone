@@ -1,0 +1,23 @@
+# 78 - Mainz
+capital = "Mainz"
+culture = hessian
+religion = matrem
+trade_goods = unknown
+owner = BIZ
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= BIZ
+controller = BIZ
+hre = no
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

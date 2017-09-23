@@ -1,0 +1,53 @@
+### Scripts to be run from the console for testing purposes
+
+
+namespace = LAtE_scripts
+
+
+#Consolodate all NA countries
+country_event = {
+	ID = LAtE_scripts.1
+	title = LAtE_scripts.1.TITLE
+	desc = LAtE_scripts.1.DESC
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_scripts.1.a
+		
+		every_country = {
+			limit = {
+				is_subject = yes
+			}
+			overlord = {
+				inherit = PREV
+				every_owned_province = {
+					limit = {}
+					add_local_autonomy = -100
+				}
+			}
+		}
+	}
+}
+
+#Add all NA development by 5
+country_event = {
+	ID = LAtE_scripts.2
+	title = LAtE_scripts.2.TITLE
+	desc = LAtE_scripts.2.DESC	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_scripts.2.a
+		every_province = {
+			limit = {
+				continent = north_america
+			}
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 1
+		}
+	}
+	
+}

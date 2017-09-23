@@ -1,0 +1,26 @@
+# Cariboo
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = haida
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 2606
+3043.6.2 = {
+	monarch = {
+		name = "Klinkwan"
+		birth_date = 3036.3.18
+		dynasty = "Hlgadun"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = righteous_personality
+}
+3053.1.1 {
+	capital = 2606
+	add_treasury = 23
+	add_prestige = 22
+}

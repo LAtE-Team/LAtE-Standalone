@@ -1,0 +1,25 @@
+# Jalisco
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = tapatio
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2621
+3053.1.1= {
+	monarch = {
+		name = "Tarí"
+		birth_date = 3021.1.19
+		dynasty = "Taríid"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2621
+	add_treasury = 0
+	add_prestige = 22
+}

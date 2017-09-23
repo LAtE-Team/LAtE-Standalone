@@ -1,0 +1,24 @@
+#2715 - Palopo
+
+#owner = LUW
+#controller = LUW
+culture = sulawesi
+religion = brethren
+capital = "Palopo"
+trade_goods = spices
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = no
+#add_core= LUW
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

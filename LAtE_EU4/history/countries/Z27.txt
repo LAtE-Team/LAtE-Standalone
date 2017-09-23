@@ -1,0 +1,27 @@
+# Alexandria
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4885
+3041.5.23 = {
+	monarch = {
+		name = "Baldwin II"
+		birth_date = 3009.4.5
+		dynasty = "Bulkeley"
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 4885
+	add_treasury = 48
+	add_prestige = 60
+	elector = no
+}

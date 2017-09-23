@@ -1,0 +1,13 @@
+#1133 - Gao
+
+base_manpower = 2
+religion = sunni
+capital = "Gao"
+trade_goods = unknown
+hre = no
+base_tax = 7 
+base_production = 7
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = sub_saharan

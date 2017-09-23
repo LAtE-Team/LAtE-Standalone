@@ -1,0 +1,288 @@
+##############
+#	CHINA	 #
+##############
+
+# Tibet (40) # Adding central Asian massiff, maybe needs a new name
+colonial_Tibet = {
+	color = { 200 200 180 }
+
+	provinces = {
+		676 677 678 705
+		2128 2129 2130 2131 2132 2133 2134 2135
+		4204 4205
+		2170
+		508 509 511 554 557 565
+		2069 2070 2071 2073 2074
+		448 449 450 451 452 578
+		2225 2226 2227 2228
+		458 460 1968 2125 2127 739 4210
+	}
+
+	names = {
+		name = "COLONIAL_TIBET_Root_GetAdjective_Tibet"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+# South China (38)
+colonial_south_china = {
+	color = { 100 200 100 }
+
+	provinces = {
+		664 665 666 667 668 669 670 683 738
+		1829 1833 1840
+		2151 2152 2153 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 2174
+		671 672 673 674 679 680 681
+		2168 2169 2172 2173
+		4211 4199 4213 4212
+	}
+
+	names = {
+		name = "COLONIAL_SOUTH_CHINA_Root_GetAdjective_South_China"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+# North China (61)
+colonial_north_china = {
+	color = { 250 110 90 }
+
+	provinces = {
+		682 684 685 686 690 691
+		1821 1822 1824 1838
+		2138 2139 2140 2141 2142 2143 2144 2145 2146 2147 2148 2149 2150 2175 2176
+		4196 4197 
+		692 693 695 696 697 701 702 703 704 726
+		1816
+		2112 2113 2114 2115 2136 2137 2177 2178 2747
+		4194 4195 4223
+		687 688 689 694 698 699 700 709
+		1836
+		2171 2179 2180 2181 2182 2183 2184
+		4198 
+	}
+
+	names = {
+		name = "COLONIAL_NORTH_CHINA_Root_GetAdjective_North_China"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+# Canton (27)
+#colonial_Canton = {
+#	color = { 100 200 100 }
+#
+#	provinces = {
+#		664 665 666 667 668 669 670 683 738
+#		1829 1833 1840
+#		2151 2152 2153 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 2174
+#	}
+#
+#	names = {
+#		name = "COLONIAL_CANTON_Root_GetAdjective_Canton"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
+
+
+# Hangzhou (25)
+#colonial_Hangzhou = {
+#	color = { 250 110 90 }
+#
+#	provinces = {
+#		682 684 685 686 690 691
+#		1821 1822 1824 1838
+#		2138 2139 2140 2141 2142 2143 2144 2145 2146 2147 2148 2149 2150 2175 2176
+#		4196 4197 
+#	}
+#
+#	names = {
+#		name = "COLONIAL_HANGZHOU_Root_GetAdjective_Hangzhou"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
+
+
+# Chengdu (11)
+#colonial_Chengdu = {
+#	color = { 70 110 220 }
+#
+#	provinces = {
+#		671 672 673 674 679 680 681
+#		2168 2169 2172 2173
+#		4211 4199 4213 4212
+#	}
+#
+#	names = {
+#		name = "COLONIAL_CHENGDU_Root_GetAdjective_Chengdu"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
+
+
+# Korea (14)
+colonial_Korea = {
+	color = { 110 20 30 }
+
+	provinces = {
+		732 733 734 735 736 737
+		1013 1845
+		2694 2742 2743 2744 2745
+		4232 4231 4230 4229 4227 4228 2741
+	}
+
+	names = {
+		name = "COLONIAL_KOREA_Root_GetAdjective_Korea"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# Harbin (20)
+colonial_Harbin = {
+	color = { 90 100 180 }
+
+	provinces = {
+		722 723 724 725 727 728 730 731
+		1053 1850
+		2106 2107 2108 2109 2110 2111 2185 2186 2187 2188
+		4201 4203 4202 4219 4218 4200 2102 1049 2104 2105 
+		4215
+	}
+
+	names = {
+		name = "COLONIAL_HARBIN_Root_GetAdjective_Harbin"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# Beijing (20)
+#colonial_Beijing = {
+#	color = { 120 210 110 }
+#
+#	provinces = {
+#		692 693 695 696 697 701 702 703 704 726
+#		1816
+#		2112 2113 2114 2115 2136 2137 2177 2178 2747
+#		4194 4195 4223
+#	}
+#
+#	names = {
+#		name = "COLONIAL_BEIJING_Root_GetAdjective_Beijing"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
+
+
+# Mongolia (10)
+colonial_Mongolia = {
+	color = { 60 50 70 }
+
+	provinces = {
+		717 718 719 720 721
+		2116 2117 2189 2190 2193 4221
+	}
+
+	names = {
+		name = "COLONIAL_MONGOLIA_Root_GetAdjective_Mongolia"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# Xian (16)
+#colonial_Xian = {
+#	color = { 190 130 30 }
+#
+#	provinces = {
+#		687 688 689 694 698 699 700 709
+#		1836
+#		2171 2179 2180 2181 2182 2183 2184
+#		4198 
+#	}
+#
+#	names = {
+#		name = "COLONIAL_XIAN_Root_GetAdjective_Xian"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
+
+
+# Xinjiang (17)
+colonial_Xinjiang = {
+	color = { 210 30 130 }
+
+	provinces = {
+		706 707 708 710 711 712 713 714 715
+		2119 2120 2121 2122 2123 2124 2191 2192
+		4207 4206 4208 4209 
+	}
+
+	names = {
+		name = "COLONIAL_XINJIANG_Root_GetAdjective_Xinjiang"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# Japan (30)
+colonial_Japan = {
+	color = { 230 230 70 }
+
+	provinces = {
+		1012 1014 1015 1017 1018 1019 1020 1021 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032
+		1818 1819 1820 1825 1830 1832 1835 1837 1839 1843 1847 1852
+		4131 4180 4181 4182 4186 4183 4184 4185 1832 4188 4189 
+		4190 4191 4192 4193 1832 4187
+	}
+
+	names = {
+		name = "COLONIAL_JAPAN_Root_GetAdjective_Japan"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# # Polynesia (19) Just... No.
+# colonial_Polynesia = {
+	# color = { 30 200 80 }
+
+	# provinces = {
+		# 1235 1239 1240 1241 1242 1243 1244
+		# 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997
+	# }
+
+	# names = {
+		# name = "COLONIAL_POLYNESIA_Root_GetAdjective_Polynesia"
+	# }
+	# names = {
+		# name = "COLONIAL_REGION_New_Root_GetName"
+	# }
+# }

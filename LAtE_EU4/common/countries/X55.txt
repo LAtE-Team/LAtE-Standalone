@@ -1,0 +1,183 @@
+# Los Andes
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 131 54 63 }
+
+
+
+
+leader_names = {
+
+	"Denise" "Félix" "Liliana" "Elena" "Antonio" "Javier" "Erika" "Gabriela" "Nero" "Bienvenida" 
+	"Mariaejandra" "Ismenia" "Hengelberth" "Herwis" "Alexandra" "Irene" "Maricarmen" "Hester" "Leonardo" "Laura" 
+	"Carl" "Lis" "Yusmeiro" "Ninibeth" "Leon" "Jorge" "Generosb" "Vicencio" "Aarom" "Abel" 
+	"Alberto" "Alejandro" "Alex" "Allan" "Aly" "Andrés" "Ángel" "Anténor" "Argemiro" "Arles" 
+	"Armando" "Arsenio" "Astolfo" "Augusto" "Betulio" "Bobby" "C" "Camilo" "Carlos" "Celia" 
+	"Chavela" "Dalmiro" "Daniel" "Danilo" "Darwin" "David" "Didier" "Diego" "Don" "Eddie" 
+	"Edgar" "Eduard" "Eduardo" "Edward" "Edwin" "Eider" "Elkin" "Emilio" "Ender" "Ernesto" 
+	"Esteban" "Eugenio" "Evert" "Felipe" "Fernando" "Francisco" "Gerardo" "Geremi" "Gian" "Gilberto" 
+	"Giovanny" "Grenddy" "Guillermo" "Gustavo" "Héctor" "Henry" "Heraclio" "Hernán" "Huáscar" "Hugo" 
+	"Humberto" "Iván" "Jackson" "Jaime" "Jair" "Jairo" "Jan" "Jesús" "Jhonny" "Jhoulys" 
+	"Joaquim" "Johnny" "Jonathan" "José" "Juan" "Julián" "Julio" "Leslie" "Lorenzo" "Luis" 
+	"Machado" "Manuel" "Mario" "Martin" "Massimo" "Nelson" "Nick" "Nilo" "Omar" "Orlando" 
+	"Oscar" "Oswaldo" "Pablo" "Pedro" "Pelé" "Rafael" "Ramón" "Raúl" "Renato" "René" 
+	"Ricardo" "Robert" "Roberto" "Robinson" "Rodolfo" "Rodrigo" "Rougned" "Rubén" "Rudy" "Samuel" 
+	"Santiago" "Teolindo" "Teresa" "Tony" "Tulio" "Vicente" "Víctor" "Vidal" "Wifredo" "Willie" 
+	"Wilmer" "Wilson" "Wuillians" "Xabier" }
+monarch_names = {
+	"Denise #0" = -1
+	"Félix #0" = 1
+	"Liliana #0" = -1
+	"Elena #0" = -1
+	"Antonio #1" = 21
+	"Javier #0" = 1
+	"Erika #0" = -1
+	"Gabriela #0" = -1
+	"Nero #1" = 21
+	"Bienvenida #0" = -1
+	"Mariaejandra #0" = -1
+	"Ismenia #0" = -1
+	"Hengelberth #1" = 27
+	"Herwis #0" = 1
+	"Alexandra #0" = -1
+	"Irene #0" = -1
+	"Maricarmen #0" = -1
+	"Hester #0" = -1
+	"Leonardo #4" = 0
+	"Laura #1" = -1
+	"Carl #1" = 0
+	"Lis #2" = -1
+	"Yusmeiro #2" = 0
+	"Ninibeth #1" = -1
+	"Leon #1" = 0
+	"Jorge #1" = 0
+	"Generosb #2" = 0
+	"Vicencio #1" = 0
+	"Aarom #0" = 0
+	"Abel #0" = 0
+	"Alberto #0" = 0
+	"Alejandro #0" = 0
+	"Alex #0" = 0
+	"Allan #0" = 0
+	"Aly #0" = 0
+	"Andrés #0" = 0
+	"Ángel #0" = 0
+	"Anténor #0" = 0
+	"Argemiro #0" = 0
+	"Arles #0" = 0
+	"Armando #0" = 0
+	"Arsenio #0" = 0
+	"Astolfo #0" = 0
+	"Augusto #0" = 0
+	"Betulio #0" = 0
+	"Bobby #0" = 0
+	"C #0" = 0
+	"Camilo #0" = 0
+	"Carlos #0" = 0
+	"Celia #0" = 0
+	"Chavela #0" = 0
+	"Dalmiro #0" = 0
+	"Daniel #0" = 0
+	"Danilo #0" = 0
+	"Darwin #0" = 0
+	"David #0" = 0
+	"Didier #0" = 0
+	"Diego #0" = 0
+	"Don #0" = 0
+	"Eddie #0" = 0
+	"Edgar #0" = 0
+	"Eduard #0" = 0
+	"Eduardo #0" = 0
+	"Edward #0" = 0
+	"Edwin #0" = 0
+	"Eider #0" = 0
+	"Elkin #0" = 0
+	"Emilio #0" = 0
+	"Ender #0" = 0
+	"Ernesto #0" = 0
+	"Esteban #0" = 0
+	"Eugenio #0" = 0
+	"Evert #0" = 0
+	"Felipe #0" = 0
+	"Fernando #0" = 0
+	"Francisco #0" = 0
+	"Gerardo #0" = 0
+	"Geremi #0" = 0
+	"Gian #0" = 0
+	"Gilberto #0" = 0
+	"Giovanny #0" = 0
+	"Grenddy #0" = 0
+	"Guillermo #0" = 0
+	"Gustavo #0" = 0
+	"Héctor #0" = 0
+	"Henry #0" = 0
+	"Heraclio #0" = 0
+	"Hernán #0" = 0
+	"Huáscar #0" = 0
+	"Hugo #0" = 0
+	"Humberto #0" = 0
+	"Iván #0" = 0
+	"Jackson #0" = 0
+	"Jaime #0" = 0
+	"Jair #0" = 0
+	"Jairo #0" = 0
+	"Jan #0" = 0
+	"Jesús #0" = 0
+	"Jhonny #0" = 0
+	"Jhoulys #0" = 0
+	"Joaquim #0" = 0
+	"Johnny #0" = 0
+	"Jonathan #0" = 0
+	"José #0" = 0
+	"Juan #0" = 0
+	"Julián #0" = 0
+	"Julio #0" = 0
+	"Leslie #0" = 0
+	"Lorenzo #0" = 0
+	"Luis #0" = 0
+	"Machado #0" = 0
+	"Manuel #0" = 0
+	"Mario #0" = 0
+	"Martin #0" = 0
+	"Massimo #0" = 0
+	"Nelson #0" = 0
+	"Nick #0" = 0
+	"Nilo #0" = 0
+	"Omar #0" = 0
+	"Orlando #0" = 0
+	"Oscar #0" = 0
+	"Oswaldo #0" = 0
+	"Pablo #0" = 0
+	"Pedro #0" = 0
+	"Pelé #0" = 0
+	"Rafael #0" = 0
+	"Ramón #0" = 0
+	"Raúl #0" = 0
+	"Renato #0" = 0
+	"René #0" = 0
+	"Ricardo #0" = 0
+	"Robert #0" = 0
+	"Roberto #0" = 0
+	"Robinson #0" = 0
+	"Rodolfo #0" = 0
+	"Rodrigo #0" = 0
+	"Rougned #0" = 0
+	"Rubén #0" = 0
+	"Rudy #0" = 0
+	"Samuel #0" = 0
+	"Santiago #0" = 0
+	"Teolindo #0" = 0
+	"Teresa #0" = 0
+	"Tony #0" = 0
+	"Tulio #0" = 0
+	"Vicente #0" = 0
+	"Víctor #0" = 0
+	"Vidal #0" = 0
+	"Wifredo #0" = 0
+	"Willie #0" = 0
+	"Wilmer #0" = 0
+	"Wilson #0" = 0
+	"Wuillians #0" = 0
+	"Xabier #0" = 0
+}
+

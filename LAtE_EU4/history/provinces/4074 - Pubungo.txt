@@ -1,0 +1,14 @@
+#Pubungo
+
+culture = acholi
+religion = mwari
+capital = "Pubungo"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = central_african

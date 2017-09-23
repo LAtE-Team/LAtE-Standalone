@@ -1,0 +1,27 @@
+# Palisades
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachian
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2639
+3037.12.27 = {
+	monarch = {
+		name = "Tim"
+		birth_date = 3002.6.13
+		dynasty = " Palisades"
+		adm = 1
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = righteous_personality
+}
+3053.1.1 {
+	capital = 2639
+	add_treasury = 172
+	add_prestige = 72
+	elector = no
+}

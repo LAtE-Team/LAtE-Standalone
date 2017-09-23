@@ -1,0 +1,14 @@
+#482 - Bahamas
+
+culture = arawak
+religion = animism
+capital = "Bahamas"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 5
+discovered_by = GBR

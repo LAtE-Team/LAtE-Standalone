@@ -1,0 +1,24 @@
+#613 - Dong Kinh
+
+owner = DAI
+controller = DAI
+add_core = DAI
+culture = vietnamese
+religion = mahayana
+capital = "Dong Kinh"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+fort_15th = yes
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

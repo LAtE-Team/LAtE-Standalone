@@ -1,0 +1,6 @@
+government = daimyo
+government_rank = 1
+primary_culture = kyushuan
+religion = cult_of_saints
+technology_group = chinese
+capital = 4182

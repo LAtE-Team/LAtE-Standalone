@@ -1,0 +1,25 @@
+# Nicaragua
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chapin
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2660
+3052.5.2 = {
+	monarch = {
+		name = "Andre II"
+		birth_date = 3025.1.14
+		dynasty = "Fabela"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 2660
+	add_treasury = 72
+	add_prestige = 48
+}

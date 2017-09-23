@@ -1,0 +1,73 @@
+#1952 - Máramaros
+
+#owner = HUN
+#controller = HUN 
+culture = ruthenian
+religion = orthodox
+capital = "Huszt"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= HUN
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #add_core= TRA }
+# = {
+	#owner = TRA
+	#controller = TRA
+#} # Battle of Mohács, the end of the independent Kingdom of Hungary
+# = {
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+#} # Ferdinand gains Transylvania from Treaty of Weissenburg
+# = { #owner = TRA #controller = TRA } # Isabella Jagiello is restored as queen of Transylvania
+# = {
+	remove_core = TRA
+	#owner = HAB
+	#controller = HAB
+#} #Treaty of Speyer
+# = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # The nobility in Royal Hungary rebelled against Habsburg & Jesuit repression
+# = { revolt = {} #controller = HAB } # Peace treaty
+# = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # Occupied by Gabriel Bethlen
+# = { revolt = {} }
+# = { #controller = HAB } # The 3rd Peace of Pressburg
+# = { religion = catholic } # Ungvar union
+# = {
+	#owner = TRA
+	#controller = TRA
+	#add_core= TRA
+	remove_core = HAB
+#} # Uzgorod is united with Transylvania
+# = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # Occupied by Imrich Tokoli
+# = {
+	revolt = {}
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+	remove_core = TRA
+#} # Imrich Tokoli surrendered to the emperor's soldiers
+# = { unrest = 6 } # Kuruc rebellion, lead by Francisc Rakoczy
+ # Great plague
+# = { unrest = 0 } # Treaty of Szatmar, the House of Habsburg recognized as the new ruler
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,26 @@
+# Altamaha
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4664
+3044.1.11 = {
+	monarch = {
+		name = "Raphael"
+		birth_date = 2994.10.11
+		dynasty = "McGillin"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 4664
+	add_treasury = 56
+	add_prestige = 198
+	elector = no
+}

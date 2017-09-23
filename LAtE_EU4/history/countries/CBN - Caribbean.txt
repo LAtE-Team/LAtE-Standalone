@@ -1,0 +1,26 @@
+# Caribbean Empire
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 487
+3028.11.4 = {
+	monarch = {
+		name = "Michael"
+		birth_date = 3004.6.23
+		dynasty = "Ince"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 487
+	add_treasury = 76
+	add_prestige = 663
+}

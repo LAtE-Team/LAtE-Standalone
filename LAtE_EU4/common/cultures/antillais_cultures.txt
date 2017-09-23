@@ -1,0 +1,13 @@
+antillais = {
+	haitian = {
+		primary = HAT
+		dynasty_names = { }
+	}
+	venteux = {
+		dynasty_names = { "Gueret" }
+	}
+	cayennais  = {
+		primary = CAY
+		dynasty_names = { "Boulet" }
+	}
+}

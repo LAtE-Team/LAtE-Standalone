@@ -1,0 +1,27 @@
+# Plaquemines
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = creole
+religion = protestant
+clear_scripted_personalities = yes
+capital = 893
+3036.5.21 = {
+	monarch = {
+		name = "Breunor"
+		birth_date = 3018.11.21
+		dynasty = "Lowe"
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = righteous_personality
+}
+3053.1.1 {
+	capital = 893
+	add_treasury = 1089
+	add_prestige = 96
+	elector = no
+}

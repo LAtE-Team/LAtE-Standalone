@@ -1,0 +1,145 @@
+# Colima
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 45 141 236 }
+
+
+
+
+leader_names = {
+
+	"Vicente María" "Vargas" "Ana" "Missael" "Concepción" "Rosaura" "Serenata" "Pepe" "Juan José" "Jenni" 
+	"Junipero" "Olivia" "Humberto" "Rubín" "Galilea" "Lola" "Efraín" "Quirarte" "Aristóteles" "Guardado" 
+	"Celestino" "Navarrete" "Lázaro" "Bernabé" "Perla" "Irene" "Enrique" "Lorena" "Chayito" "Susana" 
+	"Silvestre" "Begoña" "Margarita" "Vicente Antonio" "Colli" "Balcázar" "José María" "Prieto" "Gerardito" "Tiburon" 
+	"Güera" "Panchito" "Tia" "Guízar" "Shaila" "Anacleto" "Beatriz" "Dúrcal" "Gaspar" "Lupita" 
+	"Casimiro" "Flor" "Itzcóatl" "Perico" "Gustavo" "Pedro" "Pimotl" "Jesús" "Cabrillo" "Tototl" 
+	"Tlaquiach" "Guadalupe" "Díaz" "Everardo" "Elías" "Oswaldo" "Blas" "Natividad" "Crispiniano" "Armería" 
+	"Ángel" "Alvarado" "Aarón" "Benito" "Beltrán" "Barragán" "Cristóbal" "César" "Coufal" "Cipriano" 
+	"Cavo" "Chucho" "Emmanuel" "Guzmán" "Gonzalo" "Guillermo" "Gael" "Guamerú" "Galindo" "Gallardo" 
+	"Héctor" "Higinio" "Ignacio" "Isidro" "Joaquin" "Javier" "Lico" "Mario" "Mathias" "Nuño" 
+	"Nicolás" "Néstor" "Ney" "Octaviano" "Panduro" "Porfirio" "Pardo" "Prisciliano" "Pascual" "Rodrigo" 
+	"Rubio" "Refugio" "Ramón" "Santiago" "Sáncho" "Sergio" "Tito" "Tilon" "Tonatiuh" "Zeferino" }
+monarch_names = {
+	"Vicente María #0" = 1
+	"Vargas #3" = 45
+	"Ana #0" = -1
+	"Missael #0" = 1
+	"Concepción #0" = -1
+	"Rosaura #0" = -1
+	"Serenata #0" = -1
+	"Pepe #1" = 27
+	"Juan José #0" = 1
+	"Jenni #0" = -1
+	"Junipero #0" = 1
+	"Olivia #0" = -1
+	"Humberto #0" = 1
+	"Rubín #4" = 36
+	"Galilea #0" = -1
+	"Lola #0" = -1
+	"Efraín #0" = 1
+	"Quirarte #0" = 1
+	"Aristóteles #0" = 1
+	"Guardado #0" = 1
+	"Celestino #0" = 1
+	"Navarrete #0" = -1
+	"Lázaro #2" = 27
+	"Bernabé #1" = 27
+	"Perla #0" = -1
+	"Irene #0" = -1
+	"Enrique #0" = 1
+	"Lorena #0" = -1
+	"Chayito #0" = -1
+	"Susana #0" = -1
+	"Silvestre #0" = 1
+	"Begoña #0" = -1
+	"Margarita #0" = -1
+	"Vicente Antonio #0" = 1
+	"Colli #0" = 1
+	"Balcázar #0" = 1
+	"José María #0" = 1
+	"Prieto #1" = 24
+	"Gerardito #0" = -1
+	"Tiburon #0" = 1
+	"Güera #0" = -1
+	"Panchito #0" = 1
+	"Tia #0" = -1
+	"Guízar #0" = 1
+	"Shaila #0" = -1
+	"Anacleto #0" = 1
+	"Beatriz #0" = -1
+	"Dúrcal #0" = -1
+	"Gaspar #1" = 18
+	"Lupita #0" = -1
+	"Casimiro #0" = 1
+	"Flor #0" = -1
+	"Itzcóatl #0" = 1
+	"Perico #0" = 1
+	"Gustavo #2" = 0
+	"Pedro #2" = 0
+	"Pimotl #1" = 0
+	"Jesús #3" = 0
+	"Cabrillo #1" = 0
+	"Tototl #1" = 0
+	"Tlaquiach #1" = 0
+	"Guadalupe #1" = 0
+	"Díaz #1" = 0
+	"Everardo #1" = 0
+	"Elías #1" = 0
+	"Oswaldo #1" = 0
+	"Blas #1" = 0
+	"Natividad #1" = 0
+	"Crispiniano #1" = 0
+	"Armería #0" = 0
+	"Ángel #0" = 0
+	"Alvarado #0" = 0
+	"Aarón #0" = 0
+	"Benito #0" = 0
+	"Beltrán #0" = 0
+	"Barragán #0" = 0
+	"Cristóbal #0" = 0
+	"César #0" = 0
+	"Coufal #0" = 0
+	"Cipriano #0" = 0
+	"Cavo #0" = 0
+	"Chucho #0" = 0
+	"Emmanuel #0" = 0
+	"Guzmán #0" = 0
+	"Gonzalo #0" = 0
+	"Guillermo #0" = 0
+	"Gael #0" = 0
+	"Guamerú #0" = 0
+	"Galindo #0" = 0
+	"Gallardo #0" = 0
+	"Héctor #0" = 0
+	"Higinio #0" = 0
+	"Ignacio #0" = 0
+	"Isidro #0" = 0
+	"Joaquin #0" = 0
+	"Javier #0" = 0
+	"Lico #0" = 0
+	"Mario #0" = 0
+	"Mathias #0" = 0
+	"Nuño #0" = 0
+	"Nicolás #0" = 0
+	"Néstor #0" = 0
+	"Ney #0" = 0
+	"Octaviano #0" = 0
+	"Panduro #0" = 0
+	"Porfirio #0" = 0
+	"Pardo #0" = 0
+	"Prisciliano #0" = 0
+	"Pascual #0" = 0
+	"Rodrigo #0" = 0
+	"Rubio #0" = 0
+	"Refugio #0" = 0
+	"Ramón #0" = 0
+	"Santiago #0" = 0
+	"Sáncho #0" = 0
+	"Sergio #0" = 0
+	"Tito #0" = 0
+	"Tilon #0" = 0
+	"Tonatiuh #0" = 0
+	"Zeferino #0" = 0
+}
+

@@ -1,0 +1,17 @@
+west_anglo = {
+	grangelander = {
+		dynasty_names = { "Rodman" "Gammton" "Still" "Hutchinson" "Zeamays" "Sedgwick" "Zeamays" "Rodman" "Barley" "Brasge" "Brasge" "Capper" "Wapello" "Antilocapra" "Antilocapra" "Crossing" "Dedale" "Battletown" "White" "Alamosa" "Moline" "Adams-Farwell" "Aestivum" }
+	}
+	texan = {
+		primary = TEX
+		dynasty_names = { "Rusk" "Hill" "Blaggold" "Sheid" "Summerlin" "Taylor-Jones" "Orange" "Garrison" "Angleton" "Rayville" "Redwater" "Harq" "Ballentine" "Cockrell" "Guinan" "Hersee" "Navan" "Rusk" "Darst" "Harq" "Rusk" }
+	}
+	arixan = {
+		primary = ARX
+		dynasty_names = { }
+	}
+	ozark = {
+		primary = OZK
+		dynasty_names = { "Fertick" "Burdell" "Hough" "Danvorn" "Guisinger" "McDaniels" "Goss" "Clinton" "Fort Leonard Wood" }
+	}
+}

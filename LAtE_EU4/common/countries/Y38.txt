@@ -1,0 +1,239 @@
+# Miramichi
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 202 49 16 }
+
+
+
+
+leader_names = {
+
+	"Melody" "Dalach" "Grace" "Ceallach" "Honora" "Danielle" "Scott" "Aine" "Kiera" "Molly" 
+	"Brogan" "Sarah" "Caitlin" "Connor" "Cillian" "Sinead" "Desmond" "Hamilton" "Ophelia" "Erskine" 
+	"Casey" "Aurelia" "Jabez" "Quinn" "Conan" "Maureen" "Fidelma" "Liadan" "Keenan" "Elva" 
+	"Patricia" "Michael" "Mellan" "Bevin" "Nora" "Greagoir" "Colin" "Briana" "Dorean" "Jonatan" 
+	"Cadogan" "Lemuel" "Bedelia" "Eileen" "Clarence" "Ella" "Aubrey" "Cairbre" "Julian" "Conley" 
+	"Cinaed" "Finbar" "Cormac" "Redmund" "James" "Felim" "Allison" "Alister" "Angus" "Aedan" 
+	"Aindriu" "Alaois" "Aodh" "Ardghal" "Art" "Brian" "Blair" "Bairre" "Barrfind" "Berach" 
+	"Bradach" "Braden" "Bran" "Brendan" "Boyle" "Bruce" "Clifford" "Caden" "Cathal" "Calvagh" 
+	"Carbrey" "Cathan" "Cavan" "Cian" "Clancy" "Columban" "Comgall" "Comgan" "Chrestian" "Cork" 
+	"Cyrus" "Cearbhall" "David" "Doughal" "Daley" "Dara" "Dermot" "Derry" "Donald" "Donovan" 
+	"Doran" "Doyle" "Driscoll" "Duane" "Daniel" "Dullahan" "Domnall" "Donnchad" "Evan" "Eamon" 
+	"Eadbhard" "Eoghan" "Eoin" "Eustace" "Enos" "Fergus" "Farquhar" "Fergal" "Fechin" "Fillin" 
+	"Finley" "Finn" "Finnegan" "Fintan" "Fallomon" "Graydon" "Gallagher" "Gilroy" "Garvan" "Gearalt" 
+	"Goban" "Gobnet" "Grady" "Gallant" "Garrett" "Hamish" "Hugh" "Heber" "Ivor" "Ian" 
+	"Irriel" "Jarlath" "Kevin" "Keefe" "Keane" "Kane" "Keegan" "Kelan" "Kenneth" "Lovarck" 
+	"Labhras" "Liam" "Leary" "Lachlan" "Lomman" "Lonan" "Lorcan" "Lucas" "Laurie" "Murray" 
+	"Malcolm" "Mohan" "Mairtin" "Malachy" "Maitiu" "Marcas" "Manus" "Muir" "Murdoch" "Murphy" 
+	"Murrough" "Murtagh" "Marlin" "Murchad" "Neil" "Nelson" "Nevan" "Nioclas" "Nolan" "Odran" 
+	"Oran" "Owen" "Patrig" "Peadar" "Pol" "Piaras" "Phelin" "Phelan" "Quiggen" "Ronald" 
+	"Ryan" "Rearden" "Reamann" "Riordan" "Ronan" "Rory" "Robeard" "Ryerson" "Ross" "Stewart" 
+	"Sean" "Seamus" "Trevor" "Whelan" "Zachary" }
+monarch_names = {
+	"Melody #0" = -1
+	"Dalach #1" = 24
+	"Grace #0" = -1
+	"Ceallach #3" = 33
+	"Honora #0" = -1
+	"Danielle #0" = -1
+	"Scott #0" = 1
+	"Aine #0" = -1
+	"Kiera #0" = -1
+	"Molly #0" = -1
+	"Brogan #0" = -1
+	"Sarah #1" = -19
+	"Caitlin #0" = -1
+	"Connor #0" = 1
+	"Cillian #0" = 1
+	"Sinead #0" = -1
+	"Desmond #0" = 1
+	"Hamilton #0" = 1
+	"Ophelia #0" = -1
+	"Erskine #0" = 1
+	"Casey #0" = -1
+	"Aurelia #1" = -19
+	"Jabez #0" = 1
+	"Quinn #0" = 1
+	"Conan #0" = 1
+	"Maureen #0" = -1
+	"Fidelma #0" = -1
+	"Liadan #0" = -1
+	"Keenan #0" = 1
+	"Elva #0" = -1
+	"Patricia #0" = -1
+	"Michael #0" = 1
+	"Mellan #0" = 1
+	"Bevin #0" = -1
+	"Nora #0" = -1
+	"Greagoir #0" = 1
+	"Colin #0" = 1
+	"Briana #0" = -1
+	"Dorean #0" = -1
+	"Jonatan #1" = 18
+	"Cadogan #0" = 1
+	"Lemuel #0" = 1
+	"Bedelia #0" = -1
+	"Eileen #0" = -1
+	"Clarence #0" = 1
+	"Ella #0" = -1
+	"Aubrey #1" = 0
+	"Cairbre #1" = 0
+	"Julian #1" = 0
+	"Conley #1" = 0
+	"Cinaed #1" = 0
+	"Finbar #1" = 0
+	"Cormac #3" = 0
+	"Redmund #1" = 0
+	"James #1" = 0
+	"Felim #1" = 0
+	"Allison #0" = 0
+	"Alister #0" = 0
+	"Angus #0" = 0
+	"Aedan #0" = 0
+	"Aindriu #0" = 0
+	"Alaois #0" = 0
+	"Aodh #0" = 0
+	"Ardghal #0" = 0
+	"Art #0" = 0
+	"Brian #0" = 0
+	"Blair #0" = 0
+	"Bairre #0" = 0
+	"Barrfind #0" = 0
+	"Berach #0" = 0
+	"Bradach #0" = 0
+	"Braden #0" = 0
+	"Bran #0" = 0
+	"Brendan #0" = 0
+	"Boyle #0" = 0
+	"Bruce #0" = 0
+	"Clifford #0" = 0
+	"Caden #0" = 0
+	"Cathal #0" = 0
+	"Calvagh #0" = 0
+	"Carbrey #0" = 0
+	"Cathan #0" = 0
+	"Cavan #0" = 0
+	"Cian #0" = 0
+	"Clancy #0" = 0
+	"Columban #0" = 0
+	"Comgall #0" = 0
+	"Comgan #0" = 0
+	"Chrestian #0" = 0
+	"Cork #0" = 0
+	"Cyrus #0" = 0
+	"Cearbhall #0" = 0
+	"David #0" = 0
+	"Doughal #0" = 0
+	"Daley #0" = 0
+	"Dara #0" = 0
+	"Dermot #0" = 0
+	"Derry #0" = 0
+	"Donald #0" = 0
+	"Donovan #0" = 0
+	"Doran #0" = 0
+	"Doyle #0" = 0
+	"Driscoll #0" = 0
+	"Duane #0" = 0
+	"Daniel #0" = 0
+	"Dullahan #0" = 0
+	"Domnall #0" = 0
+	"Donnchad #0" = 0
+	"Evan #0" = 0
+	"Eamon #0" = 0
+	"Eadbhard #0" = 0
+	"Eoghan #0" = 0
+	"Eoin #0" = 0
+	"Eustace #0" = 0
+	"Enos #0" = 0
+	"Fergus #0" = 0
+	"Farquhar #0" = 0
+	"Fergal #0" = 0
+	"Fechin #0" = 0
+	"Fillin #0" = 0
+	"Finley #0" = 0
+	"Finn #0" = 0
+	"Finnegan #0" = 0
+	"Fintan #0" = 0
+	"Fallomon #0" = 0
+	"Graydon #0" = 0
+	"Gallagher #0" = 0
+	"Gilroy #0" = 0
+	"Garvan #0" = 0
+	"Gearalt #0" = 0
+	"Goban #0" = 0
+	"Gobnet #0" = 0
+	"Grady #0" = 0
+	"Gallant #0" = 0
+	"Garrett #0" = 0
+	"Hamish #0" = 0
+	"Hugh #0" = 0
+	"Heber #0" = 0
+	"Ivor #0" = 0
+	"Ian #0" = 0
+	"Irriel #0" = 0
+	"Jarlath #0" = 0
+	"Kevin #0" = 0
+	"Keefe #0" = 0
+	"Keane #0" = 0
+	"Kane #0" = 0
+	"Keegan #0" = 0
+	"Kelan #0" = 0
+	"Kenneth #0" = 0
+	"Lovarck #0" = 0
+	"Labhras #0" = 0
+	"Liam #0" = 0
+	"Leary #0" = 0
+	"Lachlan #0" = 0
+	"Lomman #0" = 0
+	"Lonan #0" = 0
+	"Lorcan #0" = 0
+	"Lucas #0" = 0
+	"Laurie #0" = 0
+	"Murray #0" = 0
+	"Malcolm #0" = 0
+	"Mohan #0" = 0
+	"Mairtin #0" = 0
+	"Malachy #0" = 0
+	"Maitiu #0" = 0
+	"Marcas #0" = 0
+	"Manus #0" = 0
+	"Muir #0" = 0
+	"Murdoch #0" = 0
+	"Murphy #0" = 0
+	"Murrough #0" = 0
+	"Murtagh #0" = 0
+	"Marlin #0" = 0
+	"Murchad #0" = 0
+	"Neil #0" = 0
+	"Nelson #0" = 0
+	"Nevan #0" = 0
+	"Nioclas #0" = 0
+	"Nolan #0" = 0
+	"Odran #0" = 0
+	"Oran #0" = 0
+	"Owen #0" = 0
+	"Patrig #0" = 0
+	"Peadar #0" = 0
+	"Pol #0" = 0
+	"Piaras #0" = 0
+	"Phelin #0" = 0
+	"Phelan #0" = 0
+	"Quiggen #0" = 0
+	"Ronald #0" = 0
+	"Ryan #0" = 0
+	"Rearden #0" = 0
+	"Reamann #0" = 0
+	"Riordan #0" = 0
+	"Ronan #0" = 0
+	"Rory #0" = 0
+	"Robeard #0" = 0
+	"Ryerson #0" = 0
+	"Ross #0" = 0
+	"Stewart #0" = 0
+	"Sean #0" = 0
+	"Seamus #0" = 0
+	"Trevor #0" = 0
+	"Whelan #0" = 0
+	"Zachary #0" = 0
+}
+

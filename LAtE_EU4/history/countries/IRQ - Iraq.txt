@@ -1,0 +1,5 @@
+government = iqta
+primary_culture = al_iraqiya_arabic
+religion = shiite
+technology_group = indian
+capital = 410	# Bagdad

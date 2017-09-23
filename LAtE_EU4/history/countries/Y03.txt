@@ -1,0 +1,26 @@
+# Carteret
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4643
+3047.2.7 = {
+	monarch = {
+		name = "Mercury"
+		birth_date = 2986.11.14
+		dynasty = " Carteret"
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 4643
+	add_treasury = 74
+	add_prestige = 49
+	elector = no
+}

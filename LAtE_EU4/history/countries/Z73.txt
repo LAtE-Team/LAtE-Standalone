@@ -1,0 +1,27 @@
+# Cumberland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2553
+3028.10.18 = {
+	monarch = {
+		name = "Vitalian"
+		birth_date = 3003.9.18
+		dynasty = "Hairston"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = lawgiver_personality
+}
+3053.1.1 {
+	capital = 2553
+	add_treasury = 39
+	add_prestige = 162
+	elector = no
+}

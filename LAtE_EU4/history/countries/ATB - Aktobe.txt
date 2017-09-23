@@ -1,0 +1,17 @@
+government = steppe_horde
+primary_culture = khazak
+religion = tengri_pagan_reformed
+technology_group = indian
+capital = 2353 #Tortkara
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Abilmambet"
+		dynasty = "Giray"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}

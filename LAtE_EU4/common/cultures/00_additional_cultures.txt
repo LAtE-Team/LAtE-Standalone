@@ -1,0 +1,307 @@
+colombiano = {
+	quiteno = {
+		primary = ECU
+		male_names = {
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
+			Bernardo Bertrán Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
+			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
+			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
+			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+			Suero Tello Vela Vela Suero Oveco John Enrique
+		}
+		female_names = {
+			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+			Isabel
+		}
+	}
+}
+afroanglo = {
+	liberian = {
+		primary = LIB
+	}
+}
+argentine = {
+	graphical_culture = westerngfx
+	
+	male_names = {
+		Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
+		Bernardo Bertrán Hernando
+		Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
+		Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+		Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+		Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
+		Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
+		Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
+		Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+		Suero Tello Vela Vela Suero Oveco John Enrique
+	}
+	female_names = {
+		Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+		Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+		Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+		Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+		Isabel
+		Nina
+	}
+	litoraleno = {
+		primary = MES
+		male_names = {
+			Gilgamesh Hammurabi Nebuchanezzar
+		}
+	}
+	platinean = {
+		primary = LAP
+	}
+	cordoban = {
+		primary = CDB
+	}
+}
+boer = {
+	male_names = {
+		Adriaen Albrecht Albert Alwin Ambroos Antoon Arnold Arnold Arnulf Arnulf Balderik Barend 
+		Barnaerd Bernard Bartolomeus Bartolomeus
+		Bavo Bertold Boudewijn Baldwin Claes Nicholas Claeuwaert Daevit David Damaes Diederick 
+		Thierry Dirk Thierry Douwe Eduard Edward Egmund Ekbert
+		Emmo Engelbrecht Filips Philip Floris Folbert Frans Francis Frederik Frederick Gerard Gerolt 
+		Gerulf
+		Gerrit Gijsbrecht Giselbert Gilbert Godfried Godfrey Godschalk Gozewijn Guij Guy Gwijde 
+		Gwijde Hendrik Henry Herman Herman Hubert
+		Hugo Hugh Ijsbrand Ijsbrecht Jacco Jacob Jan John Karel Charles Koenraad Konrad
+		Kristof Christopher Lambert Lambert Lodewijk Louis Ludewijn Lutbert Luthard Maertijn Martin
+		Marquart Niclaes Nicholas
+		Olivier Oliver Otto Otto Otwin Onno Pieter Peter Reinaerd Reinoud Reinhold Reginar Robrecht
+		Robert Robert Robert Rodulf 
+		Roelof Roland Rutger Sebastiaen Sebastian Sicco Simon Steven Stephen Steyn Sten Theodolf
+		Waelram Walter Walter
+		Wicher Willem William Wolfard Hendrik Maurits
+		Adriaan Andries Antonius Gaspar Isaac Johan Laurens Paul Abraham Barthout Christiaan
+		Christoffel Constantijn Cornelis Daniel Eise Gabriel Gerben Hans Jeroen Joost Nicolaas 
+		Roeland Rogier Thomas Vincent Zacharias
+	}
+	female_names = {
+		Ada Adela Adelheid Adelaide Aechte Agaete Aleid Alijse Alice Aliken Anna Annelies
+		Badeloge Bava Beatrijs Beatrice Benedicta
+		Blanca Blanche Blanceflore Cecily Cecilia Cille Clara Clementia 
+		Ellijnore Eleanor Emma Ermingarde Ermengarde Fenne
+		Filippa Philippa Frida Gheertrude Gertrude Gerda Godila Haduwijn Helena Helen Herlinda 
+		Hilligonda Ide Ida Imagina Irene Isabelle Iudith
+		Jacoba Jaccobijn Jasminne Johanna Joan Jolanda Juliana Jutte Kathrijne 
+		Katrien Catherine Liedwin Lisebet Elisabeth Machtelt Margareta Margaret
+		Maria Mathilde Matilda Oda Odelt Olinde Onna Pieternelle Petronilla Reynilde Sanne 
+		Sigerda Sophie Sophia Swanhildis Thetburga Tiburge Waltrud
+		Wila Wendelmoet Wenna Willemine Yonefij Yvonne Zoete Margaretha Rosanne Tamara
+	}
+	afrikaner = {
+		primary = SEF
+	}
+	griqua = {
+		primary = GQA
+	}
+	baster = {
+	}
+}
+ozzi = {
+	strayan = {
+		primary = AUS
+		male_names = {
+			Abbot Ace Adrey Andrew Adrian Adrian Agro Aiden Alan Alex Alexander Alexander Alick Alis Allan Andrew Andrew Andy Andrew Anfernee Anthony Anthony Antonio Anthony Archer Arthur Arthur Asher Ashley Ashtyn 
+			Bailey Banjo Barnes Barnsey Baron Barry Barry Bart Bartholomew Bathurst Baz Barry Bazz Barry Beanie Beejay Ben Bernard Bert Bill Blaze Blinky Blitzer Bob Boomer Boonie Boxer Bradman Brandon Bransby Brendan Brett Brian Brizzy Brock Broden Bronco Bruce Brumby Bryan Budgie Bundy Bushman 
+			Camryn Charles Charles Chase Chazz Charles Christopher Christopher Clive Cohen Colgate Colin Cooper Craig Cricky Crowe Cruise Cruise Cruz Cruise Cyril 
+			Dale Damien Damian Damo Damian Daniel Daniel Danny Daniel Darren Darren Darryl Darwin Daryl David David Davo David Dax Dazza Darren Decklan Denis Dennis Dero Desmond Dickie Richard Dicky Richard Diesel Digger Dillion Dingo Dion Don Donald Donald Donald Douglas Duffy Duncan Dusty Dwayne Dylon 
+			Edward Edward Edwin Eric Erik Errol Eureka 
+			Flash Ford Francis Francis Frank Francis 
+			Gallipoli Garry Gary Gavin Gemini Geoffrey George George Georgie George Gerard Giuseppe Glenn Gordo Gordon Gordon Gordon Graeme Graham Grant Greg Gregory Gregory Gregory
+			Hall Harly Harry Henry Henry Herbie Hobart Holden Holt Howard Hughsey Hugh Hunter 
+			Ian Indiana Indiana Indy Indiana
+			Jack Jacob Jacko Jacob James James Jarryd Jason Jaycob Jacob Jaymz James Jeffrey Jett Jimmy James Jody Joey Joeseph John John Jonty Joseph Joseph Josh Joshua Jy Joshua
+			Kain Kaj Kaleb Karlos Charles Kash Keith Kelly Ken Kenneth Kenneth Kenneth Kenny Kenneth Kev Kevin Kevin Kevin Kezza Kevin Kingswood Kitarni Knight Kobi Kylie Kym Kymbo Kyrian 
+			Lachlan Lambie Laurence Lawrence Leigh Leonard Leslie Lindsay Lucas Lucas 
+			Malcolm Marc Mark Marquise Martin Marto Mate Mateship Matty Maurice Maxwell Merv Mervyn Michael Mike Monty Morris Mozzy Murdoch Murray 
+			Nadim Nathon Nathan Ned Edward Neil Neville Nicholas Nicholas Nijole Nip Noah Noel Noice Norman 
+			Otto Otto Ozzie
+			Parma Patrick Patrick Paul Paul Percy Perth Peter Peter Philip Philip Phillip Philip 
+			Raymond Red Redpath Reffo Reggo Reginald Reginald Reginald Rhett Richard Ricky Riley Robert Robin Rodney Roger Ronald Ross Rupert Russel Russell Ryan Ryker 
+			Salvator Sam Samuel Scottie Sebastian Sebastian Seppo Shane Shane Shaz Shane Shazza Shane Sid Sidney Simon Simon Slim Steele Stephen Steven Steve Steven Steven Steven Stevros Storm Striker Stuart Sydney Sidney 
+			Taffy Tai Tanner Tazzy Terence Terrence Terry Thomas Thomas Tim Timothy Timmo Timothy Timothy Timothy Tommy Thomas Tones Anthony Tony Anthony Torana Trevor Treye Tyson Tytan 
+			Vegemite Victor Victor Vincent Vincent
+			Walt Walter Warnsey Warren Wayne Willho William William William Wolf Wolfgang Wolfgang Wolfgang Wolfie Wolfgang Wombat 
+			Xavier 
+			Zac Zaiden 
+			"Archer James" "Archie Pete" "Ashton Jye" "Ben Hall" "Blue Falcon" "Blue Heeler" "Bob Hawke" "Brett Lee" "David Boon" "Dead Dog" "Dingo Dog" "Donald Bradman" "Drop Bear" "Fair Go" "Ford Focus" "Fox Miller" "Gallipoli Digger" "Greg Norman" "Jai David" "Jimmy Grant" "Lincoln Ross" "Maximus Kingston" "Ned Kelly" "Phar Lap" "Phoenix Riley" "Ricky Ponting" "Robert Menzies" "Rupe Mark" "Russel Crowe" "Shane Warne" "Slim Dusty" "Southern Cross" "Steve Irwin" "Striker Eureka" "Tim Tam" "Warney Mate" "Xander Jaxon" "Xavier Frank" 
+		}
+		female_names = {
+			Adelaide Adelaide Aivah Alesia Alessa Alex Alexandra Alexandra Alexandra Alice Alice Alira Alison Amanda Amber Angel Angela Ann Anna Anna Anna Annabelle Annalise Anne Anna Annette Asha Auria Ava Ava Avah Ava
+			Barbara Barbara Bec Bernadette Betty Beverley Bindi Blue Bodhi Brandine Brenda Bridgette Bronwyn Bronwyne Brooke Brooke Brookley Brooke
+			Capri Caprice Carmel Carol Caroline Carolyn Cassidy Catherine Catherine Cathy Catherine Charlotte Chelsey Cheryl Cheyenne Chiara Chloe Christine Christine Cindy Coll Colleen 
+			Daintree Daleen Dame Darci Darlene Darling Dawn Dawn Dawne Dawn Debbie Deborah Debra Denise Dia Diamantina Diamantina Diamantina Diane Dianne Donna Dorothea Dorothy Dorothy Dorothy Dream Dreamworld 
+			Edna Elaine Electra Elizabeth Elizabeth Ella Ellen Ellen Ellen Elly Ellen Emily Emma Esther Esther Eva Eva Evie Eva Ezza Elizabeth
+			Fay Faye Fiona Florence Foxy Frances 
+			Gail Gayle Giaan Ginny Glam Glenda Glenys Goss Grace 
+			Hannah Hannah Harper Hayleen Hayley Hazel Heather Heidi Helen Helen 
+			Imogen Indigo Indy Irena Irene Ivy Izzabella Elizabeth Izzy Elizabeth
+			Jacquie Jade Jai Jan Jane Janet Janette Janice Janine Jayne Jazmine Jeanette Jennifer Jesinta Jillian Jo Joan Joanne Joaquin Jodie Jody Jorja Jos Joslyn Joy Joyleen Judith Julia Juliar Julie 
+			Kaiya Karen Catherine Kasia Kate Catherine Kathleen Kathryn Kay Kaye Kels Kelsey Kerrie Kerry Kezza Catherine Kim Kirsten Krissy Christina Kylie Kyne 
+			Laetitia Latalia Laura Laura Layelle Layla Leah Leanne Len Leonie Lesley Liberty Lily Linda Linda Liz Elizabeth Lois Lorraine Louise Lucy Lucia Lyn Linda Lynda Linda Lynette Linda Lynne Linda
+			Mackalynn Maddie Maggie Margaret Mags Margaret Mahli Makenzie Maree Margaret Margaret Maria Mary Marie Mary Marilyn Marion Mary Marjorie Marlene Mary Mary Maureen Mia Michele Michelle Michelle Michelle Mikayla Michelle Miley Myah 
+			Nancy Natasha Nell Nellie Nevaeh Nikita Nikiyah Nykeeta 
+			Ocean Olivia 
+			Paige Pamela Paris Patricia Patricia Paula Paula Pauline Paula Peggy Pheobe Poppy Princess 
+			Quentin 
+			Raeline Rayleen Redd Rei Rhonda Robyn Rose Rose Rosemary Roslyn Ruby Ruth Rybekkah 
+			Sabrina Sachi Sally Samantha Sandra Savannah Scarlette Seana Shae Shandell Sharon Shayne Shaz Sheila Sheryl Shiraz Shirley Sienna Skye Skylah Sofia Sophia Sophie Sophia Stella Sue Susan Summer Sunny Susan Susan Susanne Susan Suzanne Susan 
+			Tahlia Tahni Talisha Talli Tammy Taneesha Taysha Teresa Tijana Tori Trinity 
+			Valerie Vegas Vera Vicki Victoria Vicky Victoria Victoria Victoria Vivian 
+			Wendy 
+			Yvonne 
+			Zara Zena Zoe 
+			"Alesia Chevon" "Amber Jade" "Amber Skye" "Asha Ellen" "Brookley Jayne" "Chiara Fay" "Darci Dawn" "Dawn Service" "Dawne Skye" "Fruity Gordo" "Giaan Grace" "Hayleen Jane" "Inca Helen" "Izzabella Eva" "Jayne Skye" "Miley Skye" "Myah Olivia" "Nikiyah Rose" "Olivia Jayne" "Shae Joy" "Shylah Jennifer" "Sunny Fish" "Tahlia Brooke" "Taysha Ann"
+		}
+	}
+	kiwi = {
+		male_names = {
+			Abbot Ace Adrey Andrew Adrian Adrian Agro Aiden Alan Alex Alexander Alexander Alick Alis Allan Andrew Andrew Andy Andrew Anfernee Anthony Anthony Antonio Anthony Archer Arthur Arthur Asher Ashley Ashtyn 
+			Bailey Banjo Barnes Barnsey Baron Barry Barry Bart Bartholomew Bathurst Baz Barry Bazz Barry Beanie Beejay Ben Bernard Bert Bill Blaze Blinky Blitzer Bob Boomer Boonie Boxer Bradman Brandon Bransby Brendan Brett Brian Brizzy Brock Broden Bronco Bruce Brumby Bryan Budgie Bundy Bushman 
+			Camryn Charles Charles Chase Chazz Charles Christopher Christopher Clive Cohen Colgate Colin Cooper Craig Cricky Crowe Cruise Cruise Cruz Cruise Cyril 
+			Dale Damien Damian Damo Damian Daniel Daniel Danny Daniel Darren Darren Darryl Darwin Daryl David David Davo David Dax Dazza Darren Decklan Denis Dennis Dero Desmond Dickie Richard Dicky Richard Diesel Digger Dillion Dingo Dion Don Donald Donald Donald Douglas Duffy Duncan Dusty Dwayne Dylon 
+			Edward Edward Edwin Eric Erik Errol Eureka 
+			Flash Ford Francis Francis Frank Francis 
+			Gallipoli Garry Gary Gavin Gemini Geoffrey George George Georgie George Gerard Giuseppe Glenn Gordo Gordon Gordon Gordon Graeme Graham Grant Greg Gregory Gregory Gregory
+			Hall Harly Harry Henry Henry Herbie Hobart Holden Holt Howard Hughsey Hugh Hunter 
+			Ian Indiana Indiana Indy Indiana
+			Jack Jacob Jacko Jacob James James Jarryd Jason Jaycob Jacob Jaymz James Jeffrey Jett Jimmy James Jody Joey Joeseph John John Jonty Joseph Joseph Josh Joshua Jy Joshua
+			Kain Kaj Kaleb Karlos Charles Kash Keith Kelly Ken Kenneth Kenneth Kenneth Kenny Kenneth Kev Kevin Kevin Kevin Kezza Kevin Kingswood Kitarni Knight Kobi Kylie Kym Kymbo Kyrian 
+			Lachlan Lambie Laurence Lawrence Leigh Leonard Leslie Lindsay Lucas Lucas 
+			Malcolm Marc Mark Marquise Martin Marto Mate Mateship Matty Maurice Maxwell Merv Mervyn Michael Mike Monty Morris Mozzy Murdoch Murray 
+			Nadim Nathon Nathan Ned Edward Neil Neville Nicholas Nicholas Nijole Nip Noah Noel Noice Norman 
+			Otto Otto Ozzie
+			Parma Patrick Patrick Paul Paul Percy Perth Peter Peter Philip Philip Phillip Philip 
+			Raymond Red Redpath Reffo Reggo Reginald Reginald Reginald Rhett Richard Ricky Riley Robert Robin Rodney Roger Ronald Ross Rupert Russel Russell Ryan Ryker 
+			Salvator Sam Samuel Scottie Sebastian Sebastian Seppo Shane Shane Shaz Shane Shazza Shane Sid Sidney Simon Simon Slim Steele Stephen Steven Steve Steven Steven Steven Stevros Storm Striker Stuart Sydney Sidney 
+			Taffy Tai Tanner Tazzy Terence Terrence Terry Thomas Thomas Tim Timothy Timmo Timothy Timothy Timothy Tommy Thomas Tones Anthony Tony Anthony Torana Trevor Treye Tyson Tytan 
+			Vegemite Victor Victor Vincent Vincent
+			Walt Walter Warnsey Warren Wayne Willho William William William Wolf Wolfgang Wolfgang Wolfgang Wolfie Wolfgang Wombat 
+			Xavier 
+			Zac Zaiden 
+		}
+		female_names = {
+			Adelaide Adelaide Aivah Alesia Alessa Alex Alexandra Alexandra Alexandra Alice Alice Alira Alison Amanda Amber Angel Angela Ann Anna Anna Anna Annabelle Annalise Anne Anna Annette Asha Auria Ava Ava Avah Ava
+			Barbara Barbara Bec Bernadette Betty Beverley Bindi Blue Bodhi Brandine Brenda Bridgette Bronwyn Bronwyne Brooke Brooke Brookley Brooke
+			Capri Caprice Carmel Carol Caroline Carolyn Cassidy Catherine Catherine Cathy Catherine Charlotte Chelsey Cheryl Cheyenne Chiara Chloe Christine Christine Cindy Coll Colleen 
+			Daintree Daleen Dame Darci Darlene Darling Dawn Dawn Dawne Dawn Debbie Deborah Debra Denise Dia Diamantina Diamantina Diamantina Diane Dianne Donna Dorothea Dorothy Dorothy Dorothy Dream Dreamworld 
+			Edna Elaine Electra Elizabeth Elizabeth Ella Ellen Ellen Ellen Elly Ellen Emily Emma Esther Esther Eva Eva Evie Eva Ezza Elizabeth
+			Fay Faye Fiona Florence Foxy Frances 
+			Gail Gayle Giaan Ginny Glam Glenda Glenys Goss Grace 
+			Hannah Hannah Harper Hayleen Hayley Hazel Heather Heidi Helen Helen 
+			Imogen Indigo Indy Irena Irene Ivy Izzabella Elizabeth Izzy Elizabeth
+			Jacquie Jade Jai Jan Jane Janet Janette Janice Janine Jayne Jazmine Jeanette Jennifer Jesinta Jillian Jo Joan Joanne Joaquin Jodie Jody Jorja Jos Joslyn Joy Joyleen Judith Julia Juliar Julie 
+			Kaiya Karen Catherine Kasia Kate Catherine Kathleen Kathryn Kay Kaye Kels Kelsey Kerrie Kerry Kezza Catherine Kim Kirsten Krissy Christina Kylie Kyne 
+			Laetitia Latalia Laura Laura Layelle Layla Leah Leanne Len Leonie Lesley Liberty Lily Linda Linda Liz Elizabeth Lois Lorraine Louise Lucy Lucia Lyn Linda Lynda Linda Lynette Linda Lynne Linda
+			Mackalynn Maddie Maggie Margaret Mags Margaret Mahli Makenzie Maree Margaret Margaret Maria Mary Marie Mary Marilyn Marion Mary Marjorie Marlene Mary Mary Maureen Mia Michele Michelle Michelle Michelle Mikayla Michelle Miley Myah 
+			Nancy Natasha Nell Nellie Nevaeh Nikita Nikiyah Nykeeta 
+			Ocean Olivia 
+			Paige Pamela Paris Patricia Patricia Paula Paula Pauline Paula Peggy Pheobe Poppy Princess 
+			Quentin 
+			Raeline Rayleen Redd Rei Rhonda Robyn Rose Rose Rosemary Roslyn Ruby Ruth Rybekkah 
+			Sabrina Sachi Sally Samantha Sandra Savannah Scarlette Seana Shae Shandell Sharon Shayne Shaz Sheila Sheryl Shiraz Shirley Sienna Skye Skylah Sofia Sophia Sophie Sophia Stella Sue Susan Summer Sunny Susan Susan Susanne Susan Suzanne Susan 
+			Tahlia Tahni Talisha Talli Tammy Taneesha Taysha Teresa Tijana Tori Trinity 
+			Valerie Vegas Vera Vicki Victoria Vicky Victoria Victoria Victoria Vivian 
+			Wendy 
+			Yvonne 
+			Zara Zena Zoe 
+		}
+	}
+}
+polynesian_g = {
+	dynasty_names = {
+		Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+		Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+		Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+		Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna 
+	}
+	female_names = {
+		Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+		Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+		Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+	}
+	male_names = {
+		Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
+		Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
+		Nalani Oke Palani Pekelo
+	}
+	polynesian = { #Tahitian
+	}
+	maori = {
+		primary = AOT
+		#Need names
+	}
+	gilbertese = { #Technically Micronesian
+		primary = UTP
+	}
+	samoan = {
+	}
+	#melanesian = {
+		#Already exists in Pacific group
+	#}
+	micronesian = {
+		#Need names
+	}
+}
+southern_african = {
+	tsawana = {
+		primary = BOT #New Botswana tag
+		#All standard Bantu stuff
+		
+		dynasty_names = {
+			Mwenemutapa Rozwi Mutopa Lukeni Loanga Nabahani al-Mawahib Zanzibari Mvita al-Malindi
+		}
+		male_names = {
+			Abidemi Abimbola Abiodun Abioye Aboubacar Abubakar Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa 
+			Afolabi Akachi Akpofure Akuchi Alemayehu Alinafe Amadi Amadi Ameqran Anan Andile Awotwi Ayo Ayodele Ayokunle Ayomide 
+			Ayotunde Azubuike Baako Babajide Babatunde Bamidele Berhanu Berko Boipelo Boitumelo Bongani Chi Chibueze Chibuike 
+			Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chifundo Chifuniro Chijindum Chike Chikelu 
+			Chikere Chikondi Chikumbutso Chima Chimwemwe Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chisomo 
+			Chiumbo Chiyembekezo Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Dakarai Dalitso Dayo Dejen Desta Dubaku Dumisani 
+			Efemena Ejiro Ejiroghene Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Emem Eniola Enitan Enu Enyinnaya Eseoghene 
+			Farai Faraji Fatsani Femi Folami Fungai Ganizani Gwandoya Idir Idowu Ikenna Imamu Imani Ime Isingoma Itri Itumeleng 
+			Izem Jelani Jengo Jumaane Katlego Kato Kayin Kayode Kefilwe Kgosi Khamisi Kibwe Kirabo Kobina Vabena Kofi Kojo Vadwo 
+			Kondwani Kumbukani Kwabena Kwadwo Kwaku Kwame Kwasi Kweku Kwesi Lanre Lekan Limbani 
+			Limbikani Madalitso Makena Mamadou Masamba Masozi Mavuto Mayamiko Mayeso Melisizwe Mosi Mphatso Mtendere Mudiwa 
+			Munashe Mwenye Ndidi Neo Ngozi Nkemdilim Nkosana Nkruma Nnamdi Nsia Nsonowa Nthanda Obi Ochieng Odhiambo Oghenekaro 
+			Oghenekevwe Oghenero Okoro Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi 
+			Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi 
+			Omobolanle Onyekachi Onyekachukwu Opeyemi i Otieno Oyibo Paki Pemphero Pilirani Refilwe Rudo Rutendo Sefu Simba 
+			Sipho Sithembile Sizwe Tadala Tafadzwa Tafari Takondwa Tamandani Tamrat Taonga Tatenda Tau Temitope Tendai Tendaji 
+			Tewodros Thabo Themba Thoko Thokozani Thulani Tichaona Tinashe Tiyamike Tumelo Udo Uduak Ufuoma Umukoro Unathi 
+			Uzochi Uzoma Wasswa Wekesa Xolani Yamikani Yared Yaw Zephania Zuberi 
+		}
+	female_names = {
+			Mavuto Mayamiko Mayeso Mbali Mchumba Meklit Mirembe Mojisola Monifa Mphatso Mtendere Mudiwa Munashe Mwanajuma Nakato 
+			Ndidi Neo Ngozi Nia Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nkosazana Nkruma Nneka Nnenna Nnenne Nomusa Nontle 
+			Nosipho Nosizwe Nsia Nsonowa Nthanda Ntombi Nuru Nwanneka Nyah Nyarai Ogechi Ogechukwukama Oghenekaro Oghenekevwe 
+			Oghenero Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+			Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi 
+			Oyibo Pemphero Pilirani Refilwe Rudo Rufaro Rumbidzai Rutendo Sanaa Sauda Seble Sekai Sethunya Sibonakaliso Simisola 
+			Sithembile Ssanyu Subira Tadala Tafadzwa Tajeddigt Takondwa Tamandani Taonga Tapiwa Tariro Tatenda Temitope Tendai 
+			Thandiwe Thema Themba Thoko Thokozani Thulile Tidir Tifawt Tinashe Titilayo Titrit Tiyamike Tsholofelo Tumelo Udo 
+			Uduak Ufuoma Unathi Uzoma Werknesh Worknesh Yaa Yamikani Yejide Yewande Zola Zuri
+			Abena Abeni Aberash Abimbola Abiodun Achieng Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo 
+			Adhiambo Adjoa Adwoa Afia Afua Akachi Akinyi Akosua Akpofure Akua Akuchi Alaba Alemayehu Alinafe Ama Amaka Amara 
+			Amarachi Anan Añuli Asha Aisha Atieno Awiti Awotwi Ayo Ayodele Ayomide Ayotunde Baako Babirye Boipelo Boitumelo 
+			Bolanle Bosede  Chausiku Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu 
+			Chidimma Chifundo Chifuniro Chijindum Chika Chike Chikelu Chikere Chikondi Chikumbutso Chimwemwe Chinasa Chinedu 
+			Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chipo Chisomo Chiyembekezo Chizoba Dada 
+			Dalitso Dayo Desta Dikeledi Dubaku Dumisani Ebele Efe Efemena Efua Ejiro Ejiroghene Ekene Ekenedilichukwu Ekua 
+			Ekundayo Emem Eniola Enitan Enu Eseoghene Eshe Esi Farai Fatsani Folami Fumnanya Funanya Fungai Furaha Ganizani 
+			Gbemisola Hiwot Hlengiwe Idowu Ife Ige Imani Ime Itumeleng Kagiso Kahina Kamaria Katlego Kayin Kefilwe Kirabo 
+			Kondwani Kumbukani Kunto Lerato Lesedi Limbani Limbikani Lindiwe Lumusi Lungile Madalitso Makena Manyara Marjani 
+			Masego Masozi 
+		}
+	}
+}

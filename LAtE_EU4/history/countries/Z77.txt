@@ -1,0 +1,26 @@
+# Beaufort
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gullah
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2542
+3044.5.24 = {
+	monarch = {
+		name = "Geoffrey"
+		birth_date = 3007.8.10
+		dynasty = "Lore"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 2542
+	add_treasury = 34
+	add_prestige = 92
+	elector = no
+}

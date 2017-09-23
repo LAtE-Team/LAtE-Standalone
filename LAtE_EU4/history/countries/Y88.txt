@@ -1,0 +1,40 @@
+# The Badlands
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = dakota
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2007
+3036.4.20 = {
+	monarch = {
+		name = "Weayaya"
+		birth_date = 3016.1.23
+		dynasty = "Nawkawid"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = cruel_personality
+}
+3041.5.16 = {
+	heir = {
+		name = "Chumani"
+		monarch_name = "Chumani"
+		dynasty = "Nawkawid"
+		birth_date = 3041.5.16
+		death_date = 3121.5.16
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = just_personality
+}
+3053.1.1 {
+	capital = 2007
+	add_treasury = 6
+	add_prestige = 65
+}

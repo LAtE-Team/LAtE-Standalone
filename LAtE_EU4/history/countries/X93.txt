@@ -1,0 +1,40 @@
+# Yucatán
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = yucatec
+religion = neomayan
+clear_scripted_personalities = yes
+capital = 2634
+3017.4.2 = {
+	monarch = {
+		name = "Augustine II"
+		birth_date = 3017.2.2
+		dynasty = "Louisville"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = cruel_personality
+}
+3046.5.25 = {
+	heir = {
+		name = "Teresa Nelli"
+		monarch_name = "Teresa Nelli"
+		dynasty = "Louisville"
+		birth_date = 3046.5.25
+		death_date = 3126.5.25
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = just_personality
+}
+3053.1.1 {
+	capital = 2634
+	add_treasury = 0
+	add_prestige = 418
+}

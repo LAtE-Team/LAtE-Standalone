@@ -1,0 +1,15 @@
+government = steppe_horde
+primary_culture = mongol
+religion = tengri_pagan_reformed
+technology_group = indian
+capital = 716	# Tanna Uriankhai
+
+3011.1.1 = {
+	monarch = {
+		name = "Altan"
+		dynasty = "Gantulga"
+		dip = 1
+		adm = 2
+		mil = 5
+	}
+}

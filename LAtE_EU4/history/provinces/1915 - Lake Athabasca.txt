@@ -1,0 +1,7 @@
+# = { discovered_by = FRA }
+# = { discovered_by = ENG }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

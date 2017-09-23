@@ -1,0 +1,240 @@
+# Bajio
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 246 249 176 }
+
+
+
+
+leader_names = {
+
+	"Ané" "Daniel" "Miguel" "Aurora" "Laura" "Cecilia" "Acá" "Catalina" "Cacilda" "Ponce" 
+	"Abijí" "Diesel" "Machí" "Naquí" "Magnolia" "Nárisimi" "Africa" "Irlanda" "Pagótami" "Alejo" 
+	"Francisco" "Digna" "Marcos" "Selma" "Natalia" "Alicia" "Marimar" "Isi" "Reméncani" "Calixta" 
+	"Orellana" "Porfirio" "Andrea" "Montejo" "Pánfilo" "Magallanes" "Lope" "Perlita" "Helena" "Ninón" 
+	"Gustavito" "Amí" "Uba" "Caridad" "Eugenia" "Suré" "Rucuchúri" "Itatí" "Rodrigo" "Káwi" 
+	"Bacá" "Renato" "Marina" "Wasa" "Hernando" "Sancha" "Torécani" "Rosalinda" "Coronado" "Rica" 
+	"Florinda" "Lilia" "Teresa" "Emilia" "Asésiñ" "Muquira" "Sandoval" "Vanessa" "Rahuí" "Ariadna" 
+	"Gonzalo" "Giraldo" "Wari" "Eliza" "Sipúca" "Wenceslao" "Baltasar" "Abi" "Acénisa" "Acmu" 
+	"Ahuí" "Ahúmari" "Anahuí" "Areponápuchi" "Arí" "Arihuá" "Ariósibá" "Asári" "Atisi" "Awáscina" 
+	"Awírsiniri" "Ayásimi" "Baarí" "Bahi" "Bahíncina" "Bene" "Benérsina" "Bichihuá" "Biné" "Binori" 
+	"Biquiyá" "Biré" "Biriná" "Bitebá" "Bitechí" "Botonáma" "Buchí" "Bucurí" "Bure" "Burito" 
+	"Candameña" "Caniri" "Capi" "Capó" "Carari" "Carichí" "Carihué" "Chabé" "Chibi" "Chicúri" 
+	"Cíba" "Cota" "Cuta" "Echi" "Gamé" "Gará" "Gerérami" "Hué" "Huiyé" "Icínsima" 
+	"Isíinsia" "Iyé" "Jabu" "Jicuri" "Jórsinila" "Juri" "Kacísiniri" "Kéchicaniri" "Kobisi" "Kóci" 
+	"Korútisimi" "Kupa" "Maci" "Maparí" "Marí" "Muchari" "Muné" "Muripi" "Musena" "Naharápnima" 
+	"Nahuají" "Napari" "Napé" "Napíciu" "Narákuri" "Narcurí" "Naré" "Naríhuani" "Narúciri" "Nata" 
+	"Nira" "Noca" "Noko" "Ohi" "Omero" "Opéscanaro" "Opésciniro" "Osa" "Pakótami" "Páksinima" 
+	"Pamachi" "Paraérciniro" "Picíra" "Pura" "Químare" "Rahui" "Rajá" "Ree" "Ricibúrsiri" "Rihibánsa" 
+	"Riné" "Rokó" "Ropokókiri" "Roróoncani" "Sapársimi" "Saté" "Seba" "Seka" "Simásnura" "Sináscina" 
+	"Siwa" "Sokoruame" "Soma" "Sopori" "Soru" "Sumé" "Súrniri" "Tarí" "Teporaca" "Ticíksima" 
+	"Tonachi" "Ubáscani" "Urí" "Wikaráncane" "Wikuwáscina" "Wiri" }
+monarch_names = {
+	"Ané #0" = 1
+	"Daniel #1" = 18
+	"Miguel #0" = 1
+	"Aurora #0" = -1
+	"Laura #0" = -1
+	"Cecilia #0" = -1
+	"Acá #0" = -1
+	"Catalina #0" = -1
+	"Cacilda #0" = -1
+	"Ponce #0" = 1
+	"Abijí #0" = 1
+	"Diesel #2" = 21
+	"Machí #0" = -1
+	"Naquí #0" = 1
+	"Magnolia #0" = -1
+	"Nárisimi #0" = -1
+	"Africa #0" = -1
+	"Irlanda #0" = -1
+	"Pagótami #0" = -1
+	"Alejo #0" = 1
+	"Francisco #0" = 1
+	"Digna #0" = -1
+	"Marcos #0" = 1
+	"Selma #0" = -1
+	"Natalia #0" = -1
+	"Alicia #0" = -1
+	"Marimar #0" = -1
+	"Isi #0" = 1
+	"Reméncani #0" = -1
+	"Calixta #0" = -1
+	"Orellana #1" = -22
+	"Porfirio #0" = 1
+	"Andrea #0" = -1
+	"Montejo #0" = 1
+	"Pánfilo #0" = 1
+	"Magallanes #0" = 1
+	"Lope #0" = 1
+	"Perlita #0" = -1
+	"Helena #0" = -1
+	"Ninón #0" = -1
+	"Gustavito #0" = 1
+	"Amí #0" = 1
+	"Uba #0" = -1
+	"Caridad #0" = -1
+	"Eugenia #0" = -1
+	"Suré #0" = -1
+	"Rucuchúri #0" = -1
+	"Itatí #0" = -1
+	"Rodrigo #0" = 1
+	"Káwi #0" = 1
+	"Bacá #0" = -1
+	"Renato #0" = 1
+	"Marina #0" = -1
+	"Wasa #0" = -1
+	"Hernando #3" = 18
+	"Sancha #0" = -1
+	"Torécani #0" = 1
+	"Rosalinda #0" = -1
+	"Coronado #0" = 1
+	"Rica #0" = -1
+	"Florinda #0" = -1
+	"Lilia #0" = -1
+	"Teresa #0" = -1
+	"Emilia #0" = -1
+	"Asésiñ #0" = 1
+	"Muquira #0" = 1
+	"Sandoval #0" = 1
+	"Vanessa #0" = -1
+	"Rahuí #0" = -1
+	"Ariadna #0" = -1
+	"Gonzalo #0" = 1
+	"Giraldo #0" = 1
+	"Wari #0" = -1
+	"Eliza #0" = -1
+	"Sipúca #0" = -1
+	"Wenceslao #2" = 0
+	"Baltasar #2" = 0
+	"Abi #0" = 0
+	"Acénisa #0" = 0
+	"Acmu #0" = 0
+	"Ahuí #0" = 0
+	"Ahúmari #0" = 0
+	"Anahuí #0" = 0
+	"Areponápuchi #0" = 0
+	"Arí #0" = 0
+	"Arihuá #0" = 0
+	"Ariósibá #0" = 0
+	"Asári #0" = 0
+	"Atisi #0" = 0
+	"Awáscina #0" = 0
+	"Awírsiniri #0" = 0
+	"Ayásimi #0" = 0
+	"Baarí #0" = 0
+	"Bahi #0" = 0
+	"Bahíncina #0" = 0
+	"Bene #0" = 0
+	"Benérsina #0" = 0
+	"Bichihuá #0" = 0
+	"Biné #0" = 0
+	"Binori #0" = 0
+	"Biquiyá #0" = 0
+	"Biré #0" = 0
+	"Biriná #0" = 0
+	"Bitebá #0" = 0
+	"Bitechí #0" = 0
+	"Botonáma #0" = 0
+	"Buchí #0" = 0
+	"Bucurí #0" = 0
+	"Bure #0" = 0
+	"Burito #0" = 0
+	"Candameña #0" = 0
+	"Caniri #0" = 0
+	"Capi #0" = 0
+	"Capó #0" = 0
+	"Carari #0" = 0
+	"Carichí #0" = 0
+	"Carihué #0" = 0
+	"Chabé #0" = 0
+	"Chibi #0" = 0
+	"Chicúri #0" = 0
+	"Cíba #0" = 0
+	"Cota #0" = 0
+	"Cuta #0" = 0
+	"Echi #0" = 0
+	"Gamé #0" = 0
+	"Gará #0" = 0
+	"Gerérami #0" = 0
+	"Hué #0" = 0
+	"Huiyé #0" = 0
+	"Icínsima #0" = 0
+	"Isíinsia #0" = 0
+	"Iyé #0" = 0
+	"Jabu #0" = 0
+	"Jicuri #0" = 0
+	"Jórsinila #0" = 0
+	"Juri #0" = 0
+	"Kacísiniri #0" = 0
+	"Kéchicaniri #0" = 0
+	"Kobisi #0" = 0
+	"Kóci #0" = 0
+	"Korútisimi #0" = 0
+	"Kupa #0" = 0
+	"Maci #0" = 0
+	"Maparí #0" = 0
+	"Marí #0" = 0
+	"Muchari #0" = 0
+	"Muné #0" = 0
+	"Muripi #0" = 0
+	"Musena #0" = 0
+	"Naharápnima #0" = 0
+	"Nahuají #0" = 0
+	"Napari #0" = 0
+	"Napé #0" = 0
+	"Napíciu #0" = 0
+	"Narákuri #0" = 0
+	"Narcurí #0" = 0
+	"Naré #0" = 0
+	"Naríhuani #0" = 0
+	"Narúciri #0" = 0
+	"Nata #0" = 0
+	"Nira #0" = 0
+	"Noca #0" = 0
+	"Noko #0" = 0
+	"Ohi #0" = 0
+	"Omero #0" = 0
+	"Opéscanaro #0" = 0
+	"Opésciniro #0" = 0
+	"Osa #0" = 0
+	"Pakótami #0" = 0
+	"Páksinima #0" = 0
+	"Pamachi #0" = 0
+	"Paraérciniro #0" = 0
+	"Picíra #0" = 0
+	"Pura #0" = 0
+	"Químare #0" = 0
+	"Rahui #0" = 0
+	"Rajá #0" = 0
+	"Ree #0" = 0
+	"Ricibúrsiri #0" = 0
+	"Rihibánsa #0" = 0
+	"Riné #0" = 0
+	"Rokó #0" = 0
+	"Ropokókiri #0" = 0
+	"Roróoncani #0" = 0
+	"Sapársimi #0" = 0
+	"Saté #0" = 0
+	"Seba #0" = 0
+	"Seka #0" = 0
+	"Simásnura #0" = 0
+	"Sináscina #0" = 0
+	"Siwa #0" = 0
+	"Sokoruame #0" = 0
+	"Soma #0" = 0
+	"Sopori #0" = 0
+	"Soru #0" = 0
+	"Sumé #0" = 0
+	"Súrniri #0" = 0
+	"Tarí #0" = 0
+	"Teporaca #0" = 0
+	"Ticíksima #0" = 0
+	"Tonachi #0" = 0
+	"Ubáscani #0" = 0
+	"Urí #0" = 0
+	"Wikaráncane #0" = 0
+	"Wikuwáscina #0" = 0
+	"Wiri #0" = 0
+}
+

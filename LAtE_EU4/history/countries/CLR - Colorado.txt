@@ -1,0 +1,37 @@
+# Colorado
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = coloradan
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4525
+3048.7.13 = {
+	monarch = {
+		name = "Oso Ballo"
+		birth_date = 3023.11.20
+		dynasty = "Nokona"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	add_ruler_personality = babbling_buffoon_personality
+}
+3051.11.1 = {
+	heir = {
+		name = "Oso Ballo"
+		monarch_name = "Oso II Ballo"
+		dynasty = "Nokona"
+		birth_date = 3051.11.1
+		death_date = 3131.11.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+3053.1.1 {
+	capital = 4525
+	add_treasury = 8
+	add_prestige = 284
+}

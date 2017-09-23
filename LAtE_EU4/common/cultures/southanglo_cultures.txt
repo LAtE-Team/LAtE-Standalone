@@ -1,0 +1,26 @@
+south_anglo = {
+	beltway = {
+		primary = WDC
+		dynasty_names = { }
+	}
+	southron = {
+		dynasty_names = { "Littlepage" "Hairston" "Gwynn" "Lomax" "Gousset" "Spratt" "Macon" "Tazewell" "Burgonet" "Skipwith" "Craney" "Eldridge" "Mahone" "Commodore" "Barbour" "Lomax" "Faulcon" "Dentsville" "Ruffin" "Faulcon" "Pridemore" "Trenton" "Aristley" "Dandridge" "Kearsarge" "Commodore" "Hairston" "Coriaceus" "Pixane" "Pridemore" "Graves" "Bulkeley" "Royall" "Echols" "Manhattan" "Manhattan" "Irondale" "Horntown" "Fort Sumter" "Faulcon" "Ibelin" "Graves" "Ravenel" "Baltimore" "Leftwich" "Graves" "Williamsburg" "Kearsarge" "Cherry Hill" "Philadelphia" "Mableton" "Angelos" "Houma" "Bethesda" "Butler" "Langley" "Burlington" "Hudson" "Kingston" "Black Mountain" "Rensselaer" "Poughkeepsie" "Wappingers Falls" "St. Francisville" "Aristley" "Craney" "Bannister" "Bannister" "Farragut" "Faulcon" "Commodore" "Littlepage" }
+	}
+	dixie = {
+		dynasty_names = { "Hammond" "Dunwoody" "Candler" "Hillyer" "Lowe" "Chesnut" "Longroad" "McGillin" "Pember" "LaPlace" "Crayclaw" "Altavista" "Longroad" "Palmetto" "Morheard" "McCorkle" "Pyron" "Hicks" "Uniontown" "Kinstry" "Kinstry" "Scottsville" "Blythe" "Sasnett" "Tift" "Ridgeland" "Reamstown" "Tift" "Toombs" "McCorkle" "Garlington" "MacIntyre" "Coopwood" "Lackawanna" }
+	}
+	appalachian = {
+		primary = APP
+		dynasty_names = { "Harris" "Erlanger" "Harris" "Hart" "Leavenworth" "Greencastle" }
+	}
+	gulfard = {
+		primary = FLD
+		dynasty_names = { "Pensacolle" "Gump" "Warrenton" "Philippi" "Whitehaven" "Daphne" "Waltney" }
+	}
+	melungeon = {
+		dynasty_names = { }
+	}
+	riverlander = {
+		dynasty_names = { "Escreve" "Cambariday" "Kingdom City" "Mudcray" "O'Fallon" "Wardsville" "Florissant" "Evansville" "Frankfort" "Hermann" "Plumbum" }
+	}
+}

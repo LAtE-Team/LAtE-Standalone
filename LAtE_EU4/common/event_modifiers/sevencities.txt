@@ -1,0 +1,81 @@
+sce_search_rome = {
+	prestige = 0.25
+}
+sce_search_paris = {
+	prestige = 0.25
+}
+sce_search_amsterdam = {
+	prestige = 0.25
+}
+sce_search_amberroom = {
+	prestige = 0.25
+}
+sce_search_csstexas = {
+	prestige = 0.25
+}
+sce_search_shanghai = {
+	prestige = 0.25
+}
+sce_search_xanadu = {
+	prestige = 0.25
+}
+#sce_search_? = { Maybe an eighth?
+#	prestige = 0.25
+#}
+
+sce_many_popes = {
+	prestige = 0.5
+}
+sce_paris_ruins = {
+	prestige = 0.5
+}
+sce_amsterdam_silver = {
+	global_tax_income = 5
+}
+sce_amberroom_fragments = {
+	global_tax_income = 5
+}
+sce_csstexas_fragments = {
+	ship_durability = 0.05
+}
+sce_shanghai_abandoned = {
+	trade_efficiency = 0.05
+}
+sce_xanadu_abandoned = {
+	trade_efficiency = 0.05
+}
+#sce_? = {
+#	trade_efficiency = 0.05
+#}
+
+sce_true_pope = {
+	legitimacy = 0.5
+	devotion = 0.5
+	prestige = 0.5
+}
+sce_paris_gold = {
+	prestige = 0.5
+	global_tax_income = 10
+}
+sce_amsterdam_gold = {
+	global_tax_income = 10
+	improve_relation_modifier = 0.2
+}
+sce_amberroom_gold = {
+	prestige = 0.5
+	global_tax_income = 10
+}
+sce_csstexas_gold = {
+	global_tax_income = 10
+	ship_durability = 0.05
+}
+sce_shanghai_gold = {
+	global_trade_power = 0.1
+	trade_efficiency = 0.1
+}
+sce_xanadu_gold = {
+	global_unrest = -1
+	trade_efficiency = 0.1
+}
+#sce_? = {
+#}

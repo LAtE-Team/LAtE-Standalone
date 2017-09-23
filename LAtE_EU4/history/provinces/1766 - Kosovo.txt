@@ -1,0 +1,20 @@
+#1766 - Kosovo
+
+#owner = SER
+#controller = SER
+culture = serbian
+religion = sunni
+capital = "Pristina"
+trade_goods = gold #Novo Brdo and other Silver mines in this area
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

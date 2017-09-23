@@ -1,0 +1,27 @@
+# Chickasawhay
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2530
+3023.12.3 = {
+	monarch = {
+		name = "Lamar"
+		birth_date = 3002.4.14
+		dynasty = "Gee"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 2530
+	add_treasury = 30
+	add_prestige = 15
+	elector = no
+}

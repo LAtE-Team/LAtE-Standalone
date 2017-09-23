@@ -1,0 +1,22 @@
+culture = tsawana
+religion = mwari 
+trade_goods = ivory #Okavongo Delta 
+hre = no 
+base_tax = 1
+base_production = 6
+base_manpower = 1
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 3 
+discovered_by = central_african
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = okavongo_delta_modifier
+	duration = -1
+}
+

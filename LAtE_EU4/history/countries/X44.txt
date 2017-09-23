@@ -1,0 +1,26 @@
+# Sept-Rivières
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2577
+3033.3.7 = {
+	monarch = {
+		name = "Nioclas"
+		birth_date = 3018.10.21
+		dynasty = "Jolicure"
+		adm = 1
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2577
+	add_treasury = 16
+	add_prestige = 98
+}

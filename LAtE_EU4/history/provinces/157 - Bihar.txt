@@ -1,0 +1,22 @@
+#157 - Bihar
+
+#owner = HUN
+#controller = HUN 
+culture = romanian
+religion = hellenic_pagan
+capital = "Oradea"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= HUN
+#add_core= TRA
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

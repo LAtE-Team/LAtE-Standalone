@@ -1,0 +1,26 @@
+# Orinoquía
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = bolivariano
+religion = candomble
+clear_scripted_personalities = yes
+capital = 2810
+3042.7.10 = {
+	monarch = {
+		name = "Marcelo"
+		birth_date = 2987.1.22
+		dynasty = "de  Capanaparo"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 2810
+	add_treasury = 9
+	add_prestige = 91
+}

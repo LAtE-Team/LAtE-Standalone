@@ -1,0 +1,27 @@
+# Blue Ridge
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachian
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4651
+3032.8.11 = {
+	monarch = {
+		name = "Paulus"
+		birth_date = 2993.1.7
+		dynasty = "Oakheart"
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = pious_personality
+}
+3053.1.1 {
+	capital = 4651
+	add_treasury = 20
+	add_prestige = 229
+	elector = no
+}

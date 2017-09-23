@@ -1,0 +1,24 @@
+# - Coquimbo
+
+owner = MPC
+controller = MPC
+add_core = MPC
+
+culture = mapuche
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = animism
+capital = "Coquimbo”
+is_city = yes
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+native_size = 20
+native_ferocity = 2
+native_hostileness = 9	

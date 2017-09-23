@@ -1,0 +1,26 @@
+# Iowa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = grangelander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2513
+2993.8.15 = {
+	monarch = {
+		name = "Donald"
+		birth_date = 2988.2.27
+		dynasty = "Barley"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 2513
+	add_treasury = 45
+	add_prestige = 455
+}

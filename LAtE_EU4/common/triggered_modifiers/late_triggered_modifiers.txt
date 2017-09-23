@@ -1,0 +1,243 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+#########################################################
+# Americanist control of Washington.
+#########################################################
+americanist_washington = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4618	# Washington
+		religion = americanist
+	}
+
+	trigger = {
+		owns = 4618 # Washington
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}
+
+######################################
+# Mictlantec control of Cholula.
+######################################
+mictlantec_cholula = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 2644	# Cholula
+		religion = mictlantec
+	}
+
+	trigger = {
+		owns = 2644 # Cholula
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}
+
+######################################
+# Mayan control of Chichen Itza.
+######################################
+neomayan_chichen_itza = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 846	# Chicen Itza
+		OR = {
+			religion = neomayan
+			religion = uahomche
+		}
+	}
+
+	trigger = {
+		owns = 846  # Chicen Itza
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}
+
+
+######################################
+# Non-Catholic control of St Louis.
+######################################
+non_catholic_st_louis = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4585	# St Louis
+		NOT = { religion = catholic }
+		OR = {
+			religion_group = christian
+			religion_group = old_world
+		}
+	}
+
+	trigger = {
+		owns = 4585 # St Louis
+	}
+
+	prestige = 0.5
+	missionaries = 1
+	#icon = 9
+}
+
+
+
+######################################
+# Catholic control of St Louis.
+######################################
+catholic_st_louis = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4585	# St Louis
+		religion = catholic
+		NOT = { tag = PAP }
+	}
+
+	trigger = {	
+		NOT = { overlord_of = PAP }
+		owns_or_vassal_of = 4585 # St Louis		
+	}
+
+	papal_influence = -10
+	diplomatic_reputation = -1
+	#icon = 9
+}
+
+am_papal_subjugation = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4585	# St Louis
+		religion = catholic
+		NOT = { tag = PAP }
+	}
+
+	trigger = {	
+		overlord_of = PAP
+	}
+
+	diplomatic_reputation = -2
+	#icon = 9
+}
+
+
+######################################
+# Non-Ursuline control of Quebec City.
+######################################
+non_ursuline_quebec = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4533	# Quebec City
+		NOT = { religion = ursuline }
+		OR = {
+			religion_group = christian
+			religion_group = old_world
+		}
+	}
+
+	trigger = {
+		owns = 4533 # Quebec City
+	}
+
+	prestige = 0.5
+	missionaries = 1
+	#icon = 9
+}
+
+
+
+######################################
+# Ursuline control of Quebec City.
+######################################
+ursuline_quebec = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4533	# Quebec City
+		religion = ursuline
+		NOT = { tag = URS }
+	}
+
+	trigger = {	
+		NOT = { overlord_of = URS }
+		owns_or_vassal_of = 4533 # Quebec City	
+		NOT = { tag = QUE }
+		NOT = { tag = CAN }
+	}
+
+	papal_influence = -10
+	diplomatic_reputation = -1
+	#icon = 9
+}
+
+abbess_general_subjugation = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4533	# Quebec City
+		religion = ursuline
+		NOT = { tag = URS }
+	}
+
+	trigger = {	
+		overlord_of = URS
+		NOT = { tag = QUE }
+		NOT = { tag = CAN }
+	}
+
+	diplomatic_reputation = -2
+	#icon = 9
+}
+
+
+##################################################
+# The Evangelical Convention
+##################################################
+evangelical_mod = {
+	potential = {
+		normal_or_historical_nations = yes
+		religion = protestant
+		OR = {
+			has_discovered = 4585 	# St Louis
+			has_discovered = 931 	# Atlanta
+			has_discovered = 4645 	# Chapel Hill
+			has_discovered = 4618 	# Washington
+			has_discovered = 4563 	# Chicago
+		}
+	}
+
+	trigger = {
+		owns = 4585 	# St Louis
+		owns = 931 	# Atlanta
+		owns = 4645  # Chapel Hill
+		owns = 4618 	# Washington
+		owns = 4563 	# Chicago
+		4585 = { religion = protestant }
+		931 = { religion = protestant }
+		4645 = { religion = protestant }
+		4618 = { religion = protestant }
+		4563 = { religion = protestant }
+	}
+	
+	prestige = 0.5
+	missionaries = 1
+}
+
+######################################
+# Mormon control of Independence.
+######################################
+mormon_independence = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 902	# Missouri
+		religion = latter_day_saints
+	}
+
+	trigger = {
+		owns = 902 # Missouri
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}

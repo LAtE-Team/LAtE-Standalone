@@ -1,0 +1,25 @@
+# Camagüey
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = cubano
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 2655
+3051.12.27 = {
+	monarch = {
+		name = "Arnhim"
+		birth_date = 3009.11.27
+		dynasty = "de Mazariegos"
+		adm = 1
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 2655
+	add_treasury = 41
+	add_prestige = 174
+}

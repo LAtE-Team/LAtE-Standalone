@@ -1,0 +1,24 @@
+# - La Rioja
+
+owner = CHL
+controller = CHL
+add_core = CHL
+culture = platinean
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = candomble
+capital = "La Rioja"
+is_city = yes
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 3
+base_manpower = 1
+native_size = 20
+native_ferocity = 2
+native_hostileness = 9	
+

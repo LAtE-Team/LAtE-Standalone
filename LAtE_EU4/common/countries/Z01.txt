@@ -1,0 +1,194 @@
+# Magnolia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 122 60 29 }
+
+
+
+
+leader_names = {
+
+	"Pere" "Willow" "Bernard" "Jeanne" "Madeline" "Mitchell" "Delia" "Sam" "Lucia" "David" 
+	"Alexandre" "Gabrielle" "Beryl" "Citrand" "Eduard" "Cola" "Eloise" "Malaric" "Mangifera" "Petra" 
+	"Offatt" "Antoine" "Autrane" "Girard" "Velasce" "Taylor" "Jeannette" "Leon" "Fay" "Allen" 
+	"Fern" "Grace" "Alonso" "Eulalia" "Pearl" "Oceanus" "Torreya" "Audrey" "Beulah" "Gonzalo" 
+	"Macond" "Galves" "Malhad" "Rita" "Wacissa" "Allison" "Caroline" "Roxie" "Gutierre" "Roslyn" 
+	"Aucilla" "Ponce" "Hernand" "Marianne" "Victor" "Hanna" "Georges" "Humbert" "Pina" "Sandy" 
+	"Louis" "Margarida" "Jay" "Flora" "Mathias" "Urban" "Anna" "Ashton" "Xavier" "Sander" 
+	"Hermine" "Gomer" "Javier" "Perdida" "Forrest" "Elias" "Henry" "Danielle" "Palustris" "Phil" 
+	"Debra" "Atlas" "Jackson" "Arlene" "Adam" "Abel" "Boone" "Burnie" "Bixby" "Benton" 
+	"Bruce" "Beauregard" "Burton" "Calhoun" "Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew" 
+	"Caleb" "Cain" "Clarence" "Campion" "Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" 
+	"Finn" "Fulton" "Fitch" "Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" 
+	"Josiah" "Lee" "Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan" 
+	"Mouton" "Nathaniel" "Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" 
+	"Putnam" "Preston" "Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Samuel" "Stirling" 
+	"Segar" "Sherod" "Theodore" "Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow" 
+	"Winfield" "Webb" "Wheeler" "Yadkin" }
+monarch_names = {
+	"Pere #3" = 42
+	"Willow #0" = -1
+	"Bernard #0" = 1
+	"Jeanne #0" = -1
+	"Madeline #0" = -1
+	"Mitchell #0" = 1
+	"Delia #0" = -1
+	"Sam #0" = 1
+	"Lucia #0" = -1
+	"David #0" = 1
+	"Alexandre #0" = 1
+	"Gabrielle #0" = -1
+	"Beryl #0" = -1
+	"Citrand #0" = 1
+	"Eduard #0" = 1
+	"Cola #0" = -1
+	"Eloise #0" = -1
+	"Malaric #0" = 1
+	"Mangifera #0" = -1
+	"Petra #0" = -1
+	"Offatt #0" = 1
+	"Antoine #0" = 1
+	"Autrane #0" = 1
+	"Girard #0" = 1
+	"Velasce #0" = 1
+	"Taylor #0" = 1
+	"Jeannette #0" = -1
+	"Leon #0" = 1
+	"Fay #0" = -1
+	"Allen #0" = 1
+	"Fern #0" = -1
+	"Grace #0" = -1
+	"Alonso #0" = 1
+	"Eulalia #0" = -1
+	"Pearl #0" = -1
+	"Oceanus #0" = 1
+	"Torreya #0" = -1
+	"Audrey #0" = -1
+	"Beulah #0" = -1
+	"Gonzalo #0" = 1
+	"Macond #1" = 18
+	"Galves #0" = 1
+	"Malhad #0" = 1
+	"Rita #0" = -1
+	"Wacissa #0" = -1
+	"Allison #0" = -1
+	"Caroline #0" = -1
+	"Roxie #0" = -1
+	"Gutierre #0" = 1
+	"Roslyn #0" = -1
+	"Aucilla #0" = -1
+	"Ponce #0" = 1
+	"Hernand #0" = 1
+	"Marianne #1" = -19
+	"Victor #0" = 1
+	"Hanna #0" = -1
+	"Georges #0" = 1
+	"Humbert #2" = 18
+	"Pina #0" = -1
+	"Sandy #0" = -1
+	"Louis #0" = 1
+	"Margarida #0" = -1
+	"Jay #0" = 1
+	"Flora #0" = -1
+	"Mathias #0" = 1
+	"Urban #0" = 1
+	"Anna #0" = -1
+	"Ashton #0" = 1
+	"Xavier #0" = 1
+	"Sander #0" = 1
+	"Hermine #0" = -1
+	"Gomer #0" = 1
+	"Javier #0" = 1
+	"Perdida #0" = -1
+	"Forrest #1" = 18
+	"Elias #0" = 1
+	"Henry #0" = 1
+	"Danielle #0" = -1
+	"Palustris #1" = 18
+	"Phil #0" = 1
+	"Debra #0" = -1
+	"Atlas #1" = 0
+	"Jackson #1" = 0
+	"Arlene #1" = -1
+	"Adam #0" = 0
+	"Abel #0" = 0
+	"Boone #0" = 0
+	"Burnie #0" = 0
+	"Bixby #0" = 0
+	"Benton #0" = 0
+	"Bruce #0" = 0
+	"Beauregard #0" = 0
+	"Burton #0" = 0
+	"Calhoun #0" = 0
+	"Clifton #0" = 0
+	"Clyde #0" = 0
+	"Claude #0" = 0
+	"Collier #0" = 0
+	"Cowin #0" = 0
+	"Curlew #0" = 0
+	"Caleb #0" = 0
+	"Cain #0" = 0
+	"Clarence #0" = 0
+	"Campion #0" = 0
+	"Clemens #0" = 0
+	"Curtis #0" = 0
+	"Dodge #0" = 0
+	"Eolus #0" = 0
+	"Ellis #0" = 0
+	"Earl #0" = 0
+	"Finn #0" = 0
+	"Fulton #0" = 0
+	"Fitch #0" = 0
+	"Gregor #0" = 0
+	"Hannibal #0" = 0
+	"Hank #0" = 0
+	"Horace #0" = 0
+	"Hull #0" = 0
+	"Jake #0" = 0
+	"Jim #0" = 0
+	"Josiah #0" = 0
+	"Lee #0" = 0
+	"Lorton #0" = 0
+	"Langhorne #0" = 0
+	"Laurel #0" = 0
+	"Mark #0" = 0
+	"Micaiah #0" = 0
+	"Marshall #0" = 0
+	"Morris #0" = 0
+	"Morgan #0" = 0
+	"Mouton #0" = 0
+	"Nathaniel #0" = 0
+	"Napoleon #0" = 0
+	"Nereus #0" = 0
+	"Niphon #0" = 0
+	"Orion #0" = 0
+	"Porter #0" = 0
+	"Pleasant #0" = 0
+	"Perry #0" = 0
+	"Patrick #0" = 0
+	"Putnam #0" = 0
+	"Preston #0" = 0
+	"Quintin #0" = 0
+	"Ross #0" = 0
+	"Sid #0" = 0
+	"Squire #0" = 0
+	"Simon #0" = 0
+	"Sampson #0" = 0
+	"Samuel #0" = 0
+	"Stirling #0" = 0
+	"Segar #0" = 0
+	"Sherod #0" = 0
+	"Theodore #0" = 0
+	"Twain #0" = 0
+	"Tom #0" = 0
+	"Trigg #0" = 0
+	"Todd #0" = 0
+	"Vick #0" = 0
+	"William #0" = 0
+	"Winslow #0" = 0
+	"Winfield #0" = 0
+	"Webb #0" = 0
+	"Wheeler #0" = 0
+	"Yadkin #0" = 0
+}
+

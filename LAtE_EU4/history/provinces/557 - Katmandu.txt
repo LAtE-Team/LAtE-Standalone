@@ -1,0 +1,24 @@
+#557 - Katmandu
+
+owner = NPL
+controller = NPL
+culture = nepali
+religion = hinduism
+capital = "Kathmandu"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core= NPL
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,26 @@
+# Georgetown
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = guyanese
+religion = candomble
+clear_scripted_personalities = yes
+capital = 743
+3021.2.21 = {
+	monarch = {
+		name = "Tristão"
+		birth_date = 2982.10.11
+		dynasty = "of  Georgetown"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = entrepreneur_personality
+}
+3053.1.1 {
+	capital = 743
+	add_treasury = 558
+	add_prestige = 198
+}

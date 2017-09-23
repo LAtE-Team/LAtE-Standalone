@@ -1,0 +1,28 @@
+# Sowega
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4670
+3036.3.20 = {
+	monarch = {
+		name = "May"
+		birth_date = 3005.1.27
+		dynasty = "Dandridge"
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = naive_personality
+}
+3053.1.1 {
+	capital = 4670
+	add_treasury = 45
+	add_prestige = 55
+	elector = no
+}

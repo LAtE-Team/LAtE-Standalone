@@ -1,0 +1,7 @@
+government = shogunate
+government_rank = 2
+primary_culture = edokko
+religion = shinto
+technology_group = chinese
+capital = 1020	# Kyoto
+

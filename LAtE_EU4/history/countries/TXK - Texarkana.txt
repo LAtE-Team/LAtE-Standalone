@@ -1,0 +1,26 @@
+# Arklatex
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = texan
+religion = neoroman
+clear_scripted_personalities = yes
+capital = 2014
+3036.11.21 = {
+	monarch = {
+		name = "Poah'pah-choko II"
+		birth_date = 3017.9.27
+		dynasty = "Nokona"
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2014
+	add_treasury = 68
+	add_prestige = 414
+}

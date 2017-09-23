@@ -1,0 +1,36 @@
+# Lacandón
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 842
+3053.1.1 {
+	monarch = {
+		name = "Vere"
+		birth_date = 3010.8.1
+		dynasty = "Ince"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+	heir = {
+		name = "Forbes"
+		monarch_name = "Forbes"
+		dynasty = "Ince"
+		birth_date = 3027.11.25
+		death_date = 3107.11.25
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	add_heir_personality = strict_personality
+}
+3053.1.1 {
+	capital = 842
+	add_treasury = 4
+	add_prestige = 165
+}

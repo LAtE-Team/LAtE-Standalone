@@ -1,0 +1,23 @@
+#2374 - Kauthara
+
+owner = DAI
+controller = DAI
+culture = cham
+religion = mahayana
+capital = "Kauthara"
+trade_goods = tea
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+add_core= DAI
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

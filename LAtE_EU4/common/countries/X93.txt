@@ -1,0 +1,545 @@
+# Yucatán
+ck2_converter_generated = yes
+graphical_culture = southamericagfx
+color = { 103 225 253 }
+
+
+
+
+leader_names = {
+
+	"Leonora Chel" "Reyna" "Amelia Iuitl" "Santiago Acat" "Noé" "Juan Saccimi" "Pérez Cabrakan" "Gaspar" "Etznab" "Nacon" 
+	"Aracely Teresita" "Ramona" "Josefina" "Martha Nikaj" "María Juliza" "Esmeralda" "Maria" "Teresa Nelli" "Augustine" "Urraca Chel" 
+	"Araceli Kalajuun" "Jacawitz" "Yamanik" "Rosa Inka" "Tabscoob" "Humberto" "Sophia Tlalli" "Reyna Maria" "Xochitl" "Santiago Cuellar" 
+	"Laura Kisa" "Alma" "Gabriel Luis" "Alberto Mam" "Mecatl" "Cabrakan" "Miguel Tohil" "Ángel Yaluk" "Chloe Nelli" "Gustavo" 
+	"Rosalina" "Chuen" "Eve Yatzil" "Carla Chalchiuhtlicue" "Chaac" "Jaime" "Vanessa" "Ihuicatl" "Teresita Carmen" "Nimah" 
+	"Ana" "Jesús Manik" "Meztli" "Cauac" "Chayito Mse" "Lina Ileana" "Vanessa Avilix" "Laura Aurore" "Eleuia" "Ignacio Qaholom" 
+	"Fermín" "Ixtel" "Tonalnan" "Araceli" "Muñíz" "María Ichika" "Zotz" "Teófilo Jacawitz" "Antonio Kooj" "Angelo" 
+	"Gabriel Hozanek" "Mbaz" "Julia Zeltzin" "Teyacapan" "Damaris Dolores" "Huehuetlotl" "Maritza" "Rosa" "Valeria Ihuicatl" "Carmen Sacnite" 
+	"Florinda Nenetl" "Eliseo" "Elena Kalajuun" "Yaotl" "Kaina" "Ambrosio Kabil" "Blanca Anel" "Juan José" "Laura" "Maryam" 
+	"Heraclio" "Gabriela Kalucha" "María Mecatl" "Xquic" "Maryam Ixchel" "Napuc" "Jorge Hobnil" "Valeria Aurore" "Martha Yatzil" "Cristián Montejo" 
+	"Leonora Ana" "Delfina Rigoberta" "Emetaly" "Leonora Xmucane" "Gabriela Zyanya" "Isabel Xquic" "Socorro Citlamina" "Susana" "Jesús" "Orozco Bitol" 
+	"Inka" "Julio" "Cacoch" "Juan Chaac" "Genaro Camazotz" "Augustine Cualli" "Mario Gukumatz" "Alonzo" "Ixtli" "Pascual" 
+	"Israel Soberón" "Wayaan" "Yax Cocay Mut" "Heraclio Ichik" "Abraham Eliseo" "Abraham Nuracan" "Abraham Xul" "Alberto Acat" "Alberto Cakulha" "Alberto Hosanek" 
+	"Alberto Wayaan" "Alejandro Ahmakiq" "Alejandro Cantzicnal" "Alejandro Hozanek" "Alfredo Chaac" "Alfredo Nuracan" "Alfredo Tecú" "Alonzo Cozaana" "Alonzo Itzamna" "Ambrosio Sotz" 
+	"Ángel Angél" "Ángel Etznab" "Angelo Acantuns" "Angelo Xpiayoc" "Antonio Chicilkin" "Antonio Saccimi" "Armando Cabrakan" "Armando Crescenio" "Augustine Ikan" "Augustine Muyal" 
+	"Aurelio Cacoch" "Aurelio Camazotz" "Blanco Nohochacyum" "Blanco Xipil" "Carlos Ahua" "Carlos Caban" "Carlos Huehuetlotl" "Cristián Marcos" "Cristián Nacon" "Daniel Maximon" 
+	"Daniel Yochi" "Diódoro Alom" "Diódoro Harakan" "Diódoro Juan" "Emilio Cib" "Emilio Huracan" "Emilio Namox" "Enrique Bahlam" "Enrique Muluc" "Enrique Tohil" 
+	"Estuardo Acan" "Estuardo Bahlam" "Fausto Balam" "Fausto Gaspar" "Fausto Votan" "Federico Jasaw" "Federico Manzanero" "Fermín Apoxpalon" "Fermín Ixbalanque" "Gabriel Ajtzak" 
+	"García Bydo" "García Cantzicnal" "García Ixbalanque" "Genaro Cauac" "Genaro Cozaana" "Greer Carlos" "Greer Jacawitz" "Guillermo Iktan" "Guillermo Kukucan" "Guillermo Ndan" 
+	"Gustavo Huracan" "Gustavo Kabil" "Gustavo Luis" "Héctor Ahua" "Héctor Coyopa" "Héctor Waaw" "Heraclio Yaluk" "Heraclio Yochi" "Herminio Iztali" "Herminio Vatanchu" 
+	"Horacio Caban" "Horacio Soberón" "Horacio Tepeu" "Ignacio Andrés" "Ignacio Bernal" "Inkyo Chicchan" "Inkyo Chuen" "Inkyo Napuc" "Isidro Bitol" "Isidro Grijalva" 
+	"Isidro Hobnil" "Isidro Muyal" "Isidro Ometecuhtli" "Isidro Pacal" "Israel Men" "Jacinto Chuen" "Jacinto Ndan" "Jacinto Vatanchu" "Jahir Cabracan" "Jahir Ichik" 
+	"Jahir Montejo" "Jaime Chicahua" "Jaime Ikal" "Jaime Necahual" "Jesús Alom" "Jesús Ometecuhtli" "Jesús Votan" "Jesús Wayaan" "Jesús Xaman" "Jorge Zyanya" 
+	"José Kish" "José Malah" "Juan Marcos" "Juan Nohochacyum" "Julio Aníbal" "Julio Chiccan" "Lalo Kukulkan" "Lalo Zipacna" "Lamberto Crescencio" "Lamberto Etznab" 
+	"Lamberto Kish" "López Akbal" "López Chin" "Luis Balam" "Luis Chocano" "Manuel Hilario" "Manuel Tepeu" "Manuel Yaotl" "Marcos Chicahua" "Marcos Kisin" 
+	"Mario Ahmakiq" "Mario Chipahua" "Mario Cuellar" "Mario Muluc" "Miguel Chicilkin" "Miguel Eliseo" "Miguel Necahual" "Miguel Polo" "Miguel Teyacapan" "Muñíz Armando" 
+	"Muñíz Gucumatz" "Muñíz Marcial" "Nacho Lamat" "Nacho Paxbolonacha" "Noé Bolontiku" "Noé Gucumatz" "Octaviano Eztli" "Octaviano Jacinto" "Orozco Atl" "Pascual Ikan" 
+	"Pascual Ramiro" "Pascual Tabscoob" "Pérez Andrés" "Pérez Hosanek" "Plácido Bernal" "Plácido Kukulkan" "Plácido Pacal" "Rafael Bacabs" "Rafael Gaspar" "Rafael Tecú" 
+	"Ramón Ajbit" "Ramón Ramiro" "Raúl Armando" "Raúl Iktan" "Raúl Paxbolonacha" "Reyes Akbit" "Reyes Ixpiyacoc" "Roman Coyopa" "Roman Manzanero" "Roman Vucub" 
+	"Salvador Chicchan" "Salvador Itzamnaaj" "Salvador Manik" "Sebastián Papan" "Sebastián Xaman" "Serafín Bydo" "Serafín Ikal" "Serafín Izel" "Silvestre Humberto" "Silvestre Namox" 
+	"Silvestre Tabscoob" "Teófilo Akbit" "Teófilo Juan" "Tomas Cauac" "Tomas Itzamatul" "Tomas Marcial" "Víctor Aníbal" "Víctor Vucub" "Víctor Zotz" "Yosgart Chin" 
+	"Yosgart Crescencio" "Yosgart Yaotl" "Acan" "Acantuns" "Acat" "Ahmakiq" "Ahua" "Ajbit" "Ajtzak" "Akbal" 
+	"Akbit" "Alberto" "Alejandro" "Alfredo" "Alom" "Ambrosio" "Andrés" "Angél" "Ángel" "Aníbal" 
+	"Antonio" "Apoxpalon" "Armando" "Atl" "Aurelio" "Bacabs" "Bahlam" "Balam" "Bernal" "Bitol" 
+	"Blanco" "Bolontiku" "Bydo" "Caban" "Cabracan" "Cakulha" "Camazotz" "Cantzicnal" "Carlos" "Chicahua" 
+	"Chiccan" "Chicchan" "Chicilkin" "Chin" "Chipahua" "Chocano" "Cib" "Coyopa" "Cozaana" "Crescencio" 
+	"Crescenio" "Cristián" "Cualli" "Cuellar" "Daniel" "Diódoro" "Emilio" "Enrique" "Estuardo" "Eztli" 
+	"Fausto" "Federico" "Gabriel" "García" "Genaro" "Greer" "Grijalva" "Gucumatz" "Guillermo" "Gukumatz" 
+	"Harakan" "Héctor" "Herminio" "Hilario" "Hobnil" "Horacio" "Hosanek" "Hozanek" "Huracan" "Ichik" 
+	"Ignacio" "Ikal" "Ikan" "Iktan" "Inkyo" "Isidro" "Itzamatul" "Itzamna" "Itzamnaaj" "Ixbalanque" 
+	"Ixpiyacoc" "Izel" "Iztali" "Jacinto" "Jahir" "Jasaw" "Jorge" "José" "Juan" "Kabil" 
+	"Kish" "Kisin" "Kooj" "Kukucan" "Kukulkan" "Lalo" "Lamat" "Lamberto" "López" "Luis" 
+	"Malah" "Mam" "Manik" "Manuel" "Manzanero" "Marcial" "Marcos" "Mario" "Maximon" "Men" 
+	"Miguel" "Montejo" "Muluc" "Muyal" "Nacho" "Namox" "Ndan" "Necahual" "Nohochacyum" "Nuracan" 
+	"Octaviano" "Ometecuhtli" "Orozco" "Pacal" "Papan" "Paxbolonacha" "Pérez" "Plácido" "Polo" "Qaholom" 
+	"Rafael" "Ramiro" "Ramón" "Raúl" "Reyes" "Roman" "Saccimi" "Salvador" "Santiago" "Sebastián" 
+	"Serafín" "Silvestre" "Soberón" "Sotz" "Tecú" "Teófilo" "Tepeu" "Tohil" "Tomas" "Vatanchu" 
+	"Víctor" "Votan" "Vucub" "Waaw" "Xaman" "Xipil" "Xpiayoc" "Xul" "Yaluk" "Yochi" 
+	"Yosgart" "Zipacna" "Zyanya" }
+monarch_names = {
+	"Leonora Chel #0" = -1
+	"Reyna #0" = -1
+	"Amelia Iuitl #0" = -1
+	"Santiago Acat #0" = 1
+	"Noé #0" = 1
+	"Juan Saccimi #0" = 1
+	"Pérez Cabrakan #0" = 1
+	"Gaspar #0" = 1
+	"Etznab #0" = 1
+	"Nacon #0" = 1
+	"Aracely Teresita #0" = -1
+	"Ramona #0" = -1
+	"Josefina #0" = -1
+	"Martha Nikaj #0" = -1
+	"María Juliza #0" = -1
+	"Esmeralda #0" = -1
+	"Maria #0" = -1
+	"Teresa Nelli #0" = -1
+	"Augustine #1" = 21
+	"Urraca Chel #0" = -1
+	"Araceli Kalajuun #0" = -1
+	"Jacawitz #0" = 1
+	"Yamanik #0" = -1
+	"Rosa Inka #0" = -1
+	"Tabscoob #0" = 1
+	"Humberto #0" = 1
+	"Sophia Tlalli #0" = -1
+	"Reyna Maria #0" = -1
+	"Xochitl #0" = -1
+	"Santiago Cuellar #0" = 1
+	"Laura Kisa #0" = -1
+	"Alma #0" = -1
+	"Gabriel Luis #0" = 1
+	"Alberto Mam #1" = 18
+	"Mecatl #0" = -1
+	"Cabrakan #1" = 27
+	"Miguel Tohil #1" = 18
+	"Ángel Yaluk #0" = 1
+	"Chloe Nelli #0" = -1
+	"Gustavo #0" = 1
+	"Rosalina #0" = -1
+	"Chuen #0" = 1
+	"Eve Yatzil #0" = -1
+	"Carla Chalchiuhtlicue #0" = -1
+	"Chaac #1" = 18
+	"Jaime #0" = 1
+	"Vanessa #0" = -1
+	"Ihuicatl #0" = -1
+	"Teresita Carmen #0" = -1
+	"Nimah #0" = -1
+	"Ana #0" = -1
+	"Jesús Manik #2" = 21
+	"Meztli #0" = -1
+	"Cauac #1" = 18
+	"Chayito Mse #0" = -1
+	"Lina Ileana #0" = -1
+	"Vanessa Avilix #0" = -1
+	"Laura Aurore #0" = -1
+	"Eleuia #0" = -1
+	"Ignacio Qaholom #0" = 1
+	"Fermín #0" = 1
+	"Ixtel #0" = -1
+	"Tonalnan #0" = -1
+	"Araceli #0" = -1
+	"Muñíz #0" = 1
+	"María Ichika #0" = -1
+	"Zotz #0" = 1
+	"Teófilo Jacawitz #2" = 21
+	"Antonio Kooj #2" = 21
+	"Angelo #0" = 1
+	"Gabriel Hozanek #0" = 1
+	"Mbaz #0" = -1
+	"Julia Zeltzin #0" = -1
+	"Teyacapan #0" = 1
+	"Damaris Dolores #0" = -1
+	"Huehuetlotl #0" = 1
+	"Maritza #0" = -1
+	"Rosa #0" = -1
+	"Valeria Ihuicatl #0" = -1
+	"Carmen Sacnite #0" = -1
+	"Florinda Nenetl #0" = -1
+	"Eliseo #0" = 1
+	"Elena Kalajuun #0" = -1
+	"Yaotl #0" = 1
+	"Kaina #0" = -1
+	"Ambrosio Kabil #0" = 1
+	"Blanca Anel #0" = -1
+	"Juan José #0" = 1
+	"Laura #0" = -1
+	"Maryam #0" = -1
+	"Heraclio #0" = 1
+	"Gabriela Kalucha #0" = -1
+	"María Mecatl #0" = -1
+	"Xquic #0" = -1
+	"Maryam Ixchel #0" = -1
+	"Napuc #0" = 1
+	"Jorge Hobnil #1" = 21
+	"Valeria Aurore #0" = -1
+	"Martha Yatzil #0" = -1
+	"Cristián Montejo #0" = 1
+	"Leonora Ana #0" = -1
+	"Delfina Rigoberta #0" = -1
+	"Emetaly #0" = -1
+	"Leonora Xmucane #0" = -1
+	"Gabriela Zyanya #0" = -1
+	"Isabel Xquic #0" = -1
+	"Socorro Citlamina #0" = -1
+	"Susana #0" = -1
+	"Jesús #1" = 18
+	"Orozco Bitol #0" = 1
+	"Inka #1" = -19
+	"Julio #0" = 1
+	"Cacoch #0" = 1
+	"Juan Chaac #0" = 1
+	"Genaro Camazotz #0" = 1
+	"Augustine Cualli #1" = 18
+	"Mario Gukumatz #0" = 1
+	"Alonzo #0" = 1
+	"Ixtli #0" = -1
+	"Pascual #2" = 0
+	"Israel Soberón #1" = 0
+	"Wayaan #1" = 0
+	"Yax Cocay Mut #1" = 0
+	"Heraclio Ichik #1" = 0
+	"Abraham Eliseo #0" = 0
+	"Abraham Nuracan #0" = 0
+	"Abraham Xul #0" = 0
+	"Alberto Acat #0" = 0
+	"Alberto Cakulha #0" = 0
+	"Alberto Hosanek #0" = 0
+	"Alberto Wayaan #0" = 0
+	"Alejandro Ahmakiq #0" = 0
+	"Alejandro Cantzicnal #0" = 0
+	"Alejandro Hozanek #0" = 0
+	"Alfredo Chaac #0" = 0
+	"Alfredo Nuracan #0" = 0
+	"Alfredo Tecú #0" = 0
+	"Alonzo Cozaana #0" = 0
+	"Alonzo Itzamna #0" = 0
+	"Ambrosio Sotz #0" = 0
+	"Ángel Angél #0" = 0
+	"Ángel Etznab #0" = 0
+	"Angelo Acantuns #0" = 0
+	"Angelo Xpiayoc #0" = 0
+	"Antonio Chicilkin #0" = 0
+	"Antonio Saccimi #0" = 0
+	"Armando Cabrakan #0" = 0
+	"Armando Crescenio #0" = 0
+	"Augustine Ikan #0" = 0
+	"Augustine Muyal #0" = 0
+	"Aurelio Cacoch #0" = 0
+	"Aurelio Camazotz #0" = 0
+	"Blanco Nohochacyum #0" = 0
+	"Blanco Xipil #0" = 0
+	"Carlos Ahua #0" = 0
+	"Carlos Caban #0" = 0
+	"Carlos Huehuetlotl #0" = 0
+	"Cristián Marcos #0" = 0
+	"Cristián Nacon #0" = 0
+	"Daniel Maximon #0" = 0
+	"Daniel Yochi #0" = 0
+	"Diódoro Alom #0" = 0
+	"Diódoro Harakan #0" = 0
+	"Diódoro Juan #0" = 0
+	"Emilio Cib #0" = 0
+	"Emilio Huracan #0" = 0
+	"Emilio Namox #0" = 0
+	"Enrique Bahlam #0" = 0
+	"Enrique Muluc #0" = 0
+	"Enrique Tohil #0" = 0
+	"Estuardo Acan #0" = 0
+	"Estuardo Bahlam #0" = 0
+	"Fausto Balam #0" = 0
+	"Fausto Gaspar #0" = 0
+	"Fausto Votan #0" = 0
+	"Federico Jasaw #0" = 0
+	"Federico Manzanero #0" = 0
+	"Fermín Apoxpalon #0" = 0
+	"Fermín Ixbalanque #0" = 0
+	"Gabriel Ajtzak #0" = 0
+	"García Bydo #0" = 0
+	"García Cantzicnal #0" = 0
+	"García Ixbalanque #0" = 0
+	"Genaro Cauac #0" = 0
+	"Genaro Cozaana #0" = 0
+	"Greer Carlos #0" = 0
+	"Greer Jacawitz #0" = 0
+	"Guillermo Iktan #0" = 0
+	"Guillermo Kukucan #0" = 0
+	"Guillermo Ndan #0" = 0
+	"Gustavo Huracan #0" = 0
+	"Gustavo Kabil #0" = 0
+	"Gustavo Luis #0" = 0
+	"Héctor Ahua #0" = 0
+	"Héctor Coyopa #0" = 0
+	"Héctor Waaw #0" = 0
+	"Heraclio Yaluk #0" = 0
+	"Heraclio Yochi #0" = 0
+	"Herminio Iztali #0" = 0
+	"Herminio Vatanchu #0" = 0
+	"Horacio Caban #0" = 0
+	"Horacio Soberón #0" = 0
+	"Horacio Tepeu #0" = 0
+	"Ignacio Andrés #0" = 0
+	"Ignacio Bernal #0" = 0
+	"Inkyo Chicchan #0" = 0
+	"Inkyo Chuen #0" = 0
+	"Inkyo Napuc #0" = 0
+	"Isidro Bitol #0" = 0
+	"Isidro Grijalva #0" = 0
+	"Isidro Hobnil #0" = 0
+	"Isidro Muyal #0" = 0
+	"Isidro Ometecuhtli #0" = 0
+	"Isidro Pacal #0" = 0
+	"Israel Men #0" = 0
+	"Jacinto Chuen #0" = 0
+	"Jacinto Ndan #0" = 0
+	"Jacinto Vatanchu #0" = 0
+	"Jahir Cabracan #0" = 0
+	"Jahir Ichik #0" = 0
+	"Jahir Montejo #0" = 0
+	"Jaime Chicahua #0" = 0
+	"Jaime Ikal #0" = 0
+	"Jaime Necahual #0" = 0
+	"Jesús Alom #0" = 0
+	"Jesús Ometecuhtli #0" = 0
+	"Jesús Votan #0" = 0
+	"Jesús Wayaan #0" = 0
+	"Jesús Xaman #0" = 0
+	"Jorge Zyanya #0" = 0
+	"José Kish #0" = 0
+	"José Malah #0" = 0
+	"Juan Marcos #0" = 0
+	"Juan Nohochacyum #0" = 0
+	"Julio Aníbal #0" = 0
+	"Julio Chiccan #0" = 0
+	"Lalo Kukulkan #0" = 0
+	"Lalo Zipacna #0" = 0
+	"Lamberto Crescencio #0" = 0
+	"Lamberto Etznab #0" = 0
+	"Lamberto Kish #0" = 0
+	"López Akbal #0" = 0
+	"López Chin #0" = 0
+	"Luis Balam #0" = 0
+	"Luis Chocano #0" = 0
+	"Manuel Hilario #0" = 0
+	"Manuel Tepeu #0" = 0
+	"Manuel Yaotl #0" = 0
+	"Marcos Chicahua #0" = 0
+	"Marcos Kisin #0" = 0
+	"Mario Ahmakiq #0" = 0
+	"Mario Chipahua #0" = 0
+	"Mario Cuellar #0" = 0
+	"Mario Muluc #0" = 0
+	"Miguel Chicilkin #0" = 0
+	"Miguel Eliseo #0" = 0
+	"Miguel Necahual #0" = 0
+	"Miguel Polo #0" = 0
+	"Miguel Teyacapan #0" = 0
+	"Muñíz Armando #0" = 0
+	"Muñíz Gucumatz #0" = 0
+	"Muñíz Marcial #0" = 0
+	"Nacho Lamat #0" = 0
+	"Nacho Paxbolonacha #0" = 0
+	"Noé Bolontiku #0" = 0
+	"Noé Gucumatz #0" = 0
+	"Octaviano Eztli #0" = 0
+	"Octaviano Jacinto #0" = 0
+	"Orozco Atl #0" = 0
+	"Pascual Ikan #0" = 0
+	"Pascual Ramiro #0" = 0
+	"Pascual Tabscoob #0" = 0
+	"Pérez Andrés #0" = 0
+	"Pérez Hosanek #0" = 0
+	"Plácido Bernal #0" = 0
+	"Plácido Kukulkan #0" = 0
+	"Plácido Pacal #0" = 0
+	"Rafael Bacabs #0" = 0
+	"Rafael Gaspar #0" = 0
+	"Rafael Tecú #0" = 0
+	"Ramón Ajbit #0" = 0
+	"Ramón Ramiro #0" = 0
+	"Raúl Armando #0" = 0
+	"Raúl Iktan #0" = 0
+	"Raúl Paxbolonacha #0" = 0
+	"Reyes Akbit #0" = 0
+	"Reyes Ixpiyacoc #0" = 0
+	"Roman Coyopa #0" = 0
+	"Roman Manzanero #0" = 0
+	"Roman Vucub #0" = 0
+	"Salvador Chicchan #0" = 0
+	"Salvador Itzamnaaj #0" = 0
+	"Salvador Manik #0" = 0
+	"Sebastián Papan #0" = 0
+	"Sebastián Xaman #0" = 0
+	"Serafín Bydo #0" = 0
+	"Serafín Ikal #0" = 0
+	"Serafín Izel #0" = 0
+	"Silvestre Humberto #0" = 0
+	"Silvestre Namox #0" = 0
+	"Silvestre Tabscoob #0" = 0
+	"Teófilo Akbit #0" = 0
+	"Teófilo Juan #0" = 0
+	"Tomas Cauac #0" = 0
+	"Tomas Itzamatul #0" = 0
+	"Tomas Marcial #0" = 0
+	"Víctor Aníbal #0" = 0
+	"Víctor Vucub #0" = 0
+	"Víctor Zotz #0" = 0
+	"Yosgart Chin #0" = 0
+	"Yosgart Crescencio #0" = 0
+	"Yosgart Yaotl #0" = 0
+	"Acan #0" = 0
+	"Acantuns #0" = 0
+	"Acat #0" = 0
+	"Ahmakiq #0" = 0
+	"Ahua #0" = 0
+	"Ajbit #0" = 0
+	"Ajtzak #0" = 0
+	"Akbal #0" = 0
+	"Akbit #0" = 0
+	"Alberto #0" = 0
+	"Alejandro #0" = 0
+	"Alfredo #0" = 0
+	"Alom #0" = 0
+	"Ambrosio #0" = 0
+	"Andrés #0" = 0
+	"Angél #0" = 0
+	"Ángel #0" = 0
+	"Aníbal #0" = 0
+	"Antonio #0" = 0
+	"Apoxpalon #0" = 0
+	"Armando #0" = 0
+	"Atl #0" = 0
+	"Aurelio #0" = 0
+	"Bacabs #0" = 0
+	"Bahlam #0" = 0
+	"Balam #0" = 0
+	"Bernal #0" = 0
+	"Bitol #0" = 0
+	"Blanco #0" = 0
+	"Bolontiku #0" = 0
+	"Bydo #0" = 0
+	"Caban #0" = 0
+	"Cabracan #0" = 0
+	"Cakulha #0" = 0
+	"Camazotz #0" = 0
+	"Cantzicnal #0" = 0
+	"Carlos #0" = 0
+	"Chicahua #0" = 0
+	"Chiccan #0" = 0
+	"Chicchan #0" = 0
+	"Chicilkin #0" = 0
+	"Chin #0" = 0
+	"Chipahua #0" = 0
+	"Chocano #0" = 0
+	"Cib #0" = 0
+	"Coyopa #0" = 0
+	"Cozaana #0" = 0
+	"Crescencio #0" = 0
+	"Crescenio #0" = 0
+	"Cristián #0" = 0
+	"Cualli #0" = 0
+	"Cuellar #0" = 0
+	"Daniel #0" = 0
+	"Diódoro #0" = 0
+	"Emilio #0" = 0
+	"Enrique #0" = 0
+	"Estuardo #0" = 0
+	"Eztli #0" = 0
+	"Fausto #0" = 0
+	"Federico #0" = 0
+	"Gabriel #0" = 0
+	"García #0" = 0
+	"Genaro #0" = 0
+	"Greer #0" = 0
+	"Grijalva #0" = 0
+	"Gucumatz #0" = 0
+	"Guillermo #0" = 0
+	"Gukumatz #0" = 0
+	"Harakan #0" = 0
+	"Héctor #0" = 0
+	"Herminio #0" = 0
+	"Hilario #0" = 0
+	"Hobnil #0" = 0
+	"Horacio #0" = 0
+	"Hosanek #0" = 0
+	"Hozanek #0" = 0
+	"Huracan #0" = 0
+	"Ichik #0" = 0
+	"Ignacio #0" = 0
+	"Ikal #0" = 0
+	"Ikan #0" = 0
+	"Iktan #0" = 0
+	"Inkyo #0" = 0
+	"Isidro #0" = 0
+	"Itzamatul #0" = 0
+	"Itzamna #0" = 0
+	"Itzamnaaj #0" = 0
+	"Ixbalanque #0" = 0
+	"Ixpiyacoc #0" = 0
+	"Izel #0" = 0
+	"Iztali #0" = 0
+	"Jacinto #0" = 0
+	"Jahir #0" = 0
+	"Jasaw #0" = 0
+	"Jorge #0" = 0
+	"José #0" = 0
+	"Juan #0" = 0
+	"Kabil #0" = 0
+	"Kish #0" = 0
+	"Kisin #0" = 0
+	"Kooj #0" = 0
+	"Kukucan #0" = 0
+	"Kukulkan #0" = 0
+	"Lalo #0" = 0
+	"Lamat #0" = 0
+	"Lamberto #0" = 0
+	"López #0" = 0
+	"Luis #0" = 0
+	"Malah #0" = 0
+	"Mam #0" = 0
+	"Manik #0" = 0
+	"Manuel #0" = 0
+	"Manzanero #0" = 0
+	"Marcial #0" = 0
+	"Marcos #0" = 0
+	"Mario #0" = 0
+	"Maximon #0" = 0
+	"Men #0" = 0
+	"Miguel #0" = 0
+	"Montejo #0" = 0
+	"Muluc #0" = 0
+	"Muyal #0" = 0
+	"Nacho #0" = 0
+	"Namox #0" = 0
+	"Ndan #0" = 0
+	"Necahual #0" = 0
+	"Nohochacyum #0" = 0
+	"Nuracan #0" = 0
+	"Octaviano #0" = 0
+	"Ometecuhtli #0" = 0
+	"Orozco #0" = 0
+	"Pacal #0" = 0
+	"Papan #0" = 0
+	"Paxbolonacha #0" = 0
+	"Pérez #0" = 0
+	"Plácido #0" = 0
+	"Polo #0" = 0
+	"Qaholom #0" = 0
+	"Rafael #0" = 0
+	"Ramiro #0" = 0
+	"Ramón #0" = 0
+	"Raúl #0" = 0
+	"Reyes #0" = 0
+	"Roman #0" = 0
+	"Saccimi #0" = 0
+	"Salvador #0" = 0
+	"Santiago #0" = 0
+	"Sebastián #0" = 0
+	"Serafín #0" = 0
+	"Silvestre #0" = 0
+	"Soberón #0" = 0
+	"Sotz #0" = 0
+	"Tecú #0" = 0
+	"Teófilo #0" = 0
+	"Tepeu #0" = 0
+	"Tohil #0" = 0
+	"Tomas #0" = 0
+	"Vatanchu #0" = 0
+	"Víctor #0" = 0
+	"Votan #0" = 0
+	"Vucub #0" = 0
+	"Waaw #0" = 0
+	"Xaman #0" = 0
+	"Xipil #0" = 0
+	"Xpiayoc #0" = 0
+	"Xul #0" = 0
+	"Yaluk #0" = 0
+	"Yochi #0" = 0
+	"Yosgart #0" = 0
+	"Zipacna #0" = 0
+	"Zyanya #0" = 0
+}
+

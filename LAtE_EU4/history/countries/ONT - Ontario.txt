@@ -1,0 +1,37 @@
+# Ontarian Empire
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ontarian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2670
+3030.9.18 = {
+	monarch = {
+		name = "By"
+		birth_date = 2995.4.25
+		dynasty = "Dysart"
+		adm = 0
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = kind_hearted_personality
+	heir = {
+		name = "Clive"
+		monarch_name = "Clive"
+		dynasty = "Dysart"
+		birth_date = 3019.12.24
+		death_date = 3099.12.24
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2670
+	add_treasury = -2
+	add_prestige = 679
+}

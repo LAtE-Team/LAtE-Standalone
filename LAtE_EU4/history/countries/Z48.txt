@@ -1,0 +1,27 @@
+# Susquehanna
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = deitsch
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2556
+3028.7.8 = {
+	monarch = {
+		name = "Garth"
+		birth_date = 3012.10.21
+		dynasty = "Tift"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 2556
+	add_treasury = 52
+	add_prestige = 124
+	elector = no
+}

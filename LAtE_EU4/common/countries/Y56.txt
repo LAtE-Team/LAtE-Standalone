@@ -1,0 +1,305 @@
+# Chisholm
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 80 92 184 }
+
+
+
+
+leader_names = {
+
+	"Yacke-pete" "Nadua" "Lenna" "Sonsee-array" "Tomo-a-tooah" "Topsannah" "Sanapia" "Coby" "Mow Way" "Ecka-peta" 
+	"Tuwikaa-tiesuat" "Mawarra" "Earl" "Wilson" "Aurora" "Truman" "Georgia" "Adah" "Goliasa" "Pollion" 
+	"Mehetabel" "Jotham" "Rebekah" "Caryn" "Lily" "Naomi" "Azor" "Jehoaddan" "Allen" "Zerub" 
+	"Sheleph" "Amber" "Byron" "Hadoram" "Della" "Vesta" "Keith" "Harlan" "Rose" "Griffin" 
+	"June" "Trinity" "Garland" "Vashti" "Lucy" "Walden" "Melchi" "Holly" "Backus" "Maddox" 
+	"Shelomit" "Winona" "Tara" "Clint" "Obal" "Holga" "Megan" "Effie" "Kitty" "Weston" 
+	"Darter" "Kim" "Wyatt" "Hoyt" "Damaris" "Elijah" "Georgie" "Ellie" "Shadrach" "Uriah" 
+	"Juniper" "Sam" "Billina" "Samuel" "Calvin" "Sarah" "Barbara" "Mupitsukupu" "Harold" "Rebecca" 
+	"Ebeneezer" "Doreen" "Flower" "Cora" "Cha-copah" "Anson" "Zebediah" "Tahayerquoip" "Yanny-va-too'ah" "Elphaba" 
+	"Ana" "Zi-yeh" "Ketumse" "Zipkiyah" "Lozen" "David" "Quanah" "Amzi" "Poechna Quahip" "Tosawi" 
+	"Satank" "Tosacowadi" "Tabbananica" "Pareiya" "Ezekiel" "Tsate" "Chaten-a-yacke" "Ado-ete" "Akachuata" "Ase-tam'my" 
+	"Ashahabbeet" "Bowahquassuh" "Bowahquasuh" "Boyahwahtoyehbe" "Boyahwahtoyehe" "Chihuahua" "Chomoparua" "Cordero" "Coro-pwoonie" "Cuchantica" 
+	"Cuerno" "Cushunarahah" "Dequan" "Ecueracapa" "Encanaguane" "Esacony" "Esahabbe" "Esakiip" "Esakwahip" "Esazat" 
+	"Eschiti" "Esharsotsiki" "Eshetaveparah" "Ettah" "Hai-nick-seu" "Hainickseu" "Hitetetsi" "Hochucah" "Hotoyokohwot" "Howeah" 
+	"Huupi-pahati" "Isa-havey" "Isa-rosa" "Isa-tai" "Isa-viah" "Ishacoly" "Ishameaqui" "Jaquan" "Jupe" "Kabahamoo" 
+	"Kahenabone" "Kaihenamourah" "Kaitiatah" "Kanahumahka" "Kanaretah" "Kawpeah" "Kewiddawippa" "Kiwatchee" "Kiyou" "Kobay-oburra" 
+	"Kobay-otoho" "Kotsoteka" "Kowa" "Kumaquai" "Kumaquoi" "Leahwiddikah" "Mamanti" "Mo'o-wai" "Mo'pe-choko-pa" "Moheka" 
+	"Monneconnahheh" "Mooraquetop" "Mope Chu-Cope" "Mopechucope" "Moseh" "Muguara" "Nacoma" "Neraquassi" "Nerraquasi" "Nobah" 
+	"Nocona" "Oh-Ma-Tai" "Ohettoint" "Okaartsu" "Oso Ballo" "Pahayoko" "Pahayuca" "Pahhauca" "Pahkah" "Pahmoowahtah" 
+	"Pahohsareya" "Pahtrisula" "Panache" "Paranuarimuco" "Parosawano" "Parra-o-coom" "Parraocoom" "Parrywahsaymer" "Paruaquipits" "Paruaquita" 
+	"Paruasemana" "Parusawano" "Pawuurasumununa" "Pearua-akup-akup" "Pecos" "Pernerney" "Peta Nocona" "Peta" "Phowetowshah" "Pisuni Napu" 
+	"Po-hebitsquash" "Poah'pah-choko" "Pochanawquoip" "Pochenaquaheip" "Pohebits-quasho" "Pohowetowshah" "Potsunakwahipu" "Povea" "Quan" "Quana" 
+	"Quanah Tseeta" "Quarahhapoe" "Queenahevah" "Queenashano" "Queilpark" "Quenah-evah" "Quenatosavit" "Sabaheit" "Sanaco" "Sargento" 
+	"Satanta" "Settemkayah" "Shabbakasha" "Soko" "Tabananika" "Tabaqueena" "Tabbaquena" "Tabby-nocca" "Tabenanikah" "Tabivo Naritgant" 
+	"Tabupuata" "Tahkna" "Takibull" "Taqquanno" "Tawaquenah" "Teh He Yah Quahip" "Tennowikah" "Tipe-konnie" "Tirhayaquahip" "To'sarre" 
+	"Tohauson" "Tonaenko" "Tosa Pokoo" "Tosacondata" "Toshapappy" "Toshaway" "Tsate Kongia" "Tsen-tainte" "Tuhuyakwahipu" "Wahtohkonk" 
+	"Warakonalta" "Wayabatosa" "Witsitony" "Wuleaboo" "Zepko-ete" }
+monarch_names = {
+	"Yacke-pete #0" = -1
+	"Nadua #0" = -1
+	"Lenna #0" = -1
+	"Sonsee-array #1" = -19
+	"Tomo-a-tooah #0" = -1
+	"Topsannah #0" = -1
+	"Sanapia #0" = -1
+	"Coby #1" = -19
+	"Mow Way #0" = 1
+	"Ecka-peta #0" = -1
+	"Tuwikaa-tiesuat #0" = 1
+	"Mawarra #0" = 1
+	"Earl #0" = 1
+	"Wilson #0" = 1
+	"Aurora #0" = -1
+	"Truman #0" = 1
+	"Georgia #0" = -1
+	"Adah #0" = -1
+	"Goliasa #0" = -1
+	"Pollion #0" = 1
+	"Mehetabel #0" = -1
+	"Jotham #0" = 1
+	"Rebekah #0" = -1
+	"Caryn #0" = -1
+	"Lily #0" = -1
+	"Naomi #0" = -1
+	"Azor #0" = 1
+	"Jehoaddan #0" = -1
+	"Allen #0" = 1
+	"Zerub #0" = 1
+	"Sheleph #0" = 1
+	"Amber #0" = -1
+	"Byron #0" = 1
+	"Hadoram #0" = 1
+	"Della #0" = -1
+	"Vesta #0" = -1
+	"Keith #0" = 1
+	"Harlan #0" = 1
+	"Rose #0" = -1
+	"Griffin #0" = 1
+	"June #0" = -1
+	"Trinity #0" = -1
+	"Garland #0" = 1
+	"Vashti #0" = -1
+	"Lucy #0" = -1
+	"Walden #0" = 1
+	"Melchi #0" = 1
+	"Holly #0" = -1
+	"Backus #0" = 1
+	"Maddox #0" = 1
+	"Shelomit #0" = -1
+	"Winona #0" = -1
+	"Tara #0" = -1
+	"Clint #0" = 1
+	"Obal #0" = 1
+	"Holga #0" = -1
+	"Megan #0" = -1
+	"Effie #0" = -1
+	"Kitty #0" = -1
+	"Weston #0" = 1
+	"Darter #0" = 1
+	"Kim #0" = -1
+	"Wyatt #0" = 1
+	"Hoyt #0" = 1
+	"Damaris #0" = -1
+	"Elijah #0" = 1
+	"Georgie #0" = -1
+	"Ellie #0" = -1
+	"Shadrach #0" = 1
+	"Uriah #0" = 1
+	"Juniper #0" = -1
+	"Sam #0" = 1
+	"Billina #0" = -1
+	"Samuel #0" = 1
+	"Calvin #0" = 1
+	"Sarah #0" = -1
+	"Barbara #0" = -1
+	"Mupitsukupu #0" = 1
+	"Harold #0" = 1
+	"Rebecca #0" = -1
+	"Ebeneezer #0" = 1
+	"Doreen #0" = -1
+	"Flower #0" = -1
+	"Cora #0" = -1
+	"Cha-copah #0" = -1
+	"Anson #0" = 1
+	"Zebediah #0" = 1
+	"Tahayerquoip #0" = 1
+	"Yanny-va-too'ah #0" = -1
+	"Elphaba #0" = -1
+	"Ana #1" = -19
+	"Zi-yeh #0" = -1
+	"Ketumse #0" = 1
+	"Zipkiyah #1" = 18
+	"Lozen #0" = -1
+	"David #0" = 1
+	"Quanah #0" = -1
+	"Amzi #1" = 0
+	"Poechna Quahip #1" = 0
+	"Tosawi #2" = 0
+	"Satank #1" = 0
+	"Tosacowadi #1" = 0
+	"Tabbananica #1" = 0
+	"Pareiya #1" = 0
+	"Ezekiel #1" = 0
+	"Tsate #1" = 0
+	"Chaten-a-yacke #1" = -1
+	"Ado-ete #0" = 0
+	"Akachuata #0" = 0
+	"Ase-tam'my #0" = 0
+	"Ashahabbeet #0" = 0
+	"Bowahquassuh #0" = 0
+	"Bowahquasuh #0" = 0
+	"Boyahwahtoyehbe #0" = 0
+	"Boyahwahtoyehe #0" = 0
+	"Chihuahua #0" = 0
+	"Chomoparua #0" = 0
+	"Cordero #0" = 0
+	"Coro-pwoonie #0" = 0
+	"Cuchantica #0" = 0
+	"Cuerno #0" = 0
+	"Cushunarahah #0" = 0
+	"Dequan #0" = 0
+	"Ecueracapa #0" = 0
+	"Encanaguane #0" = 0
+	"Esacony #0" = 0
+	"Esahabbe #0" = 0
+	"Esakiip #0" = 0
+	"Esakwahip #0" = 0
+	"Esazat #0" = 0
+	"Eschiti #0" = 0
+	"Esharsotsiki #0" = 0
+	"Eshetaveparah #0" = 0
+	"Ettah #0" = 0
+	"Hai-nick-seu #0" = 0
+	"Hainickseu #0" = 0
+	"Hitetetsi #0" = 0
+	"Hochucah #0" = 0
+	"Hotoyokohwot #0" = 0
+	"Howeah #0" = 0
+	"Huupi-pahati #0" = 0
+	"Isa-havey #0" = 0
+	"Isa-rosa #0" = 0
+	"Isa-tai #0" = 0
+	"Isa-viah #0" = 0
+	"Ishacoly #0" = 0
+	"Ishameaqui #0" = 0
+	"Jaquan #0" = 0
+	"Jupe #0" = 0
+	"Kabahamoo #0" = 0
+	"Kahenabone #0" = 0
+	"Kaihenamourah #0" = 0
+	"Kaitiatah #0" = 0
+	"Kanahumahka #0" = 0
+	"Kanaretah #0" = 0
+	"Kawpeah #0" = 0
+	"Kewiddawippa #0" = 0
+	"Kiwatchee #0" = 0
+	"Kiyou #0" = 0
+	"Kobay-oburra #0" = 0
+	"Kobay-otoho #0" = 0
+	"Kotsoteka #0" = 0
+	"Kowa #0" = 0
+	"Kumaquai #0" = 0
+	"Kumaquoi #0" = 0
+	"Leahwiddikah #0" = 0
+	"Mamanti #0" = 0
+	"Mo'o-wai #0" = 0
+	"Mo'pe-choko-pa #0" = 0
+	"Moheka #0" = 0
+	"Monneconnahheh #0" = 0
+	"Mooraquetop #0" = 0
+	"Mope Chu-Cope #0" = 0
+	"Mopechucope #0" = 0
+	"Moseh #0" = 0
+	"Muguara #0" = 0
+	"Nacoma #0" = 0
+	"Neraquassi #0" = 0
+	"Nerraquasi #0" = 0
+	"Nobah #0" = 0
+	"Nocona #0" = 0
+	"Oh-Ma-Tai #0" = 0
+	"Ohettoint #0" = 0
+	"Okaartsu #0" = 0
+	"Oso Ballo #0" = 0
+	"Pahayoko #0" = 0
+	"Pahayuca #0" = 0
+	"Pahhauca #0" = 0
+	"Pahkah #0" = 0
+	"Pahmoowahtah #0" = 0
+	"Pahohsareya #0" = 0
+	"Pahtrisula #0" = 0
+	"Panache #0" = 0
+	"Paranuarimuco #0" = 0
+	"Parosawano #0" = 0
+	"Parra-o-coom #0" = 0
+	"Parraocoom #0" = 0
+	"Parrywahsaymer #0" = 0
+	"Paruaquipits #0" = 0
+	"Paruaquita #0" = 0
+	"Paruasemana #0" = 0
+	"Parusawano #0" = 0
+	"Pawuurasumununa #0" = 0
+	"Pearua-akup-akup #0" = 0
+	"Pecos #0" = 0
+	"Pernerney #0" = 0
+	"Peta Nocona #0" = 0
+	"Peta #0" = 0
+	"Phowetowshah #0" = 0
+	"Pisuni Napu #0" = 0
+	"Po-hebitsquash #0" = 0
+	"Poah'pah-choko #0" = 0
+	"Pochanawquoip #0" = 0
+	"Pochenaquaheip #0" = 0
+	"Pohebits-quasho #0" = 0
+	"Pohowetowshah #0" = 0
+	"Potsunakwahipu #0" = 0
+	"Povea #0" = 0
+	"Quan #0" = 0
+	"Quana #0" = 0
+	"Quanah Tseeta #0" = 0
+	"Quarahhapoe #0" = 0
+	"Queenahevah #0" = 0
+	"Queenashano #0" = 0
+	"Queilpark #0" = 0
+	"Quenah-evah #0" = 0
+	"Quenatosavit #0" = 0
+	"Sabaheit #0" = 0
+	"Sanaco #0" = 0
+	"Sargento #0" = 0
+	"Satanta #0" = 0
+	"Settemkayah #0" = 0
+	"Shabbakasha #0" = 0
+	"Soko #0" = 0
+	"Tabananika #0" = 0
+	"Tabaqueena #0" = 0
+	"Tabbaquena #0" = 0
+	"Tabby-nocca #0" = 0
+	"Tabenanikah #0" = 0
+	"Tabivo Naritgant #0" = 0
+	"Tabupuata #0" = 0
+	"Tahkna #0" = 0
+	"Takibull #0" = 0
+	"Taqquanno #0" = 0
+	"Tawaquenah #0" = 0
+	"Teh He Yah Quahip #0" = 0
+	"Tennowikah #0" = 0
+	"Tipe-konnie #0" = 0
+	"Tirhayaquahip #0" = 0
+	"To'sarre #0" = 0
+	"Tohauson #0" = 0
+	"Tonaenko #0" = 0
+	"Tosa Pokoo #0" = 0
+	"Tosacondata #0" = 0
+	"Toshapappy #0" = 0
+	"Toshaway #0" = 0
+	"Tsate Kongia #0" = 0
+	"Tsen-tainte #0" = 0
+	"Tuhuyakwahipu #0" = 0
+	"Wahtohkonk #0" = 0
+	"Warakonalta #0" = 0
+	"Wayabatosa #0" = 0
+	"Witsitony #0" = 0
+	"Wuleaboo #0" = 0
+	"Zepko-ete #0" = 0
+}
+

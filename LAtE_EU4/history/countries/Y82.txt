@@ -1,0 +1,37 @@
+# Sequoyah
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = appalachia
+religion = neoroman
+clear_scripted_personalities = yes
+capital = 896
+3028.8.18 = {
+	monarch = {
+		name = "Barret"
+		birth_date = 2985.9.28
+		dynasty = "Burdell"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = benevolent_personality
+	heir = {
+		name = "Obed"
+		monarch_name = "Obed"
+		dynasty = "Burdell"
+		birth_date = 2988.6.4
+		death_date = 3068.6.4
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 896
+	add_treasury = 60
+	add_prestige = 100
+}

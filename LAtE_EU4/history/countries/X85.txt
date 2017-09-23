@@ -1,0 +1,26 @@
+# Shasta Cascade
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = cascadian
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2480
+3037.9.5 = {
+	monarch = {
+		name = "Pierson II"
+		birth_date = 2999.8.22
+		dynasty = "Honeyman"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 2480
+	add_treasury = 39
+	add_prestige = 310
+}

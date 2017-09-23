@@ -1,0 +1,25 @@
+# Crow
+government = tribal_kingdom
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2504
+3053.1.1 {
+	monarch = {
+		name = "Tony"
+		birth_date = 3014.4.18
+		dynasty = "de Rocky Mountain House"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = embezzler_personality
+}
+3053.1.1 {
+	capital = 2504
+	add_treasury = 5
+	add_prestige = 97
+}

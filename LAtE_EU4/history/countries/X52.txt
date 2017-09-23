@@ -1,0 +1,25 @@
+# Cartagena
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 828
+3045.3.1 = {
+	monarch = {
+		name = "Oscar II"
+		birth_date = 3000.4.16
+		dynasty = "Dorado García"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+	add_ruler_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 828
+	add_treasury = 60
+	add_prestige = -25
+}

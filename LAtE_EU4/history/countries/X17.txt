@@ -1,0 +1,36 @@
+# Callihoo
+government = steppe_horde
+government_rank = 2
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2501
+3053.1.1 {
+	monarch = {
+		name = "Jean"
+		birth_date = 3007.2.24
+		dynasty = "Callihoo"
+		adm = 4
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = lawgiver_personality
+	heir = {
+		name = "Ambrose"
+		monarch_name = "Ambrose"
+		dynasty = "Callihoo"
+		birth_date = 3027.9.9
+		death_date = 3107.9.9
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2501
+	add_treasury = 9
+	add_prestige = 107
+}

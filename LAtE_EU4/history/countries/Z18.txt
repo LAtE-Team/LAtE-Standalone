@@ -1,0 +1,26 @@
+# South Jersey
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = delawarean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 962
+3053.1.1 {
+	monarch = {
+		name = "Raleigh"
+		birth_date = 3030.5.8
+		dynasty = "Manhattan"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 962
+	add_treasury = 55
+	add_prestige = 48
+	elector = no
+}

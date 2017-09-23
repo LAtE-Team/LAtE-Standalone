@@ -1,0 +1,26 @@
+# Transallegheny
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachian
+religion = consumerist
+clear_scripted_personalities = yes
+capital = 951
+3024.11.19 = {
+	monarch = {
+		name = "Rainalt III"
+		birth_date = 3019.11.24
+		dynasty = "Stahlbleche"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 951
+	add_treasury = 15
+	add_prestige = 211
+}

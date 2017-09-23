@@ -1,0 +1,14 @@
+# - Rio Contas
+
+culture = brazilian
+discovered_by = south_american
+religion = candomble
+capital = "Rio de Contas"
+trade_goods = cocoa
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 7

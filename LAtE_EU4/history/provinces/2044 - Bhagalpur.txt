@@ -1,0 +1,25 @@
+#2044 - Bhagalpur
+
+owner = KMT
+controller = KMT
+culture = bengali
+religion = hinduism
+capital = "Bhagalpur"
+trade_goods = silk
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core= KMT
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

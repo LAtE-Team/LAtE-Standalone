@@ -1,0 +1,36 @@
+# Pennyrile
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = catholic
+clear_scripted_personalities = yes
+capital = 940
+3053.1.1 {
+	monarch = {
+		name = "Trigger"
+		birth_date = 3009.1.17
+		dynasty = "Hicks"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = secretive_personality
+	heir = {
+		name = "Elrod"
+		monarch_name = "Elrod"
+		dynasty = "Hicks"
+		birth_date = 3035.10.28
+		death_date = 3115.10.28
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+	add_heir_personality = pious_personality
+}
+3053.1.1 {
+	capital = 940
+	add_treasury = -20
+	add_prestige = 147
+}

@@ -1,0 +1,96 @@
+country_decisions = {
+
+	mexico_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_mexico_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = MEX }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = CAM }
+			culture_group = mexicano
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 852	# Mexico City
+			owns_core_province = 2657	# Colima
+			owns_core_province = 2615	# Guamares
+			owns_core_province = 2617	# Huichol
+			owns_core_province = 2647	# Cuetlaxtlan
+		}
+		effect = {
+			change_tag = MEX
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			mexico_region = {
+				limit = {
+					NOT = { area = texas_area }
+					NOT = { area = llano_estacado_area }
+					NOT = { area = coastal_prarie_area }
+					NOT = { area = rio_grande_area }
+					NOT = { area = northeast_mexico_area }
+					NOT = { area = durango_area }
+					NOT = { area = sonora_y_sinaloa_area }
+				}
+				add_permanent_claim = MEX
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			set_country_flag = formed_mexico_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

@@ -1,0 +1,26 @@
+# Danville
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2544
+3051.11.2 = {
+	monarch = {
+		name = "Mercury"
+		birth_date = 3015.6.10
+		dynasty = "Pridemore"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2544
+	add_treasury = 60
+	add_prestige = 75
+	elector = no
+}

@@ -1,0 +1,38 @@
+#61 - Saxony
+
+#owner = MEI
+#controller = MEI
+culture = saxon
+religion = catholic
+capital = "Meissen"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+fort_15th = yes
+#add_core= MEI
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #owner = SAX #controller = SAX #add_core= SAX remove_core = MEI capital = "Dresden" } # Incorporated into Saxony
+# = { capital = "Dresden" }
+# = { religion = protestant }
+# = { fort_15th = no fort_16th = yes } # Current structure of Festung Königstein is built
+# = { unrest = 5 } # Peasant revolt
+# = { unrest = 0 }
+# = { hre = no } # The Holy Roman Empire is dissolved
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

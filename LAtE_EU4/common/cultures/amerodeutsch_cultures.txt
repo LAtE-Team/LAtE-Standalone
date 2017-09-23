@@ -1,0 +1,21 @@
+amerodeutsch = {
+	deitsch = {
+		primary = DEI
+		dynasty_names = { }
+	}
+	rostmann = {
+		primary = GLK
+		dynasty_names = { "Steinbach" "Stahlbleche" "von Elmhurst" "Kurbeling" "Krug" "Kriegshower" "Totenson" "Glasmacher" "Krug" "Domschke" "Cass" "Dampfblast" "Oxgrill" "von La Grange" "Heim" "Ticknor" "Mechatorque" "Gretson" "von Norway" "von Hilltop" "von Trotwood" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von East Jordan" "von Mason" "von Spencerville" "von Flint" "von Chelsea" "von Sylvania" }
+	}
+	dellsman = {
+		primary = WIS
+		dynasty_names = { }
+	}
+	yooper = {
+		primary = SUP
+		dynasty_names = { "Kukla" "Tuure" "av Brimley" }
+	}
+	northlander = {
+		dynasty_names = { "Ingqvist" "Johnson" "Solon" "Wexelstone" "Manward" "Kunst" "av Green Bay" "av O'Neill" "Noquet" "Johnson" "Lundquist" "Glensheen" "Skoeglin" "Radisson" }
+	}
+}

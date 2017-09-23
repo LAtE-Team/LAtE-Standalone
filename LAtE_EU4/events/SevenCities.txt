@@ -1,0 +1,4567 @@
+########################################
+# Events for Seven Cities
+#
+# written by Sara Wendel-Örtqvist
+########################################
+
+namespace = seven_cities_events
+
+### Start: Event chains for Empty Provinces ###
+
+# Rome
+province_event = {
+	id = seven_cities_events.1
+	title = seven_cities_events.1.t
+	desc = seven_cities_events.1.d
+	picture = LAKE_TREASURE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_rome_flag
+				}
+			}
+		}
+		region = italy_region
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.1.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_country_modifier = {
+				name = sce_search_rome
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.1.b
+		FROM = {
+			set_country_flag = sce_end_rome_flag
+			add_adm_power = 50
+		}
+	}
+}
+
+# Paris
+province_event = {
+	id = seven_cities_events.2
+	title = seven_cities_events.2.t
+	desc = seven_cities_events.2.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_paris_flag
+				}
+			}
+		}
+		region = france_region
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.2.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_years_of_income = -0.25
+			add_country_modifier = {
+				name = sce_search_paris
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.2.b
+		FROM = {
+			set_country_flag = sce_end_paris_flag
+			add_adm_power = 50
+		}
+	}
+}
+
+# Amsterdam
+province_event = {
+	id = seven_cities_events.3
+	title = seven_cities_events.3.t
+	desc = seven_cities_events.3.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_amsterdam_flag
+				}
+			}
+		}
+		OR = {
+			area = weser_area
+			area = frisia_area
+			area = netherlands_area
+			area = flanders_area
+			area = picardy_area
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.3.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_country_modifier = {
+				name = sce_search_amsterdam
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.3.b
+		FROM = {
+			set_country_flag = sce_end_amsterdam_flag
+			add_prestige = 5
+		}
+	}
+}
+
+# Amber Room
+province_event = {
+	id = seven_cities_events.4
+	title = seven_cities_events.4.t
+	desc = seven_cities_events.4.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_amberroom_flag
+				}
+			}
+		}
+		OR = {
+			region = baltic_region
+			region = russia_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.4.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_years_of_income = -0.25
+			add_country_modifier = {
+				name = sce_search_amberroom
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.4.b
+		FROM = {
+			set_country_flag = sce_end_amberroom_flag
+			add_dip_power = 50
+		}
+	}
+}
+
+# CSS Texas
+province_event = {
+	id = seven_cities_events.5
+	title = seven_cities_events.5.t
+	desc = seven_cities_events.5.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_csstexas_flag
+				}
+			}
+		}
+		OR = {
+			region = niger_region
+			region = guinea_region
+			region = sahel_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.5.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_country_modifier = {
+				name = sce_search_csstexas
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.5.b
+		FROM = {
+			set_country_flag = sce_end_csstexas_flag
+			add_adm_power = 50
+		}
+	}
+}
+
+# Shanghai
+province_event = {
+	id = seven_cities_events.6
+	title = seven_cities_events.6.t
+	desc = seven_cities_events.6.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+					has_country_flag = sce_end_shanghai_flag 
+				}
+			}
+		}
+		region = south_china_region
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.6.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_country_modifier = {
+				name = sce_search_shanghai
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.6.b
+		FROM = {
+			set_country_flag = sce_end_shanghai_flag
+			add_prestige = 5
+		}
+	}
+}
+
+# Xanadu
+province_event = {
+	id = seven_cities_events.7
+	title = seven_cities_events.7.t
+	desc = seven_cities_events.7.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_flag = sce_eventchain_flag
+						has_country_flag = sce_end_xanadu_flag 
+				}
+			}
+		}
+		region = north_china_region
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		#modifier = {
+		#	factor = 2
+		#	culture_group = iroquoian
+		#}
+		
+		modifier = {
+			factor = 2.0
+			is_empty = no
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_rome
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_paris
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_amberroom
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_csstexas
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_shanghai
+		}
+		modifier = {
+			factor = 0.5
+			has_global_flag = sce_ultimate_xanadu
+		}
+		#modifier = {
+		#	factor = 0.5
+		#	has_global_flag = sce_ultimate_quivira
+		#}
+	}
+	
+	option = {
+		name = seven_cities_events.7.a
+		FROM = {
+			set_country_flag = sce_eventchain_flag
+			add_country_modifier = {
+				name = sce_search_xanadu
+				duration = -1
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.7.b
+		FROM = {
+			set_country_flag = sce_end_xanadu_flag
+			add_prestige = 5
+		}
+	}
+}
+
+# Quivira
+#province_event = {
+#	id = seven_cities_events.8
+#	title = seven_cities_events.8.t
+#	desc = seven_cities_events.8.d
+#	picture = CONQUISTADORS_eventPicture
+#
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		has_dlc = "El Dorado"
+#		FROM = {
+#			NOT = {
+#				OR = {
+#					has_country_flag = sce_eventchain_flag
+#					has_country_flag = sce_end_quivira_flag
+#				}
+#			}
+#		}
+#		OR = {
+#			region = canada_region
+#			area = james_bay_area
+#			area = inner_ontario_area
+#			area = hudson_bay_area
+#			region = northeast_america_region
+#					region = southeast_america_region
+#			any_neighbor_province = {
+#				OR = {
+#					region = canada_region
+#					area = james_bay_area
+#					area = inner_ontario_area
+#					area = hudson_bay_area
+#					region = northeast_america_region
+#					region = southeast_america_region
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#		
+#		modifier = {
+#			factor = 2
+#			culture_group = iroquoian
+#		}
+#		
+#		modifier = {
+#			factor = 2.0
+#			is_empty = no
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_rome
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_paris
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_amsterdam
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_amberroom
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_csstexas
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_shanghai
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_xanadu
+#		}
+#		modifier = {
+#			factor = 0.5
+#			has_global_flag = sce_ultimate_quivira
+#		}
+#	}
+#	
+#	option = {
+#		name = seven_cities_events.8.a
+#		FROM = {
+#			set_country_flag = sce_eventchain_flag
+#			add_country_modifier = {
+#				name = sce_search_quivira
+#				duration = -1
+#			}
+#		}
+#	}
+#	option = {
+#		name = seven_cities_events.8.b
+#		FROM = {
+#			set_country_flag = sce_end_quivira_flag
+#			add_prestige = 5
+#		}
+#	}
+#}
+
+### Action: Event chains for Empty Provinces ###
+
+# Explorer dies
+province_event = {
+	id = seven_cities_events.100
+	title = seven_cities_events.100.t
+	desc = seven_cities_events.100.d
+	picture = GUARDED_TREASURE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action01_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_action01_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				remove_country_modifier = sce_search_rome
+	 			remove_country_modifier = sce_search_paris
+	 			remove_country_modifier = sce_search_amsterdam
+	 			remove_country_modifier = sce_search_amberroom
+	 			remove_country_modifier = sce_search_csstexas
+	 			remove_country_modifier = sce_search_shanghai
+				remove_country_modifier = sce_search_xanadu
+				remove_country_modifier = sce_search_quivira
+			}
+			kill_leader = { 
+				type = conquistador
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.100.a
+	}
+}
+
+# Starvation
+province_event = {
+	id = seven_cities_events.101
+	title = seven_cities_events.101.t
+	desc = seven_cities_events.101.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes 
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action02_flag
+			}
+		}
+		has_terrain = desert
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		FROM = {
+			set_country_flag = sce_action02_flag
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.101.a
+		FROM = {
+			add_years_of_income = -0.25
+		}
+	}
+	option = {
+		name = seven_cities_events.101.b
+		FROM = {
+			add_prestige = -5
+		}
+	}
+}
+
+# Attacked by natives
+province_event = {
+	id = seven_cities_events.102
+	title = seven_cities_events.102.t
+	desc = seven_cities_events.102.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action03_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		FROM = {
+			set_country_flag = sce_action03_flag
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.102.a
+		FROM = {
+			add_dip_power = -50
+		}
+	}
+	option = {
+		name = seven_cities_events.102.b
+		FROM = {
+			add_prestige = -5
+		}
+	}
+}
+
+# A Glimmer of Hope - Landmark sighted!
+province_event = {
+	id = seven_cities_events.103
+	title = seven_cities_events.103.t
+	desc = seven_cities_events.103.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action04_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		FROM = {
+			set_country_flag = sce_action04_flag
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.103.a
+		FROM = {
+			add_years_of_income = 0.25
+		}
+	}
+}
+
+# Spirited Away
+province_event = {
+	id = seven_cities_events.104
+	title = seven_cities_events.104.t
+	desc = seven_cities_events.104.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action05_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		FROM = {
+			set_country_flag = sce_action05_flag
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.104.a
+		FROM = {
+			add_mil_power = -50
+		}
+	}
+	option = {
+		name = seven_cities_events.104.b
+		FROM = {
+			add_prestige = -5
+		}
+	}
+}
+
+# Long Pig
+province_event = {
+	id = seven_cities_events.105
+	title = seven_cities_events.105.t
+	desc = seven_cities_events.105.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		FROM = {
+			has_country_flag = sce_eventchain_flag
+			NOT = {
+				has_country_flag = sce_action05_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		FROM = {
+			set_country_flag = sce_action06_flag
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.105.a
+		FROM = {
+			add_dip_power = -100
+		}
+	}
+	option = {
+		name = seven_cities_events.105.b
+		FROM = {
+			every_neighbor_country = {
+				add_opinion = {
+					who = PREV
+					modifier = cannibal_conquistador
+				}
+				hidden_effect = {
+					country_event = {
+						id = seven_cities_events.500
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+### Finish: Event chains for Empty Provinces ###
+
+# Bad End of Rome
+province_event = {
+	id = seven_cities_events.200
+	title = seven_cities_events.200.t
+	desc = seven_cities_events.200.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = italy_region
+		FROM = {
+			has_country_modifier = sce_search_rome
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+			}
+			NOT = {
+				has_country_flag = sce_end_rome_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = sce_action01_flag
+			clr_country_flag = sce_action02_flag
+			clr_country_flag = sce_action03_flag
+			clr_country_flag = sce_action04_flag
+			clr_country_flag = sce_action05_flag
+			clr_country_flag = sce_action06_flag
+			clr_country_flag = sce_eventchain_flag
+			
+			set_country_flag = sce_end_rome_flag
+			remove_country_modifier = sce_search_rome
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.200.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_rome
+			}
+			add_prestige = -10
+		}
+	}
+}
+
+# Many Popes end of Rome
+province_event = {
+	id = seven_cities_events.201
+	title = seven_cities_events.201.t
+	desc = seven_cities_events.201.d
+	picture = RELIGIOUS_WARS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = italy_region
+		FROM = {
+			has_country_modifier = sce_search_rome
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_rome_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_rome_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				set_country_flag = sce_end_rome_flag
+				remove_country_modifier = sce_search_rome
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.201.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_rome
+			}
+			add_country_modifier = {
+				name = sce_many_popes
+				duration = 18250
+			}
+		}
+	}
+}
+
+# Ultimate End of Rome
+province_event = {
+	id = seven_cities_events.202
+	title = seven_cities_events.202.t
+	desc = seven_cities_events.202.d
+	picture = POPE_PREACHING_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		region = italy_region
+		NOT = {
+			has_global_flag = sce_ultimate_rome
+		}
+		is_empty = yes
+		FROM = {
+			has_country_modifier = sce_search_rome
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_rome_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_rome_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_rome
+			
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				set_country_flag = sce_end_rome_flag
+				remove_country_modifier = sce_search_rome
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.202.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_rome
+			}
+			add_country_modifier = {
+				name = sce_true_pope
+				duration = -1
+			}
+		}
+	}
+}
+
+# Bad End of Paris
+province_event = {
+	id = seven_cities_events.203
+	title = seven_cities_events.203.t
+	desc = seven_cities_events.203.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = france_region
+		FROM = {
+			has_country_modifier = sce_search_paris
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_paris_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_paris_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_paris
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.203.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_paris
+			}
+			add_prestige = -10
+		}
+	}
+}
+
+# Good End of Paris
+province_event = {
+	id = seven_cities_events.204
+	title = seven_cities_events.204.t
+	desc = seven_cities_events.204.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = france_region
+		FROM = {
+			has_country_modifier = sce_search_paris
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_paris_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_paris_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_paris
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.204.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_paris
+			}
+			
+			add_country_modifier = {
+				name = sce_paris_ruins
+				duration = 18250
+			}
+		}
+	}
+}
+
+# Ultimate End of Paris
+province_event = {
+	id = seven_cities_events.205
+	title = seven_cities_events.205.t
+	desc = seven_cities_events.205.d
+	picture = FOUNTAIN_OF_YOUTH_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = france_region
+		NOT = {
+			has_global_flag = sce_ultimate_paris
+		}
+		FROM = {
+			has_country_modifier = sce_search_paris
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_paris_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_paris
+				set_country_flag = sce_end_paris_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_paris
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	
+	option = {
+		name = seven_cities_events.205.a
+		FROM = {
+			add_country_modifier = {
+				name = sce_paris_gold
+				duration = -1
+			}
+			tooltip = {
+				remove_country_modifier = sce_search_paris
+			}
+		}
+	}
+}
+
+# Bad End of Amsterdam
+province_event = {
+	id = seven_cities_events.206
+	title = seven_cities_events.206.t
+	desc = seven_cities_events.206.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			area = weser_area
+			area = frisia_area
+			area = netherlands_area
+			area = flanders_area
+			area = picardy_area
+		}
+		FROM = {
+			has_country_modifier = sce_search_amsterdam
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amsterdam_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_amsterdam_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amsterdam
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.206.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amsterdam
+			}				
+			add_prestige = -10
+		}
+	}
+}
+
+# Good End of Amsterdam
+province_event = {
+	id = seven_cities_events.207
+	title = seven_cities_events.207.t
+	desc = seven_cities_events.207.d
+	picture = INCA_CITY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			area = weser_area
+			area = frisia_area
+			area = netherlands_area
+			area = flanders_area
+			area = picardy_area
+		}
+		FROM = {
+			has_country_modifier = sce_search_amsterdam
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amsterdam_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_amsterdam_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amsterdam
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.207.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amsterdam
+			}
+			
+			add_country_modifier = {
+				name = sce_amsterdam_silver
+				duration = 18250
+			}
+		}
+	}
+}
+
+# Ultimate End of Amsterdam
+province_event = {
+	id = seven_cities_events.208
+	title = seven_cities_events.208.t
+	desc = seven_cities_events.208.d
+	picture = GOLDEN_CITY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		NOT = {
+			has_global_flag = sce_ultimate_amsterdam
+		}
+		is_empty = yes
+		OR = {
+			area = weser_area
+			area = frisia_area
+			area = netherlands_area
+			area = flanders_area
+			area = picardy_area
+		}
+		FROM = {
+			has_country_modifier = sce_search_amsterdam
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amsterdam_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_amsterdam
+				set_country_flag = sce_end_amsterdam_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amsterdam
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.208.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amsterdam
+			}
+			add_country_modifier = {
+				name = sce_amsterdam_gold
+				duration = -1
+			}
+		}
+	}
+}
+
+# Bad End of Amber Room
+province_event = {
+	id = seven_cities_events.209
+	title = seven_cities_events.209.t
+	desc = seven_cities_events.209.d
+	picture = INCA_CITY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			region = baltic_region
+			region = russia_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_amberroom
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amberroom_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_amberroom_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amberroom
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.209.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amberroom
+			}
+			add_prestige = -10
+		}
+	}
+}
+
+# Good End of Amber Room
+province_event = {
+	id = seven_cities_events.210
+	title = seven_cities_events.210.t
+	desc = seven_cities_events.210.d
+	picture = INCA_CITY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			region = baltic_region
+			region = russia_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_amberroom
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amberroom_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_amberroom_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amberroom
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.210.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amberroom
+			}
+			
+			add_country_modifier = {
+				name = sce_amberroom_fragments
+				duration = 18250
+			}
+		}
+	}
+}
+
+# Ultimate End of Amber Room
+province_event = {
+	id = seven_cities_events.211
+	title = seven_cities_events.211.t
+	desc = seven_cities_events.211.d
+	picture = GOLDEN_CITY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		NOT = {
+			has_global_flag = sce_ultimate_amberroom
+		}
+		is_empty = yes
+		OR = {
+			region = baltic_region
+			region = russia_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_amberroom
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_amberroom_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_amberroom
+				set_country_flag = sce_end_amberroom_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amberroom
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.211.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_amberroom
+			}
+			
+			add_country_modifier = {
+				name = sce_amberroom_gold
+				duration = -1
+			}
+			
+		}
+	}
+}
+
+# Bad End of CSS Texas
+province_event = {
+	id = seven_cities_events.212
+	title = seven_cities_events.212.t
+	desc = seven_cities_events.212.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			region = niger_region
+			region = guinea_region
+			region = sahel_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_csstexas
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_csstexas_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_csstexas_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_csstexas
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.212.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_csstexas
+			}
+			add_prestige = -10
+			
+		}
+	}
+}
+
+# Good End of CSS Texas
+province_event = {
+	id = seven_cities_events.213
+	title = seven_cities_events.213.t
+	desc = seven_cities_events.213.d
+	picture = INCA_CITY_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			region = niger_region
+			region = guinea_region
+			region = sahel_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_csstexas
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_csstexas_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_csstexas_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_csstexas
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.213.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_csstexas
+			}
+			
+			add_country_modifier = {
+				name = sce_csstexas_fragments
+				duration = 18250
+			}
+			
+		}
+	}
+}
+
+# Ultimate End of CSS Texas
+province_event = {
+	id = seven_cities_events.214
+	title = seven_cities_events.214.t
+	desc = seven_cities_events.214.d
+	picture = SIERRA_DE_LA_PLATA_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		NOT = {
+			has_global_flag = sce_ultimate_csstexas
+		}
+		is_empty = yes
+		OR = {
+			region = niger_region
+			region = guinea_region
+			region = sahel_region
+		}
+		FROM = {
+			has_country_modifier = sce_search_csstexas
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_csstexas_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_csstexas
+				set_country_flag = sce_end_csstexas_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_csstexas
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.214.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_csstexas
+			}
+			
+			add_country_modifier = {
+				name = sce_csstexas_gold
+				duration = -1
+			}
+			
+		}
+	}
+}
+
+# Bad End of Shanghai
+province_event = {
+	id = seven_cities_events.215
+	title = seven_cities_events.215.t
+	desc = seven_cities_events.215.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = south_china_region
+		FROM = {
+			has_country_modifier = sce_search_shanghai
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_shanghai_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_shanghai_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_shanghai
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.215.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_shanghai
+			}
+			add_prestige = -10
+		}
+	}
+}
+
+# Good End of Shanghai
+province_event = {
+	id = seven_cities_events.216
+	title = seven_cities_events.216.t
+	desc = seven_cities_events.216.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = south_china_region
+		FROM = {
+			has_country_modifier = sce_search_shanghai
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_shanghai_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_shanghai_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_shanghai
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.216.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_shanghai
+			}
+			
+			add_country_modifier = {
+				name = sce_shanghai_abandoned
+				duration = 18250
+			}
+			
+		}
+	}
+}
+
+# Ultimate End of Shanghai
+province_event = {
+	id = seven_cities_events.217
+	title = seven_cities_events.217.t
+	desc = seven_cities_events.217.d
+	picture = GOLDEN_CITY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		NOT = {
+			has_global_flag = sce_ultimate_shanghai
+		}
+		is_empty = yes
+		region = south_china_region
+		FROM = {
+			has_country_modifier = sce_search_shanghai
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_shanghai_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_shanghai
+				set_country_flag = sce_end_shanghai_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_shanghai
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.217.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_shanghai
+			}
+			add_country_modifier = {
+				name = sce_shanghai_gold
+				duration = -1
+			}
+			
+		}
+	}
+}
+
+# Bad End of Xanadu
+province_event = {
+	id = seven_cities_events.218
+	title = seven_cities_events.218.t
+	desc = seven_cities_events.218.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = north_china_region
+		FROM = {
+			has_country_modifier = sce_search_xanadu
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_xanadu_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_xanadu_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_xanadu
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.218.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_xanadu
+			}
+			add_prestige = -10
+		}
+	}
+}
+
+# Good End of Xanadu
+province_event = {
+	id = seven_cities_events.219
+	title = seven_cities_events.219.t
+	desc = seven_cities_events.219.d
+	picture = NATIVES_HIGH_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		region = north_china_region
+		FROM = {
+			has_country_modifier = sce_search_xanadu
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_xanadu_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_end_xanadu_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_xanadu
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.219.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_xanadu
+			}
+			add_country_modifier = {
+				name = sce_xanadu_abandoned
+				duration = 18250
+			}
+			
+		}
+	}
+}
+
+# Ultimate End of Xanadu
+province_event = {
+	id = seven_cities_events.220
+	title = seven_cities_events.220.t
+	desc = seven_cities_events.220.d
+	picture = GOLDEN_CITY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		NOT = {
+			has_global_flag = sce_ultimate_xanadu
+		}
+		is_empty = yes
+		region = north_china_region
+		FROM = {
+			has_country_modifier = sce_search_xanadu
+			OR = {
+				has_country_flag = sce_action01_flag
+				has_country_flag = sce_action02_flag
+				has_country_flag = sce_action03_flag
+				has_country_flag = sce_action04_flag
+				has_country_flag = sce_action05_flag
+				has_country_flag = sce_action06_flag
+				had_country_flag = { flag = sce_eventchain_flag days = 365 }
+			}
+			NOT = {
+				has_country_flag = sce_end_xanadu_flag
+			}
+			
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_global_flag = sce_ultimate_xanadu
+				set_country_flag = sce_end_xanadu_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_xanadu
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.220.a
+		FROM = {
+			tooltip = {
+				remove_country_modifier = sce_search_xanadu
+			}
+			add_country_modifier = {
+				name = sce_xanadu_gold
+				duration = -1
+			}
+			
+		}
+	}
+}
+
+# Bad End of Quivira
+#province_event = {
+#	id = seven_cities_events.221
+#	title = seven_cities_events.221.t
+#	desc = seven_cities_events.221.d
+#	picture = NOTHING_FOUND_eventPicture
+#
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		has_dlc = "El Dorado"
+#		is_empty = yes
+#		OR = {
+#			region = canada_region
+#			area = james_bay_area
+#			area = inner_ontario_area
+#			area = hudson_bay_area
+#			region = northeast_america_region
+#			region = southeast_america_region
+#		}
+#		FROM = {
+#			has_country_modifier = sce_search_quivira
+#			OR = {
+#				has_country_flag = sce_action01_flag
+#				has_country_flag = sce_action02_flag
+#				has_country_flag = sce_action03_flag
+#				has_country_flag = sce_action04_flag
+#				has_country_flag = sce_action05_flag
+#				has_country_flag = sce_action06_flag
+#			}
+#			NOT = {
+#				has_country_flag = sce_end_quivira_flag
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		hidden_effect = {
+#			FROM = {
+#				clr_country_flag = sce_action01_flag
+#				clr_country_flag = sce_action02_flag
+#				clr_country_flag = sce_action03_flag
+#				clr_country_flag = sce_action04_flag
+#				clr_country_flag = sce_action05_flag
+#				clr_country_flag = sce_action06_flag
+#				clr_country_flag = sce_eventchain_flag
+#				
+#				set_country_flag = sce_end_quivira_flag
+#				remove_country_modifier = sce_search_quivira
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = seven_cities_events.221.a
+#		FROM = {
+#			tooltip = {
+#				remove_country_modifier = sce_search_quivira
+#			}
+#			add_prestige = -10
+#		}
+#	}
+#}
+#
+# Good End of Quivira
+#province_event = {
+#	id = seven_cities_events.222
+#	title = seven_cities_events.222.t
+#	desc = seven_cities_events.222.d
+#	picture = INCA_CITY_eventPicture
+#
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		has_dlc = "El Dorado"
+#		is_empty = yes
+#		OR = {
+#			region = canada_region
+#			area = james_bay_area
+#			area = inner_ontario_area
+#			area = hudson_bay_area
+#			region = northeast_america_region
+#			region = southeast_america_region
+#		}
+#		FROM = {
+#			has_country_modifier = sce_search_quivira
+#			OR = {
+#				has_country_flag = sce_action01_flag
+#				has_country_flag = sce_action02_flag
+#				has_country_flag = sce_action03_flag
+#				has_country_flag = sce_action04_flag
+#				has_country_flag = sce_action05_flag
+#				has_country_flag = sce_action06_flag
+#				had_country_flag = { flag = sce_rome_flag days = 365 }
+#			}
+#			NOT = {
+#				has_country_flag = sce_end_quivira_flag
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		hidden_effect = {
+#			FROM = {
+#				clr_country_flag = sce_action01_flag
+#				clr_country_flag = sce_action02_flag
+#				clr_country_flag = sce_action03_flag
+#				clr_country_flag = sce_action04_flag
+#				clr_country_flag = sce_action05_flag
+#				clr_country_flag = sce_action06_flag
+#				clr_country_flag = sce_eventchain_flag
+#				
+#				set_country_flag = sce_end_quivira_flag
+#				remove_country_modifier = sce_search_quivira
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = seven_cities_events.222.a
+#		FROM = {
+#			tooltip = {
+#				remove_country_modifier = sce_search_quivira
+#			}
+#			add_country_modifier = {
+#				name = sce_golden_cups
+#				duration = 18250
+#			}
+#		}
+#	}
+#}
+#
+# Ultimate End of Quivira
+#province_event = {
+#	id = seven_cities_events.223
+#	title = seven_cities_events.223.t
+#	desc = seven_cities_events.223.d
+#	picture = GOLDEN_CITY_eventPicture
+#
+#	major = yes
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		has_dlc = "El Dorado"
+#		OR = {
+#			region = canada_region
+#			area = james_bay_area
+#			area = inner_ontario_area
+#			area = hudson_bay_area
+#			region = northeast_america_region
+#			region = southeast_america_region
+#		}
+#		NOT = {
+#			has_global_flag = sce_ultimate_quivira
+#		}
+#		is_empty = yes
+#		FROM = {
+#			has_country_modifier = sce_search_quivira
+#			OR = {
+#				has_country_flag = sce_action01_flag
+#				has_country_flag = sce_action02_flag
+#				has_country_flag = sce_action03_flag
+#				has_country_flag = sce_action04_flag
+#				has_country_flag = sce_action05_flag
+#				has_country_flag = sce_action06_flag
+#				had_country_flag = { flag = sce_rome_flag days = 365 }
+#			}
+#			NOT = {
+#				has_country_flag = sce_end_quivira_flag
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		hidden_effect = {
+#			FROM = {
+#				set_global_flag = sce_ultimate_quivira
+#				
+#				clr_country_flag = sce_action01_flag
+#				clr_country_flag = sce_action02_flag
+#				clr_country_flag = sce_action03_flag
+#				clr_country_flag = sce_action04_flag
+#				clr_country_flag = sce_action05_flag
+#				clr_country_flag = sce_action06_flag
+#				clr_country_flag = sce_eventchain_flag
+#				
+#				set_country_flag = sce_end_quivira_flag
+#				remove_country_modifier = sce_search_quivira
+#			}
+#		}
+#	}
+#	
+#	
+#	option = {
+#		name = seven_cities_events.223.a
+#		FROM = {
+#			tooltip = {
+#				remove_country_modifier = sce_search_quivira
+#			}
+#			add_country_modifier = {
+#				name = sce_quivira
+#				duration = -1
+#			}
+#		}
+#	}
+#}
+
+### Random events for Inhabited Provinces ###
+
+# The Woman Among Us
+province_event = {
+	id = seven_cities_events.300
+	title = seven_cities_events.300.t
+	desc = seven_cities_events.300.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+		}
+		owner = {
+			OR = {
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+			NOT = { has_ruler_flag = sce_sacagawea_flag }
+		}
+		FROM = {
+			NOT = { has_country_modifier = sce_sacagawea }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			owner = {
+				set_ruler_flag = sce_sacagawea_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.300.a
+		FROM = {
+			add_years_of_income = -0.25
+			add_adm_power = -50
+			add_country_modifier = {
+				name = sce_sacagawea
+				duration = 7300
+			}
+			
+		}		
+	}
+	option = {
+		name = seven_cities_events.300.b
+		FROM = {
+			add_prestige = 5
+		}
+	}
+}
+
+# Saved by a Princess
+province_event = {
+	id = seven_cities_events.301
+	title = seven_cities_events.301.t
+	desc = seven_cities_events.301.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		owner = {
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+		}
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.301.a
+		FROM = {
+			add_years_of_income = -0.10
+			add_dip_power = 50
+			reverse_add_opinion = {
+				who = ROOT
+				modifier = respected_tribe
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.301.b
+		FROM = {
+			reverse_add_opinion = {
+				who = ROOT
+				modifier = insulted_tribe
+			}
+		}
+	}
+}
+
+# Attacked by [Root.Culture.GetGroupName]s
+province_event = {
+	id = seven_cities_events.302
+	title = seven_cities_events.302.t
+	desc = seven_cities_events.302.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			kill_leader = {
+				type = conquistador
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.302.a
+		FROM = {
+			clr_country_flag = sce_eventchain_flag
+			if = {
+				limit = {
+					has_country_modifier = sce_search_rome
+				}
+				remove_country_modifier = sce_search_rome
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_paris
+				}
+				remove_country_modifier = sce_search_paris
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_amsterdam
+				}
+				remove_country_modifier = sce_search_amsterdam
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_amberroom
+				}
+				remove_country_modifier = sce_search_amberroom
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_csstexas
+				}
+				remove_country_modifier = sce_search_csstexas
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_shanghai
+				}
+				remove_country_modifier = sce_search_shanghai
+			}
+			if = {
+				limit = {
+					has_country_modifier = sce_search_xanadu
+				}
+				remove_country_modifier = sce_search_xanadu
+			}
+		}
+	}
+}
+
+# Lost in Mind and Space - dedicated to Maja Wendel-Örtqvist (disappearing sister extraordinary)
+province_event = {
+	id = seven_cities_events.303
+	title = seven_cities_events.303.t
+	desc = seven_cities_events.303.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		NOT = {
+			owner = {
+				capital_scope = { continent = europe }
+			}
+		}
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_lost_woods_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			add_province_modifier = {
+				name = sce_lost_woods
+				duration = 365
+			}
+			FROM = {
+				add_country_modifier = {
+					name = sce_lost_woods_timer
+					duration = 1825
+					hidden = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.303.a
+		tooltip = {
+			add_province_modifier = {
+				name = sce_lost_woods_tooltip
+				duration = 90
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.303.b
+		FROM = {
+			add_prestige = -5
+		}
+	}
+}
+
+# A Dog's Life
+province_event = {
+	id = seven_cities_events.304
+	title = seven_cities_events.304.t
+	desc = seven_cities_events.304.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		owner = {
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+			NOT = {
+				has_opinion_modifier = { who = FROM modifier = friendly_natives }
+				has_opinion_modifier = { who = FROM modifier = threatening_punishment }
+			}				
+		}
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.304.a
+		FROM = {
+			add_prestige = 10
+		}
+		owner = {
+			add_opinion = {
+				who = FROM
+				modifier = threatening_punishment
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.304.b
+		FROM = {
+			add_prestige = -10
+		}
+		owner = {
+			add_opinion = {
+				who = FROM
+				modifier = friendly_natives
+			}
+		}
+	}
+}
+
+# Faster, slowpokes!
+province_event = {
+	id = seven_cities_events.305
+	title = seven_cities_events.305.t
+	desc = seven_cities_events.305.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		owner = {
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+			has_opinion = { who = FROM value = -50 }
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+		}
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_shortcut_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			add_province_modifier = {
+				name = sce_shortcut
+				duration = 365
+			}
+			FROM = {
+				add_country_modifier = {
+					name = sce_shortcut_timer
+					duration = 1825
+					hidden = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.305.a
+		FROM = {
+			add_adm_power = -50
+		}
+		tooltip = {
+			add_province_modifier = {
+				name = sce_shortcut_tooltip
+				duration = 90
+			}
+		}
+	}
+}
+
+# Waving the White Flag
+province_event = {
+	id = seven_cities_events.306
+	title = seven_cities_events.306.t
+	desc = seven_cities_events.306.d
+	picture = NATIVES_HIGH_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		owner = {
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+			any_neighbor_country = {
+				NOT = {
+					capital_scope = { continent = europe }
+				}
+				OR = {
+					is_rival = PREV
+					NOT = {
+						has_opinion = {
+							who = ROOT
+							value = -75
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.306.a
+		owner = {
+			random_neighbor_country = {
+				limit = {
+					NOT = {
+						capital_scope = { continent = europe }
+					}
+					OR = {
+						is_rival = ROOT
+						NOT = {
+							has_opinion = {
+								who = ROOT
+								value = -75
+							}
+						}
+					}
+				}
+				random_list = {
+					50 = {
+						add_opinion = {
+							who = ROOT
+							modifier = sce_reluctant_peace
+						}
+						hidden_effect = {
+							country_event = {
+								id = seven_cities_events.505
+								days = 1
+							}
+						}
+						reverse_add_opinion = {
+							who = ROOT
+							modifier = sce_reluctant_peace
+						}
+						hidden_effect = {
+							ROOT = {
+								owner = {
+									country_event = {
+										id = seven_cities_events.505
+										days = 1
+									}
+								}
+							}
+						}
+					}
+					50 = {
+						FROM = {
+							reverse_add_opinion = {
+								who = ROOT
+								modifier = sce_interfering_intruder
+							}
+							hidden_effect = {
+								ROOT = {
+									owner = {
+										country_event = {
+											id = seven_cities_events.506
+											days = 1
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.306.b
+		FROM = {
+			add_dip_power = 10
+		}
+	}
+}
+
+# Scurvy - Bleeding Gums and Falling Teeth
+province_event = {
+	id = seven_cities_events.307
+	title = seven_cities_events.307.t
+	desc = seven_cities_events.307.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		owner = {
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.307.a
+		FROM = {
+			add_years_of_income = -0.25
+		}
+	}
+	option = {
+		name = seven_cities_events.307.b
+		FROM = {
+			add_adm_power = -50
+		}
+	}
+}
+
+# The Amazons
+province_event = {
+	id = seven_cities_events.308
+	title = seven_cities_events.308.t
+	desc = seven_cities_events.308.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		OR = {
+			AND = {
+				is_empty = no
+				owner = {
+					OR = {
+						technology_group = sub_saharan
+						technology_group = north_american
+						technology_group = mesoamerican
+						technology_group = south_american
+						technology_group = andean
+					}
+					NOT = {
+						capital_scope = { continent = europe }
+					}
+				}
+			}
+			is_empty = yes
+		}
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.308.a
+		FROM = {
+			add_adm_power = 50
+		}
+	}
+	option = {
+		name = seven_cities_events.308.b
+		if = {
+			limit = {
+				is_empty = no
+				owner = {
+					OR = {
+						technology_group = sub_saharan
+						technology_group = north_american
+						technology_group = mesoamerican
+						technology_group = south_american
+						technology_group = andean
+					}
+				}
+			}
+			owner = {
+				add_opinion = {
+					who = FROM
+					modifier = friendly_natives
+				}
+				#hidden_effect = {
+				#	country_event = {
+				#		id = seven_cities_events.504
+				#		days = 1
+				#	}
+				#}
+			}
+		}
+		if = {
+			limit = {
+				is_empty = yes
+			}
+			FROM = {
+				add_dip_power = 50
+			}
+		}
+	}
+}
+
+# Mutiny in $PROVINCENAME$!
+province_event = {
+	id = seven_cities_events.309
+	title = seven_cities_events.309.t
+	desc = seven_cities_events.309.d
+	picture = HUNTER_GATHERERS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		owner = {
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+		}
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_mutiny_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				add_country_modifier = {
+					name = sce_mutiny_timer
+					duration = 365
+					hidden = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.309.a
+		FROM = {
+			add_adm_power = -50
+		}
+	}
+	option = {
+		name = seven_cities_events.309.b
+		FROM = {
+			add_mil_power = -50
+		}
+	}
+}
+
+
+# Wintering among the Natives - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.310
+	title = seven_cities_events.310.t
+	desc = seven_cities_events.310.d
+	picture = HUNTER_GATHERERS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = no
+		owner = {
+			OR = {
+				technology_group = sub_saharan
+				technology_group = north_american
+				technology_group = mesoamerican
+				technology_group = south_american
+				technology_group = andean
+			}
+			NOT = {
+				capital_scope = { continent = europe }
+			}
+			NOT = {
+				has_opinion_modifier = { who = FROM modifier = friendly_natives }
+			}			
+		}
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.310.a
+		owner = {
+			add_opinion = {
+				who = FROM
+				modifier = friendly_natives
+			}
+			#hidden_effect = {
+			#	country_event = {
+			#		id = seven_cities_events.504
+			#		days = 1
+			#	}
+			#}
+		}
+	}
+}
+
+### Events for Empty Provinces ###
+
+# The Survivor
+province_event = {
+	id = seven_cities_events.400
+	title = seven_cities_events.400.t
+	desc = seven_cities_events.400.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		FROM = {
+			NOT = {
+				has_country_modifier = sce_estevanico_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			kill_leader = {
+				type = conquistador
+			}
+			add_country_modifier = {
+				name = sce_estevanico_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.400.a
+		FROM = {
+			define_conquistador = {
+				name = "Estevanico"
+				fire = 1
+				shock = 2
+				manuever = 3
+				siege = 1
+			}
+			add_prestige = -5
+		}
+	}
+	option = {
+		name = seven_cities_events.400.b
+		FROM = {
+			add_adm_power = 50
+		}
+	}
+}
+
+# Drunken Whiskey Thieves
+province_event = {
+	id = seven_cities_events.401
+	title = seven_cities_events.401.t
+	desc = seven_cities_events.401.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.401.c
+		FROM = {
+			add_adm_power = 50
+		}
+	}
+	option = {
+		name = seven_cities_events.401.a
+		FROM = {
+			add_dip_power = 50
+		}
+	}
+	option = {
+		name = seven_cities_events.401.b
+		FROM = {
+			add_mil_power = 50
+		}
+	}
+}
+
+# Peralta Gold Mine: Start
+province_event = {
+	id = seven_cities_events.402
+	title = seven_cities_events.402.t
+	desc = seven_cities_events.402.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.402.a
+		random_list = {
+			50 = {
+				FROM = {
+					country_event = {
+						id = seven_cities_events.403
+						tooltip = seven_cities_events.403.t
+					}
+				}
+			}
+			50 = {
+				FROM = {
+					country_event = {
+						id = seven_cities_events.404
+						tooltip = seven_cities_events.404.t					
+					}
+				}			
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.402.b
+		FROM = {
+			add_prestige = 5
+		}
+	}
+}
+
+# Peralta Gold Mine: Good
+country_event = {
+	id = seven_cities_events.403
+	title = seven_cities_events.403.t
+	desc = seven_cities_events.403.d
+	picture = LOADING_SHIP_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.403.a
+		add_years_of_income = 1
+	}
+}
+
+# Peralta Gold Mine: Bad
+country_event = {
+	id = seven_cities_events.404
+	title = seven_cities_events.404.t
+	desc = seven_cities_events.404.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = seven_cities_events.404.a
+		add_prestige = 10
+	}
+}
+
+# He's a Woman!
+province_event = {
+	id = seven_cities_events.405
+	title = seven_cities_events.405.t
+	desc = seven_cities_events.405.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		NOT = {
+			FROM = {
+				has_country_flag = sce_jeanne_baret_flag
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 0.5
+			FROM = {
+				has_country_modifier = sce_sacagawea
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = sce_jeanne_baret_flag
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.405.a
+		FROM = {
+			add_country_modifier = {
+				name = sce_jeanne_baret
+				duration = 7300
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.405.b
+		FROM = {
+			add_prestige = 5
+		}
+	}
+}
+
+# Poison Rock
+province_event = {
+	id = seven_cities_events.406
+	title = seven_cities_events.406.t
+	desc = seven_cities_events.406.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_poison_rock_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			continent = oceania
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			add_province_modifier = {
+				name = sce_poison_rock
+				duration = 365
+			}
+			FROM = {
+				add_country_modifier = {
+					name = sce_poison_rock_timer
+					duration = 1825
+					hidden = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.406.a
+		tooltip = {
+			add_province_modifier = {
+				name = sce_poison_rock_tooltip
+				duration = 365
+			}
+		}
+	}
+}
+
+# False as diamonds of $PROVINCENAME$ - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.407
+	title = seven_cities_events.407.t
+	desc = seven_cities_events.407.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.407.a
+		FROM = {
+			add_prestige = -5
+		}
+	}
+}
+
+# A Deserter Resurfaces! - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.408
+	title = seven_cities_events.408.t
+	desc = seven_cities_events.408.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		FROM = {
+			NOT = {
+				OR = {
+					has_country_modifier = sce_cart_peddler_stopped
+					has_country_modifier = sce_cart_peddler_killed
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.408.a
+		FROM = {
+			add_country_modifier = {
+				name = sce_cart_peddler_stopped
+				duration = 7300
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.408.b
+		FROM = {
+			add_country_modifier = {
+				name = sce_cart_peddler_killed
+				duration = 7300
+			}
+		}
+	}
+}
+
+# An account of of the New Lands - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.409
+	title = seven_cities_events.409.t
+	desc = seven_cities_events.409.d
+	picture = COASTLINE_MAP_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		FROM = {
+			NOT = {
+				has_country_modifier = sce_new_domains
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.409.a
+		FROM = {
+			add_country_modifier = {
+				name = sce_new_domains
+				duration = 7300
+			}
+		}
+	}
+}
+
+# Start: Abandoned Mounds - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.410
+	title = seven_cities_events.410.t
+	desc = seven_cities_events.410.d
+	picture = AZTEC_PYRAMID_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		continent = south_america
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_mounds_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = seven_cities_events.410.a
+		add_province_modifier = {
+			name = sce_mounds
+			duration = 365
+		}
+		hidden_effect = {
+			FROM = {
+				add_country_modifier = {
+					name = sce_mounds_timer
+					duration = 1825
+					hidden = yes
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				FROM = {
+					country_event = {
+						id = seven_cities_events.411
+						days = 30
+						tooltip = seven_cities_events.411.t
+					}
+				}
+			}
+			50 = {
+				FROM = {
+					country_event = {
+						id = seven_cities_events.412
+						days = 30
+						tooltip = seven_cities_events.412.t
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.410.b
+		FROM = {
+			add_adm_power = 50
+		}
+	}
+}
+
+# Bad End: Abandoned Mounds
+country_event = {
+	id = seven_cities_events.411
+	title = seven_cities_events.411.t
+	desc = seven_cities_events.411.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = seven_cities_events.411.a
+		add_prestige = 5
+	}
+}
+
+# Good End: Abandoned Mounds
+country_event = {
+	id = seven_cities_events.412
+	title = seven_cities_events.412.t
+	desc = seven_cities_events.412.d
+	picture = AZTEC_PYRAMID_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = seven_cities_events.412.a
+		add_years_of_income = 0.25
+	}
+}
+
+# Hic Sunt Dracones - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.413
+	title = seven_cities_events.413.t
+	desc = seven_cities_events.413.d
+	picture = NATIVES_LOW_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.413.a
+		FROM = {
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = seven_cities_events.413.b
+		FROM = {
+			add_adm_power = 50
+		}
+	}
+}
+
+# A most deadly lake - Idea by Guillaume HJ
+province_event = {
+	id = seven_cities_events.414
+	title = seven_cities_events.414.t
+	desc = seven_cities_events.414.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		is_empty = yes
+		OR = {
+			continent = new_world
+			continent = south_america
+			continent = north_america
+			continent = africa
+			continent = asia
+			continent = oceania
+		}
+		NOT = {
+			FROM = {
+				has_country_modifier = sce_monster_lake_timer
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = seven_cities_events.414.a
+		add_province_modifier = {
+			name = sce_monster_lake
+			duration = 365
+		}
+		hidden_effect = {
+			FROM = {
+				add_country_modifier = {
+					name = sce_monster_lake_timer
+					duration = 365
+					hidden = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = seven_cities_events.414.b
+		random_list = {
+			20 = {
+				kill_leader = {
+					type = conquistador
+				}
+			}
+			80 = { }
+		}
+	}
+}
+
+### NOTIFIER EVENTS FOR OPINION MODIFIERS ###
+
+# Notifier for cannibal_conquistador
+country_event = {
+	id = seven_cities_events.500
+	title = seven_cities_events.500.t
+	desc = seven_cities_events.500.d
+	picture = HUNTER_GATHERERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.500.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = cannibal_conquistador
+			}
+		}
+	}
+}
+
+# Notifier for respected_tribe
+country_event = {
+	id = seven_cities_events.501
+	title = seven_cities_events.501.t
+	desc = seven_cities_events.501.d
+	picture = HUNTER_GATHERERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.501.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = respected_tribe
+			}
+		}
+	}
+}
+
+# Notifier for insulted_tribe
+country_event = {
+	id = seven_cities_events.502
+	title = seven_cities_events.502.t
+	desc = seven_cities_events.502.d
+	picture = GUARDED_TREASURE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.502.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = insulted_tribe
+			}
+		}
+	}
+}
+
+# Notifier for threatening_punishment
+country_event = {
+	id = seven_cities_events.503
+	title = seven_cities_events.503.t
+	desc = seven_cities_events.503.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.503.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = threatening_punishment
+			}
+		}
+	}
+}
+
+# Notifier for friendly_natives
+country_event = {
+	id = seven_cities_events.504
+	title = seven_cities_events.504.t
+	desc = seven_cities_events.504.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.504.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = friendly_natives
+			}
+		}
+	}
+}
+
+# Notifier for sce_reluctant_peace
+country_event = {
+	id = seven_cities_events.505
+	title = seven_cities_events.505.t
+	desc = seven_cities_events.505.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.505.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = sce_reluctant_peace
+			}
+		}
+	}
+}
+
+# Notifier for sce_interfering_intruder
+country_event = {
+	id = seven_cities_events.506
+	title = seven_cities_events.506.t
+	desc = seven_cities_events.506.d
+	picture = CONQUISTADORS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = seven_cities_events.506.a
+		tooltip = {
+			add_opinion = {
+				who = FROM
+				modifier = sce_interfering_intruder
+			}
+		}
+	}
+}
+
+country_event = {
+	id = seven_cities_events.1000
+	title = seven_cities_events.1000.t
+	desc = seven_cities_events.1000.d
+	picture = NOTHING_FOUND_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "El Dorado"
+		has_idea_group = exploration_ideas
+		#El Dorado:
+		OR = {
+			AND = {
+				south_america = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_rome
+				NOT = {
+					has_country_flag = sce_end_rome_flag
+				}
+			}
+			#Fountain of Youth
+			AND = {
+				south_america = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_paris
+				NOT = {
+					has_country_flag = sce_end_paris_flag
+				}
+			}
+			#Cibola
+			AND = {
+				new_world = {
+					type = all
+					has_discovered = ROOT
+				}
+				south_america = {
+					type = all
+					has_discovered = ROOT
+				}
+				mexico_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				central_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_amsterdam
+				NOT = {
+					has_country_flag = sce_end_amsterdam_flag
+				}
+			}
+			#City of Caesars
+			AND = {
+				patagonia_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				patagonian_andes = {
+					type = all
+					has_discovered = ROOT
+				}
+				southern_pampas_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				bahia_blanca_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				nehuenken_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_amberroom
+				NOT = {
+					has_country_flag = sce_end_amberroom_flag
+				}
+			}
+			#Sierra de La Plata
+			AND = {
+				peru_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				jujuy_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				nehuenken_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				tucuman_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				southern_chile_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				northern_chile_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				central_chile_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				cuyo_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_csstexas
+				NOT = {
+					has_country_flag = sce_end_csstexas_flag
+				}
+			}
+			#Norumbega
+			AND = {
+				canada_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				james_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				inner_ontario_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				hudson_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				northeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				southeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_shanghai
+				NOT = {
+					has_country_flag = sce_end_shanghai_flag
+				}
+			}
+			#Saguenay
+			AND = {
+				canada_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				james_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				hudson_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				inner_ontario_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				northeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				southeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_xanadu
+				NOT = {
+					has_country_flag = sce_end_xanadu_flag
+				}
+			}
+			#Quivira
+			AND = {
+				canada_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				james_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				hudson_bay_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				inner_ontario_area = {
+					type = all
+					has_discovered = ROOT
+				}
+				northeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				southeast_america_region = {
+					type = all
+					has_discovered = ROOT
+				}
+				has_country_modifier = sce_search_quivira
+				NOT = {
+					has_country_flag = sce_end_quivira_flag
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			#El Dorado
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				set_country_flag = sce_end_rome_flag
+				remove_country_modifier = sce_search_rome
+			#Fountain of Youth
+				set_country_flag = sce_end_paris_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_paris
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#Cibola
+				set_country_flag = sce_end_amsterdam_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amsterdam
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#City of Caesars
+				set_country_flag = sce_end_amberroom_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_amberroom
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#Sierra de la Plata
+				set_country_flag = sce_end_csstexas_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_csstexas
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#Norumbega
+				set_country_flag = sce_end_shanghai_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_shanghai
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#Saguenay
+				set_country_flag = sce_end_xanadu_flag
+				clr_country_flag = sce_eventchain_flag
+				remove_country_modifier = sce_search_xanadu
+				
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+			#Quivira
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				set_country_flag = sce_end_quivira_flag
+				remove_country_modifier = sce_search_quivira
+		}
+	}
+	
+	option = {
+		name = seven_cities_events.1000.a
+		add_prestige = -10
+	}
+}

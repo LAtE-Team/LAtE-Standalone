@@ -1,0 +1,25 @@
+# Arrowhead
+government = tribal_kingdom
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2511
+3053.1.1 {
+	monarch = {
+		name = "René"
+		birth_date = 3011.1.13
+		dynasty = "Delorme"
+		adm = 5
+		dip = 2
+		mil = 6
+	}
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 2511
+	add_treasury = 2
+	add_prestige = 159
+}

@@ -1,0 +1,25 @@
+# Miami Valley
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = consumerist
+clear_scripted_personalities = yes
+capital = 941
+3053.1.1= {
+	monarch = {
+		name = "Vincentz"
+		birth_date = 3001.2.23
+		dynasty = "Stahlbleche"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 941
+	add_treasury = 18
+	add_prestige = 504
+}

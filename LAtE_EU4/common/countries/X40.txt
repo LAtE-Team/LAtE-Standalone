@@ -1,0 +1,118 @@
+# Taqamkuk
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 26 164 141 }
+
+
+
+
+leader_names = {
+
+	"Marshall" "Rachel-Mary" "Joe" "Sam" "Jacques-Pierre" "Nora" "Bernie" "Leonard" "Kji-Keptin" "Katherine" 
+	"Dorothy" "Pamela" "Alice" "Azure" "Everett" "Mae" "Allan" "Annie" "Murdena" "Jean-Baptiste" 
+	"Qimmiq" "Quamaniq" "K'eyush" "Pukak" "Ikniqpalagaq" "Mistasiniy" "Nilak" "Anernerk" "Irdlirvirisissong" "Tulimak" 
+	"Tikaani" "Availuk" "Kattituyok" "Kassuq" "Pattangayok" "Danielle" "Cipay" "Hugh" "Acimus" "Atiqtalaaq" 
+	"Nunataq" "Viola" "Mary" "Mistaisimit" "Silaluk" "Hazel" "Beechil" "Annie-Mae" "Silas" "Jerry" 
+	"Lee" "Lawrence" "Rachel" "Rita" "Alexander" "Nauja" "Laoise" "Michael" "Henri" "Ikiaq" 
+	"Cope" "Donald" "Marie" "Puti" "Elsie" "Frank" "Robert" "Daniel" "Sarah" "Ahnah" 
+	"Natasha" "Aqpalibaaqtuq" "Étienne" "Pinehis" "Paul" "Benjamin" "Remnar" "Maurice" "Brunhilda" "Bernd" 
+	"Charles" "Francis" "Frye" "Gabriel" "Jacob" "John" "Joseph" "Kopit" "Noel" "Peter" 
+	"Peter-Paul" "Sandy" "Sylliboy" "Toney" "Wilfred" }
+monarch_names = {
+	"Marshall #3" = 33
+	"Rachel-Mary #0" = -1
+	"Joe #0" = 1
+	"Sam #0" = 1
+	"Jacques-Pierre #0" = 1
+	"Nora #0" = -1
+	"Bernie #0" = 1
+	"Leonard #0" = 1
+	"Kji-Keptin #0" = 1
+	"Katherine #0" = -1
+	"Dorothy #0" = -1
+	"Pamela #0" = -1
+	"Alice #0" = -1
+	"Azure #0" = -1
+	"Everett #0" = 1
+	"Mae #0" = -1
+	"Allan #1" = 21
+	"Annie #0" = -1
+	"Murdena #0" = -1
+	"Jean-Baptiste #0" = 1
+	"Qimmiq #0" = 1
+	"Quamaniq #0" = 1
+	"K'eyush #0" = -1
+	"Pukak #0" = 1
+	"Ikniqpalagaq #0" = -1
+	"Mistasiniy #0" = -1
+	"Nilak #0" = -1
+	"Anernerk #0" = -1
+	"Irdlirvirisissong #0" = -1
+	"Tulimak #0" = -1
+	"Tikaani #0" = -1
+	"Availuk #0" = -1
+	"Kattituyok #0" = 1
+	"Kassuq #0" = -1
+	"Pattangayok #0" = 1
+	"Danielle #0" = -1
+	"Cipay #0" = 1
+	"Hugh #0" = 1
+	"Acimus #0" = 1
+	"Atiqtalaaq #0" = -1
+	"Nunataq #0" = -1
+	"Viola #0" = -1
+	"Mary #0" = -1
+	"Mistaisimit #0" = -1
+	"Silaluk #0" = -1
+	"Hazel #0" = -1
+	"Beechil #0" = 1
+	"Annie-Mae #0" = -1
+	"Silas #0" = 1
+	"Jerry #0" = 1
+	"Lee #0" = 1
+	"Lawrence #1" = 30
+	"Rachel #0" = -1
+	"Rita #0" = -1
+	"Alexander #0" = 1
+	"Nauja #0" = -1
+	"Laoise #0" = -1
+	"Michael #0" = 1
+	"Henri #0" = 1
+	"Ikiaq #0" = 1
+	"Cope #1" = 33
+	"Donald #0" = 1
+	"Marie #0" = -1
+	"Puti #0" = -1
+	"Elsie #0" = -1
+	"Frank #0" = 1
+	"Robert #0" = 1
+	"Daniel #0" = 1
+	"Sarah #0" = -1
+	"Ahnah #0" = -1
+	"Natasha #0" = -1
+	"Aqpalibaaqtuq #0" = -1
+	"Étienne #0" = 1
+	"Pinehis #0" = -1
+	"Paul #0" = 1
+	"Benjamin #0" = 1
+	"Remnar #1" = 0
+	"Maurice #1" = 0
+	"Brunhilda #1" = -1
+	"Bernd #0" = 0
+	"Charles #0" = 0
+	"Francis #0" = 0
+	"Frye #0" = 0
+	"Gabriel #0" = 0
+	"Jacob #0" = 0
+	"John #0" = 0
+	"Joseph #0" = 0
+	"Kopit #0" = 0
+	"Noel #0" = 0
+	"Peter #0" = 0
+	"Peter-Paul #0" = 0
+	"Sandy #0" = 0
+	"Sylliboy #0" = 0
+	"Toney #0" = 0
+	"Wilfred #0" = 0
+}
+

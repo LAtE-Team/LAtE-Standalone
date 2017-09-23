@@ -1,0 +1,26 @@
+# Balcones
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = tejano
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2500
+3042.1.17 = {
+	monarch = {
+		name = "Garcia"
+		birth_date = 2993.8.14
+		dynasty = "Canseco"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 2500
+	add_treasury = 55
+	add_prestige = 141
+}

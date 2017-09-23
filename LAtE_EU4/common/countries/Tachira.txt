@@ -1,0 +1,90 @@
+# Tachira
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 121 64 58 }
+
+
+
+
+leader_names = {
+
+	"Leonardo" "Jorge" "Abelardo" "Alano" "Alberto" "Alvino" "Anderson" "Ángel" "Antonio" "Carlos" 
+	"César" "Chucho" "Cipriano" "Cristoval" "Daniel" "Dante" "Didier" "Diego" "Diógenes" "Édgar" 
+	"Eduardo" "Engelbert" "Eustoquio" "Francisco" "Fruto" "Gerardo" "Gerzon" "Homero" "Hugo" "Ilich" 
+	"Isaías" "Jackson" "Javier" "José" "Josmar" "Juan" "Kluivert" "Laureano" "Layneker" "Leandro" 
+	"Leonel" "Luis" "Manuel" "Marco" "Marcos" "Maurice" "Miguel" "Napoleón" "Nelson" "Noel" 
+	"Palben" "Pedro" "Rafael" "Ramón" "Raúl" "Ricardo" "Rubén" "Sergio" "Simón" "Timoteo" 
+	"Tulio" "Victorio" "William" }
+monarch_names = {
+	"Leonardo #0" = 21
+	"Jorge #0" = 1
+	"Abelardo #0" = 0
+	"Alano #0" = 0
+	"Alberto #0" = 0
+	"Alvino #0" = 0
+	"Anderson #0" = 0
+	"Ángel #0" = 0
+	"Antonio #0" = 0
+	"Carlos #0" = 0
+	"César #0" = 0
+	"Chucho #0" = 0
+	"Cipriano #0" = 0
+	"Cristoval #0" = 0
+	"Daniel #0" = 0
+	"Dante #0" = 0
+	"Didier #0" = 0
+	"Diego #0" = 0
+	"Diógenes #0" = 0
+	"Édgar #0" = 0
+	"Eduardo #0" = 0
+	"Engelbert #0" = 0
+	"Eustoquio #0" = 0
+	"Francisco #0" = 0
+	"Fruto #0" = 0
+	"Gerardo #0" = 0
+	"Gerzon #0" = 0
+	"Homero #0" = 0
+	"Hugo #0" = 0
+	"Ilich #0" = 0
+	"Isaías #0" = 0
+	"Jackson #0" = 0
+	"Javier #0" = 0
+	"José #0" = 0
+	"Josmar #0" = 0
+	"Juan #0" = 0
+	"Kluivert #0" = 0
+	"Laureano #0" = 0
+	"Layneker #0" = 0
+	"Leandro #0" = 0
+	"Leonel #0" = 0
+	"Luis #0" = 0
+	"Manuel #0" = 0
+	"Marco #0" = 0
+	"Marcos #0" = 0
+	"Maurice #0" = 0
+	"Miguel #0" = 0
+	"Napoleón #0" = 0
+	"Nelson #0" = 0
+	"Noel #0" = 0
+	"Palben #0" = 0
+	"Pedro #0" = 0
+	"Rafael #0" = 0
+	"Ramón #0" = 0
+	"Raúl #0" = 0
+	"Ricardo #0" = 0
+	"Rubén #0" = 0
+	"Sergio #0" = 0
+	"Simón #0" = 0
+	"Timoteo #0" = 0
+	"Tulio #0" = 0
+	"Victorio #0" = 0
+	"William #0" = 0
+
+
+	"Adriana #0" = -1
+	"Marjorie #0" = -1
+	"Iris #0" = -1
+	"Edymar #0" = -1
+	"Veronica #0" = -1
+}
+

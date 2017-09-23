@@ -1,0 +1,5 @@
+# = { discovered_by = SPA }
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

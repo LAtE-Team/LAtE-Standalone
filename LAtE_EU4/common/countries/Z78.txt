@@ -1,0 +1,209 @@
+# Albemarle-Hatteras
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 230 225 130 }
+
+
+
+
+leader_names = {
+
+	"Iseult" "Joanna" "Paulus" "Beatrice" "Scarlett" "William" "Margaret" "Constantine" "Guinevere" "Cola" 
+	"Peach" "Ector" "Bedivere" "Dahlia" "Marcus" "India" "Jocasta" "Regulus" "Melantha" "Mary" 
+	"Octavian" "Meriwether" "May" "Winfield" "Rhea" "Charles" "Davis" "Susanne" "Sagremore" "Geoffrey" 
+	"Quadratus" "Coriolanus" "Tertius" "Lucia" "Alpheus" "Solon" "Walter" "Jupiter" "Merriman" "Augusta" 
+	"Clover" "Laurina" "Alyssa" "Carolina" "Bohemond" "Frederick" "Lucilla" "Ulixes" "Venus" "Diamond" 
+	"Charlotte" "Loribelle" "April" "Georgia" "Sarah" "Virginia" "Theophilus" "Meleager" "Augustus" "Lucan" 
+	"Fulwar" "Sylvester" "Jane" "Morgause" "Morgana" "Eudoxia" "Cherry" "Hera" "Michelle" "Braxton" 
+	"Pamilia" "Lamartine" "Eloise" "Hannibal" "Cronus" "Robert" "Primrose" "Vitalian" "Juliet" "Superbus" 
+	"Publicola" "Neptune" "Scipio" "Kiana" "Raynault" "Belle" "Dionysia" "Baldwin" "Pericles" "Clymene" 
+	"Aloys" "Blanchet" "Johnny" "Tiberius" "Brandegoris" "Catherine" "Primula" "Violet" "Helen" "Chuck" 
+	"Raphael" "Antonia" "Cornelia" "Claudia" "Urban" "Achilles" "Marmaduke" "Harriet" "Urien" "Megara" 
+	"Melisende" "Antigone" "June" "Marcellus" "Lunsford" "Fulgent" "Silvana" "Anastasia" "Pompey" "Saturn" 
+	"Claudius" "Polycarpus" "Artemis" "Percival" "Pellias" "Ancell" "Melanie" "Anthemeol" "Arthur" "Ambrose" 
+	"Armistead" "Antipas" "Breunor" "Brutus" "Brangwin" "Beauregard" "Bryan" "Calhoun" "Griflet" "Geraint" 
+	"Gareth" "Goode" "Heron" "Hamilcar" "Isaias" "Joscelin" "Jefferson" "Julius" "Justinian" "Jackson" 
+	"Laurentius" "Lionel" "Lucius" "Mercury" "Nathanael" "Prudens" "Priscus" "Pulcher" "Petrus" "Plato" 
+	"Pluto" "Pellinore" "Richard" "Rhett" "Robin" "Raleigh" "Rufus" "Sosipater" "Severus" "Stephanus" 
+	"Saunder" "Trophimus" "Thomas" "Timon" "Titus" "Valerian" "Wade" "Zacharias" }
+monarch_names = {
+	"Iseult #0" = -1
+	"Joanna #0" = -1
+	"Paulus #0" = 1
+	"Beatrice #0" = -1
+	"Scarlett #0" = -1
+	"William #0" = 1
+	"Margaret #0" = -1
+	"Constantine #0" = 1
+	"Guinevere #0" = -1
+	"Cola #0" = -1
+	"Peach #0" = -1
+	"Ector #0" = 1
+	"Bedivere #0" = 1
+	"Dahlia #0" = -1
+	"Marcus #0" = 1
+	"India #0" = -1
+	"Jocasta #0" = -1
+	"Regulus #0" = 1
+	"Melantha #0" = -1
+	"Mary #0" = -1
+	"Octavian #0" = 1
+	"Meriwether #0" = 1
+	"May #0" = -1
+	"Winfield #0" = 1
+	"Rhea #0" = -1
+	"Charles #0" = 1
+	"Davis #0" = 1
+	"Susanne #0" = -1
+	"Sagremore #0" = 1
+	"Geoffrey #0" = 1
+	"Quadratus #0" = 1
+	"Coriolanus #0" = 1
+	"Tertius #0" = 1
+	"Lucia #0" = -1
+	"Alpheus #0" = 1
+	"Solon #0" = 1
+	"Walter #0" = 1
+	"Jupiter #0" = 1
+	"Merriman #0" = 1
+	"Augusta #0" = -1
+	"Clover #0" = -1
+	"Laurina #0" = -1
+	"Alyssa #0" = -1
+	"Carolina #0" = -1
+	"Bohemond #0" = 1
+	"Frederick #0" = 1
+	"Lucilla #0" = -1
+	"Ulixes #0" = 1
+	"Venus #0" = -1
+	"Diamond #0" = -1
+	"Charlotte #0" = -1
+	"Loribelle #0" = -1
+	"April #0" = -1
+	"Georgia #0" = -1
+	"Sarah #0" = -1
+	"Virginia #0" = -1
+	"Theophilus #0" = 1
+	"Meleager #0" = 1
+	"Augustus #0" = 1
+	"Lucan #0" = 1
+	"Fulwar #0" = 1
+	"Sylvester #0" = 1
+	"Jane #0" = -1
+	"Morgause #0" = -1
+	"Morgana #0" = -1
+	"Eudoxia #0" = -1
+	"Cherry #0" = -1
+	"Hera #0" = -1
+	"Michelle #0" = -1
+	"Braxton #0" = 1
+	"Pamilia #0" = -1
+	"Lamartine #0" = 1
+	"Eloise #0" = -1
+	"Hannibal #0" = 1
+	"Cronus #0" = 1
+	"Robert #0" = 1
+	"Primrose #0" = -1
+	"Vitalian #0" = 1
+	"Juliet #0" = -1
+	"Superbus #0" = 1
+	"Publicola #0" = 1
+	"Neptune #0" = 1
+	"Scipio #0" = 1
+	"Kiana #0" = -1
+	"Raynault #0" = 1
+	"Belle #0" = -1
+	"Dionysia #0" = -1
+	"Baldwin #0" = 1
+	"Pericles #0" = 1
+	"Clymene #0" = -1
+	"Aloys #0" = 1
+	"Blanchet #0" = -1
+	"Johnny #0" = 1
+	"Tiberius #0" = 1
+	"Brandegoris #0" = 1
+	"Catherine #0" = -1
+	"Primula #0" = -1
+	"Violet #0" = -1
+	"Helen #0" = -1
+	"Chuck #0" = 1
+	"Raphael #0" = 1
+	"Antonia #0" = -1
+	"Cornelia #0" = -1
+	"Claudia #0" = -1
+	"Urban #0" = 1
+	"Achilles #0" = 1
+	"Marmaduke #0" = 1
+	"Harriet #0" = -1
+	"Urien #0" = 1
+	"Megara #0" = -1
+	"Melisende #0" = -1
+	"Antigone #0" = -1
+	"June #0" = -1
+	"Marcellus #0" = 1
+	"Lunsford #0" = 1
+	"Fulgent #0" = 1
+	"Silvana #0" = -1
+	"Anastasia #0" = -1
+	"Pompey #0" = 1
+	"Saturn #0" = 1
+	"Claudius #0" = 1
+	"Polycarpus #0" = 1
+	"Artemis #0" = -1
+	"Percival #0" = 1
+	"Pellias #0" = 1
+	"Ancell #0" = 1
+	"Melanie #0" = -1
+	"Anthemeol #0" = 0
+	"Arthur #0" = 0
+	"Ambrose #0" = 0
+	"Armistead #0" = 0
+	"Antipas #0" = 0
+	"Breunor #0" = 0
+	"Brutus #0" = 0
+	"Brangwin #0" = 0
+	"Beauregard #0" = 0
+	"Bryan #0" = 0
+	"Calhoun #0" = 0
+	"Griflet #0" = 0
+	"Geraint #0" = 0
+	"Gareth #0" = 0
+	"Goode #0" = 0
+	"Heron #0" = 0
+	"Hamilcar #0" = 0
+	"Isaias #0" = 0
+	"Joscelin #0" = 0
+	"Jefferson #0" = 0
+	"Julius #0" = 0
+	"Justinian #0" = 0
+	"Jackson #0" = 0
+	"Laurentius #0" = 0
+	"Lionel #0" = 0
+	"Lucius #0" = 0
+	"Mercury #0" = 0
+	"Nathanael #0" = 0
+	"Prudens #0" = 0
+	"Priscus #0" = 0
+	"Pulcher #0" = 0
+	"Petrus #0" = 0
+	"Plato #0" = 0
+	"Pluto #0" = 0
+	"Pellinore #0" = 0
+	"Richard #0" = 0
+	"Rhett #0" = 0
+	"Robin #0" = 0
+	"Raleigh #0" = 0
+	"Rufus #0" = 0
+	"Sosipater #0" = 0
+	"Severus #0" = 0
+	"Stephanus #0" = 0
+	"Saunder #0" = 0
+	"Trophimus #0" = 0
+	"Thomas #0" = 0
+	"Timon #0" = 0
+	"Titus #0" = 0
+	"Valerian #0" = 0
+	"Wade #0" = 0
+	"Zacharias #0" = 0
+}
+

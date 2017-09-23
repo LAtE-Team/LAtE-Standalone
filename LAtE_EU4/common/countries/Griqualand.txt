@@ -1,0 +1,53 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+color = { 60  255  170 }
+
+monarch_names = {
+	"Adam #3" = 15
+	"Adriaan #0" = 10
+	"Andries #1" = 10
+	"Antonius #0" = 10
+	"Frederik #0" = 10
+	"Gaspar #0" = 10
+	"Isaac #0" = 10
+	"Jacob #0" = 10
+	"Johan #0" = 10
+	"Laurens #0" = 10
+	"Paul #0" = 10
+	"Pieter #0" = 10
+	"Simon #0" = 10
+	"Abraham #0" = 10
+	"Nicolaas #1" = 10
+	"Antoon #0" = 0
+	"Barthout #0" = 0
+	"Christiaan #0" = 0
+	"Christoffel #0" = 0
+	"Constantijn #0" = 0
+	"Cornelis #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Filips #0" = 0
+	"Dirk #0" = 0
+	"Eise #0" = 0
+	"Frans #0" = 0
+	"Gabriel #0" = 0
+	"Gerard #0" = 0
+	"Gerben #0" = 0
+	"Godfried #0" = 0
+	"Hans #0" = 0
+	"Jeroen #0" = 0
+	"Hugo #0" = 0
+	"Jan #0" = 0
+	"Joost #0" = 0
+	"Roeland #0" = 0
+	"Rogier #0" = 0
+	"Rutger #0" = 0
+	"Thomas #0" = 0
+	"Vincent #0" = 0
+	"Zacharias #0" = 0
+	
+	"Margaretha #0" = -1
+	"Rosanne #0" = -1
+	"Tamara #0" = -1
+}

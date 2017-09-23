@@ -1,0 +1,25 @@
+# Metroplex
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = texan
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 888
+3048.7.20 = {
+	monarch = {
+		name = "Esteban III"
+		birth_date = 3006.9.26
+		dynasty = "de Zavala"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 888
+	add_treasury = 37
+	add_prestige = 229
+}

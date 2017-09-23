@@ -1,0 +1,18 @@
+government = daimyo
+government_rank = 1
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 4185
+
+3050.1.1 = {
+	monarch = {
+		name = "Rinku"
+		dynasty = "Yamauchi"
+		birth_date = 3019.1.1
+		death_date = 3053.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}

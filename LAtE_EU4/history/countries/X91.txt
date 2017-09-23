@@ -1,0 +1,36 @@
+# Bajio
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = purepecha
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2624
+3053.1.1 {
+	monarch = {
+		name = "Daniel"
+		birth_date = 2975.7.6
+		dynasty = "Milmo"
+		adm = 4
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = tolerant_personality
+	heir = {
+		name = "Abijí"
+		monarch_name = "Abijí"
+		dynasty = "Milmo"
+		birth_date = 3013.8.3
+		death_date = 3093.8.3
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_heir_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 2624
+	add_treasury = 313
+	add_prestige = 192
+}

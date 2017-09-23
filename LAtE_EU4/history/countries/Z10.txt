@@ -1,0 +1,26 @@
+# Vicksburg
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2528
+3052.11.22 = {
+	monarch = {
+		name = "Eduard"
+		birth_date = 3002.12.10
+		dynasty = "Pensacolle"
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = expansionist_personality
+}
+3053.1.1 {
+	capital = 2528
+	add_treasury = 52
+	add_prestige = 566
+	elector = no
+}

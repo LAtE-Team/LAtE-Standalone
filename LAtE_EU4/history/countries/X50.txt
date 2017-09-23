@@ -1,0 +1,27 @@
+# Chocó
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = rochela
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 826
+3026.10.1 = {
+	monarch = {
+		name = "Elena"
+		birth_date = 3011.3.13
+		dynasty = "Serrano"
+		female = yes
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 826
+	add_treasury = 41
+	add_prestige = 353
+}

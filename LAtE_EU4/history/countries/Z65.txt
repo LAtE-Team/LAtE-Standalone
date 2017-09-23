@@ -1,0 +1,26 @@
+# Ackia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 919
+3050.9.4 = {
+	monarch = {
+		name = "Pulcher"
+		birth_date = 3016.4.28
+		dynasty = "Aristley"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 919
+	add_treasury = 3
+	add_prestige = 27
+	elector = no
+}

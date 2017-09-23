@@ -1,0 +1,24 @@
+#526 - Mandu
+
+owner = MLW
+controller = MLW
+culture = malvi
+religion = hinduism
+capital = "Indore"
+trade_goods = dyes
+hre = no
+base_tax = 6 
+base_production = 7
+base_manpower = 4
+is_city = yes
+add_core= MLW
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

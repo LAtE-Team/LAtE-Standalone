@@ -1,0 +1,27 @@
+# First Coast
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 927
+3052.5.11 = {
+	monarch = {
+		name = "Tiffany"
+		birth_date = 3040.11.12
+		dynasty = "Blythe"
+		female = yes
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 927
+	add_treasury = 221
+	add_prestige = 30
+	elector = no
+}

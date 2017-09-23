@@ -1,0 +1,193 @@
+# New York
+graphical_culture = westerngfx
+color = { 0 42 134 }
+
+
+
+
+leader_names = {
+
+	"Lucan" "Balian" "Havelock" "Hester" "Bedivere" "Lenore" "Caelia" "Morgan" "Lorraine" "Morgause" 
+	"Hannah" "Laudine" "Florell" "Patricis" "Ardolph" "Quirinis" "Daniel" "German" "Lambert" "Ermann" 
+	"Nicholas" "Sigerich" "Sebastian" "Eilmer" "Markus" "Rambert" "Wiprecht" "Henning" "Uriens" "Paget" 
+	"Adriaen" "Aldobrandt" "Andrew" "Achilles" "Agapett" "Alberht" "Alessander" "Arnold" "Aurel" "Beppe" 
+	"Bruce" "Bartolomeus" "Benedett" "Benett" "Bruno" "Boniface" "Bonaventura" "Berthold" "Bertrand" "Christopher" 
+	"Cornelis" "Caleb" "Carles" "Cadwallader" "Caloger" "Casimir" "Carmine" "Celsus" "Constantin" "David" 
+	"Dewitt" "Darius" "Donat" "Dorian" "Duile" "Diufe" "Elihu" "Ebenezer" "Edward" "Eastman" 
+	"Elmo" "Egidis" "Erasmis" "Ercole" "Eusebe" "Eustace" "Evarist" "Ezio" "Francelin" "Frederik" 
+	"Ferdinand" "Ferrutt" "Fulgent" "Flavis" "Fulvis" "Friso" "Giovannes" "Gerard" "Giorge" "Gerolamm" 
+	"Gennard" "Gianluke" "Gianpaul" "Gioacchim" "Girald" "Goffred" "Henreyk" "Hector" "Horatis" "Humbert" 
+	"Isaac" "Isidorr" "Jonas" "Jacobbe" "Julius" "Koch" "Lewis" "Levi" "Ludovick" "Leander" 
+	"Leonard" "Leone" "Lelis" "Livis" "Loris" "Lucis" "Lamoral" "Martin" "Marinus" "Marius" 
+	"Michael" "Marcus" "Manlis" "Modestis" "Mattheus" "Narciss" "Nevis" "Nestor" "Nunzis" "Oldstead" 
+	"Osvald" "Orsinis" "Ottavis" "Ottavin" "Ottone" "Pieter" "Paulus" "Peregrin" "Rudy" "Richard" 
+	"Robertus" "Samuel" "Stephen" "Seth" "Stratis" "Salvator" "Sylvester" "Silvis" "Sedgewick" "Theo" 
+	"Thom" "Thaddeus" "Tacit" "Tullis" "Ulderic" "Vincent" "Victor" "Venceslaus" "Varian" "Wualter" 
+	"Wuillem" "Whitehead" "Wagner" "York" }
+monarch_names = {
+	"Lucan #0" = 27
+	"Balian #0" = 1
+	"Havelock #0" = 1
+	"Hester #0" = -1
+	"Bedivere #0" = 1
+	"Lenore #0" = -1
+	"Caelia #0" = -1
+	"Morgan #0" = 1
+	"Lorraine #0" = -1
+	"Morgause #0" = -1
+	"Hannah #0" = -1
+	"Laudine #0" = -1
+	"Florell #0" = 0
+	"Patricis #0" = 0
+	"Ardolph #0" = 0
+	"Quirinis #0" = 0
+	"Daniel #0" = 0
+	"German #0" = 0
+	"Lambert #0" = 0
+	"Ermann #0" = 0
+	"Nicholas #0" = 0
+	"Sigerich #0" = 0
+	"Sebastian #0" = 0
+	"Eilmer #0" = 0
+	"Markus #0" = 0
+	"Rambert #0" = 0
+	"Wiprecht #0" = 0
+	"Henning #0" = 0
+	"Uriens #0" = 0
+	"Paget #0" = 0
+	"Adriaen #0" = 0
+	"Aldobrandt #0" = 0
+	"Andrew #0" = 0
+	"Achilles #0" = 0
+	"Agapett #0" = 0
+	"Alberht #0" = 0
+	"Alessander #0" = 0
+	"Arnold #0" = 0
+	"Aurel #0" = 0
+	"Beppe #0" = 0
+	"Bruce #0" = 0
+	"Bartolomeus #0" = 0
+	"Benedett #0" = 0
+	"Benett #0" = 0
+	"Bruno #0" = 0
+	"Boniface #0" = 0
+	"Bonaventura #0" = 0
+	"Berthold #0" = 0
+	"Bertrand #0" = 0
+	"Christopher #0" = 0
+	"Cornelis #0" = 0
+	"Caleb #0" = 0
+	"Carles #0" = 0
+	"Cadwallader #0" = 0
+	"Caloger #0" = 0
+	"Casimir #0" = 0
+	"Carmine #0" = 0
+	"Celsus #0" = 0
+	"Constantin #0" = 0
+	"David #0" = 0
+	"Dewitt #0" = 0
+	"Darius #0" = 0
+	"Donat #0" = 0
+	"Dorian #0" = 0
+	"Duile #0" = 0
+	"Diufe #0" = 0
+	"Elihu #0" = 0
+	"Ebenezer #0" = 0
+	"Edward #0" = 0
+	"Eastman #0" = 0
+	"Elmo #0" = 0
+	"Egidis #0" = 0
+	"Erasmis #0" = 0
+	"Ercole #0" = 0
+	"Eusebe #0" = 0
+	"Eustace #0" = 0
+	"Evarist #0" = 0
+	"Ezio #0" = 0
+	"Francelin #0" = 0
+	"Frederik #0" = 0
+	"Ferdinand #0" = 0
+	"Ferrutt #0" = 0
+	"Fulgent #0" = 0
+	"Flavis #0" = 0
+	"Fulvis #0" = 0
+	"Friso #0" = 0
+	"Giovannes #0" = 0
+	"Gerard #0" = 0
+	"Giorge #0" = 0
+	"Gerolamm #0" = 0
+	"Gennard #0" = 0
+	"Gianluke #0" = 0
+	"Gianpaul #0" = 0
+	"Gioacchim #0" = 0
+	"Girald #0" = 0
+	"Goffred #0" = 0
+	"Henreyk #0" = 0
+	"Hector #0" = 0
+	"Horatis #0" = 0
+	"Humbert #0" = 0
+	"Isaac #0" = 0
+	"Isidorr #0" = 0
+	"Jonas #0" = 0
+	"Jacobbe #0" = 0
+	"Julius #0" = 0
+	"Koch #0" = 0
+	"Lewis #0" = 0
+	"Levi #0" = 0
+	"Ludovick #0" = 0
+	"Leander #0" = 0
+	"Leonard #0" = 0
+	"Leone #0" = 0
+	"Lelis #0" = 0
+	"Livis #0" = 0
+	"Loris #0" = 0
+	"Lucis #0" = 0
+	"Lamoral #0" = 0
+	"Martin #0" = 0
+	"Marinus #0" = 0
+	"Marius #0" = 0
+	"Michael #0" = 0
+	"Marcus #0" = 0
+	"Manlis #0" = 0
+	"Modestis #0" = 0
+	"Mattheus #0" = 0
+	"Narciss #0" = 0
+	"Nevis #0" = 0
+	"Nestor #0" = 0
+	"Nunzis #0" = 0
+	"Oldstead #0" = 0
+	"Osvald #0" = 0
+	"Orsinis #0" = 0
+	"Ottavis #0" = 0
+	"Ottavin #0" = 0
+	"Ottone #0" = 0
+	"Pieter #0" = 0
+	"Paulus #0" = 0
+	"Peregrin #0" = 0
+	"Rudy #0" = 0
+	"Richard #0" = 0
+	"Robertus #0" = 0
+	"Samuel #0" = 0
+	"Stephen #0" = 0
+	"Seth #0" = 0
+	"Stratis #0" = 0
+	"Salvator #0" = 0
+	"Sylvester #0" = 0
+	"Silvis #0" = 0
+	"Sedgewick #0" = 0
+	"Theo #0" = 0
+	"Thom #0" = 0
+	"Thaddeus #0" = 0
+	"Tacit #0" = 0
+	"Tullis #0" = 0
+	"Ulderic #0" = 0
+	"Vincent #0" = 0
+	"Victor #0" = 0
+	"Venceslaus #0" = 0
+	"Varian #0" = 0
+	"Wualter #0" = 0
+	"Wuillem #0" = 0
+	"Whitehead #0" = 0
+	"Wagner #0" = 0
+	"York #0" = 0
+}
+

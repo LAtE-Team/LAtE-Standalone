@@ -1,0 +1,26 @@
+# Shenandoah
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2011
+3048.2.22 = {
+	monarch = {
+		name = "Griflet"
+		birth_date = 3023.9.23
+		dynasty = "Longroad"
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+3053.1.1 {
+	capital = 2011
+	add_treasury = 59
+	add_prestige = 140
+	elector = no
+}

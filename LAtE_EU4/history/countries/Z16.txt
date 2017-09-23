@@ -1,0 +1,27 @@
+# Piedmont
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2011
+3038.7.25 = {
+	monarch = {
+		name = "Regulus II"
+		birth_date = 3025.4.15
+		dynasty = "Oakheart"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 2011
+	add_treasury = 30
+	add_prestige = 244
+	elector = no
+}

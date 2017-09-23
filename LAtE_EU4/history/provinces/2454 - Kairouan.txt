@@ -1,0 +1,22 @@
+# - El Kef
+
+culture = tunisian
+religion = sunni
+capital = "El Kef"
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+native_size = 30
+native_ferocity = 4
+native_hostileness = 9
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian

@@ -1,0 +1,113 @@
+# Boonslick
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 0 141 182 }
+
+
+
+
+leader_names = {
+
+	"Callaway" "Clemens" "Collier" "Webb" "Todd" "Louis" "Tom" "Fulton" "Cowin" "Samuel" 
+	"Dodge" "Calhoun" "Adam" "Nathaniel" "Mark" "Sampson" "Sid" "Clyde" "Burton" "Allen" 
+	"Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Clifton" "Claude" "Curlew" 
+	"Caleb" "Cain" "Clarence" "Campion" "Curtis" "Eolus" "Ellis" "Earl" "Finn" "Fitch" 
+	"Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon" 
+	"Lorton" "Langhorne" "Laurel" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Napoleon" "Nereus" 
+	"Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" "Quintin" "Ross" 
+	"Squire" "Simon" "Stirling" "Segar" "Sherod" "Theodore" "Twain" "Trigg" "Vick" "William" 
+	"Winslow" "Winfield" "Wheeler" "Yadkin" }
+monarch_names = {
+	"Callaway #1" = 0
+	"Clemens #1" = 0
+	"Collier #1" = 0
+	"Webb #1" = 0
+	"Todd #1" = 0
+	"Louis #1" = 0
+	"Tom #2" = 0
+	"Fulton #1" = 0
+	"Cowin #2" = 0
+	"Samuel #3" = 0
+	"Dodge #1" = 0
+	"Calhoun #1" = 0
+	"Adam #2" = 0
+	"Nathaniel #1" = 0
+	"Mark #3" = 0
+	"Sampson #1" = 0
+	"Sid #1" = 0
+	"Clyde #1" = 0
+	"Burton #1" = 0
+	"Allen #0" = 0
+	"Abel #0" = 0
+	"Boone #0" = 0
+	"Burnie #0" = 0
+	"Bixby #0" = 0
+	"Benton #0" = 0
+	"Bruce #0" = 0
+	"Beauregard #0" = 0
+	"Clifton #0" = 0
+	"Claude #0" = 0
+	"Curlew #0" = 0
+	"Caleb #0" = 0
+	"Cain #0" = 0
+	"Clarence #0" = 0
+	"Campion #0" = 0
+	"Curtis #0" = 0
+	"Eolus #0" = 0
+	"Ellis #0" = 0
+	"Earl #0" = 0
+	"Finn #0" = 0
+	"Fitch #0" = 0
+	"Gregor #0" = 0
+	"Hannibal #0" = 0
+	"Hank #0" = 0
+	"Horace #0" = 0
+	"Hull #0" = 0
+	"Jake #0" = 0
+	"Jim #0" = 0
+	"Josiah #0" = 0
+	"Lee #0" = 0
+	"Leon #0" = 0
+	"Lorton #0" = 0
+	"Langhorne #0" = 0
+	"Laurel #0" = 0
+	"Micaiah #0" = 0
+	"Marshall #0" = 0
+	"Morris #0" = 0
+	"Morgan #0" = 0
+	"Mouton #0" = 0
+	"Napoleon #0" = 0
+	"Nereus #0" = 0
+	"Niphon #0" = 0
+	"Orion #0" = 0
+	"Porter #0" = 0
+	"Pleasant #0" = 0
+	"Perry #0" = 0
+	"Patrick #0" = 0
+	"Putnam #0" = 0
+	"Preston #0" = 0
+	"Quintin #0" = 0
+	"Ross #0" = 0
+	"Squire #0" = 0
+	"Simon #0" = 0
+	"Stirling #0" = 0
+	"Segar #0" = 0
+	"Sherod #0" = 0
+	"Theodore #0" = 0
+	"Twain #0" = 0
+	"Trigg #0" = 0
+	"Vick #0" = 0
+	"William #0" = 0
+	"Winslow #0" = 0
+	"Winfield #0" = 0
+	"Wheeler #0" = 0
+	"Yadkin #0" = 0
+
+
+	"Fuchsia #0" = -1
+	"Alexandra #0" = -1
+	"Tulip #0" = -1
+	"May #0" = -1
+	"Juniper #0" = -1
+}
+

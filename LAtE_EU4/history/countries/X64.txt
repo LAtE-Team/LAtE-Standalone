@@ -1,0 +1,25 @@
+# Abak
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = sranan
+religion = candomble
+clear_scripted_personalities = yes
+capital = 2937
+3046.7.6 = {
+	monarch = {
+		name = "Rafael II"
+		birth_date = 2996.9.10
+		dynasty = "Bolvaríana"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 2937
+	add_treasury = 41
+	add_prestige = 202
+}

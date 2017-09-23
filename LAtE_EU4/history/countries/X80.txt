@@ -1,0 +1,25 @@
+# Windward Isles
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = calypsonian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 501
+3046.7.7 = {
+	monarch = {
+		name = "Clifton II"
+		birth_date = 2989.9.25
+		dynasty = "Collymoore"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 501
+	add_treasury = 505
+	add_prestige = 195
+}

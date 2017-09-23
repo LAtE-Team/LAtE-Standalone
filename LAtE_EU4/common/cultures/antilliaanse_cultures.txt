@@ -1,0 +1,9 @@
+antilliaanse = {
+	papiamen = {
+		dynasty_names = { "van Deshaies" }
+	}
+	sranan = {
+		primary = SUR
+		dynasty_names = { }
+	}
+}

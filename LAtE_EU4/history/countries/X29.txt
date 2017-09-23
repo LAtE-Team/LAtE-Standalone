@@ -1,0 +1,26 @@
+# Death Valley
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = paiute
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4513
+3029.5.2 = {
+	monarch = {
+		name = "Marcel II"
+		birth_date = 2999.12.12
+		dynasty = "Davis"
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 4513
+	add_treasury = 93
+	add_prestige = 353
+}

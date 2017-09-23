@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = russian
+religion = atomicist
+technology_group = indian
+capital = 466 #Sarai
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Vladimir"
+		dynasty = "Toropetsky"
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}

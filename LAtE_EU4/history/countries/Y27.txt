@@ -1,0 +1,39 @@
+# Clinch
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = melungeon
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2548
+3022.4.23 = {
+	monarch = {
+		name = "Regulus"
+		birth_date = 3012.9.2
+		dynasty = "Dunwoody"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = conqueror_personality
+}
+3033.3.16 = {
+	heir = {
+		name = "Regulus"
+		monarch_name = "Regulus II"
+		dynasty = "Dunwoody"
+		birth_date = 3033.3.16
+		death_date = 3113.3.16
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+	add_heir_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 2548
+	add_treasury = -6
+	add_prestige = 279
+}

@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = kanauji
+religion = jain
+technology_group = indian
+capital = 529	# Mumbai
+add_accepted_culture = marathi

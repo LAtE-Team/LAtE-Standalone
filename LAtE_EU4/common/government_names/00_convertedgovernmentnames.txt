@@ -1,0 +1,569 @@
+# Tag Specific
+texark_monarchy = {
+	rank = {
+		1 = MAYORATE
+		2 = MAYORATE
+		3 = MAYORATE
+	}	
+	
+	ruler_male = {
+		1 = HANNEGAN
+		2 = HANNEGAN
+		3 = HANNEGAN
+	}
+	
+	ruler_female = {
+		1 = HANNEGAN
+		2 = HANNEGAN	
+		3 = HANNEGAN
+	}
+	
+	trigger = {
+		government = monarchy
+		tag = TXK
+	}
+}
+newyork_monarchy = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE_STATE
+	}
+	
+	trigger = {
+		government = monarchy
+		tag = NYS
+	}
+}
+# Boer
+boer_monarchy = {
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = KAPTEIN
+		2 = KONING
+		3 = KEISER
+	}
+	
+	ruler_female = {
+		1 = KAPTEIN
+		2 = KONINGIN
+		3 = KEISERIN
+	}
+	
+	trigger = {
+		government = monarchy
+		culture_group = boer
+	}
+}
+# Old World Cultist
+americanist_theocracy = {
+	rank = {
+		1 = HIGH_COURT
+		2 = GENERAL_COURT
+		3 = SUPREME_COURT
+	}	
+	
+	ruler_male = {
+		1 = HIGH_JUDGE
+		2 = GENERAL_JUDGE
+		3 = SUPREME_JUDGE
+	}
+	
+	ruler_female = {
+		1 = HIGH_JUDGE
+		2 = GENERAL_JUDGE
+		3 = SUPREME_JUDGE
+	}
+	
+	trigger = {
+		government = theocracy
+		OR = {
+			religion = americanist
+			religion = hamiltonian
+			religion = jeffersonian
+			religion = libertarian
+		}
+	}
+}
+atomicist_theocracy = {
+	rank = {
+		1 = COLLEGE
+		2 = UNIVERSITY
+		3 = ACADEMY
+	}	
+	
+	ruler_male = {
+		1 = PROFESSOR
+		2 = PROVOST
+		3 = ACADEMY_PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PROFESSOR
+		2 = PROVOST
+		3 = ACADEMY_PRESIDENT
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = atomicist
+	}
+}
+consumerist_monarchy = {
+	rank = {
+		1 = DIRECTORATE
+		2 = CORPORATION
+		3 = CONGLOMERATE
+	}	
+	
+	ruler_male = {
+		1 = MANAGING_DIRECTOR
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRMAN
+	}
+	
+	ruler_female = {
+		1 = MANAGING_DIRECTOR
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRWOMAN
+	}
+	
+	trigger = {
+		government = monarchy
+		OR = {
+			religion = consumerist
+			religion = monetarist
+		}
+	}
+}
+consumerist_republic = {
+	rank = {
+		1 = FRANCHISE
+		2 = RETAIL_CHAIN
+		3 = MULTINATIONAL
+	}	
+	
+	ruler_male = {
+		1 = FRANCHISEE
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRMAN
+	}
+	
+	ruler_female = {
+		1 = FRANCHISEE
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRWOMAN
+	}
+	
+	trigger = {
+		government = republic
+		OR = {
+			religion = consumerist
+			religion = monetarist
+		}
+	}
+}
+consumerist_theocracy = {
+	rank = {
+		1 = MALL
+		2 = MEGAMALL
+		3 = MEGAMALL_CONGLOMERATE
+	}	
+	
+	ruler_male = {
+		1 = MANAGING_DIRECTOR
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRMAN
+	}
+	
+	ruler_female = {
+		1 = MANAGING_DIRECTOR
+		2 = EXECUTIVE_DIRECTOR
+		3 = CHAIRWOMAN
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = consumerist
+	}
+}
+
+# Mormon
+mormon_theocracy = {
+	rank = {
+		1 = WARD
+		2 = STAKE
+		3 = AREA
+	}	
+	
+	ruler_male = {
+		1 = BISHOP
+		2 = STAKE_PRESIDENT
+		3 = AREA_SEVENTY
+	}
+	
+	ruler_female = {
+		1 = BISHOP
+		2 = STAKE_PRESIDENT
+		3 = AREA_SEVENTY
+	}
+	
+	trigger = {
+		government = theocracy
+		OR = {
+			religion = mormon
+			religion = bickertonite
+			religion = strangite
+			religion = godbeite
+		}
+	}
+}
+
+# Pagan
+rust_cultist_monarchy = {
+	rank = {
+		1 = ENTERPRISE
+		2 = OLIGARCHATE
+		3 = TYCOONSHIP
+	}	
+	
+	ruler_male = {
+		1 = MAGNATE
+		2 = OLIGARCH
+		3 = TYCOON
+	}
+	
+	ruler_female = {
+		1 = MAGNATE
+		2 = OLIGARCH
+		3 = TYCOON
+	}
+	
+	trigger = {
+		government = monarchy
+		religion = rust_cultist
+	}
+}
+rust_cultist_republic = {
+	rank = {
+		1 = FACTORY
+		2 = UNION
+		3 = FEDERATED_UNIONS
+	}	
+	
+	ruler_male = {
+		1 = OVERSEER
+		2 = ORGANISER
+		3 = UNION_PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = OVERSEER
+		2 = ORGANISER
+		3 = UNION_PRESIDENT
+	}
+	
+	trigger = {
+		government = republic
+		religion = rust_cultist
+	}
+}
+rust_cultist_theocracy = {
+	rank = {
+		1 = INSPECTORATE
+		2 = RAILROAD
+		3 = SYSTEM
+	}	
+	
+	ruler_male = {
+		1 = INSPECTOR
+		2 = ENGINEER
+		3 = HIGH_ENGINEER
+	}
+	
+	ruler_female = {
+		1 = INSPECTOR
+		2 = ENGINEER
+		3 = HIGH_ENGINEER
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = rust_cultist
+	}
+}
+british_protectorate = { # In her house in the White Hall, the dead Queen lies dreaming
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = PROTECTOR
+		2 = LORD_PROTECTOR
+		3 = LORD_PROTECTOR
+	}
+	
+	ruler_female = {
+		1 = PROTECTOR_fem
+		2 = LADY_PROTECTOR
+		3 = LADY_PROTECTOR
+	}
+	
+	trigger = {
+		government = english_monarchy
+		religion = thelemic
+	}
+}
+thelemic_monarchy = { # Thelemic monarchies other than Britain
+	rank = {
+		1 = DUCHY
+		2 = KINGDOM
+		3 = EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = DUKE
+		2 = PHARAOH
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = DUCHESS
+		2 = PHARAOH
+		3 = EMPRESS
+	}
+	
+	trigger = {
+		government = monarchy
+		religion = thelemic
+	}
+}
+thelemic_theocracy = {
+	rank = {
+		1 = HOLY_PRINCIPALITY
+		2 = HOLY_STATE
+		3 = HOLY_EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = DOMINUS_LIMINIS
+		2 = MAGISTER_TEMPLI
+		3 = MAGUS
+	}
+	
+	ruler_female = {
+		1 = DOMINUS_LIMINIS
+		2 = MAGISTER_TEMPLI
+		3 = MAGUS
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = thelemic
+	}
+}
+occultist_theocracy = {
+	rank = {
+		1 = HOLY_PRINCIPALITY
+		2 = HOLY_STATE
+		3 = HOLY_EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = MYSTAGOGUE
+		2 = THEURGE
+		3 = HIEROPHANT
+	}
+	
+	ruler_female = {
+		1 = MYSTAGOGUE
+		2 = THEURGE
+		3 = HIEROPHANT
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = occultist
+	}
+}
+
+# Christian
+ursuline_theocracy = {
+	rank = {
+		1 = ABBEY
+		2 = CONVENT
+		3 = ORDER
+	}	
+	
+	ruler_male = {
+		1 = ABBOT
+		2 = FATHER_SUPERIOR
+		3 = FATHER_GENERAL
+	}
+	
+	ruler_female = {
+		1 = ABBESS
+		2 = MOTHER_SUPERIOR
+		3 = MOTHER_GENERAL
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = ursuline
+	}
+}
+
+# Pirate
+brethren_monarchy = {
+	rank = {
+		1 = CAPTAINCY
+		2 = FLOTILLA
+		3 = ADMIRALTY
+	}	
+	
+	ruler_male = {
+		1 = CAPTAIN
+		2 = COMMODORE
+		3 = ADMIRAL
+	}
+	
+	ruler_female = {
+		1 = CAPTAIN
+		2 = COMMODORE
+		3 = ADMIRAL
+	}
+	
+	trigger = {
+		government = monarchy
+		religion = brethren
+	}
+}
+brethren_theocracy = {
+	rank = {
+		1 = PILOTHOUSE
+		2 = LIGHTHOUSE
+		3 = COURSE
+	}	
+	
+	ruler_male = {
+		1 = PILOT
+		2 = KEEPER
+		3 = NAVIGATOR
+	}
+	
+	ruler_female = {
+		1 = PILOT
+		2 = KEEPER
+		3 = NAVIGATOR
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = brethren
+	}
+}
+
+# Eastern
+cetic_theocracy = {
+	rank = {
+		1 = SCHOOL
+		2 = LAMATE
+		3 = ACADEMY
+	}	
+	
+	ruler_male = {
+		1 = MASTER
+		2 = LAMA
+		3 = GRAND_MASTER
+	}
+	
+	ruler_female = {
+		1 = MISTRESS
+		2 = LAMA
+		3 = GRAND_MISTRESS
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = cetic
+	}
+}
+cetic_monarchy = {
+	rank = {
+		1 = PREFECTURE
+		2 = KINGDOM
+		3 = EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = PREFECT
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = PREFECT
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	trigger = {
+		government = monarchy
+		religion = cetic
+	}
+}
+gaian_theocracy = {
+	rank = {
+		1 = GROVE
+		2 = WOOD
+		3 = FOREST
+	}	
+	
+	ruler_male = {
+		1 = DRUID
+		2 = ARCHDRUID
+		3 = GRAND_DRUID
+	}
+	
+	ruler_female = {
+		1 = DRUIDESS
+		2 = ARCHDRUIDESS
+		3 = GRAND_DRUIDESS
+	}
+	
+	trigger = {
+		government = theocracy
+		religion = gaian
+	}
+}
+# Nomad
+gov_steppe_horde = {
+	rank = {
+		1 = HORDE
+		2 = RANGE
+		3 = HORSELANDS
+	}
+	
+	ruler_male = {
+		1 = SHERIFF
+		2 = MARSHAL
+		3 = HORSELORD
+	}
+	
+	ruler_female = {
+		1 = SHERIFF
+		2 = MARSHAL
+		3 = HORSELADY
+	}
+	
+	trigger = {
+		government = steppe_horde
+	}
+}

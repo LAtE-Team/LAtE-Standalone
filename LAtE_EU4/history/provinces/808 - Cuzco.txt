@@ -1,0 +1,25 @@
+#808 - Cuzco
+
+owner = PEU
+controller = PEU
+culture = inca
+religion = inti
+capital = "Cuzco"
+trade_goods = gold
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 2
+is_city = no
+add_core= PEU
+fort_15th = yes
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,25 @@
+#2677 - Jambi
+
+#owner = SAK
+#controller = SAK
+culture = sumatran
+religion = ahmadi
+capital = "Jambi"
+trade_goods = spices
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = no
+#add_core= SAK
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

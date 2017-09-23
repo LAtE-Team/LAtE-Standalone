@@ -1,0 +1,26 @@
+# Havana
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 484
+3023.12.1 = {
+	monarch = {
+		name = "Augustine"
+		birth_date = 3004.5.21
+		dynasty = "de Mazariegos"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 484
+	add_treasury = 45
+	add_prestige = 201
+}

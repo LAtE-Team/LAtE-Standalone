@@ -1,0 +1,25 @@
+# Las Villas
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 4712
+3045.10.13 = {
+	monarch = {
+		name = "Omar II"
+		birth_date = 3011.2.4
+		dynasty = "de Mazariegos"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 4712
+	add_treasury = 335
+	add_prestige = 132
+}

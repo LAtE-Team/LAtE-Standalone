@@ -1,0 +1,16 @@
+#1318 - Spiš
+
+#owner = HUN
+#controller = HUN  
+culture = slovak
+religion = tengri_pagan_reformed
+capital = "Spiš"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

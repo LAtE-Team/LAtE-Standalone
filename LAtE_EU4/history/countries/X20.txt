@@ -1,0 +1,25 @@
+# Marias
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = mountainer
+religion = gaian
+clear_scripted_personalities = yes
+capital = 2501
+3053.1.1= {
+	monarch = {
+		name = "Tuff"
+		birth_date = 3023.12.15
+		dynasty = "of Fort Benton"
+		adm = 0
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 2501
+	add_treasury = 17
+	add_prestige = 1
+}

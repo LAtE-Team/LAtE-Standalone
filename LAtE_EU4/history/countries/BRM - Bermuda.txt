@@ -1,0 +1,39 @@
+# Bermuda
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bermudian
+religion = brethren
+clear_scripted_personalities = yes
+capital = 481
+3038.7.13 = {
+	monarch = {
+		name = "Malachi"
+		birth_date = 2994.5.4
+		dynasty = "Browne"
+		adm = 1
+		dip = 0
+		mil = 6
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3042.9.26 = {
+	heir = {
+		name = "Malachi"
+		monarch_name = "Malachi II"
+		dynasty = "Browne"
+		birth_date = 3042.9.26
+		death_date = 3122.9.26
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = navigator_personality
+}
+3053.1.1 {
+	capital = 481
+	add_treasury = 130
+	add_prestige = 73
+}

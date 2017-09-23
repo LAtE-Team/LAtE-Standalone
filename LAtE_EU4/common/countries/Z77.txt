@@ -1,0 +1,262 @@
+# Beaufort
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 25 135 75 }
+
+
+
+
+leader_names = {
+
+	"Geoffrey" "Augustus" "Nathanael" "Davis" "Catherine" "Winfield" "May" "Alexandra" "Claudius" "Petrus" 
+	"Bryan" "Sandy" "Bohemond" "Constantine" "Rubymae" "Neptune" "William" "Jupiter" "Kaylin" "Armistead" 
+	"Beatrice" "Seth" "Mercedes" "Horace" "Raleigh" "Erin" "Violet" "Baker" "Leanne" "Claudine" 
+	"Simon" "Megara" "Naomi" "Tiffany" "Atticus" "Trophimus" "Griflet" "Melisende" "Claudette" "Breanna" 
+	"Cleon" "Merriman" "Anthemeol" "Jo" "Saturn" "Tiberius" "Bedivere" "Timon" "Jerry" "Hera" 
+	"Stephanie" "Nia" "Tertius" "Laurina" "Buck" "Iseult" "Harriet" "Guinevere" "Mary" "Octavian" 
+	"Pluto" "Clover" "India" "Laurentius" "Caroline" "Beauregard" "Silvana" "Homer" "Brittney" "Cornelia" 
+	"Brangwin" "Rhett" "Lamartine" "Daisy" "Georgia" "Zacharias" "Destiny" "Achilles" "Artemis" "Lucius" 
+	"Primrose" "Arlene" "Antonia" "Jackson" "Saunder" "Rhea" "Jocasta" "Estelle" "Ulixes" "Antigone" 
+	"Polycarpus" "Goode" "Superbus" "Julius" "Sosipater" "Margaret" "Belle" "Lucia" "Cola" "Pamilia" 
+	"Lucilla" "Joanna" "June" "Austin" "Adley" "Alexander" "Abe" "Avery" "Arthur" "Boblee" 
+	"Bill" "Bo" "Bart" "Bodean" "Bubba" "Buddy" "Bucephalus" "Billup" "Bob" "Braxton" 
+	"Burris" "Conway" "Casey" "Chandler" "Chuck" "Chester" "Cleavon" "Cletus" "Clint" "Cooter" 
+	"Cooper" "Cody" "Charles" "Cecil" "Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny" 
+	"Dwayne" "Dwight" "Dixon" "Dolphus" "Dill" "Earl" "Elrod" "Enos" "Eustice" "Ewell" 
+	"Floyd" "Forrest" "Fred" "Francis" "Garth" "George" "Grattan" "Gregory" "Gilmer" "Harley" 
+	"Harry" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock" "Hale" "Isham" "Ike" 
+	"Jesse" "Johnny" "John" "Jed" "Jessie" "Jim" "Joe" "Junior" "Jeptha" "Jubal" 
+	"Jeremy" "Jem" "Jack" "Lee" "Littlejohn" "Luther" "Lon" "Lyndon" "Larry" "Link" 
+	"Mike" "Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" "Philander" "Ray" "Reb" 
+	"Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Ricky" "Radley" "Raymond" "Reynold" 
+	"Robert" "Saggory" "Spencer" "Tommylee" "Trigger" "Tyler" "Terry" "Tate" "Taylor" "Vinton" 
+	"Wade" "Winchester" "Woody" "Wilbur" "Whitely" "Walter" }
+monarch_names = {
+	"Geoffrey #0" = 1
+	"Augustus #0" = 1
+	"Nathanael #0" = 1
+	"Davis #0" = 1
+	"Catherine #0" = -1
+	"Winfield #0" = 1
+	"May #0" = -1
+	"Alexandra #0" = -1
+	"Claudius #0" = 1
+	"Petrus #0" = 1
+	"Bryan #0" = 1
+	"Sandy #0" = -1
+	"Bohemond #0" = 1
+	"Constantine #0" = 1
+	"Rubymae #0" = -1
+	"Neptune #0" = 1
+	"William #0" = 1
+	"Jupiter #0" = 1
+	"Kaylin #0" = -1
+	"Armistead #0" = 1
+	"Beatrice #0" = -1
+	"Seth #0" = 1
+	"Mercedes #0" = -1
+	"Horace #0" = 1
+	"Raleigh #0" = 1
+	"Erin #0" = -1
+	"Violet #0" = -1
+	"Baker #0" = 1
+	"Leanne #0" = -1
+	"Claudine #0" = -1
+	"Simon #0" = 1
+	"Megara #0" = -1
+	"Naomi #0" = -1
+	"Tiffany #0" = -1
+	"Atticus #0" = 1
+	"Trophimus #0" = 1
+	"Griflet #0" = 1
+	"Melisende #0" = -1
+	"Claudette #0" = -1
+	"Breanna #0" = -1
+	"Cleon #0" = 1
+	"Merriman #0" = 1
+	"Anthemeol #0" = 1
+	"Jo #0" = -1
+	"Saturn #0" = 1
+	"Tiberius #0" = 1
+	"Bedivere #0" = 1
+	"Timon #0" = 1
+	"Jerry #0" = 1
+	"Hera #0" = -1
+	"Stephanie #0" = -1
+	"Nia #0" = -1
+	"Tertius #0" = 1
+	"Laurina #0" = -1
+	"Buck #0" = 1
+	"Iseult #0" = -1
+	"Harriet #0" = -1
+	"Guinevere #0" = -1
+	"Mary #0" = -1
+	"Octavian #0" = 1
+	"Pluto #0" = 1
+	"Clover #0" = -1
+	"India #0" = -1
+	"Laurentius #0" = 1
+	"Caroline #0" = -1
+	"Beauregard #0" = 1
+	"Silvana #0" = -1
+	"Homer #0" = 1
+	"Brittney #0" = -1
+	"Cornelia #0" = -1
+	"Brangwin #0" = 1
+	"Rhett #0" = 1
+	"Lamartine #0" = 1
+	"Daisy #0" = -1
+	"Georgia #0" = -1
+	"Zacharias #0" = 1
+	"Destiny #0" = -1
+	"Achilles #0" = 1
+	"Artemis #0" = -1
+	"Lucius #0" = 1
+	"Primrose #0" = -1
+	"Arlene #0" = -1
+	"Antonia #0" = -1
+	"Jackson #0" = 1
+	"Saunder #0" = 1
+	"Rhea #0" = -1
+	"Jocasta #0" = -1
+	"Estelle #0" = -1
+	"Ulixes #0" = 1
+	"Antigone #0" = -1
+	"Polycarpus #0" = 1
+	"Goode #0" = 1
+	"Superbus #0" = 1
+	"Julius #0" = 1
+	"Sosipater #0" = 1
+	"Margaret #0" = -1
+	"Belle #0" = -1
+	"Lucia #0" = -1
+	"Cola #0" = -1
+	"Pamilia #0" = -1
+	"Lucilla #0" = -1
+	"Joanna #0" = -1
+	"June #0" = -1
+	"Austin #0" = 0
+	"Adley #0" = 0
+	"Alexander #0" = 0
+	"Abe #0" = 0
+	"Avery #0" = 0
+	"Arthur #0" = 0
+	"Boblee #0" = 0
+	"Bill #0" = 0
+	"Bo #0" = 0
+	"Bart #0" = 0
+	"Bodean #0" = 0
+	"Bubba #0" = 0
+	"Buddy #0" = 0
+	"Bucephalus #0" = 0
+	"Billup #0" = 0
+	"Bob #0" = 0
+	"Braxton #0" = 0
+	"Burris #0" = 0
+	"Conway #0" = 0
+	"Casey #0" = 0
+	"Chandler #0" = 0
+	"Chuck #0" = 0
+	"Chester #0" = 0
+	"Cleavon #0" = 0
+	"Cletus #0" = 0
+	"Clint #0" = 0
+	"Cooter #0" = 0
+	"Cooper #0" = 0
+	"Cody #0" = 0
+	"Charles #0" = 0
+	"Cecil #0" = 0
+	"Dean #0" = 0
+	"Dale #0" = 0
+	"Delmont #0" = 0
+	"Delmer #0" = 0
+	"Doc #0" = 0
+	"Donny #0" = 0
+	"Dwayne #0" = 0
+	"Dwight #0" = 0
+	"Dixon #0" = 0
+	"Dolphus #0" = 0
+	"Dill #0" = 0
+	"Earl #0" = 0
+	"Elrod #0" = 0
+	"Enos #0" = 0
+	"Eustice #0" = 0
+	"Ewell #0" = 0
+	"Floyd #0" = 0
+	"Forrest #0" = 0
+	"Fred #0" = 0
+	"Francis #0" = 0
+	"Garth #0" = 0
+	"George #0" = 0
+	"Grattan #0" = 0
+	"Gregory #0" = 0
+	"Gilmer #0" = 0
+	"Harley #0" = 0
+	"Harry #0" = 0
+	"Hank #0" = 0
+	"Humble #0" = 0
+	"Henry #0" = 0
+	"Heck #0" = 0
+	"Harris #0" = 0
+	"Hancock #0" = 0
+	"Hale #0" = 0
+	"Isham #0" = 0
+	"Ike #0" = 0
+	"Jesse #0" = 0
+	"Johnny #0" = 0
+	"John #0" = 0
+	"Jed #0" = 0
+	"Jessie #0" = 0
+	"Jim #0" = 0
+	"Joe #0" = 0
+	"Junior #0" = 0
+	"Jeptha #0" = 0
+	"Jubal #0" = 0
+	"Jeremy #0" = 0
+	"Jem #0" = 0
+	"Jack #0" = 0
+	"Lee #0" = 0
+	"Littlejohn #0" = 0
+	"Luther #0" = 0
+	"Lon #0" = 0
+	"Lyndon #0" = 0
+	"Larry #0" = 0
+	"Link #0" = 0
+	"Mike #0" = 0
+	"Maxwell #0" = 0
+	"Nate #0" = 0
+	"Nathan #0" = 0
+	"Otis #0" = 0
+	"Philus #0" = 0
+	"Purvis #0" = 0
+	"Philander #0" = 0
+	"Ray #0" = 0
+	"Reb #0" = 0
+	"Robbie #0" = 0
+	"Rocky #0" = 0
+	"Roscoe #0" = 0
+	"Rowan #0" = 0
+	"Roy #0" = 0
+	"Rufus #0" = 0
+	"Ricky #0" = 0
+	"Radley #0" = 0
+	"Raymond #0" = 0
+	"Reynold #0" = 0
+	"Robert #0" = 0
+	"Saggory #0" = 0
+	"Spencer #0" = 0
+	"Tommylee #0" = 0
+	"Trigger #0" = 0
+	"Tyler #0" = 0
+	"Terry #0" = 0
+	"Tate #0" = 0
+	"Taylor #0" = 0
+	"Vinton #0" = 0
+	"Wade #0" = 0
+	"Winchester #0" = 0
+	"Woody #0" = 0
+	"Wilbur #0" = 0
+	"Whitely #0" = 0
+	"Walter #0" = 0
+}
+

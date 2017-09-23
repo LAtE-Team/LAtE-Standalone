@@ -1,0 +1,12 @@
+afroanglo = {
+	gullah = {
+		dynasty_names = { }
+	}
+	motowner = {
+		dynasty_names = { }
+	}
+	tuskegean = {
+		primary = TSK
+		dynasty_names = { "Youngham" "Cobbs" "Gee" "Carter" "Seale" "Trumpauer" "Backus" }
+	}
+}

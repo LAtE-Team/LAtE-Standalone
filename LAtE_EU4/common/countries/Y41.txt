@@ -1,0 +1,219 @@
+# Restigouche
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 140 210 225 }
+
+
+
+
+leader_names = {
+
+	"Bethany" "Nicholas" "Casey" "Judith" "Gemolo" "Federlma" "Alice" "Mina" "Ursula" "Rollin" 
+	"Donata" "Pauline" "Tiaogeara" "Gideon" "Dorothy" "Rip" "Caroline" "Margaret" "Clinton" "Regina" 
+	"Hiawatha" "Chelsea" "Kirke" "Derrick" "Roger" "Raymond" "Hannah" "Amelia" "Luna" "Johannes" 
+	"Jane" "Benjamin" "Catharyna" "Ogden" "Degonadonty" "Bella" "Katrina" "Martin" "Jocelyn" "Morgana" 
+	"Eastman" "Elihu" "Rebecca" "Livis" "Jennifer" "Aldobrandt" "Berthold" "David" "Ogarita" "Rufus" 
+	"Silus" "Irene" "Anita" "Molly" "Benett" "Silvana" "Celsus" "Elmo" "Nathaniel" "Ichabod" 
+	"Nestor" "Margarita" "William" "Waneik" "Samuel" "Chester" "Carillon" "Viola" "Alexandra" "Erasmis" 
+	"Rita" "Holbrook" "Bruce" "Renata" "Traynor" "Hunter" "Jasper" "Ebenezer" "Kel" "Philip" 
+	"Harmanus" "Francelin" "Aliequippa" "Jonas" "Rodney" "Frederick" "Ellen" "Guyasut" "August" "Humbert" 
+	"Washington" "Morris" "Charles" "Hillary" "Lauren" "Hap" "Beatrix" "Redgrave" "Rubrum" "Otetian" 
+	"Elizabeth" "Oliver" "Anna" "Truman" "Thomas" "Chenard" "Cyprien" "Norbert" "Octave" "Cormac" 
+	"Redmund" "James" "Aurelia" "Calvin" "Hamish" "Felim" "Duane" "Aine" "Aubin" "Augustule" 
+	"Adhémar" "Alden" "Amédée" "Azor" "Beausejour" "Baudouin" "Bruin" "Bourbon" "Baptiste" "Boishebert" 
+	"Camille" "Clovis" "Claude" "Calixte" "Daniel" "Dupont" "Étienne" "Eymard" "Félix" "Firmin" 
+	"Gérald" "Gagnon" "Grégoire" "Gontran" "Gozlin" "Godefroi" "Heribert" "Henri" "Herménégilde" "Hidulphe" 
+	"Isidore" "Isaie" "Jean" "Jacques" "Joseph" "Louis" "Leonce" "Lévite" "Marcel" "Michael" 
+	"Mathurin" "Neil" "Noël" "Nicolas" "Odo" "Pier" "Paul" "Paris" "Pépin" "René" 
+	"Rhéal" "Roméo" "Réginald" "Roland" "Robert" "Richard" "Renart" "Rorgon" "Richelieu" "Sidoine" 
+	"Télésphore" "Tybalt" "Vernon" "Valois" "Valentin" "Wilifred" "Yvon" }
+monarch_names = {
+	"Bethany #0" = -1
+	"Nicholas #0" = 1
+	"Casey #0" = -1
+	"Judith #0" = -1
+	"Gemolo #1" = 21
+	"Federlma #0" = -1
+	"Alice #0" = -1
+	"Mina #0" = -1
+	"Ursula #0" = -1
+	"Rollin #0" = 1
+	"Donata #0" = -1
+	"Pauline #0" = -1
+	"Tiaogeara #0" = -1
+	"Gideon #0" = 1
+	"Dorothy #0" = -1
+	"Rip #0" = 1
+	"Caroline #0" = -1
+	"Margaret #0" = -1
+	"Clinton #0" = 1
+	"Regina #0" = -1
+	"Hiawatha #0" = -1
+	"Chelsea #0" = -1
+	"Kirke #0" = 1
+	"Derrick #0" = 1
+	"Roger #0" = 1
+	"Raymond #0" = 1
+	"Hannah #0" = -1
+	"Amelia #0" = -1
+	"Luna #0" = -1
+	"Johannes #0" = 1
+	"Jane #0" = -1
+	"Benjamin #0" = 1
+	"Catharyna #0" = -1
+	"Ogden #0" = 1
+	"Degonadonty #0" = -1
+	"Bella #0" = -1
+	"Katrina #0" = -1
+	"Martin #0" = 1
+	"Jocelyn #0" = 1
+	"Morgana #0" = -1
+	"Eastman #0" = 1
+	"Elihu #0" = 1
+	"Rebecca #0" = -1
+	"Livis #0" = 1
+	"Jennifer #0" = -1
+	"Aldobrandt #0" = 1
+	"Berthold #0" = 1
+	"David #0" = 1
+	"Ogarita #0" = -1
+	"Rufus #0" = 1
+	"Silus #0" = 1
+	"Irene #0" = -1
+	"Anita #0" = -1
+	"Molly #0" = -1
+	"Benett #0" = 1
+	"Silvana #0" = -1
+	"Celsus #0" = 1
+	"Elmo #0" = 1
+	"Nathaniel #0" = 1
+	"Ichabod #1" = 21
+	"Nestor #0" = 1
+	"Margarita #0" = -1
+	"William #0" = 1
+	"Waneik #0" = -1
+	"Samuel #0" = 1
+	"Chester #0" = 1
+	"Carillon #0" = 1
+	"Viola #0" = -1
+	"Alexandra #0" = -1
+	"Erasmis #0" = 1
+	"Rita #0" = -1
+	"Holbrook #0" = 1
+	"Bruce #0" = 1
+	"Renata #0" = -1
+	"Traynor #0" = 1
+	"Hunter #0" = 1
+	"Jasper #0" = 1
+	"Ebenezer #0" = 1
+	"Kel #0" = 1
+	"Philip #0" = 1
+	"Harmanus #0" = 1
+	"Francelin #0" = 1
+	"Aliequippa #0" = -1
+	"Jonas #0" = 1
+	"Rodney #0" = 1
+	"Frederick #0" = 1
+	"Ellen #0" = -1
+	"Guyasut #0" = 1
+	"August #0" = 1
+	"Humbert #0" = 1
+	"Washington #0" = 1
+	"Morris #0" = 1
+	"Charles #0" = 1
+	"Hillary #0" = -1
+	"Lauren #0" = -1
+	"Hap #0" = 1
+	"Beatrix #0" = -1
+	"Redgrave #0" = 1
+	"Rubrum #0" = 1
+	"Otetian #0" = 1
+	"Elizabeth #0" = -1
+	"Oliver #0" = 1
+	"Anna #0" = -1
+	"Truman #0" = 1
+	"Thomas #2" = 0
+	"Chenard #1" = 0
+	"Cyprien #1" = 0
+	"Norbert #2" = 0
+	"Octave #1" = 0
+	"Cormac #2" = 0
+	"Redmund #1" = 0
+	"James #1" = 0
+	"Aurelia #1" = -1
+	"Calvin #1" = 0
+	"Hamish #1" = 0
+	"Felim #1" = 0
+	"Duane #1" = 0
+	"Aine #1" = -1
+	"Aubin #0" = 0
+	"Augustule #0" = 0
+	"Adhémar #0" = 0
+	"Alden #0" = 0
+	"Amédée #0" = 0
+	"Azor #0" = 0
+	"Beausejour #0" = 0
+	"Baudouin #0" = 0
+	"Bruin #0" = 0
+	"Bourbon #0" = 0
+	"Baptiste #0" = 0
+	"Boishebert #0" = 0
+	"Camille #0" = 0
+	"Clovis #0" = 0
+	"Claude #0" = 0
+	"Calixte #0" = 0
+	"Daniel #0" = 0
+	"Dupont #0" = 0
+	"Étienne #0" = 0
+	"Eymard #0" = 0
+	"Félix #0" = 0
+	"Firmin #0" = 0
+	"Gérald #0" = 0
+	"Gagnon #0" = 0
+	"Grégoire #0" = 0
+	"Gontran #0" = 0
+	"Gozlin #0" = 0
+	"Godefroi #0" = 0
+	"Heribert #0" = 0
+	"Henri #0" = 0
+	"Herménégilde #0" = 0
+	"Hidulphe #0" = 0
+	"Isidore #0" = 0
+	"Isaie #0" = 0
+	"Jean #0" = 0
+	"Jacques #0" = 0
+	"Joseph #0" = 0
+	"Louis #0" = 0
+	"Leonce #0" = 0
+	"Lévite #0" = 0
+	"Marcel #0" = 0
+	"Michael #0" = 0
+	"Mathurin #0" = 0
+	"Neil #0" = 0
+	"Noël #0" = 0
+	"Nicolas #0" = 0
+	"Odo #0" = 0
+	"Pier #0" = 0
+	"Paul #0" = 0
+	"Paris #0" = 0
+	"Pépin #0" = 0
+	"René #0" = 0
+	"Rhéal #0" = 0
+	"Roméo #0" = 0
+	"Réginald #0" = 0
+	"Roland #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Renart #0" = 0
+	"Rorgon #0" = 0
+	"Richelieu #0" = 0
+	"Sidoine #0" = 0
+	"Télésphore #0" = 0
+	"Tybalt #0" = 0
+	"Vernon #0" = 0
+	"Valois #0" = 0
+	"Valentin #0" = 0
+	"Wilifred #0" = 0
+	"Yvon #0" = 0
+}
+

@@ -1,0 +1,18 @@
+#2412 - Kyzyl-Yar
+
+culture = ruthenian
+religion = atomicist
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = salt
+base_manpower = 3
+capital = "Kyzyl-Yar"
+is_city = no
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

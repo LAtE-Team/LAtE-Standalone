@@ -1,0 +1,13 @@
+#1996 - Palau
+
+culture = filipino
+religion = cult_of_saints
+capital = "Ngerulmud"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 1
+native_ferocity = 1
+native_hostileness = 1

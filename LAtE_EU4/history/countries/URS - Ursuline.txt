@@ -1,0 +1,27 @@
+# Ursuline See
+government = papal_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = quebecois
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 4533
+3030.10.18 = {
+	monarch = {
+		name = "Maria"
+		birth_date = 2981.1.9
+		dynasty = "Castel"
+		female = yes
+		adm = 3
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = pious_personality
+}
+3053.1.1 {
+	capital = 4533
+	add_treasury = 1048
+	add_prestige = 167
+}

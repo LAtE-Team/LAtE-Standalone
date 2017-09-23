@@ -1,0 +1,246 @@
+country_decisions = {
+	
+	canada_nation_diplomatically = { # Canadian Wedding
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_canada_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = QUE
+				tag = ONT
+			}
+			capital_scope = {
+				region = canada_region
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					OR = {
+						AND = {
+							tag = QUE
+							ONT = {	junior_union_with = QUE	}
+						}
+						AND = {
+							tag = QUE
+							ONT = {	vassal_of = QUE	}
+						}
+						AND = {
+							tag = ONT
+							QUE = {	junior_union_with = ONT	}
+						}
+						AND = {
+							tag = ONT
+							QUE = {	vassal_of = ONT	}
+						}
+					}
+				}
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					tag = QUE
+					ONT = { NOT = { num_of_cities = 32 } } #Keep this number the same as below
+				}
+				AND = {
+					ai = yes
+					tag = ONT
+					QUE = { NOT = { num_of_cities = 37 } } #Keep this number the same as below
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = CAN } #This line is missing from the Spanish equivalent which seems ludicrously dangerous
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			custom_trigger_tooltip = {
+				tooltip = forming_canada_diplomatically_tooltip
+				OR = {
+					AND = {
+						tag = QUE
+						ONT = {	junior_union_with = QUE	}
+					}
+					AND = {
+						tag = QUE
+						ONT = {	vassal_of = QUE	}
+					}
+					AND = {
+						tag = ONT
+						QUE = {	junior_union_with = ONT	}
+					}
+					AND = {
+						tag = ONT
+						QUE = {	vassal_of = ONT	}
+					}
+				}
+			}
+			OR = {
+				AND = {
+					tag = QUE
+					ONT = {
+						NOT = { num_of_cities = 32 } #Keep this number the same as above. Original 17 +15
+					}
+				}
+				AND = {
+					tag = ONT
+					QUE = {
+						NOT = { num_of_cities = 40 } #Keep this number the same as above. Original 25 +15
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					tag = QUE
+					ONT = {
+						ai = yes
+					}
+				}
+				inherit = ONT
+			}
+			if = {
+				limit = {
+					tag = ONT
+					QUE = {
+						ai = yes
+					}
+				}
+				inherit = QUE
+			}
+			change_tag = CAN
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			canada_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAN
+			}
+			set_country_flag = formed_canada_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 200
+		do_not_integrate = ONT
+		do_not_integrate = QUE
+	}	
+	
+	canada_nation_militarily = { 
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_canada_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = QUE
+				tag = ONT
+				tag = MRT
+				primary_culture = ontarian
+				primary_culture = quebecois
+				primary_culture = maritimer
+			}
+			capital_scope = {
+				region = canada_region
+			}
+			
+		}
+		allow = {
+			NOT = { exists = CAN } 
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			
+			owns_core_province = 2670 #Toronto
+			owns_core_province = 4537 #Ottawa
+			owns_core_province = 993 #Montreal
+			owns_core_province = 4533 #Cap Diamant
+			owns_core_province = 2570 #St John
+			owns_core_province = 4551 #Halifax
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			
+			
+			change_tag = CAN
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			canada_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CAN
+			}
+			set_country_flag = formed_canada_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 200
+	}
+}

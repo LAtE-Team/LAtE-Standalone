@@ -1,0 +1,16 @@
+government = steppe_horde
+technology_group = indian
+religion = tengri_pagan_reformed
+primary_culture = novgorodian
+capital = 308	# Yaroslavl
+fixed_capital = 308 # Cannot move capital away from this province & no power cost to move to it
+
+3021.1.1 = {
+	monarch = {
+		name = "Pavel"
+		dynasty = "Godunov"
+		dip = 3
+		adm = 2
+		mil = 2
+	}
+}

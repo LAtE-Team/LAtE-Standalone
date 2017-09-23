@@ -1,0 +1,220 @@
+# Paha Sapa
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 52 113 224 }
+
+
+
+
+leader_names = {
+
+	"Wicapi Wakan" "Tasinasapewin" "Paytah" "Sesapa" "Chumani" "Magaskawee" "Takchawee" "Pezi" "Etaseepa" "Tacanipiluta" 
+	"Belotonkatanga" "Taigi" "Weayaya" "Witashnah" "Lakota" "Mina" "Dowanhowee" "Zintkala" "Anpaytoo" "Petette" 
+	"Howahkan" "Cheyenne" "Nawkaw" "Wahkan" "Mika" "Mewatanihanska" "Macawi" "Ptaysanwee" "Wicaka" "Eyota" 
+	"Ohitekah" "Wapasha" "Sinte Gleska" "Shapp" "Misae" "Winona" "Nawaji" "Kiya" "Chash-chunk-a" "Urika" 
+	"Chapa" "Ogleesha" "Wachiwi" "Wahkoowah" "Makawee" "Hotah" "Olowa" "Hantaywee" "Agna-iyanke" "Ahusaka" 
+	"Akecheta" "Alowan" "Amitola" "Anpona" "Anunka" "Appanoose" "Canowicakte" "Capa" "Cetanwakuwa" "Chankoowashtay" 
+	"Chaschunka" "Chaska" "Chatan" "Chaton" "Chaytan" "Chayton" "Ciqala" "Dakota" "Dakotah" "Demonthin" 
+	"Dowan" "Editon" "Enapay" "Gahege" "Gudahi" "Han" "Handowan" "Hanska" "Heháka Sápa" "He-lush-ka" 
+	"Helushka" "Hinto" "Huhuseca-ska" "Ichante" "Ishtasapa" "Itan" "Ite Omagazu" "Kangee" "Keejee" "Keyan" 
+	"Kohana" "Kokomako" "Kola" "Lootah" "Luta" "Mahkah" "Mahpee" "Mahpiya Icahtagye" "Mahpiya Iyapato" "Mahpiya Lúta" 
+	"Makatozaza" "Makhpia-Luta" "Maktosabichis" "Maktowahkeark" "Mankato" "Maona" "Maphiya Luta" "Mascpulochastosh" "Mato" "Mato-Nazin" 
+	"Matoskah" "Mato Watakpe" "Matowayouwe" "Maza Blaska" "Mazablaska" "Michante" "Mikasi" "Nakapagigi" "Nakota" "Napayshni" 
+	"Neosho" "Nijuga" "Odakota" "Odakotah" "Oeyakoca" "Ogaleesha" "Ogle Lúta" "Ohanzee" "Ohiyesa" "Olowan" 
+	"Otaktay" "Oyate" "Penision" "Poehapa" "Shacope" "Shappa" "Sintay Galeska" "Sintemaza" "Skah" "Sota" 
+	"Sunkwa" "Tadi" "Tahatan" "Takewapa" "Takoda" "Talli" "Tarsega" "Tartunkanasiah" "Tashunka" "Tasunke" 
+	"Tatanka" "Tatanka Ptecila" "Tate" "Tatonga" "Tawachi" "Teetonka" "Tenchzepart" "Tetekarmunch" "Thasunke Witko" "Thathanka Iyotake" 
+	"Tika" "Tokala" "Tasinagi" "Wabasha" "Wahchinksapa" "Wahchintonka" "Wakiza" "Wakauhee" "Waluta" "Wamadetunka" 
+	"Wamblee" "Wambleesha" "Wambleeska" "Wambli Waste" "Wambli-Waste" "Wanageeska" "Wanahton" "Wanikiy" "Wanikiya" "Wannata" 
+	"Wapi" "Wasaota" "Wasechun Tashunka" "Wehinahpay" "Wicasa" "Wisapa" "Wiconi" "Yahto" }
+monarch_names = {
+	"Wicapi Wakan #0" = -1
+	"Tasinasapewin #0" = -1
+	"Paytah #0" = 1
+	"Sesapa #0" = -1
+	"Chumani #0" = -1
+	"Magaskawee #0" = -1
+	"Takchawee #0" = -1
+	"Pezi #0" = 1
+	"Etaseepa #0" = 1
+	"Tacanipiluta #0" = 1
+	"Belotonkatanga #0" = 1
+	"Taigi #0" = -1
+	"Weayaya #0" = 1
+	"Witashnah #0" = -1
+	"Lakota #0" = 1
+	"Mina #0" = -1
+	"Dowanhowee #0" = -1
+	"Zintkala #0" = -1
+	"Anpaytoo #0" = -1
+	"Petette #0" = 1
+	"Howahkan #0" = 1
+	"Cheyenne #0" = 1
+	"Nawkaw #0" = 1
+	"Wahkan #0" = 1
+	"Mika #0" = 1
+	"Mewatanihanska #0" = 1
+	"Macawi #0" = -1
+	"Ptaysanwee #0" = -1
+	"Wicaka #0" = 1
+	"Eyota #0" = -1
+	"Ohitekah #0" = 1
+	"Wapasha #0" = 1
+	"Sinte Gleska #0" = 1
+	"Shapp #0" = -1
+	"Misae #0" = -1
+	"Winona #0" = -1
+	"Nawaji #0" = -1
+	"Kiya #0" = -1
+	"Chash-chunk-a #0" = 1
+	"Urika #0" = -1
+	"Chapa #0" = -1
+	"Ogleesha #0" = 1
+	"Wachiwi #0" = -1
+	"Wahkoowah #0" = 1
+	"Makawee #0" = -1
+	"Hotah #0" = 1
+	"Olowa #0" = -1
+	"Hantaywee #0" = -1
+	"Agna-iyanke #0" = 0
+	"Ahusaka #0" = 0
+	"Akecheta #0" = 0
+	"Alowan #0" = 0
+	"Amitola #0" = 0
+	"Anpona #0" = 0
+	"Anunka #0" = 0
+	"Appanoose #0" = 0
+	"Canowicakte #0" = 0
+	"Capa #0" = 0
+	"Cetanwakuwa #0" = 0
+	"Chankoowashtay #0" = 0
+	"Chaschunka #0" = 0
+	"Chaska #0" = 0
+	"Chatan #0" = 0
+	"Chaton #0" = 0
+	"Chaytan #0" = 0
+	"Chayton #0" = 0
+	"Ciqala #0" = 0
+	"Dakota #0" = 0
+	"Dakotah #0" = 0
+	"Demonthin #0" = 0
+	"Dowan #0" = 0
+	"Editon #0" = 0
+	"Enapay #0" = 0
+	"Gahege #0" = 0
+	"Gudahi #0" = 0
+	"Han #0" = 0
+	"Handowan #0" = 0
+	"Hanska #0" = 0
+	"Heháka Sápa #0" = 0
+	"He-lush-ka #0" = 0
+	"Helushka #0" = 0
+	"Hinto #0" = 0
+	"Huhuseca-ska #0" = 0
+	"Ichante #0" = 0
+	"Ishtasapa #0" = 0
+	"Itan #0" = 0
+	"Ite Omagazu #0" = 0
+	"Kangee #0" = 0
+	"Keejee #0" = 0
+	"Keyan #0" = 0
+	"Kohana #0" = 0
+	"Kokomako #0" = 0
+	"Kola #0" = 0
+	"Lootah #0" = 0
+	"Luta #0" = 0
+	"Mahkah #0" = 0
+	"Mahpee #0" = 0
+	"Mahpiya Icahtagye #0" = 0
+	"Mahpiya Iyapato #0" = 0
+	"Mahpiya Lúta #0" = 0
+	"Makatozaza #0" = 0
+	"Makhpia-Luta #0" = 0
+	"Maktosabichis #0" = 0
+	"Maktowahkeark #0" = 0
+	"Mankato #0" = 0
+	"Maona #0" = 0
+	"Maphiya Luta #0" = 0
+	"Mascpulochastosh #0" = 0
+	"Mato #0" = 0
+	"Mato-Nazin #0" = 0
+	"Matoskah #0" = 0
+	"Mato Watakpe #0" = 0
+	"Matowayouwe #0" = 0
+	"Maza Blaska #0" = 0
+	"Mazablaska #0" = 0
+	"Michante #0" = 0
+	"Mikasi #0" = 0
+	"Nakapagigi #0" = 0
+	"Nakota #0" = 0
+	"Napayshni #0" = 0
+	"Neosho #0" = 0
+	"Nijuga #0" = 0
+	"Odakota #0" = 0
+	"Odakotah #0" = 0
+	"Oeyakoca #0" = 0
+	"Ogaleesha #0" = 0
+	"Ogle Lúta #0" = 0
+	"Ohanzee #0" = 0
+	"Ohiyesa #0" = 0
+	"Olowan #0" = 0
+	"Otaktay #0" = 0
+	"Oyate #0" = 0
+	"Penision #0" = 0
+	"Poehapa #0" = 0
+	"Shacope #0" = 0
+	"Shappa #0" = 0
+	"Sintay Galeska #0" = 0
+	"Sintemaza #0" = 0
+	"Skah #0" = 0
+	"Sota #0" = 0
+	"Sunkwa #0" = 0
+	"Tadi #0" = 0
+	"Tahatan #0" = 0
+	"Takewapa #0" = 0
+	"Takoda #0" = 0
+	"Talli #0" = 0
+	"Tarsega #0" = 0
+	"Tartunkanasiah #0" = 0
+	"Tashunka #0" = 0
+	"Tasunke #0" = 0
+	"Tatanka #0" = 0
+	"Tatanka Ptecila #0" = 0
+	"Tate #0" = 0
+	"Tatonga #0" = 0
+	"Tawachi #0" = 0
+	"Teetonka #0" = 0
+	"Tenchzepart #0" = 0
+	"Tetekarmunch #0" = 0
+	"Thasunke Witko #0" = 0
+	"Thathanka Iyotake #0" = 0
+	"Tika #0" = 0
+	"Tokala #0" = 0
+	"Tasinagi #0" = 0
+	"Wabasha #0" = 0
+	"Wahchinksapa #0" = 0
+	"Wahchintonka #0" = 0
+	"Wakiza #0" = 0
+	"Wakauhee #0" = 0
+	"Waluta #0" = 0
+	"Wamadetunka #0" = 0
+	"Wamblee #0" = 0
+	"Wambleesha #0" = 0
+	"Wambleeska #0" = 0
+	"Wambli Waste #0" = 0
+	"Wambli-Waste #0" = 0
+	"Wanageeska #0" = 0
+	"Wanahton #0" = 0
+	"Wanikiy #0" = 0
+	"Wanikiya #0" = 0
+	"Wannata #0" = 0
+	"Wapi #0" = 0
+	"Wasaota #0" = 0
+	"Wasechun Tashunka #0" = 0
+	"Wehinahpay #0" = 0
+	"Wicasa #0" = 0
+	"Wisapa #0" = 0
+	"Wiconi #0" = 0
+	"Yahto #0" = 0
+}
+

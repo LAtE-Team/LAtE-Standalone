@@ -1,0 +1,17 @@
+government = oligarchic_republic
+primary_culture = russian
+religion = atomicist
+technology_group = indian
+capital = 287 #Kuban
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Vseslav"
+		dynasty = "Golitsyn"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

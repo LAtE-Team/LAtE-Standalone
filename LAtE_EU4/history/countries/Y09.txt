@@ -1,0 +1,27 @@
+# Daytona Beach
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 926
+3046.4.24 = {
+	monarch = {
+		name = "Maddy"
+		birth_date = 3019.8.3
+		dynasty = "Longroad"
+		female = yes
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 926
+	add_treasury = 27
+	add_prestige = 40
+	elector = no
+}

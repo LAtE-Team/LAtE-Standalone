@@ -1,0 +1,10 @@
+# = { discovered_by = ENG  # John Cabbot
+# = { discovered_by = POR  # Gaspar Corte-Real
+# = { discovered_by = FRA  # Jacques Cartier
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = high_american 
+discovered_by = RED

@@ -1,0 +1,27 @@
+# The Potomac
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2529
+3047.3.29 = {
+	monarch = {
+		name = "Melanie"
+		birth_date = 3000.1.2
+		dynasty = "Kearsarge"
+		female = yes
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 2529
+	add_treasury = 33
+	add_prestige = 108
+	elector = no
+}

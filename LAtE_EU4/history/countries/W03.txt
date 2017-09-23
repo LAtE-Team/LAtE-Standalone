@@ -1,0 +1,37 @@
+# Isla de San Andrés
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = raizal
+religion = brethren
+clear_scripted_personalities = yes
+3033.12.17 = {
+	monarch = {
+		name = "Belmer"
+		birth_date = 3010.12.26
+		dynasty = "Axe"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = loose_lips_personality
+}
+3037.3.10 = {
+	heir = {
+		name = "Farid"
+		monarch_name = "Farid II"
+		dynasty = "Axe"
+		birth_date = 3037.3.10
+		death_date = 3117.3.10
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+	add_heir_personality = secretive_personality
+}
+3053.1.1 {
+	add_treasury = 26
+	add_prestige = 53
+}

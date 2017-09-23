@@ -1,0 +1,21 @@
+# - Popayan
+
+culture = quiteno
+owner = ECU
+controller = ECU
+add_core = ECU
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = cult_of_saints
+capital = "Popayan"
+trade_goods = cocoa
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3
+is_city = yes

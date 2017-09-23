@@ -1,0 +1,7 @@
+# Bagoe - Wasteland province
+discovered_by = sub_saharan
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

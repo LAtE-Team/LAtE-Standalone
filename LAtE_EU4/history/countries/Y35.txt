@@ -1,0 +1,25 @@
+# Wabash
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = rust_cultist
+clear_scripted_personalities = yes
+capital = 4701
+3053.1.1= {
+	monarch = {
+		name = "Bernard"
+		birth_date = 3018.3.14
+		dynasty = "West"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = embezzler_personality
+}
+3053.1.1 {
+	capital = 4701
+	add_treasury = 1
+	add_prestige = 10
+}

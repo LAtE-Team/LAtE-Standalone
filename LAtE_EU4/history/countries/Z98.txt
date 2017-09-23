@@ -1,0 +1,27 @@
+# Choptank
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4619
+3000.3.22 = {
+	monarch = {
+		name = "Frederick"
+		birth_date = 2980.9.14
+		dynasty = "Graves"
+		adm = 1
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 4619
+	add_treasury = 41
+	add_prestige = 427
+	elector = no
+}

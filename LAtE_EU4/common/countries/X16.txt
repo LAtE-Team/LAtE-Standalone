@@ -1,0 +1,147 @@
+# Silver Bow
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 0 47 122 }
+
+
+
+
+leader_names = {
+
+	"Waha" "Anita" "Widmark" "Numaga" "Nat-se" "Hootseba" "Poongatse" "Uweka" "Siskel" "Wewawewa" 
+	"Sui'hoo" "Sylvia" "Dale" "Newton" "Wendell" "Joe" "Clark" "Lisa" "Teng" "Sawabe" 
+	"Fue" "Verde" "Michael" "Kristen" "Tuhudda" "Gibson" "Eleanor" "Channing" "Toohoo'o" "Nana" 
+	"Lucille" "Weze-ga'yoo" "Brian" "U-ban-nu" "No-bve" "Tsagase'e" "Constance" "Nuga" "Jeanette" "Winnemucca" 
+	"Trommel" "Glenna" "Isappu" "Tawa" "Chlahben" "Matthew" "Brendan" "Thasi" "Tahaygen" "Hidansuu" 
+	"Ada" "Awan" "Bagootsoo" "Cui-ui" "Delsin" "Eesha" "Egan" "Esa" "Ggwe'na'a" "Hastiin" 
+	"Honi" "Howi" "Joe-ely" "Kaadu" "Kene" "Kin-naa'a" "Kootsoo" "Kuubba" "Mahkah" "Manege" 
+	"Micco" "Na-gah" "Naguddu" "Nigan" "Nimerigar" "Niyol" "Nodda" "Nooyooadu" "Nuunuawunu" "Oha'a" 
+	"Oitsi" "Onennamucca" "Paggwe" "Pahe" "Pamogo" "Pannunudu" "Paulina" "Piaisan" "Poito" "Pokoh" 
+	"Poohwi" "Poot-see" "Pu'wihi" "Qui-am-i" "Ross-hardin" "Shilah" "Shinoh" "Sumu" "Taboo'oo" "Tate" 
+	"Tau-gu" "Tavibo" "Tenaya" "Tibow" "Tillohash" "Tocho" "Togu" "Tooonugwetsedu" "Truckee" "Tse'nahaha" 
+	"Tubboge" "Tuggweggwetseba" "Wa'etse" "Wahveveh" "Wannnga'a" "Watsukwe" "Wesa" "Wesepooggoo" "Wintook" "Wovoka" 
+	"Ysa" }
+monarch_names = {
+	"Waha #0" = 1
+	"Anita #0" = -1
+	"Widmark #0" = 1
+	"Numaga #0" = 1
+	"Nat-se #0" = 1
+	"Hootseba #0" = 1
+	"Poongatse #0" = 1
+	"Uweka #0" = 1
+	"Siskel #1" = 30
+	"Wewawewa #1" = 18
+	"Sui'hoo #0" = -1
+	"Sylvia #1" = -19
+	"Dale #0" = 1
+	"Newton #0" = 1
+	"Wendell #0" = 1
+	"Joe #0" = 1
+	"Clark #0" = 1
+	"Lisa #0" = -1
+	"Teng #0" = 1
+	"Sawabe #0" = -1
+	"Fue #0" = 1
+	"Verde #0" = -1
+	"Michael #0" = 1
+	"Kristen #0" = -1
+	"Tuhudda #0" = -1
+	"Gibson #0" = 1
+	"Eleanor #0" = -1
+	"Channing #0" = 1
+	"Toohoo'o #0" = 1
+	"Nana #0" = 1
+	"Lucille #0" = -1
+	"Weze-ga'yoo #0" = -1
+	"Brian #0" = 1
+	"U-ban-nu #0" = -1
+	"No-bve #0" = -1
+	"Tsagase'e #0" = 1
+	"Constance #0" = -1
+	"Nuga #0" = -1
+	"Jeanette #0" = -1
+	"Winnemucca #0" = 1
+	"Trommel #1" = 0
+	"Glenna #1" = -1
+	"Isappu #1" = 0
+	"Tawa #1" = 0
+	"Chlahben #4" = 0
+	"Matthew #2" = 0
+	"Brendan #1" = 0
+	"Thasi #1" = 0
+	"Tahaygen #1" = 0
+	"Hidansuu #1" = 0
+	"Ada #0" = 0
+	"Awan #0" = 0
+	"Bagootsoo #0" = 0
+	"Cui-ui #0" = 0
+	"Delsin #0" = 0
+	"Eesha #0" = 0
+	"Egan #0" = 0
+	"Esa #0" = 0
+	"Ggwe'na'a #0" = 0
+	"Hastiin #0" = 0
+	"Honi #0" = 0
+	"Howi #0" = 0
+	"Joe-ely #0" = 0
+	"Kaadu #0" = 0
+	"Kene #0" = 0
+	"Kin-naa'a #0" = 0
+	"Kootsoo #0" = 0
+	"Kuubba #0" = 0
+	"Mahkah #0" = 0
+	"Manege #0" = 0
+	"Micco #0" = 0
+	"Na-gah #0" = 0
+	"Naguddu #0" = 0
+	"Nigan #0" = 0
+	"Nimerigar #0" = 0
+	"Niyol #0" = 0
+	"Nodda #0" = 0
+	"Nooyooadu #0" = 0
+	"Nuunuawunu #0" = 0
+	"Oha'a #0" = 0
+	"Oitsi #0" = 0
+	"Onennamucca #0" = 0
+	"Paggwe #0" = 0
+	"Pahe #0" = 0
+	"Pamogo #0" = 0
+	"Pannunudu #0" = 0
+	"Paulina #0" = 0
+	"Piaisan #0" = 0
+	"Poito #0" = 0
+	"Pokoh #0" = 0
+	"Poohwi #0" = 0
+	"Poot-see #0" = 0
+	"Pu'wihi #0" = 0
+	"Qui-am-i #0" = 0
+	"Ross-hardin #0" = 0
+	"Shilah #0" = 0
+	"Shinoh #0" = 0
+	"Sumu #0" = 0
+	"Taboo'oo #0" = 0
+	"Tate #0" = 0
+	"Tau-gu #0" = 0
+	"Tavibo #0" = 0
+	"Tenaya #0" = 0
+	"Tibow #0" = 0
+	"Tillohash #0" = 0
+	"Tocho #0" = 0
+	"Togu #0" = 0
+	"Tooonugwetsedu #0" = 0
+	"Truckee #0" = 0
+	"Tse'nahaha #0" = 0
+	"Tubboge #0" = 0
+	"Tuggweggwetseba #0" = 0
+	"Wa'etse #0" = 0
+	"Wahveveh #0" = 0
+	"Wannnga'a #0" = 0
+	"Watsukwe #0" = 0
+	"Wesa #0" = 0
+	"Wesepooggoo #0" = 0
+	"Wintook #0" = 0
+	"Wovoka #0" = 0
+	"Ysa #0" = 0
+}
+

@@ -1,0 +1,7 @@
+government = daimyo
+government_rank = 1
+primary_culture = edokko
+religion = shinto
+technology_group = chinese
+capital = 4190	# Shimousa
+

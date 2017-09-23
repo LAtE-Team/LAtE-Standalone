@@ -1,0 +1,48 @@
+#222 - Almería
+
+#owner = GRA		#Mustapha Sa'd King of Granada
+#controller = GRA
+#add_core= GRA
+culture = andalucian
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Almería"
+estate = estate_nobles
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { revolt = { type = religious_rebels size = 2 } #controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almería to proceed the war against the christians from there.
+# = { revolt = {} #controller = CAS #owner = CAS #add_core= CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almería to the Catholic Kings
+# = { unrest = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.
+# = { unrest = 0 religion = matrem } # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+	remove_core = CAS
+#} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+# = { unrest = 15 } # Sublevation of the morisques in the kingdom of Granada.
+# = { unrest = 0 culture = castillian } # To quell the revolt, the morisques in Granada are forcefully deported to other Spanish territories
+# = { remove_core = CAS }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

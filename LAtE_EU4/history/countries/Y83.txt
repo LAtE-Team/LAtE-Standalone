@@ -1,0 +1,38 @@
+# Laverne
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = grangelander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 889
+3042.7.11 = {
+	monarch = {
+		name = "Jerome"
+		birth_date = 3041.8.4
+		dynasty = "Dedale"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = kind_hearted_personality
+	heir = {
+		name = "Martha"
+		monarch_name = "Martha"
+		dynasty = "Dedale"
+		birth_date = 3037.7.4
+		death_date = 3117.7.4
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_heir_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 889
+	add_treasury = 25
+	add_prestige = 63
+}

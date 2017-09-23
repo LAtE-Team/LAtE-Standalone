@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 2
+technology_group = chinese
+religion = animism # for now
+primary_culture = maori
+capital = 2739	# King Country
+
+3050.1.1 = {
+	monarch = {
+		name = "Mahuta II"
+		dynasty = "Paki"
+		birth_date = 3040.2.6 # Waitangi Day
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

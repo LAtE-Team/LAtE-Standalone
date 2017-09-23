@@ -1,0 +1,185 @@
+# The Papacy
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 255 249 198 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Salvator" "Petrus Romanus" "Adam" "Samuel" "Redeemed" "Hallelujah" "Righteous" "Blessed-Be" "Barnabas" "Agrippine" 
+	"Orsen" "Praised-Be" "How-Great-Thou-Art" "Deliverance" "Humble" "Zealot" "Advent" "Praise-God" "Christophilus" "Praiseworthy" 
+	"God-Is-Gracious" "David" "Relictus" "Given" "Creature" "He-Has-Heard" "Smite-The-Unbeliever" "Stone" "Cruxipher" "Amen" 
+	"Allen" "Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Burton" "Calhoun" 
+	"Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew" "Caleb" "Cain" "Clarence" "Campion" 
+	"Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" "Finn" "Fulton" "Fitch" "Gregor" 
+	"Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon" "Louis" 
+	"Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Nathaniel" 
+	"Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" 
+	"Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Stirling" "Segar" "Sherod" "Theodore" 
+	"Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow" "Winfield" "Webb" "Wheeler" 
+	"Yadkin" }
+monarch_names = {
+	"Salvator #3" = 18
+	"Petrus Romanus #1" = 0
+	"Adam #2" = 0
+	"Samuel #1" = 0
+	"Redeemed #4" = 0
+	"Hallelujah #2" = 0
+	"Righteous #3" = 0
+	"Blessed-Be #1" = 0
+	"Barnabas #2" = 0
+	"Agrippine #1" = -1
+	"Orsen #4" = 0
+	"Praised-Be #2" = 0
+	"How-Great-Thou-Art #1" = 0
+	"Deliverance #3" = 0
+	"Humble #2" = 0
+	"Zealot #1" = 0
+	"Advent #1" = 0
+	"Praise-God #2" = 0
+	"Christophilus #2" = 0
+	"Praiseworthy #1" = 0
+	"God-Is-Gracious #2" = 0
+	"David #1" = 0
+	"Relictus #2" = 0
+	"Given #1" = 0
+	"Creature #1" = 0
+	"He-Has-Heard #1" = 0
+	"Smite-The-Unbeliever #2" = 0
+	"Stone #1" = 0
+	"Cruxipher #1" = 0
+	"Amen #1" = 0
+	"Allen #0" = 0
+	"Abel #0" = 0
+	"Boone #0" = 0
+	"Burnie #0" = 0
+	"Bixby #0" = 0
+	"Benton #0" = 0
+	"Bruce #0" = 0
+	"Beauregard #0" = 0
+	"Burton #0" = 0
+	"Calhoun #0" = 0
+	"Clifton #0" = 0
+	"Clyde #0" = 0
+	"Claude #0" = 0
+	"Collier #0" = 0
+	"Cowin #0" = 0
+	"Curlew #0" = 0
+	"Caleb #0" = 0
+	"Cain #0" = 0
+	"Clarence #0" = 0
+	"Campion #0" = 0
+	"Clemens #0" = 0
+	"Curtis #0" = 0
+	"Dodge #0" = 0
+	"Eolus #0" = 0
+	"Ellis #0" = 0
+	"Earl #0" = 0
+	"Finn #0" = 0
+	"Fulton #0" = 0
+	"Fitch #0" = 0
+	"Gregor #0" = 0
+	"Hannibal #0" = 0
+	"Hank #0" = 0
+	"Horace #0" = 0
+	"Hull #0" = 0
+	"Jake #0" = 0
+	"Jim #0" = 0
+	"Josiah #0" = 0
+	"Lee #0" = 0
+	"Leon #0" = 0
+	"Louis #0" = 0
+	"Lorton #0" = 0
+	"Langhorne #0" = 0
+	"Laurel #0" = 0
+	"Mark #0" = 0
+	"Micaiah #0" = 0
+	"Marshall #0" = 0
+	"Morris #0" = 0
+	"Morgan #0" = 0
+	"Mouton #0" = 0
+	"Nathaniel #0" = 0
+	"Napoleon #0" = 0
+	"Nereus #0" = 0
+	"Niphon #0" = 0
+	"Orion #0" = 0
+	"Porter #0" = 0
+	"Pleasant #0" = 0
+	"Perry #0" = 0
+	"Patrick #0" = 0
+	"Putnam #0" = 0
+	"Preston #0" = 0
+	"Quintin #0" = 0
+	"Ross #0" = 0
+	"Sid #0" = 0
+	"Squire #0" = 0
+	"Simon #0" = 0
+	"Sampson #0" = 0
+	"Stirling #0" = 0
+	"Segar #0" = 0
+	"Sherod #0" = 0
+	"Theodore #0" = 0
+	"Twain #0" = 0
+	"Tom #0" = 0
+	"Trigg #0" = 0
+	"Todd #0" = 0
+	"Vick #0" = 0
+	"William #0" = 0
+	"Winslow #0" = 0
+	"Winfield #0" = 0
+	"Webb #0" = 0
+	"Wheeler #0" = 0
+	"Yadkin #0" = 0
+
+
+	"Julia #0" = -1
+	"Spirea #0" = -1
+	"Poppy #0" = -1
+	"Petrita #0" = -1
+}
+ship_names = {
+	Abraham Adam Angeli Archangeli "Archangelus Gabriel" "Archangelus Michael" "Archangelus Raphael"
+	Cherubim "Corpus Christi" "David Rex" Dominationes
+	"Episcopus Romanus" Eva "Franciscus Assisiensis" Hierosalyma
+	"Iesu Christus Salvator" "Ioannes Baptista" Iob Isaac Moyses Noe
+	"Pater et Pastor" "Pontifex Maximum" Potestates Principatus
+	"Salomon Rex" "Sancta Birgitta" "Sanctus Alexander" "Sanctus Ambrosius" "Sanctus Andreas"
+	"Sanctus Anselmus" "Sanctus Augustinus" "Sanctus Bartholomeus" "Sanctus Bernardus"
+	"Sanctus Bonaventura" "Sanctus Cassianus" "Sanctus Cyprianus" "Sanctus Dominicus"
+	"Sanctus Hieronymus" "Sanctus Hilarius" "Sanctus Hippolytus" "Sanctus Iohannes"
+	"Sanctus Iosephus" "Sanctus Isidorus" "Sanctus Iudas" "Sanctus Leo I" "Sanctus Linus"
+	"Sanctus Mattheus" "Sanctus Matthias" "Sanctus Patricius" "Sanctus Paulus" "Sanctus Petrus"
+	"Sanctus Philippus" "Sanctus Simon" "Sanctus Synesius" "Sanctus Thomas" "Sanctus Urbanus I"
+	Seraphim "St Albertus Magnus" "St Antonius de Padova" "St Basilius Magnus" "St Beda Venerabilis"
+	"St Cathatina Sienensis" "St Ciaranus Maior" "St Ciaranus Minor" "St Ephraem Syrus"
+	"St Gregorius Magnus" "St Iacobus Alphei" "St Iacobus Maior" "St Iohannes Damascena"
+	"St Petrus Chrysologus" "St Petrus Damianus" "St Thomas Aquinas"
+	Throni "Virgo Maria" Virtutes
+}
+

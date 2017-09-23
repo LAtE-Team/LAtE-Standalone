@@ -1,0 +1,24 @@
+#2074 - Ladakh
+
+owner = LDK
+controller = LDK
+culture = kashmiri
+religion = vajrayana
+capital = "Leh"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= LDK
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

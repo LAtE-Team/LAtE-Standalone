@@ -1,0 +1,39 @@
+# Copperland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = consumerist
+clear_scripted_personalities = yes
+capital = 910
+3023.3.7 = {
+	monarch = {
+		name = "Harley"
+		birth_date = 3004.8.15
+		dynasty = "Kriegshower"
+		adm = 0
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = drunkard_personality
+}
+3025.5.28 = {
+	heir = {
+		name = "Rustin"
+		monarch_name = "Rustin II"
+		dynasty = "Kriegshower"
+		birth_date = 3025.5.28
+		death_date = 3105.5.28
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+	add_heir_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 910
+	add_treasury = 2
+	add_prestige = 136
+}

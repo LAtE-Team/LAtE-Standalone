@@ -1,0 +1,25 @@
+# Bahama
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 482
+3046.5.26 = {
+	monarch = {
+		name = "Tubal"
+		birth_date = 3011.11.17
+		dynasty = "Hylton"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 482
+	add_treasury = 13
+	add_prestige = 169
+}

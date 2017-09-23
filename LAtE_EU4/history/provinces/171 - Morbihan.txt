@@ -1,0 +1,36 @@
+# 171 Morbihan
+
+#owner = BRI
+#controller = BRI 
+capital = "Rohan"
+is_city = no
+culture = breton
+religion = cult_of_reason
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+estate = estate_nobles
+#add_core= BRI
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #add_core= FRA }
+# = { #owner = FRA #controller = FRA } # Union Treaty
+# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+# = { capital = "Lorient" }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

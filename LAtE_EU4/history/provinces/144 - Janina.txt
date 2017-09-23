@@ -1,0 +1,43 @@
+#144 - Epiros
+
+#owner = EPI
+#controller = EPI
+culture = greek
+religion = hellenic_pagan
+capital = "Ioannina"
+trade_goods = wool
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+estate = estate_dhimmi
+#add_core= EPI
+#add_core= BYZ
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+
+
+# = { #owner = TUR #add_core= TUR #controller = TUR capital = "Janina" }
+# = { remove_core = BYZ remove_core = EPI }
+# = { unrest = 5 } # General discontent against the Janissaries' dominance
+# = { unrest = 0 }
+# = { unrest = 3 } # Revolutionary movement of Dionysios, Christians are driven away
+# = { unrest = 0 }
+# = { #add_core= GRE }
+# = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB } # Suliot uprising
+# = { revolt = {} #controller = TUR } # The Suliots are defeated
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,184 @@
+# Connecticut
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 222 153 146 }
+
+
+
+
+leader_names = {
+
+	"Maleagant" "Aphrodite" "Dorothy" "Johanne" "Lucan" "Pellinore" "Severus" "Carloman" "Vaisey" "Hurndall" 
+	"Vertiline" "Millicent" "Wilbert" "Dagonet" "Dagobert" "Anne" "Tennant" "Bran" "Sophronia" "Theodosia" 
+	"Robin" "Philomena" "Winnifred" "Winston" "Gwendoline" "Adriaen" "Berthold" "Jacobbe" "Gioacchim" "Paulus" 
+	"Gerard" "Lupus" "Theophilus" "Agravain" "Bartle" "Rudyard" "Arthur" "Alan" "Albus" "Ajax" 
+	"Accolon" "Angus" "Attwell" "Baldrick" "Brillig" "Borogove" "Bedivere" "Breunor" "Brutus" "Brum" 
+	"Balian" "Bruin" "Barnaby" "Brelan" "Capald" "Charles" "Colin" "Chilperick" "Constantine" "Craddock" 
+	"Claudas" "Cedrick" "Cynan" "Catigern" "Dorian" "Darius" "Douglas" "Dinadan" "Edward" "Edmund" 
+	"Errol" "Ector" "Elyan" "Edern" "Frederick" "Fry" "Firmin" "Fergus" "Frobisher" "Gilbert" 
+	"Gyre" "Gordon" "Guy" "Gann" "Gallahad" "Gryphon" "Gareth" "Geraint" "Griflet" "Gringolet" 
+	"Gildas" "Giles" "Hiram" "Horatio" "Hartnell" "Harper" "Hector" "Hengist" "Havelock" "Isambard" 
+	"Julian" "Joffrey" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" "Lionel" "Lucius" "Manfield" 
+	"Much" "Meldrick" "Manxome" "Malcolm" "Mercury" "Morgan" "Marmaduke" "Nelson" "Nennius" "Neddard" 
+	"Oliver" "Outgrabe" "Owen" "Oberon" "Peter" "Percival" "Pertwee" "Pepin" "Phineas" "Paget" 
+	"Pelleas" "Ruddigore" "Richard" "Randolph" "Rubeus" "Rugbert" "Rigby" "Rowland" "Sullivan" "Scathelock" 
+	"Sylvester" "Sagramore" "Thaddeus" "Tove" "Tulgey" "Theobald" "Tarrant" "Tristan" "Tiberius" "Teignmouth" 
+	"Uriens" "Uther" "Vincent" "Victor" "Yaffle" }
+monarch_names = {
+	"Maleagant #0" = 1
+	"Aphrodite #0" = -1
+	"Dorothy #0" = -1
+	"Johanne #0" = -1
+	"Lucan #1" = 21
+	"Pellinore #1" = 18
+	"Severus #1" = 18
+	"Carloman #0" = 1
+	"Vaisey #0" = 1
+	"Hurndall #0" = 1
+	"Vertiline #0" = -1
+	"Millicent #0" = -1
+	"Wilbert #0" = 1
+	"Dagonet #2" = 30
+	"Dagobert #1" = 21
+	"Anne #1" = -19
+	"Tennant #0" = 1
+	"Bran #0" = 1
+	"Sophronia #0" = -1
+	"Theodosia #0" = -1
+	"Robin #0" = 1
+	"Philomena #0" = -1
+	"Winnifred #0" = -1
+	"Winston #0" = 1
+	"Gwendoline #0" = -1
+	"Adriaen #2" = 0
+	"Berthold #1" = 0
+	"Jacobbe #2" = 0
+	"Gioacchim #1" = 0
+	"Paulus #1" = 0
+	"Gerard #1" = 0
+	"Lupus #1" = 0
+	"Theophilus #1" = 0
+	"Agravain #1" = 0
+	"Bartle #1" = 0
+	"Rudyard #1" = 0
+	"Arthur #0" = 0
+	"Alan #0" = 0
+	"Albus #0" = 0
+	"Ajax #0" = 0
+	"Accolon #0" = 0
+	"Angus #0" = 0
+	"Attwell #0" = 0
+	"Baldrick #0" = 0
+	"Brillig #0" = 0
+	"Borogove #0" = 0
+	"Bedivere #0" = 0
+	"Breunor #0" = 0
+	"Brutus #0" = 0
+	"Brum #0" = 0
+	"Balian #0" = 0
+	"Bruin #0" = 0
+	"Barnaby #0" = 0
+	"Brelan #0" = 0
+	"Capald #0" = 0
+	"Charles #0" = 0
+	"Colin #0" = 0
+	"Chilperick #0" = 0
+	"Constantine #0" = 0
+	"Craddock #0" = 0
+	"Claudas #0" = 0
+	"Cedrick #0" = 0
+	"Cynan #0" = 0
+	"Catigern #0" = 0
+	"Dorian #0" = 0
+	"Darius #0" = 0
+	"Douglas #0" = 0
+	"Dinadan #0" = 0
+	"Edward #0" = 0
+	"Edmund #0" = 0
+	"Errol #0" = 0
+	"Ector #0" = 0
+	"Elyan #0" = 0
+	"Edern #0" = 0
+	"Frederick #0" = 0
+	"Fry #0" = 0
+	"Firmin #0" = 0
+	"Fergus #0" = 0
+	"Frobisher #0" = 0
+	"Gilbert #0" = 0
+	"Gyre #0" = 0
+	"Gordon #0" = 0
+	"Guy #0" = 0
+	"Gann #0" = 0
+	"Gallahad #0" = 0
+	"Gryphon #0" = 0
+	"Gareth #0" = 0
+	"Geraint #0" = 0
+	"Griflet #0" = 0
+	"Gringolet #0" = 0
+	"Gildas #0" = 0
+	"Giles #0" = 0
+	"Hiram #0" = 0
+	"Horatio #0" = 0
+	"Hartnell #0" = 0
+	"Harper #0" = 0
+	"Hector #0" = 0
+	"Hengist #0" = 0
+	"Havelock #0" = 0
+	"Isambard #0" = 0
+	"Julian #0" = 0
+	"Joffrey #0" = 0
+	"Joseph #0" = 0
+	"Ludovick #0" = 0
+	"Lovarck #0" = 0
+	"Lesland #0" = 0
+	"Lancelot #0" = 0
+	"Lionel #0" = 0
+	"Lucius #0" = 0
+	"Manfield #0" = 0
+	"Much #0" = 0
+	"Meldrick #0" = 0
+	"Manxome #0" = 0
+	"Malcolm #0" = 0
+	"Mercury #0" = 0
+	"Morgan #0" = 0
+	"Marmaduke #0" = 0
+	"Nelson #0" = 0
+	"Nennius #0" = 0
+	"Neddard #0" = 0
+	"Oliver #0" = 0
+	"Outgrabe #0" = 0
+	"Owen #0" = 0
+	"Oberon #0" = 0
+	"Peter #0" = 0
+	"Percival #0" = 0
+	"Pertwee #0" = 0
+	"Pepin #0" = 0
+	"Phineas #0" = 0
+	"Paget #0" = 0
+	"Pelleas #0" = 0
+	"Ruddigore #0" = 0
+	"Richard #0" = 0
+	"Randolph #0" = 0
+	"Rubeus #0" = 0
+	"Rugbert #0" = 0
+	"Rigby #0" = 0
+	"Rowland #0" = 0
+	"Sullivan #0" = 0
+	"Scathelock #0" = 0
+	"Sylvester #0" = 0
+	"Sagramore #0" = 0
+	"Thaddeus #0" = 0
+	"Tove #0" = 0
+	"Tulgey #0" = 0
+	"Theobald #0" = 0
+	"Tarrant #0" = 0
+	"Tristan #0" = 0
+	"Tiberius #0" = 0
+	"Teignmouth #0" = 0
+	"Uriens #0" = 0
+	"Uther #0" = 0
+	"Vincent #0" = 0
+	"Victor #0" = 0
+	"Yaffle #0" = 0
+}
+

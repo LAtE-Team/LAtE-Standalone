@@ -1,0 +1,26 @@
+# Salton
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4509
+3013.6.8 = {
+	monarch = {
+		name = "Cary"
+		birth_date = 2996.9.16
+		dynasty = "Norton"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+}
+3053.1.1 {
+	capital = 4509
+	add_treasury = 68
+	add_prestige = 572
+}

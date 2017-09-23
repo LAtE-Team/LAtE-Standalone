@@ -1,0 +1,35 @@
+# Honduras
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = west_indian
+religion = uahomche
+clear_scripted_personalities = yes
+capital = 2637
+3053.1.1 {
+	monarch = {
+		name = "Aston"
+		birth_date = 3017.5.29
+		dynasty = "Hylton"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+	heir = {
+		name = "Nicholas"
+		monarch_name = "Nicholas"
+		dynasty = "Hylton"
+		birth_date = 3046.6.15
+		death_date = 3126.6.15
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+3053.1.1 {
+	capital = 2637
+	add_treasury = 18
+	add_prestige = 228
+}

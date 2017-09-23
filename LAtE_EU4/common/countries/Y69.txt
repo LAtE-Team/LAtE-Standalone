@@ -1,0 +1,155 @@
+# Home
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 10 132 222 }
+
+
+
+
+leader_names = {
+
+	"Lorna" "Barbara" "Geddy" "Winston" "Oswald" "Macdonald" "Shelley" "Friso" "Dominia" "By" 
+	"Riemmelth" "Riel" "Shania" "Westerfield" "Clive" "Montgomery" "Canna" "Ouine" "Naismith" "Wade" 
+	"Juthwara" "Judith" "Breaca" "Bill" "Kevin" "Castor" "Hamilton" "Lennox" "Rupert" "Weluela" 
+	"Theodosia" "Madge" "Thomas" "Lucas" "Menefreda" "Harold" "Teath" "Endelienta" "Almeda" "Cagintria" 
+	"Darcy" "Madrun" "Kirk" "Alan" "Derby" "Everwella" "Claudia" "Hudson" "Thaney" "Cherry" 
+	"Tabitha" "Mitchell" "Fergus" "Malcolm" "Bernice" "Dominick" "Afrella" "Charles" "Alanis" "Avril" 
+	"Ann" "Georgia" "Bethany" "Gosling" "Hap" "Tompkin" "Rose" "Wenbruia" "Permanence" "Gavia" 
+	"Thomp" "Hiawatha" "Degonadonty" "Alexandra" "Geraldine" "Edgar" "Anna" "Liesl" "Kennet" "Jakob" 
+	"Werner" "Albert" "Aykroyd" "Anthony" "Acer" "Brant" "Bennett" "Banting" "Bryce" "Carrey" 
+	"Claude" "Churchill" "Dalton" "Evan" "Fidelis" "George" "Gray" "Gord" "Gath" "Hart" 
+	"Harland" "Horton" "Jarvis" "Kay" "Leaford" "Lawrence" "Leonard" "Leslie" "Lloyd" "Lorne" 
+	"McGee" "Monck" "Munro" "McMillan" "McCabe" "Matthew" "Meugan" "Marlborough" "Neil" "Nelligan" 
+	"Octockwig" "Owen" "Ronald" "Rubrum" "Redgrave" "Spencer" "Trevor" "Tim" "York" }
+monarch_names = {
+	"Lorna #0" = -1
+	"Barbara #0" = -1
+	"Geddy #0" = 1
+	"Winston #2" = 24
+	"Oswald #0" = 1
+	"Macdonald #0" = 1
+	"Shelley #0" = -1
+	"Friso #0" = 1
+	"Dominia #0" = -1
+	"By #1" = 33
+	"Riemmelth #0" = -1
+	"Riel #0" = 1
+	"Shania #0" = -1
+	"Westerfield #0" = 1
+	"Clive #1" = 21
+	"Montgomery #0" = 1
+	"Canna #0" = -1
+	"Ouine #0" = -1
+	"Naismith #0" = 1
+	"Wade #2" = 30
+	"Juthwara #0" = -1
+	"Judith #0" = -1
+	"Breaca #0" = -1
+	"Bill #0" = 1
+	"Kevin #0" = 1
+	"Castor #0" = 1
+	"Hamilton #0" = 1
+	"Lennox #1" = 21
+	"Rupert #0" = 1
+	"Weluela #0" = -1
+	"Theodosia #0" = -1
+	"Madge #0" = -1
+	"Thomas #0" = 1
+	"Lucas #0" = 1
+	"Menefreda #0" = -1
+	"Harold #1" = 30
+	"Teath #0" = -1
+	"Endelienta #0" = -1
+	"Almeda #0" = -1
+	"Cagintria #0" = -1
+	"Darcy #0" = 1
+	"Madrun #0" = -1
+	"Kirk #1" = 18
+	"Alan #0" = 1
+	"Derby #0" = 1
+	"Everwella #0" = -1
+	"Claudia #0" = -1
+	"Hudson #0" = 1
+	"Thaney #0" = -1
+	"Cherry #0" = -1
+	"Tabitha #0" = -1
+	"Mitchell #2" = 30
+	"Fergus #0" = 1
+	"Malcolm #0" = 1
+	"Bernice #0" = -1
+	"Dominick #0" = 1
+	"Afrella #0" = -1
+	"Charles #0" = 1
+	"Alanis #0" = -1
+	"Avril #0" = -1
+	"Ann #0" = -1
+	"Georgia #0" = -1
+	"Bethany #0" = -1
+	"Gosling #0" = 1
+	"Hap #1" = 18
+	"Tompkin #0" = 1
+	"Rose #0" = -1
+	"Wenbruia #0" = -1
+	"Permanence #0" = -1
+	"Gavia #0" = -1
+	"Thomp #0" = 1
+	"Hiawatha #0" = -1
+	"Degonadonty #0" = -1
+	"Alexandra #0" = -1
+	"Geraldine #0" = -1
+	"Edgar #1" = 0
+	"Anna #1" = -1
+	"Liesl #1" = -1
+	"Kennet #1" = 0
+	"Jakob #1" = 0
+	"Werner #1" = 0
+	"Albert #0" = 0
+	"Aykroyd #0" = 0
+	"Anthony #0" = 0
+	"Acer #0" = 0
+	"Brant #0" = 0
+	"Bennett #0" = 0
+	"Banting #0" = 0
+	"Bryce #0" = 0
+	"Carrey #0" = 0
+	"Claude #0" = 0
+	"Churchill #0" = 0
+	"Dalton #0" = 0
+	"Evan #0" = 0
+	"Fidelis #0" = 0
+	"George #0" = 0
+	"Gray #0" = 0
+	"Gord #0" = 0
+	"Gath #0" = 0
+	"Hart #0" = 0
+	"Harland #0" = 0
+	"Horton #0" = 0
+	"Jarvis #0" = 0
+	"Kay #0" = 0
+	"Leaford #0" = 0
+	"Lawrence #0" = 0
+	"Leonard #0" = 0
+	"Leslie #0" = 0
+	"Lloyd #0" = 0
+	"Lorne #0" = 0
+	"McGee #0" = 0
+	"Monck #0" = 0
+	"Munro #0" = 0
+	"McMillan #0" = 0
+	"McCabe #0" = 0
+	"Matthew #0" = 0
+	"Meugan #0" = 0
+	"Marlborough #0" = 0
+	"Neil #0" = 0
+	"Nelligan #0" = 0
+	"Octockwig #0" = 0
+	"Owen #0" = 0
+	"Ronald #0" = 0
+	"Rubrum #0" = 0
+	"Redgrave #0" = 0
+	"Spencer #0" = 0
+	"Trevor #0" = 0
+	"Tim #0" = 0
+	"York #0" = 0
+}
+

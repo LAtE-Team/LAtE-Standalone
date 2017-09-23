@@ -1,0 +1,24 @@
+#2692 - Madura
+
+#owner = MAJ
+#controller = MAJ
+#add_core= MAJ
+culture = javanese
+religion = ahmadi
+capital = "Madura"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = no
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

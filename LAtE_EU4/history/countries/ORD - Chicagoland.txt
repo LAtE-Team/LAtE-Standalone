@@ -1,0 +1,36 @@
+# Chicagoland
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = chicagoan
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4563
+3053.1.1= {
+	monarch = {
+		name = "Samuel"
+		birth_date = 3009.2.4
+		dynasty = "Tuure"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = loose_lips_personality
+	heir = {
+		name = "Edvin"
+		monarch_name = "Edvin"
+		dynasty = "Tuure"
+		birth_date = 3026.1.22
+		death_date = 3106.1.22
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+	add_heir_personality = just_personality
+}
+3053.1.1 {
+	capital = 4563
+	add_treasury = 453
+	add_prestige = 187
+}

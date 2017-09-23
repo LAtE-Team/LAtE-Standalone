@@ -1,0 +1,21 @@
+#818 - Canelos
+
+owner = ECU
+controller = ECU
+add_core = ECU
+culture = quiteno
+religion = cult_of_saints
+capital = "Canelos"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+native_size = 20
+native_ferocity = 1 
+native_hostileness = 1
+is_city = yes
+
+
+discovered_by = south_american
+discovered_by = andean

@@ -1,0 +1,24 @@
+#793 - Iquique
+
+owner = CHL
+controller = CHL
+add_core = CHL
+culture = platinean
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = candomble
+capital = "Iquique"
+is_city = yes
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 1
+

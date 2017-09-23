@@ -1,0 +1,97 @@
+# Wisconsin
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 121 108 227 }
+
+
+
+
+leader_names = {
+
+	"Gerhild" "Gebhard" "Krullig" "Godeliva" "Marjanne" "Henning" "Tjaden" "Grimhilt" "Thietmar" "Abo" 
+	"Adalbert" "Berthoald" "Bruno" "Bendix" "Byron" "Brewer" "Dankmar" "Dedo" "Edward" "Erasmus" 
+	"Eggert" "Emil" "Eilmer" "Esiko" "Gero" "Hatto" "Hermann" "Hinrich" "Hoffman" "Harzer" 
+	"Ingolf" "Jorin" "Joseph" "Kasesgar" "Kasefred" "Kuhbert" "Liudolf" "Leopold" "Leobwin" "Lerke" 
+	"Lovis" "Luke" "Leino" "Mark" "Malfind" "Magnus" "Maxilian" "Martin" "Markus" "Molkereik" 
+	"Milcher" "Miller" "Melis" "Otto" "Ordulf" "Peter" "Paschen" "Paul" "Rudolf" "Rambert" 
+	"Rindbert" "Stefan" "Sprecher" "Schlitz" "Theoderick" "Tiele" "Widukind" "Wichmann" "Wiggert" "Wolf" 
+	"Wiprecht" "Wolfgang" "Ziegel" }
+monarch_names = {
+	"Gerhild #0" = -1
+	"Gebhard #0" = 1
+	"Krullig #0" = 18
+	"Godeliva #0" = -1
+	"Marjanne #0" = -1
+	"Henning #0" = 1
+	"Tjaden #0" = 1
+	"Grimhilt #0" = -1
+	"Thietmar #1" = 18
+	"Abo #0" = 0
+	"Adalbert #0" = 0
+	"Berthoald #0" = 0
+	"Bruno #0" = 0
+	"Bendix #0" = 0
+	"Byron #0" = 0
+	"Brewer #0" = 0
+	"Dankmar #0" = 0
+	"Dedo #0" = 0
+	"Edward #0" = 0
+	"Erasmus #0" = 0
+	"Eggert #0" = 0
+	"Emil #0" = 0
+	"Eilmer #0" = 0
+	"Esiko #0" = 0
+	"Gero #0" = 0
+	"Hatto #0" = 0
+	"Hermann #0" = 0
+	"Hinrich #0" = 0
+	"Hoffman #0" = 0
+	"Harzer #0" = 0
+	"Ingolf #0" = 0
+	"Jorin #0" = 0
+	"Joseph #0" = 0
+	"Kasesgar #0" = 0
+	"Kasefred #0" = 0
+	"Kuhbert #0" = 0
+	"Liudolf #0" = 0
+	"Leopold #0" = 0
+	"Leobwin #0" = 0
+	"Lerke #0" = 0
+	"Lovis #0" = 0
+	"Luke #0" = 0
+	"Leino #0" = 0
+	"Mark #0" = 0
+	"Malfind #0" = 0
+	"Magnus #0" = 0
+	"Maxilian #0" = 0
+	"Martin #0" = 0
+	"Markus #0" = 0
+	"Molkereik #0" = 0
+	"Milcher #0" = 0
+	"Miller #0" = 0
+	"Melis #0" = 0
+	"Otto #0" = 0
+	"Ordulf #0" = 0
+	"Peter #0" = 0
+	"Paschen #0" = 0
+	"Paul #0" = 0
+	"Rudolf #0" = 0
+	"Rambert #0" = 0
+	"Rindbert #0" = 0
+	"Stefan #0" = 0
+	"Sprecher #0" = 0
+	"Schlitz #0" = 0
+	"Theoderick #0" = 0
+	"Tiele #0" = 0
+	"Widukind #0" = 0
+	"Wichmann #0" = 0
+	"Wiggert #0" = 0
+	"Wolf #0" = 0
+	"Wiprecht #0" = 0
+	"Wolfgang #0" = 0
+	"Ziegel #0" = 0
+
+
+	"Brunhilda #0" = -1
+}
+

@@ -1,0 +1,27 @@
+# Midland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ontarian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2585
+3025.12.1 = {
+	monarch = {
+		name = "Canna"
+		birth_date = 2990.2.16
+		dynasty = "de Bonnechere"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 2585
+	add_treasury = 41
+	add_prestige = 151
+}

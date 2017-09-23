@@ -1,0 +1,26 @@
+# Ecumenical Church Council
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 930
+3048.12.18 = {
+	monarch = {
+		name = "Tertius"
+		birth_date = 3019.8.7
+		dynasty = " Atlanta"
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = scholar_personality
+}
+3053.1.1 {
+	capital = 930
+	add_treasury = 26
+	add_prestige = 25
+	elector = no
+}

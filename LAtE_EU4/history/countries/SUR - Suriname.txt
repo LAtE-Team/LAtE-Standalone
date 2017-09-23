@@ -1,0 +1,26 @@
+# Suriname
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = sranan
+religion = candomble
+clear_scripted_personalities = yes
+capital = 745
+3026.2.1 = {
+	monarch = {
+		name = "Flávio II"
+		birth_date = 2990.3.19
+		dynasty = "van  Marowijne"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = free_thinker_personality
+}
+3053.1.1 {
+	capital = 745
+	add_treasury = 29
+	add_prestige = 55
+}

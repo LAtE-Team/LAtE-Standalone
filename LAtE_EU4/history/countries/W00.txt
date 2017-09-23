@@ -1,0 +1,25 @@
+# Mosquito
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chapin
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 4763
+3051.5.30 = {
+	monarch = {
+		name = "Wilberto"
+		birth_date = 3024.4.22
+		dynasty = "Saldívar"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+3053.1.1 {
+	capital = 4763
+	add_treasury = 38
+	add_prestige = 57
+}

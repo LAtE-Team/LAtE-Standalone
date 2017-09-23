@@ -1,0 +1,129 @@
+# Jefferson
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 158 174 230 }
+
+
+
+
+leader_names = {
+
+	"Opal" "Clyde" "Umatilla" "Azalez" "Seena" "Irrigon" "Joaquin" "Neahkahnie" "Meamber" "Lostine" 
+	"Millicoma" "Quentin" "Stanford" "Psuedotsuga" "Yaquina" "Molalla" "Metolius" "Marilyn" "Ginger" "Hilgard" 
+	"Sarah" "Alta" "Josephine" "Nicole" "Kayden" "Tesla" "Aleia" "Davis" "Robin" "Newton" 
+	"Mildred" "Denzel" "Oleander" "Angela" "Shasta" "Spring" "Benbow" "Chloe" "Gus" "Kristen" 
+	"Andrew" "Isa" "Anna" "Hood" "Juniper" "Cherilyn" "Tsahtsaa" "Mirounga" "Tumalo" "Iris" 
+	"Ukiah" "Nestucca" "Shada" "Annie" "Williamette" "Crystal" "Oswald" "Ochoco" "Clough" "Fraser" 
+	"Ewauna" "Dale" "Alsea" "Larch" "Emerson" "Wash" "Nathaniel" "Vinzenz" "Milo" "Bristow" 
+	"Clark" "Casey" "Chetco" "Eugene" "Fanno" "Glenn" "Holman" "Harris" "Jefferson" "Jedediah" 
+	"Jeff" "Keswick" "Kirk" "Lewis" "Lowell" "Ladd" "Nehalem" "Obediah" "Pinus" "Pierson" 
+	"Rainier" "Ross" "Stanley" "Silsby" "Sutter" "Sycan" "Scott" "Shepard" "Sprague" "Trask" 
+	"Trevor" "Vanduzen" "Whychus" "Winchuck" "Zalophus" }
+monarch_names = {
+	"Opal #0" = -1
+	"Clyde #2" = 27
+	"Umatilla #0" = -1
+	"Azalez #0" = -1
+	"Seena #0" = -1
+	"Irrigon #0" = 1
+	"Joaquin #2" = 21
+	"Neahkahnie #0" = -1
+	"Meamber #0" = 1
+	"Lostine #0" = -1
+	"Millicoma #0" = -1
+	"Quentin #1" = 18
+	"Stanford #4" = 33
+	"Psuedotsuga #0" = -1
+	"Yaquina #0" = -1
+	"Molalla #0" = -1
+	"Metolius #0" = 1
+	"Marilyn #0" = -1
+	"Ginger #0" = -1
+	"Hilgard #0" = -1
+	"Sarah #0" = -1
+	"Alta #0" = -1
+	"Josephine #0" = -1
+	"Nicole #0" = -1
+	"Kayden #0" = -1
+	"Tesla #0" = 1
+	"Aleia #0" = -1
+	"Davis #0" = 1
+	"Robin #1" = 18
+	"Newton #0" = 1
+	"Mildred #0" = -1
+	"Denzel #0" = 1
+	"Oleander #0" = 1
+	"Angela #0" = -1
+	"Shasta #0" = -1
+	"Spring #0" = -1
+	"Benbow #1" = 18
+	"Chloe #0" = -1
+	"Gus #0" = 1
+	"Kristen #0" = -1
+	"Andrew #0" = 1
+	"Isa #0" = -1
+	"Anna #0" = -1
+	"Hood #0" = 1
+	"Juniper #0" = -1
+	"Cherilyn #0" = -1
+	"Tsahtsaa #0" = -1
+	"Mirounga #0" = -1
+	"Tumalo #0" = 1
+	"Iris #0" = -1
+	"Ukiah #3" = 36
+	"Nestucca #0" = -1
+	"Shada #0" = -1
+	"Annie #0" = -1
+	"Williamette #0" = -1
+	"Crystal #0" = -1
+	"Oswald #0" = 1
+	"Ochoco #0" = 1
+	"Clough #0" = 1
+	"Fraser #1" = 21
+	"Ewauna #0" = -1
+	"Dale #0" = 1
+	"Alsea #0" = -1
+	"Larch #0" = 1
+	"Emerson #0" = 1
+	"Wash #0" = 1
+	"Nathaniel #1" = 18
+	"Vinzenz #1" = 18
+	"Milo #1" = 0
+	"Bristow #0" = 0
+	"Clark #0" = 0
+	"Casey #0" = 0
+	"Chetco #0" = 0
+	"Eugene #0" = 0
+	"Fanno #0" = 0
+	"Glenn #0" = 0
+	"Holman #0" = 0
+	"Harris #0" = 0
+	"Jefferson #0" = 0
+	"Jedediah #0" = 0
+	"Jeff #0" = 0
+	"Keswick #0" = 0
+	"Kirk #0" = 0
+	"Lewis #0" = 0
+	"Lowell #0" = 0
+	"Ladd #0" = 0
+	"Nehalem #0" = 0
+	"Obediah #0" = 0
+	"Pinus #0" = 0
+	"Pierson #0" = 0
+	"Rainier #0" = 0
+	"Ross #0" = 0
+	"Stanley #0" = 0
+	"Silsby #0" = 0
+	"Sutter #0" = 0
+	"Sycan #0" = 0
+	"Scott #0" = 0
+	"Shepard #0" = 0
+	"Sprague #0" = 0
+	"Trask #0" = 0
+	"Trevor #0" = 0
+	"Vanduzen #0" = 0
+	"Whychus #0" = 0
+	"Winchuck #0" = 0
+	"Zalophus #0" = 0
+}
+

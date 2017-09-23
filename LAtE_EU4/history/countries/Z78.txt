@@ -1,0 +1,27 @@
+# Albemarle-Hatteras
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2547
+3040.5.7 = {
+	monarch = {
+		name = "Bedivere"
+		birth_date = 3014.5.3
+		dynasty = "Oakheart"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 2547
+	add_treasury = 42
+	add_prestige = 276
+	elector = no
+}

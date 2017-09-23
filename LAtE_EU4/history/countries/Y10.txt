@@ -1,0 +1,26 @@
+# Chickasaw
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 919
+3047.10.1 = {
+	monarch = {
+		name = "Louis"
+		birth_date = 3003.12.1
+		dynasty = "Youngham"
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+	add_ruler_personality = architectural_visionary_personality
+}
+3053.1.1 {
+	capital = 919
+	add_treasury = 12
+	add_prestige = 228
+	elector = no
+}

@@ -1,0 +1,28 @@
+# Rapides
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4885
+3007.12.1 = {
+	monarch = {
+		name = "Laurina"
+		birth_date = 2991.5.22
+		dynasty = "Lomax"
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 4885
+	add_treasury = 22
+	add_prestige = 101
+	elector = no
+}

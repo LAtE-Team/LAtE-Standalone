@@ -1,0 +1,43 @@
+#608 - Champasak
+
+#owner = LXA
+#controller = LXA
+culture = lao
+religion = buddhism
+capital = "Champasak"
+trade_goods = tea
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = no
+#add_core= LXA
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+# = { #add_core= DAI } # Vietnamese Invasion
+# = { discovered_by = POR }
+# = {
+	#owner = VIE
+	#controller = VIE
+	#add_core= VIE
+	remove_core = LXA
+	remove_core = DAI
+#} # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+# = {
+	#owner = CHK
+	#controller = CHK
+	#add_core= CHK
+	remove_core = VIE
+#}
+# = { unrest = 5 } # Rebellion
+# = { unrest = 0 }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

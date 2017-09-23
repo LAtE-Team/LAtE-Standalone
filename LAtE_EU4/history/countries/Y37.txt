@@ -1,0 +1,26 @@
+# New Brunswick
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2566
+3022.5.17 = {
+	monarch = {
+		name = "Greagoir"
+		birth_date = 2986.10.27
+		dynasty = "Carmody"
+		adm = 1
+		dip = 0
+		mil = 4
+	}
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 2566
+	add_treasury = 21
+	add_prestige = 367
+}

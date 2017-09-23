@@ -1,0 +1,26 @@
+# Tullahoma
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachian
+religion = protestant
+clear_scripted_personalities = yes
+capital = 934
+3048.12.4 = {
+	monarch = {
+		name = "Stephanus"
+		birth_date = 3047.10.23
+		dynasty = "Pridemore"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = righteous_personality
+}
+3053.1.1 {
+	capital = 934
+	add_treasury = 8
+	add_prestige = 4
+	elector = no
+}

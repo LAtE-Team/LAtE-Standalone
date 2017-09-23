@@ -1,0 +1,27 @@
+# The James
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4683
+3042.11.3 = {
+	monarch = {
+		name = "Robin"
+		birth_date = 3025.11.3
+		dynasty = "Commodore"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 4683
+	add_treasury = 35
+	add_prestige = 59
+	elector = no
+}

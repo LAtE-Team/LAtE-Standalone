@@ -1,0 +1,26 @@
+# Birmingham
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4684
+3045.6.11 = {
+	monarch = {
+		name = "Meriwether III"
+		birth_date = 3021.3.14
+		dynasty = "Hillyer"
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 4684
+	add_treasury = 79
+	add_prestige = 150
+	elector = yes
+}

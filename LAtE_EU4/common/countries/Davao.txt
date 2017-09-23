@@ -1,0 +1,28 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 193  125  42 }
+
+monarch_names = {
+	"Sharif ul Hashim #0" = 50
+	"Kamal ud Din #0" = 50
+	"Sharif Sayyid Ala ud Din #0" = 50
+	"Amirul Umara #0" = 50
+	"Muizz ul Mutawadiin #0" = 50
+	"Batarah Shah Tengah #0" = 50	
+	"Muwallit Wasit #0" = 50	
+	"Muhammad Alimuddin #0" = 50	
+	"Muhammad al Halim #0" = 50	
+	"Muizz ul Din #0" = 50
+	"Nasir ud Din #0" = 50
+	"Azimuddin #0" = 50
+	"Salah ud Din Bakhtiyar #0" = 50
+	"Mustafa Shafi #0" = 50
+	"Muhammad Badaruddin #0" = 50
+	"Muizz ud Din Bantilan #0" = 50
+	"Muhammad Israil #0" = 50
+	"Muhammad Sharafuddin #0" = 50
+	"Aliyuddin #0" = 50
+	"Shakirullah #0" = 50	
+}

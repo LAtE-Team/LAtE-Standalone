@@ -1,0 +1,21 @@
+#1155 - Kano
+
+owner = NGR
+controller = NGR
+add_core = NGR
+culture = nigerian
+is_city = yes
+base_manpower = 5
+religion = ahmadi
+capital = "Kano"
+trade_goods = dyes
+hre = no
+base_tax = 5 
+base_production = 5
+
+
+discovered_by = sub_saharan
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

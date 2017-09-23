@@ -1,0 +1,33 @@
+#2414 - Azaraba
+
+add_core = ATG
+owner = ATG
+controller = ATG
+culture = russian
+religion = atomicist
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Azaraba"
+is_city = no
+#add_core= CRI
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+
+
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

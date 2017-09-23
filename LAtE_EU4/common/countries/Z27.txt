@@ -1,0 +1,159 @@
+# Alexandria
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 209 78 21 }
+
+
+
+
+leader_names = {
+
+	"Antigone" "Morgana" "Pamilia" "Baldwin" "Carolina" "Priscus" "Mary" "Petrus" "Brangwin" "Susanne" 
+	"Percival" "Quadratus" "Belle" "Rhett" "Guinevere" "Melisende" "Neptune" "Griflet" "Bryan" "Raynault" 
+	"Hannibal" "Eudoxia" "Lucius" "Pellinore" "Silvana" "Raleigh" "Alcée" "Napoleon" "Pierre" "Deforest" 
+	"Louis" "Momus" "Troian" "Norbert" "Bubba" "Marmaduke" "Justinian" "Lionel" "Augustus" "Ancell" 
+	"Achilles" "Anthemeol" "Alpheus" "Arthur" "Ambrose" "Aloys" "Armistead" "Antipas" "Bedivere" "Breunor" 
+	"Brutus" "Brandegoris" "Bohemond" "Beauregard" "Braxton" "Cronus" "Charles" "Claudius" "Constantine" "Coriolanus" 
+	"Calhoun" "Davis" "Ector" "Frederick" "Fulwar" "Fulgent" "Geoffrey" "Geraint" "Gareth" "Goode" 
+	"Heron" "Hamilcar" "Isaias" "Joscelin" "Jefferson" "Jupiter" "Julius" "Jackson" "Laurentius" "Lucan" 
+	"Lunsford" "Lamartine" "Marcus" "Marcellus" "Mercury" "Merriman" "Meriwether" "Meleager" "Nathanael" "Octavian" 
+	"Prudens" "Polycarpus" "Pulcher" "Publicola" "Paulus" "Plato" "Pluto" "Pellias" "Pompey" "Pericles" 
+	"Robert" "Richard" "Regulus" "Robin" "Rufus" "Raphael" "Sosipater" "Superbus" "Saturn" "Scipio" 
+	"Severus" "Sylvester" "Sagremore" "Stephanus" "Solon" "Saunder" "Tiberius" "Trophimus" "Tertius" "Theophilus" 
+	"Thomas" "Timon" "Titus" "Urien" "Urban" "Ulixes" "Vitalian" "Valerian" "William" "Wade" 
+	"Winfield" "Zacharias" }
+monarch_names = {
+	"Antigone #0" = -1
+	"Morgana #0" = -1
+	"Pamilia #0" = -1
+	"Baldwin #2" = 24
+	"Carolina #0" = -1
+	"Priscus #0" = 1
+	"Mary #0" = -1
+	"Petrus #0" = 1
+	"Brangwin #0" = 1
+	"Susanne #0" = -1
+	"Percival #0" = 1
+	"Quadratus #2" = 24
+	"Belle #0" = -1
+	"Rhett #0" = 1
+	"Guinevere #0" = -1
+	"Melisende #0" = -1
+	"Neptune #0" = 1
+	"Griflet #0" = 1
+	"Bryan #1" = 18
+	"Raynault #0" = 1
+	"Hannibal #0" = 1
+	"Eudoxia #0" = -1
+	"Lucius #0" = 1
+	"Pellinore #0" = 1
+	"Silvana #0" = -1
+	"Raleigh #0" = 1
+	"Alcée #1" = 0
+	"Napoleon #1" = 0
+	"Pierre #1" = 0
+	"Deforest #1" = 0
+	"Louis #1" = 0
+	"Momus #1" = 0
+	"Troian #1" = -1
+	"Norbert #1" = 0
+	"Bubba #1" = 0
+	"Marmaduke #3" = 0
+	"Justinian #1" = 0
+	"Lionel #2" = 0
+	"Augustus #0" = 0
+	"Ancell #0" = 0
+	"Achilles #0" = 0
+	"Anthemeol #0" = 0
+	"Alpheus #0" = 0
+	"Arthur #0" = 0
+	"Ambrose #0" = 0
+	"Aloys #0" = 0
+	"Armistead #0" = 0
+	"Antipas #0" = 0
+	"Bedivere #0" = 0
+	"Breunor #0" = 0
+	"Brutus #0" = 0
+	"Brandegoris #0" = 0
+	"Bohemond #0" = 0
+	"Beauregard #0" = 0
+	"Braxton #0" = 0
+	"Cronus #0" = 0
+	"Charles #0" = 0
+	"Claudius #0" = 0
+	"Constantine #0" = 0
+	"Coriolanus #0" = 0
+	"Calhoun #0" = 0
+	"Davis #0" = 0
+	"Ector #0" = 0
+	"Frederick #0" = 0
+	"Fulwar #0" = 0
+	"Fulgent #0" = 0
+	"Geoffrey #0" = 0
+	"Geraint #0" = 0
+	"Gareth #0" = 0
+	"Goode #0" = 0
+	"Heron #0" = 0
+	"Hamilcar #0" = 0
+	"Isaias #0" = 0
+	"Joscelin #0" = 0
+	"Jefferson #0" = 0
+	"Jupiter #0" = 0
+	"Julius #0" = 0
+	"Jackson #0" = 0
+	"Laurentius #0" = 0
+	"Lucan #0" = 0
+	"Lunsford #0" = 0
+	"Lamartine #0" = 0
+	"Marcus #0" = 0
+	"Marcellus #0" = 0
+	"Mercury #0" = 0
+	"Merriman #0" = 0
+	"Meriwether #0" = 0
+	"Meleager #0" = 0
+	"Nathanael #0" = 0
+	"Octavian #0" = 0
+	"Prudens #0" = 0
+	"Polycarpus #0" = 0
+	"Pulcher #0" = 0
+	"Publicola #0" = 0
+	"Paulus #0" = 0
+	"Plato #0" = 0
+	"Pluto #0" = 0
+	"Pellias #0" = 0
+	"Pompey #0" = 0
+	"Pericles #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Regulus #0" = 0
+	"Robin #0" = 0
+	"Rufus #0" = 0
+	"Raphael #0" = 0
+	"Sosipater #0" = 0
+	"Superbus #0" = 0
+	"Saturn #0" = 0
+	"Scipio #0" = 0
+	"Severus #0" = 0
+	"Sylvester #0" = 0
+	"Sagremore #0" = 0
+	"Stephanus #0" = 0
+	"Solon #0" = 0
+	"Saunder #0" = 0
+	"Tiberius #0" = 0
+	"Trophimus #0" = 0
+	"Tertius #0" = 0
+	"Theophilus #0" = 0
+	"Thomas #0" = 0
+	"Timon #0" = 0
+	"Titus #0" = 0
+	"Urien #0" = 0
+	"Urban #0" = 0
+	"Ulixes #0" = 0
+	"Vitalian #0" = 0
+	"Valerian #0" = 0
+	"William #0" = 0
+	"Wade #0" = 0
+	"Winfield #0" = 0
+	"Zacharias #0" = 0
+}
+

@@ -1,0 +1,34 @@
+#856 - Zacatecas
+
+culture = chichimecan 
+religion = nahuatl
+capital = "Zacatecas" 
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 5
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+
+
+# = {
+	#discovered_by = SPA
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	culture = castillian
+	religion = catholic
+	trade_goods = unknown
+	is_city = no
+} # First discoveries of silver 
+# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence

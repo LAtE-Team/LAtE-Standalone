@@ -1,0 +1,42 @@
+#2345 - Ahqaf
+
+#owner = ADE
+#controller = ADE
+culture = yemeni_culture
+religion = shiite
+capital = "Ahqaf"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= ADE
+
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+discovered_by = east_african
+
+
+# = { discovered_by = POR }
+# = {
+	#owner = TUR
+	#controller = TUR
+	#add_core= TUR
+#} # Part of the Ottoman empire
+# = { unrest = 4 } # Revolt against the Ottomans
+# = { unrest = 0 }
+# = { unrest = 5 } # Revolt against the Ottomans
+# = { unrest = 0 }
+# = {
+	#owner = ADE
+	#controller = ADE
+	remove_core = TUR
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

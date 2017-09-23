@@ -1,0 +1,25 @@
+# Côte-Nord
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+clear_scripted_personalities = yes
+capital = 4785
+3051.1.14 = {
+	monarch = {
+		name = "Stewart"
+		birth_date = 3034.5.2
+		dynasty = "Carmody"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 4785
+	add_treasury = 4
+	add_prestige = 136
+}

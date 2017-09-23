@@ -1,0 +1,25 @@
+# Leeward Isles
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = calypsonian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 493
+3045.3.16 = {
+	monarch = {
+		name = "Clement"
+		birth_date = 3011.2.15
+		dynasty = "Opel"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = entrepreneur_personality
+}
+3053.1.1 {
+	capital = 493
+	add_treasury = 84
+	add_prestige = 164
+}

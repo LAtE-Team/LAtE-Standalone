@@ -1,0 +1,26 @@
+# Muskogee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 923
+3053.1.1 {
+	monarch = {
+		name = "Urban"
+		birth_date = 3013.2.17
+		dynasty = "Burgonet"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 923
+	add_treasury = 26
+	add_prestige = 136
+	elector = no
+}

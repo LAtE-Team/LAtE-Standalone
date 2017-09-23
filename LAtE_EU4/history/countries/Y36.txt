@@ -1,0 +1,25 @@
+# Outer Chicagoland
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = chicagoan
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2519
+3053.1.1= {
+	monarch = {
+		name = "Dearborn"
+		birth_date = 3029.4.21
+		dynasty = "Milkovich"
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 2519
+	add_treasury = 1
+	add_prestige = 6
+}

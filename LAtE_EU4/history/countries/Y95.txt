@@ -1,0 +1,26 @@
+# Riverlands
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = mountainer
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2597
+3022.7.18 = {
+	monarch = {
+		name = "Jordan"
+		birth_date = 2986.6.25
+		dynasty = "of  Ahtahkakoop"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 2597
+	add_treasury = 31
+	add_prestige = 49
+}

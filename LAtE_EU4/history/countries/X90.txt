@@ -1,0 +1,25 @@
+# Sierra Madre
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = raramuri
+religion = atomicist
+clear_scripted_personalities = yes
+capital = 864
+3053.1.1= {
+	monarch = {
+		name = "Paraérciniro"
+		birth_date = 3020.12.6
+		dynasty = "Caliente"
+		adm = 2
+		dip = 6
+		mil = 1
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 864
+	add_treasury = 3
+	add_prestige = 11
+}

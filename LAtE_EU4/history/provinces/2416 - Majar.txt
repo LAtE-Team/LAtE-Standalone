@@ -1,0 +1,33 @@
+#2416 - Majar
+
+
+
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = grain
+base_manpower = 1
+capital = "Majar"
+is_city = no
+
+add_core = REP
+owner = REP
+controller = REP
+culture = russian
+religion = atomicist
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

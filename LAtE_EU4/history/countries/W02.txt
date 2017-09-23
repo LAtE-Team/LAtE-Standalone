@@ -1,0 +1,26 @@
+# Altas Honduras
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 2662
+3048.12.4 = {
+	monarch = {
+		name = "Jamaica"
+		birth_date = 3041.12.7
+		dynasty = "Carrington"
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 2662
+	add_treasury = 30
+	add_prestige = 28
+}

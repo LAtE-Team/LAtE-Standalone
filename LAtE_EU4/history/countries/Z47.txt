@@ -1,0 +1,27 @@
+# Severn
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 953
+3032.12.5 = {
+	monarch = {
+		name = "Stephanus"
+		birth_date = 2996.9.18
+		dynasty = "Faulcon"
+		adm = 2
+		dip = 6
+		mil = 4
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 953
+	add_treasury = 25
+	add_prestige = 122
+	elector = no
+}

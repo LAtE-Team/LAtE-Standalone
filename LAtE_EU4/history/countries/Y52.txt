@@ -1,0 +1,25 @@
+# Transpecos
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = shoshone
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2666
+3053.1.1 {
+	monarch = {
+		name = "Ricibúrsiri"
+		birth_date = 3005.2.4
+		dynasty = "Sikára"
+		adm = 6
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2666
+	add_treasury = 8
+	add_prestige = 575
+}

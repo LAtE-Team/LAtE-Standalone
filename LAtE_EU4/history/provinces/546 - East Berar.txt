@@ -1,0 +1,22 @@
+#546 - East Berar / Nagpur
+
+owner = GDW
+controller = GDW
+culture = gondi
+religion = hinduism
+capital = "Wairagarh"
+trade_goods = cotton
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core= GDW
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

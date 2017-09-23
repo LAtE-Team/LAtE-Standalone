@@ -1,0 +1,60 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 255  175  200 }
+
+monarch_names = {
+	"Akio #0" = 50
+	"Dios #0" = 50
+	"Touga #0" = 5
+	"Kyouichi #0" = 5
+	"Miki #0" = 5
+	"Ruka #0" = 5
+	"Souji #0" = 5
+	"Mitsuru #0" = 5
+	"Utena #0" = -50
+	"Juri #0" = -5
+	"Nanami #0" = -5
+	"Kanae #0" = -5
+	"Kozue #0" = -5
+	"Shiori #0" = -5
+	"Wakaba #0" = -5
+	"Keiko #0" = -5
+}
+
+leader_names = {
+    # Daimyo names
+	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
+	Hatakeyama Hojo Tenjou Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
+	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
+	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
+	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
+	# Tenjou Flavor
+	Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou
+	Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou Tenjou
+}
+
+ship_names = {
+	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
+	"Hitachi Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
+	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
+	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
+	"Iyo Maru" "Harima Maru" "Banshu Maru"
+	"Hoki Maru" "Inaba Maru" "Bizen Maru" "Mimasaka Maru" "Binshu Maru"
+	"Bingo Maru" "Bittchu Maru" "Aki Maru" "Izumo Maru" "Iwami Maru" "Suou Maru" "Nagato Maru" "Bungo Maru"
+	"Buzen Maru" "Chikuzen Maru"
+	"Chikugo Maru" "Hizen Maru" "Higo Maru" "Chikushu Maru" "Hyuga Maru" "Osumi Maru" "Satsuma Maru" "Sasshu Maru"
+}
+
+army_names = {
+	"Tenjou Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+}
+
+fleet_names = {
+	"Tenjou Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+}

@@ -1,0 +1,25 @@
+# de Lakewood
+government = steppe_horde
+government_rank = 2
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 910
+3053.1.1 {
+	monarch = {
+		name = "Peter"
+		birth_date = 3030.1.18
+		dynasty = "de Lakewood"
+		adm = 6
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 910
+	add_treasury = 4
+	add_prestige = 58
+}

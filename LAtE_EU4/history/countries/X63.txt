@@ -1,0 +1,25 @@
+# Gran Meta
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = llanero
+religion = candomble
+clear_scripted_personalities = yes
+capital = 2815
+3053.1.1= {
+	monarch = {
+		name = "Leonardo"
+		birth_date = 2996.7.5
+		dynasty = "de  Vichada"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 2815
+	add_treasury = 12
+	add_prestige = 0
+}

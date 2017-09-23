@@ -1,0 +1,38 @@
+# Petén
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = mayan
+religion = uahomche
+clear_scripted_personalities = yes
+capital = 842
+3053.1.1= {
+	monarch = {
+		name = "Patli"
+		birth_date = 3023.10.14
+		dynasty = "Bolonchen"
+		female = yes
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	add_ruler_personality = entrepreneur_personality
+	heir = {
+		name = "Colel Cab"
+		monarch_name = "Colel Cab"
+		dynasty = "Bolonchen"
+		birth_date = 3050.3.14
+		death_date = 3130.3.14
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 842
+	add_treasury = 3
+	add_prestige = 99
+}

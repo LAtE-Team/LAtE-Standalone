@@ -1,0 +1,26 @@
+# Jackson
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 920
+3053.1.1 {
+	monarch = {
+		name = "Trophimus"
+		birth_date = 3005.1.30
+		dynasty = "Commodore"
+		adm = 4
+		dip = 2
+		mil = 0
+	}
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 920
+	add_treasury = 33
+	add_prestige = 6
+	elector = no
+}

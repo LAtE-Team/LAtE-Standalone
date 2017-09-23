@@ -1,0 +1,26 @@
+# Benning
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4673
+3047.8.8 = {
+	monarch = {
+		name = "Buck"
+		birth_date = 3037.5.11
+		dynasty = "Hammond"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 4673
+	add_treasury = 65
+	add_prestige = 45
+	elector = no
+}

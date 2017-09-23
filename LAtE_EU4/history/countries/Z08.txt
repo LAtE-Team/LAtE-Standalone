@@ -1,0 +1,26 @@
+# Santee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4655
+3046.7.2 = {
+	monarch = {
+		name = "Tertius III"
+		birth_date = 3041.8.9
+		dynasty = "Littlepage"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+3053.1.1 {
+	capital = 4655
+	add_treasury = 44
+	add_prestige = 133
+	elector = no
+}

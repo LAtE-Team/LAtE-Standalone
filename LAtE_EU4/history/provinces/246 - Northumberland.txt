@@ -1,0 +1,52 @@
+#246 - Northumberland
+#+Durham
+
+#owner = ENG
+#controller = ENG
+culture = british
+religion = thelemic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Newcastle"
+#fort_15th = yes
+is_city = no
+#add_core= ENG
+#add_core= NOL
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+
+# = { unrest = 5 } # Start of the War of the Roses
+# = { revolt = { type = revolutionary_rebels size = 0 } unrest = 2 #controller = REB } # Lancastrian Holdouts after Coronation of Edward IV
+# = { revolt = {} #controller = ENG }
+# = { unrest = 5 } # Rivalry between Edward IV & Warwick
+# = { unrest = 8 } # Unpopularity of Warwick & War with Burgundy
+# = { unrest = 2 } # Murder of Henry VI & Restoration of Edward IV
+# = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
+# = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
+# = { religion = protestant }
+# = { #controller = SCO }
+# = { #controller = ENG }
+# = { #controller = SCO }
+# = { #controller = ENG } # End of First british Civil War
+# = {
+	#owner = GBR
+	#controller = GBR
+	#add_core= GBR
+	remove_core = ENG
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

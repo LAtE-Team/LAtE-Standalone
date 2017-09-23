@@ -1,0 +1,8 @@
+# Cape Verde
+government = merchant_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = portugese # for now
+religion = brethren
+capital = 1096

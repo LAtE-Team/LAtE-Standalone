@@ -1,0 +1,26 @@
+# Florida
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2536
+3053.1.1 {
+	monarch = {
+		name = "Forrest II"
+		birth_date = 2993.2.8
+		dynasty = "Waltney"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 2536
+	add_treasury = 133
+	add_prestige = 1044
+	elector = yes
+}

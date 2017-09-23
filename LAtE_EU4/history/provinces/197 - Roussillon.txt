@@ -1,0 +1,53 @@
+# 197 Roussillon - Principal cities: Perpignan
+
+#owner = ARA
+#controller = ARA
+#add_core= CAT
+capital = "Perpignan"
+is_city = no
+culture = catalan
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+#add_core= ARA
+#add_core= TOU
+estate = estate_nobles
+fort_15th = yes
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { #add_core= FOI }
+# = { revolt = { type = pretender_rebels size = 1 leader = "Jaume d'Urgell"} #controller = REB } # Jaime de Urgell Uprising
+# = { revolt = {} #controller = ARA }
+# = { #owner = FRA #controller = FRA } # Treaty of Bayonne: Aragon sells Roussillon to France
+# = { #owner = ARA #controller = ARA } # Treaty of Barcelona: Charles VIII restores Roussillon to Aragon
+# = {
+	#owner = SPA
+	#controller = SPA
+	 #add_core= SPA
+#} # Spain comes into existence, Carlos I rises to the throne
+# = { fort_15th = no fort_16th = yes }
+# = { fort_16th = no fort_17th = yes }
+# = { #owner = FRA #controller = FRA #add_core= FRA } # Peace of the Pyrennees
+# = { #controller = SPA } # Spain invades Roussillon again
+# = { #controller = FRA remove_core = SPA } # Treaty of Nijmegen (FRA-SPA)
+# = { remove_core = ARA }
+# = { fort_17th = no fort_18th = yes }
+# = { #controller = SPA } # Occupied by the Spanish army
+# = { #controller = FRA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

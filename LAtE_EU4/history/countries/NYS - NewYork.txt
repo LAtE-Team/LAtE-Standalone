@@ -1,0 +1,26 @@
+# New York
+government = merchant_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gothamite
+religion = protestant
+clear_scripted_personalities = yes
+capital = 965
+3043.10.19 = {
+	monarch = {
+		name = "Gareth II"
+		birth_date = 3007.5.3
+		dynasty = "Manhattan"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 965
+	add_treasury = 386
+	add_prestige = 260
+	elector = yes
+}

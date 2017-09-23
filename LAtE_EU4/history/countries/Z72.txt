@@ -1,0 +1,26 @@
+# St. Landry
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2516
+3051.4.19 = {
+	monarch = {
+		name = "Bryan"
+		birth_date = 3004.12.2
+		dynasty = "Skipwith"
+		adm = 4
+		dip = 2
+		mil = 0
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2516
+	add_treasury = 17
+	add_prestige = 82
+	elector = no
+}

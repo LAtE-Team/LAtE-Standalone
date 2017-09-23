@@ -1,0 +1,26 @@
+#305 - Perm
+
+owner = PRM
+controller = PRM
+add_core = PRM
+culture = russian
+religion = rust_cultist
+trade_goods = iron
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 5
+discovered_by = indian
+
+capital = "Yagoshiha"
+
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

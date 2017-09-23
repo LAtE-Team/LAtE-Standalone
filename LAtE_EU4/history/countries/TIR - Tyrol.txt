@@ -1,0 +1,7 @@
+government = siberian_native_council #Till we make a european equivalent
+government_rank = 1
+technology_group = high_american
+religion = cult_of_reason
+primary_culture = austrian
+capital = 73	# Innsbruck
+

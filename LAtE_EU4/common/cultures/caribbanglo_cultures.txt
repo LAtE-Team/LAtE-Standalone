@@ -1,0 +1,29 @@
+caribbanglo = {
+	west_indian = {
+		primary = CBN
+		dynasty_names = { "Seaga" "Hylton" "Thwaites" "McKenzie" "McGann" "Spaulding" "Bedward" "Golding" "Carrington" "Drummond" "Bradshaw" "Rhone" "Henzell" "Blackwell" "Claxton" "Pindling" "Greenidge" "Ince" "Bogle" "Husbands" "Sandiford" "Seraphin" "of Salama" "of Champerico" "of El Ceibo" "of Polol" "of Chichicastenango" "of San Pedro Ayampuc" "of Arenoso" "of Esperanza" "of Mandeville" "of Constant Spring" "of Petite Rivière de l'Artibonite" "of Choloma" "of Monjaras" "of Armenia" }
+	}
+	calypsonian = {
+		primary = CBN
+		dynasty_names = { "Opel" "Collymoore" "Best" }
+	}
+	bermudian = {
+		primary = BRM
+		dynasty_names = { "Browne" }
+	}
+	garinagu = {
+		primary = HON
+		dynasty_names = { "Green" }
+	}
+	raizal = {
+		dynasty_names = { "Axe" }
+	}
+	kriol = {
+		primary = BLZ
+		dynasty_names = { "Petters" }
+	}
+	guyanese = {
+		primary = GYN
+		dynasty_names = { }
+	}
+}

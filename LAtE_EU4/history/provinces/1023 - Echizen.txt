@@ -1,0 +1,23 @@
+#1023 - Echizen
+
+owner = YAM
+controller = YAM
+culture = japanese
+religion = shinto
+capital = "Fukui"
+trade_goods = silk
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core= YAM
+
+
+
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

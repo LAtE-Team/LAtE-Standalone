@@ -1,0 +1,19 @@
+#998 - Ungava
+
+culture = inuit
+religion = ghost_dance
+capital = "Ungava"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+
+
+
+
+
+discovered_by = GBR

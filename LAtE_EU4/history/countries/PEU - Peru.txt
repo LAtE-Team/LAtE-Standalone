@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = andean
+religion = candomble # Or Cult of Saints, or Inti, or something else
+primary_culture = quiteno # Placeholder
+capital = 809	# Lima

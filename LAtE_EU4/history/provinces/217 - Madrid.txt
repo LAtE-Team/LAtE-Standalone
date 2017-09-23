@@ -1,0 +1,48 @@
+#217 - Madrid
+
+#owner = CAS		#Juan II of Castille
+#controller = CAS
+#add_core= CAS
+culture = castillian
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Madrid" 
+is_city = no # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # The revolt of the comuneros, started in Toledo, reaches Madrid, new fortifications are built to defend the city but ultimately the royalists are defeated.
+# = { revolt = {} #controller = SPA } # The Comuneros are defeated
+# = { unrest = 3 } # Restlessness due to prolonged famines
+# = { unrest = 0 } # The King is forced to adopt measures to appease the population, a new corregidor is elected
+# = { #controller = ENG } # Anglo-portuguese troops take the city in the name of Archduke Carlos of Austria
+# = { #controller = SPA } # Troops loyal to Felipe V recover the city
+# = { #controller = HAB } # Archduke Carlos takes the city
+# = { #controller = SPA } # Archduke Carlos leaves the city due to the pressure of partidaries of Felipe V
+# = { remove_core = CAS }
+# = { unrest = 3 } # Esquilache mutiny
+# = { unrest = 0 } # The King grants a pardon and comes back to Madrid, after the situations has stabilised.
+# = { #controller = FRA } # Invaded by the French army
+# = { revolt = { type = pretender_rebels size = 3 } #controller = REB } # Dos de Mayo
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 2 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

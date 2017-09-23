@@ -1,0 +1,36 @@
+# Colima
+government = merchant_republic
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = tapatio
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 2657
+3051.5.23 = {
+	monarch = {
+		name = "Vargas III"
+		birth_date = 3011.11.16
+		dynasty = "del Toro"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = lawgiver_personality
+	heir = {
+		name = "Vicente María"
+		monarch_name = "Vicente María"
+		dynasty = "del Toro"
+		birth_date = 3004.2.22
+		death_date = 3084.2.22
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	add_heir_personality = pious_personality
+}
+3053.1.1 {
+	capital = 2657
+	add_treasury = 152
+	add_prestige = 201
+}

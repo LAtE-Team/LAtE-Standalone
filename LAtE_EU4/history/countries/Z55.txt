@@ -1,0 +1,27 @@
+# Catskill
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2550
+3050.9.2 = {
+	monarch = {
+		name = "Cornelia"
+		birth_date = 3023.12.2
+		dynasty = "Pixane"
+		female = yes
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 2550
+	add_treasury = 28
+	add_prestige = 77
+	elector = no
+}

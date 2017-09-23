@@ -1,0 +1,47 @@
+#1750 - Alàcant
+
+#owner = ARA		#Martí I of Aragon
+#controller = ARA
+#add_core= ARA
+#add_core= CAT
+culture = catalan
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Alàcant" 
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {
+	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+# = { unrest = 2 } # Revolt of the Germanies, which is at first moderate and appeased by the King
+# = { unrest = 0 } # The Agermanats are soundly defeated in Oriola.
+# = { unrest = 2 } # Decree for the expulsion of the morisques in Valencia. Morisque mutiny in the Alicante harbour.
+# = { unrest = 0 } # The morisque mutiny is finally controlled. (economic consequences should be added)
+# = { #controller = HAB } # Alicante joins the Austrian side in the War of the Spanish Succession
+# = { #controller = SPA } # Alicante falls to the Borbonic troops
+# = { remove_core = ARA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

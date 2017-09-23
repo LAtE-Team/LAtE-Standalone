@@ -1,0 +1,7 @@
+# No previous file for Tulucan
+
+capital = "Tolluca"
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

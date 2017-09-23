@@ -1,0 +1,25 @@
+# The Papacy
+government = papal_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = riverlander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4585
+3048.3.26 = {
+	monarch = {
+		name = "Salvator III"
+		birth_date = 3001.1.9
+		dynasty = "Plumbum"
+		adm = 3
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = free_thinker_personality
+}
+3053.1.1 {
+	capital = 4585
+	add_treasury = 81
+	add_prestige = 77
+}

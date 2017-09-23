@@ -1,0 +1,5 @@
+## For unique provinces that "historically" excel at producing a certain trade good
+
+okavongo_delta_modifier = { #Okavongo delta - major migratory location for Elephants, Rhinos, etc.
+	trade_goods_size = 3.0
+}

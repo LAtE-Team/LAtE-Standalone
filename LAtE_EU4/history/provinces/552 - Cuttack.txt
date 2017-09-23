@@ -1,0 +1,24 @@
+#552 - Cuttack
+
+owner = ORI
+controller = ORI
+culture = oriya
+religion = hinduism
+capital = "Cuttack"
+trade_goods = cloth
+hre = no
+base_tax = 6 
+base_production = 7
+base_manpower = 4
+is_city = yes
+add_core= ORI
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

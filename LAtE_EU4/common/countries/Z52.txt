@@ -1,0 +1,149 @@
+# Cape Fear
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 188 167 92 }
+
+
+
+
+leader_names = {
+
+	"Heron" "Dionysia" "Silvana" "Ector" "Jocasta" "Wade" "Carolina" "Cola" "India" "Achilles" 
+	"Laurentius" "Hamilcar" "Peach" "Nathanael" "Atalanta" "Helen" "Elisabeth" "Marcellus" "Megara" "Augustus" 
+	"Ancell" "Anthemeol" "Alpheus" "Arthur" "Ambrose" "Aloys" "Armistead" "Antipas" "Bedivere" "Breunor" 
+	"Brutus" "Brandegoris" "Brangwin" "Baldwin" "Bohemond" "Beauregard" "Braxton" "Bryan" "Cronus" "Charles" 
+	"Claudius" "Constantine" "Coriolanus" "Calhoun" "Davis" "Frederick" "Fulwar" "Fulgent" "Griflet" "Geoffrey" 
+	"Geraint" "Gareth" "Goode" "Hannibal" "Isaias" "Joscelin" "Jefferson" "Jupiter" "Julius" "Justinian" 
+	"Jackson" "Lucan" "Lionel" "Lucius" "Lunsford" "Lamartine" "Marcus" "Mercury" "Merriman" "Meriwether" 
+	"Marmaduke" "Meleager" "Neptune" "Octavian" "Prudens" "Polycarpus" "Priscus" "Pulcher" "Publicola" "Petrus" 
+	"Paulus" "Plato" "Pluto" "Pellinore" "Percival" "Pellias" "Pompey" "Pericles" "Quadratus" "Robert" 
+	"Richard" "Rhett" "Regulus" "Robin" "Raynault" "Raleigh" "Rufus" "Raphael" "Sosipater" "Superbus" 
+	"Saturn" "Scipio" "Severus" "Sylvester" "Sagremore" "Stephanus" "Solon" "Saunder" "Tiberius" "Trophimus" 
+	"Tertius" "Theophilus" "Thomas" "Timon" "Titus" "Urien" "Urban" "Ulixes" "Vitalian" "Valerian" 
+	"William" "Winfield" "Zacharias" }
+monarch_names = {
+	"Heron #0" = 1
+	"Dionysia #0" = -1
+	"Silvana #0" = -1
+	"Ector #0" = 1
+	"Jocasta #0" = -1
+	"Wade #0" = 1
+	"Carolina #0" = -1
+	"Cola #0" = -1
+	"India #0" = -1
+	"Achilles #0" = 1
+	"Laurentius #0" = 1
+	"Hamilcar #0" = 1
+	"Peach #0" = -1
+	"Nathanael #0" = 1
+	"Atalanta #0" = -1
+	"Helen #0" = -1
+	"Elisabeth #0" = -1
+	"Marcellus #0" = 1
+	"Megara #0" = -1
+	"Augustus #0" = 0
+	"Ancell #0" = 0
+	"Anthemeol #0" = 0
+	"Alpheus #0" = 0
+	"Arthur #0" = 0
+	"Ambrose #0" = 0
+	"Aloys #0" = 0
+	"Armistead #0" = 0
+	"Antipas #0" = 0
+	"Bedivere #0" = 0
+	"Breunor #0" = 0
+	"Brutus #0" = 0
+	"Brandegoris #0" = 0
+	"Brangwin #0" = 0
+	"Baldwin #0" = 0
+	"Bohemond #0" = 0
+	"Beauregard #0" = 0
+	"Braxton #0" = 0
+	"Bryan #0" = 0
+	"Cronus #0" = 0
+	"Charles #0" = 0
+	"Claudius #0" = 0
+	"Constantine #0" = 0
+	"Coriolanus #0" = 0
+	"Calhoun #0" = 0
+	"Davis #0" = 0
+	"Frederick #0" = 0
+	"Fulwar #0" = 0
+	"Fulgent #0" = 0
+	"Griflet #0" = 0
+	"Geoffrey #0" = 0
+	"Geraint #0" = 0
+	"Gareth #0" = 0
+	"Goode #0" = 0
+	"Hannibal #0" = 0
+	"Isaias #0" = 0
+	"Joscelin #0" = 0
+	"Jefferson #0" = 0
+	"Jupiter #0" = 0
+	"Julius #0" = 0
+	"Justinian #0" = 0
+	"Jackson #0" = 0
+	"Lucan #0" = 0
+	"Lionel #0" = 0
+	"Lucius #0" = 0
+	"Lunsford #0" = 0
+	"Lamartine #0" = 0
+	"Marcus #0" = 0
+	"Mercury #0" = 0
+	"Merriman #0" = 0
+	"Meriwether #0" = 0
+	"Marmaduke #0" = 0
+	"Meleager #0" = 0
+	"Neptune #0" = 0
+	"Octavian #0" = 0
+	"Prudens #0" = 0
+	"Polycarpus #0" = 0
+	"Priscus #0" = 0
+	"Pulcher #0" = 0
+	"Publicola #0" = 0
+	"Petrus #0" = 0
+	"Paulus #0" = 0
+	"Plato #0" = 0
+	"Pluto #0" = 0
+	"Pellinore #0" = 0
+	"Percival #0" = 0
+	"Pellias #0" = 0
+	"Pompey #0" = 0
+	"Pericles #0" = 0
+	"Quadratus #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Rhett #0" = 0
+	"Regulus #0" = 0
+	"Robin #0" = 0
+	"Raynault #0" = 0
+	"Raleigh #0" = 0
+	"Rufus #0" = 0
+	"Raphael #0" = 0
+	"Sosipater #0" = 0
+	"Superbus #0" = 0
+	"Saturn #0" = 0
+	"Scipio #0" = 0
+	"Severus #0" = 0
+	"Sylvester #0" = 0
+	"Sagremore #0" = 0
+	"Stephanus #0" = 0
+	"Solon #0" = 0
+	"Saunder #0" = 0
+	"Tiberius #0" = 0
+	"Trophimus #0" = 0
+	"Tertius #0" = 0
+	"Theophilus #0" = 0
+	"Thomas #0" = 0
+	"Timon #0" = 0
+	"Titus #0" = 0
+	"Urien #0" = 0
+	"Urban #0" = 0
+	"Ulixes #0" = 0
+	"Vitalian #0" = 0
+	"Valerian #0" = 0
+	"William #0" = 0
+	"Winfield #0" = 0
+	"Zacharias #0" = 0
+}
+

@@ -1,0 +1,37 @@
+# Sangamon
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = rostmann
+religion = catholic
+clear_scripted_personalities = yes
+capital = 916
+3042.4.27 = {
+	monarch = {
+		name = "Walther"
+		birth_date = 3014.2.25
+		dynasty = "Cass"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = infertile_personality
+	heir = {
+		name = "Raymund"
+		monarch_name = "Raymund"
+		dynasty = "Cass"
+		birth_date = 3031.10.24
+		death_date = 3111.10.24
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 916
+	add_treasury = 14
+	add_prestige = 53
+}

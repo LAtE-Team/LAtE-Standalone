@@ -1,0 +1,25 @@
+# Los Padres
+government = oligarchic_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 868
+3050.5.2 = {
+	monarch = {
+		name = "Foster"
+		birth_date = 2986.7.12
+		dynasty = "Iglesias"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 868
+	add_treasury = 29
+	add_prestige = 140
+}

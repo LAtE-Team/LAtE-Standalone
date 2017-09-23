@@ -1,0 +1,26 @@
+# Oklahoma
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = coloradan
+religion = catholic
+clear_scripted_personalities = yes
+capital = 901
+3035.9.23 = {
+	monarch = {
+		name = "Bowahquasuh"
+		birth_date = 2999.1.7
+		dynasty = "Jaquan"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 901
+	add_treasury = 7
+	add_prestige = 98
+}

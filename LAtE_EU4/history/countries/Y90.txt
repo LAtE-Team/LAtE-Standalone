@@ -1,0 +1,35 @@
+# Big Horn
+government = tribal_kingdom
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2504
+3053.1.1 {
+	monarch = {
+		name = "Ian"
+		birth_date = 3017.1.22
+		dynasty = "Callihoo"
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+	heir = {
+		name = "Ray"
+		monarch_name = "Ray"
+		dynasty = "Callihoo"
+		birth_date = 3047.12.15
+		death_date = 3127.12.15
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 2504
+	add_treasury = 20
+	add_prestige = 109
+}

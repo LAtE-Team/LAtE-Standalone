@@ -1,0 +1,42 @@
+#2404 - Mergui
+
+#owner = AYU
+#controller = AYU
+culture = mon
+religion = buddhism
+capital = "Mergui"
+trade_goods = chinaware
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = no
+#add_core= AYU
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+
+# = { discovered_by = POR }
+
+# = {
+	#owner = TAU
+	#controller = TAU
+	#add_core= TAU
+#}
+# = {
+	#owner = AYU
+	#controller = AYU
+#}
+# = { #owner = TAU #controller = TAU } # Taungu regained Tenasserim
+# = { #owner = AYU #controller = AYU }
+# = { #owner = TAU #controller = TAU }
+# = { remove_core = AYU }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

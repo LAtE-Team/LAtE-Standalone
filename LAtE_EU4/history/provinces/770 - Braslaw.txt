@@ -1,0 +1,44 @@
+#770 - Braslaw
+
+#owner = LIT
+#controller = LIT
+capital = "Braslaw"
+is_city = no
+culture = lithuanian
+religion = catholic
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+#add_core= LIT
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+
+# = { unrest = 3 } # Counter reformation
+# = {
+	#owner = PLC
+	#controller = PLC
+	#add_core= PLC
+#} # Union of Lublin
+# = { unrest = 0 } # Vilnius university
+# = { unrest = 3} # 3rd May constitution raised opposition
+# = { unrest = 6 } # Kosciuszko uprising
+# = { unrest = 0 }
+# = {
+	#owner = RUS
+	#controller = RUS
+	#add_core= RUS
+#} # Most of Lithuania are incorporated into the Russian empire
+# = { #controller = FRA } # Occupied by French troops
+# = { #controller = RUS }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

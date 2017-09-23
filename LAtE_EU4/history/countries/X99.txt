@@ -1,0 +1,25 @@
+# Guatemala
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chapin
+religion = uahomche
+clear_scripted_personalities = yes
+capital = 2653
+3053.1.1 {
+	monarch = {
+		name = "Glenroy"
+		birth_date = 3032.6.16
+		dynasty = "Arnaz"
+		adm = 6
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2653
+	add_treasury = 60
+	add_prestige = 188
+}

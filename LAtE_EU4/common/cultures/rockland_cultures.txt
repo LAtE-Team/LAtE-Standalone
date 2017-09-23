@@ -1,0 +1,13 @@
+rockland = {
+	mountainer = {
+		dynasty_names = { "of Priddis" "of Rocky Mountain House" "of Red Deer" "of Fort Benton" }
+	}
+	coloradan = {
+		primary = CLR
+		dynasty_names = { }
+	}
+	utahn = {
+		primary = DES
+		dynasty_names = { "Vina" "of Sandy" }
+	}
+}

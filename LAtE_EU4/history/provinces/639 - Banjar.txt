@@ -1,0 +1,18 @@
+#639 - Banjar
+
+culture = bornean
+religion = sunni
+capital = "Banjar"
+trade_goods = tropical_wood
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+native_size = 60
+native_ferocity = 6
+native_hostileness = 6
+
+
+
+discovered_by = chinese
+discovered_by = indian

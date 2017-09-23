@@ -1,0 +1,25 @@
+# - Cagliari
+
+#owner = SAR
+#controller = SAR
+culture = sardinian 
+religion = hellenic_pagan 
+hre = no 
+base_tax = 1
+base_production = 1
+trade_goods = copper
+base_manpower = 1
+capital = "Cagliari" 
+is_city = no # Estimated 
+#add_core= SAR
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

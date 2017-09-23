@@ -1,0 +1,24 @@
+# Catawba
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+capital = 933
+3047.8.4 = {
+	monarch = {
+		name = "Marcellus"
+		birth_date = 3046.3.18
+		dynasty = "Butler"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+3053.1.1 {
+	capital = 933
+	add_treasury = 31
+	add_prestige = 32
+	elector = no
+}

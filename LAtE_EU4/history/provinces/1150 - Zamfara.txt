@@ -1,0 +1,23 @@
+#1150 - Zamfara
+
+owner = NGR
+controller = NGR
+add_core = NGR
+culture = nigerian
+is_city = yes
+base_manpower = 1
+religion = ahmadi
+capital = "Dutsi"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+
+
+
+discovered_by = sub_saharan
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

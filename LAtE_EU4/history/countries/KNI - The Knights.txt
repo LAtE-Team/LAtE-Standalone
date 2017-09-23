@@ -1,0 +1,6 @@
+government = monastic_order_government
+government_rank = 1
+primary_culture = occitain
+religion = matrem
+technology_group = high_american
+capital = 126 # Malta

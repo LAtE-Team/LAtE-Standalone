@@ -1,0 +1,171 @@
+# Adirondack
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 123 100 66 }
+
+
+
+
+leader_names = {
+
+	"Rebecca" "Abel" "Holbrook" "Owandah" "Beatrix" "Bethany" "Whitelaw" "Anthony" "Cyrus" "Luna" 
+	"Ellis" "Emma" "York" "Chelsea" "Lewis" "Jane" "Molly" "Worcester" "Frederick" "Caroline" 
+	"Hudson" "Quincy" "Philip" "Margaret" "Geraldine" "Norton" "Tompkin" "Gideon" "Regina" "Rodney" 
+	"Jocelyn" "Hiawatha" "Simon" "Charles" "Darius" "Alice" "Nathaniel" "Erastus" "Hillary" "Shelley" 
+	"Jennifer" "Stephanus" "By" "Launcelot" "Doris" "Lauren" "Judith" "Viola" "Madrun" "Dorothy" 
+	"Rufus" "Anna" "Gavia" "Cashunyon" "Artur" "Edgar" "Tehwehron" "Cotton" "August" "Theodosia" 
+	"Alexandra" "Andries" "Anton" "Albert" "Archibald" "Andre" "Baltus" "Brom" "Benjamin" "Cornelis" 
+	"Clinton" "Cangueese" "Carillon" "Cephas" "Chester" "Derrick" "Diedrich" "Daniel" "Deserontyon" "Delby" 
+	"David" "Ebenezer" "Ethan" "Ernest" "Elihu" "Edwin" "Eli" "Franklin" "Friso" "Guyasut" 
+	"Geoffrey" "Gerrit" "Gemolo" "Hendrick" "Hunter" "Hamilton" "Harmanus" "Hugh" "Himerius" "Ichabod" 
+	"Isaac" "Johannes" "Jervis" "Josiah" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent" "Kel" 
+	"Leo" "Lemuel" "Morris" "Martin" "Montgomery" "Malcolm" "Mather" "Nicholas" "Otetian" "Ogden" 
+	"Oliver" "Oswald" "Pindar" "Phinehas" "Quentin" "Quoz" "Roger" "Richard" "Raymond" "Rip" 
+	"Rollin" "Stanwix" "Samuel" "Silus" "Solon" "Traynor" "Theodore" "Truman" "Vincent" "William" 
+	"Washington" "Walter" "Xander" }
+monarch_names = {
+	"Rebecca #0" = -1
+	"Abel #1" = 24
+	"Holbrook #1" = 21
+	"Owandah #0" = -1
+	"Beatrix #0" = -1
+	"Bethany #0" = -1
+	"Whitelaw #0" = 1
+	"Anthony #1" = 21
+	"Cyrus #0" = 1
+	"Luna #0" = -1
+	"Ellis #0" = 1
+	"Emma #0" = -1
+	"York #0" = 1
+	"Chelsea #0" = -1
+	"Lewis #0" = 1
+	"Jane #0" = -1
+	"Molly #0" = -1
+	"Worcester #0" = 1
+	"Frederick #0" = 1
+	"Caroline #0" = -1
+	"Hudson #0" = 1
+	"Quincy #0" = 1
+	"Philip #0" = 1
+	"Margaret #0" = -1
+	"Geraldine #0" = -1
+	"Norton #2" = 30
+	"Tompkin #1" = 24
+	"Gideon #0" = 1
+	"Regina #0" = -1
+	"Rodney #0" = 1
+	"Jocelyn #0" = -1
+	"Hiawatha #0" = -1
+	"Simon #0" = 1
+	"Charles #0" = 1
+	"Darius #0" = 1
+	"Alice #0" = -1
+	"Nathaniel #1" = 18
+	"Erastus #0" = 1
+	"Hillary #0" = -1
+	"Shelley #0" = -1
+	"Jennifer #0" = -1
+	"Stephanus #0" = 1
+	"By #0" = 1
+	"Launcelot #0" = 1
+	"Doris #0" = -1
+	"Lauren #0" = -1
+	"Judith #0" = -1
+	"Viola #2" = -19
+	"Madrun #0" = -1
+	"Dorothy #0" = -1
+	"Rufus #0" = 1
+	"Anna #0" = -1
+	"Gavia #0" = -1
+	"Cashunyon #1" = 0
+	"Artur #1" = 0
+	"Edgar #1" = 0
+	"Tehwehron #1" = 0
+	"Cotton #1" = 0
+	"August #1" = 0
+	"Theodosia #1" = -1
+	"Alexandra #1" = -1
+	"Andries #0" = 0
+	"Anton #0" = 0
+	"Albert #0" = 0
+	"Archibald #0" = 0
+	"Andre #0" = 0
+	"Baltus #0" = 0
+	"Brom #0" = 0
+	"Benjamin #0" = 0
+	"Cornelis #0" = 0
+	"Clinton #0" = 0
+	"Cangueese #0" = 0
+	"Carillon #0" = 0
+	"Cephas #0" = 0
+	"Chester #0" = 0
+	"Derrick #0" = 0
+	"Diedrich #0" = 0
+	"Daniel #0" = 0
+	"Deserontyon #0" = 0
+	"Delby #0" = 0
+	"David #0" = 0
+	"Ebenezer #0" = 0
+	"Ethan #0" = 0
+	"Ernest #0" = 0
+	"Elihu #0" = 0
+	"Edwin #0" = 0
+	"Eli #0" = 0
+	"Franklin #0" = 0
+	"Friso #0" = 0
+	"Guyasut #0" = 0
+	"Geoffrey #0" = 0
+	"Gerrit #0" = 0
+	"Gemolo #0" = 0
+	"Hendrick #0" = 0
+	"Hunter #0" = 0
+	"Hamilton #0" = 0
+	"Harmanus #0" = 0
+	"Hugh #0" = 0
+	"Himerius #0" = 0
+	"Ichabod #0" = 0
+	"Isaac #0" = 0
+	"Johannes #0" = 0
+	"Jervis #0" = 0
+	"Josiah #0" = 0
+	"Jacobus #0" = 0
+	"Jasper #0" = 0
+	"Jovan #0" = 0
+	"Kirke #0" = 0
+	"Kent #0" = 0
+	"Kel #0" = 0
+	"Leo #0" = 0
+	"Lemuel #0" = 0
+	"Morris #0" = 0
+	"Martin #0" = 0
+	"Montgomery #0" = 0
+	"Malcolm #0" = 0
+	"Mather #0" = 0
+	"Nicholas #0" = 0
+	"Otetian #0" = 0
+	"Ogden #0" = 0
+	"Oliver #0" = 0
+	"Oswald #0" = 0
+	"Pindar #0" = 0
+	"Phinehas #0" = 0
+	"Quentin #0" = 0
+	"Quoz #0" = 0
+	"Roger #0" = 0
+	"Richard #0" = 0
+	"Raymond #0" = 0
+	"Rip #0" = 0
+	"Rollin #0" = 0
+	"Stanwix #0" = 0
+	"Samuel #0" = 0
+	"Silus #0" = 0
+	"Solon #0" = 0
+	"Traynor #0" = 0
+	"Theodore #0" = 0
+	"Truman #0" = 0
+	"Vincent #0" = 0
+	"William #0" = 0
+	"Washington #0" = 0
+	"Walter #0" = 0
+	"Xander #0" = 0
+}
+

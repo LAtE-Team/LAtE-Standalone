@@ -1,0 +1,19 @@
+# - Rio Negro
+
+owner = VES
+controller = VES
+add_core = VES
+culture = welsh
+discovered_by = south_american
+religion = candomble
+capital = "Rio Negro"
+trade_goods = unknown
+is_city = yes
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10 
+native_ferocity = 3
+native_hostileness = 0	
+

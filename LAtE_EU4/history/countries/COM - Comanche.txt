@@ -1,0 +1,37 @@
+# Comancheria
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = shoshone
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2496
+3048.7.7 = {
+	monarch = {
+		name = "Kumaquai"
+		birth_date = 3009.4.25
+		dynasty = "Sanaco"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = secretive_personality
+	heir = {
+		name = "Tosacondata"
+		monarch_name = "Tosacondata"
+		dynasty = "Sanaco"
+		birth_date = 3032.9.8
+		death_date = 3112.9.8
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2496
+	add_treasury = 54
+	add_prestige = 127
+}

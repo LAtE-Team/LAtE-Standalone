@@ -1,0 +1,39 @@
+# Vermont
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = yankee
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 2563
+3027.5.22 = {
+	monarch = {
+		name = "Tessa"
+		birth_date = 3027.5.6
+		dynasty = "Chauveau"
+		female = yes
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = industrious_personality
+}
+3044.3.19 = {
+	heir = {
+		name = "Damil"
+		monarch_name = "Damil"
+		dynasty = "Chauveau"
+		birth_date = 3044.3.19
+		death_date = 3124.3.19
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 2563
+	add_treasury = 5
+	add_prestige = 39
+}

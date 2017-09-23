@@ -1,0 +1,24 @@
+#2069 - Kumaon
+
+owner = NPL
+controller = NPL
+culture = nepali
+religion = hinduism
+capital = "Champawat"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= NPL
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

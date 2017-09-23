@@ -1,0 +1,23 @@
+#East Karelia
+
+#owner = NOV
+#controller = NOV 
+capital = "Kem"
+culture = karelian
+religion = finnish_pagan_reformed
+#add_core= NOV
+hre = no
+is_city = no
+base_tax = 1 
+base_production = 1
+trade_goods = salt
+base_manpower = 1
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

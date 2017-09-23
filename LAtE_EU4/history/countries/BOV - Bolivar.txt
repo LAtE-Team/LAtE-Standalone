@@ -1,0 +1,26 @@
+# Bolívar
+government = theocratic_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = candomble
+clear_scripted_personalities = yes
+capital = 742
+3029.5.9 = {
+	monarch = {
+		name = "Reinaldo"
+		birth_date = 2988.1.29
+		dynasty = "de  Ciudad Bolívar"
+		adm = 2
+		dip = 5
+		mil = 6
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = scholar_personality
+}
+3053.1.1 {
+	capital = 742
+	add_treasury = 81
+	add_prestige = 321
+}

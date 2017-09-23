@@ -1,0 +1,151 @@
+# Cuyahoga
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 190 40 65 }
+
+
+
+
+leader_names = {
+
+	"Julian" "Amalrick" "Dean" "Janette" "Ladislaus" "Daniela" "Oliver" "Gabriella" "Virginia" "Benzene" 
+	"Marklin" "Virgil" "Erica" "Susan" "Todhilda" "Payton" "Eurich" "Lenore" "Mary" "Paul" 
+	"Alfraed" "Celia" "Rita" "Angelica" "Lorelei" "Idebelle" "David" "Woodward" "Durant" "Rustin" 
+	"Eisenwulf" "Vincentz" "Mark" "Adalbert" "Armstrong" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" 
+	"Berick" "Benjamin" "Burrill" "Bentley" "Bessemer" "Christoph" "Daniel" "Dodge" "Dexter" "Dorrich" 
+	"Eric" "Etzel" "Edward" "Edmund" "Eugene" "Erwin" "Elwood" "Edgar" "Eisenrich" "Eisenslaus" 
+	"Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" "Georg" "Gottfrid" "Gerolt" "Gordon" 
+	"Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" "Johannes" "Jakob" "Justin" "Jerome" 
+	"Jagiel" "Karles" "Keifer" "Kasimir" "Lawrenz" "Ludewis" "Lumen" "Leonard" "Michael" "Morits" 
+	"Martin" "Miles" "Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Orvil" "Peter" "Preston" 
+	"Rostwin" "Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Steppen" "Sidmund" "Stahlrich" "Stahlgar" 
+	"Stanislaus" "Thomm" "Theodor" "Todrich" "Viktor" "Velibor" "Willelm" "Weyland" "Wayne" "Walther" 
+	"Wilbur" "Wernher" "Woitke" "Zachary" "Zwentibold" }
+monarch_names = {
+	"Julian #0" = 1
+	"Amalrick #0" = 1
+	"Dean #0" = 1
+	"Janette #0" = -1
+	"Ladislaus #2" = 21
+	"Daniela #0" = -1
+	"Oliver #0" = 1
+	"Gabriella #0" = -1
+	"Virginia #0" = -1
+	"Benzene #0" = 1
+	"Marklin #0" = 1
+	"Virgil #0" = 1
+	"Erica #0" = -1
+	"Susan #0" = -1
+	"Todhilda #0" = -1
+	"Payton #0" = 1
+	"Eurich #0" = 1
+	"Lenore #0" = -1
+	"Mary #0" = -1
+	"Paul #0" = 1
+	"Alfraed #1" = 21
+	"Celia #0" = -1
+	"Rita #0" = -1
+	"Angelica #0" = -1
+	"Lorelei #0" = -1
+	"Idebelle #0" = -1
+	"David #1" = 18
+	"Woodward #2" = 0
+	"Durant #1" = 0
+	"Rustin #2" = 0
+	"Eisenwulf #1" = 0
+	"Vincentz #1" = 0
+	"Mark #1" = 0
+	"Adalbert #0" = 0
+	"Armstrong #0" = 0
+	"Adalfuns #0" = 0
+	"Adam #0" = 0
+	"Aripert #0" = 0
+	"Anthony #0" = 0
+	"Adalrost #0" = 0
+	"Berick #0" = 0
+	"Benjamin #0" = 0
+	"Burrill #0" = 0
+	"Bentley #0" = 0
+	"Bessemer #0" = 0
+	"Christoph #0" = 0
+	"Daniel #0" = 0
+	"Dodge #0" = 0
+	"Dexter #0" = 0
+	"Dorrich #0" = 0
+	"Eric #0" = 0
+	"Etzel #0" = 0
+	"Edward #0" = 0
+	"Edmund #0" = 0
+	"Eugene #0" = 0
+	"Erwin #0" = 0
+	"Elwood #0" = 0
+	"Edgar #0" = 0
+	"Eisenrich #0" = 0
+	"Eisenslaus #0" = 0
+	"Frederich #0" = 0
+	"Filadelph #0" = 0
+	"Florent #0" = 0
+	"Ferdinand #0" = 0
+	"Franjo #0" = 0
+	"Gilberht #0" = 0
+	"Georg #0" = 0
+	"Gottfrid #0" = 0
+	"Gerolt #0" = 0
+	"Gordon #0" = 0
+	"Gelbin #0" = 0
+	"Hugo #0" = 0
+	"Hammo #0" = 0
+	"Henrich #0" = 0
+	"Hudson #0" = 0
+	"Harley #0" = 0
+	"Johannes #0" = 0
+	"Jakob #0" = 0
+	"Justin #0" = 0
+	"Jerome #0" = 0
+	"Jagiel #0" = 0
+	"Karles #0" = 0
+	"Keifer #0" = 0
+	"Kasimir #0" = 0
+	"Lawrenz #0" = 0
+	"Ludewis #0" = 0
+	"Lumen #0" = 0
+	"Leonard #0" = 0
+	"Michael #0" = 0
+	"Morits #0" = 0
+	"Martin #0" = 0
+	"Miles #0" = 0
+	"Maynard #0" = 0
+	"Marshall #0" = 0
+	"Nicholaus #0" = 0
+	"Nathan #0" = 0
+	"Otto #0" = 0
+	"Orvil #0" = 0
+	"Peter #0" = 0
+	"Preston #0" = 0
+	"Rostwin #0" = 0
+	"Rohardt #0" = 0
+	"Roger #0" = 0
+	"Raymund #0" = 0
+	"Richardt #0" = 0
+	"Rainalt #0" = 0
+	"Steppen #0" = 0
+	"Sidmund #0" = 0
+	"Stahlrich #0" = 0
+	"Stahlgar #0" = 0
+	"Stanislaus #0" = 0
+	"Thomm #0" = 0
+	"Theodor #0" = 0
+	"Todrich #0" = 0
+	"Viktor #0" = 0
+	"Velibor #0" = 0
+	"Willelm #0" = 0
+	"Weyland #0" = 0
+	"Wayne #0" = 0
+	"Walther #0" = 0
+	"Wilbur #0" = 0
+	"Wernher #0" = 0
+	"Woitke #0" = 0
+	"Zachary #0" = 0
+	"Zwentibold #0" = 0
+}
+

@@ -1,0 +1,26 @@
+# Ouachita
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = texan
+religion = neoroman
+clear_scripted_personalities = yes
+capital = 2014
+3037.8.7 = {
+	monarch = {
+		name = "Matt IV"
+		birth_date = 3004.12.8
+		dynasty = "Blaggold"
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 2014
+	add_treasury = 15
+	add_prestige = 127
+}

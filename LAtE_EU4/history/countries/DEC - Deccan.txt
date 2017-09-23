@@ -1,0 +1,5 @@
+government = iqta
+primary_culture = telegu
+religion = sunni
+technology_group = indian
+capital = 542 #Hyderabad

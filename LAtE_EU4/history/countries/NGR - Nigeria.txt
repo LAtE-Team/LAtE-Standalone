@@ -1,0 +1,8 @@
+# Nigerian
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = nigerian
+religion = ahmadi
+capital = 1154

@@ -1,0 +1,25 @@
+#519 - Dhundar
+
+owner = DLH
+controller = DLH
+culture = rajput
+religion = hinduism
+capital = "Jaipur"
+trade_goods = copper
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core= DLH
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

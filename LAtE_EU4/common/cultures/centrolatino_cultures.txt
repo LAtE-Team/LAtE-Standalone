@@ -1,0 +1,10 @@
+centrolatino = {
+	chapin = {
+		primary = CAM
+		dynasty_names = { }
+	}
+	istmeno = {
+		primary = PNM
+		dynasty_names = { "Cedeno" "Vives" "Bello" "Moralez" "de Las Minas" "de Santa María" "de San Miguelito" "de Paraiso" "Fabela" "Negret" "Araújo" "Vives" "de Tisma" }
+	}
+}

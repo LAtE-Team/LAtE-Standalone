@@ -1,0 +1,26 @@
+# Connecticut
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = british
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 2562
+3034.10.22 = {
+	monarch = {
+		name = "Pellinore"
+		birth_date = 3025.6.23
+		dynasty = "Fox"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 2562
+	add_treasury = 15
+	add_prestige = 88
+}

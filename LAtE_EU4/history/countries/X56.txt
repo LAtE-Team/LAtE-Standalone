@@ -1,0 +1,26 @@
+# Barinas
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = gocho
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 834
+3038.5.9 = {
+	monarch = {
+		name = "Miguel"
+		birth_date = 2992.10.12
+		dynasty = "Jakubowicz"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 834
+	add_treasury = 48
+	add_prestige = 102
+}

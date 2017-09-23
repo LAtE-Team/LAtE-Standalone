@@ -1,0 +1,158 @@
+# Riverlands
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 205 225 255 }
+
+
+
+
+leader_names = {
+
+	"Ian" "Pierre" "Gallant" "François" "Rod" "Andrew" "Dylan" "Wade" "Theoren" "Ambrose" 
+	"Lewisand" "Ollicut" "Bridger" "Placer" "Secesh" "Jordan" "Apash" "Angus" "Alluviel" "Almo" 
+	"Arco" "Armstrong" "Bruneau" "Bannock" "Benedicte" "Borah" "Buck" "Bench" "Baptiste" "Belzy" 
+	"Bent" "Bill" "Camas" "Clarkand" "Colter" "Calvin" "Cameawait" "Car" "Clymer" "Custer" 
+	"Clayton" "Doran" "Ellis" "Elbert" "Elbridge" "Fremont" "Ferris" "Fraser" "Fuller" "Flint" 
+	"Gallatin" "Grenville" "Gangue" "Gutzon" "Hototo" "Hall" "Hoss" "Hatcher" "Jim" "Jedediah" 
+	"Jocko" "Kemble" "Kipp" "Kit" "Lolo" "Lodge" "Lincoln" "Langford" "Lucian" "Lanterloo" 
+	"Lupton" "Malad" "Moyle" "Malcolm" "Muggin" "Mullan" "Merriweath" "Madoc" "Meek" "Mulas" 
+	"Mapiyato" "Milward" "Ned" "Nash" "Orofino" "Otter" "Osborne" "Pass" "Perce" "Pike" 
+	"Pomp" "Pocatell" "Peno" "Raynold" "Reet" "Remington" "Reno" "Rufus" "Rulon" "Ranous" 
+	"Selkirk" "Sublett" "Sycan" "Seth" "Skene" "Shuman" "Stuart" "Teton" "Tuecakas" "Tindoor" 
+	"Tuff" "Tetoharsk" "Terch" "Trommel" "Thurman" "Teno" "Vrain" "Weitas" "Wheeler" "Wirasuap" 
+	"Welcher" "Willis" "Yount" "Zenas" "Zane" }
+monarch_names = {
+	"Ian #3" = 0
+	"Pierre #1" = 0
+	"Gallant #1" = 0
+	"François #1" = 0
+	"Rod #1" = 0
+	"Andrew #1" = 0
+	"Dylan #1" = 0
+	"Wade #1" = 0
+	"Theoren #1" = 0
+	"Ambrose #1" = 0
+	"Lewisand #1" = 0
+	"Ollicut #1" = 0
+	"Bridger #1" = 0
+	"Placer #1" = 0
+	"Secesh #1" = 0
+	"Jordan #1" = 0
+	"Apash #0" = 0
+	"Angus #0" = 0
+	"Alluviel #0" = 0
+	"Almo #0" = 0
+	"Arco #0" = 0
+	"Armstrong #0" = 0
+	"Bruneau #0" = 0
+	"Bannock #0" = 0
+	"Benedicte #0" = 0
+	"Borah #0" = 0
+	"Buck #0" = 0
+	"Bench #0" = 0
+	"Baptiste #0" = 0
+	"Belzy #0" = 0
+	"Bent #0" = 0
+	"Bill #0" = 0
+	"Camas #0" = 0
+	"Clarkand #0" = 0
+	"Colter #0" = 0
+	"Calvin #0" = 0
+	"Cameawait #0" = 0
+	"Car #0" = 0
+	"Clymer #0" = 0
+	"Custer #0" = 0
+	"Clayton #0" = 0
+	"Doran #0" = 0
+	"Ellis #0" = 0
+	"Elbert #0" = 0
+	"Elbridge #0" = 0
+	"Fremont #0" = 0
+	"Ferris #0" = 0
+	"Fraser #0" = 0
+	"Fuller #0" = 0
+	"Flint #0" = 0
+	"Gallatin #0" = 0
+	"Grenville #0" = 0
+	"Gangue #0" = 0
+	"Gutzon #0" = 0
+	"Hototo #0" = 0
+	"Hall #0" = 0
+	"Hoss #0" = 0
+	"Hatcher #0" = 0
+	"Jim #0" = 0
+	"Jedediah #0" = 0
+	"Jocko #0" = 0
+	"Kemble #0" = 0
+	"Kipp #0" = 0
+	"Kit #0" = 0
+	"Lolo #0" = 0
+	"Lodge #0" = 0
+	"Lincoln #0" = 0
+	"Langford #0" = 0
+	"Lucian #0" = 0
+	"Lanterloo #0" = 0
+	"Lupton #0" = 0
+	"Malad #0" = 0
+	"Moyle #0" = 0
+	"Malcolm #0" = 0
+	"Muggin #0" = 0
+	"Mullan #0" = 0
+	"Merriweath #0" = 0
+	"Madoc #0" = 0
+	"Meek #0" = 0
+	"Mulas #0" = 0
+	"Mapiyato #0" = 0
+	"Milward #0" = 0
+	"Ned #0" = 0
+	"Nash #0" = 0
+	"Orofino #0" = 0
+	"Otter #0" = 0
+	"Osborne #0" = 0
+	"Pass #0" = 0
+	"Perce #0" = 0
+	"Pike #0" = 0
+	"Pomp #0" = 0
+	"Pocatell #0" = 0
+	"Peno #0" = 0
+	"Raynold #0" = 0
+	"Reet #0" = 0
+	"Remington #0" = 0
+	"Reno #0" = 0
+	"Rufus #0" = 0
+	"Rulon #0" = 0
+	"Ranous #0" = 0
+	"Selkirk #0" = 0
+	"Sublett #0" = 0
+	"Sycan #0" = 0
+	"Seth #0" = 0
+	"Skene #0" = 0
+	"Shuman #0" = 0
+	"Stuart #0" = 0
+	"Teton #0" = 0
+	"Tuecakas #0" = 0
+	"Tindoor #0" = 0
+	"Tuff #0" = 0
+	"Tetoharsk #0" = 0
+	"Terch #0" = 0
+	"Trommel #0" = 0
+	"Thurman #0" = 0
+	"Teno #0" = 0
+	"Vrain #0" = 0
+	"Weitas #0" = 0
+	"Wheeler #0" = 0
+	"Wirasuap #0" = 0
+	"Welcher #0" = 0
+	"Willis #0" = 0
+	"Yount #0" = 0
+	"Zenas #0" = 0
+	"Zane #0" = 0
+
+
+	"Astora #0" = -1
+	"Thanadelthur #0" = -1
+	"Sylvia #0" = -1
+	"Judith #0" = -1
+	"Owyhee #0" = -1
+}
+

@@ -1,0 +1,410 @@
+# Deseret
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 116 170 252 }
+
+
+
+
+leader_names = {
+
+	"Ammaron" "Amos" "Aaric" "Aaron" "Abinadi" "Abinadom" "Abraham" "Aethan" "Aha" "Ahab" 
+	"Ahah" "Akish" "Alma" "Amaleki" "Amalickiah" "Amaron" "Amasa" "Amgid" "Aminadab" "Aminadi" 
+	"Amlici" "Ammah" "Ammon" "Ammoron" "Amnigaddah" "Amnor" "Amoron" "Amulek" "Amulon" "Antiomno" 
+	"Antionah" "Antionum" "Antipus" "Archeantus" "Arnol" "Artax" "Arvol" "Auri" "Avichen" "Axton" 
+	"Baram" "Benjamin" "Bennion" "Bethuel" "Bevalier" "Bowden" "Boydell" "Bralan" "Brantly" "Brinton" 
+	"Brode" "Cabel" "Calbert" "Cardston" "Cezoram" "Chemish" "Cheston" "Clade" "Clebert" "Cleese" 
+	"Cleon" "Cohor" "Coleman" "Com" "Corban" "Corianton" "Coriantor" "Coriantum" "Coriantumr" "Corihor" 
+	"Corom" "Cumenihah" "Curtly" "Dahl" "Dalan" "Dallin" "Dallon" "Dannon" "Danstan" "Darnell" 
+	"Darris" "Darvell" "Delbert" "Dellon" "Delmas" "Delton" "Denneth" "Denton" "Dorian" "Draycen" 
+	"Drey" "Drury" "Durward" "Eldon" "Elhanan" "Emer" "Emerald" "Emron" "Enos" "Esrom" 
+	"Ethem" "Ether" "Euzel" "Ezias" "Ezra" "Farren" "Ferol" "Fielding" "Fredonius" "Gabrien" 
+	"Gadianton" "Garren" "Gaskell" "Gearld" "Gerad" "Giddianhi" "Giddonah" "Gideon" "Gidgiddonah" "Gidgiddoni" 
+	"Gilead" "Gilgah" "Gilgal" "Glain" "Hagoth" "Hearthom" "Hearthon" "Heber" "Helam" "Helaman" 
+	"Helem" "Helorum" "Hem" "Heston" "Heth" "Hilton" "Himni" "Hyrum" "Isaiah" "Ishmael" 
+	"Israel" "Jacob" "Jacom" "Jaden" "Jadon" "Jamis" "Jared" "Jarin" "Jarom" "Jarrell" 
+	"Jeneum" "Jeraneck" "Jeremiah" "Jeric" "Jeris" "Jerrick" "Johoshua" "Jonas" "Joseph" "Josh" 
+	"Joshub" "Josiah" "Judah" "Kadon" "Kamren" "Katriel" "Keigh" "Kelton" "Kempton" "Keston" 
+	"Kevan" "Kib" "Kim" "Kimnor" "Kirtland" "Kish" "Kishkumen" "Kneel" "Koln" "Korihor" 
+	"Kosner" "Kresten" "Kumen" "Kumenonhi" "Laban" "Lachoneus" "Lamah" "Laman" "Lamoni" "Landell" 
+	"Lavoy" "Leatus" "Lehi" "Lehonti" "Lemuel" "Leonid" "Lerron" "Lethair" "Levi" "Levor" 
+	"Lib" "Limhah" "Limher" "Limhi" "Linnus" "Lorenzo" "Lorian" "Luram" "Lyman" "Mahah" 
+	"Mahonri" "Manti" "Marion" "Marsden" "Mathoni" "Mathonihah" "Mauric" "Moriancumer" "Morianton" "Mormon" 
+	"Moron" "Moroni" "Moronihah" "Mosiah" "Mulek" "Muloki" "Nashoba" "Nehemiah" "Nehor" "Nephi" 
+	"Nephihah" "Neum" "Nevin" "Nimrah" "Niniva" "Noah" "Nordell" "Novich" "Olmstead" "Omer" 
+	"Omner" "Omni" "Orem" "Orihah" "Orson" "Orvel" "Oryeon" "Paanchi" "Pacey" "Pachus" 
+	"Pacumeni" "Pagag" "Pahoran" "Parkence" "Platte" "Pratt" "Pryce" "Raden" "Rainey" "Randen" 
+	"Ranell" "Ratzon" "Rawlin" "Raystan" "Reed" "Refell" "Rennen" "Rilus" "Riplakish" "Rustin" 
+	"Sam" "Samuel" "Seantum" "Seezoram" "Selar" "Selwin" "Seth" "Shared" "Shaygan" "Shem" 
+	"Shemnon" "Sherem" "Sherland" "Shez" "Shiblom" "Shiblon" "Shiz" "Shule" "Shurm" "Stod" 
+	"Stryder" "Tabernacle" "Taige" "Tain" "Taisin" "Takoma" "Tatton" "Tawn" "Teancum" "Templer" 
+	"Teomner" "Terral" "Thais" "Theon" "Timothy" "Tithing" "Torin" "Tork" "Torston" "Tres" 
+	"Trevan" "Truss" "Tubaloth" "Ulis" "Valden" "Vallen" "Vardell" "Vardis" "Venla" "Verden" 
+	"Voiyant" "Wesson" "Wester" "Willard" "Winchester" "Woodruff" "Wouter" "Wynante" "Wyndon" "Xanderrick" 
+	"Xarek" "Yehoram" "Yoder" "Zamaleki" "Zann" "Zaquen" "Zarahemla" "Zedek" "Zedekiah" "Zedwain" 
+	"Zeezrom" "Zekiel" "Zelph" "Zemerick" "Zemnarihah" "Zenephi" "Zeniff" "Zenoa" "Zenock" "Zenos" 
+	"Zerahemnah" "Zeram" "Zoland" "Zoram" }
+monarch_names = {
+	"Ammaron #1" = 18
+	"Amos #2" = 21
+	"Aaric #0" = 0
+	"Aaron #0" = 0
+	"Abinadi #0" = 0
+	"Abinadom #0" = 0
+	"Abraham #0" = 0
+	"Aethan #0" = 0
+	"Aha #0" = 0
+	"Ahab #0" = 0
+	"Ahah #0" = 0
+	"Akish #0" = 0
+	"Alma #0" = 0
+	"Amaleki #0" = 0
+	"Amalickiah #0" = 0
+	"Amaron #0" = 0
+	"Amasa #0" = 0
+	"Amgid #0" = 0
+	"Aminadab #0" = 0
+	"Aminadi #0" = 0
+	"Amlici #0" = 0
+	"Ammah #0" = 0
+	"Ammon #0" = 0
+	"Ammoron #0" = 0
+	"Amnigaddah #0" = 0
+	"Amnor #0" = 0
+	"Amoron #0" = 0
+	"Amulek #0" = 0
+	"Amulon #0" = 0
+	"Antiomno #0" = 0
+	"Antionah #0" = 0
+	"Antionum #0" = 0
+	"Antipus #0" = 0
+	"Archeantus #0" = 0
+	"Arnol #0" = 0
+	"Artax #0" = 0
+	"Arvol #0" = 0
+	"Auri #0" = 0
+	"Avichen #0" = 0
+	"Axton #0" = 0
+	"Baram #0" = 0
+	"Benjamin #0" = 0
+	"Bennion #0" = 0
+	"Bethuel #0" = 0
+	"Bevalier #0" = 0
+	"Bowden #0" = 0
+	"Boydell #0" = 0
+	"Bralan #0" = 0
+	"Brantly #0" = 0
+	"Brinton #0" = 0
+	"Brode #0" = 0
+	"Cabel #0" = 0
+	"Calbert #0" = 0
+	"Cardston #0" = 0
+	"Cezoram #0" = 0
+	"Chemish #0" = 0
+	"Cheston #0" = 0
+	"Clade #0" = 0
+	"Clebert #0" = 0
+	"Cleese #0" = 0
+	"Cleon #0" = 0
+	"Cohor #0" = 0
+	"Coleman #0" = 0
+	"Com #0" = 0
+	"Corban #0" = 0
+	"Corianton #0" = 0
+	"Coriantor #0" = 0
+	"Coriantum #0" = 0
+	"Coriantumr #0" = 0
+	"Corihor #0" = 0
+	"Corom #0" = 0
+	"Cumenihah #0" = 0
+	"Curtly #0" = 0
+	"Dahl #0" = 0
+	"Dalan #0" = 0
+	"Dallin #0" = 0
+	"Dallon #0" = 0
+	"Dannon #0" = 0
+	"Danstan #0" = 0
+	"Darnell #0" = 0
+	"Darris #0" = 0
+	"Darvell #0" = 0
+	"Delbert #0" = 0
+	"Dellon #0" = 0
+	"Delmas #0" = 0
+	"Delton #0" = 0
+	"Denneth #0" = 0
+	"Denton #0" = 0
+	"Dorian #0" = 0
+	"Draycen #0" = 0
+	"Drey #0" = 0
+	"Drury #0" = 0
+	"Durward #0" = 0
+	"Eldon #0" = 0
+	"Elhanan #0" = 0
+	"Emer #0" = 0
+	"Emerald #0" = 0
+	"Emron #0" = 0
+	"Enos #0" = 0
+	"Esrom #0" = 0
+	"Ethem #0" = 0
+	"Ether #0" = 0
+	"Euzel #0" = 0
+	"Ezias #0" = 0
+	"Ezra #0" = 0
+	"Farren #0" = 0
+	"Ferol #0" = 0
+	"Fielding #0" = 0
+	"Fredonius #0" = 0
+	"Gabrien #0" = 0
+	"Gadianton #0" = 0
+	"Garren #0" = 0
+	"Gaskell #0" = 0
+	"Gearld #0" = 0
+	"Gerad #0" = 0
+	"Giddianhi #0" = 0
+	"Giddonah #0" = 0
+	"Gideon #0" = 0
+	"Gidgiddonah #0" = 0
+	"Gidgiddoni #0" = 0
+	"Gilead #0" = 0
+	"Gilgah #0" = 0
+	"Gilgal #0" = 0
+	"Glain #0" = 0
+	"Hagoth #0" = 0
+	"Hearthom #0" = 0
+	"Hearthon #0" = 0
+	"Heber #0" = 0
+	"Helam #0" = 0
+	"Helaman #0" = 0
+	"Helem #0" = 0
+	"Helorum #0" = 0
+	"Hem #0" = 0
+	"Heston #0" = 0
+	"Heth #0" = 0
+	"Hilton #0" = 0
+	"Himni #0" = 0
+	"Hyrum #0" = 0
+	"Isaiah #0" = 0
+	"Ishmael #0" = 0
+	"Israel #0" = 0
+	"Jacob #0" = 0
+	"Jacom #0" = 0
+	"Jaden #0" = 0
+	"Jadon #0" = 0
+	"Jamis #0" = 0
+	"Jared #0" = 0
+	"Jarin #0" = 0
+	"Jarom #0" = 0
+	"Jarrell #0" = 0
+	"Jeneum #0" = 0
+	"Jeraneck #0" = 0
+	"Jeremiah #0" = 0
+	"Jeric #0" = 0
+	"Jeris #0" = 0
+	"Jerrick #0" = 0
+	"Johoshua #0" = 0
+	"Jonas #0" = 0
+	"Joseph #0" = 0
+	"Josh #0" = 0
+	"Joshub #0" = 0
+	"Josiah #0" = 0
+	"Judah #0" = 0
+	"Kadon #0" = 0
+	"Kamren #0" = 0
+	"Katriel #0" = 0
+	"Keigh #0" = 0
+	"Kelton #0" = 0
+	"Kempton #0" = 0
+	"Keston #0" = 0
+	"Kevan #0" = 0
+	"Kib #0" = 0
+	"Kim #0" = 0
+	"Kimnor #0" = 0
+	"Kirtland #0" = 0
+	"Kish #0" = 0
+	"Kishkumen #0" = 0
+	"Kneel #0" = 0
+	"Koln #0" = 0
+	"Korihor #0" = 0
+	"Kosner #0" = 0
+	"Kresten #0" = 0
+	"Kumen #0" = 0
+	"Kumenonhi #0" = 0
+	"Laban #0" = 0
+	"Lachoneus #0" = 0
+	"Lamah #0" = 0
+	"Laman #0" = 0
+	"Lamoni #0" = 0
+	"Landell #0" = 0
+	"Lavoy #0" = 0
+	"Leatus #0" = 0
+	"Lehi #0" = 0
+	"Lehonti #0" = 0
+	"Lemuel #0" = 0
+	"Leonid #0" = 0
+	"Lerron #0" = 0
+	"Lethair #0" = 0
+	"Levi #0" = 0
+	"Levor #0" = 0
+	"Lib #0" = 0
+	"Limhah #0" = 0
+	"Limher #0" = 0
+	"Limhi #0" = 0
+	"Linnus #0" = 0
+	"Lorenzo #0" = 0
+	"Lorian #0" = 0
+	"Luram #0" = 0
+	"Lyman #0" = 0
+	"Mahah #0" = 0
+	"Mahonri #0" = 0
+	"Manti #0" = 0
+	"Marion #0" = 0
+	"Marsden #0" = 0
+	"Mathoni #0" = 0
+	"Mathonihah #0" = 0
+	"Mauric #0" = 0
+	"Moriancumer #0" = 0
+	"Morianton #0" = 0
+	"Mormon #0" = 0
+	"Moron #0" = 0
+	"Moroni #0" = 0
+	"Moronihah #0" = 0
+	"Mosiah #0" = 0
+	"Mulek #0" = 0
+	"Muloki #0" = 0
+	"Nashoba #0" = 0
+	"Nehemiah #0" = 0
+	"Nehor #0" = 0
+	"Nephi #0" = 0
+	"Nephihah #0" = 0
+	"Neum #0" = 0
+	"Nevin #0" = 0
+	"Nimrah #0" = 0
+	"Niniva #0" = 0
+	"Noah #0" = 0
+	"Nordell #0" = 0
+	"Novich #0" = 0
+	"Olmstead #0" = 0
+	"Omer #0" = 0
+	"Omner #0" = 0
+	"Omni #0" = 0
+	"Orem #0" = 0
+	"Orihah #0" = 0
+	"Orson #0" = 0
+	"Orvel #0" = 0
+	"Oryeon #0" = 0
+	"Paanchi #0" = 0
+	"Pacey #0" = 0
+	"Pachus #0" = 0
+	"Pacumeni #0" = 0
+	"Pagag #0" = 0
+	"Pahoran #0" = 0
+	"Parkence #0" = 0
+	"Platte #0" = 0
+	"Pratt #0" = 0
+	"Pryce #0" = 0
+	"Raden #0" = 0
+	"Rainey #0" = 0
+	"Randen #0" = 0
+	"Ranell #0" = 0
+	"Ratzon #0" = 0
+	"Rawlin #0" = 0
+	"Raystan #0" = 0
+	"Reed #0" = 0
+	"Refell #0" = 0
+	"Rennen #0" = 0
+	"Rilus #0" = 0
+	"Riplakish #0" = 0
+	"Rustin #0" = 0
+	"Sam #0" = 0
+	"Samuel #0" = 0
+	"Seantum #0" = 0
+	"Seezoram #0" = 0
+	"Selar #0" = 0
+	"Selwin #0" = 0
+	"Seth #0" = 0
+	"Shared #0" = 0
+	"Shaygan #0" = 0
+	"Shem #0" = 0
+	"Shemnon #0" = 0
+	"Sherem #0" = 0
+	"Sherland #0" = 0
+	"Shez #0" = 0
+	"Shiblom #0" = 0
+	"Shiblon #0" = 0
+	"Shiz #0" = 0
+	"Shule #0" = 0
+	"Shurm #0" = 0
+	"Stod #0" = 0
+	"Stryder #0" = 0
+	"Tabernacle #0" = 0
+	"Taige #0" = 0
+	"Tain #0" = 0
+	"Taisin #0" = 0
+	"Takoma #0" = 0
+	"Tatton #0" = 0
+	"Tawn #0" = 0
+	"Teancum #0" = 0
+	"Templer #0" = 0
+	"Teomner #0" = 0
+	"Terral #0" = 0
+	"Thais #0" = 0
+	"Theon #0" = 0
+	"Timothy #0" = 0
+	"Tithing #0" = 0
+	"Torin #0" = 0
+	"Tork #0" = 0
+	"Torston #0" = 0
+	"Tres #0" = 0
+	"Trevan #0" = 0
+	"Truss #0" = 0
+	"Tubaloth #0" = 0
+	"Ulis #0" = 0
+	"Valden #0" = 0
+	"Vallen #0" = 0
+	"Vardell #0" = 0
+	"Vardis #0" = 0
+	"Venla #0" = 0
+	"Verden #0" = 0
+	"Voiyant #0" = 0
+	"Wesson #0" = 0
+	"Wester #0" = 0
+	"Willard #0" = 0
+	"Winchester #0" = 0
+	"Woodruff #0" = 0
+	"Wouter #0" = 0
+	"Wynante #0" = 0
+	"Wyndon #0" = 0
+	"Xanderrick #0" = 0
+	"Xarek #0" = 0
+	"Yehoram #0" = 0
+	"Yoder #0" = 0
+	"Zamaleki #0" = 0
+	"Zann #0" = 0
+	"Zaquen #0" = 0
+	"Zarahemla #0" = 0
+	"Zedek #0" = 0
+	"Zedekiah #0" = 0
+	"Zedwain #0" = 0
+	"Zeezrom #0" = 0
+	"Zekiel #0" = 0
+	"Zelph #0" = 0
+	"Zemerick #0" = 0
+	"Zemnarihah #0" = 0
+	"Zenephi #0" = 0
+	"Zeniff #0" = 0
+	"Zenoa #0" = 0
+	"Zenock #0" = 0
+	"Zenos #0" = 0
+	"Zerahemnah #0" = 0
+	"Zeram #0" = 0
+	"Zoland #0" = 0
+	"Zoram #0" = 0
+
+
+	"Beneth #0" = -1
+	"Naomi #0" = -1
+	"Parnal #0" = -1
+	"Labbaron #0" = -1
+	"Gainel #0" = -1
+}
+

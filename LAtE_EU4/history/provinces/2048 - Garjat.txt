@@ -1,0 +1,24 @@
+#2048 - Garhjat
+
+owner = ORI
+controller = ORI
+culture = garjati
+religion = hinduism
+capital = "Kalahandi"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= ORI
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

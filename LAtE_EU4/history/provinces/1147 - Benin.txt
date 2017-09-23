@@ -1,0 +1,26 @@
+#1147 - Benin
+
+owner = NGR
+controller = NGR
+add_core = NGR
+culture = nigerian
+religion = ahmadi
+capital = "Oredo"
+is_city = yes
+base_manpower = 3
+trade_goods = ivory #note - Benin not major slaving center until rise of Lagos trade in 1750s
+hre = no
+base_tax = 4 
+base_production = 4
+discovered_by = sub_saharan
+extra_cost = 10
+fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = niger_estuary_modifier
+	duration = -1
+}
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

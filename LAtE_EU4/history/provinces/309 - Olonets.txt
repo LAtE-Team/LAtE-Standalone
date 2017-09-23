@@ -1,0 +1,21 @@
+#309 - Olonets
+
+#owner = NOV
+#controller = NOV  
+culture = karelian
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = fur 
+base_manpower = 2
+capital = "Olonets"
+is_city = no
+#add_core= NOV
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,26 @@
+# Motherlode
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = valleyan
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4503
+3032.11.7 = {
+	monarch = {
+		name = "Richard"
+		birth_date = 3023.3.18
+		dynasty = "Templar"
+		adm = 2
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = tactical_genius_personality
+}
+3053.1.1 {
+	capital = 4503
+	add_treasury = 10
+	add_prestige = 183
+}

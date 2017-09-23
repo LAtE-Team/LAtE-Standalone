@@ -1,0 +1,42 @@
+#459 - Taraz
+
+#owner = CHG
+#controller = CHG
+#add_core= CHG
+culture = khazak
+religion = sunni
+capital = "Taraz"
+trade_goods = cloth
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 3
+is_city = no
+#add_core= KZH
+
+
+
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+
+# = {
+	#owner = KAS
+	#controller = KAS
+	#add_core= KAS
+#}
+# = { #owner = KZH #controller = KZH remove_core = KAS } # Kazakh horde forms
+# = { discovered_by = RUS }
+# = { #owner = OIR #controller = OIR } # Dzungarian invasion
+# = { #owner = KZH #controller = KZH }
+# = { #owner = OIR #controller = OIR } # Dzungarian invasion
+# = {
+	#owner = QNG
+	#controller = QNG
+	#add_core= QNG
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

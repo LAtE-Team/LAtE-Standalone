@@ -1,0 +1,26 @@
+# Natchez
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = gulfard
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2529
+3045.5.22 = {
+	monarch = {
+		name = "Adam V"
+		birth_date = 3001.12.27
+		dynasty = "Waltney"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2529
+	add_treasury = 26
+	add_prestige = 93
+	elector = no
+}

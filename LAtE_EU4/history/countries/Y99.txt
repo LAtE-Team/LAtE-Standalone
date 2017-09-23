@@ -1,0 +1,36 @@
+# Arizona
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = arixan
+religion = atomicist
+clear_scripted_personalities = yes
+capital = 876
+3045.2.26 = {
+	monarch = {
+		name = "Karl"
+		birth_date = 3002.9.5
+		dynasty = "Riggs"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl II"
+		dynasty = "Riggs"
+		birth_date = 3024.1.16
+		death_date = 3104.1.16
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+	add_heir_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 876
+	add_treasury = 47
+	add_prestige = 187
+}

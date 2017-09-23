@@ -1,0 +1,7 @@
+government = feudal_monarchy
+primary_culture = kanauji
+religion = hinduism
+technology_group = indian
+capital = 522	# Delhi
+fixed_capital = 522 # Cannot move capital away from this province & no power cost to move to it
+add_accepted_culture = panjabi

@@ -1,0 +1,178 @@
+# Canaveral
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 251 234 21 }
+
+
+
+
+leader_names = {
+
+	"Daisy" "Jean" "Mayella" "Bart" "Trisha" "Georgette" "Jerry" "Rain" "Peach" "Lee" 
+	"Radley" "Amaleen" "Charity" "Baker" "Rufus" "Savannah" "Joe" "Ricky" "Grattan" "Cooter" 
+	"Raleigh" "Destiny" "Arthur" "Talulla" "Chester" "Debbie" "Moon" "Melody" "Kaylin" "Fred" 
+	"Austin" "Adley" "Alexander" "Abe" "Avery" "Atticus" "Boblee" "Bill" "Bo" "Bodean" 
+	"Bubba" "Buck" "Buddy" "Bucephalus" "Billup" "Bob" "Braxton" "Burris" "Conway" "Casey" 
+	"Chandler" "Chuck" "Cleavon" "Cleon" "Cletus" "Clint" "Cooper" "Cody" "Charles" "Cecil" 
+	"Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny" "Dwayne" "Dwight" "Dixon" "Dolphus" 
+	"Dill" "Earl" "Elrod" "Enos" "Eustice" "Ewell" "Floyd" "Forrest" "Francis" "Garth" 
+	"George" "Gregory" "Gilmer" "Harley" "Homer" "Horace" "Harry" "Hank" "Humble" "Henry" 
+	"Heck" "Harris" "Hancock" "Hale" "Isham" "Ike" "Jesse" "Johnny" "John" "Jackson" 
+	"Jed" "Jessie" "Jim" "Junior" "Jeptha" "Jubal" "Jeremy" "Jem" "Jack" "Littlejohn" 
+	"Luther" "Lon" "Lyndon" "Larry" "Link" "Mike" "Maxwell" "Nate" "Nathan" "Otis" 
+	"Philus" "Purvis" "Philander" "Ray" "Reb" "Robbie" "Rocky" "Roscoe" "Rowan" "Roy" 
+	"Raymond" "Reynold" "Robert" "Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" 
+	"Terry" "Tate" "Taylor" "Vinton" "Wade" "Winchester" "Woody" "Wilbur" "Whitely" "Walter" }
+monarch_names = {
+	"Daisy #0" = -1
+	"Jean #0" = -1
+	"Mayella #0" = -1
+	"Bart #0" = 1
+	"Trisha #0" = -1
+	"Georgette #0" = -1
+	"Jerry #0" = 1
+	"Rain #0" = -1
+	"Peach #0" = -1
+	"Lee #0" = 1
+	"Radley #0" = 1
+	"Amaleen #0" = -1
+	"Charity #0" = -1
+	"Baker #0" = 1
+	"Rufus #0" = 1
+	"Savannah #0" = -1
+	"Joe #0" = 1
+	"Ricky #0" = 1
+	"Grattan #0" = 1
+	"Cooter #0" = 1
+	"Raleigh #0" = 1
+	"Destiny #0" = -1
+	"Arthur #0" = 1
+	"Talulla #0" = -1
+	"Chester #0" = 1
+	"Debbie #0" = -1
+	"Moon #0" = -1
+	"Melody #0" = -1
+	"Kaylin #0" = -1
+	"Fred #0" = 1
+	"Austin #0" = 0
+	"Adley #0" = 0
+	"Alexander #0" = 0
+	"Abe #0" = 0
+	"Avery #0" = 0
+	"Atticus #0" = 0
+	"Boblee #0" = 0
+	"Bill #0" = 0
+	"Bo #0" = 0
+	"Bodean #0" = 0
+	"Bubba #0" = 0
+	"Buck #0" = 0
+	"Buddy #0" = 0
+	"Bucephalus #0" = 0
+	"Billup #0" = 0
+	"Bob #0" = 0
+	"Braxton #0" = 0
+	"Burris #0" = 0
+	"Conway #0" = 0
+	"Casey #0" = 0
+	"Chandler #0" = 0
+	"Chuck #0" = 0
+	"Cleavon #0" = 0
+	"Cleon #0" = 0
+	"Cletus #0" = 0
+	"Clint #0" = 0
+	"Cooper #0" = 0
+	"Cody #0" = 0
+	"Charles #0" = 0
+	"Cecil #0" = 0
+	"Dean #0" = 0
+	"Dale #0" = 0
+	"Delmont #0" = 0
+	"Delmer #0" = 0
+	"Doc #0" = 0
+	"Donny #0" = 0
+	"Dwayne #0" = 0
+	"Dwight #0" = 0
+	"Dixon #0" = 0
+	"Dolphus #0" = 0
+	"Dill #0" = 0
+	"Earl #0" = 0
+	"Elrod #0" = 0
+	"Enos #0" = 0
+	"Eustice #0" = 0
+	"Ewell #0" = 0
+	"Floyd #0" = 0
+	"Forrest #0" = 0
+	"Francis #0" = 0
+	"Garth #0" = 0
+	"George #0" = 0
+	"Gregory #0" = 0
+	"Gilmer #0" = 0
+	"Harley #0" = 0
+	"Homer #0" = 0
+	"Horace #0" = 0
+	"Harry #0" = 0
+	"Hank #0" = 0
+	"Humble #0" = 0
+	"Henry #0" = 0
+	"Heck #0" = 0
+	"Harris #0" = 0
+	"Hancock #0" = 0
+	"Hale #0" = 0
+	"Isham #0" = 0
+	"Ike #0" = 0
+	"Jesse #0" = 0
+	"Johnny #0" = 0
+	"John #0" = 0
+	"Jackson #0" = 0
+	"Jed #0" = 0
+	"Jessie #0" = 0
+	"Jim #0" = 0
+	"Junior #0" = 0
+	"Jeptha #0" = 0
+	"Jubal #0" = 0
+	"Jeremy #0" = 0
+	"Jem #0" = 0
+	"Jack #0" = 0
+	"Littlejohn #0" = 0
+	"Luther #0" = 0
+	"Lon #0" = 0
+	"Lyndon #0" = 0
+	"Larry #0" = 0
+	"Link #0" = 0
+	"Mike #0" = 0
+	"Maxwell #0" = 0
+	"Nate #0" = 0
+	"Nathan #0" = 0
+	"Otis #0" = 0
+	"Philus #0" = 0
+	"Purvis #0" = 0
+	"Philander #0" = 0
+	"Ray #0" = 0
+	"Reb #0" = 0
+	"Robbie #0" = 0
+	"Rocky #0" = 0
+	"Roscoe #0" = 0
+	"Rowan #0" = 0
+	"Roy #0" = 0
+	"Raymond #0" = 0
+	"Reynold #0" = 0
+	"Robert #0" = 0
+	"Saggory #0" = 0
+	"Spencer #0" = 0
+	"Simon #0" = 0
+	"Tiberius #0" = 0
+	"Tommylee #0" = 0
+	"Trigger #0" = 0
+	"Tyler #0" = 0
+	"Terry #0" = 0
+	"Tate #0" = 0
+	"Taylor #0" = 0
+	"Vinton #0" = 0
+	"Wade #0" = 0
+	"Winchester #0" = 0
+	"Woody #0" = 0
+	"Wilbur #0" = 0
+	"Whitely #0" = 0
+	"Walter #0" = 0
+}
+

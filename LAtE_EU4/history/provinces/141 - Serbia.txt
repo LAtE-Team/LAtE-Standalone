@@ -1,0 +1,56 @@
+#141 - Serbia
+
+#owner = SER
+#controller = SER
+culture = serbian
+religion = matrem
+capital = "Smederevo"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= SER
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+# = {
+	#owner = TUR
+	#controller = TUR
+	#add_core= TUR
+	capital = "Beograd"
+#}
+# = { unrest = 12 } # Serb rebellion under D. Brankovic
+# = {
+	unrest = 0
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+#} # Austrian occupation
+# = { fort_15th = no fort_18th = yes }
+# = {
+	#owner = TUR
+	#controller = TUR
+#}
+# = { #controller = HAB } # Occupied by Austrian forces
+# = { #controller = TUR }
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Belgrade is occupied by Serbian rebels
+# = { revolt = {} #controller = TUR }
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # The Second Serbian uprising
+# = { revolt = {} #controller = TUR }
+# = { capital = "Kragujevac" }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

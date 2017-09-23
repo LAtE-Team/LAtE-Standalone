@@ -1,0 +1,26 @@
+# Champlain
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = hudsonian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 964
+3040.6.5 = {
+	monarch = {
+		name = "Raymond"
+		birth_date = 3010.10.17
+		dynasty = "Langmuir"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = sinner_personality
+}
+3053.1.1 {
+	capital = 964
+	add_treasury = 20
+	add_prestige = 142
+}

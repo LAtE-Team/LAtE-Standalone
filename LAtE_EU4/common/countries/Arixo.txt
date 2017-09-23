@@ -1,0 +1,157 @@
+# Arixo
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 146 62 176 }
+
+
+
+
+leader_names = {
+
+	"Brumby" "Armstrong" "Angel" "Allen" "Art" "Abel" "Abaco" "Ariocarp" "Areol" "Behan" 
+	"Ben" "Burton" "Buckey" "Billy" "Beaty" "Bob" "Boyd" "Baca" "Bat" "Boone" 
+	"Buford" "Batamote" "Custer" "Carlos" "Chato" "Cleef" "Cain" "Camarillo" "Coville" "Coquimban" 
+	"Chinle" "Cayento" "Dodge" "Diehl" "Dayton" "Dowell" "Earp" "Elliot" "Eugene" "Elfego" 
+	"Elzy" "Enos" "Enoch" "Emory" "Escobaria" "Frank" "Ford" "Fraser" "Finis" "Frisco" 
+	"Forgon" "Graham" "Garland" "Hafford" "Hagler" "Horton" "Hedley" "Hank" "Harcuvar" "Ike" 
+	"Isom" "Jojo" "Lauro" "Lowell" "Lew" "Leonard" "Lansford" "Leget" "Lay" "Lee" 
+	"Laban" "Mitchell" "Morgan" "Mordecai" "Malachi" "Marion" "Marston" "Massey" "Manuelito" "Mimico" 
+	"Montford" "Mullen" "Mingus" "Newman" "Neal" "Nelson" "Nat" "Oscar" "Owen" "Oljato" 
+	"Pete" "Peludo" "Pollard" "Pat" "Pajarito" "Quinlan" "Ringo" "Rye" "Reuben" "Rosson" 
+	"Rillito" "Rafael" "Rosk" "Stuart" "Shaw" "Sylvester" "Sherman" "Shea" "Seth" "Sol" 
+	"Sclerocact" "Simon" "Tuco" "Tom" "Ted" "Tan" "Tip" "Tiburcio" "Tuba" "Uriah" 
+	"Virgil" "Wyatt" "Wallace" "Yakima" }
+monarch_names = {
+	"Brumby #0" = 1
+	"Armstrong #0" = 0
+	"Angel #0" = 0
+	"Allen #0" = 0
+	"Art #0" = 0
+	"Abel #0" = 0
+	"Abaco #0" = 0
+	"Ariocarp #0" = 0
+	"Areol #0" = 0
+	"Behan #0" = 0
+	"Ben #0" = 0
+	"Burton #0" = 0
+	"Buckey #0" = 0
+	"Billy #0" = 0
+	"Beaty #0" = 0
+	"Bob #0" = 0
+	"Boyd #0" = 0
+	"Baca #0" = 0
+	"Bat #0" = 0
+	"Boone #0" = 0
+	"Buford #0" = 0
+	"Batamote #0" = 0
+	"Custer #0" = 0
+	"Carlos #0" = 0
+	"Chato #0" = 0
+	"Cleef #0" = 0
+	"Cain #0" = 0
+	"Camarillo #0" = 0
+	"Coville #0" = 0
+	"Coquimban #0" = 0
+	"Chinle #0" = 0
+	"Cayento #0" = 0
+	"Dodge #0" = 0
+	"Diehl #0" = 0
+	"Dayton #0" = 0
+	"Dowell #0" = 0
+	"Earp #0" = 0
+	"Elliot #0" = 0
+	"Eugene #0" = 0
+	"Elfego #0" = 0
+	"Elzy #0" = 0
+	"Enos #0" = 0
+	"Enoch #0" = 0
+	"Emory #0" = 0
+	"Escobaria #0" = 0
+	"Frank #0" = 0
+	"Ford #0" = 0
+	"Fraser #0" = 0
+	"Finis #0" = 0
+	"Frisco #0" = 0
+	"Forgon #0" = 0
+	"Graham #0" = 0
+	"Garland #0" = 0
+	"Hafford #0" = 0
+	"Hagler #0" = 0
+	"Horton #0" = 0
+	"Hedley #0" = 0
+	"Hank #0" = 0
+	"Harcuvar #0" = 0
+	"Ike #0" = 0
+	"Isom #0" = 0
+	"Jojo #0" = 0
+	"Lauro #0" = 0
+	"Lowell #0" = 0
+	"Lew #0" = 0
+	"Leonard #0" = 0
+	"Lansford #0" = 0
+	"Leget #0" = 0
+	"Lay #0" = 0
+	"Lee #0" = 0
+	"Laban #0" = 0
+	"Mitchell #0" = 0
+	"Morgan #0" = 0
+	"Mordecai #0" = 0
+	"Malachi #0" = 0
+	"Marion #0" = 0
+	"Marston #0" = 0
+	"Massey #0" = 0
+	"Manuelito #0" = 0
+	"Mimico #0" = 0
+	"Montford #0" = 0
+	"Mullen #0" = 0
+	"Mingus #0" = 0
+	"Newman #0" = 0
+	"Neal #0" = 0
+	"Nelson #0" = 0
+	"Nat #0" = 0
+	"Oscar #0" = 0
+	"Owen #0" = 0
+	"Oljato #0" = 0
+	"Pete #0" = 0
+	"Peludo #0" = 0
+	"Pollard #0" = 0
+	"Pat #0" = 0
+	"Pajarito #0" = 0
+	"Quinlan #0" = 0
+	"Ringo #0" = 0
+	"Rye #0" = 0
+	"Reuben #0" = 0
+	"Rosson #0" = 0
+	"Rillito #0" = 0
+	"Rafael #0" = 0
+	"Rosk #0" = 0
+	"Stuart #0" = 0
+	"Shaw #0" = 0
+	"Sylvester #0" = 0
+	"Sherman #0" = 0
+	"Shea #0" = 0
+	"Seth #0" = 0
+	"Sol #0" = 0
+	"Sclerocact #0" = 0
+	"Simon #0" = 0
+	"Tuco #0" = 0
+	"Tom #0" = 0
+	"Ted #0" = 0
+	"Tan #0" = 0
+	"Tip #0" = 0
+	"Tiburcio #0" = 0
+	"Tuba #0" = 0
+	"Uriah #0" = 0
+	"Virgil #0" = 0
+	"Wyatt #0" = 0
+	"Wallace #0" = 0
+	"Yakima #0" = 0
+
+
+	"Clementine #0" = -1
+	"Valery #0" = -1
+	"Rebutia #0" = -1
+	"Josephine #0" = -1
+	"Tunilla #0" = -1
+}
+

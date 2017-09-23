@@ -1,0 +1,27 @@
+# Forgottonia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = grangelander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 917
+3034.10.20 = {
+	monarch = {
+		name = "Doreen"
+		birth_date = 2993.7.6
+		dynasty = "Gammton"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 917
+	add_treasury = 34
+	add_prestige = 62
+}

@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = russian
+religion = atomicist
+technology_group = indian
+capital = 2414 #Azaraba
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Volodar"
+		dynasty = "Vynnytsky"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

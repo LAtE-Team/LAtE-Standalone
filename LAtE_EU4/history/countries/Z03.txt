@@ -1,0 +1,27 @@
+# Peachtree
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 930
+3042.10.30 = {
+	monarch = {
+		name = "Mercury"
+		birth_date = 3025.3.9
+		dynasty = "Blythe"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 930
+	add_treasury = 21
+	add_prestige = 137
+	elector = yes
+}

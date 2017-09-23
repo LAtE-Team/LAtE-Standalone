@@ -1,0 +1,36 @@
+# Glacier
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2503
+3051.3.11 = {
+	monarch = {
+		name = "Ian"
+		birth_date = 3015.11.26
+		dynasty = "Lépine"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = entrepreneur_personality
+	heir = {
+		name = "Doyle"
+		monarch_name = "Doyle II"
+		dynasty = "Lépine"
+		birth_date = 3037.4.18
+		death_date = 3117.4.18
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+	add_heir_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 2503
+	add_treasury = 1
+	add_prestige = 81
+}

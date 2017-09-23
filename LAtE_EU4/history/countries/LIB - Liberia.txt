@@ -1,0 +1,7 @@
+# Liberia
+government = feudal_monarchy
+government_rank = 1
+technology_group = sub_saharan
+primary_culture = liberian
+religion = americanist
+capital = 2242

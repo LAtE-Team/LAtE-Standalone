@@ -1,0 +1,26 @@
+# Pine Belt
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2530
+3048.7.3 = {
+	monarch = {
+		name = "Saturn"
+		birth_date = 3031.1.1
+		dynasty = "Cobbs"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 2530
+	add_treasury = 44
+	add_prestige = 91
+	elector = no
+}

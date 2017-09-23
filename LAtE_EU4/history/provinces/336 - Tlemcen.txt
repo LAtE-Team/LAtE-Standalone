@@ -1,0 +1,22 @@
+#336 - Tlemcen
+
+culture = berber
+religion = brethren
+capital = "Tlemcen"
+trade_goods = unknown
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian

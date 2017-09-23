@@ -1,0 +1,28 @@
+# Coosa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4677
+3042.6.18 = {
+	monarch = {
+		name = "Trisha"
+		birth_date = 2994.1.21
+		dynasty = "Seale"
+		female = yes
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = silver_tongue_personality
+}
+3053.1.1 {
+	capital = 4677
+	add_treasury = 67
+	add_prestige = 8
+	elector = no
+}

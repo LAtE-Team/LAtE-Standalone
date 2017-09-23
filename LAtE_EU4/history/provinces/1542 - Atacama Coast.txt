@@ -1,0 +1,13 @@
+
+
+
+
+discovered_by = south_american
+discovered_by = andean
+# = { discovered_by = SPA }
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

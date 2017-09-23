@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = assamese
+religion = hinduism
+technology_group = indian
+unit_type = chinese
+capital = 566	# Gargaon

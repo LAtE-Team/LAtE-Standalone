@@ -1,0 +1,27 @@
+# Cape Fear
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2546
+3022.3.11 = {
+	monarch = {
+		name = "Wade"
+		birth_date = 3005.7.11
+		dynasty = "Coriaceus"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = lawgiver_personality
+}
+3053.1.1 {
+	capital = 2546
+	add_treasury = 29
+	add_prestige = 129
+	elector = no
+}

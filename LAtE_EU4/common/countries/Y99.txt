@@ -1,0 +1,233 @@
+# Arizona
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 34 72 39 }
+
+
+
+
+leader_names = {
+
+	"Teng" "Spencer" "Karl" "Hazel" "Vincent" "Glenn" "Greta" "John" "Nathan" "Melvyn" 
+	"Buddy" "Daniel" "Catherine" "Ingrid" "Lillian" "Rene" "Betsy" "Constance" "Isabella" "Gladys" 
+	"Carlos" "Shizeng" "Nicholas" "Wanda" "Lisa" "Trixie" "Foung" "Lola" "Michi" "Isa" 
+	"Dayton" "Cali" "Stephen" "Helen" "Caitlin" "Evelyn" "Johan" "Lotta" "Kenneth" "Ann" 
+	"Libby" "Chad" "Philip" "Cecilia" "Lynn" "Nicole" "Ashley" "Sasha" "Gregory" "Clint" 
+	"Davis" "Rebecca" "Dorothy" "Erskine" "Michael" "Amanda" "Myrna" "Leonid" "Veronica" "Keaton" 
+	"Rosemond" "Lavina" "Sonny" "Lea" "Grace" "Virginia" "Emory" "Ulis" "Verden" "Zaquen" 
+	"Jack" "Dana" "Niven" "Fred" "Foster" "Luise" "Carson" "Torben" "Johnny" "Armstrong" 
+	"Angel" "Allen" "Art" "Abel" "Abaco" "Ariocarp" "Areol" "Behan" "Ben" "Burton" 
+	"Buckey" "Billy" "Beaty" "Bob" "Boyd" "Baca" "Bat" "Boone" "Buford" "Brumby" 
+	"Batamote" "Custer" "Chato" "Cleef" "Cain" "Camarillo" "Coville" "Coquimban" "Chinle" "Cayento" 
+	"Dodge" "Diehl" "Dowell" "Earp" "Elliot" "Eugene" "Elfego" "Elzy" "Enos" "Enoch" 
+	"Escobaria" "Frank" "Ford" "Fraser" "Finis" "Frisco" "Forgon" "Graham" "Garland" "Hafford" 
+	"Hagler" "Horton" "Hedley" "Hank" "Harcuvar" "Ike" "Isom" "Jojo" "Lauro" "Lowell" 
+	"Lew" "Leonard" "Lansford" "Leget" "Lay" "Lee" "Laban" "Mitchell" "Morgan" "Mordecai" 
+	"Malachi" "Marion" "Marston" "Massey" "Manuelito" "Mimico" "Montford" "Mullen" "Mingus" "Newman" 
+	"Neal" "Nelson" "Nat" "Oscar" "Owen" "Oljato" "Pete" "Peludo" "Pollard" "Pat" 
+	"Pajarito" "Quinlan" "Ringo" "Rye" "Reuben" "Rosson" "Rillito" "Rafael" "Rosk" "Stuart" 
+	"Shaw" "Sylvester" "Sherman" "Shea" "Seth" "Sol" "Sclerocact" "Simon" "Tuco" "Tom" 
+	"Ted" "Tan" "Tip" "Tiburcio" "Tuba" "Uriah" "Virgil" "Wyatt" "Wallace" "Yakima" }
+monarch_names = {
+	"Teng #0" = 1
+	"Spencer #0" = 1
+	"Karl #1" = 24
+	"Hazel #0" = -1
+	"Vincent #0" = 1
+	"Glenn #0" = 1
+	"Greta #0" = -1
+	"John #0" = 1
+	"Nathan #0" = 1
+	"Melvyn #0" = 1
+	"Buddy #0" = 1
+	"Daniel #0" = 1
+	"Catherine #0" = -1
+	"Ingrid #0" = -1
+	"Lillian #0" = -1
+	"Rene #0" = -1
+	"Betsy #0" = -1
+	"Constance #0" = -1
+	"Isabella #0" = -1
+	"Gladys #0" = -1
+	"Carlos #0" = 1
+	"Shizeng #0" = 1
+	"Nicholas #0" = 1
+	"Wanda #0" = -1
+	"Lisa #0" = -1
+	"Trixie #0" = -1
+	"Foung #0" = 1
+	"Lola #0" = -1
+	"Michi #0" = -1
+	"Isa #0" = -1
+	"Dayton #0" = -1
+	"Cali #0" = -1
+	"Stephen #0" = 1
+	"Helen #0" = -1
+	"Caitlin #0" = -1
+	"Evelyn #0" = -1
+	"Johan #0" = 1
+	"Lotta #0" = -1
+	"Kenneth #0" = 1
+	"Ann #0" = -1
+	"Libby #0" = -1
+	"Chad #0" = 1
+	"Philip #0" = 1
+	"Cecilia #0" = -1
+	"Lynn #0" = -1
+	"Nicole #0" = -1
+	"Ashley #0" = -1
+	"Sasha #0" = -1
+	"Gregory #0" = 1
+	"Clint #0" = 1
+	"Davis #0" = 1
+	"Rebecca #0" = -1
+	"Dorothy #0" = -1
+	"Erskine #0" = 1
+	"Michael #0" = 1
+	"Amanda #0" = -1
+	"Myrna #0" = -1
+	"Leonid #0" = 1
+	"Veronica #0" = -1
+	"Keaton #0" = 1
+	"Rosemond #0" = -1
+	"Lavina #0" = -1
+	"Sonny #0" = 1
+	"Lea #0" = -1
+	"Grace #0" = -1
+	"Virginia #0" = -1
+	"Emory #1" = 0
+	"Ulis #1" = 0
+	"Verden #1" = 0
+	"Zaquen #1" = 0
+	"Jack #1" = 0
+	"Dana #1" = 0
+	"Niven #1" = 0
+	"Fred #2" = 0
+	"Foster #1" = 0
+	"Luise #1" = -1
+	"Carson #3" = 0
+	"Torben #2" = 0
+	"Johnny #1" = 0
+	"Armstrong #0" = 0
+	"Angel #0" = 0
+	"Allen #0" = 0
+	"Art #0" = 0
+	"Abel #0" = 0
+	"Abaco #0" = 0
+	"Ariocarp #0" = 0
+	"Areol #0" = 0
+	"Behan #0" = 0
+	"Ben #0" = 0
+	"Burton #0" = 0
+	"Buckey #0" = 0
+	"Billy #0" = 0
+	"Beaty #0" = 0
+	"Bob #0" = 0
+	"Boyd #0" = 0
+	"Baca #0" = 0
+	"Bat #0" = 0
+	"Boone #0" = 0
+	"Buford #0" = 0
+	"Brumby #0" = 0
+	"Batamote #0" = 0
+	"Custer #0" = 0
+	"Chato #0" = 0
+	"Cleef #0" = 0
+	"Cain #0" = 0
+	"Camarillo #0" = 0
+	"Coville #0" = 0
+	"Coquimban #0" = 0
+	"Chinle #0" = 0
+	"Cayento #0" = 0
+	"Dodge #0" = 0
+	"Diehl #0" = 0
+	"Dowell #0" = 0
+	"Earp #0" = 0
+	"Elliot #0" = 0
+	"Eugene #0" = 0
+	"Elfego #0" = 0
+	"Elzy #0" = 0
+	"Enos #0" = 0
+	"Enoch #0" = 0
+	"Escobaria #0" = 0
+	"Frank #0" = 0
+	"Ford #0" = 0
+	"Fraser #0" = 0
+	"Finis #0" = 0
+	"Frisco #0" = 0
+	"Forgon #0" = 0
+	"Graham #0" = 0
+	"Garland #0" = 0
+	"Hafford #0" = 0
+	"Hagler #0" = 0
+	"Horton #0" = 0
+	"Hedley #0" = 0
+	"Hank #0" = 0
+	"Harcuvar #0" = 0
+	"Ike #0" = 0
+	"Isom #0" = 0
+	"Jojo #0" = 0
+	"Lauro #0" = 0
+	"Lowell #0" = 0
+	"Lew #0" = 0
+	"Leonard #0" = 0
+	"Lansford #0" = 0
+	"Leget #0" = 0
+	"Lay #0" = 0
+	"Lee #0" = 0
+	"Laban #0" = 0
+	"Mitchell #0" = 0
+	"Morgan #0" = 0
+	"Mordecai #0" = 0
+	"Malachi #0" = 0
+	"Marion #0" = 0
+	"Marston #0" = 0
+	"Massey #0" = 0
+	"Manuelito #0" = 0
+	"Mimico #0" = 0
+	"Montford #0" = 0
+	"Mullen #0" = 0
+	"Mingus #0" = 0
+	"Newman #0" = 0
+	"Neal #0" = 0
+	"Nelson #0" = 0
+	"Nat #0" = 0
+	"Oscar #0" = 0
+	"Owen #0" = 0
+	"Oljato #0" = 0
+	"Pete #0" = 0
+	"Peludo #0" = 0
+	"Pollard #0" = 0
+	"Pat #0" = 0
+	"Pajarito #0" = 0
+	"Quinlan #0" = 0
+	"Ringo #0" = 0
+	"Rye #0" = 0
+	"Reuben #0" = 0
+	"Rosson #0" = 0
+	"Rillito #0" = 0
+	"Rafael #0" = 0
+	"Rosk #0" = 0
+	"Stuart #0" = 0
+	"Shaw #0" = 0
+	"Sylvester #0" = 0
+	"Sherman #0" = 0
+	"Shea #0" = 0
+	"Seth #0" = 0
+	"Sol #0" = 0
+	"Sclerocact #0" = 0
+	"Simon #0" = 0
+	"Tuco #0" = 0
+	"Tom #0" = 0
+	"Ted #0" = 0
+	"Tan #0" = 0
+	"Tip #0" = 0
+	"Tiburcio #0" = 0
+	"Tuba #0" = 0
+	"Uriah #0" = 0
+	"Virgil #0" = 0
+	"Wyatt #0" = 0
+	"Wallace #0" = 0
+	"Yakima #0" = 0
+}
+

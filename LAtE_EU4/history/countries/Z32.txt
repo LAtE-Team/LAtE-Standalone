@@ -1,0 +1,26 @@
+# Nickajack
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2531
+3052.3.11 = {
+	monarch = {
+		name = "Chuck"
+		birth_date = 3008.12.22
+		dynasty = "Commodore"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = conqueror_personality
+}
+3053.1.1 {
+	capital = 2531
+	add_treasury = 26
+	add_prestige = 93
+	elector = no
+}

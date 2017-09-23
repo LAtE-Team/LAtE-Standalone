@@ -1,0 +1,160 @@
+# Appalachia
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 160 167 78 }
+
+
+
+
+leader_names = {
+
+	"Lilburn" "Alan" "Adam" "Abel" "Anse" "Asa" "Alvin" "Buck" "Billy" "Blue" 
+	"Barnabas" "Bo" "Boone" "Bud" "Bobby" "Constantine" "Caiaphas" "Corey" "Chuck" "Carter" 
+	"Cain" "Colt" "Celeron" "Cabell" "Calvin" "Chet" "Cedric" "Don" "Del" "Elliot" 
+	"Edd" "Ephraim" "Ellison" "Earl" "Freddy" "Foster" "Frank" "Frost" "Freeland" "Grover" 
+	"Gordon" "George" "Greg" "Garth" "Goodell" "Howard" "Hamblen" "Haywood" "Huff" "Horace" 
+	"Hap" "Herm" "Hugh" "Hylo" "Jethro" "Jebediah" "Jedediah" "Jules" "Jeptha" "Jimmy" 
+	"Jack" "Jesse" "Jeffson" "Josh" "Jeff" "Jamie" "Johnse" "Jere" "Kenneth" "Kirksey" 
+	"Larry" "Lance" "Lee" "Lew" "Lorenzo" "Lester" "Malcolm" "Marvin" "Mark" "Mike" 
+	"Morris" "Merle" "Neal" "Nat" "Paul" "Pete" "Pharmer" "Pliant" "Rick" "Ralph" 
+	"Red" "Ronnie" "Ray" "Randy" "Rutherford" "Radford" "Roland" "Rudy" "Roscoe" "Silas" 
+	"Simon" "Simms" "Sterling" "Stokely" "Sid" "Selkirk" "Sander" "Tim" "Tweedy" "Tickle" 
+	"Tom" "Thorton" "Travis" "Tucker" "Tellico" "Tryon" "Tolbert" "Tennis" "Vernon" "Virgil" 
+	"Vance" "Vassar" "Woody" "Willie" "Wolf" "Wall" "York" "Zackquill" }
+monarch_names = {
+	"Lilburn #0" = 18
+	"Alan #0" = 0
+	"Adam #0" = 0
+	"Abel #0" = 0
+	"Anse #0" = 0
+	"Asa #0" = 0
+	"Alvin #0" = 0
+	"Buck #0" = 0
+	"Billy #0" = 0
+	"Blue #0" = 0
+	"Barnabas #0" = 10
+	"Bo #0" = 0
+	"Boone #0" = 0
+	"Bud #0" = 0
+	"Bobby #0" = 0
+	"Constantine #0" = 0
+	"Caiaphas #0" = 0
+	"Corey #0" = 0
+	"Chuck #0" = 10
+	"Carter #0" = 0
+	"Cain #0" = 0
+	"Colt #0" = 0
+	"Celeron #0" = 0
+	"Cabell #0" = 0
+	"Calvin #0" = 0
+	"Chet #0" = 0
+	"Cedric #0" = 0
+	"Don #0" = 10
+	"Del #0" = 0
+	"Elliot #0" = 0
+	"Edd #0" = 0
+	"Ephraim #0" = 0
+	"Ellison #0" = 0
+	"Earl #0" = 0
+	"Freddy #0" = 0
+	"Foster #0" = 0
+	"Frank #0" = 0
+	"Frost #0" = 0
+	"Freeland #0" = 0
+	"Grover #0" = 0
+	"Gordon #0" = 10
+	"George #0" = 0
+	"Greg #0" = 0
+	"Garth #0" = 0
+	"Goodell #0" = 0
+	"Howard #0" = 0
+	"Hamblen #0" = 0
+	"Haywood #0" = 0
+	"Huff #0" = 0
+	"Horace #0" = 0
+	"Hap #0" = 0
+	"Herm #0" = 0
+	"Hugh #0" = 0
+	"Hylo #0" = 0
+	"Jethro #0" = 0
+	"Jebediah #0" = 10
+	"Jules #0" = 0
+	"Jeptha #0" = 0
+	"Jimmy #0" = 0
+	"Jack #0" = 0
+	"Jesse #0" = 0
+	"Jeffson #0" = 0
+	"Josh #0" = 0
+	"Jeff #0" = 0
+	"Jamie #0" = 0
+	"Johnse #0" = 0
+	"Jere #0" = 0
+	"Kenneth #0" = 0
+	"Kirksey #0" = 0
+	"Larry #0" = 0
+	"Lance #0" = 0
+	"Lee #0" = 0
+	"Lew #0" = 0
+	"Lorenzo #0" = 0
+	"Lester #0" = 0
+	"Malcolm #0" = 0
+	"Marvin #0" = 0
+	"Mark #0" = 0
+	"Mike #0" = 0
+	"Morris #0" = 0
+	"Merle #0" = 0
+	"Neal #0" = 0
+	"Nat #0" = 0
+	"Paul #0" = 0
+	"Pete #0" = 0
+	"Pharmer #0" = 0
+	"Pliant #0" = 0
+	"Rick #0" = 0
+	"Ralph #0" = 0
+	"Red #0" = 0
+	"Ronnie #0" = 0
+	"Ray #0" = 0
+	"Randy #0" = 0
+	"Rutherford #0" = 0
+	"Radford #0" = 0
+	"Roland #0" = 0
+	"Rudy #0" = 0
+	"Roscoe #0" = 0
+	"Silas #0" = 0
+	"Simon #0" = 0
+	"Simms #0" = 0
+	"Sterling #0" = 0
+	"Stokely #0" = 0
+	"Sid #0" = 0
+	"Selkirk #0" = 0
+	"Sander #0" = 0
+	"Tim #0" = 0
+	"Tweedy #0" = 0
+	"Tickle #0" = 0
+	"Tom #0" = 0
+	"Thorton #0" = 0
+	"Travis #0" = 0
+	"Tucker #0" = 0
+	"Tellico #0" = 0
+	"Tryon #0" = 0
+	"Tolbert #0" = 0
+	"Tennis #0" = 0
+	"Vernon #0" = 0
+	"Virgil #0" = 0
+	"Vance #0" = 0
+	"Vassar #0" = 0
+	"Woody #0" = 0
+	"Willie #0" = 0
+	"Wolf #0" = 0
+	"Wall #0" = 0
+	"York #0" = 0
+	"Zackquill #0" = 0
+
+
+	"Gemma #0" = -1
+	"Ginger #0" = -1
+	"Ruth #0" = -1
+	"Korie #0" = -1
+	"Lottie #0" = -1
+}
+

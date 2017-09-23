@@ -1,0 +1,36 @@
+mexicano = {
+	tejano = {
+		primary = RIO
+		dynasty_names = { "Seguin" "de Zavala" "Canseco" "Canseco" "Cortina" "Menchaca" "de Flower Mound" }
+	}
+	norteno = {
+		dynasty_names = { }
+	}
+	neomexicano = {
+		primary = NMX
+		dynasty_names = { }
+	}
+	tapatio = {
+		primary = JAL
+		dynasty_names = { "del Toro" "Mejía" "de Coalcomán" "de Ixtapa" "de Las Guacamayas" "de Venustiano Carranza" "de Chiapa de Corzo" "de Villaflores" "de Tuxtla Gutiérrez" "de El Colomo" "de Tecomán" "de Tecpatán" "de Ocosingo" "de Comala" "de Pueblo Neuvo" }
+	}
+	jarocho = {
+		primary = VRC
+		dynasty_names = { }
+	}
+	sonorense = {
+		primary = SNR
+		dynasty_names = { }
+	}
+	californio = {
+		primary = BAJ
+		dynasty_names = { "Murrieta" "de Fonpical" }
+	}
+	chilango = {
+		primary = MEX
+		dynasty_names = { "Milmo" "el Capitalino" "Madueña" "de Fuenleal" "de Comalcalco" "de Los Reyes" "de Quanah" "Iturbide" "de Mexia" "de Tangancicuaro de Arista" "de la Torre" "de Hollis" "de Princeton" "Chirino" "de Plano" "de Andrews" "de Fuenleal" "Zarco" "de Las Casas" "de El Espinal" }
+	}
+	chino = {
+		dynasty_names = { "Huo" }
+	}
+}

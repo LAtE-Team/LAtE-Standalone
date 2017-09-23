@@ -1,0 +1,21 @@
+venezolano = {
+	agraciado = {
+		primary = VNZ
+		dynasty_names = { "Serrano" "Balderas" "Jonaitis" "Belmonte" "Dorado García" "Jakubowicz" "Dominguez" "Giusti" "Quintero" "Braun" "Vasini" "Cabrera" "Cróquer" "Rodríguez" "Raidi" "Vega Piccolo" "Barbo" "Silva" "de Faría" "Fernández" "de la Fuente" "Velasco" "de León" "Ruiz" "de Sint Willibrordus" "de Los Caballos" "de San Bernandino" "de Achaguas" }
+	}
+	bolivariano = {
+		primary = BOV
+		dynasty_names = { "Carro" "Verreos" "Alfaro" "Bolvaríana" }
+	}
+	gocho = {
+		primary = TCR
+		dynasty_names = { }
+	}
+	llanero = {
+		primary = LLL
+		dynasty_names = { "Ureno" }
+	}
+	truenonato = {
+		dynasty_names = { }
+	}
+}

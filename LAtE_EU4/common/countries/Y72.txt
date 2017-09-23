@@ -1,0 +1,126 @@
+# Quinte
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 187 234 181 }
+
+
+
+
+leader_names = {
+
+	"By" "George" "Shania" "Lucas" "Malcolm" "Wite" "Thaney" "McMillan" "Permanence" "Alanis" 
+	"York" "Alexandra" "Lorna" "Aykroyd" "Claudia" "Marwenna" "Gath" "Avril" "Kay" "Gosling" 
+	"Gavia" "Lloyd" "Hart" "Ursula" "Dominick" "Ive" "Ouine" "Bethany" "Bennett" "Albert" 
+	"Victoria" "Bryce" "Tabitha" "Winston" "Judith" "Lorne" "Hamilton" "Banting" "Harold" "Thomp" 
+	"Woodward" "Henrich" "Alfraed" "Benzene" "Goban" "Mitchell" "Wade" "Clive" "Alan" "Anthony" 
+	"Acer" "Brant" "Bill" "Carrey" "Charles" "Claude" "Castor" "Churchill" "Darcy" "Derby" 
+	"Dalton" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Geddy" "Gord" "Hudson" "Harland" 
+	"Horton" "Hap" "Jarvis" "Kirk" "Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Leslie" 
+	"Macdonald" "McGee" "Monck" "Munro" "McCabe" "Matthew" "Meugan" "Marlborough" "Naismith" "Neil" 
+	"Nelligan" "Octockwig" "Owen" "Rupert" "Ronald" "Rubrum" "Redgrave" "Riel" "Spencer" "Trevor" 
+	"Tim" "Westerfield" }
+monarch_names = {
+	"By #2" = 24
+	"George #0" = 1
+	"Shania #0" = -1
+	"Lucas #1" = 18
+	"Malcolm #0" = 1
+	"Wite #0" = -1
+	"Thaney #0" = -1
+	"McMillan #0" = 1
+	"Permanence #0" = -1
+	"Alanis #0" = -1
+	"York #0" = 1
+	"Alexandra #1" = -19
+	"Lorna #0" = -1
+	"Aykroyd #0" = 1
+	"Claudia #0" = -1
+	"Marwenna #0" = -1
+	"Gath #0" = 1
+	"Avril #0" = -1
+	"Kay #0" = 1
+	"Gosling #0" = 1
+	"Gavia #0" = -1
+	"Lloyd #0" = 1
+	"Hart #0" = 1
+	"Ursula #0" = -1
+	"Dominick #0" = 1
+	"Ive #0" = -1
+	"Ouine #0" = -1
+	"Bethany #0" = -1
+	"Bennett #0" = 1
+	"Albert #0" = 1
+	"Victoria #0" = -1
+	"Bryce #0" = 1
+	"Tabitha #0" = -1
+	"Winston #0" = 1
+	"Judith #0" = -1
+	"Lorne #1" = 0
+	"Hamilton #1" = 0
+	"Banting #1" = 0
+	"Harold #1" = 0
+	"Thomp #3" = 0
+	"Woodward #1" = 0
+	"Henrich #1" = 0
+	"Alfraed #1" = 0
+	"Benzene #1" = 0
+	"Goban #1" = 0
+	"Mitchell #1" = 0
+	"Wade #1" = 0
+	"Clive #1" = 0
+	"Alan #0" = 0
+	"Anthony #0" = 0
+	"Acer #0" = 0
+	"Brant #0" = 0
+	"Bill #0" = 0
+	"Carrey #0" = 0
+	"Charles #0" = 0
+	"Claude #0" = 0
+	"Castor #0" = 0
+	"Churchill #0" = 0
+	"Darcy #0" = 0
+	"Derby #0" = 0
+	"Dalton #0" = 0
+	"Evan #0" = 0
+	"Edgar #0" = 0
+	"Fidelis #0" = 0
+	"Fergus #0" = 0
+	"Gray #0" = 0
+	"Geddy #0" = 0
+	"Gord #0" = 0
+	"Hudson #0" = 0
+	"Harland #0" = 0
+	"Horton #0" = 0
+	"Hap #0" = 0
+	"Jarvis #0" = 0
+	"Kirk #0" = 0
+	"Kevin #0" = 0
+	"Leaford #0" = 0
+	"Lawrence #0" = 0
+	"Leonard #0" = 0
+	"Lennox #0" = 0
+	"Leslie #0" = 0
+	"Macdonald #0" = 0
+	"McGee #0" = 0
+	"Monck #0" = 0
+	"Munro #0" = 0
+	"McCabe #0" = 0
+	"Matthew #0" = 0
+	"Meugan #0" = 0
+	"Marlborough #0" = 0
+	"Naismith #0" = 0
+	"Neil #0" = 0
+	"Nelligan #0" = 0
+	"Octockwig #0" = 0
+	"Owen #0" = 0
+	"Rupert #0" = 0
+	"Ronald #0" = 0
+	"Rubrum #0" = 0
+	"Redgrave #0" = 0
+	"Riel #0" = 0
+	"Spencer #0" = 0
+	"Trevor #0" = 0
+	"Tim #0" = 0
+	"Westerfield #0" = 0
+}
+

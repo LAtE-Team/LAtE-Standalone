@@ -1,0 +1,58 @@
+# No previous file for Monongahela
+
+culture = susquehannock
+religion = totemism
+capital = "Monongahela"
+trade_goods = unknown
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by = nomad_group
+
+
+# = {
+	#owner = SUS
+	#controller = SUS
+	#add_core= SUS
+	is_city = no
+	trade_goods = unknown
+ #Full extent of the Susquehannock & close relatives at start of the Beaver Wars
+# = {
+	#owner = IRO
+	#controller = IRO
+	culture = iroquois
+ #Taken by Iroquois in Beaver Wars.
+# = { discovered_by = ENG  # Abraham Wood
+# = { discovered_by = GBR 
+# = {
+	culture = american
+	unrest = 6
+ # Growing unrest
+# = {
+	#owner = GBR
+	#controller = GBR
+	culture = american
+	religion = protestant
+ #Treaty of Camp Charlotte, becomes part of Virginia
+# = {
+	#owner = USA
+	#controller = USA
+	#add_core= USA
+	culture = american
+ # Declaration of independence
+# = { unrest = 0  # Preliminary articles of peace, the British recognized American independence
+
+discovered_by = GBR
+
+discovered_by = GBR

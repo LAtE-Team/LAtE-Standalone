@@ -1,0 +1,221 @@
+# Diné Bikéyah
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 213 173 143 }
+
+
+
+
+leader_names = {
+
+	"Doris" "Daniel" "Fortunio" "Judy" "Betty" "Rhonda" "Martin" "Wyler" "Walter" "Mary" 
+	"Kelly" "Joy" "Cary" "Fred" "Carole" "Lovisa" "Gina" "Arthur" "Jodie" "Zeta" 
+	"May" "Stan" "Diane" "Gene" "Helmut" "Ronald" "Laura" "Sydney" "Alec" "Greene" 
+	"Stanley" "Susan" "Paige" "Marilyn" "Fay" "Erskine" "Ava" "Joe" "Kevin" "Herman" 
+	"Hastiin" "Ahote" "Motega" "Maska" "Hototo" "Tawa" "Choviohoya" "Pachu'a" "Jose" "Ralph" 
+	"Boyer" "Mason" "Lee" "Burt" "Anthony" "Jack" "Achaana" "Ahiga" "Ahway Eskay" "Akando" 
+	"Akecheta" "Alosaka" "Ashkii" "Ashkii Diyin" "Ashkil" "Askook" "Ata'halne" "Atsa" "Atsidi" "Atsidi Sani" 
+	"Bemossed" "Beshiltheeni" "Bidziil" "Bidzil" "Bilagaana" "Bislahalani" "Chapitone" "Chatto" "Chayton" "Cheveyo" 
+	"Chochmo" "Choovio" "Ciqala" "Cochise" "Dahaana Baadaane" "Dasoda-hae" "Demothi" "Diyin" "Dyami" "Elki" 
+	"Elsu" "Enyeto" "Essa-queta" "Etu" "Ezhno" "Gaagii" "Gad" "Geronimo" "Goyathlay" "Ha So Deh" 
+	"Haashké yah Níyá" "Halian" "Hania" "Haske Yahne Yah" "Hastiin Ch'ilhaajin" "Hastiin Daagi" "Hastiin Daghaa" "Hastiin Klah" "He-lush-ka" "Helaku" 
+	"Hevataneo" "Hinun" "Hok'ee" "Hotah" "Hoksay Nolyae" "Hozhooji Naat'a" "Igasho" "Iye" "Jaanééz" "Jock" 
+	"Kaga" "Kangee" "Kas-tziden" "Kilchii" "Kitchi" "Klah" "Kono" "Lansa" "Leyati" "Lonan" 
+	"Lootah" "Lusio" "Mahkah" "Manipi" "Matwau" "Mingan" "Misu" "Mochini" "Molimo" "Muraco" 
+	"Nabaah Jilt'aa" "Naalnish" "Naalyehe ya Sidahi" "Nahele" "Naiche" "Nakai" "Namid" "Nantan" "Narcisco" "Nastas" 
+	"Nataani" "Nayati" "Neka" "Niichaad" "Niyol" "Otaktay" "Paco" "Patamon" "Sahale" "Sakima" 
+	"Sandiin" "Sani" "Shilah" "Shiye" "Shizhe'e" "Sicheii" "Sik'is" "Sike" "Skah" "Sucki" 
+	"T'iis" "Taima" "Taza" "Teetonka" "Toh Yah" "Tooantuh" "Tse" "Tsiishchili" "Tuari" "Uzumati" 
+	"Vipponah" "Wakiza" "Wanageeksa" "Wanikiya" "Wynono" "Yanisin" "Yas" "Yiska" "Yuma" }
+monarch_names = {
+	"Doris #0" = -1
+	"Daniel #0" = 1
+	"Fortunio #2" = 21
+	"Judy #0" = -1
+	"Betty #0" = -1
+	"Rhonda #0" = -1
+	"Martin #5" = 33
+	"Wyler #1" = 24
+	"Walter #1" = 27
+	"Mary #0" = -1
+	"Kelly #0" = -1
+	"Joy #0" = -1
+	"Cary #0" = 1
+	"Fred #0" = 1
+	"Carole #0" = -1
+	"Lovisa #0" = -1
+	"Gina #0" = -1
+	"Arthur #0" = 1
+	"Jodie #0" = -1
+	"Zeta #0" = -1
+	"May #0" = -1
+	"Stan #0" = 1
+	"Diane #0" = -1
+	"Gene #0" = -1
+	"Helmut #0" = 1
+	"Ronald #1" = 18
+	"Laura #0" = -1
+	"Sydney #0" = 1
+	"Alec #0" = 1
+	"Greene #0" = -1
+	"Stanley #0" = 1
+	"Susan #0" = -1
+	"Paige #0" = -1
+	"Marilyn #0" = -1
+	"Fay #0" = -1
+	"Erskine #1" = 21
+	"Ava #0" = -1
+	"Joe #0" = 1
+	"Kevin #0" = 1
+	"Herman #1" = 18
+	"Hastiin #2" = 0
+	"Ahote #1" = 0
+	"Motega #1" = 0
+	"Maska #1" = 0
+	"Hototo #1" = 0
+	"Tawa #1" = 0
+	"Choviohoya #1" = 0
+	"Pachu'a #1" = 0
+	"Jose #1" = 0
+	"Ralph #1" = 0
+	"Boyer #1" = 0
+	"Mason #2" = 0
+	"Lee #1" = 0
+	"Burt #1" = 0
+	"Anthony #1" = 0
+	"Jack #1" = 0
+	"Achaana #0" = 0
+	"Ahiga #0" = 0
+	"Ahway Eskay #0" = 0
+	"Akando #0" = 0
+	"Akecheta #0" = 0
+	"Alosaka #0" = 0
+	"Ashkii #0" = 0
+	"Ashkii Diyin #0" = 0
+	"Ashkil #0" = 0
+	"Askook #0" = 0
+	"Ata'halne #0" = 0
+	"Atsa #0" = 0
+	"Atsidi #0" = 0
+	"Atsidi Sani #0" = 0
+	"Bemossed #0" = 0
+	"Beshiltheeni #0" = 0
+	"Bidziil #0" = 0
+	"Bidzil #0" = 0
+	"Bilagaana #0" = 0
+	"Bislahalani #0" = 0
+	"Chapitone #0" = 0
+	"Chatto #0" = 0
+	"Chayton #0" = 0
+	"Cheveyo #0" = 0
+	"Chochmo #0" = 0
+	"Choovio #0" = 0
+	"Ciqala #0" = 0
+	"Cochise #0" = 0
+	"Dahaana Baadaane #0" = 0
+	"Dasoda-hae #0" = 0
+	"Demothi #0" = 0
+	"Diyin #0" = 0
+	"Dyami #0" = 0
+	"Elki #0" = 0
+	"Elsu #0" = 0
+	"Enyeto #0" = 0
+	"Essa-queta #0" = 0
+	"Etu #0" = 0
+	"Ezhno #0" = 0
+	"Gaagii #0" = 0
+	"Gad #0" = 0
+	"Geronimo #0" = 0
+	"Goyathlay #0" = 0
+	"Ha So Deh #0" = 0
+	"Haashké yah Níyá #0" = 0
+	"Halian #0" = 0
+	"Hania #0" = 0
+	"Haske Yahne Yah #0" = 0
+	"Hastiin Ch'ilhaajin #0" = 0
+	"Hastiin Daagi #0" = 0
+	"Hastiin Daghaa #0" = 0
+	"Hastiin Klah #0" = 0
+	"He-lush-ka #0" = 0
+	"Helaku #0" = 0
+	"Hevataneo #0" = 0
+	"Hinun #0" = 0
+	"Hok'ee #0" = 0
+	"Hotah #0" = 0
+	"Hoksay Nolyae #0" = 0
+	"Hozhooji Naat'a #0" = 0
+	"Igasho #0" = 0
+	"Iye #0" = 0
+	"Jaanééz #0" = 0
+	"Jock #0" = 0
+	"Kaga #0" = 0
+	"Kangee #0" = 0
+	"Kas-tziden #0" = 0
+	"Kilchii #0" = 0
+	"Kitchi #0" = 0
+	"Klah #0" = 0
+	"Kono #0" = 0
+	"Lansa #0" = 0
+	"Leyati #0" = 0
+	"Lonan #0" = 0
+	"Lootah #0" = 0
+	"Lusio #0" = 0
+	"Mahkah #0" = 0
+	"Manipi #0" = 0
+	"Matwau #0" = 0
+	"Mingan #0" = 0
+	"Misu #0" = 0
+	"Mochini #0" = 0
+	"Molimo #0" = 0
+	"Muraco #0" = 0
+	"Nabaah Jilt'aa #0" = 0
+	"Naalnish #0" = 0
+	"Naalyehe ya Sidahi #0" = 0
+	"Nahele #0" = 0
+	"Naiche #0" = 0
+	"Nakai #0" = 0
+	"Namid #0" = 0
+	"Nantan #0" = 0
+	"Narcisco #0" = 0
+	"Nastas #0" = 0
+	"Nataani #0" = 0
+	"Nayati #0" = 0
+	"Neka #0" = 0
+	"Niichaad #0" = 0
+	"Niyol #0" = 0
+	"Otaktay #0" = 0
+	"Paco #0" = 0
+	"Patamon #0" = 0
+	"Sahale #0" = 0
+	"Sakima #0" = 0
+	"Sandiin #0" = 0
+	"Sani #0" = 0
+	"Shilah #0" = 0
+	"Shiye #0" = 0
+	"Shizhe'e #0" = 0
+	"Sicheii #0" = 0
+	"Sik'is #0" = 0
+	"Sike #0" = 0
+	"Skah #0" = 0
+	"Sucki #0" = 0
+	"T'iis #0" = 0
+	"Taima #0" = 0
+	"Taza #0" = 0
+	"Teetonka #0" = 0
+	"Toh Yah #0" = 0
+	"Tooantuh #0" = 0
+	"Tse #0" = 0
+	"Tsiishchili #0" = 0
+	"Tuari #0" = 0
+	"Uzumati #0" = 0
+	"Vipponah #0" = 0
+	"Wakiza #0" = 0
+	"Wanageeksa #0" = 0
+	"Wanikiya #0" = 0
+	"Wynono #0" = 0
+	"Yanisin #0" = 0
+	"Yas #0" = 0
+	"Yiska #0" = 0
+	"Yuma #0" = 0
+}
+

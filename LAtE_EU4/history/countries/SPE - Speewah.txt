@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 2
+technology_group = chinese
+religion = animism # dreaming
+primary_culture = strayan
+capital = 4636	# Kimberley
+
+3050.1.1 = {
+	monarch = {
+		name = "Max"
+		dynasty = "Rockatansky"
+		birth_date = 3017.1.1
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}

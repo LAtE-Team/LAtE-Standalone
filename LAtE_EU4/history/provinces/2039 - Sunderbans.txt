@@ -1,0 +1,27 @@
+#2039 - Sunderbans
+
+owner = BNG
+controller = BNG
+culture = bengali
+religion = sunni
+capital = "Bagerhat"
+trade_goods = grain #Rice
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+estate = estate_church
+add_core = BNG
+
+
+
+discovered_by = indian
+#discovered_by = nomad_group
+discovered_by = indian
+discovered_by = indian
+discovered_by = chinese
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,25 @@
+# Paha Sapa
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = dakota
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2008
+3051.4.18 = {
+	monarch = {
+		name = "Pezi"
+		birth_date = 3025.1.18
+		dynasty = "Nawkawid"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+3053.1.1 {
+	capital = 2008
+	add_treasury = 25
+	add_prestige = 44
+}

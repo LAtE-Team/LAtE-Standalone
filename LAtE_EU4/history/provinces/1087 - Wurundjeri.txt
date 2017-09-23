@@ -1,0 +1,24 @@
+#1087 - Wurundjeri
+
+owner = AUS
+controller = AUS
+add_core = AUS
+is_city = yes
+culture = strayan
+religion = animism
+capital = "Melbourne"
+hre = no
+trade_goods = unknown
+base_manpower = 1
+base_tax = 3 
+base_production = 3
+native_size = 10
+native_ferocity = 1
+native_hostileness = 9
+
+discovered_by = chinese
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier 
+	duration = -1
+}

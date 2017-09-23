@@ -1,0 +1,33 @@
+#1851 - Coimbra
+
+#owner = POR
+#controller = POR
+culture = portugese
+religion = matrem
+capital = "Coimbra"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+estate = estate_nobles
+#add_core= POR
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+
+# = { #controller = SPA }
+# = { #controller = POR }
+# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 0 }
+# = { #controller = FRA } # Occupied by France
+# = { #controller = POR }
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

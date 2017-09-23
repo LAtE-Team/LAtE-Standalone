@@ -1,0 +1,22 @@
+#1774 - Treviso
+#owner = VEN
+#controller = VEN
+culture = venetian 
+religion = hellenic_pagan 
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1 
+capital = "Treviso" 
+is_city = no	# Estimated 
+fort_15th = yes
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

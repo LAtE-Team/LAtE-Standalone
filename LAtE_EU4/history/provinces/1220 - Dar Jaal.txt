@@ -1,0 +1,16 @@
+#1220 - Dar Ja'al
+
+culture = nubian 
+religion = sunni
+capital = "Bayuda"
+trade_goods = unknown
+base_manpower = 2
+hre = no
+base_tax = 1 
+base_production = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = east_african
+discovered_by = indian
+discovered_by = indian

@@ -1,0 +1,5 @@
+government = feudal_monarchy
+primary_culture = oriya
+religion = hinduism
+technology_group = indian
+capital = 552	# Cuttack

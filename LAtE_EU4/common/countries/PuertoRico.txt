@@ -1,0 +1,261 @@
+# Puerto Rico
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 137 12 100 }
+
+
+
+
+leader_names = {
+
+	"Jesús" "Jorge" "Mario" "Claribel" "Luis" "Abdiel" "Abelardo" "Adolfo" "Adrian" "Adriel" 
+	"Agostino" "Aguilar" "Alan" "Albito" "Alejandro" "Alex" "Alexander" "Alexis" "Alfredo" "Álvaro" 
+	"Amaury" "Ambert" "Andrés" "Ángel" "Anselmo" "Anthony" "Antonin" "Antonio" "Armentario" "Arsenio" 
+	"Arturo" "Atilano" "Axel" "Barbarito" "Bartolomé" "Basilio" "Batista" "Benicio" "Bienvenido" "Blas Roca" 
+	"Blas Silva" "Bolivar" "Braulio" "Calixto" "Cándido" "Carlos" "Castro" "César" "Claudio" "Damián" 
+	"Daniel" "Dariel" "David" "Denzel" "Dereck" "Derek" "Desiderio" "Diego" "Dylan" "Eduardo" 
+	"Edwin" "Efraín" "Elián" "Eliécer" "Elin" "Emmanuel" "Enrique" "Erik" "Ernesto" "Esai" 
+	"Esteban" "Eugenio" "Ezequiel" "Fabian" "Fadrique" "Felipe" "Félix" "Fernando" "Fidel" "Francisco" 
+	"Fulgencio" "Gabriel" "Garcia" "Gaspar" "Gian" "Gilberto" "Gildo" "Gonazlo" "Griselio" "Guillermo" 
+	"Gustavo" "Guy" "Héctor" "Hernando" "Hugo" "Humberto" "Ian" "Ignacio" "Isidoro" "Ismael" 
+	"Ivan" "Jacinto" "Jacob" "Jacobo" "Jadiel" "Jaime" "Jan" "Janiel" "Javier" "Jaycob" 
+	"Jayden" "Jean" "Jeremy" "Jeriel" "Jerónimo" "Joaquin" "Joel" "John" "Jomar" "Jonathan" 
+	"Joniel" "José" "Joseph" "Joshua" "Josue" "Juan" "Julian" "Justin" "Kamar" "Kelvin" 
+	"Keniel" "Kenneth" "Kevin" "Laureano" "Léon" "Leonardo" "Lorenzo" "Lucas" "Luisito" "Mailoco" 
+	"Manuel" "Marcelino" "Marco" "Marcos" "Marlon" "Martin" "Matthew" "Melwin" "Metopio" "Michael" 
+	"Miguel" "Miguelito" "Nemesio" "Nicasio" "Nicholas" "Núñez" "Nuno" "Omar" "Orestes" "Orlando" 
+	"Orosio" "Osvaldo" "Otilio" "Pacheco" "Paquito" "Paulo" "Pedro" "Perucho" "Piri" "Ponciano" 
+	"Quiara" "Rabinato" "Rafael" "Rafo" "Ramón" "Rane" "Raúl" "Recaredo" "Renoly" "Ricardo" 
+	"Roberto" "Rogelio" "Rosendo" "Ryan" "Sabarico" "Salvador" "Samuel" "Sancho" "Sebastián" "Sergio" 
+	"Severino" "Silverio" "Silvio" "Simon" "Steven" "Suario" "Teodomiro" "Teófilo" "Tomás" "Toro" 
+	"Vasco" "Vicente" "Victor" "Vidal" "Vincent" "Virgilio" "Walfredo" "Xavier" "Xerome" "Yadiel" 
+	"Yadriel" "Yahir" "Yamil" "Yandel" "Yandiel" "Yaniel" "Yariel" "Yeriel" "Yiye" "Zeno" }
+monarch_names = {
+	"Jesús #0" = 1
+	"Jorge #0" = 1
+	"Mario #1" = 18
+	"Claribel #0" = -1
+	"Luis #0" = 1
+	"Abdiel #0" = 0
+	"Abelardo #0" = 0
+	"Adolfo #0" = 0
+	"Adrian #0" = 0
+	"Adriel #0" = 0
+	"Agostino #0" = 0
+	"Aguilar #0" = 0
+	"Alan #0" = 0
+	"Albito #0" = 0
+	"Alejandro #0" = 0
+	"Alex #0" = 0
+	"Alexander #0" = 0
+	"Alexis #0" = 0
+	"Alfredo #0" = 0
+	"Álvaro #0" = 0
+	"Amaury #0" = 0
+	"Ambert #0" = 0
+	"Andrés #0" = 0
+	"Ángel #0" = 0
+	"Anselmo #0" = 0
+	"Anthony #0" = 0
+	"Antonin #0" = 0
+	"Antonio #0" = 0
+	"Armentario #0" = 0
+	"Arsenio #0" = 0
+	"Arturo #0" = 0
+	"Atilano #0" = 0
+	"Axel #0" = 0
+	"Barbarito #0" = 0
+	"Bartolomé #0" = 0
+	"Basilio #0" = 0
+	"Batista #0" = 0
+	"Benicio #0" = 0
+	"Bienvenido #0" = 0
+	"Blas Roca #0" = 0
+	"Blas Silva #0" = 0
+	"Bolivar #0" = 0
+	"Braulio #0" = 0
+	"Calixto #0" = 0
+	"Cándido #0" = 0
+	"Carlos #0" = 0
+	"Castro #0" = 0
+	"César #0" = 0
+	"Claudio #0" = 0
+	"Damián #0" = 0
+	"Daniel #0" = 0
+	"Dariel #0" = 0
+	"David #0" = 0
+	"Denzel #0" = 0
+	"Dereck #0" = 0
+	"Derek #0" = 0
+	"Desiderio #0" = 0
+	"Diego #0" = 0
+	"Dylan #0" = 0
+	"Eduardo #0" = 0
+	"Edwin #0" = 0
+	"Efraín #0" = 0
+	"Elián #0" = 0
+	"Eliécer #0" = 0
+	"Elin #0" = 0
+	"Emmanuel #0" = 0
+	"Enrique #0" = 0
+	"Erik #0" = 0
+	"Ernesto #0" = 0
+	"Esai #0" = 0
+	"Esteban #0" = 0
+	"Eugenio #0" = 0
+	"Ezequiel #0" = 0
+	"Fabian #0" = 0
+	"Fadrique #0" = 0
+	"Felipe #0" = 0
+	"Félix #0" = 0
+	"Fernando #0" = 0
+	"Fidel #0" = 0
+	"Francisco #0" = 0
+	"Fulgencio #0" = 0
+	"Gabriel #0" = 0
+	"Garcia #0" = 0
+	"Gaspar #0" = 0
+	"Gian #0" = 0
+	"Gilberto #0" = 0
+	"Gildo #0" = 0
+	"Gonazlo #0" = 0
+	"Griselio #0" = 0
+	"Guillermo #0" = 0
+	"Gustavo #0" = 0
+	"Guy #0" = 0
+	"Héctor #0" = 0
+	"Hernando #0" = 0
+	"Hugo #0" = 0
+	"Humberto #0" = 0
+	"Ian #0" = 0
+	"Ignacio #0" = 0
+	"Isidoro #0" = 0
+	"Ismael #0" = 0
+	"Ivan #0" = 0
+	"Jacinto #0" = 0
+	"Jacob #0" = 0
+	"Jacobo #0" = 0
+	"Jadiel #0" = 0
+	"Jaime #0" = 0
+	"Jan #0" = 0
+	"Janiel #0" = 0
+	"Javier #0" = 0
+	"Jaycob #0" = 0
+	"Jayden #0" = 0
+	"Jean #0" = 0
+	"Jeremy #0" = 0
+	"Jeriel #0" = 0
+	"Jerónimo #0" = 0
+	"Joaquin #0" = 0
+	"Joel #0" = 0
+	"John #0" = 0
+	"Jomar #0" = 0
+	"Jonathan #0" = 0
+	"Joniel #0" = 0
+	"José #0" = 0
+	"Joseph #0" = 0
+	"Joshua #0" = 0
+	"Josue #0" = 0
+	"Juan #0" = 0
+	"Julian #0" = 0
+	"Justin #0" = 0
+	"Kamar #0" = 0
+	"Kelvin #0" = 0
+	"Keniel #0" = 0
+	"Kenneth #0" = 0
+	"Kevin #0" = 0
+	"Laureano #0" = 0
+	"Léon #0" = 0
+	"Leonardo #0" = 0
+	"Lorenzo #0" = 0
+	"Lucas #0" = 0
+	"Luisito #0" = 0
+	"Mailoco #0" = 0
+	"Manuel #0" = 0
+	"Marcelino #0" = 0
+	"Marco #0" = 0
+	"Marcos #0" = 0
+	"Marlon #0" = 0
+	"Martin #0" = 0
+	"Matthew #0" = 0
+	"Melwin #0" = 0
+	"Metopio #0" = 0
+	"Michael #0" = 0
+	"Miguel #0" = 0
+	"Miguelito #0" = 0
+	"Nemesio #0" = 0
+	"Nicasio #0" = 0
+	"Nicholas #0" = 0
+	"Núñez #0" = 0
+	"Nuno #0" = 0
+	"Omar #0" = 0
+	"Orestes #0" = 0
+	"Orlando #0" = 0
+	"Orosio #0" = 0
+	"Osvaldo #0" = 0
+	"Otilio #0" = 0
+	"Pacheco #0" = 0
+	"Paquito #0" = 0
+	"Paulo #0" = 0
+	"Pedro #0" = 0
+	"Perucho #0" = 0
+	"Piri #0" = 0
+	"Ponciano #0" = 0
+	"Quiara #0" = 0
+	"Rabinato #0" = 0
+	"Rafael #0" = 0
+	"Rafo #0" = 0
+	"Ramón #0" = 0
+	"Rane #0" = 0
+	"Raúl #0" = 0
+	"Recaredo #0" = 0
+	"Renoly #0" = 0
+	"Ricardo #0" = 0
+	"Roberto #0" = 0
+	"Rogelio #0" = 0
+	"Rosendo #0" = 0
+	"Ryan #0" = 0
+	"Sabarico #0" = 0
+	"Salvador #0" = 0
+	"Samuel #0" = 0
+	"Sancho #0" = 0
+	"Sebastián #0" = 0
+	"Sergio #0" = 0
+	"Severino #0" = 0
+	"Silverio #0" = 0
+	"Silvio #0" = 0
+	"Simon #0" = 0
+	"Steven #0" = 0
+	"Suario #0" = 0
+	"Teodomiro #0" = 0
+	"Teófilo #0" = 0
+	"Tomás #0" = 0
+	"Toro #0" = 0
+	"Vasco #0" = 0
+	"Vicente #0" = 0
+	"Victor #0" = 0
+	"Vidal #0" = 0
+	"Vincent #0" = 0
+	"Virgilio #0" = 0
+	"Walfredo #0" = 0
+	"Xavier #0" = 0
+	"Xerome #0" = 0
+	"Yadiel #0" = 0
+	"Yadriel #0" = 0
+	"Yahir #0" = 0
+	"Yamil #0" = 0
+	"Yandel #0" = 0
+	"Yandiel #0" = 0
+	"Yaniel #0" = 0
+	"Yariel #0" = 0
+	"Yeriel #0" = 0
+	"Yiye #0" = 0
+	"Zeno #0" = 0
+
+
+	"Dariana #0" = -1
+	"Lucy #0" = -1
+	"Ana #0" = -1
+	"Gianna #0" = -1
+}
+

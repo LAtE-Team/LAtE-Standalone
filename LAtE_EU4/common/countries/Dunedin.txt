@@ -1,0 +1,64 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+
+color = { 100  150  150 }
+
+monarch_names = {
+	"Aragorn #2" = 20
+	"Arathorn #2" = 20
+	"Arahad #2" = 15
+	"Aranath #1" = 15
+	"Arahael #1" = 10
+	"Aranuir #1" = 10
+	"Aravir #1" = 10
+	"Araglas #1" = 10
+	"Aragost #1" = 10
+	"Aravorn #1" = 10
+	"Arassuil #1" = 10
+	"Argonui #1" = 10
+	"Arador #1" = 10
+	"Eldarion #0" = 10
+	"Amlaith #0" = 0
+	"Beleg #0" = 0
+	"Mallor #0" = 0
+	"Celepharn #0" = 0
+	"Celebrindor #0" = 0
+	"Malvegil #0" = 0
+	"Argeleb #0" = 0
+	"Arveleg #0" = 0
+	"Araphor #0" = 0
+	"Arvegil #0" = 0
+	"Aravel #0" = 0
+	"Araphant #0" = 0
+	
+	"Arwen #0" = -1
+	"Ambrosia #0" = -1
+	"Charlotte #0" = -1
+}
+
+leader_names = { 
+	Bourke Darling
+	Brisbane Macquarie
+	Bligh King Butler
+	Hunter Phillip Denison
+	Fitzroy Belmore
+	Robinson
+	Loftus Carrington
+	Duff Hampden Beauchamp Rawson
+	Chelmsford Yagan 
+	Strickland Davidson
+	Grey Flinders
+	Bass
+}
+
+ship_names = {
+	Sidney Coromandel
+	Yarra Dumbarton
+	Gascoyne Perth
+	Huon Stuart
+	Hawkesbury Toowoomba
+	Maryborough Norman 
+	Warramunga Parramatta
+}

@@ -1,0 +1,38 @@
+#1831 - Travunia
+
+#owner = BOS		# Part of the Bosnian kingdom
+#controller = BOS
+culture = serbian
+religion = matrem
+capital = "Trebinje"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+estate = estate_church
+#add_core= BOS
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {
+	#owner = TUR
+	#controller = TUR
+	#add_core= TUR
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

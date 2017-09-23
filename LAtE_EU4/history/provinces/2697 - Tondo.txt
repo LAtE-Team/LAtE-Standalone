@@ -1,0 +1,19 @@
+#2697 - Tondo
+
+culture = filipino
+religion = cult_of_saints
+capital = "Tondo"
+trade_goods = sugar
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+native_size = 70
+native_ferocity = 2
+native_hostileness = 9
+add_core = MNL
+owner = MNL
+controller = MNL
+
+
+discovered_by = chinese

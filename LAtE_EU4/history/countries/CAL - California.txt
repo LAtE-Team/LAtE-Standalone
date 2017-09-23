@@ -1,0 +1,318 @@
+# California
+government = celestial_empire
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4502
+2421.5.5 = {
+	monarch = {
+		name = "Elton I"
+		birth_date = 2390.12.16
+		dynasty = "Yudkow"
+	}
+}
+2473.12.1 = {
+	monarch = {
+		name = "Presley"
+		birth_date = 2420.12.16
+		dynasty = "Yudkow"
+	}
+}
+2493.12.1 = {
+	monarch = {
+		name = "Elton II"
+		birth_date = 2439.12.16
+		dynasty = "Yudkow"
+	}
+}
+2501.12.1 = {
+	monarch = {
+		name = "Reuben I"
+		birth_date = 2459.12.16
+		dynasty = "Yudkow"
+	}
+}
+2503.12.1 = {
+	monarch = {
+		name = "Elton III"
+		birth_date = 2496.12.16
+		dynasty = "Yudkow"
+	}
+}
+2559.12.1 = {
+	monarch = {
+		name = "Hetch"
+		birth_date = 2533.12.16
+		dynasty = "Yudkow"
+	}
+}
+2596.12.1 = {
+	monarch = {
+		name = "Chad I"
+		birth_date = 2563.12.16
+		dynasty = "Yudkow"
+	}
+}
+2637.12.1 = {
+	monarch = {
+		name = "Elton IV"
+		birth_date = 2613.12.16
+		dynasty = "Yudkow"
+	}
+}
+2668.9.5 = {
+	monarch = {
+		name = "Mickey"
+		birth_date = 2617.12.16
+		dynasty = "Yudkow"
+	}
+}
+2685.10.6 = {
+	monarch = {
+		name = "Reuben II"
+		birth_date = 2638.12.16
+		dynasty = "Yudkow"
+	}
+}
+2691.5.13 = {
+	monarch = {
+		name = "Chad II"
+		birth_date = 2667.7.15
+		dynasty = "Yudkow"
+	}
+}
+2738.6.6 = {
+	monarch = {
+		name = "Chad III"
+		birth_date = 2710.1.1
+		dynasty = "Yudkow"
+	}
+}
+2739.7.10 = {
+	monarch = {
+		name = "Chad IV"
+		birth_date = 2731.8.7
+		dynasty = "Yudkow"
+	}
+}
+2760.5.17 = {
+	monarch = {
+		name = "Joshua I"
+		birth_date = 2715.3.24
+		dynasty = "Yudkow"
+	}
+}
+2775.2.23 = {
+	monarch = {
+		name = "Joshua II"
+		birth_date = 2758.10.25
+		dynasty = "Yudkow"
+	}
+}
+2775.5.25 = {
+	monarch = {
+		name = "Michael"
+		birth_date = 2763.2.25
+		dynasty = "Yudkow"
+	}
+}
+2788.10.8 = {
+	monarch = {
+		name = "Jack"
+		birth_date = 2748.12.11
+		dynasty = "Carmine"
+	}
+}
+2803.7.13 = {
+	monarch = {
+		name = "Jose"
+		birth_date = 2771.6.21
+		dynasty = "Davis"
+	}
+}
+2828.3.13 = {
+	monarch = {
+		name = "Ralph"
+		birth_date = 2798.10.22
+		dynasty = "Davis"
+	}
+}
+2856.12.1 = {
+	monarch = {
+		name = "Siskel"
+		birth_date = 2784.10.22
+		dynasty = "Fonda"
+	}
+}
+2863.3.2 = {
+	monarch = {
+		name = "Lewis"
+		birth_date = 2849.9.15
+		dynasty = "Fonda"
+	}
+}
+2866.8.29 = {
+	monarch = {
+		name = "Wyatt"
+		birth_date = 2803.7.14
+		dynasty = "Huston"
+	}
+}
+2867.6.15 = {
+	monarch = {
+		name = "Benicio I"
+		birth_date = 2812.1.2
+		dynasty = "Altman"
+	}
+}
+2875.4.20 = {
+	monarch = {
+		name = "Mason"
+		birth_date = 2846.4.20
+		dynasty = "Huo"
+	}
+}
+2881.11.2 = {
+	monarch = {
+		name = "Martin I"
+		birth_date = 2862.3.22
+		dynasty = "Huo"
+	}
+}
+2893.6.4 = {
+	monarch = {
+		name = "Jeremy"
+		birth_date = 2846.4.12
+		dynasty = "Altman"
+	}
+}
+2907.12.2 = {
+	monarch = {
+		name = "Martin II"
+		birth_date = 2861.11.17
+		dynasty = "Moyle"
+	}
+}
+2921.8.10 = {
+	monarch = {
+		name = "Benicio II"
+		birth_date = 2880.9.4
+		dynasty = "Moyle"
+	}
+}
+2923.2.28 = {
+	monarch = {
+		name = "Terry"
+		birth_date = 2867.12.17
+		dynasty = "Moyle"
+	}
+}
+2925.8.24 = {
+	monarch = {
+		name = "Percival"
+		birth_date = 2867.12.24
+		dynasty = "Armour"
+	}
+}
+2935.1.6 = {
+	monarch = {
+		name = "Colman"
+		birth_date = 2889.11.6
+		dynasty = "Feltner"
+	}
+}
+2948.1.12 = {
+	monarch = {
+		name = "Oliver"
+		birth_date = 2879.6.7
+		dynasty = "Lyell"
+	}
+}
+2952.10.14 = {
+	monarch = {
+		name = "Gus I"
+		birth_date = 2898.8.15
+		dynasty = "Norton"
+	}
+}
+2965.3.23 = {
+	monarch = {
+		name = "Gus II"
+		birth_date = 2928.11.20
+		dynasty = "Norton"
+	}
+}
+2968.5.28 = {
+	monarch = {
+		name = "Lee"
+		birth_date = 2924.4.3
+		dynasty = "Zins"
+	}
+}
+2973.6.2 = {
+	monarch = {
+		name = "Marcel"
+		birth_date = 2923.4.17
+		dynasty = "Ramis"
+	}
+}
+2978.2.18 = {
+	monarch = {
+		name = "Phillip"
+		birth_date = 2913.10.10
+		dynasty = "Gibbs"
+	}
+}
+2988.5.3 = {
+	monarch = {
+		name = "Torben"
+		birth_date = 2925.8.3
+		dynasty = "Douglas"
+	}
+}
+2994.12.14 = {
+	monarch = {
+		name = "Carson"
+		birth_date = 2959.7.12
+		dynasty = "Douglas"
+	}
+}
+3013.2.11 = {
+	monarch = {
+		name = "Heath"
+		birth_date = 2968.6.26
+		dynasty = "Winkler"
+	}
+}
+3026.4.13 = {
+	monarch = {
+		name = "Ryan"
+		birth_date = 3006.4.2
+		dynasty = "Winkler"
+		adm = 3
+		dip = 5
+		mil = 1
+	}
+	add_ruler_personality = embezzler_personality
+	add_ruler_personality = greedy_personality
+	heir = {
+		name = "Helen"
+		monarch_name = "Helen"
+		dynasty = "Winkler"
+		birth_date = 3024.6.20
+		death_date = 3104.6.20
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_heir_personality = careful_personality
+}
+3053.1.1 = {
+	capital = 4502
+	add_treasury = 65
+	add_prestige = 461
+}

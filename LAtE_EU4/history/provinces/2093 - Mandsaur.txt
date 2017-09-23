@@ -1,0 +1,26 @@
+#2093 - Mandsaur
+
+owner = MLW
+controller = MLW
+culture = malvi
+religion = hinduism
+capital = "Mandsaur"
+trade_goods = spices	#Opium
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core= MLW
+fort_15th = yes #Mandsaur Fort
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

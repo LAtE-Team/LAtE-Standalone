@@ -1,0 +1,26 @@
+# Minganie
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+clear_scripted_personalities = yes
+capital = 996
+3039.1.6 = {
+	monarch = {
+		name = "Driscoll"
+		birth_date = 2992.7.21
+		dynasty = "Conmara"
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 996
+	add_treasury = 31
+	add_prestige = 205
+}

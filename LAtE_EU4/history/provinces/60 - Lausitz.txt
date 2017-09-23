@@ -1,0 +1,71 @@
+#60 - Lausitz
+
+#owner = BOH
+#controller = BOH
+#add_core= BOH
+capital = "Bautzen"
+culture = saxon
+religion = catholic
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { unrest = 10 } # Hussite Wars, Battle of Nekmir
+# = { unrest = 0 } # Peace is signed in Jihlava
+# = { #add_core= POL }
+# = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.
+# = {
+	#controller = HUN
+	#owner = HUN
+	#add_core= HUN
+	unrest = 0 
+#} # Pilsen accepts Matthias Corvinus (Hunyadi) as their King.
+# = { remove_core = POL } # End of strife for the Bohemian crown
+# = {
+ 	#owner = BOH
+	#controller = BOH
+	remove_core = HUN } # Matthias Corvinus dies in Vienna, his successor is both King of Hungary AND Bohemia, thus the integreity of the Bohemian territory is restored.
+# = {
+ 	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+	remove_core = BOH
+#}# Battle of Mohac where Lajos II dies -> Habsburg succession
+# = { religion = protestant }
+# = {
+	#controller = BOH
+	#owner = BOH
+	#add_core= BOH
+#}
+# = {	#controller = SAX
+	#owner = SAX
+	#add_core= SAX
+	remove_core = BOH 
+#}# Tilly beats the Winterking, but HAB gives the province to Saxony as security against a loan.
+# = { hre = no } # The Holy Roman Empire is dissolved
+# = {
+	#owner = PRU
+	#controller = PRU
+	#add_core= PRU
+	remove_core = SAX
+#} # Congress of Vienna
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

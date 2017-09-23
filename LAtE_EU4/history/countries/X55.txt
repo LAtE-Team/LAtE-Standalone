@@ -1,0 +1,25 @@
+# Los Andes
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = truenonato
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 2807
+3051.3.14 = {
+	monarch = {
+		name = "Nero"
+		birth_date = 3020.2.24
+		dynasty = "Giusti"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+3053.1.1 {
+	capital = 2807
+	add_treasury = 42
+	add_prestige = 48
+}

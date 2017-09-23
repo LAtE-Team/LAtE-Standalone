@@ -1,0 +1,26 @@
+# Blue Mountains
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = portlander
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 2483
+3025.6.24 = {
+	monarch = {
+		name = "Yeptah"
+		birth_date = 2994.11.1
+		dynasty = "Lovejoy"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 2483
+	add_treasury = 26
+	add_prestige = 132
+}

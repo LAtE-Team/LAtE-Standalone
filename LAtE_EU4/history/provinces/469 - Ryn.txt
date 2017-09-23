@@ -1,0 +1,28 @@
+#469 - Ryn
+
+
+capital = "Ryn"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = no
+add_core = ARZ
+owner = ARZ
+controller = ARZ
+culture = russian
+religion = atomicist
+
+add_core = KLC #Taken by Artztotzka in the war, setting of Papers Please
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+#discovered_by = nomad_group
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

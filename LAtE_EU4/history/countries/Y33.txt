@@ -1,0 +1,26 @@
+# Upper Ohio
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = consumerist
+clear_scripted_personalities = yes
+capital = 948
+3039.5.29 = {
+	monarch = {
+		name = "Maynard II"
+		birth_date = 3019.6.3
+		dynasty = "Harris"
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 948
+	add_treasury = 0
+	add_prestige = 393
+}

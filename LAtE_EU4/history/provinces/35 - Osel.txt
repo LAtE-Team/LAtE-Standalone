@@ -1,0 +1,24 @@
+#Ösel and Dagö, incl. Sonnenburg and Arensburg.
+
+#owner = LIV
+#controller = LIV
+#add_core= LIV
+#add_core= EST
+culture = estonian
+religion = finnish_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Arensburg"
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

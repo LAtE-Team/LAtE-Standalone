@@ -1,0 +1,246 @@
+# Haiti
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 10 50 140 }
+
+
+
+
+leader_names = {
+
+	"Peter" "Eugenia" "Canute" "Natalie" "Anne" "Edna" "Fay" "Iris" "Cuthbert" "Leigh" 
+	"Claudius" "Jackie" "Vernon" "Pearlette" "Damian" "Sharon" "Lorraine" "Kaylon" "Emma" "Steven" 
+	"Alice" "Aurora" "Angel" "Francis" "Thomas" "Robert" "Adrian" "Angela" "Lucerito" "Dolores" 
+	"Patricia" "Kelly" "Zenaida" "Melissa" "Vere" "Edith" "Deborah" "Errol" "Billie" "Jean" 
+	"Edric" "Garnet" "Clifford" "Ludin" "Nigel" "Roger" "Azeem" "Sheila" "Letitia" "Charmaine" 
+	"Portia" "Giovanna" "Shirley" "Raymond" "Nicole" "Garfield" "Nathan" "Errald" "Donna" "Lennox" 
+	"Leonard" "Carl" "Theresa" "Oliver" "Pamela" "Ivy" "Carla" "Althea" "Anthony" "Naomi" 
+	"Stern" "Amber" "Lee" "Beryl" "May" "Conroy" "Neville" "Hugh" "Arnold" "Crispin" 
+	"Ripton" "Hasely" "Clayton" "Walter" "Alison" "Denise" "Chinyere" "Ruth" "Noel" "Cecil" 
+	"Vincent" "Wynton" "Rosa" "Omar" "Michelle" "Margaret" "Desmond" "Jennifer" "Clive" "Grace" 
+	"Beverly" "Manley" "Sheryl" "Michael" "Anita" "Jerome" "Julian" "Cedella" "Gladstone" "Lisa" 
+	"Nicholas" "Toussaint" "Céligny" "Sylvain" "Justin" "Maurice" "Alejandro" "Ángel" "Antonio" "Alfredo" 
+	"Anselmo" "Agostino" "Armentario" "Albito" "Álvaro" "Arsenio" "Blas Roca" "Bolivar" "Batista" "Bartolomé" 
+	"Bienvenido" "Basilio" "Barbarito" "Carlos" "Claudio" "Cándido" "Calixto" "César" "Castro" "Desiderio" 
+	"Elián" "Eduardo" "Eliécer" "Efraín" "Ernesto" "Enrique" "Fidel" "Fulgencio" "Fadrique" "Felix" 
+	"Felipe" "Diego" "Damián" "Guillermo" "Gonazlo" "Guy" "Garcia" "Gaspar" "Hugo" "Hernando" 
+	"Humberto" "Isidoro" "Ignacio" "Jorge" "José" "Jerónimo" "Jacinto" "Luis" "Lorenzo" "Laureano" 
+	"Léon" "Manuel" "Martin" "Miguelito" "Mailoco" "Metopio" "Marlon" "Marco" "Nuno" "Nicasio" 
+	"Osvaldo" "Orosio" "Orlando" "Orestes" "Pedro" "Paulo" "Pacheco" "Ponciano" "Perucho" "Raúl" 
+	"Ramon" "Rosendo" "Recaredo" "Rabinato" "Roberto" "Simon" "Sergio" "Sabarico" "Suario" "Sebastián" 
+	"Sancho" "Severino" "Silvio" "Tomás" "Teodomiro" "Vasco" "Vicente" "Vidal" "Walfredo" "Xerome" 
+	"Xavier" }
+monarch_names = {
+	"Peter #1" = 21
+	"Eugenia #0" = -1
+	"Canute #1" = 27
+	"Natalie #0" = -1
+	"Anne #0" = -1
+	"Edna #0" = -1
+	"Fay #0" = -1
+	"Iris #0" = -1
+	"Cuthbert #0" = 1
+	"Leigh #0" = -1
+	"Claudius #0" = 1
+	"Jackie #0" = -1
+	"Vernon #1" = 18
+	"Pearlette #0" = -1
+	"Damian #0" = 1
+	"Sharon #0" = -1
+	"Lorraine #0" = -1
+	"Kaylon #0" = 1
+	"Emma #0" = -1
+	"Steven #0" = 1
+	"Alice #0" = -1
+	"Aurora #0" = -1
+	"Angel #0" = 1
+	"Francis #0" = -1
+	"Thomas #0" = 1
+	"Robert #0" = 1
+	"Adrian #1" = 24
+	"Angela #0" = -1
+	"Lucerito #0" = -1
+	"Dolores #0" = -1
+	"Patricia #0" = -1
+	"Kelly #0" = -1
+	"Zenaida #0" = -1
+	"Melissa #0" = -1
+	"Vere #0" = 1
+	"Edith #0" = -1
+	"Deborah #0" = -1
+	"Errol #0" = 1
+	"Billie #0" = -1
+	"Jean #0" = -1
+	"Edric #0" = 1
+	"Garnet #0" = 1
+	"Clifford #0" = 1
+	"Ludin #0" = 1
+	"Nigel #0" = 1
+	"Roger #2" = 21
+	"Azeem #0" = 1
+	"Sheila #0" = -1
+	"Letitia #0" = -1
+	"Charmaine #0" = -1
+	"Portia #0" = -1
+	"Giovanna #0" = -1
+	"Shirley #0" = -1
+	"Raymond #0" = 1
+	"Nicole #0" = -1
+	"Garfield #1" = 18
+	"Nathan #0" = 1
+	"Errald #2" = 24
+	"Donna #0" = -1
+	"Lennox #0" = 1
+	"Leonard #3" = 21
+	"Carl #0" = 1
+	"Theresa #0" = -1
+	"Oliver #0" = 1
+	"Pamela #0" = -1
+	"Ivy #0" = -1
+	"Carla #0" = -1
+	"Althea #0" = -1
+	"Anthony #0" = 1
+	"Naomi #0" = -1
+	"Stern #0" = 1
+	"Amber #0" = -1
+	"Lee #0" = 1
+	"Beryl #0" = -1
+	"May #0" = -1
+	"Conroy #0" = 1
+	"Neville #0" = 1
+	"Hugh #0" = 1
+	"Arnold #0" = 1
+	"Crispin #0" = 1
+	"Ripton #3" = 24
+	"Hasely #0" = 1
+	"Clayton #0" = 1
+	"Walter #1" = 18
+	"Alison #0" = -1
+	"Denise #0" = -1
+	"Chinyere #0" = -1
+	"Ruth #0" = -1
+	"Noel #0" = 1
+	"Cecil #0" = 1
+	"Vincent #0" = 1
+	"Wynton #0" = 1
+	"Rosa #0" = -1
+	"Omar #0" = 1
+	"Michelle #0" = -1
+	"Margaret #0" = -1
+	"Desmond #0" = 1
+	"Jennifer #0" = -1
+	"Clive #0" = 1
+	"Grace #0" = -1
+	"Beverly #0" = -1
+	"Manley #0" = 1
+	"Sheryl #0" = -1
+	"Michael #0" = 1
+	"Anita #0" = -1
+	"Jerome #0" = 1
+	"Julian #0" = 1
+	"Cedella #0" = -1
+	"Gladstone #0" = 1
+	"Lisa #0" = -1
+	"Nicholas #0" = 1
+	"Toussaint #2" = 0
+	"Céligny #1" = 0
+	"Sylvain #1" = 0
+	"Justin #1" = 0
+	"Maurice #1" = 0
+	"Alejandro #0" = 0
+	"Ángel #0" = 0
+	"Antonio #0" = 0
+	"Alfredo #0" = 0
+	"Anselmo #0" = 0
+	"Agostino #0" = 0
+	"Armentario #0" = 0
+	"Albito #0" = 0
+	"Álvaro #0" = 0
+	"Arsenio #0" = 0
+	"Blas Roca #0" = 0
+	"Bolivar #0" = 0
+	"Batista #0" = 0
+	"Bartolomé #0" = 0
+	"Bienvenido #0" = 0
+	"Basilio #0" = 0
+	"Barbarito #0" = 0
+	"Carlos #0" = 0
+	"Claudio #0" = 0
+	"Cándido #0" = 0
+	"Calixto #0" = 0
+	"César #0" = 0
+	"Castro #0" = 0
+	"Desiderio #0" = 0
+	"Elián #0" = 0
+	"Eduardo #0" = 0
+	"Eliécer #0" = 0
+	"Efraín #0" = 0
+	"Ernesto #0" = 0
+	"Enrique #0" = 0
+	"Fidel #0" = 0
+	"Fulgencio #0" = 0
+	"Fadrique #0" = 0
+	"Felix #0" = 0
+	"Felipe #0" = 0
+	"Diego #0" = 0
+	"Damián #0" = 0
+	"Guillermo #0" = 0
+	"Gonazlo #0" = 0
+	"Guy #0" = 0
+	"Garcia #0" = 0
+	"Gaspar #0" = 0
+	"Hugo #0" = 0
+	"Hernando #0" = 0
+	"Humberto #0" = 0
+	"Isidoro #0" = 0
+	"Ignacio #0" = 0
+	"Jorge #0" = 0
+	"José #0" = 0
+	"Jerónimo #0" = 0
+	"Jacinto #0" = 0
+	"Luis #0" = 0
+	"Lorenzo #0" = 0
+	"Laureano #0" = 0
+	"Léon #0" = 0
+	"Manuel #0" = 0
+	"Martin #0" = 0
+	"Miguelito #0" = 0
+	"Mailoco #0" = 0
+	"Metopio #0" = 0
+	"Marlon #0" = 0
+	"Marco #0" = 0
+	"Nuno #0" = 0
+	"Nicasio #0" = 0
+	"Osvaldo #0" = 0
+	"Orosio #0" = 0
+	"Orlando #0" = 0
+	"Orestes #0" = 0
+	"Pedro #0" = 0
+	"Paulo #0" = 0
+	"Pacheco #0" = 0
+	"Ponciano #0" = 0
+	"Perucho #0" = 0
+	"Raúl #0" = 0
+	"Ramon #0" = 0
+	"Rosendo #0" = 0
+	"Recaredo #0" = 0
+	"Rabinato #0" = 0
+	"Roberto #0" = 0
+	"Simon #0" = 0
+	"Sergio #0" = 0
+	"Sabarico #0" = 0
+	"Suario #0" = 0
+	"Sebastián #0" = 0
+	"Sancho #0" = 0
+	"Severino #0" = 0
+	"Silvio #0" = 0
+	"Tomás #0" = 0
+	"Teodomiro #0" = 0
+	"Vasco #0" = 0
+	"Vicente #0" = 0
+	"Vidal #0" = 0
+	"Walfredo #0" = 0
+	"Xerome #0" = 0
+	"Xavier #0" = 0
+}
+

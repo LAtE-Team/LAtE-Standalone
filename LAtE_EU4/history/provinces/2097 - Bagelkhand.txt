@@ -1,0 +1,25 @@
+#2097 - Bagelkhand
+
+owner = BGL
+controller = BGL
+culture = avadhi
+religion = hinduism
+capital = "Rewa"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core= BGL
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

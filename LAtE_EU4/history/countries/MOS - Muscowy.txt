@@ -1,0 +1,20 @@
+government = oligarchic_republic
+primary_culture = russian
+religion = rust_cultist
+technology_group = indian
+capital = 33 # Neva
+government_rank = 1
+fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+
+
+1
+3010.3.28 = {
+	monarch = {
+		name = "Vladmir"
+		dynasty = Potyomkin
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+

@@ -1,0 +1,44 @@
+#590 - Moulmein
+
+#owner = PEG
+#controller = PEG
+culture = karen
+religion = buddhism
+capital = "Moulmein"
+trade_goods = sugar
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = no
+#add_core= PEG
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+
+# = { discovered_by = POR }
+
+# = { #add_core= TAU } # Taungu Invasion
+# = { #controller = TAU }
+# = { #owner = TAU } # Annexed to the Kingdom of Taungoo
+# = {
+	#owner = PEG
+	#controller = PEG
+#}
+# = {
+	#owner = TAU
+	#controller = TAU
+#}
+# = { unrest = 4 }
+# = { unrest = 0 }
+# = { #owner = PEG #controller = PEG } # Restored Pegu Dynasty
+# = { #owner = TAU #controller = TAU } # Returned to Burmese control
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

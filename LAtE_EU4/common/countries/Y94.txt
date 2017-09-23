@@ -1,0 +1,159 @@
+# Custer
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 152 105 71 }
+
+
+
+
+leader_names = {
+
+	"Denis" "Kinnie" "Chansomps" "Kiche" "Shepen" "Honoré" "Madame" "Nittawosew" "Nijlon" "Hurit" 
+	"Theoren" "Kamenna" "Rowtag" "Alsoomse" "Pitahpekis" "Echa" "Kimi" "Charlotte" "Takoyestamix" "Marilyn" 
+	"Laura" "Julie" "Jon" "Etchemin" "Huritt" "Achachak" "Kanen" "Makkitotosimew" "Muscowequan" "Stamiscotocar" 
+	"Hausis" "Hassun" "Etlelooaat" "Segenam" "Ashenee" "Numees" "Koko" "Akkamakkoye" "Alawa" "Sooleawa" 
+	"Wawetseka" "Nadie" "Sinopa" "Namopisi" "Pules" "Kika" "Nichena" "Sokw" "Mukki" "Sokanon" 
+	"Askuwheteau" "Machk" "Robert" "Mati" "Akkakitcipimiwotas" "Matunaagd" "Pearl" "Andrea" "Attistahmacan" "Zoatzetapitapiw" 
+	"Matisa" "Abooksigun" "Wapun" "Aranck" "Jacques" "Nuttah" "Samoset" "Tahki" "Keegsquaw" "Kaneonuskatew" 
+	"Achak" "Askook" "Menashen" "Telsche" "Powaw" "Kitchi" "Wajiwa" "Oota dabun" "Luitgard" "Nuna" 
+	"Astina" "Sunukkuhkau" "Wikimak" "Matisoon" "Pannoowau" "Kanti" "Alec" "Armstrong" "Mingan" "Chogan" 
+	"Natoseonistors" "Thomas" "Reuben" "Jean-Baptiste" "Yvon" "James" "Tête" "Michel" "Abukcheech" "Ahanu" 
+	"Ahtahkakoop" "Anakausuen" "Apenakosapop" "Apisi" "Chapomexico" "Echahow" "Eluwilussit" "Enkoodabaoo" "Hokama" "Kawacatoose" 
+	"Keme" "Kestejoo" "Kisecawchuck" "Kootomais" "Makkapitew" "Matchitehew" "Matoseapiw" "Matwau" "Megedagik" "Mekasto" 
+	"Mekledoodum" "Nixkamich" "Nootau" "Pamoon" "Pokapiwotoian" "Powahque" "Sakoyeaotan" "Sotenah" "Sucki" "Tihkoosue" 
+	"Togquos" "Wematin" }
+monarch_names = {
+	"Denis #0" = 1
+	"Kinnie #0" = -1
+	"Chansomps #0" = 1
+	"Kiche #1" = 36
+	"Shepen #0" = 1
+	"Honoré #0" = 1
+	"Madame #0" = -1
+	"Nittawosew #0" = -1
+	"Nijlon #0" = -1
+	"Hurit #0" = -1
+	"Theoren #0" = 1
+	"Kamenna #0" = -1
+	"Rowtag #0" = 1
+	"Alsoomse #0" = -1
+	"Pitahpekis #0" = 1
+	"Echa #0" = 1
+	"Kimi #0" = -1
+	"Charlotte #0" = -1
+	"Takoyestamix #1" = 27
+	"Marilyn #0" = -1
+	"Laura #0" = -1
+	"Julie #0" = -1
+	"Jon #0" = 1
+	"Etchemin #0" = 1
+	"Huritt #0" = 1
+	"Achachak #0" = 1
+	"Kanen #4" = 30
+	"Makkitotosimew #0" = -1
+	"Muscowequan #0" = 1
+	"Stamiscotocar #4" = 36
+	"Hausis #0" = -1
+	"Hassun #1" = 18
+	"Etlelooaat #0" = 1
+	"Segenam #0" = 1
+	"Ashenee #0" = -1
+	"Numees #0" = -1
+	"Koko #0" = -1
+	"Akkamakkoye #0" = 1
+	"Alawa #0" = -1
+	"Sooleawa #0" = -1
+	"Wawetseka #0" = -1
+	"Nadie #0" = -1
+	"Sinopa #0" = -1
+	"Namopisi #0" = -1
+	"Pules #0" = -1
+	"Kika #0" = -1
+	"Nichena #0" = -1
+	"Sokw #0" = -1
+	"Mukki #0" = 1
+	"Sokanon #0" = -1
+	"Askuwheteau #0" = 1
+	"Machk #0" = 1
+	"Robert #0" = 1
+	"Mati #0" = -1
+	"Akkakitcipimiwotas #0" = 1
+	"Matunaagd #2" = 27
+	"Pearl #0" = -1
+	"Andrea #0" = -1
+	"Attistahmacan #1" = 27
+	"Zoatzetapitapiw #0" = 1
+	"Matisa #0" = -1
+	"Abooksigun #0" = 1
+	"Wapun #0" = -1
+	"Aranck #0" = 1
+	"Jacques #0" = 1
+	"Nuttah #0" = -1
+	"Samoset #0" = 1
+	"Tahki #0" = -1
+	"Keegsquaw #0" = -1
+	"Kaneonuskatew #0" = 1
+	"Achak #0" = 1
+	"Askook #0" = 1
+	"Menashen #0" = 1
+	"Telsche #0" = -1
+	"Powaw #0" = 1
+	"Kitchi #0" = 1
+	"Wajiwa #0" = 1
+	"Oota dabun #0" = -1
+	"Luitgard #0" = -1
+	"Nuna #0" = -1
+	"Astina #0" = -1
+	"Sunukkuhkau #0" = 1
+	"Wikimak #0" = -1
+	"Matisoon #0" = -1
+	"Pannoowau #0" = 1
+	"Kanti #0" = -1
+	"Alec #0" = 1
+	"Armstrong #1" = 0
+	"Mingan #1" = 0
+	"Chogan #1" = 0
+	"Natoseonistors #2" = 0
+	"Thomas #1" = 0
+	"Reuben #1" = 0
+	"Jean-Baptiste #1" = 0
+	"Yvon #1" = 0
+	"James #2" = 0
+	"Tête #1" = 0
+	"Michel #1" = 0
+	"Abukcheech #0" = 0
+	"Ahanu #0" = 0
+	"Ahtahkakoop #0" = 0
+	"Anakausuen #0" = 0
+	"Apenakosapop #0" = 0
+	"Apisi #0" = 0
+	"Chapomexico #0" = 0
+	"Echahow #0" = 0
+	"Eluwilussit #0" = 0
+	"Enkoodabaoo #0" = 0
+	"Hokama #0" = 0
+	"Kawacatoose #0" = 0
+	"Keme #0" = 0
+	"Kestejoo #0" = 0
+	"Kisecawchuck #0" = 0
+	"Kootomais #0" = 0
+	"Makkapitew #0" = 0
+	"Matchitehew #0" = 0
+	"Matoseapiw #0" = 0
+	"Matwau #0" = 0
+	"Megedagik #0" = 0
+	"Mekasto #0" = 0
+	"Mekledoodum #0" = 0
+	"Nixkamich #0" = 0
+	"Nootau #0" = 0
+	"Pamoon #0" = 0
+	"Pokapiwotoian #0" = 0
+	"Powahque #0" = 0
+	"Sakoyeaotan #0" = 0
+	"Sotenah #0" = 0
+	"Sucki #0" = 0
+	"Tihkoosue #0" = 0
+	"Togquos #0" = 0
+	"Wematin #0" = 0
+}
+

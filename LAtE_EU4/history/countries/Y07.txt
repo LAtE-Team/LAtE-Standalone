@@ -1,0 +1,26 @@
+# Currituck
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4641
+3052.10.29 = {
+	monarch = {
+		name = "Braxton"
+		birth_date = 3018.6.19
+		dynasty = "Craney"
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 4641
+	add_treasury = 2
+	add_prestige = 19
+	elector = no
+}

@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = bavarian
+religion = matrem
+technology_group = indian
+capital = 2360 #Tobykty 
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Luitpold"
+		dynasty = "von Ermengau"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

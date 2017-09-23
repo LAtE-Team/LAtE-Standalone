@@ -1,0 +1,55 @@
+#154 - Ersekujvar
+
+#owner = HUN
+#controller = HUN 
+culture = slovak
+religion = catholic
+capital = "Érsekújvár"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+estate = estate_nobles
+fort_15th = yes #Spiš castle, Eger Castle, Orava
+#add_core= HUN
+#add_core= SLO
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+
+# = { unrest = 10 } # The city is attacked by Hussites
+# = { unrest = 0 }
+# = { unrest = 10 } # Struggles between the supporters of Ladislaus and Elisabeth of Hungary
+# = { unrest = 0 }
+# = { #controller = HAB } # Occupied
+# = { #controller = HUN }
+# = {
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+#} #Hungary fractured after Battle of Mohacs
+# = { religion = protestant } # Synod of Erdod
+# = { religion = reformed } # Synod of Debrecen
+# = { fort_15th = no fort_16th = yes } # New Start Fort of Érsekújvár
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # The nobility in Royal Hungary rebelled against Habsburg & Jesuit repression
+# = { revolt = {} #controller = HAB religion = reformed } # Peace treaty, guaranteed religious toleration
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Bethlen uprisings
+# = { revolt = {} #controller = HAB  } # The 3rd Peace of Pressburg, puts an end to the Bethlen uprisings
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Kuruc rebellion, lead by Francisc Rakoczy
+# = { revolt = {} } # Plague
+# = { #controller = HAB } # The House of Habsburg recognized as the new ruler
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

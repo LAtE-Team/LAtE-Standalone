@@ -1,0 +1,25 @@
+# Callihoo
+government = steppe_horde
+government_rank = 1
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = metis
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 1007
+3053.1.1= {
+	monarch = {
+		name = "Ray"
+		birth_date = 3024.6.7
+		dynasty = "Callihoo"
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = free_thinker_personality
+}
+3053.1.1 {
+	capital = 1007
+	add_treasury = 10
+	add_prestige = 61
+}

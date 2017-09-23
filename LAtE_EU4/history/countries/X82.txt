@@ -1,0 +1,37 @@
+# Montérégie
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = hudsonian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2584
+3039.9.11 = {
+	monarch = {
+		name = "Gerrit"
+		birth_date = 2998.6.7
+		dynasty = "Westingson"
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = just_personality
+	heir = {
+		name = "Guyasut"
+		monarch_name = "Guyasut"
+		dynasty = "Westingson"
+		birth_date = 3017.8.3
+		death_date = 3097.8.3
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 2584
+	add_treasury = 22
+	add_prestige = 71
+}

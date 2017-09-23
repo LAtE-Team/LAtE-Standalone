@@ -1,0 +1,43 @@
+# 1879 - Alençon
+
+#owner = ENG
+#controller = ENG
+capital = "Alençon"
+is_city = no
+culture = cosmopolitan_french
+religion = cult_of_reason
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+#add_core= ALE
+#add_core= ENG
+#add_core= FRA
+add_local_autonomy = 80
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+# = { #Fall of Routier
+	#owner = FRA 
+	#controller = FRA
+	estate = estate_nobles
+	add_local_autonomy = -80
+#}
+# = { remove_core = ALE }
+# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+# = { unrest = 4 } # An unstable peace is concluded
+# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+# = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
+# = { religion = cult_of_reason unrest = 0 } # Dragonnard campaign succesful, region back to cult_of_reasonism
+# = { base_tax = 1ase_production = 1 # The Eden Agreement
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,23 @@
+# The Maritimes
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = high_church
+capital = 4549
+3051.1.14 = {
+	monarch = {
+		name = "Alaois II"
+		birth_date = 3045.5.11
+		dynasty = "Carmody"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 4549
+	add_treasury = 32
+	add_prestige = 130
+}

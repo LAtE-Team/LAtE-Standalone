@@ -1,0 +1,23 @@
+#1024 - Echigo
+
+owner = NAU
+controller = NAU
+culture = togoku
+religion = shinto
+capital = "Naoetsu"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core= NAU
+
+
+
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,44 @@
+#743 - Essequibo
+
+#owner = ARW
+#controller = ARW
+#add_core= ARW
+culture = guajiro
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  south_american
+religion = animism
+capital = "Essequibo"
+trade_goods = sugar
+is_city = no
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 2
+native_hostileness = 3
+
+
+
+
+# = { discovered_by = CAS } # Christopher Columbus
+# = { discovered_by = SPA }
+
+# = {	#owner = NED
+	#controller = NED
+	#add_core= NED
+	religion = reformed
+	culture = dutch
+} # First Dutch colony
+# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Berbice slave revolt
+# = { revolt = {} #controller = NED } # Divisions among the rebels and Dutch attacks
+# = {
+	#owner = GBR
+	#controller = GBR
+	#add_core= GBR
+	culture = english
+	remove_core = NED
+} # The English are taking over

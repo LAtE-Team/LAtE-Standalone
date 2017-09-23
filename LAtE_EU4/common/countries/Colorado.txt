@@ -1,0 +1,80 @@
+# Colorado
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 108 32 85 }
+
+
+
+
+leader_names = {
+
+	"Rockhart" "Petriff" "Belden" "Mar" "Fayola" "Oso" "Aurel" "Argent" "Antero" "Auliffe" 
+	"Buren" "Blair" "Bouldron" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus" "Gray" "Garrald" 
+	"Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum" "Lowry" "Lykin" 
+	"Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Ossos" "Ossin" "Petrus" 
+	"Pike" "Plumblon" "Plumead" "Ptarmigan" "Regis" "Raton" "Stone" "Silveranos" "Stonarm" "Stonear" 
+	"Sloan" "Tell" "Tarryall" "Vissarion" "Waugh" "Zebulon" "Zirkel" }
+monarch_names = {
+	"Rockhart #0" = 21
+	"Petriff #0" = -1
+	"Belden #0" = 1
+	"Mar #0" = -1
+	"Fayola #0" = -1
+	"Oso #0" = 1
+	"Aurel #0" = 0
+	"Argent #0" = 0
+	"Antero #0" = 0
+	"Auliffe #0" = 0
+	"Buren #0" = 0
+	"Blair #0" = 0
+	"Bouldron #0" = 0
+	"Belcaro #0" = 0
+	"Barnum #0" = 0
+	"Bushnell #0" = 0
+	"Clayton #0" = 0
+	"Eolus #0" = 0
+	"Gray #0" = 0
+	"Garrald #0" = 0
+	"Hale #0" = 0
+	"Hendrick #0" = 0
+	"Hague #0" = 0
+	"Herard #0" = 0
+	"Hesperus #0" = 0
+	"Jasper #0" = 0
+	"Ledon #0" = 0
+	"Leadblum #0" = 0
+	"Lowry #0" = 0
+	"Lykin #0" = 0
+	"Lyon #0" = 0
+	"Mineran #0" = 0
+	"Mineralis #0" = 0
+	"Montanos #0" = 0
+	"Marston #0" = 0
+	"Morris #0" = 0
+	"Olympos #0" = 0
+	"Ossos #0" = 0
+	"Ossin #0" = 0
+	"Petrus #0" = 0
+	"Pike #0" = 0
+	"Plumblon #0" = 0
+	"Plumead #0" = 0
+	"Ptarmigan #0" = 0
+	"Regis #0" = 0
+	"Raton #0" = 0
+	"Stone #0" = 0
+	"Silveranos #0" = 0
+	"Stonarm #0" = 0
+	"Stonear #0" = 0
+	"Sloan #0" = 0
+	"Tell #0" = 0
+	"Tarryall #0" = 0
+	"Vissarion #0" = 0
+	"Waugh #0" = 0
+	"Zebulon #0" = 0
+	"Zirkel #0" = 0
+
+
+	"Jade #0" = -1
+	"Archuleta #0" = -1
+}
+

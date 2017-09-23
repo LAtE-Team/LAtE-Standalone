@@ -1,0 +1,119 @@
+# Guanajuato
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 228 202 195 }
+
+
+
+
+leader_names = {
+
+	"Pizarro" "Huggo" "Bají" "Hernando" "Anayáhuari" "Rodrigo" "Pewa" "Siwa" "Demián" "Baltasar" 
+	"Wenceslao" "Orellana" "Diesel" "Kóci" "Biriná" "Picíra" "Kacísiniri" "Koriméni" "Naríhuani" "Ricibúrsiri" 
+	"Daniel" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Bahamonde" "Beltrán" "Bruno" "Colón" 
+	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cabrillo" "Cavo" "Cuauhtémoc" "Diego García" "Diego Carlos" "Epifanio" 
+	"Édgar" "Francisco" "Gonzalo" "Giraldo" "Gastón" "Gaspar" "Gustavito" "García" "Gil" "Garcilaso" 
+	"Gabino" "Honorio" "Horacio" "Inés" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís" 
+	"Lorenzo" "Lope" "Leonor" "Magallanes" "Melchior" "Martín" "Miguel" "Marcos" "Melchor" "Mariano" 
+	"Montejo" "Ñuflo" "Olid" "Osvaldo" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Roque" 
+	"Renato" "René" "Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" 
+	"Ulises" "Urbano" "Vela" "Vasco" "Xemen" "Yñigo" }
+monarch_names = {
+	"Pizarro #0" = 1
+	"Huggo #0" = 1
+	"Bají #0" = -1
+	"Hernando #5" = 21
+	"Anayáhuari #0" = -1
+	"Rodrigo #0" = 1
+	"Pewa #0" = -1
+	"Siwa #0" = 1
+	"Demián #0" = 1
+	"Baltasar #3" = 0
+	"Wenceslao #2" = 0
+	"Orellana #1" = -1
+	"Diesel #2" = 0
+	"Kóci #1" = 0
+	"Biriná #1" = 0
+	"Picíra #1" = 0
+	"Kacísiniri #1" = 0
+	"Koriméni #1" = -1
+	"Naríhuani #1" = 0
+	"Ricibúrsiri #1" = 0
+	"Daniel #1" = 0
+	"Américo #0" = 0
+	"Alejo #0" = 0
+	"Alvarado #0" = 0
+	"Aldo #0" = 0
+	"Bartolomé #0" = 0
+	"Bahamonde #0" = 0
+	"Beltrán #0" = 0
+	"Bruno #0" = 0
+	"Colón #0" = 0
+	"Cristóbal #0" = 0
+	"Cruz #0" = 0
+	"Cabeza #0" = 0
+	"Coronado #0" = 0
+	"Cabrillo #0" = 0
+	"Cavo #0" = 0
+	"Cuauhtémoc #0" = 0
+	"Diego García #0" = 0
+	"Diego Carlos #0" = 0
+	"Epifanio #0" = 0
+	"Édgar #0" = 0
+	"Francisco #0" = 0
+	"Gonzalo #0" = 0
+	"Giraldo #0" = 0
+	"Gastón #0" = 0
+	"Gaspar #0" = 0
+	"Gustavito #0" = 0
+	"García #0" = 0
+	"Gil #0" = 0
+	"Garcilaso #0" = 0
+	"Gabino #0" = 0
+	"Honorio #0" = 0
+	"Horacio #0" = 0
+	"Inés #0" = 0
+	"Jofre #0" = 0
+	"Jerónimo #0" = 0
+	"Jacinto #0" = 0
+	"Kino #0" = 0
+	"León #0" = 0
+	"Luís #0" = 0
+	"Lorenzo #0" = 0
+	"Lope #0" = 0
+	"Leonor #0" = 0
+	"Magallanes #0" = 0
+	"Melchior #0" = 0
+	"Martín #0" = 0
+	"Miguel #0" = 0
+	"Marcos #0" = 0
+	"Melchor #0" = 0
+	"Mariano #0" = 0
+	"Montejo #0" = 0
+	"Ñuflo #0" = 0
+	"Olid #0" = 0
+	"Osvaldo #0" = 0
+	"Porfirio #0" = 0
+	"Pánfilo #0" = 0
+	"Ponce #0" = 0
+	"Puná #0" = 0
+	"Pío #0" = 0
+	"Roque #0" = 0
+	"Renato #0" = 0
+	"René #0" = 0
+	"Rosario #0" = 0
+	"Ruy #0" = 0
+	"Soto #0" = 0
+	"Sandoval #0" = 0
+	"Sergio #0" = 0
+	"Santiago #0" = 0
+	"Tito #0" = 0
+	"Tristán #0" = 0
+	"Ulises #0" = 0
+	"Urbano #0" = 0
+	"Vela #0" = 0
+	"Vasco #0" = 0
+	"Xemen #0" = 0
+	"Yñigo #0" = 0
+}
+

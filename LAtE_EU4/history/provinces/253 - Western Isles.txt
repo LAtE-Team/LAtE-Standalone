@@ -1,0 +1,34 @@
+#253 - Western Isles
+
+## = SCO
+## = SCO
+culture = highland_scottish
+religion = thelemic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Stornoway"
+is_city = no
+estate = estate_nobles
+##= SCO
+##= HSC
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+
+# = { religion = reformed }
+# = {	## = GBR
+	## = GBR
+	##= GBR
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

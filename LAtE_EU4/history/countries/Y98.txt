@@ -1,0 +1,36 @@
+# The Western Slope
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4523
+3053.1.1= {
+	monarch = {
+		name = "Hendry"
+		birth_date = 3016.3.13
+		dynasty = "Cohn"
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Mickey"
+		monarch_name = "Mickey"
+		dynasty = "Cohn"
+		birth_date = 3026.7.13
+		death_date = 3106.7.13
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 4523
+	add_treasury = 13
+	add_prestige = 56
+}

@@ -1,0 +1,25 @@
+# Zulia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = agraciado
+religion = espiritista
+clear_scripted_personalities = yes
+capital = 830
+3050.5.4 = {
+	monarch = {
+		name = "Generosb III"
+		birth_date = 3029.11.4
+		dynasty = "Ureno"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 830
+	add_treasury = 162
+	add_prestige = 220
+}

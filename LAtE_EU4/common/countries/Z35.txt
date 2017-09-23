@@ -1,0 +1,84 @@
+# Itta Homma
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 249 240 210 }
+
+
+
+
+leader_names = {
+
+	"Bohemond" "Alcée" "Alcide" "Amédé" "Achille" "Anatole" "Ardoin" "Adam" "Audubon" "Aristide" 
+	"Barthelemy" "Boyd" "Bryant" "Clifton" "Charles" "Clarence" "Canray" "Claire Lee" "Caliste" "Caesar" 
+	"Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde" "Evariste" "Earl" "Eduoard" "Eustace" "Francis" 
+	"Geno" "Georgic" "Guinefort" "Garland" "Irvan" "Julien" "Justin" "Kolax" "Keith" "Lucas" 
+	"Lionel" "Marcus" "Maugris" "Norbert" "Odon" "Olfert" "Orion" "Pierre" "Paul" "Richmond" 
+	"Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel" "Wellman" "Wendell" }
+monarch_names = {
+	"Bohemond #0" = 1
+	"Alcée #0" = 0
+	"Alcide #0" = 0
+	"Amédé #0" = 0
+	"Achille #0" = 0
+	"Anatole #0" = 0
+	"Ardoin #0" = 0
+	"Adam #0" = 0
+	"Audubon #0" = 0
+	"Aristide #0" = 0
+	"Barthelemy #0" = 0
+	"Boyd #0" = 0
+	"Bryant #0" = 0
+	"Clifton #0" = 0
+	"Charles #0" = 0
+	"Clarence #0" = 0
+	"Canray #0" = 0
+	"Claire Lee #0" = 0
+	"Caliste #0" = 0
+	"Caesar #0" = 0
+	"Cedric #0" = 0
+	"Dillard #0" = 0
+	"D'Jalma #0" = 0
+	"Edgar #0" = 0
+	"Edmonde #0" = 0
+	"Evariste #0" = 0
+	"Earl #0" = 0
+	"Eduoard #0" = 0
+	"Eustace #0" = 0
+	"Francis #0" = 0
+	"Geno #0" = 0
+	"Georgic #0" = 0
+	"Guinefort #0" = 0
+	"Garland #0" = 0
+	"Irvan #0" = 0
+	"Julien #0" = 0
+	"Justin #0" = 0
+	"Kolax #0" = 0
+	"Keith #0" = 0
+	"Lucas #0" = 0
+	"Lionel #0" = 0
+	"Marcus #0" = 0
+	"Maugris #0" = 0
+	"Norbert #0" = 0
+	"Odon #0" = 0
+	"Olfert #0" = 0
+	"Orion #0" = 0
+	"Pierre #0" = 0
+	"Paul #0" = 0
+	"Richmond #0" = 0
+	"Solomon #0" = 0
+	"Sécaire #0" = 0
+	"Thomy #0" = 0
+	"Tyrann #0" = 0
+	"Toutant #0" = 0
+	"Vernel #0" = 0
+	"Wellman #0" = 0
+	"Wendell #0" = 0
+
+
+	"Sybil #0" = -1
+	"Eulaley #0" = -1
+	"Veronica #0" = -1
+	"Alexis #0" = -1
+	"Joan #0" = -1
+}
+

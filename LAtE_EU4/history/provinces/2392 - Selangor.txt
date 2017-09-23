@@ -1,0 +1,34 @@
+#2392 - Selangor
+
+#owner = MLC
+#controller = MLC
+culture = malayan
+religion = sunni
+capital = "Kelang"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = no
+#add_core= MLC
+#add_core= PRK
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+
+# = { discovered_by = POR } # Godinho de Eredia
+
+# = {
+	#owner = PRK
+	#controller = PRK
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

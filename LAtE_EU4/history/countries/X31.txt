@@ -1,0 +1,26 @@
+# Redwoods
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bayfolk
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2477
+3004.8.17 = {
+	monarch = {
+		name = "Wood II"
+		birth_date = 2981.10.28
+		dynasty = "Sloat"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2477
+	add_treasury = 20
+	add_prestige = 310
+}

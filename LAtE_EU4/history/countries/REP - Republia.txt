@@ -1,0 +1,17 @@
+government = oligarchic_republic
+primary_culture = russian
+religion = atomicist
+technology_group = indian
+capital = 2417 #Kuma
+
+
+
+3000.1.1 = {
+	monarch = {
+		name = "Stephen"
+		dynasty = "Buzhansky"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}

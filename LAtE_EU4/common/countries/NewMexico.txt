@@ -1,0 +1,119 @@
+# New Mexico
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 45 98 223 }
+
+
+
+
+leader_names = {
+
+	"Durán" "Armijo" "Alfonso" "Aurelio" "Angelico" "Anaya" "Adolfo" "Alire" "Arturo" "Anzar" 
+	"Baustita" "Bernardo" "Borrell" "Bera" "Cristóbal" "Carlito" "César" "Chole" "Conrado" "Chácon" 
+	"Dennis" "Dagoberto" "Diego" "Domingo" "Ezequiel" "Eloy" "Eduardo" "Eulogio" "Enrique" "Eulate" 
+	"Fernando" "Francisco" "Felipe" "Facundo" "Félix" "Gallegos" "Guadalupe" "Gaspar" "Guillermo" "Gervasio" 
+	"Ivan" "Jemez" "Joaquín" "José" "Jorge" "Jonathán" "Javier" "Leo" "Lázaro" "Luis" 
+	"Lalo" "Mendizabal" "Manzanares" "Margarito" "Moctesuma" "Mariano" "Mogollon" "Manso" "Nambé" "Nicolas" 
+	"Nieto" "Otermin" "Otero" "Picuris" "Popé" "Pino" "Pelayo" "Rudolfo" "Reies" "Rubén" 
+	"Rigoberto" "Rampó" "Rael" "Sergio" "Soto" "Sal" "Sunifredo" "Suniario" "Taos" "Tesuque" 
+	"Tranquilino" "Trujillo" "Trinidad" "Tuco" "Tomás" "Uey" "Vicente" "Victor" "Xemen" "Zeta" }
+monarch_names = {
+	"Durán #1" = 18
+	"Armijo #0" = 0
+	"Alfonso #0" = 0
+	"Aurelio #0" = 0
+	"Angelico #0" = 0
+	"Anaya #0" = 0
+	"Adolfo #0" = 0
+	"Alire #0" = 0
+	"Arturo #0" = 0
+	"Anzar #0" = 0
+	"Baustita #0" = 0
+	"Bernardo #0" = 0
+	"Borrell #0" = 0
+	"Bera #0" = 0
+	"Cristóbal #0" = 0
+	"Carlito #0" = 0
+	"César #0" = 0
+	"Chole #0" = 0
+	"Conrado #0" = 0
+	"Chácon #0" = 0
+	"Dennis #0" = 0
+	"Dagoberto #0" = 0
+	"Diego #0" = 0
+	"Domingo #0" = 0
+	"Ezequiel #0" = 0
+	"Eloy #0" = 0
+	"Eduardo #0" = 0
+	"Eulogio #0" = 0
+	"Enrique #0" = 0
+	"Eulate #0" = 0
+	"Fernando #0" = 0
+	"Francisco #0" = 0
+	"Felipe #0" = 0
+	"Facundo #0" = 0
+	"Félix #0" = 0
+	"Gallegos #0" = 0
+	"Guadalupe #0" = 0
+	"Gaspar #0" = 0
+	"Guillermo #0" = 0
+	"Gervasio #0" = 0
+	"Ivan #0" = 0
+	"Jemez #0" = 0
+	"Joaquín #0" = 0
+	"José #0" = 0
+	"Jorge #0" = 0
+	"Jonathán #0" = 0
+	"Javier #0" = 0
+	"Leo #0" = 0
+	"Lázaro #0" = 0
+	"Luis #0" = 0
+	"Lalo #0" = 0
+	"Mendizabal #0" = 0
+	"Manzanares #0" = 0
+	"Margarito #0" = 0
+	"Moctesuma #0" = 0
+	"Mariano #0" = 0
+	"Mogollon #0" = 0
+	"Manso #0" = 0
+	"Nambé #0" = 0
+	"Nicolas #0" = 0
+	"Nieto #0" = 0
+	"Otermin #0" = 0
+	"Otero #0" = 0
+	"Picuris #0" = 0
+	"Popé #0" = 0
+	"Pino #0" = 0
+	"Pelayo #0" = 0
+	"Rudolfo #0" = 0
+	"Reies #0" = 0
+	"Rubén #0" = 0
+	"Rigoberto #0" = 0
+	"Rampó #0" = 0
+	"Rael #0" = 0
+	"Sergio #0" = 0
+	"Soto #0" = 0
+	"Sal #0" = 0
+	"Sunifredo #0" = 0
+	"Suniario #0" = 0
+	"Taos #0" = 0
+	"Tesuque #0" = 0
+	"Tranquilino #0" = 0
+	"Trujillo #0" = 0
+	"Trinidad #0" = 0
+	"Tuco #0" = 0
+	"Tomás #0" = 0
+	"Uey #0" = 0
+	"Vicente #0" = 0
+	"Victor #0" = 0
+	"Xemen #0" = 0
+	"Zeta #0" = 0
+
+
+	"Ira #0" = -1
+	"Denise #0" = -1
+	"Sabine #0" = -1
+	"Poe #0" = -1
+	"Luna #0" = -1
+}
+

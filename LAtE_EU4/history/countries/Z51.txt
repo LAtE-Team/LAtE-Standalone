@@ -1,0 +1,26 @@
+# Pee Dee
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4650
+3053.1.1 {
+	monarch = {
+		name = "Aloys"
+		birth_date = 3019.10.29
+		dynasty = "Littlepage"
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 4650
+	add_treasury = 34
+	add_prestige = 7
+	elector = no
+}

@@ -1,0 +1,36 @@
+# No previous file for Metztitlan
+
+#owner = TOT
+#controller = TOT
+#add_core= TOT
+is_city = no
+culture = totonac
+religion = nahuatl
+capital = "Metztitlan"
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+add_local_autonomy = 25
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+
+
+# = {
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	culture = castillian
+	religion = catholic
+} # Fall of Tenochtitlan
+# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence

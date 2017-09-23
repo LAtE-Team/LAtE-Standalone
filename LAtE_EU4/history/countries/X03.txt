@@ -1,0 +1,25 @@
+# Wyoming
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = portlander
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 1809
+3053.1.1= {
+	monarch = {
+		name = "Damian II"
+		birth_date = 3023.11.3
+		dynasty = "Midthun"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 1809
+	add_treasury = 10
+	add_prestige = 48
+}

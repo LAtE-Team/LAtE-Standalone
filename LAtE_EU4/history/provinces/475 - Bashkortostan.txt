@@ -1,0 +1,21 @@
+#475 - Bashkortostan
+
+capital = "Bashkort"
+owner = ATB
+controller = ATB
+add_core = ATB
+culture = khazak
+religion = atomicist
+trade_goods = grain
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+hre = no
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

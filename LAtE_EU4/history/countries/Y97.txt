@@ -1,0 +1,39 @@
+# Gadsden
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = angeleno
+religion = atomicist
+clear_scripted_personalities = yes
+capital = 877
+3029.1.12 = {
+	monarch = {
+		name = "Angel II"
+		birth_date = 3002.8.6
+		dynasty = "Moyle"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = greedy_personality
+}
+3033.1.17 = {
+	heir = {
+		name = "Angel"
+		monarch_name = "Angel III"
+		dynasty = "Moyle"
+		birth_date = 3033.1.17
+		death_date = 3113.1.17
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	add_heir_personality = lawgiver_personality
+}
+3053.1.1 {
+	capital = 877
+	add_treasury = 44
+	add_prestige = 335
+}

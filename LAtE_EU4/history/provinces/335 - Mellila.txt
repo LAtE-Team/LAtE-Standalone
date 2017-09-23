@@ -1,0 +1,22 @@
+#335 - Melilla
+
+culture = berber
+religion = brethren
+capital = "Melilla"
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED

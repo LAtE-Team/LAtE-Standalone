@@ -1,0 +1,6 @@
+government_rank = 2
+government = feudal_monarchy
+primary_culture = al_iraqiya_arabic
+religion = nestorian
+technology_group = indian
+capital = 411	# Mosul

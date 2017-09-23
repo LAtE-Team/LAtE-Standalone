@@ -1,0 +1,21 @@
+#132 - Steiermark
+
+#owner = HAB
+#controller = HAB
+#add_core= HAB
+culture = austrian
+religion = celticist
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Judenburg" 
+is_city = no
+hre = no
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

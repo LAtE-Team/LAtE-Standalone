@@ -1,0 +1,214 @@
+# Cozumel
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 61 131 117 }
+
+
+
+
+leader_names = {
+
+	"Nelson" "Yulián" "Violeta" "Ogechi" "Emiliano" "Abidemi" "Abiodun" "Adisman" "Adolpo" "Ajax" 
+	"Albert" "Alejandro" "Alexander" "Alfredo" "Andrew" "Antonio" "Arnoldo" "Arthur" "Artur" "Arturo" 
+	"Asterio" "Augusto" "Augustus" "Ayo" "Bamidele" "Bantan" "Barras" "Beaufort" "Benito" "Berko" 
+	"Bernard" "Bloom" "Breton" "Carlo" "Casey" "Cassidy" "Chidike" "Chima" "Cipriano" "Clodomiro" 
+	"Colvin" "Cornelio" "Dama" "Daniel" "David" "Dilly" "Dilson" "Dionisio" "Donté" "Dorian" 
+	"Dubaku" "Duku" "Duran" "Duvalle" "Duvan" "Earnee" "Edward" "Ekene" "Elmer" "Emeka" 
+	"Erwin" "Fabio" "Folami" "Francisco" "Franck" "Frederic" "Fruto" "Gabiel" "George" "Geovany" 
+	"Gilbert" "Gordito" "Gordon" "Handy" "Harry" "Hector" "Henry" "Hernaldo" "Hilario" "Hobby" 
+	"Homero" "Ian" "Ibihna" "Ibrahim" "Ignacio" "Jaime" "Jaspar" "Jean" "Jeremy" "Jhonny" 
+	"Jim" "Joaquin" "Jonathan" "José" "Joshua" "Juan" "Julian" "Justo" "Kervin" "Kore" 
+	"Korn" "Krasku" "Krypto" "Lopez" "Lorenzo" "Lowe" "Luis" "Luther" "Madal" "Mamadou" 
+	"Mansa" "Manuel" "Marc" "Melvin" "Miguel" "Morgan" "Nakili" "Narud" "Nicarao" "Norberto" 
+	"Norton" "Obi" "Olabode" "Oluchi" "Omar" "Oopli" "Oswaldo" "Owen" "Pablo" "Patricio" 
+	"Patrick" "Paul" "Pedro" "Pelipe" "Pentecost" "Peter" "Piquirin" "Ralph" "Raveneau" "Reynaldo" 
+	"Reynard" "Rhodes" "Rigoberto" "Robert" "Rodrigo" "Roy" "Rubén" "Rubisu" "Salvador" "Sergio" 
+	"Shakur" "Silvestre" "Spencer" "Stacker" "Tarn" "Temitope" "Teodoro" "Tomas" "Tomo" "Toribio" 
+	"Tupac" "Tyson" "Unki" "Uriel" "Usiano" "Uzochi" "Uzoma" "Vérgin" "Victor" "Vincento" 
+	"Virgilio" "William" "Winthrop" "Yando" "Yaw" "Zander" "Zero" "Zun" }
+monarch_names = {
+	"Nelson #0" = 1
+	"Yulián #0" = 1
+	"Violeta #0" = -1
+	"Ogechi #0" = -1
+	"Emiliano #0" = 1
+	"Abidemi #0" = 0
+	"Abiodun #0" = 0
+	"Adisman #0" = 0
+	"Adolpo #0" = 0
+	"Ajax #0" = 0
+	"Albert #0" = 0
+	"Alejandro #0" = 0
+	"Alexander #0" = 0
+	"Alfredo #0" = 0
+	"Andrew #0" = 0
+	"Antonio #0" = 0
+	"Arnoldo #0" = 0
+	"Arthur #0" = 0
+	"Artur #0" = 0
+	"Arturo #0" = 0
+	"Asterio #0" = 0
+	"Augusto #0" = 0
+	"Augustus #0" = 0
+	"Ayo #0" = 0
+	"Bamidele #0" = 0
+	"Bantan #0" = 0
+	"Barras #0" = 0
+	"Beaufort #0" = 0
+	"Benito #0" = 0
+	"Berko #0" = 0
+	"Bernard #0" = 0
+	"Bloom #0" = 0
+	"Breton #0" = 0
+	"Carlo #0" = 0
+	"Casey #0" = 0
+	"Cassidy #0" = 0
+	"Chidike #0" = 0
+	"Chima #0" = 0
+	"Cipriano #0" = 0
+	"Clodomiro #0" = 0
+	"Colvin #0" = 0
+	"Cornelio #0" = 0
+	"Dama #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Dilly #0" = 0
+	"Dilson #0" = 0
+	"Dionisio #0" = 0
+	"Donté #0" = 0
+	"Dorian #0" = 0
+	"Dubaku #0" = 0
+	"Duku #0" = 0
+	"Duran #0" = 0
+	"Duvalle #0" = 0
+	"Duvan #0" = 0
+	"Earnee #0" = 0
+	"Edward #0" = 0
+	"Ekene #0" = 0
+	"Elmer #0" = 0
+	"Emeka #0" = 0
+	"Erwin #0" = 0
+	"Fabio #0" = 0
+	"Folami #0" = 0
+	"Francisco #0" = 0
+	"Franck #0" = 0
+	"Frederic #0" = 0
+	"Fruto #0" = 0
+	"Gabiel #0" = 0
+	"George #0" = 0
+	"Geovany #0" = 0
+	"Gilbert #0" = 0
+	"Gordito #0" = 0
+	"Gordon #0" = 0
+	"Handy #0" = 0
+	"Harry #0" = 0
+	"Hector #0" = 0
+	"Henry #0" = 0
+	"Hernaldo #0" = 0
+	"Hilario #0" = 0
+	"Hobby #0" = 0
+	"Homero #0" = 0
+	"Ian #0" = 0
+	"Ibihna #0" = 0
+	"Ibrahim #0" = 0
+	"Ignacio #0" = 0
+	"Jaime #0" = 0
+	"Jaspar #0" = 0
+	"Jean #0" = 0
+	"Jeremy #0" = 0
+	"Jhonny #0" = 0
+	"Jim #0" = 0
+	"Joaquin #0" = 0
+	"Jonathan #0" = 0
+	"José #0" = 0
+	"Joshua #0" = 0
+	"Juan #0" = 0
+	"Julian #0" = 0
+	"Justo #0" = 0
+	"Kervin #0" = 0
+	"Kore #0" = 0
+	"Korn #0" = 0
+	"Krasku #0" = 0
+	"Krypto #0" = 0
+	"Lopez #0" = 0
+	"Lorenzo #0" = 0
+	"Lowe #0" = 0
+	"Luis #0" = 0
+	"Luther #0" = 0
+	"Madal #0" = 0
+	"Mamadou #0" = 0
+	"Mansa #0" = 0
+	"Manuel #0" = 0
+	"Marc #0" = 0
+	"Melvin #0" = 0
+	"Miguel #0" = 0
+	"Morgan #0" = 0
+	"Nakili #0" = 0
+	"Narud #0" = 0
+	"Nicarao #0" = 0
+	"Norberto #0" = 0
+	"Norton #0" = 0
+	"Obi #0" = 0
+	"Olabode #0" = 0
+	"Oluchi #0" = 0
+	"Omar #0" = 0
+	"Oopli #0" = 0
+	"Oswaldo #0" = 0
+	"Owen #0" = 0
+	"Pablo #0" = 0
+	"Patricio #0" = 0
+	"Patrick #0" = 0
+	"Paul #0" = 0
+	"Pedro #0" = 0
+	"Pelipe #0" = 0
+	"Pentecost #0" = 0
+	"Peter #0" = 0
+	"Piquirin #0" = 0
+	"Ralph #0" = 0
+	"Raveneau #0" = 0
+	"Reynaldo #0" = 0
+	"Reynard #0" = 0
+	"Rhodes #0" = 0
+	"Rigoberto #0" = 0
+	"Robert #0" = 0
+	"Rodrigo #0" = 0
+	"Roy #0" = 0
+	"Rubén #0" = 0
+	"Rubisu #0" = 0
+	"Salvador #0" = 0
+	"Sergio #0" = 0
+	"Shakur #0" = 0
+	"Silvestre #0" = 0
+	"Spencer #0" = 0
+	"Stacker #0" = 0
+	"Tarn #0" = 0
+	"Temitope #0" = 0
+	"Teodoro #0" = 0
+	"Tomas #0" = 0
+	"Tomo #0" = 0
+	"Toribio #0" = 0
+	"Tupac #0" = 0
+	"Tyson #0" = 0
+	"Unki #0" = 0
+	"Uriel #0" = 0
+	"Usiano #0" = 0
+	"Uzochi #0" = 0
+	"Uzoma #0" = 0
+	"Vérgin #0" = 0
+	"Victor #0" = 0
+	"Vincento #0" = 0
+	"Virgilio #0" = 0
+	"William #0" = 0
+	"Winthrop #0" = 0
+	"Yando #0" = 0
+	"Yaw #0" = 0
+	"Zander #0" = 0
+	"Zero #0" = 0
+	"Zun #0" = 0
+
+
+	"Lila #0" = -1
+	"Violeta #0" = -1
+	"Victoria #0" = -1
+}
+

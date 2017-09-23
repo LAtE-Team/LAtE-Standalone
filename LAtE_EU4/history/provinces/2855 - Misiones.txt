@@ -1,0 +1,22 @@
+#777 - Misiones
+
+owner = MES
+controller = MES
+add_core = MES
+culture = litoraleno
+discovered_by = south_american
+religion = candomble
+capital = "Candelaria"
+trade_goods = unknown
+is_city = yes
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 8
+
+
+
+

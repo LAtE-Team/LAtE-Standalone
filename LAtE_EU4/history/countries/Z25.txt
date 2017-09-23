@@ -1,0 +1,26 @@
+# Lowcountry
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4681
+3050.9.3 = {
+	monarch = {
+		name = "Trophimus"
+		birth_date = 3000.5.6
+		dynasty = "Craney"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = lawgiver_personality
+}
+3053.1.1 {
+	capital = 4681
+	add_treasury = 34
+	add_prestige = 260
+	elector = no
+}

@@ -1,0 +1,26 @@
+# Durham
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 937
+3052.10.29 = {
+	monarch = {
+		name = "Calhoun"
+		birth_date = 3019.6.5
+		dynasty = "Bannister"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 937
+	add_treasury = 5
+	add_prestige = 18
+	elector = no
+}

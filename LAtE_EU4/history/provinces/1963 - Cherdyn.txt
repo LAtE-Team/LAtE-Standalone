@@ -1,0 +1,23 @@
+#Cherdyn
+
+capital = "Cherdyn"
+owner = KOM
+controller = KOM
+add_core= KOM
+culture = ostyaki
+religion = tengri_pagan_reformed
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = indian
+
+
+discovered_by = high_american 
+discovered_by = RED
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

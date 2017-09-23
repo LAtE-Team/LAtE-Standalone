@@ -1,0 +1,6 @@
+government_rank = 1
+government = merchant_republic
+primary_culture = al_iraqiya_arabic
+religion = shiite
+technology_group = indian
+capital = 2340	# Kuwait

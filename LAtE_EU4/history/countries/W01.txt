@@ -1,0 +1,26 @@
+# Atlántida
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 2662
+3022.10.18 = {
+	monarch = {
+		name = "Mervyn"
+		birth_date = 3001.1.12
+		dynasty = "Claxton"
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 2662
+	add_treasury = 50
+	add_prestige = 308
+}

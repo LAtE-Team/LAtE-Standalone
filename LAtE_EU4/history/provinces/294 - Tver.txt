@@ -1,0 +1,26 @@
+#294 - Tver
+
+owner = MOS
+controller = MOS  
+add_core = MOS
+culture = russian
+religion = rust_cultist
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = copper
+base_manpower = 3
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+capital = "Tver"
+
+
+
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

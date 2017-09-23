@@ -1,0 +1,19 @@
+#653 - Lanao
+
+culture = filipino
+religion = cult_of_saints
+capital = "Marawi"
+trade_goods = spices
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+native_size = 30
+native_ferocity = 4
+native_hostileness = 5
+add_core = DAV
+owner = DAV
+controller = DAV
+
+
+discovered_by = chinese

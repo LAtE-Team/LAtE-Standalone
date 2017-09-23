@@ -1,0 +1,22 @@
+#143 - Vlorë - Southern Albania
+
+#owner = TUR
+#controller = TUR
+culture = albanian
+religion = hellenic_pagan
+capital = "Vlorë"
+trade_goods = wool #or salt
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= TUR
+#add_core= ALB
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

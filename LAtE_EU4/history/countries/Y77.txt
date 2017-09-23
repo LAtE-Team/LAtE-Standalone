@@ -1,0 +1,25 @@
+# Jacinto
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = texan
+religion = neoroman
+clear_scripted_personalities = yes
+capital = 2665
+3053.1.1 {
+	monarch = {
+		name = "Freeman II"
+		birth_date = 3028.9.13
+		dynasty = "Rusk"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2665
+	add_treasury = 3
+	add_prestige = 142
+}

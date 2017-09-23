@@ -1,0 +1,24 @@
+#2711 - Bulungan
+
+#owner = KUT
+#controller = KUT
+culture = bornean
+religion = sunni
+capital = "Bulungan"
+trade_goods = tropical_wood
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 3
+is_city = no
+#add_core= KUT
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

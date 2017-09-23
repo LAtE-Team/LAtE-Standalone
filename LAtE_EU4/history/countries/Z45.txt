@@ -1,0 +1,27 @@
+# Tampa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4719
+3028.11.21 = {
+	monarch = {
+		name = "Rhett"
+		birth_date = 3011.3.21
+		dynasty = "Kearsarge"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 4719
+	add_treasury = 104
+	add_prestige = 96
+	elector = no
+}

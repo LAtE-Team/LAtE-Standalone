@@ -1,0 +1,18 @@
+#1182 - Delagoa Bay
+
+owner = ZIM
+controller = ZIM
+add_core = ZIM
+culture = nguni
+religion = mwari
+capital = "Xefina"
+trade_goods = ivory
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 1
+native_size = 70
+native_ferocity = 4
+native_hostileness = 9 
+is_city = yes
+discovered_by = central_african

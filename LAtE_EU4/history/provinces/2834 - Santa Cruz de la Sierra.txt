@@ -1,0 +1,24 @@
+# - Santa Cruz de la Sierra
+
+owner = PRG
+controller = PRG
+add_core = PRG
+culture = litoraleno
+religion = candomble
+capital = "Santa Cruz de la Sierra"
+is_city = yes
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 15
+native_ferocity = 1 
+native_hostileness = 1
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+

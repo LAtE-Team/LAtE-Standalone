@@ -1,0 +1,7 @@
+# Mos Eisley
+government = siberian_native_council
+government_rank = 1
+technology_group = high_american
+primary_culture = tunisian
+religion = brethren
+capital = 353

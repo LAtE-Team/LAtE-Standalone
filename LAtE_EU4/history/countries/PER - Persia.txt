@@ -1,0 +1,8 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = persian
+religion = zoroastrian
+technology_group = indian
+capital = 433 # Yazd
+
+

@@ -1,0 +1,26 @@
+# Keowee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4657
+3048.4.26 = {
+	monarch = {
+		name = "Meriwether"
+		birth_date = 3046.6.19
+		dynasty = "Graves"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = cruel_personality
+}
+3053.1.1 {
+	capital = 4657
+	add_treasury = 32
+	add_prestige = 15
+	elector = no
+}

@@ -1,0 +1,5 @@
+government = feudal_monarchy
+primary_culture = al_misr_arabic
+religion = thelemic
+technology_group = indian
+capital = 361 # Cairo

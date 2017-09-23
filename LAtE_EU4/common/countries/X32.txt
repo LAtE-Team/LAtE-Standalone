@@ -1,0 +1,375 @@
+# Baja Sur
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 245 212 251 }
+
+
+
+
+leader_names = {
+
+	"Gregoria" "Gwen" "Iohan" "Desideria" "Gerard" "Wendy" "Núria" "Leguntia" "Nariko" "Paloma" 
+	"Celestina" "John" "Fatima" "Alejandro" "Brooklyn" "Leocadia" "Arcadio" "Iuxta" "Gabriel" "Vermundo" 
+	"Izabelle" "Victor" "Jocelyn" "Marivic" "Sergio" "Alicia" "Yesenia" "Beatriz" "Timothy" "Miya" 
+	"Jiao" "Paul" "Arthur" "David" "Alessandra" "Encarna" "Irina" "Erick" "Victente" "Victoria" 
+	"Andagis" "Adonica" "Charo" "Delfina" "Gualtiero" "Mario" "Gabino" "Sal" "Benjamin" "Emilia" 
+	"Ulises" "Mayte" "Gustavito" "Cecilia" "Eula" "Bonita" "Ygnacio" "Rosario" "Jessica" "Vivian" 
+	"Vera" "Bret" "Veronica" "Mamoru" "Agnes" "Ashley" "Teresa" "Imarie" "Libby" "Yazmin" 
+	"Benton" "Rupert" "Robertina" "Lotta" "Botheric" "Drina" "Lau" "Bia" "Romelia" "Samuel" 
+	"Livia" "Atta" "Stanley" "Childefonsus" "Jacqueline" "Amaranta" "Gailavira" "Dong-Sun" "Chang-Lin" "Hyun-Su" 
+	"Zolin" "Reizo" "Kaemon" "Luís" "Liam" "Joebert" "Ponce" "Kyle" "Munpyo" "Holden" 
+	"Lorenzo" "Cornel" "Eusebio" "Abelardo" "Akeno" "Akio" "Akira" "Alec" "Alexander" "Alfonso" 
+	"Alfrancis" "Alfredo" "An-An" "Ang" "Angel" "Anthony" "Antonio" "Arnel" "Arnold" "Arvin" 
+	"Atoy" "Avelino" "Aweng" "Bae" "Bagwis" "Bai" "Bao" "Bayani" "Benigno" "Benjie" 
+	"Bernard" "Berting" "Bethune" "Bo" "Bryan" "Bryce" "Cai" "Carlos" "Chang" "Chen" 
+	"Chin" "Chino" "Chul" "Chung-Hee" "Crisanto" "Daboy" "Dai" "Daiki" "Dakila" "Dalip" 
+	"Danilo" "Datu" "Dee" "Dennis" "Derek" "Deshi" "Dewei" "Dishi" "Dolino" "Domeng" 
+	"Don" "Dranreb" "Duke" "Dwarding" "Dae-Hoon" "Ebisu" "Edcel" "Eddieboy" "Eduardo" "Efren" 
+	"Emilio" "Emmanuel" "Enchong" "Enlai" "Enrique" "Erap" "Ernest" "Eugenio" "Fai" "Feng" 
+	"Ferdinand" "Fermin" "Florencio" "Frederick" "Gan" "Gani" "Gec" "Gener" "Gilbert" "Han" 
+	"Heherson" "Henry" "Homobono" "Honesto" "Huang" "Huwan" "Hyun-Shik" "Ieoh" "Igme" "Ignatius" 
+	"Isagani" "Isamu" "Isko" "Ichiro" "Jaime" "James" "Jay" "Jeffrei" "Jeft" "Jejomar" 
+	"Jeong" "Jeric" "Jeron" "Jie" "Jin" "Jomei" "Jong" "Joriz" "José" "Joselito" 
+	"Joseller" "Joseph" "Joshua" "Juan" "Juro" "Kane" "Kannon" "Keiji" "Keitaro" "Ken" 
+	"Keng" "Kenneth" "Kidlat" "Kim" "Kuan-Yin" "Kuya" "Kwan" "Kazuo" "Lalay" "Laurenti" 
+	"Le" "Lee" "Li" "Liberato" "Lim" "Limahong" "Lin" "Lito" "Lucio" "Luis" 
+	"Luzvimindo" "Magtanggol" "Makisig" "Manuel" "Melchor" "Mikee" "Minhua" "Min-Ki" "Nano" "Narding" 
+	"Ning" "Nosrac" "Nam-Ryong" "Onad" "Onse" "Pacifico" "Paeng" "Peejong" "Philippe" "Pitoy" 
+	"Piyush" "Popoy" "Protacio" "Quon" "Rai" "Ramil" "Ramon" "Ranic" "Rei" "Restituto" 
+	"Reynante" "Richard" "Rico" "Rinji" "Rizal" "Rizaldo" "Rizalino" "Robert" "Rodel" "Romel" 
+	"Rommel" "Rosauro" "Rosito" "Rowell" "Rufino" "Samboy" "Sanjay" "Seiji" "Seung" "Shan" 
+	"Shen" "Sherwin" "Shou" "Siojo" "Siopao" "Siot" "Suzu" "Syano" "Sying" "Sang-Won" 
+	"Tai" "Taji" "Tan" "Tony" "Tonyo" "Toshiro" "Tyrone" "Vicente" "Virgilio" "Wei" 
+	"Wen" "Xian" "Xiao" "Yeng" "Yo-Yo" "Yuan" "Yo-Han" "Zheng" "Zhong" }
+monarch_names = {
+	"Gregoria #0" = -1
+	"Gwen #0" = -1
+	"Iohan #2" = 27
+	"Desideria #0" = -1
+	"Gerard #0" = 1
+	"Wendy #0" = -1
+	"Núria #0" = -1
+	"Leguntia #0" = -1
+	"Nariko #1" = 24
+	"Paloma #0" = -1
+	"Celestina #0" = -1
+	"John #0" = 1
+	"Fatima #0" = -1
+	"Alejandro #0" = 1
+	"Brooklyn #0" = -1
+	"Leocadia #0" = -1
+	"Arcadio #0" = 1
+	"Iuxta #0" = -1
+	"Gabriel #0" = 1
+	"Vermundo #1" = 18
+	"Izabelle #0" = -1
+	"Victor #0" = 1
+	"Jocelyn #0" = -1
+	"Marivic #0" = -1
+	"Sergio #2" = 18
+	"Alicia #0" = -1
+	"Yesenia #0" = -1
+	"Beatriz #0" = -1
+	"Timothy #0" = 1
+	"Miya #0" = -1
+	"Jiao #0" = -1
+	"Paul #0" = 1
+	"Arthur #0" = 1
+	"David #0" = 1
+	"Alessandra #0" = -1
+	"Encarna #0" = -1
+	"Irina #0" = -1
+	"Erick #0" = 1
+	"Victente #0" = 1
+	"Victoria #0" = -1
+	"Andagis #0" = 1
+	"Adonica #0" = -1
+	"Charo #0" = -1
+	"Delfina #0" = -1
+	"Gualtiero #0" = 1
+	"Mario #1" = 18
+	"Gabino #0" = 1
+	"Sal #0" = 1
+	"Benjamin #0" = 1
+	"Emilia #0" = -1
+	"Ulises #0" = 1
+	"Mayte #0" = -1
+	"Gustavito #2" = 27
+	"Cecilia #0" = -1
+	"Eula #0" = -1
+	"Bonita #0" = -1
+	"Ygnacio #0" = 1
+	"Rosario #0" = 1
+	"Jessica #0" = -1
+	"Vivian #0" = -1
+	"Vera #0" = -1
+	"Bret #0" = 1
+	"Veronica #0" = -1
+	"Mamoru #0" = 1
+	"Agnes #0" = -1
+	"Ashley #0" = -1
+	"Teresa #0" = -1
+	"Imarie #0" = -1
+	"Libby #0" = -1
+	"Yazmin #0" = -1
+	"Benton #0" = 1
+	"Rupert #0" = 1
+	"Robertina #0" = -1
+	"Lotta #0" = -1
+	"Botheric #1" = 18
+	"Drina #0" = -1
+	"Lau #0" = -1
+	"Bia #0" = -1
+	"Romelia #0" = -1
+	"Samuel #0" = 1
+	"Livia #0" = -1
+	"Atta #0" = 1
+	"Stanley #1" = 18
+	"Childefonsus #0" = 1
+	"Jacqueline #0" = -1
+	"Amaranta #0" = -1
+	"Gailavira #0" = -1
+	"Dong-Sun #1" = 0
+	"Chang-Lin #1" = 0
+	"Hyun-Su #1" = 0
+	"Zolin #1" = 0
+	"Reizo #2" = 0
+	"Kaemon #1" = 0
+	"Luís #1" = 0
+	"Liam #1" = 0
+	"Joebert #1" = 0
+	"Ponce #1" = 0
+	"Kyle #1" = 0
+	"Munpyo #1" = 0
+	"Holden #1" = 0
+	"Lorenzo #1" = 0
+	"Cornel #3" = 0
+	"Eusebio #2" = 0
+	"Abelardo #0" = 0
+	"Akeno #0" = 0
+	"Akio #0" = 0
+	"Akira #0" = 0
+	"Alec #0" = 0
+	"Alexander #0" = 0
+	"Alfonso #0" = 0
+	"Alfrancis #0" = 0
+	"Alfredo #0" = 0
+	"An-An #0" = 0
+	"Ang #0" = 0
+	"Angel #0" = 0
+	"Anthony #0" = 0
+	"Antonio #0" = 0
+	"Arnel #0" = 0
+	"Arnold #0" = 0
+	"Arvin #0" = 0
+	"Atoy #0" = 0
+	"Avelino #0" = 0
+	"Aweng #0" = 0
+	"Bae #0" = 0
+	"Bagwis #0" = 0
+	"Bai #0" = 0
+	"Bao #0" = 0
+	"Bayani #0" = 0
+	"Benigno #0" = 0
+	"Benjie #0" = 0
+	"Bernard #0" = 0
+	"Berting #0" = 0
+	"Bethune #0" = 0
+	"Bo #0" = 0
+	"Bryan #0" = 0
+	"Bryce #0" = 0
+	"Cai #0" = 0
+	"Carlos #0" = 0
+	"Chang #0" = 0
+	"Chen #0" = 0
+	"Chin #0" = 0
+	"Chino #0" = 0
+	"Chul #0" = 0
+	"Chung-Hee #0" = 0
+	"Crisanto #0" = 0
+	"Daboy #0" = 0
+	"Dai #0" = 0
+	"Daiki #0" = 0
+	"Dakila #0" = 0
+	"Dalip #0" = 0
+	"Danilo #0" = 0
+	"Datu #0" = 0
+	"Dee #0" = 0
+	"Dennis #0" = 0
+	"Derek #0" = 0
+	"Deshi #0" = 0
+	"Dewei #0" = 0
+	"Dishi #0" = 0
+	"Dolino #0" = 0
+	"Domeng #0" = 0
+	"Don #0" = 0
+	"Dranreb #0" = 0
+	"Duke #0" = 0
+	"Dwarding #0" = 0
+	"Dae-Hoon #0" = 0
+	"Ebisu #0" = 0
+	"Edcel #0" = 0
+	"Eddieboy #0" = 0
+	"Eduardo #0" = 0
+	"Efren #0" = 0
+	"Emilio #0" = 0
+	"Emmanuel #0" = 0
+	"Enchong #0" = 0
+	"Enlai #0" = 0
+	"Enrique #0" = 0
+	"Erap #0" = 0
+	"Ernest #0" = 0
+	"Eugenio #0" = 0
+	"Fai #0" = 0
+	"Feng #0" = 0
+	"Ferdinand #0" = 0
+	"Fermin #0" = 0
+	"Florencio #0" = 0
+	"Frederick #0" = 0
+	"Gan #0" = 0
+	"Gani #0" = 0
+	"Gec #0" = 0
+	"Gener #0" = 0
+	"Gilbert #0" = 0
+	"Han #0" = 0
+	"Heherson #0" = 0
+	"Henry #0" = 0
+	"Homobono #0" = 0
+	"Honesto #0" = 0
+	"Huang #0" = 0
+	"Huwan #0" = 0
+	"Hyun-Shik #0" = 0
+	"Ieoh #0" = 0
+	"Igme #0" = 0
+	"Ignatius #0" = 0
+	"Isagani #0" = 0
+	"Isamu #0" = 0
+	"Isko #0" = 0
+	"Ichiro #0" = 0
+	"Jaime #0" = 0
+	"James #0" = 0
+	"Jay #0" = 0
+	"Jeffrei #0" = 0
+	"Jeft #0" = 0
+	"Jejomar #0" = 0
+	"Jeong #0" = 0
+	"Jeric #0" = 0
+	"Jeron #0" = 0
+	"Jie #0" = 0
+	"Jin #0" = 0
+	"Jomei #0" = 0
+	"Jong #0" = 0
+	"Joriz #0" = 0
+	"José #0" = 0
+	"Joselito #0" = 0
+	"Joseller #0" = 0
+	"Joseph #0" = 0
+	"Joshua #0" = 0
+	"Juan #0" = 0
+	"Juro #0" = 0
+	"Kane #0" = 0
+	"Kannon #0" = 0
+	"Keiji #0" = 0
+	"Keitaro #0" = 0
+	"Ken #0" = 0
+	"Keng #0" = 0
+	"Kenneth #0" = 0
+	"Kidlat #0" = 0
+	"Kim #0" = 0
+	"Kuan-Yin #0" = 0
+	"Kuya #0" = 0
+	"Kwan #0" = 0
+	"Kazuo #0" = 0
+	"Lalay #0" = 0
+	"Laurenti #0" = 0
+	"Le #0" = 0
+	"Lee #0" = 0
+	"Li #0" = 0
+	"Liberato #0" = 0
+	"Lim #0" = 0
+	"Limahong #0" = 0
+	"Lin #0" = 0
+	"Lito #0" = 0
+	"Lucio #0" = 0
+	"Luis #0" = 0
+	"Luzvimindo #0" = 0
+	"Magtanggol #0" = 0
+	"Makisig #0" = 0
+	"Manuel #0" = 0
+	"Melchor #0" = 0
+	"Mikee #0" = 0
+	"Minhua #0" = 0
+	"Min-Ki #0" = 0
+	"Nano #0" = 0
+	"Narding #0" = 0
+	"Ning #0" = 0
+	"Nosrac #0" = 0
+	"Nam-Ryong #0" = 0
+	"Onad #0" = 0
+	"Onse #0" = 0
+	"Pacifico #0" = 0
+	"Paeng #0" = 0
+	"Peejong #0" = 0
+	"Philippe #0" = 0
+	"Pitoy #0" = 0
+	"Piyush #0" = 0
+	"Popoy #0" = 0
+	"Protacio #0" = 0
+	"Quon #0" = 0
+	"Rai #0" = 0
+	"Ramil #0" = 0
+	"Ramon #0" = 0
+	"Ranic #0" = 0
+	"Rei #0" = 0
+	"Restituto #0" = 0
+	"Reynante #0" = 0
+	"Richard #0" = 0
+	"Rico #0" = 0
+	"Rinji #0" = 0
+	"Rizal #0" = 0
+	"Rizaldo #0" = 0
+	"Rizalino #0" = 0
+	"Robert #0" = 0
+	"Rodel #0" = 0
+	"Romel #0" = 0
+	"Rommel #0" = 0
+	"Rosauro #0" = 0
+	"Rosito #0" = 0
+	"Rowell #0" = 0
+	"Rufino #0" = 0
+	"Samboy #0" = 0
+	"Sanjay #0" = 0
+	"Seiji #0" = 0
+	"Seung #0" = 0
+	"Shan #0" = 0
+	"Shen #0" = 0
+	"Sherwin #0" = 0
+	"Shou #0" = 0
+	"Siojo #0" = 0
+	"Siopao #0" = 0
+	"Siot #0" = 0
+	"Suzu #0" = 0
+	"Syano #0" = 0
+	"Sying #0" = 0
+	"Sang-Won #0" = 0
+	"Tai #0" = 0
+	"Taji #0" = 0
+	"Tan #0" = 0
+	"Tony #0" = 0
+	"Tonyo #0" = 0
+	"Toshiro #0" = 0
+	"Tyrone #0" = 0
+	"Vicente #0" = 0
+	"Virgilio #0" = 0
+	"Wei #0" = 0
+	"Wen #0" = 0
+	"Xian #0" = 0
+	"Xiao #0" = 0
+	"Yeng #0" = 0
+	"Yo-Yo #0" = 0
+	"Yuan #0" = 0
+	"Yo-Han #0" = 0
+	"Zheng #0" = 0
+	"Zhong #0" = 0
+}
+

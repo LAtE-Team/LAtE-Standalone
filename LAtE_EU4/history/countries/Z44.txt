@@ -1,0 +1,28 @@
+# Lochloosa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2534
+3022.12.5 = {
+	monarch = {
+		name = "Vanity"
+		birth_date = 3011.10.9
+		dynasty = "Pensacolle"
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = pious_personality
+	add_ruler_personality = naive_personality
+}
+3053.1.1 {
+	capital = 2534
+	add_treasury = 15
+	add_prestige = 178
+	elector = no
+}

@@ -1,0 +1,28 @@
+# Emporia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4682
+3036.2.8 = {
+	monarch = {
+		name = "Beatrice"
+		birth_date = 3002.6.11
+		dynasty = "Faulcon"
+		female = yes
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = benevolent_personality
+}
+3053.1.1 {
+	capital = 4682
+	add_treasury = 374
+	add_prestige = 102
+	elector = no
+}

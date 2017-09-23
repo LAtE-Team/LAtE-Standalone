@@ -1,0 +1,190 @@
+# Texas
+graphical_culture = westerngfx
+color = { 4 144 178 }
+
+
+
+
+leader_names = {
+
+	"Henrietta" "Beth" "Annie" "Floyd" "Russell" "Abner" "Ashbel" "Almaron" "Andy" "Amos" 
+	"Asa" "Alex" "Avery" "Austin" "Buck" "Branch" "Bobby" "Ben" "Bill" "Byrd" 
+	"Bryce" "Brooks" "Bennet" "Buckaroo" "Bud" "Cotton" "Clay" "Chris" "Clint" "Cage" 
+	"Colton" "Craig" "Clovis" "Carson" "Cyril" "Charton" "Chance" "Cody" "Clyde" "Cliff" 
+	"Cash" "Cord" "Cooper" "Chase" "Cassidy" "Curly" "Dan" "Dolphin" "Dalton" "Dale" 
+	"Dustin" "Dallas" "Dwight" "Earl" "Eliel" "Emory" "Eldon" "Eloy" "Emmett" "Freeman" 
+	"Farley" "George" "Gene" "Galba" "Galen" "Grady" "Garland" "Hank" "Horace" "Hiram" 
+	"Haskell" "Houston" "Hadley" "Hoyt" "Harley" "Harlan" "Hollis" "Honest" "Isaac" "Ike" 
+	"Jesse" "Josh" "Jake" "Jack" "Justice" "Johnny" "Keith" "Kirby" "Launcelot" "Lemuel" 
+	"Lewis" "Lefty" "Lantry" "Lowell" "Lyndon" "Lyle" "Memucan" "Mirabeau" "Micajah" "Miles" 
+	"Mial" "Manson" "Marcus" "Matt" "Merle" "Mitch" "Maddox" "Monty" "Morgan" "Nate" 
+	"Nap" "Phil" "Preston" "Perry" "Red" "Rex" "Royce" "Rusty" "Randall" "Ridley" 
+	"Riley" "Rowdy" "Ross" "Slim" "Sam" "Squire" "Stetson" "Slick" "Shep" "Sixgun" 
+	"Sonny" "Sinclair" "Tex" "Tom" "Toby" "Tuck" "Terrell" "Ty" "Troy" "Trace" 
+	"Truett" "Trevor" "Taddeo" "Vernon" "Vance" "Virgil" "Wayne" "Wyland" "Wiley" "Weston" 
+	"Wilbur" "Wes" "Weldon" "Wade" "Wheeler" "Wyatt" "Zach" "Zane" }
+monarch_names = {
+	"Henrietta #0" = -1
+	"Beth #0" = -1
+	"Annie #0" = -1
+	"Floyd #0" = 18
+	"Russell #0" = 1
+	"Abner #0" = 0
+	"Ashbel #0" = 0
+	"Almaron #0" = 0
+	"Andy #0" = 0
+	"Amos #0" = 0
+	"Asa #0" = 0
+	"Alex #0" = 0
+	"Avery #0" = 0
+	"Austin #0" = 0
+	"Buck #0" = 0
+	"Branch #0" = 0
+	"Bobby #0" = 0
+	"Ben #0" = 0
+	"Bill #0" = 0
+	"Byrd #0" = 0
+	"Bryce #0" = 0
+	"Brooks #0" = 0
+	"Bennet #0" = 0
+	"Buckaroo #0" = 0
+	"Bud #0" = 0
+	"Cotton #0" = 0
+	"Clay #0" = 0
+	"Chris #0" = 0
+	"Clint #0" = 0
+	"Cage #0" = 0
+	"Colton #0" = 0
+	"Craig #0" = 0
+	"Clovis #0" = 0
+	"Carson #0" = 0
+	"Cyril #0" = 0
+	"Charton #0" = 0
+	"Chance #0" = 0
+	"Cody #0" = 0
+	"Clyde #0" = 0
+	"Cliff #0" = 0
+	"Cash #0" = 0
+	"Cord #0" = 0
+	"Cooper #0" = 0
+	"Chase #0" = 0
+	"Cassidy #0" = 0
+	"Curly #0" = 0
+	"Dan #0" = 0
+	"Dolphin #0" = 0
+	"Dalton #0" = 0
+	"Dale #0" = 0
+	"Dustin #0" = 0
+	"Dallas #0" = 0
+	"Dwight #0" = 0
+	"Earl #0" = 0
+	"Eliel #0" = 0
+	"Emory #0" = 0
+	"Eldon #0" = 0
+	"Eloy #0" = 0
+	"Emmett #0" = 0
+	"Freeman #0" = 0
+	"Farley #0" = 0
+	"George #0" = 0
+	"Gene #0" = 0
+	"Galba #0" = 0
+	"Galen #0" = 0
+	"Grady #0" = 0
+	"Garland #0" = 0
+	"Hank #0" = 0
+	"Horace #0" = 0
+	"Hiram #0" = 0
+	"Haskell #0" = 0
+	"Houston #0" = 0
+	"Hadley #0" = 0
+	"Hoyt #0" = 0
+	"Harley #0" = 0
+	"Harlan #0" = 0
+	"Hollis #0" = 0
+	"Honest #0" = 0
+	"Isaac #0" = 0
+	"Ike #0" = 0
+	"Jesse #0" = 0
+	"Josh #0" = 0
+	"Jake #0" = 0
+	"Jack #0" = 0
+	"Justice #0" = 0
+	"Johnny #0" = 0
+	"Keith #0" = 0
+	"Kirby #0" = 0
+	"Launcelot #0" = 0
+	"Lemuel #0" = 0
+	"Lewis #0" = 0
+	"Lefty #0" = 0
+	"Lantry #0" = 0
+	"Lowell #0" = 0
+	"Lyndon #0" = 0
+	"Lyle #0" = 0
+	"Memucan #0" = 0
+	"Mirabeau #0" = 0
+	"Micajah #0" = 0
+	"Miles #0" = 0
+	"Mial #0" = 0
+	"Manson #0" = 0
+	"Marcus #0" = 0
+	"Matt #0" = 0
+	"Merle #0" = 0
+	"Mitch #0" = 0
+	"Maddox #0" = 0
+	"Monty #0" = 0
+	"Morgan #0" = 0
+	"Nate #0" = 0
+	"Nap #0" = 0
+	"Phil #0" = 0
+	"Preston #0" = 0
+	"Perry #0" = 0
+	"Red #0" = 0
+	"Rex #0" = 0
+	"Royce #0" = 0
+	"Rusty #0" = 0
+	"Randall #0" = 0
+	"Ridley #0" = 0
+	"Riley #0" = 0
+	"Rowdy #0" = 0
+	"Ross #0" = 0
+	"Slim #0" = 0
+	"Sam #0" = 0
+	"Squire #0" = 0
+	"Stetson #0" = 0
+	"Slick #0" = 0
+	"Shep #0" = 0
+	"Sixgun #0" = 0
+	"Sonny #0" = 0
+	"Sinclair #0" = 0
+	"Tex #0" = 0
+	"Tom #0" = 0
+	"Toby #0" = 0
+	"Tuck #0" = 0
+	"Terrell #0" = 0
+	"Ty #0" = 0
+	"Troy #0" = 0
+	"Trace #0" = 0
+	"Truett #0" = 0
+	"Trevor #0" = 0
+	"Taddeo #0" = 0
+	"Vernon #0" = 0
+	"Vance #0" = 0
+	"Virgil #0" = 0
+	"Wayne #0" = 0
+	"Wyland #0" = 0
+	"Wiley #0" = 0
+	"Weston #0" = 0
+	"Wilbur #0" = 0
+	"Wes #0" = 0
+	"Weldon #0" = 0
+	"Wade #0" = 0
+	"Wheeler #0" = 0
+	"Wyatt #0" = 0
+	"Zach #0" = 0
+	"Zane #0" = 0
+
+
+	"Effie #0" = -1
+	"Jessie #0" = -1
+}
+

@@ -1,0 +1,26 @@
+# Tuscaloosa
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4679
+3044.11.1 = {
+	monarch = {
+		name = "Superbus"
+		birth_date = 3024.3.20
+		dynasty = "Candler"
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 4679
+	add_treasury = 24
+	add_prestige = 109
+	elector = no
+}

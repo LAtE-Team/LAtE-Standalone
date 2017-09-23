@@ -1,0 +1,19 @@
+#4184 - Bizen
+
+owner = TNJ
+controller = TNJ
+culture = japanese
+religion = shinto
+capital = "Okayama"
+trade_goods = iron
+hre = no
+base_tax = 3
+base_manpower = 2
+base_production = 2
+is_city = yes
+add_core= TNJ
+discovered_by = chinese
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

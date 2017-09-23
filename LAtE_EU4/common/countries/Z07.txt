@@ -1,0 +1,126 @@
+# Plaquemines
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 36 102 8 }
+
+
+
+
+leader_names = {
+
+	"Henrietta" "Mercury" "Blanchet" "Clover" "Lamartine" "Claudia" "Raleigh" "Melisende" "Breunor" "Jupiter" 
+	"Beatrice" "Sylvester" "Heron" "Davis" "Winchester" "Tyler" "Raylene" "Geraint" "William" "Jocasta" 
+	"Susanne" "Baker" "Belle" "Elisabeth" "Laurina" "Polycarpus" "Alexandra" "Solon" "Timon" "Melanie" 
+	"Augusta" "Juliet" "Alyssa" "Plato" "Virginia" "Urban" "Dionysia" "Melantha" "Lionel" "Ulixes" 
+	"Pellias" "Valerian" "Dahlia" "Helen" "Stephanus" "Georgia" "Alcée" "Alcide" "Amédé" "Achille" 
+	"Anatole" "Ardoin" "Adam" "Audubon" "Aristide" "Barthelemy" "Boyd" "Bryant" "Clifton" "Charles" 
+	"Clarence" "Canray" "Claire Lee" "Caliste" "Caesar" "Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde" 
+	"Evariste" "Earl" "Eduoard" "Eustace" "Francis" "Geno" "Georgic" "Guinefort" "Garland" "Irvan" 
+	"Julien" "Justin" "Kolax" "Keith" "Lucas" "Marcus" "Maugris" "Norbert" "Odon" "Olfert" 
+	"Orion" "Pierre" "Paul" "Richmond" "Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel" 
+	"Wellman" "Wendell" }
+monarch_names = {
+	"Henrietta #0" = -1
+	"Mercury #0" = 1
+	"Blanchet #0" = -1
+	"Clover #0" = -1
+	"Lamartine #0" = 1
+	"Claudia #0" = -1
+	"Raleigh #0" = 1
+	"Melisende #0" = -1
+	"Breunor #0" = 1
+	"Jupiter #0" = 1
+	"Beatrice #0" = -1
+	"Sylvester #0" = 1
+	"Heron #0" = 1
+	"Davis #0" = 1
+	"Winchester #0" = 1
+	"Tyler #0" = 1
+	"Raylene #0" = -1
+	"Geraint #0" = 1
+	"William #0" = 1
+	"Jocasta #0" = -1
+	"Susanne #0" = -1
+	"Baker #0" = 1
+	"Belle #0" = -1
+	"Elisabeth #0" = -1
+	"Laurina #0" = -1
+	"Polycarpus #0" = 1
+	"Alexandra #0" = -1
+	"Solon #0" = 1
+	"Timon #0" = 1
+	"Melanie #0" = -1
+	"Augusta #0" = -1
+	"Juliet #0" = -1
+	"Alyssa #0" = -1
+	"Plato #0" = 1
+	"Virginia #0" = -1
+	"Urban #0" = 1
+	"Dionysia #0" = -1
+	"Melantha #0" = -1
+	"Lionel #0" = 1
+	"Ulixes #0" = 1
+	"Pellias #0" = 1
+	"Valerian #0" = 1
+	"Dahlia #0" = -1
+	"Helen #0" = -1
+	"Stephanus #0" = 1
+	"Georgia #0" = -1
+	"Alcée #0" = 0
+	"Alcide #0" = 0
+	"Amédé #0" = 0
+	"Achille #0" = 0
+	"Anatole #0" = 0
+	"Ardoin #0" = 0
+	"Adam #0" = 0
+	"Audubon #0" = 0
+	"Aristide #0" = 0
+	"Barthelemy #0" = 0
+	"Boyd #0" = 0
+	"Bryant #0" = 0
+	"Clifton #0" = 0
+	"Charles #0" = 0
+	"Clarence #0" = 0
+	"Canray #0" = 0
+	"Claire Lee #0" = 0
+	"Caliste #0" = 0
+	"Caesar #0" = 0
+	"Cedric #0" = 0
+	"Dillard #0" = 0
+	"D'Jalma #0" = 0
+	"Edgar #0" = 0
+	"Edmonde #0" = 0
+	"Evariste #0" = 0
+	"Earl #0" = 0
+	"Eduoard #0" = 0
+	"Eustace #0" = 0
+	"Francis #0" = 0
+	"Geno #0" = 0
+	"Georgic #0" = 0
+	"Guinefort #0" = 0
+	"Garland #0" = 0
+	"Irvan #0" = 0
+	"Julien #0" = 0
+	"Justin #0" = 0
+	"Kolax #0" = 0
+	"Keith #0" = 0
+	"Lucas #0" = 0
+	"Marcus #0" = 0
+	"Maugris #0" = 0
+	"Norbert #0" = 0
+	"Odon #0" = 0
+	"Olfert #0" = 0
+	"Orion #0" = 0
+	"Pierre #0" = 0
+	"Paul #0" = 0
+	"Richmond #0" = 0
+	"Solomon #0" = 0
+	"Sécaire #0" = 0
+	"Thomy #0" = 0
+	"Tyrann #0" = 0
+	"Toutant #0" = 0
+	"Vernel #0" = 0
+	"Wellman #0" = 0
+	"Wendell #0" = 0
+}
+

@@ -1,0 +1,37 @@
+#751 - Ceara
+
+#owner = PTG
+#controller = PTG
+#add_core= PTG
+culture = tupinamba
+discovered_by = south_american
+religion = animism
+capital = "Ceara"
+is_city = no
+trade_goods = sugar
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+
+# = { discovered_by = CAS } # Vicente Yáñez Pinzõn, couldn't make a claim due to the Treaty of Tordesillas
+# = { discovered_by = POR } # Pedro Álvares Cabral
+# = { discovered_by = SPA }
+
+# = {
+	#owner = POR
+	#controller = POR
+	#add_core= POR
+	capital = "São Tiago"
+	culture = brazilian
+	religion = candomble
+#}
+# = { capital = "Fortaleza" }
+# = { unrest = 6 } # Natives led by Mandu Ladino rebelled against the brazilian expansion
+# = { unrest = 0 } # The rebellion is subdued

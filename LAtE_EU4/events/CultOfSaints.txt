@@ -1,0 +1,1002 @@
+
+namespace = saints
+
+#Discovering Lady of Guadaloupe
+country_event = {
+	id = saints.1
+	title = saints.1.t
+	desc = saints.1.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.1.a
+		unlock_cult = marian_guadalupe 
+	}
+}
+#Discovering Santa Muerte
+country_event = {
+	id = saints.2
+	title = saints.2.t
+	desc = saints.2.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.2.a
+		unlock_cult = marian_santa_muerte 
+	}
+}
+#Discovering El Santo
+country_event = {
+	id = saints.3
+	title = saints.3.t
+	desc = saints.3.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.3.a
+		unlock_cult = marian_el_santo 
+	}
+}
+#Discovering Immaculate Saints
+country_event = {
+	id = saints.4
+	title = saints.4.t
+	desc = saints.4.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.4.a
+		unlock_cult = gracia_inmaculado 
+	}
+}
+#Discovering El Libertador
+country_event = {
+	id = saints.5
+	title = saints.5.t
+	desc = saints.5.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.5.a
+		unlock_cult = gracia_libertador 
+	}
+}
+#Discovering El Dorado
+country_event = {
+	id = saints.6
+	title = saints.6.t
+	desc = saints.6.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.6.a
+		unlock_cult = gracia_dorado 
+	}
+}
+#Discovering Santo Nino
+country_event = {
+	id = saints.7
+	title = saints.7.t
+	desc = saints.7.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.7.a
+		unlock_cult = santo_nino 
+	}
+}
+#Discovering Jose Rizal
+country_event = {
+	id = saints.8
+	title = saints.8.t
+	desc = saints.8.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.8.a
+		unlock_cult = jose_rizal 
+	}
+}
+#Discovering Maria Kannon
+country_event = {
+	id = saints.9
+	title = saints.9.t
+	desc = saints.9.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.9.a
+		unlock_cult = maria_kannon 
+	}
+}
+#Unlocking cults from other religions
+country_event = {
+	id = saints.10
+	title = saints.10.t #Never Seen
+	desc = saints.10.t #Never Seen
+	picture = POPE_PREACHING_eventPicture #Never Seen
+	
+	hidden = yes
+		
+	immediate = {
+		random_neighbor_country = {
+			limit = {
+				NOT = { religion = cult_of_saints }
+				alliance_with = ROOT
+				OR = {
+					AND = {
+						religion = catholic
+						ROOT = { NOT = { has_unlocked_cult = cos_catholic } }
+					}
+					AND = {
+						religion = americanist
+						ROOT = { NOT = { has_unlocked_cult = cos_washington } }
+					}
+					AND = {
+						religion = rastafarian
+						ROOT = { NOT = { has_unlocked_cult = haile_selassie } }
+					}
+					AND = {
+						religion = santeria
+						ROOT = { NOT = { has_unlocked_cult = marian_navigators } }
+					}
+					AND = {
+						religion = cetic
+						ROOT = { NOT = { has_unlocked_cult = los_angeles } }
+					}
+					AND = {
+						religion = gaian
+						ROOT = { NOT = { has_unlocked_cult = madonna_of_the_trail } }
+					}
+					AND = {
+						religion = mormon
+						ROOT = { NOT = { has_unlocked_cult = archangel_moroni } }
+					}
+					AND = {
+						religion = rust_cultist
+						ROOT = { NOT = { has_unlocked_cult = machine_saints } }
+					}
+				}
+			}
+			if = {
+				limit = {
+					religion = catholic
+					ROOT = {  NOT = { has_unlocked_cult = cos_catholic } }
+				}
+				ROOT = {
+					country_event = { id = saints.21 }
+				}
+			}
+			if = {
+				limit = {
+					religion = americanist
+					ROOT = {  NOT = { has_unlocked_cult = cos_washington } }
+				}
+				ROOT = {
+					country_event = { id = saints.22 }
+				}
+			}
+			if = {
+				limit = {
+					religion = rastafarian
+					ROOT = {  NOT = { has_unlocked_cult = haile_selassie } }
+				}
+				ROOT = {
+					country_event = { id = saints.23 }
+				}
+			}
+			if = {
+				limit = {
+					religion = santeria
+					ROOT = {  NOT = { has_unlocked_cult = marian_navigators } }
+				}
+				ROOT = {
+					country_event = { id = saints.24 }
+				}
+			}
+			if = {
+				limit = {
+					religion = cetic
+					ROOT = {  NOT = { has_unlocked_cult = los_angeles } }
+				}
+				ROOT = {
+					country_event = { id = saints.25 }
+				}
+			}
+			if = {
+				limit = {
+					religion = gaian
+					ROOT = {  NOT = { has_unlocked_cult = madonna_of_the_trail } }
+				}
+				ROOT = {
+					country_event = { id = saints.26 }
+				}
+			}
+			if = {
+				limit = {
+					religion = mormon
+					ROOT = {  NOT = { has_unlocked_cult = archangel_moroni } }
+				}
+				ROOT = {
+					country_event = { id = saints.27 }
+				}
+			}
+			if = {
+				limit = {
+					religion = rust_cultist
+					ROOT = {  NOT = { has_unlocked_cult = machine_saints } }
+				}
+				ROOT = {
+					country_event = { id = saints.28 }
+				}
+			}
+		}
+	}
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		any_neighbor_country = {
+			NOT = { religion = cult_of_saints }
+			alliance_with = ROOT
+			OR = {
+				AND = {
+					religion = catholic
+					ROOT = { NOT = { has_unlocked_cult = cos_catholic } }
+				}
+				AND = {
+					religion = americanist
+					ROOT = { NOT = { has_unlocked_cult = cos_washington } }
+				}
+				AND = {
+					religion = rastafarian
+					ROOT = { NOT = { has_unlocked_cult = haile_selassie } }
+				}
+				AND = {
+					religion = santeria
+					ROOT = { NOT = { has_unlocked_cult = marian_navigators } }
+				}
+				AND = {
+					religion = cetic
+					ROOT = { NOT = { has_unlocked_cult = los_angeles } }
+				}
+				AND = {
+					religion = gaian
+					ROOT = { NOT = { has_unlocked_cult = madonna_of_the_trail } }
+				}
+				AND = {
+					religion = mormon
+					ROOT = { NOT = { has_unlocked_cult = archangel_moroni } }
+				}
+				AND = {
+					religion = rust_cultist
+					ROOT = { NOT = { has_unlocked_cult = machine_saints } }
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.10.t #Never seen
+	}
+}
+#Unlocking Lady of Guadaloupe
+country_event = {
+	id = saints.11
+	title = saints.1.t
+	desc = saints.1.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = marian_guadalupe }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = marian_guadalupe
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.1.a
+		unlock_cult = marian_guadalupe
+	}
+}
+#Unlocking Santa Muerte
+country_event = {
+	id = saints.12
+	title = saints.2.t
+	desc = saints.2.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = marian_santa_muerte }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = marian_santa_muerte
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.2.a
+		unlock_cult = marian_santa_muerte
+	}
+}
+#Unlocking El Santo
+country_event = {
+	id = saints.13
+	title = saints.3.t
+	desc = saints.3.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = marian_el_santo }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = marian_el_santo
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.3.a
+		unlock_cult = marian_el_santo
+	}
+}
+#Unlocking Immaculate Saints
+country_event = {
+	id = saints.14
+	title = saints.4.t
+	desc = saints.4.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = gracia_inmaculado }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = gracia_inmaculado
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.4.a
+		unlock_cult = gracia_inmaculado
+	}
+}
+#Unlocking El Libertador
+country_event = {
+	id = saints.15
+	title = saints.5.t
+	desc = saints.5.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = gracia_libertador }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = gracia_libertador
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.5.a
+		unlock_cult = gracia_libertador
+	}
+}
+#Unlocking El Dorado
+country_event = {
+	id = saints.16
+	title = saints.6.t
+	desc = saints.6.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = gracia_dorado }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = gracia_dorado
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.6.a
+		unlock_cult = gracia_dorado
+	}
+}
+#Unlocking Santo Nino
+country_event = {
+	id = saints.17
+	title = saints.7.t
+	desc = saints.7.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = santo_nino }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = santo_nino
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.7.a
+		unlock_cult = santo_nino
+	}
+}
+#Unlocking Jose Rizal
+country_event = {
+	id = saints.18
+	title = saints.8.t
+	desc = saints.8.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = jose_rizal }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = jose_rizal
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.8.a
+		unlock_cult = jose_rizal
+	}
+}
+#Unlocking Maria Kannon
+country_event = {
+	id = saints.19
+	title = saints.9.t
+	desc = saints.9.d
+	picture = TRIBES_MEETING_eventPicture
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		NOT = { has_unlocked_cult = maria_kannon }
+		any_neighbor_country = {
+			religion = cult_of_saints
+			has_adopted_cult = maria_kannon
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.9.a
+		unlock_cult = maria_kannon
+	}
+}
+#Unlocking cults from other religions
+country_event = {
+	id = saints.20
+	title = saints.20.t #Never Seen
+	desc = saints.20.t #Never Seen
+	picture = POPE_PREACHING_eventPicture #Never Seen
+	
+	hidden = yes
+		
+	immediate = {
+		random_owned_province = {
+			limit = {
+				NOT = { religion = cult_of_saints }
+				OR = {
+					AND = {
+						religion = catholic
+						ROOT = { NOT = { has_unlocked_cult = cos_catholic } }
+					}
+					AND = {
+						religion = americanist
+						ROOT = { NOT = { has_unlocked_cult = cos_washington } }
+					}
+					AND = {
+						religion = rastafarian
+						ROOT = { NOT = { has_unlocked_cult = haile_selassie } }
+					}
+					AND = {
+						religion = santeria
+						ROOT = { NOT = { has_unlocked_cult = marian_navigators } }
+					}
+					AND = {
+						religion = cetic
+						ROOT = { NOT = { has_unlocked_cult = los_angeles } }
+					}
+					AND = {
+						religion = gaian
+						ROOT = { NOT = { has_unlocked_cult = madonna_of_the_trail } }
+					}
+					AND = {
+						religion = mormon
+						ROOT = { NOT = { has_unlocked_cult = archangel_moroni } }
+					}
+					AND = {
+						religion = rust_cultist
+						ROOT = { NOT = { has_unlocked_cult = machine_saints } }
+					}
+				}
+			}
+			if = {
+				limit = {
+					religion = catholic
+					ROOT = {  NOT = { has_unlocked_cult = cos_catholic } }
+				}
+				ROOT = {
+					country_event = { id = saints.21 }
+				}
+			}
+			if = {
+				limit = {
+					religion = americanist
+					ROOT = {  NOT = { has_unlocked_cult = cos_washington } }
+				}
+				ROOT = {
+					country_event = { id = saints.22 }
+				}
+			}
+			if = {
+				limit = {
+					religion = rastafarian
+					ROOT = {  NOT = { has_unlocked_cult = haile_selassie } }
+				}
+				ROOT = {
+					country_event = { id = saints.23 }
+				}
+			}
+			if = {
+				limit = {
+					religion = santeria
+					ROOT = {  NOT = { has_unlocked_cult = marian_navigators } }
+				}
+				ROOT = {
+					country_event = { id = saints.24 }
+				}
+			}
+			if = {
+				limit = {
+					religion = cetic
+					ROOT = {  NOT = { has_unlocked_cult = los_angeles } }
+				}
+				ROOT = {
+					country_event = { id = saints.25 }
+				}
+			}
+			if = {
+				limit = {
+					religion = gaian
+					ROOT = {  NOT = { has_unlocked_cult = madonna_of_the_trail } }
+				}
+				ROOT = {
+					country_event = { id = saints.26 }
+				}
+			}
+			if = {
+				limit = {
+					religion = mormon
+					ROOT = {  NOT = { has_unlocked_cult = archangel_moroni } }
+				}
+				ROOT = {
+					country_event = { id = saints.27 }
+				}
+			}
+			if = {
+				limit = {
+					religion = rust_cultist
+					ROOT = {  NOT = { has_unlocked_cult = machine_saints } }
+				}
+				ROOT = {
+					country_event = { id = saints.28 }
+				}
+			}
+		}
+	}
+
+	trigger = {
+		religion = cult_of_saints
+		has_dlc = "Rights of Man"
+		any_owned_province = {
+			NOT = { religion = cult_of_saints }
+			OR = {
+				AND = {
+					religion = catholic
+					ROOT = { NOT = { has_unlocked_cult = cos_catholic } }
+				}
+				AND = {
+					religion = americanist
+					ROOT = { NOT = { has_unlocked_cult = cos_washington } }
+				}
+				AND = {
+					religion = rastafarian
+					ROOT = { NOT = { has_unlocked_cult = haile_selassie } }
+				}
+				AND = {
+					religion = santeria
+					ROOT = { NOT = { has_unlocked_cult = marian_navigators } }
+				}
+				AND = {
+					religion = cetic
+					ROOT = { NOT = { has_unlocked_cult = los_angeles } }
+				}
+				AND = {
+					religion = gaian
+					ROOT = { NOT = { has_unlocked_cult = madonna_of_the_trail } }
+				}
+				AND = {
+					religion = mormon
+					ROOT = { NOT = { has_unlocked_cult = archangel_moroni } }
+				}
+				AND = {
+					religion = rust_cultist
+					ROOT = { NOT = { has_unlocked_cult = machine_saints } }
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = saints.20.t #Never seen
+	}
+}
+#Unlocking Catholicism
+country_event = {
+	id = saints.21
+	title = saints.21.t
+	desc = saints.21.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.21.a
+		unlock_cult = cos_catholic
+	}
+}
+#Unlocking Washington
+country_event = {
+	id = saints.22
+	title = saints.22.t
+	desc = saints.22.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.22.a
+		unlock_cult = cos_washington
+	}
+}
+#Unlocking Haile Selassie
+country_event = {
+	id = saints.23
+	title = saints.23.t
+	desc = saints.23.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.23.a
+		unlock_cult = haile_selassie
+	}
+}
+#Unlocking Lady of Navigators
+country_event = {
+	id = saints.24
+	title = saints.24.t
+	desc = saints.24.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.24.a
+		unlock_cult = marian_navigators
+	}
+}
+#Unlocking Los Angeles
+country_event = {
+	id = saints.25
+	title = saints.25.t
+	desc = saints.25.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.25.a
+		unlock_cult = los_angeles
+	}
+}
+#Unlocking Madonna of the Trail
+country_event = {
+	id = saints.26
+	title = saints.26.t
+	desc = saints.26.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.26.a
+		unlock_cult = madonna_of_the_trail
+	}
+}
+#Unlocking Archangel Moroni
+country_event = {
+	id = saints.27
+	title = saints.27.t
+	desc = saints.27.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.27.a
+		unlock_cult = archangel_moroni
+	}
+}
+#Unlocking Machine Saints
+country_event = {
+	id = saints.28
+	title = saints.28.t
+	desc = saints.28.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = saints.28.a
+		unlock_cult = machine_saints
+	}
+}
+
+#Setting up cults for converted countries
+country_event = {
+	id = saints.100
+	title = saints.100.t
+	desc = saints.100.t
+	picture = POPE_PREACHING_eventPicture #Never Seen
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+		religion = cult_of_saints
+		OR = {
+			ruler_has_personality = marian_personality
+			ruler_has_personality = gracia_personality
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				ruler_has_personality = gracia_personality
+			}
+			change_technology_group = ottoman
+			remove_ruler_personality = gracia_personality
+		}
+		if = {
+			limit = {
+				ruler_has_personality = marian_personality
+				technology_group = ottoman
+			}
+			change_technology_group = muslim
+			remove_ruler_personality = marian_personality
+		}
+	}
+	
+	option = {
+		name = "OK"
+	}
+}

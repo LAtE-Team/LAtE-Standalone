@@ -1,0 +1,24 @@
+#817 - Cuenca
+
+owner = ECU
+controller = ECU
+add_core = ECU
+culture = quiteno
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = cult_of_saints
+capital = "Cuenca"
+is_city = yes
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

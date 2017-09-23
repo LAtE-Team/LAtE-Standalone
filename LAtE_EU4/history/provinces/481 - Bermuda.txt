@@ -1,0 +1,36 @@
+#481 - Bermuda
+
+capital = "Bermuda"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+
+
+
+# = { discovered_by = CAS  # Possibly later, Juan de Bermudez
+# = { discovered_by = SPA 
+
+# = {
+	#discovered_by = ENG
+	#owner = ENG
+	#controller = ENG
+	#add_core= ENG
+	culture = english
+	religion = protestant
+ # English colonists
+# = { capital = "St. George"  
+# = { is_city = no trade_goods = unknown
+# = {
+	#owner = GBR
+	#controller = GBR
+	#add_core= GBR
+	remove_core = ENG
+
+
+discovered_by = GBR

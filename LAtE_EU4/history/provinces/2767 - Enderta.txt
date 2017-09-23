@@ -1,0 +1,18 @@
+#2767 - Enderta
+
+culture = tigray 
+religion = coptic
+capital = "Antalo"
+base_manpower = 2
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9 
+
+discovered_by = east_african
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian

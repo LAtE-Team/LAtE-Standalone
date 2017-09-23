@@ -1,0 +1,37 @@
+# Jefferson
+government = administrative_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = cascadian
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2482
+3016.6.22 = {
+	monarch = {
+		name = "Clyde II"
+		birth_date = 2985.12.28
+		dynasty = "Gable"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	heir = {
+		name = "Clyde"
+		monarch_name = "Clyde III"
+		dynasty = "Gable"
+		birth_date = 3015.6.11
+		death_date = 3095.6.11
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	add_heir_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 2482
+	add_treasury = 15
+	add_prestige = 286
+}

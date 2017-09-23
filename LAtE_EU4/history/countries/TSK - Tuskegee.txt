@@ -1,0 +1,26 @@
+# Tuskegee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 925
+3052.1.7 = {
+	monarch = {
+		name = "Winfield"
+		birth_date = 3023.4.25
+		dynasty = "Graves"
+		adm = 0
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 925
+	add_treasury = 29
+	add_prestige = 55
+	elector = no
+}

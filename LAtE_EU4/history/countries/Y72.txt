@@ -1,0 +1,25 @@
+# Quinte
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ontarian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 4531
+3046.10.2 = {
+	monarch = {
+		name = "Lucas"
+		birth_date = 3002.3.1
+		dynasty = "Harpist"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = babbling_buffoon_personality
+}
+3053.1.1 {
+	capital = 4531
+	add_treasury = 42
+	add_prestige = 54
+}

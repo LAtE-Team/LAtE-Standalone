@@ -1,0 +1,27 @@
+# Black March
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4647
+3039.8.21 = {
+	monarch = {
+		name = "Richard"
+		birth_date = 3014.12.22
+		dynasty = "Spratt"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = expansionist_personality
+}
+3053.1.1 {
+	capital = 4647
+	add_treasury = 34
+	add_prestige = 241
+	elector = yes
+}

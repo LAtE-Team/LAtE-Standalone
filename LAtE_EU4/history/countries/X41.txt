@@ -1,0 +1,25 @@
+# Madeleine Islands
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = acadien
+religion = brethren
+clear_scripted_personalities = yes
+capital = 983
+3045.2.10 = {
+	monarch = {
+		name = "Charles II"
+		birth_date = 3017.5.22
+		dynasty = "Mani-utenam"
+		adm = 0
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 983
+	add_treasury = 12
+	add_prestige = 97
+}

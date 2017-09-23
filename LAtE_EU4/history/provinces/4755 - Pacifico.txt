@@ -1,0 +1,14 @@
+culture = piman
+religion = totemism 
+trade_goods = unknown
+hre = no 
+base_tax = 6
+base_production = 6
+base_manpower = 3
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 3 
+discovered_by = north_american
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

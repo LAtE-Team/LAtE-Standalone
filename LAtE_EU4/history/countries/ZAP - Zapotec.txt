@@ -1,0 +1,36 @@
+# Zapoteca
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = zapotek
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 4750
+3053.1.1= {
+	monarch = {
+		name = "Huggo"
+		birth_date = 3023.5.20
+		dynasty = "de Fuenleal"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+	heir = {
+		name = "Huggo"
+		monarch_name = "Huggo II"
+		dynasty = "de Fuenleal"
+		birth_date = 3042.8.8
+		death_date = 3122.8.8
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = craven_personality
+}
+3053.1.1 {
+	capital = 4750
+	add_treasury = 28
+	add_prestige = 21
+}

@@ -1,0 +1,26 @@
+# Three Necks
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2550
+3046.11.5 = {
+	monarch = {
+		name = "Lunsford"
+		birth_date = 3042.11.25
+		dynasty = "Littlepage"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = craven_personality
+}
+3053.1.1 {
+	capital = 2550
+	add_treasury = 73
+	add_prestige = 157
+	elector = no
+}

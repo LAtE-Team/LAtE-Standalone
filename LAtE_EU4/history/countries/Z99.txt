@@ -1,0 +1,26 @@
+# Okefenokee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4666
+3052.7.20 = {
+	monarch = {
+		name = "Marcus"
+		birth_date = 3020.2.28
+		dynasty = "Gousset"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = infertile_personality
+}
+3053.1.1 {
+	capital = 4666
+	add_treasury = 22
+	add_prestige = 38
+	elector = no
+}

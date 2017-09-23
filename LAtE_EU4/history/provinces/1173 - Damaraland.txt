@@ -1,0 +1,9 @@
+#1173 - Namib Desert / Skeleton Coast
+
+
+discovered_by = central_african
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

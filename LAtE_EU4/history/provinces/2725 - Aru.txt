@@ -1,0 +1,14 @@
+#2725 - Aru
+
+culture = moluccan
+religion = brethren
+capital = "Aru"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 60
+native_ferocity = 4
+native_hostileness = 8
+

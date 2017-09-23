@@ -1,0 +1,248 @@
+# Iowa
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 188 194 65 }
+
+
+
+
+leader_names = {
+
+	"Georgia" "Amelia" "Carl" "Barbara" "Dell" "Ronald" "Wheeler" "Franklin" "Obadiah" "Chester" 
+	"Herman" "Morris" "Gail" "Weakeah" "Peter" "Lewis" "Melena" "Summer" "Allison" "Keifer" 
+	"Adalbert" "Franjo" "Courtney" "Vincentz" "Amanda" "Kasimir" "Hammo" "Benjamin" "Daniel" "Rebecca" 
+	"Lorelei" "Richardt" "Eisentrude" "Wernher" "Ellen" "Rosa" "Rita" "Steffi" "Morits" "Thomm" 
+	"Stahlhilda" "Gottfrid" "Eustace" "Deborah" "Gladys" "Aurora" "Gabriella" "Edward" "Ned" "Burrill" 
+	"Payton" "Daniela" "Theodora" "Lawrenz" "Annelise" "Hedwig" "Locasta" "Viktor" "Micah" "Ann" 
+	"Violet" "Raymund" "Helene" "Flora" "Grimhilt" "Flower" "Gideon" "Albinus" "Myatt" "Jessa" 
+	"Dietlinde" "Billina" "Muriel" "April" "Leonard" "Zerubbabel" "Hunter" "Marty" "Pelham" "Caroline" 
+	"Ruth" "Isobel" "Landon" "Almira" "Harriet" "John" "Jeroboam" "Jezebel" "Merriweather" "Marceline" 
+	"Maud" "Cora" "Dorothy" "Oscar" "Wyatt" "Lana" "Otis" "Silas" "Jellia" "Garber" 
+	"Ashton" "Matilda" "Milo" "Regina" "Cole" "Maxine" "Nathaniel" "Wesley" "Elphaba" "Leah" 
+	"Grace" "Arduenna" "Gerald" "Abednego" "Ahad" "Hezekiah" "Nessarose" "Everett" "Jerome" "Ozma" 
+	"Roquat" "Samuel" "Belle" "Ignace" "Paul" "Phineas" "Harold" "Rachel" "Mary" "Shadrach" 
+	"Byrne" "Nichole" "Manasseh" "Joel" "Joseph" "Simon" "Dennis" "Lyman" "Ezekiel" "Salathiel" 
+	"Evanora" "Melville" "Emma" "Lurline" "Solomon" "Lavon" "Douglas" "Blaine" "Petunia" "Ralph" 
+	"Absalom" "Uriah" "Saul" "Lucas" "Alice" "Amon" "Ana" "Martha" "Fairuza" "George" 
+	"Sheldon" "Betsy" "Asa" "Amos" "Andrew" "Alvin" "Anson" "Adam" "Amzi" "Bartholomew" 
+	"Calvin" "Clark" "David" "Dale" "Donald" "Dwight" "Ebeneezer" "Emmett" "Emerson" "Elijah" 
+	"Elliot" "Frexspar" "Glen" "Hank" "Horace" "Holcomb" "Isaac" "Jeconiah" "Josiah" "Jacob" 
+	"Leslie" "Mishach" "Meyer" "Othniel" "Othman" "Pedaiah" "Pentecost" "Pomeroy" "Panphile" "Poynter" 
+	"Philip" "Rehoboam" "Randell" "Rockwell" "Seth" "Sander" "Theodore" "Tom" "Theophile" "Wilson" 
+	"Whelan" "Zebediah" "Zechariah" }
+monarch_names = {
+	"Georgia #0" = -1
+	"Amelia #0" = -1
+	"Carl #1" = 18
+	"Barbara #0" = -1
+	"Dell #0" = 1
+	"Ronald #0" = 1
+	"Wheeler #0" = 1
+	"Franklin #3" = 21
+	"Obadiah #2" = 33
+	"Chester #0" = 1
+	"Herman #0" = 1
+	"Morris #0" = 1
+	"Gail #0" = -1
+	"Weakeah #0" = -1
+	"Peter #0" = 1
+	"Lewis #0" = 1
+	"Melena #0" = -1
+	"Summer #0" = -1
+	"Allison #0" = -1
+	"Keifer #0" = 1
+	"Adalbert #0" = 1
+	"Franjo #0" = 1
+	"Courtney #0" = -1
+	"Vincentz #0" = 1
+	"Amanda #0" = -1
+	"Kasimir #0" = 1
+	"Hammo #0" = 1
+	"Benjamin #0" = 1
+	"Daniel #0" = 1
+	"Rebecca #0" = -1
+	"Lorelei #0" = -1
+	"Richardt #0" = 1
+	"Eisentrude #0" = -1
+	"Wernher #0" = 1
+	"Ellen #0" = -1
+	"Rosa #0" = -1
+	"Rita #0" = -1
+	"Steffi #0" = -1
+	"Morits #0" = 1
+	"Thomm #0" = 1
+	"Stahlhilda #0" = -1
+	"Gottfrid #0" = 1
+	"Eustace #0" = 1
+	"Deborah #0" = -1
+	"Gladys #0" = -1
+	"Aurora #0" = -1
+	"Gabriella #0" = -1
+	"Edward #0" = 1
+	"Ned #1" = 21
+	"Burrill #0" = 1
+	"Payton #0" = 1
+	"Daniela #0" = -1
+	"Theodora #0" = -1
+	"Lawrenz #0" = 1
+	"Annelise #0" = -1
+	"Hedwig #0" = -1
+	"Locasta #0" = -1
+	"Viktor #0" = 1
+	"Micah #0" = 1
+	"Ann #0" = -1
+	"Violet #0" = -1
+	"Raymund #0" = 1
+	"Helene #0" = -1
+	"Flora #0" = -1
+	"Grimhilt #0" = -1
+	"Flower #0" = -1
+	"Gideon #0" = 1
+	"Albinus #0" = 1
+	"Myatt #4" = 24
+	"Jessa #0" = -1
+	"Dietlinde #0" = -1
+	"Billina #0" = -1
+	"Muriel #0" = -1
+	"April #0" = -1
+	"Leonard #1" = 24
+	"Zerubbabel #0" = 1
+	"Hunter #0" = 1
+	"Marty #0" = 1
+	"Pelham #0" = 1
+	"Caroline #0" = -1
+	"Ruth #0" = -1
+	"Isobel #0" = -1
+	"Landon #0" = 1
+	"Almira #0" = -1
+	"Harriet #0" = -1
+	"John #0" = 1
+	"Jeroboam #0" = 1
+	"Jezebel #0" = -1
+	"Merriweather #0" = 1
+	"Marceline #0" = -1
+	"Maud #0" = -1
+	"Cora #0" = -1
+	"Dorothy #0" = -1
+	"Oscar #0" = 1
+	"Wyatt #0" = 1
+	"Lana #0" = -1
+	"Otis #0" = 1
+	"Silas #0" = 1
+	"Jellia #1" = -19
+	"Garber #0" = 1
+	"Ashton #0" = 1
+	"Matilda #0" = -1
+	"Milo #0" = 1
+	"Regina #0" = -1
+	"Cole #0" = 1
+	"Maxine #0" = -1
+	"Nathaniel #1" = 18
+	"Wesley #0" = 1
+	"Elphaba #0" = -1
+	"Leah #0" = -1
+	"Grace #0" = -1
+	"Arduenna #0" = -1
+	"Gerald #0" = 1
+	"Abednego #0" = 1
+	"Ahad #0" = 1
+	"Hezekiah #0" = 1
+	"Nessarose #0" = -1
+	"Everett #0" = 1
+	"Jerome #0" = 1
+	"Ozma #0" = -1
+	"Roquat #0" = 1
+	"Samuel #0" = 1
+	"Belle #0" = -1
+	"Ignace #0" = 1
+	"Paul #0" = 1
+	"Phineas #0" = 1
+	"Harold #0" = 1
+	"Rachel #0" = -1
+	"Mary #0" = -1
+	"Shadrach #0" = 1
+	"Byrne #0" = 1
+	"Nichole #0" = -1
+	"Manasseh #0" = 1
+	"Joel #0" = 1
+	"Joseph #0" = 1
+	"Simon #0" = 1
+	"Dennis #1" = 21
+	"Lyman #0" = 1
+	"Ezekiel #0" = 1
+	"Salathiel #0" = 1
+	"Evanora #0" = -1
+	"Melville #0" = 1
+	"Emma #0" = -1
+	"Lurline #0" = -1
+	"Solomon #0" = 1
+	"Lavon #1" = 24
+	"Douglas #0" = 1
+	"Blaine #0" = 1
+	"Petunia #0" = -1
+	"Ralph #0" = 1
+	"Absalom #0" = 1
+	"Uriah #0" = 1
+	"Saul #0" = 1
+	"Lucas #0" = 1
+	"Alice #0" = -1
+	"Amon #0" = 1
+	"Ana #0" = -1
+	"Martha #0" = -1
+	"Fairuza #0" = -1
+	"George #1" = 0
+	"Sheldon #1" = 0
+	"Betsy #1" = -1
+	"Asa #0" = 0
+	"Amos #0" = 0
+	"Andrew #0" = 0
+	"Alvin #0" = 0
+	"Anson #0" = 0
+	"Adam #0" = 0
+	"Amzi #0" = 0
+	"Bartholomew #0" = 0
+	"Calvin #0" = 0
+	"Clark #0" = 0
+	"David #0" = 0
+	"Dale #0" = 0
+	"Donald #0" = 0
+	"Dwight #0" = 0
+	"Ebeneezer #0" = 0
+	"Emmett #0" = 0
+	"Emerson #0" = 0
+	"Elijah #0" = 0
+	"Elliot #0" = 0
+	"Frexspar #0" = 0
+	"Glen #0" = 0
+	"Hank #0" = 0
+	"Horace #0" = 0
+	"Holcomb #0" = 0
+	"Isaac #0" = 0
+	"Jeconiah #0" = 0
+	"Josiah #0" = 0
+	"Jacob #0" = 0
+	"Leslie #0" = 0
+	"Mishach #0" = 0
+	"Meyer #0" = 0
+	"Othniel #0" = 0
+	"Othman #0" = 0
+	"Pedaiah #0" = 0
+	"Pentecost #0" = 0
+	"Pomeroy #0" = 0
+	"Panphile #0" = 0
+	"Poynter #0" = 0
+	"Philip #0" = 0
+	"Rehoboam #0" = 0
+	"Randell #0" = 0
+	"Rockwell #0" = 0
+	"Seth #0" = 0
+	"Sander #0" = 0
+	"Theodore #0" = 0
+	"Tom #0" = 0
+	"Theophile #0" = 0
+	"Wilson #0" = 0
+	"Whelan #0" = 0
+	"Zebediah #0" = 0
+	"Zechariah #0" = 0
+}
+

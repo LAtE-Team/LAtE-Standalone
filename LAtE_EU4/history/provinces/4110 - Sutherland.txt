@@ -1,0 +1,37 @@
+#4110 - Sutherland
+
+#owner = SCO
+#controller = SCO
+culture = highland_scottish
+religion = thelemic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Dornoch"
+is_city = no
+estate = estate_nobles
+#add_core= SCO
+#add_core= HSC
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+# = { religion = reformed }
+# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB }
+# = { revolt = {} #controller = SCO }
+# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Jacobite Rising
+# = { revolt = {} #controller = SCO }
+# = {	#owner = GBR
+	#controller = GBR
+	#add_core= GBR
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

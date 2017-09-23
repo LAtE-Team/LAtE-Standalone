@@ -1,0 +1,27 @@
+# Boonslick
+government = peasants_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = riverlander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 902
+3020.4.25 = {
+	monarch = {
+		name = "Burton"
+		birth_date = 2993.10.15
+		dynasty = "Cole"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = silver_tongue_personality
+
+}
+3053.1.1 {
+	capital = 902
+	add_treasury = 37
+	add_prestige = 83
+}

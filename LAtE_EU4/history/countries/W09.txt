@@ -1,0 +1,26 @@
+# Coiba
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = istmeno
+religion = brethren
+clear_scripted_personalities = yes
+capital = 2664
+3021.7.1 = {
+	monarch = {
+		name = "Martín"
+		birth_date = 2984.8.1
+		dynasty = "Bello"
+		adm = 3
+		dip = 0
+		mil = 5
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 2664
+	add_treasury = 226
+	add_prestige = 63
+}

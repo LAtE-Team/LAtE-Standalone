@@ -1,0 +1,5 @@
+government = feudal_monarchy
+primary_culture = al_suryah_arabic
+religion = catholic
+technology_group = indian
+capital = 1855	# Sidon

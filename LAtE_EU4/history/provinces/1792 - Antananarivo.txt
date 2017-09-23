@@ -1,0 +1,19 @@
+#1792 - Imerina
+
+owner = MIR
+controller = MIR
+add_core = MIR
+culture = madagasque
+religion = zanahary
+capital = "Antananarivo"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+discovered_by = east_african
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

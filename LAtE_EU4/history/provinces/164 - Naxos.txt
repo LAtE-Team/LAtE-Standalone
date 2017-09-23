@@ -1,0 +1,39 @@
+#164 - Naxos
+
+#owner = NAX
+#controller = NAX
+culture = greek
+religion = hellenic_pagan
+capital = "Naxos"
+trade_goods = wine
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= NAX
+
+
+
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+
+
+# = { unrest = 5 } # General discontent with the Janissaries' dominance
+# = { unrest = 0 }
+# = {	#owner = TUR
+	#controller = TUR
+	#add_core= TUR
+#}
+# = { base_tax = 1 base_production = 1 } # The decentralizing effect of the provincial system
+# = { #controller = RUS } # Occupied by Russia
+# = { #controller = TUR }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

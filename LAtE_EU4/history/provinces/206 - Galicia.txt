@@ -1,0 +1,44 @@
+#206 - Galicia
+
+#owner = CAS		#Juan II of Castille
+#controller = CAS
+#add_core= CAS
+#add_core= GAL
+culture = galician
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "A Corunha" 
+is_city = no
+estate = estate_church
+ # Santiago de Compostela pilgrimage
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { unrest = 4 } # Second war of the "irmandiños"
+# = { unrest = 0 } # End of the Second war of the "irmandiños"
+# = { #controller = POR }
+# = { #controller = CAS }
+# = { remove_core = GAL }
+# = {	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
+# = { remove_core = CAS }
+# = { revolt = { type = pretender_rebels size = 2 leader = "Fernando" } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 2 leader = "Fernando" } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

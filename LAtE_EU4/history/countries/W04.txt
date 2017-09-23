@@ -1,0 +1,37 @@
+# Grand Trinidad
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = calypsonian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 502
+3049.3.11 = {
+	monarch = {
+		name = "Nicki"
+		birth_date = 3037.3.6
+		dynasty = "Best"
+		female = yes
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = pious_personality
+	heir = {
+		name = "Ian"
+		monarch_name = "Ian"
+		dynasty = "Best"
+		birth_date = 3009.10.14
+		death_date = 3089.10.14
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_heir_personality = greedy_personality
+}
+3053.1.1 {
+	capital = 502
+	add_treasury = 26
+	add_prestige = 123
+}

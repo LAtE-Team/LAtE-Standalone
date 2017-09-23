@@ -1,0 +1,20 @@
+#606 - Panduranga
+
+owner = DAI
+controller = DAI
+culture = cham
+religion = mahayana
+capital = "Panduranga"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= DAI
+discovered_by = chinese
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

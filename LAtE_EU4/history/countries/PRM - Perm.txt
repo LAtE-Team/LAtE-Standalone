@@ -1,0 +1,17 @@
+government = oligarchic_republic
+primary_culture = russian
+religion = rust_cultist
+technology_group = indian
+capital = 1963	# Cherdyn
+government_rank = 1
+
+
+1481.1.1 = {
+	monarch = {
+		name = "Helge"
+		dynasty = "Tversky"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}

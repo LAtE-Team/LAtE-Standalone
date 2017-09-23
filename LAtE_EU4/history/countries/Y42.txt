@@ -1,0 +1,36 @@
+# Iowa
+government = despotic_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = grangelander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 905
+3050.10.17 = {
+	monarch = {
+		name = "Carl"
+		birth_date = 3019.6.4
+		dynasty = "Steinbach"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Dell"
+		monarch_name = "Dell"
+		dynasty = "Steinbach"
+		birth_date = 3044.7.24
+		death_date = 3124.7.24
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_heir_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 905
+	add_treasury = 12
+	add_prestige = 148
+}

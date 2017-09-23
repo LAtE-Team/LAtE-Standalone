@@ -1,0 +1,28 @@
+# The Inner Banks
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4643
+3035.9.14 = {
+	monarch = {
+		name = "Antonia"
+		birth_date = 2984.5.3
+		dynasty = "Hammond"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 4643
+	add_treasury = 59
+	add_prestige = 204
+	elector = no
+}

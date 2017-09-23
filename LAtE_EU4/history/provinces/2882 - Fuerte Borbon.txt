@@ -1,0 +1,24 @@
+# - Fuerte Borbon
+
+owner = PRG
+controller = PRG
+add_core = PRG
+culture = litoraleno
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+religion = candomble
+capital = "Fuerte Borbon"
+is_city = yes
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 50
+native_ferocity = 1
+native_hostileness = 7
+

@@ -1,0 +1,19 @@
+#1176 - Roggeveld
+
+owner = KIM
+controller = KIM
+add_core = KIM
+culture = afrikaner
+religion = mwari
+capital = "Roggeveld"
+trade_goods = wine
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+is_city = yes
+discovered_by = central_african
+

@@ -1,0 +1,26 @@
+#2318 - Al Wahat
+
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = al_misr_arabic
+religion = thelemic
+capital = "Al Wahat"
+is_city = yes
+base_manpower = 1
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+#discovered_by = nomad_group
+discovered_by = indian
+discovered_by = east_african
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

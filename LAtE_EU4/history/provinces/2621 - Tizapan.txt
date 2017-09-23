@@ -1,0 +1,45 @@
+# No previous file for Tizapan
+
+culture = tecos
+#owner = CLM
+#controller = CLM
+#add_core= CLM
+is_city = no
+religion = nahuatl
+capital = "Tizapan"
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+add_local_autonomy = 50
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+
+
+# = { #owner = TAR #controller = TAR }
+# = { #add_core= TAR }
+# = {
+ 	#owner = CLM
+	#controller = CLM 
+	remove_core = TAR	
+}
+# = {
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	religion = catholic
+	unrest = 5
+}
+# = { culture = castillian }
+# = { #owner = MEX #add_core= MEX #controller = MEX }
+

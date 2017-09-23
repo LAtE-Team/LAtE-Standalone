@@ -1,0 +1,42 @@
+#228 - Beira
+
+#owner = POR
+#controller = POR
+culture = portugese
+religion = matrem
+capital = "Viseu"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= POR
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+
+
+#fort_15th = yes
+# = { fort_16th = yes }
+# = { #controller = SPA }
+# = { #controller = POR }
+# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 0 }
+# = { fort_16th = no fort_17th = yes }
+# = { fort_17th = no fort_18th = yes }
+# = { #controller = FRA } # Occupied by France
+# = { #controller = POR }
+# = { #controller = FRA } # Invaded after the battle of Côa
+# = { #controller = POR } # The Napoleonic army retreats from Portugal
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

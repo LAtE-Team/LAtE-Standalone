@@ -1,0 +1,158 @@
+# Montérégie
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 93 98 187 }
+
+
+
+
+leader_names = {
+
+	"Anna" "Katrina" "Oswald" "Theodosia" "Donata" "Amelia" "Tiaogeara" "Gerrit" "Gavia" "Leo" 
+	"Carillon" "Bella" "Guyasut" "Harmanus" "Brom" "Molly" "Nicholas" "Montgomery" "Andre" "Gemolo" 
+	"Geraldine" "Doris" "Renata" "Diedrich" "Charles" "Abel" "Caroline" "Margaret" "Cangueese" "Shelley" 
+	"Ogarita" "Oliver" "Richard" "Jane" "Bethany" "Hudson" "Norton" "Hillary" "Hunter" "Cyrus" 
+	"Andries" "Anton" "August" "Artur" "Albert" "Archibald" "Baltus" "Benjamin" "Cashunyon" "Cornelis" 
+	"Clinton" "Cephas" "Chester" "Cotton" "Derrick" "Daniel" "Deserontyon" "Delby" "Darius" "David" 
+	"Ebenezer" "Ethan" "Edgar" "Ernest" "Elihu" "Edwin" "Erastus" "Ellis" "Eli" "Frederick" 
+	"Franklin" "Friso" "Geoffrey" "Gideon" "Hendrick" "Hamilton" "Holbrook" "Hugh" "Himerius" "Ichabod" 
+	"Isaac" "Johannes" "Jervis" "Josiah" "Jocelyn" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent" 
+	"Kel" "Launcelot" "Lewis" "Lemuel" "Morris" "Martin" "Malcolm" "Mather" "Nathaniel" "Otetian" 
+	"Ogden" "Pindar" "Philip" "Phinehas" "Quincy" "Quentin" "Quoz" "Roger" "Raymond" "Rip" 
+	"Rodney" "Rufus" "Rollin" "Stephanus" "Stanwix" "Samuel" "Silus" "Simon" "Solon" "Traynor" 
+	"Theodore" "Tehwehron" "Tompkin" "Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester" 
+	"Xander" }
+monarch_names = {
+	"Anna #0" = -1
+	"Katrina #0" = -1
+	"Oswald #0" = 1
+	"Theodosia #0" = -1
+	"Donata #0" = -1
+	"Amelia #0" = -1
+	"Tiaogeara #0" = -1
+	"Gerrit #0" = 1
+	"Gavia #0" = -1
+	"Leo #0" = 1
+	"Carillon #0" = 1
+	"Bella #0" = -1
+	"Guyasut #0" = 1
+	"Harmanus #0" = 1
+	"Brom #0" = 1
+	"Molly #0" = -1
+	"Nicholas #0" = 1
+	"Montgomery #0" = 1
+	"Andre #0" = 1
+	"Gemolo #0" = 1
+	"Geraldine #0" = -1
+	"Doris #0" = -1
+	"Renata #0" = -1
+	"Diedrich #0" = 1
+	"Charles #0" = 1
+	"Abel #0" = 1
+	"Caroline #0" = -1
+	"Margaret #0" = -1
+	"Cangueese #0" = 1
+	"Shelley #0" = -1
+	"Ogarita #0" = -1
+	"Oliver #0" = 1
+	"Richard #0" = 1
+	"Jane #0" = -1
+	"Bethany #0" = -1
+	"Hudson #0" = 1
+	"Norton #0" = 1
+	"Hillary #0" = -1
+	"Hunter #0" = 1
+	"Cyrus #0" = 1
+	"Andries #0" = 0
+	"Anton #0" = 0
+	"August #0" = 0
+	"Artur #0" = 0
+	"Albert #0" = 0
+	"Archibald #0" = 0
+	"Baltus #0" = 0
+	"Benjamin #0" = 0
+	"Cashunyon #0" = 0
+	"Cornelis #0" = 0
+	"Clinton #0" = 0
+	"Cephas #0" = 0
+	"Chester #0" = 0
+	"Cotton #0" = 0
+	"Derrick #0" = 0
+	"Daniel #0" = 0
+	"Deserontyon #0" = 0
+	"Delby #0" = 0
+	"Darius #0" = 0
+	"David #0" = 0
+	"Ebenezer #0" = 0
+	"Ethan #0" = 0
+	"Edgar #0" = 0
+	"Ernest #0" = 0
+	"Elihu #0" = 0
+	"Edwin #0" = 0
+	"Erastus #0" = 0
+	"Ellis #0" = 0
+	"Eli #0" = 0
+	"Frederick #0" = 0
+	"Franklin #0" = 0
+	"Friso #0" = 0
+	"Geoffrey #0" = 0
+	"Gideon #0" = 0
+	"Hendrick #0" = 0
+	"Hamilton #0" = 0
+	"Holbrook #0" = 0
+	"Hugh #0" = 0
+	"Himerius #0" = 0
+	"Ichabod #0" = 0
+	"Isaac #0" = 0
+	"Johannes #0" = 0
+	"Jervis #0" = 0
+	"Josiah #0" = 0
+	"Jocelyn #0" = 0
+	"Jacobus #0" = 0
+	"Jasper #0" = 0
+	"Jovan #0" = 0
+	"Kirke #0" = 0
+	"Kent #0" = 0
+	"Kel #0" = 0
+	"Launcelot #0" = 0
+	"Lewis #0" = 0
+	"Lemuel #0" = 0
+	"Morris #0" = 0
+	"Martin #0" = 0
+	"Malcolm #0" = 0
+	"Mather #0" = 0
+	"Nathaniel #0" = 0
+	"Otetian #0" = 0
+	"Ogden #0" = 0
+	"Pindar #0" = 0
+	"Philip #0" = 0
+	"Phinehas #0" = 0
+	"Quincy #0" = 0
+	"Quentin #0" = 0
+	"Quoz #0" = 0
+	"Roger #0" = 0
+	"Raymond #0" = 0
+	"Rip #0" = 0
+	"Rodney #0" = 0
+	"Rufus #0" = 0
+	"Rollin #0" = 0
+	"Stephanus #0" = 0
+	"Stanwix #0" = 0
+	"Samuel #0" = 0
+	"Silus #0" = 0
+	"Simon #0" = 0
+	"Solon #0" = 0
+	"Traynor #0" = 0
+	"Theodore #0" = 0
+	"Tehwehron #0" = 0
+	"Tompkin #0" = 0
+	"Truman #0" = 0
+	"Vincent #0" = 0
+	"William #0" = 0
+	"Washington #0" = 0
+	"Walter #0" = 0
+	"Whitelaw #0" = 0
+	"Worcester #0" = 0
+	"Xander #0" = 0
+}
+

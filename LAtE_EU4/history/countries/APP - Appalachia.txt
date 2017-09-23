@@ -1,0 +1,37 @@
+# Appalachia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachian
+religion = consumerist
+clear_scripted_personalities = yes
+capital = 2551
+3038.6.5 = {
+	monarch = {
+		name = "Dean"
+		birth_date = 3011.10.1
+		dynasty = "Domschke"
+		adm = 1
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = pious_personality
+	heir = {
+		name = "Oliver"
+		monarch_name = "Oliver"
+		dynasty = "Domschke"
+		birth_date = 3034.11.9
+		death_date = 3114.11.9
+		adm = 5
+		dip = 0
+		mil = 2
+	}
+	add_heir_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 2551
+	add_treasury = 9
+	add_prestige = 98
+}

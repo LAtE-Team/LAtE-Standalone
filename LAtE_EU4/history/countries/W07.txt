@@ -1,0 +1,38 @@
+# Andina
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = cartagenero
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 832
+3039.9.28 = {
+	monarch = {
+		name = "Clitómaco IV"
+		birth_date = 3025.9.26
+		dynasty = "Giron"
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = craven_personality
+}
+3047.9.17 = {
+	heir = {
+		name = "Clitómaco"
+		monarch_name = "Clitómaco V"
+		dynasty = "Giron"
+		birth_date = 3047.9.17
+		death_date = 3127.9.17
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 832
+	add_treasury = 64
+	add_prestige = 190
+}

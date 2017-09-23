@@ -1,0 +1,17 @@
+#633 - Flores
+
+culture = papuan
+religion = brethren
+capital = "Flores"
+trade_goods = spices
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = chinese

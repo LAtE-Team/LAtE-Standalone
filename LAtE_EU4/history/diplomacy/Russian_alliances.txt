@@ -1,0 +1,8 @@
+
+vassal = {
+	#subject_type = "colony"
+	first = NRU
+	second = NRA
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

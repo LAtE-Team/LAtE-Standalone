@@ -1,0 +1,27 @@
+# Ogeechee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4661
+3009.11.11 = {
+	monarch = {
+		name = "Dwight"
+		birth_date = 3008.7.3
+		dynasty = "Lomax"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 4661
+	add_treasury = 37
+	add_prestige = 343
+	elector = no
+}

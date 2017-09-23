@@ -1,0 +1,6 @@
+government = feudal_monarchy
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 523	# Lucknow
+

@@ -1,0 +1,27 @@
+# Wiregrass
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4669
+3051.1.15 = {
+	monarch = {
+		name = "Laurina"
+		birth_date = 2994.5.16
+		dynasty = "Burgonet"
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 4669
+	add_treasury = 9
+	add_prestige = 125
+	elector = no
+}

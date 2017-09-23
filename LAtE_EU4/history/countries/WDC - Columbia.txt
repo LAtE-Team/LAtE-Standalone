@@ -1,0 +1,26 @@
+# Washington
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = beltway
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4618
+3053.1.1= {
+	monarch = {
+		name = "Solon"
+		birth_date = 3007.10.5
+		dynasty = "Bethesda"
+		adm = 2
+		dip = 4
+		mil = 6
+	}
+	add_ruler_personality = tolerant_personality
+}
+3053.1.1 {
+	capital = 4618
+	add_treasury = 8
+	add_prestige = 86
+	elector = no
+}

@@ -1,0 +1,22 @@
+#138 - Zeta
+
+#owner = MON
+#controller = MON
+culture = serbian
+religion = hellenic_pagan
+capital = "Zabljak"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= MON
+#add_core= VEN #Venetian Albania
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

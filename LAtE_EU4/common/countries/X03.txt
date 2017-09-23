@@ -1,0 +1,176 @@
+# Wyoming
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 0 82 165 }
+
+
+
+
+leader_names = {
+
+	"Brad" "Damian" "Beverly" "Irine" "Laura" "Garner" "Jinx" "Ebbe" "Jaime" "Mario" 
+	"Hiidangsdaa" "Edward" "Valerie" "Susan" "Mineralis" "Chogan" "Apenakosapop" "Matoseapiw" "Matchitehew" "Megedagik" 
+	"Thomas" "Kuhbert" "Thietmar" "Harzer" "Charles-Michel" "Michel" "Craig" "Adam" "Allen" "Andrew" 
+	"Art" "Ashby" "Bosko" "Boyle" "Brandon" "Breen" "Brendan" "Brock" "Carr" "Clive" 
+	"Collin" "Corbett" "Cramer" "Creed" "Curtis" "Dallas" "Daniel" "Donald" "Douglass" "Dunn" 
+	"Eckhart" "Egan" "Ehren" "Elliott" "Ellis" "Emerson" "Engelbart" "Eric" "Ernest" "Farel" 
+	"Faust" "Feldberg" "Francis" "Frank" "Fred" "Gabe" "Gaffer" "Galen" "Glenn" "Goldblum" 
+	"Gordon" "Graham" "Gray" "Greg" "Gus" "Hagen" "Hammond" "Henry" "Hud" "Jack" 
+	"Jarman" "Jason" "Jay" "Jeff" "Jello" "Jonathan" "Josh" "Judd" "Justin" "Kaufman" 
+	"Keith" "Kirk" "Kumail" "Kurt" "Kyle" "Lance" "Lawrence" "Linus" "Linux" "Logan" 
+	"Lou" "Lucas" "Malcolm" "Marcus" "Mark" "Marshall" "Matt" "Mel" "Mikey" "Monte" 
+	"Nicholas" "Norman" "Obo" "Oort" "Orlando" "Oswalt" "Patton" "Peter" "Pharoah" "Pietro" 
+	"Powell" "Pratchett" "Ray" "Robb" "Roe" "Rozz" "Rupp" "Ryan" "Salim" "Sam" 
+	"Schoon" "Sean" "Shepard" "Simon" "Spike" "Steffan" "Steve" "Stewart" "Storm" "Terrell" 
+	"Tucker" "Tyler" "Vincent" "Wagner" "Warren" "Wash" "Wrick" "Wright" }
+monarch_names = {
+	"Brad #0" = 1
+	"Damian #2" = 33
+	"Beverly #0" = -1
+	"Irine #0" = -1
+	"Laura #0" = -1
+	"Garner #0" = 1
+	"Jinx #0" = -1
+	"Ebbe #0" = 1
+	"Jaime #0" = 1
+	"Mario #0" = 1
+	"Hiidangsdaa #0" = 1
+	"Edward #0" = 1
+	"Valerie #0" = -1
+	"Susan #0" = -1
+	"Mineralis #1" = 0
+	"Chogan #1" = 0
+	"Apenakosapop #2" = 0
+	"Matoseapiw #2" = 0
+	"Matchitehew #1" = 0
+	"Megedagik #1" = 0
+	"Thomas #1" = 0
+	"Kuhbert #1" = 0
+	"Thietmar #1" = 0
+	"Harzer #1" = 0
+	"Charles-Michel #1" = 0
+	"Michel #1" = 0
+	"Craig #1" = 0
+	"Adam #0" = 0
+	"Allen #0" = 0
+	"Andrew #0" = 0
+	"Art #0" = 0
+	"Ashby #0" = 0
+	"Bosko #0" = 0
+	"Boyle #0" = 0
+	"Brandon #0" = 0
+	"Breen #0" = 0
+	"Brendan #0" = 0
+	"Brock #0" = 0
+	"Carr #0" = 0
+	"Clive #0" = 0
+	"Collin #0" = 0
+	"Corbett #0" = 0
+	"Cramer #0" = 0
+	"Creed #0" = 0
+	"Curtis #0" = 0
+	"Dallas #0" = 0
+	"Daniel #0" = 0
+	"Donald #0" = 0
+	"Douglass #0" = 0
+	"Dunn #0" = 0
+	"Eckhart #0" = 0
+	"Egan #0" = 0
+	"Ehren #0" = 0
+	"Elliott #0" = 0
+	"Ellis #0" = 0
+	"Emerson #0" = 0
+	"Engelbart #0" = 0
+	"Eric #0" = 0
+	"Ernest #0" = 0
+	"Farel #0" = 0
+	"Faust #0" = 0
+	"Feldberg #0" = 0
+	"Francis #0" = 0
+	"Frank #0" = 0
+	"Fred #0" = 0
+	"Gabe #0" = 0
+	"Gaffer #0" = 0
+	"Galen #0" = 0
+	"Glenn #0" = 0
+	"Goldblum #0" = 0
+	"Gordon #0" = 0
+	"Graham #0" = 0
+	"Gray #0" = 0
+	"Greg #0" = 0
+	"Gus #0" = 0
+	"Hagen #0" = 0
+	"Hammond #0" = 0
+	"Henry #0" = 0
+	"Hud #0" = 0
+	"Jack #0" = 0
+	"Jarman #0" = 0
+	"Jason #0" = 0
+	"Jay #0" = 0
+	"Jeff #0" = 0
+	"Jello #0" = 0
+	"Jonathan #0" = 0
+	"Josh #0" = 0
+	"Judd #0" = 0
+	"Justin #0" = 0
+	"Kaufman #0" = 0
+	"Keith #0" = 0
+	"Kirk #0" = 0
+	"Kumail #0" = 0
+	"Kurt #0" = 0
+	"Kyle #0" = 0
+	"Lance #0" = 0
+	"Lawrence #0" = 0
+	"Linus #0" = 0
+	"Linux #0" = 0
+	"Logan #0" = 0
+	"Lou #0" = 0
+	"Lucas #0" = 0
+	"Malcolm #0" = 0
+	"Marcus #0" = 0
+	"Mark #0" = 0
+	"Marshall #0" = 0
+	"Matt #0" = 0
+	"Mel #0" = 0
+	"Mikey #0" = 0
+	"Monte #0" = 0
+	"Nicholas #0" = 0
+	"Norman #0" = 0
+	"Obo #0" = 0
+	"Oort #0" = 0
+	"Orlando #0" = 0
+	"Oswalt #0" = 0
+	"Patton #0" = 0
+	"Peter #0" = 0
+	"Pharoah #0" = 0
+	"Pietro #0" = 0
+	"Powell #0" = 0
+	"Pratchett #0" = 0
+	"Ray #0" = 0
+	"Robb #0" = 0
+	"Roe #0" = 0
+	"Rozz #0" = 0
+	"Rupp #0" = 0
+	"Ryan #0" = 0
+	"Salim #0" = 0
+	"Sam #0" = 0
+	"Schoon #0" = 0
+	"Sean #0" = 0
+	"Shepard #0" = 0
+	"Simon #0" = 0
+	"Spike #0" = 0
+	"Steffan #0" = 0
+	"Steve #0" = 0
+	"Stewart #0" = 0
+	"Storm #0" = 0
+	"Terrell #0" = 0
+	"Tucker #0" = 0
+	"Tyler #0" = 0
+	"Vincent #0" = 0
+	"Wagner #0" = 0
+	"Warren #0" = 0
+	"Wash #0" = 0
+	"Wrick #0" = 0
+	"Wright #0" = 0
+}
+

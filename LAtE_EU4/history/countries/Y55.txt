@@ -1,0 +1,38 @@
+# Lead Belt
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = riverlander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4588
+3031.7.14 = {
+	monarch = {
+		name = "May"
+		birth_date = 3030.2.24
+		dynasty = "Krug"
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	heir = {
+		name = "Atohi"
+		monarch_name = "Atohi"
+		dynasty = "Krug"
+		birth_date = 3015.6.9
+		death_date = 3095.6.9
+		adm = 2
+		dip = 6
+		mil = 1
+	}
+	add_heir_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 4588
+	add_treasury = 16
+	add_prestige = 528
+}

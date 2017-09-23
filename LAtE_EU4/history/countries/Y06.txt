@@ -1,0 +1,26 @@
+# Hinesville
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2539
+3053.1.1 {
+	monarch = {
+		name = "Rufus"
+		birth_date = 3035.9.19
+		dynasty = "Ruffin"
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+	add_ruler_personality = just_personality
+}
+3053.1.1 {
+	capital = 2539
+	add_treasury = 16
+	add_prestige = 31
+	elector = no
+}

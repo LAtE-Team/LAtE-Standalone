@@ -1,0 +1,18 @@
+#4025 - Vatomandry
+
+owner = MIR
+controller = MIR
+add_core = MIR
+culture = madagasque
+religion = zanahary
+capital = "Vatomandry"
+trade_goods = slaves
+hre = no
+base_tax = 3 
+base_production = 2
+base_manpower = 2
+discovered_by = east_african
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

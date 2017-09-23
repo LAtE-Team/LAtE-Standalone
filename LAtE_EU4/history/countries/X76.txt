@@ -1,0 +1,26 @@
+# Grand Cayman
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = west_indian
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 485
+3021.5.14 = {
+	monarch = {
+		name = "Vincent"
+		birth_date = 3018.7.25
+		dynasty = "Rhone"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = malevolent_personality
+}
+3053.1.1 {
+	capital = 485
+	add_treasury = 67
+	add_prestige = 180
+}

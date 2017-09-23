@@ -1,0 +1,22 @@
+#4193 - Oshima
+
+owner = ANU
+controller = ANU
+add_core= ANU
+is_city = yes
+culture = togoku
+religion = shinto
+capital = "Katsuyama"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

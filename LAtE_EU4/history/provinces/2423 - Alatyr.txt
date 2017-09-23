@@ -1,0 +1,28 @@
+#2423 - Alatyr
+
+owner = VLD
+add_core = VLD
+controller = VLD
+culture = russian
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+discovered_by = indian
+capital = "Alatyr"
+
+
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+#discovered_by = nomad_group
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

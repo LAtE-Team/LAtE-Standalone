@@ -1,0 +1,18 @@
+government = daimyo
+government_rank = 1
+primary_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1021
+
+3050.1.1 = {
+	monarch = {
+		name = "Haruhi"
+		dynasty = "Suzumiya"
+		female = yes
+		birth_date = 3038.1.1
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}

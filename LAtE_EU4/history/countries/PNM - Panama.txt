@@ -1,0 +1,37 @@
+# Puente Grande
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = istmeno
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 835
+3040.6.10 = {
+	monarch = {
+		name = "Fernando II"
+		birth_date = 3024.7.28
+		dynasty = "Moralez"
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = cruel_personality
+	heir = {
+		name = "Estevan"
+		monarch_name = "Estevan"
+		dynasty = "Moralez"
+		birth_date = 3037.4.28
+		death_date = 3117.4.28
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+	add_heir_personality = expansionist_personality
+}
+3053.1.1 {
+	capital = 835
+	add_treasury = 36
+	add_prestige = 326
+}

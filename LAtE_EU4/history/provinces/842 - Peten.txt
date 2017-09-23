@@ -1,0 +1,39 @@
+#842 - Petén
+
+#owner = ITZ
+#controller = ITZ
+culture = putun
+religion = mesoamerican_religion
+capital = "Petén"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= ITZ
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+
+# = { discovered_by = SPA }
+
+# = { unrest = 5 } # Spanish attack
+# = {
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	culture = castillian
+	religion = catholic
+} # The remaining pop. was forced to resettle at Ciudad de Flores
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

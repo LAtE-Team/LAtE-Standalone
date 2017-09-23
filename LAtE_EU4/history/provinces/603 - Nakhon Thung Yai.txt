@@ -1,0 +1,32 @@
+#603 - Nakhon Thung Yai
+
+#owner = AYU
+#controller = AYU
+culture = central_thai
+religion = buddhism
+capital = "Nakhon Thung Yai"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = no
+#add_core= AYU
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+
+# = { discovered_by = POR }
+
+# = { capital = "Trat" }
+# = { unrest = 7 } # The Ayutthaya kingdom began to crumble
+# = { unrest = 0 }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,27 @@
+# - Umbria
+
+#owner = PAP
+#controller = PAP
+culture = umbrian 
+religion = hellenic_pagan 
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = wine
+base_manpower = 1
+capital = "Perugia" 
+is_city = no
+#add_core= PAP
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+
+extra_cost = 10
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,34 @@
+#58 - Anhalt
+
+#owner = ANH
+#controller = ANH 
+culture = saxon
+religion = catholic
+capital = "Dessau"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= ANH
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { religion = protestant }
+# = { unrest = 2 } # Wolfgang is placed under the ban by Charles V
+# = { unrest = 0 } # Wolfgang bought his land back
+# = { hre = no } # The Holy Roman Empire is dissolved
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

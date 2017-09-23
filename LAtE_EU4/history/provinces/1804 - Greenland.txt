@@ -1,0 +1,14 @@
+#1804 - Greenland
+
+
+
+
+# = { discovered_by = ENG }
+# = { discovered_by = GBR }
+# = { discovered_by = DAN }
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

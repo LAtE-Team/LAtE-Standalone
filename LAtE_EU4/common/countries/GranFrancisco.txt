@@ -1,0 +1,226 @@
+# Gran Francisco
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 233 188 217 }
+
+
+
+
+leader_names = {
+
+	"Cullen" "Aileen" "Sapphire" "Goldin" "Abrams" "Adam" "Al" "Alan" "Albert" "Alex" 
+	"Alfred" "Andrew" "Ansel" "Anthony" "Arguello" "Ari" "Armistead" "Arthur" "Ashby" "Barney" 
+	"Bayer" "Belli" "Ben" "Beniamino" "Benjamin" "Bertram" "Bill" "Bixby" "Blaise" "Blanken" 
+	"Brad" "Bradley" "Bruce" "Carlos" "Charles" "Chris" "Clark" "Clay" "Cliff" "Clint" 
+	"Corbett" "Cornell" "Craig" "Dane" "Daniel" "Danny" "Darren" "Darryl" "Dashiell" "David" 
+	"Deke" "Dekker" "Delmer" "Dimitri" "Dinesh" "Dolph" "Donald" "Dorman" "Doug" "Elon" 
+	"Emer" "Eric" "Erik" "Erlich" "Errico" "Eugene" "Fee" "Fillmoe" "Fisher" "Ford" 
+	"Forte" "Francis" "Frederick" "Fritz" "Gary" "Gavin" "George" "Getty" "Glen" "Glenark" 
+	"Glenecho" "Gordon" "Greg" "Gregory" "Gus" "Hal" "Hammett" "Hank" "Harry" "Herb" 
+	"Herron" "Hosain" "Huey" "James" "Jared" "Jay" "Jeremy" "Jerry" "Kamm" "Kantner" 
+	"Keith" "Kevin" "Kirk" "Laird" "Larry" "Lars" "Lathrop" "Laurel" "Laurence" "Lawrence" 
+	"Lee" "Leet" "Leiber" "Leonard" "Levitin" "Lewin" "Lewis" "Liev" "Lloyd" "London" 
+	"Losby" "Lucas" "Mann" "Marc" "Mark" "Mathis" "Max" "Mel" "Melvin" "Mervyn" 
+	"Michael" "Mike" "Moore" "Morris" "Naveen" "Nortman" "Orenthal" "Otis" "Paul" "Percy" 
+	"Pete" "Peter" "Phil" "Phillip" "Plate" "Potrero" "Rayburn" "Reid" "Reuter" "Ric" 
+	"Richard" "Rob" "Robert" "Ross" "Rupak" "Scott" "Shiloh" "Shum" "Somisspo" "Stanley" 
+	"Stanyan" "Steve" "Stuart" "Taro" "Taymour" "Terry" "Tevis" "Theobald" "Thyme" "Tim" 
+	"Tobin" "Todd" "Tom" "Tony" "Tucker" "Tupac" "Tyler" "Urbano" "Valor" "Victor" 
+	"Vince" "Walter" "Ware" "Warren" "Wash" "Wayne" "William" "Willie" "Wood" }
+monarch_names = {
+	"Cullen #1" = 18
+	"Aileen #0" = -1
+	"Sapphire #0" = -1
+	"Goldin #1" = 18
+	"Abrams #0" = 0
+	"Adam #0" = 0
+	"Al #0" = 0
+	"Alan #0" = 0
+	"Albert #0" = 0
+	"Alex #0" = 0
+	"Alfred #0" = 0
+	"Andrew #0" = 0
+	"Ansel #0" = 0
+	"Anthony #0" = 0
+	"Arguello #0" = 0
+	"Ari #0" = 0
+	"Armistead #0" = 0
+	"Arthur #0" = 0
+	"Ashby #0" = 0
+	"Barney #0" = 0
+	"Bayer #0" = 0
+	"Belli #0" = 0
+	"Ben #0" = 0
+	"Beniamino #0" = 0
+	"Benjamin #0" = 0
+	"Bertram #0" = 0
+	"Bill #0" = 0
+	"Bixby #0" = 0
+	"Blaise #0" = 0
+	"Blanken #0" = 0
+	"Brad #0" = 0
+	"Bradley #0" = 0
+	"Bruce #0" = 0
+	"Carlos #0" = 0
+	"Charles #0" = 0
+	"Chris #0" = 0
+	"Clark #0" = 0
+	"Clay #0" = 0
+	"Cliff #0" = 0
+	"Clint #0" = 0
+	"Corbett #0" = 0
+	"Cornell #0" = 0
+	"Craig #0" = 0
+	"Dane #0" = 0
+	"Daniel #0" = 0
+	"Danny #0" = 0
+	"Darren #0" = 0
+	"Darryl #0" = 0
+	"Dashiell #0" = 0
+	"David #0" = 0
+	"Deke #0" = 0
+	"Dekker #0" = 0
+	"Delmer #0" = 0
+	"Dimitri #0" = 0
+	"Dinesh #0" = 0
+	"Dolph #0" = 0
+	"Donald #0" = 0
+	"Dorman #0" = 0
+	"Doug #0" = 0
+	"Elon #0" = 0
+	"Emer #0" = 0
+	"Eric #0" = 0
+	"Erik #0" = 0
+	"Erlich #0" = 0
+	"Errico #0" = 0
+	"Eugene #0" = 0
+	"Fee #0" = 0
+	"Fillmoe #0" = 0
+	"Fisher #0" = 0
+	"Ford #0" = 0
+	"Forte #0" = 0
+	"Francis #0" = 0
+	"Frederick #0" = 0
+	"Fritz #0" = 0
+	"Gary #0" = 0
+	"Gavin #0" = 0
+	"George #0" = 0
+	"Getty #0" = 0
+	"Glen #0" = 0
+	"Glenark #0" = 0
+	"Glenecho #0" = 0
+	"Gordon #0" = 0
+	"Greg #0" = 0
+	"Gregory #0" = 0
+	"Gus #0" = 0
+	"Hal #0" = 0
+	"Hammett #0" = 0
+	"Hank #0" = 0
+	"Harry #0" = 0
+	"Herb #0" = 0
+	"Herron #0" = 0
+	"Hosain #0" = 0
+	"Huey #0" = 0
+	"James #0" = 0
+	"Jared #0" = 0
+	"Jay #0" = 0
+	"Jeremy #0" = 0
+	"Jerry #0" = 0
+	"Kamm #0" = 0
+	"Kantner #0" = 0
+	"Keith #0" = 0
+	"Kevin #0" = 0
+	"Kirk #0" = 0
+	"Laird #0" = 0
+	"Larry #0" = 0
+	"Lars #0" = 0
+	"Lathrop #0" = 0
+	"Laurel #0" = 0
+	"Laurence #0" = 0
+	"Lawrence #0" = 0
+	"Lee #0" = 0
+	"Leet #0" = 0
+	"Leiber #0" = 0
+	"Leonard #0" = 0
+	"Levitin #0" = 0
+	"Lewin #0" = 0
+	"Lewis #0" = 0
+	"Liev #0" = 0
+	"Lloyd #0" = 0
+	"London #0" = 0
+	"Losby #0" = 0
+	"Lucas #0" = 0
+	"Mann #0" = 0
+	"Marc #0" = 0
+	"Mark #0" = 0
+	"Mathis #0" = 0
+	"Max #0" = 0
+	"Mel #0" = 0
+	"Melvin #0" = 0
+	"Mervyn #0" = 0
+	"Michael #0" = 0
+	"Mike #0" = 0
+	"Moore #0" = 0
+	"Morris #0" = 0
+	"Naveen #0" = 0
+	"Nortman #0" = 0
+	"Orenthal #0" = 0
+	"Otis #0" = 0
+	"Paul #0" = 0
+	"Percy #0" = 0
+	"Pete #0" = 0
+	"Peter #0" = 0
+	"Phil #0" = 0
+	"Phillip #0" = 0
+	"Plate #0" = 0
+	"Potrero #0" = 0
+	"Rayburn #0" = 0
+	"Reid #0" = 0
+	"Reuter #0" = 0
+	"Ric #0" = 0
+	"Richard #0" = 0
+	"Rob #0" = 0
+	"Robert #0" = 0
+	"Ross #0" = 0
+	"Rupak #0" = 0
+	"Scott #0" = 0
+	"Shiloh #0" = 0
+	"Shum #0" = 0
+	"Somisspo #0" = 0
+	"Stanley #0" = 0
+	"Stanyan #0" = 0
+	"Steve #0" = 0
+	"Stuart #0" = 0
+	"Taro #0" = 0
+	"Taymour #0" = 0
+	"Terry #0" = 0
+	"Tevis #0" = 0
+	"Theobald #0" = 0
+	"Thyme #0" = 0
+	"Tim #0" = 0
+	"Tobin #0" = 0
+	"Todd #0" = 0
+	"Tom #0" = 0
+	"Tony #0" = 0
+	"Tucker #0" = 0
+	"Tupac #0" = 0
+	"Tyler #0" = 0
+	"Urbano #0" = 0
+	"Valor #0" = 0
+	"Victor #0" = 0
+	"Vince #0" = 0
+	"Walter #0" = 0
+	"Ware #0" = 0
+	"Warren #0" = 0
+	"Wash #0" = 0
+	"Wayne #0" = 0
+	"William #0" = 0
+	"Willie #0" = 0
+	"Wood #0" = 0
+
+
+	"Daria #0" = -1
+	"Rona #0" = -1
+	"Colleen #0" = -1
+}
+

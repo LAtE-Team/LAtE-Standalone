@@ -1,0 +1,41 @@
+#221 - Murcia
+
+#owner = CAS		# Juan II of Castille
+#controller = CAS
+#add_core= CAS
+culture = andalucian
+religion = matrem 
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Cartagena" 
+estate = estate_burghers
+is_city = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {	#controller = SPA
+	#owner = SPA
+	#add_core= SPA
+#} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+# = { culture = castillian }
+# = { remove_core = CAS }
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

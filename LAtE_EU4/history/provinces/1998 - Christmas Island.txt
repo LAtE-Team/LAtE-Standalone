@@ -1,0 +1,13 @@
+#1998 - Christmas Island
+
+culture = cantonese #Maybe, EU4 Chinese cultures are confusing
+religion = buddhism
+capital = "Flying Fish Cove"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 3
+native_hostileness = 1

@@ -1,0 +1,128 @@
+# Dominica
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 0 20 }
+
+
+
+
+leader_names = {
+
+	"Claudia" "Monica" "Margarita" "Clara" "Michele" "Jaime" "Oscar" "Isabel" "Manuel" "Aurelio" 
+	"Alejandro" "Ángel" "Antonio" "Alfredo" "Anselmo" "Agostino" "Armentario" "Albito" "Álvaro" "Arsenio" 
+	"Blas Roca" "Bolivar" "Batista" "Bartolomé" "Bienvenido" "Basilio" "Barbarito" "Carlos" "Claudio" "Cándido" 
+	"Calixto" "César" "Castro" "Desiderio" "Elián" "Eduardo" "Eliécer" "Efraín" "Ernesto" "Enrique" 
+	"Fidel" "Fulgencio" "Fadrique" "Felix" "Felipe" "Diego" "Damián" "Guillermo" "Gonazlo" "Guy" 
+	"Garcia" "Gaspar" "Hugo" "Hernando" "Humberto" "Isidoro" "Ignacio" "Jorge" "José" "Jerónimo" 
+	"Jacinto" "Luis" "Lorenzo" "Laureano" "Léon" "Martin" "Miguelito" "Mailoco" "Metopio" "Marlon" 
+	"Marco" "Nuno" "Nicasio" "Osvaldo" "Orosio" "Orlando" "Orestes" "Pedro" "Paulo" "Pacheco" 
+	"Ponciano" "Perucho" "Raúl" "Ramon" "Rosendo" "Recaredo" "Rabinato" "Roberto" "Simon" "Sergio" 
+	"Sabarico" "Suario" "Sebastián" "Sancho" "Severino" "Silvio" "Tomás" "Teodomiro" "Vasco" "Vicente" 
+	"Vidal" "Walfredo" "Xerome" "Xavier" }
+monarch_names = {
+	"Claudia #0" = -1
+	"Monica #0" = -1
+	"Margarita #0" = -1
+	"Clara #0" = -1
+	"Michele #0" = -1
+	"Jaime #1" = 18
+	"Oscar #0" = 1
+	"Isabel #0" = -1
+	"Manuel #0" = 1
+	"Aurelio #0" = 1
+	"Alejandro #0" = 0
+	"Ángel #0" = 0
+	"Antonio #0" = 0
+	"Alfredo #0" = 0
+	"Anselmo #0" = 0
+	"Agostino #0" = 0
+	"Armentario #0" = 0
+	"Albito #0" = 0
+	"Álvaro #0" = 0
+	"Arsenio #0" = 0
+	"Blas Roca #0" = 0
+	"Bolivar #0" = 0
+	"Batista #0" = 0
+	"Bartolomé #0" = 0
+	"Bienvenido #0" = 0
+	"Basilio #0" = 0
+	"Barbarito #0" = 0
+	"Carlos #0" = 0
+	"Claudio #0" = 0
+	"Cándido #0" = 0
+	"Calixto #0" = 0
+	"César #0" = 0
+	"Castro #0" = 0
+	"Desiderio #0" = 0
+	"Elián #0" = 0
+	"Eduardo #0" = 0
+	"Eliécer #0" = 0
+	"Efraín #0" = 0
+	"Ernesto #0" = 0
+	"Enrique #0" = 0
+	"Fidel #0" = 0
+	"Fulgencio #0" = 0
+	"Fadrique #0" = 0
+	"Felix #0" = 0
+	"Felipe #0" = 0
+	"Diego #0" = 0
+	"Damián #0" = 0
+	"Guillermo #0" = 0
+	"Gonazlo #0" = 0
+	"Guy #0" = 0
+	"Garcia #0" = 0
+	"Gaspar #0" = 0
+	"Hugo #0" = 0
+	"Hernando #0" = 0
+	"Humberto #0" = 0
+	"Isidoro #0" = 0
+	"Ignacio #0" = 0
+	"Jorge #0" = 0
+	"José #0" = 0
+	"Jerónimo #0" = 0
+	"Jacinto #0" = 0
+	"Luis #0" = 0
+	"Lorenzo #0" = 0
+	"Laureano #0" = 0
+	"Léon #0" = 0
+	"Martin #0" = 0
+	"Miguelito #0" = 0
+	"Mailoco #0" = 0
+	"Metopio #0" = 0
+	"Marlon #0" = 0
+	"Marco #0" = 0
+	"Nuno #0" = 0
+	"Nicasio #0" = 0
+	"Osvaldo #0" = 0
+	"Orosio #0" = 0
+	"Orlando #0" = 0
+	"Orestes #0" = 0
+	"Pedro #0" = 0
+	"Paulo #0" = 0
+	"Pacheco #0" = 0
+	"Ponciano #0" = 0
+	"Perucho #0" = 0
+	"Raúl #0" = 0
+	"Ramon #0" = 0
+	"Rosendo #0" = 0
+	"Recaredo #0" = 0
+	"Rabinato #0" = 0
+	"Roberto #0" = 0
+	"Simon #0" = 0
+	"Sergio #0" = 0
+	"Sabarico #0" = 0
+	"Suario #0" = 0
+	"Sebastián #0" = 0
+	"Sancho #0" = 0
+	"Severino #0" = 0
+	"Silvio #0" = 0
+	"Tomás #0" = 0
+	"Teodomiro #0" = 0
+	"Vasco #0" = 0
+	"Vicente #0" = 0
+	"Vidal #0" = 0
+	"Walfredo #0" = 0
+	"Xerome #0" = 0
+	"Xavier #0" = 0
+}
+

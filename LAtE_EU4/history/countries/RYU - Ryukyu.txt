@@ -1,0 +1,8 @@
+government = daimyo
+government_rank = 1
+technology_group = chinese
+religion = shinto
+primary_culture = kyushuan
+capital = 1015	# Shuri
+
+

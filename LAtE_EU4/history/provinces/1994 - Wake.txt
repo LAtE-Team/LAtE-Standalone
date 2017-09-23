@@ -1,0 +1,17 @@
+#1994 - Wake
+
+owner = HWI
+controller = HWI
+add_core = HWI
+is_city = yes
+culture = hawaiian
+religion = cetic
+capital = "Wake"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0

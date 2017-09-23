@@ -1,0 +1,239 @@
+# Cauca
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 104 54 205 }
+
+
+
+
+leader_names = {
+
+	"Madre" "Ximena" "Montenegro" "Hugo" "Óscar" "Palben" "Stefany" "Poporo" "Sogamoso" "Guamuyhyca" 
+	"Suhuzy" "Suquysca" "Xué" "Cuchabiba" "Bxogonda" "Guayacán" "Sumne" "Huascar" "Chiinegüi" "Furachogue" 
+	"Zue" "Zaitania" "Angélica" "Cuca" "Aquiminzaque" "Huitaca" "Cusmuy" "Saga" "Pabaquira" "Chímini" 
+	"Yopo" "Fiba" "Sonoda" "Bochica" "Iosua" "Millaray" "Chimchacón" "Tamaya" "Fupqua" "Tyhyquy" 
+	"Chibchacum" "Tymanca" "Zincheita" "Urtyantemu" "Iomza" "Mancoe" "Qora" "Moja" "Nartamamu" "Quispe" 
+	"Ubzaque" "Tacaynamo" "Quylle" "Muhton Belan" "Killasumaq" "Munay" "Suyana" "Kuzko" "Curi" "Cayfutray" 
+	"Pacatmamu" "Q'orianka" "Wayra" "Moraeka" "Taua" "Golotina" "Uchu" "Quri" "Unay" "Carolina" 
+	"Manco" "Coique" "Yacu" "Atoc-Suqui" "Wason" "Quyllurit'i" "Vetsalynun" "Coni" "Quyakusi" "Ninasisa" 
+	"Curiatao" "Zinchyta" "Michan Chimor" "Gusmango" "Amaru" "Natalia" "Paullu" "Melissa" "Grupo" "Zinchytah" 
+	"Daniela" "Sayani" "Ayar" "Ailen" "Llanquipan" "Zergoetanu" "Gaitana" "Casimiro" "Waylla" "Piro" 
+	"Myra" "Guanca" "Zinchitah" "Muriel" "Ritchie" "Kristina" "Quylla" "Quilla" "Francisco" "Atoc Sopa" 
+	"Jerrely" "Cauac" "Leiton" "Yosiri" "Jackeline" "Hamilto" "Wílmar" "Víctor" "Angel" "Cuyuchi" 
+	"Amoldo" "Guacra" "Ilia" "Oscar" "Adrián" "Alex" "Alexis" "Alfonso" "Aluino" "Antonio" 
+	"Aquivaldo" "Bonner" "Breyner" "Cacique" "Carlomagno" "Carlos" "Carmelo" "César" "Cristián" "Daley" 
+	"Danilo" "Danny" "Dario" "Darkin" "Darwin" "Dorlan" "Duvier" "Éder" "Édgar" "Edier" 
+	"Edison" "Edixon" "Edwino" "Efraín" "Elíseo" "Elkin" "Eloy" "Erik" "Evaristo" "Fabián" 
+	"Faustino" "Felipe" "Fernando" "Fidel" "Franco" "Freddo" "Frederico" "Gitana" "Gonzalo" "Hanyer" 
+	"Jackson" "Jair" "Jarol" "Jésus" "Jherson" "Jhon" "Jo" "Jose" "José" "Joselito" 
+	"Josimar" "Juan" "Léider" "Leonardo" "Libis" "Luis" "Manuel" "Marco" "Martinez" "Mauricio" 
+	"Nataniel" "Neco" "Nele" "Nelson" "Pablo" "Pedro" "Piedad" "Rubén" "Stiven" "Tito" 
+	"Totó" "Tressor" "Wilberto" "Yimmi" "Yuber" }
+monarch_names = {
+	"Madre #0" = -1
+	"Ximena #1" = -19
+	"Montenegro #1" = 24
+	"Hugo #0" = 1
+	"Óscar #0" = 1
+	"Palben #0" = 1
+	"Stefany #0" = -1
+	"Poporo #0" = -1
+	"Sogamoso #0" = 1
+	"Guamuyhyca #0" = -1
+	"Suhuzy #0" = -1
+	"Suquysca #0" = -1
+	"Xué #0" = 1
+	"Cuchabiba #0" = -1
+	"Bxogonda #0" = 1
+	"Guayacán #0" = -1
+	"Sumne #0" = -1
+	"Huascar #0" = 1
+	"Chiinegüi #0" = -1
+	"Furachogue #0" = 1
+	"Zue #0" = 1
+	"Zaitania #0" = -1
+	"Angélica #0" = -1
+	"Cuca #0" = -1
+	"Aquiminzaque #0" = 1
+	"Huitaca #0" = 1
+	"Cusmuy #0" = -1
+	"Saga #0" = -1
+	"Pabaquira #0" = 1
+	"Chímini #0" = -1
+	"Yopo #0" = -1
+	"Fiba #0" = -1
+	"Sonoda #0" = 1
+	"Bochica #0" = 1
+	"Iosua #0" = -1
+	"Millaray #0" = -1
+	"Chimchacón #0" = 1
+	"Tamaya #0" = -1
+	"Fupqua #0" = -1
+	"Tyhyquy #0" = -1
+	"Chibchacum #0" = 1
+	"Tymanca #0" = -1
+	"Zincheita #0" = -1
+	"Urtyantemu #0" = 1
+	"Iomza #0" = -1
+	"Mancoe #0" = 1
+	"Qora #0" = -1
+	"Moja #1" = 24
+	"Nartamamu #0" = 1
+	"Quispe #0" = 1
+	"Ubzaque #0" = -1
+	"Tacaynamo #0" = 1
+	"Quylle #0" = -1
+	"Muhton Belan #0" = 1
+	"Killasumaq #0" = -1
+	"Munay #0" = -1
+	"Suyana #0" = -1
+	"Kuzko #0" = 1
+	"Curi #0" = 1
+	"Cayfutray #0" = -1
+	"Pacatmamu #0" = 1
+	"Q'orianka #0" = -1
+	"Wayra #0" = 1
+	"Moraeka #0" = -1
+	"Taua #0" = 1
+	"Golotina #0" = -1
+	"Uchu #0" = 1
+	"Quri #0" = -1
+	"Unay #0" = 1
+	"Carolina #0" = -1
+	"Manco #0" = 1
+	"Coique #0" = 1
+	"Yacu #0" = 1
+	"Atoc-Suqui #0" = 1
+	"Wason #0" = 1
+	"Quyllurit'i #0" = -1
+	"Vetsalynun #0" = 1
+	"Coni #0" = 1
+	"Quyakusi #0" = -1
+	"Ninasisa #0" = -1
+	"Curiatao #0" = 1
+	"Zinchyta #0" = -1
+	"Michan Chimor #0" = 1
+	"Gusmango #0" = 1
+	"Amaru #0" = 1
+	"Natalia #0" = -1
+	"Paullu #0" = 1
+	"Melissa #1" = -22
+	"Grupo #0" = 1
+	"Zinchytah #0" = -1
+	"Daniela #0" = -1
+	"Sayani #0" = 1
+	"Ayar #0" = 1
+	"Ailen #0" = -1
+	"Llanquipan #0" = -1
+	"Zergoetanu #0" = 1
+	"Gaitana #0" = -1
+	"Casimiro #1" = 18
+	"Waylla #0" = -1
+	"Piro #0" = -1
+	"Myra #0" = -1
+	"Guanca #0" = 1
+	"Zinchitah #0" = -1
+	"Muriel #0" = -1
+	"Ritchie #0" = 1
+	"Kristina #0" = -1
+	"Quylla #0" = -1
+	"Quilla #0" = -1
+	"Francisco #0" = 1
+	"Atoc Sopa #0" = 1
+	"Jerrely #0" = -1
+	"Cauac #0" = 1
+	"Leiton #1" = 18
+	"Yosiri #0" = -1
+	"Jackeline #0" = -1
+	"Hamilto #1" = 0
+	"Wílmar #1" = 0
+	"Víctor #1" = 0
+	"Angel #1" = 0
+	"Cuyuchi #1" = 0
+	"Amoldo #1" = 0
+	"Guacra #1" = 0
+	"Ilia #3" = 0
+	"Oscar #1" = 0
+	"Adrián #0" = 0
+	"Alex #0" = 0
+	"Alexis #0" = 0
+	"Alfonso #0" = 0
+	"Aluino #0" = 0
+	"Antonio #0" = 0
+	"Aquivaldo #0" = 0
+	"Bonner #0" = 0
+	"Breyner #0" = 0
+	"Cacique #0" = 0
+	"Carlomagno #0" = 0
+	"Carlos #0" = 0
+	"Carmelo #0" = 0
+	"César #0" = 0
+	"Cristián #0" = 0
+	"Daley #0" = 0
+	"Danilo #0" = 0
+	"Danny #0" = 0
+	"Dario #0" = 0
+	"Darkin #0" = 0
+	"Darwin #0" = 0
+	"Dorlan #0" = 0
+	"Duvier #0" = 0
+	"Éder #0" = 0
+	"Édgar #0" = 0
+	"Edier #0" = 0
+	"Edison #0" = 0
+	"Edixon #0" = 0
+	"Edwino #0" = 0
+	"Efraín #0" = 0
+	"Elíseo #0" = 0
+	"Elkin #0" = 0
+	"Eloy #0" = 0
+	"Erik #0" = 0
+	"Evaristo #0" = 0
+	"Fabián #0" = 0
+	"Faustino #0" = 0
+	"Felipe #0" = 0
+	"Fernando #0" = 0
+	"Fidel #0" = 0
+	"Franco #0" = 0
+	"Freddo #0" = 0
+	"Frederico #0" = 0
+	"Gitana #0" = 0
+	"Gonzalo #0" = 0
+	"Hanyer #0" = 0
+	"Jackson #0" = 0
+	"Jair #0" = 0
+	"Jarol #0" = 0
+	"Jésus #0" = 0
+	"Jherson #0" = 0
+	"Jhon #0" = 0
+	"Jo #0" = 0
+	"Jose #0" = 0
+	"José #0" = 0
+	"Joselito #0" = 0
+	"Josimar #0" = 0
+	"Juan #0" = 0
+	"Léider #0" = 0
+	"Leonardo #0" = 0
+	"Libis #0" = 0
+	"Luis #0" = 0
+	"Manuel #0" = 0
+	"Marco #0" = 0
+	"Martinez #0" = 0
+	"Mauricio #0" = 0
+	"Nataniel #0" = 0
+	"Neco #0" = 0
+	"Nele #0" = 0
+	"Nelson #0" = 0
+	"Pablo #0" = 0
+	"Pedro #0" = 0
+	"Piedad #0" = 0
+	"Rubén #0" = 0
+	"Stiven #0" = 0
+	"Tito #0" = 0
+	"Totó #0" = 0
+	"Tressor #0" = 0
+	"Wilberto #0" = 0
+	"Yimmi #0" = 0
+	"Yuber #0" = 0
+}
+

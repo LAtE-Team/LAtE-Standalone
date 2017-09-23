@@ -1,0 +1,60 @@
+# - Urgell
+
+#owner = ARA		#Alfons V of Aragon
+#controller = ARA
+#add_core= ARA
+#add_core= CAT
+culture = catalan
+religion = matrem
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Tàrrega" 
+estate = estate_nobles
+is_city = no 
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { revolt = { type = pretender_rebels size = 0 } #controller = REB } # Jaime de Urgell Uprising
+# = { revolt = {} revolt = { type = pretender_rebels size = 1 leader = "Jaume d'Urgell" } #controller = REB }
+# = { revolt = {} #controller = ARA }
+# = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB } # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
+# = { revolt = {} #controller = CAS } # Catalan nobility revolts against King Joan, later the Remença peasant revolt erupts.
+# = { revolt = { type = pretender_rebels size = 1 leader = "Pere de Portugal" } #controller = REB } # Jaime de Urgell Uprising
+# = { revolt = {} #controller = PRO } # census of 1473 (population lost due to the war). Succession war against Provence
+# = { #controller = ARA }
+# = { unrest = 3 } # Second Remença revolt
+# = { unrest = 0 } # King Ferràn arbit rates a resolution between the revolted peasants and the catalan nobles. 
+# = { #controller = SPA #owner = SPA #add_core= SPA } #Ferdinand the Catholic dies, Charles inherits Aragon and becomes regent of Castille
+# = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # "Corpus of blood". The Viceroy is killed and the Catalan sublevation begins, fastly spreading to other cities. 
+# = {
+	revolt = {}
+	#owner = FRA
+	#controller = FRA
+	#add_core= FRA
+#} # Louis XIII of France, Count of Barcelona.
+# = { #owner = SPA #controller = SPA remove_core = FRA } # Barcelona surrenders
+# = { #controller = FRA } # France defeats the Spanish army in Girona
+# = { #controller = SPA } # Spain retakes the city
+# = { #controller = FRA } # France occupies northern Catalonia
+# = { #controller = SPA } # Peace of Ryswick
+# = { #controller = HAB } # Catalonia recognises Archduke Carlos as its sovereign, joining the Anglo-Austrian cause in the War of Spanish Succession. The loyalist troops in Barcelona are defeated.
+# = { #controller = SPA } # French troops take Girona
+# = { remove_core = ARA }
+# = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
+# = { revolt = {} #controller = SPA }
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,85 @@
+# Veracruz
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 216 208 129 }
+
+
+
+
+leader_names = {
+
+	"Guillermo" "Francisco" "José Ignacio" "Ángela" "Adalberto" "Ángel" "Antonio" "Agustín" "Ambrosio" "Anton" 
+	"Aureliano" "Bernal" "Benito" "Carlos" "Cándido" "Cirilo" "Cruz" "Eduardo" "Enrique" "Emilio" 
+	"Eulalio" "Ezequiel" "Fernando" "Félix" "Gerardo" "Gonzalo" "Heriberto" "Hernando" "Hipólito" "Ignacio" 
+	"Indalecio" "Isidoro" "Javier" "Joaquin" "José" "José Antonio" "José Francisco" "José María" "Julián" "Leonardo" 
+	"Leonor" "Marcelino" "Marco" "Miguel" "Nicanor" "Parménides" "Pedro" "Plusultra" "Porfirio" "Quetzal" 
+	"Rafael" "Ricardo" "Rubén" "Santiago" "Sergio" "Servando Teresa" "Venustiano" "Victorio" "Yanga" "Zacharias" }
+monarch_names = {
+	"Guillermo #1" = 18
+	"Francisco #0" = 1
+	"José Ignacio #0" = 1
+	"Ángela #0" = -1
+	"Adalberto #0" = 1
+	"Ángel #0" = 0
+	"Antonio #0" = 0
+	"Agustín #0" = 0
+	"Ambrosio #0" = 0
+	"Anton #0" = 0
+	"Aureliano #0" = 0
+	"Bernal #0" = 0
+	"Benito #0" = 0
+	"Carlos #0" = 0
+	"Cándido #0" = 0
+	"Cirilo #0" = 0
+	"Cruz #0" = 0
+	"Eduardo #0" = 0
+	"Enrique #0" = 0
+	"Emilio #0" = 0
+	"Eulalio #0" = 0
+	"Ezequiel #0" = 0
+	"Fernando #0" = 0
+	"Félix #0" = 0
+	"Gerardo #0" = 0
+	"Gonzalo #0" = 0
+	"Heriberto #0" = 0
+	"Hernando #0" = 0
+	"Hipólito #0" = 0
+	"Ignacio #0" = 0
+	"Indalecio #0" = 0
+	"Isidoro #0" = 0
+	"Javier #0" = 0
+	"Joaquin #0" = 0
+	"José #0" = 0
+	"José Antonio #0" = 0
+	"José Francisco #0" = 0
+	"José María #0" = 0
+	"Julián #0" = 0
+	"Leonardo #0" = 0
+	"Leonor #0" = 0
+	"Marcelino #0" = 0
+	"Marco #0" = 0
+	"Miguel #0" = 0
+	"Nicanor #0" = 0
+	"Parménides #0" = 0
+	"Pedro #0" = 0
+	"Plusultra #0" = 0
+	"Porfirio #0" = 0
+	"Quetzal #0" = 0
+	"Rafael #0" = 0
+	"Ricardo #0" = 0
+	"Rubén #0" = 0
+	"Santiago #0" = 0
+	"Sergio #0" = 0
+	"Servando Teresa #0" = 0
+	"Venustiano #0" = 0
+	"Victorio #0" = 0
+	"Yanga #0" = 0
+	"Zacharias #0" = 0
+
+
+	"Lucía #0" = -1
+	"Josefa #0" = -1
+	"María Elena #0" = -1
+	"Eva #0" = -1
+}
+

@@ -1,0 +1,27 @@
+# Meridian
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 920
+3041.6.11 = {
+	monarch = {
+		name = "Davis"
+		birth_date = 3006.12.24
+		dynasty = "Aristley"
+		adm = 5
+		dip = 1
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = entrepreneur_personality
+}
+3053.1.1 {
+	capital = 920
+	add_treasury = 5
+	add_prestige = 131
+	elector = no
+}

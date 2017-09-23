@@ -1,0 +1,55 @@
+# Overrides for vanilla group ideas
+
+pacific_northwest_ideas = {	#From Vanilla
+	start = {
+		land_morale = 0.1
+		land_attrition = -0.10
+		may_perform_slave_raid = yes
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = cascadian
+			primary_culture = canuck
+			primary_culture = portlander
+			primary_culture = salish
+			primary_culture = haida
+		}
+		religion = raven_tales
+	}
+	
+	free = yes		#will be added at load.
+	
+	great_whale_hunts = {
+		discipline = 0.05
+	}
+	
+	dugout_canoes = { 
+		trade_range_modifier = 0.2
+	}
+	
+	totem_poles = {
+		diplomatic_reputation = 1
+	}
+	
+	potlatch_feast = {
+		global_own_trade_power = 0.1
+	}
+	
+	legacy_of_raven = {
+		leader_land_manuever = 1
+	}
+
+	salmon_migrations= {
+		global_trade_goods_size_modifier = 0.10
+	}
+	
+	noble_castes = { 
+		stability_cost_modifier = -0.1
+	}
+	
+}

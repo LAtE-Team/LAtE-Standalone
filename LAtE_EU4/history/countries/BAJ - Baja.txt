@@ -1,0 +1,26 @@
+# Baja
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = angeleno
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2620
+3027.10.23 = {
+	monarch = {
+		name = "Ken"
+		birth_date = 3014.7.12
+		dynasty = "Tribble"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 2620
+	add_treasury = 109
+	add_prestige = 203
+}

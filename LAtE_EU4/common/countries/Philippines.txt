@@ -1,0 +1,82 @@
+
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 95  186  116 } # 0.333333333333333
+
+monarch_names = {
+        # Aquino Line
+	"Benigno #1" = 50
+        "Paolo #1" = 50
+        "Ninoy #1" = 50
+        "Noynoy #1" = 50
+        "Servillano #1" = 50
+        # Estrada Line
+        "Joseph #1" = 50
+        "Erap #1" = 50
+        "Jingoy #1" = 50
+        "Victor #1" = 50
+        "Gomez #1" = 50
+        "Ejercito #1" = 50
+        # Marcos Line
+        "Mariano #1" = 50
+        "Ferdinand #1" = 50
+        "Bongbong #1" = 50
+        # Roxas Line
+        "Manuel #1" = 50
+        "Gerardo #1" = 50
+        "Mar #1" = 50
+        # Macrohon Line
+        "Keanu #1" = 30
+        "Abel #1" = 30
+        "Michael #1" = 30
+        "Mico #1" = 30
+	# Miscellaneous
+	"Jovencio" = 30
+	"Junee" = 30
+	"Eli" = 30
+	"Erikson" = 30
+	"Alain" = 30
+	"Neil" = 30
+	"Gabriel" = 30
+	"Boy" = 30
+	"Baby" = 30
+	"Ezra" = 30
+	"Appad" = 30
+	"Viktor" = 30
+	"Noah" = 30
+	"Jared" = 30
+	"Ogin" = 30
+	"Earl" = 30
+	"Bong" = 30
+	"Shylock Rosenfeld" = 30	
+}
+leader_names = {
+        "Hernandez"
+        "Zamora"
+        "Cabel"
+        "Concepcion"
+        "Parilla"
+        "Ayala"
+        "Garcia"
+        "Rodriquez"
+        "Jimenez"
+        "Enrile"
+        "Valdez"
+        "del Rosario"
+        "Matillano"
+        "Lopez"
+        "Tan"
+        "Revilla"
+        "Valencia"
+	"Aquiono"
+	"Estrada"
+	"Marcos"
+	"Roxas"
+	"Macrohon"
+}
+army_names = {
+        "National Guard"
+        "Republican Guard"
+}

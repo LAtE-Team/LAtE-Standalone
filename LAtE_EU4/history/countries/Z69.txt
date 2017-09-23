@@ -1,0 +1,27 @@
+# Caloosahatchee
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 2535
+3034.5.22 = {
+	monarch = {
+		name = "Robert"
+		birth_date = 3019.5.21
+		dynasty = "Kinstry"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = loose_lips_personality
+}
+3053.1.1 {
+	capital = 2535
+	add_treasury = 40
+	add_prestige = 133
+	elector = no
+}

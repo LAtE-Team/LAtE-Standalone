@@ -1,0 +1,107 @@
+country_decisions = {
+
+	appalachian_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_appalachian_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = APP }
+			OR = {
+				primary_culture = appalachian
+				primary_culture = melungeon
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 10
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 4651		# Land of Sky
+			owns_core_province = 2551		# Monongahela
+			owns_core_province = 4710		# Chatanooga 
+			owns_core_province = 2548		# Clinch 
+		}
+		effect = {
+			change_tag = APP
+			set_capital = 4651 # Land of Sky
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+            blue_ridge_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = APP
+			}
+			east_tennessee_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = APP
+			}
+			south_appalachia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = APP
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 12
+			set_country_flag = formed_appalachian_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

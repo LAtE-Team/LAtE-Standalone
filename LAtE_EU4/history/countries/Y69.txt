@@ -1,0 +1,25 @@
+# Home
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ontarian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 2671
+3049.12.9 = {
+	monarch = {
+		name = "Winston II"
+		birth_date = 3025.7.3
+		dynasty = "Dysart"
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = pious_personality
+}
+3053.1.1 {
+	capital = 2671
+	add_treasury = 52
+	add_prestige = 143
+}

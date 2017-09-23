@@ -1,0 +1,151 @@
+country_decisions = {
+
+	caribbean_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_caribbean_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = CBN }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			OR = {	# Just opening it up to everyone; this isn't a West Indian cultural empire anymore)
+				culture_group = caribbanglo
+				culture_group = caribeno
+				culture_group = antillais
+				culture_group = antillaanse
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 487	# Jamaica
+			owns_core_province = 492	# Puerto Rico
+			owns_core_province = 491	# Curacao
+			owns_core_province = 482	# Bahamas
+			owns_core_province = 483	# Turks
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = caribbean_nation_cuba_hispaniola_tooltip
+					AND = { #Cuba and Hispaniola
+						cuba_area = {
+							type = all
+							owned_by = ROOT
+						}
+						east_cuba_area = {
+							type = all
+							owned_by = ROOT
+						}
+						hispaniola_area = {
+							type = all
+							owned_by = ROOT
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = caribbean_nation_cuba_antilles_tooltip
+					AND = { #Cuba and the Lesser Antilles
+						cuba_area = {
+							type = all
+							owned_by = ROOT
+						}
+						east_cuba_area = {
+							type = all
+							owned_by = ROOT
+						}
+						leeward_islands_area = {
+							type = all
+							owned_by = ROOT
+						}
+						windward_islands_area = {
+							type = all
+							owned_by = ROOT
+						}
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = caribbean_nation_hispaniola_antilles_tooltip
+					AND = { #Hispaniola and the Lesser Antilles
+						hispaniola_area = {
+							type = all
+							owned_by = ROOT
+						}
+						leeward_islands_area = {
+							type = all
+							owned_by = ROOT
+						}
+						windward_islands_area = {
+							type = all
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = CBN
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			carribeans_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CBN
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			set_country_flag = formed_caribbean_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

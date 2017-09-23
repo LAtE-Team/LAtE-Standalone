@@ -1,0 +1,26 @@
+# Haiti
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = dominicano
+religion = rastafarian
+clear_scripted_personalities = yes
+capital = 4716
+3032.7.18 = {
+	monarch = {
+		name = "Vernon"
+		birth_date = 2999.1.25
+		dynasty = "Petters"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 4716
+	add_treasury = 31
+	add_prestige = 191
+}

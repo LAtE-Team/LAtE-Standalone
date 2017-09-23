@@ -1,0 +1,23 @@
+#1048 - Udskoye
+
+owner = NRU
+controller = NRU
+add_core = NRU
+culture = novorusskiy
+religion = atomicist
+capital = "Miyoo Gasan"
+trade_goods = fur
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = NRU
+discovered_by = NRA
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

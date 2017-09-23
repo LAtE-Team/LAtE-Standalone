@@ -1,0 +1,27 @@
+# Canaveral
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 926
+3027.10.16 = {
+	monarch = {
+		name = "Jerry"
+		birth_date = 3011.4.16
+		dynasty = "Tift"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = loose_lips_personality
+	add_ruler_personality = strict_personality
+}
+3053.1.1 {
+	capital = 926
+	add_treasury = 23
+	add_prestige = 113
+	elector = no
+}

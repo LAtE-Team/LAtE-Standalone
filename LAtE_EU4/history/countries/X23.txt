@@ -1,0 +1,26 @@
+# Wineland
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = bayfolk
+religion = cetic
+clear_scripted_personalities = yes
+capital = 4676
+3029.9.20 = {
+	monarch = {
+		name = "Victor"
+		birth_date = 3006.2.14
+		dynasty = "Caymus"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = embezzler_personality
+}
+3053.1.1 {
+	capital = 4676
+	add_treasury = 78
+	add_prestige = 208
+}

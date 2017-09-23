@@ -1,0 +1,181 @@
+# Belize
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 47 154 123 }
+
+
+
+
+leader_names = {
+
+	"Alice" "Kaylon" "Aurora" "Lorraine" "Emma" "Steven" "Angel" "Donovan" "Adam" "Adrian" 
+	"Ajay" "Alan" "Albert" "Alexander" "Alexis" "Alfred" "Andre" "Andrew" "Antonio" "Arlen" 
+	"Arlie" "Arthur" "Aston" "Augustus" "Azeem" "Bernard" "Boombay" "Brandon" "Cadle" "Carl" 
+	"Charles" "Charlie" "Chito" "Clifford" "Colin" "Colville" "Curl" "Cuthbert" "Dale" "Daniel" 
+	"Darwin" "Dean" "Delvin" "Deon" "Donald" "Dorien" "Eamon" "Eddie" "Edric" "Eduardo" 
+	"Edward" "Edwuardo" "Elijah" "Elijio" "Elio" "Ellis" "Emil" "Emilio" "Emmeth" "Emory" 
+	"Evan" "Florencio" "Francis" "Frederick" "Gabriel" "Gardiner" "George" "Gerald" "Godfrey" "Gregorio" 
+	"Harley" "Henry" "Herbert" "Herman" "Huestes" "Ira" "Ivan" "Jaime" "Jamaal" "Jamal" 
+	"James" "Jaylon" "Jesus" "John" "Johnathan" "Jose" "Joseph" "Juan" "Keith" "Lenney" 
+	"Leopold" "Leslie" "Lloyd" "Lorenzo" "Ludin" "Ludwig" "Manuel" "Marc" "Marcial" "Marcus" 
+	"Mark" "Markiss" "Maurice" "Maxime" "Michael" "Miller" "Milton" "Mison" "Monrad" "Muir" 
+	"Neil" "Nelson" "Nicholas" "Nigel" "Norman" "Nugent" "Oscar" "Patrick" "Paul" "Pen" 
+	"Peter" "Philip" "Pierre" "Quentin" "Rafael" "Raymond" "Reynolds" "Richard" "Robert" "Ronald" 
+	"Russell" "Said" "Samuel" "Seymour" "Shyne" "Sigfried" "Smyth" "Stanley" "Swayne" "Tariq" 
+	"Theodore" "Thomas" "Tucker" "Valdemar" "Walford" "Wellington" "Wilfred" "William" "Woldrich" "Xavier" }
+monarch_names = {
+	"Alice #0" = -1
+	"Kaylon #1" = 18
+	"Aurora #0" = -1
+	"Lorraine #0" = -1
+	"Emma #0" = -1
+	"Steven #0" = 1
+	"Angel #0" = 1
+	"Donovan #1" = 0
+	"Adam #0" = 0
+	"Adrian #0" = 0
+	"Ajay #0" = 0
+	"Alan #0" = 0
+	"Albert #0" = 0
+	"Alexander #0" = 0
+	"Alexis #0" = 0
+	"Alfred #0" = 0
+	"Andre #0" = 0
+	"Andrew #0" = 0
+	"Antonio #0" = 0
+	"Arlen #0" = 0
+	"Arlie #0" = 0
+	"Arthur #0" = 0
+	"Aston #0" = 0
+	"Augustus #0" = 0
+	"Azeem #0" = 0
+	"Bernard #0" = 0
+	"Boombay #0" = 0
+	"Brandon #0" = 0
+	"Cadle #0" = 0
+	"Carl #0" = 0
+	"Charles #0" = 0
+	"Charlie #0" = 0
+	"Chito #0" = 0
+	"Clifford #0" = 0
+	"Colin #0" = 0
+	"Colville #0" = 0
+	"Curl #0" = 0
+	"Cuthbert #0" = 0
+	"Dale #0" = 0
+	"Daniel #0" = 0
+	"Darwin #0" = 0
+	"Dean #0" = 0
+	"Delvin #0" = 0
+	"Deon #0" = 0
+	"Donald #0" = 0
+	"Dorien #0" = 0
+	"Eamon #0" = 0
+	"Eddie #0" = 0
+	"Edric #0" = 0
+	"Eduardo #0" = 0
+	"Edward #0" = 0
+	"Edwuardo #0" = 0
+	"Elijah #0" = 0
+	"Elijio #0" = 0
+	"Elio #0" = 0
+	"Ellis #0" = 0
+	"Emil #0" = 0
+	"Emilio #0" = 0
+	"Emmeth #0" = 0
+	"Emory #0" = 0
+	"Evan #0" = 0
+	"Florencio #0" = 0
+	"Francis #0" = 0
+	"Frederick #0" = 0
+	"Gabriel #0" = 0
+	"Gardiner #0" = 0
+	"George #0" = 0
+	"Gerald #0" = 0
+	"Godfrey #0" = 0
+	"Gregorio #0" = 0
+	"Harley #0" = 0
+	"Henry #0" = 0
+	"Herbert #0" = 0
+	"Herman #0" = 0
+	"Huestes #0" = 0
+	"Ira #0" = 0
+	"Ivan #0" = 0
+	"Jaime #0" = 0
+	"Jamaal #0" = 0
+	"Jamal #0" = 0
+	"James #0" = 0
+	"Jaylon #0" = 0
+	"Jesus #0" = 0
+	"John #0" = 0
+	"Johnathan #0" = 0
+	"Jose #0" = 0
+	"Joseph #0" = 0
+	"Juan #0" = 0
+	"Keith #0" = 0
+	"Lenney #0" = 0
+	"Leopold #0" = 0
+	"Leslie #0" = 0
+	"Lloyd #0" = 0
+	"Lorenzo #0" = 0
+	"Ludin #0" = 0
+	"Ludwig #0" = 0
+	"Manuel #0" = 0
+	"Marc #0" = 0
+	"Marcial #0" = 0
+	"Marcus #0" = 0
+	"Mark #0" = 0
+	"Markiss #0" = 0
+	"Maurice #0" = 0
+	"Maxime #0" = 0
+	"Michael #0" = 0
+	"Miller #0" = 0
+	"Milton #0" = 0
+	"Mison #0" = 0
+	"Monrad #0" = 0
+	"Muir #0" = 0
+	"Neil #0" = 0
+	"Nelson #0" = 0
+	"Nicholas #0" = 0
+	"Nigel #0" = 0
+	"Norman #0" = 0
+	"Nugent #0" = 0
+	"Oscar #0" = 0
+	"Patrick #0" = 0
+	"Paul #0" = 0
+	"Pen #0" = 0
+	"Peter #0" = 0
+	"Philip #0" = 0
+	"Pierre #0" = 0
+	"Quentin #0" = 0
+	"Rafael #0" = 0
+	"Raymond #0" = 0
+	"Reynolds #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Ronald #0" = 0
+	"Russell #0" = 0
+	"Said #0" = 0
+	"Samuel #0" = 0
+	"Seymour #0" = 0
+	"Shyne #0" = 0
+	"Sigfried #0" = 0
+	"Smyth #0" = 0
+	"Stanley #0" = 0
+	"Swayne #0" = 0
+	"Tariq #0" = 0
+	"Theodore #0" = 0
+	"Thomas #0" = 0
+	"Tucker #0" = 0
+	"Valdemar #0" = 0
+	"Walford #0" = 0
+	"Wellington #0" = 0
+	"Wilfred #0" = 0
+	"William #0" = 0
+	"Woldrich #0" = 0
+	"Xavier #0" = 0
+
+
+	"Giovanna #0" = -1
+}
+

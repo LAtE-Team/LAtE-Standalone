@@ -1,0 +1,51 @@
+#72 - Breisgau
+
+#owner = BAD
+#controller = BAD
+#add_core= BAD
+culture = swabian
+religion = cult_of_reason
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Freiburg" 
+is_city = no
+hre = no
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = {
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+	remove_core = BAD
+#}
+# = { unrest = 8 } # Peasant Revolts - 18.000 peasants take Freiburg (May)
+# = { unrest = 0 }
+# = {
+	#owner = MOD
+	#controller = MOD
+	#add_core= MOD
+ 	remove_core = HAB
+ } # Treaty of Campo Formio
+# = {
+	#owner = BAD
+	#controller = BAD
+	#add_core= BAD
+	remove_core = MOD
+ } # Treaty of Pressburg
+# = { hre = no } # The Holy Roman Empire is dissolved
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

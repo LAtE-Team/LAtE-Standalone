@@ -1,0 +1,26 @@
+# Cauca
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = rochela
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 823
+3048.1.23 = {
+	monarch = {
+		name = "Ximena"
+		birth_date = 3046.9.13
+		dynasty = "Bosbanza"
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 823
+	add_treasury = 52
+	add_prestige = 36
+}

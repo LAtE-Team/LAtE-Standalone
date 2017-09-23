@@ -1,0 +1,23 @@
+#1839 - Suruga
+
+owner = KRU
+controller = KRU
+culture = edokko
+religion = shinto
+capital = "Sunpu"
+trade_goods = tea
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core= KRU
+
+
+
+discovered_by = chinese
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

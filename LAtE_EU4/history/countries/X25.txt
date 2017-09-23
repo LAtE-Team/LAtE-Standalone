@@ -1,0 +1,26 @@
+# Central Valley
+government = administrative_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = valleyan
+religion = cetic
+clear_scripted_personalities = yes
+capital = 2437
+3039.10.4 = {
+	monarch = {
+		name = "Alec"
+		birth_date = 3018.8.20
+		dynasty = "Zins"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = craven_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 2437
+	add_treasury = 19
+	add_prestige = 140
+}

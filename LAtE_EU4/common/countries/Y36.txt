@@ -1,0 +1,111 @@
+# Outer Chicagoland
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 202 101 167 }
+
+
+
+
+leader_names = {
+
+	"Dearborn" "Samuel" "Aldo" "Ashburn" "Austin" "Albin" "Anatol" "Aron" "Alecsey" "Artur" 
+	"Boris" "Belmont" "Brian" "Bernard" "Bartosh" "Boleck" "Bruno" "Cragin" "Chatham" "Clarendon" 
+	"Calsag" "Cyrus" "Cormick" "Comslav" "Cormac" "Connor" "Corbor" "Damen" "Daley" "Douglas" 
+	"Deering" "Dagmar" "Drobogall" "Dobroghan" "Dunning" "Elwood" "Elsdon" "Emil" "Frank" "Ferguslav" 
+	"Fionnslav" "Fuller" "Fulton" "Felick" "Gobnet" "Goban" "Gallmil" "Garfield" "Gresham" "Gormdan" 
+	"Grannuslav" "Homan" "Ian" "Irving" "Izaack" "Jozef" "Koz" "Krak" "Leary" "Lincoln" 
+	"Liam" "Logan" "Maelpiast" "Marshall" "Morgan" "Muiropolk" "Micky" "Popiel" "Pulaski" "Pullman" 
+	"Ruaidbog" "Roscoe" "Ryan" "Stanislaus" "Stefan" "Slavrí" "Scott" "Sheridan" "Tralley" "Vladgen" 
+	"Viktor" "Wentworth" }
+monarch_names = {
+	"Dearborn #1" = 18
+	"Samuel #1" = 0
+	"Aldo #0" = 0
+	"Ashburn #0" = 0
+	"Austin #0" = 0
+	"Albin #0" = 0
+	"Anatol #0" = 0
+	"Aron #0" = 0
+	"Alecsey #0" = 0
+	"Artur #0" = 0
+	"Boris #0" = 0
+	"Belmont #0" = 0
+	"Brian #0" = 0
+	"Bernard #0" = 0
+	"Bartosh #0" = 0
+	"Boleck #0" = 0
+	"Bruno #0" = 0
+	"Cragin #0" = 0
+	"Chatham #0" = 0
+	"Clarendon #0" = 0
+	"Calsag #0" = 0
+	"Cyrus #0" = 0
+	"Cormick #0" = 0
+	"Comslav #0" = 0
+	"Cormac #0" = 0
+	"Connor #0" = 0
+	"Corbor #0" = 0
+	"Damen #0" = 0
+	"Daley #0" = 0
+	"Douglas #0" = 0
+	"Deering #0" = 0
+	"Dagmar #0" = 0
+	"Drobogall #0" = 0
+	"Dobroghan #0" = 0
+	"Dunning #0" = 0
+	"Elwood #0" = 0
+	"Elsdon #0" = 0
+	"Emil #0" = 0
+	"Frank #0" = 0
+	"Ferguslav #0" = 0
+	"Fionnslav #0" = 0
+	"Fuller #0" = 0
+	"Fulton #0" = 0
+	"Felick #0" = 0
+	"Gobnet #0" = 0
+	"Goban #0" = 0
+	"Gallmil #0" = 0
+	"Garfield #0" = 0
+	"Gresham #0" = 0
+	"Gormdan #0" = 0
+	"Grannuslav #0" = 0
+	"Homan #0" = 0
+	"Ian #0" = 0
+	"Irving #0" = 0
+	"Izaack #0" = 0
+	"Jozef #0" = 0
+	"Koz #0" = 0
+	"Krak #0" = 0
+	"Leary #0" = 0
+	"Lincoln #0" = 0
+	"Liam #0" = 0
+	"Logan #0" = 0
+	"Maelpiast #0" = 0
+	"Marshall #0" = 0
+	"Morgan #0" = 0
+	"Muiropolk #0" = 0
+	"Micky #0" = 0
+	"Popiel #0" = 0
+	"Pulaski #0" = 0
+	"Pullman #0" = 0
+	"Ruaidbog #0" = 0
+	"Roscoe #0" = 0
+	"Ryan #0" = 0
+	"Stanislaus #0" = 0
+	"Stefan #0" = 0
+	"Slavrí #0" = 0
+	"Scott #0" = 0
+	"Sheridan #0" = 0
+	"Tralley #0" = 0
+	"Vladgen #0" = 0
+	"Viktor #0" = 0
+	"Wentworth #0" = 0
+
+
+	"Ronit #0" = -1
+	"Carey #0" = -1
+	"Concepta #0" = -1
+	"Rois #0" = -1
+	"Isabella #0" = -1
+}
+

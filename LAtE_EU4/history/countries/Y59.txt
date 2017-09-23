@@ -1,0 +1,26 @@
+# Apacheria
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = shoshone
+religion = catholic
+clear_scripted_personalities = yes
+capital = 885
+3007.11.17 = {
+	monarch = {
+		name = "Coro-pwoonie"
+		birth_date = 2991.6.7
+		dynasty = "Jaquan"
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = midas_touched_personality
+}
+3053.1.1 {
+	capital = 885
+	add_treasury = 50
+	add_prestige = 433
+}

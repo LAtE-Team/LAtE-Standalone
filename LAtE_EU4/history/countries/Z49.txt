@@ -1,0 +1,26 @@
+# Montgomery
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dixie
+religion = protestant
+clear_scripted_personalities = yes
+capital = 924
+3053.1.1 {
+	monarch = {
+		name = "Rhett"
+		birth_date = 3041.6.22
+		dynasty = "Kearsarge"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+}
+3053.1.1 {
+	capital = 924
+	add_treasury = 17
+	add_prestige = 22
+	elector = no
+}

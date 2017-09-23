@@ -1,0 +1,40 @@
+#584 - Ava
+
+#owner = AVA
+#controller = AVA
+culture = burmese
+religion = buddhism
+capital = "Ava"
+trade_goods = ivory
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+fort_15th = yes
+is_city = no
+#add_core= AVA
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+# = {
+	#owner = SST
+	#controller = SST
+	#add_core= SST
+	remove_core = AVA
+#}
+# = { discovered_by = POR }
+# = { #add_core= TAU }
+# = { #controller = TAU }
+# = {	
+	#owner = TAU
+	remove_core = SST
+#}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,56 @@
+#161 - Tîrgoviste
+
+#owner = WAL
+#controller = WAL 
+culture = romanian
+religion = hellenic_pagan
+capital = "Tîrgoviste"
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+fort_15th = yes
+#add_core= WAL
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
+discovered_by = indian
+
+
+# = { unrest = 7 } # Wallachian rising, the Turks & Tatars are expelled
+# = { unrest = 0 } # The Turks take control of most of Wallachia again
+# = { revolt = { type = noble_rebels size = 1 } #controller = REB } # Boyar rebellions
+# = { revolt = {} #controller = WAL }
+# = { unrest = 7 } # Cantacuzino is murdered, struggle for power between the boyars
+# = { unrest = 0 } # Period of stability, Constantine Brancoveanu reigns
+# = { capital = "Bucuresti" }
+# = {	#owner = HAB 
+	#controller = HAB
+	#add_core= HAB
+	remove_core = TUR
+#} # Ceded to Austria
+# = {	#owner = WAL 
+	#controller = WAL
+	remove_core = HAB
+	#add_core= TUR
+#} # The Ottomans regained Wallachia
+# = { #controller = HAB } # Occupied by Austrian troops
+# = { #controller = WAL } # Treaty of Sistova
+# = { #controller = RUS } # Occupied by Russian troops
+# = { #controller = WAL } # Treaty of Bucharest
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

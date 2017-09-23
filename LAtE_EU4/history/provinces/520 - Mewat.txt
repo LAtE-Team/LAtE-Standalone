@@ -1,0 +1,25 @@
+#520 - Mewat
+
+owner = DLH
+controller = DLH
+culture = rajput
+religion = hinduism
+capital = "Alwar"
+trade_goods = cloth #Carpets
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core= DLH
+
+
+
+discovered_by = indian
+discovered_by = chinese
+
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

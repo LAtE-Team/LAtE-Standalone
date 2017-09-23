@@ -1,0 +1,209 @@
+# The Quad Cities
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 193 220 39 }
+
+
+
+
+leader_names = {
+
+	"Nathaniel" "Petunia" "Henrietta" "Rehoboam" "Adam" "Kimberly" "Diana" "Jezebel" "Holcomb" "Almira" 
+	"Lyman" "Asa" "Anson" "Marceline" "Garber" "Regina" "Melena" "Frexspar" "Sheldon" "Ezekiel" 
+	"Jenny" "Alvin" "Lana" "Theodora" "Dell" "Rockwell" "Merriweather" "Micah" "Caley" "Mishach" 
+	"Roquat" "Nichole" "Jellia" "Juniper" "Elphaba" "Locasta" "Glinda" "Amos" "Calvin" "Shadrach" 
+	"Douglas" "Arduenna" "Jacob" "Salathiel" "Sander" "Hermione" "Matilda" "Muriel" "Amon" "Wesley" 
+	"Georgia" "Eustace" "Obadiah" "Abednego" "Betsy" "Pentecost" "Myatt" "Margaret" "Morris" "Gladys" 
+	"Carl" "Billina" "Ozma" "Gideon" "Doreen" "Ruth" "Glycine" "Pamela" "Dale" "Summer" 
+	"Leonard" "Alice" "Ronald" "Elijah" "Clark" "Dennis" "Marty" "Wilson" "Ana" "Harold" 
+	"Albinus" "Rose" "Julia" "Silas" "Barbara" "Jeroboam" "Elliot" "Ned" "Daniel" "Emma" 
+	"Cora" "Mary" "Emerson" "Evanora" "Blaine" "April" "Lucas" "Flora" "Dorothy" "Othniel" 
+	"Pelham" "David" "Fairuza" "Isobel" "Ralph" "Simon" "Grace" "Absalom" "Maxine" "Donald" 
+	"Wheeler" "Allison" "Melville" "Maud" "Daisy" "Pedaiah" "Paul" "Hank" "Ashton" "Bastinda" 
+	"Ahad" "Andrew" "Amzi" "Bartholomew" "Benjamin" "Byrne" "Chester" "Cole" "Dwight" "Ebeneezer" 
+	"Everett" "Emmett" "Franklin" "George" "Gerald" "Glen" "Hunter" "Hezekiah" "Herman" "Horace" 
+	"Isaac" "Ignace" "Jeconiah" "Joel" "Josiah" "John" "Joseph" "Jerome" "Leslie" "Lavon" 
+	"Lewis" "Landon" "Manasseh" "Meyer" "Milo" "Othman" "Oscar" "Otis" "Peter" "Pomeroy" 
+	"Panphile" "Poynter" "Philip" "Phineas" "Randell" "Saul" "Solomon" "Samuel" "Seth" "Theodore" 
+	"Tom" "Theophile" "Uriah" "Wyatt" "Whelan" "Zebediah" "Zerubbabel" "Zechariah" }
+monarch_names = {
+	"Nathaniel #0" = 1
+	"Petunia #0" = -1
+	"Henrietta #0" = -1
+	"Rehoboam #0" = 1
+	"Adam #0" = 1
+	"Kimberly #0" = -1
+	"Diana #0" = -1
+	"Jezebel #0" = -1
+	"Holcomb #1" = 27
+	"Almira #0" = -1
+	"Lyman #0" = 1
+	"Asa #0" = 1
+	"Anson #0" = 1
+	"Marceline #1" = -28
+	"Garber #0" = 1
+	"Regina #0" = -1
+	"Melena #0" = -1
+	"Frexspar #0" = 1
+	"Sheldon #0" = 1
+	"Ezekiel #0" = 1
+	"Jenny #0" = -1
+	"Alvin #0" = 1
+	"Lana #0" = -1
+	"Theodora #0" = -1
+	"Dell #0" = 1
+	"Rockwell #3" = 42
+	"Merriweather #0" = 1
+	"Micah #1" = 18
+	"Caley #0" = -1
+	"Mishach #1" = 27
+	"Roquat #1" = 27
+	"Nichole #0" = -1
+	"Jellia #0" = -1
+	"Juniper #0" = -1
+	"Elphaba #0" = -1
+	"Locasta #0" = -1
+	"Glinda #0" = -1
+	"Amos #1" = 27
+	"Calvin #2" = 33
+	"Shadrach #0" = 1
+	"Douglas #5" = 42
+	"Arduenna #0" = -1
+	"Jacob #1" = 18
+	"Salathiel #0" = 1
+	"Sander #0" = 1
+	"Hermione #0" = -1
+	"Matilda #0" = -1
+	"Muriel #0" = -1
+	"Amon #0" = 1
+	"Wesley #1" = 18
+	"Georgia #0" = -1
+	"Eustace #0" = 1
+	"Obadiah #1" = 18
+	"Abednego #1" = 21
+	"Betsy #0" = -1
+	"Pentecost #0" = 1
+	"Myatt #0" = 1
+	"Margaret #0" = -1
+	"Morris #0" = 1
+	"Gladys #0" = -1
+	"Carl #0" = 1
+	"Billina #0" = -1
+	"Ozma #0" = -1
+	"Gideon #2" = 21
+	"Doreen #0" = -1
+	"Ruth #0" = -1
+	"Glycine #0" = -1
+	"Pamela #0" = -1
+	"Dale #0" = 1
+	"Summer #0" = -1
+	"Leonard #0" = 1
+	"Alice #0" = -1
+	"Ronald #0" = 1
+	"Elijah #1" = 21
+	"Clark #0" = 1
+	"Dennis #0" = 1
+	"Marty #0" = 1
+	"Wilson #0" = 1
+	"Ana #0" = -1
+	"Harold #0" = 1
+	"Albinus #0" = 1
+	"Rose #0" = -1
+	"Julia #0" = -1
+	"Silas #0" = 1
+	"Barbara #0" = -1
+	"Jeroboam #0" = 1
+	"Elliot #0" = 1
+	"Ned #0" = 1
+	"Daniel #0" = 1
+	"Emma #0" = -1
+	"Cora #0" = -1
+	"Mary #0" = -1
+	"Emerson #1" = 18
+	"Evanora #0" = -1
+	"Blaine #0" = 1
+	"April #0" = -1
+	"Lucas #0" = 1
+	"Flora #0" = -1
+	"Dorothy #0" = -1
+	"Othniel #0" = 1
+	"Pelham #0" = 1
+	"David #0" = 1
+	"Fairuza #0" = -1
+	"Isobel #0" = -1
+	"Ralph #0" = 1
+	"Simon #0" = 1
+	"Grace #0" = -1
+	"Absalom #0" = 1
+	"Maxine #0" = -1
+	"Donald #0" = 1
+	"Wheeler #0" = 1
+	"Allison #0" = -1
+	"Melville #0" = 1
+	"Maud #0" = -1
+	"Daisy #0" = -1
+	"Pedaiah #0" = 1
+	"Paul #0" = 1
+	"Hank #0" = 1
+	"Ashton #0" = 1
+	"Bastinda #0" = -1
+	"Ahad #0" = 0
+	"Andrew #0" = 0
+	"Amzi #0" = 0
+	"Bartholomew #0" = 0
+	"Benjamin #0" = 0
+	"Byrne #0" = 0
+	"Chester #0" = 0
+	"Cole #0" = 0
+	"Dwight #0" = 0
+	"Ebeneezer #0" = 0
+	"Everett #0" = 0
+	"Emmett #0" = 0
+	"Franklin #0" = 0
+	"George #0" = 0
+	"Gerald #0" = 0
+	"Glen #0" = 0
+	"Hunter #0" = 0
+	"Hezekiah #0" = 0
+	"Herman #0" = 0
+	"Horace #0" = 0
+	"Isaac #0" = 0
+	"Ignace #0" = 0
+	"Jeconiah #0" = 0
+	"Joel #0" = 0
+	"Josiah #0" = 0
+	"John #0" = 0
+	"Joseph #0" = 0
+	"Jerome #0" = 0
+	"Leslie #0" = 0
+	"Lavon #0" = 0
+	"Lewis #0" = 0
+	"Landon #0" = 0
+	"Manasseh #0" = 0
+	"Meyer #0" = 0
+	"Milo #0" = 0
+	"Othman #0" = 0
+	"Oscar #0" = 0
+	"Otis #0" = 0
+	"Peter #0" = 0
+	"Pomeroy #0" = 0
+	"Panphile #0" = 0
+	"Poynter #0" = 0
+	"Philip #0" = 0
+	"Phineas #0" = 0
+	"Randell #0" = 0
+	"Saul #0" = 0
+	"Solomon #0" = 0
+	"Samuel #0" = 0
+	"Seth #0" = 0
+	"Theodore #0" = 0
+	"Tom #0" = 0
+	"Theophile #0" = 0
+	"Uriah #0" = 0
+	"Wyatt #0" = 0
+	"Whelan #0" = 0
+	"Zebediah #0" = 0
+	"Zerubbabel #0" = 0
+	"Zechariah #0" = 0
+}
+

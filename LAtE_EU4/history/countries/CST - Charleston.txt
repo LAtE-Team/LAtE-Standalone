@@ -1,0 +1,36 @@
+#Charleston
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = southron
+religion = protestant
+clear_scripted_personalities = yes
+capital = 932
+3053.1.1 {
+	monarch = {
+		name = "Coriolanus"
+		birth_date = 3000.10.31
+		dynasty = "Oakheart"
+		adm = 1
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = secretive_personality
+	heir = {
+		name = "Quadratus"
+		monarch_name = "Quadratus"
+		dynasty = "Oakheart"
+		birth_date = 3051.8.5
+		death_date = 3131.8.5
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 932
+	add_treasury = 88
+	add_prestige = 265
+	elector = no
+}

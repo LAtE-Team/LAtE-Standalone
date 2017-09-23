@@ -1,0 +1,252 @@
+# Dodge
+ck2_converter_generated = yes
+graphical_culture = northamericagfx
+color = { 69 82 171 }
+
+
+
+
+leader_names = {
+
+	"Galilani" "Unega" "Degataga" "Scholauetta" "Oconostota" "Will-usdi" "Oneida" "Wyuka" "Akooh" "Kettegiskie" 
+	"Tatliusta" "Ostenaco" "Tsiyi" "Diwali" "Onatah" "Newota" "Kumamah" "Adahy" "Orenda" "Sequoia" 
+	"Ahyoka" "Necatee" "Skeleak" "Tauuotihee" "Immokalee" "Kowetatahee" "Sawanooekee" "Kaiyatahee" "Leotie" "Ghigau" 
+	"Orneda" "Hiawassee" "Nelly" "Immookalee" "Waya" "Elias" "Outacite" "Degan" "Ayita" "Tuskeegatee" 
+	"Lach'n Koatohee" "Guwisguwi" "Hiawatha" "Dixie" "Bill" "Nanye-hi" "Onacona" "Tayanita" "Degotoga" "Seneca" 
+	"Adsila" "Yona" "Hialeah" "Annie" "Eloy" "Cuerno" "Chescoonwho" "Knasgowa" "Ladybird" "Barb" 
+	"Mohe" "Chattakuteehee" "Teaultlo" "Dustu" "Artahkunistisky" "Ahuludehi" "Yonahequah" "Danielle" "Eustace" "Salali" 
+	"Kateri" "Oolassoteh" "Tlorene" "Kat" "Tsiyu Gansini" "Usdi" "Tulatiska" "Salleekookoolah" "Awenasa" "Yonah Oolah" 
+	"Eliel" "Ama" "Atagulkalu" "Cage" "Becky" "Sequoyah" "Kunokeski" "Isabelle" "Shelby" "Uskwa'li-gu'ta" 
+	"Amber" "Tulco" "Unsuokanail" "Chuquilatague" "Takota" "Nunnehidihi" "Awentia" "Tahlonteeskee" "Tuskegatahu" "Bridget" 
+	"Kaweesoolaskee" "Cheyenne" "Galilahi" "Tsula" "Nanyehi" "Atohi" "Tsistunagiska" "Cheanoka" "Garland" "Tara" 
+	"Sehoya" "Akonoluchta" "Dale" "Inola" "Tal-tsu'tsa" "Amadahy" "Charley" "Mattie" "Chea Sequah" "Annabelle" 
+	"Rose" "Sis" "Keith" "Henrietta" "Rayetayah" "Harley" "Ninovan" "Agi" "Ama-edohi" "Amo-adawehi" 
+	"Amokontakona" "Amouskositte" "Atsadi" "Attakullaculla" "Attakullakulla" "Austenaco" "Boudinot" "Charitey" "Chellokee" "Chesecotetona" 
+	"Chesetoa" "Chochuchee" "Chockonnistaller" "Chokasatahe" "Chonosta" "Chuquilataque" "Colonah" "Cunne Shote" "Di'wali" "Enoli" 
+	"Galegenoh" "Gallagina" "Ganundalegi" "Gawonii" "Inadunai" "Jonnurteekee" "Kanagagota" "Kanagatucko" "Kanitta" "Kanowsurhee" 
+	"Kanuna" "Keenahkunnah" "Keetakeuskah" "Keukuck" "Koatohee" "Kolakusta" "Konatota" "Kostayeak" "Kulsateehee" "Kunagadoga" 
+	"Kunnateelah" "Moytoy" "Neekaanneah" "Nemetuah" "Noothoietah" "Nunnahitsunega" "Onanoota" "Ookoseta" "Ookouseteeh" "Oonatakoteekee" 
+	"Oorkullaukee" "Oortlokecteh" "Ooskwha" "Osley" "Ostaiah" "Otetiani" "Oukonunaka" "Renatus" "Ross" "Salal" 
+	"Salonitah" "Savanukah" "Scolaguta" "Selukuki Wohelengh" "Sketaloska" "Stand" "Ta'gwadihi" "Tagwadihi" "Tallotuskee" "Teekalohenah" 
+	"Tennesy" "Tooantuh" "Toostaka" "Tsaladihi" "Tsali" "Tuckasee" "Tunksalenee" "Umatooetha" "Unaduti" "Untoola" 
+	"Utsi'dsata" "Utturah" "Uwaite" "Weelee" "Wooaluka" "Wrosetasetow" "Yonaguska" }
+monarch_names = {
+	"Galilani #0" = -1
+	"Unega #0" = -1
+	"Degataga #0" = -1
+	"Scholauetta #0" = 1
+	"Oconostota #0" = 1
+	"Will-usdi #0" = 1
+	"Oneida #0" = -1
+	"Wyuka #0" = 1
+	"Akooh #0" = 1
+	"Kettegiskie #0" = 1
+	"Tatliusta #0" = 1
+	"Ostenaco #0" = 1
+	"Tsiyi #0" = 1
+	"Diwali #0" = 1
+	"Onatah #0" = -1
+	"Newota #0" = 1
+	"Kumamah #0" = 1
+	"Adahy #0" = -1
+	"Orenda #0" = -1
+	"Sequoia #0" = -1
+	"Ahyoka #0" = -1
+	"Necatee #0" = 1
+	"Skeleak #0" = 1
+	"Tauuotihee #0" = 1
+	"Immokalee #0" = -1
+	"Kowetatahee #0" = 1
+	"Sawanooekee #0" = 1
+	"Kaiyatahee #0" = 1
+	"Leotie #0" = -1
+	"Ghigau #0" = -1
+	"Orneda #0" = -1
+	"Hiawassee #0" = -1
+	"Nelly #0" = -1
+	"Immookalee #0" = -1
+	"Waya #0" = -1
+	"Elias #0" = 1
+	"Outacite #0" = 1
+	"Degan #0" = 1
+	"Ayita #0" = -1
+	"Tuskeegatee #0" = 1
+	"Lach'n Koatohee #0" = 1
+	"Guwisguwi #0" = 1
+	"Hiawatha #0" = -1
+	"Dixie #0" = -1
+	"Bill #0" = 1
+	"Nanye-hi #0" = -1
+	"Onacona #0" = -1
+	"Tayanita #0" = -1
+	"Degotoga #0" = 1
+	"Seneca #0" = -1
+	"Adsila #0" = -1
+	"Yona #0" = -1
+	"Hialeah #0" = -1
+	"Annie #0" = -1
+	"Eloy #0" = 1
+	"Cuerno #0" = 1
+	"Chescoonwho #0" = 1
+	"Knasgowa #0" = -1
+	"Ladybird #0" = -1
+	"Barb #0" = -1
+	"Mohe #0" = -1
+	"Chattakuteehee #0" = 1
+	"Teaultlo #0" = 1
+	"Dustu #0" = 1
+	"Artahkunistisky #0" = 1
+	"Ahuludehi #0" = 1
+	"Yonahequah #0" = 1
+	"Danielle #0" = -1
+	"Eustace #0" = 1
+	"Salali #0" = -1
+	"Kateri #0" = -1
+	"Oolassoteh #0" = 1
+	"Tlorene #0" = 1
+	"Kat #0" = -1
+	"Tsiyu Gansini #0" = 1
+	"Usdi #0" = -1
+	"Tulatiska #0" = 1
+	"Salleekookoolah #0" = 1
+	"Awenasa #0" = -1
+	"Yonah Oolah #0" = 1
+	"Eliel #0" = 1
+	"Ama #0" = -1
+	"Atagulkalu #0" = -1
+	"Cage #0" = 1
+	"Becky #0" = -1
+	"Sequoyah #0" = 1
+	"Kunokeski #0" = 1
+	"Isabelle #0" = -1
+	"Shelby #0" = -1
+	"Uskwa'li-gu'ta #0" = 1
+	"Amber #0" = -1
+	"Tulco #0" = 1
+	"Unsuokanail #0" = 1
+	"Chuquilatague #0" = 1
+	"Takota #0" = 1
+	"Nunnehidihi #0" = 1
+	"Awentia #0" = -1
+	"Tahlonteeskee #0" = 1
+	"Tuskegatahu #0" = 1
+	"Bridget #0" = -1
+	"Kaweesoolaskee #0" = 1
+	"Cheyenne #0" = -1
+	"Galilahi #0" = -1
+	"Tsula #0" = -1
+	"Nanyehi #0" = -1
+	"Atohi #0" = 1
+	"Tsistunagiska #0" = -1
+	"Cheanoka #0" = 1
+	"Garland #0" = 1
+	"Tara #0" = -1
+	"Sehoya #0" = -1
+	"Akonoluchta #0" = 1
+	"Dale #0" = 1
+	"Inola #0" = -1
+	"Tal-tsu'tsa #0" = 1
+	"Amadahy #0" = -1
+	"Charley #0" = -1
+	"Mattie #0" = -1
+	"Chea Sequah #0" = 1
+	"Annabelle #0" = -1
+	"Rose #0" = -1
+	"Sis #0" = -1
+	"Keith #0" = 1
+	"Henrietta #0" = -1
+	"Rayetayah #0" = 1
+	"Harley #0" = 1
+	"Ninovan #0" = -1
+	"Agi #0" = 0
+	"Ama-edohi #0" = 0
+	"Amo-adawehi #0" = 0
+	"Amokontakona #0" = 0
+	"Amouskositte #0" = 0
+	"Atsadi #0" = 0
+	"Attakullaculla #0" = 0
+	"Attakullakulla #0" = 0
+	"Austenaco #0" = 0
+	"Boudinot #0" = 0
+	"Charitey #0" = 0
+	"Chellokee #0" = 0
+	"Chesecotetona #0" = 0
+	"Chesetoa #0" = 0
+	"Chochuchee #0" = 0
+	"Chockonnistaller #0" = 0
+	"Chokasatahe #0" = 0
+	"Chonosta #0" = 0
+	"Chuquilataque #0" = 0
+	"Colonah #0" = 0
+	"Cunne Shote #0" = 0
+	"Di'wali #0" = 0
+	"Enoli #0" = 0
+	"Galegenoh #0" = 0
+	"Gallagina #0" = 0
+	"Ganundalegi #0" = 0
+	"Gawonii #0" = 0
+	"Inadunai #0" = 0
+	"Jonnurteekee #0" = 0
+	"Kanagagota #0" = 0
+	"Kanagatucko #0" = 0
+	"Kanitta #0" = 0
+	"Kanowsurhee #0" = 0
+	"Kanuna #0" = 0
+	"Keenahkunnah #0" = 0
+	"Keetakeuskah #0" = 0
+	"Keukuck #0" = 0
+	"Koatohee #0" = 0
+	"Kolakusta #0" = 0
+	"Konatota #0" = 0
+	"Kostayeak #0" = 0
+	"Kulsateehee #0" = 0
+	"Kunagadoga #0" = 0
+	"Kunnateelah #0" = 0
+	"Moytoy #0" = 0
+	"Neekaanneah #0" = 0
+	"Nemetuah #0" = 0
+	"Noothoietah #0" = 0
+	"Nunnahitsunega #0" = 0
+	"Onanoota #0" = 0
+	"Ookoseta #0" = 0
+	"Ookouseteeh #0" = 0
+	"Oonatakoteekee #0" = 0
+	"Oorkullaukee #0" = 0
+	"Oortlokecteh #0" = 0
+	"Ooskwha #0" = 0
+	"Osley #0" = 0
+	"Ostaiah #0" = 0
+	"Otetiani #0" = 0
+	"Oukonunaka #0" = 0
+	"Renatus #0" = 0
+	"Ross #0" = 0
+	"Salal #0" = 0
+	"Salonitah #0" = 0
+	"Savanukah #0" = 0
+	"Scolaguta #0" = 0
+	"Selukuki Wohelengh #0" = 0
+	"Sketaloska #0" = 0
+	"Stand #0" = 0
+	"Ta'gwadihi #0" = 0
+	"Tagwadihi #0" = 0
+	"Tallotuskee #0" = 0
+	"Teekalohenah #0" = 0
+	"Tennesy #0" = 0
+	"Tooantuh #0" = 0
+	"Toostaka #0" = 0
+	"Tsaladihi #0" = 0
+	"Tsali #0" = 0
+	"Tuckasee #0" = 0
+	"Tunksalenee #0" = 0
+	"Umatooetha #0" = 0
+	"Unaduti #0" = 0
+	"Untoola #0" = 0
+	"Utsi'dsata #0" = 0
+	"Utturah #0" = 0
+	"Uwaite #0" = 0
+	"Weelee #0" = 0
+	"Wooaluka #0" = 0
+	"Wrosetasetow #0" = 0
+	"Yonaguska #0" = 0
+}
+

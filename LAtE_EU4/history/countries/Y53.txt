@@ -1,0 +1,37 @@
+# Arkansas
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = appalachia
+religion = catholic
+clear_scripted_personalities = yes
+capital = 895
+3053.1.1= {
+	monarch = {
+		name = "Maud"
+		birth_date = 3021.2.3
+		dynasty = "Jesse"
+		female = yes
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Tabi-tosavit"
+		monarch_name = "Tabi-tosavit"
+		dynasty = "Jesse"
+		birth_date = 3050.6.23
+		death_date = 3130.6.23
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+3053.1.1 {
+	capital = 895
+	add_treasury = 48
+	add_prestige = 53
+}

@@ -1,0 +1,26 @@
+# Upcountry
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 4654
+3046.7.2 = {
+	monarch = {
+		name = "Lamar"
+		birth_date = 3044.2.9
+		dynasty = "Littlepage"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 4654
+	add_treasury = 20
+	add_prestige = 114
+	elector = no
+}

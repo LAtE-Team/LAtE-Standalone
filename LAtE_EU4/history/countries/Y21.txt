@@ -1,0 +1,25 @@
+# Adirondack
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = hudsonian
+religion = high_church
+clear_scripted_personalities = yes
+capital = 961
+3046.6.20 = {
+	monarch = {
+		name = "Abel"
+		birth_date = 3034.9.24
+		dynasty = "Dongan"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_ruler_personality = naive_personality
+}
+3053.1.1 {
+	capital = 961
+	add_treasury = 47
+	add_prestige = 54
+}

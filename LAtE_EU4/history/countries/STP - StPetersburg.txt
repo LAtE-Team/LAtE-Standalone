@@ -1,0 +1,14 @@
+government = oligarchic_republic
+primary_culture = novgorodian
+religion = rust_cultist
+technology_group = indian
+capital = 33 # Neva
+government_rank = 1
+3000.11.1 = {
+	monarch = {
+		name = "Feofil"
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}

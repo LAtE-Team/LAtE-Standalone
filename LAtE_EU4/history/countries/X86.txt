@@ -1,0 +1,36 @@
+# Altar
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = chino
+religion = cult_of_saints
+clear_scripted_personalities = yes
+capital = 4741
+3052.11.28 = {
+	monarch = {
+		name = "Miriam"
+		birth_date = 3049.11.5
+		dynasty = "Ramis"
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Orson"
+		monarch_name = "Orson III"
+		dynasty = "Ramis"
+		birth_date = 3021.3.23
+		death_date = 3101.3.23
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = fierce_negotiator_personality
+}
+3053.1.1 {
+	capital = 4741
+	add_treasury = 14
+	add_prestige = 20
+}

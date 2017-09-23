@@ -1,0 +1,26 @@
+# Orleans
+government = merchant_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = creole
+religion = protestant
+clear_scripted_personalities = yes
+capital = 893
+3053.1.1 {
+	monarch = {
+		name = "Meleager"
+		birth_date = 2995.10.16
+		dynasty = "Faulcon"
+		adm = 3
+		dip = 0
+		mil = 3
+	}
+	add_ruler_personality = secretive_personality
+}
+3053.1.1 {
+	capital = 893
+	add_treasury = 970
+	add_prestige = 79
+	elector = yes
+}
