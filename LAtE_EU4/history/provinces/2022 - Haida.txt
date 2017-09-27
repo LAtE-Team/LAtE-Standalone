@@ -1,9 +1,8 @@
 # 2022 - Haida
 
-owner = SAL
-controller = SAL
-    add_core = SAL
-add_core = SAL
+owner = HDA
+controller = HDA
+add_core = HDA
 is_city = yes
 culture = haida
 religion = raven_tales 
