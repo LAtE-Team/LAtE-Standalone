@@ -1,8 +1,9 @@
-government = native_council government_rank = 1
-primary_culture = haida
+government = native_council 
+government_rank = 1
+primary_culture = salish
 religion = raven_tales
 technology_group = western
-capital = 2022 #Haida
+capital = 973 #Vancouver
 
 
 3053.1.1 {

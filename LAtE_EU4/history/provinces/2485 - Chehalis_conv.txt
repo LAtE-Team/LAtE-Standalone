@@ -712,8 +712,10 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X21
-	controller = X21
+	owner = SAL
+	controller = SAL
+    add_core = SAL
+	add_core = SAL
 	culture = haida
 	religion = cetic
 }

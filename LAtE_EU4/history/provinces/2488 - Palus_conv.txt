@@ -1,6 +1,7 @@
 ck2_converter_generated = yes
 owner = SAL
 controller = SAL
+    add_core = SAL
 add_core = SAL
 culture = salish
 religion = raven_tales
@@ -713,6 +714,7 @@ discovered_by = X17
 3053.1.1 = {
 	owner = SAL
 	controller = SAL
+    add_core = SAL
 	culture = salish
 	religion = raven_tales
 }

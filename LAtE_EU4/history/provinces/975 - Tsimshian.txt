@@ -2,6 +2,7 @@
 
 owner = SAL
 controller = SAL
+    add_core = SAL
 add_core = SAL
 culture = haida
 religion = raven_tales

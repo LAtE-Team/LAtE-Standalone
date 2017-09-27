@@ -24,6 +24,7 @@ discovered_by = nomad_group
 # = {
 	#owner = SAL
 	#controller = SAL
+    add_core = SAL
 	#add_core= SAL
 	trade_goods = unknown
 	is_city = no 

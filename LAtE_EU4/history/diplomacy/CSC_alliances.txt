@@ -1,9 +1,4 @@
-vassal = {
-	first = CSC
-	second = X21
-	start_date = 3053.1.1
-	end_date = 1900.1.1
-}
+
 vassal = {
 	first = CSC
 	second = X22
