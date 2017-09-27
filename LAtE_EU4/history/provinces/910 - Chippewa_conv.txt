@@ -1,6 +1,7 @@
 ck2_converter_generated = yes
 owner = MTC
-controller = MTC
+controller = MTC 
+    add_core = MTC
 add_core = MTC
 culture = northlander
 religion = rust_cultist
@@ -715,7 +716,8 @@ discovered_by = X17
 }
 3053.1.1 = {
 	owner = MTC
-	controller = MTC
+	controller = MTC 
+    add_core = MTC
 	culture = northlander
 	religion = rust_cultist
 }

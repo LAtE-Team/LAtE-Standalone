@@ -1,0 +1,820 @@
+#Raramuri
+central_american = {
+	raramuri = {
+		dynasty_names = { "Sikára" "Amézcua" "Blissid" "Acáid" "Caliente" "Muquirid" "Taríid" }
+	}
+}
+
+#Wayuu
+caribbean = {
+	wayuu = {
+		dynasty_names = { }
+	}
+}
+
+native_american = {	#All-encompassing group for native cultures
+	#Metis
+	metis = { 
+		dynasty_names = { "Parenteau" "Delorme" "Lépine" "Callihoo" "Callihoo" "Desjarlais" "Bourque" "de Rocky Mountain House" "de Batchawana Bay" "de Blue Earth" "de La Crosse" "de Kewaunee" "de Virginia" "de Greenfield" "de Lakewood" "de Rushville" "de Valentine" "de Two Rivers" "de Marshall" "de Thunder Bay" "de St. Peter" "de Fort William" "Bottineau" "Boucher" "Vautour" "de Cardston" "de Pierre" "de Dryden" "de Mobridge" "Callihoo" "Riel" "Bouyer" "Parenteau" "Souray" "Dumont" }
+	}
+	#Innu
+	innu = {
+		dynasty_names = { }
+	}
+	#Paiute
+	paiute = {
+		dynasty_names = { "Honi" "Pahe" }
+	}
+	aleutian = {
+		male_names = {
+			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
+			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Iñuksuk Irniq 
+			Itigaituk Kanguq Kataktuaq  Keedtapeck Kissarviarsuk Kumaglak Kunik Kunikpaa Malik Nanouk Nasak Natsiq 
+		}
+		female_names = {
+			Kanguyak Kanosak Kakortok Krernertok Kunwaktok Kuvageegai Makoktok Miki Nagojut Nukka Palartok Panik Pukiq Qannik 
+			Quvianuq Sakari Sesi Shila Siku Tatkret Tiguaq Ublureak Uiritsaktak Umiaktorvik Yuralria
+		}
+		dynasty_names = {
+			Amaruq Pakak Silaluk Kayuqtuq
+		}
+	}
+	inuit = {
+		male_names = {
+			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak 
+			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun 
+			Taktuq Taliriktug Tikaani Tiqriganiannig Tukkuyummavungga Tulimak Tulimaq Tulugaq Tungajuaq Tupiq Tuuq Ugalik 
+			Ujurak Ukiuk Unnuk Usuiituk
+		}
+		female_names = {
+			Ahnah Akna Chena Corazon Desna Kaskae Kaya Kirima Koko Malina Adlartok Ahnah Akiak Anana Anernerk Annakpok Aput 
+			Ataciare Atka Aukaneck Biisaiyowaq Buniq Chulyin Cikup Corazon Cupun Hey Iluak Iluq Imnek Ipiktok Iqniq Kakrayok 
+		}
+		dynasty_names = {
+			Amaruq Pakak Silaluk Kayuqtuq
+		}
+	}
+	shawnee = {
+		primary = SHA
+		dynasty_names = {
+			Auglaize Alawaymotakah Akepee Aqueloma Chillicothe Calaka Chalaakaatha Conedogwinit Hathawekela Hisoskok 
+			Hawkawepitathy Kispoko Kiscopocoke Kispokotha Koshachkink Kagoughsage Kickapougowi Kithlipecanuk Mequachake Maykujay 
+			Mekoce Maguck Oawikila Ochipway Okowellos Opeatako Oshawahnah Piqua Pekowi Paxtang Peixtan Paheto Paytokothe 
+			Spitotha Sawanugi Sawauwone Saweeto Sawcunk Sewickley Shamokin Sonnioto Thaawikila Thawegila Tippecanoe Sylacauga 
+			Wakatomica Wakatawicks Wapakoneta Wabapusito Wagunetee
+		}
+		male_names = {
+			Hokoleskwa Cottawamago Paxinos Wynepuechisika Weyapersenwah Tecumseh Aweecony Kakawipilathy Malunthy 
+			Musquaconocah Meanymsecahh Waupaucowela Nihipeewa Nihinessicoe Wawelainni Kishkalwa Maywathekeha 
+			Pathecoussa Nelawachika Waquiwais Napawita Papamousse Pemitacamchika Wyawimon Quamapea Pelmetachemo 
+			Neahmemsieeh Makatewekasha Koitawaypie Misquacoonacaw Cutthewekasaw Kayseaesekah Weythapamattha 
+			Waytheah Weyapiersenwaw Nequetaughaw Hahgooseekaw Weyapuseawaw Cutheaweasaw Auonashechla Cutewecusaw 
+			Tamenetha Piaseka Pomtha Shammothetho Pemthata Wethawakasika Quetawah Sokutchemah Wynepuehsika 
+			Quitawepeh Teawascoota Tacomtequah Nianymseka Chiachska
+		}
+		female_names = {
+			Methoataske Tacumwah Moconnoquah Kickkesequah Oshawsequah 
+		}
+	}
+	illini = {
+		primary = ILL
+		dynasty_names = {
+			Kaskaskia Cahokia Peoria Tamaroa Moingwena Michigamea Albiui Amonokoa Chepoussa Chinkoa Coiracoentanon Espeminkia 
+			Maroa Matchinkoa Michibousa Negawichi Tapouara
+		}
+		male_names = {
+			Wahpeshakana Kenmahreneah Pakeeshama Allenepeshensha Wassacanga Naynawitwa Wissineeaw Ramisswnoa 
+			Whkahpesewah Kemonsah Wapesae Pemekawai Koongeepata Batticy Keemaranea Wecomakana Keeshammy 
+			Aramapingea Keemawassa Wackshingga Kitakimawa Manggonssa Mooyakacke Pemmikawatta Papenegisawa 
+			Meshiwiratta Mahkattamaweya Queckaawpeeta Chessagouasse Mamentouensa Chicagou Ninkanape Maressa
+			Shopinna Wapamahwhawa
+		}
+		female_names = {
+			Methoataske Tacumwah Moconnoquah Kickkesequah Oshawsequah 
+		}
+	}
+	anishinabe = {
+		primary = OJI
+		dynasty_names = {
+			Missisage Saulteaux Bungee Saginaw Achiligouan Amicoures Amikwa Auwause Bawating Chequamegon Keweenaw Kitchigami 
+			Macomille Malanas Marameg Mackinac Mundua Nikikouek Noquet Mouusagai Ouasouarini Aousanik Outchibou Outchougai 
+			Ouxeiacomingo
+		}
+		male_names = {
+			Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun 
+			Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin 
+			Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew 
+			Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham 
+			Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa 
+			Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau 
+			Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke 
+			Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena 
+			Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck 
+			Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok 
+			Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm 
+			Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk 
+			Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam 
+			Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+		}
+		female_names = {
+			Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+		}
+	}
+	cree = {
+		primary = WCR
+		dynasty_names = {
+			Iyiyiw Chisasibi Wemindji Whapmagoostui Mistissini Nemaska "Ouje-Bougoumou" Waskaganish Waswanipi Mosoni Maskekowak 
+			Nehinawak Attawapiskat Chemawawin Kashechewan Misipawistik Missanabie Mosakahiken Neskntaga Opaskwayak Sapotaweyak 
+			Shamattawa  Tatskweyak Taykwa Weenusk Wuskwi Bunibonibee "Manto Sipi" Nisichawayashik "O-pipon-na-piwin" Pimicikamak 
+			Sakawithiniwak Kapawe'no Mikisew Wabasca Mamihkiyiniwak Nekaneet Ochapowace Peepeekisis
+		}
+		male_names = {
+			Kapapamahchakwew Abishabis Mistahi-maskwa Kamiokisihkwew Payipwat Pitikwahanapiwiyin Tepastenam 
+			Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno Wenangasie Katchang Moonias Ostamas 
+			Kwakigigckewang Keneswabe Matawagan Odagamea Missabay Pootoosh
+		}
+		female_names = {
+			Torotiy Meriy Elin Ashenee Astina Echa Kiche Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya 
+		}
+	}
+	mesquakie = {
+		dynasty_names = {
+			Winewak Karakuntie Moyese Plante Wanyandie Aseniwuche
+		}
+		male_names = {
+			Nîshwi Nethwi Nyêwi Nyânanwi Neniwa Ihkwêwa Anemôha Kîshethwa Tepehkî-Kîshethwa   
+		}
+		female_names = {
+			Nepi Wâpeshk Athâw Meshkw Mahkatêw Mîchiwa Wâpatamwa Ehtamwa Nakamowa Nâkwêwa
+		}
+	}
+	cheyenne = {
+		primary = CHY
+		dynasty_names = {
+			Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		}
+		male_names = {
+			Wechegalla Tatoncapa Japu Takchesca Chahpacpahha Tatoncahooohcalehpaha Matewashena Shonggemoneto 
+			Shongemonetoeahca Nahpatonca Ohkeecheta Tahhiota Wahhanissatta Voisttitoevetz Nahkkomeien 
+			Motavato Vokivokamast Avonaco Oneahaket Nakohaistah Aamanaco Kohkahywhcumest
+		}
+		female_names = {
+			Ehyophsta Misstanstur Tahtahtoisneh Paveena Shaianne Sheyanne Shian Shiana Shiann Shy Shyanna Ameo Ameone 
+			Ametane Ami Anaba Aquene Emona Emonah Maheona Meona Moneva 
+		}
+	}
+	blackfoot = {
+		primary = BLA
+		dynasty_names = {			
+			Aisikstukiks Apikaiyikis Emitahpahksaiyiks Motahtosiks Puhksinahmahyiks Saiyiks Siksinokaks Tsiniktsistsoyiks 
+			Ahkaisumiks Ahkaipokaks Ahkotahshiks Anepo Apikaiyiks Aputosikainah Inuhksoyistamiks Isissokasimiks Istsikaihan 
+			Mameoya Nitikskiks Saksinahmahyiks Sikahpuniks Sikinokaks Ahahpitape Ahkaiyikokakiniks Apikaiyiks Esksinaitupiks 
+			Inuksikahpowaiks Inuksiks Ipoksimaiks Kahmitaiks Kiyis Kutaiimiks Kutaisotsiman Miahwahpitsiks Miawkinaiyiks 
+			Mokumiks Motahtosiks Motwainaiks Nitakoskitsipupiks Niwayiks Nitikskiks Nitotsiksistaniks Sikokitsimiks 
+			Sikopoksimaiks Sikutsipumaiks Susksoyiks Tsiniksistsoyiks
+		}
+		male_names = {
+			Shanah Shanahwane Abukcheech Achachak Achak Ahanu Anakausuen Aranck Askook Askuwheteau Chansomps Chogan Eluwilussit 
+			Enkoodabaoo Etchemin Etlelooaat Hassun Huritt Keme Kestejoo Kitchi Machk Makkapitew Matchitehew Matunaagd Matwau 
+			Megedagik Mekledoodum Mingan Mukki Nixkamich Nootau Pannoowau Powaw Rowtag Samoset Segenam Sucki Sunukkuhkau 
+			Tihkoosue Togquos Apisi
+		}
+		female_names = {
+			Peta Hanata Alsoomse Hausis Hurit Kanti Keegsquaw Kimi Makkitotosimew Nadie Nijlon Nittawosew Numees Nuna Nuttah 
+			Oota dabun Pules Sokanon Sokw Sooleawa Tahki Wapun Wawetseka Koko Peta Sinopa
+		}
+	}
+	arapaho = {
+		primary = ARP
+		dynasty_names = {
+			Clatsop Cathlamet Skilloot Cathlapotle Multnomah Watlala Clowwewalla Clackamas Chiluckittequaw Wishram Wasco 
+			Atfalati Yamel Lakmiut Chepenafa Santiam Chelamela Calapooya Yoncalla
+		}
+		male_names = {
+			Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan 
+			Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale 
+			Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta 
+			Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose Talsapeer Pulktah Pulican Hache-hi Hosa Nakos
+			Bipin Bodaway Brijesh Brijmohan Cochise Dahana Eknath Elan Gopal Gopan Gosheven Govind Gulab Gunaratna 
+			Gurbachan Gurcharan Hridayesh Ikshu Ilesh Illanipi Jimuta Jinendra Jishnu Jitendra Jivin Kuruk Kusagra Kush 
+			Leyati Leyti Lise Mohan Mohin Narsimha Nartan Nartana Niteesh Nitis Pravar PraveenHalf Prayag Preetish Pritam 
+			Tarak
+		}
+		female_names = {
+			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+			Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+			Smriti Surabhi Tapi Tara
+		}
+	}
+	delaware = {
+		primary = LEN
+		dynasty_names = {
+			Sapokanikan Nechtanc Aquehonga Manacknong Shawkopoke Nayack Sowanus Sassian Monsey
+			Absecon Assupink Communipaw Hakensack Hoboken Hohokus Hopatcong Mahwah Manahawkin
+			Manalapan Mantoloking Mantua Matawan Metuchen Minisin Musconetcong Passaic Peapack
+			Naraticong Scheyichbi Secaucus Weehawken
+			Conshohocken Manayunk Passyunk Shackamaxon Wissahickon
+		}
+		male_names = {
+			Tetabuxike Bukongehelas Hockingpomskenn Kechkawhanund Alimee Tomaguee Missenewand Petchekekapon 
+			Kithteeleland Lapahnihe Apacahund Netahopuna Tunis Caghkoo Petchenanalas Quenaghtoothmait Pooshies 
+			Nanotetauxien Sarcoxey Neconhecond Kockkatowha Quacornowha Neshapanacumin Queshatowha Pondoxy 
+			Ahlaachick Neconhecon Rockatowah Buckongahelas Gelelemend Oratam Neolin Hopocan Tamanend Tamaqua 
+			Teedyuscung Kkoquethagechton Kockkockquas
+		}
+		female_names = {
+			Awowas Moconnoquah Cholena 
+		}
+	}
+	abenaki = {
+		primary = ABE
+		dynasty_names = {
+			Amoskeay Cocheco Cowasuck Koasek Masipskwoik Nashua Ossipee Pemigewasset Pennacook Pequaket	Piscataqua Souhegan 
+			Winnibisauga Amaseconti Alessikantekw Kinipekw Odanak Ossipee Panawahpskek Apikwahki Rocameca Wawinak Wôlinak
+		}
+		male_names = {
+			Qualebeenewes Madockawando Wanagemeshaw Bungawarrawit Warrankansit Bomoseen Edaranaquin Eneas 
+			Jackoit Pequaret Weebenoose Caterramoggus Nuctungus Quinnawus Quirebooset Neguscawit Abinnaway 
+			Addeawando Segucewick Kissuragunnit Pittarisquanne Moxusson Erixis Estien Wenemoet Whonumbamet 
+			Chocorua Iteansis Sanboddies Scaweeease Atoan Sozap Pelnal Lol Tanial Missal Tabid Nikpla Edoal Pial Plasoa 
+			Lobal Klegual Simo Az Atian
+		}
+		female_names = {
+			Mali Malian Maliazonis Azonis Malgelit Agat Alizbat O'zalik Alan O'nis Lowiz O'nias Malgelit Katetin Mali 
+			Sallot Sopi Klalis Sozn Toloti Talaz
+		}
+	}
+	mikmaq = {
+		primary = MIK
+		dynasty_names = {
+			Epekwik Epeggoitg Eskikewakik Esgigiag Kespek Gespegiag Kespukwitk Gespogoitg Siknikt Sigenitog sipeknekatik 
+			Segepenegatig Taqmkuk Tagamgoog Wunamakik Onamagig Aboushagan Antigonishe Bhicuctouche Chignecto Ekoupahag Jedaick 
+			Kigicapigiak Miramichi Nalkithoniash Nipigiguit Pohomoosh Shediac Tabogimkik Tabusintack Waycobah
+		}
+		male_names = {
+			Membectou Ounaginitish Eargamet Chickanicto Armquannott Attanas Rechibouctou Chichabenady Miductuk 
+			Spugonoit Nughquit Begamonit Chigaquisht Nelanoit
+		}
+		female_names = {
+			Mali Malian Maliazonis Azonis Malgelit
+		}
+	}
+	mahican = {
+		dynasty_names = {
+			Muhhcanneuw Mehckentowoon Wawyachtonoc Westenhuck Wiekagjoc Shecomeco Wechquadnach Pamperaug Bantam Weataug 
+			Scaticook Mahaiwe Wikwajek Chaghnet Horikan Kaunaumeek Kenuckpacook Maringoman Monemius Nepaug Paanpaack Peantam 
+			Potick Potie Shodac Shakehook Unawat Wechquadnach Wequadnack Wiatiae Winooskeek Wyeck
+		}
+		male_names = {
+			Maumauntissekun Shabash Wassamapah Uncas Chingachgook Etowohkoam Aupamut Konkapot Quinney Skicket Chemaucum Thebeant 
+			Kithteeleland Lapahnihe Apacahund Netahopuna Tunis Caghkoo Petchenanalas Quenaghtoothmait Pooshies Nanotetauxien 
+			Sarcoxey Neconhecond Kockkatowha
+		}
+		female_names = {
+			Awashonks Djitsbudnaca Weetamoo Wootonekanuske
+		}
+	}
+	powhatan = {
+		primary = POW
+		dynasty_names = {
+			Powhatan Arrohateck Appamattuck Pamunkey Mattaponi Chiskiack Kecoughtan Youghtanund Rappahannock Moraughtacund 
+			Weyanoak Paspahegh Quiyoughcohannock Warraskoyack Nansemond
+		}
+		male_names = {
+			Wahunsenacawh Debedeavon Okiawampe Kiptopeke Opechancanough Nectowance Totopotomoi Nemattanew 
+			Parahunt Pochins Opitchapan Catataugh Ashaquid Chauco Tomocomo
+		}
+		female_names = {
+			Cockacoeske Pocahontas Amonute Nandua
+		}
+	}
+	pequot = {
+		primary = PEQ
+		dynasty_names = {		
+			Metoac Manchaug Massomuck Menunkantuck Monashackotoog Pequannock
+			Quinebaug Quinnipiac Siwanoy Niantic Asupsuck Aukumbumsk Aushpook
+			Cosattuck Cuppunauginnit Mangunckakuck Mashantucket Mohungannuck
+			Nameauag Natchaug Noank Oneco Paupttokshick Pawcatuck Pequotauk
+			Poquonock Sauquonckackock Shenecosset Tatuppequauog Weinshauks
+			Weqhetequock Wunnashowatookoog Quahog Mashpee Patuxet Pokanoket
+			Pocasset Assonet
+		}
+		male_names = {
+			Tatobem Uncas Sassacus Sassious Wequash Tisquantum Miantonomo Nynigrett Pessicus Sassamon Canonchet 
+			Massasoit Wamsutta Metacom Mahomet Weyonomon Occom
+		}
+		female_names = {
+			Awashonks Djitsbudnaca Weetamoo Wootonekanuske
+		}
+	}
+	iroquois = {
+		primary = IRO
+		dynasty_names = {
+			Awegen Ahaouet
+			Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+			Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+			Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+			Hostayuntwa
+			Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+			Neodakheat Nowadaga Nundawaono
+			Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+			Skannayutenate Saratoga Schaunactada Schoharie
+			Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+			Yoroonwago
+		}
+		male_names = {
+			Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+			Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+			Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+			Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+			Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+			Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+			Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+			Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+			Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+			Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+			Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+			Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		}
+	}
+	cherokee = {
+		primary = CHE
+		dynasty_names = {
+			Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		}
+		male_names = {
+			Sequoyah Attakullaculla Guwisguwi Moytoy Yonaguska Tsiyu Gansini Agi It Boudinot Lach'n Koatohee 
+			Scholauetta Tuskegatahu Ooskwha Kolakusta Newota Konatota Tuckasee Toostaka Untoola Unsuokanail 
+			Chonosta Chescoonwho Chesetoa Chesecotetona Sketaloska Chokasatahe Onanoota Ookoseta Umatooetha 
+			Necatee Amokontakona Kowetatahee Keukuck Tulatiska Wooaluka Tatliusta Skeleak Akonoluchta Cheanoka 
+			Ostaiah Oortlokecteh Chockonnistaller Noothoietah Kunnateelah Utturah Weelee Oolassoteh Tlorene 
+			Jonnurteekee Oonatakoteekee Kanowsurhee Yonah Oolah Tunksalenee Oorkullaukee Kumamah Chattakuteehee 
+			Kettegiskie Tauuotihee Chuquilataque Salleekookoolah Tallotuskee Chellokee Tuskeegatee Neekaanneah 
+			Kulsateehee Keetakeuskah Akooh Sawanooekee Yonahequah Keenahkunnah Kaweesoolaskee Teekalohenah 
+			Chochuchee Kostayeak Ookouseteeh Kanitta Nemetuah Wyuka Tulco
+		}
+		female_names = {
+			Asmita Nanyehi Cuhtahlatah Sequoya Adsila Amadahy Awenasa Awinita Ayita Galilahi Leotie Usdi Galilani Hialeah 
+			Immookalee Tayanita Sequoia Ahyoka Ama Galilani Ghigau Hiawassee Immokalee Inola Knasgowa Nanye-hi Ninovan 
+			Salali Tsistunagiska Tsula Tayanita Yona
+		}
+	}
+	huron = {
+		primary = HUR
+		dynasty_names = {
+			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon 
+			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
+			Cahiague Carhagouha Carmaron Contarea Conchake Chequamegon
+			Ekiodatsaan Endarahy Iahenhouton
+			Junqueindundeh Junundat
+			Karenhassa Kakouagoga Kandouche Kehesetoa Khioetoa
+			Oeniro Onentisati Ossossane Oukhahitoua
+			Scanonaerat Sunyendeand Skenchioe
+			Teanaustayae Teandewiata Tonache Teadeouita Teanhatenaron Tondakhra Tiedonderoga Touaguainchain Tarhetown Teotoguiaton
+		}
+		male_names = {
+			Ahatsistari Adario Dunquat Tarhe Teyandatontec Cheyawe Doueyenteat Terhataw Datasay Maudoronk 
+			Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe 
+			Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu 
+			Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
+		}
+		female_names = {
+			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+		}
+	}
+	susquehannock = {
+		primary = SUS
+		dynasty_names = {
+			Akhrakouaeronon Akwinoshioni Atquanachuke Carentouan Cepowig Junita Kaiuariegehaga
+			Ohongeoguena Oscalui Quadroque Sconondihago Seosquacke Takoulguehronon Tehaque
+			Tesinigh Unquehiett Usququhaga Utochwig Wyoming Wysox Kanastoge "Onojutta-Haga"
+			Scahentoarrhonon Tehotitachsae
+		}
+		male_names = {
+			Dahadaghesa Waskanecqua Kagoregago Saraqundett Uwhanhierelera Waddon Hago Andra Sonque Wastahanda 
+			Gosweinquecrakqua Wanahedana Auroghteregh Scarhuhadigh Rutchogah Nathheldaneh Sawahegeh
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha
+		}
+	}
+	
+	dakota = {
+		primary = SIO
+		dynasty_names = {
+			Sichangu Oglala Itazipcho Hunkpapha Mnikhowozu Sihasapa Oohenunpa
+			Ihantkhunwan Ihankthunwanna Isanyathi Thithunwan Wichiyena
+			Wahpéthunwan Mdewakanthunwan Wahpéhute Sisithunwan 
+		}
+		male_names = {
+			Wabasha Petette Tartunkanasiah Keejee Tarsega Wamadetunka Wannata Kokomako Shacope Penision Etaseepa 
+			Wakauhee Poehapa Takewapa Tenchzepart Mascpulochastosh Tetekarmunch Wasaota Oeyakoca Maktowahkeark 
+			Matowayouwe Makatozaza Belotonkatanga Nakapagigi Maktosabichis Mewatanihanska Thathanka Iyotake 
+			Iyapato Thasunke Witko Maphiya Luta Hehaka Sapa Sinte Gleska Ite Omagazu Ogle Luta Mahpiya
+		}
+		female_names = {
+			Tasinasapewin Thasinamani Tasinahlahlawin Dohumme Chapa Chapawee Chumani Dowanhowee Ehawee Hantaywee Kimimela 
+			Macha Magaskawee Makawee Mika Ojinjintka Ptaysanwee Shappa Skah Wichahpi Winona Zitkala Zonta Mina Tahcawin 
+			Talutah Wachiwi Wasula Weayaya Wichapi
+		}
+	}
+	nakota = {
+		primary = ASI
+		dynasty_names = {
+			Aegitina Bizibina Cephubi Canhdada Canhewincasta Canknuhabi Hudesabina Hebina Huhumasmibi Huhuganebabi
+			"Hen Atonwaabina" Inwantonwanbina Innianonbi Insaombi Indogahwincasta "Minisoee Swnkeebi" Minisatonwanbi
+			Osnibi Ptegabina Sunkcebi Sahiyaiyeskabi Snugabi Sihabi Tanidabi Tokanbi Tanzinapebina Unskaha Wadopabina 
+			Wadopahtonwan Wiciyabina Waziyamwincasta Wasinazinyabi Wokpanbi
+		}
+		male_names = {
+			Tepeeoska Wichawostaka Masgwahasid Chenka Kichipwot Stamixosok Emitahapiskinne Matapikomotziw 
+			Ayestipissimat Kissoum Pitahotocan Apawstamix Onistahpokah Netahkiteipimew Akakotos Stokimatis 
+			Pitahotiskin Stamixotakapiw Mastepitah Moyanymen Ekaskine Kayookosis Ponokahstamix Omaksisapop 
+			Pitahsiksinum Apawonistaw Attistahhawes Pitah Pitahonistah Kayetapo Mahtowewitko Toetahkiehnan 
+			Nochkpitshitoepish Sheohmantho Waywasecapow Otamakooewin Shapousetung Sukeman Misketo Etamepeton 
+			Kawasaskotrepahik Makoyekin Nesoauases Onistah Pitahannes
+		}
+		female_names = {
+			Tasinasapewin Thasinamani Tasinahlahlawin Dohumme Chapa Chapawee Chumani Dowanhowee Ehawee Hantaywee Kimimela 
+			Macha Magaskawee Makawee Mika Ojinjintka Ptaysanwee Shappa Skah Wichahpi Winona Zitkala Zonta Mina Tahcawin 
+			Talutah Wachiwi Wasula Weayaya Wichapi
+		}
+	}
+	chiwere = {
+		primary = FOX
+		dynasty_names = {
+			Mesquakie Wagosh Asakiwakie Kickapoo Blackhawk Saukenuk Thakiwakie
+			Tama Osakis Etnataek Kickapougwoi Kithlipecanuk
+			"Jumping Fish" "Sun Fish" Bear Giger Lance Devil "Big Eagle"
+			Sturgeon Eagle "Blues Son" Plumbed "the Sioux" "Brave by Hazard"
+		}
+		male_names = {
+			"Keokuk Wapello" "Pierremaskin Muckkatwagout Namasosanamet" "Mackkatananamakee Pashchenene Wapasai" 
+			"Malasenokama Kechaswa" Catchacommu Waapaca Mataqua Paquampa Aquoqua Nemarqua Machenamau Pesotaka 
+			Mishecaqua Capontwa Mowhinin Omquo Wonakasa Nautakawa Makataimeshekia Wathohuck Choukeka Keesheswa 
+			Kenekuk Papiquan Pashepaho Lalyurva Hanshequarhiqua Outchequaka Quashquame Shamaga Weesaka 
+			Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+			Keokuk Wapello Pierremaskin Muckkatwagout Namasosanamet Mackkatananamakee Pashchenene Wapasai
+			Malasenokama Kechaswa
+		}
+		female_names = {
+			Tasinasapewin Thasinamani Tasinahlahlawin Dohumme Chapa Chapawee Chumani Dowanhowee Ehawee Hantaywee Kimimela 
+			Macha Magaskawee Makawee Mika Ojinjintka Ptaysanwee Shappa Skah Wichahpi Winona Zitkala Zonta Mina Tahcawin 
+			Talutah Wachiwi Wasula Weayaya Wichapi
+		}
+	}
+	osage = {
+		primary = OSA
+		dynasty_names = {
+			Wazhaze Tsishu Pasueli Wahakolin Sansueli Wyota Picayune Koholo Neodesha
+			Owasso Pawhuska Niukonska Doppike Neosho Chetopa Hominy Pahusan 
+		}
+		male_names = {
+			Teshuhimga Gradamnsa Caygaywachepeche Couchestawasta Mahsa Wanougpacha Hurate Wasabatougga Nekaghre 
+			Mekewatanega Nangawahaegea Kemanha Papuisea Harachabe Pahelagren Tawangahuh Honencache Nichumali 
+			Voithevoihe Voithechinga Tavoingare Osogahe Voichinodhe Voinache Voinonpache Qhihiramaki 
+			Caygache Pahuroguesie Miaasa Manjaguida Mantsa Nicagaris Dogachinga Tavaingare Tavainthere Naguemani 
+			Nicanauthe Chonmelase Nenonbas Pograngue Cayque Nonpevoite Vesasche Tonchenanque Lihibi Grinache 
+			Nicouilbran Chonnonsogue Lisansandhe Mequaque Megahe Manhegare Meyhe Nudhetavoi Thecayque Voitasean 
+			Cahapiche Manhevoi Talechiga Pedhechiga Cheganonsas Nesaque Lolechinga Panenvoiguanda Tavoinhihi 
+			Mithechinga Manquesi Chingavoisa Talevoile Voiengran Scamani Nurahague Mechinga Pachigue Roudanique 
+			Voibisandhe Nehizanga Nehudhe Pagranque Chahetonga Manguepeemani Voibalune Poneavoitaniga Taslondhe 
+			Nendogualui voibahe Onhehomani Nuranin Noguinilayque Nanlatoho Bashemindhe Savoi Chouquemonnon 
+			Manilourana Nequevoile Chonguehanga Ponlachinga Aguigueda Voidoguega Sindhe Ninchagari Voidhadani 
+			Quinihonigue Nognithechinga Natanhi Ousabe Voichinouthe Amanpasse Cutsagabe Channahon Nonbasocri 
+			Pedhechinga Bassechinga Ponlavoitasuga Manyvoile Mandarihi Nepaste
+		}
+		female_names = {
+			Wakonsamoie Watoesa Sekaname Shonsegra Egraname Misae Niabi
+		}
+	}
+	catawba = {
+		dynasty_names = {
+			Owasso Pawhuska Niukonska Doppike Neosho Chetopa Hominy Pahusan Mesquakie Wagosh Asakiwakie Kickapoo Blackhawk 
+			Saukenuk Thakiwakie
+		}
+		male_names = {
+			Teshuhimga Gradamnsa Caygaywachepeche Couchestawasta Mahsa Wanougpacha Hurate Wasabatougga Nekaghre 
+			Mekewatanega Nangawahaegea Kemanha Papuisea Harachabe Pahelagren Tawangahuh Honencache Nichumali 
+			Voithevoihe Voithechinga Tavoingare Osogahe Voichinodhe Voinache Voinonpache Qhihiramaki
+		}
+		female_names = {
+			Wakonsamoie Watoesa Sekaname Shonsegra Egraname Misae Niabi
+		}
+	}
+	wichita = {
+		primary = WIC
+		dynasty_names = {
+			Clatsop Cathlamet Skilloot Cathlapotle Multnomah Watlala Clowwewalla Clackamas Chiluckittequaw 
+			Wishram Wasco Atfalati Yamel Lakmiut Chepenafa Santiam Chelamela Calapooya Yoncalla
+		}
+		male_names = {
+			Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan 
+			Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale 
+			Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta 
+			Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose Pulican Pulktah Talsapeer
+		}
+		female_names = {
+			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+			Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+			Smriti Surabhi Tapi Tara
+		}
+	}
+	caddo = {
+		primary = CAD
+		dynasty_names = {
+			Adai Cahinnio Doustioni Eyeish Hainai Hasinai Kadohadacho
+			Kichai Nabedache Nabiti Nacogdoche Nacono Nadaco Nanatsoho
+			Nasoni Natchitoches Nechaui Neche Ouachia Tula Yatasi
+		}
+		male_names = {
+			Tashar Tsauninot Sationwnhown Tinnehinan Tinnowin Chowabah Kianhoon Tiatesun Tehowawinow Tewinnun 
+			Tiohtow Tehawahinno Toackooch Tchowainin Sanninow Sauninot Hiahidock Mattan Towahinnek Aach 
+			Sohone Ossinse Soakiantow Kardy
+		}
+		female_names = {
+			Zacado Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruri'u Tstapittarius
+		}
+	}
+	pawnee = {
+		primary = PAW
+		dynasty_names = {
+			Marhar Skidi Turikaku Kitkehaxpakuxtu Tuhitspiat Tukistkita Tuhawukasa Arikararikutsu
+			Arikarariki Thutsaku Tuwarakaku Akapaxtsawa Tskisarikus Tsiskaatit Turawiu Pahuksatu
+			Tskirirara Chuai Kitkehaki Pitahaureat Kawaraki
+		}
+		male_names = {
+			Tarahutacaw Tearilari Kakaletahaw Larapa Tahorou Letereeshar Tearacheticktickspaw Teakahore 
+			Tarara Teripakoo Irarikau Taretuushta Charuvaru Skalavalacharo Panukuhike Ishtataveeirou 
+			Lecoutsaroushtu Tacatahekou Kewatookoush Teratuewit Taheerish Petaperishta Talawehouree 
+			Shinggacahega Aiuwechooneeweeka Islacapee Settulushaa Shakororishshara Tarraecarwaa Tarrarevetiishta 
+			Arorishhara Telawahecarookot Kagakereeouk Latatorishhara Lahehozrashea Taarakarukaishta 
+			Tarraricarrawaa
+		}
+		female_names = {
+			Tstakurriwax Tstaka Tstarahuxtu Tsaktahiraas Tskusaski Tstaruri'u Tstapittarius
+		}
+	}
+	creek = {
+		primary = CRE
+		dynasty_names = {
+			Chitto "Hasse Ola" Hopoethe "Talof Harjo" Yaholo Menewa Chebona Osceola Hothlepoya "Lumhe Chati"
+		}
+		male_names = {
+			"Hoboi-Hili-Miko" "Mico Malatchi" Opothleyaholo Emistesigo Fife Lamochattee Yahatatastenake Taskanugi Hatke 
+			Fuskatchemico Neathlock Hallethemalthle Opaymico Totkeshajou Hopothemico Opototaache Soholoesee Ocheehajou 
+			Tuskenaah Homatah Chinnabie Juleetaulematah Chawooklymico Coosadeshopoy Muthtee Stimafutchkee Stilnaleeje 
+			Mumagechee
+		}
+		female_names = {
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche 
+			Nahomtima Immahoka Lunnabaga
+		}
+	}
+	choctaw = {
+		primary = CHO
+		dynasty_names = {
+			Usquelagana Saktitamaha Itchechana Shumotakali Tinshinkla Chucafalaya Bissacha Otakchitotamaha Yackniachuchuma 
+			Octuechanacbe Ocatalaya Ouiacha Puscustakali Kunshabolukta Yowani Chiskilikbacha Neshobawenya Tamaha Seniasha 
+			Talepokta Iyanabe Nusiconchito Ibetapoklachitto Tombigbee Imoklashaiskitini Holithaasha Abeca Achohchuba Hankhaula 
+			Itokchako Lukfakta Bokfalaya Yazoo Kunshak Okalusa Pante Chemifalaya Shumotakali Osapachito Haluwahiasha Okacoopoly 
+			Shinukkaha Kafitalaia Imoklashi Cabeahoola Kashtasha Osaktalaya Abissa Chanke Onitalemon	
+		}
+		male_names = {
+			Ayaestangui Mingotabasa Ochinohahuma Nackitona Cachuni Mastape Puchihuma Tamaobe Mingotalaya Panshimantla 
+			Imaabe Pushihumachito Oclactahuma Chickashioclacta Cachumaabi Nahollomastubbe Canelechabe Pushimastabew 
+			Oechanyimastabe Tuscaloosa Franchimastabe Taboca Apuckshunubbee Pushmataha Mosholatubbee Tobocoh 
+			Pooshemastuby Pooshahooma Tuscoonoohoopoie Shishemastubby Yoopahooma Stoonokoohoopoie Tehakuhbay 
+			Tushkahoomoih Tushkahoomock Yoostenochla Tootehooma Toobenohoomoch Cshecoopoohoomoch Stonakoohoopoie 
+			Tushkoheegohta Teshuhenochloch Pooshonaltla Okanconnooa Autoonachuba Pangehooloch Steabee Tanetchenna 
+			Tushkementahock Tushtallay Cshnaangchabba Cunnopoie Tuskonahopoia Tootahomo Mingohom Massatubby Ocshumme 
+			Mingopooscoos Bucshunubbe Shappahomo Hiupahoo Illatallahomo Hochehomo Tuspehachaabe Muclushahopoia 
+			Capputannethlucco Pooshahomo Bakalubbe Ayaistanaksi Mestico Ulbalent Chicachahuma Tiupoye Asetahuma 
+			Pushahuma Tootehoma Puchihuacaya Eyahchihumo Cachunimastabe Hatonahopaii Utacctahuma Tishomastubbe 
+			Nahumastabbe Pushimataha Tootepana Cayabe Mingohomoastabee Puchihumachita Okshakihoma Choccoolacta 
+			Chulomastubee Stonahuma Pushistonahuma Cachuaanchabe Alpatakhuma Pushihuma Asitahuma Iteleskana Tuscaabi 
+			Chucaastabe Olactahuma Chalitahuma
+		}
+		female_names = {
+			Nahomtima Immahoka Lunnabaga Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo 
+			Rayen Saqui Somoche
+		}
+	}
+	chickasaw = {
+		primary = CHI
+		dynasty_names = {
+			Ackia Alaoute Amalahta Apeony Apilefaplimengo Ashukhuma Ayebisto Chatelaw
+			Chesafaliah Chinica Chopoussa Chucalissa Chukafalaya Chula Coppertown
+			Couiloussa Etoukouma Falatchao Gouytola Hummalala Hussinkoma Hykehah
+			"Latcha Hoa Run" "Ogoula-Tchetoka" "Onthaba-atchosa" Ooeasa Oucahata
+			Oucthambolo Outanquatle Phalachehs Pontotoc Shatara Shiokaya Tanyachilca
+			Taposa Thanbolo Teshatulla Tokshish Tuckahaw Tuskawillao Tuskaroilloe Yaneka
+		}
+		male_names = {
+			Itawamba Tootemastubbe Piomingo Tishomingo Mingatuska Taskietoka Latopoia Ashalatubbi Ishtehotopa Topulkah 
+			Emubby Pistahlahtubee Ishtimolutka Immahhoolotubbe Ishtahachah Lahfinhubbe Shoppowme Ninuckahumba 
+			Illuppahhumba Conmushkaishkah Bahhakahtubbe Bahmahahtubbe Iyahhoutubbe Tokholthlachah Okelahnahnubbe 
+			Immetubbe Inkahyea Ahshacubbe Immohhobah Fitchahpla Untemiahtubbe Okelahhinlubbe Bahmehubbe Hushtahtahubbe 
+			Untihakahtubbe Yummotubbe Ohhacubbe Ahfahmah Ahtakintubbe Ahtokowah Tahhacubbe Kinhoicha Ishteahtubbe 
+			Chickahshananubbe Chewutaha Foluttachah Wininapa Okelahshahcubbe Ishtakiyukatabbe MAhtekoshubbe Tomchickah 
+			Eiochetubbe Nuckshopubbe Fahlahmotubbe Cochubbe Okelahshapia
+		}
+		female_names = {
+			Mintahoye Phalishta Ishtimmarharlechar Temusharhoctay Mintahoyo
+		}
+	}
+	pueblo = {
+		primary = PUE
+		dynasty_names = {
+			Acoma Cochiti Isleta Jemez Laguna Nambe "Ohkay Owingeh" Picuris Pojoaque Sandia 
+			Taos Tesuque Zia Zuni Hopi Piru
+		}
+		male_names = {
+			Popé Ku-htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo Catiti
+		}
+		female_names = {
+			Ootcakao Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
+		}
+	}
+	piman = {
+		primary = PIM
+		dynasty_names = {
+			Akimel Tohono "Hia Ced" Sobaipuri Otama Kina Equituni Uturituc Sacaton "Onk Akimal"
+			Yoreme Hiakim Potam Vicam Torim Bacum Cocorit Huirivis Benem Rahum
+		}
+		male_names = {
+			Oacpicagiguya Kaviu Papago Panhop Cajemé
+		}
+		female_names = {
+			Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
+		}
+	}
+	shoshone = {
+		primary = SHO
+		dynasty_names = {
+			Akimel Tohono "Hia Ced" Sobaipuri Otama Kina Equituni Uturituc Sacaton "Onk Akimal"
+			Yoreme Hiakim Potam Vicam Torim Bacum Cocorit Huirivis Benem Rahum
+		}
+		male_names = {
+			Sequoyah Attakullaculla "Johan Ross" Moytoy Yonaguska Dragging Canoe Agi It Boudinot 
+		}
+		female_names = {
+			Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
+		}
+	}
+	kiowa = {
+		primary = KIO
+		dynasty_names = {
+			Clatsop Cathlamet Skilloot Cathlapotle Multnomah Watlala Clowwewalla Clackamas Chiluckittequaw 
+			Wishram Wasco Atfalati Yamel Lakmiut Chepenafa Santiam Chelamela Calapooya Yoncalla
+		}
+		male_names = {
+			Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan Talsapeer 
+			Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale Pulktah 
+			Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta Pulican 
+			Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose 
+		}
+		female_names = {
+			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+			Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+			Smriti Surabhi Tapi Tara
+		}
+	}
+	apache = {
+		primary = APA
+		dynasty_names = {
+			Jicarilla Mescalero Chiricahua Lipan Yavapai Tonto Navajo Ramah Mojave
+			Toboso Cholome Jocome Sibolo Pelone Manso Kiva
+			Arivaipa Carlanas Chiricahua Ch'uuk'anen Cibecue Coyotero
+			Faraones Gileno KIowa Llanero Lipiyanes
+			Mimbrenos Mogollon Na'iisha Natages Pinal 
+			Querechos
+		}
+		male_names = {
+			"Nanni Chaddi" "Na tio tish" Sitahle Oahtekah Ahzaah Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome 
+			Munamenek Otoahnisto Mahvipah Choseta Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-hae Cochise 
+			Delshay Goyaale Juh
+		}
+		female_names = {
+			Dahteste Ilthgozay Gouyen Lozen Tohayea 
+		}
+	}
+	navajo = {
+		primary = NAH
+		dynasty_names = {
+			"Bit'anhi" "Naaste'ezheh" "Kiyaa'aanii" "Dzilt'aadi" Honaghaahnii "To'ahani" 
+			"Ta'neeszahnii" "Hashk'aa Hadzohi" Nihoobaanii "Ts'ah Yisk'idnii" "Todich'ii'nii" "To Baazhni'azhi" Tseikeehee
+			"Naaket L'ahi" "Tsin Sikaadnii" "Biih Bitoodnii" "Tl'ogi" "Todik'ozhi" "K'aahanaanii" "Todich'ii'nii" "Totshnii"
+			"Hooghan Lani" "Dzaaneez Lani" "Tse Deeshgizhnii" "Hasht L'ishnii" Tabaaha Haltsooi "To Baazhni'azhi" "Tachii'nii"
+			"Kin Ichii'nii" Tsenjikini Dibelzhini "Ma'ii Deeshgiizhinii" "Ashinuii" "Keha'atiinii" "To'aheedliinii"
+			
+		}
+		male_names = {
+			"Chapitone" "Ashkii Diyin" "Dahaana Baadaane" "Hastiin Ch'ilhaajin" "Nabaah Jilt'aa" "Bislahalani" 
+			"Hozhooji Naat'a" "Hastiin Daghaa" "Hastiin Daagi" "Haske Yahne Yah" "Toh Yah" "Hastiin Klah" "Ahway Eskay" 
+			"Hoksay Nolyae" "Atsidi Sani" "Beshiltheeni"
+		}
+		female_names = {
+			"Dahteste" "Ilthgozay" "Gouyen" "Lozen" "Tohayea"
+		}
+	}
+	chipewyan = {
+		dynasty_names = {
+			"Tsi'naajinii" "Deeshchii'nii" "Tl'izi Lani" "Tl'aaschi'I" Tsenabahituii Nashashi "T'üschebaanii" "Jaa'yaaloolii"
+			"Keha'atiintii" "Naashaashi"
+		}
+		male_names = {
+			"Chapitone" "Ashkii Diyin" "Dahaana Baadaane" "Hastiin Ch'ilhaajin" "Nabaah Jilt'aa" "Bislahalani" 
+			"Hozhooji Naat'a" "Hastiin Daghaa" "Hastiin Daagi" "Haske Yahne Yah" "Toh Yah" "Hastiin Klah" "Ahway Eskay" 
+			"Hoksay Nolyae" "Atsidi Sani" "Beshiltheeni"
+		}
+		female_names = {
+			"Dahteste" "Ilthgozay" "Gouyen" "Lozen" "Tohayea"
+		}
+	}
+	haida = {
+		primary = HDA
+		dynasty_names = {
+			Kiusta Kung Yan Hiellan Skidegate "Cha'atl" Haina Kaisun Cumshewa Skedans Tanu Ninstints
+			Masset Atewaas Jaahguhl Kayung "Hlk'yah GaawGa" Klinkwan Sukkwan Howkan Kasaan
+		}
+		male_names = {
+			"Nanni Chaddi" "Na tio tish" Sitahle Oahtekah Ahzaah Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome 
+			Munamenek Otoahnisto Mahvipah Choseta Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-hae Cochise Juh 
+			Delshay Goyaale
+		}
+		female_names = {
+			Dahteste Ilthgozay Gouyen Lozen Tohayea
+		}
+	}
+	athabascan = {
+		dynasty_names = {
+			Kiusta Kung Yan Hiellan Skidegate "Cha'atl" Haina Kaisun Cumshewa Skedans Tanu Ninstints
+			Masset Atewaas Jaahguhl Kayung "Hlk'yah GaawGa" Klinkwan Sukkwan Howkan Kasaan
+		}
+		male_names = {
+			"Nanni Chaddi" "Na tio tish" Sitahle Oahtekah Ahzaah Kootzzah Moketaveto Ohtoahnesotowheo Harkkahome 
+			Munamenek Otoahnisto Mahvipah Choseta Nahtan Konzhontaco Bazheech Tillaka Chacon Dasoda-hae Cochise Juh 
+			Delshay Goyaale
+		}
+		female_names = {
+			Dahteste Ilthgozay Gouyen Lozen Tohayea
+		}
+	}
+	salish = {
+		primary = SAL
+		dynasty_names = {
+			Samish Sawehamish Semiahmoo Shishalh Siletz Skagits Skokomish Snohomish Snoqualmie Songhees Squamish Squaxin 
+			Stillaguamish Stolo Aitchelitz Chawathil Cheam
+			Kwantlen Katzie Leqamel Matsqui Popkum Shxwowhamel Skway Skowkale Skwah Soowalhie Chehalis Sumas Tzeatchen 
+			Yakweakwioose Suiaxbixw Suquamish Swinomish 
+			Tsawassen "Tsleil-Waututh" Tulalip Xacuabs
+		}
+		male_names = {
+			Seattle Patkanam Chowitshoot Goliah Kwallatum S'hootst-hoot Snah-talc Squush-um Seeallapahan Heuhkanam 
+			Tsenahtalc Nsskioos Watskalahtchie Smehmaihu Slateahkanam Sthauai Lugsken Shehtsoolt Doqueoosatl 
+			Klemshkanam Tshuahntl Kwusskanam Helmits Skwaikwi Sehlekqu Shchehoos Whailanhu Sheahdelthu Kwultseh 
+			Kwullethu Klehkentsoot Sohnhehovs S'dehapkan Chulwhiltan Skeehtum Patchkanam Satskanam Sdzomathl Dahtldemin 
+			Sdzekdunum Nowachais Mislotche Sloonokshtan Moowhahladhu Toolehplan Hasehdooan Hooviltmehtum Weaipah 
+			S'ahanhu Shehope Hwnlahlakq Chtsimpt Tsesumten Klthahlten Kuttakanam Chlahben Noohehoos Hwehuk Pehnus 
+			Yimkadam Twooiaskut Luchalkanam S'hootkanam Smeakanam Sadziskeh Hehmahl Hatch Kwentum Yoikum Tkwamahan 
+			Stodumkan Belole D'zololegwamhu Stehshail Kelkahltsoot Patsen Pattehus Shoolkkanam Chloksuts
+		}
+		female_names = {
+			Kikisoblu Wewick Sholeetsa Ladalia Olahl
+		}
+	}
+	chinook = {
+		primary = CNK
+		dynasty_names = {
+			Clatsop Cathlamet Skilloot Cathlapotle Multnomah Watlala Clowwewalla Clackamas Chiluckittequaw 
+			Wishram Wasco Atfalati Yamel Lakmiut Chepenafa Santiam Chelamela Calapooya Yoncalla
+		}
+		male_names = {
+			Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan Talsapeer 
+			Myneletta Quiaquatty Yalkus Kawkama Kiles Kowahtough Anta Quilala Mequah Yackatee Tophor Hallale Pulktah 
+			Tumwalth Obanahah Watchano Teapinick Wallahpicate Lalbick Cuckamanna Towyecolla Laham Senegertta Pulican 
+			Tena Pulkuptima Sallaf Hoipkenek Yeptah Satinvose 
+		}
+		female_names = {
+			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+			Lolotea Nascha Nashota Natane Nita Nitara Niti Nitika Nittawosew Onawa Onawah Preyasi Prita PreetiHalf Smita 
+			Smriti Surabhi Tapi Tara
+		}
+	}
+	yokuts = {
+		dynasty_names = {
+			Wishram Wasco Atfalati Yamel Lakmiut Chepenafa Santiam Chelamela Calapooya Yoncalla
+		}
+		male_names = {
+			Comcomly Tumulth Napesa Injice Tasyah Nessick Etnama Cheenlenten Nasyah Absaquil Quintioosan Talsapeer 
+		}
+		female_names = {
+			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		}
+	}
+}
