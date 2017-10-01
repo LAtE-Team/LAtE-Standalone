@@ -264,6 +264,12 @@
  COLONIAL_PERSIA_Root_GetAdjective_Persia:0  "[Root.GetAdjective] Persia"
  COLONIAL_PERSIA_Root_GetAdjective_Persia_ADJ:0  "[Root.GetAdjective] Persian"
  
+ colonial_middle_east:0 "Colonial Middle East"
+ colonial_middle_east_root_getadjective_middle_east:0 "[Root.GetAdjective] Middle East"
+ colonial_middle_east_root_getadjectve_middle_east_adj:0 "[Root.GetAdjective] Middle Eastern"
+ colonial_middle_east_i_rack:0 "I Rack"
+ colonial_middle_east_i_rack_ADJ:0 "I Racky"
+ 
  #INDIA#
   
  colonial_Pakistan:0  "Colonial Pakistan"
