@@ -1,9 +1,8 @@
 # No previous file for Nisga'a
 
-owner = SAL
-controller = SAL
-    add_core = SAL
-add_core = SAL
+owner = HDA
+controller = HDA
+add_core = HDA
 culture = haida
 religion = raven_tales
 capital = "Quileute"

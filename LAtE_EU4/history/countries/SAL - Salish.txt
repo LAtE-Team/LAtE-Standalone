@@ -1,17 +1,36 @@
-government = native_council 
-government_rank = 1
+# Salishan Empire
+government = elective_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
 primary_culture = salish
 religion = raven_tales
-technology_group = western
-capital = 973 #Vancouver
-
-
-3053.1.1 {
+clear_scripted_personalities = yes
+capital = 2487
+3043.9.22 = {
 	monarch = {
-		name = "Native Council"
+		name = "Sahkonteic"
+		birth_date = 3017.6.18
+		dynasty = "Strathcona"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = industrious_personality
+	heir = {
+		name = "Sahkonteic"
+		monarch_name = "Sahkonteic II"
+		dynasty = "Strathcona"
+		birth_date = 3042.10.17
+		death_date = 3122.10.17
 		adm = 3
 		dip = 3
-		mil = 3
-		regent = yes
+		mil = 4
 	}
+}
+3053.1.1 = {
+	capital = 2487
+	add_treasury = 37
+	add_prestige = 452
 }
