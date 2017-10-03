@@ -3,7 +3,7 @@
 #owner = KHM
 #controller = KHM
 culture = khmer
-religion = hinduism
+religion = buddhism
 capital = "Angkor"
 trade_goods = tropical_wood
 hre = no
@@ -17,26 +17,6 @@ is_city = no
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = { religion = buddhism }
-# = { discovered_by = POR }
-# = {
-	#owner = AYU
-	#controller = AYU
-	#add_core= AYU
-#}
-# = { capital = "Siem Riep" }
-# = {
-	#owner = KHM
-	#controller = KHM
-#}
-# = {
-	#owner = AYU
-	#controller = AYU
-#}
-# = { unrest = 5 } # The Siamese-Cambodian Rebellion
-# = { unrest = 0 }
 
 
 native_size = 5

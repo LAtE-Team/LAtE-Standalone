@@ -3,7 +3,7 @@
 #owner = MYA
 #controller = MYA
 culture = kachin
-religion = animism
+religion = buddhism
 capital = "Hkamti Long"
 trade_goods = grain
 hre = no

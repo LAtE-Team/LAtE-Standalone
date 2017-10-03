@@ -2,26 +2,26 @@
 #INDONESIA#
 ###########
 
-colonial_indonesia = {
-	color = { 120 130 80 }
-
-	provinces = {
-		617 618 619 620 621 622 623 659
-		2673 2674 2675 2676 2677 2678 2679 2680 2681 2682 2683 2684 2685
-		624 625 626 627 628 629 630 631 632 633 634 635
-		2687 2688 2689 2690 2691 2692 2693 2695
-		638 639 640 641 642 643 644 645 646 647 648 649 650
-		2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2725
-		636 637 2703 2704 2705
-	}
-	
-	names = {
-		name = "COLONIAL_INDONESIA_Root_GetAdjective_Indonesia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_indonesia = {
+#	color = { 120 130 80 }
+#
+#	provinces = {
+#		617 618 619 620 621 622 623 659
+#		2673 2674 2675 2676 2677 2678 2679 2680 2681 2682 2683 2684 2685
+#		624 625 626 627 628 629 630 631 632 633 634 635
+#		2687 2688 2689 2690 2691 2692 2693 2695
+#		638 639 640 641 642 643 644 645 646 647 648 649 650
+#		2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2725
+#		636 637 2703 2704 2705
+#	}
+#	
+#	names = {
+#		name = "COLONIAL_INDONESIA_Root_GetAdjective_Indonesia"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Sumatra (22)
 #colonial_Sumatra = {
@@ -78,37 +78,37 @@ colonial_indonesia = {
 
 
 # Philippines (18)
-colonial_Philippines = {
-	color = { 130 150 60 }
-
-	provinces = {
-		651 652 653 654 655 656 657 658
-		2697 2698 2699 2700 2701 2702
-		4832 4833 4834 4835
-	}
-
-	names = {
-		name = "COLONIAL_PHILIPPINES_Root_GetAdjective_Philippines"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_Philippines = {
+#	color = { 130 150 60 }
+#
+#	provinces = {
+#		651 652 653 654 655 656 657 658
+#		2697 2698 2699 2700 2701 2702
+#		4832 4833 4834 4835
+#	}
+#
+#	names = {
+#		name = "COLONIAL_PHILIPPINES_Root_GetAdjective_Philippines"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 
 # Papua (11)
-colonial_Papua = {
-	color = { 200 200 180 }
-
-	provinces = {
-		1236 1237 1238 1245
-		2718 2719 2720 2721 2722 2723 2724
-	}
-
-	names = {
-		name = "COLONIAL_PAPUA_Root_GetAdjective_Papua"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_Papua = {
+#	color = { 200 200 180 }
+#
+#	provinces = {
+#		1236 1237 1238 1245
+#		2718 2719 2720 2721 2722 2723 2724
+#	}
+#
+#	names = {
+#		name = "COLONIAL_PAPUA_Root_GetAdjective_Papua"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}

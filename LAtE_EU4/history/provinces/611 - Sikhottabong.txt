@@ -1,7 +1,7 @@
 #611 - Sikhottabong
 
-#owner = LXA
-#controller = LXA
+owner = VIE
+controller = VIE
 culture = lao
 religion = buddhism
 capital = "Sikhottabong"
@@ -10,28 +10,13 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 2
-is_city = no
-#add_core= LXA
+is_city = yes
+add_core= VIE
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = { #add_core= DAI } # Vietnamese Invasion
-# = { discovered_by = POR }
-# = { #add_core= TOK } # Vietnamese Intervention
-# = {
-	#owner = VIE
-	#controller = VIE
-	#add_core= VIE
-	remove_core = LXA
-	remove_core = TOK
-	remove_core = DAI
-#} # Lan Xang declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-# = { unrest = 5 } # Rebellion
-# = { unrest = 0 }
 
 
 native_size = 5

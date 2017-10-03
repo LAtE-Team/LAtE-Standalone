@@ -170,21 +170,22 @@ trade_company_north_india = {
 	# }
 # }
 
-# trade_company_philippines = {
-	# color = { 0 200 150 }
+trade_company_philippines = {
+	color = { 0 200 150 }
 	
-	# provinces = {
-		# 651 652 653 654 655 656 657 658 1235 1241 1990 1991 1992 1993 1994 1995 1996 2697 2698 2699 2700 2701 2702 1397 
-	# }
+	provinces = {
+		651 652 653 654 655 656 657 658 1235 1241 1990 1991 1992 1993 1994 1995 1996 2697 2698 2699 2700 2701 2702 1397 
+		4832 4833 4834 4835
+	}
 
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_PHILIPPINES_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_PHILIPPINES_Indonesia_Trade_Company"
-	# }
-# }
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_PHILIPPINES_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_PHILIPPINES_Indonesia_Trade_Company"
+	}
+}
 
 # trade_company_moluccas = {
 	# color = { 196 191 61 }
@@ -385,5 +386,25 @@ trade_company_polynesia = {
 	}
 	names = {
 		name = "TRADE_COMPANY_POLYNESIA_Trade_Company"
+	}
+}
+
+
+# Japan (30)
+trade_company_japan = {
+	color = { 230 230 70 }
+
+	provinces = {
+		1012 1014 1015 1017 1018 1019 1020 1021 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032
+		1818 1819 1820 1825 1830 1832 1835 1837 1839 1843 1847 1852
+		4131 4180 4181 4182 4186 4183 4184 4185 1832 4188 4189 
+		4190 4191 4192 4193 1832 4187
+	}
+
+	names = {
+		name = "TRADE_COMPANY_JAPAN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_JAPAN_Trade_Company"
 	}
 }

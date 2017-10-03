@@ -1,7 +1,7 @@
 #614 - Vientiane
 
-#owner = LXA
-#controller = LXA
+owner = VIE
+controller = VIE
 culture = lao
 religion = buddhism
 capital = "Vientiane"
@@ -11,27 +11,13 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 fort_15th = yes
-is_city = no
-#add_core= LXA
+is_city = yes
+add_core= VIE
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-# = { discovered_by = POR }
-
-# = { unrest = 5 } # Revolt against vassalization
-# = { unrest = 0 }
-# = { unrest = 6 }
-# = { unrest = 0 }
-# = { #add_core= AYU } # Siamnese Intervention
-# = {
-	#owner = VIE
-	#controller = VIE
-	#add_core= VIE
-	remove_core = LXA
-#} # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
 
 
 native_size = 5

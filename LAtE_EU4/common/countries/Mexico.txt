@@ -1,132 +1,81 @@
-# Mexico
-ck2_converter_generated = yes
-graphical_culture = muslimgfx
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+#colonial_parent = SPA
+random_nation_chance = 0
+
 color = { 224 192 18 }
 
-
-
-
-leader_names = {
-
-	"Natalia" "Emilia" "Diego García" "Alina" "Cavo" "Américo" "Gonzalo" "Baltasar" "Chantal" "Porfirio" 
-	"Angélica" "Cabeza" "Thalía" "Renato" "Jade" "Gabino" "Raymunda" "García" "Tito" "Carlota" 
-	"Alejandra" "Selma" "Lilia" "Agripina" "Gil" "Pizarro" "Leonor" "Orellana" "Bruno" "Bahamonde" 
-	"Marimar" "Montserrat" "Sancha" "Montejo" "Magnolia" "Beatriz" "Vasco" "Tristán" "Kino" "Alvarado" 
-	"Eugenia" "Aurora" "Itatí" "Urbano" "Martín" "Jofre" "Isabel" "Melchior" "Alicia" "Vela" 
-	"Alejo" "Aldo" "Bartolomé" "Beltrán" "Colón" "Cristóbal" "Cruz" "Coronado" "Cabrillo" "Cuauhtémoc" 
-	"Diesel" "Demián" "Daniel" "Diego Carlos" "Epifanio" "Édgar" "Francisco" "Giraldo" "Gastón" "Gaspar" 
-	"Gustavito" "Garcilaso" "Hernando" "Huggo" "Honorio" "Horacio" "Inés" "Jerónimo" "Jacinto" "León" 
-	"Luís" "Lorenzo" "Lope" "Magallanes" "Miguel" "Marcos" "Melchor" "Mariano" "Ñuflo" "Olid" 
-	"Osvaldo" "Pánfilo" "Ponce" "Puná" "Pío" "Rodrigo" "Roque" "René" "Rosario" "Ruy" 
-	"Soto" "Sandoval" "Sergio" "Santiago" "Ulises" "Wenceslao" "Xemen" "Yñigo" }
 monarch_names = {
-	"Natalia #0" = -1
-	"Emilia #0" = -1
-	"Diego García #1" = 18
-	"Alina #0" = -1
-	"Cavo #0" = 1
-	"Américo #0" = 1
-	"Gonzalo #0" = 1
-	"Baltasar #0" = 1
-	"Chantal #0" = -1
-	"Porfirio #0" = 1
-	"Angélica #0" = -1
-	"Cabeza #0" = 1
-	"Thalía #0" = -1
-	"Renato #0" = 1
-	"Jade #0" = -1
-	"Gabino #0" = 1
-	"Raymunda #0" = -1
-	"García #0" = 1
-	"Tito #0" = 1
-	"Carlota #0" = -1
-	"Alejandra #0" = -1
-	"Selma #0" = -1
-	"Lilia #0" = -1
-	"Agripina #0" = -1
-	"Gil #0" = 1
-	"Pizarro #0" = 1
-	"Leonor #0" = 1
-	"Orellana #0" = -1
-	"Bruno #0" = 1
-	"Bahamonde #0" = 1
-	"Marimar #0" = -1
-	"Montserrat #0" = -1
-	"Sancha #0" = -1
-	"Montejo #0" = 1
-	"Magnolia #0" = -1
-	"Beatriz #0" = -1
-	"Vasco #0" = 1
-	"Tristán #0" = 1
-	"Kino #0" = 1
-	"Alvarado #0" = 1
-	"Eugenia #0" = -1
-	"Aurora #0" = -1
-	"Itatí #0" = -1
-	"Urbano #0" = 1
-	"Martín #0" = 1
-	"Jofre #0" = 1
-	"Isabel #0" = -1
-	"Melchior #0" = 1
-	"Alicia #0" = -1
-	"Vela #0" = 1
-	"Alejo #0" = 0
-	"Aldo #0" = 0
-	"Bartolomé #0" = 0
-	"Beltrán #0" = 0
-	"Colón #0" = 0
-	"Cristóbal #0" = 0
-	"Cruz #0" = 0
-	"Coronado #0" = 0
-	"Cabrillo #0" = 0
-	"Cuauhtémoc #0" = 0
-	"Diesel #0" = 0
-	"Demián #0" = 0
+	"Agustín #1" = 20
+	"Ángel #0" = 10
+	"Felipe #0" = 10
+	"Jesús #0" = 10
+	"Osvaldo #1" = 10
+	"Renato #1" = 10
+	"Salvador #0" = 10
+	"Ulises #1" = 10
+	"Wenceslao #1" = 10
+	"Alfredo #0" = 0
+	"Álvaro #0" = 0
+	"Armando #0" = 0
+	"Arturo #0" = 0
+	"Blas #0" = 0
+	"Calixto #0" = 0
+	"Carlos #0" = 0
 	"Daniel #0" = 0
-	"Diego Carlos #0" = 0
-	"Epifanio #0" = 0
-	"Édgar #0" = 0
+	"Elías #0" = 0
+	"Emiliano #0" = 0
+	"Enrique #0" = 0
+	"Eugenio #0" = 0
+	"Félix #0" = 0
 	"Francisco #0" = 0
-	"Giraldo #0" = 0
-	"Gastón #0" = 0
-	"Gaspar #0" = 0
-	"Gustavito #0" = 0
-	"Garcilaso #0" = 0
-	"Hernando #0" = 0
-	"Huggo #0" = 0
-	"Honorio #0" = 0
+	"Gerardo #0" = 0
 	"Horacio #0" = 0
-	"Inés #0" = 0
-	"Jerónimo #0" = 0
-	"Jacinto #0" = 0
-	"León #0" = 0
-	"Luís #0" = 0
-	"Lorenzo #0" = 0
-	"Lope #0" = 0
-	"Magallanes #0" = 0
-	"Miguel #0" = 0
+	"Ignacio #0" = 0
+	"Jaime #0" = 0
+	"José Manuel #0" = 0
+	"José María #0" = 0
+	"José Miguel #0" = 0
+	"José Sixto #0" = 0
+	"Lucio #0" = 0
+	"Manuel #0" = 0
 	"Marcos #0" = 0
+	"Maximilian #1" = 0
 	"Melchor #0" = 0
-	"Mariano #0" = 0
-	"Ñuflo #0" = 0
-	"Olid #0" = 0
-	"Osvaldo #0" = 0
-	"Pánfilo #0" = 0
-	"Ponce #0" = 0
-	"Puná #0" = 0
-	"Pío #0" = 0
-	"Rodrigo #0" = 0
-	"Roque #0" = 0
-	"René #0" = 0
-	"Rosario #0" = 0
-	"Ruy #0" = 0
-	"Soto #0" = 0
-	"Sandoval #0" = 0
-	"Sergio #0" = 0
-	"Santiago #0" = 0
-	"Ulises #0" = 0
-	"Wenceslao #0" = 0
-	"Xemen #0" = 0
-	"Yñigo #0" = 0
+	"Natalio #0" = 0
+	"Porfirio #0" = 0
+	"Ramón #0" = 0
+	"Sandalio #0" = 0
+	"Toribio #0" = 0
+	"Vicente #0" = 0
+	"Víctor #0" = 0
+	"Zacarías #0" = 0
+	
+	"Laura #0" = -1
+	"Marciela #0" = -1
+	"Perla #0" = -1
 }
 
+leader_names = {
+	Aldama Allende Álvarez Benavente Bravo Bustamante Cárdenas Carranza Comonfort
+	Díaz Domingo Echávarri Elías Elizondo Galeana García Gómez Gonzalez Guerrero
+	Hidalgo Huerta Iglesias Itúrbide Juárez "León de la Barra" "Lerdo de Tejada" López
+	Madero Matamoros Mejía Mendoza Mina Miramón Mora Morelos Moreno Negrete
+	Obregón Ortíz Pino "Ramírez de Arellano" Rayón "Ruíz de Apodaca" "Santa Anna" Suárez
+	Torres Victoria Villa Zaragoza "de Zavala"
+}
+
+ship_names = {
+	Abasolo Allende
+	Bravo
+	Durango
+	Galeana Guanjuato
+	Ilhunicamina
+	Juarez
+	Netzahualcoyotl
+	Romero
+	Serria Sonora
+	Veracruz Victoria 
+}

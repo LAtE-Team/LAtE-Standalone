@@ -2,7 +2,7 @@
 
 owner = IKR
 controller = IKR
-culture = eddoko
+culture = edokko
 religion = shinto
 capital = "Tokyo-3"
 trade_goods = iron

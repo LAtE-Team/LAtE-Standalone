@@ -1,7 +1,7 @@
 #602 - Chiang Rai
 
-#owner = LNA
-#controller = LNA
+owner = LNA
+controller = LNA
 culture = northern_thai
 religion = buddhism
 capital = "Chiang Rai"
@@ -10,20 +10,13 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
-is_city = no
-#add_core= LNA
+is_city = yes
+add_core= LNA
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-# = { discovered_by = POR }
-
-# = { #add_core= TAU } # Burmese vassal
-# = { unrest = 6 } # Lan Na revolter against Taungu
-# = { unrest = 0 }
-# = { #add_core= AYU } # Siamnese vassal
 
 
 native_size = 5

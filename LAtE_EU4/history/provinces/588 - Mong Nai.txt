@@ -1,7 +1,7 @@
 #588 - Mong Nai
 
-#owner = HSE
-#controller = HSE
+owner = HSE
+controller = HSE
 culture = shan
 religion = buddhism
 capital = "Mong Nai"
@@ -10,43 +10,13 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-is_city = no
-#add_core= HSE
+is_city = yes
+add_core= HSE
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = {
-	#controller = SST
-	#owner = SST
-	#add_core= SST
-	remove_core = HSE
-#}
-# = { discovered_by = POR }
-# = { #add_core= TAU }
-# = { #controller = TAU } # The Shan dynasty is overthrown
-# = { #owner = TAU }
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
-# = { unrest = 5 } # Rebellion
-# = { unrest = 0 }
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
 
 
 native_size = 5

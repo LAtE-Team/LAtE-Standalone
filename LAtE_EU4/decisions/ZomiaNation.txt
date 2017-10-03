@@ -1,0 +1,159 @@
+country_decisions = {
+
+	zomia_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			#normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_zomia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = URS }
+			NOT = { tag = HLR }
+			religion_group = eastern
+			OR = {
+				ai = no
+				NOT = { exists = ZOM }
+			}
+			OR = {
+				culture_group = thai
+				culture_group = burman
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				ai = no
+				num_of_cities = 8
+			}
+		}
+		allow = {
+			NOT = { exists = ZOM }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 660 #?Itu Wan
+			owns_core_province = 583 #Hsenwi
+			owns_core_province = 615 #Luang Prabang
+			owns_core_province = 661 #Dali
+			OR = {
+				owns_core_province = 608	#Champasak
+				owns_core_province = 601	#Sukhothai
+			}
+			OR = {
+				owns_core_province = 675	#Yi
+				owns_core_province = 582	#Mong Yang
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			change_tag = ZOM
+			south_laos_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			north_laos_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			northern_thai_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			karenni_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			shan_hill_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			kachin_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			yun_gui_borderland_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			upper_burma_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 584 }
+				}
+				add_permanent_claim = ZOM
+			}
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 592
+						province_id = 611
+						province_id = 616
+						province_id = 662
+						province_id = 663
+						province_id = 675
+						province_id = 2385
+						province_id = 2386
+						province_id = 2389
+						province_id = 2748
+					}
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZOM
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					is_tribal = yes
+				}
+				change_government = despotic_monarchy
+			}
+			#if = {
+			#	limit = {
+			#		has_custom_ideas = no
+			#		NOT = { has_idea_group = ZOM_ideas }
+			#	}
+			#	country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
+			set_country_flag = formed_zomia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

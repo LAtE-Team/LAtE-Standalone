@@ -1,0 +1,5 @@
+government = despotic_monarchy
+technology_group = chinese
+religion = buddhism
+primary_culture = shan
+capital = 660

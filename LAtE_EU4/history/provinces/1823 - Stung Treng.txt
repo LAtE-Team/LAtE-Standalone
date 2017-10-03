@@ -3,7 +3,7 @@
 #owner = KHM
 #controller = KHM
 culture = khmer
-religion = animism
+religion = buddhism
 capital = "Stung Treng"
 trade_goods = grain
 hre = no
@@ -17,29 +17,6 @@ is_city = no
 
 discovered_by = chinese
 discovered_by = indian
-
-# = { discovered_by = POR }
-
-# = {
-	#owner = LXA
-	#controller = LXA
-	#add_core= LXA
-#}
-# = { #add_core= ANN } # Vietnamese Intervention
-# = {
-	#owner = VIE
-	#controller = VIE
-	#add_core= VIE
-	remove_core = LXA
-#} # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-# = {
-	#owner = CHK
-	#controller = CHK
-	#add_core= CHK
-	remove_core = VIE
-#}
-# = { unrest = 5 } # The Siamese-Cambodian Rebellion
-# = { unrest = 0 }
 
 
 native_size = 5

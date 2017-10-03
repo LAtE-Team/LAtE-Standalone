@@ -1,8 +1,8 @@
 #582 - Mong Yang
 
-#owner = MYA
-#controller = MYA
-culture = shan
+owner = MYA
+controller = MYA
+culture = kachin
 religion = buddhism
 capital = "Mong Yang"
 trade_goods = copper
@@ -11,42 +11,13 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 fort_15th = yes
-is_city = no
-#add_core= MYA
-#add_core= CDL
+is_city = yes
+add_core= MYA
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = {
-	#controller = SST
-	#owner = SST
-	#add_core= SST
-	remove_core = MYA
-#}
-# = { #controller = TAU }
-# = { #owner = TAU }
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-	#add_core= TAU
-#}
-# = { discovered_by = SPA }#Novus Atlas Sinensis
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
 
 
 native_size = 5

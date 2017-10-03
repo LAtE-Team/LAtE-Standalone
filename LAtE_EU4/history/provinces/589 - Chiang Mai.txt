@@ -1,7 +1,7 @@
 #589 - Chiang Mai
 
-#owner = LNA
-#controller = LNA
+owner = LNA
+controller = LNA
 culture = northern_thai
 religion = buddhism
 capital = "Chiang Mai"
@@ -10,8 +10,8 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
-is_city = no
-#add_core= LNA
+is_city = yes
+add_core= LNA
 
 
 
@@ -20,11 +20,6 @@ discovered_by = indian
 
 
 fort_15th = yes
-# = { discovered_by = POR }
-# = { #add_core= TAU } # Burmese vassal
-# = { unrest = 6 } # Rebellion
-# = { unrest = 0 }
-# = { #add_core= AYU } # Siamnese vassal
 
 
 native_size = 5

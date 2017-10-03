@@ -1,0 +1,6 @@
+government = despotic_monarchy
+technology_group = chinese
+religion = buddhism
+primary_culture = northern_thai
+capital = 589 # Chiang Mai
+

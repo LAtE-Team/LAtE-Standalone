@@ -1,8 +1,8 @@
 #2389 - Phra Bang
 
-#owner = SUK
-#controller = SUK
-culture = central_thai
+owner = SUK
+controller = SUK
+culture = northern_thai
 religion = buddhism
 capital = "Phra Bang"
 trade_goods = tropical_wood
@@ -10,26 +10,13 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
-is_city = no
-#add_core= SUK
+is_city = yes
+add_core= SUK
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = {	
-	#add_core= AYU
-#} # Sukhothai is under Personal Union with Ayutthaya
-# = {
-	#owner = AYU
-	#controller = AYU
-	remove_core = SUK
-#} # Completely annexed by Ayutthaya
-# = { discovered_by = POR }
-# = { unrest = 7 } # The fall of Ayutthaya
-# = { unrest = 0 }
 
 
 native_size = 5

@@ -3,7 +3,7 @@
 #owner = AVA
 #controller = AVA
 culture = chin
-religion = animism
+religion = revelationist
 capital = "Kale"
 trade_goods = grain
 hre = no
@@ -17,21 +17,6 @@ is_city = no
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = {
-	#owner = SST
-	#controller = SST
-	#add_core= SST
-	remove_core = AVA
-#}
-# = { #add_core= TAU }
-# = { #controller = TAU }
-# = {	
-	#owner = TAU
-	remove_core = SST
-#}
-# = { discovered_by = GBR }
 
 
 native_size = 5

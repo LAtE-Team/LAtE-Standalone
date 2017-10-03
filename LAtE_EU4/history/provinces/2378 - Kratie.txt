@@ -3,7 +3,7 @@
 #owner = KHM
 #controller = KHM
 culture = khmer
-religion = animism
+religion = buddhism
 capital = "Kratie"
 trade_goods = grain
 hre = no
@@ -17,12 +17,6 @@ is_city = no
 
 discovered_by = chinese
 discovered_by = indian
-
-# = { discovered_by = POR }
-
-# = { #add_core= ANN } # Vietnamese Intervention
-# = { unrest = 5 } # The Siamese-Cambodian Rebellion
-# = { unrest = 0 }
 
 
 native_size = 5

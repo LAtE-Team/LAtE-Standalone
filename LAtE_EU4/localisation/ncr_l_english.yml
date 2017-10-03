@@ -264,6 +264,12 @@
  COLONIAL_PERSIA_Root_GetAdjective_Persia:0  "[Root.GetAdjective] Persia"
  COLONIAL_PERSIA_Root_GetAdjective_Persia_ADJ:0  "[Root.GetAdjective] Persian"
  
+ colonial_middle_east:0 "Colonial Middle East"
+ colonial_middle_east_root_getadjective_middle_east:0 "[Root.GetAdjective] Middle East"
+ colonial_middle_east_root_getadjectve_middle_east_adj:0 "[Root.GetAdjective] Middle Eastern"
+ colonial_middle_east_i_rack:0 "I Rack"
+ colonial_middle_east_i_rack_ADJ:0 "I Racky"
+ 
  #INDIA#
   
  colonial_Pakistan:0  "Colonial Pakistan"
@@ -333,8 +339,8 @@
  COLONIAL_PAPUA_Root_GetAdjective_Papua_ADJ:0  "[Root.GetAdjective] Paupan"
      
  colonial_indonesia:0  "Colonial Indonesia"
- COLONIAL_INDONESIA_Root_GetAdjective_indonesia:0  "[Root.GetAdjective] Indonesia"
- COLONIAL_INDONESIA_Root_GetAdjective_indonesia_ADJ:0  "[Root.GetAdjective] Indonesian"
+ COLONIAL_INDONESIA_Root_GetAdjective_Indonesia:0  "[Root.GetAdjective] Indonesia"
+ COLONIAL_INDONESIA_Root_GetAdjective_Indonesia_ADJ:0  "[Root.GetAdjective] Indonesian"
  
  #CHINA#
  
@@ -432,6 +438,7 @@
  trade_company_patagonia:0 "Patagonian Charter"
  trade_company_uruguay:0 "Uruguayan Charter"
  trade_company_polynesia:0 "Polynesian Charter"
+ trade_company_japan:0 "Japanese Charter"
  
  TRADE_COMPANY_BOLIVIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Bolivia Company"
  TRADE_COMPANY_PERU_Root_Culture_GetName:0 "[Root.Culture.GetName] Peru Company"
@@ -439,6 +446,7 @@
  TRADE_COMPANY_PATAGONIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Patagonia Company"
  TRADE_COMPANY_URUGUAY_Root_Culture_GetName:0 "[Root.Culture.GetName] Uruguay Company"
  TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesia Company"
+ TRADE_COMPANY_JAPAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Japan Company"
  
  TRADE_COMPANY_BOLIVIA_South_America_Trade_Company:0 "Bolivia Trade Company"
  TRADE_COMPANY_PERU_South_America_Trade_Company:0 "Peru Trade Company"
@@ -446,3 +454,4 @@
  TRADE_COMPANY_PATAGONIA_South_America_Trade_Company:0 "Patagonia Trade Company"
  TRADE_COMPANY_URUGUAY_South_America_Trade_Company:0 "Uruguay Trade Company"
  TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesia Trade Company"
+ TRADE_COMPANY_JAPAN_Trade_Company:0 "Japan Trade Company"

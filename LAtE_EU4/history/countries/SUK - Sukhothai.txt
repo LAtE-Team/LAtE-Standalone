@@ -1,0 +1,7 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = northern_thai
+religion = buddhism
+technology_group = chinese
+capital = 601	# Sukhothai
+

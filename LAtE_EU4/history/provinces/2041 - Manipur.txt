@@ -1,5 +1,8 @@
 #2041 - Manipur
 
+owner = MLB
+controller = MLB
+add_core = MLB
 culture = chin
 religion = revelationist
 capital = "Imphal"

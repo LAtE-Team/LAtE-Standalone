@@ -88,6 +88,8 @@ KUW = countries/Kuwait.txt
 
 # India
 BOL = countries/Bollywood.txt
+ITU = countries/ItuWan.txt
+ZOM = countries/Zomia.txt
 
 # Japan
 AMK = countries/Amakusa.txt

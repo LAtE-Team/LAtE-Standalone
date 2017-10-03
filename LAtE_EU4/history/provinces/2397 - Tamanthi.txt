@@ -1,7 +1,7 @@
 #2397 - Tamanthi
 
-#owner = MYA
-#controller = MYA
+owner = MYA
+controller = MYA
 culture = shan
 religion = buddhism
 capital = "Tamanthi"
@@ -10,43 +10,13 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 2
-is_city = no
-#add_core= MYA
-#add_core= CDL
+is_city = yes
+add_core= MYA
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-# = {
-	#owner = SST
-	#controller = SST
-	#add_core= SST
-	remove_core = MYA
-#}
-# = { #add_core= TAU }
-# = { #controller = TAU }
-# = { #owner = TAU }
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
-# = { discovered_by = SPA }#Novus Atlas Sinensis
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
-# = { discovered_by = GBR }
 
 
 native_size = 5

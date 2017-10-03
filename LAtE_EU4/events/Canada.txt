@@ -4,7 +4,7 @@ namespace = canada
 country_event = {
 	id = canada.1
 	title = "canada.EVTNAME1"
-	desc = "flavor_spa.EVTDESC3716"
+	desc = "canada.EVTDESC1"
 	picture = DIPLOMACY_eventPicture
 
 	major = yes

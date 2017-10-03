@@ -1,7 +1,7 @@
 #2382 - Savanh Nakhone
 
-#owner = LXA
-#controller = LXA
+owner = CHK
+controller = CHK
 culture = lao
 religion = buddhism
 capital = "Luang Namtha"
@@ -10,34 +10,13 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-is_city = no
-#add_core= LXA
+is_city = yes
+add_core= CHK
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-# = { discovered_by = POR }
-
-# = { unrest = 5 } # Revolt against vassalization
-# = { unrest = 0 }
-# = { unrest = 4 } # Revolt against Burmese vassalization
-# = { unrest = 0 }
-# = { #add_core= AYU } # Siamnese Intervention
-# = {
-	#owner = VIE
-	#controller = VIE
-	#add_core= VIE
-	remove_core = LXA
-	remove_core = AYU
-#} # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
-# = {
-	#owner = CHK
-	#controller = CHK
-	#add_core= CHK
-	remove_core = VIE
-#}
 
 
 native_size = 5

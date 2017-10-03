@@ -1,7 +1,7 @@
 #583 - Hsenwi
 
-#owner = HSE
-#controller = HSE
+owner = HSE
+controller = HSE
 culture = shan
 religion = buddhism
 capital = "Hsenwi"
@@ -10,44 +10,14 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
-is_city = no
-#add_core= HSE
-#add_core= CDL
+is_city = yes
+add_core= HSE
 
 
 
 discovered_by = chinese
 discovered_by = indian
 
-
-# = {
-	#controller = SST
-	#owner = SST
-	#add_core= SST
-	remove_core = HSE
-#}
-# = { #add_core= TAU }
-# = { #controller = TAU }
-# = { #owner = TAU }
-# = {
-	#owner = SST
-	#controller = SST
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-#}
-# = { discovered_by = SPA }#Novus Atlas Sinensis
-# = {
-	#owner = QNG
-	#controller = QNG
-	#add_core= QNG
-#}
-# = {
-	#owner = TAU
-	#controller = TAU
-	remove_core = QNG
-#}
 
 
 native_size = 5
