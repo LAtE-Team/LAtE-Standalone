@@ -267,8 +267,8 @@
  colonial_middle_east:0 "Colonial Middle East"
  colonial_middle_east_root_getadjective_middle_east:0 "[Root.GetAdjective] Middle East"
  colonial_middle_east_root_getadjectve_middle_east_adj:0 "[Root.GetAdjective] Middle Eastern"
- colonial_middle_east_i_rack:0 "I Rack"
- colonial_middle_east_i_rack_ADJ:0 "I Racky"
+ colonial_middle_east_I_Rack:0 "I Rack"
+ colonial_middle_east_I_Rack_ADJ:0 "I Racky"
  
  #INDIA#
   
@@ -454,7 +454,4 @@
  TRADE_COMPANY_PATAGONIA_South_America_Trade_Company:0 "Patagonia Trade Company"
  TRADE_COMPANY_URUGUAY_South_America_Trade_Company:0 "Uruguay Trade Company"
  TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesia Trade Company"
-<<<<<<< HEAD
  TRADE_COMPANY_JAPAN_Trade_Company:0 "Japan Trade Company"
-=======
->>>>>>> 83caf4a0e54f20065aa25b75360aa3d7ca4f1602
