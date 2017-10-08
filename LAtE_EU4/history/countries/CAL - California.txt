@@ -316,3 +316,6 @@ capital = 4502
 	add_treasury = 65
 	add_prestige = 461
 }
+3053.1.1 = {		#IDENTIFIES THIS BUILD AS THE STANDALONE. DO NOT COPY INTO CONVERTER!
+	set_global_flag = is_standalone
+}

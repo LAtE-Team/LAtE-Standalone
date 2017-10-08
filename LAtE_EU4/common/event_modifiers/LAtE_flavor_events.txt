@@ -1,0 +1,18 @@
+
+#NYS Flavor
+
+a_christian_republic = {
+	global_missionary_strength = 0.02
+}
+
+vigilantes_keeping_peace = {
+	local_unrest = -3
+}
+
+the_copper_lady = {
+	trade_goods_size = 5.0
+}
+
+lady_liberty = {
+	prestige = 1
+}

@@ -1,0 +1,154 @@
+namespace = flavor_NYS
+
+#A Christian Republic (standalone only)
+country_event = {
+	id = flavor_NYS.1
+	title = flavor_NYS.1.TITLE
+	desc = flavor_NYS.1.DESC
+	picture = RELIGION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NYS
+		is_year = 3053
+		religion = protestant
+		is_part_of_hre = yes
+		is_emperor = no
+		owns_core_province = 965 #Manhattan
+		has_global_flag = is_standalone #Standalone only.
+	}
+	
+	#We are ever loyal subjects of the Confederacy
+	option = {	
+		name = flavor_NYS.1.a
+
+		add_country_modifier = {
+			name = a_christian_republic
+			duration = 7300 #20 Years
+		}
+		ai_chance = { factor = 99 }
+
+	}
+	
+	#It was all just a clever ruse!
+	option = {
+		name = flavor_NYS.1.b
+
+		change_religion = americanist
+		random_country = {  
+			limit = {
+				is_emperor = yes
+			}
+			add_opinion = {
+				who = NYS
+				modifier = opinion_traitor
+			}
+			add_casus_belli = {
+				target = NYS
+				type = cb_crusade
+				months = 1825
+			}
+		}
+		ai_chance = { factor = 1 }	#AI will almost never pick this. Almost.
+	}
+	
+}
+
+#Vigilantes
+country_event = {		
+	id = flavor_NYS.2
+	title = flavor_NYS.2.TITLE
+	desc = flavor_NYS.2.DESC
+	picture = SPY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NYS
+		owns_core_province = 965 #Manhattan
+	}
+	
+	mean_time_to_happen = {
+		months = 2208 #184 years, ie half of the game duration. So once per game.
+	}
+	
+	#We can suffer no vigilantes in New York. Lock him away.
+	option = {
+		name = flavor_NYS.2.a
+		
+		add_stability = 1
+	}
+	
+	#Bring him to court!
+	option = {
+		name = flavor_NYS.2.b
+		define_advisor = {
+			type = spymaster
+			name = "Peter Parquagh"	#Gettit? Gettit?
+			location = 965 #Manhattan
+			skill = 3
+			discount = yes
+		}
+	}
+	
+	#Let him stay home.
+	option = {
+		name = flavor_NYS.2.c
+		965 = { #Manhattan
+			add_province_modifier = {
+				name = "vigilantes_keeping_peace"
+				duration = 7300 #20 Years
+			}
+		}
+	}
+	
+}
+
+#The Drowned Lady
+country_event = {
+	id = flavor_NYS.3
+	title = flavor_NYS.3.TITLE
+	desc = flavor_NYS.3.DESC
+	picture = CITY_VIEW_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NYS
+		owns_core_province = 965 #Manhattan
+	}
+	
+	mean_time_to_happen = {
+		months = 1200 #100 years.
+	}
+	
+	#Idolatry is a sin. Let her lie where she is.
+	option = {
+		name = flavor_NYS.3.a
+		add_stability = 1
+	}
+	
+	#Dredge her from the depths and mine the copper!
+	option = {
+		name = flavor_NYS.3.b
+		
+		965 = {	#Manhattan
+			change_trade_goods = copper
+			add_province_modifier = {
+				name = "the_copper_lady"
+				duration = -1 #End of game
+			}
+		}
+	}
+	
+	#Bring her to shore as a monument of our ancestors.
+	option = {
+		name = flavor_NYS.3.c
+		
+		add_country_modifier = {
+			name = "lady_liberty"
+			duration = -1
+		}
+	}
+}
