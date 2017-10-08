@@ -24,24 +24,3 @@ discovered_by = eastern
 discovered_by = muslim 
 discovered_by = ottoman
 discovered_by =  mesoamerican
-
-
-# = { 
-	unrest = 0 
-	revolt = { 
-		type = noble_rebels 
-		size = 2
-	} 
-	#controller = REB 
-}
-# = {
-	#discovered_by = SPA 
-	#owner = SPA 
-	#controller = SPA 
-	#add_core= SPA
-}
-# = {
-	culture = castillian
-	religion = catholic
-}
-# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence

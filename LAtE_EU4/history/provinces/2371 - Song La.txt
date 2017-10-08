@@ -19,40 +19,6 @@ discovered_by = chinese
 discovered_by = indian
 
 
-# = {
-	#owner = MNG
-	revolt = { type = nationalist_rebels size = 2 }
-	#controller = REB
-	#add_core= MNG
-#} # Vietnam is invaded by Chinese troops after the Tran dynasty is overthrowned
-# = {
-	revolt = {}
-	#owner = DAI
-	#controller = DAI
-	remove_core = MNG
-#} # The Le Dynasty
-# = { unrest = 10 } # Civil War in Dai Viet
-# = { unrest = 0 }
-# = {
-	#owner = TOK
-	#controller = TOK
-	#add_core= TOK
-#} # The kingdom is divided between the Nguyens & the Trinh line
-# = { discovered_by = SPA }#Novus Atlas Sinensis
-# = { unrest = 5 } # Peasant revolt
-# = { unrest = 0 }
-# = {
-	#owner = DAI
-	#controller = DAI
-	#add_core= DAI
-	remove_core = TOK
-#}
-# = {
-	#owner = ANN
-	#controller = ANN
-	remove_core = DAI
-#} # Nguyen Phuc Anh annexed the Tay Son Dynasty
-
 
 native_size = 5
 native_ferocity = 1
