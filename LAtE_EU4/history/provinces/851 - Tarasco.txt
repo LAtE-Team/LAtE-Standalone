@@ -27,32 +27,9 @@ discovered_by =  mesoamerican
 
 
 
-# = { 
-	#owner = TAR
-	#controller = TAR 
-} #Estimated
-# = { #add_core= TAR } #Tarascan resettlement
-# = {
-	#owner = CLM
-	remove_core = TAR 
-	#controller = CLM 
-} #Tarascan defeat in the Saltpeter war11
-# = { discovered_by = SPA } # Cristobal de Olid 
-# = {
-	#owner = SPA
-	#controller = SPA
-	#add_core= SPA
-	religion = catholic
-	unrest = 5
-} #Forced to surrender by Alvarado, Colimotl murdered
-# = {
-	capital = "Valladolid"
-	culture = castillian
-} # Founded by Antonio de Mendoza 
-# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
-# = { #controller = MEX } # Conquered by José María Morelos
-
 
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
+discovered_by = NRU 
+discovered_by = NRA

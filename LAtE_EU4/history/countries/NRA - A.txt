@@ -1,7 +1,7 @@
 # New Russia
 government = colonial_government
 government_rank = 1
-technology_group = western
+technology_group = indian
 primary_culture = novorusskiy
 religion = atomicist
 capital = 2613 # Sitka

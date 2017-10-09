@@ -19,3 +19,5 @@ is_city = yes
 
 discovered_by = NRU
 discovered_by = NRA
+
+discovered_by = indian

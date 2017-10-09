@@ -12,3 +12,5 @@ discovered_by = chinese
 add_core = DAV
 owner = DAV
 controller = DAV
+discovered_by = NRU 
+discovered_by = NRA

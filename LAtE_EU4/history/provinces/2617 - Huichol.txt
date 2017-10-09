@@ -21,12 +21,7 @@ discovered_by = ottoman
 discovered_by =  mesoamerican
 
 
-# = { 
-	#discovered_by = SPA
-	#owner = SPA
-	#controller = SPA
-	#add_core= SPA
-	is_city = no
-	capital = "Guadalajara"
-}
-# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence
+
+
+discovered_by = NRU 
+discovered_by = NRA

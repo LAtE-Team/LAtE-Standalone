@@ -26,22 +26,7 @@ discovered_by = ottoman
 discovered_by =  mesoamerican
 
 
-# = {
- 	#owner = AZT
-	#controller = AZT 
-	#add_core= AZT
-}
-# = {
-	#owner = TLA
-	#controller = TLA 
-}
-# = {
-	#discovered_by = SPA
-	#owner = SPA
-	#controller = SPA
-	#add_core= SPA
-	religion = catholic
-	culture = castillian
-}
-# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence
 
+
+discovered_by = NRU 
+discovered_by = NRA

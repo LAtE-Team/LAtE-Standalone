@@ -2,13 +2,13 @@
 government = feudal_monarchy
 government_rank = 2
 mercantilism = 0.1
-technology_group = western
+technology_group = indian
 primary_culture = novorusskiy
 religion = atomicist
 clear_scripted_personalities = yes
-capital = 1034
+capital = 2106 #Furdan
 3053.1.1 {
-	capital = 1034
+	capital = 2106 #Furdan
 	add_treasury = 0
 	add_prestige = 4
 }

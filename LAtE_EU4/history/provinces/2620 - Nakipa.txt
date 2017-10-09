@@ -20,21 +20,5 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
 
-# = { discovered_by = SPA }
-
-# = {
-	#owner = SPA
-	#controller = SPA
-	#add_core= SPA
-	is_city = no
-	culture = castillian
-	religion = catholic	
-	trade_goods = unknown
-} # Missionaries arrived
-# = { unrest = 4 } # The natives rebelled
-# = { unrest = 0 }
-# = {
-	#owner = MEX
-	#add_core= MEX
-	#controller = SPA
-} # Mexican War of Independence
+discovered_by = NRU 
+discovered_by = NRA

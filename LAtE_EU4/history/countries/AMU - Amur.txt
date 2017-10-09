@@ -1,0 +1,15 @@
+government = tribal_kingdom
+primary_culture = buryat
+religion = tengri_pagan_reformed
+technology_group = indian
+capital = 2446	# Chara
+
+3011.1.1 = {
+	monarch = {
+		name = "Temulen"
+		dynasty = "Giray"
+		dip = 1
+		adm = 2
+		mil = 5
+	}
+}

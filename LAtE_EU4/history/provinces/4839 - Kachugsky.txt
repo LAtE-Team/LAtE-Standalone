@@ -11,3 +11,6 @@ owner = KRS
 controller = KRS
 discovered_by = indian
 
+
+discovered_by = NRU 
+discovered_by = NRA

@@ -19,23 +19,7 @@ is_city = no
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-#discovered_by = nomad_group
-
-
-# = { #owner = TVE #controller = TVE } # Vasily II gives Rzhev to Boris of Tver
-# = { #owner = LIT #controller = LIT #add_core= LIT } # Rzhev conquered by Lithuania
-# = { #owner = TVE #controller = TVE remove_core = LIT } # Returned to Tver
-# = { discovered_by = SIB }
-# = { #owner = MOS #controller = MOS remove_core = TVE } # Passed to Muscovy
-# = { #owner = RUS #controller = RUS #add_core= RUS remove_core = MOS }
-# = { base_tax = 1ase_production = 1 # Treasury reforms
-# = { unrest = 5 } # "Time of troubles"
-# = { unrest = 0 } # Order returned, Romanov dynasty
-# = { base_tax = 1ase_production = 1 # Governmental reforms and the absolutism
-# = { base_tax = 1ase_production = 1 # Legislative reform
-
+discovered_by = indian
 
 native_size = 5
 native_ferocity = 1

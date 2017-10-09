@@ -21,3 +21,4 @@ native_hostileness = 1
 discovered_by = JAP
 discovered_by = NRU
 discovered_by = NRA
+discovered_by = indian

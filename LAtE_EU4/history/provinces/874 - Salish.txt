@@ -2,7 +2,6 @@
 
 #owner = SAL
 #controller = SAL
-    add_core = SAL
 #add_core= SAL
 is_city = no
 culture = salish
@@ -28,3 +27,6 @@ discovered_by = nomad_group
 # = { discovered_by = SPA } # Sighted by Spanish explorers
 # = { discovered_by = RUS } # Vitus Bering & Aleksei Chirikov
 
+
+discovered_by = NRU 
+discovered_by = NRA

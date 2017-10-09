@@ -20,3 +20,6 @@ is_city = yes
 
 discovered_by = western
 discovered_by = eastern
+
+discovered_by = NRU 
+discovered_by = NRA

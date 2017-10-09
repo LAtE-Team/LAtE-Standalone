@@ -25,3 +25,5 @@ fort_15th = yes
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
+discovered_by = NRU 
+discovered_by = NRA

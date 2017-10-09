@@ -25,19 +25,5 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by =  mesoamerican
 
-
-# = {
- 	#owner = AZT
-	#controller = AZT
-	#add_core= AZT
-} #Estimated; occured during Ahuizotl's reign
-# = { #owner = TLA #controller = TLA } #Tenochtitlan falls, collapse of the Aztec empire.
-# = {
-	#discovered_by = SPA
-	#owner = SPA
-	#controller = SPA
-	#add_core= SPA
-	religion = catholic
-	culture = castillian
-} # Alvarado conquers the Tlapanec
-# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence
+discovered_by = NRU 
+discovered_by = NRA

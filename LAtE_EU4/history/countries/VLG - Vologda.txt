@@ -1,4 +1,4 @@
-government = steppe_horde
+government = tribal_kingdom
 primary_culture = novgorodian
 religion = tengri_pagan_reformed
 technology_group = indian

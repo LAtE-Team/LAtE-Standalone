@@ -13,3 +13,6 @@ native_ferocity = 2
 native_hostileness = 3
 discovered_by = indian
 capital = "Bratsk"
+
+discovered_by = NRU 
+discovered_by = NRA

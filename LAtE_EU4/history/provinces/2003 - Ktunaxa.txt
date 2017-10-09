@@ -21,12 +21,6 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	is_city = no
-	trade_goods = unknown
-	religion = protestant
-	culture = american 
-} #Kootenae house
+
+discovered_by = NRU 
+discovered_by = NRA

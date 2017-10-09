@@ -10,6 +10,8 @@ VLD = countries/Vladimir.txt
 KOM = countries/Komi.txt
 KRS = countries/Krasnoyarsk.txt
 ALT = countries/AltaiUriankhai.txt
+HEI = countries/Heilongjiang.txt
+AMU = countries/Amur.txt
 
 STP = countries/StPetersburg.txt
 OMS = countries/Omsk.txt

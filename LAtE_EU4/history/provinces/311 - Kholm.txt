@@ -17,20 +17,7 @@ is_city = no
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-#discovered_by = nomad_group
-
-
-# = {	#owner = MOS #controller = MOS #add_core= MOS remove_core = NOV	}
-# = {
-	#owner = RUS
-	#controller = RUS 
-	#add_core= RUS 
-	remove_core = MOS 
-#}
-# = { unrest = 5 } # "Time of troubles"
-# = { unrest = 0 } # Romanov dynasty
+discovered_by = indian
 
 
 native_size = 5

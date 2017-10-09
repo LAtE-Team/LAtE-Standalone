@@ -19,8 +19,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
+discovered_by = indian
 
 
 # = {	#owner = RUS #controller = RUS #add_core= RUS remove_core = PSK } # Pskov annexed by Russia

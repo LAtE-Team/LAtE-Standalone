@@ -20,21 +20,10 @@ discovered_by = ZAP
 discovered_by = AZT
 
 
-# = { capital = "Huasyacac" } 
-# = {
-	#discovered_by = SPA 
-	#owner = SPA 
-	#controller = SPA 
-	#add_core= SPA
-}
-# = {
-	culture = castillian
-	religion = catholic
-} # First settlers
-# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
-# = { #controller = MEX } # Conquered by José María Morelos
 
 
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
+discovered_by = NRU 
+discovered_by = NRA

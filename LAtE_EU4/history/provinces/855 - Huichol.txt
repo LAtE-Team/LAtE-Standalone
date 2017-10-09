@@ -21,15 +21,6 @@ discovered_by = ottoman
 discovered_by =  mesoamerican
 
 
-# = {
-	#discovered_by = SPA 
-	#owner = SPA 
-	#controller = SPA
-	#add_core= SPA
-	trade_goods = unknown
-	culture = castillian
-	religion = catholic
-	is_city = no
-} 
-# = { discovered_by = ENG } # Drake 
-# = { #owner = MEX #add_core= MEX #controller = MEX } # Mexican War of Independence
+
+discovered_by = NRU 
+discovered_by = NRA

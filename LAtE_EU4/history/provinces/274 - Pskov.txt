@@ -1,4 +1,4 @@
-#274 - Pskov
+`#274 - Pskov
 
 #owner = PSK
 #controller = PSK
@@ -20,24 +20,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-
-
-# = { unrest = 5 } # Struggles between the boyars and smerds
-# = { unrest = 0 } 
-# = {
-	#owner = RUS
-	#controller = RUS
-	#add_core= RUS
-	remove_core = PSK
-#} # Vasili III put an end to the Pskov republic, still remained a strategic fortress
-# = { unrest = 8 } # "Time of troubles"
-# = { unrest = 0 } # Order returned, Romanov dynasty
-# = { unrest = 5 } # Peasant uprising in Pskov
-# = { unrest = 0 }
-# = { base_tax = 1ase_production = 1 # Tax revenues increased
-
+discovered_by = indian
 
 native_size = 5
 native_ferocity = 1

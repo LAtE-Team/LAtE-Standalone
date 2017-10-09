@@ -1,0 +1,15 @@
+government = steppe_horde
+primary_culture = khalkha
+religion = tengri_pagan_reformed
+technology_group = indian
+capital = 2187	# Sartu, ie Harban
+
+3011.1.1 = {
+	monarch = {
+		name = "Batas"
+		dynasty = "Mansi"
+		dip = 1
+		adm = 2
+		mil = 5
+	}
+}

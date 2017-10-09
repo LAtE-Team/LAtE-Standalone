@@ -3765,7 +3765,7 @@ limpopo_area = { #Natal
 }
 
 actual_limpopo_area = {
-	 729 4730 4859 1800 4729
+	4730 4859 1800 4729
 }
 
 free_state_area = {

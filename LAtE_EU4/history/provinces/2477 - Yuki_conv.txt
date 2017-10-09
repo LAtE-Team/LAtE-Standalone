@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = CAL
-controller = CAL
-add_core = CAL
+owner = NRA
+controller = NRA
+add_core = NRA
 culture = bayfolk
 religion = cetic
 citysize = 2000
@@ -712,8 +712,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = CAL
-	controller = CAL
+	owner = NRA
+	controller = NRA
 	culture = bayfolk
 	religion = cetic
 }

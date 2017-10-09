@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = X85
-controller = X85
-add_core = X85
+owner = X84
+controller = X84
+add_core = X84
 culture = valleyan
 religion = cetic
 citysize = 2000
@@ -713,8 +713,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X85
-	controller = X85
+	owner = X84
+	controller = X84
 	culture = valleyan
 	religion = cetic
 }

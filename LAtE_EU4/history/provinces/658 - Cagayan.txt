@@ -15,3 +15,5 @@ discovered_by = chinese
 add_core = MNL
 owner = MNL
 controller = MNL
+discovered_by = NRU 
+discovered_by = NRA

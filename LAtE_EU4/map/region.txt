@@ -544,6 +544,7 @@ west_siberia_region = {
 		irkutsk_area
 		ishim_area
 		kara_area
+		krasnoyarsk_area
 	}
 }
 
@@ -1051,6 +1052,7 @@ mississippi_region = {
 		little_egypt_area
 		birmingham_area
 		kentuckiana_area
+		east_tennessee_area
 	}
 }
 
@@ -1090,6 +1092,7 @@ california_region = {
 		motherlode_area
 		kern_area
 		los_padres_area
+		yellowstone_area
 	}
 }
 

@@ -17,3 +17,5 @@ controller = DAV
 
 
 discovered_by = chinese
+discovered_by = NRU 
+discovered_by = NRA
