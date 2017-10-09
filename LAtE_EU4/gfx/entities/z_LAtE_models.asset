@@ -1,0 +1,138 @@
+#By Garant26 and Elzephor
+
+#Canada
+
+entity = { clone = "UKR_CAVALRY_1" name = "CAN_CAVALRY_1" version = 10}
+entity = { clone = "UKR_INFANTRY_1" name = "CAN_INFANTRY_1" version = 10}
+entity = { clone = "RUS_CAVALRY_2" name = "CAN_CAVALRY_2" version = 10}
+entity = { clone = "RUS_INFANTRY_2" name = "CAN_INFANTRY_2" version = 10}
+entity = { clone = "LIV_CAVALRY_3" name = "CAN_CAVALRY_3" version = 10}
+entity = { clone = "LIV_INFANTRY_3" name = "CAN_INFANTRY_3" version = 10}
+
+entity = { clone = "FRA_CAVALRY_1" name = "QUE_CAVALRY_1" version = 10}
+entity = { clone = "FRA_INFANTRY_1" name = "QUE_INFANTRY_1" version = 10}
+entity = { clone = "FRA_CAVALRY_2" name = "QUE_CAVALRY_2" version = 10}
+entity = { clone = "FRA_INFANTRY_2" name = "QUE_INFANTRY_2" version = 10}
+
+entity = { clone = "HAN_INFANTRY_1" name = "ONT_INFANTRY_1" version = 10}
+entity = { clone = "HAN_INFANTRY_3" name = "ONT_INFANTRY_2" version = 10}
+
+entity = { clone = "SCO_CAVALRY_1" name = "MRT_CAVALRY_1" version = 10}
+entity = { clone = "SCO_INFANTRY_1" name = "MRT_INFANTRY_1" version = 10}
+entity = { clone = "ULM_CAVALRY_2" name = "MRT_CAVALRY_2" version = 10}
+entity = { clone = "ULM_INFANTRY_2" name = "MRT_INFANTRY_2" version = 10}
+
+#Northeast
+
+
+
+
+entity = { clone = "HSA_CAVALRY_1" name = "NYS_CAVALRY_1" version = 10}
+entity = { clone = "HSA_INFANTRY_1" name = "NYS_INFANTRY_1" version = 10}
+
+entity = { clone = "HSA_CAVALRY_2" name = "NYS_CAVALRY_2" version = 10}
+entity = { clone = "HSA_INFANTRY_2" name = "NYS_INFANTRY_2" version = 10}
+entity = { clone = "HSA_CAVALRY_3" name = "NYS_CAVALRY_3" version = 10}
+entity = { clone = "HSA_INFANTRY_3" name = "NYS_INFANTRY_3" version = 10}
+entity = { clone = "HSA_CAVALRY_4" name = "NYS_CAVALRY_4" version = 10}
+entity = { clone = "HSA_INFANTRY_4" name = "NYS_INFANTRY_4" version = 10}
+
+entity = { clone = "HSA_ARTILLERY_1" name = "NYS_ARTILLERY_1" version = 10}
+entity = { clone = "HSA_ARTILLERY_1" name = "NYS_ARTILLERY_2" version = 10}
+entity = { clone = "HSA_ARTILLERY_1" name = "NYS_ARTILLERY_3" version = 10}
+entity = { clone = "HSA_ARTILLERY_1" name = "NYS_ARTILLERY_4" version = 10}
+
+entity = { clone = "ENG_CAVALRY_1" name = "NEN_CAVALRY_1" version = 10}
+entity = { clone = "ENG_INFANTRY_1" name = "NEN_INFANTRY_1" version = 10}
+entity = { clone = "ENG_CAVALRY_2" name = "NEN_CAVALRY_2" version = 10}
+entity = { clone = "ENG_INFANTRY_2" name = "NEN_INFANTRY_2" version = 10}
+
+entity = { clone = "ENG_CAVALRY_1" name = "RED_CAVALRY_1" version = 10}
+entity = { clone = "ENG_INFANTRY_1" name = "RED_INFANTRY_1" version = 10}
+entity = { clone = "ENG_CAVALRY_2" name = "RED_CAVALRY_2" version = 10}
+entity = { clone = "ENG_INFANTRY_2" name = "RED_INFANTRY_2" version = 10}
+
+entity = { clone = "AUG_CAVALRY_1" name = "DLW_CAVALRY_1" version = 10}
+entity = { clone = "AUG_INFANTRY_1" name = "DLW_INFANTRY_1" version = 10}
+entity = { clone = "AUG_CAVALRY_2" name = "DLW_CAVALRY_2" version = 10}
+entity = { clone = "AUG_INFANTRY_2" name = "DLW_INFANTRY_2" version = 10}
+
+#South
+
+
+
+entity = { clone = "NAP_CAVALRY_1" name = "LOU_CAVALRY_1" version = 10}
+entity = { clone = "NAP_INFANTRY_1" name = "LOU_INFANTRY_1" version = 10}
+entity = { clone = "NAP_CAVALRY_2" name = "LOU_CAVALRY_2" version = 10}
+entity = { clone = "NAP_INFANTRY_2" name = "LOU_INFANTRY_2" version = 10}
+entity = { clone = "NAP_CAVALRY_3" name = "LOU_CAVALRY_3" version = 10}
+entity = { clone = "NAP_INFANTRY_3" name = "LOU_INFANTRY_3" version = 10}
+
+entity = { clone = "MAI_CAVALRY_1" name = "FLD_CAVALRY_1" version = 10}
+entity = { clone = "MAI_INFANTRY_1" name = "FLD_INFANTRY_1" version = 10}
+entity = { clone = "MAI_CAVALRY_2" name = "FLD_CAVALRY_2" version = 10}
+entity = { clone = "MAI_INFANTRY_2" name = "FLD_INFANTRY_2" version = 10}
+entity = { clone = "MAI_CAVALRY_3" name = "FLD_CAVALRY_3" version = 10}
+entity = { clone = "MAI_INFANTRY_3" name = "FLD_INFANTRY_3" version = 10}
+
+
+
+
+#Midwest
+
+entity = { clone = "BYZ_CAVALRY_1" name = "SUP_CAVALRY_1" version = 10}
+entity = { clone = "BYZ_INFANTRY_1" name = "SUP_INFANTRY_1" version = 10}
+entity = { clone = "NOV_CAVALRY_2" name = "SUP_CAVALRY_2" version = 10}
+entity = { clone = "NOV_INFANTRY_2" name = "SUP_INFANTRY_2" version = 10}
+
+entity = { clone = "FRN_CAVALRY_1" name = "ORD_CAVALRY_1" version = 10}
+entity = { clone = "FRN_INFANTRY_1" name = "ORD_INFANTRY_1" version = 10}
+entity = { clone = "FRN_CAVALRY_2" name = "ORD_CAVALRY_2" version = 10}
+entity = { clone = "FRN_INFANTRY_2" name = "ORD_INFANTRY_2" version = 10}
+
+
+#West
+
+entity = { clone = "KOR_CAVALRY_1" name = "CAL_CAVALRY_1" version = 10}
+entity = { clone = "KOR_INFANTRY_1" name = "CAL_INFANTRY_1" version = 10}
+entity = { clone = "VEN_CAVALRY_2" name = "CAL_CAVALRY_2" version = 10}
+entity = { clone = "VEN_INFANTRY_2" name = "CAL_INFANTRY_2" version = 10}
+entity = { clone = "PAP_CAVALRY_3" name = "CAL_CAVALRY_3" version = 10}
+entity = { clone = "PAP_INFANTRY_3" name = "CAL_INFANTRY_3" version = 10}
+
+entity = { clone = "AUG_CAVALRY_1" name = "DES_CAVALRY_1" version = 10}
+entity = { clone = "AUG_INFANTRY_1" name = "DES_INFANTRY_1" version = 10}
+entity = { clone = "AUG_CAVALRY_2" name = "DES_CAVALRY_2" version = 10}
+entity = { clone = "AUG_INFANTRY_2" name = "DES_INFANTRY_2" version = 10}
+
+#Mexico
+
+entity = { clone = "ARA_CAVALRY_1" name = "MEX_CAVALRY_1" version = 10}
+entity = { clone = "ARA_INFANTRY_1" name = "MEX_INFANTRY_1" version = 10}
+entity = { clone = "KNI_CAVALRY_2" name = "MEX_CAVALRY_2" version = 10}
+entity = { clone = "KNI_INFANTRY_2" name = "MEX_INFANTRY_2" version = 10}
+
+entity = { clone = "HAU_CAVALRY_1" name = "CBN_CAVALRY_1" version = 10}
+entity = { clone = "HAU_INFANTRY_1" name = "CBN_INFANTRY_1" version = 10}
+entity = { clone = "HAU_CAVALRY_2" name = "CBN_CAVALRY_2" version = 10}
+entity = { clone = "HAU_INFANTRY_2" name = "CBN_INFANTRY_2" version = 10}
+entity = { clone = "HAU_CAVALRY_3" name = "CBN_CAVALRY_3" version = 10}
+entity = { clone = "HAU_INFANTRY_3" name = "CBN_INFANTRY_3" version = 10}
+
+#SA
+
+entity = { clone = "POR_CAVALRY_1" name = "BRZ_CAVALRY_1" version = 10}
+entity = { clone = "POR_INFANTRY_1" name = "BRZ_INFANTRY_1" version = 10}
+entity = { clone = "POR_CAVALRY_2" name = "BRZ_CAVALRY_2" version = 10}
+entity = { clone = "POR_INFANTRY_2" name = "BRZ_INFANTRY_2" version = 10}
+entity = { clone = "POR_CAVALRY_3" name = "BRZ_CAVALRY_3" version = 10}
+entity = { clone = "POR_INFANTRY_3" name = "BRZ_INFANTRY_3" version = 10}
+
+#Others
+
+entity = { clone = "RUS_CAVALRY_1" name = "NRU_CAVALRY_1" version = 10}
+entity = { clone = "RUS_INFANTRY_1" name = "NRU_INFANTRY_1" version = 10}
+entity = { clone = "RUS_CAVALRY_2" name = "NRU_CAVALRY_2" version = 10}
+entity = { clone = "RUS_INFANTRY_2" name = "NRU_INFANTRY_2" version = 10}
+entity = { clone = "RUS_CAVALRY_3" name = "NRU_CAVALRY_3" version = 10}
+entity = { clone = "RUS_INFANTRY_3" name = "NRU_INFANTRY_3" version = 10}

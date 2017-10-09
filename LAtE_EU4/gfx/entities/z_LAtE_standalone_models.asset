@@ -1,0 +1,32 @@
+#Standalone ONLY
+#By Garant26 and Elzephor
+
+#Hudsonia
+entity = { clone = "HOL_CAVALRY_1" name = "Y16_CAVALRY_1" version = 10}
+entity = { clone = "HOL_INFANTRY_1" name = "Y16_INFANTRY_1" version = 10}
+entity = { clone = "HOL_CAVALRY_2" name = "Y16_CAVALRY_2" version = 10}
+entity = { clone = "HOL_INFANTRY_2" name = "Y16_INFANTRY_2" version = 10}
+
+#Orleans
+entity = { clone = "ORL_CAVALRY_1" name = "Z02_CAVALRY_1" version = 10}
+entity = { clone = "ORL_INFANTRY_1" name = "Z02_INFANTRY_1" version = 10}
+entity = { clone = "NAP_CAVALRY_2" name = "Z02_CAVALRY_2" version = 10}
+entity = { clone = "NAP_INFANTRY_2" name = "Z02_INFANTRY_2" version = 10}
+
+#Peachtree
+entity = { clone = "HAM_CAVALRY_1" name = "Z03_CAVALRY_1" version = 10}
+entity = { clone = "HAM_INFANTRY_1" name = "Z03_INFANTRY_1" version = 10}
+entity = { clone = "HAM_CAVALRY_2" name = "Z03_CAVALRY_2" version = 10}
+entity = { clone = "HAM_INFANTRY_2" name = "Z03_INFANTRY_2" version = 10}
+
+#Maryland
+entity = { clone = "NRN_CAVALRY_1" name = "Z19_CAVALRY_1" version = 10}
+entity = { clone = "NRN_INFANTRY_1" name = "Z19_INFANTRY_1" version = 10}
+entity = { clone = "NRN_CAVALRY_2" name = "Z19_CAVALRY_2" version = 10}
+entity = { clone = "NRN_INFANTRY_2" name = "Z19_INFANTRY_2" version = 10}
+
+#Michigan
+entity = { clone = "PAL_CAVALRY_1" name = "Y34_CAVALRY_1" version = 10}
+entity = { clone = "PAL_INFANTRY_1" name = "Y34_INFANTRY_1" version = 10}
+entity = { clone = "MLO_CAVALRY_2" name = "Y34_CAVALRY_2" version = 10}
+entity = { clone = "MLO_INFANTRY_2" name = "Y34_INFANTRY_2" version = 10}
