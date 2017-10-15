@@ -3,7 +3,7 @@
 #owner = KID
 #controller = KID
 culture = irish
-religion = matrem
+religion = celticist
 hre = no
 base_tax = 3
 base_production = 3
@@ -15,32 +15,6 @@ is_city = no
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
-
-# = {
-	#owner = ENG
-	#controller = ENG
-	#add_core= ENG
-#}
-# = { revolt = { type = nationalist_rebels size = 0 } #controller = REB }
-# = {
- revolt = {}
-	#owner = IRE
-	#controller = IRE
-	#add_core= IRE
-#} # Confederation of Kilkenny
-# = { #controller = ENG } # Capture of Kilkenny
-# = { #owner = ENG } # End of the Irish Confederates
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # James II Lands in Ireland
-# = { revolt = {} #controller = ENG }
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	remove_core = ENG
-#}
 
 
 native_size = 5

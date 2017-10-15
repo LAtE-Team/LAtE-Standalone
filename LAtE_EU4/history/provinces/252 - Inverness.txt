@@ -1,7 +1,7 @@
 #252 - Highlands
 
-#owner = SCO
-#controller = SCO
+owner = HSC
+controller = HSC
 culture = highland_scottish
 religion = thelemic
 hre = no
@@ -10,26 +10,11 @@ base_production = 3
 trade_goods = unknown
 base_manpower = 2
 capital = "Inverness"
-is_city = no
-estate = estate_nobles
-#add_core= SCO
-#add_core= HSC
+is_city = yes
+add_core= HSC
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
-
-# = { religion = reformed }
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB }
-# = { revolt = {} #controller = SCO }
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Jacobite Rising
-# = { revolt = {} #controller = SCO }
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-#}
 
 
 native_size = 5

@@ -1,6 +1,6 @@
 government = feudal_monarchy
 primary_culture = highland_scottish
-religion = thelemic
+religion = celticist
 technology_group = high_american
 capital = 252 # Inverness
 

@@ -1,44 +1,23 @@
 #369 - Orkney
 
-#owner = NOR
-#controller = NOR
-culture = norwegian
-religion = thelemic
+owner = HSC
+controller = HSC
+add_core = HSC
+culture = scottish
+religion = celticist
 hre = no
 base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Kirkwall"
-is_city = no
-#add_core= NOR
+is_city = yes
 
 
 
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
-
-
-# = {
-	#owner = SCO
-	culture = scottish
-	#controller = SCO
-	#add_core= SCO
-	remove_core = NOR
-#} # Dowry of Margaret, Daughter of Christian I of Denmark and Norway and Wife of James III of Scotland
-# = { religion = reformed } # First Protestant Minister Arrives in the Orkneys
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Landing of Montrose
-# = { revolt = {} #controller = SCO } # Battle of Carbisdale
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-#}
-# = { }
 
 
 native_size = 5

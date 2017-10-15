@@ -1,7 +1,7 @@
 government = feudal_monarchy
 government_rank = 1
 technology_group = high_american
-religion = matrem
+religion = celticist
 primary_culture = irish
 capital = 375	# Cork
 

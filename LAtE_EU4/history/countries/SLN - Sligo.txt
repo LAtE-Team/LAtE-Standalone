@@ -2,7 +2,7 @@ government = feudal_monarchy
 government_rank = 1
 technology_group = high_american
 primary_culture = irish
-religion = matrem
+religion = celticist
 capital = 4119	# Sligo
 
 
