@@ -1,6 +1,6 @@
 # 2155 - Middag
 
-culture = cantonese
+culture = chimin
 religion = confucianism
 capital = "Middag"
 trade_goods = unknown

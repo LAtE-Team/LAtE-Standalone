@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = high_american
+religion = thelemic
+primary_culture = irish
+capital = 4121	# Ulster
+
+
+3000.1.1 = { 
+	monarch = {
+		name = "Arthur"
+		dynasty = "Magginis"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

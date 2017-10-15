@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = high_american
+primary_culture = welsh
+religion = thelemic
+capital = 233	# Exeter
+
+3011.1.1 = {
+	monarch = {
+		name = "Dafydd"
+		dynasty = "Dinefwr"
+		dip = 1
+		adm = 4
+		mil = 5
+	}
+}

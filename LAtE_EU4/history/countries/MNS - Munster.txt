@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = high_american
+religion = matrem
+primary_culture = irish
+capital = 375	# Cork
+
+# Kings of Thomond
+
+
+3009.1.1 = {
+	monarch = {
+		name = "Muireadhach II"
+		dynasty = "O'Brien"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}

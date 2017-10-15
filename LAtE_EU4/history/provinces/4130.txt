@@ -1,9 +1,9 @@
-owner = GBR
-controller = GBR
-add_core = GBR
+owner = CVL
+controller = CVL
+add_core = CVL
 3053.1.1 = {
-	owner = GBR
-	controller = GBR
+	owner = CVL
+	controller = CVL
 }
 
 

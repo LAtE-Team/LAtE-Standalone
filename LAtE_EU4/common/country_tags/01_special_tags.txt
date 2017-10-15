@@ -68,6 +68,12 @@ BIZ = countries/Bizonia.txt
 BWD = countries/BloodWood.txt
 MEL = countries/Malevil.txt
 TIZ = countries/Trizonesia.txt
+LVP = countries/Scouse.txt
+TYK = countries/Tyke.txt
+GOW = countries/Gow.txt
+CVL = countries/Chavland.txt
+GRN = countries/Greencoats.txt
+
 
 # Africa
 CVD = countries/CapeVerde.txt

@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = high_american
+primary_culture = welsh
+religion = thelemic
+capital = 242	# Gwynedd
+
+3031.1.1 = {
+	monarch = {
+		name = "Bride"
+		dynasty = "Kernew"
+		dip = 3
+		adm = 1
+		mil = 3
+	}
+}

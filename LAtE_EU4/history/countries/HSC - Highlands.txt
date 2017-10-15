@@ -1,0 +1,16 @@
+government = feudal_monarchy
+primary_culture = highland_scottish
+religion = thelemic
+technology_group = high_american
+capital = 252 # Inverness
+
+
+3031.1.1 = {
+	monarch = {
+		name = "Murchadh"
+		dynasty = "Caimbeulach"
+		dip = 3
+		adm = 1
+		mil = 3
+	}
+}

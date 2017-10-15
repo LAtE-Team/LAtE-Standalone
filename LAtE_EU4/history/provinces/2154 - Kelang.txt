@@ -1,6 +1,6 @@
 # 2154 - Kelang
 
-culture = cantonese
+culture = chimin
 religion = confucianism
 capital = "Kelang"
 trade_goods = unknown

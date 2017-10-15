@@ -5,10 +5,10 @@
 culture = welsh
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 3
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 2
 capital = "Caernarvon"
 is_city = no
 #add_core= ENG
@@ -36,9 +36,9 @@ discovered_by = RED
 # = { revolt = {} unrest = 2 #controller = ENG } # Murder of Henry VI & Restoration of Edward IV
 # = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
 # = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
+# = {	#owner = WLS
+	#controller = WLS
+	#add_core= WLS
 	remove_core = ENG
 #}
 # = { religion = reformed }

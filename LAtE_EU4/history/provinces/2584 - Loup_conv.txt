@@ -712,8 +712,9 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X82
-	controller = X82
-	culture = hudsonian
-	religion = high_church
+	add_core = QUE
+	owner = QUE
+	controller = QUE
+	culture = quebecois
+	religion = ursuline
 }

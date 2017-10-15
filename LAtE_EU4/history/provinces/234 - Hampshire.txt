@@ -2,13 +2,13 @@
 
 #owner = ENG
 #controller = ENG
-culture = british
+culture = chav
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 5
+base_production = 5
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 3
 capital = "Salisbury"
 is_city = no
 #add_core= ENG

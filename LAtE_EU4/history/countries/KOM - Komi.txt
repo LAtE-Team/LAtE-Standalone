@@ -5,7 +5,7 @@ technology_group = indian
 capital = 2427	# Ostyaki
 
 
-1380.1.1 = {
+3008.1.1 = {
 	monarch = {
 		name = "Viryay"
 		dynasty = "Lyneg"

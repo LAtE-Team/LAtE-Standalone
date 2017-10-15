@@ -1,0 +1,23 @@
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = chav
+religion = thelemic
+clear_scripted_personalities = yes
+capital = 235
+3053.1.1 {
+	capital = 235
+	add_treasury = 0
+	add_prestige = 4
+}
+
+3011.1.1 = {
+	monarch = {
+		name = "Alfie 'the Absolute Madman'"	#Teehee!
+		dynasty = "Mansi"
+		dip = 1
+		adm = 2
+		mil = 5
+	}
+}

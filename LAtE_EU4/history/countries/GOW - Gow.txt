@@ -1,0 +1,23 @@
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = weegan
+religion = thelemic
+clear_scripted_personalities = yes
+capital = 249
+3053.1.1 {
+	capital = 249
+	add_treasury = 0
+	add_prestige = 4
+}
+
+3001.1.1 = {
+	monarch = {
+		name = "Nicholas"
+		dynasty = "Aberach"
+		dip = 3
+		adm = 1
+		mil = 5
+	}
+}

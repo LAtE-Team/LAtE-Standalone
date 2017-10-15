@@ -5,3 +5,17 @@ vassal = {
 	start_date = 3053.1.1
 	end_date = 3421.1.2
 }
+#Greencoats
+vassal = {
+	first = GBR
+	second = GRN
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+#Chavland
+vassal = {
+	first = GBR
+	second = CVL
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

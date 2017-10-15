@@ -2,13 +2,13 @@
 
 #owner = SCO
 #controller = SCO
-culture = scottish
+culture = weegan
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 3
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 2
 capital = "Dundee"
 #fort_15th = yes
 is_city = no

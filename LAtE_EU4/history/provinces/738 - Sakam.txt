@@ -1,6 +1,6 @@
 #738 - Taiwan
 
-culture = cantonese
+culture = chimin
 religion = confucianism
 capital = "Sakam"
 trade_goods = unknown

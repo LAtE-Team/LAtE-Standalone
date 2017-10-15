@@ -1,0 +1,23 @@
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = scouse
+religion = thelemic
+clear_scripted_personalities = yes
+capital = 244
+3053.1.1 {
+	capital = 244
+	add_treasury = 0
+	add_prestige = 4
+}
+
+3031.1.1 = {
+	monarch = {
+		name = "Richard"
+		dynasty = "Starkey"		#Teehee!
+		dip = 5
+		adm = 3
+		mil = 2
+	}
+}

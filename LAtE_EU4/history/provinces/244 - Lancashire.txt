@@ -2,14 +2,14 @@
 
 #owner = ENG
 #controller = ENG
-culture = british
+culture = scouse
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 7
+base_production = 6
 trade_goods = unknown
-base_manpower = 1
-capital = "Chester"
+base_manpower = 5
+capital = "Liverpool"
 is_city = no
 #add_core= ENG
 seat_in_parliament = yes

@@ -3,11 +3,11 @@
 
 #owner = ENG
 #controller = ENG
-culture = british
+culture = tyke
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 2
 trade_goods = unknown
 base_manpower = 1
 capital = "Carlisle"

@@ -6,10 +6,10 @@
 culture = british
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 5
+base_production = 5
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 4
 capital = "Oxford"
 is_city = no # Includes Reading
 #add_core= ENG

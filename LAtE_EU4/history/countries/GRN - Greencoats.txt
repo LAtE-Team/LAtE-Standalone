@@ -1,0 +1,23 @@
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = irish
+religion = matrem
+clear_scripted_personalities = yes
+capital = 373
+3053.1.1 {
+	capital = 373
+	add_treasury = 0
+	add_prestige = 4
+}
+
+3031.1.1 = {
+	monarch = {
+		name = "Cúldub"
+		dynasty = "O Ruairc"
+		dip = 3
+		adm = 1
+		mil = 6
+	}
+}

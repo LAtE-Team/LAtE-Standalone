@@ -1,9 +1,9 @@
-owner = GBR
-controller = GBR
-add_core = GBR
+owner = TYK
+controller = TYK
+add_core = TYK
 3053.1.1 = {
-	owner = GBR
-	controller = GBR
+	owner = TYK
+	controller = TYK
 }
 
 
