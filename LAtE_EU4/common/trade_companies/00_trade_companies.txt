@@ -282,7 +282,7 @@ trade_company_bolivia = {
 	color = { 200 0 0 }
 	
 	provinces = {
-		795 797 800 801 802 803 2831 2832 2833 2834 2835 2838 2940 2941 2942 2946 2947
+		795 797 800 801 802 803 2831 2832 2833 2834 2835 2838 2882 2940 2941 2942 2946 2947
 	}
 	
 	# Specific
@@ -319,6 +319,7 @@ trade_company_chile = {
 	
 	provinces = {
 		783 784 787 792 793 796 2840 2841 2862 2873 2874
+		791 794 2836 2837 2839  #tucuman
 	}
 	
 	# Specific
@@ -350,12 +351,66 @@ trade_company_patagonia = {
 	}
 }
 
+trade_company_amazon = {
+	color = { 57 160 0 }
+	
+	provinces = {
+		2889 2930 2933 2934
+		747 2935 2938
+		748 2890 2928 2929
+		752 2886 2925
+		749 2923 2924 2926 2927
+		750 751 753
+		754 755 2912 2921 2922
+		756 757 760 2914 2916
+		2885 2913 2915 2917 2918
+		2909 2910 2911
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_AMAZON_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_AMAZON_South_America_Trade_Company"
+	}
+}
+
+trade_company_south_brazil = {
+	color = { 57 160 101 }
+	
+	provinces = {
+		2888 2903 2904 2905 
+		2881 2893 2920 
+		2900 2901 2902 
+		766 769 2896 
+		768 2895 2897 
+		761 762 763 764
+		758 2906 2907 2908 2919
+		759 2898 2891
+		765 2892 2894 2899
+		2857 2879 2884 2887
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_SOUTH_BRAZIL_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_SOUTH_BRAZIL_South_America_Trade_Company"
+	}
+}
+
 trade_company_uruguay = {
 	color = { 0 175 0 }
 	
 	provinces = {
-		777 778 2846 2848 2849 2853 2855 2858 2859
+		777 778 2842 2846 2848 2849 2853 2855 2858 2859
 		772 773 2850 2851 2852
+		775 776 799 2883 #Paraguay
+		790 2854 2878 #Chaco
 	}
 	
 	# Specific
@@ -367,11 +422,6 @@ trade_company_uruguay = {
 		name = "TRADE_COMPANY_URUGUAY_South_America_Trade_Company"
 	}
 }
-
-# Unused - Argentina and Paraguay
-# 791 794 2836 2837 2839 2842 #tucuman
-# 790 2854 2878 #Chaco
-# 775 776 799 2882 2883 #Paraguay
 
 trade_company_polynesia = {
 	color = { 30 200 80 }
