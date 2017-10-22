@@ -3,7 +3,7 @@
 #owner = SLN
 #controller = SLN
 culture = irish
-religion = matrem
+religion = celticist
 hre = no
 base_tax = 5
 base_production = 5
@@ -15,33 +15,6 @@ is_city = no
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
-
-# = {
-	#owner = ENG
-	#controller = ENG
-	#add_core= ENG
-#} # Beginning of efforts of Thomas Wentworth to plant parts of Connaught
-# = { revolt = { type = nationalist_rebels size = 0 } #controller = REB }
-# = {
-	revolt = {}
-	#owner = IRE
-	#controller = IRE
-	#add_core= IRE
-#} # Confederation of Kilkenny
-# = { #owner = ENG #controller = ENG } # End of the Irish Confederates
-# = { revolt = { type = nationalist_rebels size = 0 } #controller = REB } # James II Lands in Ireland
-# = { revolt = {} #controller = ENG } # Capture of Limerick
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	remove_core = ENG
-#}
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Republic of Connaught
-# = { revolt = {} #controller = GBR }
 
 
 native_size = 5

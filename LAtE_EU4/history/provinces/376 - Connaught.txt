@@ -3,7 +3,7 @@
 #owner = CNN
 #controller = CNN
 culture = irish
-religion = matrem
+religion = celticist
 hre = no
 base_tax = 4
 base_production = 4
@@ -18,9 +18,6 @@ is_city = no
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
 
 native_size = 5
 native_ferocity = 1

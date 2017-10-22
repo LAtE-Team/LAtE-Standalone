@@ -1,32 +1,21 @@
 #253 - Western Isles
 
-## = SCO
-## = SCO
+owner = HSC
+controller = HSC
+add_core = HSC
 culture = highland_scottish
-religion = thelemic
+religion = celticist
 hre = no
 base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Stornoway"
-is_city = no
-estate = estate_nobles
-##= SCO
-##= HSC
+is_city = yes
+
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
-
-
-# = { religion = reformed }
-# = {	## = GBR
-	## = GBR
-	##= GBR
-#}
 
 
 native_size = 5

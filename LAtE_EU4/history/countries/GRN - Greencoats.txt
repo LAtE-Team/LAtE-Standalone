@@ -3,7 +3,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = high_american
 primary_culture = irish
-religion = matrem
+religion = celticist
 clear_scripted_personalities = yes
 capital = 373
 3053.1.1 {

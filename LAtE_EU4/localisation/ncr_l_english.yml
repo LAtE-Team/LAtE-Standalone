@@ -439,6 +439,8 @@
  trade_company_uruguay:0 "Uruguayan Charter"
  trade_company_polynesia:0 "Polynesian Charter"
  trade_company_japan:0 "Japanese Charter"
+ trade_company_amazon:0 "Amazon Charter"
+ trade_company_south_brazil:0 "South Brazillian Charter"
  
  TRADE_COMPANY_BOLIVIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Bolivia Company"
  TRADE_COMPANY_PERU_Root_Culture_GetName:0 "[Root.Culture.GetName] Peru Company"
@@ -447,6 +449,8 @@
  TRADE_COMPANY_URUGUAY_Root_Culture_GetName:0 "[Root.Culture.GetName] Uruguay Company"
  TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesia Company"
  TRADE_COMPANY_JAPAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Japan Company"
+ TRADE_COMPANY_AMAZON_Root_Culture_GetName:0 "[Root.Culture.GetName] Amazon Company"
+ TRADE_COMPANY_SOUTH BRAZIL_Root_Culture_GetName:0 "[Root.Culture.GetName] South Brazil Company"
  
  TRADE_COMPANY_BOLIVIA_South_America_Trade_Company:0 "Bolivia Trade Company"
  TRADE_COMPANY_PERU_South_America_Trade_Company:0 "Peru Trade Company"
@@ -455,3 +459,5 @@
  TRADE_COMPANY_URUGUAY_South_America_Trade_Company:0 "Uruguay Trade Company"
  TRADE_COMPANY_POLYNESIA_Trade_Company:0 "Polynesia Trade Company"
  TRADE_COMPANY_JAPAN_Trade_Company:0 "Japan Trade Company"
+ TRADE_COMPANY_AMAZON_Trade_Company:0 "Amazon Trade Company"
+ TRADE_COMPANY_SOUTH_BRAZIL_Trade_Company:0 "South Brazil Trade Company"
