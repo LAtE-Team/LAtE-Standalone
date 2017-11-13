@@ -65,6 +65,8 @@ colonial_west_africa = {
 		1120 1121 1124 2248 #Manding
 		1115 2237 2240 2244 #Tekrur
 		1134 2259 2261 2263 #Jenne
+		2282 2283 2284 1157 1160 #Borno
+		2287 1158 2286 1159 2288 #Kanem
 	}
 	
 	#Specific
@@ -90,6 +92,111 @@ colonial_west_africa = {
 	#Generic
 	names = {
 		name = "COLONIAL_WEST_AFRICA_Root_GetAdjective_West_Africa"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+#Colonial Central Africa (68)
+colonial_central_africa = {
+	color = { 5 140 25 }
+	provinces = {
+		#Congo (24)
+		1097 1163 1164 1165 1166 1169 1901 4068 4078 4079
+		4081 4085 4086 4087 4088 4089 4090 4096 4097 4098 
+		4099 4101 4105 4109
+		#Angola (19)
+		798 1167 1168 1170 1171 1172 2948 2949 4080 4082 
+		4083 4084 4091 4092 4093 4094 4095 4107 4108
+		#Zambia (19)
+		1184 1185 1188 1189 1190 1650 2950 4040 4044 4045 
+		4046 4047 4050 4077 4100 4102 4103 4104 4106
+		#Kaoma area
+		4881 4882 4879 4880
+	}
+	names = {
+		name = "COLONIAL_CENTRAL_AFRICA_Root_GetAdjective_North_Africa"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+
+# South Africa (42)
+colonial_South_Africa = {
+	color = { 25 25 125 }
+
+	provinces = {
+		#NCR
+		789 833 1174 1175 1176 1177 1178 1179 1180 1181
+		2856 2864 2880
+		#LAtE
+		4727 4726 4728 4730 4729 4731 4859 4858 4874 4872 
+		4878 4877 4860 4870 4869 4871 4876 4866 4875 4873
+		4865 4863 4864 4867 4868 4733 4862 4861 4732
+	}
+
+	names = {
+		name = "COLONIAL_SOUTH_AFRICA_Root_GetAdjective_South_Africa"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+
+# Colonial East Africa (75)
+colonial_east_africa = { 
+	color = { 200 200 100 }
+	provinces = {
+		#Kenya (16)
+		1202 1203 1204 1273 1925 4051 4052 4053 4054 4060 
+		4062 4064 4065 4066 4074 4075
+		#Tanzania (23)
+		1196 1197 1198 1199 1200 1201 4041 4042 4043 4055 
+		4056 4057 4058 4059 4061 4063 4067 4069 4070 4071 
+		4072 4073 4076
+		#Mozambique (19)
+		788 1182 1183 1186 1187 1191 1192 1195 1800 2951 
+		2952 4034 4035 4036 4037 4038 4039 4048 4049
+		#Madagascar (17)
+		1102 1103 1193 1194 1792 4021 4022 4023 4024 4025 
+		4026 4027 4028 4029 4030 4031 4032
+		#Islands
+		4020 1100
+	}
+	names = {
+		name = "COLONIAL_EAST_AFRICA_Root_GetAdjective_North_Africa"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+#Horn of Africa (74)
+colonial_horn_of_africa = {
+	color = { 50 0 100 }
+	provinces = {
+		#Sudan (15)
+		1216 1217 1220 1221 1222 1225 1226 1228 1229 1232
+		2797 2798 2799 2800 4033
+		#Ethiopia (34)
+		1207 1208 1210 1211 1213 1214 1215 1218 1223 1224 
+		1227 1230 2756 2757 2758 2759 2760 2761 2762 2763 
+		2764 2765 2766 2767 2768 2773 2769 2770 2771 2772 
+		2778 2779 2787 2791
+		#Somalia (24)
+		1205 1206 1209 1212 2024 2774 2775 2776 2777 2780 
+		2781 2782 2783 2784 2785 2786 2788 2789 2790 2792 
+		2793 2794 2795 2796
+		#Central Sahara
+		2932 774 1219 2801 2802 
+	}
+	names = {
+		name = "COLONIAL_HORN_OF_AFRICA_Root_GetAdjective_North_Africa"
 	}
 	names = {
 		name = "COLONIAL_REGION_New_Root_GetName"
