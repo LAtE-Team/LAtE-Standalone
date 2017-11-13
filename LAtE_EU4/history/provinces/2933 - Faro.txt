@@ -1,7 +1,8 @@
 # - Barcelos
 
 culture = carib
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Barcelos"
 trade_goods = unknown
@@ -19,7 +20,16 @@ native_hostileness = 6
 	#controller = POR
 	#discovered_by = POR
 	#add_core= POR
-	culture = brazilian
+	culture = amazonico
 	religion = candomble
 	trade_goods = cocoa
 #}
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+

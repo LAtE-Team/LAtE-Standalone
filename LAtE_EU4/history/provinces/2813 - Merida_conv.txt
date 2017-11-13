@@ -74,7 +74,6 @@ discovered_by = X17
 	remove_core = OGN
 	remove_core = RIO
 	remove_core = SUR
-	remove_core = TCR
 	remove_core = VRC
 	remove_core = WIS
 	remove_core = CAN
@@ -710,6 +709,9 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = TCR #Gocho primary
+
 3053.1.1 = {
 	owner = VNZ
 	controller = VNZ

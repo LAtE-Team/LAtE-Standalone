@@ -1,9 +1,9 @@
-owner = BRZ
-controller = BRZ
-add_core = BRZ
+owner = SLT
+controller = SLT
+add_core = SLT
 3053.1.1 = {
-	owner = BRZ
-	controller = BRZ
+	owner = SLT
+	controller = SLT
 }
 
 

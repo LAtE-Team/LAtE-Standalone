@@ -1,7 +1,8 @@
 # - Natividad
 
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Natividad"
 trade_goods = unknown
@@ -23,7 +24,21 @@ native_hostileness = 7
 	#controller = POR
 	#add_core= POR
 	is_city = no
-	culture = brazilian
+	culture = baiano 
+
 	religion = candomble
 	trade_goods = cocoa
 #} # Ranchers from São Paulo occupied the region in search of more productive land
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

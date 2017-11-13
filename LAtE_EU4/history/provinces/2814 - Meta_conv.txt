@@ -67,7 +67,6 @@ discovered_by = X17
 	remove_core = DLW
 	remove_core = FLD
 	remove_core = GYN
-	remove_core = LLL
 	remove_core = MTC
 	remove_core = NMX
 	remove_core = OGN
@@ -710,9 +709,14 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+
+add_core = LLL #Llanero primary
+
 3053.1.1 = {
-	owner = X63
-	controller = X63
+	add_core = BRZ
+	owner = BRZ
+	controller = BRZ
 	culture = llanero
 	religion = espiritista
 }

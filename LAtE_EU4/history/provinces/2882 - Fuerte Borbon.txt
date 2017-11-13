@@ -7,7 +7,8 @@ culture = litoraleno
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 religion = candomble
@@ -22,3 +23,15 @@ native_size = 50
 native_ferocity = 1
 native_hostileness = 7
 
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

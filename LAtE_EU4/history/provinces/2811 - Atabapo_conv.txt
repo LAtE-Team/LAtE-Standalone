@@ -710,9 +710,13 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = BOV #Bolivariano Primary
+
 3053.1.1 = {
-	owner = BOV
-	controller = BOV
+	add_core = BRZ
+	owner = BRZ
+	controller = BRZ
 	culture = bolivariano
 	religion = espiritista
 }

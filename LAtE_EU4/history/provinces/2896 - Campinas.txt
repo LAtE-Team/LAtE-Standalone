@@ -1,14 +1,15 @@
 # - Campinas
 
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Campinas"
 trade_goods = unknown
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3
 native_size = 10
 native_ferocity = 1
 native_hostileness = 1
@@ -19,8 +20,21 @@ native_hostileness = 1
 	#add_core= POR
 	is_city = no
 	religion = candomble
-	culture = brazilian
+	culture = paulistano
+add_core = PAU
 	trade_goods = sugar
 #}
 # = { unrest = 4 } # New law which precluded the farmers from utilizing natives as slaves
 # = { unrest = 0 } # The Jesuits are expulsed from the region
+owner = PAU
+controller = PAU
+add_core = PAU
+3053.1.1 = {
+	owner = PAU
+	controller = PAU
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

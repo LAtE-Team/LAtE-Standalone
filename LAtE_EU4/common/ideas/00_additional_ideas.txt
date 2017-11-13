@@ -288,6 +288,45 @@ CLM_ideas = {	#Republic of Colima ideas
 	free = yes
 }
 
+
+CHL_ideas = {	#Chilean Ideas. From Extended Timline.
+	start = {
+		global_tax_modifier = 0.1
+	}
+
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	trigger = {
+		tag = CHL
+	}
+	free = yes		# will be added at load
+
+	nationalistic_traditions = {
+		enemy_core_creation = 0.5
+	}
+	cordillera_de_los_andes = {
+		hostile_attrition = 1
+	}
+	ancient_populations = {
+		technology_cost = -0.1
+	}
+	corralero_breed = {
+		cavalry_cost = -0.1
+	}
+	stability_chile = {
+		stability_cost_modifier = -0.1
+	}
+	copper_mining_chile = {
+		global_tax_modifier = 0.1
+	}
+	maritime_hegemony = {
+		naval_forcelimit_modifier = 0.25
+	}
+}
+
+
 ### Dynasty Idea(s) ###
 mousy_ideas = {
     start = {
@@ -720,4 +759,44 @@ pirate_ideas = {
 		sunk_ship_morale_hit_recieved = -0.2
 		prestige_from_naval = 0.20
     }
+}
+LAP_ideas = {		#Argentine Ideas. From Extended Timline.
+	start = {
+		global_unrest = -1
+	}
+
+	bonus = {
+		land_morale = 0.20
+	}
+
+	trigger = {
+		OR = {
+			tag = ARG
+			culture_group = argentine
+		}
+	}
+	free = yes		# will be added at load
+
+	revolutionary_spirit = {
+		republican_tradition = 0.5
+		legitimacy = 0.5
+	}
+	fertile_pampas = {
+		global_tax_modifier = 0.1
+	}
+	rio_de_la_plata = {
+		global_trade_power = 0.2
+	}
+	patagonian_pecuary = {
+		land_forcelimit_modifier = 0.20
+	}
+	criollo_horses = {
+		cavalry_power = 0.10
+	}
+	silver_reserves = {
+		diplomatic_reputation = 3
+	}
+	argentinian_cultural_heritage = {
+		prestige = 1
+	}
 }

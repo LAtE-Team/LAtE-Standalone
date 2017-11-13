@@ -1,0 +1,44 @@
+jungle_horde = {
+	monarchy = yes
+
+	unique_government = yes
+
+	color = { 210 195 35 }
+	
+	tribal = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0	
+	nation_designer_trigger = {
+		technology_group = brazilian
+	}
+	ai_will_do = {
+		factor = 0
+	}
+
+	rank = {
+		1 = {
+			global_manpower_modifier = 0.1
+			land_forcelimit_modifier = 0.2
+			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			technology_cost = 0.5
+		}
+		2 = {
+			global_manpower_modifier = 0.2
+			land_forcelimit_modifier = 0.4
+			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			technology_cost = 0.5
+		}
+		3 = {
+			global_manpower_modifier = 0.3
+			land_forcelimit_modifier = 0.5
+			global_institution_spread = -0.15
+			reinforce_cost_modifier = -0.5
+			technology_cost = 0.5
+		}
+	}
+}

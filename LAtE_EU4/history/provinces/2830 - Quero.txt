@@ -15,7 +15,8 @@ is_city = no
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 

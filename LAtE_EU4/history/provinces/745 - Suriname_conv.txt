@@ -709,6 +709,9 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = SUR #Sranan Primary
+
 3053.1.1 = {
 	owner = BRZ
 	controller = BRZ

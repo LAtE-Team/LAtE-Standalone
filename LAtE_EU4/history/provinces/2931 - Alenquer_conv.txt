@@ -65,13 +65,13 @@ discovered_by = X17
 	remove_core = CAY
 	remove_core = DLW
 	remove_core = FLD
-	remove_core = GYN
+	
 	remove_core = LLL
 	remove_core = MTC
 	remove_core = NMX
 	remove_core = OGN
 	remove_core = RIO
-	remove_core = SUR
+	
 	remove_core = TCR
 	remove_core = VRC
 	remove_core = WIS
@@ -709,7 +709,11 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = GYN #Guyanese Primary
+
 3053.1.1 = {
+	add_core = BRZ
 	owner = BRZ
 	controller = BRZ
 	culture = guyanese

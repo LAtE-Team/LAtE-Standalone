@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 owner = BRZ
 controller = BRZ
 add_core = BRZ
-culture = rochela
+culture = muisca
 religion = cult_of_saints
 citysize = 2000
 add_permanent_claim = W07
@@ -713,6 +713,6 @@ discovered_by = X17
 3053.1.1 = {
 	owner = BRZ
 	controller = BRZ
-	culture = rochela
+	culture = muisca
 	religion = cult_of_saints
 }

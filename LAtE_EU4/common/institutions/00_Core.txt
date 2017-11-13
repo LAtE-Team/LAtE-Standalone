@@ -27,6 +27,7 @@ feudalism = {
 				government = tribal_despotism
 				government = tribal_federation
 				government = tribal_democracy
+				government = jungle_horde
 
 				#technology_group = andean
 				#technology_group = mesoamerican

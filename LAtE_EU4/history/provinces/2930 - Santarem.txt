@@ -1,7 +1,8 @@
 # - Santarem
 
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Santarem"
 trade_goods = unknown
@@ -18,8 +19,18 @@ native_hostileness = 6
 	#owner = POR
 	#controller = POR
 	#add_core= POR
-	culture = brazilian
+	culture = amazonico
 	religion = candomble
 	trade_goods = tropical_wood
 	is_city = no 
 #}
+
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+

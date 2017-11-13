@@ -18,5 +18,6 @@ discovered_by = western
 discovered_by = eastern 
 discovered_by = muslim 
 discovered_by = ottoman
-discovered_by =  south_american
+discovered_by = south_american
+discovered_by = brazilian
 discovered_by = MCA

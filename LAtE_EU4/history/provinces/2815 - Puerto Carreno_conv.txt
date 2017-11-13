@@ -711,8 +711,10 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X63
-	controller = X63
+	add_core = LLL #Llanero primary
+	add_core = BRZ
+	owner = BRZ
+	controller = BRZ
 	culture = llanero
 	religion = voodoo
 }

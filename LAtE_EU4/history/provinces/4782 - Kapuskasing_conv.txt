@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 owner = X67
 controller = X67
 add_core = X67
-culture = quebecois
+culture = anishinabe
 religion = ursuline
 citysize = 2000
 discovered_by = eastern
@@ -713,6 +713,6 @@ discovered_by = X17
 3053.1.1 = {
 	owner = X67
 	controller = X67
-	culture = quebecois
+	culture = anishinabe
 	religion = ursuline
 }

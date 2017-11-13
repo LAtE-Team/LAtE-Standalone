@@ -1,0 +1,7 @@
+# Los Llanos
+government = feudal_monarchy
+government_rank = 1
+technology_group = ottoman
+primary_culture = llanero
+religion = espiritista
+capital = 2812

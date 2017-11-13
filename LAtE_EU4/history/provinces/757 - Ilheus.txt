@@ -3,16 +3,30 @@
 #owner = TPQ
 #controller = TPQ
 #add_core= TPQ
-culture = brazilian
-discovered_by = south_american
+culture = baiano 
+add_core = BIA
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "Ilheus"
 is_city = no
 trade_goods = cocoa
 hre = no
-base_tax = 2
-base_production = 4
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3
 native_size = 10
 native_ferocity = 1
 native_hostileness = 2
+owner = BIA
+controller = BIA
+add_core = BIA
+3053.1.1 = {
+	owner = BIA
+	controller = BIA
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -7,7 +7,8 @@ is_city = yes
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 culture = aimara

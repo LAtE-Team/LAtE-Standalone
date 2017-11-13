@@ -6,7 +6,8 @@ culture = quiteno
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 religion = cult_of_saints

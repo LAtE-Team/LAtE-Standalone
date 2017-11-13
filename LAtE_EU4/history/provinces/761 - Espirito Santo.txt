@@ -4,15 +4,16 @@
 #controller = TUA
 #add_core= TUA
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Espirito Santo"
 trade_goods = cocoa
 is_city = no
 hre = no
-base_tax = 2
-base_production = 3
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 2
 native_size = 10
 native_ferocity = 1
 native_hostileness = 3
@@ -23,7 +24,20 @@ native_hostileness = 3
 	#owner = POR
 	#controller = POR
 	#add_core= POR
-	culture = brazilian
+	culture = mineiro
+add_core = RDJ
 	religion = candomble
 #} # Founded by Vasco Fernandes Coutinho
 # = { capital = "Vitória" }
+owner = RDJ
+controller = RDJ
+add_core = RDJ
+3053.1.1 = {
+	owner = RDJ
+	controller = RDJ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

@@ -5,3 +5,15 @@ technology_group = south_american
 primary_culture = cordoban
 religion = rust_cultist
 capital = 2846
+
+3053.1.1 {
+	capital = 2846
+	monarch = {
+		name = "Luis"
+		birth_date = 2995.3.04
+		dynasty = "José Galán"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

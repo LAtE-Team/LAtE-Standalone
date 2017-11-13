@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = south_american
+primary_culture = paribas
+religion = candomble
+clear_scripted_personalities = yes
+capital = 755
+3053.1.1 {
+	capital = 755
+	monarch = {
+		name = "Alfonso"
+		birth_date = 3012.4.2
+		dynasty = "Peixoto"	
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

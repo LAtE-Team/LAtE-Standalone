@@ -1,6 +1,6 @@
 # Vespugia
 graphical_culture = westerngfx
-color = { 175 0 1 }
+color = { 196 80 180 }
 
 army_names = {
 	"Army of $PROVINCE$"

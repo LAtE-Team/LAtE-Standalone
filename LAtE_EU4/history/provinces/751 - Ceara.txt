@@ -4,15 +4,16 @@
 #controller = PTG
 #add_core= PTG
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Ceara"
 is_city = no
 trade_goods = sugar
 hre = no
-base_tax = 2
-base_production = 3
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3
 native_size = 15
 native_ferocity = 1
 native_hostileness = 3
@@ -29,9 +30,24 @@ native_hostileness = 3
 	#controller = POR
 	#add_core= POR
 	capital = "São Tiago"
-	culture = brazilian
+	culture = paribas
+
+add_core = PRB
 	religion = candomble
 #}
 # = { capital = "Fortaleza" }
 # = { unrest = 6 } # Natives led by Mandu Ladino rebelled against the brazilian expansion
 # = { unrest = 0 } # The rebellion is subdued
+
+owner = PRB
+controller = PRB
+add_core = PRB
+3053.1.1 = {
+	owner = PRB
+	controller = PRB
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

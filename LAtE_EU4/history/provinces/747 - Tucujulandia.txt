@@ -1,7 +1,8 @@
 #747 - Tucujulandia
 
-culture = brazilian
-discovered_by = south_american
+culture = amazonico
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "Amapa"
 trade_goods = fish
@@ -13,3 +14,15 @@ native_size = 15
 native_ferocity = 1
 native_hostileness = 2
 
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

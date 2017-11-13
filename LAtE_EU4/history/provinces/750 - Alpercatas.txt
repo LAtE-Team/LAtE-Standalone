@@ -1,14 +1,15 @@
 #750 - Crato
 
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Crato"
 trade_goods = unknown
 hre = no
-base_tax = 1
-base_production = 2
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 2
 native_size = 10
 native_ferocity = 1
 native_hostileness = 6
@@ -23,7 +24,22 @@ native_hostileness = 6
 	#controller = POR
 	#add_core= POR
 	trade_goods = tobacco
-	culture = brazilian
+	culture = paribas
+
+add_core = PRB
 	religion = candomble
 	is_city = no
 #}
+
+owner = PRB
+controller = PRB
+add_core = PRB
+3053.1.1 = {
+	owner = PRB
+	controller = PRB
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

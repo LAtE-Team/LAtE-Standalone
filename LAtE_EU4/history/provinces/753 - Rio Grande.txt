@@ -1,45 +1,34 @@
 #753 - Rio Grande
 
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian 
+discovered_by = brazilian
 religion = animism
 capital = "Rio Grande"
 trade_goods = unknown
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 1
+base_tax = 7
+base_production = 7
+base_manpower = 4
 native_size = 15
 native_ferocity = 1
 native_hostileness = 2
+	
+culture = paribas
+add_core = PRB
 
-# = { discovered_by = CAS } # Coastal stretch visited by Alonso de Ojeda
-# = { discovered_by = POR } #Pedro Álvares Cabral
-# = {
-	#owner = POR
-	#controller = POR
-	#add_core= POR
-	culture = brazilian
-	religion = candomble
-	trade_goods = tropical_wood
-#}
-# = { unrest = 3 } # Expulsion of the buccaneers that had taken over the territory
-# = {
-	unrest = 0
-	is_city = no
-#} # Construction of Forte dos Santos Reis
-# = { capital = "Natal" }
-# = {	#owner = NED
-	#controller = NED
-	#add_core= NED
-	culture = dutch
-	religion = reformed
-#} # The battleground between the Dutch & the brazilian, under Dutch rule
-# = { unrest = 7 } # Religious confrontations between the brazilian-Brazilian and the Dutch Calvinists
-# = { unrest = 0 } # The dutch are chased out
-# = {
-	#owner = POR
-	#controller = POR
-	remove_core = NED
-	culture = brazilian
-#} # The Netherlands formally ceded their Brazilian territories
+
+owner = PRB
+controller = PRB
+add_core = PRB
+
+3053.1.1 = {
+	owner = PRB
+	controller = PRB
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

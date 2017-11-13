@@ -1,7 +1,8 @@
 # - Para
 
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Portel"
 trade_goods = unknown
@@ -24,9 +25,21 @@ native_hostileness = 3
 	#controller = POR
 	#add_core= POR
 	is_city = no
-	culture = brazilian
+	culture = amazonico
 	religion = candomble
 	capital = "Cameta"
 	trade_goods = sugar
 #}
 # = { capital = "Portel" }
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

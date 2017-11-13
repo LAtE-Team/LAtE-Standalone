@@ -1,9 +1,9 @@
 # Brazilian Empire
-government = feudal_monarchy
-government_rank = 3
+government = jungle_horde
+government_rank = 2
 mercantilism = 0.1
-technology_group = south_american
-primary_culture = brazilian
+technology_group = brazilian
+primary_culture = amazonico
 religion = candomble
 clear_scripted_personalities = yes
 capital = 763
@@ -14,7 +14,7 @@ capital = 763
 	monarch = {
 		name = "Miguel"
 		birth_date = 3022.4.2
-		dynasty = "de Santa Ria"
+		dynasty = "de Santa Ria"	
 		adm = 3
 		dip = 3
 		mil = 6

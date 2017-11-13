@@ -1,6 +1,6 @@
 # = { discovered_by = SPA }
-
-
+discovered_by = south_american
+discovered_by = brazilian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3

@@ -62,6 +62,16 @@ CDB = countries/Cordoba.txt
 ECU = countries/Ecuador.txt
 MES = countries/Mesopotamia.txt
 VES = countries/Vespugia.txt
+PRB = countries/Paraiba.txt
+BIA = countries/Bahia.txt
+MIG = countries/MinasGerais.txt
+RDJ = countries/Rio.txt
+PAU = countries/Paulo.txt
+AGR = countries/Alegre.txt
+URU = countries/Uruguay.txt
+SLT = countries/Salta.txt
+PGO = countries/Patagonia.txt
+ARG = countries/Argentina.txt
 
 # Europe
 BIZ = countries/Bizonia.txt

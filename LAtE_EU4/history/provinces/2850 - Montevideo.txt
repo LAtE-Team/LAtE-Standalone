@@ -1,18 +1,19 @@
 # - Montevideo
 
-owner = BRZ
-controller = BRZ
-add_core= BRZ
+owner = URU
+controller = URU
+add_core= URU
 is_city = yes
 culture = litoraleno
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "Montevideo"
 trade_goods = grain
 hre = no
-base_tax = 2 
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 5
 native_size = 5
 native_ferocity = 1
 native_hostileness = 5	

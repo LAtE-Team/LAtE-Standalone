@@ -4,3 +4,5 @@ discovered_by = GBR
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
+discovered_by = south_american
+discovered_by = brazilian

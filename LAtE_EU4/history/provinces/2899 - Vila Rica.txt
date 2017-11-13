@@ -1,14 +1,15 @@
 # - Vila Rica
 
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Vila Rica"
 trade_goods = unknown
 hre = no
-base_tax = 2 
-base_production = 3
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 2
 native_size = 10
 native_ferocity = 1
 native_hostileness = 7
@@ -25,10 +26,23 @@ native_hostileness = 7
 	#add_core= POR
 	is_city = no
 	religion = candomble
-	culture = brazilian
+	culture = mineiro
+add_core = MIG
 	trade_goods = gold
 #}
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # War between the brazilian & the Paulista bandeirantes
 # = { revolt = {} #controller = POR } # The Paulistas were defeated
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # War of Emboabas
 # = { revolt = {} #controller = POR } # Joaquim José da Silva Xavier is captured
+owner = MIG
+controller = MIG
+add_core = MIG
+3053.1.1 = {
+	owner = MIG
+	controller = MIG
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

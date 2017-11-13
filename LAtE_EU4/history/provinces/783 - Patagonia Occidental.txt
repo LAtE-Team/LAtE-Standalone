@@ -1,5 +1,9 @@
 #783 - Alacaluf
-
+add_core = PGO
+controller = PGO
+owner = PGO
+discovered_by = south_american
+discovered_by = brazilian
 culture = platinean
 religion = animism
 capital = "Alacaluf"

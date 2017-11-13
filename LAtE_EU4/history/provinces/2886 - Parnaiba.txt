@@ -1,7 +1,8 @@
 # - Parnaiba
 
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Parnaiba"
 trade_goods = unknown
@@ -25,9 +26,24 @@ native_hostileness = 3
 	#controller = POR
 	#add_core= POR
 	trade_goods = fish
-	culture = brazilian
+	culture = paribas
+
+add_core = PRB
 	religion = candomble
 	is_city = no
 #}
 # = { unrest = 6 } # Natives led by Mandu Ladino rebelled against the brazilian expansion
 # = { unrest = 0 } # The rebellion is subdued
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

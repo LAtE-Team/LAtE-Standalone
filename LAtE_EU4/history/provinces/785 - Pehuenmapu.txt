@@ -1,7 +1,10 @@
 #785 - Pehuenmapu
-
+add_core = PGO
+controller = PGO
+owner = PGO
 culture = platinean
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Pehuenmapu"
 trade_goods = unknown

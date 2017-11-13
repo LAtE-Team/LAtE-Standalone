@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = south_american
+religion = candomble
+primary_culture = mineiro
+capital = 765
+
+3053.1.1 {
+	capital = 765
+	monarch = {
+		name = "Alfonso"
+		birth_date = 3004.9.20
+		dynasty = "Veiga"	
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+

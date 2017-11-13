@@ -73,7 +73,6 @@ discovered_by = X17
 	remove_core = NMX
 	remove_core = OGN
 	remove_core = RIO
-	remove_core = SUR
 	remove_core = TCR
 	remove_core = VRC
 	remove_core = WIS
@@ -711,9 +710,13 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = SUR #Sranan Primary
+
 3053.1.1 = {
-	owner = X61
-	controller = X61
+	add_core = BRZ
+	owner = BRZ
+	controller = BRZ
 	culture = sranan
 	religion = espiritista
 }

@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = south_american
+religion = candomble
+primary_culture = carioca
+capital = 763
+
+3053.1.1 {
+	capital = 763
+	monarch = {
+		name = "Sancho"
+		birth_date = 3098.2.23
+		dynasty = "de Abrantes"	
+		adm = 5
+		dip = 2
+		mil = 2
+	}
+}

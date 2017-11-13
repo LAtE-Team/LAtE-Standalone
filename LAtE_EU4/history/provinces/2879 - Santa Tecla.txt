@@ -1,14 +1,27 @@
 # - Santa Tecla
 
-culture = brazilian
-discovered_by = south_american
+culture = guacho
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "Santa Tecla"
 trade_goods = tobacco
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3
 native_size = 10
 native_ferocity = 1
 native_hostileness = 5
+owner = AGR
+controller = AGR
+add_core = AGR
+3053.1.1 = {
+	owner = AGR
+	controller = AGR
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

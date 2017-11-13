@@ -1,14 +1,15 @@
 # - Tucurui
 
 culture = tupinamba
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Tucurui"
 trade_goods = unknown
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 2
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
@@ -24,7 +25,20 @@ native_hostileness = 3
 	#controller = POR
 	#add_core= POR
 	is_city = no
-	culture = brazilian
+	culture = amazonico
 	religion = candomble
 	trade_goods = cocoa
 #}
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

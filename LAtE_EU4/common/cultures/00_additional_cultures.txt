@@ -1,3 +1,63 @@
+
+
+brazilian_culture_group = {
+	amazonico = {	#AtE Brazillian culture
+		primary = BRZ
+		dynasty_names = { "Leão" "de Anna Regina" "de New Amsterdam" "de Changement" "de Groningen" "de Urañon" "de Guasdualito" "de Cayenne" "Dutra" "de Puerto Carreño" "de El Aceitico" "Assunção" "de Cravo Norte" "Neves" "Saraiva" "de Usaquén" "de La Calera" "de Girardot" "de La Dorada" "de Ibagué" "de Tucupita" "de Alvarado" "de Santa Rita" "de El Pino" "de Brokopondo" "Assunção" "de Neiva" "de Trujillo" "de La Pica" "de Curiapo" }
+	}
+	roraimense = {
+
+	}
+	
+	paribas = {
+		primary = PRB		
+	}
+	
+	baiano = {
+		primary = BIA
+	}
+	
+	mineiro = {
+		primary = MIG
+	}
+	
+	carioca = {
+		primary = RDJ
+	}
+	
+	paulistano = {
+		primary = PAU
+	}
+	
+	
+	#Portugese Stuff from vanilla
+	dynasty_names = {
+		"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Lencastre" "de Melo" 
+		"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
+		#CK2
+		"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
+	}
+	male_names = {
+		João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis 
+		Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
+		Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
+		Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
+		Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
+		Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
+		Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
+		Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
+		Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
+		Vincent Pons
+	}
+	female_names = {
+		Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
+		Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
+		Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
+		Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+	}
+
+}
+
 colombiano = {
 	quiteno = {
 		primary = ECU
@@ -61,6 +121,10 @@ argentine = {
 	}
 	cordoban = {
 		primary = CDB
+	}
+	
+	guacho = {
+		primary = AGR
 	}
 }
 boer = {

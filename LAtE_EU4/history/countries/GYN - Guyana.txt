@@ -1,0 +1,8 @@
+# Guyana
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = guyanese
+religion = espiritista
+capital = 743

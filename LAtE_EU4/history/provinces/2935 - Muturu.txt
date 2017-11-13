@@ -1,7 +1,8 @@
 # - Muturu
 
-culture = brazilian
-discovered_by = south_american
+culture = amazonico
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "Muturu"
 trade_goods = cocoa
@@ -12,3 +13,12 @@ base_manpower = 1
 native_size = 15
 native_ferocity = 2
 native_hostileness = 6
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+

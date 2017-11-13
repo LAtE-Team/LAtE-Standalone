@@ -1,7 +1,8 @@
 # - Araquara
 
 culture = ge
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 religion = animism
 capital = "Araquara"
 trade_goods = unknown
@@ -23,7 +24,20 @@ native_hostileness = 7
 	#controller = POR
 	#add_core= POR
 	religion = candomble
-	culture = brazilian
+	culture = paulistano
+add_core = PAU
 	trade_goods = wool
 #}
 # = { is_city = no }
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

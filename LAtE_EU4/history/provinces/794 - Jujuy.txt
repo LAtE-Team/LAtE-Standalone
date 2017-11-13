@@ -1,13 +1,14 @@
 #794 - Jujuy
 
-owner = BRZ
-controller = BRZ
-add_core= BRZ
+owner = SLT
+controller = SLT
+add_core= SLT
 culture = platinean
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 religion = inti
@@ -21,3 +22,13 @@ native_hostileness = 2
 base_tax = 3 
 base_production = 3
 base_manpower = 1
+
+owner = SLT
+controller = SLT
+add_core = SLT
+3053.1.1 = {
+	owner = SLT
+	controller = SLT
+}
+
+

@@ -1,14 +1,15 @@
 # - Santa Catalina
 
-owner = BRZ
-controller = BRZ
-add_core= BRZ
+owner = SLT
+controller = SLT
+add_core= SLT
 is_city = yes
 culture = platinean
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 religion = inti

@@ -15,7 +15,8 @@ base_manpower = 1
 
 
 
-discovered_by = south_american
+discovered_by = south_american 
+discovered_by = brazilian
 discovered_by = andean
 
 extra_cost = 10

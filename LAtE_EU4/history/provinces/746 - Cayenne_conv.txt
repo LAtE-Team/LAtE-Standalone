@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 owner = BRZ
 controller = BRZ
 add_core = BRZ
-culture = brazilian
+culture = cayennais
 religion = candomble
 citysize = 2000
 discovered_by = eastern
@@ -62,7 +62,7 @@ discovered_by = X17
 	remove_core = ANQ
 	remove_core = BLZ
 	remove_core = BOV
-	remove_core = CAY
+	
 	remove_core = DLW
 	remove_core = FLD
 	remove_core = GYN
@@ -709,9 +709,12 @@ discovered_by = X17
 	remove_core = JMN
 	remove_core = ROM
 }
+
+add_core = CAY #Cayenaiss Primary
+
 3053.1.1 = {
 	owner = BRZ
 	controller = BRZ
-	culture = brazilian
+	culture = cayennais
 	religion = candomble
 }

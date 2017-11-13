@@ -1,7 +1,8 @@
 #749 - Maranhao
 
-culture = brazilian
-discovered_by = south_american
+culture = paribas
+discovered_by = south_american 
+discovered_by = brazilian
 religion = candomble
 capital = "São Luis"
 trade_goods = tropical_wood
@@ -10,5 +11,19 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 native_size = 15
+native_ferocity = 1
+native_hostileness = 3
+add_core = PRB
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+3053.1.1 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+
+native_size = 5
 native_ferocity = 1
 native_hostileness = 3
