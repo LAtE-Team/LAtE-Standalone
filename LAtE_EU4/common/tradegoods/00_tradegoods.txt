@@ -126,6 +126,11 @@ wine = {
 			NOT = { area = nootka_area }
 			NOT = { area = columbia_river_area }
 			NOT = { area = interior_plateau_area }
+			
+			NOT = { region = france_region }
+			NOT = { region = italy_region }
+			NOT = { region = iberia_region }
+			
 		}
 		
 		modifier = {
@@ -145,6 +150,7 @@ wine = {
 			area = cuyo_area
 			region = france_region
 			region = italy_region
+			region = iberia_region
 		}
 		modifier = {
 			factor = 1.1
@@ -1157,6 +1163,7 @@ cotton = {
 			NOT = { region = niger_region }
 			NOT = { region = north_china_region }
 			NOT = { region = south_china_region }
+			NOT = { region = iberia_region }	
 		}
 		modifier = {
 			factor = 0
@@ -1187,6 +1194,7 @@ cotton = {
 				AND = {
 					continent = europe
 					NOT = { region = anatolia_region }
+					NOT = { region = iberia_region }	#Turns out you can grow cotton in Spain
 				}
 			}
 		}
@@ -1237,6 +1245,10 @@ sugar = {
 			NOT = { region = deccan_region }
 			NOT = { region = west_india_region }
 			NOT = { area = mascarenes_area }
+			
+			#LAtE Additions for Europe/North Africa
+			NOT = { region = maghreb_region }	#Islamic states grew sugar in North Africa and South Iberia from 700 to 1500
+			NOT = { region = iberia_region }
 		}
 		modifier = {
 			factor = 2.5
@@ -1281,6 +1293,9 @@ tobacco = {
 			NOT = { region = manchuria_region }
 			NOT = { region = balkan_region }
 			NOT = { region = anatolia_region }
+			NOT = { region = italy_region }
+			NOT = { region = iberia_region }
+			NOT = { region = france_region }
 		}
 		modifier = {
 			factor = 0
@@ -1311,6 +1326,8 @@ tobacco = {
 				region = manchuria_region
 				region = balkan_region 
 				region = anatolia_region
+				region = italy_region
+				region = france_region
 			}
 		}
 	}
