@@ -264,13 +264,14 @@ carpathia_region = {
 
 egypt_region = {
 	areas = {
-		libyan_desert_area
-		gharbia_area
-		sharqiya_area
-		central_egypt_area
-		upper_egypt_area
 		lower_nubia_area
 		cyrenaica_area
+		gulf_of_arabia_area
+		al_wahat_area
+		delta_area
+		bahari_area
+		vostani_area
+		said_area
 	}
 }
 
@@ -311,20 +312,21 @@ anatolia_region = {
 		hudavendigar_area
 		aydin_area
 		karaman_area
-		aleppo_area
 		rum_area
 		kastamonu_area
 		erzurum_area
 		north_kurdistan_area
 		dulkadir_area
-		eastern_mediterrenean_islands_area
-		
+		cukurova_area
+		ankara_area
+		aegean_archipelago_area
+		germiyan_area
 	}
 }
 
+
 persia_region = {
 	areas = {
-		south_kurdistan_area
 		luristan_area
 		farsistan_area
 		iraq_e_ajam_area
@@ -334,6 +336,9 @@ persia_region = {
 		kerman_area
 		persian_gulf_coast
 		tabriz_area
+		khuzestan_area
+		shahrizor_area
+		mogostan_area
 	}
 }
 
@@ -344,9 +349,11 @@ khorasan_region = {
 		kabulistan_area
 		ghor_area
 		sistan_area
-		khorasan_area
 		makran_area
 		kalat_area
+		birjand_area
+		herat_area
+		mashhad_area
 	}
 }
 
@@ -354,30 +361,36 @@ khorasan_region = {
 caucasia_region = {
 	areas = {
 		circassia_area
-		georgia_area
 		shirvan_area
 		armenia_area
 		dagestan_area
-		odishi_area
+		imereti_area
+		samtskhe_area
+		kartli_kakheti_area
 	}
 }
 
 arabia_region = {
 	areas = {
 		tabuk_area
-		hejaz_area
-		najd_area
+		medina_area
+		mecca_area
+		asir_area
+		tihama_al_yemen_area
+		upper_yemen_area
+		yemen_area
+		mahra_area
+		hadramut_area
 		bahrain_area
 		oman_area
 		pirate_coast_area
 		dhofar_area
-		hadramut_area
-		yemen_area
-		ad_dahna_area
-		sarat_area
+		mascat_area
+		qasim_area
+		yamamah_area
+		nafud_area
 	}
 }
-
 niger_region = {
 	areas = {
 		adamawa_plateau_area
@@ -514,6 +527,7 @@ central_asia_region = {
 		tarim_basin_area
 		shanshan_area
 		kyzylkum_area
+		termez_area
 	}
 }
 

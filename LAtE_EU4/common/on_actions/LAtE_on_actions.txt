@@ -1,0 +1,633 @@
+# country
+on_startup = {
+	events = {
+		#LatE
+		saints.100
+		late_trade.1
+		late_trade.2
+		#Vanilla
+		muslim_school_events.20 #Pick School
+	}
+	if = {
+		limit = {
+			has_dlc = "Cradle of Civilization"
+			has_country_modifier = tur_janissary
+		}
+		remove_country_modifier = tur_janissary
+	}
+	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
+}
+
+
+
+# country
+# root = loser country, from = winner country
+on_battle_lost_country = {
+	#Our Lady of Guadalupe
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_guadalupe }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_guadalupe
+			}
+		}
+		ROOT = { country_event = { id = saints.1 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_guadalupe }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_guadalupe
+			}
+		}
+		FROM = { country_event = { id = saints.1 } }
+	}
+	#Santa Muerte
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_santa_muerte }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_santa_muerte
+			}
+		}
+		ROOT = { country_event = { id = saints.2 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_santa_muerte }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_santa_muerte
+			}
+		}
+		FROM = { country_event = { id = saints.2 } }
+	}
+	#El Santo
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_el_santo }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_el_santo
+			}
+		}
+		ROOT = { country_event = { id = saints.3 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = marian_el_santo }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = marian_el_santo
+			}
+		}
+		FROM = { country_event = { id = saints.3 } }
+	}
+	
+	#Immaculate Saints
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_inmaculado }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_inmaculado
+			}
+		}
+		ROOT = { country_event = { id = saints.4 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_inmaculado }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_inmaculado
+			}
+		}
+		FROM = { country_event = { id = saints.4 } }
+	}
+	
+	#El Libertador
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_libertador }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_libertador
+			}
+		}
+		ROOT = { country_event = { id = saints.5 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_libertador }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_libertador
+			}
+		}
+		FROM = { country_event = { id = saints.5 } }
+	}
+	
+	#El Dorado
+	if = {
+		limit = {
+			ROOT = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_dorado }
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_dorado
+			}
+		}
+		ROOT = { country_event = { id = saints.6 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				religion = cult_of_saints
+				NOT = { has_unlocked_cult = gracia_dorado }
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = gracia_dorado
+			}
+		}
+		FROM = { country_event = { id = saints.6 } }
+	}
+	
+	#Santo Nino
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = santo_nino }
+				religion = cult_of_saints
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = santo_nino
+			}
+		}
+		ROOT = { country_event = { id = saints.7 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = santo_nino }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = santo_nino
+			}
+		}
+		FROM = { country_event = { id = saints.7 } }
+	}
+	#Jose Rizal
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = jose_rizal }
+				religion = cult_of_saints
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = jose_rizal
+			}
+		}
+		ROOT = { country_event = { id = saints.8 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = jose_rizal }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = jose_rizal
+			}
+		}
+		FROM = { country_event = { id = saints.8 } }
+	}
+	#Maria Kannon
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = maria_kannon }
+				religion = cult_of_saints
+			}
+			FROM = {
+				religion = cult_of_saints
+				has_unlocked_cult = maria_kannon
+			}
+		}
+		ROOT = { country_event = { id = saints.9 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = maria_kannon }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				religion = cult_of_saints
+				has_unlocked_cult = maria_kannon
+			}
+		}
+		FROM = { country_event = { id = saints.9 } }
+	}
+	#Catholic
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = cos_catholic }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = catholic
+					has_unlocked_cult = cos_catholic
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.21 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = cos_catholic }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = cos_catholic
+					religion = catholic
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.21 } }
+	}
+	#Americanist
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = cos_washington }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = americanist
+					has_unlocked_cult = cos_washington
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.22 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = cos_washington }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = cos_washington
+					religion = americanist
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.22 } }
+	}
+	#Rastafari
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = haile_selassie }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = rastafarian
+					has_unlocked_cult = haile_selassie
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.23 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = haile_selassie }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = haile_selassie
+					religion = rastafarian
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.23 } }
+	}
+	#Santeria
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = marian_navigators }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = santeria
+					has_unlocked_cult = marian_navigators
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.24 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = marian_navigators }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = marian_navigators
+					religion = santeria
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.24 } }
+	}
+	#Cetic
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = los_angeles }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = cetic
+					has_unlocked_cult = los_angeles
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.25 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = los_angeles }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = los_angeles
+					religion = cetic
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.25 } }
+	}
+	#Gaian
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = madonna_of_the_trail }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = gaian
+					has_unlocked_cult = madonna_of_the_trail
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.26 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = madonna_of_the_trail }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = madonna_of_the_trail
+					religion = gaian
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.26 } }
+	}
+	#Mormon
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = archangel_moroni }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = mormon
+					has_unlocked_cult = archangel_moroni
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.27 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = archangel_moroni }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = archangel_moroni
+					religion = mormon
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.27 } }
+	}
+	#Rust Cult
+	if = {
+		limit = {
+			ROOT = {
+				NOT = { has_unlocked_cult = machine_saints }
+				religion = cult_of_saints
+			}
+			FROM = {
+				OR = {
+					religion = rust_cultist
+					has_unlocked_cult = machine_saints
+				}
+			}
+		}
+		ROOT = { country_event = { id = saints.28 } }
+	}
+	if = {
+		limit = {
+			FROM = {
+				NOT = { has_unlocked_cult = machine_saints }
+				religion = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					has_unlocked_cult = machine_saints
+					religion = rust_cultist
+				}
+			}
+		}
+		FROM = { country_event = { id = saints.28 } }
+	}
+	random_events = {
+		90 = 0
+		10 = friendship_events.1 #Historical Friendship Broken
+	}
+}
+
+
+
+# country
+on_harmonized_pagan = {
+	events = {
+		confucian_events.1
+	}
+}
+on_harmonized_christian = {
+	events = {
+		confucian_events.2
+	}
+}
+on_harmonized_muslim = {
+	events = {
+		confucian_events.3
+	}
+}
+on_harmonized_jewish_group = {
+	events = {
+		confucian_events.5
+	}
+}
+on_harmonized_zoroastrian_group = {
+	events = {
+		confucian_events.6
+	}
+}
+on_harmonized_dharmic = {
+	events = {
+		confucian_events.4
+	}
+}
+on_harmonized_mahayana = {
+	events = {
+		confucian_events.9
+	}
+}
+on_harmonized_buddhism = { #Theravada
+	events = {
+		confucian_events.8
+	}	
+}
+on_harmonized_shinto = {
+	events = {
+		confucian_events.7
+	}
+}
+on_harmonized_vajrayana = {
+	events = {
+		confucian_events.10
+	}
+}
+on_harmonized_cetic = {
+	events = {
+		confucian_events.101
+	}
+}
+on_harmonized_gaian = {
+	events = {
+		confucian_events.102
+	}
+}
+on_harmonized_oldworld = {
+	events = {
+		confucian_events.103
+	}
+}
+on_harmonized_latter_day_saints = {
+	events = {
+		confucian_events.104
+	}
+}
+on_harmonized_pirate = {
+	events = {
+		confucian_events.105
+	}
+}
+on_harmonized_afro_syncretic = {
+	events = {
+		confucian_events.106
+	}
+}
+on_harmonized_cult_of_saints = {
+	events = {
+		confucian_events.107
+	}
+}
+on_harmonized_mesoamerican = {
+	events = {
+		confucian_events.108
+	}
+}
+on_harmonized_american_native = {
+	events = {
+		confucian_events.109
+	}
+}
+
+
+# country. from = overlord
+on_accept_tribute = {
+}
+
+# country. from = overlord
+on_refuse_tribute = {
+}

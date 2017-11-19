@@ -60,7 +60,7 @@ estate_nobles =
 	
 	# Estate cancels out the following multiplicative local autonomy effects:
 	autonomy_does_not_affect = local_manpower_modifier
-	autonomy_does_not_affect = land_forcelimit
+	autonomy_does_not_affect = land_forcelimit_modifier
 
 	country_modifier_happy = {
 		manpower_recovery_speed = 0.2 

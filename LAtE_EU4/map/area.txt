@@ -978,189 +978,254 @@ alfold_area = { #4
 transdanubia_area = { #5
 	135 153 1864 4126 4240
 }
-
 ########################################
 # Caucasia 							   #
 ########################################
 
-odishi_area = { #4
-	462 1856 2196
+imereti_area = { #3
+	422 462 1856
 }
 
-georgia_area = { #3
-	420 422 423 2203
+samtskhe_area = { #3
+	2196 2204 4303
 }
 
-armenia_area = { #4
-	419 2202 2204 2205
+kartli_kakheti_area = { #3
+	423 2203 4301
 }
 
-north_kurdistan_area = { #3
-	418 2306 2307
+armenia_area = { #5
+	420 419 2202 2205 4302
 }
 
-shirvan_area = { #3 #Northern Azerbaijan
-	421 424 425
+shirvan_area = { #5 #Northern Azerbaijan
+	color = { 225 231 53 }
+	421 424 4299 4305 4340
 }
 
 circassia_area = { #4
 	463 2201 2195 2197
 }
 
-dagestan_area = { #3
-	2198 2199 2208 
+dagestan_area = { #5
+	425 2198 2199 2208 4306
 }
-
 
 ########################################
 # Anatolia, The Levant & Mesopotamia   #
 ########################################
 
-rum_area = { #4
-	329 1846 2300 2304
+rum_area = { #5
+	329 1846 2300 4314 4315
 }
 
 erzurum_area = { #3	Erzurum and Trebizond
 	330 331 2305
 }
 
-hudavendigar_area = { #5 (Anatolia Eyalet except for Kastamonu and the future Aydin eyalet)
-	316 317 322 326 2296
+hudavendigar_area = { #3
+	316 317 2296
+}
+
+germiyan_area = { #4
+	color = { 234 145 65 }
+	322 1848 4308 4311
 }
 
 aydin_area = { #5
-	318 319 2297 2298 2348
+	color = { 239 70 86 }
+	318 319 2297 2298 4309
 }
 
-kastamonu_area = { #3
-	325 328 2299
+ankara_area = { #3
+	color = { 57 154 172 }
+	326 4312 4313
 }
 
-karaman_area = { #3 
-	323 324 1848
+aegean_archipelago_area = { #4
+	164 320 2348 3003
+}
+
+kastamonu_area = { #4
+	325 328 2299 2304
+}
+
+karaman_area = { #4
+	323 324 2301 4307
+}
+
+cukurova_area = { #3
+	color = { 50 177 200 }
+	321 327 2302
 }
 
 aleppo_area = { #4
-	327 377 2302 2313
+	377 1849 2313 4298
 }
 
-syria_area = { #3
-	378 382 1855
+syria_area = { #4
+	378 382 1855 4297
 }
 
-palestine_area = { #4
-	364 379 380 381 1854
+trans_jordan_area = { #3
+	380 381 2327
 }
 
-dulkadir_area = { # 3 +Kayseri
-	332 2301 2303
+palestine_area = { #3
+	364 379 1854
 }
 
-eastern_mediterrenean_islands_area = { #3
-	163 320 321 
+dulkadir_area = { # 4
+	color = { 184 54 72 }
+	332 2303 2308 4310
 }
 
-western_aegean_area = { #2 - Western part of the Archipelago Eyalet (except the Greek Mainland)
-	164 3003
+iraq_arabi_area = { #5 Lower Mesopotamia
+	406 409 410 2310 4291
 }
 
-rakka_area = { #4
-	405 407 1849 2314
+basra_area = { #4
+	408 2311 2312 4288
 }
 
-al_jazira_area = { #4
-	406 2308 2310 2309
+luristan_area = { #4
+	413 414 2209 2210
 }
 
-iraq_arabi_area = { #4 Lower Mesopotamia
-	409 410 2311 2312
+north_kurdistan_area = { #5
+	418 2306 2307 4295 4296
 }
 
-basra_area = { #3
-	408 412 2340
+khuzestan_area = { #5
+	412 2217 4289 4290 4342
 }
 
-south_kurdistan_area = { #3
-	411 415 2211
+shahrizor_area = {	#4
+	color = { 152 102 102 }
+	415 2211 4293 4294
 }
+
+al_jazira_area = { #5
+	color = { 92 200 92 }
+	407 411 2309 2314 4292
+}
+
 
 ########################################
 # Arabia				               #
 ########################################
 
-bahrain_area = { #4
-	394 395 396 2347 
+bahrain_area = { #5
+	394 395 396 2340 2347
 }
 
 pirate_coast_area = { #4
 	397 398 404 2333
 }
 
-najd_area = { #5
-	393 2332 2335 2336 2337 
+nafud_area = { #3
+	393 2338 4272
 }
 
-ad_dahna_area = { #3
-	392 2338 2339
+tabuk_area = { #4
+	383 2328 4268 4269
+}
+
+medina_area = { #3
+	color = { 225 158 92 }
+	384 2329 2330
+}
+
+mecca_area = { #5
+	385 2331 2332 4277 4278
+}
+
+asir_area = { #3
+	386 391 4282
+}
+
+tihama_al_yemen_area = { #3
+	387 2346 4279
+}
+
+upper_yemen_area = { #3
+	color = { 220 41 155 }
+	390 2344 4281
+}
+
+yemen_area = { #Lower Yemen #
+	388 2345 4280
+}
+
+hadramut_area = { #3
+	389 2343 4283
+}
+
+mahra_area = { #3
+	402 1099 4284
+}
+
+yamamah_area = { #4
+	2335 2336 2339 4275
+}
+
+qasim_area = { #4
+	392 2337 4273 4274
 }
 
 dhofar_area = { #3 (Dhofar + Masirah)
 	401 2341 2342
 }
 
-tabuk_area = { #3
-	383 2327 2328
+oman_area = { #3 (Oman Proper)
+	403 4285 4287  
 }
 
-hejaz_area = { #5
-	color = { 0 203 19 }
-	384 385 2330 2331 2329
+mascat_area = { #3 (Batinah and Muscat coast
+	399 400 4286
 }
 
-yemen_area = { #4
-	387 388 390 2344
-}
-
-sarat_area = { # 5 Sarat Asir+North Yemen Highlands
-	386 391 2345 2346
-}
-
-hadramut_area = { #4
-	389 402 1099 2343
-}
-
-oman_area = { #3
-	399 400 403
+syrian_desert_area = { #3
+	color = { 219 30 57 }
+	405 4270 4271
 }
 
 ########################################
 # North Africa					       #
 ########################################
 
-#lower_egypt:
-
-gharbia_area = { #3
-	358 362 2316
+gulf_of_arabia_area = { #5
+	color = { 19 219 75 }
+	365 2315 2320 2321
 }
 
-sharqiya_area = { #3
-	363 365 2315
+al_wahat_area = { #3
+	1233 2318 4323
 }
 
-central_egypt_area = { #5
-	359 361 2317 2319 2320
+delta_area = { #3
+	358 362 363
 }
 
-upper_egypt_area = { #3
-	360 1231 2321
+bahari_area = { #4 #Lower Egypt
+	color = { 19 193 219 }
+	361 2316 4316 4317 
+}
+
+vostani_area = { #3 #Middle Egypt
+	359 2317 4318
+}
+
+said_area = { #5 #Upper Egypt
+	360 1231 2319 4319 4320
 }
 
 tripolitania_area = { #3
 	354 2451 2452
 }
 
-cyrenaica_area = { #3
-	355 356 357
+cyrenaica_area = { #5
+	355 356 357 2325 2326 
 }
 
 fezzan_area = { #3
@@ -1173,10 +1238,6 @@ tunisia_area = { #4
 
 djerba_area = { #3
 	353 2453 2954
-}
-
-libyan_desert_area = { #4
-	1233 2318 2325 2326
 }
 
 algiers_area = { #5
@@ -1698,8 +1759,12 @@ kyzylkum_area = { #3
 	455 1970 2363
 }
 
-transoxiana_area = { #4
-	442 453 454 1968
+transoxiana_area = { #6
+	442 453 454
+}
+
+termez_area = { #3
+	1968 4344 4343
 }
 
 khiva_area = { #5
@@ -1707,6 +1772,7 @@ khiva_area = { #5
 }
 
 kabulistan_area = { #5
+	color = { 96 219 58 }
 	448 451 452 578 2226
 }
 
@@ -1714,56 +1780,66 @@ transcaspia_area = {
 	437 438 439 443 2349
 }
 
-khorasan_area = { #5
-	436 446 2221 2235 2236
+mashhad_area = { #4 - Northern Khorasan
+	2221 2235 2236 4326
+}
+
+herat_area = {	#3 - Eastern Khorasan
+	446 4324 4325 
+}
+
+birjand_area = { #3 - Western Khorasan
+	436 4334 4336 
 }
 
 ghor_area = { #3
+	color = { 191 176 53 }
 	447 449 2225
 }
 
 merv_area = { #3
+	color = { 60 186 134 }
 	444 445 2350
-}
-
-luristan_area = { #4
-	413 2209 2210 2217
 }
 
 balkh_area = { #3
 	450 2227 2228
 }
 
-kerman_area = { #3
-	432 2220 2234
+kerman_area = { #4
+	432 2220 2234 4345
 }
 
 persian_gulf_coast = { #4
-	430 431 2219 2999
+	430 2219 2223 4332 
 }
 
-farsistan_area = { #5
-	2218 2223 4171
+mogostan_area = { #3
+	431 2999 4327
 }
 
-iraq_e_ajam_area = { #4
-	427 428 2213 2216
+farsistan_area = { #4
+	2218 4329 4330 4331
 }
 
-azerbaijan_area = { #3 #Southern Azerbaijan
-	414 2212 2215
+iraq_e_ajam_area = { #5
+	427 428 2213 2216 4337
+}
+
+azerbaijan_area = { #5 #Southern Azerbaijan
+	2212 2215 4300 4338
 }
 
 isfahan_area = { #3
-	429 433 2222 
+	429 433 2222 4335 4171
 }
 
-tabriz_area = { #3 Central Azerbaijan
-	416 2206 2207
+tabriz_area = { #4 Central Azerbaijan
+	416 2206 2207 4304
 }
 
-tabarestan_area = { #3
-	417 426 2214
+tabarestan_area = { #5
+	417 426 2214 4339 4341
 }
 
 ########################################
@@ -3833,7 +3909,46 @@ st_lawrence_river_area = {
 	4607 4592 4608
 }
 
+#############################
 #Deprecated:
+#############################
+
+khorasan_area = {
+}
+
+libyan_desert_area = {
+	 
+}
+
+gharbia_area = {
+}
+
+sharqiya_area = {
+}
+
+central_egypt_area = {
+}
+
+upper_egypt_area = {
+}
+
+eastern_mediterrenean_islands_area = {
+}
+
+western_aegean_area = {
+}
+
+odishi_area = {
+}
+
+georgia_area = {
+}
+
+rakka_area = {
+}
+
+south_kurdistan_area = {
+}
 
 east_china_sea_islands_area = {
 
@@ -3860,5 +3975,21 @@ amnok_area = {
 }
 
 north_korea_area = {
+
+}
+
+hejaz_area = {
+
+}
+
+sarat_area = {
+	
+}
+
+ad_dahna_area = {
+
+}
+
+najd_area = {
 
 }
