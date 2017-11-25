@@ -352,7 +352,7 @@
  TRADE_COMPANY_POLYNESIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Polynesia Company"
  TRADE_COMPANY_JAPAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Japan Company"
  TRADE_COMPANY_AMAZON_Root_Culture_GetName:0 "[Root.Culture.GetName] Amazon Company"
- TRADE_COMPANY_SOUTH BRAZIL_Root_Culture_GetName:0 "[Root.Culture.GetName] South Brazil Company"
+ TRADE_COMPANY_SOUTH_BRAZIL_Root_Culture_GetName:0 "[Root.Culture.GetName] South Brazil Company"
  
  TRADE_COMPANY_BOLIVIA_South_America_Trade_Company:0 "Bolivia Trade Company"
  TRADE_COMPANY_PERU_South_America_Trade_Company:0 "Peru Trade Company"

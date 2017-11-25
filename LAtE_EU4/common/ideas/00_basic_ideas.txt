@@ -759,11 +759,11 @@ expansion_ideas = {
 			factor = 5
 			OR = {
 				region = canada_region
-				region = northeast_region
-				region = southeast_region
-                                region = cascadia_region
-                                region = california_region
-                                region = caribbean_region 
+				region = northeast_america_region
+				region = southeast_america_region
+                region = cascadia_region
+				region = california_region
+				region = carribeans_region 
 			}
 		}
 		modifier = {

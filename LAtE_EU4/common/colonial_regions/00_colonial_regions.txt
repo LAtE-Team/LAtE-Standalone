@@ -879,62 +879,57 @@
 	# }
 # }
 
-# # Colombia
-# colonial_colombia = {
-	# color = { 227 40 40 }
+# Colombia				#Bringing this back as a placeholder since something somewhere uses it as a trigger
+colonial_colombia = {
+	color = { 227 40 40 }
 
-	# # Random New World
-	# tax_income = 3
-	# native_size = 12
-	# native_ferocity = 1
-	# native_hostileness = 2
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
 	
-	# trade_goods = {
-		# fur = 3
-		# cocoa = 7
-		# gold = 3
-		# grain = 4
-		# naval_supplies = 1
-	# }
+	trade_goods = {
+		fur = 3
+		cocoa = 7
+		gold = 3
+		grain = 4
+		naval_supplies = 1
+	}
 
-	# culture = {
-		# guajiro = 15
-		# inca = 6
-	# }
+	culture = {
+		guajiro = 15
+		inca = 6
+	}
 	
-	# religion = {
-		# animism = 10
-	# }
+	religion = {
+		animism = 10
+	}
 	
-	# provinces = {
-		# 815 816 817 818 819 820 821 2820 #Quito
-		# 822 823 824 825 826 827 832 2812 2814 2815 2816 2817 2818 #New Granada
-		# 835 836 838 2660 2663 2664 2819 #Castilla del Oro
-		# 828 829 2806 #New Andalucia
-		# 741 742 830 831 834 2803 2805 2807 2808 2809 2810 2811 2813 2939 #Venezuela
-		# 2931 743 744 745 2937 2804 #Guyana
-	# }
+	provinces = {
+		
+	}
 
-	# # Specific
-	# names = {
-		# trigger = {
-			# OR = {
-				# tag = SPA
-				# tag = CAS
-				# tag = ARA
-			# }
-			# owns = 223 # Granada
-		# }
-		# name = "COLONIAL_COLOMBIA_New_Granada"
-	# }
-	# # Generic
-	# names = {
-		# name = "COLONIAL_COLOMBIA_Root_Culture_GetName_Colombia"
-	# }
-	# names = {
-		# name = "COLONIAL_REGION_New_Root_GetName"
-	# }
-# }
+	# Specific
+	names = {
+		trigger = {
+			OR = {
+				tag = SPA
+				tag = CAS
+				tag = ARA
+			}
+			owns = 223 # Granada
+		}
+		name = "COLONIAL_COLOMBIA_New_Granada"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_COLOMBIA_Root_Culture_GetName_Colombia"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
 
 # # Brazil
 # colonial_brazil = {
