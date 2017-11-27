@@ -1,0 +1,18 @@
+#2332 - Truba
+
+#owner = HED
+#controller = HED
+culture = hejazi_culture
+religion = sunni
+capital = "Truba"
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+#is_city = yes
+#add_core = HED
+discovered_by = high_american
+discovered_by = indian
+discovered_by = east_african
+

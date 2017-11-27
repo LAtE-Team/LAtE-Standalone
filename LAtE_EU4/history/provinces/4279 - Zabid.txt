@@ -1,0 +1,19 @@
+#4279 - Zabid & Hudaydah
+
+owner = YEM
+controller = YEM
+culture = yemeni_culture
+religion = sunni
+capital = "Zabid"
+trade_goods = coffee
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = YEM
+discovered_by = indian
+
+discovered_by = east_african
+
+

@@ -1,0 +1,17 @@
+#4338 - Soltanieh & Abhar
+
+#owner = TIM
+#controller = TIM
+culture = azerbaijani
+religion = shiite
+capital = "Soltanieh"
+trade_goods = wine #Grapes and Fruits
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+#is_city = yes
+#add_core = TIM
+#add_core = QOM
+discovered_by = indian
+

@@ -1,0 +1,4 @@
+
+discovered_by = indian
+discovered_by = east_african
+

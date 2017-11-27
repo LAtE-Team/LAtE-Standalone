@@ -1,0 +1,19 @@
+#4323 - Farafreh
+
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = al_misr_arabic
+religion = thelemic
+capital = "Farafreh"
+is_city = yes
+base_manpower = 1
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+discovered_by = high_american
+
+discovered_by = indian
+discovered_by = east_african
+

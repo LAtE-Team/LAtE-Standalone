@@ -17,6 +17,7 @@ capital = 993
 		mil = 3
 	}
 	add_ruler_personality = cruel_personality
+}
 3053.1.1 {
 	capital = 993
 	add_treasury = 51

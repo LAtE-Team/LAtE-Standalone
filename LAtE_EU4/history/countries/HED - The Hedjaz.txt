@@ -4,4 +4,5 @@ technology_group = indian
 religion = sunni
 primary_culture = bedouin_arabic
 capital = 385	# Jiddah
+religious_school = maliki_school
 

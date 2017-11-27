@@ -1,0 +1,18 @@
+#4289 - Shushtar
+
+owner = IRQ
+controller = IRQ
+culture = persian
+religion = shiite
+capital = "Shushtar"
+trade_goods = silk
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = IRQ
+discovered_by = east_african
+
+discovered_by = indian
+#fort_15th = yes #Shushtar, Dezful

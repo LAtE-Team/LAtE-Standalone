@@ -1,0 +1,16 @@
+#4335 - Kashan
+
+#owner = TIM
+#controller = TIM
+culture = persian
+religion = shiite
+capital = "Kashan"
+trade_goods = silk
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+#is_city = yes
+#add_core = ISF
+#add_core = TIM
+discovered_by = indian

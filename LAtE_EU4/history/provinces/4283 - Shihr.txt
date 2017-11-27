@@ -1,0 +1,18 @@
+#4283 - Shihr
+
+owner = ADE
+controller = ADE
+culture = yemeni_culture
+religion = sunni
+capital = "As Shihr"
+trade_goods = incense
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = ADE
+discovered_by = indian
+
+discovered_by = east_african
+

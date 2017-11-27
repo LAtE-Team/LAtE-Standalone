@@ -1,7 +1,7 @@
 # - Chiloe
 add_core = PGO
-controller = PGO
 owner = PGO
+controller = PGO
 culture = platinean
 discovered_by = south_american 
 discovered_by = brazilian

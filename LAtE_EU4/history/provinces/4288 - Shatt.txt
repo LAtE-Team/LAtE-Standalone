@@ -1,0 +1,19 @@
+# - Cezair i-Arab -> al-Qurna, Zihiya, Rahmaniya
+
+owner = IRQ
+controller = IRQ
+culture = al_iraqiya_arabic
+religion = shiite
+capital = "al-Qurna"
+trade_goods = spices #Dates
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+add_core = IRQ
+discovered_by = east_african
+discovered_by = indian
+
+
+

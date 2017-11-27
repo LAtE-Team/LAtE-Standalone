@@ -1,0 +1,21 @@
+#2035 - Khoy
+
+owner = ARD
+controller = ARD
+culture = azerbaijani
+religion = sunni
+capital = "Khoy"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = ARD
+#add_core = TBR
+discovered_by = east_african
+discovered_by = indian
+discovered_by = high_american
+
+
+

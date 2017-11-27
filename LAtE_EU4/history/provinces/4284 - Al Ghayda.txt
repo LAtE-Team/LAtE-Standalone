@@ -1,0 +1,19 @@
+#4284 - Al Gaydah
+
+owner = ADE
+controller = ADE
+culture = mahri_culture
+religion = sunni
+capital = "Al Ghaydah"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = ADE
+discovered_by = indian
+
+discovered_by = east_african
+
+

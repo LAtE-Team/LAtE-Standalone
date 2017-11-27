@@ -1,0 +1,9 @@
+government = iqta
+government_rank = 1 #Emirate
+technology_group = muslim
+religion = shiite
+primary_culture = gulf_arabic
+capital = 394	# Al Hasa
+religious_school = jafari_school
+
+

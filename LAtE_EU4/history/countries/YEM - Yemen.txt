@@ -1,0 +1,8 @@
+government = iqta
+primary_culture = yemeni_culture
+religion = shiite
+technology_group = indian
+capital = 4280	# Taiz
+religious_school = zaidi_school
+
+

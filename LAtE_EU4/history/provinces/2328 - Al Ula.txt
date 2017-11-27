@@ -1,0 +1,19 @@
+#2328 - Al-Ula
+
+#owner = ANZ
+#controller = ANZ
+culture = bedouin_arabic
+religion = sunni
+capital = "Al-Ula"
+trade_goods = salt
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+#is_city = yes
+#add_core = ANZ
+discovered_by = indian
+discovered_by = high_american
+discovered_by = east_african
+
+

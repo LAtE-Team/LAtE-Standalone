@@ -1,0 +1,17 @@
+#4343 - Termez
+
+#owner = TIM
+#controller = TIM
+culture = uzbehk
+religion = sunni
+capital = "Termez"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+#is_city = yes
+#add_core = TIM
+#add_core = TRS
+discovered_by = indian
+

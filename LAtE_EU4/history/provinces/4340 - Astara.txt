@@ -1,0 +1,18 @@
+#4340 - Astara
+
+#owner = BPI
+#controller = BPI
+culture = azerbaijani
+religion = shiite
+capital = "Astara"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+#is_city = yes
+#add_core = BPI
+#add_core = ARL
+discovered_by = indian
+discovered_by = high_american
+

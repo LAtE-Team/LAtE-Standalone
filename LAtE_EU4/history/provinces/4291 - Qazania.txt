@@ -1,0 +1,20 @@
+#4391 - Qazaniya
+
+owner = IRQ
+controller = IRQ
+culture = al_iraqiya_arabic
+religion = shiite
+capital = "Qazaniya"
+trade_goods = cotton
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = IRQ
+#add_core = QAR
+discovered_by = east_african
+discovered_by = high_american
+discovered_by = indian
+
+

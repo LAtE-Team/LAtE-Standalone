@@ -31,8 +31,8 @@ capital = 1991 # Gilbert Islands, geddit?
 }
 
 3052.10.7 = {
-	leader = { name = "Arthur Fitzbattleaxe"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
-	leader = { name = "Edward Corcoran"	type = admiral	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 } # What, never? No, never!
+	leader = { name = "Arthur Fitzbattleaxe"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	leader = { name = "Edward Corcoran"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0 } # What, never? No, never!
 	# Other flowers of progress?
 	
 	queen = {

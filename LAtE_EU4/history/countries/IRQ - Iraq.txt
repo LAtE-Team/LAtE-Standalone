@@ -2,4 +2,5 @@ government = iqta
 primary_culture = al_iraqiya_arabic
 religion = shiite
 technology_group = indian
-capital = 410	# Bagdad
+capital = 412
+religious_school = jafari_school

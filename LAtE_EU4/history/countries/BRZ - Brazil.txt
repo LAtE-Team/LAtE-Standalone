@@ -8,7 +8,7 @@ religion = candomble
 clear_scripted_personalities = yes
 capital = 763
 3053.1.1 {
-	capital = 763
+	#capital = 763
 	add_treasury = 0
 	add_prestige = 4
 	monarch = {

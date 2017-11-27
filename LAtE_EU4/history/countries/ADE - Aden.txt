@@ -1,0 +1,8 @@
+government = iqta
+primary_culture = yemeni_culture
+religion = sunni
+technology_group = indian
+capital = 388	# Aden
+government_rank = 1
+religious_school = shafii_school
+

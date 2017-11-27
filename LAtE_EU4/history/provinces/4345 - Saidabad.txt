@@ -1,0 +1,19 @@
+#4345 - Saidabad
+
+owner = PER
+controller = PER
+culture = persian
+religion = shiite
+capital = "Saidabad"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+#add_core = KRM
+add_core = PER
+discovered_by = east_african
+discovered_by = indian
+
+

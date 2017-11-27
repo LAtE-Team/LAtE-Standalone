@@ -1,0 +1,17 @@
+#428 - Rey
+
+#owner = TIM
+#controller = TIM
+culture = persian
+religion = shiite
+capital = "Teheran"
+trade_goods = silk
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 4
+#is_city = yes
+#add_core = TIM
+#add_core = QOM
+discovered_by = indian
+

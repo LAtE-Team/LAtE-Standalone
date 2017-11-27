@@ -1,7 +1,7 @@
 # - Poya
 add_core = PGO
-controller = PGO
 owner = PGO
+controller = PGO
 culture = platinean
 religion = animism
 capital = "Poya"

@@ -1,0 +1,9 @@
+government = tribal_kingdom
+government_rank = 1
+primary_culture = baluchi
+religion = sunni
+technology_group = muslim
+capital = 577	# Quetta
+religious_school = hanafi_school
+
+

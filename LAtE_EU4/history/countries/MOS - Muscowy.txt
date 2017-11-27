@@ -7,7 +7,7 @@ government_rank = 1
 fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
 
 
-1
+
 3010.3.28 = {
 	monarch = {
 		name = "Vladmir"

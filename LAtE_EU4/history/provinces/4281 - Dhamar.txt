@@ -1,0 +1,21 @@
+#4281 - Dhamar
+
+owner = YEM
+controller = YEM
+culture = yemeni_culture
+religion = shiite
+capital = "Dhamar"
+trade_goods = livestock
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+#add_core = RAS
+#add_core = ADE #Tahirids
+add_core = YEM
+discovered_by = indian
+
+discovered_by = east_african
+
+

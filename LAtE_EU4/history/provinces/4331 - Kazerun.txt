@@ -1,0 +1,16 @@
+#4331 - Kazerun
+
+owner = PER
+controller = PER
+culture = luri
+religion = sunni
+capital = "Kazerun"
+trade_goods = wine #and cotton and Dates
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = PER
+#add_core = TIM
+discovered_by = indian

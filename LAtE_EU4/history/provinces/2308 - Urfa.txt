@@ -1,0 +1,20 @@
+#2308 - Urfa
+
+#owner = AKK
+#controller = AKK
+culture = kurdish
+religion = sunni
+capital = "Urfa"
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+#is_city = yes
+#add_core = IRQ
+#add_core = AKK
+discovered_by = east_african
+discovered_by = high_american
+discovered_by = indian
+
+
