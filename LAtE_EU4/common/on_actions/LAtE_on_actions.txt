@@ -631,3 +631,32 @@ on_accept_tribute = {
 # country. from = overlord
 on_refuse_tribute = {
 }
+
+on_convert_by_trade_policy = {
+	# if = {				Overwrite of vanilla
+		# limit = {
+			# trade_company_region = trade_company_moluccas
+		# }
+		# FROM = {	
+			# if = {
+				# limit = {
+					# ai = no
+					# NOT = { check_variable = { which = religion_propagated_in_moluccas value = 1 } }
+				# }
+				# set_variable = {
+					# which = religion_propagated_in_moluccas value = 1
+				# }
+			# }
+			# else_if = {
+				# limit = {
+					# ai = no
+					# check_variable = { which = religion_propagated_in_moluccas value = 1 }
+					# NOT = { check_variable = { which = religion_propagated_in_moluccas value = 6 } }
+				# }
+				# change_variable = {
+					# which = religion_propagated_in_moluccas value = 1
+				# }
+			# }
+		# }
+	# }
+}
