@@ -1,6 +1,6 @@
 government = iqta
 government_rank = 1 #Emirate
-technology_group = muslim
+technology_group = indian
 religion = shiite
 primary_culture = gulf_arabic
 capital = 394	# Al Hasa

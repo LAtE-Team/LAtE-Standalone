@@ -1,5 +1,5 @@
 government = iqta
-technology_group = muslim
+technology_group = indian
 religion = sunni
 primary_culture = gulf_arabic
 capital = 398	# Sharjah

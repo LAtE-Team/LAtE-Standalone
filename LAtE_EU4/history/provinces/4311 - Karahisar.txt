@@ -14,10 +14,7 @@ base_manpower = 2
 #add_core = KAR
 #add_core = GRM
 discovered_by = high_american
-discovered_by = high_american
-discovered_by = muslim
-discovered_by = ottoman
-
+discovered_by = indian
 
 
 

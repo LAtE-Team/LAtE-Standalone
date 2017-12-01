@@ -40,11 +40,11 @@ red_sea_area = {
 }
 
 persian_gulf_area = { #(+Makran)
-	1334 1335 1336
+	1332 1334 1335 1336 4347
 }
 
 arabian_sea_area = {
-	1331 1332 1333 1337 1338 1339 1340 1446 1451 1452 1615
+	1331 1333 1337 1338 1339 1340 1446 1451 1452 1615 4346
 }
 
 andaman_sea_area = {
@@ -1043,7 +1043,7 @@ ankara_area = { #3
 }
 
 aegean_archipelago_area = { #4
-	164 320 2348 3003
+	163 164 320 2348 3003
 }
 
 kastamonu_area = { #4
@@ -1454,7 +1454,7 @@ sennar_area = { #3
 }
 
 red_sea_coast_area = { #4
-	1230 1232 2324 2787
+	1230 1232 2324 2787 4333
 }
 
 tigray_area = { #4
