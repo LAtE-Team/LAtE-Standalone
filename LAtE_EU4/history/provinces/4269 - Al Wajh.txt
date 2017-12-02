@@ -1,7 +1,7 @@
 #4269 - Al Wajh
 
-#owner = MAM
-#controller = MAM
+owner = HED
+controller = HED
 culture = bedouin_arabic
 religion = sunni
 capital = "Al Wajh"
@@ -10,8 +10,8 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-#is_city = yes
-#add_core = MAM
+is_city = yes
+add_core = HED
 discovered_by = high_american
 discovered_by = indian
 
