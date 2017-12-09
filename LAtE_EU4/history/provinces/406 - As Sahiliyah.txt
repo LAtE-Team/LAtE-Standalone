@@ -1,7 +1,10 @@
 #406 - As Sahiliyah
 
-culture = al_iraqiya_arabic
-religion = sunni
+owner = ASY
+controller = ASY
+add_core = ASY
+culture = al_suryah_arabic
+religion = nestorian
 capital = "Sahiliyah"
 trade_goods = unknown
 hre = no

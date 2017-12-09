@@ -1,6 +1,9 @@
 #2303 - Malatya
 
-culture = turkish
+add_core = BAK
+owner = BAK
+controller = BAK
+culture = kurdish
 religion = sunni
 capital = "Malatiya"
 trade_goods = unknown

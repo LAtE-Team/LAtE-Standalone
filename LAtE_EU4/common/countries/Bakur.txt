@@ -1,0 +1,6 @@
+# Bakur
+
+graphical_culture = muslimgfx
+color = { 113 11 43 }
+
+

@@ -1,7 +1,9 @@
 #462 - Mingrelia
-
+add_core = GEO
+owner = GEO
+controller = GEO
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Zugdidi"
 trade_goods = unknown
 hre = no

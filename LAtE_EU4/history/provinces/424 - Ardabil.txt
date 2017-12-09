@@ -1,7 +1,9 @@
 #424 - Ardabil
-
+add_core = AZB
+controller = AZB
+owner = AZB
 culture = azerbaijani
-religion = shiite
+religion = coptic
 capital = "Ardabil"
 trade_goods = unknown
 hre = no

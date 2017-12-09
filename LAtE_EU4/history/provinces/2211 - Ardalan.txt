@@ -1,9 +1,10 @@
 #2211 - Ardalan
 
-owner = ARD
-controller = ARD
+owner = ROJ
+controller = ROJ
+add_core = ROJ
 culture = kurdish
-religion = yazidi
+religion = zoroastrian
 capital = "Sanandaj"
 trade_goods = cloth
 hre = no

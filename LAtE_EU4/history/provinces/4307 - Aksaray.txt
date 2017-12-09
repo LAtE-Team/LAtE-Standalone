@@ -14,7 +14,8 @@ base_manpower = 2
 #add_core = KAR
 #add_core = ERE
 discovered_by = high_american
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 
 
 

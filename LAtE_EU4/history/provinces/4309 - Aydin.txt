@@ -13,7 +13,9 @@ base_manpower = 2
 #is_city = yes
 #add_core = AYD
 discovered_by = high_american
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
+
 
 
 

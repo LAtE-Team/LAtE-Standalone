@@ -1,7 +1,10 @@
 #378 - Tripoli
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Trablos" #Tripoli in the East.
 trade_goods = grain
 hre = no

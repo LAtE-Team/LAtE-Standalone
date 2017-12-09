@@ -1,7 +1,9 @@
 #2203 - Kahketi
 
+owner = GEO
+controller = GEO
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Telavi"
 trade_goods = unknown
 hre = no

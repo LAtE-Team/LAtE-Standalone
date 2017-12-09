@@ -1,9 +1,10 @@
 #2306 - Mush
 
-owner = BHT
-controller = BHT
+add_core = BAK
+owner = BAK
+controller = BAK
 culture = kurdish
-religion = yazidi
+religion = sunni
 capital = "Mus"
 trade_goods = wool
 hre = no

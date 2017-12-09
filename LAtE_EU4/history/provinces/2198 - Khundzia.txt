@@ -1,7 +1,9 @@
 #2041 - Khundzia
-
-culture = dagestani
-religion = sunni
+add_core = QUB
+owner = QUB
+controller = QUB
+culture = azerbaijani
+religion = jewish
 capital = "Kumukh"
 trade_goods = unknown
 hre = no

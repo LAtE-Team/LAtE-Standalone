@@ -1,7 +1,10 @@
 #407 - Ar-Raqqah
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Ar Rakkah"
 trade_goods = unknown
 hre = no

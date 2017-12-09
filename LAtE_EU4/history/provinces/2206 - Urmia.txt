@@ -1,9 +1,10 @@
 #2035 - Urmia
 
-owner = ARD
-controller = ARD
+owner = ROJ
+controller = ROJ
+add_core = ROJ
 culture = kurdish
-religion = yazidi
+religion = zoroastrian
 capital = "Urmiyeh"
 trade_goods = wine
 hre = no

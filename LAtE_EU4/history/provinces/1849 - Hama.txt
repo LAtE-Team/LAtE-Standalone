@@ -1,7 +1,10 @@
 #1849 - Hama
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Hama"
 trade_goods = unknown
 hre = no

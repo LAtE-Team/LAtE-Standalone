@@ -1,7 +1,8 @@
 #411 - Mosul
 
-owner = ASY
-controller = ASY
+owner = BSU
+controller = BSU
+add_core = BSU
 culture = kurdish
 religion = nestorian
 capital = "Al Mawsil"

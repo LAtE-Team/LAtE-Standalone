@@ -101,6 +101,15 @@ SEF = countries/Setheefrika.txt
 ISR = countries/Israel.txt
 ASY = countries/Assyria.txt
 KUW = countries/Kuwait.txt
+ABK = countries/Abkhazia.txt
+OSS = countries/Ossetia.txt
+AZB = countries/Azerbaijan.txt
+NGK = countries/Nagorno_Karabakh.txt
+QUB = countries/Quba.txt
+ROJ = countries/Rojhilat.txt
+RJA = countries/Rojava.txt
+BAK = countries/Bakur.txt
+BSU = countries/Basur.txt
 
 # India
 BOL = countries/Bollywood.txt

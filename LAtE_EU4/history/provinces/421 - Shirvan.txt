@@ -1,7 +1,9 @@
 #421 - Shirvan
-
+add_core = AZB
+controller = AZB
+owner = AZB
 culture = azerbaijani
-religion = shiite
+religion = coptic
 capital = "Baku"
 trade_goods = unknown
 hre = no

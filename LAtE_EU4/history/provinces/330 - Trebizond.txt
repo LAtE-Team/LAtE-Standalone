@@ -1,7 +1,7 @@
 #330 - Trebizond
 
 culture = pontic_greek
-religion = orthodox
+religion = coptic
 capital = "Trapezous"
 trade_goods = unknown
 hre = no

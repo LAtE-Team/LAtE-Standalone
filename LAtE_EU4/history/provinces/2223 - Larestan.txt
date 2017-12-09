@@ -3,7 +3,7 @@
 owner = PER
 controller = PER
 culture = persian
-religion = shiite
+religion = zoroastrian
 capital = "Lar"
 trade_goods = iron
 hre = no
@@ -15,8 +15,6 @@ add_core = PER
 
 
 
-discovered_by = indian
-discovered_by = indian
 discovered_by = indian
 #discovered_by = nomad_group
 

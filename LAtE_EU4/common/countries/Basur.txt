@@ -1,0 +1,6 @@
+# Basur
+
+graphical_culture = muslimgfx
+color = { 210 210 210 }
+
+

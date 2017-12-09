@@ -1,9 +1,10 @@
 #4395 - Hisn Kayfa
 
-owner = ASY
-controller = ASY
+add_core = RJA
+owner = RJA
+controlle = RJA
 culture = kurdish
-religion = sunni
+religion = yazidi
 capital = "Hisn Kayfa"
 trade_goods = wool
 hre = no
@@ -15,7 +16,8 @@ fort_15th = yes
 add_core = ASY
 #add_core = HSN
 discovered_by = east_african
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 discovered_by = high_american
 
 

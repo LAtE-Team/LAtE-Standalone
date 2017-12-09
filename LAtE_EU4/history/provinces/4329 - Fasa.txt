@@ -3,7 +3,7 @@
 owner = PER
 controller = PER
 culture = persian
-religion = sunni
+religion = zoroastrian
 capital = "Fasa"
 trade_goods = silk #And Paper in Jahrum
 hre = no

@@ -13,7 +13,8 @@ base_manpower = 1
 is_city = yes
 add_core = HED
 discovered_by = high_american
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 
 discovered_by = east_african
 

@@ -1,0 +1,6 @@
+# Rojhitlat
+
+graphical_culture = muslimgfx
+color = { 73 147 29 }
+
+

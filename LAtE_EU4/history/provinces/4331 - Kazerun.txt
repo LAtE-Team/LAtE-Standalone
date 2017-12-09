@@ -3,7 +3,7 @@
 owner = PER
 controller = PER
 culture = luri
-religion = sunni
+religion = zoroastrian
 capital = "Kazerun"
 trade_goods = wine #and cotton and Dates
 hre = no

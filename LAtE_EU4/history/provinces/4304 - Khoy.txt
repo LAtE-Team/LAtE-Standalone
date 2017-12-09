@@ -1,9 +1,10 @@
 #2035 - Khoy
 
-owner = ARD
-controller = ARD
-culture = azerbaijani
-religion = sunni
+owner = ROJ
+controller = ROJ
+add_core = ROJ
+culture = kurdish
+religion = zoroastrian
 capital = "Khoy"
 trade_goods = wool
 hre = no

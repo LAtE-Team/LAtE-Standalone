@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 2
+technology_group = indian
+religion = coptic
+primary_culture = azerbaijani
+capital = 421 #Shirvan

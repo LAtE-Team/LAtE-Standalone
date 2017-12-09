@@ -1,9 +1,10 @@
 #4392 - Mardin
 
-owner = ASY
-controller = ASY
+add_core = RJA
+owner = RJA
+controlle = RJA
 culture = kurdish
-religion = sunni
+religion = yazidi
 capital = "Mardin"
 trade_goods = wool
 hre = no
@@ -13,7 +14,8 @@ base_manpower = 3
 is_city = yes
 add_core = AKK
 discovered_by = east_african
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 discovered_by = high_american
 
 

@@ -1,9 +1,10 @@
 #4340 - Astara
 
-#owner = BPI
-#controller = BPI
+add_core = AZB
+controller = AZB
+owner = AZB
 culture = azerbaijani
-religion = shiite
+religion = coptic
 capital = "Astara"
 trade_goods = fish
 hre = no

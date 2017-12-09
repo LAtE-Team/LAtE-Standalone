@@ -1,7 +1,9 @@
 #2196 - Guria
 
+owner = GEO
+controller = GEO
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Batumi"
 trade_goods = unknown
 hre = no

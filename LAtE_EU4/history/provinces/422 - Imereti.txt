@@ -1,7 +1,9 @@
 #422 - Imereti
 
+owner = GEO
+controller = GEO
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Kutaisi"
 trade_goods = unknown
 hre = no

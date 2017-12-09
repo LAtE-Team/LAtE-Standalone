@@ -3,7 +3,7 @@
 owner = PER
 controller = PER
 culture = persian
-religion = sunni
+religion = zoroastrian
 capital = "Bandar Langeh"
 trade_goods = spices
 hre = no

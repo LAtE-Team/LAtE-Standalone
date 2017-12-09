@@ -1,7 +1,10 @@
 #2314 - Rahba
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Deir ez-Zor"
 trade_goods = unknown
 hre = no

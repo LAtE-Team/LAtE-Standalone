@@ -1,5 +1,8 @@
 #419 - Yerevan
 
+owner = ARM
+add_core = ARM
+controller = ARM
 culture = armenian
 religion = coptic
 capital = "Yerevan"

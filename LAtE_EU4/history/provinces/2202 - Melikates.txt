@@ -1,7 +1,9 @@
 #2202 - Melikates
-
+add_core = NGK
+controller = NGK
+owner = NGK
 culture = azerbaijani
-religion = shiite
+religion = coptic
 capital = "Khankendi"
 trade_goods = unknown
 hre = no

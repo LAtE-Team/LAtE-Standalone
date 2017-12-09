@@ -1,7 +1,10 @@
 #2313 - Antioch
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Antakya"
 trade_goods = unknown
 hre = no

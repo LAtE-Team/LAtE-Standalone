@@ -1,0 +1,6 @@
+# Rojava
+
+graphical_culture = muslimgfx
+color = { 242 197 0 }
+
+

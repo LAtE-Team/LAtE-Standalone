@@ -1,7 +1,8 @@
 #415 - Sharazor
 
-owner = ASY
-controller = ASY
+owner = BSU
+controller = BSU
+add_core = BSU
 culture = kurdish
 religion = nestorian
 capital = "Kirkuk"

@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = indian
+religion = jewish
+primary_culture = azerbaijani
+capital = 425 #Dagestan

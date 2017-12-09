@@ -3,7 +3,7 @@
 #owner = SME
 #controller = SME
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Oltu"
 trade_goods = livestock
 hre = no
@@ -14,7 +14,8 @@ base_manpower = 2
 #add_core = SME
 #add_core = GEO
 #add_core = ARM
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 discovered_by = high_american
 
 

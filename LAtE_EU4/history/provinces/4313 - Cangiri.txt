@@ -16,7 +16,8 @@ estate = estate_nobles
 #add_core = ERE
 #add_core = CND
 discovered_by = high_american
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 
 
 

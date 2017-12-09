@@ -1,20 +1,28 @@
-#2308 - Urfa
+#2308 - Cizre
 
-#owner = AKK
-#controller = AKK
+add_core = RJA
+owner = RJA
+controlle = RJA
 culture = kurdish
-religion = sunni
-capital = "Urfa"
-trade_goods = wool
+religion = yazidi
+capital = "Djeziret"
+trade_goods = sugar
 hre = no
-base_tax = 3 
-base_production = 3
+base_tax = 2 
+base_production = 2
 base_manpower = 2
-#is_city = yes
-#add_core = IRQ
-#add_core = AKK
+is_city = yes
+add_core = ASY
+
+
 discovered_by = east_african
-discovered_by = high_american
 discovered_by = indian
+discovered_by = indian
+discovered_by = indian
+discovered_by = high_american 
+discovered_by = RED
+#discovered_by = nomad_group
 
-
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

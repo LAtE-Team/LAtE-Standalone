@@ -1,9 +1,9 @@
 #4301 - Kartli
-
-#owner = GEO
-#controller = GEO
+add_core = OSS
+owner = OSS
+controller = OSS
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "Gori"
 trade_goods = silk
 hre = no

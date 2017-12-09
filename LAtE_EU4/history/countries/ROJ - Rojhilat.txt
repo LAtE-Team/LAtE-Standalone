@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = indian
+religion = zoroastrian
+primary_culture = kurdish
+capital = 2201 #Ardalan

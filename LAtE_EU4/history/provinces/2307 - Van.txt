@@ -1,9 +1,10 @@
 #2307 - Van
 
-owner = BHT
-controller = BHT
+add_core = BAK
+owner = BAK
+controller = BAK
 culture = kurdish
-religion = yazidi
+religion = sunni
 capital = "Van"
 trade_goods = wool
 hre = no

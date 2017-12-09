@@ -1,7 +1,10 @@
 #4302 - Bayazid
 
-#owner = BTL #Zahids
-#controller = BTL
+add_core = BAK
+owner = BAK
+controller = BAK
+culture = kurdish
+religion = sunni
 culture = armenian
 religion = coptic
 capital = "Bayazid"
@@ -14,7 +17,8 @@ base_manpower = 1
 #add_core = BTL
 #add_core = ARM
 discovered_by = east_african
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 discovered_by = high_american
 
 

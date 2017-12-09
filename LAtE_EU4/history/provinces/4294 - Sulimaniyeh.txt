@@ -1,9 +1,10 @@
 #4394 - Sulimaniyeh
 
-owner = ASY
-controller = ASY
+owner = BSU
+controller = BSU
+add_core = BSU
 culture = kurdish
-religion = sunni
+religion = nestorian
 capital = "Sulimaniyeh"
 trade_goods = wool
 hre = no
@@ -16,7 +17,8 @@ add_core = ASY
 #add_core = ARD
 discovered_by = east_african
 discovered_by = high_american
-discovered_by = indian
+discovered_by = indian 
+discovered_by = RED
 
 
 

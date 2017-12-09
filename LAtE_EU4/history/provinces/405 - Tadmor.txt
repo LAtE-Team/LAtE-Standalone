@@ -1,7 +1,10 @@
 #405 - Tadmor
 
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Tadmuriyah"
 trade_goods = unknown
 hre = no

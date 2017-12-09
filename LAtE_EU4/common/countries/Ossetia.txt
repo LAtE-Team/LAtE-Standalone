@@ -1,0 +1,6 @@
+# Ossetia
+
+graphical_culture = muslimgfx
+color = { 206 164 152 }
+
+

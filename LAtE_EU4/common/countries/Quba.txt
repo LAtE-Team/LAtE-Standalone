@@ -1,0 +1,6 @@
+# Quba
+
+graphical_culture = muslimgfx
+color = { 116 16 142 }
+
+

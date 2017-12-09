@@ -1,0 +1,6 @@
+# Azerbaijan
+
+graphical_culture = muslimgfx
+color = { 196 148 86 }
+
+

@@ -1,9 +1,10 @@
 #4397 - Homs
 
-#owner = MAM
-#controller = MAM
+owner = ASY
+controller = ASY
+add_core = ASY
 culture = al_suryah_arabic
-religion = sunni
+religion = nestorian
 capital = "Homs"
 trade_goods = cotton
 hre = no

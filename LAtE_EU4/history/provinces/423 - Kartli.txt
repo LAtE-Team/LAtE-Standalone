@@ -1,7 +1,7 @@
 #423 - Kartli
 
 culture = georgian
-religion = orthodox
+religion = coptic
 capital = "T'bilisi"
 trade_goods = unknown
 hre = no

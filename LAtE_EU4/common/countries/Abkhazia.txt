@@ -1,0 +1,6 @@
+# Abkhazia
+
+graphical_culture = muslimgfx
+color = { 193 109 96 }
+
+

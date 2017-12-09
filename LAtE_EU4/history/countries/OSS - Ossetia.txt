@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = indian
+religion = coptic
+primary_culture = georgian
+capital = 4301 #Kartli

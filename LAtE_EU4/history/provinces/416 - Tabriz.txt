@@ -1,9 +1,10 @@
 #416 - Azerbaijan
 
-#owner = QAR
-#controller = QAR
+add_core = AZB
+controller = AZB
+owner = AZB
 culture = azerbaijani
-religion = shiite
+religion = coptic
 capital = "Tabriz"
 trade_goods = silk
 hre = no

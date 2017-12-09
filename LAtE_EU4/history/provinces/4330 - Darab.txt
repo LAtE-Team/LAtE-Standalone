@@ -3,7 +3,7 @@
 owner = PER
 controller = PER
 culture = persian
-religion = shiite
+religion = zoroastrian
 capital = "Darab"
 trade_goods = spices #Saffron - Could also produce salt due to the salt lakes
 hre = no

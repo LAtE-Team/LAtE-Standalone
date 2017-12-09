@@ -1,8 +1,9 @@
 #423 - Kartli
 
-#owner = GEO
-#controller = GEO
+owner = GEO
+controller = GEO
 culture = georgian
+religion = coptic
 religion = orthodox
 capital = "T'bilisi"
 trade_goods = dyes
