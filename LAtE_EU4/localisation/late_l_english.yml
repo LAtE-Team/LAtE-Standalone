@@ -328,6 +328,8 @@
  NGK_ADJ: "Nagorno Karabakhian"
  QUB: "Quba"
  QUB_ADJ: "Quban"
+ ARD: "Kurdistan"
+ ARD_ADJ: "Kurdistani"
  ahmadi: "Ahmadi"
  ahmadi_religion_desc: "Ahmadis believe that prior to the great cataclysm, the world was unified in one Islamic faith by the Mahdi. The cataclysm heralded the begining of a new cycle, with a new Adam."
  yazidi: "Yazidi"
@@ -1462,5 +1464,7 @@
  copper_mining_chile_desc:0 "Our lands are rich in copper. This copper is highly valuable and ensures the success of our economy."
  maritime_hegemony:0 "Maritime Hegemony"
  maritime_hegemony_desc:0 "We have the longest Pacific coast in South America. This coast is filled with harbours, natural and unnatural, from which we can support a large fleet."
+ kurdistan_nation_title:0 "Form Kurdistan"
+ kurdistan_nation_desc:0 "The time has come to unite the Kurdish peoples under one banner."
 
  
