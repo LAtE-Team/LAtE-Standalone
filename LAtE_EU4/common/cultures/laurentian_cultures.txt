@@ -5,7 +5,7 @@ laurentian = {
 	}
 	ontarian = {
 		primary = ONT
-		dynasty_names = { "Laurier" "Dysart" "Montrose" "Bloomfield" "Humber" "de Bonnechere" "Mississauga" "Dunsworth" "Chicona" "Harpist" "Tremblay" "Aylmer" "Garson" "Welland" "Harpist" "Dunsworth" "Cornwall" "Nipigon" "Frid" "de Michelenburg" "Onaping" "Movenpick" }
+		dynasty_names = { "Laurier" "Dysart" "Montrose" "Bloomfield" "Humber" "de Bonnechere" "Mississauga" "Dunsworth" "Chicona" "Harpist" "Tremblay" "Aylmer" "Garson" "Welland" "Harpist" "Dunsworth" "Cornwall" "Nipigon" "Frid" "de Michelenburg" "Onaping" "Movenpick" "Bloor" "Dundas" "Landsdowne" "Dufferin" "Spadina" "Adelaide" "Richmond" "Simcoe"}
 	}
 	chicagoan = {
 		primary = ORD
