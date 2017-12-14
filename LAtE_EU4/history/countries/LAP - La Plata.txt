@@ -1,6 +1,6 @@
 government = feudal_monarchy
 technology_group = south_american
-religion = candomble
+religion = cult_of_saints
 primary_culture = platinean
 capital = 778	# Santa María del Buen Ayre
 

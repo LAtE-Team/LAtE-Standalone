@@ -2,12 +2,13 @@
 
 owner = URU
 controller = URU
+	religion = cult_of_saints
 add_core= URU
 is_city = yes
 culture = litoraleno
 discovered_by = south_american 
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Paysandu"
 trade_goods = unknown
 hre = no

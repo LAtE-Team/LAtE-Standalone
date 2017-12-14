@@ -28,10 +28,12 @@ add_core = BIA
 
 owner = BIA
 controller = BIA
+	religion = cult_of_saints
 add_core = BIA
 3053.1.1 = {
 	owner = BIA
 	controller = BIA
+	religion = cult_of_saints
 }
 
 

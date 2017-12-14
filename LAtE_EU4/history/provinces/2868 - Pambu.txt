@@ -1,12 +1,13 @@
 # - Bahia Blanca
 
 owner = VES
-controller = VES
+controller =VES
+religion = cult_of_saints
 add_core = VES
 culture = welsh
 discovered_by = south_american 
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Bahia"
 trade_goods = unknown
 is_city = yes

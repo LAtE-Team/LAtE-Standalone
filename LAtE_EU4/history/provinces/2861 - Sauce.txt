@@ -1,13 +1,14 @@
 # - Sauce
 
 owner = LAP
-controller = LAP
+controller =LAP
+religion = cult_of_saints
 add_core = LAP
 add_core = CDB
 culture = platinean
 discovered_by = south_american 
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Sauce"
 trade_goods = unknown
 is_city = yes

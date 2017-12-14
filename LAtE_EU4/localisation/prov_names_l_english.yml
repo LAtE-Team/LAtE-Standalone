@@ -764,7 +764,7 @@
  PROV763:0 "Rio de Janeiro"
  PROV764:0 "Santo Amaro"
  PROV765:0 "Minas Gerais"
- PROV766:0 "Sao Vicente"
+ PROV766:0 "Sao Paulo"	#Was Sao Vicente
  PROV767:0 "Ortelsburg"
  PROV768:0 "Guayra"
  PROV769:0 "Curitiba"
@@ -776,7 +776,7 @@
  PROV775:0 "Asuncion"
  PROV776:0 "Concepcion"
  PROV777:0 "Corrientes"
- PROV778:0 "Rio de la Plata"
+ PROV778:0 "Buenos Aires"	#Was Rio de la Plata
  PROV779:0 "Tandil"
  PROV780:0 "Candelaria"
  PROV781:0 "Puerto Deseado"

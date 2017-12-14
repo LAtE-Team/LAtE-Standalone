@@ -1,12 +1,13 @@
 #778 - Rio de la Plata
 
 owner = LAP
-controller = LAP
+controller =LAP
+religion = cult_of_saints
 add_core = LAP
 culture = platinean
 discovered_by = south_american 
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Rio de la Plata"
 is_city = yes
 trade_goods = grain

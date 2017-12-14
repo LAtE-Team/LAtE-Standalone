@@ -3,7 +3,7 @@ government = feudal_monarchy
 government_rank = 2
 technology_group = south_american
 primary_culture = welsh
-religion = candomble # for now
+religion = cult_of_saints 
 capital = 780
 
 3050.1.1 = {

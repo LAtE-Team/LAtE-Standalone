@@ -28,10 +28,12 @@ add_core = PAU
 # = { unrest = 0 } # The Jesuits are expulsed from the region
 owner = PAU
 controller = PAU
+	religion = cult_of_saints
 add_core = PAU
 3053.1.1 = {
 	owner = PAU
 	controller = PAU
+	religion = cult_of_saints
 }
 
 

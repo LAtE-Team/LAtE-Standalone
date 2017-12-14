@@ -25,11 +25,13 @@ native_hostileness = 6
 add_core = PRB
 religion = candomble
 owner = PRB
-controller = PRB
+controller = PRB 
+	religion = cult_of_saints
 add_core = PRB
 3053.1.1 = {
 	owner = PRB
-	controller = PRB
+	controller = PRB 
+	religion = cult_of_saints
 }
 
 

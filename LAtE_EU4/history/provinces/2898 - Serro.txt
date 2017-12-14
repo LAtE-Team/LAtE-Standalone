@@ -31,10 +31,12 @@ add_core = MIG
 # = { trade_goods = gold }
 owner = MIG
 controller = MIG
+	religion = cult_of_saints
 add_core = MIG
 3053.1.1 = {
 	owner = MIG
 	controller = MIG
+	religion = cult_of_saints
 }
 
 

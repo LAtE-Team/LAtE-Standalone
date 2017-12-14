@@ -1,10 +1,11 @@
 # - Florida Blanca
 
 owner = VES
-controller = VES
+controller =VES
+religion = cult_of_saints
 add_core = VES
 culture = welsh
-religion = candomble
+religion = cult_of_saints
 capital = "Florida Blanca"
 trade_goods = unknown
 is_city = yes

@@ -3,7 +3,7 @@ government_rank = 2
 mercantilism = 0.1
 technology_group = south_american
 primary_culture = paribas
-religion = candomble
+religion = cult_of_saints
 clear_scripted_personalities = yes
 capital = 755
 3053.1.1 {

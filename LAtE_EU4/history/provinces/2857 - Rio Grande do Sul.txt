@@ -39,10 +39,12 @@ add_permanent_province_modifier = {
 
 owner = AGR
 controller = AGR
+	religion = cult_of_saints
 add_core = AGR
 3053.1.1 = {
 	owner = AGR
 	controller = AGR
+	religion = cult_of_saints
 }
 
 

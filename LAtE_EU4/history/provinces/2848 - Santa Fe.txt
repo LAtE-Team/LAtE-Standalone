@@ -2,11 +2,12 @@
 
 owner = MES
 controller = MES
+	religion = cult_of_saints
 add_core = MES
 culture = litoraleno
 discovered_by = south_american 
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Santa Fe"
 trade_goods = unknown
 is_city = yes
