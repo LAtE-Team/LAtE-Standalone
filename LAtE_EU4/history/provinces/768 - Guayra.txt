@@ -4,7 +4,7 @@ culture = guarani
 discovered_by = south_american 
 discovered_by = andean
 discovered_by = brazilian
-religion = candomble
+religion = cult_of_saints
 capital = "Guayra"
 trade_goods = unknown
 hre = no
@@ -35,12 +35,11 @@ native_hostileness = 5
 	remove_core = SPA
 	culture = guacho
 #}
-owner = BRZ
-controller = BRZ
-add_core = BRZ
+
+add_core = PAU
 3053.1.1 = {
-	owner = BRZ
-	controller = BRZ
+	owner = PAU
+	controller = PAU
 }
 
 
