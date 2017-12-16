@@ -1,7 +1,8 @@
 ck2_converter_generated = yes
-owner = X17
-controller = X17
-add_core = X17
+owner= MTC
+controller = MTC
+add_core = X17 
+add_core = MTC
 culture = mountainer
 religion = ghost_dance
 citysize = 2000
@@ -69,7 +70,7 @@ discovered_by = X17
 	remove_core = FLD
 	remove_core = GYN
 	remove_core = LLL
-	remove_core = MTC
+	
 	remove_core = NMX
 	remove_core = OGN
 	remove_core = RIO
@@ -712,8 +713,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X17
-	controller = X17
+	owner= MTC
+	controller = MTC
 	culture = mountainer
 	religion = ghost_dance
 }

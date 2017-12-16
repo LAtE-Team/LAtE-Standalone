@@ -1,7 +1,8 @@
 ck2_converter_generated = yes
-owner = Y90
-controller = Y90
-add_core = Y90
+owner = MTC
+controller = MTC
+add_core = Y90 
+add_core = MTC
 culture = mountainer
 religion = gaian
 citysize = 2000
@@ -69,7 +70,7 @@ discovered_by = X17
 	remove_core = FLD
 	remove_core = GYN
 	remove_core = LLL
-	remove_core = MTC
+	
 	remove_core = NMX
 	remove_core = OGN
 	remove_core = RIO
@@ -712,8 +713,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = Y90
-	controller = Y90
+	owner = MTC
+	controller = MTC
 	culture = mountainer
 	religion = gaian
 }
