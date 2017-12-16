@@ -6,6 +6,7 @@
 is_city = no
 culture = guarani
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = animism
 capital = "Sao Borja"

@@ -5,6 +5,7 @@ controller = MPC
 add_core = MPC
 culture = platinean
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = animism
 capital = "Chiquiyami"

@@ -2,6 +2,7 @@
 
 culture = ge
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = animism
 capital = "Vila Boa"

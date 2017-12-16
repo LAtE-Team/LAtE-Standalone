@@ -1,6 +1,7 @@
 #764 - Santo Amaro
 
 culture = tupinamba discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = animism
 capital = "Santo Amaro"

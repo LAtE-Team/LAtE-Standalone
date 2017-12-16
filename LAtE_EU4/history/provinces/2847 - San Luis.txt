@@ -5,6 +5,7 @@ controller = CDB
 add_core = CDB
 culture = cordoban
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = rust_cultist
 capital = "San Luis"

@@ -3,6 +3,7 @@
 culture = baiano 
 add_core = BIA
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = candomble
 capital = "Rio de Contas"

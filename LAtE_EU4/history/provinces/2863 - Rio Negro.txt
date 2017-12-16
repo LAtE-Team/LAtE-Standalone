@@ -6,6 +6,7 @@ religion = cult_of_saints
 add_core = VES
 culture = welsh
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = cult_of_saints
 capital = "Rio Negro"

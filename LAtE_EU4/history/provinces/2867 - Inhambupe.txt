@@ -6,6 +6,7 @@ add_core = MPC
 is_city = yes
 culture = platinean
 discovered_by = south_american 
+discovered_by = andean
 discovered_by = brazilian
 religion = animism
 capital = "Chanar"
