@@ -1,7 +1,7 @@
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
-color = { 255  156  0 }
+color = { 158 42 46 }
 
 
 monarch_names = {
