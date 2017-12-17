@@ -711,6 +711,7 @@ japan_region = {
 		eastern_kanto_area
 		kyushu_area
 		chubu_area
+		eastern_chubu_area
 		kinai_area
 		thohoku_area
 		saigoku_area
@@ -893,8 +894,11 @@ moluccas_region = {
 		molluca_area
 		sulawesi_area
 		luzon_area
-		great_moluccas_area
+		southern_luzon_area
 		mindanao_area
+		west_mindanao_area
+		visayas_area
+		palawan_area
 		papua_area
 		vogelkop_area
 		timor_area

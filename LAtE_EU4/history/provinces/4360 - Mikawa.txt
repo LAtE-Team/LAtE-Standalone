@@ -1,0 +1,22 @@
+#4360 - Mikawa
+
+owner = KRU
+controller = KRU
+culture = togoku
+religion = shinto
+capital = "Okazaki"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_manpower = 3
+base_production = 2
+is_city = yes
+add_core = KRU
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+discovered_by = NRU 
+discovered_by = NRA

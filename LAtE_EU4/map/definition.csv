@@ -4346,6 +4346,19 @@ province;red;green;blue;x;x
 4345;155;155;198;Saidabad;x
 4346;149;226;227;Qamr Bay;x
 4347;144;206;207;Pirate Coast;x
+4348;198;47;101;Ifuago;x
+4349;105;219;142;Laguna;x
+4350;154;86;212;Mindoro;x
+4351;104;196;152;Buglas;x
+4352;219;168;88;Cebu;x
+4353;89;35;145;Leyte;x
+4354;135;77;125;Zamboanga;x
+4355;248;245;172;Caraga;x
+4356;201;167;29;Taytay;x
+4357;125;226;241;Visayan Sea;x
+4358;112;219;220;Cuyo Archipelago;x
+4359;185;227;40;Ise;x
+4360;235;159;33;Mikawa;x
 4500;30;49;56;Eureka;x
 4501;200;150;156;Klamath;x
 4502;200;200;156;Sacramento;x
@@ -4680,10 +4693,10 @@ province;red;green;blue;x;x
 4829;43;34;193;Giishkimanisiiwaaboong;x
 4830;89;184;131;Mishkeegogamang;x
 4831;88;19;67;Katchiskataouakigs;x
-4832;225;136;86;Mindoro;x
-4833;154;147;18;Western Visayas;x
-4834;8;204;7;Central Visayas;x
-4835;212;14;96;Zamboanga;x
+4832;225;136;86;UNUSED;x			#UNUSED
+4833;154;147;18;UNUSED;x			#UNUSED
+4834;8;204;7;UNUSED;x				#UNUSED
+4835;212;14;96;UNUSED;x				#UNUSED
 4836;28;200;60;Ishim;x
 4837;94;209;99;Balagansky;x
 4838;19;2;77;Bratsky;x

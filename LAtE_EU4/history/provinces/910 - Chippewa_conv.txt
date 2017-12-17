@@ -720,4 +720,5 @@ discovered_by = X17
     add_core = MTC
 	culture = northlander
 	religion = rust_cultist
+	fort_15th = no
 }

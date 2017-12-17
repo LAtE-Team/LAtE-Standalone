@@ -113,6 +113,7 @@ coral_sea_area = {
 
 philipine_sea_area = {
 	1396 1397 1439 1402 1403 1435 1436 1437 1438 1390 1391 1404 1440 4224
+	4357
 }
 
 banda_arafura_seas_area = {
@@ -2114,17 +2115,29 @@ northern_thai_area = { #3
 # Indonesia  	                       #
 ########################################
 
-# great_moluccas_area = { #5 
-	# 654 655 656 2699 2700 
-# }
+mindanao_area = { #3 #East Mindanao
+	2701 2702 4355
+}
 
-# mindanao_area = { #4 
-	# 652 653 2701 2702
-# }
+west_mindanao_area = { #3
+	652 653 4354
+}
 
-# luzon_area = { #4
-	# 657 658 2697 2698
-# }
+visayas_area = { #5
+	654 2700 4351 4352 4353
+}
+
+palawan_area = { #3
+	651 655 4356
+}
+
+luzon_area = { #4 (Northern Luzon)
+	657 658 2698 4348
+}
+
+southern_luzon_area = { #5
+	656 2697 2699 4349 4350
+}
 
 north_sumatra_area = { #3
 	617 2673 2685
@@ -2174,8 +2187,8 @@ kalimantan_area = { #5
 	639 640 2706 2707 2708
 }
 
-molluca_area = { #5
-	645 651 2696 2717 2725
+molluca_area = { #4
+	645 2696 2717 2725
 }
 
 spice_islands_area = { #3
@@ -2254,9 +2267,13 @@ shikoku_area = { #3
 	1819 1820 4186
 }
 
-chubu_area = { #5
+eastern_chubu_area = { #4
+	1029 1839 4188 4360
+}
+
+chubu_area = { #3 (Western Chubu)
 	color = { 219 83 61 }
-	1029 1030 1835 1839 4188
+	1030 1835 4359
 }
 
 kinai_area = { #4
@@ -3866,23 +3883,23 @@ zambezi_area = {
 
 #Asia ########################################################
 
-#Phillipines 
+# #Phillipines Made obsolete by 1.24
 
-great_moluccas_area = { #5 
-	656 655 2699 4832 
-}
+# great_moluccas_area = { #5 
+	# 656 655 2699 4832 
+# }
 
-south_great_moluccas_area = {
-	2700 4833 4834 654
-}
+# south_great_moluccas_area = {
+	# 2700 4833 4834 654
+# }
 
-mindanao_area = { #4 
-	652 653 2701 2702 4835
-}
+# mindanao_area = { #4 
+	# 652 653 2701 2702 4835
+# }
 
-luzon_area = { #4
-	657 658 2697 2698 
-}
+# # luzon_area = { #4
+	# # 657 658 2697 2698 
+# # }
 
 #Russia
 

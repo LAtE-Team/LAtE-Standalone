@@ -1,0 +1,21 @@
+#4355 - Caraga
+
+culture = filipino
+religion = cult_of_saints
+capital = "Caraga"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 70
+native_ferocity = 2
+native_hostileness = 9
+discovered_by = chinese
+
+discovered_by = NRU 
+discovered_by = NRA
+
+add_core = DAV
+owner = DAV
+controller = DAV

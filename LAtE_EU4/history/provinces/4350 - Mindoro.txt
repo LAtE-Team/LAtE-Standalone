@@ -1,0 +1,14 @@
+#4350 - Mindoro
+
+culture = filipino
+religion = mahayana
+capital = "Caminawit"
+trade_goods = gems
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = NRU 
+discovered_by = NRA
