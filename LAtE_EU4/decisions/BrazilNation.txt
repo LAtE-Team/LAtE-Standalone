@@ -1,0 +1,87 @@
+country_decisions = {
+
+	reform_brazil = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = reformed_brazil_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			culture_group = brazilian_culture_group
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = BRZ }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 755 #Pernambuco
+			owns_core_province = 756 #Bahia
+			owns_core_province = 763 #Rio de Janeiro
+			owns_core_province = 766 #Sau Paulo
+			owns_core_province = 2857 #Rio Grande de Sul
+			owns_core_province = 765 #Minas Gerias
+		}
+		effect = {
+			change_tag = BRZ
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 2
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			set_country_flag = reformed_brazil_flag
+			
+			brazil_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
