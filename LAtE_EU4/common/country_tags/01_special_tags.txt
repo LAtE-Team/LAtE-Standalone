@@ -111,9 +111,12 @@ RJA = countries/Rojava.txt
 BAK = countries/Bakur.txt
 BSU = countries/Basur.txt
 
-# India
+# South Asia
 BOL = countries/Bollywood.txt
+XMS = countries/ChristmasIsland.txt
+CKI = countries/Cocos.txt
 ITU = countries/ItuWan.txt
+PNG = countries/Papua.txt
 ZOM = countries/Zomia.txt
 
 # Japan
@@ -131,6 +134,7 @@ YAM = countries/Yamauchi.txt
 AOT = countries/Aotearoa.txt
 AUR = countries/Auralia.txt
 BBQ = countries/BabaKiueria.txt
+BHP = countries/BrokenHill.txt
 DUN = countries/Dunedin.txt
 HTR = countries/HuttRiver.txt
 HWI = countries/Hawaii.txt

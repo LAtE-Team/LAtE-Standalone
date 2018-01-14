@@ -1,0 +1,7 @@
+government = despotic_monarchy
+government_rank = 2
+primary_culture = strayan
+religion = brethren
+technology_group = chinese
+capital = 1999	# Cocos
+

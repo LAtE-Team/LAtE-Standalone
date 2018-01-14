@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = papuan
+religion = sunni
+technology_group = chinese
+capital = 1237	# Port Moresby
+

@@ -1,0 +1,38 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+
+color = { 240  80  50 }
+
+monarch_names = {
+	"Nicholas #0" = 20
+	"Christopher #0" = 20
+	"Rupert #0" = 5
+	"Peter #0" = 5
+	"Rudolph #0" = 1
+	"Dasher #0" = 1
+	"Dancer #0" = 1
+	"Prancer #0" = 1
+	"Vixen #0" = -1
+	"Comet #0" = 1
+	"Cupid #0" = 1
+	"Donner #0" = 1
+	"Blitzen #0" = 1
+	
+	"Lucy #0" = -1
+	"Rebecca #0" = -1
+}
+
+leader_names = { 
+	Kringle
+	Claus
+	Noel
+	Krampus
+}
+
+ship_names = {
+	"Feliz Navidad"
+	Sleigh
+	Polaris
+}

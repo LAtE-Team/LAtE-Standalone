@@ -1,0 +1,6 @@
+government = elective_monarchy
+government_rank = 3
+primary_culture = malayan
+religion = sunni
+technology_group = chinese
+capital = 2392	# Selangor
