@@ -421,7 +421,7 @@ oldworld = {
 	
 	atomicist = {
 		color = { 0.75 0.95 0.2 }
-		icon = 28
+		icon = 86
 		country = {
 			defensiveness = 0.1
 			tolerance_own = 1

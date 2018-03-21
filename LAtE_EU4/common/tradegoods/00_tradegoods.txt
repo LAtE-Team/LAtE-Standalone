@@ -1800,7 +1800,37 @@ gems = {
 	}
 }
 
+coal = {
+	color = { 0.0 1.0 1.0 }
+	is_latent = yes
+	is_valuable = yes
 
+	rnw_latent_chance = 7 # Kind of on average how many provinces we want to spawn with it
+	
+	trigger = {
+		OR = {
+			development = 20
+			owner = { innovativeness = 20 }
+		}
+		provincial_institution_progress = {
+			which = enlightenment
+			value = 100
+		}
+		owner = { has_institution = enlightenment }
+	}
+	
+	modifier = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	province = {
+		local_state_maintenance_modifier = -0.2
+	}
+
+	chance = {
+		factor = 1
+	}
+}
 
 unknown = {
 	color = { 0.5 0.5 0.5 }
