@@ -1,0 +1,7 @@
+government = theocratic_government
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 93	# Liège
+add_accepted_culture = flemish
