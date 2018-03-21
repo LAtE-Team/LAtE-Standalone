@@ -3,7 +3,7 @@ owner = X40
 controller = X40
 add_core = X40
 culture = newfie
-religion = high_church
+religion = anglican
 citysize = 2000
 add_core = X42
 discovered_by = eastern
@@ -715,5 +715,5 @@ discovered_by = X17
 	owner = X40
 	controller = X40
 	culture = newfie
-	religion = high_church
+	religion = anglican
 }

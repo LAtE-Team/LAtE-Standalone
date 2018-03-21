@@ -3,7 +3,7 @@ owner = MRT
 controller = MRT
 add_core = MRT
 culture = acadien
-religion = high_church
+religion = anglican
 citysize = 2000
 add_core = Y41
 discovered_by = eastern
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = MRT
 	controller = MRT
 	culture = acadien
-	religion = high_church
+	religion = anglican
 }

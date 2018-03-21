@@ -3,7 +3,7 @@ owner = ONT
 controller = ONT
 add_core = ONT
 culture = anishinabe
-religion = high_church
+religion = anglican
 citysize = 2000
 add_core = Y70
 discovered_by = eastern
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = ONT
 	controller = ONT
 	culture = anishinabe
-	religion = high_church
+	religion = anglican
 }
