@@ -279,40 +279,40 @@ christian = {
 		
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 	}
-	high_church = {
-		color = { 0.45 0.65 0.7 }
-		icon = 37
-		country = {
-			tolerance_own = 2
-			stability_cost_modifier = -0.2
-		}
-		province = {
-			local_tax_modifier = -0.1
-		}
-		country_as_secondary = {
-			stability_cost_modifier = -0.2
-		}
-		hre_heretic_religion = yes
-		
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-		
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
-		
-	}
+	#high_church = { #This is Anglican now
+	#	color = { 0.45 0.65 0.7 }
+	#	icon = 37
+	#	country = {
+	#		tolerance_own = 2
+	#		stability_cost_modifier = -0.2
+	#	}
+	#	province = {
+	#		local_tax_modifier = -0.1
+	#	}
+	#	country_as_secondary = {
+	#		stability_cost_modifier = -0.2
+	#	}
+	#	hre_heretic_religion = yes
+	#	
+	#	uses_church_power = yes				# Uses church power/aspect mechanics
+	#	aspects = {
+	#		organised_through_bishops_aspect
+	#		priests_may_marry_aspect
+	#		adult_baptism_aspect
+	#		holy_sacraments_aspect
+	#		saints_accept_prayers_aspect
+	#		icons_images_aspect
+	#		legalised_divorces_aspect
+	#		heretics_deported_aspect
+	#		parish_registers_aspect
+	#		individual_creeds_aspect
+	#		allow_usury_aspect
+	#		translated_bibles_aspect
+	#	}
+	#	
+	#	heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+	#	
+	#}
 
 	charismatic = {
 		color = { 0.7 0.9 0.95 }

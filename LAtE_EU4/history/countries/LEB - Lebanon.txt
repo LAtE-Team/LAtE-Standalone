@@ -1,5 +1,5 @@
 government = feudal_monarchy
 primary_culture = al_suryah_arabic
-religion = matrem
+religion = catholic #No, seriously, that's the joke
 technology_group = indian
 capital = 1855	# Sidon

@@ -1,5 +1,9 @@
 #1751 - Ceuta
 
+owner = MOR
+controller = MOR
+add_core = MOR
+is_city = yes
 culture = moroccan
 religion = brethren
 capital = "Cebta"

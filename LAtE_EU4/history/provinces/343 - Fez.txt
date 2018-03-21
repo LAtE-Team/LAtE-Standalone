@@ -1,5 +1,9 @@
 #343 - Fez
 
+owner = MOR
+controller = MOR
+add_core = MOR
+is_city = yes
 culture = moroccan
 religion = sunni
 capital = "Fez"
@@ -16,7 +20,4 @@ native_hostileness = 0
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-discovered_by = indian
 discovered_by = indian

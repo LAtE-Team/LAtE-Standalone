@@ -1,0 +1,7 @@
+government = tribal_kingdom
+primary_culture = moroccan
+religion = brethren
+technology_group = high_american
+capital = 344 # Marrakech
+add_accepted_culture = berber
+

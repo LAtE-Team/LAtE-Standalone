@@ -1,5 +1,9 @@
 # - Abda
 
+owner = MOR
+controller = MOR
+add_core = MOR
+is_city = yes
 culture = moroccan
 religion = brethren
 capital = "Mazzagan"
@@ -15,8 +19,5 @@ native_hostileness = 9
 
 
 discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED

@@ -3,7 +3,7 @@
 owner = LEB
 controller = LEB
 culture = al_suryah_arabic
-religion = matrem
+religion = catholic
 capital = "Sayda"
 trade_goods = unknown
 hre = no

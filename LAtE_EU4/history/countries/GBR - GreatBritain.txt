@@ -7,8 +7,16 @@ primary_culture = british
 religion = thelemic
 clear_scripted_personalities = yes
 capital = 236
-3053.1.1 {
+3053.1.1 = {
 	capital = 236
 	add_treasury = 0
 	add_prestige = 4
+	monarch = {
+		name = "Oliver"
+		birth_date = 2999.4.25
+		dynasty = "Crowley"	
+		adm = 3
+		dip = 3
+		mil = 6
+	}
 }
