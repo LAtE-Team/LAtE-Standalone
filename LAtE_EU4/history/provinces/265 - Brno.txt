@@ -4,7 +4,7 @@
 #controller = BOH
 capital = "Brunn"
 culture = czech
-religion = catholic
+religion = matrem
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -12,42 +12,9 @@ base_production = 1
 base_manpower = 1
 estate = estate_burghers
 is_city = no
-#add_core= BOH
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { revolt = { type = heretic_rebels size = 2 } #controller = REB } # Hussite Wars, Battle of Nekmir
-# = { revolt = {} #controller = BOH } # Peace is signed in Jihlava
-# = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns
-# = { unrest = 1 } # The Catholic nobility is still undermines the crown.
-# = { unrest = 0 }
-# = {
-	#owner = HAB
-	#controller = HAB
-	#add_core= HAB
-	remove_core = BOH
-#} # Battle of Mohac where Lajos II dies -> Habsburg succession
-# = { # Defenestration of Prague
-	#owner = BOH
-	#controller = BOH
-	#add_core= BOH
-#}
-# = {
-	#owner = HAB
-	#controller = HAB
-	remove_core = BOH
-#} # Tilly beats the Winterking. Deus Vult!
-# = { hre = no } # The Holy Roman Empire is dissolved
 
 
 native_size = 5

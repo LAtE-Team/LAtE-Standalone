@@ -19,3 +19,5 @@
  tooltip_any_friendly_coast_border_province_has_embraced_renaissance:1 "Nearby Friendly Province has §YIterumnalia§!"
  birthplace_of_the_renaissance_institution:1 "Birthplace of the Iterumnalia"
  desc_birthplace_of_the_renaissance_institution:1 "This province was a major center of the Iterumnalia and still benefits from the developments that brought."
+ australia:1 "Sydney"
+ california:1 "San Francisco"
