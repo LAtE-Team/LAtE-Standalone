@@ -1,9 +1,9 @@
 ck2_converter_generated = yes
-owner = RIO
-controller = RIO
-add_core = RIO
-culture = tejano
-religion = cult_of_saints
+owner = HOU
+controller = HOU
+add_core = HOU
+culture = texan
+religion = consumerist
 citysize = 2000
 add_permanent_claim = Y77
 discovered_by = eastern
@@ -711,8 +711,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = RIO
-	controller = RIO
-	culture = tejano
-	religion = cult_of_saints
+	owner = HOU
+	controller = HOU
+	culture = texan
+	religion = consumerist
 }

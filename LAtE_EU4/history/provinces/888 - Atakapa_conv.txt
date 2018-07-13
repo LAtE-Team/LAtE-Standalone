@@ -1,9 +1,9 @@
 ck2_converter_generated = yes
-owner = Y77
-controller = Y77
-add_core = Y77
+owner = HOU
+controller = HOU
+add_core = HOU
 culture = texan
-religion = neoroman
+religion = consumerist
 citysize = 2000
 discovered_by = eastern
 discovered_by = western
@@ -711,8 +711,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = Y77
-	controller = Y77
+	owner = HOU
+	controller = HOU
 	culture = texan
-	religion = neoroman
+	religion = consumerist
 }

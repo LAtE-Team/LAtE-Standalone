@@ -1,25 +1,25 @@
-# Jacinto
+# Houston
 government = feudal_monarchy
 government_rank = 2
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = texan
-religion = neoroman
+religion = consumerist
 clear_scripted_personalities = yes
 capital = 2665
 3053.1.1 {
 	monarch = {
-		name = "Freeman II"
-		birth_date = 3028.9.13
-		dynasty = "Rusk"
-		adm = 3
-		dip = 2
-		mil = 4
+		name = "Clyde II"
+		birth_date = 3024.9.13
+		dynasty = "Schmidt"
+		adm = 4
+		dip = 4
+		mil = 6
 	}
-
+	add_ruler_personality = midas_touched_personality
 }
 3053.1.1 {
-	capital = 2665
+	capital = 888
 	add_treasury = 3
-	add_prestige = 40
+	add_prestige = 142
 }

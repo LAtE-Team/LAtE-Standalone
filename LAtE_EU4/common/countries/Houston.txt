@@ -1,0 +1,122 @@
+# Houston
+graphical_culture = westerngfx
+color = { 108 109 178 }
+
+
+
+
+leader_names = {
+
+	"Buckaroo #0" = 0
+	"Cody #0" = 0
+	"Benjamin #0" = 0
+	"Chance #0" = 0
+	"Bud #0" = 0
+	"Clyde #0" = 0
+	"Cliff #0" = 0
+	"Mitch #0" = 0
+	"Maddox #0" = 0
+	"Monty #0" = 0
+	"Morgan #0" = 0
+	"Thaddeus #0" = 0
+	"Taddeo #0" = 0
+	"Bobby #0" = 0
+	"Chris #0" = 0
+	"Cooper #0" = 0
+	"Dolphin #0" = 0
+	"Ezra #0" = 0
+	"Floyd #0" = 0
+	"Gene #0" = 0
+	"Horace #0" = 0
+	"Ike #0" = 0
+	"Joshua #0" = 0
+	"Lewis #0" = 0
+	"Micajah #0" = 0
+	"Nap #0" = 0
+	"Preston #0" = 0
+	"Rex #0" = 0
+	"Samuel #0" = 0
+	"Thomas #0" = 0
+	"Virgil #0" = 0
+	"Wiley #0" = 0
+	"Zane #0" = 0
+	"Andy #0" = 0
+	"Robert #0" = 0
+	"Christopher #0" = 0
+	"Chase #0" = 0
+	"Dalton #0" = 0
+	"Emory #0" = 0
+	"Galba #0" = 0
+	"Hiram #0" = 0
+	"Jake #0" = 0
+	"Louis #0" = 0
+	"Micaiah #0" = 0
+	"Louis #0" = 0
+	"Micaiah #0" = 0
+	"Perry #0" = 0
+	"Royce #0" = 0
+	"Squire #0" = 0
+	"Toby #0" = 0
+	"Weston #0" = 0
+ }
+monarch_names = {
+	"Buckaroo #0" = 0
+	"Cody #0" = 0
+	"Benjamin #0" = 0
+	"Chance #0" = 0
+	"Bud #0" = 0
+	"Clyde #0" = 0
+	"Cliff #0" = 0
+	"Mitch #0" = 0
+	"Maddox #0" = 0
+	"Monty #0" = 0
+	"Morgan #0" = 0
+	"Thaddeus #0" = 0
+	"Taddeo #0" = 0
+	"Bobby #0" = 0
+	"Chris #0" = 0
+	"Cooper #0" = 0
+	"Dolphin #0" = 0
+	"Ezra #0" = 0
+	"Floyd #0" = 0
+	"Gene #0" = 0
+	"Horace #0" = 0
+	"Ike #0" = 0
+	"Joshua #0" = 0
+	"Lewis #0" = 0
+	"Micajah #0" = 0
+	"Nap #0" = 0
+	"Preston #0" = 0
+	"Rex #0" = 0
+	"Samuel #0" = 0
+	"Thomas #0" = 0
+	"Virgil #0" = 0
+	"Wiley #0" = 0
+	"Zane #0" = 0
+	"Andy #0" = 0
+	"Robert #0" = 0
+	"Christopher #0" = 0
+	"Chase #0" = 0
+	"Dalton #0" = 0
+	"Emory #0" = 0
+	"Galba #0" = 0
+	"Hiram #0" = 0
+	"Jake #0" = 0
+	"Louis #0" = 0
+	"Micaiah #0" = 0
+	"Louis #0" = 0
+	"Micaiah #0" = 0
+	"Perry #0" = 0
+	"Royce #0" = 0
+	"Squire #0" = 0
+	"Toby #0" = 0
+	"Weston #0" = 0
+
+
+	"Tuapuri #0" = -1
+	"Lola #0" = -1
+	"Güera #0" = -1
+	"Aleida #0" = -1
+	"Ximena #0" = -1
+}
+

@@ -1,9 +1,9 @@
 ck2_converter_generated = yes
-owner = Y77
-controller = Y77
-add_core = Y77
-culture = tejano
-religion = cult_of_saints
+owner = HOU
+controller = HOU
+add_core = HOU
+culture = texan
+religion = consumerist
 citysize = 2000
 add_core = Y78
 discovered_by = eastern
@@ -712,8 +712,9 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = Y77
-	controller = Y77
-	culture = tejano
-	religion = cult_of_saints
+	owner = HOU
+	controller = HOU
+	culture = texan
+	religion = consumerist
 }
+
