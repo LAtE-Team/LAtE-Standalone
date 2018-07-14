@@ -4,6 +4,7 @@ controller = QUE
 add_core = QUE
 culture = quebecois
 religion = ursuline
+trade_goods = glass
 citysize = 2000
 discovered_by = eastern
 discovered_by = western

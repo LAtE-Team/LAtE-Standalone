@@ -487,6 +487,7 @@ country_event = {
 		every_province = {
 			limit = {
 				OR = {
+					province_id = 893 #New Orleans
 					province_id = 4555 #Detroit
 					province_id = 4563 #Chicago
 					province_id = 4571 #Superio

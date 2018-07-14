@@ -4,6 +4,7 @@ controller = PAP
 add_core = PAP
 culture = riverlander
 religion = catholic
+trade_goods = paper #The Papacy
 citysize = 2000
 discovered_by = eastern
 discovered_by = western

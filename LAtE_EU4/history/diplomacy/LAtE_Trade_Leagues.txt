@@ -10,15 +10,15 @@ alliance = {
 
 alliance = {
 	first = Z02 #Orleans
-	second = Z34 #Baton Rouge
+	second = Z35 #Itta Homma
 	trade_league = 1
 	start_date = 3040.1.1
 	end_date = 3200.1.1
 }
 
 alliance = {
-	first = Z02 #Montgomery
-	second = Z49 #
+	first = Z02 #Orleans
+	second = Z49 #Montgomery
 	trade_league = 1
 	start_date = 3040.1.1
 	end_date = 3200.1.1

@@ -4,6 +4,7 @@ controller = DES
 add_core = DES
 culture = utahn
 religion = mormon
+trade_goods = salt #SALT Lake
 citysize = 2000
 add_permanent_claim = Y97
 discovered_by = eastern

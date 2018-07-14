@@ -4,6 +4,7 @@ controller = X69
 add_core = X69
 culture = riverlander
 religion = catholic
+trade_goods = gold #Fort Knox
 citysize = 2000
 discovered_by = eastern
 discovered_by = western

@@ -4,6 +4,7 @@ controller = Z53
 add_core = Z53
 culture = gulfard
 religion = protestant
+trade_goods = paper #Bishopric of Jackson
 citysize = 2000
 add_permanent_claim = Z01
 add_permanent_claim = Z92

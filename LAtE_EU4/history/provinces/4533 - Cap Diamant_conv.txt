@@ -4,6 +4,7 @@ controller = URS
 add_core = URS
 culture = quebecois
 religion = ursuline
+trade_goods = paper #Ursuline See
 citysize = 2000
 add_permanent_claim = QUE
 discovered_by = eastern
