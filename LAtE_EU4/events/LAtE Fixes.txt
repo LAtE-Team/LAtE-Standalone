@@ -1,0 +1,29 @@
+# Small scripts to patch up annoying converter issues at game start. Fired from on_actions.
+
+#Metis fort-remover
+#The game insists on starting the Metis horde with way too many forts than they can afford.
+#This event removes them, and cancels out the first month of fort maintenance they have to pay.
+
+country_event = {
+	id = fixes.1
+	title = "fixes.1.title"
+	desc = "fixes.1.desc"
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = MTC #Metis
+	}
+	
+	option = {
+		name = "fixes.1.a"
+		every_owned_province = {
+			limit = {
+				is_capital = no
+				fort_level = 1
+			}
+			remove_building = fort_15th
+		}
+	}
+}
