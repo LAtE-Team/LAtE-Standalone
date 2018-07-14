@@ -3,7 +3,7 @@ owner = Y29
 controller = Y29
 add_core = Y29
 culture = rostmann
-religion = consumerist
+religion = catholic
 citysize = 2000
 add_core = Y30
 discovered_by = eastern
@@ -715,7 +715,7 @@ discovered_by = X17
 	owner = Y29
 	controller = Y29
 	culture = rostmann
-	religion = consumerist
+	religion = catholic
 
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier

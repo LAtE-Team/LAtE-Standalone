@@ -3,7 +3,7 @@ owner = Y29
 controller = Y29
 add_core = Y29
 culture = rostmann
-religion = consumerist
+religion = catholic
 citysize = 2000
 add_permanent_claim = Y34
 add_core = Y31
@@ -716,5 +716,5 @@ discovered_by = X17
 	owner = Y29
 	controller = Y29
 	culture = rostmann
-	religion = consumerist
+	religion = catholic
 }
