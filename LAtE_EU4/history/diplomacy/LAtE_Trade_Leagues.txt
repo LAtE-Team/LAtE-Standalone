@@ -1,0 +1,43 @@
+# New Orleans Trade League
+
+alliance = {
+	first = Z02 #Orleans
+	second = Z40 #Mobile
+	trade_league = 1
+	start_date = 3040.1.1
+	end_date = 3200.1.1
+}
+
+alliance = {
+	first = Z02 #Orleans
+	second = Z34 #Baton Rouge
+	trade_league = 1
+	start_date = 3040.1.1
+	end_date = 3200.1.1
+}
+
+alliance = {
+	first = Z02 #Montgomery
+	second = Z49 #
+	trade_league = 1
+	start_date = 3040.1.1
+	end_date = 3200.1.1
+}
+
+#New York Trade League
+
+alliance = {
+	first = NYS #New York
+	second = Z36 #Philadelphia
+	trade_league = 1
+	start_date = 3050.1.1
+	end_date = 3200.1.1
+}
+
+alliance = {
+	first = NYS #New York
+	second = Z34 #Baltimore
+	trade_league = 1
+	start_date = 3050.1.1
+	end_date = 3200.1.1
+}
