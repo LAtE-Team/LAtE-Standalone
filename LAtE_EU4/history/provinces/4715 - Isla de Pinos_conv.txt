@@ -1,6 +1,7 @@
 ck2_converter_generated = yes
-owner = CBN
-controller = CBN
+owner = Z02 #New Orleans
+controller = Z02 #New Orleans
+add_core = Z02 #New Orleans
 add_core = CBN
 culture = cubano
 religion = santeria
@@ -711,8 +712,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = CBN
-	controller = CBN
+	owner = Z02
+	controller = Z02
 	culture = cubano
 	religion = santeria
 }
