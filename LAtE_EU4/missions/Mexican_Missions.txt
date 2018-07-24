@@ -1,0 +1,653 @@
+mex_conquer_southeast_1 = {
+	slot = 1 #upper left column
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = MEX
+	}
+	has_country_shield = yes
+	
+	conquer_rio_grande = {
+		icon = mission_non-western_soldiers
+		required_missions = {  }
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			province_id = 2668
+			province_id = 2614
+			province_id = 2667
+			province_id = 861
+			province_id = 2619
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 2668
+			owns = 2614
+			owns = 2667
+			owns = 861
+			owns = 2619
+		}
+		effect = {
+			every_province = {
+				limit = {
+					province_id = 2498
+					province_id = 2666
+					province_id = 883
+					province_id = 884 
+					province_id = 888
+					province_id = 2500
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_texas = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { conquer_rio_grande }
+		position = 2
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			province_id = 2498
+			province_id = 2666
+			province_id = 883
+			province_id = 884 
+			province_id = 888
+			province_id = 2500
+		}
+		trigger = {
+			owns = 2498
+			owns = 2666
+			owns = 883
+			owns = 884 
+			owns = 888			
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = texas_area
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					area = coastal_prarie_area
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					area = llano_estacado_area
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					area = lower_plains_area
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_estacado = {
+		icon = mission_arabian_fort
+		required_missions = { conquer_texas }
+		position = 3
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = llano_estacado_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			llano_estacado_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "expansionist_country"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	conquer_chichimeca = { #Conquer Chichimeca
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		completed_by = 3100.1.1
+		position = 5
+		trigger = {
+			gran_chichimeca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		provinces_to_highlight = {
+			area = gran_chichimeca_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			jalisco_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sinaloa_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			durango_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_sinaloa = {
+		icon = mission_non-western_soldiers
+		required_missions = { conquer_chichimeca }
+		position = 6
+		provinces_to_highlight = {
+			area = sinaloa_area 
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			sinaloa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		completed_by = 3100.1.1
+		effect = {
+			sonora_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_sonora = {
+		icon = mission_arabian_fort
+		required_missions = { conquer_sinaloa }
+		position = 7
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = sonora_y_sinaloa_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			sonora_y_sinaloa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			arizona_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			baja_california_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_baja = {
+		icon = mission_invade_island
+		required_missions = { conquer_sonora }
+		position = 7
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = baja_california_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			baja_california_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = socal_area
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_socal = {
+		icon = mission_conquer_50_development
+		required_missions = { conquer_baja }
+		position = 8
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = socal_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			socal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = gran_francisco_area
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_the_valley = {
+		icon = mission_rice_field
+		required_missions = { conquer_socal }
+		position = 9
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			province_id = 4737 
+			province_id = 4739
+			province_id = 2537
+			province_id = 4575
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			4737 = {
+				owned_by = ROOT
+			}
+			4739 = {
+				owned_by = ROOT
+			}
+			2537 = {
+				owned_by = ROOT
+			}
+			4575 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = south_valley_area
+						area = kern_area
+						area = los_padres_area
+						area = salinas_area
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+mex_conquer_southeast_2 = {
+	slot = 2
+	ai = yes
+	
+	potential = {
+		tag = MEX
+	}
+	
+	has_country_shield = yes
+	conquer_durango = {
+		icon = mission_cannons_firing
+		required_missions = { conquer_chichimeca }
+		position = 6
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = durango_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			durango_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = new_mexico_area
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_new_mexico = {
+		icon = mission_non-western_soldiers
+		required_missions = { conquer_durango }
+		position = 7
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = new_mexico_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			new_mexico_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = colorado_plateau_area
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+mex_conquer_southeast_3 = {
+	slot = 3
+	ai = yes
+	
+	potential = {
+		tag = MEX
+	}
+	
+	has_country_shield = yes
+	conquer_jalisco = {
+		icon = mission_unite_home_region
+		required_missions = { conquer_chichimeca }
+		position = 6
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = jalisco_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			jalisco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "expansionist_country"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	
+}
+
+mex_pacific = {
+	slot = 5
+	ai = yes
+	has_country_shield = yes
+	
+	mex_a_port_on_the_pacific = {	#May be made a more general mission 
+		icon = mission_galleys_in_port
+		required_missions = {  }
+		position = 3
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			region = mexico_region
+			has_port = yes
+			NOT = {
+				area = texas_area
+				area = rio_grande_area
+				area = eastern_mexico_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_mex_pacific_coast_1
+				any_province = {
+					region = mexico_region
+					has_port = yes
+					NOT = {
+						area = texas_area
+						area = rio_grande_area
+						area = eastern_mexico_area
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					region = mexico_region
+					has_port = yes
+					NOT = {
+						area = texas_area
+						area = rio_grande_area
+						area = eastern_mexico_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mex_secure_pacific_coast = {
+		icon = mission_sea_battles
+		required_missions = { mex_a_port_on_the_pacific }
+		position = 4
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			region = mexico_region
+			has_port = yes
+			NOT = {
+				area = texas_area
+				area = rio_grande_area
+				area = eastern_mexico_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_mex_pacific_coast_2
+				num_of_owned_provinces_with = {
+					value = 5
+					region = mexico_region
+					has_port = yes
+					NOT = {
+						area = texas_area
+						area = rio_grande_area
+						area = eastern_mexico_area
+					}
+				}
+			}			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	mex_discover_china = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { mex_secure_pacific_coast }
+		position = 5
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		
+		provinces_to_highlight = {
+			region = south_china_region
+			region = north_china_region
+			NOT = { owned_by = ROOT }
+			has_discovered = ROOT
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_mex_discover_china_1
+				north_china_region = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = miss_mex_discover_china_2
+				south_china_region = {
+					has_discovered = ROOT
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "the_unknown_frontier"
+				duration = 5475
+			}
+		}
+	}
+	mex_colonise_china = {
+		icon = mission_colonial
+		required_missions = { 
+			mex_discover_china
+		}
+		completed_by = 3100.1.1
+		position = 6
+		
+		provinces_to_highlight = {
+			colonial_region = colonial_north_china
+			colonial_region = colonial_south_china
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = { 
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = miss_mex_colonise_china_1
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 10
+						OR = {
+							colonial_region = colonial_north_china
+						}
+						is_city = yes
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = miss_mex_colonise_china_2
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 10
+						OR = {
+							colonial_region = colonial_south_china
+						}
+						is_city = yes
+					}
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				create_conquistador = 80
+			}
+		}
+	}
+}
+
