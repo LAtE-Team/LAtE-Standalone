@@ -13,6 +13,11 @@ harmonized_gaian = {
 	religion = yes
 }
 
+harmonized_nousthreskeia = {
+	technology_cost = -0.07 #
+	religion = yes
+}
+
 # Religion Groups
 harmonized_oldworld = {
 	global_institution_spread = 0.16 #

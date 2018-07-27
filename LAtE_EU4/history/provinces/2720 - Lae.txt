@@ -1,5 +1,9 @@
 #2720 - Lae
 
+owner = PNG
+controller = PNG
+add_core = PNG
+is_city = yes
 culture = papuan
 religion = animism
 capital = "Lae"
@@ -12,5 +16,4 @@ native_size = 40
 native_ferocity = 6
 native_hostileness = 4
 
-# = { discovered_by = POR } # Don Jorge de Mneses
-# = { discovered_by = GBR } # William Dampier
+discovered_by = chinese

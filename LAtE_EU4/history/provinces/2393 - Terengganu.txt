@@ -1,7 +1,7 @@
 #2393 - Terengganu
 
-#owner = MLC
-#controller = MLC
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
 capital = "Terengganu"
@@ -10,23 +10,13 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
-is_city = no
-#add_core= MLC
-#add_core= JOH
+is_city = yes
+add_core= MSA
 
 
 
 discovered_by = chinese
 discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-
-# = { discovered_by = POR } # Godinho de Eredia
-
-# = {
-	#owner = JOH
-	#controller = JOH
-#}
 
 
 native_size = 5

@@ -27,7 +27,7 @@ native_hostileness = 3
 	#add_core= POR
 	is_city = no
 	capital = "Vigia"
-	culture = amazonico
+	culture = amazonense
 	religion = candomble
 	trade_goods = sugar
 #}

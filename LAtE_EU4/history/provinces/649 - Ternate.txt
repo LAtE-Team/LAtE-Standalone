@@ -1,7 +1,7 @@
 #649 - Ternate
 
-#owner = TER
-#controller = TER
+owner = TER
+controller = TER
 culture = moluccan
 religion = brethren
 capital = "Ternate"
@@ -10,8 +10,8 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
-is_city = no
-#add_core= TER
+is_city = yes
+add_core= TER
 
 
 

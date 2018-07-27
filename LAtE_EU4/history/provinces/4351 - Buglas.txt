@@ -1,7 +1,7 @@
 #4351 - Buglas
 
 culture = filipino
-religion = animism
+religion = cult_of_saints
 capital = "Silay"
 trade_goods = sugar
 hre = no

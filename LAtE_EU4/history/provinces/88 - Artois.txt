@@ -18,37 +18,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA #add_core= FRA remove_core = BUR } # Charles the Bold dies and Louis XII takes Artois
-# = { #owner = HAB #controller = HAB #add_core= HAB } # Frederick III dies, Charles VII cedes Artois to Maximilian I von Habsburg
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
-# = { remove_core = FRA } # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces all claims
-# = { hre = no } # Artois incorporated into the Holy Roman Empire
-# = { unrest = 3 } # New bishoprics established in the Lowlands create an outrage
-# = { unrest = 4 } # 'Beeldenstorm' at hand
-# = { revolt = { type = heretic_rebels size = 2 } #controller = REB } # 'Beeldenstorm' also hits parts of Artois
-# = { revolt = {} #controller = SPA } # Spain is back in control
-# = { unrest = 7 } # The Duke of Alba reforms the taxation system ('tiende penning')
-# = { unrest = 11  } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
-# = { unrest = 5 } # The 'Perpetual Edict' (Eeuwig Edict) is accepted by Don Juan
-# = { unrest = 0 } # The Union of Arras is formed
-# = { capital = "Lille" } # Lille becomes more important than Arras
-# = { #controller = FRA } # French troops capture parts of the Southern Lowlands
-# = { #controller = SPA } # Peace of Münster/Westphalia
-# = { #add_core= FRA } # Chambers of Reunion
-# = { #controller = FRA } # French troops capture most of the area
-# = { #owner = FRA remove_core = SPA } # Peace of the Pyrenees
-# = { culture = cosmopolitan_french }
-# = { base_tax = 1
-base_production = 1} # The General Estates
-# = { hre = no } # The Holy Roman Empire is dissolved
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

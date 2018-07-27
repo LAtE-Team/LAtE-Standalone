@@ -1,5 +1,9 @@
 #2717 - Sula
 
+owner = TER
+controller = TER
+add_core = TER
+is_city = yes
 culture = moluccan
 religion = sunni
 capital = "Sula"

@@ -17,23 +17,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA #add_core= FRA remove_core = NEV }
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

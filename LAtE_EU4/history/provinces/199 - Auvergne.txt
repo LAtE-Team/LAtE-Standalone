@@ -20,42 +20,9 @@ estate = estate_nobles
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= BOU }
-# = { religion = reformed }
-# = { unrest = 8 } # France is restless once again as ultra-cult_of_reason intentions become clear
-# = { unrest = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
-# = { unrest = 10 } # Edict of Saint-Germain: temporary pacification
-# = { unrest = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
-# = { unrest = 7 } # Charles IX dies, situation cools a bit	
-# = { unrest = 12 } # Situation heats up again
-# = { unrest = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { #owner = NAV #controller = NAV #add_core= NAV remove_core = AUV }
-# = { #owner = FRA #controller = FRA remove_core = NAV } # Auvergne becomes part of France proper
-# = { unrest = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 } # Edict of Nantes, alot more freedom to the protestants
-# = { unrest = 0 } # Peace of Vervins, formal end to the Wars of Religion
-# = { capital = "Clermont-Ferrand" } # Cities of Clermont & Ferrand merged
-# = { unrest = 5 }
-# = { unrest = 0 }
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
-# = { religion = cult_of_reason } # Dragonnard campaign succesful: region reverts back to cult_of_reasonism
-# = { unrest = 0 } # War of the Grand Alliance erupts: Louis XIV can't persue his religious policy anymore
-# = { unrest = 7 } # War of Spanish Succession erupts: The Camisards see an opportunity to revolt against Louis XIV
-# = { unrest = 0 revolt = { type = heretic_rebels size = 2 } #controller = REB } # Camisard rebels in control
-# = { revolt = {} #controller = FRA unrest = 3 } # Camisard rebellion ends, isolated aggression continues until 1710
-# = { unrest = 0 }
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -88,6 +88,15 @@ colonial_west_africa = {
 		}
 		name = "COLONIAL_WEST_AFRICA_Maryland"
 	}
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = west_indian
+				primary_culture = gullah
+			}
+		}
+		name = "COLONIAL_WEST_AFRICA_Sierra_Leone"
+	}
 	
 	#Generic
 	names = {

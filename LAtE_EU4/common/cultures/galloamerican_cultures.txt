@@ -1,18 +1,22 @@
 galloamerican = {
 	quebecois = {
 		primary = QUE
-		dynasty_names = { "Castel" "Chauveau" "Demers" "de Mékinac" "de Rimouski" "Castel" "de Quyon" "de Victoriaville" "de Clermont" "Chauveau" "de Montecristo" "de Maskinongé" "de Mirabel" "de Montecristo" "d'Anjou" "de Montecristo" "de Montecristo" "de Montecristo" "de Montecristo" "de Montecristo" }
+		dynasty_names = $quebecois$
 	}
 	acadien = {
 		primary = CAN
-		dynasty_names = { }
+		dynasty_names = $acadien$
 	}
 	creole = {
 		primary = LOU
-		dynasty_names = { }
+		dynasty_names = $creole$
 	}
 	cajun = {
 		primary = LOU
-		dynasty_names = { }
+		dynasty_names = $cajun$
+	}
+	ontarois = {
+		primary = ONT
+		dynasty_names = $ontarois$
 	}
 }

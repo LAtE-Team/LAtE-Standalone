@@ -1,5 +1,9 @@
 #2724 - Asmat
 
+owner = PNG
+controller = PNG
+add_core = PNG
+is_city = yes
 culture = papuan
 religion = animism
 capital = "Asmat"
@@ -14,9 +18,5 @@ native_hostileness = 8
 
 
 
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
-
-# = { discovered_by = POR } # Don Jorge de Mneses
+discovered_by = chinese
 

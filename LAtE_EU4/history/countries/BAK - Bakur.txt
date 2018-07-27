@@ -4,3 +4,4 @@ technology_group = indian
 religion = sunni
 primary_culture = kurdish
 capital = 2306 #Mush
+religious_school = shafii_school

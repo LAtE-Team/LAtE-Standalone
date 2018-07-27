@@ -17,23 +17,9 @@ is_city = no
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { unrest = 7 } # Luzern Peasant War
-# = { unrest = 0 }
-# = { unrest = 7 } #Second War of Kappel
-# = { unrest = 0 }
-# = { hre = no } # end of Thirty Years War
-# = { unrest = 5 } # Peasant rebellion against overtaxation
-# = { unrest = 0 }
-# = { unrest = 7 } # Protestants are expelled from Schwyz which lead to the First War of Villmergen
-# = { unrest = 2 } # An agreement is concluded at Villmergren but tensions remain
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -18,19 +18,9 @@ estate = estate_nobles
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= FRA }
-# = { #owner = FRA #controller = FRA } # Union Treaty
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { capital = "Lorient" }
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

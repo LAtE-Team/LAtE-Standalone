@@ -18,25 +18,9 @@ estate = estate_church
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= FRA }
-# = { #owner = FRA #controller = FRA } # Union Treaty
-# = { religion = reformed }
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 } # Revolt imminent
-# = { unrest = 0 }
-# = { unrest = 3 } 
-# = { unrest = 0 }
-# = { religion = cult_of_reason } # Dragonnard campaign succesful: region reverts back to cult_of_reasonism
-# = { base_tax = 1ase_production = 1 # The Eden Agreement }
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

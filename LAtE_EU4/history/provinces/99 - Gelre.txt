@@ -17,61 +17,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = BUR #controller = BUR #add_core= BUR } # Charles the Bold annexes Gelre
-# = {
-	#owner = HAB
-	#controller = HAB
-	#add_core= HAB
-	remove_core = BUR
-#} # Charles the Bold dies and Gelre goes to the Habsburgs
-# = { 
-	#owner = GEL
-	#controller = GEL
-#} # Karel van Gelre is released from prison and assumes control of Gelre by right of the Egmond family.
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB } # Charles V annexes Gelre
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { unrest = 3 } # New bishoprics in the Lowlands create an outrage
-# = { unrest = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
-# = { unrest = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
-# = { unrest = 4 } # Counts of Egmont & Hoorne arrested
-# = { unrest = 6 } # Counts of Egmont & Hoorne beheaded
-# = { unrest = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
-# = { unrest = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
-# = { unrest = 0 revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Rebels rise up in Gelre & Zutphen
-# = { revolt = {} #controller = SPA unrest = 10 } # Don Frederique takes control of Gelre for Spain again
-# = { unrest = 16 } # Eeuwig Edict accepted by Don Juan
-# = {	
-	#owner = NED
-	#controller = NED
-	#add_core= NED 
-	remove_core = SPA
-	unrest = 0
-#} # Union of Utrecht, Gelre joins
-# = { #controller = SPA unrest = 15 } # Alessandro Farnese captures Zutphen and the surrounding lands
-# = { #controller = NED unrest = 0 } # The Republic takes back Zutphen and surrounding areas
-# = { hre = no } # The Peace of Westphalia
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = NED } # Peace of Nijmegen (Netherlands-France)
-# = { base_tax = 1
-base_production = 1 # Protestants expelled from France
-# = {	
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Annexed by France
-# = {	
-	#owner = NED
-	#controller = NED
-	remove_core = FRA
-#} # William returns to the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

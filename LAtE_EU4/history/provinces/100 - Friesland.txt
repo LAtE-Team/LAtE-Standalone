@@ -17,45 +17,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= BUR }
-# = { #owner = BUR #controller = BUR } # Charles the Bold annexes Friesland
-# = { #owner = FRI #controller = FRI #add_core= HAB remove_core = BUR } # Charles the Bold dies and Friesland is re-established
-# = { #owner = SAX #controller = SAX } # Saxony controls Friesland
-# = { #owner = HAB  # Sold to Karl von Habsburg (future Charles I of Spain and Charles V HRE)
-	#controller = REB } # 'Kings' Pier Gerlofs Donia and Wijerd Jelckama
-# = { #owner = SPA #add_core= SPA remove_core = HAB } # Unification of Spain under Charles
-# = { #controller = SPA } # Charles V annexes Friesland
-# = { religion = reformed reformation_center = reformed }
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { unrest = 3 } # New bishoprics established in the Lowlands create an outrage
-# = { unrest = 5 } # Letters of Segovia, harsh persecution of Calvinists advocated by Philip I
-# = { unrest = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
-# = { unrest = 4 } # Counts of Egmont & Hoorne arrested
-# = { revolt = { type = nationalist_rebels size = 2 name = "Les Gueux"	leader = "Louis of Nassau" } #controller = REB } # Louis of Nassau beats a Spanish army at Heiligerlee
-# = { revolt = {} #controller = SPA } # Louis of Nassau is beaten at Jemmingen (actually just across the German border)
-# = { unrest = 12 } # The Duke of Alba reforms the tax system ('tiende penning')
-# = { unrest = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
-# = { unrest = 16 } # The 'Perpetual Edict' (Eeuwig Edict) is accepted by Don Juan
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA unrest = 0 } # Union of Utrecht - Friesland joins
-# = { hre = no } # The Peace of Westphalia
-# = { base_tax = 1
-base_production = 1 # Protestants expelled from France
-# = {	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Annexed by France
-# = {	#owner = NED
-	#controller = NED
-	remove_core = FRA
-#} # William returns to the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

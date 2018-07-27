@@ -1,7 +1,7 @@
 #636 - Brunei
 
-#owner = BEI
-#controller = BEI
+owner = MSA
+controller = MSA
 culture = bornean
 religion = sunni
 capital = "Brunei"
@@ -10,8 +10,9 @@ hre = no
 base_tax = 7
 base_production = 7
 base_manpower = 4
-is_city = no
-#add_core= BEI
+is_city = yes
+add_core= MSA
+add_core= BEI
 
 
 

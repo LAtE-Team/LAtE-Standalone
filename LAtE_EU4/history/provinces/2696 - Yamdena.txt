@@ -1,5 +1,9 @@
 #2696 - Yamdena
 
+owner = TER
+controller = TER
+add_core = TER
+is_city = yes
 culture = moluccan
 religion = brethren
 capital = "Yamdena"

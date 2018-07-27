@@ -30,7 +30,7 @@ native_hostileness = 3
 	#controller = POR
 	#add_core= POR
 	capital = "Belém"
-	culture = amazonico
+	culture = amazonense
 	religion = candomble
 #} # Conquered by Portugal, Forte do Presépio
 

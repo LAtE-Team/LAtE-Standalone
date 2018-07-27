@@ -1,7 +1,7 @@
 #2703 - Lehad Datu
 
-#owner = BEI
-#controller = BEI
+owner = MSA
+controller = MSA
 culture = bornean
 religion = sunni
 capital = "Lehad Datu"
@@ -10,8 +10,8 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-is_city = no
-#add_core= BEI
+is_city = yes
+add_core= MSA
 
 
 

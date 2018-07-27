@@ -17,30 +17,8 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-# = { #owner = HAB #controller = HAB #add_core= HAB }
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB }
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { religion = reformed }
-# = { hre = no } # The Peace of Westphalia
-# = { base_tax = 1
-base_production = 1 # Protestants expelled from France
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Annexed by France
-# = {
-	#owner = NED
-	#controller = NED
-	remove_core = FRA
-#} # William returns to the Netherlands
-
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -18,24 +18,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA #add_core= FRA } # Charles the Bold dies and Louis XII of France takes Franche-Comté
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = FRA } # Frederick III dies and Charles VII cedes Franch-Comté to Maximilian I von Habsburg
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
-# = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { #controller = FRA } # The Prince de Condé swiftly takes Franche-Comté in the War of Devolution
-# = { #controller = SPA } # Treaty of Aachen: Franche-Comté returned to Spain
-# = { #add_core= FRA } # Louis XIV lays claims through the Chambres de Réunion
-# = { #controller = FRA } # France captures Franche-Comté 
-# = { #owner = FRA remove_core = SPA } # Treaty of Nijmegen (FRA-SPA)
-# = { hre = no } # The Holy Roman Empire is dissolved
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

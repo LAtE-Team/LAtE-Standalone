@@ -17,49 +17,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = HAB #controller = HAB #add_core= HAB }
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB }
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { #owner = SPA #controller = SPA #add_core= SPA } # Charles V gets total control over his Burgundian inheritance
-# = { hre = no } # Flanders incorporated into the Holy Roman Empire
-# = { #controller = NED } # Maurice of Nassau beats the Spanish at Nieuwpoort, but has to retreat soon after
-# = { #controller = SPA } # Spinola retakes Ostend and most of Flanders
-# = { remove_core = NED } # Peace of Münster/Westphalia
-# = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = SPA } # Treaty of Nijmegen (France-Spain)
-# = { #controller = ENG } # Marlborough captures Antwerp for the Spanish
-# = { #controller = GBR }
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = SPA } # Treaty of Utrecht
-# = { remove_claim = FRA } # Louis XIV passes away
-# = { #controller = FRA } # France captures Flanders in the Austrian War of Succession
-# = { #controller = HAB } # France withdraws
-# = { #controller = FRA } # France takes back most of Flanders
-# = { #controller = HAB } # Peace of Aachen
-# = { #controller = FRA } # Conquered by the French troops under Dumouriez
-# = { #controller = HAB } # Reconquered by Prince Josias of Coburg
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Treaty of Den Haag, ceded to the French Republic
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Revolt against French rule, "Boerenkrijg"
-# = { revolt = {} #controller = FRA }
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {
-	#owner = NED
-	#controller = NED
-	#add_core= NED
-	remove_core = FRA
-#} # The United Kingdom of the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

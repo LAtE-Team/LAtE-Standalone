@@ -12,40 +12,10 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 #add_core= LIE
-fort_15th = yes
-
-
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= BUR }
-# = { unrest = 4 } # Revolt imminent
-# = { unrest = 8 } # Citizens revolt
-# = { unrest = 0 } # Peace is restored
-# = { #owner = BUR #controller = BUR unrest = 5 } # Charles the Bold installs Louis de Bourbon
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Citizens rise up against the disliked Louis de Bourbon
-# = { revolt = {} #controller = BUR } # Charles the Bold sacks Liège
-# = { #owner = LIE #controller = LIE remove_core = BUR #add_core= HAB unrest = 0 } # Charles the Bold dies and Liège is re-established
-# = { remove_core = HAB } # Liège signs a perpetual treaty of neutrality with Austria (and France)
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Treaty of Campo Formio
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {
-	#owner = NED
-	#controller = NED
-	#add_core= NED
-	remove_core = FRA
-#} # The United Kingdom of the Netherlands
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

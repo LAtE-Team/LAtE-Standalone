@@ -16,28 +16,8 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-fort_15th = yes
-is_city = no
-
-# = { unrest = 7 } # War of the Roses in England
-# = { revolt = { type = pretender_rebels size = 2 } #controller = REB } # Yorkist control over Calais
-# = { revolt = {} #controller = ENG } # Edward VI crowned King of England
-## = { remove_core = BUR } # Charles the Bold dies
-# = { #controller = FRA } # France captures the weakened Calais
-# = { #owner = FRA #add_core= FRA remove_core = ENG culture = cosmopolitan_french } # Peace of Cateau-Cambrésis, France annexes Calais from England
-# = { fort_15th = no fort_16th = yes }
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { #controller = SPA } # The Spanish take hold of Calais
-# = { #controller = FRA } # Treaty of Vervins, Calais back to France
-# = { fort_16th = no fort_17th = yes }
-# = { fort_17th = no fort_18th = yes }
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

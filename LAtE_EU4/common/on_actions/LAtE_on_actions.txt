@@ -623,6 +623,11 @@ on_harmonized_american_native = {
 		confucian_events.109
 	}
 }
+on_harmonized_nousthreskeia = {
+	events = {
+		confucian_events.110
+	}
+}
 
 
 # country. from = overlord

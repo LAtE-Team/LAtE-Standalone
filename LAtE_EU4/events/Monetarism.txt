@@ -1,0 +1,139 @@
+namespace = monetarism
+
+#Hidden events to check if Monetarism exists in the converted game
+province_event = {
+	id = monetarism.1
+	title = monetarism.1.t
+	desc = monetarism.1.d
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = monetarist
+		NOT = { has_global_flag = consumerist_schism }
+	}
+	
+	option = {
+		name = "OK"
+		set_global_flag = consumerist_schism
+		enable_religion = monetarist
+	}
+}
+country_event = {
+	id = monetarism.2
+	title = monetarism.2.t
+	desc = monetarism.2.d
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = monetarist
+		NOT = { has_global_flag = consumerist_schism }
+	}
+	
+	option = {
+		name = "OK"
+		set_global_flag = consumerist_schism
+		enable_religion = monetarist
+	}
+}
+country_event = {
+	id = monetarism.3
+	title = monetarism.3.t
+	desc = monetarism.3.d
+	
+	
+	trigger = {
+		current_age = age_of_reformation
+		NOT = { is_religion_enabled = monetarist }
+		NOT = { has_global_flag = consumerist_schism }
+		religion = consumerist
+		is_defender_of_faith = no	
+		capital_scope = {
+			continent = north_america
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2500
+				
+		modifier = {
+			factor = 0.75
+			num_of_loans = 2
+		}
+		modifier = {
+			factor = 0.75
+			num_of_loans = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_loans = 7
+		}
+		modifier = {
+			factor = 0.66
+			num_of_loans = 10
+		}
+		modifier = {
+			factor = 0.50
+			num_of_loans = 12
+		}
+		modifier = {
+			factor = 0.25
+			num_of_loans = 15
+		}
+		
+		modifier = {
+			factor = 0.75
+			NOT = { num_of_cities = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { num_of_cities = 2 }
+		}
+		
+		modifier = {
+			factor = 0.75
+			has_idea_group = innovativeness_ideas
+		}
+		modifier = {
+			factor = 1.25
+			has_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0.5
+			num_of_rebel_controlled_provinces = 1
+		}
+		modifier = {
+			factor = 2.0
+			government = theocratic_government
+		}
+	}
+	
+	option = {
+		name = monetarism.3.a
+		set_global_flag = consumerist_schism
+		enable_religion = monetarist
+		random_owned_province = {
+			limit = {
+				can_have_center_of_reformation_trigger = { #Might need to script this?
+					RELIGION = monetarist
+				}
+			}
+			change_religion = monetarist
+			add_reform_center = monetarist
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+		capital_scope = {
+			change_religion = monetarist
+			add_permanent_province_modifier = {
+				name = "religious_zeal_at_conv"
+				duration = 9000
+			}
+		}
+	}
+}

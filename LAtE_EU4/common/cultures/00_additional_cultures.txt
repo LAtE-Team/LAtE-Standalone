@@ -5,16 +5,12 @@ brazilian_culture_group = {
 		primary = BRZ
 		dynasty_names = { "Leão" "de Anna Regina" "de New Amsterdam" "de Changement" "de Groningen" "de Urañon" "de Guasdualito" "de Cayenne" "Dutra" "de Puerto Carreño" "de El Aceitico" "Assunção" "de Cravo Norte" "Neves" "Saraiva" "de Usaquén" "de La Calera" "de Girardot" "de La Dorada" "de Ibagué" "de Tucupita" "de Alvarado" "de Santa Rita" "de El Pino" "de Brokopondo" "Assunção" "de Neiva" "de Trujillo" "de La Pica" "de Curiapo" }
 	}
-	roraimense = {
+	brazilian = {
 
 	}
 	
 	paribas = {
 		primary = PRB		
-	}
-	
-	baiano = {
-		primary = BIA
 	}
 	
 	mineiro = {
@@ -121,10 +117,6 @@ argentine = {
 	}
 	cordoban = {
 		primary = CDB
-	}
-	
-	guacho = {
-		primary = AGR
 	}
 }
 boer = {

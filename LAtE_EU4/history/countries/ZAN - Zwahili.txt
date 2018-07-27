@@ -5,3 +5,4 @@ technology_group = east_african
 unit_type = sub_saharan
 capital = 1196	# Kilwa
 add_piety = -0.25
+religious_school = nuh_school

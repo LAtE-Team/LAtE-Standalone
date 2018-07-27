@@ -14,50 +14,8 @@ trade_goods = unknown
 base_manpower = 1
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = HAB #controller = HAB #add_core= HAB }
-# = { #owner = SPA #controller = SPA #add_core= SPA } # Charles V gets total control over his Burgundian inheritance
-# = { #owner = NED #controller = NED #add_core= NED remove_core = HAB }
-# = { #controller = NED }
-# = { #controller = SPA unrest = 0 } # Peace of Münster/Westphalia
-# = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = SPA } # Peace of Nijmegen (France-Spain)
-# = { #controller = ENG } # Marlborough defeats the French at Ramillies
-# = { #controller = GBR }
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = SPA } # Treaty of Utrecht
-# = { remove_claim = FRA } # Louis XIV passes away
-# = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # Under the guidance of guildmaster Anneesens, Brussels revolts against the Austrian taxation policy
-# = { revolt = {} #controller = HAB } # Revolt suppressed, Anneesens executed
-# = { #controller = FRA } # Maréchal Saxe launches a succesful offensive
-# = { #controller = HAB } # Peace of Aachen
-# = { unrest = 15 } # 'Brabantse Omwenteling' at hand
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # The 'Brabant Revolution' (Brabantse Omwenteling) against Joseph II starts
-# = { revolt = {} #controller = HAB unrest = 0 } # Leopold II sacks Brussels
-# = { #controller = FRA } # Conquered by the French troops under Dumouriez
-# = { #controller = HAB } # Reconquered by Prince Josias of Coburg
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-	remove_core = HAB
-#} # The Treaty of Campo Formio, the Austrian Netherlands are ceded to France 
-# = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # The Flemish Peasant Rebellion
-# = { revolt = {} #controller = FRA }
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {
-	#owner = NED
-	#controller = NED
-	#add_core= NED
-	remove_core = FRA
-#} # The United Kingdom of the Netherlands
-
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

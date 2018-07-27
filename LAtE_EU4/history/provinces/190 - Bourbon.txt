@@ -20,26 +20,9 @@ estate = estate_nobles
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA } # Charles IV of Bourbon dies, Bourbon added to France
-# = { unrest = 5 } # Saint Barthelew's Day Massacre: the consequences in the land
-# = { unrest = 0 } # Charles IX dies, situation cools a bit	
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { revolt = { type = revolutionary_rebels size = 0 } unrest = 0 #controller = REB } # Fronde rebels take control
-# = { revolt = {} #controller = FRA } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10
