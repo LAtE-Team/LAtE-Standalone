@@ -1,5 +1,9 @@
 #647 - Ceram
 
+owner = TER
+controller = TER
+add_core = TER
+is_city = yes
 culture = moluccan
 religion = hinduism
 capital = "Ceram"

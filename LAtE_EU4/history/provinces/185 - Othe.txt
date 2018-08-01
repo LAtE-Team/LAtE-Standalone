@@ -19,29 +19,9 @@ estate = estate_church
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { base_tax = 1
-base_production = 1 # Richelieu
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB unrest = 3 } # Fronde rebels take control
-# = { revolt = {} #controller = FRA unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { base_tax = 1
-base_production = 1 # Turgot and the Economic Reforms
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -1,7 +1,7 @@
 #596 - Malacca
 
-#owner = MLC
-#controller = MLC
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
 capital = "Malacca"
@@ -10,11 +10,10 @@ hre = no
 base_tax = 7 
 base_production = 7
 base_manpower = 3
-is_city = no
-#add_core= MLC
+is_city = yes
+add_core= MSA
+add_core= MLC
 discovered_by = chinese
-discovered_by = indian
-discovered_by = indian
 discovered_by = indian
 
 extra_cost = 15

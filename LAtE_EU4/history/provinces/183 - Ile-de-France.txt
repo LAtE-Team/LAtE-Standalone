@@ -19,8 +19,8 @@ discovered_by = high_american
 discovered_by = RED
 discovered_by = indian
 
-fort_15th = yes
+#fort_15th = yes
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -12,34 +12,10 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 #add_core= BUR
-fort_15th = yes
-
-
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA #add_core= FRA } # Charles the Bold dies and transfers Bourgogne to France
-# = { #add_core= HAB } # Treaty of Madrid, Austria claims Burgundy, but François I refuses to hand it over subsequently
-# = { remove_core = HAB } # Peace of Cambrai (Ladies' Peace): Charles V renounces his claims on Bourgogne
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { #controller = HAB } # Habsburg forces ravage the region in the Thirty Years War
-# = { #controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { base_tax = 1base_production = 1} # Turgot & the Economical Reforms
-
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

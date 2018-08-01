@@ -1,9 +1,9 @@
 #2723 - Yos Sudarso
 
-#owner = ???
-#controller = ???
-#add_core = ???
-#is_city = yes
+owner = PNG
+controller = PNG
+add_core = PNG
+is_city = yes
 culture = papuan
 religion = sunni
 capital = "Yos Sudarso"

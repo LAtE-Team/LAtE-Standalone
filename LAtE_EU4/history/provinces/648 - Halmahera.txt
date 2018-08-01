@@ -1,5 +1,9 @@
 #648 - Halmahera
 
+owner = TER
+controller = TER
+add_core = TER
+is_city = yes
 culture = moluccan
 religion = sunni
 capital = "Halmahera"

@@ -20,58 +20,9 @@ fort_15th = yes
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = BUR } # Charles the Bold dies, Lowlands to Austria
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
-# = { unrest = 3 } # New bishoprics established in the Lowlands create an outrage
-# = { unrest = 4 } # 'Beeldenstorm' at hand
-# = { unrest = 0 revolt = { type = heretic_rebels size = 1 } #controller = REB } # 'Beeldenstorm' also hits Hainaut
-# = { revolt = {} #controller = SPA } # Spain is back in control
-# = { unrest = 5 } # Counts of Egmont & Hoorne arrested
-# = { unrest = 7 } # Counts of Egmont & Hoorne beheaded
-# = { unrest = 10 } # The Duke of Alba reforms the taxation system ('tiende penning')
-# = { unrest = 13 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Louis of Nassau captures Mons
-# = { revolt = {} #controller = SPA } # Don Felipé takes back Mons
-# = { unrest = 5 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
-# = { unrest = 0 } # Union of Arras established
-# = { fort_15th = no fort_16th = yes }
-# = { #controller = FRA } # French troops capture parts of the Southern Lowlands
-# = { fort_16th = no fort_17th = yes } 
-# = { #controller = SPA } # Peace of Münster/Westphalia
-# = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { #controller = FRA } # Maréchal captures alot of cities in the region for Louis XIV
-# = { #controller = SPA } # Peace of Aachen
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = SPA } # Peace of Nijmegen (France-Spain)
-# = { #controller = FRA } # France takes Mons, Halle and others in the War of the Grand Alliance
-# = { #controller = SPA } # William of Orange takes back the region for Spain
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = SPA } # Treaty of Utrecht
-# = { remove_claim = FRA } # Louis XIV passes away
-# = { #controller = FRA } # France captures Hainaut in the Austrian War of Succession
-# = { #controller = HAB } # France withdraws
-# = { #controller = FRA } # Maréchal Saxe launches a succesful offensive
-# = { #controller = HAB } # Peace of Aachen
-# = { #controller = FRA } # Conquered by the French troops under Dumouriez
-# = { #controller = HAB } # Reconquered by Prince Josias of Coburg
-# = {	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-	remove_core = HAB
-#} # The Treaty of Campo Formio, the Austrian Netherlands are ceded to France 
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {	#owner = NED
-	#controller = NED
-	#add_core= NED
-	remove_core = FRA
-#} # The United Kingdom of the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

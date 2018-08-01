@@ -1,7 +1,7 @@
 #2394 - Kedah
 
-#owner = KED
-#controller = KED
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
 capital = "Kedah"
@@ -10,17 +10,14 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 2
-is_city = no
-#add_core= KED
+is_city = yes
+add_core= MSA
+add_core= KED
 
 
 
 discovered_by = chinese
 discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-
-# = { discovered_by = POR } # Godinho de Eredia
 
 
 

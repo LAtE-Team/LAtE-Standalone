@@ -11,35 +11,12 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-#add_core= AVI
-#add_core= PRO
-
-fort_15th = yes # Le Palais des Papes is super strong, and built on and beneath a natural rock formation
-
-
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-# = {
-	#owner = PAP
-	#controller = PAP
-	#add_core= PAP
-	estate = estate_church
-#}
-# = { #add_core= FRA } # Louis XIV wants to annex the city-state (Chambres de Réunion)
-# = {
-	#owner = FRA
-	#controller = FRA
-	remove_core = PAP
-#} # Avignon is incorporated into France
 
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

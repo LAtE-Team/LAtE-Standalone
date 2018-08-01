@@ -3,4 +3,5 @@ primary_culture = papuan
 religion = sunni
 technology_group = chinese
 capital = 1237	# Port Moresby
+religious_school = shafii_school
 

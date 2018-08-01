@@ -1,8 +1,7 @@
 # 94 Luxembourg - Principal cities: Luxembourg
 
-#owner = BUR
-#controller = BUR
-#add_core= BUR 
+#owner = LUX
+#controller = LUX
 capital = "Luxemburg"
 is_city = no
 culture = wallonian
@@ -13,53 +12,14 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 #add_core= LUX
-fort_15th = yes
 
 
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = BUR } # Charles the Bold dies, Lowlands to Austria
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
-# = { fort_15th = no fort_16th = yes } #1545, representing the first bastions and curtain walls - way ahead of tech though (3-4)
-# = { unrest = 3 } # New bishoprics in the Lowlands create an outrage
-# = { unrest = 4 } # Counts of Egmont & Hoorne arrested
-# = { unrest = 6 } # Counts of Egmont & Hoorne beheaded
-# = { unrest = 8 } # The Duke of Alba reforms the taxation system ('tiende penning')
-# = { unrest = 9 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
-# = { unrest = 5 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
-# = { unrest = 0 } # Union of Arras established
-# = { #controller = FRA } # Maréchal Turenne takes control of Luxembourg
-# = { #controller = SPA } # Peace of the Pyrennees
-# = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { fort_16th = no fort_17th = yes } #1672, representing further expansion against French attack
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = SPA } # Peace of Nijmegen (France-Spain)
-# = { #owner = FRA #controller = FRA } # Louis XIV annexes Luxembourg
-# = { #owner = SPA #controller = SPA } # Peace of Rijswijck
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = SPA } # Treaty of Utrecht
-# = { base_tax = 1
-base_production = 1 # The General Estates
-# = { #add_core= FRA } # The storming of the Bastille
-# = { #controller = FRA } # Conquered by the French troops under Dumouriez
-# = { #controller = HAB } # Reconquered by Prince Josias of Coburg
-# = {	#owner = FRA
-	#controller = FRA
-	remove_core = HAB
-#} # The Treaty of Campo Formio, Luxembourg is ceded to France 
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {	#owner = LUX
-	#controller = LUX
-	remove_core = FRA
-#} # Grand Duchy of Luxembourg
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

@@ -1,0 +1,53 @@
+#Any religious Scholar?
+#Country Scope
+has_religious_scholars_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = has_religious_scholars_trigger_tooltip
+		OR = {
+			has_country_modifier = hanafi_scholar_modifier
+			has_country_modifier = hanbali_scholar_modifier
+			has_country_modifier = maliki_scholar_modifier
+			has_country_modifier = shafii_scholar_modifier
+			has_country_modifier = ismaili_scholar_modifier
+			has_country_modifier = jafari_scholar_modifier
+			has_country_modifier = zaidi_scholar_modifier
+			has_country_modifier = salafi_scholar_modifier
+			has_country_modifier = adam_scholar_modifier
+			has_country_modifier = nuh_scholar_modifier
+		}
+	}
+}
+ 
+can_have_center_of_reformation_trigger = { #Province Scope
+	#$RELIGION$ needs to match the religion of the center that is being spawned.
+	continent = north_america
+	OR = {
+		religion = confederated
+		religion = monetarist
+	}
+	NOT = { province_id = 4585 }
+	is_in_capital_area = yes
+	is_reformation_center = no
+	is_island = no
+	development = 10
+	NOT = {
+		any_neighbor_province = {
+			is_reformation_center = yes
+		}
+	}
+	NOT = {
+		any_province = {
+			area = PREV
+			is_reformation_center = yes
+			religion = $RELIGION$
+		}
+	}
+	NOT = { has_climate = arctic }
+	NOT = { has_climate = arid }
+	NOT = { has_terrain = coastline }
+	NOT = { has_terrain = coastal_desert }
+	NOT = { has_terrain = steppe }
+	NOT = { has_terrain = desert }
+	NOT = { has_terrain = glacier }
+	NOT = { has_climate = tropical }
+}

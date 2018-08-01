@@ -13,22 +13,10 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-#add_core= HAI
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = FRA #controller = FRA #add_core= FRA remove_core = BUR } # Charles the Bold dies and Louis XII takes Artois
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = FRA } # Conquered by Charles V
-#  = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-# = { #owner = FRA #controller = FRA #add_core= FRA remove_core = SPA } # Captured by Louis XIV
-# = { base_tax = 1ase_production = 1 # The General Estates
-# = { hre = no } # The Holy Roman Empire is dissolved
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

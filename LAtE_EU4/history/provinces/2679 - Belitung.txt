@@ -1,5 +1,9 @@
 #2679 - Belitung
 
+owner = BHP
+controller = BHP
+add_core = BHP
+is_city = yes
 culture = sumatran
 religion = sunni
 capital = "Belitung"

@@ -12,4 +12,15 @@ lost_cultures_group = {
 			Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle 
 		}
 	}
+	cat = {
+		male_names = {
+			Mittens Fluffy Tom Smudge Shadow
+		}
+		female_names = {
+			Missy Kitty Mittens Ginger Princess Bella
+		}
+		dynasty_names = {
+			Mistoffelees Deuteronomy Macavity Mungojerrie Rumpleteazer
+		}
+	}
 }

@@ -1,5 +1,9 @@
 #1998 - Christmas Island
 
+owner = XMS
+controller = XMS
+add_core = XMS
+is_city = yes
 culture = cantonese #Maybe, EU4 Chinese cultures are confusing
 religion = buddhism
 capital = "Flying Fish Cove"

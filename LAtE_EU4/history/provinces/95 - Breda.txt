@@ -15,40 +15,9 @@ base_manpower = 1
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-# = { #owner = HAB #controller = HAB #add_core= HAB }
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB }
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { religion = reformed }
-# = { unrest = 16 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
-# = { #controller = SPA } # Alessandro Farnese takes Breda
-# = { #controller = NED } # Breda is retaken after a succesful diversion
-# = { #controller = SPA } # After the 12-year armistice, the fight is resume: Spinola takes Breda 
-# = { #controller = NED } # Frederik Hendrik captures 's Hertogenbosch
-# = { hre = no } # The Peace of Westphalia
-# = { capital = "Breda" }
-# = { #controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
-# = { #controller = NED } # Peace of Nijmegen (Netherlands-France)
-# = { base_tax = 1
-base_production = 1} # Protestants expelled from France
-# = { #controller = FRA } # French troops storm and take Bergen-op-Zoom
-# = { #controller = NED } # Peace of Aachen
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Annexed by France
-# = {
-	#owner = NED
-	#controller = NED
-	remove_core = FRA
-#} # William returns to the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

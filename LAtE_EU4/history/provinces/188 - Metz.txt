@@ -15,33 +15,11 @@ base_manpower = 1
 #add_core= LOR
 
 
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= BUR } # Charles the Bold ascends and lays claims on Lorraine
-# = { #owner = BUR #controller = BUR capital = "Thionville" unrest = 5 } # Charles the Bold annexes Lorraine
-# = { revolt = { type = nationalist_rebels size = 0 } #controller = REB } # Lorraine revolts against Charles the Bold during the Burgundian-Swiss War
-# = { revolt = {} #owner = LOR #controller = LOR capital = "Metz" remove_core = BUR unrest = 0 } # Charles the Bold dies and Lorraine is re-established
-# = { #controller = FRA } # Franco-Habsburg War (#): France takes Metz
-# = { #owner = FRA #add_core= FRA } # Peace of Cateau-Cambrésis, France annexes Metz
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { #controller = HAB } # Habsburg forces ravage North Eastern France
-# = { #controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { base_tax = 1ase_production = 1 # Machault & the 5% tax
-# = { hre = no } # The Holy Roman Empire is dissolved
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

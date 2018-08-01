@@ -18,33 +18,11 @@ fort_15th = yes
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-discovered_by = indian
 discovered_by = indian
 
 
-# = { #owner = HAB #controller = HAB #add_core= HAB }
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = HAB }
-# = { #owner = NED #controller = NED #add_core= NED remove_core = SPA }
-# = { fort_15th = no fort_16th = yes } #Maastricht was a major fortress
-# = { fort_16th = no fort_17th = yes } #same. Vauban didn't become famous from sieging it for nothing
-# = { #owner = HAB #controller = HAB #add_core= HAB remove_core = SPA } # Treaty of Utrecht
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-	remove_core = HAB
-#} # Treaty of Campo Formio
-# = { hre = no } # The Holy Roman Empire is dissolved
-# = {
-	#owner = NED
-	#controller = NED
-	#add_core= NED
-	remove_core = FRA
-#} # The United Kingdom of the Netherlands
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

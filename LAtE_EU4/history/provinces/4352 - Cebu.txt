@@ -1,7 +1,7 @@
 #4352 - Cebu
 
 culture = filipino
-religion = hinduism
+religion = cult_of_saints
 capital = "Cebu"
 trade_goods = gems #Pearls
 hre = no

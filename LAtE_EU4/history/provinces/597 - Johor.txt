@@ -1,34 +1,23 @@
 #597 - Johor
 
-#owner = MLC
-#controller = MLC
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
-capital = "Johor"
+capital = "Johor Bahru"
 trade_goods = chinaware
 hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 2
-is_city = no
-#add_core= MLC
-#add_core= JOH
+is_city = yes
+add_core= MSA
+add_core= JOH
 
 
 
 discovered_by = chinese
 discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-
-# = { discovered_by = POR }
-# = { discovered_by = SPA }
-
-# = {
-	#owner = JOH
-	#controller = JOH
-#}
-# = { capital = "Kota Tingi" } # Alauddin Riayat Shah moved the capital
 
 
 native_size = 5

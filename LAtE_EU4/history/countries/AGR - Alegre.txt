@@ -2,7 +2,7 @@ government = feudal_monarchy
 government_rank = 2
 technology_group = south_american
 religion = cult_of_saints
-primary_culture = guacho
+primary_culture = gaucho
 capital = 2857
 
 3053.1.1 {

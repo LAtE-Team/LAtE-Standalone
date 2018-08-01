@@ -11,52 +11,11 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-add_local_autonomy = 25
-estate = estate_nobles
-#add_core= AMG
-#add_core= GUY
-#add_core= FRA
-
-
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #add_core= ENG }
-# = { remove_core = ENG } # Treaty of Picquigny
-# = {
-	#owner = AUV
-	#controller = AUV
-	#add_core= AUV
-	remove_core = AMG
-#}
-# = { religion = reformed }
-# = { unrest = 8 } # France is restless once again as ultra-cult_of_reason intentions become clear
-# = { unrest = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
-# = { unrest = 10 } # Edict of Saint-Germain: temporary pacification
-# = { unrest = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
-# = { unrest = 7 } # Charles IX dies, situation cools a bit	
-# = { unrest = 12 } # Situation heats up again
-# = { unrest = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { #owner = NAV #controller = NAV #add_core= NAV remove_core = AUV }
-# = { #owner = FRA #controller = FRA } # Armagnac to France proper, after Henri IV, King of France & Duke of Armagnac
-# = { unrest = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 } # Edict of Nantes, alot more freedom to the protestants
-# = { unrest = 0 } # Peace of Vervins, formal end to the Wars of Religion
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
-# = { religion = cult_of_reason } # Dragonnard campaign succesful: region reverts back to cult_of_reasonism
-# = { unrest = 0 } # War of the Grand Alliance erupts: Louis XIV can't persue his religious policy anymore
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

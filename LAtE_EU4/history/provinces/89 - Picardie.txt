@@ -14,64 +14,11 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 #add_core= PIC
-fort_15th = yes
-
-
-
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = {
-	#owner = BUR
-	#controller = BUR
-	#add_core= BUR
-	remove_core = FRA
-#} # Treaty of Arras
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-#} # Louis XI seizes Picardy
-# = {
-	#owner = NEV
-	#controller = NEV
-	#add_core= NEV
-	remove_core = FRA
-#} # Picardy is given to John II, Count of Nevers
-# = {
-	#owner = BUR
-	#controller = BUR
-	remove_core = NEV
-#} # Charles the Bold recovers Picardy
-# = {
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-	remove_core = BUR
-#} # Charles the Bold dies
-# = { #controller = ENG } # Henry VIII defeats La Palice at Guinnegate and sacks Therouanne
-# = { #controller = FRA } # Henry VIII concludes a seperate peace with France
-# = { #controller = ENG } # English forces take hold of parts of Picardie in the Anglo-French War (#)
-# = { #controller = FRA } # Peace is concluded, back to status quo
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = { unrest = 3 }
-# = { unrest = 0 }
-# = {
-	base_tax = 1
-	base_production = 1
-#} # The Eden Agreement
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

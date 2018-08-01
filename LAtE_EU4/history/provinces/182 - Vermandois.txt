@@ -11,31 +11,11 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-#fort_15th = yes
-#add_core= CHP
-#add_core= PIC
-#add_core= FRA
-discovered_by = high_american 
-discovered_by = RED
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian
-discovered_by = indian
-
-
-# = { #owner = ENG #controller = ENG #add_core= ENG } # Treaty of Troyes, ceded to the English
-# = { #owner = FRA #controller = FRA remove_core = ENG } # Retaken by the French
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { #controller = HAB } # Habsburg forces ravage North Eastern France
-# = { #controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB unrest = 3 } # Fronde rebels take control
-# = { revolt = {} #controller = FRA unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

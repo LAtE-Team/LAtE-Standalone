@@ -1,5 +1,9 @@
 #1999 - Cocos Island
 
+owner = CKI
+controller = CKI
+add_core = CKI
+is_city = yes
 culture = malayan
 religion = brethren
 capital = "West Island"

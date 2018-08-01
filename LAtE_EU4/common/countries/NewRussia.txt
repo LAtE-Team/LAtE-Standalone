@@ -6,6 +6,8 @@ army_names = {
 	"Army of $PROVINCE$"
 }
 
+revolutionary_colors = { 5  5  8 }
+
 
 leader_names = {
 	Adashev Apraxine Atlasov

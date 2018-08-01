@@ -2,42 +2,61 @@
 malay = {
 	singaporean = {
 		primary = SGP
-		dynasty_names = { }
+		dynasty_names = $singaporean$
 	}
 }
 #hawaiian
 polynesian_g = {
 	hawaiian = {
 		primary = HWI
-		dynasty_names = { }
+		dynasty_names = $hawaiian$
 	}
 }
 #nigerian
 west_african = {
 	nigerian = {
 		primary = NGR
-		dynasty_names = { }
+		dynasty_names = $nigerian$
 	}
 }
 #edokko
 japanese_g = {
 	edokko = {
 		primary = JAP
-		dynasty_names = { }
+		dynasty_names = $edokko$
 	}
 }
 #british
 british = {
 	british = {
 		primary = GBR
-		dynasty_names = { "Tackleford" "Stigson" "Cockswain" "Sternhead" "Fox" "of Peterborough" "Hartnell" "Arlanc" "Spatley" "Bolstrood" "May" "Cloxton" "of Providence" "of Sheboygan" "of Muskego" "of Falmouth" "Hammond" "of Middleton" "of Quincy" "of Worcester" }
+		dynasty_names = $british$
 	}
 }
-
+#brazilian
+brazilian_culture_group = {
+	carioca = {
+		primary = RDJ
+		dynasty_names = $brazilian$
+	}
+	amazonense = {
+		dynasty_names = $amazonense$
+	}
+	
+	baiano = {
+		primary = BIA
+		dynasty_names = $baiano$
+	}
+}
+argentine = {
+	gaucho = {
+		primary = AGR
+	}
+}
 #novorusskiy
 east_slavic = { # Or Tatar?
 	novorusskiy = {
 		primary = NRU
-		dynasty_names = { }
+		dynasty_names = $novorusskiy$
 	}
 }

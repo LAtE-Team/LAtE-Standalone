@@ -21,7 +21,7 @@ native_hostileness = 6
 	#controller = POR
 	#discovered_by = POR
 	#add_core= POR
-	culture = amazonico
+	culture = amazonense
 	religion = candomble
 	trade_goods = cocoa
 #}

@@ -3,5 +3,6 @@ technology_group = indian
 primary_culture = bedouin_arabic
 religion = sunni
 capital = 392 # Deraiyah
+religious_school = salafi_school
 
 

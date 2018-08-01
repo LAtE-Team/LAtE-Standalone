@@ -4,3 +4,4 @@ primary_culture = al_iraqiya_arabic
 religion = shiite
 technology_group = indian
 capital = 2340	# Kuwait
+religious_school = jafari_school

@@ -19,9 +19,6 @@ estate = estate_church
 
 discovered_by = high_american 
 discovered_by = RED
-discovered_by = high_american 
-discovered_by = RED
-discovered_by = indian
 discovered_by = indian
 
 extra_cost = 10
@@ -31,25 +28,7 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-# = { #owner = ENG #controller = ENG #add_core= ENG } # Treaty of Troyes, ceded to the English
-# = { #owner = FRA #controller = FRA remove_core = ENG } # Retaken by the French
-# = { #add_core= BUR } # Treaty of Conflans, Champagne is promised to Charles the Bold as dowry
-# = { remove_core = BUR } # Charles the Bold dies
-# = { unrest = 7 } # Massacre at Wassy, the fuse is put in the French powder keg
-# = { unrest = 0 } # Temporary truce after the assassination of de Guise
-# = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-# = { unrest = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
-# = { base_tax = 1base_production = 1} # Richelieu
-# = { #controller = HAB } # Habsburg forces ravage North Eastern France
-# = { #controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
-# = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
-# = { unrest = 4 } # An unstable peace is concluded
-# = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # Charles of Lorraine marches towards Paris to team up with Condé, ravaging the Champagne
-# = { revolt = {} #controller = FRA } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
-# = { base_tax = 1base_production = 1} # Turgot & the Economical Reforms
-
 
 native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_ferocity = 10
+native_hostileness = 10

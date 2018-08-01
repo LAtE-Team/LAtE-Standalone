@@ -254,3 +254,31 @@ country_event = {
 		}
 	}
 }
+#Nousthreskeia Harmonization
+country_event = {
+	id = confucian_events.110
+	title = "confucian_events.110.t"
+	desc = "confucian_events.110.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "confucian_events.110.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_nousthreskeia"
+				duration = -1
+			}
+		}
+	}
+}

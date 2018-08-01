@@ -1,26 +1,30 @@
 north_atlantic = {
 	gothamite = {
 		primary = NYS
-		dynasty_names = { "van Chester" }
+		dynasty_names = $gothamite$
 	}
 	hudsonian = {
 		primary = NYS
-		dynasty_names = { "Groot" "Dongan" "Langmuir" "Westingson" "Ranvincle" "Allen" "Wents" "Schenectady" "Rittner" "Mackerras" "Ranvincle" "Chambersburg" "Altoona" "Rodham" "Vedder" "Schermerhorn" "Dongan" "Ranvincle" "Herkimer" "Elran" }
+		dynasty_names = $hudsonian$
 	}
 	delawarean = {
 		primary = DLW
-		dynasty_names = { }
+		dynasty_names = $delawarean$
 	}
 	yankee = {
 		primary = NEN
-		dynasty_names = { "Spermacetty" "Winthrop" }
+		dynasty_names = $yankee$
 	}
 	maritimer = {
 		primary = MRT
-		dynasty_names = { "Beaton" "Jacartier" "Conmara" "Duchambon" "Tracadie" "Beaubassin" "Jolicure" "Luciphy" "Tidnish" "Uniacke" "Brundage" "Aggermore" "Cuthbert" "Cavendish" "Carmody" "Blythe" "Hitt" "Davison" "Mac Scalaidhe" "Criss" "de Betsiamites" "de Limestone" "de Lyndon" "de Dorchester" "de Kingsclear" "de Rivière-du-Loup" "Abegweit" "de Heath Point" "Carmody" "Kilmarnock" "Bunbury" "MacKay" "Tyndal" "de Avonlea" }
+		dynasty_names = $maritimer$
 	}
 	newfie = {
 		primary = NFL
-		dynasty_names = { "Sturge" "St. Anthony" }
+		dynasty_names = $newfie$
+	}
+	new_english = {
+		primary = NEN
+		dynasty_names = $new_english$
 	}
 }

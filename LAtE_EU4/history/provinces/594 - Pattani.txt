@@ -1,7 +1,7 @@
 #594 - Pattani
 
-#owner = PAT
-#controller = PAT
+owner = MSA
+controller = MSA
 culture = malayan
 religion = sunni
 capital = "Pattani"
@@ -10,17 +10,14 @@ hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 3
-is_city = no
-#add_core= PAT
+is_city = yes
+add_core= MSA
+add_core= PAT
 
 
 
 discovered_by = chinese
 discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-
-# = { discovered_by = POR } # Godinho de Eredia
 
 
 

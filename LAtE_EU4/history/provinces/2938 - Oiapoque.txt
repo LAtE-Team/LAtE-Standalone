@@ -1,6 +1,6 @@
 # - Oiapoque
 
-culture = amazonico
+culture = amazonense
 discovered_by = south_american 
 discovered_by = andean
 discovered_by = brazilian
@@ -15,16 +15,7 @@ native_size = 15
 native_ferocity = 1
 native_hostileness = 2
 
-
+#Backwards compatibility
 owner = BRZ
 controller = BRZ
 add_core = BRZ
-3053.1.1 = {
-	owner = BRZ
-	controller = BRZ
-}
-
-
-native_size = 5
-native_ferocity = 1
-native_hostileness = 3
