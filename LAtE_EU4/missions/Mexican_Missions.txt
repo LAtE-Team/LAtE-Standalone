@@ -417,7 +417,7 @@ mex_conquer_southeast_2 = {
 	}
 }
 
-mex_conquer_southeast_3 = {
+mex_europe = {
 	slot = 3
 	ai = yes
 	
@@ -456,17 +456,86 @@ mex_conquer_southeast_3 = {
 		}
 	}
 	
+	mex_discover_iberia = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		position = 7
+		completed_by = 3100.1.1
+		
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = { 
+			custom_trigger_tooltip = {
+			tooltip = "Discover a province in the Colonial Western Europe colonial region."
+				iberia_region = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = "Own at least one province in the Iberia region."
+				iberia_region = { owned_by = ROOT }
+			}
+		}
+	
+		effect = {
+			add_country_modifier = {
+				name = "por_brazil_colonial"	#Actually quite a generic modifier
+				duration = 5475
+			}
+		}
+	}
+	
+	mex_colonise_iberia = {
+		icon = mission_trade_company_region_abroad
+		required_missions = { 
+			mex_discover_iberia
+		}
+		position = 8
+		completed_by = 3100.1.1
+		
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = "Own, or have a subject own, ten provinces in the Iberia region."
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					region = iberia_region
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "mex_iberia_tariffs"
+				duration = 7300
+			}
+		}
+	}
 }
+	
 
 mex_pacific = {
-	slot = 5
+	slot = 4
 	ai = yes
 	has_country_shield = yes
+	potential = {
+		tag = MEX
+	}
 	
 	mex_a_port_on_the_pacific = {	#May be made a more general mission 
 		icon = mission_galleys_in_port
 		required_missions = {  }
-		position = 3
+		position = 6
 		
 		ai_weight = {
 			factor = 3
@@ -519,7 +588,7 @@ mex_pacific = {
 	mex_secure_pacific_coast = {
 		icon = mission_sea_battles
 		required_missions = { mex_a_port_on_the_pacific }
-		position = 4
+		position = 7
 		
 		ai_weight = {
 			factor = 3
@@ -564,7 +633,7 @@ mex_pacific = {
 	mex_discover_china = {
 		icon = mission_establish_high_seas_navy
 		required_missions = { mex_secure_pacific_coast }
-		position = 5
+		position = 8
 		
 		ai_weight = {
 			factor = 3
@@ -609,7 +678,7 @@ mex_pacific = {
 			mex_discover_china
 		}
 		completed_by = 3100.1.1
-		position = 6
+		position = 9
 		
 		provinces_to_highlight = {
 			colonial_region = colonial_north_china
@@ -644,10 +713,247 @@ mex_pacific = {
 		}
 		
 		effect = {
-			add_country_modifier = {
-				create_conquistador = 80
-			}
+			create_conquistador = 80
+			
 		}
 	}
 }
 
+mex_pacific = {
+	slot = 5
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = MEX
+	}
+	
+	mex_conquer_the_mayans = {	
+		icon = mission_unite_home_region
+		required_missions = {  }
+		position = 3
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			province_id = 2635
+			province_id = 842
+			province_id = 2636
+			province_id = 843
+			province_id = 4756
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			2635 = {
+				owned_by = ROOT
+			}
+			842 = {
+				owned_by = ROOT
+			}
+			2636 = {
+				owned_by = ROOT
+			}
+			843 = {
+				owned_by = ROOT
+			}
+			4756 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = honduras_area
+						area = salvador_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mex_expand_central_america = {	
+		icon = mission_assemble_an_army
+		required_missions = { mex_conquer_the_mayans }
+		position = 4
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = salvador_area
+			area = honduras_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = "Own or have a subject own 4 provinces in either the Salvado or Honduras areas."
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 4
+					OR = {
+						area = salvador_area
+						area = honduras_area
+					}
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = nicaragua_area
+						area = moskita_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mex_conquer_moskita = {	
+		icon = mission_cannons_firing
+		required_missions = { mex_expand_central_america }
+		position = 5
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = nicaragua_area
+			area = moskita_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = "Own or have a subject own four provinces in either the Nicaragua or Moskita areas."
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 4
+					OR = {
+						area = nicaragua_area
+						area = moskita_area
+					}
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = costa_rica_area				
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mex_conquer_costa_rica = {	
+		icon = mission_build_up_to_force_limit
+		required_missions = { mex_conquer_moskita }
+		position = 6
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = costa_rica_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			costa_rica_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			835 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			4765 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			4766 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	mex_conquer_panama = {	
+		icon = mission_invade_island
+		required_missions = { mex_conquer_moskita }
+		position = 6
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		completed_by = 3100.1.1
+		provinces_to_highlight = {
+			province_id = 835
+		}
+		trigger = {
+			835 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					area = panama_area				
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					area = coquivacoa_area				
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+			every_province = {
+				limit = {
+					area = bogota_area				
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
