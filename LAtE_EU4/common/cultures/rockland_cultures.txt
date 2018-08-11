@@ -1,16 +1,205 @@
 rockland = {
 	mountainer = {
 		dynasty_names = { "of Priddis" "of Rocky Mountain House" "of Red Deer" "of Fort Benton" }
+
+		male_names = {
+			Apash Angus Alluviel Almo Arco Armstrong
+			Bruneau Bannock Benedicte Borah Bridger Buck Bench Baptiste Belzy Bent Bill
+			Camas Clarkand Colter Calvin Cameawait Car Clymer Custer Clayton
+			Doran
+			Ellis Elbert Elbridge
+			Fremont Ferris Fraser Fuller Flint
+			Gallatin Grenville Gangue Gutzon
+			Hototo Hall Hoss Hatcher
+			Jordan Jim Jedediah Jocko
+			Kemble Kipp Kit
+			Lolo Lodge Lincoln Lewisand Langford Lucian Lanterloo Lupton
+			Malad Moyle Malcolm Muggin Mullan Merriweath Madoc Meek Mulas Mapiyato Milward
+			Ned Nash
+			Orofino Ollicut Otter Osborne
+			Pass Perce Pike Pomp Pocatell Placer Peno
+			Raynold Reet Remington Reno Rufus Rulon Ranous
+			Secesh Selkirk Sublett Sycan Seth Skene Shuman Stuart
+			Teton Tuecakas Tindoor Tuff Tetoharsk Terch Trommel Thurman Teno
+			Vrain
+			Weitas Wheeler Wirasuap Welcher Willis
+			Yount
+			Zenas Zane
+		}
+		female_names = {
+			Alice Astora
+			Blanca Betsy Belva Burnu
+			Cheyenne
+			Emilie Eliza Esther Enid Eda
+			Fantan
+			Glenna Gail Galena Gretel Gorsuch Godat
+			Helena Hazel Hedow
+			Isabel
+			Judith Juniper Jesseca Jewell
+			Lochsa Lizette Lydia Lafacon Lilian Lynne
+			Marias Margaret Mildred Melba
+			Narcissa Nellie
+			Owyhee Oreille
+			Payette Perpetua
+			"Randy'L" Resi
+			Susan Sylvia
+			Thanadelthur Tamal Tayloe
+			Varina Virginia
+			Winonmie
+			Yakima
+		}
+
 	}
 	coloradan = {
 		primary = CLR
-		dynasty_names = { }
+		dynasty_names = { "Cory-Merrill" "Currigan" "Kunsmiller" }
+
+		male_names = {
+			Aurel Argent Antero Auliffe
+			Buren Blair Bouldron Belden Belcaro Barnum Bushnell
+			Clayton
+			Eolus
+			Gray Garrald
+			Hale Hendrick Hague Herard Hesperus
+			Jasper
+			Ledon Leadblum Lowry Lykin Lyon
+			Mineran Mineralis Montanos Marston Morris
+			Olympos Oso Ossos Ossin
+			Petrus Pike Plumblon Plumead Ptarmigan
+			Rockhart Regis Raton
+			Stone Silveranos Stonarm Stonear Sloan
+			Tell Tarryall
+			Vissarion
+			Waugh
+			Zebulon Zirkel
+		}
+		female_names = {
+			Argentine Auraria Acanthite Adularia Arvada Aventurine Alta Antora Archuleta Angevine
+			Creede Carnelia Copal Coral Cirque Culebra
+			Elyria Emerald Emma
+			Fayola
+			Gravelle Galena Garnet Garita
+			Idarado
+			Jane Jade
+			Leada Larimar Liane
+			Mary Maybell Mar Marrama
+			Nacre
+			Olympya Opal
+			Petriff Petrisha Plata
+			Rubis Roseanne
+			Silveria Sphalerite
+			Tourmaline
+			Zenobia
+		}
+
 	}
 	utahn = {
 		primary = DES
 		dynasty_names = { "Vina" "of Sandy" }
+
+		male_names = {
+			Aaric Aaron Abinadi Abinadom Abraham Aethan Aha Ahab Ahah Akish Alma Amaleki Amalickiah Amaron Amasa Amgid Aminadab Aminadi Amlici Ammah Ammaron Ammon Ammoron Amnigaddah Amnor Amoron Amos Amulek Amulon Antiomno Antionah Antionum Antipus Archeantus Arnol Artax Arvol Auri Avichen Axton 
+			Baram Benjamin Bennion Bethuel Bevalier Bowden Boydell Bralan Brantly Brinton Brode 
+			Cabel Calbert Cardston Cezoram Chemish Cheston Clade Clebert Cleese Cleon Cohor Coleman Com Corban Corianton Coriantor Coriantum Coriantumr Corihor Corom Cumenihah Curtly 
+			Dahl Dalan Dallin Dallon Dannon Danstan Darnell Darris Darvell Delbert Dellon Delmas Delton Denneth Denton Dorian Draycen Drey Drury Durward 
+			Eldon Elhanan Emer Emerald Emron Enos Esrom Ethem Ether Euzel Ezias Ezra 
+			Farren Ferol Fielding Fredonius 
+			Gabrien Gadianton Garren Gaskell Gearld Gerad Giddianhi Giddonah Gideon Gidgiddonah Gidgiddoni Gilead Gilgah Gilgal Glain 
+			Hagoth Hearthom Hearthon Heber Helam Helaman Helem Helorum Hem Heston Heth Hilton Himni Hyrum 
+			Isaiah Ishmael Israel 
+			Jacob Jacom Jaden Jadon Jamis Jared Jarin Jarom Jarrell Jeneum Jeraneck Jeremiah Jeric Jeris Jerrick Johoshua Jonas Joseph Josh Joshub Josiah Judah 
+			Kadon Kamren Katriel Keigh Kelton Kempton Keston Kevan Kib Kim Kimnor Kirtland Kish Kishkumen Kneel Koln Korihor Kosner Kresten Kumen Kumenonhi 
+			Laban Lachoneus Lamah Laman Lamoni Landell Lavoy Leatus Lehi Lehonti Lemuel Leonid Lerron Lethair Levi Levor Lib Limhah Limher Limhi Linnus Lorenzo Lorian Luram Lyman 
+			Mahah Mahonri Manti Marion Marsden Mathoni Mathonihah Mauric Moriancumer Morianton Mormon Moron Moroni Moronihah Moses Mosiah Mulek Muloki 
+			Nashoba Nehemiah Nehor Nephi Nephihah Neum Nevin Nimrah Niniva Noah Nordell Novich 
+			Olmstead Omer Omner Omni Orem Orihah Orson Orvel Oryeon 
+			Paanchi Pacey Pachus Pacumeni Pagag Pahoran Parkence Platte Pratt Pryce 
+			Raden Rainey Randen Ranell Ratzon Rawlin Raystan Reed Refell Rennen Rilus Riplakish Rustin 
+			Sam Samuel Seantum Seezoram Selar Selwin Seth Shared Shaygan Shem Shemnon Sherem Sherland Shez Shiblom Shiblon Shiz Shule Shurm Stod Stryder 
+			Tabernacle Taige Tain Taisin Takoma Tatton Tawn Teancum Templer Teomner Terral Thais Theon Timothy Tithing Torin Tork Torston Tres Trevan Truss Tubaloth 
+			Ulis 
+			Valden Vallen Vardell Vardis Venla Verden Voiyant 
+			Wesson Wester Willard Winchester Woodruff Wouter Wynante Wyndon 
+			Xanderrick Xarek 
+			Yehoram Yoder 
+			Zamaleki Zann Zaquen Zarahemla Zedek Zedekiah Zedwain Zeezrom Zekiel Zelph Zemerick Zemnarihah Zenephi Zeniff Zenoa Zenock Zenos Zerahemnah Zeram Zoland Zoram 
+		}
+		female_names = {
+			Aaronica Abihail Abish Abrah Acacia Adaleen Adi Adreyna Albine Aleah Alemeda Almadon Alpine Alwina Amberlin Amethist Amourette Amulet Anagene Angelic Ankanna Annysa Ara Arabeth Ardonna Arprilla Arvilla Asenath Astrolena Athaliah Audia Azure Belva 
+			Beneth Berena Berna Blessing Braquelle Brighamena Brighaminie 
+			Cadence Calan Camaris Candra Carmelit Cassa Celestian Cember Chalise Chanalin Charalla Chassia Christina Chyleen Ciri Claytra Cleota Clover Corill Cornelia Cretia Cumorah 
+			Dalita Daraca Darlada Dawn Dawnene Daysa Deborah Delilah Deneen Deza Diona Donyelle Doretta Dorraine 
+			Elda Electa Elevena Erin Esther 
+			Florice 
+			Gainel Garon Geaniel Guyanna 
+			Hahna Hannah Heneli Hilea 
+			Idonna Ireta Ireva Irlanda Isabel Isabella Isha Itha Ivis Izaiha Izola 
+			Jaelle Jaisel Janeil Jania Jelisa Jemima Jennis Jesselah Joanna Jordana Josephinie Jubeltine Judica Junean Junia 
+			Kahna Kaiah Kamri Kasiah Katriel Kena Klissann Klystia 
+			Labbaron Launale Leatrice Leaun Leola Lethea Lexine Liahonna Lorelle Lovola Luienne Lydia 
+			Macel Marbara Maridean Maridee Marshell Marvada Mavia Melora Mikatin Morona 
+			Naamah Nalomi Nanell Naoma Naomi Nara Natalie Nelida Nevona Nezla Ninnon Nova Nyla 
+			Oleta Onna Oshira 
+			Palmyra Parnal Phemia Phoebe 
+			Quince 
+			Ralissa Rexine Rhoda Rhodendra Rhodogune Rinez Rozell Rulene Ruth 
+			Salenda Samila Samsi Saren Sariah Seena Seletha Semiramis Seneth Serah Seviah Shambertine Shanalea Shantel Shay Shelise Sogna Sonna Staccato Starlene Sunan Sushelle 
+			Talesha Talma Tempali Tempalia Threna Trishelle Turquoise 
+			Uleah 
+			Valista Veloe Viella Vindalu Violet 
+			Xanne 
+			Yasmine 
+			Zarinaea Zenobia Zeruah Ziona 
+		}
+
 	}
 	prairielander = {
-		dynasty_names = { }
+		dynasty_names = { "MacKenzie" "Wickenheiser" "Romanow" }
+		
+		male_names = {
+			Abram Albert Alex Anders Anton
+			Bart Ben Brian Bruno
+			Cam Casper Christian Conrad Cyril Carl
+			David Derek Daniel Dmytro Dominic Denys
+			Erik Edvard
+			Fedor Franz Fred
+			Garnet George Gene Gregor Gordie
+			Henry Harold Hans
+			John Jacob Jim Josh Joseph
+			Kasimir Kenneth
+			Leon Liam Louis
+			Mark Mason Michael Myron
+			Oleh
+			Peter
+			Robert Rurik Roman
+			Sam Sergiy Stanislav Sven
+			Taras Tim
+			Viktor Vitaly Vlad
+			William Wilfrid
+		}
+		female_names = {
+			Agatha Anastasia Angela Anna Alla
+			Britt Bridget Berta Beth Bev
+			Catherine Cecilia Celina Charlotte Claudia
+			Deborah Dina Dorothy Daryna
+			Elsa Elizabeth Emma Erika
+			Franciszka
+			Gertrude Grace
+			Hannah Henrietta
+			Isabel Iryna Ingrid
+			Kathryn Kristina
+			Lauren Lidiya Lucina
+			Margaret Maria Martha Melanie
+			Natalia Nadine Nicole
+			Oksana Olivia
+			Rachel Rebecca Rose
+			Sarina Sophia Stephanie Svitlana
+			Tetyana Theresa Tabitha
+			Ursula
+			Veronika Viktoria Violet
+			Yana Yeva Yevhena
+			Zoe Zlata Zinayida
+		}
+
 	}
 }

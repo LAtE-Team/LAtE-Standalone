@@ -1,29 +1,115 @@
-#singaporean
+﻿#singaporean
 malay = {
 	singaporean = {
 		primary = SGP
-		dynasty_names = { }
+		dynasty_names = { "Ma" "Sipanggang" "Dingxiang" }
+		
+		male_names = {
+			Aaron Aasima Aatifa Abdul Abdullah Adhraaa Adiputri Adnan Adrian Afaaf Agu Ah-Mee Ahmad Aishah Aisyah Albert Alex Aloysius Amal Ameerul Amos Andre Andrew Aneesa Antony Awaatif Ayden Azura Bak-Chye Benedict Benjamin Bo-Seng Boon-Hui Boon-Keng Boon-Wan Bunga Cahaya Cai-Chengjun Carlson Cempaka Chahaya Chalise Chee-Hean Chee-Keong Cheng-Bock Cheong-Ming Chin-Chye Cho-Yaw Chok-Tong Chong-Tee Choon-Seng Chun-Leong Chun-Sing Cik Cy Damien Daniel Dara Daren Darren Darryl David Davinder Dean Declan Delima Desmond Devan Dewi Dian Don Douglas Dray Eng-Hen Erfi Eric Esah Fandi Faraah Franklin George Gerald Gerard Ghaada Ghazaala Gordon Gurmit Hadeel Hairie Halim Han-Qin Hanaaa Hanoona Hans Haryati Hawraa Hayati Herman Hijau Hock-Kim Hock-Siew Hoi-Kim Horng-Siong How-Doong Howe-Liang Hsien-Loong Hsien-Yang Ian Indah Ishak Ivan Izzati Jase Jason Jasra Jay Jaya Jee-Say Jeffrey Jenab Jeremy Jiaming Jie Jithu Jonathan Joseph Joshua Julien Jun Jun-Jie Junlong Justin Juwita Kah-Kee Kameela Kan-Seng Kartika Kartini Kc Keith Kelvin Kembang Kemboja Ken-Lim Keng-Swee Keng-Yam Keng-Yong Kenneth Kenny Kevin Khaleela Kiah-Hong Kim-Heng Kim-Lai Kim-San Kim-Wee Kin-Lian Kirito Kong Kong-Chian Koseki Kris Kuan-Yew Kuning Kuntum Lark-Sye Latipah Lavinya Lawrence Lee Leng-Beng Leon Lex Ling-Fung Lionel Lou Louis Lubna Maariya Madeeha Mahsuri Mahura Maimoona Maleeha Manaahil Manjalara Manull Marcus Mariah Mariam Mark Marshall Mas Masayu Matt Matthew Mawar Maya Mayang Melati Mike Mumtaaza Murni Muzzammil Naadiya Naaifa Nadeera Najaat Najma Najwa Nakheel Naqiyya Nicholas Nikkori Nilam Nishant Oscar Peng-Boon Peng-Siong Peng-Soon Peter Phil Philip Phung-Kim Ping-Tjin Puteri Putih Qamraaa Rafeeqa Raheema Raja Rajesh Rasheeda Ravyu Richard Rodney Rohan Ronald Russell Ruwan Ryan Saadong Sabeeka Sabiyya Sabriyya Safwa Sagnwook Sahheeda Sameera Samuel Saul See-Tong Sellapan Seng-Song Seng-Wee Ser-Cher Ser-Miang Seri Shaahira Shafee'a Shahaama Shakoora Shamsul Shane Shunmugam Siddeeqa Siew-Choh Silver Simon Sinnathamby Soon-Hong Soon-Yong Sri Steve Steven Subhas Sui-Sen Sumaita Sumbula Suppiah Suria Suriawati Surintan Swee-Keat Swie-Hian Syamim Sylvester Tamanna Tan-Huang Tasneem Tat-Chuan Taufik Tawfeeqa Tawheeda Teck-Puat Teng-Cheong Teng-Fong Teratai Thaabita Thia-Khiang Thye-Poh Timothy Tock-Seng Tony Tze-Law Ulyaa Umaima Ungu Vijaya Vincent Vishva Vivian Waajida Wadee'a Waleeda Walter Wangi Wei Wei-Jie Wei-Lian Winston Xiaoyu Yaasmeen Yati Yeck-Joo Yeow-Soon Yew-Hock Yi-Jung Yip-Yan Yong-Boon Yusof Zaahira Zack Zaitoona Zeena Zuhra 
+		}
+		
+		female_names = {
+			Aaisha Aamina Aatika Adhraaa Adi Adiputeri Adiputri Adlina Afiqah Afraah Agnes Ain Aishah Alexis Alicia Alvira Amanda Amaya Ameera Amelia Amniyya Angeline Annabel Aseela Ashley Barbara Beth Biru Bulat Cahaya Catherine Cathy Cempaka Chahaya Charmaine Cherilyn Chermaine Cheryl Chin-Siow Ching Chloe Christie Christina Christine Cik Claire Claudia Corrinne Dayang Denise Dorothy Dwy Ee-Tze Elaine Ellyza Embun Emma Esther Eunice Faith Fang Fareeda Farhat Fatin Fawqiyya Fawzaana Felicia Feuer Fikra Fiona Foon-Ling Gayathri Gemmie Geok-Choo Ghuzaila Gina Grace Haajara Haala Haaniya Hafizah Haibaa Haifaaa Hapsah Haryati Hazlina Heng-Chee Hilmiyya Himma Huei-Min Hujja Idranee Intan Izzati Jamie Jane Jannat Jasmine Jeanette Jenab Jiawei Jing Joelle Joey Jolene Judy Jumaana Jun Junhong Juwita Kaatima Kartika Kartini Katijah Keerthi Kelly Kembang Kemuning Ker-Wey Khaira Khairiya Khatijah Kimberly Kit-Chan Kulthum Kuning Laaiqa Latipah Lauren Leah Leanna Lee Leong Li Lim Lina Linda Lulu Ma Maazina Madeeha Mahura Maia Manaahil Manaara Manjalara Mardiyya Mariah Mariam Mas Masayu Mastoora Mavis Mawar Mawhiba May Maya Mayang Mazeeda Meifeng Melati Melur Meriam Michelle Min Min-Lee Mindy Miska Mitchie Miyuki Molly Mubeena Mujaahida Muna Murni Mushtaaqa Mutee'a Naaifa Nabilah Nadeera Najaat Naseeba Nasuha Natalie Nawar Nicole Ning Nur Nurul Olivia Ou-Xuan Pavani Pei-Ling Pertiwi Poh-Imm Puspa Puspawangi Puteh Raadiya Raaniya Rachel Raihaana Rebecca Regina Rena Rihaab Rin Rui-En Sa'adong Saadong Sabaaha Sadeeda Sadeeqa Safiyya Sai-Por Samraa Sanaaa Sarah Seiriene Sepiah Shaakira Shabeeba Shadhaa Shafaaa Shafee'a Shasha Sherilyn Sheryl Shu-Ying Siddeeqa Sri Stefanie Suchen Sumiko Suria Suriawati Syiqah Sylvia Tameema Tan Tanya Tayyiba Teratai Thaamira Tijah Turfa Umaima Valerie Vanessa Vicky Waajida Wan-Er Waneesa Wong Woon-Fong Yaasmeen Yanmei Yanzi Yi-Ling Yip Yujia Yvonne Zamrud Zena Zeth Ziqian Zoe 
+		}
+
 	}
 }
 #hawaiian
 polynesian_g = {
 	hawaiian = {
 		primary = HWI
-		dynasty_names = { }
+		dynasty_names = { "Kawananakoa" "Nakano" "'Ewa" }
+		male_names = {
+			A'alona Apela Apelaka Apia Apiakala Apihu Api'ia Apinakapa Apilama Apikai Apenela Apelahama Apelama Apekaloma Akamu Akoni'ia Akonilama Akiliano Akeliela Akelipa Ahapa Ahakuelo Ahaka Ahia Ahimeleka Alakana Alepana Alapaki Alepako Alika Alekanekelo Aleki Alepeleke Alena Aloiki Alekona Alewina Amapolokio Amoka Anania Anakakio Anakale Anekelea Anekaloka Anakelemo Akoni Apolo Apoluona Ake Aliela Alemana Alekama Aka Akela
+			Aupeleke Aupele Aukake Aukukino Aukukeko Aulelio Aima Akalia Pala'ama Palenapa Palekapa Palekolomaio Pakimea Pakile Pelehakala Penekiko Peni'amina Pelanalako Pekuela Ponawenekula Ponipake Poe Puluke Puluno Kaikala Kai'apa Kaina Kaio Kalepa Kalawina Kalolo Kasimilo
+			Kakapa Kekila Kekelika Kelekino Kepa Kalolo Kilikikopa Kalekokome Kikelo Kalalena Kalauka Kelaukio Kalauka Kelemeneke Kalipekona Kalaila Konekakino Kolenelio Kelikepo Kipiliano Kilila Kulo Kamakio Kana Kaniela Kaliu Kawika Kemikilio Kenika Keli Kionikio Kominiko Kona Koukalaka Kuaika Epena Epenekela Ekeka Ekemona Ekewaka Eluene Eleakala Eli Elihu Elia Elikai Elema Eleloe Elekona Emanuela Enoka Epelaima Elamo Elika Eleneki Ekau Ekana Iukini Eukepio Eukakio Ewaliko Ekekiela Ekela Papiano Paukekino Pelike Pelekinako
+			Poloika Palakiko Palani Pelanekelina Peleke Kapeliela Kamaliela Kelakio Keopele Keoki Kelaka Kileona Kilipaki Kilemoa Kolia Kolekona Kelekolio Kukakawe Hapakuka Hakai Hama Hamana Hanipala Haneke Halama Halola Hekeka Henele Hapaki Helemano Heloke Hekekia Hilalio Hailama Homela Honolio Holeka Holakio Hokea Haoa Hupeka Hiu Huko Humepaka Ikapoka Ikenaki Inokene Iwini Ika'aka Ikaia Ikema'ela Ikikolo Ikela'ela Iwana Iwanaho Keaka Iakopa Ia'ela Kimo_James:150 Iapeka Iakona Ialeka Iakepa Iehu Iepeka Ielome Ieke
+			Ieku Iekelo Iokina Iopa Keo Io'ela Keoni_John:150 Ioane Iona Ionakana Hoke Iokepa Iokewe Iokua Iokia Iokama Huanu Iuka Kiule Kuliano Iulio Iupika Iukekini Kukiniano Kelewina Keneke Kewini Lapana Lameka Lauleneke Lakalo Lemuela Leone Leonaka Leopolo Lewi Lipelio Lipeleko Lino Laionela Loeka Loleneko Lolina Loka Lui Lukipela Lukio Luka Lukela Mahelona Malaki Malakoma Manake Manoa Manuela Malakelo Maliona Maleko Makaio Melekikekeka Melewina Mepipokeka Mekukala Mika Mika'ele Mikuela Mohameka Molekekai Moke
+			Na'amana Napala Nahola Napoliana Nakana Nakana'ela Nepukaneka Neki Nehemia Nelo Nikolao Nikokemo Noa Noela Nolepeleko Nolemana Opakia Opeka Oliwa Oka Okewoleka Pakelika Paulo Pekelo Pekelo Peleki Pilemona Pilipo Pinehaka Pilako Pio Polikape Pomeponio Pokipala Petolomai Kuenekina Lalepa Lapa'ela Lei Leimana Lekapa Lekinala Lehopoama Le'upena Leuela Likeke Lopaka Lopine Lokene Lokela Lolana Lolina Lomio Lomulu Lupe Lupeko Kalakiela Kamekona Kamuela Kaulo Kepakiano Kelekio Keka Kakelaka Kema Kikine Kila Kimeona Kimona Kimipilikio Kokalake Kolomona Kanilao
+			Kanale Kekepana Kakana Kelekio Kakaio Keokolo Keopilo Kamaki Kimokeo Kiko Kopia Koma Ulaliko Uleki Ulia Uliela Walenekino Waleliano Wenona Wikoli Wikolino Winikeneke Wilikilia Waledema Walaka Walena Wilipaki Wilepoka Wilipeleke Wilehailama Wilika Wiliama Wilemoa Winipeleke Kakaio Kakalia Kakoka Kepekaio Kepuluna Kekekia Kepelino Kelupapela
+			Hoapili Kalakaua Kama'ule'ule Kamehameha Kauikeaouli Kaumali'i Ke'eaumoku Keali'iahonui Liholiho Lunalilo
+		}
+		female_names = {
+			Apika'ila Apikaka Aka Akelaika Akelina Akela Akaka Akeneki Ahinoama Ailina Alepeka Alekia Alekanekalia Aleka Alema Alamila
+			Alawina Amanaka Amelia Eme Anakakia Anakalia Anela Anika Anikala Ana Anapela Aneka Anakonia Alapela Akenaka Akalia Aukele Aukaka Aulelia Alola Palapala Pakekepa Peakalika Pela Pelenakeka Pelanakino Berenike Peleka Pelulo Peke Peula Pileha Poni Pilikika Kaloka Kamelia Kalamela Kamila Kalola Kalolaina Kakalina Kikilia Kelekina Kilia Halaki Kelia Koloe Kilikina Kilikipine Kinikalela Kalala Kalalika Kalaukia Kalaukina Kaleopakala Kelokilaka Kopina Konokuelo Kokelia Kolina Kolenelia Kinikia Kakama
+			Wana'ao Kepola Kelia Kela Kelepine Kenike Kiana Kina Kokoleke Kolina Kolika Kolokea Kelaukila Ekika Ekena Eluina Ailina Ileina Elepeka Elenoa Laika Elikapeka Ela Elena Elemila Eloika Eleki Elewila Emelia Emele Ema Emalaina Elika Elenekina Ekekela Ekela Iukinia Ulalia Eunike Eupemia Iwa Ewalina Mana'o'i'o Pane Paukekina Pikelia Polola Pololena Pelolina Palakika Pelika Keokiana Keokina Kelekukuke Kololia Hakala Hana Haliaka Hakela Heiki Helena Heneliaka Hepeziba Helokia Hekekela Heke Hilalia Hileka Mana'olana Holekeneke Huleka Aika Aina Aineki Ailina Ikapela Kini Ianeke Ienipa Keluka Iezebela Io'ana Iokepine Ioke Wanika Iukika Iulia Kuliana Iune Iuno Iukikina Kalini Keke Kekula Kimi Lala Lea Lina Leonola Lekikia Lipe Lipeka Liliana Lilia Lika Loika Lolika Loleka Loleina Luika Lukia Lukila Lukina Meipala Makelina Malawina Mame Makela Makaleka Makalika Malaea Maliana Malia Meliaka Malilaka Melelina Malina Maleka Malakina Meleana Mei Meipela
+			Melika Mekeke Mikala Mileka Milikeleka Milikena Minewa Miliama Mona Monika Miuliela Maila Milena Makaka Nanekia Naneka Naomi Nakeli Nele Neki Nina Nola Nolina Noma Oleka Oliwa Oliwia Olumepia Orepa Pamila Paneki Ahonui Pakelekia Poleke Polina Momi Peleki Pilipa Pilomena Po'ipe Piliki Pole Polekia Pelekila Pelukuna Lahela Lahapa Lepeka Leina Lina Looke Lopeka Lomelia Loka Lokapela Lokalia Lokamona Loke Lokelina Lokeleme Lokina Lowena Lupe Luka Kale Kalome Kala Kalai Kelina Kalana Kipila Konia Kopia
+			Kekepania Kukana Kepila Kiliwia Kapika Kalula Kamala Keleka Komakina Milimili Kelupaina Ulalika Ulukula Walelia Wila Welena Walonika Wikolia Waiola Waioleka Wilikinia Wiwiana Wanaka Wilemina Wila Winipeleke Iolana Iwone Kenopia Kilepa Kipola
+			Ka'ahumanu Kalama Ka'iulani Kamamalu Kapiolani Keopuolani Likelike Liliuokalani Noelani Lilo
+		}
+
 	}
 }
 #nigerian
 west_african = {
 	nigerian = {
 		primary = NGR
-		dynasty_names = { }
+		dynasty_names = { "Oluwaseun" "Adeleye-Fayemi" "Fashola" }
+		
+		male_names = {
+			Abidemi Abimbola Abiodun Abioye Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa Afolabi Akachi Akuchi Amadi Ayo Ayodele Ayokunle Ayomide Ayotunde Azubuike Babajide Babangida Babatunde Badamasi Balarabe Bamidele Buba Buhari Chi Chibueze Chibuike Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chijindum Chike Chikelu Chikere Chima Chindo Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Danjuma Danladi Danlami Daran Dare Daren Dayo Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Eniola Enitan Enyinnaya Femi Folami Gaddo Gambo Goggo Gowon Hasan Hindatu Idowu Ikenna Jamila Kande Kayin Kayode Kubura Lamido Lanre Larai Lekan Maimuna Monsura Ndidi Ngozi Nkemdilim Nnamdi Obi Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Onyekachi Onyekachukwu Opeyemi Rago Rashidi Shibu Tanimu Temitope Turai Turaki Udo Uwani Uzochi Uzoma Yasira Yelwa Yohance 
+		}
+		
+		female_names = {
+			Abeni Abimbola Abiodun Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo Akachi Akuchi Alaba Albarka Alheri Amaka Amara Amarachi Anaca Anaka Anecky Anika Anikee Annaka Anneka Anneke Añuli Assibi Aunika Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Cara Casia Casiah Casina Cassa Cassia Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ciah Cof Coffee Coffi Coffie Colee Coley Colie Dada Dalma Darah Darrah Dayo Deloo Delu Delue Dena Dessa Dibby Dilla Dona Donae Donah Donalda Donaldina Donelda Doni Donnah Doshi Dura Durah Durrah Ebele Ekene Ekenedilichukwu Ekundayo Eniola Enitan Fa'idah Fa'iqah Fa'izah Fara Fari Farih Farra Farry Folami Fumnanya Funanya Gaddo Gambo Gbemisola Gesina Gibby Hanna Hasana Hira Ibby Idowu Ife Ige Izara Jummai Kayin Kia Ladi Lami Mansurah Mojisola Monifa Ndidi Ngozi Niesha Nis Nisa Nissa Nissah Nissanit Nisse Nissi Nissie Nissnana Nissy Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nona Nonah Nonee Noney Noni Nonia Nonie Nonita Nonna Nonnah Nonni Nonnie Nony Nonya Numa Nuna Nunna Nwanneka Nysa Nyssa Nysse Ogechi Ogechukwukama Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi Ova Ovah Ove Ovea Ovia Rama Reen Reena Reenah Reene Reenie Reeny Rena Renah Renna Rennah Resha Rina Rinah Rinna Rinnah Sakinah Simisola Talatu Tanea Tanee Taney Tani Tanie Tannea Tannee Tanney Tanni Tannie Tanny Tany Tanye Temitope Titilayo Udo Uzoma Yejide Yewande Yola Zora Zorra 
+		}
+
 	}
 }
 #edokko
 japanese_g = {
 	edokko = {
 		primary = JAP
-		dynasty_names = { }
+		dynasty_names = { "Takeda" "Chiba" "Maeda" }
+		
+		male_names = {
+			Akikazu Akinari Akira Allen Amuro Andromeda Arinori Armin Ash Astro Ataru Atasuke Athrun Atsumori
+			Baiko Bakin Basara Batou Bokkai Britai Bunzo Byakuya
+			Char Chikafusa Chojiro Chomei
+			Daisetsu Daisuke Doi Doraemon
+			Eichi Eisen Eisuke Eitoku Eren Exsedol
+			Fujimaro Fumihiro
+			Gaara Gendo Genichi Genjo Genma Genpaku Gidayu Gin Gintoki Goemon Gohan Goku Gonkuro Gourry
+			Hao Haruko Haseo Hayao Hayato Heihachiro Heiji Heikichi Hidemichi Hideo Hideri Hidetora Hideyoshi Hikaru Hikozaemon Himura Hiro Hirohisa Hirotada Hirotsugu Hiryu Hisanobu Hitomaro Hitoshi Hosuke Hyobe Hyosuke Hyotaru
+			Ichibei Ichigo Ichiro Ichiyo Ichizo Iesada Ikemoto Ikki Inejiro Itachi Iwao Izumo
+			Jakuchu Jiraiya Joben Jugemu Juichi Jurobei
+			Kaemon Kagehisa Kaito Kakashi Kamlyn Kamui Kaneie Kantaro Kaoru Katai Katsuyuki Kaworu Kazu Kazuma Kazuyuki Keiichi Keisuke Kenichi Kenpachi Kenshiro Kenzo Kiichi Kikaku Kikugoro Kimihiro Kiminobu Kira Kiyo Kobo Koetsu Koichi Kokei Koki Kokushi Konosuke Korekiyo Korenaga Kozue Kudo Kuemon Kumanosuke Kunihiko Kunimatsu Kunitaro Kuririn Kyoichi Kyoya Kyuichi Kyushichi Kyuso
+			Lambo Legato
+			Magobei Majin Mamoru Manzo Marihito Masaaki Masanobu Mashashi Masujiro Matabei Matsudaira Maximilian Mello Miki Mikio Mitsuharu Mitsunari Mokichi Mokuba Monkey Montaro Morio Motoki Motonobu Mukuro Munemori Mushanokoji Mutsohito Myojin
+			Naizen Naoki Naruto Nikki Nissho Nobuyoshi Norihisa Norinaga Noritada
+			Ochanomizu Ogai Okakura Okitsugu Orochimaru Otojiro Pluto Quamzin
+			Rai Raidon Ranma Raoh Reizo Renji Rinji Robita Rolo Roronoa Rosanjin Roy Ryobe Ryohei Ryoma Ryuk Ryutaro
+			Sachio Sadatake Sagara Saito Samba Sasuke Satoshi Seibei Seiho Seika Seiryo Seishiro Seishisai Seiya Sena Sessue Seta Seto Setsuna Shiba Shigeaki Shigeki Shigeru Shigetaka Shikamaru Shiki Shingen Shinji Shinn Shinomori Shintaro Shinya Shinzaburo Shirai Shirou Shiryu Shishio Sho Shoda Shogo Shohei Shoin Shojiro Shoko Shoraku Shosuke Shukishi Shuko Shunko Shusake Shusaku Soh Sora Sorai Sosuke Soun Ssekien Subaru Sukeyasu Sumiteru Suzaku Suzu Syaoran
+			Tadashi Tadayoshi Tadayuki Tai Taisuke Takahashi Takamasa Takanibu Takayuki Takeo Takeru Takeshi Takuma Tamotsu Tanak Tatsuya Tatsuzo Taysuke Teika Teiljo Tekkan Teriuihi Teruo Tetsuo Tien Tobei Togai Togusa Toin Tokimasa Tokuma Tomiji Torazo Toshiaki Toshiro Toyokuni Toyoshige Toyotomi Tsubasa Tsugahara Tsuna Tsuneari Tsuneyo
+			Uryu
+			Vash Vegeta Yachi Yakumo Yasuhiko Yasuhiro Yasunari Yasutake Yasutoki Yasutora Yataro Yodo Yoh Yoichi Yoringa Yoritomo Yoshida Yoshifumi Yoshii Yoshikazu Yoshimochi Yoshinaka Yoshinori Yugoro Yukishiro Yuri Yuta Yushiro Yusuke
+			Zatch Zenko
+		}	
+
+		female_names = {
+			Ado Aemi Agasa Aira Aishun Akane Amarante Amaya Anda Anii Anju Anna Ano Anri Ao Aoba Aoi Aqua Arale Arisu Asuka Athena Atsuko Aya Ayano Aye Ayuri Azusa
+			Belldandy Bulma
+			Caerula Cagalli Chi Chibiusa Chieko Chigusa Chihiro Chihomi Chika Chikako Chikaze Chiko Chikuma Chimaki Chisato Chitoge Chiyako Chiyeko Chiyuki Chizu Cho Claudia Dejiko
+			Echiko Eho Eiko Eimu Eire Elma Emao Emika Emiko Emiya Enko Erena Eris
+			Fuji Fujiko Fuki Fukuko Fumika Fumiya Fuuko Fuyume
+			Gabriel Gen Gin
+			Hana Hanae Hanako Haniko Haruhi Harukichi Hatsu Hatsuyo Hazuki Hide Himari Hinako Hiro Hiroe Hisako Hisano Homi Homugi Hona Hotaru
+			Ichiho Ichino Inaho Iori Irisa Isaki Isami Isamu Ishi Isoko Isono
+			Kadiri Kagami Kaho Kai Kaiyo Kallen Kama Kameko Kami Kamiya Kanna Kanon Kao Kaoru Kasumi Kaya Kayami Kayu Kazashi Kazu Kazumi Kiho Kino Kinu Kinuye Kinuyo Kita Kiyomi Kofuyu Koma Kumin Konatsu Kozue Kuma Kumiyo Kurea Kuwa
+			Lacus Lalatina Leona Lina Lucoa Lum Lynn
+			Mafuyu Mai Maika Maiya Makimachi Mami Mamiko Man Masa Maya Mayo Megumin Michiko Mieko Miiko Mika Mikasa Miki Mikka Miku Milia Mine Mineko Mino Mio Misa Misaki Misao Misato Misty Mitsu Mitsuko Miu Miwa Miyako Miyoshi Miyuki Mizuki Moka Moto Motoko Murasaki Mutsuko Mylene
+			Nabiki Nadeshiko Naga Nagisa Nami Namiko Nana Nanao Naomi Naru Narumi Natsumi Nausicaa Nene Nishi Nodoka Nui Nunnally
+			Ogi Ori Orihime Orika Osen Otsu
+			Pluto
+			Raicho Ranma Rei Reira Remon Ren Rena Raphiel Rikka Rin Rina Ringo Ritsu Ritsuko Rui Rukia Runa
+			Saber Sada Saika Sakae Sakamae Sakura Sakurako Sakuro Sama Sanae Saori Satania Sato Satoko Satone Satu Saya Seka Shiho Shika Shinka Shoko Skuld Sonico Sugi Suki Suko
+			Tohru Taji Takara Tami Tanaka Tane Tansho Tapris Toka Tokie Tokiwa Toku Tomi Tomo Tomoe Toshi Toshiko Toyoko Tsugi Tsumugi Tsukiko Tsukiyama
+			Uka Umeki Una Urako Urano Urara Urd Usagi
+			Vignette
+			Wattan Wiz Winry
+			Yachi Yasu Yayoi Yo Yomiko Yoriko Yoshe Yoshike Yoshiko Yotsuba Yufu Yui Yuki Yukika Yukishiro Yuko Yumako Yuna Yuria Yuro Yutsuko Yuno
+		}
+
 	}
 }
 #british
@@ -31,32 +117,323 @@ british = {
 	british = {
 		primary = GBR
 		dynasty_names = { "Tackleford" "Stigson" "Cockswain" "Sternhead" "Fox" "of Peterborough" "Hartnell" "Arlanc" "Spatley" "Bolstrood" "May" "Cloxton" "of Providence" "of Sheboygan" "of Muskego" "of Falmouth" "Hammond" "of Middleton" "of Quincy" "of Worcester" }
+
+		male_names = {
+			Arthur Alan Albus Ajax Agravain Accolon Angus Attwell
+			Baldrick Brillig Borogove Bedivere Breunor Brutus Brum Balian Bran Bruin Barnaby Brelan Bartle
+			Capald Charles Colin Carloman Chilperick Constantine Craddock Claudas Cedrick Cynan Catigern
+			Dorian Darius Douglas Dagobert Dagonet Dinadan
+			Edward Edmund Errol Ector Elyan Edern
+			Frederick Fry Firmin Fergus Frobisher
+			Gilbert Gyre Gordon Guy Gann Gallahad Gryphon Gareth Geraint Griflet Gringolet Gildas Giles
+			Hiram Horatio Hartnell Harper Hurndall Hector Hengist Havelock
+			Isambard
+			Julian Joffrey Joseph
+			Ludovick Lovarck Lesland Lancelot Lupus Lionel Lucan Lucius
+			Manfield Much Meldrick Manxome Malcolm Mercury Maleagant Morgan Marmaduke
+			Nelson Nennius Neddard
+			Oliver Outgrabe Owen Oberon
+			Peter Percival Pertwee Pepin Phineas Paget Pelleas Pellinore
+			Ruddigore Richard Robin Randolph Rubeus Rugbert Rigby Rudyard Rowland
+			Sullivan Scathelock Sylvester Severus Sagramore
+			Thaddeus Tove Tennant Tulgey Theobald Theophilus Tarrant Tristan Tiberius Teignmouth
+			Uriens Uther
+			Vincent Vaisey Victor
+			Wilbert Winston
+			Yaffle
+		}
+		female_names = {
+			Antimony Ada Anne Alice Angela Aphrodite Agresizia Abigale Adella Agnes Almyra
+			Belle Blanche Brangaine Beatrice
+			Caprice Cleonie Caelia Clara Clementina Constance Cordelia Charity Cynthia
+			Dindrane Dorothy Dahlia
+			Edwina Elizabeth Eleanor Elspeth Elaine Enide Evaine Elvira Esther Eudora Elys
+			Fay Felyssa Fidelia Frances Frideswide
+			Georgia Geraldine Gwendoline Guinevere Gloriana
+			Hermione Helen Hester Hannah Hortense Hazel Honoria
+			Isabelle Irma Igraine Iseult
+			Joanne Jane Judith Jessamine Josephine Juliet Johanne
+			Lucy Laudine Lunete Lynette Lyonesse Lenore Lettice Lorraine
+			Marian Mimsy Mary Miranda Morgause Margaret Mathilda Mildred Millicent
+			Nimue Nightingale Nymphadora
+			Orgeluse Olive
+			Petra Parcenet Philomena Permelia Phoebe Preshea Phyllis Prudence
+			Ragnell Rhoda Rowena Rufina
+			Sara Samantha Selina Sophronia Sybil
+			Theodosia Teresa
+			Victoria Venus Vertiline Viviana
+			Winnifred
+			Zylphia Zona
+		}
+
 	}
 }
 #brazilian
 brazilian_culture_group = {
 	carioca = {
 		primary = RDJ
-		dynasty_names = { }
+		dynasty_names = { "Leão" "de Anna Regina" "de New Amsterdam" "de Changement" "de Groningen" "de Urañon" "de Guasdualito" "de Cayenne" "Dutra" "de Puerto Carreño" "de El Aceitico" "Assunção" "de Cravo Norte" "Neves" "Saraiva" "de Usaquén" "de La Calera" "de Girardot" "de La Dorada" "de Ibagué" "de Tucupita" "de Alvarado" "de Santa Rita" "de El Pino" "de Brokopondo" "Assunção" "de Neiva" "de Trujillo" "de La Pica" "de Curiapo" }
+
+		male_names = {
+			Abílio Abrahan Adão Afonso Agostinho Alberte Aleixo Aloisio Andrés Anibal Antón António Anxo Atílio
+			Balduíno Bartolomeu Batista Benedito Benjamim Bento Berengár Bieito Bonifácio Brais Breixo Breno
+			Caetano Carlos Casimiro Cecilio Chico Cibrán Claudio Clemente Cornélio Cristiano Cristóvão
+			Damiãno Davi Demetrio Desidério Dimas Dinis Diogo Dionisio Domingos Donato Duarte
+			Edmundo Élder Eleuterio Eloi Emerico Emilio Enéas Érico Ermenegildo Estêvão Eugênio Eulálio Eusebio Eustaquio Ezequiel
+			Fabião Faustino Fausto Feliciano Fernão Ferrão Filipe Flávio Florencio Francisco Frascuelo Frasquito Frederico
+			Gaspar Gervasio Gil Glaucio Godofredo Gonçalo Gonçalvo Graciano Gregorio Gualter García Guilherme Gustavo
+			Heitor Hélder Heliodoro Henrique Henriques Herberto Hermenegildo Hermínio Hilario Hipolito Horacio
+			Inácio
+			Jacinto Jaime João Joaquim Jorge José Josué Julio
+			Leandro Leonardo Leopoldo Lois Lourenço Lúcio Luís Luiz
+			Macario Manoel Marcelino Marcelo Márcio Marcos Mário Martinho Mateus Mauricio Maximiano Maximiliano Maximino Modesto
+			Narciso Natanael Netuno Nicodemo Nicolau Nuno
+			Olavo Osvaldo Otávio Ovídio
+			Pascoal Patricio Paulinho Paulo Pedro Pio Plácido Plinio
+			Quim
+			Rafael Raimundo Raul Reinaldo Remigio Renato Roberto Rodolfo Rodrigo Roldão Ronaldo Roque Rufinho Rui
+			Salomão Santos Saturninho Sergio Severino Silvio Simão Sebastião
+			Tacito Tadeu Teobaldo Teodósio Thiago Tiago Tiburcio Timoteo Tristão
+			Ulisses Uxío
+			Valentim Valeriano Valerio Veríssimo Vítor Vinícius Virgilio
+			Xabier Xesús Xoán Xosé Xurxo
+			Zé Zeferino
+		}
+		female_names = {
+			Amélia Ana Andréa Antía Antónia Assunção 
+			Bárbara Benedita Branca
+			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia Constancia Carlota
+			Débora Desidéria Diamantina Domitila Dores Dorotéia Dulce
+			Edite Efigênia Elisabete Eufémia Eugênia Eulália 
+			Fatimá Feliciana Felicidade Flávia Francisca Frederica 
+			Gabriela Gertrudes Glaucia Glória Graça 
+			Henriqueta Hermínia 
+			Imaculada Inês Isabel
+			Jacinta Joana Joaquima Josefa Januária Judite
+			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Leopoldina Lygia 
+			Madalena Márcia Margarida María Matilde Micaela Mônica
+			Nathália Neves Noela
+			Ofélia Olalla Olívia 
+			Priscila Paula
+			Rafaela Raquel Rebeca Renata Roberta Rute 
+			Sabela Sara Sofia Sonia Susana 
+			Tatiana Telma Teresa
+			Úrsula Uxía 
+			Verônica Vitória 
+			Xoana 
+		}
 	}
 	amazonense = {
-		dynasty_names = { }
+		dynasty_names = { "Delchiaro" "de Ávila" "Oliveira" }
+
+		male_names = {
+			Adriano Alberto Altamir Ângelo Aníbal Antonio Arah Arnaldo Artur Augusto
+			Batista Benício Benildo Bernardo Bento
+			Caiubi Carlos Cauã Chico Costa
+			Danilo Diego
+			Edmundo Eduardo Émerson Estevão
+			Flamarion Francisco
+			Geraldo
+			Heitor
+			Iradilson Italo Ivo
+			João Jorge José Josué Julio Jurandir
+			Leonardo Lopes Luciano Luiz
+			Márcio Marcos Mário Maurício Miguel Milton
+			Neudo
+			Óscar Ottomar
+			Paulo Pirijá Piquerobi 
+			Ramalho Raul Ribeiro Ricardo Rogério Romero Rui
+			Samuel Sandro Saulo
+			Telmário Thiago Tiago Tomás Tibiriçá
+			Valdomiro Vinícius
+			Zeferino
+			Arata Toruí Mbicy Áhari Ebedimu Gunfuli Kaigouchi Ilumani
+		}
+		female_names = {
+			Adriana Aline Ana Ariane Azelene
+			Bartira Beatriz Berenice Bianca
+			Carina Cíntia
+			Eliana Elisandra Eloá Ester Esther Evelyn
+			Fátima Florany
+			Gabriela
+			Hayá
+			Inês Isadora Isani
+			Joênia Jougousa Júlia
+			Kelly Luana
+			Luciana Lucielle Luísa Luíza
+			Manuela Maria Marília Marina Matilde Michele
+			Natália Neusa Nina
+			Olga
+			Paloma Paula Porasy Poliana Potira
+			Regina Rita
+			Silva Simone Sofia Suely
+			Tânia Teresa Valéria
+			Vanda Virgínia
+		}
 	}
 	
 	baiano = {
 		primary = BIA
-		dynasty_names = { }
+		dynasty_names = { "Evangelista" "Santana" "Visitaçăo" }
+		
+		male_names = {
+			Abílio Aganjú Adão Agostinho Aleixo Andrés Anibal Antón Ângelo
+			Batista Benjamim Bento Bieito Bonifácio Brais Breixo Breno
+			Caetano Carlos Cecilio Chico Cibrán Claudio Clemente Cornélio
+			Damiãno Davi Demetrio Dimas Dinis Diogo Domingos Donato Duarte
+			Élder Emilio Érico Estêvão Eugênio Eusebio Eustaquio Elegbara
+			Fabião Faustino Feliciano Fernão Filipe Flávio Francisco
+			Gervasio Gil Glaucio Gonçalo Gonçalvo Graciano Gualter Guga
+			Hélder Henrique Herberto Hermínio Hilario
+			Inácio Ibualamo
+			Jacinto Jaime João Joaquim Josué Julio
+			Leandro Leonardo Leopoldo Lois Lúcio Luiz
+			Macario Manoel Marcelino Marcelo Márcio Marcos Mário Mateus Mauricio Maximino Modesto
+			Narciso Natanael Netuno Nicolau Nuno
+			Olavo Ovídio
+			Pascoal Patricio Paulinho Pedro Pio Plácido Plinio
+			Quim
+			Rafael Raimundo Raul Reinaldo Remigio Renato Roberto Rodolfo Rodrigo Roldão Roque Rufino Rui
+			Santos Saturnino Sergio Severino Silvio Simão
+			Tacito Tadeu Thiago Tiago Tiburcio Timoteo Tristão
+			Ulisses Uxío
+			Valentim Valeriano Valerio Veríssimo Victorino Vinícius Virgilio Vitor
+			Xabier
+			Zé Zeferino
+		}
+		
+		female_names = {
+			Amélia Ana Andréa Antía Assunção 
+			Bárbara Branca Burukú 
+			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia 
+			Débora Desidéria Diamantina Domitila 
+			Efigênia Elisabete Eufémia Eugênia Eulália 
+			Fatimá Feliciana Felicidade Flávia 
+			Gabriela Glaucia Glória Graça
+			Hermínia
+			Imaculada
+			Jacinta Joana Joaquima Josefa Jovita
+			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Luzia Lygia 
+			Madalena Márcia Margarida María Micaela Mônica
+			Nathália Neves Noela 
+			Ofélia Olalla Olívia
+			Priscila
+			Rafaela Raquel Rebeca Renata Rosa
+			Sabela Sara Sofia Sonia 
+			Tatiana Teresa
+			Úrsula 
+			Verônica Vitória 
+			Xoana
+		}
+
 	}
 }
 argentine = {
 	gaucho = {
 		primary = AGR
+		dynasty_names = { "Lamberti" "Veber" "Justino" }
+		
+		male_names = {
+			Adão Afonso Alarico Adalberto Aloisio Andrés António Amauri
+			Balduíno Bartolomeu Benedito Benjamim Berengár
+			Carlos Cibaldo Claudio Cristovão
+			Dinis Donato Desiderio
+			Edmundo Ermenegildo Estêvão Eustaquio
+			Fausto Fernão Filipe Francisco Frantán Frederico
+			Godofredo Gregorio Guilherme
+			Heitor Hermerico Henrique Herberto
+			João Jorge
+			Leopoldo Luis Lourenço Lando
+			Marcos Mateus Maximiliano Mirón
+			Nicolau
+			Osvaldo
+			Patricio Paulo Pedro
+			Rafael Rechila Rechiaro Rechimundo Roberto Rodrigo Ronaldo
+			Salomão Sergio Simão
+			Teobaldo Teodomiro Teodósio Timoteo Tristão
+			Ulisses
+			Vermudo Vitor
+			Xabier
+		}
+		
+		female_names = {
+			Amélia Ana Andréa Ansetrudia Ageltrude Ansa
+			Bárbara Berina Benedita Brunhilda Berengária
+			Catarina Cecília Constancia
+			Débora Dores Dorotéia Desideria
+			Edite Elisabete
+			Gertrudes Glória Gisele
+			Henriqueta
+			Joana Joaquima Josefa Judite
+			Lílian
+			Matilde
+			Ofélia
+			Priscila
+			Raquel Rebeca Renata Roberta Rute Rosamund
+			Sara Sofia Susana
+			Tatiana Telma Teodosia
+			Úrsula
+			Verônica Vitória
+			Zanina
+		}
+
 	}
 }
 #novorusskiy
 east_slavic = { # Or Tatar?
 	novorusskiy = {
 		primary = NRU
-		dynasty_names = { }
+		dynasty_names = { "Flyorov" "Konstantinov" "Smirnov" }
+		
+		male_names = {
+			Adrian Afanas Agafon Aleksei Aleksey Alexander Alexei Alexey Alyosha Anatoli Anatoliy Andriy Anton Arkadiy Arseniy Artem Artur Ashot Avgust
+			Bogomil Bohdan Bohuslav Boleslaw Boris Borya Borys Branislav Bratislav
+			Demian Demyan Denis Deniska Denys Dima Dionisiy Dmitriy Dmytro
+			Chekhov
+			Edik
+			Fedir Feliks Filipp Filya
+			Gena Gennadiy Gera Gerasim German Gleb
+			Havryil Hryhoriy
+			Ignatiy Igor Igorek Innokentiy Ioakim Iosif Ivan
+			Jaromir Jaroslav Jenya
+			Kesha Kirilka Kirill Klim Kliment Kolya Kostyantyn Krasimir Kvetoslav Kyrylo
+			Larion Larya Lavrentiy Lazar Leontiy Lera Lev Levi Lubomir Ludomir Luka Lukash Lukyan
+			Maks Maksim Maksimilian Maksym Marko Martyn Maxim Michail Mikhail Mikhailo Milan Milorad Miloslav Mirogod Miron Misha Mitrofan Mitay Mstislav Mykhail Mykhailo Mykhaylo Mykola Mykyta Nazar Nazariy Nikanor Nikita Nikodim Nikofor Nikolay
+			Olek Oleksander Oleksandr Oleksiy Olexiy Osip
+			Panteley Pavlo Petro Polikarp Pribislav Prokhor Pylyp
+			Radoslav Rasim Ratibor Robert Rodion Rodya Roman Ruslan Rustem
+			Semen Serhiy Shustryi Slava Spartak Spiridon Stanimir Stanislav Stas Stepan Styopa Symon
+			Taras Tarasik Tima Timofey Timur Tolya Tyoma
+			Vadik Vadim Valentin Valentyn Valera Valerian Valeriy Valya Vaniamin Vanya Vasiliy Vasya Vasyl Velimir Victor Vikentiy Viktor Vitali Vitalik Vitaliy Vitaly Vitya Vladislav Vlastimil Vojislav Volodymyr Vsevolod Vyacheslav
+			Wasyl Wolodymyr
+			Yakov Yakiv Yaroslav Yaroslava Yefim Yelisey Yermola Yermolay Yeryoma Yevgen Yevgeniy Yevhen Yevheniy Yevstigney Yosef Yosyp Yuliy Yura Yuri Yuriy
+			Zakhar Zakharik Zinoviy
+		}
+		
+		female_names = {
+			Agata Agrippina Aksinya Albina Aleksandra Alina Alla Amalia Anastasia Anastasiya Anfisa Angelika Anna Antonina Anya Asya
+			Bogdana Bohuslava
+			Daria Dariya Daryna Dasha Dominika Doroteya Dusya
+			Edita Elena Elisaveta Elvira Emiliya Evelina Evgenia
+			Feodora
+			Gertruda Glasha Grusha
+			Halyna Hanna
+			Ida Iryna
+			Janna Jannochka Jenya
+			Kalina Kalyna Kapitolina Karina Karinushka Kateryna Khrystyna Klara Klasha Klava Klavdia Klavdiya
+			Lana Lara Larisa Larissa Larysa Lena Lera Lesya Lilia Liliya Lilya Lisa Luba Ludmila Luiza Lyuba Lyubochka Lyubov Lyuda Lyudmyla
+			Madgalina Marfa Marianna Marina Mariya Marta Matryona Matryosha Maya Miloslava Miriam Miroslava Mykhaila
+			Nadezhda Nadia Nadiya Nadya Nastya Natali Nataliya Natalka Nina Ninochka Nymphadora
+			Odarka Oksana Oksanochka Oleksandra Olena Olesya Oxana
+			Pelageya Polina Polya Praskovya
+			Rada Radmila Raina Raisa Raya Roza Ruslana
+			Sara Selena Serafima Shura Slavena Snezana Sofiya Stanislava Stefania Stella Sveta Svetlana Svitlana
+			Tamara Tamarochka Tanya Tatiana Tereza Tonya
+			Valentyna Valera Valeriya Varvara Varya Vasilisa Vasiliska Vasylyna Vera Veronika Vika Viktoria Viktoriya Viola Vira Vitaliya Vlada
+			Wasylyna
+			Yana Yanochka Yaroslava Yelyzaveta Yeva Yevdokiya Yevheniya Yulia Yuliana
+			Zina Zinaida Zoya Zoyka 
+		}
+
 	}
 }

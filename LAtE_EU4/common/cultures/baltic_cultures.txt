@@ -1,6 +1,0 @@
-baltic = {
-	old_prussian = {
-		primary = PRU
-		dynasty_names = { }
-	}
-}

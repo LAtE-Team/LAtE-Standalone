@@ -1,14 +1,70 @@
 colombiano = {
 	paisa = {
 		primary = ANQ
-		dynasty_names = { }
+		dynasty_names = { "Che" "Celeste" "Arenas Betancur" }
+		
+		male_names = {
+			Aarón Abel Adrian Adrián Agapito Agaton Aguilera Aimar Akier Alba Alcides Alejandro Alexander Alverez Andolin Andoni Andrés Androción Androniko Angelo Antíoco Apeles Aquiles Aristides Aristio Aristipo Aristóteles Atenágoras Balan Bazkoare Bernardo Camilo Carlos Clímaco Concepcion Corpuz Cristian Cristián Cristofer Danel Éder Efrain Emiliano Epifanio Ernio Errando Errolan Erroman Fabián Felipe Feo Florentino Francisco Gabriel Gaio Gaitan Gaston Gilberto Giron Guadalupe Gustavo Helibelton Heliodoro Héracles Hernan Herodoto Hidalgo Holguin Honor Hugo Idomeneo Isidoro Ismael Jeison Jerrald Jose Josue Juan Kiritz Lantz Leano Leontzio Luis Luken Macario Magallanez Manuel Matro Menelao Metelo Montealegre Montrel Nepote Neso Nestor Nicátor Nizias Pablo Paléfato Pancho Pedro Peralta Pirro Plutarco Plutón Polen Polentzi Porfiro Pupieno Radamel Rafael Ramone Regal Remedios Renteria Rubiano Sabas Sabino Santiago Sejano Seleuco Simon Sócrates Stefan Talamantez Temístocles Teófilo Txare Urtats Uztaritz Víctor Victorino Vita Vitor Wílmar Zina 
+		}
+			
+		female_names = {
+			Aintzioa Alañe Albira Alexandra Anastasia Andredomeka Anna Antsa Arburua Arrigorria Artemisa Artzeña Atenea Aviles Basa Belita Bethania Burne Carlotta Cassandra Cayetano Cibeles Clareta Delia Deméter Despena Digna Dita Dulcea Elixane Erramona Estebana Eugenia Eulalia Eurínome Eva Fausta Filomela Frontera Galan Genobeba Granado Haro Ignacio Ilazki Iluntze Irati Iria Iris Isidora Kariñe Katalin Kemena Landrada Lavina Leocadia Lourdes Louredes Maduro Maria Marijoantxi Marina Marizuri Markeliñe Martzelina Melendez Mino Molora Nereida Noemi Okina Oña Orantes Ostatxu Paz Perséfone Pietatea Polentze Proserpina Pura Quintero Ria Roxana Ruan Sara Segunda Selena Severino Sofia Sonora Tatiana Teodora Teresa Thalia Uribarri Valle Victoria Vidales Xiomara Zabal Zañe Zepeda Zilia Zorione Zutoia 
+		}
+
 	}
 	cartagenero = {
 		primary = COL
 		dynasty_names = { "Giron" "Uria" "de El Tejar" }
+		
+		male_names = {
+			"Andrés Felipe" "Augusto Luís" 
+			"Carlos Alberto" "Carlos Andrés" "Carlos Arturo" "Carlos José" "Carlos Mario" 
+			"David Marcelo" "David Restrepo" "Diego Fernando" 
+			"Fabio Augusto" 
+			"Giovanni Ceron" "Guillermo Andres" 
+			"Jhoan Botero" "Jhoan Sebastian" "Jhon Jairo" "Jhon Ortega" "Joakin Eduardo" "John Jairo" "Jorge Eliécer" "Jorge Luís" "José Antonio" "José Guzman" "José Luís" "Juan Camilo" "Juan Carlos" "Juan David" "Juan Diego" "Juan Esteban" "Juan José" "Juan Manuel" "Juan Pablo" "Juan Sebastian" "Julian Andres" "Julio Cesar" 
+			"Luís Alberto" "Luís Carlos" "Luís Eduardo" "Luís Felipe" "Luís Fernando" 
+			"Mateo Chaguala" "Miguel Angel" 
+			"Neider Eduardo" 
+			"Pablo Sanchez" "Pedro Claver" 
+			"Rico Leon" "Rubén Dario" 
+			"Sebastian Herrera" "Sebastian Quintero" 
+			"Walter Andres"
+
+			Aderbal Alberto Alejandro Alex Alexander Alonso Amílcar Andrés Andrew Aníbal Antonio Arturo Asdrúbal Augusto Baltazar Barule Bomílcar Boodes Bostar Brayan Bryan Cachimbal Camilo Carlos Cartalón Cesar Chorizo Christ Clitómaco Cristian Daniel Danna Daudy David Diego Diógenes Eddy Eduard Edwin Emanuel Enrique Epícides Esteban Fabio Felipe Fernando Francisco Gaspar Gianfranco Giovanni Giscón Goku Guillermo Gustavo Hannón Hector Helicóptero Henry Hernan Himilcón Hipócrates Jack Jaime Jairo Jesús Jhewer Jhoan Jhon Jimmy Joakin Johan John Jorge José Juan Juandi Julian Julio Jusayú Kristhian Kumar Lucas Luís Magón Manuel Mario Mark Mateo Matthew Melchor Miguel Mike Ministro Moises Neider Nelson Nicolás Nilson Oscar Pablo Paul Pedro Rafael Ramon Rene Ricardo Richard Rico Rodrigo Rubén Samuél Santiago Saub Sebastián Sergio Stiven Tavo Usnavy Valentina Walter Wisnaldo Yicelub 
+		}
+			
+		female_names = {
+			"Adriana Clemencia" "Ana Lucia" "Ana María" "Angela María" "Angélica María" "Angie Sofia" 
+			"Beatríz Elena" 
+			"Camila Peñuela" "Carmen Alicia" "Carmen Cecilia" "Claudia Patricia" 
+			"Daniela Arias" "Daviana Marcela" "Diana Carolina" "Diana Marcela" 
+			"Gallina Ipuana" 
+			"Jessica Pineda" "Johana Cano" 
+			"Laura Guerrero" "Laura Sofia Parra" "Laura Sofia" "Laura Valentina" "Lina Marcela" "Lizeth Camila" "Luisa Fernanda" "Luz Astrid" "Luz Dary" "Luz Elena" "Luz Marina" 
+			"Mari Jose" "María Alejandra" "María Angelica" "María Camila" "María Concepción" "María del Carmen" "María Elena" "María Eugenia" "María Fernanda" "María Isabel" "María José" "María Juliana" "María Paula" "María Perra" "María Rámos" "María Teresa" "Marii Ann" "Martha Cecilia" "Martha Lucia" 
+			"Natalia Pulgarin" 
+			"Olga Lucía" 
+			"Paola Andrea" "Paula Andrea" "Paula Milena" 
+			"Sandra Milena" "Sandra Patricia" "Sara Belissa" "Sara Ortiz" 
+			"Valentina Aguirre" 
+			"Yeni Manuela" "Yuli Andrea"
+			
+			Adriana Alejandra Alka Allison Ana Andrea Angela Angélica Angie Ann Ariana Beatríz Blanca Camila Carmen Carolina Catalina Claudia Cristina Daniela Danna Daviana Diana Dido Diosa Eliana Elise Estefany Felicidad Gabriella Gallina Gloria Ipuana Irlandesa Isabel Isabella Iwonka Jenny Jéssica Jheyaa Johana Juliana Kate Kathe Kelsey Laura Lena Leslie Liliana Lina Liseth Lizeth Lorena Luccya Lucia Luisa Luka Luz Mafe Maira Manuela Marcela Mari María Mariana Marii Mariselle Martha Mauren Melissa Natalia Nataly Nina Olga Orietta Paola Paula Perpetua Rosa Sami Sandra Sara Saude Sierra Sofia Sofonisba Stefania Susan Susana Tatiana Tititorres Valentina Valeria Vanessa Veronica Yeni Yenni Yenny Yessica Yuli Yulieth Yury 
+		}
+
 	}
 	rochela = {
 		primary = COL
 		dynasty_names = { "Pose" "Carrillo" "Rausseo" "Tallon" "Saldívar" "de Fredonia" "de Chinchiná" "de Kukrahill" }
+		
+		male_names = {
+			Adrián Alex Alexis Alfonso Aluino Amoldo Angel Antonio Aquivaldo Bonner Breyner Cacique Carlomagno Carlos Carmelo Casimiro César Cristián Daley Danilo Danny Dario Darkin Darwin Dorlan Duvier Éder Édgar Edier Edison Edixon Edwino Efraín Elíseo Elkin Eloy Erik Evaristo Fabián Faustino Felipe Fernando Fidel Francisco Franco Freddo Frederico Gitana Gonzalo Grupo Hamilto Hanyer Hugo Ilia Jackson Jair Jarol Jésus Jherson Jhon Jo Jose José Joselito Josimar Juan Léider Leiton Leonardo Libis Luis Manuel Marco Martinez Mauricio Montenegro Nataniel Neco Nele Nelson Oscar Óscar Pablo Palben Pedro Piedad Ritchie Rubén Stiven Tito Totó Tressor Víctor Wason Wilberto Yimmi Yuber 
+		}
+			
+		female_names = {
+			Ana Angela Ángela Carmen Carmita Carolina Carona Cassandra Catalina Caterine Chrisanne Crisann Daniela Diana Dulcina Elcina Estefana Felipa Gaitana Garabine Gaspara Gloria Guillermina Indhira Ingrid Isabella Izazkun Jackeline Jennifer Jerrely Kristina Lady Lalla Landrada Leicy Lina Luiza Mabel Madre Maira María Melissa Mildrey Muriel Myra Natalia Nataly Nicole Oriánica Osana Patricia Paula Rosibel Sandra Stefany Tatiana Teresa Ubaldina Vanessa Ximena Yineth Yisela Yomara Yoreli Yosdalkis Yosiri Zuleima 
+		}
+
 	}
 }

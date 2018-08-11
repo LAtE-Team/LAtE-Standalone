@@ -8,7 +8,7 @@ central_american = {
 #Wayuu
 caribbean = {
 	wayuu = {
-		dynasty_names = { }
+		dynasty_names = { "Viloria" "Naranjo" "Uriana" }
 	}
 }
 
@@ -16,14 +16,39 @@ native_american = {	#All-encompassing group for native cultures
 	#Metis
 	metis = { 
 		dynasty_names = { "Parenteau" "Delorme" "Lépine" "Callihoo" "Callihoo" "Desjarlais" "Bourque" "de Rocky Mountain House" "de Batchawana Bay" "de Blue Earth" "de La Crosse" "de Kewaunee" "de Virginia" "de Greenfield" "de Lakewood" "de Rushville" "de Valentine" "de Two Rivers" "de Marshall" "de Thunder Bay" "de St. Peter" "de Fort William" "Bottineau" "Boucher" "Vautour" "de Cardston" "de Pierre" "de Dryden" "de Mobridge" "Callihoo" "Riel" "Bouyer" "Parenteau" "Souray" "Dumont" }
+
+		male_names = {
+			Albert Alec Alexander Ambroise-Dydime Ambrose Andrew Andy Angus Antoine Antonine Arron Arthur Asham August Augustin Axel Baptiste Bob Brian Bryan Calvin Charles Charles-Michel Clément Cuthbert Cyril David Denis Derrick Don Douglas Doyle Dwight Dydim Dylan Elzéar Eugène François Gabriel Gallant George Gerald Gil Gregory Guillaume Harley Henri Honoré Howard Ian Jacco Jaco Jacques James Jaxon Jean Jean-Baptiste Jess Joe John Jon Jonathan Jules Kalib Keith Kevin Laird Laurent-Salomon Lawrence Louis Malcolm Maxime Michel Pascal Paul Peter Pierre Ralph Ranald Ray Raymond Rene René Rick Robert Rod Salomon Shan Sheldon Solomon Theoren Thomas Todd Tom Tony Tête Vic Wade Wayne William Xavier Yvon
+		}
+		female_names = {
+			Andrea Antonine Audrey Blanche Carole Catharine Chanta Chantell Charlotte Christi Christine Colleen Elizabeth Evelyn Frechette Hélène Isabelle Janet Jani Joanne Josephin Josette Julie Katherena Kinnie Laura Laurette Madame Madeline Magdelaine Marguerite Maria Marianne Marie Marie-Thérèse Marilyn Mary Nancy Norma Pearl Rose-Marie Roseanne Sandra Sara Sharon Shelly Suzanne Tanto Thelma Therese Yvonne
+		}
+
 	}
 	#Innu
 	innu = {
-		dynasty_names = { }
+		dynasty_names = { "Keskapekiaq" "Kwemoodeech" "Pohomoosh" }
+
+		male_names = {
+			Acimus Ahapi Amiskut Anik Apun Aski Askikw Assin Atim Beechil Bill Charlie Chiiwetin Cipay Ciseaskikw Ciseatim Cisemahikan Ciseufwan Cisewapaskw Cisewen David Emmett George Gilbert Gilles Hugh Ifmit Jim Lobit Mahikan Mahtn Maikan Marc Masinahicen Maskisin Maskw Matthew Maxw Mike Miskinakw Mistamahtn Mistamiskut Mistanimu Mistapun Mistaski Mistayehyew Mistuk Mitihcin Mukuman Nascew Neku Nikamu Nimu Paskisikan Real Stanley Sunny Takun Tobias Troy Uciskw Ufwan Unakan Unawiw Utukey Wapaskw Wen Weyasi Wucu Yakaw Yehyew 
+		}
+
+		female_names = {
+			Ahawesis Akup Amiskw Apikusis Asiniy Atikw Atim Becky Ciseakup Ciseatim Cisehipu Cisemeli Danielle Hipu Isimit Iskutew Iskwew Jade Josephine Kathleen Legend Mani Meli Melinda Mispun Mistaisimit Mistamiskw Mistasiniy Mistasipi Mit Naomi Nekaw Nipi Nisk Pinehis Puti Ruby Sipi Sipis Tuan Uhu Wapaw Wiskacan 
+		}
+
 	}
 	#Paiute
 	paiute = {
 		dynasty_names = { "Honi" "Pahe" }
+
+		male_names = {
+			Ada Awan Bagootsoo Cui-ui Delsin Eesha Egan Esa Ggwe'na'a Hastiin Honi Hootseba Howi Isappu Joe-ely Kaadu Kene Kin-naa'a Kootsoo Kuubba Mahkah Manege Micco Na-gah Naguddu Nana Nat-se Nigan Nimerigar Niyol Nodda Nooyooadu Numaga Nuunuawunu Oha'a Oitsi Onennamucca Paggwe Pahe Pamogo Pannunudu Paulina Piaisan Poito Pokoh Poohwi Poongatse Poot-see Pu'wihi Qui-am-i Ross-hardin Shilah Shinoh Sumu Taboo'oo Tate Tau-gu Tavibo Tenaya Tibow Tillohash Tocho Togu Toohoo'o Tooonugwetsedu Truckee Tsagase'e Tse'nahaha Tubboge Tuggweggwetseba Uweka Wa'etse Waha Wahveveh Wannnga'a Watsukwe Wesa Wesepooggoo Wewawewa Winnemucca Wintook Wovoka Ysa
+		}
+		female_names = {
+			Abey Ada Aquene Baa'a Bagootsoo Bbooggoo Besa-yoona Cam-mu Chenoa Der-hutcha Esa Imala Inola Jaci Kaibab Koomeba Lucy-telles Lulu Mogo'ne Muha Nellie-shaw Nina No-bve Noddapehabe Nova Nuga Paa Paatusooba Paddaki'e Padooa Pah-gue Powma Pune'e Sawabe Sui'hoo Taba Tabuaggena Tad-sah Tah-mano Talulah Tdo-mo Thocmentony Tocmetone Togu Tooonugwetsedu Tuboitone Tuhudda Tunna U-ban-nu Wannge'e Weze-ga'yoo Winona Wosa Wyanet Za-a 
+		}
+
 	}
 	aleutian = {
 		male_names = {

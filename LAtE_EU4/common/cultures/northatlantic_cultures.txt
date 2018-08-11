@@ -2,29 +2,364 @@ north_atlantic = {
 	gothamite = {
 		primary = NYS
 		dynasty_names = { "van Chester" }
+
+		male_names = {
+			Adriaen Aldobrandt Abraham Andrew Aaron Ardolph Achilles Agapett Alberht Alessander Arnold Aurel
+			Beppe Bruce Bartolomeus Benedett Benett Bruno Boniface Bonaventura Berthold Bertrand
+			Christopher Cornelis Caleb Carles Cadwallader Caloger Casimir Carmine Celsus Constantin
+			David Dewitt Daniel Darius Donat Dorian Duile Diufe
+			Elihu Ezra Ebenezer Edward Eastman Elmo Egidis Erasmis Ermann Ercole Eusebe Eustace Evarist Ezio
+			Francelin Florell Frederik Ferdinand Ferrutt Fulgent Flavis Fulvis Friso
+			Giovannes Gerard Giorge Gerolamm German Gennard Gianluke Gianpaul Gioacchim Girald Goffred
+			Henreyk Hector Horatis Humbert
+			Isaac Isaiah Isidorr
+			Jay Jonas Jacobbe Julius
+			Koch
+			Lewis Levi Ludovick Leander Leonard Leone Lelis Livis Loris Lucis Lambert Lamoral
+			Martin Marinus Marius Meyer Michael Marcus Manlis Modestis Mattheus
+			Nicholas Narciss Nevis Nestor Nunzis
+			Oldstead Osvald Orsinis Ottavis Ottavin Ottone
+			Pieter Paulus Peregrin Patricis
+			Quirinis
+			Rudy Richard Robertus
+			Samuel Stephen Seth Stratis Salvator Sylvester Silvis Sedgewick
+			Theo Thom Thaddeus Tacit Tullis
+			Ulderic 
+			Vincent Victor Venceslaus Varian
+			Wualter Wuillem Whitehead Wagner
+			York
+		}
+		female_names = {
+			Ada Albertine Alda Amalia Anna Annalise Annetta Anita Anastacey Alexia Ariane
+			Barbara Berenice Bernardina Brunella 
+			Catharyna Chelsea Caro Clarice Chelo Christina Carlotte
+			Daisy
+			Esmerald Eleanor Estella Emma
+			Fay Francisca Fiorina Fioretta
+			Graziella Gemma
+			Hermanna Henrietta
+			Irene
+			Jordan Juliana
+			Lauren
+			Martha Maria Minnie Margarita Maxima Magdalene Myrtle
+			Nina
+			Pauline Pamela
+			Rebecca Rosalia Rita Regina Renata
+			Stephanie
+			Teresita Thea
+			Victoria Velma
+			Willemina
+			Zenobia
+		}
+
 	}
 	hudsonian = {
 		primary = NYS
 		dynasty_names = { "Groot" "Dongan" "Langmuir" "Westingson" "Ranvincle" "Allen" "Wents" "Schenectady" "Rittner" "Mackerras" "Ranvincle" "Chambersburg" "Altoona" "Rodham" "Vedder" "Schermerhorn" "Dongan" "Ranvincle" "Herkimer" "Elran" }
+
+		male_names = {
+			Andries Anton August Abraham Artur Albert Abel Archibald Andre
+			Baltus Brom Benjamin
+			Cashunyon Charles Cornelis Clinton Cangueese Carillon Cyrus Cephas Chester Cotton
+			Derrick Diedrich Daniel Deserontyon Delby Darius David
+			Ebenezer Ethan Edgar Ernest Elihu Ezra Edwin Erastus Ellis Eli
+			Frederick Franklin Friso
+			Guyasut Geoffrey Gideon Gerrit Gemolo
+			Hudson Hendrick Hunter Hamilton Holbrook Harmanus Hugh Himerius
+			Ichabod Isaac
+			Johannes Jervis Josiah Jocelyn Jacobus Jasper Jovan Jeremiah
+			Kirke Kent Kel
+			Launcelot Leo Lewis Lemuel
+			Morris Martin Moses Montgomery Malcolm Mather
+			Nicholas Nathaniel Norton
+			Otetian Ogden Oliver Oswald
+			Pindar Philip Phinehas
+			Quincy Quentin Quoz
+			Roger Richard Raymond Rip Rodney Rufus Rollin
+			Stephanus Stanwix Samuel Silus Simon Solon
+			Traynor Theodore Tehwehron Tompkin Truman
+			Vincent
+			William Washington Walter Whitelaw Worcester
+			Xander
+		}
+		female_names = {
+			Aliequippa Alice Amelia Alexandra Armgard Anna
+			Bethany Barbara Beatrix Bella
+			Caroline Chelsea Christine
+			Degonadonty Donata Doris Dorothy
+			Ellen Elizabeth Emma
+			Geraldine
+			Hiawatha Hannah Hillary
+			Judith Jane Jennifer Jocelyn
+			Kirsten Katrina
+			Luna Leona Lauren
+			Molly Margaret Mina
+			Owandah Ogarita
+			Pauline
+			Rebecca Regina Renata
+			Shelley Shelby
+			Theodosia Tiaogeara
+			Viola
+			Waneik
+		}
+
 	}
 	delawarean = {
 		primary = DLW
-		dynasty_names = { }
+		dynasty_names = { "Calvert" "Midfield" "Zappa" }
+
+		male_names = {
+			Anthony Aloysius Andrew Albert Abraham Abner August Adam Abel Arnold Allen Arthur Aston Alphonse Algernon Archibald Alexander Adrian Aurelian
+			Boies Benjamin Bigelow Bernard Benedict Browne Barton Bevil Baynham Barclay Baxter
+			Carroll Christopher Cameron Caleb Clark Caesar Coplestone Christian Cade Cale Canby Callaway Cahoon
+			Dennis Daniel Donald David Dudd Danrick Dyre Dunlap
+			Edmond Edward Edwin Eugene Edgar Eldridge Ethan Eusebius Eleazar Endymion Ephraim
+			Frederick Francis Fitzwilliam Fletcher Franklin Fenwick
+			Gerald Gary Gregory George Grant Gunning Gallagher Giles Gilbert Gervase Gove Gregg
+			Hendrick Hugh Herbert Horace Harold Howard Humphrey Hamon
+			Ignatius Isaac Ian
+			James John Joseph Jerome Jeremiah Jeffrey Jasper Joshua Justinian
+			Keith Kenrick Kensey
+			Ludovic Luke Lambert Lockhart Lionel Luff
+			Michael Martin Mark Maurice Matthew Milton Marmaduke
+			Nathaniel Nicholas Norman
+			Oliver Outerbridge Ogilvy
+			Patricius Paul Peter Philander Phineas Philip Philadelphus Percy Philemon Preston
+			Richard Rupert Ronald Rowland Ralph Reginald Reorus
+			Stephen Severin Sherman Samuel Simon Stansbury Saul Summerset Spencer Seymour Stanley
+			Thomas Timothy Theodore Theobald Truesdell
+			Vincent Victor Voshell
+			Wallis Wilbur Willard Wingfield Winston Warwick Wayne Warren
+			Xavier
+		}
+		female_names = {
+			Adrienne Aubrey Anna Allison Alice Alexa Ashley Angelica Abigail Amelia
+			Barbara Brilliana
+			Charlotte Christine Cynthia
+			Erin Eve Elizabeth
+			Georgine
+			Hilary Henriette
+			Jessica Jennifer Jane Janet Josephine Joanne Junie Julie Judith
+			Katharine
+			Linda Laura Lois Livia
+			Mary Martha Madison Marceline Melanie Melody
+			Nancy Nicole
+			Petra Paula Patricia
+			Roberta Rachel
+			Theresa
+			Sara Susan
+			Valerie
+			Wilmot
+		}
+
 	}
 	yankee = {
 		primary = NEN
 		dynasty_names = { "Spermacetty" "Winthrop" }
+
+		male_names = {
+			Abraham Abel Adam Arthur Archibald Anchor Adlard Alveredus Ambrose Augustine Annanias Adrian Ahab Abimelech Abbadon Arunah
+			Bidwell Barton Benjamin Balthasar Bradley Barnabas Batholomew Bertram Bruce Benedict Bellingham Bennett Bevil Botolph Bildad
+			Charles Curtis Chester Christopher Cornelius Cadwallader Cuthbert Cluton Cagin Crallo Celephaïs
+			Duncan Donovan David Degory Denton
+			Edward Edwin Edmund Elijah Ezekiel Ebulus Emannuel Emery Emmett Enoch Everard Enderby Elon
+			Franklin Francis Fulkes
+			George Gregory Goliath Giles Gilbert Garnet Garrett Gavin Gentile Gervase Goughe Guy
+			Howard Herbert Henry Horace Hector Helegor Heneage Harman Humphrey Hawthorne Havlock
+			Israel Isaac Isaiah Ingram Ishmael
+			Jonathan James Jacob Joseph Jesper Jermanus Jerome Joshua Jordan Jucentius Judovell Jeroboam Jehoram Jotham Joconiah Jepthah
+			Keziah
+			Lemuel Liam Leo Lambert Lazarus Ludowick Lucas Lovarck
+			Malcolm Marcus Mason Moses Myles Machutus Manasses Marmaduke Melchior Meredith Moab Michael Melville Menahem
+			Noah Norman Nehem Nathaniel Ninion Newton
+			Obed Owen Oceanus Ottewell Oakborn Onesiphorus Othniel
+			Philipp Phineas Peregrine Peter Paschall Polidore Paul
+			Quentin Quirinus
+			Randolph Robert Richmond Ronald Raymond Roger Rhys Rehoboam
+			Shem Stephen Samuel Solomon Seaborn Saltborn Simeon Sidrach Sampson Shadrach Shane
+			Thomas Theophile Tobias Thadeus
+			Vincent Valentine
+			Walter Wayland Wilbur William Watkin Warham Wombell Wymond
+			Zadok Zacharias
+		}
+		female_names = {
+			Athena Asenath Anne Alice Annadella Agnes Agatha Aveline Almheda Abigail
+			Barbara Bridget Bethiah
+			Constance Chastity Catherine Cassandra Cecily Charity Cagintria
+			Dorothy Desire Damaris Dionise Dolora Deborah
+			Eleanor Ellois
+			Faith Fausta Festa Francisca
+			Grace Gartheride Georgetta Gregoria Gwendolyn
+			Humility Hyacinth Hope
+			Increase Isabella
+			Joy Josephine Jane Janikin Jocatta Jocosa Joane Jennette Joyce Judith Juliana
+			Lavinia Laura Lettice Lucretia Lenore Lysandra
+			Mercy Mabel Magdalen Margaret Margery Marion Mary Mildred Muriel
+			Nora
+			Prudence Priscilla Petronelle Phillipa
+			Rose Rawsone Rebecca Reginbelta
+			Sybil Susannah Sarah
+			Tabitha Thomasine
+			Ursula
+			Verity Violette Virginia Venetia
+		}
 	}
 	maritimer = {
 		primary = MRT
 		dynasty_names = { "Beaton" "Jacartier" "Conmara" "Duchambon" "Tracadie" "Beaubassin" "Jolicure" "Luciphy" "Tidnish" "Uniacke" "Brundage" "Aggermore" "Cuthbert" "Cavendish" "Carmody" "Blythe" "Hitt" "Davison" "Mac Scalaidhe" "Criss" "de Betsiamites" "de Limestone" "de Lyndon" "de Dorchester" "de Kingsclear" "Abegweit" "de Heath Point" "Carmody" "Kilmarnock" "Bunbury" "MacKay" "Tyndal" "de Avonlea" }
+
+		male_names = {
+			Allison Alister Angus Aedan Aindriu Alaois Aodh Ardghal Art Aubrey
+			Brian Blair Bairre Barrfind Berach Bradach Braden Bran Brendan Brogan Boyle Bruce
+			Clifford Caden Cadogan Cathal Cairbre Calvagh Carbrey Cathan Cavan Ceallach Cian Cinaed Clancy Clarence Colin Cillian
+			Columban Comgall Comgan Conan Connor Conley Cormac Chrestian Cork Cyrus Cearbhall
+			David Doughal Daley Dara Dalach Dermot Derry Desmond Donald Donovan Doran Doyle Driscoll Duane Daniel Dullahan
+			Domnall Donnchad 
+			Evan Eamon Eadbhard Eoghan Eoin Erskine Eustace Enos
+			Fergus Farquhar Fergal Fechin Felim Fillin Finley Finbar Finn Finnegan Fintan Fallomon
+			Graydon Gallagher Gilroy Garvan Gearalt Goban Gobnet Grady Greagoir Gallant Garrett
+			Hamilton Hamish Hugh Heber
+			Ivor Ian Irriel
+			Jonatan Jarlath Jabez James Julian
+			Kevin Keefe Keenan Keane Kane Keegan Kelan Kenneth
+			Lemuel Lovarck Labhras Liam Leary Lachlan Lomman Lonan Lorcan Lucas Laurie
+			Murray Malcolm Mohan Mairtin Malachy Maitiu Marcas Manus Mellan Michael Muir Murdoch Murphy Murrough Murtagh Marlin
+			Murchad
+			Neil Nelson Nevan Nioclas Nolan
+			Odran Oran Owen
+			Patrig Peadar Pol Piaras Phelin Phelan
+			Quinn Quiggen
+			Ronald Redmund Ryan Rearden Reamann Riordan Ronan Rory Robeard Ryerson Ross
+			Scott Stewart Sean Seamus
+			Trevor
+			Whelan
+			Zachary
+		}
+		female_names = {
+			Agnes Aileen Aine Aingeal Aisling Alana Assumpta Aurora Aurelia
+			Bairbre Bevin Bridget Bedelia Blanid Breda Bree Briana Brogan Bliss Belinda
+			Caitlin Caitriona Caroline Casey Carey Cathleen Clara Cliona Concpta
+			Danielle Darina Devnet Dorean Dymphna Daphne
+			Eabha Eileen Eilis Ella Emer Eibhlin Erin Elva Enya Etna
+			Federlma Fidelma Fiona Fionnuala
+			Grainne Geraldine Grace
+			Honora Helen
+			Isibeal
+			Keavy Kennedy Kiera Kelly
+			Liadan Laoise Lachtna Lile Linda
+			Merida Marielle Maire Madailein Mave Mairenn Mairead Molly Maureen Monat Morna Muriel Muirgel Myrna Magnolia Marilla
+			Melody
+			Naomh Neasa Nainsi Nora
+			Orla Ophelia Ornat
+			Patricia
+			Raicheal Rathnait Riona
+			Sinead Siobhan Sarah
+			Therese Tessa
+			Veronica
+		}
+
 	}
 	newfie = {
 		primary = NFL
 		dynasty_names = { "Sturge" "St. Anthony" }
+
+		male_names = {
+			Adam Albert Alex Alexander Alfred Allan Ambrose Andrew Anthony Archibald Arthur Augustus
+			Baxter Benjamin Bernard Bertram
+			Charles Chesley Christopher Clarence Claude Clayton Cyril
+			Daniel David Dennis Dorman Douglas
+			Edgar Edmund Edward Edwin Eli Elias Elijah Eric Ernest Eugene
+			Francis Frank Fred Frederick
+			Garland George Gerald Gilbert Gordon
+			Harold Harry Harvey Hayward Heber Hedley Henry Herbert Howard Hubert Hugh
+			Isaac
+			Jack Jacob James Jean Jeremiah Job John Joseph Josiah
+			Kenneth Kevin
+			Lawrence Leo Leonard Leslie Levi Lewis Lloyd
+			Malcolm Mark Martin Matthew Maurice Maxwell Michael Moses
+			Nathaniel Nicholas Noah Norman
+			Patrick Paul Peter Philip
+			Ralph Raymond Reginald Reuben Richard Robert Roland Ronald Roy
+			Samuel Sidney Simon Solomon Stanley Stephen Stewart
+			Thomas Timothy
+			Victor Vincent
+			Wallace Walter Wilfred William Willis Wilson
+		}
+		female_names = {
+			Ada Agnes Alfreda Alice Alma Amelia Amy Anastatia Ann Annie Aubery
+			Barbara Beatrice Bertha Bessie Blanche Bride Bridget
+			Caroline Carrie Catherine Cecilia Charlotte Clara
+			Daisy Dora Dorcas Doris Dorothy
+			Edith Edna Effie Eileen Eleanor Eliza Elizabeth Ella Ellen Elsie Emily Emma Esther Ethel Eva Evelyn
+			Fannie Fanny Flora Florence Frances
+			Georgina Gertrude Gladys Grace
+			Hannah Harriet Harriett Hazel Helen Hilda
+			Ida Irene Isabella Ivy
+			Jane Janet Jesse Joan Johanna Josephine Julia
+			Katherine Kathleen Katie
+			Laura Leah Lillian Lily Louisa Lucy Lydia
+			Mabel Madeline Maggie Margaret Maria Marion Marjorie Martha Mary Matilda Maude May Mildred Minnie Miriam Muriel Myrtle
+			Naomi Nellie Nora
+			Olive
+			Patience Pearl Phoebe Phyllis Priscilla
+			Rachel Rebecca Rita Rosanna Rose Ruby Ruth
+			Sadie Sarah Selina Shirley Sophia Stella Susan Susannah Susie
+			Theresa
+			Vera Violet
+			Winnifred
+		}
+
 	}
 	new_english = {
 		primary = NEN
-		dynasty_names = { }
+		dynasty_names = { "Teach" "Greenhill" "Black" }
+		
+		male_names = {
+			Abraham Adam Arthur Archibald Alan Albus Ajax Angus Attwell
+			Barton Baldrick Balthasar Brutus Balian Bran Batholomew Barnaby Brelan
+			Charles Chester Colin Cornelius Carloman Constantine Craddock Cedrick
+			Dorian Donovan David Darius Douglas Dagonet
+			Edward Elijah Edmund Errol Ector Emannuel
+			Franklin Frederick Fry Francis Fergus
+			Gilbert Gregory Gordon Guy Gallahad Gryphon Gareth Gildas Giles
+			Howard Henry Hiram Hartnell Harper Hector Havelock
+			Isaac Isaiah Ishmael
+			Jonathan Julian Joffrey Joseph Jeroboam
+			Ludovick Lancelot Lupus Lionel Lucius Lazarus
+			Malcolm Marcus Mercury Maleagant Moses Manasses Morgan Moab Marmaduke
+			Noah Nelson Nathaniel
+			Oliver Owen Oberon Obed
+			Philipp Peter Percival Pepin Phineas Paul
+			Richard Robin Randolph Rubeus Rigby Rudyard Roland
+			Shem Sullivan Sylvester Samuel
+			Thaddeus Tennant Theobald Theophilus Tristan Tiberius Tobias
+			Uther
+			Vincent Victor
+			Wilbert Winston Wilbur
+			Zacharias
+		}
+		
+		female_names = {
+			Athena Antimony Anne Alice Annadella Agnes Agatha Aveline Aphrodite Abigailw
+			Belle Barbara Bridget Bethiah
+			Constance Caprice Catherine Cassandra Cecily Charity Clementina
+			Dorothy Desire Dahlia Dionise Dolora Deborah
+			Eleanor Ellois Elizabeth Eudora
+			Faith Fausta Fay Francisca
+			Grace Gloriana Georgetta Guinevere Gwendolyn
+			Hermione Hyacinth Hope
+			Igraine Isabellw
+			Joy Josephine Jane Janikin Johanne Jocosa Joane Jennette Joyce Judith Juliet
+			Lavinia Laura Lettice Lucretia Lenore Lysandra
+			Mercy Mabel Magdalen Margaret Margery Mathilda Mary Mildred Millicent
+			Nora Nymphadora
+			Prudence Philomena Petronelle Phillipa
+			Rose Rawsone Rebecca Reginbelta
+			Sybil Susannah Sarah Selina
+			Tabitha Teresa
+			Ursula
+			Verity Violette Venus Victoria
+		}
+
 	}
 }

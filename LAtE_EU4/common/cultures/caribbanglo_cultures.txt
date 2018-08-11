@@ -2,28 +2,335 @@ caribbanglo = {
 	west_indian = {
 		primary = CBN
 		dynasty_names = { "Seaga" "Hylton" "Thwaites" "McKenzie" "McGann" "Spaulding" "Bedward" "Golding" "Carrington" "Drummond" "Bradshaw" "Rhone" "Henzell" "Blackwell" "Claxton" "Pindling" "Greenidge" "Ince" "Bogle" "Husbands" "Sandiford" "Seraphin" "of Salama" "of Champerico" "of El Ceibo" "of Polol" "of Chichicastenango" "of San Pedro Ayampuc" "of Arenoso" "of Esperanza" "of Mandeville" "of Constant Spring" "of Petite Rivière de l'Artibonite" "of Choloma" "of Monjaras" "of Armenia" }
+
+		male_names = {
+			Alexander Arthur Ansell Anthony Archibald Arnhim Arnold Aston Audley Augustine
+			Baldwin Barrington Ben Bernard Brendan Brian
+			Canute Carl Carlton Cecil Christopher Clancy Clarence Claudius Clayton Clement Cleon Clifford Clifton Clive Clyde Crispin Colin Conroy Cornwall Curtly Cuthbert
+			Damian Darrel Delroy Derrick Desbert Desmond Donald Donovan Duncan Dwight
+			Earl Edmund Edward Errald Ernest Errol Erskine Everton
+			Fenton Finley Forbes Francis Frederick
+			Garfield Garnet George Gerald Gladstone Glenroy Glenville Gordon Grantley
+			Hasely Herbert Hilary Horace Hubert Hugh
+			Jeffrey Jerome Jerren Joseph Judah Julian Justin
+			Keith Kemar Kenneth Kevin Knowlson
+			Ledley Lee Lennox Leonard Leroy Lester Lincoln Linton Lloyd Louis Lynford Lynden
+			Manley Mark Maurice Merle Mervyn Michael Milton
+			Nathan Neville Nicholas Nigel Noel Norman
+			Obadele Oliver Omar Oswald
+			Patrick Pearnel Percival Peter
+			Rainford Raymond Richard Ripton Robert Roger Ronald Rudyard Rupert
+			Shaun Stafford Stephen Stern Stokely Sydney
+			Thomas Trevor Tubal Tyrone
+			Vere Vernon Victor Vincent Vivian
+			Walter Wilfred William Winston Wendell Wynton
+		}
+		
+		female_names = {
+			Alicia Alison Althea Angela Annette Amber Andrea Anita Anne Audrey
+			Barbara Beryl Beverly Billie
+			Calliopa Carla Carole Cedella Claudia Cynthia
+			Deborah Denise Diana Donna
+			Edna Elena Esther Eugenia
+			Fay
+			Grace
+			Inga Iris Ivy
+			Jackie Jamaica Janice Jean Jennifer Joanne Judith
+			Karin Kelly
+			Leigh Letitia Lisa Lorna Lorraine Louise
+			Marcia Margaret Marie Marion Marlene May Melanie Melissa Michelle Millicent
+			Nancy Naomi Natalie Nicole
+			Olivia
+			Pamela Patricia Paula Pearlette Phyllis Portia
+			Rachel Rita Rosa Ruth
+			Sharon Sheila Sheryl Shirley Simone Sonia Sophia Susan Sylvia
+			Theresa
+			Veronica
+			Yvonne
+		}
+
 	}
 	calypsonian = {
 		primary = CBN
 		dynasty_names = { "Opel" "Collymoore" "Best" }
+
+		male_names = {
+			Aaron Ade Aldwyn Alexander Alfonso Ali Alvin Andrew Anthonio Anthony Arthur Ato Austin
+			Basdeo Basil Ben Bravo Brent Brian Bunji
+			Carl Charles Christopher Clarke Clifton Colm Cowin Cyril
+			Damion Darcus Darrel Davis Denzel Deon Doughtry Dwayne Dwight
+			Edmund Edric Edwin Ellis Emmanuel Ephraim Eric Errol Euric
+			Francis Franklin
+			Gary Geddes Geoffrey George Gerald Gordon Guy Haddaway
+			Hasely Henry Herbert Hibbert
+			Ian Isaac
+			Jabari Jack James Jarrin Jeffrey Jehue Joachim John Jones Joseph Jovon Julieon
+			Keith Ken Kent Kenwyne Keshorn Keston Kirt Kitch Knowlson
+			Lalonde Lewis Lionel London
+			Machel Makandal Malik Manny Marc Martin Maxwell Michael Mike Mikel
+			Napoleon Neil Nestor Nicconnor Njisane Noor
+			Patrick Paul Phife Phillip
+			Rafer Ralph Ramjohn Raymond Reece Renny Ribeiro Richard Robert Ronald Rondell Ronnie Roy
+			Sabian Sancho Selwyn Shaka Sherridan Simon Sonny Stann Stern Steve Stokely Sullivan Sylvester
+			Taylor Theophilus Thomas Trevor Trinidad
+			Wayne Wendell Wilfred William Winston
+			Yasin Yorke
+		}
+		
+		female_names = {
+			Afiyah Ahkeela Aleesha Angela Ann Arin Audrey Avanell Aveann Avionne Ayanna
+			Barbara Beverly Brianna
+			Calypso Candance Candice Caroline Catherine Chanté Cheryl Christine Cindy Cleopatra Clotil Corinne
+			Dana Danielle Denise Dernelle Destra
+			Eintou Elma Emelda
+			Fana Fay Fay-Ann Florence Fox
+			Gabrielle Geronne Gisele
+			Hazel Hazelle Heather
+			Inga
+			Jane Janeil Janelle Janice Janine Jasmine Jean Jeanette Jenelle Josanne Joyce
+			Kai Kamla Karyn Kathleen Katrina Kelly Kelly-Ann Kenisha Kennya Keri Keshia Khadidra Khadisha Kimika
+			Lara Lauryn Liana Linda Louise
+			Mairoon Mariah Marina Marissa Marlene Mary Maureen Maylee Menota Merlyn Michele Michelle Michelle-Lee Monique
+			Nadia Nia Niasha Nicki Nicole Nora
+			Ocean Olga Onika
+			Patrice Pearl
+			Raziah Reema Rhea Rhonda Rose
+			Sarah Sasha Semoy Shanelle
+			Talita Tamar Tanya Tasha Tenesha Teyana
+			Vahni Valene Vernetta
+			Wanda Wendy
+		}
+
 	}
 	bermudian = {
 		primary = BRM
 		dynasty_names = { "Browne" }
+
+		male_names = {
+			Alan Albert Alex Aljame Allan Angelo Antonio Antwan Arnold Arthur
+			Bill Blenn Brian Bruce
+			Charles Chris Christian Christopher Clarence Clay Clayton Clevie Curtis Cuthbert
+			Dale Damico Damon Daren Darius David Dean Delano Delyone Dennico Dennis Desbert Desmond Devaun Dexter Dwayne Dwight
+			Earl Earle Edmund Edward Eldon Elliott Emmanuel Ernest Ewart Finley Forbes Francis Fred Freddy Frederick
+			Garfield Garnet Gary George Gerren Gladstone Glenn Graham Guy
+			Henry Herbert Hezekiah Hubert
+			Ian Irving
+			Jacobi Jahni James Jamie Janeiro Jared Jason Jekon Jemeiko Jerome Jerren John Johnny Jon Jonathan Jonte Joseph Joshua Judah
+			Kamau Keishen Keith Kemar Kenneth Kentoine Kevin Khano Kijuan Knowlson Kofi Kwame Kyle
+			Lance Laren Lashun Ledley Lee Lejuan Lennox Leroy Lionel Lius Lloyd Logan Louis Lyndon
+			Malachi Malcolm Marcelle Marcus Mark Marquel Matt Maurice Mel Meshach Michael Mykal
+			Nahki Nathan Nathaniel Neville Nicholas Noel Nori
+			Oliver Omar Oronde Ottis
+			Pacome Patrick Pauulu Percival Peter
+			Quadir
+			Rainford Ralph Randy Reggie Reginald Richard Robert Rocky Rodi Rodney Roger Ronald Ross Roy Rupert Ryan
+			Sam Scott Seion Shakir Shaun Shayne Sheridan Shiraz Silva Stefan Stefano Stephen Steven
+			Tahj Talbot Tamauri Taurean Terryn Thomas Tim Timothy Tokia Tom Treadwell Troy Tucker Tyler Tyrell
+			Vere Vernon
+			Will William Winston
+			Yeu
+			Zico
+		}
+		
+		female_names = {
+			Adella Alice Alicia Alison Alma Angela Anita Anne Annette Ashia Ashley Audrey
+			Belle Bermuda
+			Carla Carole Caroline Casey Chefanices Chelsea Clara Cynthia
+			Diana Donna
+			Elena Erica Esther
+			Fay Flora
+			Gina Gloriana Grace
+			Hannah Heather Hesta Holly
+			Inga Isabella Ivy
+			Jane Janice Jenaya Jenna Jennifer Jesse Jessica Joan Joanne Jodie Judith Juliet
+			Katura Keazjah Keotshepile Kiera Kim Krystle
+			Lana Leigh Lena Lenore Lisa Lois Lucinda Lucy
+			Marcia Marian Marion Mary May Melyssa Michelle Miranda Mishka
+			Nicole Nora
+			Olive Olivia Oona
+			Patricia Phoebe
+			Queenie
+			Rachel Rosa Rowena Ruth
+			Sally Samantha Sara Sheryl Shirley Sonia Stephanie Sue Summer
+			Teresa
+			Valentine Veronica Victoria Viviana
+			Zona
+		}
+
 	}
 	garinagu = {
 		primary = HON
 		dynasty_names = { "Green" }
+
+		male_names = {
+			Abidemi Abiodun Adisman Adolpo Ajax Albert Alejandro Alexander Alfredo Andrew Antonio Arnoldo Arthur Artur Arturo Asterio Augusto Augustus Ayo
+			Bamidele Bantan Barras Beaufort Benito Berko Bernard Bloom Breton
+			Carlo Casey Cassidy Chidike Chima Cipriano Clodomiro Colvin Cornelio
+			Dama Daniel David Dilly Dilson Dionisio Donté Dorian Dubaku Duku Duran Duvalle Duvan
+			Earnee Edward Ekene Elmer Emeka Emiliano Erwin
+			Fabio Folami Francisco Franck Frederic Fruto
+			Gabiel George Geovany Gilbert Gordito Gordon
+			Handy Harry Hector Henry Hernaldo Hilario Hobby Homero
+			Ian Ibihna Ibrahim Ignacio Isaac
+			Jaime Jaspar Jean Jeremy Jhonny Jim Joaquin Jonathan José Joshua Juan Julian Justo
+			Kervin Kore Korn Krasku Krypto
+			Lopez Lorenzo Lowe Luis Luther
+			Madal Mamadou Mansa Manuel Marc Melvin Miguel Morgan
+			Nakili Narud Nelson Nicarao Norberto Norton
+			Obi Olabode Oluchi Omar Oopli Oswaldo Owen
+			Pablo Patricio Patrick Paul Pedro Pelipe Pentecost Peter Piquirin
+			Ralph Raveneau Reynaldo Reynard Rhodes Rigoberto Robert Rodrigo Roy Rubén Rubisu
+			Salvador Sergio Shakur Silvestre Spencer Stacker
+			Tarn Temitope Teodoro Tomas Tomo Toribio Tupac Tyson
+			Unki Uriel Usiano Uzochi Uzoma
+			Vérgin Victor Vincento Virgilio
+			William Winthrop
+			Yando Yaw
+			Zander Zero Zun
+		}
+
+		female_names = {
+			Abena Abeni Adelaide Adriana Afia Aiwanisa Akosua Agnes Alaba Alice Amaka Amara Ana Angelina Anna Arlen
+			Belle Bertalina Bianca Bolanle Bosede
+			Cendela Chantelle Chidimma Chika Chinyere Chioma Chizoba Clara Cristiana
+			Daisy Dayo Deyra Dora Dubaku
+			Ebele Eileen Ekene Eliza Elizabeth Enitan Eriel Estelle
+			Farina Fay Florcia Florence Flores Folami Fumnanya
+			Gabriela Gioconda Gladiola Gladys
+			Hannah
+			Idania Idowu Indiana Iris Isabelle Iva
+			Jaseth Jasira Joan Josepa Juana Julia Juliana
+			Karina Kati Katia Kayin Kuka Kunto
+			Laya Lila Linda Lucille Lumusi Lya
+			María Marian Marie Marline Mary Matilda Maura Mavis Mercedes Mildred Miranda Mirna
+			Nachalie Nastassja Nena Nkechi Nkiru Nora Nsia Nwanneka
+			Ogechi Olayinka Olivia Omolara Oni Onyeka Opeyemi
+			Pamela Pauni Plora
+			Regina Rita Rochelle Rosa Rosario
+			Sara Samara Scarlette Selina Shakira Shantall Siksa Simisola Star
+			Tasha Teresa Thelma Thema Titilayo
+			Uduak Uzoma
+			Victoria Violeta
+			Xara Xiomara
+			Yaoska Yewande Yolanda
+			Zana
+		}
+
 	}
 	raizal = {
 		dynasty_names = { "Axe" }
+
+		male_names = {
+			Achito Adolfo Agustín Ajani Albeiro Aldo Alejandro Alessandro Alexander Alexis Allman Almirante Álvaro Amaranto Andrés Ántony Anuar Aquivaldo Arley Arnabdi Arnoldo Arnulfo Avimiled
+			Belmer Bernardo Brayan Bréiner Breyner
+			Camilo Carlos Cazembe César Charles Cristhian
+			Daley Darwin Davis Dayro Deivy Diego Donald Dumas
+			Eder Edgar Édison Edixon Eduardo Edwin Eisner Elkin Elson Elvis Emerson Ervin Erwin Eudalio Eusebio Ever
+			Fabián Faider Farid Faustino Felipe Franco Fulgencio
+			Gabriel Geovanis Gerardo Germán Gilberto Gildardo Giovanni Gonzalo Gustavo
+			Hanyer Hárrison Hector Héctor Henry "Henry Morgan" Hermes Hernán Hernando Hilario Hugo Humberto
+			Ignacio Irie Iván
+			Jair Jairo Jamell James Jámison Jarol Javier Jefferson Jeison Jersson Jesús Jherson Jhoan Jhonny John Johnnier Jorge José Joseph Josimar Juan Julián
+			Kestneel
+			Leiton Leonardo Leonel Libis Lionard Luciano Lucio Luis
+			Manuel Marco Mario Martín Mauricio Mauro Mayer Michael Miguel Morgan
+			Neco Neider Nelson Néstor Nicolas Nilson Níver Nixon Nolberto Núñez
+			Olmes Omar Orlando Óscar Osman Oswaldo
+			Pablo Pajarito Pedro
+			Radamel Rafael Raúl René Ricardo Roberto Roger Rojas Rubén Rubiel
+			Santander Santiago Sergio Silvio Simone Stalin Stefan
+			Teófilo Theodore Tino Tressor Vicente Victor Viveros
+			William Wilmer
+			Yair Yamith Yeison Yimmi Yohn Yoiver Yovanny Yoximar Yuber Yulián
+			Zapata Zuluaga Zúñiga
+		}
+
+		female_names = {
+			Adriana Aldanae Alejandra Alexandra Alina Ana Andrea Ángela Aura Ayanna
+			Banzanta Beatriz
+			Carmen Catalina Catherine Claudia Clelia
+			Daniella Deisy Dejone Denayja Diana Diedra Doris
+			Eileen Elena Elida Elisa Ella Elsa Erika Esneda Esther Eulette
+			Fabiola Fernanda
+			Inisha Isabel Ivonne
+			Janiel Jeisyl Jelinda Jessenia Jessica Josefina Julie
+			Kadisha Karen Kedian Kenniesha Kiara
+			Laura Leydi Ligia Liliana Lina Lisney Lizeth Lorena Lucía Luna
+			Mabel Makeema Marcela Margarita María Mariana Marín Marlyn Marta Martha Matilde Melissa Michelle Mitzu Mónica Myriam
+			Natalia Nazli Neonor Nini
+			Palencia Paola Patricia Paula Paulina Piedad Pilart
+			Regina Rita Roca Rocío
+			Sandra Sangretta Sara Sasheika Serika Shabea Shellyann Sherica Shevedean Siad Silvia Sonia Stephanie Susana
+			Taliana Tania Thael Totó Tremoya
+			Valencia Valerie Vanessa Verónica Victoria Viviana
+			Ximena
+			Yineth Yoreli Yuliana
+			Zuleika Zuleima Zuluaga
+		}
+
 	}
 	kriol = {
 		primary = BLZ
 		dynasty_names = { "Petters" }
+
+		male_names = {
+			Aaron Adam Adrian Ajay Alan Albert Alexander Alexis Alfred Andre Andrew Angel Antonio Arlen Arlie Arthur Aston Augustus Azeem
+			Bernard Boombay Brandon
+			Cadle Carl Charles Charlie Chito Clifford Colin Colville Curl Cuthbert
+			Dale Daniel Darwin Dean Delvin Deon Donald Donovan Dorien Eamon Eddie Edric Eduardo Edward Edwuardo Elijah Elijio Elio Ellis Emil Emilio Emmeth Emory Evan Florencio Francis Frederick
+			Gabriel Gardiner George Gerald Godfrey Gregorio
+			Harley Henry Herbert Herman Huestes
+			Ira Ivan
+			Jaime Jamaal Jamal James Jaylon Jesus John Johnathan Jose Joseph Juan
+			Kaylon Keith
+			Lenney Leopold Leslie Lloyd Lorenzo Ludin Ludwig
+			Manuel Marc Marcial Marcus Mark Markiss Maurice Maxime Michael Miller Milton Mison Monrad Moses Muir
+			Neil Nelson Nicholas Nigel Norman Nugent
+			Oscar
+			Patrick Paul Pen Peter Philip Pierre
+			Quentin
+			Rafael Raymond Reynolds Richard Robert Ronald Russell
+			Said Samuel Seymour Shyne Sigfried Smyth Stanley Steven Swayne
+			Tariq Theodore Thomas Tucker
+			Valdemar
+			Walford Wellington Wilfred William Woldrich
+			Xavier
+		}
+
+		female_names = {
+			Adela Adele Alana Alice Almira Amal Angela Arana Areli Armeid Ashanti Aurora Aurore
+			Brandy Brianna
+			Candice Candy Carmen Carolyn Chanel Chantel Charmaine Cheryl Cindy Corinth Crystal Cynthia
+			Deangela Deidra Delsia Delvondra Dolores Doretta Dylcia
+			Edith Elizabeth Ellen Elmira Emma Esmeralda Estelle Esther
+			Felicia Felicita Frances Francis
+			Gabrielle Gilma Giovanna Giselle Gladys Glenda Imeon Indira
+			Jamie Jenet Juanita
+			Kadijah Kaina Kalilah Karina Katheryne Kay Kendra
+			Lilliana Linda Lisa Lois Lola Lorena Loreni Lorraine Lucerito Luisa Lynn
+			Malee Maria Marion Marlenie Mayra Melonie Michelle Mila Minita Monique
+			Nadia
+			Patricia
+			Raquel Rosanna
+			Saidy Samantha Sandra Shalini Shaniqua Sharon Sherdrian Shirlene Sylvia
+			Theodora Tricia
+			Valda Vanessa Victoria Vivien
+			Ycela Yesenia
+			Zee Zelma Zenaida
+		}
+
 	}
 	guyanese = {
 		primary = GYN
-		dynasty_names = { }
+		dynasty_names = { "Blackmoor" "Jagan-Rosenberg" "Harrisen" }
+
+		male_names = {
+			Abdool Abdul Abdur Aftab Aked Alex Alexander Alfred Alvin Andre Andrew Andy Anthony Assad Aubrey Barrington Basil Beni Berkeley Bernard Billy Birchmore Brandon Bruce Carl Charles Charlie Christopher Claude Clayton Clem Cliff Clive Clyde Colin Courtney Cy Cyril Dale Danny David Denis Derek Derwin Devendra Egbert Eion Errol Esuan Faoud Faris Fitz Frank Fred Gajanand George Glendon Gordon Harischandra Harold Henry Ian Imran Ivan Ivor Jack Jagdish Jaison James Jan Jeff Jeremy Joe John Jonathan Kampta Kamroze Keemo Keith Kennard Kenneth Kenny Kevin Krish Laddie Lance Latchman Len Lennox Leon Leslie Linden Lloyd Mahendra Malcolm Marc Mark Martin Maurice Michael Milton Monte Narsingh Neil Neville Nezam Oscar Patrick Paul Peter Philbert Pierre Ramnaresh Ramnarine Randolph Ranuel Ray Rayon Reon Robert Roger Rohan Rondell Ronsford Roy Royston Ruel Rupert Russell Ryan Saheed Sergio Sew Sewnarine Shimron Shivnarine Stanley Stephon Steve Steven Sudesh Sunil Tagenarine Timur Travis Trevon Troy Tyrique Veerasammy Vibart Vishaul Walter Wilfred William Wilson Wordsworth Yannick
+		}
+		
+		female_names = {
+			Alana Aliann Alison Amanda Andrea Ann Anneasa Arti Ashana Ashley Beryl Brittany Candace Candacy Carolyn Christa Claire Crystal Deolatchmee Doreen Elly Grace Indranie Jan Janet Joyce Kara Karen Katherina Kayla Lakshmi Laura Laxmi Lisa Mahadai Maria Mariam Marian Marlia Maya Meiling Mona Murleen Narmala Natalya Niketa Odessa Olivia Oonya Pauline Pretty Rajkumari Ruqayyah Ryhaan Sandra Shakira Shari Sharon Shauna Sheleza Shemaine Subrina Taniasha Tremayne Varshni Viola Yvette Yvonne
+		}
+
 	}
 }

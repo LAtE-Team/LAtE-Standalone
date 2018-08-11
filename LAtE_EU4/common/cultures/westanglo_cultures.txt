@@ -1,17 +1,210 @@
 west_anglo = {
 	grangelander = {
 		dynasty_names = { "Rodman" "Gammton" "Still" "Hutchinson" "Zeamays" "Sedgwick" "Zeamays" "Rodman" "Barley" "Brasge" "Brasge" "Capper" "Wapello" "Antilocapra" "Antilocapra" "Crossing" "Dedale" "Battletown" "White" "Alamosa" "Moline" "Adams-Farwell" "Aestivum" }
+
+		male_names = {
+			Absalom Abraham Abednego Ahad Amon Asa Amos Andrew Albinus Alvin Anson Ashton Adam Amzi
+			Bartholomew Benjamin Blaine Byrne
+			Calvin Carl Chester Clark Cole
+			Daniel David Dell Dale Dennis Donald Dwight Douglas
+			Ebeneezer Ezra Ezekiel Everett Emmett Emerson Elijah Elliot Eustace
+			Franklin Frexspar
+			George Gerald Gideon Garber Glen
+			Hunter Hezekiah Hank Herman Horace Harold Holcomb
+			Isaac Israel Ignace
+			Judah Jeconiah Jeroboam Joel Josiah John Jacob Joseph Jerome
+			Lucas Lyman Leslie Leonard Lavon Lewis Landon
+			Mishach Manasseh Moses Micah Meyer Marty Morris Melville Myatt Milo Merriweather
+			Nehemiah Nathaniel Ned
+			Obadiah Othniel Othman Oscar Otis
+			Peter Paul Pedaiah Pentecost Pomeroy Panphile Poynter Pelham Philip Phineas
+			Rehoboam Randell Ronald Roquat Ralph Rockwell
+			Salathiel Shadrach Saul Solomon Samuel Seth Simon Silas Sander Sheldon
+			Theodore Tom Theophile
+			Uriah
+			Wyatt Wilson Wesley Whelan Wheeler
+			Zebediah Zerubbabel Zedekiah Zechariah
+		}
+
+		female_names = {
+			April Alice Ada Ana Allison Almira Amelia Arduenna
+			Bertha Betsy Billina Barbara Bastinda
+			Caroline Caley Cora
+			Dorothy Doreen Diana Daisy
+			Esther Evanora Emma Elphaba
+			Flower Fairuza Flora
+			Glycine Georgia Glinda Gladys Gail Grace
+			Hermione Henrietta
+			Isobel
+			Jezebel Jellia Juniper Julia Jenny
+			Kimberly
+			Leah Lurline Lois Lana Locasta
+			Mary Maud Matilda Marceline Maxine Martha Margaret Muriel Mabel Melena
+			Nichole Nessarose
+			Ozma
+			Pastoria Petunia Pamela
+			Rebecca Ruth Rose Rachel Regina
+			Summer
+			Theodora
+			Virginia
+			Zelena
+		}
+
 	}
 	texan = {
 		primary = TEX
 		dynasty_names = { "Rusk" "Hill" "Blaggold" "Sheid" "Summerlin" "Taylor-Jones" "Orange" "Garrison" "Angleton" "Rayville" "Redwater" "Harq" "Ballentine" "Cockrell" "Guinan" "Hersee" "Navan" "Rusk" "Darst" "Harq" "Rusk" }
+		male_names = {
+			Abner Ashbel Almaron Allan Andy Amos Asa Alex Avery Austin
+			Buck Branch Bobby Ben Bill Byrd Bryce Brooks Bennet Buckaroo Bud
+			Cotton Clay Chandler Chris Clint Cage Colton Craig Clovis Carson Cyril Charton Chance Cody Clyde Cliff
+			Cash Cord Cooper Chase Cassidy Curly
+			Dan Dolphin Dalton Dale Dustin Dallas Dwight Dave
+			Earl Eliel Ezra Emory Eldon Eloy Emmett Eddy
+			Freeman Farley Floyd Freddy
+			Garett George Gene Galba Galen Grady Garland Gabe
+			Hank Horace Hiram Haskell Houston Hadley Hoyt Harley Harlan Hollis Honest
+			Isaac Ike
+			James Jesse Josh Jake Jack Justice Johnny Justin John Joe
+			Keith Kirby
+			Launcelot Lemuel Lewis Lefty Lantry Lowell Lyndon Lyle Luke
+			Memucan Mirabeau Micajah Miles Mial Manson Marcus Matt Merle Mitch Maddox Monty Morgan
+			Nate Neil
+			Phil Preston Perry
+			Red Rex Royce Rusty Randall Russell Ridley Riley Rowdy Ross Rick Rob
+			Slim Sam Squire Stetson Slick Shep Sixgun Sonny Sinclair
+			Tex Tom Toby Tuck Terrell Ty Troy Trace Truett Trevor Taddeo
+			Vernon Vance Virgil
+			Wayne Wyland Wiley Weston Wilbur Wes Weldon Wade Wheeler Wyatt
+			Zach Zane
+		}
+
+		female_names = {
+			Alice Amber Annabelle Annie Ashley
+			Beth Betsy Biddie Blue Bonnie Bridget Becky Barb
+			Casey Cassidy Clara Charley Cheyenne Clementine Crystal
+			Dallas Dolly Dora Dixie Danielle
+			Effie Ellie Elvira Emma
+			Frankie
+			Georgie Glory Grace
+			Haley Henrietta Holly Hope
+			Isabelle
+			Jane Jessie Jilly Josie
+			Kat Kim Kitty Leah Libby Liberty Lily Lucy Laura Ladybird
+			Madalyn Mae Mary Martha Mattie Maxine Megan Miley
+			Nelly Norma Nichole
+			Pat
+			Rose
+			Sally Sammy Sarah Shannon Shelby Suzanna Sis Sage Sierra
+			Tara Tessie Trinity
+		}
+
 	}
 	arixan = {
 		primary = ARX
-		dynasty_names = { }
+		dynasty_names = { "Drumm" "Mix" "Opengroves" }
+
+		male_names = {
+			Armstrong Angel Allen Art Abel Abaco Ariocarp Areol Alex Andres
+			Behan Ben Burton Buckey Billy Beaty Bob Boyd Baca Bat Boone Buford Brumby Bennet Batamote
+			Custer Carlos Chato Cain Camarillo Coville Coquimban Chinle Cayento Cesar
+			Dodge Diehl Dayton Dowell Dave Diego
+			Earp Ed Elliot Eugene Elfego Elzy Enos Enoch Emory Evelle Eric
+			Frank Ford Fraser Finis Frisco Forgon Felix
+			Gale Graham Garland Glen Greg Garcia George
+			Hafford Hagler Horton Hedley Hank Harcuvar
+			Ike Isom
+			Jeremiah Jojo John Justin Julio Jose Javier Josh
+			Lauro Lowell Lew Leonard Lansford Leget Lay Lee Laban
+			Mitchell Morgan Mordecai Malachi Marion Marston Massey Manuelito Mimico Montford Mullen Mingus Marco Martin
+			Newman Neal Nelson Nat Naco
+			Oscar Owen Oljato
+			Pete Peludo Pollard Pat Pajarito
+			Quinlan
+			Ringo Rye Reuben Rosson Rillito Rafael Rosk Rhett Robert
+			Stuart Shaw Sylvester Sherman Shea Seth Sol Sclerocact Simon Sergius
+			Tuco Tom Ted Tan Tip Tiburcio Tuba Titus
+			Uriah Urban
+			Virgil
+			Wyatt Wallace Will
+			Yakima Zach
+		}
+
+		female_names = {
+			Annie Araloosa Annabelle Aravaipa Artesa Aurelia
+			Belle Bliss
+			Clementine Calamity Cathay Connie Carnegiea Copiapoa Chlorotica Consolea
+			Dendora Date Dora
+			Etta Estrella Emma Emily
+			Getrudis Grusonia
+			Haseltonia Holly Haley
+			Josephine Jesse Julia
+			Kletha Kathy
+			Lucille Lucia Laura
+			May Molly Marcy Mary Miqueliopuntia Maria
+			Opuntia
+			Phoebe Pereskia Paria Perilla
+			Quiabentia
+			Rebutia Rebecca
+			Susan Shelby Sonoita Sauceda Sierrita Sonoyta
+			Tunilla Tacinga Tunicha Teresa
+			Valery Viznaga Veronica Vanessa
+		}
+
 	}
 	ozark = {
 		primary = OZK
 		dynasty_names = { "Fertick" "Burdell" "Hough" "Danvorn" "Guisinger" "McDaniels" "Goss" "Clinton" "Fort Leonard Wood" }
+
+		male_names = {
+			Adonias Alf Art Ashford Abibo Allen Arach Aram Azor Amon Asaph
+			Baptist Boston Burris Benet Backus Barret Byron
+			Clark Chester Cotter Conway Chanute Coop Calhoun Caiaphas Cran Cyrus
+			Darter Dwayne Dedan
+			Emery Elvin Elwood Elishah Elam Eber Ezra
+			Griffin Guire Glenn Gene Gamaliel Gomer Gyges Gether Garrah
+			Harris Hunt Hillel Heron Hyrcan Herod Hul Hadoram Hodiah
+			Ilroy
+			Jesse Jordan Jedediah Jethro Joezer Jochanan Japtheth Javan Jerah Jobab Joel Jotham Jairus
+			Kelley
+			Lamar Leggett Levi Lud
+			Milburn Mul Melchi
+			Natan Nahum Noah
+			Orel Origer Obal Ophir Obed
+			Porter Powell Pyatt Pollion Perachiah Peleg
+			Quantrill
+			Russell Riley Rubin Rainie Rufe Rhoder Redbone Reed Ross Riphath
+			Siloam Slim Shetach Sanders Sturkie Seth Sheleph Sirach
+			Turner Ty Truman Taber Tarf Tucker Tiras Tubal
+			Urias Uzziel
+			Walden Wilson Withrow Witt Wharton
+			Yell
+			Zechariah Zemah Zerub Zarephath
+		}
+
+		female_names = {
+			Alexa Avoca Alma Ava Aurora Adah Asenath Azubah
+			Bea Berry Bethel Brook Basemeth Bithiah Bilhah
+			Caryn Clemintine Cassidy Carleen Candace
+			Diana Daisy Donna Doris Della Dora Damaris Deborah Dinah
+			Elly Esther Eunice Ephah
+			Fay
+			Gravette Georgia Goliasa
+			Holly Hannah Hagar Huldah Holga Helah Hamutal
+			Iscah
+			Juniper Jethrine Janet Janice Joyce Jaybird Justine Joanna Jehoaddan Jochebed Judith June Jerioth
+			Kyra Karla
+			Lois Loma Leah Lydia
+			Mabel Mae Mary Marleen Mahalath Martha Mehetabel Miriam Milcah Merab
+			Nancy Naomi
+			Orpah Ophelia
+			Pearl Phoebe Priscilla Puah
+			Ruth Ruby Rachel Rebekah Rhoda Reumah
+			Salome Sapphira Sarah Shelomit Shiphrah
+			Teresa Tamar
+			Violet Vashti Vesta
+			Winona
+		}
+
 	}
 }

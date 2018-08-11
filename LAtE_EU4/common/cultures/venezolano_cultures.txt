@@ -2,20 +2,109 @@ venezolano = {
 	agraciado = {
 		primary = VNZ
 		dynasty_names = { "Serrano" "Balderas" "Jonaitis" "Belmonte" "Dorado García" "Jakubowicz" "Dominguez" "Giusti" "Quintero" "Braun" "Vasini" "Cabrera" "Cróquer" "Rodríguez" "Raidi" "Vega Piccolo" "Barbo" "Silva" "de Faría" "Fernández" "de la Fuente" "Velasco" "de León" "Ruiz" "de Sint Willibrordus" "de Los Caballos" "de San Bernandino" "de Achaguas" }
+		
+		male_names = {
+			Abraham Adán Adolfo Adonys Adrián Alberto Albi Aldo Alejandro Aleksandr Alexander Alfredo Alí Altair Amador Amilton Andre Andrés Antonio Armando Arturo Avellon 
+			Benjamín Betulio 
+			Calogero Carlos Carmelo Castro Cesar Chabi Chávez Chema Christian Chusy Cipriano Cleef Clint Crisóstomo Cyrus
+			Daniel Dantes Darwin Dassler David Diego Diosdado Douglas Dwight 
+			Édgar Edixon Edson Eduardo Edwin Eleazar Elik Elvis Emerson Emilio Engels Enmanuel Enrique Enyilber Erick Espartaco 
+			Fabien Fabricio Falcón Felipe Félix Ferdinand Florentino Francisco Franco 
+			Gabriel George Gerardo Germán Giancarlo Gilberto Gregorio Greivis Guillermo Gustavo 
+			Hans Héctor Hengelberth Henri Henrique Henry Herwis Hitler Hochiminhs Huáscar Hugo Humberto 
+			Ilich Isaías Isilio Ivan Ivork 
+			Javier Jean Jefferson Jerome Jerónimo Jesus Jhonny Joisber Jorge José Joselo Jóvito Juan Jugo Julien Julio 
+			Kelvim Kennedy Kerbert Lenin Leon Leonard Leopoldo Liborio Lincoln Lino Lisander London Louis Luis Luisito 
+			Magglio Manuel Maolenin Marcelo Marco Marcos Mario Marx Mauricio Melvin Michael Miguel Modesto Moisés Muha 
+			Nacho Nagasakio Napoleon Nelsón Nero Nicolás Nikito Nixon 
+			Octavio Oliver Omar Orlando Oscar Osmer Oswaldo Otto Ozzi 
+			Pablo Paris Pastor Pavel Pedro Pinto Pompeyo 
+			Rafael Ramón Reagan Regulo Reinaldo Renato Renzo Reyes Ricardo Rich Roberto Rockefeller Rodolfo Rodrígo Roger Rojas Román Rómulo Roque 
+			Salvador Sandro Santiago Sathya Saúl Sebastian Sergio Sevy Shariff Sherman Simón Stalin 
+			Tajmahal Tarek Temístocles Temutchin Teodoro Teofilo Tokio Tomás Trotsky Tutankamen 
+			Ugueth Ulysses
+			Venacio Venezuela Vicencio Vicente Víctor Vidal 
+			Waldo Walt Washington Williams Willian Willians Winston Wladimir Wolfgang 
+			Xabier 
+			Yanis Yaz York 
+		}
+			
+		female_names = {
+			Abigail Abril Adina Adriana Aida Aileen Alba Alejandra Alexandra Alicia Ámbar Ana Anabelle Analie Andrea Andreina Anel Ángela Angola Annerys Antoinette Arlette Astrid Aurismar Aury 
+			Barbarita Beatriz Belkis Bella Bjork Blanca Bravo 
+			Caitlin Caridad Carla Carmen Carmencita Carolina Catherine Chantal Chiquinquirá Cilia Clara Claudia Coraima 
+			Daniela Dayan Dayana Deisy Denise Dessideria Diana Diane Dominga Dominika Doris 
+			Elaiza Electra Elena Elianeth Elise Elizabeth Elluz Eowyn Erika Estefanía Euclarissa Eva Evelin Exis 
+			Fabiana Fabiola Fina Fiora Flávia Flor 
+			Gabriela Gabrielle Genesis Gigi Gliosmar Goizeder Grace Grecia Greik 
+			Hannelly Héléna Hermione Hester Hilda Hillary 
+			Ileanna Ira Irene Irianis Iroshima Isabell Isabella Ismalba Ismenia 
+			Jacinta Jacqueline Jailyn Jalymar Jeanette Jennipher Jessica Joyce Juliana Julianni Jullye Junca 
+			Karelys Karen Karina Karla Katerine Kattye Katya Keidy Keybell Keysha Kharelys Kira 
+			Laura Ligia Lilian Liliana Lilibeth Lina Linda Lis Lisbeth Loli Lolita Loredana Lucena Lucero Lupita Lyra 
+			Mafer Majandra Mara Marcela María Mariaejandra Marian Mariana Mariángela Maricarmen Marieh Mariela Marilyn Marisa Marisabel Marjorie Martha Mayra Mayré Milka Mimí Molina Mónica Mulan
+			Nagarith Nana Natasha Nathaly Nicel Ninibeth Noely 
+			Orii 
+			Patricia Paula
+			Rebeca Rita Rosa Rosita Rossybell Roxana 
+			Sage Shannon Sharai Sofía Sonia Steffany 
+			Taina Teresa Tey Tyanny 
+			Valeria Vanessa Vera Vero Verónica Veruska Victoria Viviana 
+			Xena
+			Yaneth Yasmin Yaxeni Yeniffer Yorgelys Yormery Yuzmary Yvonne 
+			Zenahir Zhandra Zuleibis 
+		}
+
 	}
 	bolivariano = {
 		primary = BOV
 		dynasty_names = { "Carro" "Verreos" "Alfaro" "Bolvaríana" }
+		
+		male_names = {
+			Abundi Adolba Aitor Albert Alejandro Alex Alfonso Alí Alvino Amleto Ander Antonio Buinton Carlos Cesar César Cheo Christian Cipriano Daniel David Deolis Edorta Eduardo Edwin Eleazar Eneko Enrique Enzo Ernesto Fabricio Félix Fernando Francisco Fred Gabriel Giovanni Godofredo Gorka Gregory Gualberto Guillermo Gustavo Héctor Hugo Iker Isaías Iván Jeffrén Jesús Jimy Jon Jonathan Jorge José Josef Jóvito Juan Julen Leopoldo Les Luca Luis Luz Marcelino Marcos Mariano Marwin Massimo Maurice Mikel Narciso Nestor Nicolás Oscar Oswaldo Pancho Pastor Pedro Pepe Pompeyo Rafael Ramón Raúl Richard Robert Rómulo Rubén Salomón Simón Socorro Stalin Teodoro Tomás Ubaldo Unai Víctor Videl Wilfredo Wolfgang Xabier Yoel Yon 
+		}
+			
+		female_names = {
+			Adriana Ainhoa Aliona Anabel Andreina Ángeles Arantxa Beatriz Bonita Calida Carla Carleth Cassandra Chrisanna Conchita Coraly Corazon Crisann Cristina Daniela Eneritz Estrella Estrellita Eva Fannie Floramaria Francisca Gabriela Gala Garbiñe Goizeder Inés Irene Julia Karlha Lara Laura Leandra Leticia Lilí Lola Lourdes Luella Magalys Magüi Maite María Mariam Marta Mayte Milagros Milka Miren Narcisa Nuria Orquidea Paula Pia Rosa Rosamar Rosamaria Sara Senalda Sílvia Simóneta Sofía Solymar Stefany Tanis Teresa Viana Virginia Yaxeni 
+		}
+
 	}
 	gocho = {
 		primary = TCR
-		dynasty_names = { }
+		dynasty_names = { "Zapata" "Delgado" "Clavijo" }
+		
+		male_names = {
+			Abelardo Alano Alberto Alvino Anderson Ángel Antonio Carlos César Chucho Cipriano Cristoval Daniel Dante Didier Diego Diógenes Édgar Eduardo Engelbert Eustoquio Francisco Fruto Gerardo Gerzon Homero Hugo Ilich Isaías Jackson Javier Jorge José Josmar Juan Kluivert Laureano Layneker Leandro Leonardo Leonel Luis Manuel Marco Marcos Maurice Miguel Napoleón Nelson Noel Palben Pedro Rafael Ramón Raúl Ricardo Rubén Sergio Simón Timoteo Tulio Victorio William 
+		}
+			
+		female_names = {
+			Adriana Alejandrina Alexandra Alyz Amalia Andrea Angela Aura Blanca Bono Catherine Christina Clarisa Daniela Debora Dreena Edymar Elian Elizabeth Elvita Emma Ester Federica Francis Francisca Gabriela Galante Hilda Irene Iris Isabela Jacqueline Judith Karen Laksmi Lolita Margarita Maria Marjorie Mendi Michelle Miriam Monica Natalia Patricia Scarlet Senalda Stephanie Susan Teodora Tulia Veronica Veruska Vivian 
+		}
+
 	}
 	llanero = {
 		primary = LLL
 		dynasty_names = { "Ureno" }
+		
+		male_names = {
+			Abran Alano Alejandro Alexander Alfonso Alvaro Alvino Andres Angelino Angelito Aquila Armando Arnoldo Bartolo Beltran Bemabe Bembe Betulio Bonifacio Bonifaco Calvino Carlos César Chano Charro Che Chucho Ciceron Claudio Criston Damario Edwin Elias Eloy Emesto Estevon Ezequiel Faron Felipe Fernando Flavio Frederico Gabriel Galtero Generosb Giovanni Guadalupe Guido Guillermo Hidalgo Honor Hugo Ignado Igone Jerico Joaquin Johan Jorge José Josef Juan Julio Leon Lonzo Lorenzo Luciano Luis Macario Magglio Manny Manuelo Marco Marcos Martino Massimo Mauro Milagro Montes Neron Nicolas Niguel Normando Oliverio Omar Orlondo Platon Ramiro Ramón Raul Rayman Reyes Richard Salomón Santiago Stefano Tabor Teodoro Toli Tomás Tonio Vicente 
+		}
+			
+		female_names = {
+			Adriana Alexandra Alicia Asuncion Bibiana Bienvenida Brisa Buena Calandria Carla Carmen Carmita Cassandra Catalina Cheena Chica Consuelo Crisanna Cyntia Daniela Daria Dinora Dona Dorinda Dulcinia Eleanora Elvita Engracia Eva Felisa Fermina Gabriella Gaspara Gechina Goizeder Grizelda Heriberto Inoceneia Irene Irma Isi Jacqueline Jessica Joaquina Jovanna Jovena Juanita Karmen Lalia Leahonia Lucena Luiza Madelynn Madre Marcela Marelisa Marena María Maribel Mariquita Marisol Marquilla Melita Mercedes Milagrosa Nekana Neta Nita Noemi Palma Patricia Paulita Pilín Raimunda Reia Ria Rosario Sevilla Silvia Stefanía Teresa Thaimy Ventana Verda Vivian Yara Yosdalkis Zanita 
+		}
+
 	}
 	truenonato = {
-		dynasty_names = { }
+		dynasty_names = { "Messa" "Finoglio" "Dieckmann"}
+		
+		male_names = {
+			Aarom Abel Alberto Alejandro Alex Allan Aly Andrés Ángel Anténor Antonio Argemiro Arles Armando Arsenio Astolfo Augusto Betulio Bobby C Camilo Carl Carlos Celia Chavela Dalmiro Daniel Danilo Darwin David Didier Diego Don Eddie Edgar Eduard Eduardo Edward Edwin Eider Elkin Emilio Ender Ernesto Esteban Eugenio Evert Felipe Félix Fernando Francisco Gerardo Geremi Gian Gilberto Giovanny Grenddy Guillermo Gustavo Héctor Henry Heraclio Hernán Huáscar Hugo Humberto Isaac Israel Iván Jackson Jaime Jair Jairo Jan Javier Jesús Jhonny Jhoulys Joaquim Johnny Jonathan José Juan Julián Julio Leonardo Leslie Lorenzo Luis Machado Manuel Mario Martin Massimo Nelson Nick Nilo Omar Orlando Oscar Oswaldo Pablo Pedro Pelé Rafael Ramón Raúl Renato René Ricardo Robert Roberto Robinson Rodolfo Rodrigo Rougned Rubén Rudy Samuel Santiago Teolindo Teresa Tony Tulio Vicente Víctor Vidal Wifredo Willie Wilmer Wilson Wuillians Xabier Yusmeiro 
+		}
+			
+		female_names = {
+			Adriana Ana Andrea Andreina Andreína Ángela Astrid Aymar Bárbara Blanca Carla Carmen Carolina Caroline Catalina Chiquinquirá Christina Claudia Consuelo Cynthia Daniela Dayana Denyse Diana Dominika Edymar Eleidy Elián Emma Erika Fabiola Federica Flor Flory Gabriela Gabriella Gladys Goizeder Hanna Hannelly Ivanna Jannie Jennifer Jessenia Jessica Jéssica José Jossie Juliana Karen Karielys Laura Levys Lila Lorena Luisa Lupita Ly Marelisa Margareth Maria María Mariam Mariana Maritza Martha Michelle Migbelis Mónica Natascha Nina Ninibeth Norkys Patricia Paula Pilín Rocio Sandy Sara Sérika Sharon Sofía Stefania Susan Susana Teresa Tiffany Tina Vanessa Verónica Veruska Vito Vivian Yajaira Yuliana 
+		}
+
 	}
 }
