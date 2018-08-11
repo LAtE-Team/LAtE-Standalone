@@ -1,23 +1,23 @@
-caribeno = {
+﻿caribeno = {
 	cubano = {
 		primary = CUB
-		dynasty_names = $cubano$
+		dynasty_names = { "Arnaz" "de Mazariegos" }
 	}
 	dominicano = {
 		primary = DOM
-		dynasty_names = $dominicano$
+		dynasty_names = { }
 	}
 	boricua = {
 		primary = PTR
-		dynasty_names = $boricua$
+		dynasty_names = { "Barceló" }
 	}
 	nuyorican = {
-		dynasty_names = $nuyorican$
+		dynasty_names = { }
 	}
 	yanquito = {
-		dynasty_names = $yanquito$
+		dynasty_names = { }
 	}
 	afrocubano = {
-		dynasty_names = $afrocubano$
+		dynasty_names = { }
 	}
 }
