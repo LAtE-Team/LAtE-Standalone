@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = kiwi
+capital = 4898	# Auckland
+
+3050.1.1 = {
+	monarch = {
+		name = "Wayne"
+		dynasty = "Peters"
+		birth_date = 3032.3.2 
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

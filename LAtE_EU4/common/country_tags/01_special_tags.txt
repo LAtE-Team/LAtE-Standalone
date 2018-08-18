@@ -142,3 +142,13 @@ SGP = countries/Singapore.txt
 SPE = countries/Speewah.txt
 ULU = countries/Desert.txt
 UTP = countries/Utopia.txt
+
+MUR = countries/Muriwhenua.txt
+AUC = countries/Auckland.txt
+TAI = countries/Tainui.txt
+NGT = countries/Ngati_Pouru.txt
+WEL = countries/Wellington.txt
+TRK = countries/Taranaki.txt
+DOC = countries/Doclands.txt
+CNT = countries/Canterbury.txt
+NZL = countries/NewZealand.txt

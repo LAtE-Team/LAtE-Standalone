@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = kiwi
+capital = 2738 # Waitaha
+
+3050.1.1 = {
+	monarch = {
+		name = "Eugene"
+		dynasty = "Sanson"
+		birth_date = 3032.4.5 
+		adm = 2
+		dip = 6
+		mil = 1
+	}
+}

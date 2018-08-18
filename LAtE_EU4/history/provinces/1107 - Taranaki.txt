@@ -1,20 +1,28 @@
 #1107 - Taranaki
 
-owner = AOT
-controller = AOT
-add_core = AOT
+owner = TRK
+controller = TRK
+add_core = TRK
 is_city = yes
 culture = maori
 religion = animism
 hre = no
-trade_goods = unknown
+trade_goods = grain
 base_manpower = 2
 base_tax = 3 
 base_production = 3
-capital = "Taranaki"
+capital = "New Plymouth"
 native_size = 50
 native_ferocity = 4
 native_hostileness = 9
 
-discovered_by = AOT
+discovered_by = MUR 
+discovered_by = AUC 
+discovered_by = TAI 
+discovered_by = NGT 
+discovered_by = WEL 
+discovered_by = TRK 
+discovered_by = DOC 
+discovered_by = CNT
 discovered_by = DUN
+discovered_by = chinese

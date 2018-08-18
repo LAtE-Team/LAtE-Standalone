@@ -1,2 +1,3 @@
 discovered_by = AOT
 discovered_by = DUN
+discovered_by = chinese

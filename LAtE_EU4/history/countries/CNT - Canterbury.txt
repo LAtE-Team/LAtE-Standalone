@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = kiwi
+capital = 4892 # Christchurch
+
+3050.1.1 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "MacDougal"
+		birth_date = 3001.2.28 
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = maori
+capital = 1107	#Taranaki
+
+3050.1.1 = {
+	monarch = {
+		name = "Ihaka"
+		dynasty = "Paratene"
+		birth_date = 3014.7.30
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}

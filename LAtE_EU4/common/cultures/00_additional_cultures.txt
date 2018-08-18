@@ -285,12 +285,105 @@ polynesian_g = {
 	male_names = {
 		Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
 		Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
-		Nalani Oke Palani Pekelo
+		Nalani Oke Palani Pekelo Hema Hemara Hemi Hemopo Henare 
 	}
 	polynesian = { #Tahitian
 	}
 	maori = {
 		primary = AOT
+		dynasty_names = {
+			Ahomiro Ake Akuhata Akurangi Amotawa Amapiu Aorangi Apanui Aperahama Apiata Apihai Apirana Apuwai Aramakutu Arano Aranui
+			Aratema Arena Awarau Awarangi Aupouri Atutahi Haami Haapu Haar Habib Haerewa Hahipene Haimona Haira Hakaraia Hake Hakopa
+			Hapakuku Hape Hapeta Hapimana Haraki Harawene Harawira Harema Haronga Harihari Hataraka Hau Haumate Hauraki Hawea Heihei
+			Heka Heke Heketa Hepi Herangi Herekiuha Heremia Herepete Heretaunga Heretini Herewini Heta Hetaraka Hetet Hii Hiini Hikitapua
+			Hikitene Hikuwai Hira Hiraka Hirama Hirawani Hiroki Hoani Hoera Hoerara Hohaia Hohapata Hohepa Hohepariki Hohipuha Hohua Hoi
+			Hokianga Hoko Hokopu Hona Honana Hone Honetana Hongara Honiana Hori Horne Horne Horo Horomia Horopapera Houia Houkamau Hunia 
+			Hunuhunu Huriwai Huriwaka Ihaia Ihaka Ihimaera Kaa Kahukura Kaiawha Kaire Kaiwai Kake Kani Karaka Karauria Karanga Karena Karipa Karora
+			Katene Kepa Kereopa Kihi Kingi Kino Koia Komene Koopu Kopua Kutia Kurupo Kupa Maaka Mahima Mahuika Maihi Maika Makoare Maraki Maraku Marino Mariu
+			Matahiki Matahaere Mataira Matiu Mauheni Maui Meihana Mitai Moeke Mohi Mokomoko Morunga Nepia Naeiti Naera Naka Namana Natanahira Nehemai Ngaata 
+			Ngaau Ngahana Ngahuruhuru Ngaia Ngamoki Ngamuka Ngapera Ngapo Ngarangione Ngarea Ngaronoa Ngatai Ngatama Ngati Ngatipehi Ngatoro 
+			Ngauiti Ngawaka Ngawhika Ngeru Ngoroio "Nia Nia" Nihoniho Niovara Nirai Nopera Nui Nukunuku Omao Oneroa Opitaia Otene Otimi Otitoa
+			"Pa Ariki" Paenga Paeroa Pafalani Pahina Pahura Pai Paipeta Paitai Pakana Paki Pakitau Pako Paku Pakuku Pakura Paleko Panapa Paneta 
+			Paniena Paniora Panoho Paora Paoramati Papa Papanui Papara Papuni Paputene Para Parae Parakuka Paranihi Paraone Parapora Pararaki Parata 
+			Paratene Parau Pari Paris Park Patara Patene Patu Patuki Paua Pauahi Pauhumoana Paurini Pawhau Peciman Pehimana Peka Peke Pene Peneamene 
+			Peneha Penetito Pepe Pepere Pera Pere Pereka Perenara Perepe Pereto Petane Peter Petera Peti Petiha Pewhairangi Piahana Piapo Pieti Pihema 
+			Pikikotuku Pimeleko Pine Pineaha Pineki Pinimaka Pio Pohutu Poi Poi Poi Poihalagi Poihipi Poimatagi Pokai Pokiha Pomana Pomare Poni Ponui 
+			Popata Popoki Porete Pori Porou Potae Potai Potaka Potatau Potonga Pou Poumua Poutahi Poutawera Poutu Pouwhare Puati Pue Puha Puhipuhi 
+			Puhirere Puhotau Pukere Pulegamata Pulegatau Pulekanamata Pulemoana Puleoti Pulu Pumamao Puna Puri Puru Putoko                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+		    Raeametua Raharuhi Rahipere Rahui Raikete Raimona Rakena Rakete Raki Rakiraki Rameka Rana Rangi Rangiaho Rangiao Rangimakea Rangitahi 
+		    Rangitakawaho Rangitauwira Rangiwaia Ranui Rapana Rapata Rapatini Rapihana Rapine Rapona Raponi Raroa Rata Ratahi Ratana Ratema Ratete Ratia 
+		    Ratima Rau Rauahi Rauawa Raureti Rawhira Rawhiti Rawiri Reha Rehu Rei Reihana Reiroa Remi Remuera Renata Rere Retimana Reupena Rewa Reweti Rewha 
+		    Rewharewha Rewi Rewiri Ria Rigot Rihari Riki Rikihana Rikiti Rikona Rima Rimeni Rini Rio Ripia Ririnui Riwai Roha Roi Roikino Ropata Ropu Rota Roto 
+		    Rotoatara Rotohiko Royal Ru Rua Ruaporo Ruatara Ruavai Ruavaikatau Rudolph Ruha Ruka Rukamiromiro Ruki Ruki Rukingi Runga Runga Runga Rupene Ruru Rutene 
+		    Ruwhi Ruwhiu  Rima Rimeni Rini Rio Ripia Ririnui Riwai Roha Roi Roikino Ropata Ropu Rota Roto Rotoatara Rotohiko Royal Ru Rua Ruaporo Ruatara Ruavai Ruavaikatau 
+			Ruha Ruka Rukamiromiro Ruki Ruki Rukingi Runga Runga Runga Rupene Ruru Rutene Ruwhi Ruwhiu
+		    Taaki Taewa Tafale Tafaua Tafua Tagavaikuilu Tagimau Tahana Tahau Tahere Tahi Tahikona Tahitahi Tahiwi Tahu Tai Taia Taianu Taiapa Taiaroa Taihuka Taiki 
+			Taingahue Tainguru Tainui Taipana Taipari Taipiha Tairua Taite Taitu Taiwhanga Taka Takake Takao Takaroka Takaroro Takei Taki Takimoana Takina Takoko Takoto 
+			Takotohiwi Takuao Talauta Taleva Taliauli Tamahau Tamahetoa Tamaiparea Tamakehu Tamaki Tamarapa Tamatafiti Tamati Tamauaki Tamehana Tamepo Tamihana Tamou Tamureti 
+			Tana Taneao Tanga Tangaere Tangata Tangatake Tangiora Tangitoru Tangitu Tangney Tangohau Tanguru Taniora Taniwha Taopua Taori Taote Tapa Tapapa Tapihana Tapine 
+			Taputoro Tarai Taranaki Tararo Tarau Tareha Taringa Taripo Tau Taua Tauarua Tauetuli Tauhou Taukamo Taukilo Taulisi Tauliti Taumaa Taumatangi Taumataua Taumaunu 
+			Taunga Taupaki Taura Tauranga Taurere Tauri Taurua Tautahana Tautau Tautuhi Tauwhare Tavaka Taveli Tavero Tavili Tawa Tawera Tawhai Tawhara Tawhiao Te                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+		    "Te Aho" "Te Amo" "Te Aniani" "Te Ara" "Te Au" "Te Awarau" "Te Awekotuku" "Te Haara" "Te Hatu" "Te Hau" "Te Heu Heu" "Te Hini" "Te Hore" "Te Horohau" "Te Houpapa" 
+			"Te Huaki" "Te Huatahi" "Te Hui" "Te Huia" "Te Huna" "Te Kahu" "Te Kairangatira" "Te Kakau" "Te Kauru" "Te Keepa" "Te Kihi" "Te Kiri" "Te Kohi" "Te Kootu" 
+			"Te Korowhiti" "Te Kuru" "Te Maro" "Te Maru" "Te Moananui" "Te Moni" "Te Muera" "Te Ngaio" "Te Ohaere" "Te Ohu" "Te Okeroa" "Te Otimi" "Te Paa" "Te Pairi" 
+			"Te Patu" "Te Puni" "Te Purei" "Te Raihi" "Te Raina" "Te Rangi" "Te Rauna" "Te Rewa" "Te Rore" "Te Ruinga" "Te Runa" "Te Tau" "Te Toa" "Te Tua" "Te Tuhi" 
+			"Te Urupu" "Te Waara" "Te Wainohu" "Te Weato" "Te Whao" "Te Whare" "Te Whata" "Te Whau" "Te Whetu" "Te Wiata"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+		    Teaea Teaitu Teamo Teaomarama Teapai Teare Tearetoa Teariaroa Teariki Teau Teauariki Teaumihi Tefatumoana Tehata Tehui Tehuiki Tei Teihoka Teito Teka Tekahu 
+			Teki Tekia Tekiri Temaru Temete Temoni Tengaio Teokotai Teparo Tepei Tepene Tepiihi Tepuretu Tera Terei Terekia Terepii Teretai Terito Terua Tete Tetua Teua 
+			Teuruaa Tewai Tia Tiafa Tiatoa Tieketahi Tiini Tikao Tikitere Tilimaka Tilo Timo Timoko Timoti Timuiha Tingey Tini Tinimana Tinirau Tio Tioke Tionehafa Tionemale 
+			Tionemouga Tionesini Tionetali Tionetini Tioni Tioni Tutai Tipe Tipene Tipi Tipoki Tipuna Tiputa Tiria Tirikatene Titi Tiueatama Tiulai Toa Toamio Toarere 
+			Togiahemetu Toheriri Toho Tohovaka Tohu Toi Toi Toi Toitoi Toka Tokara Toki Tokoronga Tokoruakore Tokotana Tomati Tongi Tongia Tonihi Tooke Topi Topia Torepe 
+			Toroa Toroaiwhiti Toroma Toru Toto Totoroaere Trau Trikateni Tu Tua Tuahine Tuaine Tuakanaoruru Tuakeo Tuatara Tuati Tuatiaki Tuatini Tuauru Tuhaka Tuhana 
+			Tuhirangi Tuhiwai Tuhoe Tuhoro Tuikaa Tuinukuafe Tukaki Tukareoho Tukemata Tuki Tukimata Tukiuha Tumatahi Tume Tumu Tumutoa Tungane Tunoa Tunui Tunuiarangi 
+			Tuoe Tuoro Tupa Tupe Tupu Turei Tureia Turetahi Turi Turnbull Turner Turu Turua Tutai Tutaki Tutara Tutavake Tutt Tutu                                                                                                
+		    Ua Uatuku Uea Uku Ulukita Underwood Upokokeu Uri Uriarau Urikapu Utauta Uu Uwerata                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+		    Vaevaeongo Vaihola Vaiua Vakatama Vakatini Varovaro Vasau Vavia Vercoe Vilipate Vuiyasawa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+			Waaka Waara Waata Wade Waerea Wahanui Wahapu Wahia Waiapu Waihape Waikare Wainohu Waiomio Waipapa Waipara Waipouri Waipuka Wairau Wairoa Waitford Waiti 
+			Waititi Waitoa Waitohi Wanihi Wanoa Warahi Warakihi Ward Warehu Warema Warena Waru Watene Watson Wawatai Weehe Wehikore Wehipeihana Weko Wellman Werata Wereta 
+			Werohia Westbrook Westrupp Whaanga Whaitiri Whakarua Whakataka Whare Wharehinga Wharekino Wharekura Wharemate Wharepapa Wharerau Whareraupo Wharetamatera Wharewhiti 
+			Whatati Whatuira Whenuanui Wheoki Whitau Whititera Wi Wi Hapi Wi Repa Wi Rihia Wickham Wihapi Wihongi Wikatene Wikeepa Wiki Wikiriwhi Wikitera Wilhongi Wilkie Wimutu 
+			Wineti Winiana Winiki Winterburn Wipa Wipaki Wipani Wiperi Wirangirangi Wiremu Wirihana Wirikake Wirimu Wise Witana Witehira Witeria Witinitara Witute                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+		}
+		male_names = {
+			Nikau Ari Manaia Manaia Kauri Mikaere Rawiri Ihaia Kai Manaaki Tai Tane Tamati Taika Kahurangi Tangaroa Manawa Ihaka Tama Tawhiri
+			"Abela" "Aio" "Akava" "Ake" "Akuhata" "Amahia Kingi" "Amo" "Amokawa" "Andrew" "Aperahema" "Apia" "Apirana" "Aporina" "Apu" "Arama Karaka" 
+			"Arapata Koti " "Aria" "Aritaku" "Aruake" "Asu" "Ateremu" "Aura" "Awhe Kaike"                                                                                                                                                                             
+			"Banaba" "Enoa" "Enoka" "Enua" "Eparaina" "Epiha" "Eru" "Eruera" "Eruera Tihema Te Aika" "Etai" "Ewata" "Fariu" "Fred" "Hakaraia" "Haki" "Hakopa" 
+			"Hami" "Hamiora" "Hana" "Hani Kawata" "Hanuere" "Haora" "Hape" "Hapi" "Harawe Haki" "Hare" "Harry" "Hatara Matehe" "Hatiwira" "Hau" "Haua" "Hauraki" 
+			"Hautaku" "Hautangi" "Hautu" "Hauwaho" "Hawea" "Heke" "Hekemaru" "Hemi" "Hemi Pene" "Hemotata" "Henare" "Henare Kima" "Henare Nehemia" "Henare Wepiha" 
+			"Herewini" "Heta" "Hiki" "Himi" "Hini Wi" "Hira" "Hirini" "Hiroki Rere" "Hiru" "Hiwa" "Hoani" "Hoani Ngamu" "Hoani Pokaihaku" "Hohepa" "Hohepa Itamara" 
+			"Hohepa Paramu" "Hohepa Taupaki" "Homana" "Hona" "Hone" "Hone Manahi" "Hone Mohi"                                                                                                                                
+			"Hone Tatarani" "Hopa" "Hori" "Hori Karaka" "Hori Paamu" "Horima" "Horomona" "Hotene" "Howard" "Hue Mark" "Huhu" "Hui Kai" "Huirua" "Huitau" "Huke" "Huki" 
+			"Huni" "Hura" "Huri" "Huruwhenua" "Ihaia" "Ihaka" "Ingoa" "Iona Teipo" "Iovane" "Iraia" "Ita Hone" "Iti" "Ito J." "Iwiora" "Jehu" "Jione" "Kahu" "Kahungunu" 
+			"Kahuroa" "Kaimanu" "Kaitara" "Kapi" "Karaitiana" "Karaka" "Karena" "Karu" "Kawhena" "Ken" "Keni" "Kepa" "Kereama" "Kerei" "Kereopa" "Keu" "Kimi" "Kingi" "Kingi Teokoro"
+			"Kipa" "Kira Hohepa" "Kiri" "Kitohi" "Kohatu Hari Hemara" "Kohu" "Komene" "Kopa" "Koro" "Korokaihau" "Korota" "Kotuku" "Kouma" "Kurei" "Ma" "Maaka" "Maangi" "Mack" "Mahu"
+			"Mai Rangi" "Maiti" "Makike" "Makitae" "Mana" "Manga" "Mangu" "Manihera" "Mannie" "Manu" "Manuera" "Marama" "Mare" "Mareta" "Mari" "Mark" "Marouna" "Matarini" "Matataia Pararaki"
+			"Mate" "Matehaere" "Matekairoa" "Matene" "Matenga" "Matenga Haeroa" "Mateora" "Materepo" "Matiaha" "Matin Paki" "Matini" "Matiu" "Mauta" "Meihana" "Mema" "Meto"                                                                                         
+			"Metua" "Mick" "Mihaka" "Mika" "Mikaera" "Mio" "Mita" "Moa" "Moetu" "Mohi" "Moki" "Morehu" "Moronai" "Motu" "Mutu" "Nakura Mata" "Nareta" "Nati" "Nehe" "Nepia" "Neri" "Newa" 
+			"Nga" "Ngahiwi" "Ngakapa" "Ngametua" "Ngamutu" "Ngapaki" "Ngatai" "Ngatama" "Ngatapiri Drehua" "Ngatitautu" "Ngaumetua" "Ngawakataurua Tetahua" "Nick" "Niheta" "Nikau" "Nikora"
+			"Nikorima" "Nio" "Noho" "Nooiti" "Nuia" "Oke" "Okiakama" "Ongokoreiti" "Ono" "Opura" "Pa" "Paeahi" "Paerata" "Paetaha" "Paewai" "Pahia" "Pai" "Paia" "Paki" "Paki Whetu" "Pakipaki"
+			"Paku" "Pani" "Paora" "Paora Rerepu" "Papera" "Paraone" "Paratawa" "Paratene" "Pare" "Pareiha" "Parekura" "Pari" "Parua" "Pat" "Patena" "Patihana" "Patoromu" "Patu" "Pau" "Paui"
+			"Paupauare" "Pene" "Penetana" "Peniha" "Pera" "Pera Hemi" "Perenara" "Pereri" "Peri" "Peta" "Petera" "Pi" "Piana" "Piere" "Piki Kotuku" "Pine" "Pini" "Piniha" "Pio" "Piri" "Pirimi"
+			"Pirimoana" "Piripi" "Pita" "Piter" "Pitonga" "Poai" "Poi" "Poihipi" "Pokai" "Ponga" "Pono" "Pora" "Potene" "Potikai Haereata" "Pouaka" "Pounara" "Poururu" "Povaru" "Puaka" "Puata" 
+			"Puatuitui" "Puhi" "Puia" "Puke" "Pukerimu" "Puku" "Punoua" "Pura" "Puru" "Puruma" "Puti" "Ra" "Raea" "Rahau" "Rahiri" "Raitia" "Rakataha"                                                           
+			"Rakateitei" "Rake" "Rameka" "Ramera" "Rangi" "Rangi Horawera" "Rangi Wiari" "Rangiataahua Kiniwe" "Rangihauku" "Rangiheuea" "Rangihiroa" "Ranginui" "Rangiore" "Raniera" "Raniera Ngapo" 
+			"Rapi" "Rata" "Ratapu" "Rataro" "Rau" "Rauahi" "Rawhiti" "Rawiri" "Re" "Rehoboama" "Reihana" "Reihana Eru" "Reki" "Remana" "Rena" "Renata" "Rere" "Rereti" "Retimana" "Reuben" "Reupena" 
+			"Reweti" "Rewi" "Rihari" "Riki" "Rikihana" "Rima" "Rimaputa" "Rimi" "Ringia" "Riwhi" "Robert" "Robert Tanginoa" "Robert Taru" "Roki" "Roland" "Romana" "Romeo" "Ronald" "Rongoihaere" "Roo"
+			"Ropiha" "Rori" "Rota" "Rotokiko" "Rua" "Rua Iti" "Ruakirikiri" "Ruka" "Ruma J." "Rupi" "Ruru" "Rutene" "Shedrach" "Taane" "Taau" "Taere" "Taero" "Tahanga" "Tahatu" "Tai" "Taiawhiao" "Taiki" 
+			"Taite" "Taiwahi" "Taka" "Takaia" "Takana" "Taki" "Tamati" "Tame" "Tamihana" "Tamupo" "Tangi" "Tangiia" "Tangiwai" "Tango" "Taoho" "Taokete" "Taomia" "Taoro" "Tapauri" "Tapua" "Taraia" "Tata"
+			"Tati" "Tau" "Tauhia" "Taumaiti" "Taurangi" "Taurarua" "Taurerewa" "Tauri" "Tautoro" "Tautuhi" "Tauwhitu" "Tawhai" "Te" "Te Ao" "Te Aotutahanga" "Te Araroa" "Te Ata" "Te Hau" "Te Hiko"
+			"Te Iritima" "Te Kakama" "Te Kareti" "Te Mapi" "Te Miere" "Te Reimana" "Te Reinga" "Te Rire" "Te Riri" "Te Riwhi" "Te Whatu" "Te Whitu" "Tearai" "Tearapo" "Tearii" "Tearii Vaatau" "Teariki" 
+			"Teariki Takina" "Teataupuru" "Teau Kopa" "Teiwirere" "Tekaratai" "Teki" "Teme" "Teokotai" "Teoti" "Tepana" "Tepou" "Tere" "Terongo" "Teteira" "Teu" "Teweka" "Tiakana" "Tiaki" "Tiale Bau Mara"
+			"Tiara" "Tieke" "Tihema" "Tika" "Timarana" "Timi" "Timu Timu" "Timutimu" "Tinirau" "Tipene" "Tipi" "Tipuna Kore" "Tira" "Tivini" "Tohu" "Toi" "Toko" "Tolipili" "Tom" "Tommy" "Tongia" "Toro"
+			"Tote" "Tu" "Tuakanaiti" "Tuakanakore" "Tuakaua" "Tuanu" "Tuapaoa" "Tuari" "Tuati" "Tuhitaare" "Tuhituhi" "Tuhuru" "Tui" "Tuira" "Tukapa" "Tukawhena" "Tuki" "Tukotahi" "Tumaru"
+			"Tumu Hamuera" "Tunu" "Tuoro" "Tupara" "Tupou" "Turakina" "Turei" "Turi" "Tutai" "Tutere Rumatiki" "Uma" "Utu" "Vaine" "Vaitoti" "Waaka" "Waari" "Waata" "Waiheke" "Waikare" "Waikohari"
+			"Wairua" "Waitai" "Waithohi" "Wallie" "Walter" "Warena" "Warena Mokopapaki" "Waretini" "Waro" "Watarawi" "Watene" "Wati" "Watikena" "Wetini" "Whai" "Whakarongotai" "Whanoke" "Wharau" "Whare"
+			"Wharekaramu" "Wharekete" "Wharekura" "Whetu" "Whira" "Whiri" "Whiro" "Whitu" "Wi" "Wi Kepa" "Wi Paku" "Wi Tamihana" "Wiki" "Winiata" "Wipahaka Paora" "Wiparara" "Wiremu" "Wiremu Haeata"
+			"Wiremu Hape" "Wiremu Paki" "Wiremu Tuuru" "Wiri" "Wirihana" "Wirihana Hori" "Wirihi" "Wirimu" "Wiripo"                                                                                                                                  
+		}
+		female_names = {
+			Maia Manaia Anahera Ana Aroha Kaia Hana Ataahua Tia Kora Amaia Tui "Te Aroha" Kahurangi Awhina Manawa Kara Aaria Rui "Te Ao"
+		}
 		#Need names
 	}
 	gilbertese = { #Technically Micronesian

@@ -1,0 +1,27 @@
+
+owner = DOC
+controller = DOC
+add_core = DOC
+is_city = yes
+culture = kiwi
+religion = animism
+hre = no
+capital = "Te Anau"
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 4
+native_hostileness = 9
+
+discovered_by = MUR 
+discovered_by = AUC 
+discovered_by = TAI 
+discovered_by = NGT 
+discovered_by = WEL 
+discovered_by = TRK 
+discovered_by = DOC 
+discovered_by = CNT
+discovered_by = DUN
+discovered_by = chinese

@@ -1,0 +1,33 @@
+#2737 - Ahuriri
+
+owner = WEL
+controller = WEL
+add_core = WEL
+is_city = yes
+culture = kiwi
+religion = animism
+hre = no
+capital = "Wellington"
+trade_goods = wine
+base_tax = 5
+base_production = 3
+base_manpower = 2
+native_size = 10
+native_ferocity = 4
+native_hostileness = 9
+
+discovered_by = MUR 
+discovered_by = AUC 
+discovered_by = TAI 
+discovered_by = NGT 
+discovered_by = WEL 
+discovered_by = TRK 
+discovered_by = DOC 
+discovered_by = CNT
+discovered_by = DUN
+discovered_by = chinese
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}

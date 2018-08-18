@@ -3,33 +3,8 @@
 graphical_culture = westerngfx
 
 
-color = { 120  200  80 }
+color = { 137  0  0 }
 
-monarch_names = {
-	"Pōtatau Te Wherowhero #1" = 20
-	"Tāwhiao #1" = 20
-	"Mahuta #2" = 15
-	"Te Rata #1" = 15
-	"Korokī #1" = 10
-	"Te Atairangikaahu #1" = -10
-	"Tuheitia #1" = 10
-	#Add more names
-}
-
-leader_names = { 
-	Bourke Darling
-	Brisbane Macquarie
-	Bligh King Butler
-	Hunter Phillip Denison
-	Fitzroy Belmore
-	Robinson
-	Loftus Carrington
-	Duff Hampden Beauchamp Rawson
-	Chelmsford Yagan 
-	Strickland Davidson
-	Grey Flinders
-	Bass
-}
 
 ship_names = {
 	Sidney Coromandel

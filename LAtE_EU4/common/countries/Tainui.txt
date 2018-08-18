@@ -1,0 +1,17 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+
+color = { 200  198  155 }
+
+
+ship_names = {
+	Sidney Coromandel
+	Yarra Dumbarton
+	Gascoyne Perth
+	Huon Stuart
+	Hawkesbury Toowoomba
+	Maryborough Norman 
+	Warramunga Parramatta
+}

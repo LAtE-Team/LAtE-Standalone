@@ -207,6 +207,8 @@ categories =  {
 			
 			#LAtE
 			4834 #Central Viscaya
+			4889 4893 2737 4886 1108 4890 4887 #New Zealand
+			
 		}
 	}
 
@@ -329,6 +331,10 @@ categories =  {
 			384 385 386 390 2332 2345 4280 4281 4282 #Hejaz Range
 			435 436 #Khorasan
 			4348
+			
+			#LAtE
+			4888 4896 2738	#New Zealand
+		
 		}
 	}
 
@@ -641,7 +647,7 @@ categories =  {
 			3001 2992 2986 2989 4176
 			4199 #Greater China
 			365 #Sinai
-			1108 1090 2734 2738 #Australia & New Zeeland
+			1090 2734 #Australia & New Zeeland
 			1968 #Central Asia
 			4027 4029 4030 #Madagascar
 			798 4053 4055 4056 4057 4059 4067 4073 4077 4084 4100 4101 4103 #Africa
@@ -650,6 +656,9 @@ categories =  {
 			154 162 263 1318 1770 2960 2968 2970 4238 #Central Europe
 			216 228 #Iberia
 			736 1047 4228  #Korea & Manchuria
+			
+			#LAtE
+			4894 1109 4891
 		}
 	}
 

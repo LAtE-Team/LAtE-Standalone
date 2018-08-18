@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = kiwi
+capital = 4889 # Wellington
+
+3050.1.1 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "McKinnon"
+		birth_date = 3015.6.8 
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}

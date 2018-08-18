@@ -741,6 +741,18 @@ australia_region = {
 	}
 }
 
+new_zealand_region = {	#LAtE
+	areas = {
+		te_ika_a_maui_area 
+		cook_strait_area 
+		auckland_area 
+		te_waipounamu_area	
+		west_coast_area 
+		canterbury_area 
+		te_waipounamu_area 
+	}
+}
+
 
 south_china_region = {
 	areas = {
@@ -932,8 +944,8 @@ oceanea_region = {
 		micronesia_area
 		west_micronesia_area
 		melanesia_area
-		te_ika_a_maui_area
-		te_waipounamu_area
+		#te_ika_a_maui_area		#Moved to New Zealand Region
+		#te_waipounamu_area
 		northern_polynesia_area
 		eastern_polynesia_area
 	}

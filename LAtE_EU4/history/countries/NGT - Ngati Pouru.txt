@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = chinese
+religion = animism # for now
+primary_culture = maori
+capital = 1108	#Gisborne
+
+3050.1.1 = {
+	monarch = {
+		name = "Paikea"
+		dynasty = "Kairakau"
+		birth_date = 3012.5.22 
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}

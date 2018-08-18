@@ -1,2 +1,6 @@
-discovered_by = AOT
 discovered_by = DUN
+discovered_by = chinese
+discovered_by = chinese = AOT
+discovered_by = DUN
+discovered_by = chinese
+discovered_by = chinese = DUN

@@ -1575,13 +1575,13 @@ polynesia_area = { #5
 	1243 1989 1990 1992
 }
 
-te_ika_a_maui_area = { #5
-	1106 1107 1108 2737 2739
-}
+# te_ika_a_maui_area = { #5
+	# 1106 1107 1108 2737 2739
+# }
 
-te_waipounamu_area = { #3
-	1109 1246 2738
-}
+# te_waipounamu_area = { #3
+	# 1109 1246 2738
+# }
 
 ########################################
 # West Africa					       #
@@ -3749,6 +3749,31 @@ perth_area = {
 	4856 1084 2727
 }
 
+#New Zealand
+
+te_ika_a_maui_area = { #5		#North
+	1108 2737 4888 4886
+}
+
+cook_strait_area = { #5		#North
+	1107 4887 4889 4890
+}
+
+auckland_area = { #5		#North
+	1106 2739 4898
+}
+
+west_coast_area = {
+	4893 4896 2738
+}
+
+canterbury_area = {
+	4891 1109 4892 
+}
+
+te_waipounamu_area = { #3
+	4894 4895 1246
+}
 
 
 
