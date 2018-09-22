@@ -1,5 +1,6 @@
 # Boucher
-government = steppe_horde
+government = tribal 
+add_government_reform = steppe_horde
 government_rank = 1
 mercantilism = 0.1
 technology_group = nomad_group

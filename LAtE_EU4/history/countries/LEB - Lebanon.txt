@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy 
+add_government_reform = feudalism_reform
 primary_culture = al_suryah_arabic
 religion = catholic #No, seriously, that's the joke
 technology_group = indian

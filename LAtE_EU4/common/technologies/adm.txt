@@ -11,8 +11,8 @@ technology = {
 	# Tech 0
 	year = 2950
 	
-	tribal_despotism = yes 	
-	tribal_federation = yes 
+	tribal_despotism_legacy = yes 	
+	tribal_federation_legacy = yes
 	
 	native_earthwork = yes
 	native_palisade = yes
@@ -30,8 +30,8 @@ technology = {
 	# Tech 1
 	year = 2990
 	
-	tribal_democracy = yes
-	tribal_kingdom = yes
+	tribal_democracy_legacy = yes
+	tribal_kingdom_legacy = yes
 }
 
 technology = {

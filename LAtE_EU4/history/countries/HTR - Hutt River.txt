@@ -1,5 +1,6 @@
 # Hutt River
-government = feudal_monarchy
+government = monarchy 
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = chinese
 primary_culture = strayan

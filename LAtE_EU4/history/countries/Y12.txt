@@ -1,5 +1,6 @@
 # Ecumenical Church Council
-government = theocratic_government
+government = theocracy 
+add_government_reform = leading_clergy_reform
 government_rank = 1
 mercantilism = 0.1
 technology_group = eastern

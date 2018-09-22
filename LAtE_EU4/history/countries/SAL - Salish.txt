@@ -1,5 +1,6 @@
 # Salishan Empire
-government = elective_monarchy
+government = monarchy 
+add_government_reform = elective_monarchy
 government_rank = 2
 mercantilism = 0.1
 technology_group = western

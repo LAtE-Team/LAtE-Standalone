@@ -1,5 +1,6 @@
 # Auralia
-government = feudal_monarchy
+government = monarchy 
+add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = chinese
 primary_culture = strayan

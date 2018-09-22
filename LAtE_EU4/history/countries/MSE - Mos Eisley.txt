@@ -1,5 +1,6 @@
 # Mos Eisley
-government = siberian_native_council
+government = tribal 
+add_government_reform = siberian_tribe
 government_rank = 1
 technology_group = high_american
 primary_culture = tunisian

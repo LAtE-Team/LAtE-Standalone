@@ -1,5 +1,6 @@
 government_rank = 2
-government = feudal_monarchy
+government = monarchy 
+add_government_reform = feudalism_reform
 primary_culture = al_iraqiya_arabic
 religion = nestorian
 technology_group = indian

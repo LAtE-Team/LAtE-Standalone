@@ -1,5 +1,6 @@
 # Saskatchewan
-government = tribal_kingdom
+government = tribal 
+add_government_reform = tribal_kingdom
 government_rank = 1
 mercantilism = 0.1
 technology_group = western

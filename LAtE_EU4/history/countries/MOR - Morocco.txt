@@ -1,4 +1,5 @@
-government = tribal_kingdom
+government = tribal 
+add_government_reform = tribal_kingdom
 primary_culture = moroccan
 religion = brethren
 technology_group = high_american

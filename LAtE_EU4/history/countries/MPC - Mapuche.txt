@@ -1,4 +1,6 @@
-government = native_council government_rank = 1
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
 primary_culture = mapuche
 religion = animism
 technology_group = south_american

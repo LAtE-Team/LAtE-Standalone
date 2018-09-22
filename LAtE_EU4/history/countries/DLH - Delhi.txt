@@ -1,4 +1,5 @@
-government = feudal_monarchy
+government = monarchy 
+add_government_reform = feudalism_reform
 primary_culture = kanauji
 religion = hinduism
 technology_group = indian

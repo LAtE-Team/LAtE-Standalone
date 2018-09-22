@@ -1,5 +1,6 @@
 # Brazilian Empire
-government = jungle_horde
+government = tribal	
+add_government_reform = tribal_despotism #Pending creation of jungle horde reform, or Brazil reform (whatver comes first)
 government_rank = 3
 mercantilism = 0.1
 technology_group = brazilian
