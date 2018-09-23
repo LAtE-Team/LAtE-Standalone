@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = strayan
+religion = consumerist
+technology_group = chinese
+capital = 2679 #Billiton
+fixed_capital = 4630 #Broken Hill
+
