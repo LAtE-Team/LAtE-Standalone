@@ -717,8 +717,5 @@ discovered_by = X17
 	culture = creole
 	religion = protestant
 
-add_permanent_province_modifier = {
-	name = center_of_trade_modifier
-	duration = -1
-}
+center_of_trade = 2
 }

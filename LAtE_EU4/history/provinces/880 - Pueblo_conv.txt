@@ -716,8 +716,5 @@ discovered_by = X17
 	culture = shoshone
 	religion = catholic
 
-add_permanent_province_modifier = {
-	name = inland_center_of_trade_modifier
-	duration = -1
-}
+center_of_trade = 2
 }
