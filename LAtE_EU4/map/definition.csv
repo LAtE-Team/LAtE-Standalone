@@ -4440,7 +4440,7 @@ province;red;green;blue;x;x
 4578;197;73;77;Niagara;x
 4579;34;194;242;Susquehannock;x
 4580;8;50;116;Canacdea;x
-4581;91;68;97;Seneca;x
+4581;91;68;97;Seneca;x		#UNUSED
 4582;7;188;155;Cortland;x
 4583;112;19;63;Schoharie;x
 4584;194;122;137;Albany;x
@@ -4758,8 +4758,7 @@ province;red;green;blue;x;x
 4894;170;97;145;Otago;x
 4895;145;160;30;Dunedin;x
 4896;100;90;99;Fiordland;x
-4897;21;48;84;West Coast;x
-4898;255;173;69;Auckland;x
+4897;255;173;69;Auckland;x
 
 
 

@@ -3760,7 +3760,7 @@ cook_strait_area = { #5		#North
 }
 
 auckland_area = { #5		#North
-	1106 2739 4898
+	1106 2739 4897
 }
 
 west_coast_area = {

@@ -66,13 +66,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2716;642;sea;1357;4714;569;4712;575;Buton-Kendari
 654;2699;sea;1397;-1;-1;-1;-1;Visayas-Bikol
 654;2702;sea;1402;4764;825;4767;814;Visayas-Butuan
-4832;656;sea;1395;-1;-1;-1;-1;Mindoro-Manila
-655;4832;sea;1395;-1;-1;-1;-1;Palawan-Mindoro
-4832;4833;sea;1397;-1;-1;-1;-1;Mindoro-Western Visayas
-4833;2700;sea;1397;-1;-1;-1;-1;Western Visayas - Negros
-2700;4834;sea;1397;-1;-1;-1;-1;Negros - Central Visayas
-2700;4835;sea;1398;-1;-1;-1;-1;Negros - Zamboanga
-4834;654;sea;1397;-1;-1;-1;-1;Central Visayas - Visayas
 646;647;sea;1401;-1;-1;-1;-1;Ambom-Ceram
 2678;622;sea;1361;4446;618;4443;617;Banka-Palembang
 2686;597;sea;1361;4434;664;4430;666;Bintan-Johor

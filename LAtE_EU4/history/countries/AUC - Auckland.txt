@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = chinese
 religion = animism # for now
 primary_culture = kiwi
-capital = 4898	# Auckland
+capital = 4897	# Auckland
 
 3050.1.1 = {
 	monarch = {
