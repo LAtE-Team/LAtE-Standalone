@@ -717,5 +717,4 @@ discovered_by = X17
 	culture = grangelander
 	religion = catholic
 
-center_of_trade = 2
 }

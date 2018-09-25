@@ -467,7 +467,7 @@ country_event = {
 	option = {
 		name = late_trade.2.a
 		
-		#Natural Harbors
+		#Level 1 - Coastal
 		every_province = {
 			limit = {
 				OR = {
@@ -475,12 +475,33 @@ country_event = {
 					province_id = 888 #Houston
 					province_id = 849 #Guerrero
 					province_id = 4746 #Mazatlan
-					
+					province_id = 2650 #Champutun
+					province_id = 2641 #Tziccoac
+					province_id = 4719 #Tampa
+					province_id = 963 #Massechusetts
+					province_id = 956 #Pillidelphia
+					province_id = 2554 #Baltimore
+					province_id = 4500 #Eureka
+					province_id = 839 #Pipil
+					province_id = 2637 #Chortli
+					province_id = 4763 #El Desaguadero
+					province_id = 830 #Marcaibo
+					province_id = 831 #Caracas
+					province_id = 492 #Boriken
+					province_id = 490 #Baronhas
+					province_id = 487 #Jamaica
+					province_id = 2654 #Baracoa
+					province_id = 2570 #St Johns
+					province_id = 947 #Cleveland
+					province_id = 502 #Trinidad
+					province_id = 746 #Cayenne
+					province_id = 843 #Belize
+
 				}
 			}
 			center_of_trade = 1
 		}
-		#Coastal Centers of Trade
+		#Level 2 - Coastal
 		every_province = {
 			limit = {
 				OR = {
@@ -496,7 +517,7 @@ country_event = {
 					province_id = 2647 #Veracruz
 					province_id = 922 #Mobile
 					province_id = 484 #Havanna
-					province_id = 490 #Barahonas
+					province_id = 4716 #Port au Prince
 					province_id = 835 #Panama
 					province_id = 828 #Cartegna
 					province_id = 4751 #Juchitan (Salina Cruz)
@@ -506,11 +527,37 @@ country_event = {
 					province_id = 2021 #San Francisco
 					province_id = 973 #Vancouver
 					province_id = 2536 #Miami
+					province_id = 4753 #Cancun
+					province_id = 932 #Charleston
+					province_id = 743 #Esquiba
+
 				}
 			}
 			center_of_trade = 2
 		}
-		#Inland Centers of Trade
+		#Level 1 - Inland
+		every_province = {
+			limit = {
+				OR = {
+					province_id = 4583 #Mohawk Valley (Albany)
+					province_id = 4644 #Raleigh
+					province_id = 4684 #Birmingham (Alabama)
+					province_id = 924 #Montgomery
+					province_id = 2540 #Augusta
+					province_id = 4523 #Las Vegas
+					province_id = 4517 #Duck Valley
+					province_id = 2009 #Kickatus
+					province_id = 4604 #Sweetwater
+					province_id = 876 #Yavapai (Pheonix)
+					province_id = 742 #Angostura
+					province_id = 899 #Salem
+					province_id = 4511 #Reno 
+
+				}
+			}
+			center_of_trade = 1
+		}
+		#Level 2 - Inland
 		every_province = {
 			limit = {
 				OR = {
@@ -520,7 +567,6 @@ country_event = {
 					province_id = 2488 #Palus (confluence of Snake and Columbia rivers)
 					province_id = 880 #Pueblo (Alberquerque)
 					province_id = 2490 #Goshute (Salt Lake City)
-					province_id = 4511 #Reno 
 					province_id = 2598 #Hebina (Edmonton)
 					province_id = 1008 #Winnipeg
 					province_id = 891 #Naisha (Oklahoma)
@@ -532,6 +578,7 @@ country_event = {
 					province_id = 4537 #Ottawa
 					province_id = 4791 #Nitchequon
 					province_id = 2599 #Athabasca
+					province_id = 918 #Memphis
 				}
 			}
 			center_of_trade = 2
