@@ -711,8 +711,9 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = Y77
-	controller = Y77
+	owner = TXK
+	controller = TXK
+	add_core = TXK
 	culture = texan
 	religion = neoroman
 }

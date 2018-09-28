@@ -1,6 +1,6 @@
 # Texarkana
 graphical_culture = westerngfx
-color = { 208 225 255 }
+color = { 253 90 72 }
 
 
 
