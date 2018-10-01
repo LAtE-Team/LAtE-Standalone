@@ -1,0 +1,15 @@
+CBN_calypsonian = {
+	potential = {
+		normal_or_historical_nations = yes
+		tag = CBN
+	}
+
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = caribbean_triggered_east_indian.tt
+			accepted_culture = calypsonian
+		}
+	}
+
+	num_accepted_cultures = 1
+}

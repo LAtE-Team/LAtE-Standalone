@@ -1,0 +1,359 @@
+namespace = caribbean
+country_event = {
+	id = caribbean.1
+	title = "caribbean.1.title"
+	desc = "caribbean.1.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		tag = CBN
+		NOT = { has_country_flag = caribbean_discovered }
+		africa = {
+			has_discovered = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_country_flag = caribbean_discovered }
+
+	option = {
+		name = "caribbean.1.a"
+		add_country_modifier = {
+			name = "colonial_enthusiasm"
+			duration = 9125
+		}
+	}
+}
+
+# Civil War in Caribbean
+country_event = {
+	id = caribbean.2
+	title = "caribbean.2.title"
+	desc = "caribbean.2.desc"
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = had_cbn_civil_war
+		add_stability = -3
+	}
+	
+	option = {
+		name = "caribbean.2.a"
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = "caribbean_conversion_disaster"
+			duration = -1
+		}
+	}
+	option = {
+		name = "caribbean.2.b"
+		ai_chance = {
+			factor = 1
+		}
+		add_country_modifier = {
+			name = "caribbean_tolerance_disaster"
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = caribbean.3
+	title = "caribbean.3.title"
+	desc = "caribbean.3.desc"
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		remove_country_modifier = caribbean_tolerance_disaster
+		remove_country_modifier = caribbean_conversion_disaster
+	}
+	
+	option = {
+		name = "caribbean.3.a"
+		ai_chance = {
+			factor = 1
+		}
+		hidden_effect = {
+			country_event = { 
+				id = caribbean.8
+				days = 1095
+				random = 730
+			}
+		}
+	}
+}
+province_event = {
+	id = caribbean.4
+	title = "caribbean.4.title"
+	desc = "caribbean.4.desc"
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_country_flag = dominicans_assimilating
+				culture = dominicano
+				religion = rastafarian
+			}
+			AND = {
+				has_country_flag = cubans_assimilating
+				culture = cubano
+				religion = rastafarian
+			}
+		}
+		owner = {
+			dominant_culture = west_indian
+		}
+	}
+	
+	is_mtth_scaled_to_size = 1
+
+	mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {
+		name = "caribbean.4.a"
+		ai_chance = { factor = 30 }
+		change_culture = west_indian
+	}
+}
+country_event = {
+	id = caribbean.5
+	title = "caribbean.5.title"
+	desc = "caribbean.5.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		exists = FLD
+		482 = {
+			owned_by = ROOT
+		}
+		tag = CBN
+		NOT = { has_country_flag = caribbean_offered}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = { set_country_flag = caribbean_offered }
+
+	option = {
+		name = "caribbean.5.a"
+		ai_chance = { 
+			factor = 50
+		}
+		FLD = {
+			country_event = { 
+				id = caribbean.6
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "caribbean.5.b"
+		ai_chance = { 
+			factor = 50
+		}
+	}
+}
+country_event = {
+	id = caribbean.6
+	title = "caribbean.6.title"
+	desc = "caribbean.6.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		tag = FLD
+	}
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+	major = yes
+
+	option = {
+		name = "caribbean.6.a"
+		ai_chance = { 
+			factor = 100
+		}
+		add_treasury = -200
+		CBN = {
+			add_treasury = 200
+		}
+		482 = {
+			cede_province = FLD
+		}
+	}
+	option = {
+		name = "caribbean.6.b"
+		ai_chance = { 
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = caribbean.7
+	title = "caribbean.7.title"
+	desc = "caribbean.7.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		NOT = { exists = X79 }
+		leeward_islands_area = {
+			country_or_non_sovereign_subject_holds = ROOT
+			type = all
+		}
+		windward_islands_area = {
+			country_or_non_sovereign_subject_holds = ROOT
+			type = all
+		}
+		tag = CBN
+		NOT = { has_country_flag = caribbean_antilles }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_country_flag = caribbean_antilles }
+
+	option = {
+		name = "caribbean.7.a"
+		ai_chance = {
+			factor = 100
+		}
+		add_prestige = 25
+	}
+}
+country_event = {
+	id = caribbean.8
+	title = "caribbean.8.title"
+	desc = "caribbean.8.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		tag = CBN
+	}
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+
+	option = {
+		name = "caribbean.8.a"
+		ai_chance = { 
+			factor = 30
+		}
+		add_years_of_income = -2
+		cuba_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_weak_famine"
+				duration = 3650
+			}
+		}
+		east_cuba_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_weak_famine"
+				duration = 3650
+			}
+		}
+		hispaniola_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_weak_famine"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "caribbean.8.b"
+		ai_chance = { 
+			factor = 70
+		}
+		cuba_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_famine"
+				duration = 3650
+			}
+		}
+		east_cuba_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_famine"
+				duration = 3650
+			}
+		}
+		hispaniola_area = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_province_modifier = {
+				name = "Caribbean_famine"
+				duration = 3650
+			}
+		}
+	}
+}
+country_event = {
+	id = caribbean.9
+	title = "caribbean.9.title"
+	desc = "caribbean.9.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		tag = CBN
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+
+
+	option = {
+		name = "caribbean.9.a"
+		ai_chance = { 
+			factor = 100
+		}
+		define_advisor = {
+			type = trader
+			name = "Bernard Honcer"
+			skill = 3
+			culture = west_indian
+			religion = rastafarian
+			discount = yes
+		}
+	}
+}

@@ -1,0 +1,26 @@
+namespace = boston
+country_event = {
+	id = boston.1
+	title = "boston.1.title"
+	desc = "boston.1.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	trigger = {
+		968 = {
+			controlled_by = ROOT
+		}
+		NOT = { dominant_culture = british }
+		NOT = { has_global_flag = boston_tree_party }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_global_flag = boston_tree_party }
+
+	option = {
+		name = "boston.1.a"
+		add_prestige = 20
+	}
+}

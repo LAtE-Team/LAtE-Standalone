@@ -13,6 +13,7 @@ discovered_by = ottoman
 discovered_by = MTC
 discovered_by = MTC
 discovered_by = X17
+trade_goods = sugar
 3053.1.1 = {
 	hre = no
 	base_tax = 4
@@ -716,4 +717,5 @@ discovered_by = X17
 	controller = X79
 	culture = venteux
 	religion = voodoo
+	trade_goods = sugar
 }

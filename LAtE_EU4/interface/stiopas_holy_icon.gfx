@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "mission_privateer"	
+		texturefile = "gfx//interface//mission_privateer.dds"
+		transparencecheck = yes
+	}
+}
