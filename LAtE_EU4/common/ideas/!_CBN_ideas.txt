@@ -1,0 +1,35 @@
+CBN_ideas = {
+	start = {
+		galley_power = 0.25
+		naval_forcelimit_modifier = 0.25
+	}
+	bonus = {
+		legitimacy = 1
+	}
+	trigger = {
+		tag = CBN
+	}
+	free = yes
+	
+	cbn_tobacco_production = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	cbn_excellent_leaders = {
+		leader_naval_fire = 1
+	}
+	cbn_settler_Growth = {
+		global_colonial_growth = 15
+	}
+	cbn_convert_the_islands = {
+		global_missionary_strength = 0.02
+	}
+	cbn_redevelopment = {
+		development_cost = -0.1
+	}
+	cbn_dip_tech_cost = {
+		technology_cost = -0.05
+	}
+	cbn_tradition_of_navy = {
+		navy_tradition = 1
+	}
+}

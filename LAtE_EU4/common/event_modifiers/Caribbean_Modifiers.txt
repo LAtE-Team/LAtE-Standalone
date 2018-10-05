@@ -1,0 +1,33 @@
+caribbean_thriving_naval_industry = {
+	naval_morale = 0.05
+	naval_maintenance_modifier = -0.05
+}
+caribbean_technology_sharing = {
+	technology_cost = -0.1
+}
+Caribbean_conversion = {
+	local_missionary_strength = 0.01
+}
+Caribbean_unity = {
+	global_missionary_strength = 0.005
+}
+caribbean_conversion_disaster = {
+	global_missionary_strength = 0.03
+}
+caribbean_tolerance_disaster = {
+	global_unrest = -5
+}
+Caribbean_weak_famine = {
+	local_manpower_modifier = -0.3
+	local_sailors_modifier = -0.3
+	local_tax_modifier = -0.3
+	local_production_efficiency = -0.3
+	trade_goods_size_modifier = -0.3
+}
+Caribbean_famine = {
+	local_manpower_modifier = -0.5
+	local_sailors_modifier = -0.5
+	local_tax_modifier = -0.5
+	local_production_efficiency = -0.5
+	trade_goods_size_modifier = -0.5
+}

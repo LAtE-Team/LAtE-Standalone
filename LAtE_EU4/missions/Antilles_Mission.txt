@@ -1,0 +1,664 @@
+Antilles_Pirate_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = X79
+	}
+	has_country_shield = yes
+	
+	Antilles_Ally_Brazil = {
+		icon = mission_alliances
+		required_missions = { }
+		position = 1
+		trigger = {
+			alliance_with = BRZ
+		}
+		effect = {
+			add_trust = {
+				who = BRZ
+				value = 10
+				mutual = yes
+			}
+		}
+	}
+	Antilles_Additional_Ally = {
+		icon = mission_have_two_subjects
+		required_missions = { Antilles_Ally_Brazil }
+		position = 2
+		trigger = {
+			alliance_with = BRZ
+			num_of_allies = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = Antilles_diplomacy
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Strategic_Islands = {
+		icon = mission_invade_island
+		required_missions = { Antilles_Hispaniola }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 483
+				province_id = 482
+				province_id = 487
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			483 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			482 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			487 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+	Antilles_Capture_Bermuda = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { Antilles_Rule_over_Caribbean }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 481
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			481 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			481 = {
+				add_province_modifier = {
+					name = antilles_haven
+					duration = 7300
+				}
+			}
+		}
+	}
+}
+Antilles_Pirate_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = X79
+	}
+	has_country_shield = yes
+	
+	Antilles_FC = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = Antilles_army
+				duration = 7300
+			}
+			502 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	Antilles_Grand_Trinidad = {
+		icon = mission_invade_island
+		required_missions = { Antilles_FC }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 502
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			502 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			492 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			hispaniola_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Antilles_Hispaniola = {
+		icon = mission_galleys_in_port
+		required_missions = { Antilles_Grand_Trinidad Antilles_Additional_Ally Antilles_Exceed_Caribbean }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 492
+				area = hispaniola_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			492 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hispaniola_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			487 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			482 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			483 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			cuba_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			east_cuba_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Antilles_Rule_over_Caribbean = {
+		icon = mission_unite_home_region
+		required_missions = { Antilles_Cuba Antilles_Strategic_Islands }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 487
+				province_id = 492
+				province_id = 502
+				area = hispaniola_area
+				area = windward_islands_area
+				area = leeward_islands_area
+				area = cuba_area
+				area = east_cuba_area
+				area = lucayan_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			hispaniola_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			windward_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			leeward_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cuba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_cuba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lucayan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			487 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			492 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			502 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			2578 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			491 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			982 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			983 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			481 = {
+				if = {
+					limit = {
+						NOT = {
+							owned_by = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			newfoundland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Antilles_Curacao = {
+		icon = mission_invade_island
+		required_missions = { Antilles_Rule_over_Caribbean }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 491
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			491 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			491 = {
+				add_province_modifier = {
+					name = antilles_haven
+					duration = 7300
+				}
+			}
+		}
+	}
+}
+Antilles_Pirate_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = X79
+	}
+	has_country_shield = yes
+	
+	Antilles_Naval_FC = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		position = 1
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = Antilles_navy
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Exceed_Caribbean = {
+		icon = mission_galleys_in_port
+		required_missions = { Antilles_Naval_FC }
+		position = 2
+		trigger = {
+			navy_size = CBN
+		}
+		effect = {
+			add_country_modifier = {
+				name = Antilles_Prestige
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Cuba = {
+		icon = mission_conquer_50_development
+		required_missions = { Antilles_Hispaniola }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = cuba_area
+				area = east_cuba_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			cuba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_cuba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+	Antilles_Island = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { Antilles_Rule_over_Caribbean }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = newfoundland_area
+				province_id = 982
+				province_id = 983
+				province_id = 2578
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			OR = {
+				newfoundland_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				982 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				983 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				2578 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			982 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+					add_province_modifier = {
+						name = antilles_haven
+						duration = 7300
+					}
+				}
+			}
+			983 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+					add_province_modifier = {
+						name = antilles_haven
+						duration = 7300
+					}
+				}
+			}
+			2578 = {
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+					add_province_modifier = {
+						name = antilles_haven
+						duration = 7300
+					}
+				}
+			}
+			newfoundland_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = antilles_haven
+					duration = 7300
+				}
+			}
+		}
+	}
+}
+Antilles_Pirate_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = X79
+	}
+	has_country_shield = yes
+	
+	Antilles_Light_Ship = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_light_ship = 15
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_light_ship
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Control_Over_Caribbean = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { Antilles_Light_Ship }
+		position = 2
+		trigger = {
+			1516 = {
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_trade
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Discover = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { Antilles_Control_Over_Caribbean }
+		position = 3
+		trigger = {
+			OR = {
+				europe_continent = {
+					discovered_by = ROOT
+				}
+				africa_continent = {
+					discovered_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_piracy
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Privateer_Ivory = {
+		icon = mission_privateer
+		required_missions = { Antilles_Discover }
+		position = 4
+		trigger = {
+			1466 = {
+				privateer_power = {
+					country = FROM
+					share = 25
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_piracy
+				duration = 7300
+			}
+		}
+	}
+}
+Antilles_Pirate_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = X79
+	}
+	has_country_shield = yes
+	
+	Antilles_Privateer_Gulf = {
+		icon = mission_privateer
+		required_missions = { Antilles_Light_Ship }
+		position = 2
+		trigger = {
+			1511 = {
+				privateer_power = {
+					country = FROM
+					share = 25
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_piracy
+				duration = 7300
+			}
+		}
+	}
+	Antilles_Privateer_Sevilla = {
+		icon = mission_privateer
+		required_missions = { Antilles_Discover }
+		position = 4
+		trigger = {
+			1293 = {
+				privateer_power = {
+					country = FROM
+					share = 25
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = antilles_piracy
+				duration = 7300
+			}
+		}
+	}
+}
