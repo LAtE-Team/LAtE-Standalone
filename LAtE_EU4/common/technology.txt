@@ -123,7 +123,10 @@ groups = {
 		start_level = 3
 		start_cost_modifier = 0.75
 		nation_designer_trigger = {
-			government = steppe_horde
+			OR = {
+				has_reform = steppe_horde
+				has_reform = steppe_horde_legacy
+			}
 		}
 	}
 	sub_saharan = { #West African

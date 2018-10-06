@@ -359,7 +359,7 @@ mousy_ideas = {
         global_institution_spread = 0.1
     }
 
-    fight_choreography = (
+    fight_choreography = {
         prestige_from_land = 1
     }
 
