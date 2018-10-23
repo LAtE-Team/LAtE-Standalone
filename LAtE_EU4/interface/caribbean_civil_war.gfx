@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_disaster_caribbean_civil_war"
+		texturefile = "gfx//interface//disasters//caribbean_civil_war.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+}
