@@ -4035,3 +4035,9 @@ ad_dahna_area = {
 najd_area = {
 
 }
+
+#LAtE
+
+connacht_area = {}
+leinster_area = {}
+ulster_area = {}
