@@ -12,17 +12,18 @@ caribbean_civil_war = {
 		government = monarchy
 		normal_or_historical_nations = yes
 		uses_doom = no
+		NOT = { is_year = 3068 }
 	}
 	can_start = {
-		current_age = age_of_discovery
+		NOT = { is_year = 3068 } 
 		is_at_war = no
 		has_any_disaster = no
-		any_province = {
+		any_owned_province = {
 			NOT = { has_owner_religion = yes }
 		}
 	}
 	can_stop = {
-		all_province = {
+		all_owned_province = {
 			has_owner_religion = yes
 		}
 	}
