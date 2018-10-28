@@ -509,7 +509,7 @@ oldworld = {
 			local_missionary_strength = -0.02
 		}
 		country_as_secondary = {
-			gtrade_efficiency = 0.05
+			trade_efficiency = 0.05
 		}
 		heretic = { MONETARIST }
 	}

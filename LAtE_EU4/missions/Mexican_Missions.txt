@@ -185,7 +185,7 @@ mex_conquer_southeast_1 = {
 		}
 		completed_by = 3100.1.1
 		effect = {
-			sonora_area = {
+			sonora_y_sinaloa_area = {
 				limit = {
 					NOT = { owned_by = ROOT	}
 					NOT = { is_core = ROOT	}
