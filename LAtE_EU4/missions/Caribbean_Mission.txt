@@ -12,7 +12,7 @@ Caribbean_missions_1 = {
 		required_missions = { }
 		position = 1
 		trigger = {
-			army_size_percentage = 1
+			army_size_percentage = 0.9
 		}
 		effect = {
 			add_country_modifier = {
@@ -166,7 +166,7 @@ Caribbean_missions_2 = {
 		required_missions = { }
 		position = 1
 		trigger = {
-			all_province = {
+			all_owned_province = {
 				NOT = { unrest = 0.01 }
 			}
 		}
@@ -437,7 +437,7 @@ Caribbean_missions_3 = {
 		required_missions = { }
 		position = 1
 		trigger = {
-			navy_size_percentage = 1
+			navy_size_percentage = 0.9
 		}
 		effect = {
 			add_country_modifier = {
@@ -578,10 +578,10 @@ Caribbean_missions_4 = {
 		position = 4
 		trigger = {
 			OR = {
-				europe_continent = {
+				europe = {
 					discovered_by = ROOT
 				}
-				africa_continent = {
+				africa = {
 					discovered_by = ROOT
 				}
 			}
@@ -688,7 +688,7 @@ Caribbean_missions_5 = {
 		position = 3
 		trigger = {
 			NOT = {
-				any_province = {
+				any_owned_province = {
 					religion = voodoo
 				}
 			}

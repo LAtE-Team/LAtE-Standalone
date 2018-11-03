@@ -107,18 +107,22 @@ province_event = {
 	trigger = {
 		OR = {
 			AND = {
-				has_country_flag = dominicans_assimilating
+				ROOT = {
+					has_country_flag = dominicans_assimilating
+				}
 				culture = dominicano
 				religion = rastafarian
 			}
 			AND = {
-				has_country_flag = cubans_assimilating
+				ROOT = {
+					has_country_flag = cubans_assimilating
+				}
 				culture = cubano
 				religion = rastafarian
 			}
 		}
 		owner = {
-			dominant_culture = west_indian
+			primary_culture = west_indian
 		}
 	}
 	
