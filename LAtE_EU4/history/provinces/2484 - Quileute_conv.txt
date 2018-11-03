@@ -3,7 +3,7 @@ owner = X21
 controller = X21
 add_core = X21
 culture = haida
-religion = cetic
+religion = gaian
 citysize = 2000
 add_permanent_claim = CSC
 discovered_by = eastern
@@ -717,5 +717,5 @@ discovered_by = X17
     add_core = SAL
 	add_core = SAL
 	culture = haida
-	religion = cetic
+	religion = gaian
 }

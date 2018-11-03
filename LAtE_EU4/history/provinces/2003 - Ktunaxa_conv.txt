@@ -1,8 +1,8 @@
 ck2_converter_generated = yes
-owner = SAL
-controller = SAL
-    add_core = SAL
-add_core = SAL
+owner = KOO
+controller = KOO
+    add_core = KOO
+add_core = KOO
 culture = salish
 religion = ghost_dance
 citysize = 2000
@@ -96,7 +96,7 @@ discovered_by = X17
 	remove_core = WCR
 	remove_core = MIK
 	remove_core = OJI
-	remove_core = SAL
+	remove_core = KOO
 	remove_core = MIX
 	remove_core = AZT
 	remove_core = ZAP
@@ -712,9 +712,9 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = SAL
-	controller = SAL
-    add_core = SAL
+	owner = KOO
+	controller = KOO
+    add_core = KOO
 	culture = salish
 	religion = ghost_dance
 }

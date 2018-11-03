@@ -1,0 +1,24 @@
+# Kootenay
+government = monarchy 
+add_government_reform = elective_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = salish
+religion = ghost_dance
+clear_scripted_personalities = yes
+capital = 2003
+3031.2.12 = {
+	monarch = {
+		name = "Belole"
+		birth_date = 3017.6.18
+		dynasty = "Potlas"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+}
+3053.1.1 = {
+	capital = 2003
+	add_treasury = 37
+	add_prestige = 20
+}

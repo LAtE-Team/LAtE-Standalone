@@ -3,7 +3,7 @@ owner = CSC
 controller = CSC
 add_core = CSC
 culture = cascadian
-religion = cetic
+religion = gaian
 citysize = 2000
 add_permanent_claim = X04
 discovered_by = eastern
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = CSC
 	controller = CSC
 	culture = cascadian
-	religion = cetic
+	religion = gaian
 }

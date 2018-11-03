@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = SAL
-controller = SAL
-add_core = SAL
+owner = UUN
+controller = UUN
+add_core = UUN
 culture = haida
 religion = raven_tales
 citysize = 2000
@@ -95,7 +95,7 @@ discovered_by = X17
 	remove_core = WCR
 	remove_core = MIK
 	remove_core = OJI
-	remove_core = SAL
+	remove_core = UUN
 	remove_core = MIX
 	remove_core = AZT
 	remove_core = ZAP
@@ -711,9 +711,9 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = SAL
-	controller = SAL
-    add_core = SAL
+	owner = UUN
+	controller = UUN
+    add_core = UUN
 	culture = haida
 	religion = raven_tales
 }

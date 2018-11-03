@@ -3,7 +3,7 @@ owner = X04
 controller = X04
 add_core = X04
 culture = paiute
-religion = cetic
+religion = gaian
 citysize = 2000
 discovered_by = eastern
 discovered_by = western
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = X04
 	controller = X04
 	culture = paiute
-	religion = cetic
+	religion = gaian
 }

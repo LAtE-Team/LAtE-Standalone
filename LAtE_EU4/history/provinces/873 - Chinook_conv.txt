@@ -3,7 +3,7 @@ owner = CSC
 controller = CSC
 add_core = CSC
 culture = portlander
-religion = cetic
+religion = gaian
 citysize = 2000
 discovered_by = eastern
 discovered_by = western
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = CSC
 	controller = CSC
 	culture = portlander
-	religion = cetic
+	religion = gaian
 }

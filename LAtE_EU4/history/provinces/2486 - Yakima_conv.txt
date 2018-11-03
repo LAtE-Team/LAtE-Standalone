@@ -3,7 +3,7 @@ owner = SAL
 controller = SAL
     add_core = SAL
 add_core = SAL
-culture = salish
+culture = portlander
 religion = raven_tales
 citysize = 2000
 discovered_by = eastern
@@ -714,6 +714,6 @@ discovered_by = X17
 	owner = SAL
 	controller = SAL
     add_core = SAL
-	culture = salish
+	culture = portlander
 	religion = raven_tales
 }

@@ -3,7 +3,7 @@ owner = X16
 controller = X16
 add_core = X16
 culture = paiute
-religion = cetic
+religion = gaian
 citysize = 2000
 add_permanent_claim = SAL
 discovered_by = eastern
@@ -715,5 +715,5 @@ discovered_by = X17
 	owner = X16
 	controller = X16
 	culture = paiute
-	religion = cetic
+	religion = gaian
 }

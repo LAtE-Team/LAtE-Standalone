@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform 
+government_rank = 1
+primary_culture = haida
+religion = raven_tales
+technology_group = western
+capital = 2607 #Haida
+
+
+3033.9.22 = {
+	monarch = {
+		name = "Yahl"
+		birth_date = 3017.6.18
+		dynasty = "Chuga"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+
+}

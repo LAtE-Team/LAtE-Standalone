@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = X00
-controller = X00
-add_core = X00
+owner = X01
+controller = X01
+add_core = X01
 culture = utahn
 religion = bickertonite
 citysize = 2000
@@ -712,8 +712,8 @@ discovered_by = X17
 	remove_core = ROM
 }
 3053.1.1 = {
-	owner = X00
-	controller = X00
+	owner = X01
+	controller = X01
 	culture = utahn
 	religion = bickertonite
 }

@@ -3029,12 +3029,12 @@ coastal_prarie_area = { #3
 # }
 
 salish_sea_area = { #3
-   874 2484 2485
+   874 2484 2485 4899
 }
 
-interior_plateau_area = { #4
-    2003 2604 2605 2606 2607
-}
+# interior_plateau_area = { #4
+    # 2604 2605 2606 2607
+# }
 
 hecate_strait_area = { #3
     975 2022 2609
@@ -3301,16 +3301,13 @@ north_valley_area = {
 }
 
 redwoods_area = {
-	2481 4500 2477
+	2481 4500 2477 2482
 }
 
-oregon_area = { #4
-    872 2482 2483
-}
 
 
 shasta_cascade_area = { # Called "Northern Jefferson"
-	4515 4516 4517 
+	4515 4516 4517 4913
 }
 
 death_valley_area = {
@@ -3593,11 +3590,31 @@ colorado_area = {
 }
 
 columbia_river_area = { 
-    873 2486 2487 2488 4599
+    2486 2488 4901 4902 4906
+}
+
+oregon_area_area = { #4
+    872 2482 2483 873 4903
+}
+
+interior_plateau_area = { #4
+    2604 2605 2606 4911 4910
+}
+
+blue_mountains_area = {
+	2483 4900 4912
+}
+
+bitteroot_area = {
+	4600 2003 2487 4599
+}
+
+uunaay_area = {
+	2607 4907 4908 4909
 }
 
 snake_river_area = { 
-    2019 2020 2489 4600
+    2019 2020 2489 
 }
 
 
@@ -4035,9 +4052,3 @@ ad_dahna_area = {
 najd_area = {
 
 }
-
-#LAtE
-
-connacht_area = {}
-leinster_area = {}
-ulster_area = {}
