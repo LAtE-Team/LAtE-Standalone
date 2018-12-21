@@ -33,7 +33,7 @@ native_hostileness = 5
 	#controller = POR
 	#add_core= POR
 	remove_core = SPA
-	culture = guacho
+	culture = gaucho
 #}
 
 add_core = PAU

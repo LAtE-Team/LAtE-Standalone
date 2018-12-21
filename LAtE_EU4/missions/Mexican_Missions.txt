@@ -17,7 +17,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			province_id = 2668
 			province_id = 2614
@@ -58,7 +58,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			province_id = 2498
 			province_id = 2666
@@ -112,7 +112,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = llano_estacado_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -133,7 +133,7 @@ mex_conquer_southeast_1 = {
 	conquer_chichimeca = { #Conquer Chichimeca
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		position = 5
 		trigger = {
 			gran_chichimeca_area = {
@@ -183,7 +183,7 @@ mex_conquer_southeast_1 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		effect = {
 			sonora_y_sinaloa_area = {
 				limit = {
@@ -205,7 +205,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = sonora_y_sinaloa_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -244,7 +244,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = baja_california_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -275,7 +275,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = socal_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -306,7 +306,7 @@ mex_conquer_southeast_1 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			province_id = 4737 
 			province_id = 4739
@@ -364,7 +364,7 @@ mex_conquer_southeast_2 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = durango_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -395,7 +395,7 @@ mex_conquer_southeast_2 = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = new_mexico_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -437,7 +437,7 @@ mex_europe = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = jalisco_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -460,7 +460,7 @@ mex_europe = {
 		icon = mission_establish_high_seas_navy
 		required_missions = { }
 		position = 7
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		
 		provinces_to_highlight = {
 			region = iberia_region
@@ -495,7 +495,7 @@ mex_europe = {
 			mex_discover_iberia
 		}
 		position = 8
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		
 		provinces_to_highlight = {
 			region = iberia_region
@@ -543,7 +543,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			region = mexico_region
 			has_port = yes
@@ -596,7 +596,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			region = mexico_region
 			has_port = yes
@@ -641,7 +641,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		
 		provinces_to_highlight = {
 			region = south_china_region
@@ -677,7 +677,7 @@ mex_pacific = {
 		required_missions = { 
 			mex_discover_china
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		position = 9
 		
 		provinces_to_highlight = {
@@ -738,7 +738,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			province_id = 2635
 			province_id = 842
@@ -788,7 +788,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = salvador_area
 			area = honduras_area
@@ -831,7 +831,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = nicaragua_area
 			area = moskita_area
@@ -871,7 +871,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			area = costa_rica_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -923,7 +923,7 @@ mex_pacific = {
 		ai_priority = {
 			factor = 3
 		}
-		completed_by = 3100.1.1
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
 			province_id = 835
 		}

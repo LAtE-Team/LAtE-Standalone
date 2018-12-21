@@ -21,7 +21,7 @@ native_hostileness = 5
 	#controller = POR
 	#add_core= POR
 	is_city = no
-	culture = guacho
+	culture = gaucho
 	religion = candomble
 	trade_goods = tobacco
 #}

@@ -21,7 +21,7 @@ native_hostileness = 7
 	#owner = POR
 	#controller = POR
 	is_city = no
-	culture = guacho
+	culture = gaucho
 	religion = candomble
 	trade_goods = tea
 #} # Ranchers from São Paulo occupied the region in search of more productive land

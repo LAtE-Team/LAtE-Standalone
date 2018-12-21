@@ -1,6 +1,6 @@
 # - Santa Tecla
 
-culture = guacho
+culture = gaucho
 discovered_by = south_american 
 discovered_by = andean
 discovered_by = brazilian

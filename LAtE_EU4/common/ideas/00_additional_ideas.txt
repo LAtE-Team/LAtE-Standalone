@@ -345,6 +345,7 @@ mousy_ideas = {
 			religion = libertarian
 			religion = hamiltonian
 			religion = jeffersonian
+			tag = FLD 	#Florida should just get this in the Standalone
 		}
 		government = monarchy
 	}

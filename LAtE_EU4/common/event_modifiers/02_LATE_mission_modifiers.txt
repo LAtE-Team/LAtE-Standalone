@@ -26,7 +26,6 @@ expansionist_country = {
 	harsh_treatment_cost = -0.33
 	state_maintenance_modifier = -0.25
 }
-
 army_enthusiasm = {	
 	manpower_recovery_speed = 0.1
 	army_tradition = 1
