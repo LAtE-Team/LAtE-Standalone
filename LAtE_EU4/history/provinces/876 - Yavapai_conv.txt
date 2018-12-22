@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 owner = Y99
 controller = Y99
 add_core = Y99
-culture = angeleno
+culture = arixan
 religion = atomicist
 citysize = 2000
 add_permanent_claim = Y97
@@ -714,6 +714,6 @@ discovered_by = X17
 3053.1.1 = {
 	owner = Y99
 	controller = Y99
-	culture = angeleno
+	culture = arixan
 	religion = atomicist
 }

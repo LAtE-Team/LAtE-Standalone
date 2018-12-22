@@ -3005,7 +3005,7 @@ badlands_area = { #5
 }
 
 llano_estacado_area = { #4
-	882 885 2496 2497
+	882 885 2496 2497 4974
 }
 
 texas_area = { #4
@@ -3127,12 +3127,20 @@ athabasca_area = { #5
 }
 
 northeast_mexico_area = { #5
-    861 2614 2619 2666 2667
+    861 2614 2619 2667 4950
+}
+pecos_area = { #3
+    2498 2666 882
 }
 
-durango_area = { #4
-    860 863 864 2498 2618
+apacheria_area = { #3
+    879 2492 4978 4977
 }
+
+
+# durango_area = { #4
+    # 860 863 864 2498 2618
+# }
 
 # rio_grande_area = { # 3
     # 858 2499 2668
@@ -3140,60 +3148,60 @@ durango_area = { #4
 
 
 new_mexico_area = { #5
-    880 881 2492 2495 
+    880 881 2495 4975 4976
 }
 
 colorado_plateau_area = { #4
     875 878 2493 2494
 }
 
-# arizona_area = { #4
-    # 876 879 2491
-# }
+# # arizona_area = { #4
+    # # 876 879 2491
+# # }
 
-# california_area = { #5
-    # 868 871 869 2021 2476
-# }
+# # california_area = { #5
+    # # 868 871 869 2021 2476
+# # }
  
-# central_valley_area = { #5
-    # 870 2477 2478 2479 2480
+# # central_valley_area = { #5
+    # # 870 2477 2478 2479 2480
+# # }
+
+# # baja_california_area = { #4
+    # # 865 866 2620 
+# # }
+
+# # jalisco_area = { #4
+    # # 854 2617 2621 2657
+# # }
+
+# michoacan_area = { #5
+    # 851 2622 2623 2624 2643
 # }
 
-# baja_california_area = { #4
-    # 865 866 2620 
+# gran_chichimeca_area = { #5
+    # 853 856 857 2615 2642
 # }
 
-# jalisco_area = { #4
-    # 854 2617 2621 2657
+# mexico_area = { #5
+    # 850 852 2626 2628 2644
 # }
 
-michoacan_area = { #5
-    851 2622 2623 2624 2643
-}
-
-gran_chichimeca_area = { #5
-    853 856 857 2615 2642
-}
-
-mexico_area = { #5
-    850 852 2626 2628 2644
-}
-
-guerrero_area = { #4
-    849 2627 2645 2648
-}
-
-# oaxaca_area = { #4
-    # 844 847 2629 2646
+# guerrero_area = { #4
+    # 849 2627 2645 2648
 # }
 
-eastern_mexico_area = { #5
-    848 2630 2631 2641 2647
-}
+# # oaxaca_area = { #4
+    # # 844 847 2629 2646
+# # }
 
-chiapas_area = { #4
-    2632 2635 2638 2649
-}
+# eastern_mexico_area = { #5
+    # 848 2630 2631 2641 2647
+# }
+
+# chiapas_area = { #4
+    # 2632 2635 2638 2649
+# }
 
 # yucatan_area = { #4
     # 845 2633 2650 2651
@@ -3293,7 +3301,7 @@ socal_area = {
 }
 
 arizona_area = { #4
-     876 879 2491
+     876 2491 877
 }
 
 north_valley_area = {
@@ -3822,24 +3830,85 @@ baja_california_area = { #4
 }
 
 sonora_y_sinaloa_area = { #Just Sonora
-	4741 4743 2616 862 877
+	4741 2616 862 4994 4993
 }
 
 sinaloa_area = {
-	4745 859 4746 855
-}
-
-jalisco_area = { #4
-    854 2617 2621 2657 4749
+	4745 859 4746 855 4743
 }
 
 rio_grande_area = { # 3
     858 2499 2668 4747 4748
 }
 
-oaxaca_area = { #4 
-    847 2646 4750 2629
+durango_area = { #3
+    860	4991 4992 4990 4992
 }
+
+chihuahua_area = { #4
+    863 864 2618 4988
+}
+
+
+jalisco_area = { #5 
+	2617 2621 2657 4920 854
+}   
+ 
+# nayarit_area = { #4 
+	# 855 859 4922  
+# }    
+
+michoacan_area = { #5 
+	2622 2623 2624 4917 4918
+}    
+
+tierra_caliente_area = { #5 
+	851 2643 4919 4923 4924
+}    
+    
+gran_chichimeca_area = { #3 
+	857 2642 4986  
+}    
+    
+guanajuato_area = { #3 
+	853 2615 4985 4984 
+}    
+    
+zacatecas_area = { #4 
+	856 4987 4989  
+}    
+    
+mexico_area = { #5 
+	852 2626 4914 4915 4916
+}    
+    
+puebla_area = { # 5
+	850 2628 2644 4927 4926
+}    
+    
+guerrero_area = { #3 
+	2627 2645 2648  
+}    
+    
+oaxaca_area = { #3 
+	844 2629 4928  
+}    
+    
+mixteca_area = { #4 
+	847 849 2646 4925 
+}    
+    
+eastern_mexico_area = { #5 
+	2630 2631 2647 2632
+}    
+    
+huasteca_area = {  
+	848 2641 4942  
+}    
+    
+chiapas_area = { #4 
+	2635 2638 2649 4929 4930
+} 	
 
 istmo_area = {
 	4752 4751 844
