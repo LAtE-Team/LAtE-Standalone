@@ -563,8 +563,8 @@ karelia_area = { #4
 	30 33 34 1961
 }
 
-north_karelia = { #3
-	32 309 4124
+north_karelia = { #4
+	32 309 1776 4124
 }
 
 northern_norway = { #3
@@ -690,16 +690,13 @@ ryazan_area = { #3
 }
 
 moscow_area = { #5
-	294 295 307 308 4147
+	294 295 296 307 4253
 }
 
-suzdal_area = { #3
-	1753 1754 1956
+suzdal_area = { #5
+	308 1753 1754 1956 4147
 }
 
-smolensk_area = { #4
-	293 296 297 4116
-}
 
 novgorod_area = { #5
 	310 1752 1959
@@ -722,7 +719,7 @@ lower_don_area = { #4
 }
 
 kazan_area = { #3
-	1082 2421 2422
+	1082 2421 2422 4267
 }
 
 samara_area = { #3
@@ -742,7 +739,7 @@ ural_area = { #5
 }
 
 pomor_area = { #5
-	313 1776 1955 1958 4122
+	313 1955 1958 4122 4257 4258
 }
 
 bashkiria_area = { #5
@@ -753,8 +750,8 @@ galich_area = { #3
 	306 1079 1083 1957
 }
 
-kama_area = { #3
-	305 1962 1972
+kama_area = { #5
+	305 1962 1972 2421 4266
 }
 
 tambov_area = { #4

@@ -217,7 +217,6 @@ ruthenia_region = {
 		white_ruthenia_area
 		podolia_volhynia_area
 		pripyat_area
-		smolensk_area
 
 	}
 }
@@ -304,6 +303,9 @@ mashriq_region = {
 		al_jazira_area
 		iraq_arabi_area
 		basra_area
+		aleppo_area
+		trans_jordan_area
+		syrian_desert_area
 	}
 }
 
