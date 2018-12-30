@@ -3,7 +3,7 @@
 culture = sawabantu
 religion = ahmadi
 capital = "Calabar"
-trade_goods = slaves
+trade_goods = tropical_wood #slaves
 hre = no
 base_tax = 1 
 base_production = 1

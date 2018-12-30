@@ -4,7 +4,8 @@ controller = AUS
 
 culture = strayan
 religion = animism 
-trade_goods = unknown 
+capital = "Bathurst"
+trade_goods = naval_supplies 
 hre = no 
 base_tax = 1
 base_production = 1

@@ -2,7 +2,7 @@
 culture = aka 
 religion = voodoo
 capital = "Dunkwa"
-trade_goods = coffee #Kola nuts
+trade_goods = cocoa #Kola nuts
 hre = no
 base_tax = 2 
 base_production = 2

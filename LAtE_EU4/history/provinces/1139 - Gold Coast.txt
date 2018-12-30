@@ -4,7 +4,7 @@
 culture = aka
 religion = voodoo
 capital = "Accra"
-trade_goods = unknown
+trade_goods = cocoa
 hre = no
 base_tax = 2 
 base_production = 2

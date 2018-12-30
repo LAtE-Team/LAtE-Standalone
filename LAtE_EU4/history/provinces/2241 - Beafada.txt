@@ -1,7 +1,7 @@
 culture = senegambian 
 religion = voodoo
 capital = "Beafada"
-trade_goods = slaves
+trade_goods = ivory #slaves
 hre = no
 base_tax = 1 
 base_production = 1

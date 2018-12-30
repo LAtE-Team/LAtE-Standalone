@@ -3,7 +3,7 @@
 culture = aka
 religion = voodoo
 capital = "Assinie"
-trade_goods = unknown
+trade_goods = cocoa
 hre = no
 base_tax = 1 
 base_production = 1

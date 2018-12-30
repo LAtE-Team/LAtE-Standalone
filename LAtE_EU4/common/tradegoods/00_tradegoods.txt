@@ -837,35 +837,6 @@ slaves = {
 	province = {
 		local_missionary_strength = 0.01
 	}
-	chance = {
-		factor = 15
-		modifier = {
-			factor = 0
-			OR = {
-				FROM = { has_country_modifier = the_abolish_slavery_act }
-				NOT = { continent = africa }
-				province_id = 1174 #Namibia
-			}
-		}
-		modifier = {
-			factor = 0
-			island = yes
-		}		
-		modifier = {
-			factor = 2.0
-			OR = {
-				region = horn_of_africa_region
-				region = kongo_region
-				area = west_africa_coast_area
-				area = gulf_of_guinea_area
-				area = benin_area
-			}
-		}
-		modifier = {
-			factor = 0.5
-			region = south_africa_region
-		}
-	}
 }
 
 ivory = {
