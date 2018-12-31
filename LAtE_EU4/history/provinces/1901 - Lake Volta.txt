@@ -1,4 +1,4 @@
-# - Mpangu
+# - Mpangu now Mbanza-Ngungu
 
 owner = KON
 controller = KON
@@ -6,7 +6,7 @@ add_core = KON
 is_city = yes
 culture = kongolese
 religion = ahmadi
-capital = "Sundi"
+capital = "Mbanza-Ngungu"
 trade_goods = unknown
 hre = no
 base_tax = 2 

@@ -1,9 +1,9 @@
-#1113 - Cayor
+#1113 - Cayor now Dakar
 
 culture = senegambian
 base_manpower = 2
 religion = voodoo
-capital = "Mboul"
+capital = "Dakar"
 trade_goods = unknown
 hre = no
 base_tax = 3 

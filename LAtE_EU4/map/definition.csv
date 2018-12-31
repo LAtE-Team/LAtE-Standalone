@@ -1110,13 +1110,13 @@ province;red;green;blue;x;x
 1109;167;70;173;Timaru;x
 1110;39;72;32;Rio de Oro;x
 1111;167;74;79;Arguin;x
-1112;39;76;126;Trarza;x
-1113;167;78;173;Cayor;x
-1114;40;80;32;Gabu;x
+1112;39;76;126;Nouakchott;x
+1113;167;78;173;Dakar;x
+1114;40;80;32;Bissau;x
 1115;168;82;79;Brakna;x
-1116;40;84;126;Wolof;x
+1116;40;84;126;Diourbel;x
 1117;168;86;173;Futa Jallon;x
-1118;40;88;32;Sierra Leone;x
+1118;40;88;32;Salone;x
 1119;168;90;79;Grain Coast;x
 1120;40;92;126;Bambuk;x
 1121;169;94;173;Bure;x
@@ -2235,11 +2235,11 @@ province;red;green;blue;x;x
 2234;193;215;62;Rafsanjan;x
 2235;190;72;96;Sabzevar;x
 2236;131;211;134;Bojnord;x
-2237;160;109;157;Tekrur;x
+2237;160;109;157;Podor;x
 2238;80;73;160;Kantor;x
-2239;120;75;185;Siine;x 
+2239;120;75;185;The Gambia;x 
 2240;120;137;132;Galam;x
-2241;200;111;182;Beafada;x
+2241;200;111;182;Conakry;x
 2242;240;69;110;Karou;x
 2243;80;135;107;Termes;x
 2244;160;139;157;Tagant;x
@@ -4855,6 +4855,28 @@ province;red;green;blue;x;x
 4992;2;69;200;Acaxee;x
 4993;62;137;250;Mayo;x
 4994;82;176;150;Opata;x
+4995;124;185;118;Yamoussoukro;x
+4996;143;52;49;Montagnes;x
+4997;149;243;76;Brazzaville;x
+4998;234;128;109;Lekoumou;x
+4999;231;67;12;Bandundu;x
+5000;161;103;140;Inongo;x
+5001;39;85;82;Cuvette;x
+5002;12;182;228;Mbandaka;x
+5003;61;115;73;Sangha;x
+5004;21;43;234;Likouala;x
+5005;70;146;115;Bangui;x
+5006;134;73;106;Mongala;x
+5007;194;222;197;Gemena;x
+5008;137;188;237;Ubangi;x
+5009;88;70;67;Bumba;x
+5010;33;39;152;Bas-Uele;x
+5011;61;112;209;Kisangani;x
+5012;15;61;149;Kindu;x
+5013;203;19;155;Haut-Uele;x
+5014;234;103;12;Ituri;x
+5015;176;213;36;Arua;x
+5016;134;103;225;Mbini;x
 
 
 

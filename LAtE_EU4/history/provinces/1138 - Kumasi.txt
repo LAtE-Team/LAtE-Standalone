@@ -3,7 +3,7 @@
 culture = aka
 base_manpower = 1
 religion = voodoo
-capital = "Akyem Kotoko"
+capital = "Kumasi"
 trade_goods = gold
 hre = no
 base_tax = 4 

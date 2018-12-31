@@ -2,7 +2,7 @@
 
 culture = sawabantu
 religion = ahmadi
-capital = "Cameroon"
+capital = "Douala"
 trade_goods = unknown
 hre = no
 base_tax = 1 

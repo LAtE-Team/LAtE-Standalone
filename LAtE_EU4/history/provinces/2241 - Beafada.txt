@@ -1,7 +1,8 @@
+# Beafada now Conakry
 culture = senegambian 
 religion = voodoo
-capital = "Beafada"
-trade_goods = ivory #slaves
+capital = "Conakry"
+trade_goods = coffee #slaves
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,8 +1,8 @@
-#1126 - Ivory Coast
+#1126 - Ivory Coast now Bas-Sassandra
 
 culture = aka
 religion = voodoo
-capital = "Assinie"
+capital = "San-Pedro"
 trade_goods = cocoa
 hre = no
 base_tax = 1 

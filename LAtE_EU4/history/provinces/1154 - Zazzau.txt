@@ -1,4 +1,4 @@
-#1154 - Zazzau
+#1154 - Zazzau now Kaduna
 
 owner = NGR
 controller = NGR
@@ -7,7 +7,7 @@ culture = nigerian
 is_city = yes
 base_manpower = 3
 religion = ahmadi
-capital = "Turunku"
+capital = "Kaduna"
 trade_goods = wool #slaves
 hre = no
 base_tax = 3 

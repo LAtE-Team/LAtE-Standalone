@@ -1,8 +1,8 @@
-# No previous file for Tekrur
+# No previous file for Tekrur now Podor
 
 culture = fulani
 religion = voodoo
-capital = "Tekrur"
+capital = "Kaédi"
 trade_goods = unknown
 hre = no
 base_tax = 3 

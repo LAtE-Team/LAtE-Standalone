@@ -1,9 +1,9 @@
-#1118 - Sierra Leone
+#1118 - Sierra Leone now Salone
 
 culture = dyola
 religion = voodoo
-capital = "Sherbro"
-trade_goods = unknown
+capital = "Freetown"
+trade_goods = gems
 hre = no
 base_tax = 1 
 base_production = 1

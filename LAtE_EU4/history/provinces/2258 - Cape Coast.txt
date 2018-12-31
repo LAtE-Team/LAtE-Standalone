@@ -1,9 +1,8 @@
-# No previous file for Cape Coast
-#Represents forts in western Ghana, from Axim to Elmina, mostly Elmina
+#
 
 culture = aka
 religion = voodoo
-capital = "Axim"
+capital = "Takoradi"
 trade_goods = cocoa
 hre = no
 base_tax = 2 

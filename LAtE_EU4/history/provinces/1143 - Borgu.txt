@@ -1,4 +1,4 @@
-#1143 - Borgu
+#1143 - Borgu now Alibori
 
 owner = NGR
 controller = NGR
@@ -6,7 +6,7 @@ add_core = NGR
 is_city = yes
 culture = nigerian 
 religion = ahmadi
-capital = "Bussa"
+capital = "Alibori"
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,9 +1,9 @@
-#1112 - Trarza
+#1112 - Trarza now Nouakchott
 
 culture = senegambian
-capital = "Awlil"
+capital = "Nouakchott"
 religion = sunni
-trade_goods = unknown
+trade_goods = iron
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,4 +1,4 @@
-# No previous file for Moshi
+# No previous file for Moshi now Parakou
 
 owner = NGR
 controller = NGR
@@ -6,7 +6,7 @@ add_core = NGR
 is_city = yes
 culture = nigerian 
 religion = ahmadi
-capital = "Bajibo"
+capital = "Parakou"
 trade_goods = tropical_wood
 hre = no
 base_tax = 1 

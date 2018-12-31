@@ -1,8 +1,8 @@
-# No previous file for Tenkodogo
+# No previous file for Tenkodogo now Wa
 
 culture = mossi 
 religion = voodoo
-capital = "Tenkodogo"
+capital = "Wa"
 trade_goods = unknown
 hre = no
 base_tax = 3 

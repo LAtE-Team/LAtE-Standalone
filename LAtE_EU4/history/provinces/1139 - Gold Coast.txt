@@ -1,4 +1,4 @@
-#1139 - Gold Coast
+#1139 - Gold Coast now Accra
 #Eastern part thereof, mostly Accra and Osu Castle
 
 culture = aka

@@ -2,7 +2,7 @@
 
 culture = kongolese
 religion = ahmadi
-capital = "Gabon"
+capital = "Libreville"
 trade_goods = unknown
 hre = no
 base_tax = 2 

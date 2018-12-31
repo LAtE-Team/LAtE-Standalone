@@ -1,11 +1,11 @@
-#1141 - Whydah
+#1141 - Whydah now Lome
 
 owner = NGR
 controller = NGR
 add_core = NGR
 culture = nigerian
 religion = ahmadi
-capital = "Whydah"
+capital = "Lome"
 trade_goods = unknown
 hre = no
 base_tax = 1 

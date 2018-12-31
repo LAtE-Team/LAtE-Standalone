@@ -2,7 +2,7 @@
 
 culture = aka 
 religion = voodoo
-capital = "Amanvi"
+capital = "Abidjan"
 trade_goods = unknown
 hre = no
 base_tax = 2 

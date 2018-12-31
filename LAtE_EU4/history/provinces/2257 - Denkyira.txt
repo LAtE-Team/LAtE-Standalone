@@ -1,7 +1,7 @@
-
+# Denkyira now Volta
 culture = aka 
 religion = voodoo
-capital = "Dunkwa"
+capital = "Hohoe"
 trade_goods = cocoa #Kola nuts
 hre = no
 base_tax = 2 

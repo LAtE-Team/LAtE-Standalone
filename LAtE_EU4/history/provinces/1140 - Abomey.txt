@@ -1,4 +1,4 @@
-#1140 - Abomey
+#1140 - Abomey now Sokodé 
 
 owner = NGR
 controller = NGR
@@ -6,7 +6,7 @@ add_core = NGR
 is_city = yes
 culture = nigerian
 religion = ahmadi
-capital = "Allada"
+capital = "Sokodé"
 trade_goods = cocoa #slaves
 hre = no
 base_tax = 1 

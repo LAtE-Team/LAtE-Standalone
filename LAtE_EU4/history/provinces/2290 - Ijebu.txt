@@ -1,4 +1,4 @@
-# No previous file for Ijebu
+# No previous file for Ijebu now Lagos
 
 owner = NGR
 controller = NGR
@@ -6,7 +6,7 @@ add_core = NGR
 is_city = yes
 culture = nigerian 
 religion = ahmadi
-capital = "Ijebu"
+capital = "Lagos"
 trade_goods = cocoa #slaves
 hre = no
 base_tax = 2 
