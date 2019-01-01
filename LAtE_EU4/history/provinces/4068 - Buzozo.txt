@@ -1,4 +1,4 @@
-#Bafuriru
+#Bafuriru now North-Kivu
 
 owner = KRZ
 controller = KRZ
@@ -6,7 +6,7 @@ add_core = KRZ
 is_city = yes
 culture = rwandan
 religion = ahmadi
-capital = "Bafuriru"
+capital = "Goma"
 trade_goods = grain
 hre = no
 base_tax = 2

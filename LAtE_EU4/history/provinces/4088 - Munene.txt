@@ -1,10 +1,12 @@
+#Munene now Kasai
+
 owner = KON
 controller = KON
 add_core = KON
 is_city = yes
 culture = kuba
 religion = ahmadi
-capital = "Mai Munene"
+capital = "Tshikapa"
 trade_goods = unknown
 hre = no
 base_tax = 2

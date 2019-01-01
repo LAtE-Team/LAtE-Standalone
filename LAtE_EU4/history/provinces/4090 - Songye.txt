@@ -1,10 +1,11 @@
+#Songye now Sankuru
 owner = KON
 controller = KON
 add_core = KON
 is_city = yes
 culture = luba
 religion = ahmadi
-capital = "Songye"
+capital = "Lusambo"
 trade_goods = unknown
 hre = no
 base_tax = 1

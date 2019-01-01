@@ -1,12 +1,12 @@
-#5004 Likouala
+#5007 Nord-Ubangi
 
 owner = KON
 controller = KON
 add_core = KON
 culture = kongolese
 religion = ahmadi
-capital = "Impfondo"
-trade_goods = livestock
+capital = "Gbadolite"
+trade_goods = ivory
 hre = no
 base_tax = 1
 base_production = 1

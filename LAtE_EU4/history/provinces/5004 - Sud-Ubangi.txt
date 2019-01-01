@@ -1,4 +1,4 @@
-#5007 Gemena
+#5004 Sud-Ubangi
 
 owner = KON
 controller = KON
@@ -6,7 +6,7 @@ add_core = KON
 culture = kongolese
 religion = ahmadi
 capital = "Gemena"
-trade_goods = ivory
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

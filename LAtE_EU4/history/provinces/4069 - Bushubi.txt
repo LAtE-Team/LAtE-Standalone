@@ -1,8 +1,8 @@
-#Bushubi
+#Bushubi now Burundi
 
 culture = rwandan
 religion = ahmadi
-capital = "Bushubi"
+capital = "Bujumbura"
 trade_goods = unknown
 hre = no
 base_tax = 3

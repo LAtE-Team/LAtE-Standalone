@@ -1,4 +1,4 @@
-#5011 Kisangani
+#5011 Tshopo
 
 owner = KON
 controller = KON

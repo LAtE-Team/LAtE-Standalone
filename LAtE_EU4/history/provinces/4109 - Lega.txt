@@ -1,3 +1,4 @@
+#Lega now South-Kivu
 
 owner = KRZ
 controller = KRZ
@@ -6,7 +7,7 @@ is_city = yes
 culture = luba
 religion = ahmadi
 trade_goods = unknown
-capital = "Lega"
+capital = "Bukavu"
 hre = no
 base_tax = 2
 base_production = 2

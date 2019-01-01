@@ -1,11 +1,11 @@
-#5015 Arua
+#5006 Moundou
 
 owner = KON
 controller = KON
 add_core = KON
 culture = kongolese
 religion = ahmadi
-capital = "Arua"
+capital = "Moundou"
 trade_goods = livestock
 hre = no
 base_tax = 1

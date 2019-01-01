@@ -1,4 +1,4 @@
-
+#Lamba now Lubumbashi
 owner = KTG
 controller = KTG
 add_core = KTG

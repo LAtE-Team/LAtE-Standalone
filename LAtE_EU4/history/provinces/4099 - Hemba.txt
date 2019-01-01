@@ -1,3 +1,4 @@
+#Hemba now Kongolo
 
 owner = KRZ
 controller = KRZ
@@ -5,7 +6,7 @@ add_core = KRZ
 is_city = yes
 culture = luba
 religion = ahmadi
-capital = "Hemba"
+capital = "Kongolo"
 trade_goods = iron
 hre = no
 base_tax = 2

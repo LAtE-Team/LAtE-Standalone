@@ -1,12 +1,12 @@
-#5006 Mongala
+#5015 Jonglei
 
 owner = KON
 controller = KON
 add_core = KON
 culture = kongolese
 religion = ahmadi
-capital = "Mitoko"
-trade_goods = tropical_wood
+capital = "Mading Bor"
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

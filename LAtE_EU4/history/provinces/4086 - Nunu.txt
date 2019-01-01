@@ -1,10 +1,12 @@
+#Nunu now Kwilu
+
 owner = KON
 controller = KON
 add_core = KON
 is_city = yes
 culture = kuba
 religion = ahmadi
-capital = "Nunu"
+capital = "Kikwit"
 trade_goods = unknown
 hre = no
 base_tax = 1
