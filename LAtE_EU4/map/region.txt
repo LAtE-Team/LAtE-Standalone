@@ -16,13 +16,13 @@ france_region = {
 		guyenne_area
 		languedoc_area
 		massif_central_area
-		savoy_dauphine_area
-		lorraine_area
+		#savoy_dauphine_area
+		#lorraine_area
 		picardy_area
 		seine_area
 		loire_area
 		bourgogne_area
-		pyrenees_area
+		#pyrenees_area
 	}
 }
 
@@ -53,12 +53,13 @@ low_countries_region = {
 		wallonia_area
 		flanders_area
 		brabant_area
-		netherlands_area
+		#netherlands_area
 		frisia_area
 		luxemburg_liege_area
 	}
 
 }
+
 
 italy_region = {
 	areas = {

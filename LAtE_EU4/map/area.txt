@@ -294,19 +294,19 @@ normandy_area = { #3
 }
 
 provence_area = { #3
-	201 202 2991
+	201 2991
 }
 
 guyenne_area = { #4
-	180 194 4111 4112
+	180 194 4111 174
 }
 
-pyrenees_area = { #3
-	174 175 176
-}
+# pyrenees_area = { #3
+	# 174 175 176
+# }
 
 languedoc_area = { #3
-	196 200 2753
+	200 2753
 }
 
 bourgogne_area = { #4
@@ -316,19 +316,19 @@ bourgogne_area = { #4
 
 massif_central_area = { #4
 	color = { 26 26 217 }
-	190 195 198 199
+	190 195 199 203
 }
 
-savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
-	203 204 205
-}
+# savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
+	# 203 204 205
+# }
 
-lorraine_area = { #3
-	187 188 189
-}
+# lorraine_area = { #3
+	# 187 188 189
+# }
 
 picardy_area = { #4
-	88 89 182 1743
+	88 89 182 
 }
 
 seine_area = { #3 (Champagne and Ile de France)
@@ -344,7 +344,7 @@ loire_area = { #4
 ########################################
 
 wallonia_area = { #3
-	91 181 1866
+	91 1866
 }
 
 flanders_area = { #3
@@ -352,24 +352,24 @@ flanders_area = { #3
 }
 
 brabant_area = { #3
-	92 95 1744
+	95 1744
 }
 
-netherlands_area = { #4
-	96 97 98
-}
+# netherlands_area = { #4
+	# 96 97 98
+# }
 
 frisia_area = { #3
-	99 100 1931
+	99 100 97
 }
 
 ########################################
 # Iberia					 		   #
 ########################################
 
-aragon_area = { #3
-	211 214 2990
-}
+# aragon_area = { #3
+	# 211 214 2990
+# }
 
 catalonia_area = { #4
 	197 212 213 2987
@@ -387,12 +387,12 @@ upper_andalucia_area = { #3
 	222 223 226
 }
 
-castille_area = { #3
-	215 217 1746 2755 2989
-}
+# castille_area = { #3
+	# 215 217 1746 2755 2989
+# }
 
 toledo_area = { #4
-	219 221 2751 2754
+	219 221 2754
 }
 
 asturias_area = { #3
@@ -404,7 +404,7 @@ basque_country = { #3
 }
 
 leon_area = { #4
-	208 216 218 1747
+	218 1747
 }
 
 beieras_area = { #4
