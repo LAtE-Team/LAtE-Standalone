@@ -1,0 +1,457 @@
+namespace = flavor_CAN
+
+country_event = {		#Hudson's Bay Question - for QUE
+	id = flavor_CAN.2
+	title = "flavor_CAN.2.TITLE"
+	desc = "flavor_CAN.2.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of que_ont_control_ontario mission as QUE
+	
+	option = {	#Give claims to ONT
+		name = "flavor_CAN.2.a"
+		ai_chance = { factor = 0}
+		ONT = {
+			4782 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ONT
+							is_core = ONT
+						}
+					}
+					add_permanent_claim = ONT
+				}
+			}
+			1003 = {
+				if = {
+					limit = {
+					NOT = {
+							is_permanent_claim = ONT
+							is_core = ONT
+						}
+					}
+					add_permanent_claim = ONT
+				}
+			}
+		}
+	}
+	option = {	#Take claims as QUE
+		name = "flavor_CAN.2.b"
+		ai_chance = { factor = 1}
+		4782 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		1003 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+country_event = {	#Event for ONT to keep claims on greater Quebec, or give to QUE
+	id = flavor_CAN.3
+	title = "flavor_CAN.3.TITLE"
+	desc = "flavor_CAN.3.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {	#Give claims to QUE
+		name = "flavor_CAN.3.a"
+		ai_chance = { factor = 0}
+		QUE = {
+			cote_nord_area = {
+				limit = {
+					NOT = { is_permanent_claim = QUE	}
+					NOT = { is_core = QUE	}
+				}
+				add_permanent_claim = QUE
+			}
+			eeyou_istchee_area = {
+				limit = {
+					NOT = { is_permanent_claim = QUE	}
+					NOT = { is_core = QUE	}
+				}
+				add_permanent_claim = QUE
+			}
+			1000 = { #mouth of james bay
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			995 = { #no claims on this one
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			4783 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			4784 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			4785 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			997 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}
+			2575 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = QUE
+							is_core = QUE
+						}
+					}
+					add_permanent_claim = QUE
+				}
+			}	
+		}
+	}
+	option = {	#Take claims as ONT
+		name = "flavor_CAN.3.b"
+		ai_chance = { factor = 1}
+		cote_nord_area = {
+			limit = {
+				NOT = { is_permanent_claim = ROOT	}
+				NOT = { is_core = ROOT	}
+			}
+			add_permanent_claim = ROOT
+		}
+		eeyou_istchee_area = {
+			limit = {
+				NOT = { is_permanent_claim = ROOT	}
+				NOT = { is_core = ROOT	}
+			}
+			add_permanent_claim = ROOT
+		}
+		1000 = { #mouth of james bay
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		995 = { #no claims on this one
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		4783 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		4784 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		4785 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		997 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		2575 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+country_event = {	#Event for QUE if it has a colony in Britain. Gives option to make colony's primary culture Ontarian.
+	id = flavor_CAN.4
+	title = "flavor_CAN.4.TITLE"
+	desc = "flavor_CAN.4.DESC"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of que_colonize_britain mission
+	
+	option = {	#Makes primary culture of colony Ontarian
+		name = "flavor_CAN.4.a"
+		ai_chance = { factor = 0}
+		any_subject_country = {
+			is_colonial_nation_of = ROOT
+			capital_scope = {
+				colonial_region = colonial_British_Isles
+			}
+			}
+		random_country = {
+			limit = {
+				is_colonial_nation_of = ROOT
+				capital_scope = {
+					colonial_region = colonial_British_Isles
+				}
+			}
+			tooltip = {
+				change_primary_culture = ontarian
+			}
+			hidden_effect = {
+				country_event = { id = flavor_CAN.5 days = 1 }
+			}
+		}
+	}
+	option = {	#No effect
+		name = "flavor_CAN.4.b"
+		ai_chance = { factor = 1}
+	}
+}
+
+country_event = {	#Hidden event triggered by flavor_CAN.4. Makes all Quebecois provinces in British colony Ontarian.
+	id = flavor_CAN.5
+	title = "flavor_CAN.5.TITLE"
+	desc = "flavor_CAN.5.DESC"
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_CAN.5.a"
+		every_owned_province = {
+			if = {
+				limit = {
+					culture = quebecois
+				}
+				change_culture = ontarian
+			}
+			}
+		change_primary_culture = ontarian
+	}
+}
+
+country_event = {	#Event for ONT to make primary culture in French colony Quebecois.
+	id = flavor_CAN.6
+	title = "flavor_CAN.6.TITLE"
+	desc = "flavor_CAN.6.DESC"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of ont_colonize_france mission.
+	
+	option = {	#Make primary culture of colony Quebecois
+		name = "flavor_CAN.6.a"
+		ai_chance = { factor = 0}
+		random_country = {
+			limit = {
+				is_colonial_nation_of = ROOT
+				capital_scope = {
+					colonial_region = colonial_western_europe
+				}
+			}
+			tooltip = {
+				change_primary_culture = quebecois
+			}
+			hidden_effect = {
+				country_event = { id = flavor_CAN.7 days = 1 } #Event for colony turning Ontarian provinces Quebecois
+			}
+		}
+	}
+	option = {
+		name = "flavor_CAN.6.b"
+		ai_chance = { factor = 1}	
+	}
+}
+
+country_event = { #Event for colony turning Ontarian provinces Quebecois
+	id = flavor_CAN.7
+	title = "flavor_CAN.7.TITLE"
+	desc = "flavor_CAN.7.DESC"
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_CAN.7.a"
+		every_owned_province = {
+			if = {
+				limit = {
+					culture = ontarian
+				}
+				change_culture = quebecois
+			}
+			}
+		change_primary_culture = quebecois
+	}
+}
+
+country_event = {	#Not used
+	id = flavor_CAN.8
+	title = "flavor_CAN.8.TITLE"
+	desc = "flavor_CAN.8.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_CAN.6.a"
+		add_prestige = 50
+		add_country_modifier = {
+			name = "canadian_french_empire"
+			duration = -1
+		}
+	}
+}
+
+country_event = {	#Not used
+	id = flavor_CAN.9
+	title = "flavor_CAN.9.TITLE"
+	desc = "flavor_CAN.9.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_CAN.9.a"
+		add_prestige = 50
+		add_country_modifier = {
+			name = "canadian_british_empire"
+			duration = -1
+		}
+	}
+}	
+
+country_event = {	#Not used.
+	id = flavor_CAN.10
+	title = "flavor_CAN.10.TITLE"
+	desc = "flavor_CAN.10.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_CAN.10.a"
+		capital_scope = {
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
+			add_province_modifier = {
+				name = "canadian_capital"
+				duration = -1
+			}
+		}
+	}
+}	

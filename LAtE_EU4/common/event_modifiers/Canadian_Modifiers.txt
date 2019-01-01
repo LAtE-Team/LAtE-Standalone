@@ -1,0 +1,182 @@
+que_cathedrals = {
+	tolerance_own = 1
+	papal_influence = 1
+}
+ont_cathedrals = {
+	tolerance_own = 1
+	church_power_modifier = 0.1
+}
+canadian_wedding = {
+	legitimacy = 1
+	diplomatic_reputation = 1
+}
+canadian_ontario = {
+	manpower_recovery_speed = 0.1
+}
+canadian_quebec = {
+	global_unrest = -2
+	production_efficiency = 0.1
+}
+canadian_manitoba = {
+	land_attrition = -0.2
+}
+canadian_pacific_port = {
+	local_sailors_modifier = 1
+	local_ship_cost = -0.1
+}
+canadian_bc = {
+	global_trade_goods_size_modifier = 0.2
+}
+canadian_trade = {
+	trade_efficiency = 0.15
+	global_own_trade_power = 0.2
+}
+canadian_fur_production = {
+	trade_goods_size_modifier = 0.2
+}
+canadian_restored_interior = {
+	local_development_cost = -0.1
+	province_trade_power_value = 5
+}
+canadian_discover_east = {
+	global_tax_modifier = 0.10
+	prestige = 0.5
+	range = 0.25
+}
+canadian_gulf_comp = {
+	naval_morale = 0.10
+	global_sailors_modifier = 0.2
+	navy_tradition_decay = -0.01
+}
+canadian_maritimes = {
+	global_trade_power = 0.2
+	trade_steering = 0.2
+}
+canadian_reconfederated = {
+	prestige_decay = -0.01
+	global_unrest = -1
+	years_of_nationalism = -10
+}
+canadian_place_sun = {
+	prestige = 1
+	trade_steering = 0.2
+}
+canadian_islands = {
+	naval_morale = 0.10
+	global_missionary_strength = 0.01
+}
+canadian_honest_sailors = {
+	local_sailors_modifier = 0.25
+	local_unrest = -2
+	local_autonomy = -0.1
+}
+canadian_lukewarm_settlers = {
+	global_colonial_growth = 5
+	colonist_placement_chance = 0.01
+}
+canadian_europe = {
+	global_colonial_growth = 25
+	colonist_placement_chance = 0.05
+}
+canadian_french_carribean = {
+	trade_goods_size_modifier = 0.15
+	local_unrest = -2
+	local_missionary_strength = 0.01
+}
+canadian_british_carribean = {
+	trade_goods_size_modifier = 0.15
+	local_unrest = -2
+	local_missionary_strength = 0.01
+}
+canadian_louisiana = {
+	legitimacy = 0.5
+	land_morale = 0.10
+}
+canadian_naval_bases = {
+	naval_attrition = -0.25
+	naval_maintenance_modifier = -0.2
+}
+canadian_france = {
+	global_colonial_growth = 20
+	colonist_placement_chance = 0.1
+}
+canadian_britain = {
+	province_warscore_cost = -0.2
+}
+canadian_france_restored = {
+	legitimacy = 1
+	core_creation = -0.2
+	global_autonomy = -0.05
+	global_tariffs = 0.2
+}
+canadian_britain_restored = {
+	legitimacy = 1
+	core_creation = -0.2
+	global_autonomy = -0.05
+	global_tariffs = 0.2
+}
+canadian_africa = {
+	global_tariffs = 0.1
+	global_colonial_growth = 15
+}
+canadian_africa_expanded = {
+	global_tariffs = 0.2
+	trade_efficiency = 0.2
+}
+canadian_military = {
+	land_morale = 0.05
+	global_manpower_modifier = 0.1
+	manpower_recovery_speed = 0.05
+	discipline = 0.05
+	defensiveness = 0.2
+	fort_maintenance_modifier = -0.1
+}
+canadian_hcc = {
+	legitimacy = 1
+	prestige_decay = -0.01
+	diplomatic_reputation = 2
+}
+canadian_mantle = {
+	stability_cost_modifier = -0.1
+	diplomatic_reputation = 1
+	global_autonomy = -0.05
+}
+canadian_cabinet = {
+	advisor_cost = -0.10
+	improve_relation_modifier = 0.15
+}
+canadian_parliament = {
+	legitimacy = 0.5
+	global_tax_modifier = 0.10
+}
+canadian_peace = {
+	development_cost = -0.10
+	global_tax_modifier = 0.20
+	production_efficiency = 0.20
+	global_unrest = -2
+}
+canadian_capital = {
+	local_development_cost = -0.15
+	build_cost = -0.1
+}
+canadian_french_empire = {
+	land_morale = 0.10
+	global_manpower_modifier = 0.15
+	reduced_liberty_desire = 10
+}
+canadian_british_empire = {
+	naval_morale = 0.10
+	global_sailors_modifier = 0.25
+	reduced_liberty_desire = 10
+}
+canadian_true_north = {
+	diplomatic_reputation = 2
+	war_exhaustion = -0.05
+}
+canadian_economy = {
+	global_tax_modifier = 0.15
+	production_efficiency = 0.15	
+}
+canadian_fur {
+	production_efficiency = 0.2
+}

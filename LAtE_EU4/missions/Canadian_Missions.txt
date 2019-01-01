@@ -1,0 +1,3946 @@
+que_religon = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+		}
+	}
+	has_country_shield = yes
+
+que_restore_cathedral = {
+		icon = mission_european_church
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			OR {
+				province_id = 1008 # winnipeg
+				province_id = 2017 # edmonton
+				province_id = 992 # gatineau
+				province_id = 2601 # mclennan
+				province_id = 4551 # halifax
+				province_id = 1011 # the pas
+				province_id = 4531 # kingston
+				province_id = 4549 # moncton
+				province_id = 993 # montreal
+				province_id = 4537 # ottawa
+				province_id = 2005 # regina
+				province_id = 2582 # rimouski
+				province_id = 980 # st johns
+				province_id = 2012 # sherbrooke
+				province_id = 2670 # toronto
+				province_id = 973 # vancouver
+				province_id = 4533 # quebec
+			}
+			NOT = { 
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		trigger = {
+			4533 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR ={
+					has_estate = estate_church
+					is_capital = yes					
+					owned_by = URS
+					has_building = cathedral
+				}
+			}
+			1008 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2017 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			992 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4551 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			1011 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4531 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4549 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			993 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4537 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2005 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2582 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			980 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2012 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2597 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2005 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2670 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			973 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_papal_influence = 30
+			add_country_modifier = {
+				name = "que_cathedrals"
+				duration = -1
+			}
+		}
+	}
+}
+
+ont_religon = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	ont_restore_cathedral = {
+		icon = mission_european_church
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			OR {
+				province_id = 4551 # halifax
+				province_id = 4531 # kingston
+				province_id = 993 # montreal
+				province_id = 4537 # ottawa
+				province_id = 2670 # toronto
+				province_id = 4533 # quebec
+				province_id = 972 # victoria
+				province_id = 4527 # brantford
+				province_id = 980 # st johns
+				province_id = 2570 # canterbury
+			}
+			NOT = { 
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		trigger = {
+			2570 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR ={
+					has_estate = estate_church
+					is_capital = yes
+					has_building = cathedral
+				}
+			}
+			4551 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4531 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			993 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4537 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			2670 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4533 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			972 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			4527 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			980 = {
+				owned_by = root
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_church_power = 100
+			add_country_modifier = {
+				name = "ont_cathedrals"
+				duration = -1
+			}
+		}
+	}
+}
+que_ont_west = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+
+	que_ont_canadian_wedding = {
+		icon = mission_alliances
+		required_missions = { }
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = can_wedding_mission_tooltip
+					has_global_flag = can_union_outcome_flag
+				}
+				is_year = 3063
+			}
+			is_subject = no
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						ONT = {
+							is_subject_of = ROOT
+						}
+						QUE = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				add_country_modifier = {
+					name = "canadian_wedding"
+					duration = 5475
+				}
+			}
+			else = {
+				quinte_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				greater_toronto_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				talbot_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				huronia_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				shield_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				upper_ontario_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = ONT
+				}
+				notre_dame_mountains_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = QUE
+				}
+				stadacona_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = QUE
+				}
+				lower_canada_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = QUE
+				}
+				laurentian_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = QUE
+				}
+				algonquin_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = QUE
+				}
+				2589 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				4779 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	que_ont_control_ontario = {
+		icon = mission_unite_home_region
+		required_missions = { que_ont_canadian_wedding }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = quinte_area
+				area = greater_toronto_area
+				area = talbot_area
+				area = huronia_area
+				area = shield_area
+				area = upper_ontario_area
+				province_id = 991
+				province_id = 4699
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			quinte_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			greater_toronto_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			talbot_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			huronia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shield_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_ontario_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			991 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4699 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_ontario"
+				duration = 5475
+			}
+			if = {
+				limit = {
+					ONT = {
+						is_subject_of = ROOT
+					}
+				}
+				hidden_effect = {
+					country_event = { id = flavor_CAN.2 }
+				}
+				tooltip = {
+					4782 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					1003 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+				}
+			}
+			else = {
+			4782 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			1003 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			}
+		}
+	}
+	
+	que_ont_conquer_manitoba = {
+		icon = mission_conquer_50_development
+		required_missions = { que_ont_canada_reconfederated }
+		position = 5
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1008
+				province_id = 2593
+				province_id = 1010
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			1008 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2593 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1010 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_manitoba"
+				duration = 5475
+			}
+			saskatchewan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			prairies_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			assiniboia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_conquer_prairies = {
+		icon = mission_assemble_an_army
+		required_missions = { que_ont_conquer_manitoba }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = assiniboia_area
+				area = prairies_area
+				province_id = 1011
+				province_id = 2597
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			prairies_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			assiniboia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1011 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2597 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			north_west_territories_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			2003 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			2607 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			973 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	que_ont_conquer_vancouver = {
+		icon = mission_cannons_firing
+		required_missions = { que_ont_conquer_prairies }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2003
+				province_id = 2607
+				province_id = 973
+				province_id = 2605
+				province_id = 2604
+				province_id = 4009
+				province_id = 4908
+				province_id = 4907
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			2003 = { #Kootenai
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+			2607 = { #Okenagan
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			973 = { #Vancouver
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+			2605 = { #Shushwap
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2604 = { #Prince George
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4909 = { #Kamloops
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4908 = { #Great Valleys
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4907 = { #Revelstoke
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			if = {
+				limit = {
+					973 = {
+						num_free_building_slots = 1
+						NOT = {
+							has_building = shipyard
+						}
+						NOT = {
+							has_building = grand_shipyard
+						}
+					}
+				}
+				973 = {
+					add_building = shipyard
+				}
+			}
+			973 = {
+				add_province_modifier = {
+					name = "canadian_pacific_port"
+					duration = -1
+				}
+			}
+			straits_of_georgia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			interior_plateau_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hecate_strait_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			nootka_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_reclaim_bc = {
+		icon = mission_unite_home_region
+		required_missions = { que_ont_conquer_vancouver }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = straits_of_georgia_area
+				area = interior_plateau_area
+				area = hecate_strait_area
+				area = nootka_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			straits_of_georgia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			interior_plateau_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hecate_strait_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nootka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			uunaay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_bc"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_ont_canada_restored = {
+		icon = mission_empire
+		required_missions = { que_ont_reclaim_bc }
+		position = 9
+		trigger = {
+			stability = 2
+		}
+		effect = {
+			#hidden_effect = {
+			#	country_event = { id = flavor_CAN.10 }
+			#}
+			#tooltip = {
+				capital_scope = {
+					add_base_tax = 3
+					add_base_production = 3
+					add_base_manpower = 3
+					add_province_modifier = {
+						name = "canadian_capital"
+						duration = -1
+					}
+				}
+			#}
+		}
+	}
+}
+que_ont_quebec = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_trade = {
+		icon = mission_dominate_home_trade_node
+		position = 1
+		provinces_to_highlight = {
+			province_id = 1661
+			province_id = 4533
+			province_id = 4551
+			province_id = 1486
+		}
+		trigger = {
+			1661 = {
+				has_merchant = ROOT
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+			4533 = {
+				has_merchant = ROOT
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+			4551 = {
+				has_merchant = ROOT
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+			1486 = {
+				has_merchant = ROOT
+				trade_share = {
+					country = ROOT
+					share = 50
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_trade"
+				duration = 5475
+			}
+			add_mercantilism = 5
+			1661 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 50
+					key = canadian_dominance
+				}
+			}
+			4533 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 50
+					key = canadian_dominance
+				}
+			}
+			4551 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 50
+					key = canadian_dominance
+				}
+			}
+			1486 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 50
+					key = canadian_dominance
+				}
+			}
+		}
+	}
+	
+	que_ont_control_quebec = {
+		icon = mission_unite_home_region
+		required_missions = { que_ont_canadian_wedding }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = notre_dame_mountains_area
+				area = lower_canada_area
+				province_id = 992
+				province_id = 4535
+				province_id = 4775
+				province_id = 4776
+				province_id = 4777
+				province_id = 4534
+				province_id = 4533
+				province_id = 994
+				province_id = 2589
+				province_id = 4779
+				
+				
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			notre_dame_mountains_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_canada_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			992 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4535 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4775 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4776 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4777 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4534 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4533 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			994 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2589 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4779 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {	#
+				limit = {
+					QUE = {
+						is_subject_of = ROOT
+					}
+				}
+				hidden_effect = {	#Event to either keep claims as ONT or give to QUE
+					country_event = { id = flavor_CAN.3 }
+				}
+				tooltip = {
+					cote_nord_area = {
+						limit = {
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_permanent_claim = ROOT
+					}
+					eeyou_istchee_area = {
+						limit = {
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_permanent_claim = ROOT
+					}
+					1000 = { #mouth of james bay
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					995 = { #no claims on this one
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					4783 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					4784 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+						add_permanent_claim = ROOT
+						}
+					}
+					4785 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					997 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+					2575 = {
+						if = {
+							limit = {
+								NOT = {
+									is_permanent_claim = ROOT
+									is_core = ROOT
+								}
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+				}
+			}
+			else = {
+				cote_nord_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT	}
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+				eeyou_istchee_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT	}
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+				1000 = { #mouth of james bay
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				995 = { #no claims on this one
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				4783 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				4784 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				4785 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				997 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+				2575 = {
+					if = {
+						limit = {
+							NOT = {
+								is_permanent_claim = ROOT
+								is_core = ROOT
+							}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	que_ont_reclaim_cote_nord = {
+		icon = mission_assemble_an_army
+		required_missions = { que_ont_control_quebec }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = cote_nord_area
+				area = eeyou_istchee_area
+				province_id = 1000
+				province_id = 995
+				province_id = 4783
+				province_id = 4784
+				province_id = 4785
+				province_id = 997
+				province_id = 2575
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			cote_nord_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eeyou_istchee_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1000 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			995 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4783 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4784 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4785 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			997 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2575 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_quebec"
+				duration = 5475
+			}
+			north_quebec_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_colonize_north_quebec = {
+		icon = mission_colonial
+		required_missions = { que_ont_reclaim_cote_nord }
+		position = 4
+		provinces_to_highlight = {
+			region = north_quebec_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			north_quebec_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			north_quebec_region = {
+				limit = {
+					trade_goods = fur
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "canadian_fur_production"
+					duration = 5475
+				}
+			}
+		}
+	}
+	
+	que_ont_revive_hudsons_bay = {
+		icon = mission_colonial
+		required_missions = { que_ont_canada_reconfederated }
+		position = 5
+		provinces_to_highlight = {
+			region = hudson_bay_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+				area = red_river_area
+			}
+		}
+		trigger = {
+			james_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hudson_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			inner_ontario_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			west_kenora_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_kenora_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			north_west_territories_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { area = prairies_area }
+					NOT = { area = assiniboia_area }
+					NOT = { province_id = 1011 }
+					NOT = { province_id = 2597 }
+				}
+				add_permanent_claim = ROOT
+			}
+			hudson_bay_region = {
+				limit = {
+					trade_goods = fur
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "canadian_fur_production"
+					duration = 5475
+				}
+			}
+		}
+	}
+	
+	que_ont_colonize_north_west = {
+		icon = mission_colonial
+		required_missions = { que_ont_revive_hudsons_bay }
+		position = 6
+		provinces_to_highlight = {
+			region = north_west_territories_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+				area = prairies_area
+				area = assiniboia_area
+				province_id = 1011
+				province_id = 2597
+			}
+		}
+		trigger = {
+			athabasca_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			keewatin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			fort_smith_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			stikine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			yukon_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1813 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			north_west_territories_region = {
+				limit = {
+					trade_goods = fur
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "canadian_fur_production"
+					duration = 5475
+				}
+			}
+		}
+	}
+	
+	que_ont_restore_interior = {
+		icon = mission_hanseatic_city
+		required_missions = { que_ont_conquer_prairies }
+		position = 7
+		provinces_to_highlight = {
+			OR {
+				province_id = 2597 # saskatoon
+				province_id = 2005 # regina
+				province_id = 2004 # calgary
+				province_id = 2017 # edmonton
+			}
+		}
+		trigger = {
+			owns_core_province = 2597
+			owns_core_province = 2005
+			owns_core_province = 2004
+			owns_core_province = 2017
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Dharma"
+						has_dlc = "Common Sense"
+					}
+				}
+				2597 = {
+					development = 10
+				}
+				2005 = {
+					development = 10
+				}
+				2004 = {
+					development = 10
+				}
+				2017 = {
+					development = 10
+				}
+			}
+			else = {
+				2597 = {
+					has_building = cathedral
+				}
+				2005 = {
+					has_building = cathedral
+				}
+				2004 = {
+					has_building = cathedral
+				}
+				2017 = {
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			2597 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = "canadian_restored_interior"
+					duration = -1
+				}
+				change_province_name = Saskatoon
+				rename_capital = Saskatoon
+			}
+			2005 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = "canadian_restored_interior"
+					duration = -1
+				}
+				change_province_name = Regina
+				rename_capital = Regina
+			}
+			2004 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = "canadian_restored_interior"
+					duration = -1
+				}
+				change_province_name = Calgary
+				rename_capital = Calgary
+			}
+			2017 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = "canadian_restored_interior"
+					duration = -1
+				}
+				change_province_name = Edmonton
+				rename_capital = Edmonton
+			}
+		}
+	}
+	
+	que_ont_discover_east = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { que_ont_conquer_vancouver }
+		position = 8
+		
+		trigger = {
+			japan_region = {
+				has_discovered = ROOT
+			}
+			korea_region = {
+				has_discovered = ROOT
+			}
+			north_china_region = {
+				has_discovered = ROOT
+			}
+			south_china_region = {
+				has_discovered = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 20
+			add_country_modifier = {
+				name = "canadian_discover_east"
+				duration = 5475
+			}
+			973 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	
+	}
+}
+
+que_ont_gulf = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_compete_in_gulf = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		trigger = { 
+			adm_tech = 7
+			dip_tech = 7
+			navy_size_percentage = 1
+			NOT = {alliance_with = MRT}
+			is_subject = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_gulf_comp"
+				duration = 5475
+			}
+			restigouche_area	 = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_acadia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			983 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			newfoundland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_conquer_new_brunswick = {
+		icon = mission_assemble_an_army
+		required_missions = { que_ont_compete_in_gulf }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = restigouche_area
+				area = upper_acadia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			restigouche_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_acadia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			nova_scotia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			cape_breton_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_conquer_nova_scotia = {
+		icon = mission_galleys_in_port
+		required_missions = { que_ont_conquer_new_brunswick }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = nova_scotia_area
+				province_id = 982
+				province_id = 2569
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			restigouche_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			982 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2569 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_maritimes"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_ont_canada_reconfederated = {
+		icon = mission_monarch_in_throne_room
+		required_missions = { que_ont_control_ontario que_ont_reclaim_cote_nord que_ont_conquer_nova_scotia que_ont_end_island_piracy }
+		position = 4
+		provinces_to_highlight = {
+			AND = {
+				region = canada_region
+				is_empty = no
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			canada_region = {
+				type = all
+				OR = {
+					is_empty = yes
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}			
+		}
+		effect = {
+			add_stability = 1
+			add_country_modifier = {
+				name = "canadian_reconfederated"
+				duration = 5475
+			}
+			lucayan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			481 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			hudson_bay_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { province_id = 2511 }
+					NOT = { province_id = 2016 }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_ont_canadian_caribbean = {
+		icon = mission_invade_island
+		required_missions = { que_ont_canada_reconfederated }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				area = lucayan_area
+				province_id = 481
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			lucayan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			481 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_country_modifier = {
+				name = "canadian_place_sun"
+				duration = 5475
+			}
+		}
+	}
+}
+
+que_ont_newfoundland = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_take_newfoundland = {
+		icon = mission_invade_island
+		required_missions = { que_ont_compete_in_gulf }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = newfoundland_area
+				province_id = 983
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			newfoundland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			983 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_islands"
+				duration = 3650
+			}
+		}
+	}
+	
+	que_ont_end_island_piracy = {
+		icon = mission_have_two_subjects
+		required_missions = { que_ont_take_newfoundland }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = newfoundland_area
+				province_id = 983
+			}
+			religion = brethren
+		}
+		trigger = {
+			OR = {
+				AND = {
+					newfoundland_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+						NOT = { religion = brethren }
+					}
+					983 = {
+						country_or_non_sovereign_subject_holds = ROOT
+						NOT = { religion = brethren }
+					}
+				}
+				religion = brethren
+			}
+		}
+		effect = {
+			newfoundland_area = {
+				add_province_modifier = {
+					name = "canadian_honest_sailors"
+					duration = 5475
+				}
+			}
+			983 = {
+				add_province_modifier = {
+					name = "canadian_honest_sailors"
+					duration = 5475
+				}
+			}
+		}
+	}
+	
+	que_ont_greenland = {
+		icon = mission_colonial
+		required_missions = { que_ont_discover_greenland }
+		position = 5
+		provinces_to_highlight = {
+			area = greenland_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			greenland_area = {
+				type = all
+				owned_by = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_lukewarm_settlers"
+				duration = 5475
+			}
+		}
+	}
+}
+
+que_ont_colonize = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_economy = {
+		icon = mission_early_game_buildings
+		required_missions = { }
+		position = 1
+		trigger = {
+			temple = 15
+			workshop = 15
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_economy"
+				duration = 9125
+			}
+		}
+	}
+	
+	que_ont_fur_trade = {
+		icon = mission_have_manufactories
+		required_missions = { que_ont_economy }
+		position = 2
+		trigger = {
+			production_leader = {
+				trade_goods = fur
+			}
+			trading_bonus = {
+				trade_goods = fur
+				value = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 15
+				AND = {
+					has_building = tradecompany
+					trade_goods = fur
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_fur"
+				duration = 9125
+			}
+			add_years_of_income = 2
+		}
+	}
+	
+	que_ont_discover_greenland = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { }
+		position = 4
+		
+		trigger = {
+			greenland_area = {
+				has_discovered = ROOT
+			}
+			num_of_colonists = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "the_unknown_frontier"
+				duration = 5475
+			}
+		}
+	
+	}
+	
+	que_ont_discover_europe = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { que_ont_discover_greenland }
+		position = 5
+		
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = que_ont_britain_discovery.tooltip
+				colonial_British_Isles = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = que_ont_france_discovery.tooltip
+				colonial_western_europe = {
+					has_discovered = ROOT
+				}
+			}
+		}
+	
+		effect = {
+			add_prestige = 20
+			add_country_modifier = {
+				name = "canadian_europe"
+				duration = 5475
+			}
+		}
+	}
+}
+
+que_western = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+		}
+	}
+	has_country_shield = yes
+	
+	que_carribean = {
+		icon = mission_iberian_conquistador
+		required_missions = { que_ont_canadian_caribbean que_restore_france }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = hispaniola_area
+				province_id = 1881
+				province_id = 496
+				province_id = 497
+				province_id = 498
+				province_id = 499
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			hispaniola_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1881 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			496 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			497 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			498 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			499 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			carribeans_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "canadian_french_carribean"
+					duration = 5475
+				}
+			}
+			lower_louisiana_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			921 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			746 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	que_louisiana = {
+		icon = mission_sea_battles
+		required_missions = { que_carribean }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = lower_louisiana_area
+				province_id = 921
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			lower_louisiana_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			921 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_louisiana"
+				duration = 7300
+			}
+		}
+	}
+}
+
+que_africa = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+		}
+	}
+	has_country_shield = yes
+	
+	que_colonize_france = {
+		icon = mission_colonial
+		required_missions = { que_ont_discover_europe }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = france_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_france.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					region = france_region
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "canadian_france"
+				duration = 5475
+			}
+			france_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			173 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			102 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			1247 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			87 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			197 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	que_restore_france = {
+		icon = mission_empire
+		required_missions = { que_colonize_france }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				region = france_region
+				province_id = 173
+				province_id = 102
+				province_id = 1247
+				province_id = 87
+				province_id = 197
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			france_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+			173 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			102 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1247 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			87 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			197 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_france_restored"
+				duration = 5475
+			}
+			hispaniola_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			1881 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			496 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			497 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			498 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			499 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			algiers_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kabylia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sakalava_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			madagascar_highlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			betsimasaraka_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			southern_madagascar = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			andhra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			orissa_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			coromandel_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_colonize_africa = {
+		icon = mission_colonial
+		required_missions = { que_restore_france }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = algiers_area
+				area = kabylia_area
+				colonial_region = colonial_west_africa
+				area = sakalava_area
+				area = madagascar_highlands_area
+				area = betsimasaraka_area
+				area = southern_madagascar
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			algiers_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kabylia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			custom_trigger_tooltip = {
+				tooltip = que_colonize_west_africa.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					colonial_region = colonial_west_africa
+					is_city = yes
+				}
+			}
+			sakalava_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			madagascar_highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			betsimasaraka_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			southern_madagascar = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_africa"
+				duration = 5475
+			}
+			tunisia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			western_morocco_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ouled_nail_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hautes_plaines_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_expand_africa = {
+		icon = mission_cannons_firing
+		required_missions = { que_colonize_africa }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = tunisia_area
+				area = djerba_area
+				area = marrekesh_area
+				area = western_morocco_area
+				area = ouled_nail_area
+				area = hautes_plaines_area
+				colonial_region = colonial_west_africa
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			djerba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			marrekesh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_morocco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ouled_nail_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hautes_plaines_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			custom_trigger_tooltip = {
+				tooltip = que_expand_west_africa.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 20
+					colonial_region = colonial_west_africa
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_africa_expanded"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_french_empire = {
+		icon = mission_monarch_in_throne_room
+		required_missions = { que_louisiana que_expand_africa que_colonize_indo_china }
+		position = 9
+		trigger = {
+			france_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			#hidden_effect = {
+			#	country_event = { id = flavor_CAN.8 }
+			#}
+			#tooltip = {
+				add_prestige = 50
+				add_country_modifier = {
+					name = "canadian_french_empire"
+					duration = -1
+				}
+			#}
+		}
+	}
+}
+
+que_asia = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+		}
+	}
+	has_country_shield = yes
+	
+	que_colonize_britain = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { que_ont_discover_europe }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = british_isles_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_britain.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					region = british_isles_region
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "canadian_britain"
+				duration = 5475
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					any_subject_country = {
+						is_colonial_nation_of = ROOT
+						capital_scope = {
+							colonial_region = colonial_British_Isles
+						}
+					}
+					OR = {
+						ONT = {
+							is_subject_of = ROOT
+						}
+						any_owned_province = {
+							culture = ontarian
+						}
+					}
+				}
+				country_event = { id = flavor_CAN.4 }
+			}
+		}
+	}
+	
+	que_restore_britain = {
+		icon = mission_assemble_an_army
+		required_missions = { que_colonize_britain }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				region = british_isles_region
+				province_id = 1978
+			}
+			NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			british_isles_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 7300
+			}
+		}
+	}
+	
+	que_india_expansion = {
+		icon = mission_trade_company_region_abroad
+		required_missions = { que_restore_france }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = andhra_area
+				area = orissa_area
+				area = coromandel_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			andhra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			orissa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			coromandel_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "east_india_trade_rush"
+				duration = 9125 #25 years
+			}
+			telingana_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			garjat_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			indo_china_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	que_colonize_indo_china = {
+		icon = mission_conquer_50_development
+		required_missions = { que_india_expansion }
+		position = 8
+		
+		provinces_to_highlight = {
+			region = indo_china_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_indo_china.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 15
+					region = indo_china_region
+					is_city = yes
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 7300
+			}
+		}
+	}
+}
+
+ont_western = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	ont_carribean = {
+		icon = mission_iberian_conquistador
+		required_missions = { que_ont_canadian_caribbean ont_restore_britain }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				province_id = 487
+				province_id = 493
+				province_id = 1881
+				province_id = 494
+				province_id = 495
+				province_id = 497
+				province_id = 499
+				province_id = 500
+				province_id = 501
+				province_id = 502
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			487 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			493 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1881 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			494 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			495 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			497 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			499 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			500 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			501 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			502 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			carribeans_region = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "canadian_british_carribean"
+					duration = 5475
+				}
+			}
+			guyana_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			2931 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			south_atlantic_islands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			226 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			126 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			321 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			2686 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			667 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	ont_english_bases = {
+		icon = mission_invade_island
+		required_missions = { ont_carribean }
+		position = 9
+		provinces_to_highlight = {
+			OR = {
+				area = south_atlantic_islands_area
+				province_id = 226
+				province_id = 126
+				province_id = 321
+				province_id = 2686
+				province_id = 667
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			south_atlantic_islands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			226 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			126 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			321 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2686 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			667 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_naval_bases"
+				duration = 7300
+			}
+		}
+	}
+}
+
+ont_africa = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	ont_colonize_britain = {
+		icon = mission_colonial
+		required_missions = { que_ont_discover_europe }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = british_isles_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_britain.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					region = british_isles_region
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "canadian_britain"
+				duration = 7300
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			1978 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	ont_restore_britain = {
+		icon = mission_empire
+		required_missions = { ont_colonize_britain }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				region = british_isles_region
+				province_id = 1978
+			}
+			NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			british_isles_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+			1978 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_britain_restored"
+				duration = 7300
+			}
+			487 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			493 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			1881 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			494 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			495 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			497 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			499 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			500 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			501 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			502 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			delta_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			bahari_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			benin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			1141 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			1151 = { #
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			cape_of_good_hope_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			south_african_plateau_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			west_bengal_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			north_bengal_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_bengal_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ont_colonize_africa = {
+		icon = mission_colonial
+		required_missions = { ont_restore_britain }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = delta_area
+				area = bahari_area
+				area = benin_area
+				province_id = 1141
+				province_id = 1151
+				area = cape_of_good_hope_area
+				area = south_african_plateau_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bahari_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			benin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1141 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1151 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cape_of_good_hope_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_african_plateau_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_africa"
+				duration = 5475
+			}
+			egypt_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_niger_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			atacora_oueme_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			adamawa_plateau_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			zazzau_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hausa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			katsina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			free_state_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			limpopo_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ont_expand_africa = {
+		icon = mission_cannons_firing
+		required_missions = { ont_colonize_africa }
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				region = egypt_region
+				area = lower_niger_area
+				area = atacora_oueme_area
+				area = adamawa_plateau_area
+				area = zazzau_area
+				area = hausa_area
+				area = katsina_area
+				area = free_state_area
+				area = limpopo_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			egypt_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_niger_area
+			 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			atacora_oueme_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			adamawa_plateau_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			zazzau_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hausa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			katsina_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			free_state_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			limpopo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_africa_expanded"
+				duration = 5475
+			}
+		}
+	}
+	
+	ont_british_empire = {
+		icon = mission_monarch_in_throne_room
+		required_missions = { ont_english_bases ont_expand_africa ont_colonize_australia }
+		position = 9
+		trigger = {
+			british_isles_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			#hidden_effect = {
+			#	country_event = { id = flavor_CAN.9 }
+			#}
+			#tooltip = {
+				add_prestige = 50
+				add_country_modifier = {
+					name = "canadian_british_empire"
+					duration = -1
+				}
+			#}
+		}
+	}
+}
+
+ont_asia = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	ont_colonize_france = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { que_ont_discover_europe }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = france_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = yes
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_france.tooltip
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 5
+					region = france_region
+					is_city = yes
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "canadian_france"
+				duration = 7300
+			}
+			france_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					any_subject_country = {
+						is_colonial_nation_of = ROOT
+						capital_scope = {
+							colonial_region = colonial_western_europe
+						}
+					}
+					OR = {
+						QUE = {
+							is_subject_of = ROOT
+						}
+						any_owned_province = {
+							culture = quebecois
+						}
+					}
+				}
+				country_event = { id = flavor_CAN.6 }
+			}
+		}
+	}
+	
+	ont_restore_france = {
+		icon = mission_assemble_an_army
+		required_missions = { ont_colonize_france }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				region = france_region
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			france_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 7300
+			}
+		}
+	}
+	
+	ont_india_expansion = {
+		icon = mission_trade_company_region_abroad
+		required_missions = { ont_restore_britain }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = west_bengal_area
+				area = north_bengal_area
+				area = east_bengal_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			west_bengal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_bengal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_bengal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "east_india_trade_rush"
+				duration = 9125 #25 years
+			}
+			new_south_wales_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			cook_strait_area  = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ont_colonize_australia = {
+		icon = mission_sea_battles
+		required_missions = { ont_india_expansion }
+		position = 8
+		
+		provinces_to_highlight = {
+			OR = {
+				area = new_south_wales_area
+				area = cook_strait_area
+			}
+		}
+		
+		trigger = {
+			new_south_wales_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cook_strait_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+				
+		}
+		effect = {
+			australia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			new_zealand_region  = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+que_ont_military = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_army = {
+		icon = mission_assemble_an_army
+		required_missions = { que_ont_mantle }
+		position = 11
+		trigger = {
+			upper_ontario_area = {
+				fort_level = 2
+				owned_by = ROOT
+			}
+			4570 = {
+				fort_level = 2
+			}
+			talbot_area = {
+				fort_level = 2
+				owned_by = ROOT
+			}
+			quinte_area = {
+				fort_level = 2
+				owned_by = ROOT
+			}
+			notre_dame_mountains_area = {
+				fort_level = 2
+				owned_by = ROOT
+			}
+			upper_acadia_area = {
+				fort_level = 2
+				owned_by = ROOT
+			}
+			army_size = 120
+			num_of_heavy_ship = 25 
+			num_of_light_ship = 25
+			num_of_galley = 30
+			
+		}
+		effect = {
+			add_mil_power = 100
+			add_country_modifier = {
+				name = "canadian_military"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_ont_hcc = {
+		icon = mission_conquer_50_development
+		required_missions = { que_ont_army }
+		position = 12
+		trigger = {
+			AND = {
+					NOT = { hre_size = 1 }
+					NOT = { exists = HLR }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_hcc"
+				duration = 10950
+			}
+		}
+	}
+}
+
+que_ont_government = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_mantle = {
+		icon = mission_have_two_subjects
+		required_missions = { }
+		position = 10
+		provinces_to_highlight = {
+			province_id = 2670
+			province_id = 4537
+			province_id = 993
+			province_id = 4533
+			province_id = 2570
+			province_id = 4551
+			NOT = {
+				OR = {
+					owned_by = ROOT
+					is_core = ROOT
+				}
+			}
+		}
+		trigger = {
+			owns_core_province = 2670 #Toronto
+			owns_core_province = 4537 #Ottawa
+			owns_core_province = 993 #Montreal
+			owns_core_province = 4533 #Cap Diamant
+			owns_core_province = 2570 #St John
+			owns_core_province = 4551 #Halifax
+			OR = {
+				government_rank = 3
+				total_development = 600
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_mantle"
+				duration = 7300
+			}
+			}
+	}
+	
+	que_ont_cabinet = {
+		icon = mission_alliances
+		required_missions = { que_ont_mantle }
+		position = 11
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = que_ont_cabinet.tooltip.1
+				OR = {
+					philosopher = 2
+					natural_scientist = 2
+					artist = 2
+					treasurer = 2
+					theologian = 2
+					master_of_mint = 2
+					inquisitor = 2
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = que_ont_cabinet.tooltip.2
+				OR = {
+					statesman = 2
+					naval_reformer = 2
+					trader = 2
+					spymaster = 2
+					colonial_governor = 2
+					diplomat = 2
+					navigator = 2
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = que_ont_cabinet.tooltip.3
+				OR = {
+					army_reformer = 2
+					army_organiser = 2
+					commandant = 2
+					quartermaster = 2
+					recruitmaster = 2
+					fortification_expert = 2
+					grand_captain = 2
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_cabinet"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_ont_parliament = {
+		icon = mission_alliances
+		required_missions = { que_ont_cabinet }
+		position = 12
+		trigger = {
+			OR = {
+				has_parliament = yes
+				has_reform = parliamentary_reform
+				has_reform = constitutional_monarchy
+				has_reform = constitutional_republic
+				has_reform = parliamentary_reform
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "canadian_parliament"
+				duration = 5475
+			}
+		}
+	}
+	
+	que_ont_true_north = {
+		icon = mission_empire
+		required_missions = { que_ont_hcc que_ont_parliament que_ont_stability }
+		position = 13
+		trigger = {
+			stability = 2
+		}
+		effect = {
+			add_prestige = 20
+			add_dip_power = 200
+			add_adm_power = 200
+			add_mil_power = 200
+			add_country_modifier = {
+				name = "canadian_true_north"
+				duration = 18250 #50 years
+			}
+		}
+	}
+}
+
+que_ont_peace = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = QUE
+			tag = ONT
+		}
+	}
+	has_country_shield = yes
+	
+	que_ont_unity = {
+		icon = mission_european_church
+		required_missions = { que_ont_mantle }
+		position = 11
+		
+		trigger = {
+			religious_unity = 1
+		}
+		
+		effect = {
+			add_stability = 1
+			add_corruption = -2
+			add_church_power = 100
+			add_papal_influence = 30
+		}
+	}
+	
+	que_ont_stability = {
+		icon = mission_high_income
+		required_missions = { que_ont_unity }
+		position = 12
+		
+		trigger = {
+			stability = 3
+			all_province = {
+				NOT = { unrest = 0.01 }
+			}
+			NOT = { num_of_rebel_controlled_provinces = 1 }
+			NOT = { num_of_rebel_armies = 1 }
+			NOT = { war_exhaustion = 0.01 }
+			has_truce = ROOT
+		}
+		effect = {
+			add_prestige = 25
+			add_country_modifier = {
+				name = "canadian_peace"
+				duration = 10950
+			}
+		}
+	}
+}
