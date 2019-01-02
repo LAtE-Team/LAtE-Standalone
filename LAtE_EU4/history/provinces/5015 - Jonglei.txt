@@ -3,8 +3,8 @@
 owner = KON
 controller = KON
 add_core = KON
-culture = kongolese
-religion = ahmadi
+culture = nubian #Shilluk
+religion = zar
 capital = "Mading Bor"
 trade_goods = livestock
 hre = no

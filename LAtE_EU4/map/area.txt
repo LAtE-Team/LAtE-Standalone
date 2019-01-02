@@ -1422,15 +1422,23 @@ uele_ubangi_area = {
 }
 
 upper_congo_area = {
-	5002 5009 5011 5012 5014
+	5009 5011 5012 5014
 }
 
 car_area = {
-	5005 5006 5008
+	1157 5005 5008 5021 5022
+}
+
+chari_area = {
+	5027 5028 5029
+}
+
+white_nile_area = {
+	2801 5015 5023 5024 5025
 }
 
 east_congo_area = {
-	4081 4999 1901 2949
+	4081 4999 1901 2949 5002
 }
 
 west_congo_area = {
@@ -1447,7 +1455,7 @@ ogaden_area = { #5
 }
 
 darfur_central_sahara_area = { #5
-	774 1219 2801 2802 2932
+	774 1219 2802 2932 5026
 }
 
 kurdufan_area = { #3
@@ -1488,7 +1496,7 @@ somaliland_area = { #5
 }
 
 southern_ethiopia_area = { #4
-	2757 2758 2759 4158 5015
+	2757 2758 2759 4158
 }
 
 hadiya_area = { #3
@@ -1672,15 +1680,19 @@ zazzau_area = { #4
 	1150 1154 2278 2293
 }
 
-bornu_area = { #5
-	1157 1160 2282 2283 2284
+chad_area = { #5
+	1158 1159 2287 2288
 }
 
-kanem_area = { #5
-	1158 1159 2286 2287 2288
+bornu_area = {
+	1157 2282 2283 2284
 }
 
-adamawa_plateau_area = { #4
+logone_area = {
+	1160 2286 5006
+}
+
+adamawa_plateau_area = {
 	1161 1162 1249 2285
 }
 
@@ -1701,7 +1713,7 @@ atacora_oueme_area = { #5
 }
 
 gulf_of_guinea_area = { #4
-	1151 1163 1164 1165 5016
+	1151 1163 1164 1165 5016 5020
 }
 
 benin_area = { #4
@@ -4131,14 +4143,10 @@ sarat_area = {
 	
 }
 
-ad_dahna_area = {
+ad_dahna_area = {}
 
-}
+najd_area = {}
 
-najd_area = {
+kongo_area = {}
 
-}
-
-kongo_area = {
-
-}
+kanem_area = {}

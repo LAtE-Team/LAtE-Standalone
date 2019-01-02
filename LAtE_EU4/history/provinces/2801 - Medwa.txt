@@ -1,6 +1,6 @@
 #2801 - Medwa
 
-culture = nubian 
+culture = nubian #Shilluk
 religion = zar
 capital = "Medowa"
 native_size = 50

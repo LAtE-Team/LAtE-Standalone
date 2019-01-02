@@ -1795,7 +1795,7 @@ province;red;green;blue;x;x
 1794;202;46;173;Central Sahara;x
 1795;74;48;32;East Sahara;x
 1796;202;50;79;Central Africa;x
-1797;74;52;126;Inner Kongo;x
+1797;74;52;126;Inner Congo;x
 1798;202;54;173;Imatong;x
 1799;74;56;32;Urgoma;x
 1800;203;58;79;Gaza;x
@@ -4877,6 +4877,18 @@ province;red;green;blue;x;x
 5014;234;103;12;Ituri;x
 5015;176;213;36;Jonglei;x
 5016;134;103;225;Mbini;x
-
+5017;58;33;209;Upper Congo;x
+5018;231;228;185;Equator Jungle;x
+5019;255;213;55;Western High Plateau;x
+5020;36;112;118;Yaounde;x
+5021;158;36;185;Vakaga;x
+5022;58;21;197;Mambere;x
+5023;103;103;137;Wau;x
+5024;158;106;185;Juba;x
+5025;24;73;106;Lakes;x
+5026;18;128;46;Janob Darfor;x
+5027;197;43;118;Guera;x
+5028;103;97;197;Salamat;x
+5029;103;200;185;Moyen-Chari;x
 
 

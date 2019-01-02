@@ -1,0 +1,18 @@
+#5025 Lakes
+
+owner = KON
+controller = KON
+add_core = KON
+culture = nubian #Shilluk
+religion = zar
+capital = "Rumbek"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+is_city = yes
+discovered_by = central_african

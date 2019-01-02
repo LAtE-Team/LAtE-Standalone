@@ -1795,11 +1795,11 @@
  PROV1794:0 "Central Sahara"
  PROV1795:0 "East Sahara"
  PROV1796:0 "Central Africa"
- PROV1797:0 "Northern Congo Basin"
+ PROV1797:0 "Inner Congo"
  PROV1798:0 "Imatong"
  PROV1799:0 "Urgoma"
  PROV1800:0 "Gaza"
- PROV1801:0 "Angolan Exclusion Zone"	#Was Kalahari
+ PROV1801:0 "Angolan Exclusion Zone"
  PROV1802:0 "Western Amazonas"
  PROV1803:0 "Eastern Amazonas"
  PROV1804:0 "Greenland"
@@ -3953,6 +3953,19 @@
  PROV5014:0 "Ituri"
  PROV5015:0 "Jonglei"
  PROV5016:0 "Mbini"
+ PROV5017:0 "Upper Congo"
+ PROV5018:0 "Equator Jungle"
+ PROV5019:0 "Western High Plateau"
+ PROV5020:0 "Yaounde"
+ PROV5021:0 "Vakaga"
+ PROV5022:0 "Mambéré"
+ PROV5023:0 "Wau"
+ PROV5024:0 "Juba"
+ PROV5025:0 "Lakes"
+ PROV5026:0 "Janob Darfor"
+ PROV5027:0 "Guéra"
+ PROV5028:0 "Salamat"
+ PROV5029:0 "Moyen-Chari"
 
 
 

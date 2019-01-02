@@ -1,0 +1,17 @@
+#5028 Salamat
+
+culture = bilala
+religion = voodoo
+capital = "Am Timan"
+base_manpower = 1
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = sub_saharan

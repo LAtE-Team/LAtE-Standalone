@@ -446,6 +446,9 @@ sahel_region = {
 		baghena_area
 		niger_bend_area
 		east_azbin_area
+		white_nile_area
+		car_area
+		chari_area
 	}
 	monsoon = {
 		00.06.01
@@ -543,7 +546,6 @@ kongo_region = {
 		east_congo_area
 		west_congo_area
 		uele_ubangi_area
-		car_area
 	}
 	monsoon = {
 		00.02.01
