@@ -1,12 +1,12 @@
-
+#Copperbelt
 owner = KTG
 controller = KTG
 add_core = KTG
 is_city = yes
 culture = bemba
 religion = mwari
-trade_goods = unknown
-capital = "Kaonde"
+trade_goods = copper
+capital = "Kitwe"
 hre = no
 base_tax = 1 
 base_production = 1

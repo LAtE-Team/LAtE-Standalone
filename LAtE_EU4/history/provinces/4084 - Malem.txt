@@ -1,7 +1,7 @@
-
+#Bie
 culture = mbangala
 religion = mwari
-capital = "Malem"
+capital = "Kuito"
 trade_goods = unknown
 hre = no
 base_tax = 1

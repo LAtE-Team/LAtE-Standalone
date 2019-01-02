@@ -1,11 +1,11 @@
-#1188 - Masapa
+#1188 - Masapa now Mashonaland
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = shona
 religion = mwari
-capital = "Massapa"
+capital = "Chinhoyi"
 is_city = yes
 base_manpower = 1
 trade_goods = gold

@@ -1,4 +1,4 @@
-#1190 - Zumbo
+#1190 - Zumbo now Lusaka
 
 owner = ZIM
 controller = ZIM
@@ -6,7 +6,7 @@ add_core = ZIM
 culture = shona
 religion = mwari
 is_city = yes
-capital = "Chikova"
+capital = "Lusaka"
 trade_goods = ivory
 hre = no
 base_tax = 2 

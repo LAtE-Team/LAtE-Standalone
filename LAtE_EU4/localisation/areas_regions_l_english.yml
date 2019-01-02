@@ -2945,9 +2945,24 @@
  apacheria_area:0 "Apacheria"
  apacheria_area_adj:0 "Apacherian"
  apacheria_area_area:0 "Apacheria"
-
-
-
+ west_congo_area:0 "West Congo"
+ west_congo_name:0 "West Congo"
+ west_congo_adj:0 "West Congolese"
+ east_congo_area:0 "East Congo"
+ east_congo_name:0 "East Congo"
+ east_congo_adj:0 "East Congolese"
+ upper_congo_area:0 "Upper Congo"
+ upper_congo_name:0 "Upper Congo"
+ upper_congo_adj:0 "Upper Congolese"
+ car_area:0 "Car"
+ car_name:0 "Car"
+ car_adj:0 "Car"
+ uele_ubangi_area:0 "Uele-Ubangi"
+ uele_ubangi_name:0 "Uele-Ubangi"
+ uele_ubangi_adj:0 "Uele-Ubangi"
+ southern_angola_area:0 "Southern Angola"
+ southern_angola_name:0 "Southern Angola"
+ southern_angola_adj:0 "Southern Angolan"
 
 
 

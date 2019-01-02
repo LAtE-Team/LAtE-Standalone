@@ -1,3 +1,5 @@
+#Kalahari now Boteti
+
 culture = tsawana
 religion = mwari 
 trade_goods = unknown 

@@ -1,5 +1,6 @@
 culture = nguni
 religion = mwari 
+capital = "Johannesburg"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

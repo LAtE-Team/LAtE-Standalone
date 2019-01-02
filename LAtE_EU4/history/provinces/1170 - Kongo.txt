@@ -1,4 +1,4 @@
-#1170 - Kongo
+#1170 - Kongo now Namibe
 
 owner = KON
 controller = KON
@@ -6,7 +6,7 @@ add_core = KON
 is_city = yes
 culture = kongolese
 religion = ahmadi
-capital = "M'banza Kongo"
+capital = "Moçâmedes"
 trade_goods = unknown
 hre = no
 base_tax = 4 
@@ -17,4 +17,3 @@ native_ferocity = 1
 native_hostileness = 3
 discovered_by = central_african
 discovered_by = sub_saharan
-center_of_trade = 2

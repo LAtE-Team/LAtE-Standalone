@@ -1,5 +1,7 @@
+#Sesheke
 culture = bemba
 religion = mwari 
+capital = "Sesheke"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

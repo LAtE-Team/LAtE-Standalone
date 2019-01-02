@@ -1,8 +1,8 @@
-# - Mbamba
+# - now Quicama
 
 culture = kongolese
 religion = ahmadi
-capital = "Lovata"
+capital = "Muxima"
 trade_goods = unknown
 hre = no
 base_tax = 2 

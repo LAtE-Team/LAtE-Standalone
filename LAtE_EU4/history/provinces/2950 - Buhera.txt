@@ -1,11 +1,11 @@
-#2950 - Buhera
+#2950 - Buhera now Harare
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = shona
 religion = mwari
-capital = "Buhera"
+capital = "Harare"
 is_city = yes
 base_manpower = 1
 trade_goods = ivory

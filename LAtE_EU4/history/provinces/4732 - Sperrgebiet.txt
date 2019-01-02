@@ -1,5 +1,7 @@
+#Huambo
 culture = afrikaner
 religion = mwari 
+capital = "Huambo"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

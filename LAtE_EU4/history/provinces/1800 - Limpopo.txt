@@ -1,8 +1,8 @@
-#1800 - Limpopo
+#1800 - Limpopo now Gaza
 
 culture = nguni
 religion = mwari
-capital = "Gaza"
+capital = "Xai-Xai"
 trade_goods = unknown
 hre = no
 base_tax = 1

@@ -535,9 +535,15 @@ kongo_region = {
 		coastal_kongo
 		kongo_area
 		angola_namibia_area
+		southern_angola_area
 		matamba_area
 		lower_kasai
 		kasai_area
+		upper_congo_area
+		east_congo_area
+		west_congo_area
+		uele_ubangi_area
+		car_area
 	}
 	monsoon = {
 		00.02.01

@@ -1,11 +1,11 @@
-#1184 - Zimbabwe
+#1184 - Zimbabwe now Masvingo
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = shona
 religion = mwari
-capital = "Zimbabwe"
+capital = "Masvingo"
 is_city = yes
 base_manpower = 2
 trade_goods = gold

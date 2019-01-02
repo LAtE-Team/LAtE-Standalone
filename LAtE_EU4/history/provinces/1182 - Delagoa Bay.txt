@@ -1,11 +1,11 @@
-#1182 - Delagoa Bay
+#1182 - Delagoa Bay now Maputo
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = nguni
 religion = mwari
-capital = "Xefina"
+capital = "Maputo"
 trade_goods = ivory
 hre = no
 base_tax = 4 

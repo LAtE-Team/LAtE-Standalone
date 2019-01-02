@@ -1,11 +1,11 @@
-
+#Lunda Sul
 owner = KTG
 controller = KTG
 add_core = KTG
 is_city = yes
 culture = lunda
 religion = ahmadi
-capital = "Lwena"
+capital = "Saurimo"
 trade_goods = ivory
 hre = no
 base_tax = 2

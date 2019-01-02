@@ -1,5 +1,7 @@
+#Livingstone
 culture = bemba
 religion = mwari 
+capital = "Livingstone"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

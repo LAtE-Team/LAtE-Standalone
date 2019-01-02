@@ -1,11 +1,11 @@
-#1185 - Uteve
+#1185 - Uteve now Midlands
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = shona
 religion = mwari
-capital = "Khami"
+capital = "Gweru"
 is_city = yes
 base_manpower = 1
 trade_goods = gold

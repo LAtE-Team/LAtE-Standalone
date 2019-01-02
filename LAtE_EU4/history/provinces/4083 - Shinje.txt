@@ -1,7 +1,7 @@
-
+#now Cafunfo
 culture = mbangala
 religion = mwari
-capital = "Shinje"
+capital = "Cafunfo"
 trade_goods = unknown
 hre = no
 base_tax = 2

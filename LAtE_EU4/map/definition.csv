@@ -1166,12 +1166,12 @@ province;red;green;blue;x;x
 1165;175;54;173;Gabon;x
 1166;47;236;32;Loango;x
 1167;175;58;79;Luanda;x
-1168;206;217;77;Nsoyo;x
-1169;175;62;173;Mayombe;x
-1170;48;64;32;Congo;x
-1171;176;66;79;Ndongo;x
+1168;206;217;77;Quicama;x
+1169;175;62;173;Anziku;x
+1170;48;64;32;Namibe;x
+1171;176;66;79;Cuanza Sul;x
 1172;48;68;126;Benguela;x
-1173;176;70;173;Namibia;x
+1173;176;70;173;Skeleton Coast;x
 1174;48;172;32;Angra Pequena;x
 1175;176;74;79;Lesser Namaqualand;x
 1176;48;76;126;Roggeveld;x
@@ -1180,16 +1180,16 @@ province;red;green;blue;x;x
 1179;177;82;79;Swellendam;x
 1180;49;84;126;Transkei;x
 1181;177;86;173;Natal;x
-1182;49;88;32;Delagoa Bay;x
+1182;49;88;32;Maputo;x
 1183;177;90;79;Inhambane;x
-1184;50;92;126;Zimbabwe;x
-1185;178;94;173;Uteve;x
+1184;50;92;126;Masvingo;x
+1185;178;94;173;Midlands;x
 1186;50;96;32;Sofala;x
-1187;178;98;79;Urungwe;x
-1188;50;100;126;Tete;x
-1189;178;202;173;Barwe;x
-1190;50;104;32;Zumbo;x
-1191;179;106;79;Sena;x
+1187;178;98;79;Zambezi;x
+1188;50;100;126;Mashonaland;x
+1189;178;202;173;Matabeleland;x
+1190;50;104;32;Lusaka;x
+1191;179;106;79;Tete;x
 1192;51;108;126;Quelimane;x
 1193;179;110;173;Menabe;x
 1194;51;212;32;Besalampy;x
@@ -1798,8 +1798,8 @@ province;red;green;blue;x;x
 1797;74;52;126;Inner Kongo;x
 1798;202;54;173;Imatong;x
 1799;74;56;32;Urgoma;x
-1800;203;58;79;Limpopo;x
-1801;75;60;126;Kalahari;x
+1800;203;58;79;Gaza;x
+1801;75;60;126;Angolan Exclusion Zone;x
 1802;203;62;173;Northern Amazonas;x
 1803;75;64;32;Southern Amazonas;x
 1804;203;66;79;Greenland;x
@@ -1899,7 +1899,7 @@ province;red;green;blue;x;x
 1898;15;0;232;Tonie Sap Lake;x
 1899;16;0;236;Tana lake;x
 1900;17;0;240;Lake Turkana;x
-1901;81;104;191;Mpangu;x
+1901;81;104;191;M'banza-Ngungu;x
 1902;19;0;248;Lake Poopo;x
 1903;20;0;232;Lake Champlain;x
 1904;21;0;236;Lac Saint Jean;x
@@ -2946,11 +2946,11 @@ province;red;green;blue;x;x
 2945;121;162;208;Yurimaguas;x
 2946;42;72;201;Quillacas;x
 2947;68;225;26;Macaya;x
-2948;196;104;191;Matamba;x
-2949;72;198;51;Mbata;x
-2950;32;218;173;Buhera;x
-2951;236;57;116;Manikya;x
-2952;236;220;116;Madanda;x
+2948;196;104;191;Malanje;x
+2949;72;198;51;M'banza-Kongo;x
+2950;32;218;173;Harare;x
+2951;236;57;116;Manica;x
+2952;236;220;116;Manicaland;x
 2953;236;222;116;Hjälmaren;x
 2954;29;59;159;Djerba;x
 2955;107;121;191;Ingolstadt;x
@@ -4044,7 +4044,7 @@ province;red;green;blue;x;x
 4043;171;67;109;Phangwa;x
 4044;219;159;183;Ngonde;x
 4045;44;123;42;Tumbuka;x
-4046;106;189;104;Lala;x
+4046;106;189;104;Mkushi;x
 4047;33;220;28;Nsenga;x
 4048;225;80;159;Lomwe;x
 4049;123;127;208;Ibo;x
@@ -4079,21 +4079,21 @@ province;red;green;blue;x;x
 4078;219;94;40;Mayumba;x
 4079;220;158;209;Ngoyo;x
 4080;120;115;207;Soyo;x
-4081;82;225;176;Tyo;x
-4082;217;90;204;Kasanje;x
-4083;217;173;199;Shinje;x
-4084;32;114;111;Malem;x
+4081;82;225;176;Kinshasa;x
+4082;217;90;204;Cambundi;x
+4083;217;173;199;Cafunfo;x
+4084;32;114;111;Bie;x
 4085;87;220;115;Kenge;x
 4086;219;217;53;Kwilu;x
-4087;52;121;25;Kumbana;x
+4087;52;121;25;Lucapa;x
 4088;213;60;93;Kasai;x
 4089;96;201;25;Tshilenge;x
 4090;219;217;76;Sankuru;x
 4091;101;224;33;Lulua;x
 4092;140;15;150;Mweru;x
-4093;150;15;175;Lwena;x
-4094;160;15;200;Chokwe;x
-4095;170;15;100;Ishindi;x
+4093;150;15;175;Lunda Sul;x
+4094;160;15;200;Alto Zambeze;x
+4095;170;15;100;Solwezi;x
 4096;180;15;150;Kabinda;x
 4097;190;15;175;Kaniama;x
 4098;200;15;200;Upemba;x
@@ -4104,9 +4104,9 @@ province;red;green;blue;x;x
 4103;250;15;100;Kalemie;x
 4104;207;15;150;Lubumbashi;x
 4105;207;15;175;Kasongo;x
-4106;207;15;200;Lenje;x
+4106;207;15;200;Kabwe;x
 4107;197;15;100;Kanongesha;x
-4108;207;15;100;Kaonde;x
+4108;207;15;100;Copperbelt;x
 4109;197;15;150;South-Kivu;x
 4110;231;127;43;Sutherland;x
 4111;119;212;150;Saintonge;x
@@ -4593,8 +4593,8 @@ province;red;green;blue;x;x
 4729;90;202;227;Johannesburg;x
 4730;169;239;22;Ermelo;x
 4731;228;239;22;Swaziland;x
-4732;44;187;225;Sperrgebiet;x
-4733;179;179;31;Naukluft;x
+4732;44;187;225;Huambo;x
+4733;179;179;31;Cunene;x
 4734;40;128;201;Il Karas;
 4735;149;130;78;Obispo;x
 4736;89;228;79;Ventura;x
@@ -4728,11 +4728,11 @@ province;red;green;blue;x;x
 4864;107;134;89;Oshikoto;x
 4865;91;255;78;Kavongo;x
 4866;220;108;8;Okavongo;x
-4867;162;249;117;Khaudum;x
+4867;162;249;117;Huila;x
 4868;255;22;158;Tlhabologo ;x
 4869;45;97;221;Ghanzi;x
 4870;44;216;93;Kweneg;x
-4871;226;13;31;Kalahari;x
+4871;226;13;31;Boteti;x
 4872;19;156;131;Serowe;x
 4873;4;222;70;Francistown;x
 4874;195;171;74;Mahalapye;x
@@ -4740,8 +4740,8 @@ province;red;green;blue;x;x
 4876;191;46;189;Chobe;x
 4877;66;82;216;Kanye;x
 4878;174;216;163;Mahikeng;x
-4879;224;193;166;Senanga;x
-4880;104;41;204;Kazungala;x
+4879;224;193;166;Sesheke;x
+4880;104;41;204;Livingstone;x
 4881;121;253;118;Kaoma;x
 4882;10;23;164;Lumbala N'guimbo;x
 4883;181;190;95;Crowly;x
@@ -4877,30 +4877,6 @@ province;red;green;blue;x;x
 5014;234;103;12;Ituri;x
 5015;176;213;36;Jonglei;x
 5016;134;103;225;Mbini;x
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

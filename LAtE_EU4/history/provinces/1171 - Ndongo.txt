@@ -1,8 +1,8 @@
-#1171 - Ndongo
+#1171 - Ndongo now Cuanza Sul
 
 culture = mbundu
 religion = mwari
-capital = "Kabasa"
+capital = "Sumbe"
 trade_goods = unknown
 hre = no
 base_tax = 2 

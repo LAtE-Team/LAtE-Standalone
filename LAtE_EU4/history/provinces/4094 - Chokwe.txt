@@ -1,11 +1,11 @@
-
+#Alto Zambeze
 owner = KTG
 controller = KTG
 add_core = KTG
 is_city = yes
 culture = chokwe
 religion = mwari
-capital = "Chokwe"
+capital = "Cazombo"
 trade_goods = ivory
 hre = no
 base_tax = 1

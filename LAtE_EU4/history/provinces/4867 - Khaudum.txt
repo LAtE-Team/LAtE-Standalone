@@ -1,5 +1,8 @@
+#Khaudum now Huíla
+
 culture = tsawana
 religion = mwari 
+capital = "Lubango"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

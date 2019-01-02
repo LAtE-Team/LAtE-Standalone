@@ -1,7 +1,8 @@
-#4046 - Lala
+#4046 - Lala now Mkushi
 
 culture = bemba
 religion = mwari
+capital = "Mkushi"
 trade_goods = unknown
 hre = no
 base_tax = 1 

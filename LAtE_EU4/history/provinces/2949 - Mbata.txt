@@ -1,4 +1,4 @@
-# - Mbata
+# - Mbata now M'banza-Kongo
 
 owner = KON
 controller = KON
@@ -6,7 +6,7 @@ add_core = KON
 is_city = yes
 culture = kongolese
 religion = ahmadi
-capital = "Mbata"
+capital = "M'banza-Kongo"
 trade_goods = unknown
 hre = no
 base_tax = 2 

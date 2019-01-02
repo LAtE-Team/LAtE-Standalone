@@ -1334,7 +1334,7 @@ ngonde_area = { #3
 }
 
 mozambique_area = { #4
-	788 1195 4049 4020
+	788 1192 1195 4049 4020 
 }
 
 uticulo_makuana_area = { #3
@@ -1342,7 +1342,7 @@ uticulo_makuana_area = { #3
 }
 
 quelimane_area = { #3
-	1183 1186 1192
+	1183 1186
 }
 
 # limpopo_area = { #4
@@ -1386,7 +1386,7 @@ luba_area = { #4
 }
 
 katanga_area = { #5
-	4098 4100 4101 4102 4103
+	4092 4098 4100 4102 4103
 }
 
 zambia_area = { #3
@@ -1410,16 +1410,36 @@ bunyoro_area = { #3
 }
 
 kasai_area = { #5
-	4083 4087 4091 4092 4093
+	4083 4087 4091 4093 4101
 }
 
 sankuru_area = { #3
 	4089 4090 4096
 }
 
+uele_ubangi_area = {
+	5004 5007 5010 5013
+}
+
+upper_congo_area = {
+	5002 5009 5011 5012 5014
+}
+
+car_area = {
+	5005 5006 5008
+}
+
+east_congo_area = {
+	4081 4999 1901 2949
+}
+
+west_congo_area = {
+	1169 4997 4998 5001 5003
+}
+
 lower_kasai = { #4
 	color = { 66 114 224 }
-	4081 4085 4086 4088 4997 4998 4999 5000 5001 5002 5003 5004 5005 5006 5007 5008 5009 5010 5011 5012 5013 5014 5015
+	4085 4086 4088 5000
 }
 
 ogaden_area = { #5
@@ -1468,7 +1488,7 @@ somaliland_area = { #5
 }
 
 southern_ethiopia_area = { #4
-	2757 2758 2759 4158
+	2757 2758 2759 4158 5015
 }
 
 hadiya_area = { #3
@@ -1677,7 +1697,7 @@ east_azbin_area = { #3
 }
 
 atacora_oueme_area = { #5
-	1140 1143 2291 2292 2295
+	1140 1143 2292 2295 
 }
 
 gulf_of_guinea_area = { #4
@@ -1693,7 +1713,7 @@ sao_tome_area = { #2
 }
 
 west_africa_coast_area = { #5
-	1138 1139 1141 2258 
+	1138 1139 1141 2258 2291 
 }
 
 guinea_coast_area = { #4
@@ -1705,19 +1725,19 @@ south_atlantic_islands_area = { #3
 }
 
 matamba_area = { #3
-	2948 4082 4084
+	798 2948 4082 4084
 }
 
 coastal_kongo = { #5
-	1166 1168 4078 4079 4080
-}
-
-kongo_area = { #5
-	798 1169 1170 1901 2949
+	1166 4078 4079 4080
 }
 
 angola_namibia_area = { #4
-	1167 1171 1172 
+	1167 1168 1171 1172 
+}
+
+southern_angola_area = {
+	1170 4732 4733 4867
 }
 
 cape_of_good_hope_area = { #5
@@ -3954,11 +3974,11 @@ panama_area = { #5
 #Africa
 
 nambia_area = {
-	4732 4733 1174 4861 
+	1174 4861 4862 4868
 }
 
 northern_namibia_area = {
-	4862 4863 4865 4864 4868
+	4863 4865 4864
 }
 
 limpopo_area = { #Natal
@@ -3978,7 +3998,7 @@ central_botswana_area = {
 }
 
 northern_botswana_area = {
-	4871 4875 4876 4866 4867
+	4871 4875 4876 4866
 }
 
 southern_botswana_area = {
@@ -4116,5 +4136,9 @@ ad_dahna_area = {
 }
 
 najd_area = {
+
+}
+
+kongo_area = {
 
 }

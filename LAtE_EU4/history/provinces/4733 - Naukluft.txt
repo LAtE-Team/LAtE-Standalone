@@ -1,5 +1,8 @@
+#naukluft now cunene
+
 culture = afrikaner
 religion = mwari 
+capital = "Ondjiva"
 trade_goods = unknown 
 hre = no 
 base_tax = 1

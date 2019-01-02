@@ -1,11 +1,11 @@
-#1187 - Sena
+#1187 - Sena now Zambezi
 
 owner = ZIM
 controller = ZIM
 add_core = ZIM
 culture = shona
 religion = mwari
-capital = "Sena"
+capital = "Marromeu"
 is_city = yes
 base_manpower = 2
 trade_goods = ivory
