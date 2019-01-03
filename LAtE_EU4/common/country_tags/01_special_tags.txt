@@ -92,10 +92,23 @@ KIM = countries/Kimberley.txt
 KRZ = countries/Kurtz.txt
 ZUL = countries/KwaZulu.txt
 GQA = countries/Griqualand.txt
-LIB = countries/Liberia.txt
+LBR = countries/Liberia.txt
 MSE = countries/MosEisley.txt
 NGR = countries/Nigeria.txt
 SEF = countries/Setheefrika.txt
+CBD = countries/Cabinda.txt
+DRC = countries/Kinshasa.txt
+RCO = countries/Brazzaville.txt
+KSI = countries/Kasai.txt
+ANG = countries/Angola.txt
+BOT = countries/Botswana.txt
+MOZ = countries/Mozambique.txt
+MWI = countries/Malawi.txt
+NAM = countries/Namibia.txt
+ZAM = countries/Zambia.txt
+ZMB = countries/Zimbabwe.txt
+LSO = countries/Lesotho.txt
+SWZ = countries/Swaziland.txt
 
 # Middle East
 ISR = countries/Israel.txt

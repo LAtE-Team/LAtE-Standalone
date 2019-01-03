@@ -154,12 +154,12 @@ ural_region = {
 
 iberia_region = {
 	areas = {
-		aragon_area
+		#aragon_area
 		catalonia_area
 		valencia_area
 		lower_andalucia_area
 		upper_andalucia_area
-		castille_area
+		#castille_area
 		toledo_area
 		asturias_area
 		leon_area
@@ -1037,7 +1037,7 @@ moluccas_region = {
 		ceram_area
 		spice_islands_area
 		#LAtE
-		south_great_moluccas_area
+		#south_great_moluccas_area
 	}
 	monsoon = {
 		00.10.01
@@ -1281,7 +1281,7 @@ california_region = {
 
 cascadia_region = {
 	areas = {
-		oregon_area
+		#oregon_area
 		columbia_river_area
 		snake_river_area
 		salish_sea_area
@@ -1337,7 +1337,7 @@ mexico_region = {
 		durango_area
 		jalisco_area
 		gran_chichimeca_area
-		nayarit_area
+		#nayarit_area
 		zacatecas_area
 		tierra_caliente_area
 		puebla_area
@@ -1379,7 +1379,7 @@ central_america_region = {
 		yucatan_area
 		east_yucatan_area
 		chiapas_area
-		guatemala_lowlands_area
+		#guatemala_lowlands_area
 		costa_rica_area
 		campeche_area
 		#AtE Additions

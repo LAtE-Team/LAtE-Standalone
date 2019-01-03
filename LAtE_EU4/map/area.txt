@@ -1741,7 +1741,7 @@ matamba_area = { #3
 }
 
 coastal_kongo = { #5
-	1166 4078 4079 4080
+	1166 4078 4079 4080 5030
 }
 
 angola_namibia_area = { #4

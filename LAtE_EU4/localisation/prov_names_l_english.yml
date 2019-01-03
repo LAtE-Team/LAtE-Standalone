@@ -2946,7 +2946,7 @@
  PROV2946:0 "Quillacas"
  PROV2947:0 "Macaya"
  PROV2948:0 "Malanje"
- PROV2949:0 "M'banza-Kongo"
+ PROV2949:0 "Mbanza-Kongo"
  PROV2950:0 "Harare"
  PROV2951:0 "Manica"
  PROV2952:0 "Manicaland"
@@ -3049,7 +3049,7 @@
  PROV4065:0 "Bunyoro"
  PROV4066:0 "Nkore"
  PROV4067:0 "Rwanda"
- PROV4068:0 "North-Kivu"
+ PROV4068:0 "North Kivu"
  PROV4069:0 "Burundi"
  PROV4070:0 "Nkoma"
  PROV4071:0 "Buyogoma"
@@ -3090,7 +3090,7 @@
  PROV4106:0 "Kabwe"
  PROV4107:0 "Kanongesha"
  PROV4108:0 "Copperbelt"
- PROV4109:0 "South-Kivu"
+ PROV4109:0 "South Kivu"
  PROV4110:0 "Sutherland"
  PROV4111:0 "Saintonge"
  PROV4112:0 "Cahors"
@@ -3819,7 +3819,7 @@
  PROV4879:0 "Sesheke"
  PROV4880:0 "Livingstone"
  PROV4881:0 "Kaoma"
- PROV4882:0 "Lumbala N'guimbo"
+ PROV4882:0 "Lumbala Nguimbo"
  PROV4883:0 "Crowly"
  PROV4884:0 "Arp"
  PROV4885:0 "Alexandria"
@@ -3966,19 +3966,7 @@
  PROV5027:0 "Guéra"
  PROV5028:0 "Salamat"
  PROV5029:0 "Moyen-Chari"
-
-
-
-
-
-
-
-
-
-
-
-
-
+ PROV5030:0 "Cabinda"
 
 
 
