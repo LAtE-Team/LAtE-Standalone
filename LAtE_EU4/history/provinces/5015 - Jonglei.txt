@@ -1,8 +1,6 @@
 #5015 Jonglei
 
-owner = KON
-controller = KON
-add_core = KON
+
 culture = nubian #Shilluk
 religion = zar
 capital = "Mading Bor"
@@ -14,5 +12,4 @@ base_manpower = 1
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-is_city = yes
 discovered_by = central_african

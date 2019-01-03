@@ -1,6 +1,9 @@
-owner = KON
-controller = KON
-add_core = KON
+
+owner = CBD
+controller = CBD
+add_core = CBD
+is_city = yes
+
 culture = kongolese
 religion = ahmadi
 capital = "Soyo"
@@ -13,6 +16,5 @@ add_local_autonomy = 25
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-is_city = yes
 discovered_by = central_african
 discovered_by = sub_saharan

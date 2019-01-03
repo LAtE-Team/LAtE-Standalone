@@ -1,4 +1,4 @@
-# - Nsoyo
+# - Nsoyo now Cuanza Norte
 
 culture = mbundu
 religion = mwari

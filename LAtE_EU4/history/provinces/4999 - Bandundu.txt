@@ -1,8 +1,10 @@
 #4999 Bandundu
 
-owner = KON
-controller = KON
-add_core = KON
+owner = DRC
+controller = DRC
+add_core = DRC
+is_city = yes
+
 culture = kongolese
 religion = ahmadi
 capital = "Bandundu"
@@ -14,5 +16,4 @@ base_manpower = 1
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-is_city = yes
 discovered_by = central_african

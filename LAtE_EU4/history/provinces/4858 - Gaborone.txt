@@ -1,3 +1,8 @@
+
+owner = BOT
+controller = BOT
+add_core = BOT
+is_city = yes
 culture = tsawana
 religion = mwari 
 trade_goods = unknown 

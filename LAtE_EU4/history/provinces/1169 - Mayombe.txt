@@ -1,8 +1,8 @@
 #1169 - Anziku
 
-owner = KON
-controller = KON
-add_core = KON
+owner = RCO
+controller = RCO
+add_core = RCO
 is_city = yes
 culture = kongolese
 religion = ahmadi

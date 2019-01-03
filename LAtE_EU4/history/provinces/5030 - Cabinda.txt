@@ -1,20 +1,20 @@
-# - Mpangu now M'banza-Ngungu
+#Cabinda
 
-owner = DRC
-controller = DRC
-add_core = DRC
+owner = CBD
+controller = CBD
+add_core = CBD
 is_city = yes
+
 culture = kongolese
 religion = ahmadi
-capital = "M'banza-Ngungu"
-trade_goods = unknown
+capital = "Cabinda"
+trade_goods = ivory
 hre = no
-base_tax = 2 
+base_tax = 3
 base_production = 2
 base_manpower = 2
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-
 discovered_by = central_african
 discovered_by = sub_saharan

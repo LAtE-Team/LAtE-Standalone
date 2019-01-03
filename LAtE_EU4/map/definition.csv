@@ -796,7 +796,7 @@ province;red;green;blue;x;x
 795;241;86;0;Potosi;x
 796;113;88;64;Arica;x
 797;241;90;128;Oruro;x
-798;215;191;212;Mbwila
+798;215;191;212;Cuanza Norte;x
 799;242;94;255;Chaco Boreal;x
 800;114;96;0;Chiquitos;x
 801;242;98;64;Caranga;x
@@ -1164,7 +1164,7 @@ province;red;green;blue;x;x
 1163;175;50;79;Calabar;x
 1164;47;52;126;Cameroon;x
 1165;175;54;173;Gabon;x
-1166;47;236;32;Loango;x
+1166;47;236;32;Pointe-Noire;x
 1167;175;58;79;Luanda;x
 1168;206;217;77;Quicama;x
 1169;175;62;173;Anziku;x
@@ -4722,7 +4722,7 @@ province;red;green;blue;x;x
 4858;147;215;47;Gaborone;x
 4859;16;248;236;Traansval;x
 4860;128;228;21;Kalagadi;x
-4861;139;73;198;Namib;x
+4861;139;73;198;Hardap;x
 4862;61;153;144;Windhoek;x
 4863;223;49;159;Otzojondjupa;x
 4864;107;134;89;Oshikoto;x

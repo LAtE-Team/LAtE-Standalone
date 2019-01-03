@@ -1,8 +1,5 @@
 #Mpasu now Lulua
-owner = KON
-controller = KON
-add_core = KON
-is_city = yes
+
 culture = lunda
 religion = ahmadi
 capital = "Kananga"

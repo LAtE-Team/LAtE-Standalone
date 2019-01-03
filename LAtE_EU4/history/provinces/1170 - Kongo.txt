@@ -1,9 +1,5 @@
 #1170 - Kongo now Namibe
 
-owner = KON
-controller = KON
-add_core = KON
-is_city = yes
 culture = mbundu
 religion = ahmadi
 capital = "Moçâmedes"

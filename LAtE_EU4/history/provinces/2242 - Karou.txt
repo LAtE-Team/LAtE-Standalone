@@ -1,8 +1,8 @@
 # No previous file for Karou
 
-owner = LIB
-controller = LIB
-add_core = LIB
+owner = LBR
+controller = LBR
+add_core = LBR
 is_city = yes
 culture = liberian
 religion = americanist

@@ -1,8 +1,8 @@
-#1174 - Angra Pequena
+#1174 - Angra Pequena now walvis bay
 
-owner = KIM
-controller = KIM
-add_core = KIM
+owner = NAM
+controller = NAM
+add_core = NAM
 is_city = yes
 culture = baster
 religion = mwari

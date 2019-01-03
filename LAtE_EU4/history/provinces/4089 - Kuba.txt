@@ -1,9 +1,6 @@
 #Kuba now Tshilenge
 
-owner = KON
-controller = KON
-add_core = KON
-is_city = yes
+
 culture = kuba
 religion = ahmadi
 capital = "Mbuji-Mayi"

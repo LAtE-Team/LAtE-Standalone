@@ -1,8 +1,6 @@
 #Songye now Sankuru
-owner = KON
-controller = KON
-add_core = KON
-is_city = yes
+
+
 culture = luba
 religion = ahmadi
 capital = "Lusambo"

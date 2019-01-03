@@ -1,8 +1,8 @@
 # - Mbata now M'banza-Kongo
 
-owner = KON
-controller = KON
-add_core = KON
+owner = CBD
+controller = CBD
+add_core = CBD
 is_city = yes
 culture = kongolese
 religion = ahmadi
