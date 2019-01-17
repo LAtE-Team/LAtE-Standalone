@@ -1,0 +1,9 @@
+government = tribal 
+add_government_reform = tribal_kingdom
+primary_culture = kongolese
+religion = ahmadi
+technology_group = central_african
+religious_school = adam_school
+
+unit_type = sub_saharan
+capital = 5030	# Cabinda
