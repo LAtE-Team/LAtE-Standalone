@@ -1,0 +1,8 @@
+# Namibia
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = central_african
+primary_culture = baster
+religion = mwari
+capital = 1174 #Walvis Bay
