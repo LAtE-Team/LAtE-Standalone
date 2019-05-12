@@ -1,4 +1,4 @@
-﻿caribeno = {
+caribeno = {
 	cubano = {
 		primary = CUB
 		dynasty_names = { "Arnaz" "de Mazariegos" }
