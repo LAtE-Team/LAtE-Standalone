@@ -677,7 +677,7 @@ oma_maritime_mod = {
 
 three_koreas_mod = {
 	local_tax_modifier = 0.1
-	cs_only_local_development_cost = -0.1
+	local_development_cost = -0.1
 }
 
 # Orissan Missions

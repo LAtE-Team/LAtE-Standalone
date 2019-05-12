@@ -1574,3 +1574,11 @@ st_lawrence_watershed_region = {
 		st_lawrence_river_area
 	}
 }
+
+#Region for unused areas - purely to prevent error log spam
+
+unused_areas_region = {
+	areas = {
+		unused_provinces_area
+	}
+}

@@ -1,4 +1,4 @@
-﻿antillais = {
+antillais = {
 	haitian = {
 		primary = HAT
 		dynasty_names = { "Dessalines" "Christophe" "Soulouque" }

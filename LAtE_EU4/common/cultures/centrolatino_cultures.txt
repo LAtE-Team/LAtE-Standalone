@@ -1,4 +1,4 @@
-﻿centrolatino = {
+centrolatino = {
 	chapin = {
 		primary = CAM
 		dynasty_names = { "Carmona" "Gallardo" "Ibáńez" }
