@@ -1,153 +1,153 @@
-caribbean_civil_war = {
-	potential = {
-		tag = CBN
-		NOT = { has_country_flag = had_cbn_civil_war }
-		is_free_or_tributary_trigger = yes
-		ARA = {
-			is_free_or_tributary_trigger = yes
-		}
-		POR = {
-			is_free_or_tributary_trigger = yes
-		}
-		government = monarchy
-		normal_or_historical_nations = yes
-		uses_doom = no
-		NOT = { is_year = 3068 }
-	}
-	can_start = {
-		NOT = { is_year = 3068 } 
-		is_at_war = no
-		has_any_disaster = no
-		any_owned_province = {
-			NOT = { has_owner_religion = yes }
-		}
-	}
-	can_stop = {
-		all_owned_province = {
-			has_owner_religion = yes
-		}
-	}
+# caribbean_civil_war = {
+	# potential = {
+		# tag = CBN
+		# NOT = { has_country_flag = had_cbn_civil_war }
+		# is_free_or_tributary_trigger = yes
+		# ARA = {
+			# is_free_or_tributary_trigger = yes
+		# }
+		# POR = {
+			# is_free_or_tributary_trigger = yes
+		# }
+		# government = monarchy
+		# normal_or_historical_nations = yes
+		# uses_doom = no
+		# NOT = { is_year = 3068 }
+	# }
+	# can_start = {
+		# NOT = { is_year = 3068 } 
+		# is_at_war = no
+		# has_any_disaster = no
+		# any_owned_province = {
+			# NOT = { has_owner_religion = yes }
+		# }
+	# }
+	# can_stop = {
+		# all_owned_province = {
+			# has_owner_religion = yes
+		# }
+	# }
 		
-	progress = {
-		modifier = {
-			factor = 0.5
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt1
-				NOT = { accepted_culture = cubano }
-			}
-		}
-		modifier = {
-			factor = 0.5
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt2
-				NOT = { accepted_culture = dominicano }
-			}
-		}
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt3
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 15
-				}
-			}
-		}
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt4
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 12
-				}
-			}
-		}
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt5
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 9
-				}
-			}
-		}		
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt6
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 6
-				}
-			}
-		}		
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt7
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 3
-				}
-			}
-		}	
-		modifier = {
-			factor = 0.15
-			custom_trigger_tooltip = {
-				tooltip = caribbean_civil_war_tt8
-				calc_true_if = {
-					all_province = {
-						owned_by = ROOT
-						NOT = { has_owner_religion = yes }
-					}
-					amount = 1
-				}
-			}
-		}
-	}
+	# progress = {
+		# modifier = {
+			# factor = 0.5
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt1
+				# NOT = { accepted_culture = cubano }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.5
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt2
+				# NOT = { accepted_culture = dominicano }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt3
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 15
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt4
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 12
+				# }
+			# }
+		# }
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt5
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 9
+				# }
+			# }
+		# }		
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt6
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 6
+				# }
+			# }
+		# }		
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt7
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 3
+				# }
+			# }
+		# }	
+		# modifier = {
+			# factor = 0.15
+			# custom_trigger_tooltip = {
+				# tooltip = caribbean_civil_war_tt8
+				# calc_true_if = {
+					# all_province = {
+						# owned_by = ROOT
+						# NOT = { has_owner_religion = yes }
+					# }
+					# amount = 1
+				# }
+			# }
+		# }
+	# }
 
-	can_end = {
-		OR = {
-			stability = 3
-			all_province = {
-				has_owner_religion = yes
-			}
-		}
-		NOT = { num_of_rebel_controlled_provinces = 1 }
-		NOT = {
-			has_spawned_rebels = separatist_rebels
-			has_spawned_rebels = religious_rebels
-		}
-	}
-	modifier = {
-		global_unrest = 10
-		stability_cost_modifier = 2
-	}
+	# can_end = {
+		# OR = {
+			# stability = 3
+			# all_province = {
+				# has_owner_religion = yes
+			# }
+		# }
+		# NOT = { num_of_rebel_controlled_provinces = 1 }
+		# NOT = {
+			# has_spawned_rebels = separatist_rebels
+			# has_spawned_rebels = religious_rebels
+		# }
+	# }
+	# modifier = {
+		# global_unrest = 10
+		# stability_cost_modifier = 2
+	# }
 		
-	on_start = caribbean.2
-	on_end = caribbean.3
+	# on_start = caribbean.2
+	# on_end = caribbean.3
 	
-	on_monthly = {
-		events = {
-		}
-		random_events = {
-		}
-	}
-}
+	# on_monthly = {
+		# events = {
+		# }
+		# random_events = {
+		# }
+	# }
+# }
