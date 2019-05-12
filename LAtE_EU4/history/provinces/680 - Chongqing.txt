@@ -30,7 +30,7 @@ discovered_by = chinese
 	#owner = QNG
 	#controller = QNG
 #}
-# = { remove_core = MNG }
+# = {  }
 # = { #controller = CZH } # Three Feudatories revolt
 # = { #controller = QNG }
 

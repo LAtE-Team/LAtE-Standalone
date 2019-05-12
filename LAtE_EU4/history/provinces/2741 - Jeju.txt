@@ -19,8 +19,8 @@ discovered_by = chinese
 # = { #controller = ODA } # Second Japanese invasion - Battle of Namwon
 # = { #controller = KOR } # The Japanese are forced to retreat
 # = { #add_core= MNG } # Tributary of Qing China
-# = { #add_core= MCH remove_core = MNG } # Part of the Manchu empire
-# = { #add_core= QNG remove_core = MCH }
+# = { #add_core= MCH  } # Part of the Manchu empire
+# = { #add_core= QNG  }
 # = { discovered_by = NED } # Hendrick Hamel
 
 

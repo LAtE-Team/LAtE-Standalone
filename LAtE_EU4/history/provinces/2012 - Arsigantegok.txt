@@ -33,6 +33,6 @@ discovered_by = nomad_group
 # = { discovered_by = GBR 
 # = { #controller = GBR  # The government of New France and Native allies capitulate at Montreal
 # = { #owner = GBR #add_core= GBR  # Treaty of Paris
-# = { remove_core = ABE culture = english religion = protestant # The Constitutional Act, Quebec is split into upper & lower Canada, and settlement of the Eastern Townships
+# = {  culture = english religion = protestant # The Constitutional Act, Quebec is split into upper & lower Canada, and settlement of the Eastern Townships
 
 discovered_by = GBR

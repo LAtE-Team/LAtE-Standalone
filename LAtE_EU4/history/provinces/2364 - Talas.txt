@@ -24,7 +24,7 @@ discovered_by = OIR
 	#controller = KAS
 	#add_core= KAS
 #}
-# = { #owner = BUK #controller = BUK #add_core= BUK remove_core = KAS } # Muhammad Shaybani
+# = { #owner = BUK #controller = BUK #add_core= BUK  } # Muhammad Shaybani
 # = { discovered_by = RUS }
 # = { #owner = KOK #controller = KOK #add_core= KOK } # Independent principality established by Shaybanid Shahrukh
 

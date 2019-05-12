@@ -45,5 +45,5 @@ discovered_by = nomad_group
 # = { discovered_by = GBR  
 
 # = { #add_core= FRA 
-# = { remove_core = FRA 
+# = {  
 discovered_by = GBR

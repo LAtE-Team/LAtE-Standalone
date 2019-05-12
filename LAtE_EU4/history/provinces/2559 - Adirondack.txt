@@ -45,14 +45,14 @@ discovered_by = nomad_group
 	#add_core= GBR
 	culture = english
 	religion = protestant
-	remove_core = FRA
+	
  # Treaty of Paris, ceded to Britain & France gave up its claim
 # = { revolt = { type = nationalist_rebels size = 2  #controller = REB culture = american  #Capture of Ticonderoga
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = GBR
+	
  
 discovered_by = GBR
 

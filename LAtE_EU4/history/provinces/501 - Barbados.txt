@@ -28,7 +28,7 @@ native_hostileness = 5
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 
 # = { revolt = { type = nationalist_rebels size = 2  #controller = REB  # Bussa's Rebellion
 # = { revolt = { #controller = GBR 

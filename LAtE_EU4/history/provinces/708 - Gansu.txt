@@ -32,7 +32,7 @@ discovered_by = chinese
 	#controller = QNG
 	#add_core= QNG
 #}
-# = { remove_core = MNG }
+# = {  }
 # = { discovered_by = SPA } #Ferdinand Verbiest
 
 

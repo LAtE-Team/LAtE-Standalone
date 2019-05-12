@@ -32,7 +32,7 @@ discovered_by = indian
 # = { #owner = SWI #controller = SWI } #Valais became an associate member (Zugewandter Ort) of the Swiss Confederation
 # = { unrest = 7 } #Second War of Kappel
 # = { unrest = 0 }
-# = { remove_core = SAV } # Treaty of Lausanne of 30 October 1564.
+# = {  } # Treaty of Lausanne of 30 October 1564.
 # = { unrest = 5 } # Peasant rebellion against overtaxation
 # = { unrest = 0 }
 # = { unrest = 7 } # Protestants are expelled from Schwyz which lead to the First War of Villmergen

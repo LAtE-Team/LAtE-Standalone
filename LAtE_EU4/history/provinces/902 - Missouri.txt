@@ -34,7 +34,7 @@ discovered_by = nomad_group
 	#owner = SPA
 	#controller = SPA
 	#add_core= SPA
-	remove_core = FRA
+	
 	trade_goods = unknown
  # Treaty of Fontainebleau, secretely ceded to Spain
 # = { capital = "Saint Louis" 
@@ -44,13 +44,13 @@ discovered_by = nomad_group
 	#controller = FRA
 	#add_core= FRA
 	culture = cosmopolitan_french
-	remove_core = SPA
+	
  # Treaty of San Ildefonso
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = FRA
+	
 	culture = american
 	religion = protestant
  # The Louisiana purchase

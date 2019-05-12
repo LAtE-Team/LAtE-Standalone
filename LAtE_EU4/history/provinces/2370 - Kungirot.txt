@@ -26,14 +26,14 @@ discovered_by = RED
 	#owner = KZH
 	#controller = KZH
 	#add_core= KZH 
-	remove_core = NOG
+	
 	culture = khazak 
 #} # Qasim Khan conquers Nogai lands
 # = {
 	#owner = KHI 
 	#controller = KHI
 	#add_core= KHI
-	remove_core = KZH
+	
 #} # Khan of Khiva builds Mangyshlak fortress
 # = { discovered_by = RUS }
 

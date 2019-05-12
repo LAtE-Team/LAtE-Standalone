@@ -38,11 +38,11 @@ discovered_by = indian
 # = {	#owner = HAB 
 	#controller = HAB
 	#add_core= HAB
-	remove_core = TUR
+	
 #} # Ceded to Austria
 # = {	#owner = WAL 
 	#controller = WAL
-	remove_core = HAB
+	
 	#add_core= TUR
 #} # The Ottomans regained Wallachia
 # = { #controller = HAB } # Occupied by Austrian troops

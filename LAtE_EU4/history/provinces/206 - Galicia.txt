@@ -27,12 +27,12 @@ discovered_by = indian
 # = { unrest = 0 } # End of the Second war of the "irmandiños"
 # = { #controller = POR }
 # = { #controller = CAS }
-# = { remove_core = GAL }
+# = {  }
 # = {	#controller = SPA
 	#owner = SPA
 	#add_core= SPA
 #} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
-# = { remove_core = CAS }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 2 leader = "Fernando" } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 2 leader = "Fernando" } #controller = REB }

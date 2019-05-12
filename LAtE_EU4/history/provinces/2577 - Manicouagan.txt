@@ -32,6 +32,6 @@ discovered_by = nomad_group
 	religion = catholic
 
 # = { discovered_by = GBR 
-# = { #owner = GBR #controller = GBR #add_core= GBR remove_core = FRA 
+# = { #owner = GBR #controller = GBR #add_core= GBR  
 
 discovered_by = GBR

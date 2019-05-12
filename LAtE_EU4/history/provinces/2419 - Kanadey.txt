@@ -28,7 +28,7 @@ discovered_by = indian
 	#owner = RUS
 	#controller = RUS 
 	#add_core= RUS 
-	remove_core = KAZ
+	
 #} # Russian conquest of Kazan
 # = { religion = orthodox culture = russian capital = "Syzran" }
 # = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } #controller = REB unrest = 6 } # Razin rebellion

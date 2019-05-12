@@ -37,7 +37,7 @@ add_core = BIA
 # = {
 	#owner = POR
 	#controller = POR
-	remove_core = NED
+	
 	culture = baiano 
 add_core = BIA
 	religion = candomble

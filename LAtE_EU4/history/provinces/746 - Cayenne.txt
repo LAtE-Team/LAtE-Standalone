@@ -35,7 +35,7 @@ native_hostileness = 3
 	#owner = NED
 	#controller = NED
 	#add_core= NED
-	remove_core = FRA
+	
 	culture = dutch
 	religion = reformed
 } # Held by the Dutch for a few years
@@ -44,7 +44,7 @@ native_hostileness = 3
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = NED
+	
 	culture = cosmopolitan_french
 	religion = catholic
 } # Treaty of Breda, given back to France

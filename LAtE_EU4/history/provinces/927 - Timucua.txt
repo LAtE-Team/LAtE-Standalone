@@ -36,7 +36,7 @@ discovered_by = nomad_group
 	#owner = SPA
 	#controller = SPA
 	#add_core= SPA
-	remove_core = FRA
+	
 	culture = castillian
 	capital = "St. Augustine"
 
@@ -48,16 +48,16 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = SPA
+	
 	culture = english
 	religion = protestant
  # Primarily a British province
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = GBR 
+# = { #owner = SPA #controller = SPA #add_core= SPA  
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = SPA
+	
  # The Adams-Onís Treaty
 
 discovered_by = GBR

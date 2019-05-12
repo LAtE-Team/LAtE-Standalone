@@ -32,9 +32,9 @@ discovered_by = indian
 # = {
 	#owner = MPH
 	#controller = MPH
-	remove_core = LXA
-	remove_core = DAI
-	remove_core = TOK
+	
+	
+	
 #} # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
 # = { unrest = 4 }
 

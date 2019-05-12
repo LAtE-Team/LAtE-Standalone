@@ -40,13 +40,13 @@ discovered_by = nomad_group
 	#add_core= GBR
 	culture = english
 	religion = protestant
-	remove_core = FRA
+	
  # Treaty of Paris, ceded to the British
 # = {
 	#owner = POT
 	#controller = POT
 	#add_core= POT
-	remove_core = GBR
+	
 	is_city = no
 	culture = huron
 	religion = totemism

@@ -33,7 +33,7 @@ discovered_by = ARW
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	religion = protestant
 	culture = english
  # Treaty of Utrecht

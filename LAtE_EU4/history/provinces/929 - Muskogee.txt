@@ -35,7 +35,7 @@ discovered_by = nomad_group
 	#owner = CRE
 	#controller = CRE
 	#add_core= CRE
-	remove_core = SPA
+	
 	is_city = no
 	culture = creek
 	religion = totemism 
@@ -62,7 +62,7 @@ discovered_by = nomad_group
 # = { #controller = GBR  # Savannah under British control
 # = { #controller = USA  # The British retreat
 # = {
-	remove_core = GBR 
+	 
 	unrest = 0
 # # Preliminary articles of peace, the British recognized American independence
 # = { capital = "Milledgeville" 

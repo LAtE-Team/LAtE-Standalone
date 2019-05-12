@@ -24,7 +24,7 @@ discovered_by = indian
 discovered_by = indian
 
 
-# = { #owner = SAX #controller = SAX #add_core= SAX remove_core = MEI capital = "Dresden" } # Incorporated into Saxony
+# = { #owner = SAX #controller = SAX #add_core= SAX  capital = "Dresden" } # Incorporated into Saxony
 # = { capital = "Dresden" }
 # = { religion = protestant }
 # = { fort_15th = no fort_16th = yes } # Current structure of Festung Königstein is built

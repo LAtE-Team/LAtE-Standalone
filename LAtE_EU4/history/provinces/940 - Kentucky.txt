@@ -59,6 +59,6 @@ discovered_by = nomad_group
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = GBR
+	
  #Then part of Virginia, one of the thirteen colonies.
 discovered_by = GBR

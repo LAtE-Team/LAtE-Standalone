@@ -38,7 +38,7 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
  
 # = { capital = "Richmond"  #setlements expand west
 # = { culture = american unrest = 6  # Growing unrest
@@ -47,6 +47,6 @@ discovered_by = nomad_group
 	#controller = USA
 	#add_core= USA
  # Declaration of independence
-# = { unrest = 0 remove_core = GBR  # Preliminary articles of peace, the British recognized American independence
+# = { unrest = 0   # Preliminary articles of peace, the British recognized American independence
 
 discovered_by = GBR

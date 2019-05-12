@@ -25,13 +25,13 @@ discovered_by = indian
 	#owner = CRI
 	#controller = CRI
 	#add_core= CRI
-	remove_core = GOL
+	
 #} # Golden Horde destroyed by Crimea
 # = {
 	#owner = RUS
 	#controller = RUS
 	#add_core= RUS
-	remove_core = CRI 
+	 
 #} # Battle of Molodi
 # = { culture = russian religion = orthodox }
 # = { capital = "Lipetsk" }

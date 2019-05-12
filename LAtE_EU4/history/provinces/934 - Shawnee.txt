@@ -34,7 +34,7 @@ discovered_by = nomad_group
 	#owner = CHE
 	#controller = CHE
 	#add_core= CHE
-	remove_core = SHA
+	
 	culture = cherokee
 	is_city = no
  #Cherokee boot out the Shawnee after conflict. 

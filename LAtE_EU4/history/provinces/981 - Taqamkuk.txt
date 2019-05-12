@@ -40,7 +40,7 @@ discovered_by = nomad_group
 	#add_core= GBR
 	culture = english
 	religion = protestant
-	remove_core = FRA
+	
  #Treaty of Utrecht, France abandon its half of Newfoundland
 
 discovered_by = GBR

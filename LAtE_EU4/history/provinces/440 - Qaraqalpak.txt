@@ -26,10 +26,10 @@ discovered_by = indian
 	#owner = BUK 
 	#add_core= BUK 
 	#controller = BUK 
-	remove_core = SHY 
-	remove_core = KHI # was TIM
+	 
+	 # was TIM
 #} # The Uzbek Shaybanids brings an end to the Timurid dynasty
-# = { #owner = KHI #controller = KHI remove_core = BUK } # Khiva separates from Uzbeks
+# = { #owner = KHI #controller = KHI  } # Khiva separates from Uzbeks
 # = { discovered_by = RUS }
 
 

@@ -24,7 +24,7 @@ discovered_by = RED
 discovered_by = indian
 
 
-# = { #owner = RUS #controller = RUS #add_core= RUS remove_core = KAZ } # Russian conquest of Kazan
+# = { #owner = RUS #controller = RUS #add_core= RUS  } # Russian conquest of Kazan
 # = { religion = orthodox culture = russian capital = "Saransk" } # fortresses of Saransk and Penza founded
 # = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } #controller = REB unrest = 6 }
 # = { revolt = { } #controller = RUS unrest = 0 } # Razin captured

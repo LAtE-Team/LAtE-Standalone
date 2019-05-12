@@ -28,7 +28,7 @@ discovered_by = RED
 	culture = scottish
 	#controller = SCO
 	#add_core= SCO
-	remove_core = NOR
+	
 #} # Formally ceded to the crown of Scotland
 # = { religion = reformed } # First Protestant Minister Arrives in the Orkneys
 # = {

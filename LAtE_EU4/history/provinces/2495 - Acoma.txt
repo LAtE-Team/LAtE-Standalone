@@ -40,7 +40,7 @@ discovered_by = nomad_group
 # = {
  	#owner = SPA 
 	#controller = SPA 
-	remove_core = PUE 
+	 
 	culture = castillian 
 	religion = catholic 
 } # The Spanish reestablished control 

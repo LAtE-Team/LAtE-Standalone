@@ -39,7 +39,7 @@ discovered_by = indian
 #} # Ferdinand gains Transylvania from Treaty of Weissenburg
 # = { #owner = TRA #controller = TRA } # Isabella Jagiello is restored as queen of Transylvania
 # = {
-	remove_core = TRA
+	
 	#owner = HAB
 	#controller = HAB
 #} #Treaty of Speyer
@@ -53,7 +53,7 @@ discovered_by = indian
 	#owner = TRA
 	#controller = TRA
 	#add_core= TRA
-	remove_core = HAB
+	
 #} # Uzgorod is united with Transylvania
 # = { revolt = { type = nationalist_rebels size = 1 } #controller = REB } # Occupied by Imrich Tokoli
 # = {
@@ -61,7 +61,7 @@ discovered_by = indian
 	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = TRA
+	
 #} # Imrich Tokoli surrendered to the emperor's soldiers
 # = { unrest = 6 } # Kuruc rebellion, lead by Francisc Rakoczy
  # Great plague

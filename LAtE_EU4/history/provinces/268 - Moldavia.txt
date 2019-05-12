@@ -28,7 +28,7 @@ discovered_by = indian
 # = { #controller = MOL } # Treaty with Sultan Bezayd II.
 # = { capital = "Iasi" } # Alexandru Lapusneanu chose Iasi as the capital
 # = { #add_core= WAL } # Ruled by Michael the brave
-# = { remove_core = WAL }
+# = {  }
  # Raid by the Crimean Tatars
 # = { revolt = { type = noble_rebels size = 2 } #controller = REB } # Revolt of the Boyars
 # = { revolt = {} #controller = MOL }

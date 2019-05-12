@@ -29,7 +29,7 @@ discovered_by = indian
 	#owner = RUS
 	#controller = RUS
 	#add_core= RUS
-	remove_core = PLC
+	
 #} # First partition of Poland
 # = { unrest = 5 } # Kosciuszko uprising, minimize the Russian influence
 # = { unrest = 0 }

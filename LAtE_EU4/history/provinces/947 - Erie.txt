@@ -58,7 +58,7 @@ discovered_by = nomad_group
 # = {
 	#owner = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	culture = english
 	religion = protestant
  # Treaty of Paris - ceded to Britain, France gave up its claim
@@ -66,7 +66,7 @@ discovered_by = nomad_group
 	#owner = LEN
 	#controller = LEN
 	#add_core= LEN
-	remove_core = GBR
+	
 	is_city = no
 	culture = delaware
 	religion = totemism

@@ -35,13 +35,13 @@ discovered_by = indian
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = HAB
+	
 #} # Treaty of Pressburg
 # = { #controller = HAB } # Occupied by Austrian forces
 # = {
 	#owner = HAB
 	#add_core= HAB
-	remove_core = FRA
+	
 #} # Napoleon abdicates
 
 

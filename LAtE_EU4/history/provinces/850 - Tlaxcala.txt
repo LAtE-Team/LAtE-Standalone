@@ -20,7 +20,7 @@ discovered_by =  mesoamerican
 fort_15th = yes
 
 # = { discovered_by = SPA } # Hernán Cortés
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = TLX} #Form a strong and long-lasting alliance with Spain
+# = { #owner = SPA #controller = SPA #add_core= SPA } #Form a strong and long-lasting alliance with Spain
 # = { religion = catholic } #Dominican friars arrive, but Tlaxcala largely retain its own government under Spanish rule & protection (protectorate in-game)
 # = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
 # = { #controller = MEX } # Conquered by José María Morelos

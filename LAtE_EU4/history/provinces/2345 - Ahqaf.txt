@@ -33,7 +33,7 @@ discovered_by = east_african
 # = {
 	#owner = ADE
 	#controller = ADE
-	remove_core = TUR
+	
 #}
 
 

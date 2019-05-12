@@ -24,13 +24,13 @@ discovered_by = chinese
 	#owner = MCH
 	#controller = MCH
 	#add_core= MCH
-	remove_core = MNG
+	
 #} # The Later Jin Khanate
 # = {
 	#owner = QNG
 	#controller = QNG
 	#add_core= QNG
-	remove_core = MCH
+	
 #} # The Qing Dynasty
 
 native_size = 5

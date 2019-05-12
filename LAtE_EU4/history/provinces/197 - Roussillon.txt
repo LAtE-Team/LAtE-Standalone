@@ -41,8 +41,8 @@ discovered_by = indian
 # = { fort_16th = no fort_17th = yes }
 # = { #owner = FRA #controller = FRA #add_core= FRA } # Peace of the Pyrennees
 # = { #controller = SPA } # Spain invades Roussillon again
-# = { #controller = FRA remove_core = SPA } # Treaty of Nijmegen (FRA-SPA)
-# = { remove_core = ARA }
+# = { #controller = FRA  } # Treaty of Nijmegen (FRA-SPA)
+# = {  }
 # = { fort_17th = no fort_18th = yes }
 # = { #controller = SPA } # Occupied by the Spanish army
 # = { #controller = FRA }

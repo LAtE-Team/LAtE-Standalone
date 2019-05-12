@@ -28,13 +28,13 @@ discovered_by = chinese
 	#owner = MCH
 	#controller = MCH
 	#add_core= MCH
-	remove_core = KHA
+	
 #} # The Later Jin Khanate
 # = {
 	#owner = QNG
 	#controller = QNG
 	#add_core= QNG
-	remove_core = MCH
+	
 #} # The Qing Dynasty
 # = { discovered_by = SPA }
 

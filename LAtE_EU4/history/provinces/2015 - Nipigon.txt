@@ -30,7 +30,7 @@ discovered_by = nomad_group
 # = { 
 	#owner = XXX
 	#controller = XXX
-	remove_core = OJI
+	
 	is_city = no 
  #Fleeing westward
 # = {
@@ -45,7 +45,7 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	culture = english
 	religion = protestant
  # Treaty of Paris 

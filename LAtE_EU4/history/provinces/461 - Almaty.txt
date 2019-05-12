@@ -24,7 +24,7 @@ discovered_by = OIR
 discovered_by = KAS
 
 
-# = { #owner = KZH #controller = KZH remove_core = CHG } # Kazakh horde forms
+# = { #owner = KZH #controller = KZH  } # Kazakh horde forms
 # = { discovered_by = RUS }
 # = { #owner = OIR #controller = OIR #add_core= OIR } # Dzungarian invasion
 # = {

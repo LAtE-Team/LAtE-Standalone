@@ -29,7 +29,7 @@ discovered_by = chinese
 	#add_core= QNG
 #} # The Qing Conquest Continues 
 # = { discovered_by = SPA }#Novus Atlas Sinensis
-# = { remove_core = MNG }
+# = {  }
 
 
 native_size = 5

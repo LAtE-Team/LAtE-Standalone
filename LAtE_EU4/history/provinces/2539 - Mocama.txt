@@ -35,7 +35,7 @@ discovered_by = nomad_group
 	#owner = CRE
 	#controller = CRE
 	#add_core= CRE
-	remove_core = SPA
+	
 	is_city = no
 	culture = creek
 	religion = totemism 

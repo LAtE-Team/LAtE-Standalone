@@ -27,7 +27,7 @@ discovered_by = KAS
 # = {
 	#owner = KZH
 	#controller = KZH
-	remove_core = CHG 
+	 
 #} # Kazakh horde forms
 # = { discovered_by = RUS }
 # = {

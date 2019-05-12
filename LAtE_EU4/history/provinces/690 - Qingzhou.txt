@@ -27,7 +27,7 @@ discovered_by = chinese
 	#controller = QNG
 	#add_core= QNG
 #}
-# = { remove_core = MNG }
+# = {  }
 
 
 native_size = 5

@@ -35,8 +35,8 @@ discovered_by = nomad_group
 # = {
 	#owner = USA
 	#controller = USA
-	remove_core = MEX
-	remove_core = SPA 
+	
+	 
  #ceded by treaty
 
 discovered_by = GBR

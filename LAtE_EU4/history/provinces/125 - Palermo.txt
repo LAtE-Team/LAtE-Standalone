@@ -32,12 +32,12 @@ discovered_by = indian
 # = {	#owner = SPA
 	#controller = SPA
 	#add_core= SPA
-	remove_core = ARA
+	
 #} # Unification of Spain
 # = { #controller = SAV }
 # = {	#owner = NAP
 	#controller = NAP
-	remove_core = SPA
+	
 #}
 # = {	#owner = HAB
 	#controller = HAB
@@ -45,7 +45,7 @@ discovered_by = indian
 #}
 # = {	#owner = NAP
 	#controller = NAP
-	remove_core = HAB
+	
 #}
 # = {	#owner = SIC
 	#controller = SIC

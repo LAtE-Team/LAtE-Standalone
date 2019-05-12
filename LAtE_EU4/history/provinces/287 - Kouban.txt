@@ -27,7 +27,7 @@ discovered_by = RED
 # = { #add_core= TUR } # Crimea becomes a vassal of the Ottoman Empire
 # = {
 	#owner = RUS
- #controller = RUS remove_core = CRI #add_core= RUS remove_core = TUR } # Treaty of Kuchuk-Kainarji
+ #controller = RUS  #add_core= RUS  } # Treaty of Kuchuk-Kainarji
 # = { religion = orthodox culture = russian } # Kouban Cossacks, Stavropol founded
 
 

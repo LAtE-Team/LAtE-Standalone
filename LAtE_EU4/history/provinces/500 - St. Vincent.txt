@@ -29,13 +29,13 @@ discovered_by = ARW
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
  # Treaty of Paris gives the island to the British
 # = {
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = GBR
+	
 	religion = catholic
 	culture = cosmopolitan_french
  # French regain possession of the island
@@ -45,6 +45,6 @@ discovered_by = ARW
 	#add_core= GBR
 	culture = english
 	religion = reformed
-	remove_core = FRA
+	
  # Treaty of Versailles seals the deal
 discovered_by = GBR

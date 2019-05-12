@@ -37,7 +37,7 @@ discovered_by = chinese
 #}
 # = { discovered_by = SPA }#Novus Atlas Sinensis
 # = { #controller = QNG } 
-# = { remove_core = MNG }
+# = {  }
 # = { #controller = CZH } # Three Feudatories revolt
 # = { #controller = QNG }
 # = { revolt_risk = 6 } # Miao rebellion

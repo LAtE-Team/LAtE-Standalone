@@ -47,7 +47,7 @@ discovered_by = nomad_group
  # Still part of New York at this time, even if there was disagreement
 # = { unrest = 0 revolt = { type = particularist_rebels size = 3  #controller = REB  # Republic of Vermont is proclaimed (no tag available)
 # = {
-	remove_core = GBR
+	
 	unrest = 0  
  # Preliminary articles of peace, the British recognized American independence
 # = { revolt = { #controller = USA  # Admitted to the union as its own state

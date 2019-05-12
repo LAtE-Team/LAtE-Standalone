@@ -42,7 +42,7 @@ discovered_by = nomad_group
 	#add_core= USA
  # Declaration of independence
 # = {
-	remove_core = GBR 
+	 
 	unrest = 0
  # Preliminary articles of peace, the British recognized American independence
 

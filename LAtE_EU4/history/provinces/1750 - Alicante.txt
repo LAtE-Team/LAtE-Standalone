@@ -35,7 +35,7 @@ discovered_by = indian
 # = { unrest = 0 } # The morisque mutiny is finally controlled. (economic consequences should be added)
 # = { #controller = HAB } # Alicante joins the Austrian side in the War of the Spanish Succession
 # = { #controller = SPA } # Alicante falls to the Borbonic troops
-# = { remove_core = ARA }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }

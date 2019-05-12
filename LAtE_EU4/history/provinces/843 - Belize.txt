@@ -38,7 +38,7 @@ discovered_by =  mesoamerican
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 }
 
 

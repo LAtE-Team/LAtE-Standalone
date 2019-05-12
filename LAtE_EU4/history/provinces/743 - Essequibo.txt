@@ -41,5 +41,5 @@ native_hostileness = 3
 	#controller = GBR
 	#add_core= GBR
 	culture = english
-	remove_core = NED
+	
 } # The English are taking over

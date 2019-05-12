@@ -42,7 +42,7 @@ discovered_by = indian
 	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = TUR
+	
 #} # The House of Habsburg is recognized as new ruler
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Uprising against the imperial authority
 # = { revolt = {} #controller = HAB }

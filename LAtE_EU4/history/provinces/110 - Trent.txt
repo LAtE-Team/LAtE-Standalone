@@ -30,7 +30,7 @@ discovered_by = indian
 # = {	
 	#owner = HAB
 	#controller = HAB
-	remove_core = STY
+	
 #}
 # = { base_manpower = 1 } # Landslibell - Tyrolean's only military duty is the defence of their homeland. 
 # = { unrest = 8 }
@@ -49,18 +49,18 @@ base_production = 4 } #Maximilian's economic reforms
 	#owner = BAV
 	#controller = BAV
 	#add_core= BAV
-	remove_core = HAB
+	
 #} # The Treaty of Pressburg
 # = { hre = no } # The Holy Roman Empire is dissolved
 # = {	#owner = ITA
 	#controller = ITA
 	#add_core= ITA
-	remove_core = BAV
+	
 #} # Incorporated into the Kingdom of Italy after the treaty of Schönbrunn
 # = {	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = ITA
+	
 #} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
 
 

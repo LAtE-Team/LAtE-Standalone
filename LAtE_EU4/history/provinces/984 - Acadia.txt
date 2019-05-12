@@ -35,7 +35,7 @@ discovered_by = nomad_group
 	#owner = ENG
 	#controller = ENG
 	#add_core= ENG
-	remove_core = FRA
+	
 	culture = english
 	religion = protestant
  # Taken by the troops of Samuel Argall
@@ -43,7 +43,7 @@ discovered_by = nomad_group
 # = {	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = ENG
+	
 	culture = cosmopolitan_french
 	religion = catholic
  # Treaty of St. Germain-en-Layne, handed back to the French
@@ -55,7 +55,7 @@ discovered_by = nomad_group
 # = {
 	#owner = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
  # Treaty of Utrecht
 # = { culture = english religion = protestant  #British forcibly remove Acadians
 

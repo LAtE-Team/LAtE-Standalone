@@ -39,13 +39,13 @@ discovered_by = indian
 	#owner = HAB
 	#controller = HAB
 	unrest = 5 # The beginning of religious struggles
-	remove_core = BOH
+	
 #} # Tilly beats the Winterking. Deus Vult!
 # = { unrest = 0 }
 # = { unrest = 4 } # Religious oppositions
 # = { #owner = PRU #controller = PRU #add_core= PRU } # Peace of Breslau, 1 st Silesian war against Austria
 # = { base_tax = 1ase_production = 1ase_manpower = 1}
-# = { remove_core = HAB } # End of 3rd Silesian war
+# = {  } # End of 3rd Silesian war
 # = { hre = no } # The Holy Roman Empire is dissolved
 
 

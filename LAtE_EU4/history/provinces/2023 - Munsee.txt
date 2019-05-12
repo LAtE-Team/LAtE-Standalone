@@ -58,7 +58,7 @@ discovered_by = nomad_group
 	unrest = 6 
  #Declaration of independence, Yankee-Pennamite wars take a backseat to revolution
 # = { unrest = 10  #Congress confirms Pennsylvania's claim, Connecticut and Vermont send men. 
-# = { remove_core = GBR 
+# = {  
 # = { unrest = 3  #Pennsylvania confirms the rights of Connecticut landholders
 # = { unrest = 0  #Integrated in Pennsylvania.
 

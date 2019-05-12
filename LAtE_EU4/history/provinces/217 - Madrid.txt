@@ -33,7 +33,7 @@ discovered_by = indian
 # = { #controller = SPA } # Troops loyal to Felipe V recover the city
 # = { #controller = HAB } # Archduke Carlos takes the city
 # = { #controller = SPA } # Archduke Carlos leaves the city due to the pressure of partidaries of Felipe V
-# = { remove_core = CAS }
+# = {  }
 # = { unrest = 3 } # Esquilache mutiny
 # = { unrest = 0 } # The King grants a pardon and comes back to Madrid, after the situations has stabilised.
 # = { #controller = FRA } # Invaded by the French army

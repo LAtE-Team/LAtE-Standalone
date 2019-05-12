@@ -30,7 +30,7 @@ discovered_by = indian
 	revolt = {}
 	#owner = DAI
 	#controller = DAI
-	remove_core = MNG
+	
 #} # The Le Dynasty
 # = { unrest = 10 } # Civil War in Dai Viet
 # = { unrest = 0 }
@@ -39,7 +39,7 @@ discovered_by = indian
 # = { unrest = 0 }
 # = {	#owner = ANN
 	#controller = ANN
-	remove_core = DAI
+	
 #} # Nguyen Phuc Anh annexed the Tay Son Dynasty
 
 

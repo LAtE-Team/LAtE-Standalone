@@ -17,12 +17,12 @@ discovered_by = high_american
 discovered_by = RED
 discovered_by = indian
 
-# = { #owner = MOS #controller = MOS #add_core= MOS remove_core = NOV	}
+# = { #owner = MOS #controller = MOS #add_core= MOS 	}
 # = {
 	#owner = RUS
 	#controller = RUS 
 	#add_core= RUS 
-	remove_core = MOS 
+	 
 #}
 # = { unrest = 5 } # "Time of troubles"
 # = { unrest = 0 } # Romanov dynasty

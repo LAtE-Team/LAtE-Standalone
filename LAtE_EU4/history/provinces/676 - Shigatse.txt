@@ -34,7 +34,7 @@ discovered_by = indian
 	#owner = UTS
 	#controller = UTS
 	#add_core= UTS
-	remove_core = ZUN
+	
 #}
 # = { discovered_by = SPA }
 # = { revolt_risk = 7 } # Rebellion aginst the Chinese

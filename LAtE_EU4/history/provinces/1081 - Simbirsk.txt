@@ -29,7 +29,7 @@ discovered_by = indian
 	#owner = RUS
 	#controller = RUS
 	#add_core= RUS
-	remove_core = KAZ 
+	 
 #} # Russian conquest of Kazan
 # = {
 	culture = russian

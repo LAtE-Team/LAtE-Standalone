@@ -21,8 +21,8 @@ add_local_autonomy = 25
 # = { #controller = ODA } # Japanese invasion - Battle of Haejungchang
 # = { #controller = KOR } # Kato retreats to Seoul
 # = { #add_core= MNG } # Tributary of Qing China
-# = { #add_core= MCH remove_core = MNG } # Part of the Manchu empire
-# = { #add_core= QNG remove_core = MCH }
+# = { #add_core= MCH  } # Part of the Manchu empire
+# = { #add_core= QNG  }
 # = { discovered_by = NED } # Hendrick Hamel
 # = { discovered_by = RUS } # Martin Spanberg
 

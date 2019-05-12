@@ -37,13 +37,13 @@ discovered_by = ARW
 	#owner = SWE
 	#controller = SWE
 	#add_core= SWE
-	remove_core = FRA
+	
  # Ceded to Sweden
 # = {
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = SWE
+	
  # The Treaty of Paris
 
 discovered_by = GBR

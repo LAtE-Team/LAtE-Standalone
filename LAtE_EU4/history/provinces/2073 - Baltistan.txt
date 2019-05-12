@@ -31,7 +31,7 @@ discovered_by = chinese
 # = {
 	#owner = LDK
 	#controller = LDK
-	remove_core = KSH
+	
 #}
 
 

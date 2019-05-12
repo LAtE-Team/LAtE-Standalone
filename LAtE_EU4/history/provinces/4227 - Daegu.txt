@@ -19,8 +19,8 @@ discovered_by = chinese
 # = { #controller = ODA } # Japanese invasion - Siege of Busan
 # = { #controller = KOR }
 # = { #add_core= MNG } # Tributary of Qing China
-# = { #add_core= MCH remove_core = MNG } # Part of the Manchu empire
-# = { #add_core= QNG remove_core = MCH }
+# = { #add_core= MCH  } # Part of the Manchu empire
+# = { #add_core= QNG  }
 # = { discovered_by = NED } # Hendrick Hamel
 
 

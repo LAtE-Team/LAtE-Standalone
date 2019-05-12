@@ -21,8 +21,8 @@ discovered_by = chinese
 # = { #controller = ODA unrest = 5 } # Japanese invasion - 2nd Battle of Cheongju
 # = { #controller = KOR unrest = 0 } # the Japanese retreat south
 # = { #add_core= MNG } # Tributary of Qing China
-# = { #add_core= MCH remove_core = MNG } # Part of the Manchu empire
-# = { #add_core= QNG remove_core = MCH }
+# = { #add_core= MCH  } # Part of the Manchu empire
+# = { #add_core= QNG  }
 # = { discovered_by = NED } # Hendrick Hamel
 
 

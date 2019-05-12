@@ -30,7 +30,7 @@ discovered_by = indian
 	#owner = SPA
 	#add_core= SPA
 #} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
-# = { remove_core = CAS }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 2 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 2 } #controller = REB }

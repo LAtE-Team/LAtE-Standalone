@@ -34,12 +34,12 @@ discovered_by = indian
 	#owner = SPA
 	#controller = SPA
 	#add_core= SPA
-	remove_core = ARA
+	
 #} # Unification of Spain
 # = { fort_15th = no fort_16th = yes }
 # = { fort_16th = no fort_17th = yes } 
 # = { #controller = SAV }
-# = { #owner = NAP #controller = NAP remove_core = SPA }
+# = { #owner = NAP #controller = NAP  }
 # = { fort_17th = no fort_18th = yes }
 # = {
 	#owner = HAB
@@ -49,7 +49,7 @@ discovered_by = indian
 # = {
 	#owner = NAP
 	#controller = NAP
-	remove_core = HAB
+	
 #}
 # = {
 	#owner = SIC

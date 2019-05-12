@@ -34,7 +34,7 @@ discovered_by = ARW
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 
 # = { unrest = 3  # Slave uprising
 # = { unrest = 0  # The plot was discovered and put down

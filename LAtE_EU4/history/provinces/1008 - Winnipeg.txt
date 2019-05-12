@@ -41,7 +41,7 @@ center_of_trade = 2
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	culture = english
 	religion = protestant
 }# Treaty of Paris

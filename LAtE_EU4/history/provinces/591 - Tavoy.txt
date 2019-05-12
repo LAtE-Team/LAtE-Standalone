@@ -32,7 +32,7 @@ discovered_by = indian
 # = { #owner = TAU #controller = TAU } # Taungu regained Tenasserim
 # = { #owner = AYU #controller = AYU }
 # = { #owner = TAU #controller = TAU }
-# = { remove_core = AYU }
+# = {  }
 
 
 native_size = 5

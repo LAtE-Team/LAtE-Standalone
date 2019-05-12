@@ -23,7 +23,7 @@ discovered_by = indian
 	#controller = SST
 	#owner = SST
 	#add_core= SST
-	remove_core = HSE
+	
 #}
 # = { discovered_by = POR }
 # = { #add_core= TAU }

@@ -33,7 +33,7 @@ discovered_by = chinese
 	#add_core= QNG
 #}
 # = { discovered_by = SPA }#Novus Atlas Sinensis
-# = { remove_core = MNG }
+# = {  }
 # = { #controller = CZH } # Three Feudatories revolt
 # = { #controller = QNG }
 # = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # The White Lotus rebellion

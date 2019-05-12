@@ -30,7 +30,7 @@ discovered_by = indian
 # = { unrest = 0 }
 # = { #owner = SAV #controller = SAV } 
 # = { #owner = SWI #controller = SWI religion = reformed } #By 1536 the area was completely annexed. Calvin Debate in the Cathedral of Lausanne.
-# = { remove_core = SAV } # Savoy officially ceded Vaud to Bern in the treaty of Lausanne of 30 October 1564.
+# = {  } # Savoy officially ceded Vaud to Bern in the treaty of Lausanne of 30 October 1564.
 # = { unrest = 5 } # Peasant rebellion against overtaxation
 # = { unrest = 0 }
 # = { unrest = 7 } # Protestants are expelled from Schwyz which lead to the First War of Villmergen

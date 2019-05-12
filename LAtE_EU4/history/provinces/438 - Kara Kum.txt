@@ -23,10 +23,10 @@ discovered_by = indian
 
 
 # = { unrest = 8 } # Death of Shahrukh, chaotic conditions
-# = { #owner = KHO #controller = KHO #add_core= KHO remove_core = TIM } # The end of the Timurids in Samarkand
+# = { #owner = KHO #controller = KHO #add_core= KHO  } # The end of the Timurids in Samarkand
 # = { #controller = BUK }
-# = { #owner = BUK #add_core= BUK remove_core = KHO unrest = 0 } # Conquered by Muhammad Shaybani
-# = { #owner = KHI #controller = KHI remove_core = BUK } # Khiva separates from Uzbeks
+# = { #owner = BUK #add_core= BUK  unrest = 0 } # Conquered by Muhammad Shaybani
+# = { #owner = KHI #controller = KHI  } # Khiva separates from Uzbeks
 # = { discovered_by = RUS }
 
 

@@ -33,7 +33,7 @@ discovered_by = indian
 # = { #controller = SPA } # Aragon falls to the Borbonic troops
 # = { #controller = HAB } # Archduke Carlos takes Zaragoza, paving again the way to Madrid
 # = { #controller = SPA } # Felipe V reorganises his army and is able to force the retreat of the Archduke's army
-# = { remove_core = ARA }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }

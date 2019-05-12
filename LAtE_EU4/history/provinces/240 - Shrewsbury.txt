@@ -45,7 +45,7 @@ base_production = 1
 # = {	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 #}
 
 

@@ -25,7 +25,7 @@ discovered_by = chinese
 	#add_core= OIR
 #}
 # = { discovered_by = RUS }
-# = { remove_core = CHG }
+# = {  }
 # = {
 	#owner = ZUN
 	#controller = ZUN

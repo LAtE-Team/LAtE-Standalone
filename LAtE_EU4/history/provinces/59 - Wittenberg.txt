@@ -28,7 +28,7 @@ discovered_by = indian
 #  = {
 	#owner = SAX
 	#controller = SAX
-	remove_core = THU
+	
 #}
 #  = { unrest = 5 } # Peasant revolt
 #  = { unrest = 0 }
@@ -37,7 +37,7 @@ discovered_by = indian
 	#owner = PRU
 	#controller = PRU
 	#add_core= PRU
-	remove_core = SAX
+	
 #} # Congress of Vienna
 
 

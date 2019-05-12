@@ -36,7 +36,7 @@ discovered_by = indian
 # = { revolt = { type = revolutionary_rebels size = 1.2 } #controller = REB } # War of the Comunidades
 # = { revolt = {} #controller = SPA } # After the defeat of the comuneros at Villalar, Toledo was still able to resist for 9 months.
 # = { culture = castillian } # Decree for the expulsion of the morisques in Andalucía, unlike Valencia, this was performed uneventfully.
-# = { remove_core = CAS }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }

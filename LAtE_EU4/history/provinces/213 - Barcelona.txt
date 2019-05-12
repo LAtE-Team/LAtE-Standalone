@@ -44,7 +44,7 @@ discovered_by = indian
 	#controller = FRA
 	#add_core= FRA
 #} # Louis XIII of France, Count of Barcelona.
-# = { #owner = SPA #controller = SPA remove_core = FRA } # Barcelona surrenders
+# = { #owner = SPA #controller = SPA  } # Barcelona surrenders
 # = { unrest = 5 } # Peasant revolt of the "barretines"
 # = { unrest = 0 } # End of the revolt
 # = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # Peasant revolt against new taxes to fund the war against France
@@ -53,7 +53,7 @@ discovered_by = indian
 # = { #controller = SPA } # Peace of Ryswick
 # = { #controller = HAB } # Catalonia recognises Archduke Carlos as their sovereign, joining the Anglo-Austrian cause in the War of Spanish Succession. The loyalist troops in Barcelona are defeated.
 # = { revolt = { type = nationalist_rebels size = 2 leader = "Rafel Casanova" } #controller = REB } # Catalan authorities don't recognise the Peace of Utrecht, and face war alone against the Franco-Spanish army.
-# = { remove_core = ARA }
+# = {  }
 # = { revolt = {} #controller = SPA } # Barcelona surrenders
 # = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
 # = { revolt = {} #controller = SPA }

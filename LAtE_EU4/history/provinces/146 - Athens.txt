@@ -26,10 +26,10 @@ discovered_by = RED
 
 
 # = { #add_core= BYZ }
-# = { #owner = ATH #controller = ATH remove_core = VEN }
+# = { #owner = ATH #controller = ATH  }
 # = { #add_core= TUR } # The fall of the Byzantine Empire
 # = { #owner = TUR #controller = TUR }
-# = { remove_core = BYZ }
+# = {  }
 # = { unrest = 5  } # General discontent with the Janissaries' dominance
 # = { unrest = 0 }
 # = { unrest = 5 } # General discontent and occasional rebellions

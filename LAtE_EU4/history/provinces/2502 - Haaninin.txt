@@ -29,7 +29,7 @@ discovered_by = nomad_group
 # = {
 	#owner = XXX
 	#controller = XXX
-	remove_core = KIO
+	
 	is_city = no 
 }
 # = {

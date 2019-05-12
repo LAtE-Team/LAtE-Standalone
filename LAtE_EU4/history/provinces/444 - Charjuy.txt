@@ -24,8 +24,8 @@ discovered_by = indian
 
 
 # = { #controller = SHY } # Conquered by Muhammad Shaybani
-# = { #owner = BUK #add_core= BUK #controller = BUK remove_core = TIM } # The Uzbek Shaybanids brings an end to the Timurid dynasty
-# = { #owner = KHI #controller = KHI remove_core = BUK } # Khiva separates from Uzbeks
+# = { #owner = BUK #add_core= BUK #controller = BUK  } # The Uzbek Shaybanids brings an end to the Timurid dynasty
+# = { #owner = KHI #controller = KHI  } # Khiva separates from Uzbeks
 
 
 

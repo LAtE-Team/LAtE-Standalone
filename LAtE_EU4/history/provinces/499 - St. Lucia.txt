@@ -34,7 +34,7 @@ discovered_by = ARW
 	#owner = FRA 
 	#controller = FRA
 	#add_core= FRA
-	remove_core = ENG
+	
 	culture = cosmopolitan_french
 	religion = catholic
  # The French's turn to attempt colonization
@@ -42,7 +42,7 @@ discovered_by = ARW
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
  # The Treaty of Paris
 
 discovered_by = GBR

@@ -22,7 +22,7 @@ discovered_by = RED
 discovered_by = indian
 
 
-# = {	#owner = RUS #controller = RUS #add_core= RUS remove_core = PSK } # Pskov annexed by Russia
+# = {	#owner = RUS #controller = RUS #add_core= RUS  } # Pskov annexed by Russia
 # = { #controller = PLC } # Ostrov conquered by Stefan Bathory
 # = { #controller = RUS } # Peace of Jam-Zapolski
 # = { unrest = 8 } # "Time of troubles"

@@ -32,7 +32,7 @@ discovered_by = ARW
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	culture = english
 	religion = reformed
  # The English took control at the end of the year
@@ -40,7 +40,7 @@ discovered_by = ARW
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = GBR
+	
 	religion = catholic
 	culture = cosmopolitan_french
  # French attack, inspired by the American revolution

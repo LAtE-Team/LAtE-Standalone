@@ -32,11 +32,11 @@ discovered_by = indian
 	#owner = BUK 
 	#add_core= BUK
 	#controller = BUK
-	remove_core = SHY
-	remove_core = TIM 
+	
+	 
 #} # The Uzbek Shaybanids brings an end to the Timurid dynasty
 # = { discovered_by = RUS }
-# = { #owner = KOK #controller = KOK remove_core = BUK }
+# = { #owner = KOK #controller = KOK  }
 
 
 native_size = 5

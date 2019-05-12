@@ -26,13 +26,13 @@ discovered_by = indian
 # = {	#owner = VEN
 	#controller = VEN
 	#add_core= VEN
-	remove_core = MLO
+	
 #} # To Milano
 # = { #add_core= HAB } # War of the League of Cambrai 
 # = { #controller = HAB } # Venice collapses
 # = { #owner = HAB } # Austria switches sides
 # = { #owner = VEN #controller = HAB } # Venice switches sides
-# = { #controller = VEN remove_core = HAB } # Treaty of Brussels
+# = { #controller = VEN  } # Treaty of Brussels
 # = {	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
@@ -40,13 +40,13 @@ discovered_by = indian
 # = {	#owner = ITA
 	#controller = ITA
 	#add_core= ITA
-	remove_core = HAB
+	
 #} # Treaty of Pressburg
 # = { hre = no } # The Holy Roman Empire is dissolved
 # = {	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = ITA
+	
 #} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
 
 

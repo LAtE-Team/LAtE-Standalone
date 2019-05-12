@@ -46,7 +46,7 @@ add_core = PRB
 # = {
 	#owner = POR
 	#controller = POR
-	remove_core = NED
+	
 	capital = "Parahyba do Norte"
 	culture = paribas
 

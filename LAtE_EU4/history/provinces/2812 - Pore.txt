@@ -45,5 +45,5 @@ native_hostileness = 5
 	#owner = COL
 	#controller = COL
 	#add_core= COL
-	remove_core = SPA
+	
 } # The establishment of Gran Colombia

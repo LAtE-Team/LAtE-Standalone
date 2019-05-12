@@ -39,7 +39,7 @@ discovered_by = nomad_group
 # = {
 	#owner = XXX
 	#controller = XXX
-	remove_core = IRO
+	
 	is_city = no
 	culture = illini 
  #Vast areas left deserted after the Beaver Wars and the Iroquois withdrawal
@@ -58,7 +58,7 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
  # Treaty of Paris, France gave up its claim to New France
 # = { unrest = 6  # Native discontent with the British rule
 ## Royal proclamation, but Illinois country colonies in a gray zone
@@ -68,7 +68,7 @@ discovered_by = nomad_group
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = GBR
+	
 	culture = american
  # Americans capture Kaskaskia; Illinois country french join the revolt.
 ## = {  #The death of Tecumseh mark the end of organized native resistance 

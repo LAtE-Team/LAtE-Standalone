@@ -27,7 +27,7 @@ discovered_by = indian
 # = { #controller = TUR } #Turkish invasion
 # = { #controller = MOL } # Treaty with Sultan Bezayd II.
 # = { #add_core= WAL } # Ruled by Michael the brave
-# = { remove_core = WAL }
+# = {  }
 # = { revolt = { type = noble_rebels size = 2 } #controller = REB } # Revolt of the Boyars
 # = { revolt = {} #controller = MOL } # Estimated
 # = { #controller = RUS }

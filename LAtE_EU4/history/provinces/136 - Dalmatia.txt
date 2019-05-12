@@ -27,9 +27,9 @@ discovered_by = indian
 discovered_by = indian
 
 
-# = { #owner = VEN #controller = VEN #add_core= VEN remove_core = HUN }
+# = { #owner = VEN #controller = VEN #add_core= VEN  }
 # = { #owner = TUR #controller = TUR #add_core= TUR } # A large part of Dalmatia is incorporated into the Ottoman empire
-# = { #owner = VEN #controller = VEN remove_core = TUR } # Peace of Karlowitz, Dalmatian hinterland given to Venice
+# = { #owner = VEN #controller = VEN  } # Peace of Karlowitz, Dalmatian hinterland given to Venice
 # = { fort_15th = no fort_17th = yes }
 # = {
 	#owner = HAB
@@ -40,13 +40,13 @@ discovered_by = indian
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = HAB
+	
 #} # Treaty of Pressburg
 # = { #controller = HAB } # Occupied by Austrian forces
 # = {
 	#owner = HAB
 	#add_core= HAB
-	remove_core = FRA
+	
 #} # Napoleon abdicates
 
 

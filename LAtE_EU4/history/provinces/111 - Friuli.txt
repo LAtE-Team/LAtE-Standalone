@@ -39,14 +39,14 @@ discovered_by = indian
 	#owner = ITA
 	#controller = ITA
 	#add_core= ITA
-	remove_core = HAB
+	
 #} # Treaty of Pressburg
 # = { hre = no } # The Holy Roman Empire is dissolved
 # = {
 	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = ITA
+	
 #} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
 
 

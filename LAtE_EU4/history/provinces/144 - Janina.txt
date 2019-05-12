@@ -28,7 +28,7 @@ discovered_by = RED
 
 
 # = { #owner = TUR #add_core= TUR #controller = TUR capital = "Janina" }
-# = { remove_core = BYZ remove_core = EPI }
+# = {   }
 # = { unrest = 5 } # General discontent against the Janissaries' dominance
 # = { unrest = 0 }
 # = { unrest = 3 } # Revolutionary movement of Dionysios, Christians are driven away

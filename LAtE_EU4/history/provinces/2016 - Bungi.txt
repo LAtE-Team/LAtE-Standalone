@@ -29,7 +29,7 @@ discovered_by = nomad_group
 	#owner = SIO
 	#controller = SIO
 	#add_core= SIO
-	remove_core = ASI
+	
 	culture = dakota 
 } 
 # = { discovered_by = FRA } # La Vérendrye
@@ -45,7 +45,7 @@ discovered_by = nomad_group
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = GBR
+	
 	culture = american
 	religion = protestant
 } #ceded in the treaty of 1818, not renamed Grand Forks until 1870

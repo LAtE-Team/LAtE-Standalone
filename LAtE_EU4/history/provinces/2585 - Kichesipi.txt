@@ -38,7 +38,7 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
  # Treaty of Paris - ceded to Britain, France gave up its claim
 # = { 
 	culture = english

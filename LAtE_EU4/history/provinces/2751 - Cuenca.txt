@@ -36,7 +36,7 @@ discovered_by = indian
 # = { #controller = SPA } # Troops loyal to Felipe V recover the city
 # = { #controller = HAB } # Archduke Carlos takes the city
 # = { #controller = SPA } # Archduke Carlos leaves the city due to the pressure of partidaries of Felipe V
-# = { remove_core = CAS }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }

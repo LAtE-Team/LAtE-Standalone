@@ -47,20 +47,20 @@ discovered_by = nomad_group
 	#owner = SPA
 	#controller = SPA
 	#add_core= SPA
-	remove_core = FRA
+	
  # Treaty of Fontainebleau, secretely ceded to Spain
 # = {
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = SPA
+	
 	culture = cosmopolitan_french
  # Treaty of San Ildefonso
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = FRA
+	
  # The Louisiana purchase
 
 discovered_by = GBR

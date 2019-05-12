@@ -39,7 +39,7 @@ discovered_by = nomad_group
 	#owner = NED
 	#controller = NED
 	#add_core= NED
-	remove_core = ENG
+	
 	culture = dutch
 	religion = reformed
  # Seized by Michiel de Ruyter
@@ -47,7 +47,7 @@ discovered_by = nomad_group
 	#owner = ENG
 	#controller = ENG
 	#add_core= ENG
-	remove_core = NED
+	
 	culture = english
 	religion = protestant
  # The Dutch are chased away 
@@ -60,7 +60,7 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 
 
 discovered_by = GBR

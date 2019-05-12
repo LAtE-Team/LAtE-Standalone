@@ -35,16 +35,16 @@ discovered_by = nomad_group
 # = {
 	#owner = GBR
 	#add_core= GBR
-	remove_core = FRA
+	
 	culture = english
 	religion = protestant
  # Treaty of Paris - ceded to Britain, France gave up its claim
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = GBR  # Spanish occupation
+# = { #owner = SPA #controller = SPA #add_core= SPA   # Spanish occupation
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = SPA
+	
  # Captured by the Americans
 
 discovered_by = GBR

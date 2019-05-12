@@ -24,8 +24,8 @@ discovered_by = RED
 #discovered_by = nomad_group
 
 
-# = { #owner = AST #controller = AST remove_core = GOL }
-# = { #owner = RUS #controller = RUS #add_core= RUS remove_core = AST } # Russians acquire Volga after fall of Astrakhan
+# = { #owner = AST #controller = AST  }
+# = { #owner = RUS #controller = RUS #add_core= RUS  } # Russians acquire Volga after fall of Astrakhan
 # = { culture = russian religion = orthodox }
 # = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } #controller = REB unrest = 6 } # Razin rebellion
 # = { revolt = { } #controller = RUS unrest = 0 } # Razin captured

@@ -34,7 +34,7 @@ discovered_by = chinese
 	#controller = QNG
 	#add_core= QNG
 #} # The Qing Conquest of China finishes
-# = { remove_core = MNG }
+# = {  }
 # = { #controller = CZH } # Three Feudatories revolt
 # = { #controller = QNG }
 

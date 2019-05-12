@@ -24,7 +24,7 @@ discovered_by = chinese
 	#controller = QNG
 	#add_core= QNG
 #}
-# = { remove_core = MNG } # The government in Taiwan surrendered
+# = {  } # The government in Taiwan surrendered
 
 
 native_size = 5

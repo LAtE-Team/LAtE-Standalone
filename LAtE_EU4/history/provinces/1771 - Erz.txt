@@ -33,7 +33,7 @@ discovered_by = indian
 # = {	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = BOH
+	
 #}
 # = { religion = protestant }
 # = {
@@ -44,7 +44,7 @@ discovered_by = indian
 # = {
 	#owner = HAB
 	#controller = HAB
-	remove_core = BOH
+	
 #} # Tilly beats the Winterking. Deus Vult!
 # = { religion = catholic } # Order from Ferdinand II to reconvert to Catholicism, many Protestant leave the country 
 # = { hre = no } # The Holy Roman Empire is dissolved

@@ -36,7 +36,7 @@ discovered_by = nomad_group
 	#discovered_by = GBR
 	#owner = GBR
 	#controller = GBR
-	remove_core = FRA
+	
 	#add_core= GBR
 	culture = english
 	religion = protestant

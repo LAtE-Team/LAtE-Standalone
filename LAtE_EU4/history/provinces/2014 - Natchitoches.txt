@@ -42,7 +42,7 @@ discovered_by = nomad_group
 	#owner = SPA
 	#controller = SPA
 	culture = castillian
-	remove_core = FRA
+	
  # Treaty of Fontainebleau, secretely ceded to Spain
 # = { unrest = 5  # The French resisted the Spanish rule
 # = { unrest = 0  # Eventually subdued
@@ -52,13 +52,13 @@ discovered_by = nomad_group
 	#controller = FRA
 	#add_core= FRA
 	culture = cosmopolitan_french
-	remove_core = SPA
+	
  # Treaty of San Ildefonso
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = FRA
+	
  # The Louisiana purchase
 
 discovered_by = GBR

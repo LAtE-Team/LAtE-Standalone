@@ -22,7 +22,7 @@ discovered_by = indian
 # = { 
 	#owner = DGL
 	#controller = DGL
-	remove_core = POR
+	
 #}	# Independence is restored under Muhammad Thakurufaanu Al-Azam
 # = { #owner = NED #controller = NED #add_core= NED }
 # = {

@@ -39,14 +39,14 @@ discovered_by = nomad_group
 	#owner = FRA
 	#controller = FRA
 	#add_core= FRA
-	remove_core = SPA
+	
 	culture = cosmopolitan_french
  # Treaty of San Ildefonso
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = FRA
+	
  # The Louisiana purchase
 
 discovered_by = GBR

@@ -30,8 +30,8 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-# = { #owner = AST #controller = AST remove_core = GOL } # Independence of Astrakhan
-# = { #owner = RUS #controller = RUS #add_core= RUS remove_core = AST capital = "Astrakhan" } # Conquered by Ivan the terrible 
+# = { #owner = AST #controller = AST  } # Independence of Astrakhan
+# = { #owner = RUS #controller = RUS #add_core= RUS  capital = "Astrakhan" } # Conquered by Ivan the terrible 
 # = { culture = russian religion = orthodox }
 # = { revolt = { type = anti_tax_rebels size = 3 leader = "Stepan Razin" } #controller = REB unrest = 6 } # Razin rebellion based here
 # = { revolt = { } #controller = RUS unrest = 0 } # Astrakhan retaken by the Tsar

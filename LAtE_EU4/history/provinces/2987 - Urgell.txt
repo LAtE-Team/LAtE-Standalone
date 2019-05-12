@@ -43,14 +43,14 @@ discovered_by = indian
 	#controller = FRA
 	#add_core= FRA
 #} # Louis XIII of France, Count of Barcelona.
-# = { #owner = SPA #controller = SPA remove_core = FRA } # Barcelona surrenders
+# = { #owner = SPA #controller = SPA  } # Barcelona surrenders
 # = { #controller = FRA } # France defeats the Spanish army in Girona
 # = { #controller = SPA } # Spain retakes the city
 # = { #controller = FRA } # France occupies northern Catalonia
 # = { #controller = SPA } # Peace of Ryswick
 # = { #controller = HAB } # Catalonia recognises Archduke Carlos as its sovereign, joining the Anglo-Austrian cause in the War of Spanish Succession. The loyalist troops in Barcelona are defeated.
 # = { #controller = SPA } # French troops take Girona
-# = { remove_core = ARA }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 1 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 

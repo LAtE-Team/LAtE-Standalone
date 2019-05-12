@@ -34,7 +34,7 @@ discovered_by = nomad_group
 # = {
 	#owner = XXX
 	#controller = XXX
-	remove_core = ABE
+	
 	is_city = no 
  #Decline of the New England Abenakis in the wake of Father Rale's War
 # = {
@@ -52,5 +52,5 @@ discovered_by = nomad_group
 	#controller = USA
 	#add_core= USA
  # Declaration of independence
-# = { remove_core = GBR unrest = 0  # Preliminary articles of peace, the British recognized American independence
+# = {  unrest = 0  # Preliminary articles of peace, the British recognized American independence
 discovered_by = GBR

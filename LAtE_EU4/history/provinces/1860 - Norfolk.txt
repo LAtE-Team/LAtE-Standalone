@@ -44,7 +44,7 @@ discovered_by = RED
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 #}
 
 

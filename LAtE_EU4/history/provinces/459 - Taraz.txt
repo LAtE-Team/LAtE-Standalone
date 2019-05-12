@@ -25,7 +25,7 @@ discovered_by = indian
 	#controller = KAS
 	#add_core= KAS
 #}
-# = { #owner = KZH #controller = KZH remove_core = KAS } # Kazakh horde forms
+# = { #owner = KZH #controller = KZH  } # Kazakh horde forms
 # = { discovered_by = RUS }
 # = { #owner = OIR #controller = OIR } # Dzungarian invasion
 # = { #owner = KZH #controller = KZH }

@@ -35,7 +35,7 @@ discovered_by = RED
 # = { #owner = TUR #controller = TUR }
 # = { #controller = VEN }
 # = { #controller = TUR }
-# = { remove_core = BYZ }
+# = {  }
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Rebellion against Ottoman rule
 # = { revolt = {} #controller = TUR }
 # = { unrest = 5 } # General discontent with the Janissaries' dominance
@@ -46,7 +46,7 @@ discovered_by = RED
 # = { base_tax = 1 
 base_production = 1 } #The Decentralizing Effect of the Provincial System
 # = { #owner = VEN #add_core= VEN } # Annexed by the Venetian republic
-# = { #owner = TUR #controller = TUR remove_core = VEN }
+# = { #owner = TUR #controller = TUR  }
 # = { #add_core= GRE }
 
 

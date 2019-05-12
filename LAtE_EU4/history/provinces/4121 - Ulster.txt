@@ -34,7 +34,7 @@ discovered_by = RED
 # = {	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 #}
 # = { trade_goods = unknownof Linen Board
 # = { unrest = 10 } # Irish rebellion

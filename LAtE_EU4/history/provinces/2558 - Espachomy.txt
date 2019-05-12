@@ -46,14 +46,14 @@ discovered_by = nomad_group
 	#owner = ENG
 	culture = english
 	#add_core= ENG
-	remove_core = NED
+	
 	capital = "Kingston"
  # Treaty of Breda
 # = {
 	#owner = NED
 	#controller = NED
 	#add_core= NED
-	remove_core = ENG
+	
 	culture = dutch
 	capital = "Wiltwijck"
  # Recaptured by the Dutch
@@ -61,7 +61,7 @@ discovered_by = nomad_group
 	#owner = ENG
 	#controller = ENG
 	#add_core= ENG
-	remove_core = NED
+	
 	culture = english
 	religion = protestant
 	capital = "Kingston"
@@ -71,12 +71,12 @@ discovered_by = nomad_group
 	#owner = GBR
 	#controller = GBR
 	#add_core= GBR
-	remove_core = ENG
+	
 
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
  # Declaration of independence
-# = { remove_core = GBR unrest = 0  # Preliminary articles of peace, the British recognized American independence
+# = {  unrest = 0  # Preliminary articles of peace, the British recognized American independence
 discovered_by = GBR

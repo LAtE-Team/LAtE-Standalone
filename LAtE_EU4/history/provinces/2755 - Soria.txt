@@ -34,7 +34,7 @@ discovered_by = indian
 #} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
 # = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB } # War of the Comunidades
 # = { revolt = {} #controller = SPA } # The army of the "Comuneros" is defeated at Villalar. Its leaders are promptly beheaded.
-# = { remove_core = CAS }
+# = {  }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }
 # = { revolt = {} #controller = SPA }
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB }

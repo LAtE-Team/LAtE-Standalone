@@ -30,10 +30,10 @@ discovered_by = chinese
 	#owner = QNG
 	#controller = QNG
 	#add_core= QNG
-	remove_core = MCH
+	
 #} # The Qing Dynasty  
 # = { capital = "Fengtianfu" } # Renamed
-# = { remove_core = MNG } # The government in Taiwan surrendered
+# = {  } # The government in Taiwan surrendered
 
 
 native_size = 5

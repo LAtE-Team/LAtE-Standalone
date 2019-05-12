@@ -35,7 +35,7 @@ discovered_by = nomad_group
 	#owner = CRE
 	#controller = CRE
 	#add_core= CRE
-	remove_core = SPA
+	
 	culture = creek
 	religion = totemism
  #Spanish colony largely abandoned under Creek raids
@@ -47,14 +47,14 @@ discovered_by = nomad_group
 	culture = english
 	religion = protestant
  # Part of British Georgia after the Treaty of Paris
-# = { #owner = SPA #controller = SPA #add_core= SPA remove_core = GBR  # Part of Spanish West Florida
+# = { #owner = SPA #controller = SPA #add_core= SPA   # Part of Spanish West Florida
 # = { unrest = 7  # Controversy of the Treaty of Versaille & the Treaty of Paris, Spanish or American?
 # = { capital = "Tallahassee" 
 # = {
 	#owner = USA
 	#controller = USA
 	#add_core= USA
-	remove_core = SPA
+	
  # The Adams-Onís Treaty
 
 discovered_by = GBR

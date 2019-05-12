@@ -39,7 +39,7 @@ discovered_by = RED
 # = {	#owner = WLS
 	#controller = WLS
 	#add_core= WLS
-	remove_core = ENG
+	
 #}
 # = { religion = reformed }
 

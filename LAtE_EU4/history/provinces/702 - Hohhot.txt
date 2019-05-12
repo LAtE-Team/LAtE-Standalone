@@ -30,7 +30,7 @@ discovered_by = chinese
 	#owner = KHA
 	#controller = KHA
 	#add_core= KHA
-	remove_core = OIR
+	
 #} # Mark?rgis Khan of the Gold Family rises to power after Esen's death.
 # = { unrest = 8 } # Fighting broke out between the Mongols
 # = { unrest = 0 } # The Oirads are defeated & Altan Khan reunites the the area.
@@ -39,13 +39,13 @@ discovered_by = chinese
 	#owner = MCH
 	#controller = MCH
 	#add_core= MCH
-	remove_core = KHA
+	
 #} # The Later Jin Khanate
 # = {
 	#owner = QNG
 	#controller = QNG
 	#add_core= QNG
-	remove_core = MCH
+	
 #} # The Qing Dynasty  
 # = { discovered_by = SPA } #Ferdinand Verbiest
 

@@ -19,7 +19,7 @@ discovered_by = NRA
 
 # = { discovered_by = POR }
 # = { #add_core= MCH } # Manchu Invasion
-# = { remove_core = MCH } # Qing vassalized Korea
+# = {  } # Qing vassalized Korea
 # = { discovered_by = NED } # Hendrick Hamel
 
 

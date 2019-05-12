@@ -36,7 +36,7 @@ discovered_by = nomad_group
 	#owner = XXX
 	#controller = XXX
 	is_city = no
-	remove_core = SHA
+	
 	culture = shawnee 
  #Vast areas left deserted after the Beaver Wars and the Iroquois withdrawal
 # = { discovered_by = GBR 

@@ -38,13 +38,13 @@ discovered_by = indian
 # = {
 	#owner = BOH
 	#controller = BOH
-	remove_core = HUN
+	
 #} # Matthias Corvinus dies in Vienna, his successor is both King of Hungary AND Bohemia, thus the integreity of the Bohemian territory is restored.
 # = {
 	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-	remove_core = BOH
+	
 #}# Battle of Mohac where Lajos II dies -> Habsburg succession
 # = { # Defenestration of Prague
 	#owner = BOH
@@ -54,7 +54,7 @@ discovered_by = indian
 # = {
 	#owner = HAB
 	#controller = HAB
-	remove_core = BOH
+	
 #} # Tilly beats the Winterking. Deus Vult!
 # = { hre = no } # The Holy Roman Empire is dissolved
 

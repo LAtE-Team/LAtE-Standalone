@@ -37,7 +37,7 @@ base_manpower = 2
 	#controller = COL
 	#add_core= COL
 } # Colombia declares independence
-# = { remove_core = SPA } # Colombia's independence is recongnized
+# = {  } # Colombia's independence is recongnized
 
 
 native_size = 5

@@ -25,7 +25,7 @@ discovered_by = indian
 discovered_by = indian
 
 
-#	= { #owner = RUS #controller = RUS #add_core= RUS remove_core = KAZ } # Russian conquest of Kazan
+#	= { #owner = RUS #controller = RUS #add_core= RUS  } # Russian conquest of Kazan
 # = { culture = russian religion = orthodox } # Samara fortress founded
 # = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } #controller = REB unrest = 6 } # Razin rebellion
 # = { revolt = { } #controller = RUS unrest = 0 } # Razin captured
