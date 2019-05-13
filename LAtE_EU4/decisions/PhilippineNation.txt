@@ -70,19 +70,7 @@ country_decisions = {
 				}
 				set_government_rank = 2
 			}
-                        luzon_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = PHL
-			}
-			great_moluccas_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = PHL
-			}
-			south_great_moluccas_area = {
+           luzon_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

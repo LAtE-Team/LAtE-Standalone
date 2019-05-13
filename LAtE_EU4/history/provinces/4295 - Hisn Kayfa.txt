@@ -2,7 +2,7 @@
 
 add_core = RJA
 owner = RJA
-controlle = RJA
+controller = RJA
 culture = kurdish
 religion = yazidi
 capital = "Hisn Kayfa"

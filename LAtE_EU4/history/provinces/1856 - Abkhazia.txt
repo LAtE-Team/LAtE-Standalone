@@ -13,9 +13,8 @@ native_ferocity = 1
 native_hostileness = 2
 
 add_core = ABK
-controller = ABK
 owner = ABK
-
+controller = ABK
 
 discovered_by = indian
 discovered_by = indian

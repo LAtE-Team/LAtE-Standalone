@@ -25,7 +25,7 @@ discovered_by = indian
 # = { #Fall of Routier
 	#owner = FRA 
 	#controller = FRA
-	estate = estate_nobles
+	#estate = #estate_nobles
 	add_local_autonomy = -80
 #}
 # = {  }

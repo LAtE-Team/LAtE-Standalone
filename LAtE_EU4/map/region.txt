@@ -1381,7 +1381,7 @@ central_america_region = {
 		chiapas_area
 		#guatemala_lowlands_area
 		costa_rica_area
-		campeche_area
+		#campeche_area
 		#AtE Additions
 		peten_area
 		salvador_area

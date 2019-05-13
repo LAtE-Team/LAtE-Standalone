@@ -1,7 +1,7 @@
 #424 - Ardabil
 add_core = AZB
-controller = AZB
 owner = AZB
+controller = AZB
 culture = azerbaijani
 religion = coptic
 capital = "Ardabil"

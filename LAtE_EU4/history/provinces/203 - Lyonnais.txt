@@ -13,7 +13,7 @@ trade_goods = unknown
 base_manpower = 1
 #add_core= FRA
 fort_15th = yes
-estate = estate_burghers
+#estate = #estate_burghers
 
 
 

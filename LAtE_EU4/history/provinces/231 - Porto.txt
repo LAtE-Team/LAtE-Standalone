@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = no
-estate = estate_church #Braga
+#estate = #estate_church #Braga
 #add_core= POR
 
 

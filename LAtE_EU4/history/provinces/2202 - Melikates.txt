@@ -1,7 +1,7 @@
 #2202 - Melikates
 add_core = NGK
-controller = NGK
 owner = NGK
+controller = NGK
 culture = azerbaijani
 religion = coptic
 capital = "Khankendi"

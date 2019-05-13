@@ -1,4 +1,4 @@
-﻿#singaporean
+#singaporean
 malay = {
 	singaporean = {
 		primary = SGP

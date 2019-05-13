@@ -4,7 +4,7 @@
 #controller = BUR 
 capital = "Besançon"
 is_city = no
-estate = estate_burghers
+#estate = #estate_burghers
 culture = burgundian
 religion = cult_of_reason
 hre = no

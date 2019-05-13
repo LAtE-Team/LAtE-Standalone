@@ -2,7 +2,7 @@
 #controller = BUR 
 capital = "Charolles"
 is_city = no
-estate = estate_nobles
+#estate = #estate_nobles
 culture = burgundian
 religion = cult_of_reason
 hre = no

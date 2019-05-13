@@ -666,11 +666,11 @@ global_trade = {
 	can_start = {
 		is_year = 3200
 		is_island = no
+		highest_value_trade_node = yes
 		OR = {
-			has_province_modifier = center_of_trade_modifier
-			has_province_modifier = inland_center_of_trade_modifier
+			province_has_center_of_trade_of_level = 3
+			province_has_center_of_trade_of_level = 2
 			is_capital = yes
-			highest_value_trade_node = yes
 		}
 		owner = {
 			any_active_trade_node = {
@@ -711,22 +711,29 @@ global_trade = {
 		modifier = {
 			factor = 0.5
 			scale = yes
-			has_province_modifier = inland_center_of_trade_modifier
+			potential = {
+				province_has_center_of_trade_of_level = 3
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_center_of_trade_spread
+				OR = {
+					province_has_center_of_trade_of_level = 3
+				}
+			}
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.1
 			scale = yes
 			potential = {
 				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
+					province_has_center_of_trade_of_level = 1
+					province_has_center_of_trade_of_level = 2
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
 				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
+					province_has_center_of_trade_of_level = 2
 				}
 			}
 		}

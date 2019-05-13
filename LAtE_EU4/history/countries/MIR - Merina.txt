@@ -1,5 +1,5 @@
 government = republic
-nadd_government_reform = tribal_federation
+add_government_reform = tribal_federation
 government_rank = 2
 primary_culture = madagasque
 religion = zanahary

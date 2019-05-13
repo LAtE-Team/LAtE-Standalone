@@ -12,7 +12,7 @@ base_production = 1
 base_manpower = 1
 is_city = no
 #add_core= SAV
-estate = estate_burghers
+#estate = #estate_burghers
 
 
 

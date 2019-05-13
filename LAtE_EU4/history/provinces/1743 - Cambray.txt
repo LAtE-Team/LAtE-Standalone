@@ -5,7 +5,7 @@
 #add_core= BUR
 capital = "Cambray"
 is_city = no
-estate = estate_church
+#estate = #estate_church
 culture = wallonian
 religion = cult_of_reason
 hre = no

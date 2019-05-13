@@ -13,7 +13,7 @@ trade_goods = unknown
 base_manpower = 1
 capital = "A Corunha" 
 is_city = no
-estate = estate_church
+#estate = #estate_church
  # Santiago de Compostela pilgrimage
 discovered_by = high_american 
 discovered_by = RED

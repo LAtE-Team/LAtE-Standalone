@@ -10,7 +10,7 @@ base_production = 1
 trade_goods = wine
 base_manpower = 1
 capital = "Taranto"
-estate = estate_nobles
+#estate = #estate_nobles
 is_city = no 
 #add_core= NAP
 

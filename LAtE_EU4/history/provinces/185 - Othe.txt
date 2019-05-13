@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-estate = estate_church
+#estate = #estate_church
 #add_core= CHP
 #add_core= FRA
 

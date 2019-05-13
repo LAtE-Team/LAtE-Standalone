@@ -5,7 +5,7 @@
 #add_core= BRB
 is_city = no
 capital = "Antwerp"
-estate = estate_burghers
+#estate = #estate_burghers
 hre = no
 culture = flemish
 religion = cult_of_reason

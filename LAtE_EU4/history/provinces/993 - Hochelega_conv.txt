@@ -18,8 +18,7 @@ discovered_by = X17
 	base_tax = 10
 	base_production = 10
 	base_manpower = 5
-	remove_province_modifier = inland_center_of_trade_modifier
-	
+}
 	
 	
 	

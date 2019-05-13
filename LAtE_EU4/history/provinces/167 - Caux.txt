@@ -4,7 +4,7 @@
 #controller = FRA
 capital = "Rouen"
 is_city = no
-estate = estate_burghers
+#estate = #estate_burghers
 culture = normand
 religion = cult_of_reason
 hre = no

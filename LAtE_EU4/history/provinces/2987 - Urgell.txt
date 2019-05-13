@@ -12,7 +12,7 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Tàrrega" 
-estate = estate_nobles
+#estate = #estate_nobles
 is_city = no 
 
 

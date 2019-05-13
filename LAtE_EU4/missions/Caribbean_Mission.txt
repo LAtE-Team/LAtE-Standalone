@@ -578,12 +578,8 @@ Caribbean_missions_4 = {
 		position = 4
 		trigger = {
 			OR = {
-				europe = {
-					discovered_by = ROOT
-				}
-				africa = {
-					discovered_by = ROOT
-				}
+				has_discovered = europe
+				has_discovered = africa 
 			}
 		}
 		effect = {

@@ -13,4 +13,4 @@ native_size = 10
 native_ferocity = 1 
 native_hostileness = 1 
 discovered_by = chinese
-estate = estate_church
+#estate = #estate_church

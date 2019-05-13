@@ -13,7 +13,7 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Barcelona" 
 is_city = no
-estate = estate_burghers
+#estate = #estate_burghers
 
 
 

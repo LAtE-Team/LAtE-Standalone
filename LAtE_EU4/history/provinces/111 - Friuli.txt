@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 1
 capital = "Udine" 
 is_city = no # Estimated
-estate = estate_church
+#estate = #estate_church
 #add_core= AQU
 
 

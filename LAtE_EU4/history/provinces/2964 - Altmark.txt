@@ -11,7 +11,7 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Stendal"
-estate = estate_burghers #Altmärkische Städtebund
+#estate = #estate_burghers #Altmärkische Städtebund
 is_city = no
 
 

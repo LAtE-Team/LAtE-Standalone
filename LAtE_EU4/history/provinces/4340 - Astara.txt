@@ -1,8 +1,8 @@
 #4340 - Astara
 
 add_core = AZB
-controller = AZB
 owner = AZB
+controller = AZBB
 culture = azerbaijani
 religion = coptic
 capital = "Astara"
