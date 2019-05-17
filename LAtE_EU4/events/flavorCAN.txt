@@ -283,12 +283,7 @@ country_event = {	#Event for QUE if it has a colony in Britain. Gives option to 
 	option = {	#Makes primary culture of colony Ontarian
 		name = "flavor_CAN.4.a"
 		ai_chance = { factor = 0}
-		any_subject_country = {
-			is_colonial_nation_of = ROOT
-			capital_scope = {
-				colonial_region = colonial_British_Isles
-			}
-			}
+
 		random_country = {
 			limit = {
 				is_colonial_nation_of = ROOT

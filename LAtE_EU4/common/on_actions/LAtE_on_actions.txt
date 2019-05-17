@@ -3,7 +3,6 @@ on_startup = {
 	events = {
 		#LatE
 		saints.100
-		late_trade.1
 		late_trade.2
 		fixes.1
 		#Vanilla

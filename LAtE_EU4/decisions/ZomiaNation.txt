@@ -19,7 +19,7 @@ country_decisions = {
 				NOT = { exists = ZOM }
 			}
 			OR = {
-				culture_group = thai
+				culture_group = southeastasian_group
 				culture_group = burman
 			}
 			is_colonial_nation = no

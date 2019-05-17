@@ -6,6 +6,7 @@ country_event = {
 	id = late_trade.2
 	title = late_trade.2.title
 	desc = late_trade.2.desc
+	picture = "BANKRUPTCY_eventPicture"
 	
 	is_triggered_only = yes
 	hidden = yes

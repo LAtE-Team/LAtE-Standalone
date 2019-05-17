@@ -5,6 +5,7 @@ province_event = {
 	id = monetarism.1
 	title = monetarism.1.t
 	desc = monetarism.1.d
+	picture = "BANKRUPTCY_eventPicture"
 	
 	hidden = yes
 	is_triggered_only = yes
@@ -24,6 +25,7 @@ country_event = {
 	id = monetarism.2
 	title = monetarism.2.t
 	desc = monetarism.2.d
+	picture = "BANKRUPTCY_eventPicture"
 	
 	hidden = yes
 	is_triggered_only = yes
@@ -43,7 +45,7 @@ country_event = {
 	id = monetarism.3
 	title = monetarism.3.t
 	desc = monetarism.3.d
-	
+	picture = "BANKRUPTCY_eventPicture"
 	
 	trigger = {
 		current_age = age_of_reformation

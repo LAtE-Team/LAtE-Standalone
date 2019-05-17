@@ -2266,7 +2266,7 @@ on_conquistador_empty = {
 		10 = seven_cities_events.5
 		10 = seven_cities_events.6
 		10 = seven_cities_events.7
-		10 = seven_cities_events.8
+		#10 = seven_cities_events.8
 		
 		10 = seven_cities_events.100
 		10 = seven_cities_events.101
@@ -2296,9 +2296,9 @@ on_conquistador_empty = {
 		50 = seven_cities_events.218
 		50 = seven_cities_events.219
 		50 = seven_cities_events.220
-		50 = seven_cities_events.221
-		50 = seven_cities_events.222
-		50 = seven_cities_events.223
+		# 50 = seven_cities_events.221
+		# 50 = seven_cities_events.222
+		# 50 = seven_cities_events.223
 		
 		10 = seven_cities_events.302
 		10 = seven_cities_events.303

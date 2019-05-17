@@ -188,9 +188,7 @@ country_event = {
 		tag = FLD
 	}
 	is_triggered_only = yes
-	mean_time_to_happen = {
-		months = 1
-	}
+
 	major = yes
 
 	option = {
@@ -257,11 +255,6 @@ country_event = {
 		tag = CBN
 	}
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-
 
 	option = {
 		name = "caribbean.8.a"

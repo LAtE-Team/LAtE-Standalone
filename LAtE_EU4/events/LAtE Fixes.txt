@@ -4,10 +4,13 @@
 #The game insists on starting the Metis horde with way too many forts than they can afford.
 #This event removes them, and cancels out the first month of fort maintenance they have to pay.
 
+namespace = fixes
+
 country_event = {
 	id = fixes.1
 	title = "fixes.1.title"
 	desc = "fixes.1.desc"
+	picture = "BANKRUPTCY_eventPicture"
 	
 	hidden = yes
 	is_triggered_only = yes

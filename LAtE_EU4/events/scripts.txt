@@ -9,6 +9,7 @@ country_event = {
 	ID = LAtE_scripts.1
 	title = LAtE_scripts.1.TITLE
 	desc = LAtE_scripts.1.DESC
+	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -35,6 +36,7 @@ country_event = {
 	ID = LAtE_scripts.2
 	title = LAtE_scripts.2.TITLE
 	desc = LAtE_scripts.2.DESC	
+	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
