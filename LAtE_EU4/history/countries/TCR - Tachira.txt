@@ -1,0 +1,9 @@
+# Táchira
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = gocho 
+religion = cult_of_saints
+capital = 2813

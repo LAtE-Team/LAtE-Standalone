@@ -1,0 +1,9 @@
+# Malawi
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = central_african
+primary_culture = nyasa 
+religion = mwari
+capital = 4040

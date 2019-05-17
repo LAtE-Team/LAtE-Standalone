@@ -1,0 +1,9 @@
+# Griqualand
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = central_african
+primary_culture = griqua 
+religion = mwari
+capital = 2880

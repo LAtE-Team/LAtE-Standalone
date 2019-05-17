@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = shogunate
+government_rank = 1
+primary_culture = edokko
+religion = shinto
+technology_group = chinese
+
+

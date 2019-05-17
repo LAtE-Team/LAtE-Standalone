@@ -1,0 +1,8 @@
+# Steel Brotherhood
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = angelo 
+religion = beltway
