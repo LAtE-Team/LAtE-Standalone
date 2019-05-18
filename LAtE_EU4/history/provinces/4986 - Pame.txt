@@ -5,7 +5,7 @@ add_core = JAL
 culture = norteno
 religion = cult_of_saints
 citysize = 2000
-add_permanent_claim = MEX
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

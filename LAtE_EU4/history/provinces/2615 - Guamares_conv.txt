@@ -5,7 +5,7 @@ add_core = JAL
 culture = chilango
 religion = cult_of_saints
 citysize = 2000
-add_permanent_claim = MEX
+
 add_permanent_claim = X91
 discovered_by = eastern
 discovered_by = western

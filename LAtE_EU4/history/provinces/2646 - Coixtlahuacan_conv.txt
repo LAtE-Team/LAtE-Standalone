@@ -5,7 +5,7 @@ add_core = X91
 culture = purepecha
 religion = cult_of_saints
 citysize = 2000
-add_permanent_claim = MEX
+
 add_permanent_claim = ZAP
 discovered_by = eastern
 discovered_by = western

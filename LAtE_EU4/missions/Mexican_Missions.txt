@@ -19,11 +19,13 @@ mex_conquer_southeast_1 = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			province_id = 2668
-			province_id = 2614
-			province_id = 2667
-			province_id = 861
-			province_id = 2619
+			or = {
+				province_id = 2668
+				province_id = 2614
+				province_id = 2667
+				province_id = 861 
+				province_id = 2619
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -36,12 +38,14 @@ mex_conquer_southeast_1 = {
 		effect = {
 			every_province = {
 				limit = {
-					province_id = 2498
-					province_id = 2666
-					province_id = 883
-					province_id = 884 
-					province_id = 888
-					province_id = 2500
+					OR = {
+						province_id = 2498
+						province_id = 2666
+						province_id = 883
+						province_id = 884 
+						province_id = 888
+						province_id = 2500
+					}
 				}
 				add_permanent_claim = ROOT
 			}
@@ -60,19 +64,22 @@ mex_conquer_southeast_1 = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			province_id = 2498
-			province_id = 2666
-			province_id = 883
-			province_id = 884 
-			province_id = 888
-			province_id = 2500
+			OR = {
+				province_id = 2498
+				province_id = 2666
+				province_id = 883
+				province_id = 884 
+				province_id = 888
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			owns = 2498
 			owns = 2666
 			owns = 883
 			owns = 884 
-			owns = 888			
+			owns = 888		
+			owns = 2500	
 		}
 		effect = {
 			every_province = {
@@ -130,20 +137,33 @@ mex_conquer_southeast_1 = {
 			}
 		}
 	}
-	conquer_chichimeca = { #Conquer Chichimeca
-		icon = mission_conquer_50_development
-		required_missions = {  } #None
-		#completed_by = 3100.1.1
-		position = 5
-		trigger = {
-			gran_chichimeca_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+	
+	mex_secure_the_capital = {
+		icon = mission_unite_home_region
+		position = 4
+		
+		ai_weight = {
+			factor = 3
 		}
+		ai_priority = {
+			factor = 3
+		}
+		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			area = gran_chichimeca_area
+			OR = {
+				area = guanajuato_area
+				province_id = 2615
+				province_id = 4985
+				province_id = 4917
+			}
+			NOT = { province_id = 4984 }
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			2615 = { owned_by = ROOT }
+			4985 = { owned_by = ROOT }
+			4917 = { owned_by = ROOT }
+
 		}
 		effect = {
 			jalisco_area = {
@@ -153,6 +173,59 @@ mex_conquer_southeast_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			if = {
+				limit = {
+					2622 = {
+						NOT = { is_core = ROOT }
+						NOT = { owned_by = ROOT }
+					}
+				}
+				2622 = { add_permanent_claim = ROOT }
+			}
+			if = {
+				limit = {
+					2615 = {
+						NOT = { is_core = ROOT }
+						NOT = { owned_by = ROOT }
+					}
+				}
+				2615 = { add_permanent_claim = ROOT }
+			}
+			if = {
+				limit = {
+					4984 = {
+						NOT = { is_core = ROOT }
+						NOT = { owned_by = ROOT }
+					}
+				}
+				4984 = { add_permanent_claim = ROOT }
+			}
+		}
+	}
+	
+	conquer_jalisco = {
+		icon = mission_unite_home_region
+		position = 5
+		required_missions = { mex_secure_the_capital }
+		
+		ai_weight = {
+			factor = 3
+		}
+		ai_priority = {
+			factor = 3
+		}
+		#completed_by = 3100.1.1
+		provinces_to_highlight = {
+			area = jalisco_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			jalisco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
 			sinaloa_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -167,11 +240,26 @@ mex_conquer_southeast_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			zacatecas_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			gran_chichimeca_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
+	
 	conquer_sinaloa = {
 		icon = mission_non-western_soldiers
-		required_missions = { conquer_chichimeca }
+		required_missions = { conquer_jalisco }
 		position = 6
 		provinces_to_highlight = {
 			area = sinaloa_area 
@@ -308,10 +396,13 @@ mex_conquer_southeast_1 = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			province_id = 4737 
-			province_id = 4739
-			province_id = 2537
-			province_id = 4575
+			OR = {
+				province_id = 4737 
+				province_id = 4739
+				province_id = 2537
+				province_id = 4575
+				province_id = 4506
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -325,6 +416,9 @@ mex_conquer_southeast_1 = {
 				owned_by = ROOT
 			}
 			4575 = {
+				owned_by = ROOT
+			}
+			4506 = {
 				owned_by = ROOT
 			}
 		}
@@ -355,7 +449,7 @@ mex_conquer_southeast_2 = {
 	has_country_shield = yes
 	conquer_durango = {
 		icon = mission_cannons_firing
-		required_missions = { conquer_chichimeca }
+		required_missions = { conquer_jalisco }
 		position = 6
 		
 		ai_weight = {
@@ -426,35 +520,7 @@ mex_europe = {
 	}
 	
 	has_country_shield = yes
-	conquer_jalisco = {
-		icon = mission_unite_home_region
-		required_missions = { conquer_chichimeca }
-		position = 6
-		
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 3
-		}
-		#completed_by = 3100.1.1
-		provinces_to_highlight = {
-			area = jalisco_area
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			jalisco_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "expansionist_country"
-				duration = 9125 #25 years
-			}
-		}
-	}
+	
 	
 	mex_discover_iberia = {
 		icon = mission_establish_high_seas_navy
@@ -548,8 +614,7 @@ mex_pacific = {
 			region = mexico_region
 			has_port = yes
 			NOT = {
-				area = texas_area
-				area = rio_grande_area
+				area = huasteca_area
 				area = eastern_mexico_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -561,8 +626,7 @@ mex_pacific = {
 					region = mexico_region
 					has_port = yes
 					NOT = {
-						area = texas_area
-						area = rio_grande_area
+						area = huasteca_area
 						area = eastern_mexico_area
 					}
 					country_or_non_sovereign_subject_holds = ROOT
@@ -575,8 +639,7 @@ mex_pacific = {
 					region = mexico_region
 					has_port = yes
 					NOT = {
-						area = texas_area
-						area = rio_grande_area
+						area = huasteca_area
 						area = eastern_mexico_area
 					}
 					NOT = { country_or_non_sovereign_subject_holds = ROOT }	
@@ -644,8 +707,10 @@ mex_pacific = {
 		#completed_by = 3100.1.1
 		
 		provinces_to_highlight = {
-			region = south_china_region
-			region = north_china_region
+			OR = {
+				region = south_china_region
+				region = north_china_region
+			}
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
 		}
@@ -681,8 +746,10 @@ mex_pacific = {
 		position = 9
 		
 		provinces_to_highlight = {
-			colonial_region = colonial_north_china
-			colonial_region = colonial_south_china
+			OR = {
+				colonial_region = colonial_north_china
+				colonial_region = colonial_south_china
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -740,11 +807,11 @@ mex_pacific = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			province_id = 2635
-			province_id = 842
-			province_id = 2636
-			province_id = 843
-			province_id = 4756
+			OR = {
+				area = peten_area
+				province_id = 2635
+				province_id = 2636
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -790,8 +857,10 @@ mex_pacific = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			area = salvador_area
-			area = honduras_area
+			OR = {
+				area = salvador_area
+				area = honduras_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -833,8 +902,10 @@ mex_pacific = {
 		}
 		#completed_by = 3100.1.1
 		provinces_to_highlight = {
-			area = nicaragua_area
-			area = moskita_area
+			OR = {
+				area = nicaragua_area
+				area = moskita_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
