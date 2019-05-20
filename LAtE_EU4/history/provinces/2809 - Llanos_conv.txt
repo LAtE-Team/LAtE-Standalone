@@ -20,7 +20,7 @@ discovered_by = X17
 	base_tax = 1
 	base_production = 1
 	base_manpower = 1
-	
+}
 	
 	
 	

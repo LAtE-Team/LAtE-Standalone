@@ -1,0 +1,18 @@
+owner = ECU
+controller = ECU
+culture = quiteno
+religion = cult_of_saints
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+add_core = ECU
+
+
+
+discovered_by = south_american 
+discovered_by = andean
+discovered_by = brazilian
+discovered_by = andean
+
