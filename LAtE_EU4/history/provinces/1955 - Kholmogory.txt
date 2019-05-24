@@ -1,7 +1,4 @@
 #Kholmogory
-
-#owner = NOV 
-#controller = NOV 
 culture = karelian
 religion = finnish_pagan_reformed
 hre = no

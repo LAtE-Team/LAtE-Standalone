@@ -3,7 +3,7 @@
 add_core = ATG
 owner = ATG
 controller = ATG
-culture = russian
+culture = novgorodian
 religion = atomicist
 capital = "Cherny Yar"
 trade_goods = unknown
@@ -28,7 +28,7 @@ discovered_by = RED
 
 # = { 	#owner = AST #controller = AST #add_core= AST  } # Independence of Astrakhan
 # = { #owner = RUS #controller = RUS #add_core= RUS  } # Russians acquire Volga after fall of Astrakhan
-# = { culture = russian religion = orthodox }
+# = { culture = novgorodian religion = orthodox }
 # = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } #controller = REB unrest = 6 } # Razin rebellion
 # = { revolt = { } #controller = RUS unrest = 0 } # Razin captured
 
