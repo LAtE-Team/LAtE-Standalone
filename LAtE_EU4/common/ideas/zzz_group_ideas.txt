@@ -2,8 +2,8 @@
 
 pacific_northwest_ideas = {	#From Vanilla
 	start = {
-		land_morale = 0.2
-		land_attrition = -0.10
+		naval_forcelimit_modifier = 0.25
+		land_morale = 0.10
 		may_perform_slave_raid = yes
 	}
 	
@@ -25,7 +25,7 @@ pacific_northwest_ideas = {	#From Vanilla
 	free = yes		#will be added at load.
 	
 	great_whale_hunts = {
-		discipline = 0.15
+		discipline = 0.05
 	}
 	
 	dugout_canoes = { 
