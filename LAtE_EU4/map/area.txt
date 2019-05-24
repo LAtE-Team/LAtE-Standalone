@@ -3457,7 +3457,7 @@ labrador_area = { #3
 }
 
 cote_nord_area = { #South Cote Nord
-	996 2576 2577 2578 2579
+	996 2576 2577 2578 
 }
 
 north_cote_nord_area = {
