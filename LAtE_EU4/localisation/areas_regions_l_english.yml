@@ -2978,6 +2978,26 @@
  logone_area:0 "Logone"
  logone_name:0 "Logone"
  logone_adj:0 "Logone"
+ yamamah_area:0 "al-Yamamah"
+ yamamah_area_name:0 "Najd"
+ yamamah_area_adj:0 "Najdi"
+ qasim_area:0 "al-Qasim"
+ qasim_area_name:0 "Qasim"
+ qasim_area_adj:0 "Qasimi"
+ blue_mountains_area:0 "Blue Mountains"
+ blue_mountains_area_name:0 "Blue Mountains"
+ blue_mountains_area_adj:0 "Blue Mountainer"
+ oregon_area_area:0 "Oregon"
+ oregon_area_area_name:0 "Oregon"
+ oregon_area_area_adj:0 "Oregonian"
+ bitteroot_area:0 "Bitteroot"
+ bitteroot_area_name:0 "Bitteroot"
+ bitteroot_area_adj:0 "Bitterootian"
+ uunaay_area:0 "Uunaay"
+ uunaay_area_name:0 "Uunaay"
+ uunaay_area_adj:0 "Uunaay"
+
+ 
 
 
 

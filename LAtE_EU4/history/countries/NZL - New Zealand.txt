@@ -5,5 +5,5 @@ government_rank = 2
 mercantilism = 0.1
 technology_group = chinese
 primary_culture = kiwi 
-religion = animist
+religion = animism
 capital = 4889

@@ -449,6 +449,8 @@ sahel_region = {
 		white_nile_area
 		car_area
 		chari_area
+		chad_area
+		logone_area
 	}
 	monsoon = {
 		00.06.01
@@ -957,6 +959,9 @@ colombia_region = {
 		popayan_area
 		panama_area
 		maracaibo_area
+		central_llanos_area
+		cordillera_occidental_area
+		colombian_amazonas_area
 	}
 	monsoon = {
 		00.05.01

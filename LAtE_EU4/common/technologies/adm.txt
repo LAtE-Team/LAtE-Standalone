@@ -76,6 +76,7 @@ technology = {
 	year = 3079
 	
 	#Workshop
+	farm_estate = yes
 	workshop = yes
 }
 
@@ -101,7 +102,7 @@ technology = {
 	year = 3118
 	
 	#The Scythe
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 	
 
 }
@@ -137,7 +138,7 @@ technology = {
 	year = 3170
 	
 	#Improved Drainage
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 }
 
 technology = {
@@ -160,7 +161,7 @@ technology = {
 	# Tech 16
 	year = 3209
 	
-	
+	mills = yes
 	production_efficiency 	=	0.05
 
 
@@ -206,6 +207,7 @@ technology = {
 	
 	#Land Clearance
 	production_efficiency 	=	0.05
+	furnace = yes
 }
 
 technology = {
@@ -281,7 +283,7 @@ technology = {
 	year = 3405
 	
 	#Improved Draft Animals
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 }
 
 technology = {

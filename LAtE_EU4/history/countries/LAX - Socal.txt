@@ -4,5 +4,5 @@ add_government_reform = feudalism_reform
 government_rank = 2
 mercantilism = 0.1
 technology_group = eastern
-primary_culture = angelo 
+primary_culture = angeleno 
 religion = cetic

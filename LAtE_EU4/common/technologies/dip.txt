@@ -47,7 +47,7 @@ technology = {
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
 	range					= 	100
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
 	
 	enable = early_carrack
@@ -70,7 +70,7 @@ technology = {
 	year = 3066
 	
 	naval_maintenance		=	0.1	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 }
 
@@ -233,7 +233,7 @@ technology = {
 	# Tech 20
 	year = 3261
 
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	num_accepted_cultures = 1
 	
@@ -284,7 +284,7 @@ technology = {
 	grand_shipyard = yes 
 
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	enable = archipelago_frigate
 	may_corrupt_officials = yes
@@ -327,7 +327,7 @@ technology = {
 	# Tech 28
 	year = 3375
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 }
 
@@ -343,7 +343,7 @@ technology = {
 	# Tech 30
 	year = 3405
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	may_infiltrate_administration = yes
 }
@@ -361,7 +361,7 @@ technology = {
 	# Tech 32
 	year = 3435
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	global_colonial_growth  = 	50
 }
