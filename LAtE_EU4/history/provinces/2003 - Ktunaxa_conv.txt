@@ -6,7 +6,6 @@ add_core = KOO
 culture = salish
 religion = ghost_dance
 citysize = 2000
-add_permanent_claim = X16
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

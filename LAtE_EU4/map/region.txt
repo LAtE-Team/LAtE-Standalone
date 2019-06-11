@@ -1280,7 +1280,8 @@ california_region = {
 		kern_area
 		los_padres_area
 		yellowstone_area
-		
+		mesa_area
+		salt_lake_area
 	}
 }
 
@@ -1301,6 +1302,7 @@ cascadia_region = {
 		bitteroot_area
 		blue_mountains_area
 		oregon_area_area
+		kootenai_area
 	}
 }
 

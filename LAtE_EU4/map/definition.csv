@@ -2577,7 +2577,7 @@ province;red;green;blue;x;x
 2576;26;3;95;Mingan;x
 2577;152;1;46;Manicouagan;x
 2578;89;121;246;Anticosti;x
-2579;215;2;196;Piekougami;x		
+2579;215;2;196;UNUSED;x		
 2580;47;1;145;Atikamekw;x
 2581;173;199;95;Timiskaming;x
 2582;110;1;46;Maliseet;x
@@ -4469,13 +4469,13 @@ province;red;green;blue;x;x
 4605;200;200;47;Bitterroot Mountains;x
 4606;222;167;4;Grande Ligne;x
 4607;108;188;217;Upper St Lawrence;x
-4608;128;255;200;St Larence Estuary;
+4608;128;255;200;Bear River;
 4609;102;177;204;Lake St Claire;x
 4610;89;154;179;Put-in-Bay;x
 4611;77;132;153;North Channel;x
 4612;140;233;255;Straits of Mackinac;x
 4613;126;210;230;Green Bay;x
-4614;119;198;217;Soo Locks;x
+4614;119;198;217;Wasatch Mountains;x
 4615;112;186;204;Kweenaw Bay;x
 4616;105;175;191;Thunder Bay;x
 4617;153;236;255;Georgian Bay;x
@@ -4486,9 +4486,9 @@ province;red;green;blue;x;x
 4622;110;219;178;Kittatinny;x
 4623;143;223;122;West Susquehanna;x
 4624;156;240;130;Pittsburgh;
-4625;160;137;200;?;
-4626;25;23;74;?;
-4627;74;189;216;?;
+4625;160;137;200;Provo;
+4626;25;23;74;Upper Allegheny;
+4627;74;189;216;Allegheny;
 4628;244;203;136;Ashtabula;
 4629;128;35;213;Bourke;x
 4630;114;173;43;Broken Hill;x
@@ -4609,10 +4609,10 @@ province;red;green;blue;x;x
 4745;108;176;32;Los Moches;x
 4746;192;193;232;Mazatlan;x
 4747;131;172;145;San Fernando;x
-4748;214;92;136;El Cielo;x
-4749;128;40;93;Manzanillo;x
-4750;56;75;177;Oxaca;x
-4751;113;167;119;Juchitan;x
+4748;214;92;136;Fishlake;x
+4749;128;40;93;Uintah;x
+4750;56;75;177;Mesa;x
+4751;113;167;119;Emery;x
 4752;133;41;191;Chimalapas;x
 4753;189;224;1;Cancun;x
 4754;145;122;16;Calakmul;x
@@ -4693,10 +4693,10 @@ province;red;green;blue;x;x
 4829;43;34;193;Giishkimanisiiwaaboong;x
 4830;89;184;131;Mishkeegogamang;x
 4831;88;19;67;Katchiskataouakigs;x
-4832;225;136;86;UNUSED;x			#UNUSED
+4832;225;136;86;Bitteroot Valley;x			
 4833;154;147;18;UNUSED;x			#UNUSED
-4834;8;204;7;UNUSED;x				#UNUSED
-4835;212;14;96;UNUSED;x				#UNUSED
+4834;8;204;7;Koocanusa;x	
+4835;212;14;96;Black Rock;x				#UNUSED
 4836;28;200;60;Ishim;x
 4837;94;209;99;Balagansky;x
 4838;19;2;77;Bratsky;x

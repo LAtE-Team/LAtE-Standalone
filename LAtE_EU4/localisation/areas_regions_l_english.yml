@@ -2996,7 +2996,15 @@
  uunaay_area:0 "Uunaay"
  uunaay_area_name:0 "Uunaay"
  uunaay_area_adj:0 "Uunaay"
-
+ kootenai_area:0 "Kootenai"
+ kootenai_area_name:0 "Kootenai"
+ kootenai_area_adj:0 "Kootenai"
+ mesa_area:0 "Mesa"
+ mesa_area_name:0 "Mesa"
+ mesa_area_adj:0 "Mesan"
+ salt_lake_area:0 "Salt Lake"
+ salt_lake_area_name:0 "Salt Lake"
+ salt_lake_area_adj:0 "Salt Lake"
  
 
 

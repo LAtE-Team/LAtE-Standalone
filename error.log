@@ -1,6 +1,6 @@
 [main.cpp:412]: 
 Game Version: EU4 v1.28.3.0 Spain.5f34a32
-Time:2019-05-24 16:17
+Time:2019-06-11 16:59
 Configuration: Release
 [virtualfilesystem.cpp:230]: Failed to find pre specified enumerate for 'localisation/replace'(.yml, (null), -1)
 [virtualfilesystem.cpp:230]: Failed to find pre specified enumerate for 'localisation/replace'(.yml, (null), -1)
@@ -5416,19 +5416,7 @@ Configuration: Release
 [map.cpp:2391]: Province 4498 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4499 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4581 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4608 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4609 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4614 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4625 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4748 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4749 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4750 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4751 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4752 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4832 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4833 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4834 has no pixels in provinces.bmp
-[map.cpp:2391]: Province 4835 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4836 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4837 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4838 has no pixels in provinces.bmp
@@ -5466,11 +5454,6 @@ Configuration: Release
 [map.cpp:2391]: Province 4981 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4982 has no pixels in provinces.bmp
 [map.cpp:2391]: Province 4983 has no pixels in provinces.bmp
-[countryhistory.cpp:680]: Unknown primary culture angelo in LAX
-[countryhistory.cpp:808]: Unknown religion animist in NZL
-[countryhistory.cpp:680]: Unknown primary culture angelo in SBH
-[countryhistory.cpp:808]: Unknown religion beltway in SBH
-[countryhistory.cpp:808]: Unknown religion theravada in TIZ
 [id.cpp:79]: Failed to create id 1700001 53. Already exists in game.
 [eventmanager.cpp:344]: unknown namespace 'usa_dlc' defined in event files
 [onaction.cpp:156]: On action event usa_dlc.36 does not exist!
@@ -5537,50 +5520,15 @@ OR = { religious_school = { group = muslim school = ismaili_school } religious_s
 [trigger.cpp:2154]: Error "failed trigger validation for "none, none, none, none"" when compiling instance of "has_sunni_school_trigger" resulting in source:
 OR = { religious_school = { group = muslim school = hanbali_school } religious_school = { group = muslim school = hanafi_school } religious_school = { group = muslim school = shafii_school } religious_school = { group = muslim school = maliki_school } } 
 [triggerimplementation.cpp:15183]: Unknown Area used in a trigger lorraine_area
-[news_banner.cpp:77]: Failed to get server data for key: 'steam_depot_id'
-[news_banner.cpp:166]: Failed to parse JSON
+[news_banner.cpp:172]: Failed to get get request for JSON
 [mission.cpp:353]: Non-generic mission series que_africa overlapping with que_ont_newfoundland
 [mission.cpp:353]: Non-generic mission series que_asia overlapping with que_ont_colonize
 [mission.cpp:353]: Non-generic mission series ont_africa overlapping with que_ont_newfoundland
 [mission.cpp:353]: Non-generic mission series ont_asia overlapping with que_ont_colonize
-[gamestate.cpp:5781]: 3053.1.1 : 4609 (Lake St. Claire ) is not discovered by their owner COL
 [graphics.cpp:1115]: No font with name 
 [pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
 [pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
-[pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
+[pdx_audio.cpp:309]: Missing sound: religion_mormon
 [pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
 [pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
 [pdx_entity.cpp:2559]: Entity state not found. Entity: tradenode_terrain, State: idle
