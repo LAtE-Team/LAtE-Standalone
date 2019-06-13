@@ -298,15 +298,15 @@ provence_area = { #3
 }
 
 guyenne_area = { #4
-	180 194 4111 174
+	180 194 4111 174 4112
 }
 
-# pyrenees_area = { #3
-	# 174 175 176
-# }
+pyrenees_area = { #3
+	175 176 196
+}
 
 languedoc_area = { #3
-	200 2753
+	200 2753 198 
 }
 
 bourgogne_area = { #4
@@ -367,9 +367,9 @@ frisia_area = { #3
 # Iberia					 		   #
 ########################################
 
-# aragon_area = { #3
-	# 211 214 2990
-# }
+aragon_area = { #3
+	211 214 2990
+}
 
 catalonia_area = { #4
 	197 212 213 2987
@@ -387,12 +387,12 @@ upper_andalucia_area = { #3
 	222 223 226
 }
 
-# castille_area = { #3
-	# 215 217 1746 2755 2989
-# }
+castille_area = { #3
+	215 217 1746 2755 2989
+}
 
 toledo_area = { #4
-	219 221 2754
+	219 221 2754 2751
 }
 
 asturias_area = { #3
@@ -404,7 +404,7 @@ basque_country = { #3
 }
 
 leon_area = { #4
-	218 1747
+	218 1747 216 208
 }
 
 beieras_area = { #4
@@ -4178,18 +4178,18 @@ connacht_area = {}
 leinster_area = {}
 ulster_area = {}
 netherlands_area = {}
-castille_area = {}
+
 savoy_dauphine_area	= {}
 barbary_coast_area = {}
-castille_area	= {}
-aragon_area	= {}
+
+
 galicia_area	= {}
 baleares_area	= {}
 barbary_coast_area	= {}
-pyrenees_area	= {}
+
 poitou_area	= {}
 ile_de_france_area	= {}
-aragon_area	= {}
+
 nepal_area	= {}
 baisi_rajya_area	= {}
 mithila_area	= {}
@@ -4236,8 +4236,8 @@ unused_provinces_area = {
 	4481 4482 4483 4484 4485 4486 4487 4488 4489 4490 4491 4492 4493 4494 4495 
 	4496 4497 4498 4499
 	
-	92 96 98 175 176 181 187 188 196 198 202 204 205 208 211 214 215 216 
-	217 293 297 963 1742 1743 1746 1931 2751 2755 2974 2989 2990 
+	92 96 98 181 187 188 202 204 205  
+	293 297 963 1742 1743 1931 2974  
 	
 	#3190 - 3999
 	3190 3191 3192 3193 3194 
@@ -4291,7 +4291,7 @@ unused_provinces_area = {
 	3980 3981 3982 3983 3984 3985 3986 3987 3988 3989 3990 3991 3992 3993 3994
 	3995 3996 3997 3998 3999 
 	
-	4112 4116 4241 4242 4243 4244 4245 4246 4247 4248
+	4116 4241 4242 4243 4244 4245 4246 4247 4248
 	4249 4250 4251 4252 4254 4255 4256 4259 4260 4261 4262 4263 4264 4358
 	
 	4581 

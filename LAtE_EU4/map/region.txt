@@ -22,7 +22,7 @@ france_region = {
 		seine_area
 		loire_area
 		bourgogne_area
-		#pyrenees_area
+		pyrenees_area
 	}
 }
 
@@ -154,12 +154,12 @@ ural_region = {
 
 iberia_region = {
 	areas = {
-		#aragon_area
+		aragon_area
 		catalonia_area
 		valencia_area
 		lower_andalucia_area
 		upper_andalucia_area
-		#castille_area
+		castille_area
 		toledo_area
 		asturias_area
 		leon_area
