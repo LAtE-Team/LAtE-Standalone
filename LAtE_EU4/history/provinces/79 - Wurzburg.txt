@@ -8,7 +8,6 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-fort_15th = yes # Marienberg Fortress
 capital = "Würzburg"
 hre = no
 

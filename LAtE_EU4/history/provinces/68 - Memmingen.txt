@@ -1,8 +1,8 @@
 #68 - Memmingen
 
-#owner = MEM
-#controller = MEM
-#add_core= MEM
+owner = BIZ
+controller = BIZ
+add_core= BIZ
 culture = swabian
 religion = cult_of_reason
 hre = no
