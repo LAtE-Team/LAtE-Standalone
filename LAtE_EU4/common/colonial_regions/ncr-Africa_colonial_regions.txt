@@ -29,7 +29,25 @@ colonial_north_africa = {
 		1156 2272 2273 2274 2276
 		2275 2277 2475
 	}
+	
+	#Specific
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = southron
+				primary_culture = dixie
+			}
+		}
+		name = "COLONIAL_NORTH_AFRICA_Atlanta"
+	}
+	names = {
+		trigger = {
+			primary_culture = gothamite
+		}
+		name = "COLONIAL_NORTH_AFRICA_Interzone"
+	}
 
+	#Generic
 	names = {
 		name = "COLONIAL_NORTH_AFRICA_Root_GetAdjective_North_Africa"
 	}
@@ -63,6 +81,8 @@ colonial_west_africa = {
 		1134 2259 2261 2263 #Jenne
 		2282 2283 2284 1157 1160 #Borno
 		2287 1158 2286 1159 2288 #Kanem
+		5006 5008 5027 5029
+		4995 4996 #Liberian interior
 	}
 	
 	#Specific
@@ -103,18 +123,20 @@ colonial_west_africa = {
 	}
 }
 
-#Colonial Central Africa (68)
+#Colonial Central Africa
 colonial_central_africa = {
 	color = { 5 140 25 }
 	provinces = {
-		#Congo (24)
+		#Congo
 		1097 1163 1164 1165 1166 1169 1901 4068 4078 4079
 		4081 4085 4086 4087 4088 4089 4090 4096 4097 4098 
-		4099 4101 4105 4109
-		#Angola (19)
+		4099 4101 4105 4109 5016 5030 4997 4998 4999 5000 
+		5001 5002 5003 5004 5005 5007 5009 5010 5011 5012 
+		5013 5014 5017 5018 5019 5020 5022
+		#Angola
 		798 1167 1168 1170 1171 1172 2948 2949 4080 4082 
 		4083 4084 4091 4092 4093 4094 4095 4107 4108
-		#Zambia (19)
+		#Zambia
 		1184 1185 1188 1189 1190 1650 2950 4040 4044 4045 
 		4046 4047 4050 4077 4100 4102 4103 4104 4106
 		#Kaoma area
@@ -181,24 +203,24 @@ colonial_east_africa = {
 	}
 }
 
-#Horn of Africa (74)
+#Horn of Africa
 colonial_horn_of_africa = {
 	color = { 50 0 100 }
 	provinces = {
-		#Sudan (15)
+		#Sudan
 		1216 1217 1220 1221 1222 1225 1226 1228 1229 1232
 		2797 2798 2799 2800 4033
-		#Ethiopia (34)
+		#Ethiopia
 		1207 1208 1210 1211 1213 1214 1215 1218 1223 1224 
 		1227 1230 2756 2757 2758 2759 2760 2761 2762 2763 
 		2764 2765 2766 2767 2768 2773 2769 2770 2771 2772 
-		2778 2779 2787 2791
-		#Somalia (24)
+		2778 2779 2787 2791 4158 5015 5024 5025
+		#Somalia
 		1205 1206 1209 1212 2024 2774 2775 2776 2777 2780 
 		2781 2782 2783 2784 2785 2786 2788 2789 2790 2792 
 		2793 2794 2795 2796
 		#Central Sahara
-		2932 774 1219 2801 2802 
+		2932 774 1219 2801 2802 5021 5023 5026 5028
 	}
 	names = {
 		name = "COLONIAL_HORN_OF_AFRICA_Root_GetAdjective_North_Africa"

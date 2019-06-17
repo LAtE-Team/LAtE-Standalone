@@ -1,3 +1,7 @@
+
+owner = BIZ
+controller = BIZ
+add_core= BIZ
 culture = saxon
 religion = matrem
 capital = "Dessau"

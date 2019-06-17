@@ -1,0 +1,9 @@
+government = tribal 
+add_government_reform = siberian_tribe #Till we make a european equivalent
+government_rank = 1
+primary_culture = wallonian
+religion = cult_of_reason
+technology_group = western
+capital = 94	# Luxembourg
+#fixed_capital = 94 # Cannot move capital away from this province & no power cost to move to it
+
