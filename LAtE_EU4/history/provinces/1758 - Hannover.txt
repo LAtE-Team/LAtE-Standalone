@@ -2,7 +2,7 @@
 owner = BIZ
 controller = BIZ
 add_core= BIZ
-culture = westphalian
+culture = hannoverian
 religion = matrem
 hre = no
 base_tax = 1

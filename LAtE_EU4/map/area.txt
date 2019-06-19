@@ -1,4 +1,5 @@
 # A province can only belong to one area!
+# A province can only belong to one area!
 
 #Sea Areas:
 #No restriction on size.
@@ -791,7 +792,7 @@ upper_bavaria_area = {	#Just Bavaria
 }
 
 franconia_area = { #3
-	66 67 79
+	66 67 79 71
 }
 
 #lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
@@ -799,7 +800,7 @@ franconia_area = { #3
 #}
 
 upper_swabia_area = { #3	#Just Swabia
-	68 69 1872 71 
+	68 69  
 }
 
 #northern_saxony_area = { #3 (Saxe-Altmark)
@@ -878,7 +879,7 @@ westphalia_area = { #5
 }
 
 hesse_area = { #4
-	81 83 77 78
+	81 83 78
 }
 
 #braunschweig_area = { #3
@@ -4236,6 +4237,7 @@ unused_provinces_area = {
 	4481 4482 4483 4484 4485 4486 4487 4488 4489 4490 4491 4492 4493 4494 4495 
 	4496 4497 4498 4499
 	
+	73
 	92 96 98 181 187 188 
 	293 297 963 1742 1743 1931   
 	
