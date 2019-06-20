@@ -20,7 +20,7 @@ capital = 4692
 	add_ruler_personality = fierce_negotiator_personality
 }
 3053.1.1 {
-	capital = 4692
+	capital = 2598
 	add_treasury = 9
 	add_prestige = 108
 }
