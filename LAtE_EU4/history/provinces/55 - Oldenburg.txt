@@ -1,17 +1,17 @@
 #55 - Oldenburg
 
-owner = BIZ
-controller = BIZ
+owner = HAN
+controller = HAN
 culture = hannoverian
 religion = thelemic
 capital = "Oldenburg"
 trade_goods = unknown
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
-add_core= BIZ
+add_core= HAN
 
 
 

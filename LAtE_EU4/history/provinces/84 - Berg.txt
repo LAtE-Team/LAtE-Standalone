@@ -7,9 +7,9 @@ culture = hessian
 religion = thelemic
 trade_goods = unknown
 capital = "Düsseldorf"
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 7
+base_production = 6
+base_manpower = 5
 is_city = yes
 
 

@@ -1,13 +1,13 @@
 #79 - Würzburg
-owner = BIZ
-controller = BIZ
-add_core= BIZ
+owner = ANS
+controller = ANS
+add_core= ANS
 culture = franconian
 religion = matrem
-base_tax = 1
-base_production = 1
+base_tax = 4
+base_production = 4
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 3
 capital = "Würzburg"
 hre = no
 
