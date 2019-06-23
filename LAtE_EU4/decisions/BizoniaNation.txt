@@ -1,0 +1,91 @@
+country_decisions = {
+
+	bizonia_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_bizonia_flag }
+			NOT = { exists = BIZ }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					NOT = { government = theocracy }
+				}
+			}
+			OR = {  
+				primary_culture = hannoverian #Westphalian
+				primary_culture = pommeranian
+				primary_culture = hessian	#Rhienish
+				primary_culture = saxon
+				primary_culture = bavarian
+				primary_culture = prussian
+				primary_culture = swabian
+				primary_culture = franconian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 84	# Berg
+				province_id = 57	# Brunswick
+				province_id = 81	# Hessen
+				province_id = 1775	# Holstein
+				province_id = 65	# München
+				province_id = 71	# Ansbach
+				province_id = 78	# Wurttembaden
+				province_id = 1874	# Bremen
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no
+			owns_core_province = 84	# Berg
+			owns_core_province = 57	# Brunswick
+			owns_core_province = 81	# Hessen
+			owns_core_province = 1775 # Holstein
+			owns_core_province = 65	# München
+			owns_core_province = 71	# Ansbach
+			owns_core_province = 78	# Wurttembaden
+			owns_core_province = 1874 # Bremen
+		}
+		effect = {
+			change_tag = BIZ
+
+			set_government_rank = 2
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BIZ
+			}
+			south_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BIZ
+			}			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_bizonia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

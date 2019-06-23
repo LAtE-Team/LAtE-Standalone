@@ -3,13 +3,13 @@ capital = "Mainz"
 culture = hessian
 religion = matrem
 trade_goods = unknown
-owner = BIZ
+owner = WTB
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core= BIZ
-controller = BIZ
+add_core= WTB
+controller = WTB
 hre = no
 
 

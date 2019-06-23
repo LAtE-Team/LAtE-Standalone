@@ -6,3 +6,13 @@ religion = cult_of_reason
 primary_culture = austrian
 capital = 73	# Innsbruck
 
+3032.8.11 = {
+	monarch = {
+		name = "Ferdinand Karl"
+		birth_date = 2993.1.7
+		dynasty = "von Felsach
+		adm = 1
+		dip = 2
+		mil = 3
+	}
+}

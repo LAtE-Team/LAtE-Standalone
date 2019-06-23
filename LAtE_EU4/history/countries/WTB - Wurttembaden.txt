@@ -4,15 +4,4 @@ government_rank = 1
 primary_culture = hessian
 religion = matrem
 technology_group = high_american
-capital = 81	# Kassel
-
-3032.8.11 = {
-	monarch = {
-		name = "Leopold"
-		birth_date = 2993.1.7
-		dynasty = "von Gudensberg"
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
+capital = 78	# Wurttembaden

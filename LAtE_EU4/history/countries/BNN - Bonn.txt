@@ -1,0 +1,8 @@
+#Bonn
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = hessian
+religion = thelemic
+technology_group = high_american
+capital = 84	# Berg/Bonn

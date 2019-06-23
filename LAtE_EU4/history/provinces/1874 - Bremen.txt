@@ -13,4 +13,6 @@ base_manpower = 4
 is_city = yes
 add_core= BRE
 
-
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

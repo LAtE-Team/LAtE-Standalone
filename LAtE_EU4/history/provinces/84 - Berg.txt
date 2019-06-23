@@ -1,8 +1,7 @@
 # 84 - Berg
 
-owner = BIZ #In reality Kleves and Berg are not united before 1510.
-controller = BIZ
-add_core= BIZ
+owner = BNN 
+add_core= BNN
 culture = hessian
 religion = thelemic
 trade_goods = unknown

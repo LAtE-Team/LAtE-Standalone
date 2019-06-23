@@ -1,7 +1,7 @@
 
-owner = BIZ
-controller = BIZ
-add_core= BIZ
+owner = BNN
+controller = BNN
+add_core= BNN
 culture = hessian
 religion = thelemic
 hre = no
