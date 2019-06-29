@@ -1,4 +1,4 @@
-government = tribal 
+government = native 
 add_government_reform = siberian_tribe #Till we make a european equivalent
 government_rank = 1
 technology_group = high_american

@@ -115,13 +115,8 @@ feudalism = {
 				#NOT = { continent = south_america }
 				#NOT = { continent = new_world }
 				owner = {
-					NOT = { government = tribal_democracy }
-					NOT = { government = tribal_kingdom }
-					NOT = { government = tribal_despotism }
-					NOT = { government = tribal_federation }
-					NOT = { government = siberian_native_council }
-					NOT = { government = native_council }
-					NOT = { government = steppe_horde }
+					NOT = { government = native }
+					NOT = { government = tribal }
 				}
 			}
 		}

@@ -1,8 +1,18 @@
-government = theocracy 
-add_government_reform = leading_clergy_reform
+government = native 
 government_rank = 1
-technology_group = western
-religion = catholic
+technology_group = high_american
+religion = cult_of_reason
 primary_culture = wallonian
 capital = 93	# Liège
 add_accepted_culture = flemish
+
+3032.8.11 = {
+	monarch = {
+		name = "Maximilien-Henri"
+		birth_date = 2993.1.7
+		dynasty = "Josias"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}

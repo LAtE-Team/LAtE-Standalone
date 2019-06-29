@@ -19,6 +19,10 @@ discovered_by = high_american
 discovered_by = RED
 discovered_by = indian
 
+owner = BOH
+controller = BOH
+add_core= BOH
+
 
 native_size = 5
 native_ferocity = 1

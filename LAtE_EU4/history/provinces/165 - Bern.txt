@@ -1,7 +1,8 @@
 #165 - Bern
 
-#owner = SWI
-#controller = SWI 
+owner = SWI
+controller = SWI 
+add_core = SWI
 culture = swiss
 religion = cult_of_reason
 capital = "Bern"

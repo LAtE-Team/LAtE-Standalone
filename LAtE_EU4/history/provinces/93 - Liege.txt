@@ -1,7 +1,7 @@
 # 93 Liège - Principal cities: Liège & Namur
 
-#owner = LIE
-#controller = LIE
+owner = LIE
+controller = LIE
 capital = "Liège"
 is_city = no
 culture = wallonian
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-#add_core= LIE
+add_core= LIE
 discovered_by = high_american 
 discovered_by = RED
 discovered_by = indian

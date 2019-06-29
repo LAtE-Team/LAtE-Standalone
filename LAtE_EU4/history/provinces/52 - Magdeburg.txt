@@ -15,6 +15,11 @@ discovered_by = RED
 discovered_by = indian
 extra_cost = 10
 
+owner = MAG
+controller = MAG
+add_core= MAG
+
+
 center_of_trade = 2
 
 native_size = 5

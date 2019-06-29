@@ -1,8 +1,17 @@
-government = monarchy 
-add_government_reform = feudalism_reform
+government = native 
 government_rank = 1
-technology_group = western
-religion = catholic
+technology_group = high_american
+religion = cult_of_reason
 primary_culture = dutch
 #capital = 4383 #Haag
 
+3032.8.11 = {
+	monarch = {
+		name = "Eberhard"
+		birth_date = 2993.1.7
+		dynasty = "van Breda"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

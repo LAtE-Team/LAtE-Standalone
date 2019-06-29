@@ -4,7 +4,6 @@
 # = SAV
 culture = piedmontese
 religion = cult_of_reason
-hre = yes
 base_tax = 1
 base_production = 1
 trade_goods = unknown

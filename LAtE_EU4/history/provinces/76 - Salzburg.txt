@@ -1,7 +1,7 @@
 #76 - Salzburg
 
-#owner = SLZ
-#controller = SLZ 
+owner = SLZ
+controller = SLZ 
 culture = austrian
 religion = celticist
 capital = "Salzburg"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = no
-#add_core= SLZ
+add_core= SLZ
 
 
 

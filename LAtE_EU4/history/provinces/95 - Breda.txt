@@ -1,10 +1,10 @@
 # 95 Breda - Principal cities: 's Hertogenbosch & Breda
 
-#owner = BRB
-#controller = BRB
-#add_core= BRB
+owner = BRB
+controller = BRB
+add_core= BRB
 is_city = no
-capital = "'s Hertogenbosch"
+capital = "Hertogenbosch"
 culture = dutch
 religion = cult_of_reason
 hre = no
