@@ -483,8 +483,8 @@
  PROV482:0 "Bahamas"
  PROV483:0 "Turks Islands"
  PROV484:0 "Havana"
- PROV485:0 "Moron"
- PROV486:0 "Guantanamo"
+ PROV485:0 "Zapata" #was Moron
+ PROV486:0 "Sierra Maestra" #Was Guantanamo
  PROV487:0 "Jamaica"
  PROV488:0 "Les Cayes"
  PROV489:0 "Tortuga"
@@ -2653,7 +2653,7 @@
  PROV2653:0 "Iximché"
  PROV2654:0 "Baracoa"
  PROV2655:0 "Bayamo"
- PROV2656:0 "Camaguey"
+ PROV2656:0 "Moron" #Was Camaguey
  PROV2657:0 "Colima"
  PROV2658:0 "Maguana"
  PROV2659:0 "Magua"
