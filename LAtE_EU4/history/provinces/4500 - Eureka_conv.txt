@@ -2,6 +2,7 @@ ck2_converter_generated = yes
 owner = NRA
 controller = NRA
 add_core = NRA
+add_core = CAL
 culture = bayfolk
 religion = gaian
 citysize = 2000

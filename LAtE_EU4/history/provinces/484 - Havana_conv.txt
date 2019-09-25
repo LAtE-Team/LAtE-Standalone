@@ -2,7 +2,7 @@ ck2_converter_generated = yes
 owner = CBN
 controller = CBN
 add_core = CBN
-culture = cubano
+culture = west_indian 
 religion = rastafarian
 citysize = 2000
 add_core = X71
@@ -714,7 +714,7 @@ trade_goods = naval_supplies
 3053.1.1 = {
 	owner = CBN
 	controller = CBN
-	culture = cubano
+	culture = west_indian 
 	religion = rastafarian
 	trade_goods = naval_supplies
 }

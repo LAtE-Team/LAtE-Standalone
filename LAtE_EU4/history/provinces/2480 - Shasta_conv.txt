@@ -6,7 +6,6 @@ culture = valleyan
 religion = cetic
 citysize = 2000
 add_core = X84
-add_permanent_claim = CAL
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -712,8 +711,8 @@ discovered_by = X17
 	
 }
 3053.1.1 = {
-	owner = X84
-	controller = X84
+	owner = CAL
+	controller = CAL
 	culture = valleyan
 	religion = cetic
 }
