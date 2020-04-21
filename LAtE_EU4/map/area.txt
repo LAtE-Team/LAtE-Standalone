@@ -596,28 +596,20 @@ greenland_area = { #2
 # Eastern Europe				 	   #
 ########################################
 
-estonia_ingria_area = { #3
-	36 1834 1842
+estonia_ingria_area = { #5
+	35 36 37 1834 1842
 }
 
-livonia_area = { #3
-	37 38 273 
+livonia_area = { #4
+	38 39 1935 4241
 }
 
-curonia_area = { #3
-	35 39 1935
+east_prussia_area = { #3
+	40 2958
 }
 
-east_prussia_area = { #4
-	40 41 767 2958
-}
-
-pomerelia_area = { #3 (North West Prussia)
-	42 43 1841
-}
-
-west_prussia_area = { #3 (South West Prussia)
-	1859 2963 2997
+pomerelia_area = { #6 (North West Prussia)
+	43 48 49 767 2963 2997
 }
 
 wielkopolska_area = { #4
@@ -629,39 +621,35 @@ malopolska_area = { #5
 }
 
 red_ruthenia_area = { #4
-	261 1940 2424 2961
+	261 281 1940 2424 2961
 }
 
-podolia_volhynia_area = { #4
-	279 281 1943 2962
+podolia_volhynia_area = { #3
+	279 
 }
 
 pripyat_area = { #3
-	277 278 1941
+	278 2962 5031
 }
 
 mazovia_area = { #4
 	256 257 269 1938
 }
 
-samogitia_area = { #3
-	270 1936
-}
-
 lithuania_area = { #3
-	272 770 1937
+	41 272 770 5032 5033 5034 1936 1937
 }
 
-west_dniepr_area = { #3 Right Bank Ukraine
-	280 1942 1944
+west_dniepr_area = { #5 Right Bank Ukraine
+	280 1942 1943 1944 4115
 }
 
-east_dniepr_area = { #4 Left bank Ukraine
-	289 290 1945 2407
+east_dniepr_area = { #6 Left bank Ukraine
+	289 290 1945 2407 4116 4244
 }
 
-sloboda_ukraine_area = {	 #3
-	291 298 299
+sloboda_ukraine_area = { #4
+	291 298 299 2408
 }
 
 yedisan_area = { #3
@@ -680,8 +668,8 @@ crimea_area = { #4
 	284 285 2410 2447
 }
 
-white_ruthenia_area = { #5
-	275 276 292 771 4115
+white_ruthenia_area = { #6
+	275 276 292 293 771 4242
 }
 
 #Opolye
@@ -690,8 +678,8 @@ ryazan_area = { #3
 	300 301 1778
 }
 
-moscow_area = { #5
-	294 295 296 307 4253
+moscow_area = { #6
+	294 295 296 307 4245 4253
 }
 
 suzdal_area = { #5
@@ -704,7 +692,7 @@ novgorod_area = { #5
 }
 
 pskov_area = { #4
-	274 311 1960 4148
+	274 311 1960 4243 4148
 }
 
 beloozero_area = { #4
@@ -755,8 +743,8 @@ kama_area = { #5
 	305 1962 1972 4266 4265
 }
 
-tambov_area = { #4
-	302 304 2408 2415 
+tambov_area = { #3
+	302 304 2415 
 }
 
 saratov_area = { #3
@@ -814,16 +802,12 @@ upper_swabia_area = { #3	#Just Swabia
 
 neumark_area = { #3
 	color = { 234 232 44 }
-	49 1763 50
+	1763 50 1859 47
 }
 
 #mittelmark_area = { # 3
 #	50 51 1759
 #}
-
-vorpommern_area = { #3	#Just Pomerania
-	47 48 
-}
 
 #hinter_pommern_area = { #3
 #	48 1858 2995
@@ -959,7 +943,7 @@ albania_area = {
 }
 
 bosnia_area = { #4
-	139 1831 3002
+	139 140 1831 3002
 }
 
 croatia_area = { #5 
@@ -4183,6 +4167,7 @@ netherlands_area = {}
 
 barbary_coast_area = {}
 
+samogitia_area = {}
 
 galicia_area	= {}
 baleares_area	= {}
@@ -4217,6 +4202,8 @@ berar_area	= {}
 ahmednagar_area	= {}
 south_carnatic_area	= {}
 north_carnatic_area	= {}
+west_prussia_area = {}
+vorpommern_area = {}
 
 
 #### LAtE Unused Provinces ####
@@ -4237,9 +4224,10 @@ unused_provinces_area = {
 	4481 4482 4483 4484 4485 4486 4487 4488 4489 4490 4491 4492 4493 4494 4495 
 	4496 4497 4498 4499
 	
-	73
+	
 	92 96 98 181 187 188 
-	293 297 963 1742 1743 1931   
+	297 963 1742 1743 1931   
+	273
 	
 	#3190 - 3999
 	3190 3191 3192 3193 3194 
@@ -4293,13 +4281,13 @@ unused_provinces_area = {
 	3980 3981 3982 3983 3984 3985 3986 3987 3988 3989 3990 3991 3992 3993 3994
 	3995 3996 3997 3998 3999 
 	
-	4116 4241 4242 4243 4244 4245 4246 4247 4248
+	4246 4247 4248
 	4249 4250 4251 4252 4254 4255 4256 4259 4260 4261 4262 4263 4264 4358
-	
+	1941
 	4581 
-
+	277 
 	4833 4898
-
+	270
 	4921 4922 4931 4932 4933 4934
 	4935 4936 4937 4938 4939 4941 
 	 

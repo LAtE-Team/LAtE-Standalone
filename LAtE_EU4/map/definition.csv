@@ -1,4 +1,4 @@
-province;red;green;blue;x;x
+0;red;green;blue;x;x
 1;128;34;64;Stockholm;x
 2;0;36;128;Östergötland;x
 3;128;38;192;Småland;x
@@ -138,7 +138,7 @@ province;red;green;blue;x;x
 137;147;50;128;Ragusa;x
 138;19;52;192;Zeta;x
 139;147;54;255;Hum;x
-140;20;56;0;Balkan Waste;x	#Wasteland in the Balkans
+140;20;56;0;Tuzla;x
 141;148;58;64;Serbia;x
 142;20;60;128;Corfu;x
 143;148;62;192;Albania;x
@@ -4891,5 +4891,9 @@ province;red;green;blue;x;x
 5028;103;97;197;Salamat;x
 5029;103;200;185;Moyen-Chari;x
 5030;100;128;100;Cabinda;x
+5031;145;7;164;Sluck;x
+5032;125;175;248;Lida;x
+5033;181;39;199;Wilkimierz;x
+5034;171;8;15;Upita;x
 
 

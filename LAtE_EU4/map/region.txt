@@ -16,7 +16,7 @@ france_region = {
 		guyenne_area
 		languedoc_area
 		massif_central_area
-		#savoy_dauphine_area
+		savoy_dauphine_area
 		#lorraine_area
 		picardy_area
 		seine_area
@@ -134,6 +134,7 @@ russia_region = {
 		karelia_area
 		ryazan_area
 		tambov_area
+		white_ruthenia_area
 		north_karelia
 	}
 }
@@ -145,7 +146,6 @@ ural_region = {
 		perm_area
 		kazan_area
 		galich_area
-		saratov_area
 		kama_area
 		bashkiria_area
 		samara_area
@@ -191,11 +191,8 @@ baltic_region = {
 		lithuania_area
 		livonia_area
 		estonia_ingria_area
-		curonia_area
 		west_prussia_area
 		east_prussia_area
-		pomerelia_area
-		samogitia_area
 	}
 }
 
@@ -203,9 +200,9 @@ poland_region = {
 	areas = {
 		wielkopolska_area
 		malopolska_area
-		red_ruthenia_area
 		mazovia_area
 		silesia_area
+		pomerelia_area
 		
 	}
 }
@@ -215,10 +212,11 @@ ruthenia_region = {
 		west_dniepr_area
 		east_dniepr_area
 		sloboda_ukraine_area
-		white_ruthenia_area
 		podolia_volhynia_area
 		pripyat_area
-
+		zaporizhia_area
+		yedisan_area
+		red_ruthenia_area
 	}
 }
 
@@ -227,9 +225,9 @@ crimea_region = {
 		crimea_area
 		lower_don_area
 		astrakhan_area
-		zaporizhia_area
-		yedisan_area
 		azov_area
+		saratov_area
+		lower_yik_area
 	}
 }
 
@@ -245,7 +243,6 @@ balkan_region = {
 		northern_greece_area
 		morea_area
 		western_aegean_area
-		thrace_area
 		albania_area
 	}
 }
@@ -322,6 +319,7 @@ anatolia_region = {
 		dulkadir_area
 		cukurova_area
 		ankara_area
+		thrace_area
 		aegean_archipelago_area
 		germiyan_area
 	}
@@ -566,7 +564,6 @@ central_asia_region = {
 		ferghana_area
 		jetysuu_area
 		arys_area
-		lower_yik_area
 		syr_darya_area
 		kashgaria_area
 		tarim_basin_area

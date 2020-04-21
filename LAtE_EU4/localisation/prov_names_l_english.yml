@@ -138,7 +138,7 @@
  PROV137:0 "Ragusa"
  PROV138:0 "Zeta"
  PROV139:0 "Hum"
- PROV140:0 "Balkan Waste"
+ PROV140:0 "Tuzla"
  PROV141:1 "Smederevo"
  PROV142:0 "Corfu"
  PROV143:1 "Vlorë"
@@ -3967,6 +3967,10 @@
  PROV5028:0 "Salamat"
  PROV5029:0 "Moyen-Chari"
  PROV5030:0 "Cabinda"
+ PROV5031:0 "Sluck"
+ PROV5032:0 "Lida"
+ PROV5033:0 "Wilkimierz"
+ PROV5034:0 "Upita"
 
 
 
