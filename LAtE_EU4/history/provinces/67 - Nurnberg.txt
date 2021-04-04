@@ -1,12 +1,12 @@
 # 67 - Franken
 
-owner = BIZ
-controller = BIZ
-add_core= BIZ
+owner = BAV
+controller = BAV
+add_core= BAV
 culture = franconian
 religion = matrem
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 2
 trade_goods = unknown
 base_manpower = 1
 capital = "Nürnberg"

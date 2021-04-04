@@ -1,0 +1,20 @@
+
+owner = ANS
+controller = ANS
+add_core= ANS
+culture = franconian
+religion = matrem
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = unknown
+base_manpower = 1
+fort_15th = yes
+capital = "Nuremberg"
+is_city = yes
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

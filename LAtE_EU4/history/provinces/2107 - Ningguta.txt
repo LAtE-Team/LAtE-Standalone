@@ -4,7 +4,7 @@
 #controller = MJZ
 #add_core= MJZ
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Ningguta"
 trade_goods = iron
 hre = no

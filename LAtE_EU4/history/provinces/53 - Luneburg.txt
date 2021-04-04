@@ -1,0 +1,19 @@
+
+owner = SHL
+controller = SHL
+add_core= SHL
+culture = hannoverian
+religion = thelemic
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = unknown
+base_manpower = 1
+capital = "Luneberg"
+is_city = yes
+
+
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

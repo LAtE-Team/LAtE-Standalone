@@ -1,4 +1,4 @@
-culture = cree
+culture = anishinabe
 religion = ghost_dance 
 trade_goods = unknown 
 hre = no 

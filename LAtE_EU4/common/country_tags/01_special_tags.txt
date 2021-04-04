@@ -83,6 +83,8 @@ TYK = countries/Tyke.txt
 GOW = countries/Gow.txt
 CVL = countries/Chavland.txt
 GRN = countries/Greencoats.txt
+BNN = countries/Bonn.txt
+WTB = countries/Wurttembaden.txt
 
 
 # Africa

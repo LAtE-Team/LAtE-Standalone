@@ -1,0 +1,19 @@
+#Neubayern
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = high_american
+primary_culture = bavarian
+religion = matrem
+capital = 65	# München!
+
+3032.8.11 = {
+	monarch = {
+		name = "Maximilian"
+		birth_date = 2993.1.7
+		dynasty = "Joseph"
+		adm = 6
+		dip = 3
+		mil = 0
+	}
+}

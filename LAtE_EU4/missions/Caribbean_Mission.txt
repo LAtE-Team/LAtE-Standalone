@@ -26,9 +26,7 @@ Caribbean_missions_1 = {
 		required_missions = { Caribbean_Defeat_Pirates }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				province_id = 502
-			}
+			province_id = 502
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -105,9 +103,7 @@ Caribbean_missions_1 = {
 		required_missions = { Caribbean_Venezuela }
 		position = 5
 		provinces_to_highlight = {
-			OR = {
-				area = coquivacoa_area
-			}
+			area = coquivacoa_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -133,9 +129,7 @@ Caribbean_missions_1 = {
 		required_missions = { Caribbean_Coast }
 		position = 6
 		provinces_to_highlight = {
-			OR = {
-				area = panama_area
-			}
+			area = panama_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -227,9 +221,7 @@ Caribbean_missions_2 = {
 		required_missions = { Caribbean_Defeat_Pirates }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				area = east_yucatan_area
-			}
+			area = east_yucatan_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -405,9 +397,7 @@ Caribbean_missions_2 = {
 		required_missions = { Caribbean_Moskito }
 		position = 7
 		provinces_to_highlight = {
-			OR = {
-				area = costa_rica_area
-			}
+			area = costa_rica_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -437,7 +427,7 @@ Caribbean_missions_3 = {
 		required_missions = { }
 		position = 1
 		trigger = {
-			navy_size_percentage = 0.9
+			navy_size_percentage = 1
 		}
 		effect = {
 			add_country_modifier = {

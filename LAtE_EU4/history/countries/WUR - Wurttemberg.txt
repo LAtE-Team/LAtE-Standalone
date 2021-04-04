@@ -1,4 +1,4 @@
-government = tribal 
+government = native 
 add_government_reform = siberian_tribe #Till we make a european equivalent
 government_rank = 1
 technology_group = high_american
@@ -6,3 +6,13 @@ religion = cult_of_reason
 primary_culture = swabian
 capital = 70	# Stuttgart
 
+3032.8.11 = {
+	monarch = {
+		name = "Karl Alexander"
+		birth_date = 2993.1.7
+		dynasty = "von Kirchberg"
+		adm = 3
+		dip = 5
+		mil = 1
+	}
+}

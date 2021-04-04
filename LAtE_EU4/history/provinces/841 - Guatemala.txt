@@ -1,0 +1,40 @@
+#841 - Guatemala
+
+#owner = KIC 
+#controller = KIC
+culture = highland_mayan 
+religion = mesoamerican_religion
+capital = "Guatemala" 
+trade_goods = unknown
+hre = no 
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
+#add_core= KIC
+
+
+
+discovered_by = MAY
+discovered_by = ZAP
+discovered_by = AZT
+
+
+# = {
+	#discovered_by = SPA 
+	#owner = SPA 
+	#controller = SPA
+	culture = castillian
+	religion = catholic
+} # Colonized and conquered by Spanish armies 
+# = { capital = "Ciudad Vieja" }
+# = { capital = "Antigua" } 
+# = { #add_core= SPA }
+# = { discovered_by = ENG } # Drake 
+# = { capital = "Guatemala city" } 
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
+
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3

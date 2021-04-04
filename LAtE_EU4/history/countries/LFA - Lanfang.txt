@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = hakka
+technology_group = chinese
+religion = confucianism
+capital = 640	# Pontianak

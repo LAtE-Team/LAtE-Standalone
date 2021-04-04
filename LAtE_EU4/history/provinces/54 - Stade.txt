@@ -1,0 +1,17 @@
+
+owner = SHL
+controller = SHL
+add_core= SHL
+culture = hannoverian
+religion = thelemic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = unknown
+base_manpower = 3
+capital = "Hamburg"
+is_city = yes
+
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian

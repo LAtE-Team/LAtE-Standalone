@@ -1,19 +1,38 @@
-owner = HON
-controller = HON
-add_core = HON
-culture = chapin
-religion = uahomche
-citysize = 2000
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
+# No previous file for Olancho
+
+culture = miskito
+religion = animism
+capital = "Olancho"
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
 discovered_by = ottoman
-discovered_by = MTC
-discovered_by = MTC
-discovered_by = X17
-3053.1.1 = {
-	hre = no
-	base_tax = 4
-	base_production = 4
-	base_manpower = 2
-}
+discovered_by =  mesoamerican
+
+
+# = {
+	#discovered_by = SPA
+	#owner = SPA
+	#controller = SPA
+	#add_core= SPA
+	culture = castillian
+	religion = catholic
+	capital = "Ocotepoque"
+	is_city = no
+	trade_goods = unknown
+} # Settlement inland
+# = { capital = "Gracias" }
+# = { capital = "Comayagua" }
+# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence
+

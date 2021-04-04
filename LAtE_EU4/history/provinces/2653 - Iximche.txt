@@ -1,0 +1,26 @@
+# No previous file for Iximché
+
+culture = highland_mayan
+#owner = KIC
+#controller = KIC
+#add_core= KIC
+is_city = no
+religion = mesoamerican_religion
+capital = "Iximché"
+#estate = #estate_nobles
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican

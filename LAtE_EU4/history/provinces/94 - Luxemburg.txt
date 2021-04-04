@@ -1,9 +1,9 @@
 # 94 Luxembourg - Principal cities: Luxembourg
 
-#owner = LUX
-#controller = LUX
+owner = LUX
+controller = LUX
 capital = "Luxemburg"
-is_city = no
+is_city = yes
 culture = wallonian
 religion = cult_of_reason 
 hre = no
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-#add_core= LUX
+add_core= LUX
 
 
 

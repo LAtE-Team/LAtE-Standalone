@@ -1,8 +1,8 @@
 #134 - Wien
 
-#owner = HAB
-#controller = HAB
-#add_core= HAB
+owner = HAB
+controller = HAB
+add_core= HAB
 culture = austrian
 religion = celticist
 base_tax = 1

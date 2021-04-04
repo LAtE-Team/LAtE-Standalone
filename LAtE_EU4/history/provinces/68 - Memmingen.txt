@@ -1,13 +1,13 @@
 #68 - Memmingen
 
-#owner = MEM
-#controller = MEM
-#add_core= MEM
+owner = BAV
+controller = BAV
+add_core= BAV
 culture = swabian
-religion = cult_of_reason
+religion = matrem
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 2
 trade_goods = unknown
 base_manpower = 1
 capital = "Memmingen" 

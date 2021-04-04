@@ -1,0 +1,18 @@
+government = native 
+government_rank = 1
+technology_group = high_american
+religion = cult_of_reason
+primary_culture = swiss
+capital = 165 # Bern
+add_army_professionalism = 0.1
+
+3032.8.11 = {
+	monarch = {
+		name = "Gerard"
+		birth_date = 2993.1.7
+		dynasty = "Combe"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

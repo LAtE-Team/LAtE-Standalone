@@ -4,6 +4,7 @@ graphical_culture = africangfx
 color = { 108 165 174 }
 
 
+revolutionary_colors = { 0  5  5 } #Red star on white field
 
 
 leader_names = {

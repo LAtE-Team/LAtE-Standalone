@@ -1,0 +1,25 @@
+# No previous file for Veraguas
+
+culture = muisca
+discovered_by = MCA
+religion = animism
+capital = "Veraguas"
+trade_goods = unknown
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = western 
+discovered_by = eastern 
+discovered_by = muslim 
+discovered_by = ottoman
+discovered_by =  mesoamerican
+discovered_by = south_american 
+discovered_by = andean
+discovered_by = brazilian

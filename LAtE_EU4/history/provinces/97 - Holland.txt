@@ -10,7 +10,9 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 
-
+owner = HOL
+controller = HOL
+add_core = HOL
 
 discovered_by = high_american 
 discovered_by = RED

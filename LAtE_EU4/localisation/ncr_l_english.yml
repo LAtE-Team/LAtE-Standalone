@@ -141,6 +141,8 @@
  colonial_north_africa:0  "Colonial North Africa"
  COLONIAL_NORTH_AFRICA_Root_GetAdjective_North_Africa:0  "[Root.GetAdjective] North Africa"
  COLONIAL_NORTH_AFRICA_Root_GetAdjective_North_Africa_ADJ:0  "[Root.GetAdjective] North African"
+ COLONIAL_NORTH_AFRICA_Atlanta:0 "Atlanta"
+ COLONIAL_NORTH_AFRICA_Interzone:0 "Interzone"
  
  colonial_west_africa:0  "Colonial West Africa"
  COLONIAL_WEST_AFRICA_Root_GetAdjective_West_Africa:0  "[Root.GetAdjective] West Africa"

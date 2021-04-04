@@ -1,7 +1,7 @@
 #1238 - Solomon Islands
 
-culture = melanesian
-religion = animism
+culture = hawaiian
+religion = cetic
 capital = "Solomon"
 trade_goods = unknown
 hre = no

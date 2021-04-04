@@ -1,15 +1,15 @@
 #45 - Lübeck
 
-owner = BIZ
-controller = BIZ
-add_core= BIZ
+owner = SHL
+controller = SHL
+add_core= SHL
 culture = hannoverian
 religion = thelemic
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 6
+base_production = 4
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 4
 fort_15th = yes
 capital = "Lübeck"
 is_city = yes

@@ -4,6 +4,7 @@ graphical_culture = westerngfx
 color = { 137 12 100 }
 
 
+revolutionary_colors = { 0  0  8 } #Gold hammer and sickle on white field
 
 
 leader_names = {

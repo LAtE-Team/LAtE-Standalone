@@ -4,6 +4,7 @@ graphical_culture = westerngfx
 color = { 15 226 206 }
 
 
+revolutionary_colors = { 8  1  1 } #Black star on gold field
 
 
 leader_names = {

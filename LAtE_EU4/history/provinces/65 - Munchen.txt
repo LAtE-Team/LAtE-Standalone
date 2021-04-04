@@ -1,13 +1,13 @@
 # 65 - München
-owner = BIZ
-controller = BIZ
-add_core= BIZ
+owner = BAV
+controller = BAV
+add_core= BAV
 culture = bavarian
 religion = matrem
-base_tax = 1
-base_production = 1
+base_tax = 6
+base_production = 6
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 4
 capital = "München"
 is_city = yes
 hre = no

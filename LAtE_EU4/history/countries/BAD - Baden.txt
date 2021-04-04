@@ -1,8 +1,17 @@
-government = tribal 
-add_government_reform = siberian_tribe #Till we make a european equivalent
+government = native 
 government_rank = 1
 primary_culture = swabian
 religion = cult_of_reason
 technology_group = high_american
 capital = 74	# Baden	
 
+3032.8.11 = {
+	monarch = {
+		name = "Rudolf"
+		birth_date = 2993.1.7
+		dynasty = "von Otakar"
+		adm = 0
+		dip = 5
+		mil = 6
+	}
+}

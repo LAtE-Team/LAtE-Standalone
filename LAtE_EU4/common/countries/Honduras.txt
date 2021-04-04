@@ -4,6 +4,7 @@ graphical_culture = southamericagfx
 color = { 220 240 250 }
 
 
+revolutionary_colors = { 0  5  5 } #Red star on white field
 
 
 leader_names = {
