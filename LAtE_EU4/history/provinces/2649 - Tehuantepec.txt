@@ -1,38 +1,20 @@
-# No previous file for Tehuantepec
-
-culture = zapotek
-#owner = ZAP
-#controller = ZAP
-#add_core= ZAP
-is_city = no
-religion = nahuatl
-capital = "Tehuantepec"
-trade_goods = unknown
-hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 3
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
-
-
-
-discovered_by = western 
-discovered_by = eastern 
-discovered_by = muslim 
+owner = CLM
+controller = CLM
+add_core = CLM
+culture = chapin
+religion = cult_of_saints
+citysize = 2000
+add_core = X88
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
 discovered_by = ottoman
-discovered_by =  mesoamerican
-
-
-# = {
-	#discovered_by = SPA 
-	#owner = SPA 
-	#controller = SPA
-	#add_core= SPA
+discovered_by = MTC
+discovered_by = MTC
+discovered_by = X17
+3053.1.1 = {
+	hre = no
+	base_tax = 6
+	base_production = 6
+	base_manpower = 3
 }
-# = {
-	culture = castillian
-	religion = catholic
-} # First settlers
-# = { #owner = MEX #add_core= MEX #controller = SPA } # Mexican War of Independence

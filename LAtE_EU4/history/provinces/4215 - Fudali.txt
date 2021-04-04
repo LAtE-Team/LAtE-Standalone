@@ -1,8 +1,8 @@
 # 4215 - Fudali
 
 
-culture = novorusskiy
-religion = nousthreskeia
+culture = manchu
+religion = tengri_pagan_reformed
 capital = "Fudali"
 trade_goods = unknown
 hre = no

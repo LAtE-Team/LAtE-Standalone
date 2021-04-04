@@ -1,13 +1,14 @@
 #79 - Würzburg
-owner = ANS
-controller = ANS
-add_core= ANS
+owner = BIZ
+controller = BIZ
+add_core= BIZ
 culture = franconian
 religion = matrem
-base_tax = 4
-base_production = 4
+base_tax = 1
+base_production = 1
 trade_goods = unknown
-base_manpower = 3
+base_manpower = 1
+fort_15th = yes # Marienberg Fortress
 capital = "Würzburg"
 hre = no
 

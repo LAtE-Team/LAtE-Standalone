@@ -1,4 +1,3 @@
-ck2_converter_generated = yes
 owner = CAL
 controller = CAL
 add_core = CAL

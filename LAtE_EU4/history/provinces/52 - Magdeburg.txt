@@ -1,8 +1,10 @@
 #52 - Altmark
 
-
+#owner = MAG
+#controller = MAG
+#add_core= MAG
 culture = saxon
-religion = matrem
+religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
@@ -12,13 +14,11 @@ capital = "Magdeburg"
 is_city = no
 discovered_by = high_american 
 discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
 discovered_by = indian
 extra_cost = 10
-
-owner = MAG
-controller = MAG
-add_core= MAG
-
 
 center_of_trade = 2
 

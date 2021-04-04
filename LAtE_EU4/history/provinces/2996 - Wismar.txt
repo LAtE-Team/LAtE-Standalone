@@ -10,9 +10,6 @@ base_manpower = 1
 capital = "Wismar"
 is_city = no
 
-owner = POM
-controller = POM
-add_core= POM
 
 
 discovered_by = high_american 

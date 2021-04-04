@@ -1,4 +1,4 @@
-0;red;green;blue;x;x
+province;red;green;blue;x;x
 1;128;34;64;Stockholm;x
 2;0;36;128;Östergötland;x
 3;128;38;192;Småland;x
@@ -138,7 +138,7 @@
 137;147;50;128;Ragusa;x
 138;19;52;192;Zeta;x
 139;147;54;255;Hum;x
-140;20;56;0;Tuzla;x
+140;20;56;0;Balkan Waste;x	#Wasteland in the Balkans
 141;148;58;64;Serbia;x
 142;20;60;128;Corfu;x
 143;148;62;192;Albania;x
@@ -483,12 +483,12 @@
 482;68;100;128;Bahamas;x
 483;197;102;192;Turks Islands;x
 484;69;104;255;Havana;x
-485;197;106;0;Moron;x
-486;69;108;64;Guantamano;x
+485;197;106;0;Cienfuegos;x
+486;69;108;64;Sierra Maestra;x
 487;197;110;128;Jamaica;x
 488;69;112;192;Les Cayes;x
-489;197;114;255;Tortuga;x
-490;70;116;0;Barahonas;x
+489;197;114;255;Artibonite;x
+490;70;116;0;Santo Domingo;x
 491;198;118;64;Curacao;x
 492;70;120;128;Puerto Rico;x
 493;198;122;192;St. Thomas;x
@@ -834,12 +834,12 @@
 833;247;34;192;Graaff-Reinet;x
 834;119;36;255;Barinas;x
 835;128;34;79;Panama;x
-836;0;36;126;Chorotega;x
-837;128;38;173;Nicaragua;x
-838;0;40;32;Mosquito;x
-839;128;42;79;Pipil;x
-840;0;44;126;Honduras;x
-841;129;46;173;Guatemala;x
+836;0;36;126;Golfrito;x
+837;128;38;173;Chinandega;x
+838;0;40;32;Bluefields;x
+839;128;42;79;San Salvador;x
+840;0;44;126;Caratasca;x
+841;129;46;173;Atitlan;x
 842;1;48;32;Petén;x
 843;129;50;79;Belize;x
 844;1;52;126;Zapotec;x
@@ -1870,7 +1870,7 @@
 1869;84;68;126;Zürich;x
 1870;213;70;173;S:t Gallen;x
 1871;85;72;32;Wallis;x
-1872;86;84;126;Ulm;x UNUSED
+1872;86;84;126;Ulm;x
 1873;85;76;126;Chur;x
 1874;213;78;173;Bremen;x
 1875;142;110;192;Turin;x
@@ -2577,7 +2577,7 @@
 2576;26;3;95;Mingan;x
 2577;152;1;46;Manicouagan;x
 2578;89;121;246;Anticosti;x
-2579;215;2;196;UNUSED;x		
+2579;215;2;196;Piekougami;x		
 2580;47;1;145;Atikamekw;x
 2581;173;199;95;Timiskaming;x
 2582;110;1;46;Maliseet;x
@@ -2634,11 +2634,11 @@
 2633;146;146;246;Mani;x
 2634;83;119;196;Uaymil;x
 2635;209;219;145;Chiapas;x
-2636;41;15;95;Chacujal;x
-2637;167;37;46;Chortli;x
-2638;104;124;246;Xoconochco;x
+2636;41;15;95;Alta Verapaz;x
+2637;167;37;46;La Ceiba;x
+2638;104;124;246;Soconusco;x
 2639;230;31;196;Raritan;x
-2640;104;54;246;Lenca;x
+2640;104;54;246;Choluteca;x
 2641;240;31;196;Tziccoac;x
 2642;62;45;145;Metztitlan;x
 2643;188;191;95;Apatzingan;x
@@ -2651,18 +2651,18 @@
 2650;25;31;246;Champutun;x
 2651;150;231;196;Ah Canul;x
 2652;87;31;145;Ecab;x
-2653;213;213;95;Iximché;x
+2653;213;213;95;Guatemala;x
 2654;45;131;46;Baracoa;x
 2655;171;31;246;Bayamo;x
-2656;108;31;196;Camaguey;x
+2656;108;31;196;Moron;x
 2657;234;31;145;Colima;x
-2658;6;15;95;Maguana;x
-2659;132;16;46;Magua;x 	
+2658;6;15;95;Barahona;x
+2659;132;16;46;Santiago;x 	
 2660;69;31;246;Managua;x
-2661;195;31;196;Uluas;x
+2661;195;31;196;Esteli;x
 2662;27;141;145;Olancho;x
 2663;153;31;95;Nicoya;x
-2664;90;31;46;Veraguas;x
+2664;90;31;46;Chiriqui;x
 2665;216;31;246;Ais;x
 2666;48;31;196;Tuintsundé;x
 2667;174;231;145;Cacaxtes;x
@@ -4469,13 +4469,13 @@
 4605;200;200;47;Bitterroot Mountains;x
 4606;222;167;4;Grande Ligne;x
 4607;108;188;217;Upper St Lawrence;x
-4608;128;255;200;Bear River;
+4608;128;255;200;St Larence Estuary;
 4609;102;177;204;Lake St Claire;x
 4610;89;154;179;Put-in-Bay;x
 4611;77;132;153;North Channel;x
 4612;140;233;255;Straits of Mackinac;x
 4613;126;210;230;Green Bay;x
-4614;119;198;217;Wasatch Mountains;x
+4614;119;198;217;Soo Locks;x
 4615;112;186;204;Kweenaw Bay;x
 4616;105;175;191;Thunder Bay;x
 4617;153;236;255;Georgian Bay;x
@@ -4486,9 +4486,9 @@
 4622;110;219;178;Kittatinny;x
 4623;143;223;122;West Susquehanna;x
 4624;156;240;130;Pittsburgh;
-4625;160;137;200;Provo;
-4626;25;23;74;Upper Allegheny;
-4627;74;189;216;Allegheny;
+4625;160;137;200;?;
+4626;25;23;74;?;
+4627;74;189;216;?;
 4628;244;203;136;Ashtabula;
 4629;128;35;213;Bourke;x
 4630;114;173;43;Broken Hill;x
@@ -4609,21 +4609,21 @@
 4745;108;176;32;Los Moches;x
 4746;192;193;232;Mazatlan;x
 4747;131;172;145;San Fernando;x
-4748;214;92;136;Fishlake;x
-4749;128;40;93;Uintah;x
-4750;56;75;177;Mesa;x
-4751;113;167;119;Emery;x
+4748;214;92;136;El Cielo;x
+4749;128;40;93;Manzanillo;x
+4750;56;75;177;Oxaca;x
+4751;113;167;119;Juchitan;x
 4752;133;41;191;Chimalapas;x
 4753;189;224;1;Cancun;x
 4754;145;122;16;Calakmul;x
-4755;51;72;251;Pacifico;x
+4755;51;72;251;Escuintla;x
 4756;123;115;0;Manche;x
 4757;15;162;0;Izabal;x
 4758;129;167;68;Comayuga;x
 4759;219;99;15;Colon;x
 4760;84;43;131;Karata ;x
-4761;217;70;65;Esteli;x
-4762;123;169;36;Matagalpa;x
+4761;217;70;65;Matagalpa;x
+4762;123;169;36;Chontales;x
 4763;69;181;36;El Desaguadero;x
 4764;113;153;181;Limon;x
 4765;233;152;218;Azuero;x
@@ -4693,10 +4693,10 @@
 4829;43;34;193;Giishkimanisiiwaaboong;x
 4830;89;184;131;Mishkeegogamang;x
 4831;88;19;67;Katchiskataouakigs;x
-4832;225;136;86;Bitteroot Valley;x			
+4832;225;136;86;UNUSED;x			#UNUSED
 4833;154;147;18;UNUSED;x			#UNUSED
-4834;8;204;7;Koocanusa;x	
-4835;212;14;96;Black Rock;x				#UNUSED
+4834;8;204;7;UNUSED;x				#UNUSED
+4835;212;14;96;UNUSED;x				#UNUSED
 4836;28;200;60;Ishim;x
 4837;94;209;99;Balagansky;x
 4838;19;2;77;Bratsky;x
@@ -4891,9 +4891,30 @@
 5028;103;97;197;Salamat;x
 5029;103;200;185;Moyen-Chari;x
 5030;100;128;100;Cabinda;x
-5031;145;7;164;Sluck;x
-5032;125;175;248;Lida;x
-5033;181;39;199;Wilkimierz;x
-5034;171;8;15;Upita;x
-
+5031;39;117;40;Holguin;x
+5032;150;24;217;Camaguey;x
+5033;183;113;31;Sancti Spiritus;x
+5034;221;123;143;Cayman;x
+5035;183;104;239;Le Cap;x
+5036;67;105;9;La Romana;x
+5037;119;29;52;La Vega;x
+5038;104;56;154;Cozumel;x
+5039;187;45;55;Islas de la Bahia;x
+5040;94;53;142;San Andres;x
+5041;219;91;49;Isla Margarita;x
+5042;202;106;197;Tortuga;x
+5043;205;123;140;Cornwall_JM;x
+5044;89;132;139;Mayaguez;x
+5045;65;112;120;Guayama;x
+5046;103;31;49;Bocas del Toro;x
+5047;203;32;60;Alajuela;x
+5048;13;53;153;Cartago;x
+5049;28;124;127;Tegucigalpa;x
+5050;139;49;87;San Miguel;x
+5051;51;63;162;Retalhuleu;x
+5052;27;103;77;Chuntuki;x
+5053;13;66;48;Sayaxche;x
+5054;20;79;59;Lacandon;x
+5055;111;41;67;Chetumal;x
+5056;;;;;x
 

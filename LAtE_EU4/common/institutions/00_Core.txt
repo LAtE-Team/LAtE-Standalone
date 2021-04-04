@@ -21,8 +21,13 @@ feudalism = {
 		is_year = 2600
 		owner = {
 			NOT = {
-				government = tribal
-				government = native
+				government = siberian_native_council
+				government = steppe_horde
+				government = tribal_kingdom
+				government = tribal_despotism
+				government = tribal_federation
+				government = tribal_democracy
+				government = jungle_horde
 
 				#technology_group = andean
 				#technology_group = mesoamerican
@@ -115,8 +120,13 @@ feudalism = {
 				#NOT = { continent = south_america }
 				#NOT = { continent = new_world }
 				owner = {
-					NOT = { government = native }
-					NOT = { government = tribal }
+					NOT = { government = tribal_democracy }
+					NOT = { government = tribal_kingdom }
+					NOT = { government = tribal_despotism }
+					NOT = { government = tribal_federation }
+					NOT = { government = siberian_native_council }
+					NOT = { government = native_council }
+					NOT = { government = steppe_horde }
 				}
 			}
 		}
