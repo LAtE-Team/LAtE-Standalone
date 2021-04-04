@@ -1,9 +1,11 @@
 # - Budejovice
 
-
+#owner = BOH
+#controller = BOH
+#add_core= BOH
 capital = "Budejovice"
 culture = czech
-religion = matrem
+religion = catholic
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -18,7 +20,44 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
 discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
 discovered_by = indian
+discovered_by = indian
+
+
+# = { unrest = 5 } # Hussite Wars, Battle of Nekmir
+# = { unrest = 0 } # Peace is signed in Jihlava
+# = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.
+# = {
+	#owner = HUN
+	#controller = HUN
+	#add_core= HUN
+	unrest = 0
+#} # Pilsen accepts Matthias Corvinus (Hunyadi)as their King.
+# = {
+	#owner = BOH
+	#controller = BOH
+	
+#} # Matthias Corvinus dies in Vienna, his successor is both King of Hungary AND Bohemia, thus the integreity of the Bohemian territory is restored.
+# = {
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+	
+#}# Battle of Mohac where Lajos II dies -> Habsburg succession
+# = {
+	#owner = BOH
+	#controller = BOH
+	#add_core= BOH
+#} # Defenestration of Prague
+# = {
+	#owner = HAB
+	#controller = HAB
+	
+#} # Tilly beats the Winterking. Deus Vult!
+# = { hre = no } # The Holy Roman Empire is dissolved
+
 
 native_size = 5
 native_ferocity = 1

@@ -1,13 +1,13 @@
-owner = HES
-controller = HES
-add_core= HES
+owner = BIZ
+controller = BIZ
+add_core= BIZ
 capital = "Wiesbaden"
 trade_goods = unknown
 hre = no
 culture = hessian
-religion = matrem
-base_tax = 3
-base_production = 2
+religion = thelemic
+base_tax = 1
+base_production = 1
 base_manpower = 1
 is_city = yes
 

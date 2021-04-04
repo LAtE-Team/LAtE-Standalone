@@ -1,17 +1,16 @@
-government = native 
+government = monarchy 
+add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = high_american
 primary_culture = austrian
-religion = celticist
+religion = catholic
+technology_group = western
 capital = 134 # Wien
+historical_friend = HUN
+historical_rival = TUR
+historical_rival = FRA
+national_focus = ADM
 
-3032.8.11 = {
-	monarch = {
-		name = "Karl"
-		birth_date = 2993.1.7
-		dynasty = "Enenkel"
-		adm = 0
-		dip = 6
-		mil = 3
-	}
+1648.10.24 = {
+	set_hre_religion_treaty = yes
+	leave_league = catholic
 }

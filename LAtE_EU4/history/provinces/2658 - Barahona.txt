@@ -1,0 +1,29 @@
+owner = CBN
+controller = CBN
+add_core = CBN
+culture = dominicano
+religion = santeria
+citysize = 2000
+add_core = DOM
+capital = "Santa Cruz de Barahona"
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = MTC
+discovered_by = MTC
+discovered_by = X17
+trade_goods = tropical_wood
+3053.1.1 = {
+	hre = no
+	base_tax = 4
+	base_production = 4
+	base_manpower = 4
+}
+3053.1.1 = {
+	owner = CBN
+	controller = CBN
+	culture = dominicano
+	religion = santeria
+	trade_goods = tropical_wood
+}

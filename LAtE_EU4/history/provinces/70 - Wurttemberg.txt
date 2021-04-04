@@ -1,11 +1,14 @@
 culture = swabian
+owner = WUR
+controller = WUR
+add_core= WUR
 capital = "Stuttgart"
 religion = cult_of_reason
 trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1
-is_city = no
+is_city = yes
 hre = no
 
 

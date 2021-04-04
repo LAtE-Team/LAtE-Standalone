@@ -1,0 +1,15 @@
+# San Andres
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = raizal
+religion = brethren
+clear_scripted_personalities = yes
+capital = 5040
+3053.1.1 {
+	capital = 5040
+	add_treasury = 100
+	add_prestige = 3
+}

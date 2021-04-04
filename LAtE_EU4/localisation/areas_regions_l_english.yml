@@ -2024,6 +2024,9 @@
  cuba_area:1 "West Cuba"
  cuba_area_name:1 "Ciboney"
  cuba_area_adj:1 "Ciboney"
+ central_cuba_area:1 "Central Cuba"
+ central_cuba_area_name:1 "Camaguey"
+ central_cuba_area_adj:1 "Camagueyan"
  east_cuba_area:0 "East Cuba"
  east_cuba_area_name:0 "Baracoa"
  east_cuba_area_adj:0 "Baracoan"
@@ -2996,15 +2999,7 @@
  uunaay_area:0 "Uunaay"
  uunaay_area_name:0 "Uunaay"
  uunaay_area_adj:0 "Uunaay"
- kootenai_area:0 "Kootenai"
- kootenai_area_name:0 "Kootenai"
- kootenai_area_adj:0 "Kootenai"
- mesa_area:0 "Mesa"
- mesa_area_name:0 "Mesa"
- mesa_area_adj:0 "Mesan"
- salt_lake_area:0 "Salt Lake"
- salt_lake_area_name:0 "Salt Lake"
- salt_lake_area_adj:0 "Salt Lake"
+
  
 
 

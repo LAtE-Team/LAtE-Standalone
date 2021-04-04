@@ -33,36 +33,6 @@ type={
 		name="French_windmill"
 		hidden_on_start=no
 		position={
-			1425.000 0.100 1681.000 
-		}
-		rotation={
-			0.000 -15.000 0.000 
-		}
-	}
-	object={
-		name="French_windmill"
-		hidden_on_start=no
-		position={
-			1435.000 0.100 1692.000 
-		}
-		rotation={
-			0.000 -15.000 0.000 
-		}
-	}
-	object={
-		name="French_windmill"
-		hidden_on_start=no
-		position={
-			1457.000 0.100 1684.000 
-		}
-		rotation={
-			0.000 -15.000 0.000 
-		}
-	}
-	object={
-		name="French_windmill"
-		hidden_on_start=no
-		position={
 			2674.000 0.100 1765.000 
 		}
 		rotation={

@@ -1,15 +1,15 @@
-# 78 - Wurttembaden
+# 78 - Mainz
 capital = "Mainz"
 culture = hessian
 religion = matrem
 trade_goods = unknown
-owner = WTB
-base_tax = 4
-base_production = 4
-base_manpower = 2
+owner = BIZ
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
-add_core= WTB
-controller = WTB
+add_core= BIZ
+controller = BIZ
 hre = no
 
 

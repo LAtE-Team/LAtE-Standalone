@@ -1,5 +1,4 @@
 # A province can only belong to one area!
-# A province can only belong to one area!
 
 #Sea Areas:
 #No restriction on size.
@@ -69,7 +68,7 @@ south_indian_ocean_area = {
 }
 
 great_australian_bight_area = {
-	1413 1415 1414 1416 1422 1635
+	1415 1414 1416 1422 1635
 }
 
 swahili_coast_sea_area = {
@@ -97,7 +96,7 @@ sea_of_japan_area = { #10
 }
 
 sea_of_okhotsk_area = {
-	1380 1381 1382 1383 1384 1385 1441
+	1381 1382 1383 1384 1385 1441
 }
 
 berring_sea_area = {
@@ -105,7 +104,7 @@ berring_sea_area = {
 }
 
 tasman_sea_area = {
-	1421 1423 1424 1425 1426 1427 1428 1429
+	1380 1421 1423 1424 1425 1426 1427 1428 1429
 }
 
 coral_sea_area = {
@@ -182,15 +181,15 @@ east_pacific_ocean_area = {
 }
 
 polynesian_triangle_area = {
-	1692 1697 1713 1720 1721 1722 1723 1724 1725 1726 1727 1728 1729 1731 1732 1733 1735 1738 1739 
+	1690 1692 1693 1697 1713 1720 1721 1722 1723 1724 1725 1726 1727 1728 1729 1731 1732 1733 1735 1737 1738 1739 
 }
 
 south_pacific_area = {
-	1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1716 1717 1718 1719 1730 1736 1737 1740 1741
+	1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1716 1717 1718 1719 1730 1736 1740 1741
 }
 
 north_pacific_area = {
-	1683 1684 1685 1686 1687 1688 1689 1690 1693 1694 1695 1696 1699 1714 1715 
+	1683 1684 1685 1686 1687 1688 1689 1694 1695 1696 1699 1714 1715 
 }
 
 north_pacific_coast_area = {
@@ -210,7 +209,7 @@ celtic_sea_area = {
 }
 
 west_african_coast_sea_area = {
-	1467 1468 1469 1470 1471 1472 1578 1579
+	1413 1467 1468 1469 1470 1471 1472 1578 1579
 }
 
 south_atlantic_area = {
@@ -230,11 +229,11 @@ gulf_stream_area = {
 }
 
 sargasso_sea_area = {
-	1526 1568 1569 1572 1573 1574 1575 1581 1582 1583
+	1526 1569 1572 1573 1574 1575 1581 1582 1583
 }
 
 north_atlantic_area = {
-	1283 1286 1287 1290 1291 1292 1478 1479 1497 1498 1563 1565 1564 1566 1567 1580
+	1283 1286 1287 1290 1291 1292 1478 1479 1497 1498 1563 1565 1564 1566 1567 1568 1578 1580
 }
 
 bahama_channel_area = {
@@ -295,19 +294,19 @@ normandy_area = { #3
 }
 
 provence_area = { #3
-	201 2991 202
+	201 2991
 }
 
 guyenne_area = { #4
-	180 194 4111 174 4112
+	180 194 4111 174
 }
 
-pyrenees_area = { #3
-	175 176 196
-}
+# pyrenees_area = { #3
+	# 174 175 176
+# }
 
 languedoc_area = { #3
-	200 2753 198 
+	200 2753
 }
 
 bourgogne_area = { #4
@@ -320,9 +319,9 @@ massif_central_area = { #4
 	190 195 199 203
 }
 
-savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
-	203 204 205
-}
+# savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
+	# 203 204 205
+# }
 
 # lorraine_area = { #3
 	# 187 188 189
@@ -353,7 +352,7 @@ flanders_area = { #3
 }
 
 brabant_area = { #3
-	95 1744 2974
+	95 1744
 }
 
 # netherlands_area = { #4
@@ -368,9 +367,9 @@ frisia_area = { #3
 # Iberia					 		   #
 ########################################
 
-aragon_area = { #3
-	211 214 2990
-}
+# aragon_area = { #3
+	# 211 214 2990
+# }
 
 catalonia_area = { #4
 	197 212 213 2987
@@ -388,12 +387,12 @@ upper_andalucia_area = { #3
 	222 223 226
 }
 
-castille_area = { #3
-	215 217 1746 2755 2989
-}
+# castille_area = { #3
+	# 215 217 1746 2755 2989
+# }
 
 toledo_area = { #4
-	219 221 2754 2751
+	219 221 2754
 }
 
 asturias_area = { #3
@@ -405,7 +404,7 @@ basque_country = { #3
 }
 
 leon_area = { #4
-	218 1747 216 208
+	218 1747
 }
 
 beieras_area = { #4
@@ -596,20 +595,28 @@ greenland_area = { #2
 # Eastern Europe				 	   #
 ########################################
 
-estonia_ingria_area = { #5
-	35 36 37 1834 1842
+estonia_ingria_area = { #3
+	36 1834 1842
 }
 
-livonia_area = { #4
-	38 39 1935 4241
+livonia_area = { #3
+	37 38 273 
 }
 
-east_prussia_area = { #3
-	40 2958
+curonia_area = { #3
+	35 39 1935
 }
 
-pomerelia_area = { #6 (North West Prussia)
-	43 48 49 767 2963 2997
+east_prussia_area = { #4
+	40 41 767 2958
+}
+
+pomerelia_area = { #3 (North West Prussia)
+	42 43 1841
+}
+
+west_prussia_area = { #3 (South West Prussia)
+	1859 2963 2997
 }
 
 wielkopolska_area = { #4
@@ -621,35 +628,39 @@ malopolska_area = { #5
 }
 
 red_ruthenia_area = { #4
-	261 281 1940 2424 2961
+	261 1940 2424 2961
 }
 
-podolia_volhynia_area = { #3
-	279 
+podolia_volhynia_area = { #4
+	279 281 1943 2962
 }
 
 pripyat_area = { #3
-	278 2962 5031
+	277 278 1941
 }
 
 mazovia_area = { #4
 	256 257 269 1938
 }
 
+samogitia_area = { #3
+	270 1936
+}
+
 lithuania_area = { #3
-	41 272 770 5032 5033 5034 1936 1937
+	272 770 1937
 }
 
-west_dniepr_area = { #5 Right Bank Ukraine
-	280 1942 1943 1944 4115
+west_dniepr_area = { #3 Right Bank Ukraine
+	280 1942 1944
 }
 
-east_dniepr_area = { #6 Left bank Ukraine
-	289 290 1945 2407 4116 4244
+east_dniepr_area = { #4 Left bank Ukraine
+	289 290 1945 2407
 }
 
-sloboda_ukraine_area = { #4
-	291 298 299 2408
+sloboda_ukraine_area = {	 #3
+	291 298 299
 }
 
 yedisan_area = { #3
@@ -668,8 +679,8 @@ crimea_area = { #4
 	284 285 2410 2447
 }
 
-white_ruthenia_area = { #6
-	275 276 292 293 771 4242
+white_ruthenia_area = { #5
+	275 276 292 771 4115
 }
 
 #Opolye
@@ -678,8 +689,8 @@ ryazan_area = { #3
 	300 301 1778
 }
 
-moscow_area = { #6
-	294 295 296 307 4245 4253
+moscow_area = { #5
+	294 295 296 307 4253
 }
 
 suzdal_area = { #5
@@ -692,7 +703,7 @@ novgorod_area = { #5
 }
 
 pskov_area = { #4
-	274 311 1960 4243 4148
+	274 311 1960 4148
 }
 
 beloozero_area = { #4
@@ -743,8 +754,8 @@ kama_area = { #5
 	305 1962 1972 4266 4265
 }
 
-tambov_area = { #3
-	302 304 2415 
+tambov_area = { #4
+	302 304 2408 2415 
 }
 
 saratov_area = { #3
@@ -756,102 +767,106 @@ saratov_area = { #3
 ########################################
 
 silesia_area = { #4
-	264 2966
+	263 264 2966 4238
 }
 
 bohemia_area = { #5
-	265 2968 2970 1771 267
+	265 266 2968 2970 4237
 }
 
-#erzgebirge_area = { #3
-#	267 1771 2967
-#}
-
-south_saxony_area = { #3 #Just Saxony
-	59 58 52 63
+erzgebirge_area = { #3
+	267 1771 2967
 }
 
-#lower_bavaria_area = { #4
-#	64 1757 2956 2957
-#}
+south_saxony_area = { #3
+	59 60 61
+}
 
-upper_bavaria_area = {	#Just Bavaria
-	65 76 2955 2956 
+lower_bavaria_area = { #4
+	64 1757 2956 2957
+}
+
+upper_bavaria_area = {
+	65 76 2955
 }
 
 franconia_area = { #3
-	66 67 79 71
+	66 67 79
 }
 
-#lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
-#	70 71 1872
-#}
-
-upper_swabia_area = { #3	#Just Swabia
-	68 69  
+lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
+	70 71 1872
 }
 
-#northern_saxony_area = { #3 (Saxe-Altmark)
-#	color = { 229 20 20 }
-#	52 58 2964
-#}
+upper_swabia_area = { #3
+	68 69 1868
+}
 
-#thuringia_area = { #3
-#	62 63 2965
-#}
+northern_saxony_area = { #3 (Saxe-Altmark)
+	color = { 229 20 20 }
+	52 58 2964
+}
+
+thuringia_area = { #3
+	62 63 2965
+}
 
 neumark_area = { #3
 	color = { 234 232 44 }
-	1763 50 1859 47
+	49 1763 2969
 }
 
-#mittelmark_area = { # 3
-#	50 51 1759
-#}
+mittelmark_area = { # 3
+	50 51 1759
+}
 
-#hinter_pommern_area = { #3
-#	48 1858 2995
-#}
+vorpommern_area = { #3
+	47 2993 2994
+}
 
-#tirol_area = { #3
-#	73 110 1768
-#}
+hinter_pommern_area = { #3
+	48 1858 2995
+}
 
-austria_proper_area = { #3	#Just Austria
+tirol_area = { #3
+	73 110 1768
+}
+
+austria_proper_area = { #3
 	color = { 213 40 40 }
-	134 1770 132 73
+	133 134 1770
 }
 
-#inner_austria_area = { #3
-#	128 132 1863
-#}
+inner_austria_area = { #3
+	128 132 1863
+}
 
 carinthia_area = { #3
-	129 130 
+	129 130 1769
 }
 
 switzerland_area = { #4
-	165 1867 1871 1870 1869
+	166 1869 1870 1873
 }
 
-#romandie_area = { #3
-#	165 1867 1871
-#}
+romandie_area = { #3
+	165 1867 1871
+}
 
 upper_rhineland_area = { #4
-	74 75 1761
+	72 74 75 1880
 }
 
-#palatinate_area = { #3
-#	77 78 1761
-#}
+palatinate_area = { #3
+	77 78 1761
+}
 
-#north_rhine_area = { #3
-#	84 85 2975 
-#}
+north_rhine_area = { #3
+	84 85 2975 
+}
 
 lower_rhineland_area = { #3
-	80 1878 
+	80 1760 1878
 }
 
 luxemburg_liege_area = { #4
@@ -859,16 +874,16 @@ luxemburg_liege_area = { #4
 }
 
 westphalia_area = { #5
-	56 2972 84
+	56 82 86 2972 2973 
 }
 
 hesse_area = { #4
-	81 83 78
+	81 83 1762 1876
 }
 
-#braunschweig_area = { #3
-#	57 1758 2971
-#}
+braunschweig_area = { #3
+	57 1758 2971
+}
 
 weser_area = { #3
 	54 55 1874
@@ -879,11 +894,11 @@ holstein_area = { #3
 }
 
 lower_saxony_area = { #3
-	53 57 1758
+	44 53 1857
 }
 
 mecklenburg_area = { #3
-	45 2996
+	45 46 2996
 }
 
 ########################################
@@ -943,7 +958,7 @@ albania_area = {
 }
 
 bosnia_area = { #4
-	139 140 1831 3002
+	139 1831 3002
 }
 
 croatia_area = { #5 
@@ -2743,7 +2758,7 @@ banda_oriental_area = { #5
 }
 
 guyana_area = { #4
-	502 743 744 2803 
+	743 744 2803 
 }
 
 suriname_area = { #3
@@ -3266,23 +3281,6 @@ colorado_plateau_area = { #4
 	# 488 489 490 2658 2659
 # }
 
-greater_antilles_area = { #4
-	487 481 491 492
-}
-
-lucayan_area = { #2
-	482 483
-}
-
-leeward_islands_area = { #5
-	493 494 495 496 1881
-}
-
-windward_islands_area = { #5
-	497 498 499 500 501
-}
-
-
 #After the End Areas
 
 # california_area = { #5		Vanilla Area
@@ -3346,24 +3344,16 @@ shasta_cascade_area = { # Called "Northern Jefferson"
 }
 
 death_valley_area = {
-	4514 4511 4513 4512 4835 
+	4514 4511 4513 4512
 }
 
 deseret_area = {
-	4521 4520 4519 4748 4625 
+	4518 2490 4521 4520 4519
 }
 
-colorado_area = {
-	4522 4524 4525 4526
-}
-
-mesa_area = {
-	4523 4750 4749 4751 
-}
-
-salt_lake_area = {
-	4518 2490 4608 
-}
+# colorado_area = {
+	# 4522 4524 4523 4525 4526
+# }
 
 # Canada
 
@@ -3626,7 +3616,10 @@ lower_louisiana_area = { # 3
 #North West
 
 yellowstone_area = {
-	4601 4604 2506 2507 4609
+	4601 4604 2506 2507
+}
+colorado_area = {
+	4522 4524 4523 4525 4526 
 }
 
 columbia_river_area = { 
@@ -3646,11 +3639,7 @@ blue_mountains_area = {
 }
 
 bitteroot_area = {
-	4600 4599 4832
-}
-
-kootenai_area = {
-	2003 2487 4834
+	4600 2003 2487 4599
 }
 
 uunaay_area = {
@@ -3840,15 +3829,51 @@ te_waipounamu_area = { #3
 
 #Carribean
 cuba_area = { #3
-	484 485 4712 4713 4715 
+	484 485 4713 4715 
+}
+
+central_cuba_area = { #3
+	2656 4712 5032 5033
 }
 
 east_cuba_area = { #3
-	486 2654 2655 2656 4714
+	486 2654 2655 4714 5031
 }
 
-hispaniola_area = { #5
-	488 489 490 2658 2659 4716
+haiti_area = { #5
+	488 489 4716 5035 5042
+}
+
+dominica_area = { #5
+	490 2658 2659 5036 5037
+}
+
+puerto_rico_area = { #5
+	492 5044 5045
+}
+
+western_carribean_area = {
+	5038 5039 5040
+}
+
+ jamaica_area = { #4
+	487 5034 5043
+}
+
+ leeward_antilles_area = { #4
+	491 502 5041 
+}
+
+ lucayan_area = { #2
+	481 482 483
+}
+
+leeward_islands_area = { #5
+	493 494 495 496 1881
+}
+
+windward_islands_area = { #5
+	497 498 499 500 501
 }
 
 florida_area = { #3
@@ -3874,7 +3899,7 @@ sinaloa_area = {
 }
 
 rio_grande_area = { # 3
-	858 2499 2668 4747 
+	858 2499 2668 4747 4748
 }
 
 durango_area = { #3
@@ -3935,7 +3960,7 @@ mixteca_area = { #4
 }	
 	
 eastern_mexico_area = { #5 
-	2630 2631 2647 2632
+	2630 2631 2647
 }	
 	
 huasteca_area = {  
@@ -3943,51 +3968,67 @@ huasteca_area = {
 }	
 	
 chiapas_area = { #4 
-	2635 2638 2649 4929 4930
+	2635 2649 4929 4930
 } 	
 
 istmo_area = {
-	4752 844
+	4752 4751 844
 }
 
 yucatan_area = { #4
-	845 2633 2650 2651 4754
+	845 2632 2633 2650 2651
 }
 
 east_yucatan_area = { #3
-	846 2634 2652 4753
+	846 2634 2652 4753 4754
 }
 
 guatemala_area = { #5
-	841 2653 2636 
+	841 2653 2636 4757
+}
+
+pacifico_area = { #5
+	2638 4755 5051
 }
 
 peten_area = {
-	842 843 4756
+	842 5052 5053 5054
+}
+
+belize_area = {
+	843 4756 5055
 }
 
 honduras_area = { #5
-	4757 4758 2637 2662 4759
+	4758 2637 2662 4759 5049
 }
 
 salvador_area = {
-	4755 839 2640
+	839 2640 5050
 }
 
 nicaragua_area = { #5
-	837 2660 4761 4762  
+	837 2660  
+}
+
+las_brumas_area = { #5
+	4761 4762 2661
 }
 
 moskita_area = {
-	840 4760 2661 838 4763
+	840 4760 838 4763
 }
 
 costa_rica_area = {
-	4764 2663 836 2664
+	4764 2663 836 5046 5047 5048
 }
 
 panama_area = { #5
-	826 835 2819 4766 4765
+	835 2819 4766
+}
+
+chiriqui_area = { #5
+	2664 4765 5046
 }
 
 #Africa
@@ -4066,11 +4107,11 @@ krasnoyarsk_area = {
 #Sea Areas
 
 great_lakes_sea_area = {
-	4616 1663 4615 4614 4612 4613 1662 4611 4617 1661 4610 4594 4593 1660
+	4616 1663 4615 4614 4612 4613 1662 4611 4617 1661 4609 4610 4594 4593 1660
 }
 
 st_lawrence_river_area = {
-	4607 4592 
+	4607 4592 4608
 }
 
 #############################
@@ -4163,19 +4204,18 @@ connacht_area = {}
 leinster_area = {}
 ulster_area = {}
 netherlands_area = {}
-
-
+castille_area = {}
+savoy_dauphine_area	= {}
 barbary_coast_area = {}
-
-samogitia_area = {}
-
+castille_area	= {}
+aragon_area	= {}
 galicia_area	= {}
 baleares_area	= {}
 barbary_coast_area	= {}
-
+pyrenees_area	= {}
 poitou_area	= {}
 ile_de_france_area	= {}
-
+aragon_area	= {}
 nepal_area	= {}
 baisi_rajya_area	= {}
 mithila_area	= {}
@@ -4202,8 +4242,6 @@ berar_area	= {}
 ahmednagar_area	= {}
 south_carnatic_area	= {}
 north_carnatic_area	= {}
-west_prussia_area = {}
-vorpommern_area = {}
 
 
 #### LAtE Unused Provinces ####
@@ -4211,8 +4249,6 @@ vorpommern_area = {}
 
 unused_provinces_area = {
 
-	2579
-	
 	4361 4362 4363 4364 4365 4366 4367 4368 4369 4370 4371 4372 4373 4374 4375 
 	4376 4377 4378 4379 4380 4381 4382 4383 4384 4385 4386 4387 4388 4389 4390 
 	4391 4392 4393 4394 4395 4396 4397 4398 4399 4400 4401 4402 4403 4404 4405 
@@ -4224,10 +4260,8 @@ unused_provinces_area = {
 	4481 4482 4483 4484 4485 4486 4487 4488 4489 4490 4491 4492 4493 4494 4495 
 	4496 4497 4498 4499
 	
-	
-	92 96 98 181 187 188 
-	297 963 1742 1743 1931   
-	273
+	92 96 98 175 176 181 187 188 196 198 202 204 205 208 211 214 215 216 
+	217 293 297 963 1742 1743 1746 1931 2751 2755 2974 2989 2990 
 	
 	#3190 - 3999
 	3190 3191 3192 3193 3194 
@@ -4281,13 +4315,15 @@ unused_provinces_area = {
 	3980 3981 3982 3983 3984 3985 3986 3987 3988 3989 3990 3991 3992 3993 3994
 	3995 3996 3997 3998 3999 
 	
-	4246 4247 4248
+	4112 4116 4241 4242 4243 4244 4245 4246 4247 4248
 	4249 4250 4251 4252 4254 4255 4256 4259 4260 4261 4262 4263 4264 4358
-	1941
-	4581 
-	277 
-	4833 4898
-	270
+	
+	4581 4625
+
+	4749 4750
+
+	4832 4833 4834 4835 4898
+
 	4921 4922 4931 4932 4933 4934
 	4935 4936 4937 4938 4939 4941 
 	 

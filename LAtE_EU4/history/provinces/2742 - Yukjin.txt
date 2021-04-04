@@ -3,7 +3,7 @@
 #owner = KOR
 #controller = KOR
 culture = novorusskiy
-religion = nousthreskeia
+religion = atomicist
 capital = "Yukjin"
 trade_goods = naval_supplies
 hre = no

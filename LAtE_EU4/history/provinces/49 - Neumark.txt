@@ -1,7 +1,10 @@
 #49 - Neumark
 
+#owner = BRA
+#controller = BRA
+##add_core= BRA
 culture = saxon
-religion = matrem
+religion = catholic
 hre = no
 base_tax = 1
 base_production = 1
@@ -11,6 +14,9 @@ capital = "Landsberg"
 is_city = no
 discovered_by = high_american 
 discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
 discovered_by = indian
 
 native_size = 5

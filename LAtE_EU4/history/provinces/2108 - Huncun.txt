@@ -4,7 +4,7 @@
 #controller = MJZ
 #add_core= MJZ
 culture = novorusskiy
-religion = nousthreskeia
+religion = atomicist
 capital = "Huncun"
 trade_goods = naval_supplies
 hre = no

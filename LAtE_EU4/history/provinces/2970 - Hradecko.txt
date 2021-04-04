@@ -1,8 +1,11 @@
 # - Hradecko
 
+#owner = BOH
+#controller = BOH
+#add_core= BOH
 capital = "Hradec Králové"
 culture = czech
-religion = matrem
+religion = catholic
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -17,8 +20,37 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
 discovered_by = RED
+discovered_by = high_american 
+discovered_by = RED
+discovered_by = indian
 discovered_by = indian
  
+
+# = { revolt = { type = heretic_rebels size = 1 } #controller = REB } # Hussite Wars, Battle of Nekmir
+# = { revolt = {} #controller = BOH } # Peace is signed in Jihlava
+# = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns
+# = { unrest = 1 } # The Catholic nobility still undermines the crown.
+# = { unrest = 0 }
+# = {
+	#owner = HAB
+	#controller = HAB
+	#add_core= HAB
+	
+#} # Battle of Mohac where Lajos II dies -> Habsburg succession
+# = { religion = protestant }
+# = {
+	#owner = BOH
+	#controller = BOH
+	#add_core= BOH
+#} # Defenestration of Prague
+# = {
+	#owner = HAB
+	#controller = HAB
+	
+#} # Tilly beats the Winterking. Deus Vult!
+# = { religion = catholic } # Order from Ferdinand II to reconvert to Catholicism, many Protestant leave the country 
+# = { hre = no } # The Holy Roman Empire is dissolved
+
 
 native_size = 5
 native_ferocity = 1

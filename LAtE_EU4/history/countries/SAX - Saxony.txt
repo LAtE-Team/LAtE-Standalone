@@ -1,7 +1,0 @@
-government = native
-government_rank = 1
-primary_culture = saxon
-religion = matrem
-technology_group = high_american
-capital = 63 # Leipzig/Thuringia
-

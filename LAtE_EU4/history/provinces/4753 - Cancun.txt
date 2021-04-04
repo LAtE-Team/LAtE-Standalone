@@ -1,16 +1,20 @@
-culture = piman
-religion = totemism 
-trade_goods = unknown
-hre = no 
-base_tax = 4
-base_production = 4
-base_manpower = 2
-native_size = 5 
-native_ferocity = 1 
-native_hostileness = 3 
-discovered_by = north_american
+owner = X93
+controller = X93
+add_core = X93
+culture = yucatec
+religion = neomayan
+citysize = 2000
+discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-discovered_by = NRU 
-discovered_by = NRA
+discovered_by = MTC
+discovered_by = MTC
+discovered_by = X17
+3053.1.1 = {
+	hre = no
+	base_tax = 0
+	base_production = 0
+	base_manpower = 0
+}
+

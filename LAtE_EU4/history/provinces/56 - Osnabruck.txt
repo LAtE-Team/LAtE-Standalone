@@ -1,17 +1,17 @@
 #56 - Osnabrück
 
-owner = BNN
-controller = BNN
+owner = BIZ
+controller = BIZ
 culture = hannoverian
 religion = thelemic
 capital = "Osnabrück"
 trade_goods = unknown
 hre = no
-base_tax = 3
-base_production = 2
+base_tax = 1
+base_production = 1
 base_manpower = 1
 is_city = yes
-add_core= BNN
+add_core= BIZ
 
 
 
