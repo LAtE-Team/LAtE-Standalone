@@ -1,0 +1,2 @@
+#I had to copy this file, as the replace_path just wouldn't work for this.
+#TODO try to somehow get rid of the file and have the game recognize KSI - Kasai.txt as the proper history file.
