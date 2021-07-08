@@ -12,7 +12,7 @@ technology = {
 	year = 2950
 	
 	tribal_despotism_legacy = yes 	
-	tribal_federation_legacy = yes
+	tribal_federation_legacy = yes 
 	
 	native_earthwork = yes
 	native_palisade = yes
@@ -51,7 +51,7 @@ technology = {
 	# Tech 3
 	year = 3040
 
-	production_efficiency	=	0.05
+	production_efficiency	=	0.02
 	may_support_rebels = yes
 }
 
@@ -68,7 +68,7 @@ technology = {
 	year = 3066
 
 	allowed_idea_groups = 1
-	production_efficiency	 =	0.05
+	production_efficiency	 =	0.02
 }
 
 technology = {
@@ -93,7 +93,7 @@ technology = {
 
 	year = 3105
 	courthouse = yes
-	max_states = 3
+	governing_capacity = 100
 
 }
 
@@ -130,7 +130,8 @@ technology = {
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	max_states = 3
+	governing_capacity = 100
+	state_house = yes
 }
 
 technology = {
@@ -154,7 +155,7 @@ technology = {
 	year = 3196
 	
 	may_force_march = yes
-	
+	soldier_households = yes
 }
 
 technology = {
@@ -162,7 +163,7 @@ technology = {
 	year = 3209
 	
 	mills = yes
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 
 
 }
@@ -172,7 +173,7 @@ technology = {
 	year = 3222
 	
 	university = yes	
-	max_states = 5
+	governing_capacity = 250
 	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
@@ -198,7 +199,7 @@ technology = {
 	year = 3261
 	
 	republican_dictatorship = yes
-	max_states = 5
+	governing_capacity = 250
 }
 
 technology = {
@@ -206,7 +207,7 @@ technology = {
 	year = 3274
 	
 	#Land Clearance
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 	furnace = yes
 }
 
@@ -234,7 +235,7 @@ technology = {
 	year = 3315
 	
 	counting_house = yes  
-	max_states = 5
+	governing_capacity = 250
 }
 
 technology = {
@@ -242,7 +243,7 @@ technology = {
 	year = 3330
 	
 	#Improved Farm Animals
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 }
 
 technology = {
@@ -258,7 +259,7 @@ technology = {
 
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1	
-	max_states = 5
+	governing_capacity = 250
 }
 
 technology = {
@@ -266,7 +267,7 @@ technology = {
 	year = 3375
 	
 	#Rotherham Plough
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 }
 
 technology = {
@@ -292,7 +293,7 @@ technology = {
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	max_states = 5
+	governing_capacity = 500
 }
 
 technology = {
@@ -300,5 +301,5 @@ technology = {
 	year = 3435
 	
 	#Four field rotation
-	production_efficiency 	=	0.05
+	production_efficiency 	=	0.02
 }

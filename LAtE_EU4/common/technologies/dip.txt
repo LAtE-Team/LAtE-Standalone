@@ -3,6 +3,8 @@ monarch_power = DIP
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
 	trade_efficiency = 0.2
+
+
 	yearly_corruption = -0.05
 }
 
@@ -14,6 +16,9 @@ technology = {
 	naval_morale			=	2.0
 	range					=	60
 	may_fabricate_claims = yes
+
+	enable = war_canoe
+
 
 }
 
@@ -35,6 +40,8 @@ technology = {
 	trade_range				=	100
 	enable = cog
 	enable = galley
+	
+	naval_engagement_width = 20
 
 }
 
@@ -49,6 +56,7 @@ technology = {
 	range					= 	100
 	trade_efficiency 		= 	0.02
 	global_colonial_growth	= 	15
+	may_build_flagships = yes
 	
 	enable = early_carrack
 
@@ -72,6 +80,8 @@ technology = {
 	naval_maintenance		=	0.1	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	
+	coastal_defence = yes
 }
 
 technology = {
@@ -87,9 +97,10 @@ technology = {
 	# Tech 7
 	year = 3092
 	
-	naval_morale			=	0.3
-	range					= 	115
-	
+	naval_morale			= 0.3
+	range					= 115
+	impressment_offices 	= yes
+	naval_engagement_width = 10
 }
 
 technology  = {
@@ -121,7 +132,7 @@ technology = {
 	# Tech 10
 	year = 3131
 	
-	trade_efficiency		= 	0.05
+	trade_efficiency		= 	0.02
 	trade_range				=	20
 	global_colonial_growth  = 	10
 	enable = flute
@@ -144,6 +155,8 @@ technology = {
 	naval_morale			=	0.4
 	may_slander_merchants = yes
 
+	naval_battery = yes
+	naval_engagement_width = 15
 	
 }
 
@@ -151,7 +164,7 @@ technology = {
 	# Tech 13
 	year = 3170
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	enable = brig
 
 }
@@ -185,7 +198,7 @@ technology = {
 	# Tech 16
 	year = 3209
 	
-	trade_efficiency 		= 	0.05
+	trade_efficiency 		= 	0.02
 	trade_range				=	20
 
 }
@@ -211,6 +224,8 @@ technology = {
 	enable = galiot
 	naval_morale			=	0.5
 	may_sow_discontent = yes
+	
+	naval_engagement_width = 10
 
 	
 }
@@ -262,6 +277,7 @@ technology = {
 	reduced_naval_attrition = yes
 	enable = twodecker
 	enable = trabakul
+	naval_engagement_width = 5
 }
 
 technology = {
@@ -288,6 +304,7 @@ technology = {
 	trade_range				=	20
 	enable = archipelago_frigate
 	may_corrupt_officials = yes
+	naval_engagement_width = 10
 
 }
 
