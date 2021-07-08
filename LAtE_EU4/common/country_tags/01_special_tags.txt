@@ -43,6 +43,7 @@ PNM = countries/Panama.txt
 PTR = countries/PuertoRico.txt
 RED = countries/Redcoats.txt
 RIO = countries/RioGrande.txt
+SAI = countries/SanAndres.txt
 LAX = countries/Socal.txt
 SNR = countries/Sonora.txt
 SBH = countries/SteelBrotherhood.txt
