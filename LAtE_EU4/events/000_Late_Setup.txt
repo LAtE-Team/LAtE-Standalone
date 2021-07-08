@@ -1,0 +1,21 @@
+namespace = late_setup
+
+country_event = {
+	id = late_setup.1
+	title = late_trade.2.title
+	desc = late_trade.2.desc
+	picture = "BANKRUPTCY_eventPicture"
+	
+	is_triggered_only = yes
+	hidden = yes
+	fire_only_once = yes
+	
+	immediate = {
+		every_country = {
+			change_estate_land_share = {
+				estate = all
+				share = -0.1
+			}
+		}
+	}
+}
