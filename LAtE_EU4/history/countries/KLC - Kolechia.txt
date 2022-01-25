@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform 
 primary_culture = russian
 religion = atomicist
-technology_group = indian
+technology_group = russian_group
 capital = 466 #Sarai
 
 

@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = russian
 religion = tengri_pagan_reformed
-technology_group = indian
+technology_group = russian_group
 capital = 307	# Vladmir
 
 

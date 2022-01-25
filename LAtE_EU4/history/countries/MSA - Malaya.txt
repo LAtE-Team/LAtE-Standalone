@@ -3,6 +3,6 @@ add_government_reform = elective_monarchy
 government_rank = 3
 primary_culture = malayan
 religion = sunni
-technology_group = chinese
+technology_group = oceanic
 capital = 2392	# Selangor
 religious_school = shafii_school

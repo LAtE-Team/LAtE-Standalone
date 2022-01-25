@@ -1,6 +1,5 @@
 government = monarchy 
-add_government_reform = feudalism_reform
 primary_culture = al_misr_arabic
 religion = thelemic
-technology_group = indian
+technology_group = westasian
 capital = 361 # Cairo

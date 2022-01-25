@@ -2,9 +2,9 @@
 government = republic
 add_government_reform = colonial_government
 government_rank = 1
-technology_group = indian
+technology_group = high_eurasian
 primary_culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = 2613 # Sitka
 
 

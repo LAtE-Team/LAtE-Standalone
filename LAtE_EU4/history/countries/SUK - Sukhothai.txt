@@ -3,6 +3,6 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = northern_thai
 religion = buddhism
-technology_group = chinese
+technology_group = oceanic
 capital = 601	# Sukhothai
 

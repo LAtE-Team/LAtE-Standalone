@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = mongol
 religion = tengri_pagan_reformed
-technology_group = indian
+technology_group = russian_group
 capital = 716	# Tanna Uriankhai
 
 3011.1.1 = {

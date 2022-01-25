@@ -1,10 +1,9 @@
 government = republic 
 add_government_reform = oligarchy_reform
-technology_group = chinese
+technology_group = oceanic
 religion = cult_of_saints
 primary_culture = filipino
 capital = 652 #Manila
-
 3050.1.1 = {
 	monarch = {
 		name = "Aurelia"

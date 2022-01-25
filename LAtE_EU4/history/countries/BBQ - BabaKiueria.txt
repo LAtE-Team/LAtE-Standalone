@@ -1,6 +1,6 @@
 government = monarchy 
 add_government_reform = feudalism_reform
-technology_group = chinese
+technology_group = oceanic
 religion = animism # dreaming
 primary_culture = aboriginal
 capital = 2731

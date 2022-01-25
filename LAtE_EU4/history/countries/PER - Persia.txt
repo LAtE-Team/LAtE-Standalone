@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = persian
 religion = zoroastrian
-technology_group = indian
+technology_group = westasian
 capital = 433 # Yazd
 
 

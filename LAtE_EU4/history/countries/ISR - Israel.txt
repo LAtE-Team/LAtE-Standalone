@@ -2,5 +2,5 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = hebrew
 religion = jewish
-technology_group = indian
+technology_group = westasian
 capital = 379	# Jerusalem

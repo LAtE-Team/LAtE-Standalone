@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = khazak
 religion = sunni
-technology_group = indian
+technology_group = russian_group
 capital = 456	#Turkestan
 religious_school = hanafi_school
 

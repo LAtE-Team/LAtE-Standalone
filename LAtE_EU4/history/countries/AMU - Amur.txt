@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = buryat
 religion = tengri_pagan_reformed
-technology_group = indian
+technology_group = russian_group
 capital = 2446	# Chara
 
 3011.1.1 = {

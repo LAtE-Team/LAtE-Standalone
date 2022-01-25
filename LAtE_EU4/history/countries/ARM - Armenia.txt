@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = autocracy_reform  
 primary_culture = armenian
 religion = coptic
-technology_group = indian
+technology_group = russian_group
 capital = 419	# Yerevan
 

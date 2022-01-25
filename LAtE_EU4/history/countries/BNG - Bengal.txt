@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta 
 primary_culture = bengali
 religion = sunni
-technology_group = indian
+technology_group = westasian
 capital = 563	# Pandua
 religious_school = hanafi_school
 

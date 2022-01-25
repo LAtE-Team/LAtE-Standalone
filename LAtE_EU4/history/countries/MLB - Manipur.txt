@@ -1,6 +1,6 @@
 government = tribal 
 add_government_reform = tribal_kingdom
-technology_group = indian
+technology_group = westasian
 primary_culture = chin
 religion = revelationist
 secondary_religion = buddhism

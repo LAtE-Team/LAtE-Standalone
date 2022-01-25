@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = russian
 religion = tengri_pagan_reformed
-technology_group = indian
+technology_group = russian_group
 capital = 2443	# Krasnoyarsk
 
 3000.1.1 = {

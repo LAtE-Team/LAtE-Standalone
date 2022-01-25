@@ -2,5 +2,5 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = oriya
 religion = hinduism
-technology_group = indian
+technology_group = westasian
 capital = 552	# Cuttack

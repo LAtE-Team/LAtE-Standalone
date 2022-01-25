@@ -2,5 +2,5 @@ government = monarchy
 add_government_reform = autocracy_reform 
 primary_culture = lao
 religion = buddhism
-technology_group = chinese
+technology_group = south_east_asian
 capital = 614	# Vientiane

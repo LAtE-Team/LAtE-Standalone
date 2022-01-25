@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = feudal_theocracy
 primary_culture = yemeni_culture
 religion = shiite
-technology_group = muslim
+technology_group = mexican
 capital = 390	# Sana'a
 government_rank = 1

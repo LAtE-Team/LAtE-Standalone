@@ -7,7 +7,7 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
-	western = {
+	eastern = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -24,7 +24,7 @@ groups = {
 			value = 75
 		}
 	}
-	eastern = {
+	western = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -41,7 +41,7 @@ groups = {
 			value = 75
 		}
 	}
-	ottoman = {
+	caribbean = {
 		start_level = 3
 		start_cost_modifier = 0.25
 		nation_designer_cost = {
@@ -58,7 +58,7 @@ groups = {
 			value = 75
 		}
 	}
-	muslim = {
+	mexican = {
 		start_level = 3
 		start_cost_modifier = 0.40
 		nation_designer_cost = {
@@ -75,9 +75,9 @@ groups = {
 			value = 75
 		}
 	}
-	indian = {
+	brazilian = {
 		start_level = 3
-		start_cost_modifier = 0.5
+		start_cost_modifier = 0.6
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -92,19 +92,26 @@ groups = {
 			value = 75
 		}
 	}
-	east_african = {
+	andean = {
 		start_level = 3
-		start_cost_modifier = 0.5
-		nation_designer_unit_type = sub_saharan
-	}
-	central_african = {
-		start_level = 2
 		start_cost_modifier = 0.65
-		nation_designer_unit_type = sub_saharan
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
 	}
-	chinese = {
+	conic = {
 		start_level = 3
-		start_cost_modifier = 0.6
+		start_cost_modifier = 0.65
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -129,49 +136,35 @@ groups = {
 			}
 		}
 	}
-	sub_saharan = { #West African
+	european = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		is_primitive = yes
+	}
+	westasian = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		is_primitive = yes
+	}
+	eastasian = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		is_primitive = yes
+	}
+	russian_group = {
+		start_level = 1
+		start_cost_modifier = 1.5
+		is_primitive = yes
+	}
+	oceanic = {
 		start_level = 2
 		start_cost_modifier = 0.6
-	}
-	north_american = {
-		start_level = 1
-		start_cost_modifier = 2.5
-		is_primitive = yes
-	}
-	mesoamerican = {
-		start_level = 1
-		start_cost_modifier = 1.5
-		is_primitive = yes
-	}
-	
-	
-	south_american = {
-		start_level = 3
-		start_cost_modifier = 0.25
-		#is_primitive = yes
-	}
-	andean = {
-		start_level = 3
-		start_cost_modifier = 1.5
-		nation_designer_unit_type = south_american
-		#is_primitive = yes
-	}	
-	brazilian = {
-		start_level = 1
-		start_cost_modifier = 1.5
-		is_primitive = yes
-	}
-	
-	high_american = {
-		start_level = 3
-		start_cost_modifier = 0
-		nation_designer_unit_type = high_american
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
 					OR = {
 						continent = new_world
-						continent = north_america
+					continent = north_america
 						continent = south_america
 						continent = oceania
 					}
@@ -179,6 +172,29 @@ groups = {
 			}
 			value = 75
 		}
+	}
+	west_african = {
+		start_level = 3
+		start_cost_modifier = 0.65
+		nation_designer_unit_type = sub_saharan
+	}
+	south_african = {
+		start_level = 3
+		start_cost_modifier = 0.65
+		nation_designer_unit_type = sub_saharan
+	}
+	east_african = {
+		start_level = 2
+		start_cost_modifier = 0.65
+		nation_designer_unit_type = sub_saharan
+	}
+	south_east_asian = {
+		start_level = 2
+		start_cost_modifier = 0.6
+	}
+	high_eurasian = {
+		start_level = 3
+		start_cost_modifier = 0.5
 	}
 }
 

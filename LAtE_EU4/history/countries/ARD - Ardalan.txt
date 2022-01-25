@@ -3,6 +3,6 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = kurdish
 religion = yazidi
-technology_group = indian
+technology_group = russian_group
 capital = 2211 # Ardalan
 fixed_capital = 2211 # Cannot move capital away from this province & no power cost to move to it

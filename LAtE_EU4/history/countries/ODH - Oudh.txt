@@ -1,6 +1,6 @@
 government = monarchy 
 add_government_reform = feudalism_reform
-technology_group = indian
+technology_group = russian_group
 religion = hinduism
 primary_culture = avadhi
 capital = 523	# Lucknow

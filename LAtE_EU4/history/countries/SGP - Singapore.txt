@@ -3,5 +3,5 @@ add_government_reform = autocracy_reform
 primary_culture = singaporean
 government_rank = 1
 religion = brethren
-technology_group = chinese
+technology_group = oceanic
 capital = 2686	# Singapore

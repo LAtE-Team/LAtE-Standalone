@@ -2,7 +2,7 @@ government = republic
 add_government_reform = oligarchy_reform
 primary_culture = russian
 religion = rust_cultist
-technology_group = indian
+technology_group = russian_group
 capital = 1075	# Tyumen
 government_rank = 1
 

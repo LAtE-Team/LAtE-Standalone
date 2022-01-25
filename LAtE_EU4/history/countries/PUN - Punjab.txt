@@ -1,7 +1,7 @@
 government = monarchy 
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = indian
+technology_group = westasian
 primary_culture = panjabi
 religion = sikhism
 capital = 507	# Lahore

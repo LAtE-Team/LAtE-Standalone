@@ -3,6 +3,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 3
 mercantilism = 0.1
-technology_group = indian
+technology_group = russian_group
 primary_culture = russian
 religion = rust_cultist

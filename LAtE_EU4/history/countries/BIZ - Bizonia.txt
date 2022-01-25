@@ -1,10 +1,9 @@
 government = monarchy 
-add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = hessian
 add_accepted_culture = bavarian
 add_accepted_culture = hannoverian
 add_accepted_culture = franconian
 religion = thelemic
-technology_group = high_american
+technology_group = european
 capital = 1760	# Bonn

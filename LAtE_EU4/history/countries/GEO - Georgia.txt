@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform 
 primary_culture = georgian
 religion = coptic
-technology_group = indian
+technology_group = russian_group
 capital = 423 # T'bilisi
 
 
@@ -131,7 +131,7 @@ capital = 423 # T'bilisi
 
 1478.1.1 = {
 	monarch = {
-		name = "Konstantiné II"
+		name = "Konstantinï¿½ II"
 		dynasty = "Bagrationi"
 		adm = 3
 		dip = 2

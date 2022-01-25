@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = yemeni_culture
 religion = shiite
-technology_group = indian
+technology_group = westasian
 capital = 4280	# Taiz
 religious_school = zaidi_school
 

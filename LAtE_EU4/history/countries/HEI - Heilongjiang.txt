@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = steppe_horde
 primary_culture = khalkha
 religion = tengri_pagan_reformed
-technology_group = indian
+technology_group = eastasian
 capital = 2187	# Sartu, ie Harban
 
 3011.1.1 = {

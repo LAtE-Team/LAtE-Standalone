@@ -3,6 +3,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 mercantilism = 0.1
-technology_group = ottoman
+technology_group = caribbean
 primary_culture = boricua 
 religion = catholic

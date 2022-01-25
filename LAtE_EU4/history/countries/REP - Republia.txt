@@ -2,7 +2,7 @@ government = republic
 add_government_reform = oligarchy_reform
 primary_culture = russian
 religion = atomicist
-technology_group = indian
+technology_group = russian_group
 capital = 2417 #Kuma
 
 
