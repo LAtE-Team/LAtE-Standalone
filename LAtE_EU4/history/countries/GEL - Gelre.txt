@@ -1,6 +1,6 @@
 government = native 
 government_rank = 1
-technology_group = high_american
+technology_group = european
 religion = cult_of_reason
 primary_culture = dutch
 capital = 99	# Coevorde

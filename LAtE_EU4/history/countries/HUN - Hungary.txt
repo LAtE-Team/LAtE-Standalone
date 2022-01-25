@@ -3,5 +3,5 @@ add_government_reform = siberian_tribe #Till we make a european equivalent
 primary_culture = hungarian
 religion = tengri_pagan_reformed
 secondary_religion = finnish_pagan_reformed
-technology_group = high_american
+technology_group = european
 capital = 153 # Buda

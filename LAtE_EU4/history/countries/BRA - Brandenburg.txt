@@ -1,6 +1,6 @@
 government = native 
 government_rank = 1
-technology_group = high_american
+technology_group = european
 primary_culture = saxon
 religion = matrem
 capital = 50	# Berlin

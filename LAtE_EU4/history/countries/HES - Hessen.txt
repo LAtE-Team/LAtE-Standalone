@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = hessian
 religion = matrem
-technology_group = high_american
+technology_group = european
 capital = 81	# Kassel
 
 3032.8.11 = {
