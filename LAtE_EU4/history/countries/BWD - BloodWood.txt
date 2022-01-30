@@ -2,7 +2,7 @@
 government = tribal 
 add_government_reform = siberian_tribe #Till we make a european equivalent
 government_rank = 1
-technology_group = high_american
+technology_group = european
 primary_culture = ruthenian # for now
 religion = atomicist
 capital = 280

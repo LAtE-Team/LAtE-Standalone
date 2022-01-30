@@ -1,6 +1,6 @@
 government = native 
 government_rank = 1
-technology_group = high_american
+technology_group = european
 religion = matrem
 capital = 266 # Praha
 add_army_professionalism = 0.1

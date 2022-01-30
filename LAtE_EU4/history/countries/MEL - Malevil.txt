@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = siberian_tribe #Till we make a european equivalent
 primary_culture = gascon
 religion = cult_of_reason
-technology_group = high_american
+technology_group = european
 capital = 174 # Bordeaux
 
 3050.1.1 = {

@@ -1,6 +1,6 @@
 # Midwestern Brotherhood. Not sure why this is a thing.
 government = monarchy 
-add_government_reform = feudalism_reform
+
 government_rank = 2
 mercantilism = 0.1
 technology_group = western

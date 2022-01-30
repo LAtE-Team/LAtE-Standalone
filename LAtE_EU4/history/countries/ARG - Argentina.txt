@@ -1,5 +1,5 @@
 government = monarchy 
-add_government_reform = feudalism_reform
+
 technology_group = brazilian
 religion = candomble
 primary_culture = platinean

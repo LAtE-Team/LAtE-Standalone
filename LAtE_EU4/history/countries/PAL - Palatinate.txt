@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = hessian
 add_accepted_culture = bavarian
 religion = cult_of_reason
-technology_group = high_american
+technology_group = european
 capital = 1761	# Pfalz

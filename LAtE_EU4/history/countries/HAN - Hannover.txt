@@ -1,10 +1,10 @@
 #Niedersachen
 government = monarchy
-add_government_reform = feudalism_reform
+
 government_rank = 1
 primary_culture = hannoverian
 religion = thelemic
-technology_group = high_american
+technology_group = european
 capital = 57	# Hannover
 
 3032.8.11 = {

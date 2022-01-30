@@ -1,6 +1,6 @@
 government = tribal 
 add_government_reform = siberian_tribe #Till we make a european equivalent
-technology_group = high_american
+technology_group = european
 religion = cult_of_reason
 primary_culture = hessian
 capital = 80	# Trier

@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = rwandan
 religion = ahmadi
-technology_group = central_african
+technology_group = south_african
 religious_school = adam_school
 
 unit_type = sub_saharan

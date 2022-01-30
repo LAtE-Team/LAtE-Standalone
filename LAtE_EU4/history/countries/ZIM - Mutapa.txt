@@ -2,6 +2,6 @@ government = tribal
 add_government_reform = tribal_despotism
 primary_culture = shona
 religion = mwari
-technology_group = central_african
+technology_group = south_african
 unit_type = sub_saharan
 capital = 1184	# Khami

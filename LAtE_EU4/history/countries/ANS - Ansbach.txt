@@ -1,8 +1,8 @@
 #Franconia
 government = monarchy
-add_government_reform = feudalism_reform
+
 government_rank = 1
-technology_group = high_american
+technology_group = european
 primary_culture = franconian
 religion = matrem
 capital = 71	# Ansbach

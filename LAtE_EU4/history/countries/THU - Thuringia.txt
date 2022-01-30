@@ -1,6 +1,6 @@
 government = native 
 government_rank = 1
-technology_group = high_american
+technology_group = european
 religion = matrem
 primary_culture = saxon
 capital = 63	# Erfurt

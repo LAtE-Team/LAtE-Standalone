@@ -1,8 +1,8 @@
 government = monarchy 
-add_government_reform = feudalism_reform
+
 primary_culture = highland_scottish
 religion = celticist
-technology_group = high_american
+technology_group = european
 capital = 252 # Inverness
 
 

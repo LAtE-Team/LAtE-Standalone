@@ -1,6 +1,6 @@
 # Michigan
 government = monarchy 
-add_government_reform = feudalism_reform
+
 government_rank = 3
 mercantilism = 0.1
 technology_group = eastern

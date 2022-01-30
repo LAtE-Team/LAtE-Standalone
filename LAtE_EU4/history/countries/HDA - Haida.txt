@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform #was native_council 
+ #was native_council 
 government_rank = 2
 primary_culture = haida
 religion = raven_tales
