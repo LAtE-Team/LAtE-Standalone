@@ -1,5 +1,5 @@
 # Cariboo
-government = monarchy 
+government = theocracy 
 
 government_rank = 1
 mercantilism = 0.1

@@ -4,4 +4,16 @@ spriteTypes = {
 		texturefile = "gfx//interface//mission_privateer.dds"
 		transparencecheck = yes
 	}
+	spriteType = {
+		name = "government_reform_dryads"
+		texturefile = "gfx//interface//government_reform_icons//dryads.dds"
+	}
+	spriteType = {
+		name = "government_reform_dryads2"
+		texturefile = "gfx//interface//government_reform_icons//dryads2.dds"
+	}
+	spriteType = {
+		name = "government_reform_dryads3"
+		texturefile = "gfx//interface//government_reform_icons//dryads3.dds"
+	}
 }

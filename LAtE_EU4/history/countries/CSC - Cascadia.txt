@@ -1,5 +1,5 @@
 # Cascadia
-government = monarchy 
+government = theocracy
 
 government_rank = 2
 mercantilism = 0.1

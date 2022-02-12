@@ -27,45 +27,32 @@ technology = {
 	
 	fort_15th = yes
 	
-	enable = south_american_spearmen		
-	enable = native_indian_archer
-	enable = native_clubmen
-	enable = african_spearmen
-	enable = african_clubmen
-	enable = indian_archers
-	enable = mesoamerican_spearmen
-	enable = halberd_infantry
-	enable = chevauchee
-	enable = western_medieval_knights
-	enable = bardiche_infantry
-	enable = muslim_cavalry_archers
-	enable = western_medieval_infantry
-	enable = eastern_medieval_infantry
-	enable = ottoman_yaya
-	enable = chinese_longspear
-	enable = japanese_archer
-	enable = persian_footsoldier
-	enable = east_asian_spearmen
-	enable = mongolian_bow	
-	enable = indian_footsoldier	
-	enable = rajput_hill_fighters	
-	enable = eastern_bow	
-	enable = persian_cavalry_charge
-	enable = african_mandelaku
-	enable = african_abyssinian_light_cavalry
-	enable = mongol_swarm
-	enable = mongol_steppe	
-	enable = mongol_bow	
-	enable = eastern_knights
-	enable = druzhina_cavalry	
-	enable = ottoman_musellem	
-	enable = mamluk_archer	
-	enable = mamluk_cavalry_charge	
-	enable = south_american_warfare	
-	enable = ha_xantican_warrior
-	enable = aboriginal_boomerang
-	enable = aboriginal_warrior
-	enable = pacific_spearman
+	enable = eastern_halberd_infantry
+	enable = posse_cavalry
+	enable = southern_knights
+	enable = woodworks_infantry
+	enable = eastern_militia_infantry
+	enable = western_militia_infantry
+	enable = brazilian_longspear
+	enable = argentinian_archer
+	enable = brazilian_spearmen
+	enable = gaucho_bow	
+	enable = cangaco_bow	
+	enable = plains_cowboy_cavalry	
+	enable = plains_swarm_cavalry
+	enable = rocklander_generalists	
+	enable = western_knights
+	enable = ranger_cavalry	
+	enable = european_macemen
+	enable = british_longbowmen
+	enable = european_companion_cavalry
+	enable = westasian_raei
+	enable = westasian_swordsman
+	enable = stockman
+	enable = boomerang_hunter_infantry
+	enable = russian_spearmen
+	enable = uralic_warriors
+	enable = russian_druzhina
 }
 
 technology = {
@@ -108,34 +95,25 @@ technology = {
 	infantry_shock		= 	0.15
 	cavalry_shock		= 	0.2
 
-	enable = western_men_at_arms	
-	enable = western_longbow	
-	enable = gaelic_galloglaigh				
-	enable = aztec_tribal_warfare	
-	enable = zapotec_tribal_warfare		
-	enable = songhai_tribal_warfare		
-	enable = niger_kongolese_tribal_warfare		
-	enable = bantu_tribal_warfare	
-	enable = mali_tribal_warfare	
-	enable = pueblo_ambush	
-	enable = native_indian_tribal_warfare
-	enable = algonkin_tomahawk_charge	
-	enable = indian_arquebusier	
-	enable = eastern_militia
-	enable = mamluk_duel  
-	enable = ottoman_azab
-	enable = inca_mountain_warfare	
-	enable = south_american_forest_warfare
-	enable = incan_slingshots
-	enable = incan_axemen	
-	enable = maya_tribal_warfare
-	enable = chinese_footsoldier		
-	enable = japanese_footsoldier	
-	enable = ha_reformed_xantican_warrior
-	enable = aboriginal_ambusher
-	enable = aboriginal_infantry
-	enable = aboriginal_reformed_boomerang
-	enable = pacific_reformed_spearman
+	enable = minutemen_infantry	
+	enable = sniper_infantry	
+	enable = maritimer_gallowglass_infantry
+	enable = western_ranger_infantry
+	enable = brazilian_footsoldier		
+	enable = argentinian_footsoldier	
+	enable = oe_tao
+	enable = european_ambush_infantry
+	enable = scottish_highlander_warriors
+	enable = swiss_guards
+	enable = afghan_tribal_warfare
+	enable = morrocan_tribal_warfare	
+	enable = reformed_boomerang_warrior
+	enable = pirihimana
+	enable = reformed_uralic_warriors
+	enable = siberian_hunters
+	enable = muscovite_foot_boyars
+	enable = russian_axemen
+	enable = russian_horsemen
 	
 	combat_width = 2
 }
@@ -153,20 +131,12 @@ technology = {
 	barracks = yes
 
 
-	enable = african_somali_cavalry
-	enable = african_tuareg_cavalry
-	enable = slavic_stradioti	
-	enable = native_indian_horsemen
-	enable = central_american_horsemen
-	enable = south_american_horsemen	
-	enable = mughal_mansabdar	
-	enable = ottoman_timariot 
-	enable = chinese_steppe		
-	enable = japanese_samurai	
-	enable = shaybani	
-	enable = high_american_horsemen
-	enable = aboriginal_horseman	
-	enable = pacific_horseman
+	enable = jundi_cavalry
+	enable = cerrado_cavalry	
+	enable = argentinian_camisasco
+	enable = european_horsemen
+	enable = westasian_horsemen
+	enable = oceanic_light_horse
 	
 	combat_width = 2
 }
@@ -202,17 +172,14 @@ technology = {
 	
 	#Ditch
 	
-	enable = south_indian_musketeer	
-	enable = mughal_musketeer		
-	enable = ottoman_janissary	
-	enable = persian_shamshir	
-	enable = italian_condotta
-	enable = swiss_landsknechten
-	enable = gaelic_mercenary
-	enable = germanized_pike
-	enable = asian_arquebusier	
-	enable = steppe_raiders
-	enable = ha_xiuhtecuhtli_soldier
+	enable = contract_infantry
+	enable = rust_belt_picket_infantry
+	enable = reformed_gallowglass_infantry
+	enable = pike_infantry
+	enable = brazilian_arquebusier	
+	enable = plains_outlaws
+	enable = early_digger
+	
 	military_tactics 	= 	0.25
 	combat_width = 1	
 }
@@ -224,31 +191,21 @@ technology = {
 	#Reiter
 	maneuver_value 		= 	0.25
 
-	enable = hungarian_hussar
-	enable = ottoman_spahi		
+	enable = western_abrams
 	enable = culverin		
 	enable = pedrero 
-	enable = schwarze_reiter
-	enable = african_mossi_horsemen
-	enable = african_abyssinian_cavalry
-	enable = native_indian_mountain_warfare	
-	enable = aztec_hill_warfare	
-	enable = maya_forest_warfare	
-	enable = zapotec_plains_warfare
-	enable = south_american_gunpowder_warfare
-	enable = south_american_arquebusier	
-	enable = north_american_rifle_cavalry
-	enable = central_american_rifle_cavalry
-	enable = south_american_rifle_cavalry	
-	enable = qizilbash_cavalry	
-	enable = east_mongolian_steppe	
-	enable = indian_elephant	
-	enable = steppe_riders
-	enable = high_american_rifle_cavalry
-	enable = aboriginal_outback_warriors
-	enable = aboriginal_cavalry
-	enable = pacific_island_warriors
-	enable = pacific_cavalry
+	enable = hudsonian_dragoons
+	enable = peatsachel_riders
+	enable = european_cossacks
+	enable = alpine_warriors
+	enable = turkish_hill_warfare
+	enable = westasian_rifle_cavalry
+	enable = gujarati_plains_warfare
+	enable = indian_forest_warfare
+	enable = oceanic_cavalry
+	enable = defensive_russian_musketeers
+	enable = russian_arquebusier
+	enable = russian_rifle_cavalry
 }
 
 technology = {
@@ -275,21 +232,12 @@ technology = {
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
 
-	enable = tofongchis_musketeer		
-	enable = ottoman_sekban		
-	enable = rajput_musketeer	
-	enable = spanish_tercio	
-	enable = gaelic_free_shooter	
-	enable = han_banner	
-	enable = reformed_mughal_musketeer	
-	enable = polish_musketeer 
-	enable = muscovite_musketeer
-	enable = bantu_plains_warfare	
-	enable = niger_kongolese_forest_warfare		
-	enable = african_hill_warfare	
-	enable = ethiopian_mountain_warfare		
-	enable = steppe_footmen
-	enable = ha_xiuhtecuhtlian_infantry
+	enable = continental_infantry
+	enable = interumnelian_housecarl_infantry	
+	enable = mineiro_banner	
+	enable = offensive_trapper_infantry 
+	enable = defensive_trapper_infantry
+	enable = plains_tribesmen
 }
 
 technology = {
@@ -302,6 +250,7 @@ technology = {
 	
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
+	enable = russian_hussar
 }
 
 technology = {
@@ -312,30 +261,19 @@ technology = {
 	fort_16th = yes
 	infantry_fire		=	0.3
 	
-	enable = african_hussar
-	enable = french_caracolle 
-	enable = huron_arquebusier	 
-	enable = creek_arquebusier	
-	enable = aztec_gunpowder_warfare		
-	enable = maya_gunpowder_warfare	
-	enable = zapotec_gunpowder_warfare	
-	enable = south_american_reformed_gunpowder_warfare	
-	enable = north_american_hussar
-	enable = central_american_hussar
-	enable = south_american_hussar
-	enable = polish_hussar	
-	enable = muscovite_caracolle	
-	enable = zaporoghian_cossack	
-	enable = topchis_artillery	
-	enable = asian_charge_cavalry
-	enable = reformed_mughal_mansabdar	
-	enable = steppe_lancers
-	enable = high_american_hussar
-	enable = aboriginal_hussar
-	enable = aboriginal_arquebusier
-	enable = aboriginal_tasmanian_arquebusier
-	enable = pacific_hussar
-	enable = pacific_arquebusier
+	enable = canadian_mounted_men 
+	enable = reformed_western_abrams
+	enable = western_mounted_men	
+	enable = rocky_mountain_cowboys	
+	enable = brazilian_charge_cavalry
+	enable = cowboy_lancers
+	enable = european_winged_hussars
+	enable = central_european_arquebusier
+	enable = western_european_arquebusier
+	enable = iraqi_gunpowder_warfare
+	enable = westasian_hussar
+	enable = oceanic_hussar
+	enable = reformed_russian_musketeers
 	
 	combat_width = 2
 }
@@ -350,17 +288,14 @@ technology = {
 	
 
 	
-	enable = irish_charge 
-	enable = dutch_maurician	
-	enable = afsharid_reformed_infantry	
-	enable = muscovite_soldaty	
-	enable = polish_tercio
-	enable = asian_mass_infantry	
-	enable = bantu_gunpowder_warfare	
-	enable = niger_kongolese_gunpowder_warfare	
-	enable = adal_gunpowder_warfare		
-	enable = ethiopian_gunpowder_warfare	
-	enable = steppe_musketeers
+	enable = assault_infantry 
+	enable = earlian_infantry	
+	enable = lookout_infantry	
+	enable = western_continental_infantry
+	enable = brazilian_mass_infantry
+	enable = plains_musketeers
+	enable = improved_digger
+	enable = katua_o_digger
 }
 
 technology = {
@@ -386,9 +321,7 @@ technology = {
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
 	
-	enable = maharathan_cavalry		
-	enable = manchu_banner		
-	enable = african_swarm
+	enable = grossense_banner		
 }
 
 technology = {
@@ -399,17 +332,9 @@ technology = {
 	maneuver_value 		= 	0.25
 
 		
-	enable = swedish_gallop	
-	enable = sikh_hit_and_run
-	enable = bhonsle_infantry	
-	enable = ottoman_reformed_spahi		
-	enable = mamluk_musket_charge 
-	enable = afsharid_reformed	
+	enable = grangelander_gallop_cavalry	
 	enable = leather_cannon	
-	enable = steppe_mounted_raiders
-	enable = ha_xoloti
-	enable = aboriginal_swarm_cav
-	enable = pacific_swarm_cav
+	enable = mounted_outlaw_cavalry
 	
 	combat_width = 2
 }
@@ -425,24 +350,21 @@ technology = {
 	fort_17th = yes
 
 	
-	enable = austrian_tercio   
-	enable = swedish_gustavian		
-	enable = scottish_highlander	
-	enable = saxon_infantry	
-	enable = ottoman_reformed_janissary	
-	enable = asian_musketeer	
-	enable = incan_guerilla_warfare	
-	enable = iroquois_rifle_scout
-	enable = peruvian_guerilla_warfare
-	enable = mexican_guerilla_warfare	
-	enable = maya_guerilla_warfare	
-	enable = commanche_swarm
-	enable = central_american_swarm
-	enable = south_american_swarm
-	enable = steppe_infantry
-	enable = high_american_swarm
-	enable = aboriginal_riflemen
-	enable = pacific_riflemen
+	enable = reformed_continental_infantry  
+	enable = harrian_infantry		
+	enable = canadian_highlander_infantry
+	enable = battleborn_infantry	
+	enable = brazilian_musketeer	
+	enable = plains_infantry
+	enable = rifle_jaeger_infantry
+	enable = european_swarm_cavalry
+	enable = westasian_swarm
+	enable = tamil_guerilla_warfare	
+	enable = iranian_guerilla_warfare
+	enable = advanced_digger
+	enable = oceanic_swarm_cavalry
+	enable = russian_partisan_infantry
+	enable = siberian_insurgent_infantry
 }
 
 technology = {
@@ -453,7 +375,8 @@ technology = {
 	
 	infantry_fire		= 	0.5
 		
-	enable = swivel_cannon		
+	enable = swivel_cannon	
+	enable = russian_swarm
 
 	combat_width = 2
 }
@@ -483,9 +406,8 @@ technology = {
 	conscription_center = yes
 
 	
-	enable = polish_winged_hussar	
-	enable = muscovite_cossack	
-
+	enable = flying_abrams	
+	enable = cowboy_cavalry	
 	enable = coehorn_mortar		
 }
 
@@ -499,33 +421,19 @@ technology = {
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
-	enable = swedish_arme_blanche	
-	enable = french_dragoon		
-	enable = austrian_hussar	
-	enable = ottoman_toprakli_hit_and_run			
-	enable = sioux_dragoon
-	enable = central_american_dragoon
-	enable = south_american_dragoon
-	enable = african_dragoon
-	enable = maharathan_guerilla_warfare		
-	enable = austrian_grenzer	
-	enable = swedish_caroline 	
-	enable = anglofrench_line	
-	enable = durrani_rifled_musketeer	
-	enable = ottoman_nizami_cedid	
-	enable = niger_kongolese_guerilla_warfare	
-	enable = adal_guerilla_warfare	
-	enable = ethiopian_guerilla_warfare
-	enable = muslim_dragoon
-	enable = ali_bey_reformed_infantry
-	enable = indian_shock_cavalry	
-	enable = chinese_dragoon	
-	enable = russian_petrine	
-	enable = steppe_cavalry
-	enable = ha_foreign_influenced_infantry
-	enable = high_american_dragoon
-	enable = aboriginal_dragoon
-	enable = pacific_dragoon
+	enable = assault_cavalry
+	enable = reformed_hudsonian_dragoons		
+	enable = abrams_cavalry		
+	enable = frontiersmen_infantry	
+	enable = carolina_infantry 	
+	enable = line_infantry	
+	enable = brazilian_dragoon	
+	enable = mountaineer_infantry	
+	enable = plains_cavalry
+	enable = beho_banner
+	enable = european_dragoons
+	enable = westasian_dragoon
+	enable = oceanic_dragoon
 }
 
 technology = {
@@ -559,35 +467,26 @@ technology = {
 
 	land_morale			=	1.0
 
-	enable = austrian_white_coat	
-	enable = french_bluecoat	
-	enable = british_redcoat	
-	enable = prussian_frederickian    
-	enable = russian_green_coat		
-	enable = muslim_mass_infantry		
-	enable = eastern_carabinier	 		
-	enable = indian_rifle
-	enable = reformed_asian_musketeer	
-	enable = westernized_bantu	
-	enable = westernized_niger_kongolese	
-	enable = westernized_adal	
-	enable = westernized_ethiopian	
-	enable = apache_guerilla	
-	enable = westernized_south_american	
-	enable = westernized_aztec	
-	enable = westernized_zapotec	
-	enable = westernized_incan	
-	enable = russian_lancer		
-	enable = tartar_cossack	
-	enable = prussian_uhlan
-	enable = british_hussar	
-	enable = french_carabinier
-	enable = eastern_uhlan
-	enable = eastern_skirmisher
-	enable = steppe_rifles
-	enable = ha_reformed_influenced_infantry
-	enable = aboriginal_guerrillas
-	enable = pacific_guerrillas
+	enable = grey_coat_infantry	
+	enable = orange_coat_infantry	
+	enable = maple_coat_infantry	
+	enable = tidewater_infantry   
+	enable = beehive_infantry		
+	enable = reformed_brazilian_musketeer	
+	enable = rocky_mountain_lancers		
+	enable = reformed_cowboy_cavalry
+	enable = reformed_posse_cavalry
+	enable = reformed_abrams_cavalry	
+	enable = eastern_mounted_carbines
+	enable = plains_riflemen
+	enable = pa_pum_army
+	enable = european_insurgent_infantry
+	enable = americanized_indian
+	enable = americanized_iranian
+	enable = americanized_egyptian
+	enable = americanized_digger
+	enable = americanized_siberian
+	enable = americanized_russian
 	
 	combat_width = 2
 }
@@ -609,23 +508,17 @@ technology = {
 	maneuver_value 		= 	0.25
 	infantry_shock		=	0.5	
 	
-	enable = african_cuirassier
-	enable = russian_cuirassier	
-	enable = russian_cossack
-	enable = ottoman_toprakli_dragoon		
-	enable = ottoman_lancer 
-	enable = reformed_manchu_rifle	
-	enable = open_order_cavalry
-	enable = napoleonic_lancers	
-	enable = french_cuirassier
-	enable = durrani_dragoon 
-	enable = durrani_swivel	
-	enable = sikh_rifle
-	enable = bhonsle_cavalry
-	enable = reformed_asian_cavalry		
-	enable = french_impulse
-	enable = british_square
-	enable = steppe_uhlans
+	enable = western_cuirassiers	
+	enable = advanced_cowboy_cavalry
+	enable = reformed_brazilian_rifle	
+	enable = eastern_sniper_cavalry
+	enable = eastern_lancers	
+	enable = quebecois_cuirassiers
+	enable = reformed_brazilian_cavalry	
+	enable = enforcer_infantry
+	enable = eastern_square_infantry
+	enable = plains_posses
+	enable = russian_dragoon
 }
 
 technology = {
@@ -648,20 +541,14 @@ technology = {
 	land_morale			=	1.0
 	maneuver_value = 0.25
 	
-	enable = russian_mass
-	enable = mixed_order_infantry	
-	enable = prussian_drill		
-	enable = austrian_jaeger	
-	enable = napoleonic_square
-	enable = persian_rifle
-	enable = ottoman_new_model
-	enable = tipu_sultan_rocket		
-	enable = american_western_franchise_warfare	
-	enable = african_western_franchise_warfare
-	enable = westernized_mayan
-	enable = reformed_westernized_incan		
-	enable = reformed_steppe_rifles
-	enable = ha_reformed_xoloti
+	enable = avalanche_infantry
+	enable = assault_grenadier_infantry	
+	enable = eastern_drill_infantry	
+	enable = plinker_infantry	
+	enable = hollow_square_infantry
+	enable = reformed_plains_rifles
+	enable = european_americanized_infantry
+	enable = reformed_russian_airrifler
 }
 
 technology = {
