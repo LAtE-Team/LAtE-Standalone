@@ -41,6 +41,15 @@ colonial_British_Isles = {
 		}
 		name = "COLONIAL_BRITISH_ISLES_Nova_Nova_Scotia"
 	}
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = beltway
+				tag = USA
+			}
+		}
+		name = "COLONIAL_BRITISH_ISLES_Four_Colonies"
+	}
 	
 	#Generic
 	names = {
@@ -97,6 +106,18 @@ colonial_western_europe = {
 			culture_group = galloamerican
 		}
 		name = "COLONIAL_WESTERN_EUROPE_Nouvelle_Nouvelle_France"
+	}
+	names = {
+		trigger = {
+			culture_group = amerodeutsch
+		}
+		name = "COLONIAL_WESTERN_EUROPE_Bauau"
+	}
+	names = {
+		trigger = {
+			primary_culture = yankee
+		}
+		name = "COLONIAL_WESTERN_EUROPE_Fross"
 	}
 	
 	#Generic
@@ -159,6 +180,18 @@ colonial_adriatic = {
 		}
 		name = "COLONIAL_ADRIATIC_New_Little_Italy"
 	}
+	names = {
+		trigger = {
+			culture_group = amerodeutsch
+		}
+		name = "COLONIAL_ADRIATIC_Kotoria"
+	}
+	names = {
+		trigger = {
+			culture_group = mexicano
+		}
+		name = "COLONIAL_ADRIATIC_Vanisia"
+	}
 	
 	#Generic
 	names = {
@@ -219,8 +252,8 @@ colonial_intermarium = {
 		2405 2746 2750 2998
 		4176
 		#Hungary
-		153 154 155 156 157 158 162 165 166 265 266 267
-		1318 1770 1771 1772 1864 1867 1869 1870 1871 1873 1951 1952 1953 1954
+		153 154 155 156 157 158 162 166 265 266 267
+		1318 1770 1771 1772 1864 1873 1951 1952 1953 1954
 		2967 2968 2970
 		4125 4126 4127 4128 4237 263 262 259 4240
 		#Ukraine
@@ -235,6 +268,9 @@ colonial_intermarium = {
 		48 1858 2995 2997 1859 256 
 		1938 41
 		264
+		#Poland
+		49 254 255 258 1939
+		2963 2966
 	}
 	
 	#Specific
@@ -249,6 +285,21 @@ colonial_intermarium = {
 			primary_culture = canuck
 		}
 		name = "COLONIAL_INTERMARIUM_Snorsh"
+	}
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = strayan
+				primary_culture = aboriginal
+			}
+		}
+		name = "COLONIAL_INTERMARIUM_Australia_Hungary"
+	}
+	names = {
+		trigger = {
+			primary_culture = yankee
+		}
+		name = "COLONIAL_INTERMARIUM_Polowan"
 	}
 	
 	#Generic
@@ -303,6 +354,8 @@ colonial_Germany = {
 		47 2993 2994
 		45 46 2996
 		44 1857 4141 1775
+		#Switzerland
+		165 1867 1869 1870 1871 
 	}
 	
 	#Specific
@@ -326,6 +379,12 @@ colonial_Germany = {
 			primary_culture = hudsonian
 		}
 		name = "COLONIAL_GERMANY_New_New_Amsterdam"
+	}
+	names = {
+		trigger = {
+			primary_culture = yankee
+		}
+		name = "COLONIAL_GERMANY_Ammay"
 	}
 	
 	#Generic

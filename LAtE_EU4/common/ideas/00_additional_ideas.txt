@@ -596,6 +596,8 @@ union_ideas = {
             religion = rust_cultist
         }
     }
+	
+	free = yes
 
     legacy_of_the_liberator = {
         republican_tradition = 0.5
