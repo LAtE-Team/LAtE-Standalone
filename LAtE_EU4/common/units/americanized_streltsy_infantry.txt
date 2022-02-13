@@ -1,0 +1,14 @@
+# Americanized Streltsy Infantry
+
+unit_type = high_eurasian
+type = infantry
+
+maneuver = 1
+
+offensive_fire = 2
+defensive_fire = 3
+offensive_shock = 2
+defensive_shock = 2
+offensive_morale = 3
+defensive_morale = 3
+
