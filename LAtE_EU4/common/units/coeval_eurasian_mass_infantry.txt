@@ -1,6 +1,6 @@
 # Coeval Eurasian Mass Infantry
 
-unit_type = high_american
+unit_type = high_eurasian
 type = infantry
 
 maneuver = 1
