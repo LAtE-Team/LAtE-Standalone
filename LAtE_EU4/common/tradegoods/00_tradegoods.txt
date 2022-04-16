@@ -283,12 +283,12 @@ cloth = {
 		factor = 10
 		modifier = {
 			factor = 0
-			NOT = { development = 18 }
+			NOT = { development_discounting_tribal = 18 }
 		}
 		#LAtE
 		modifier = {
 			factor = 10
-			development = 22
+			development_discounting_tribal = 22
 		}
 		modifier = {
 			factor = 4.0
@@ -1010,7 +1010,7 @@ chinaware = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { development = 8 }
+			NOT = { development_discounting_tribal = 8 }
 		}
 	}
 }
@@ -1386,7 +1386,7 @@ silk = {
 			NOT = { area = kern_area }
 			NOT = { area = socal_area }
 			NOT = { area = los_padres_area }
-			NOT = { development = 20 }
+			NOT = { development_discounting_tribal = 20 }
 		}
 	}
 }
@@ -1603,11 +1603,11 @@ glass = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { development = 18 }
+			NOT = { development_discounting_tribal = 18 }
 		}
 		modifier = {
 			factor = 2.0
-			development = 22
+			development_discounting_tribal = 22
 		}
 	}
 }
@@ -1628,11 +1628,11 @@ paper = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { development = 18 }
+			NOT = { development_discounting_tribal = 18 }
 		}
 		modifier = {
 			factor = 2.0
-			development = 22
+			development_discounting_tribal = 22
 		}
 	}
 }
@@ -1780,7 +1780,7 @@ coal = {
 	
 	trigger = {
 		OR = {
-			development = 20
+			development_discounting_tribal = 20
 			owner = { innovativeness = 20 }
 		}
 		provincial_institution_progress = {
@@ -1800,6 +1800,34 @@ coal = {
 
 	chance = {
 		factor = 1
+	}
+}
+
+cloves = {
+	color = { 1.0 0.5 0.85 }
+	modifier = {
+		trade_efficiency = 0.05
+	}
+	province = {
+		province_trade_power_modifier = 0.2
+	}
+	chance = {
+		factor = 150
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					area = molluca_area
+					area = spice_islands_area
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			FROM = {
+				has_country_flag = encourage_cash_crops_flag
+			}
+		}
 	}
 }
 
