@@ -1,0 +1,16 @@
+estate_scavengers = {
+	modifier_definition = {
+		type = loyalty
+		key = scavengers_loyalty_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = scavengers_influence_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+}

@@ -1,0 +1,14 @@
+scavengers_city_development = {
+	local_development_cost = -0.1
+}
+
+estate_scavengers_old_world_construction_mod = {
+	local_build_cost = -0.1
+	local_build_time = -0.1
+	local_great_project_upgrade_cost = -0.05
+}
+
+estate_scavengers_scavenge_equipment_mod = {
+	local_regiment_cost = -0.1
+	regiment_recruit_speed = -0.1
+}

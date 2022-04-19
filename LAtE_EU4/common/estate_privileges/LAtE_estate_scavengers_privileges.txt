@@ -1,0 +1,256 @@
+estate_scavengers_state_bands = {
+    icon = privilege_raise_host
+    land_share = 5
+    max_absolutism = -5
+    loyalty = 0.1
+    influence = 0.1
+    penalties = {
+        global_manpower_modifier = -0.05
+    }
+    benefits = {
+    }
+    ai_will_do = {
+        factor = 10
+        modifier ={
+            factor = 0
+            is_absolutism_active = yes
+        }
+    }
+}
+
+estate_scavengers_refurbish_weapons = {
+    icon = privilege_promote_purbias
+    land_share = 5
+    max_absolutism = -5
+    influence = 0.1
+
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+    modifier_by_land_ownership = {
+        special_unit_forcelimit = 0.5
+    }
+    penalties= {
+        production_efficiency = -0.05
+    }
+    mechanics = {
+        enables_cossack_regiments
+    }
+    ai_will_do ={
+        factor = 1
+        modifier = {
+            factor = 0
+			OR = {
+				NOT = { crown_land_share = 25 }
+				estate_influence = {
+					estate = estate_scavengers
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = estate_scavengers_refurbish_weapons }
+        }
+    }
+}
+
+estate_scavengers_auction_artifacts = {
+    icon = privilege_monopoly_of_goods_iron
+    max_absolutism = -10
+    loyalty = 0.05
+    influence = 0.1
+    
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+    benefits = {
+        burghers_loyalty_modifier = 0.05
+    }
+    on_granted = {
+        add_mercantilism = 1
+        add_years_of_owned_provinces_production_income = {
+            years = 4
+            trigger = {
+                has_building = scavenging_hub
+            }
+            custom_tooltip = AUCTION_ARTIFACTS_INCOME_DESC
+        }
+    }
+    cooldown_years = 10
+    on_cooldown_expires = {
+        country_event = { id = estates_scavengers.1 }
+    }
+
+    ai_will_do = {
+        factor = 0
+    }
+
+}
+
+estate_scavengers_old_world_construction = {
+    icon = privilege_build_jain_temple
+    max_absolutism = -5
+    loyalty = 0.05
+    influence = 0.05
+
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+    on_granted = {
+        custom_tooltip = estate_scavengers_old_world_construction_effect_tooltip
+    }
+    on_granted_province = {
+        if {
+            limit = { has_building = scavenging_hub }
+            add_province_modifier = {
+                name = estate_scavengers_old_world_construction_mod
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = estate_scavengers_old_world_construction_mod
+            }
+            remove_province_modifier = estate_scavengers_old_world_construction_mod
+        }
+    }
+    on_revoked = {
+        custom_tooltip = estate_scavengers_old_world_construction_revoke_tooltip
+    }
+    on_revoked_province = {
+        if = {
+            limit = {
+                has_province_modifier = estate_scavengers_old_world_construction_mod
+            }
+            remove_province_modifier = estate_scavengers_old_world_construction_mod
+        }
+    }
+    on_invalid = {
+        custom_tooltip = estate_scavengers_old_world_construction_revoke_tooltip
+    }
+    on_invalid_province = {
+        if = {
+            limit = {
+                has_province_modifier = estate_scavengers_old_world_construction_mod
+            }
+            remove_province_modifier = estate_scavengers_old_world_construction_mod
+        }
+    }
+
+    ai_will_do = {
+        factor = 1
+        modifier ={
+            factor = 0
+            is_absolutism_active = yes
+        }
+    }
+}
+
+estate_scavengers_colonial_scavengers = {
+    icon = privilege_grant_new_world_charter
+    max_absolutism = -5
+    loyalty = 0.05
+    influence = 0.05
+    is_valid = {
+        OR = {
+            num_of_colonists = 1
+            num_of_colonies = 1
+        }
+    }
+
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+	penalties = {
+		global_tariffs = -0.10
+	}
+    benefits = {
+		global_colonial_growth = 10
+		colonist_placement_chance = 0.05
+	}
+
+    ai_will_do = {
+        factor = 1
+        modifier ={
+            factor = 0
+            is_absolutism_active = yes
+        }
+    }
+}
+
+estate_scavengers_raise_payroll = {
+    icon = privilege_patronize_jain_families
+    loyalty = 0.1
+    max_absolutism = -10
+
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+    penalties = {
+        global_tax_modifier = -0.1
+    }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+estate_scavengers_scavenge_equipment = {
+    icon = privilege_military_power
+    max_absolutism = -5
+    loyalty = 0.05
+    influence = 0.05
+
+    can_select = {
+        has_estate_privilege = estate_scavengers_state_bands
+    }
+    benefits = {
+        army_tradition_from_battle = 0.1
+    }
+    on_granted = {
+        custom_tooltip = estate_scavengers_scavenge_equipment_effect_tooltip
+    }
+    on_granted_province = {
+        if {
+            limit = { has_building = scavenging_hub }
+            add_province_modifier = {
+                name = estate_scavengers_scavenge_equipment_mod
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = estate_scavengers_scavenge_equipment_mod
+            }
+            remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+        }
+    }
+    on_revoked = {
+        custom_tooltip = estate_scavengers_scavenge_equipment_revoke_tooltip
+    }
+    on_revoked_province = {
+        if = {
+            limit = {
+                has_province_modifier = estate_scavengers_scavenge_equipment_mod
+            }
+            remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+        }
+    }
+    on_invalid = {
+        custom_tooltip = estate_scavengers_scavenge_equipment_revoke_tooltip
+    }
+    on_invalid_province = {
+        if = {
+            limit = {
+                has_province_modifier = estate_scavengers_scavenge_equipment_mod
+            }
+            remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+        }
+    }
+
+    ai_will_do = {
+        factor = 1
+        modifier ={
+            factor = 0
+            is_absolutism_active = yes
+        }
+    }    
+}
