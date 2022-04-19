@@ -1,7 +1,8 @@
 #241 - Glamorgan
 
-#owner = ENG
-#controller = ENG
+owner = WLS
+controller = WLS
+add_core = WLS
 culture = welsh
 religion = thelemic
 hre = no

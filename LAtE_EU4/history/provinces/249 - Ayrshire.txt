@@ -1,7 +1,8 @@
 #249 - Ayrshire
 
-#owner = SCO
-#controller = SCO
+owner = GOW
+controller = GOW
+add_core = GOW
 culture = weegan
 religion = thelemic
 hre = no

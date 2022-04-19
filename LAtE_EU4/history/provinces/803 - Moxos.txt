@@ -1,6 +1,9 @@
 #803 - Moxos
 
 culture = guarani
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 religion = candomble
 capital = "Moxos"
 trade_goods = unknown

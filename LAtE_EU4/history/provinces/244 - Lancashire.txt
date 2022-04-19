@@ -1,7 +1,8 @@
 #244 - Lancashire
 
-#owner = ENG
-#controller = ENG
+owner = LVP
+controller = LVP
+add_core = LVP
 culture = scouse
 religion = thelemic
 hre = no

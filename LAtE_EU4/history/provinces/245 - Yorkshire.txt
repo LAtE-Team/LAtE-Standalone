@@ -1,7 +1,8 @@
 #245 - Yorkshire
 
-#owner = ENG
-#controller = ENG
+owner = TYK
+controller = TYK
+add_core = TYK
 culture = tyke
 religion = thelemic
 hre = no

@@ -1,7 +1,8 @@
 #372 - Tyrone
 
-#owner = TYR
-#controller = TYR
+owner = ULS
+controller = ULS
+add_core = ULS
 culture = irish
 religion = thelemic
 hre = no

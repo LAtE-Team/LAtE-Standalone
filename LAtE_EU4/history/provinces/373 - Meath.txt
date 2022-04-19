@@ -1,9 +1,8 @@
 #373 - Meath
 
-#owner = ENG
-#controller = ENG
-#add_core= ENG
-#add_core= MTH
+owner = GRN
+controller = GRN
+add_core = GRN
 culture = irish
 religion = celticist
 hre = no

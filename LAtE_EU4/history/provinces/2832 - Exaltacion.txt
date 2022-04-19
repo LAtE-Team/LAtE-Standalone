@@ -2,7 +2,9 @@
 
 culture = maipurean
 
-
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 
 discovered_by = south_american 
 discovered_by = andean

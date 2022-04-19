@@ -1,7 +1,8 @@
 #374 - Leinster
 
-#owner = LEI
-#controller = LEI
+owner = GRN
+controller = GRN
+add_core = GRN
 culture = irish
 religion = celticist
 hre = no

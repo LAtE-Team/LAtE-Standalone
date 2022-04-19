@@ -1,7 +1,8 @@
 #376 - Connaught
 
-#owner = CNN
-#controller = CNN
+owner = SLN
+controller = SLN
+add_core = SLN
 culture = irish
 religion = celticist
 hre = no

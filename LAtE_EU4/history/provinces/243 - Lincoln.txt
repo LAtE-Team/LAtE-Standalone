@@ -1,8 +1,9 @@
 #243 - Lincoln
 #+ Northern Cambridgeshire
 
-#owner = ENG
-#controller = ENG
+owner = GBR
+controller = GBR
+add_core = GBR
 culture = british
 religion = thelemic
 hre = no

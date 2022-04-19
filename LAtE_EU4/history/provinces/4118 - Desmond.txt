@@ -1,7 +1,8 @@
 #4118 - Desmond and Ormond
 
-#owner = DMS
-#controller = DMS
+owner = MNS
+controller = MNS
+add_core = MNS
 culture = irish
 religion = celticist
 hre = no

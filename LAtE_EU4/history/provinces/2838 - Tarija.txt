@@ -1,8 +1,8 @@
 # - Tarija
 
-#owner = CCQ
-#controller = CCQ
-#add_core= CCQ
+owner = SLT
+controller = SLT
+add_core = SLT
 is_city = no
 culture = aimara
 

@@ -1,7 +1,8 @@
 #4120 - Kildare
 
-#owner = KID
-#controller = KID
+owner = GRN
+controller = GRN
+add_core = GRN
 culture = irish
 religion = celticist
 hre = no

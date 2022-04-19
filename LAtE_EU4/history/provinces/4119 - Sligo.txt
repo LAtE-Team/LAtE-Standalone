@@ -1,7 +1,8 @@
 #4119 - Sligo
 
-#owner = SLN
-#controller = SLN
+owner = SLN
+controller = SLN
+add_core = SLN
 culture = irish
 religion = celticist
 hre = no

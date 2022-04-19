@@ -1,7 +1,8 @@
 #375 - Munster
 
-#owner = MNS
-#controller = MNS
+owner = MNS
+controller = MNS
+add_core = MNS
 culture = irish
 religion = celticist
 hre = no

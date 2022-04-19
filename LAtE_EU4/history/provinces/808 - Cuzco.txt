@@ -1,7 +1,8 @@
 #808 - Cuzco
 
-owner = PEU
-controller = PEU
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 culture = inca
 religion = inti
 capital = "Cuzco"

@@ -1,5 +1,8 @@
 #801 - Caranga
 
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 culture = guarani
 
 

@@ -1,7 +1,8 @@
 #800 - Chiquitos
 
-owner = PRG
-controller = PRG
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 add_core = PRG
 culture = litoraleno
 

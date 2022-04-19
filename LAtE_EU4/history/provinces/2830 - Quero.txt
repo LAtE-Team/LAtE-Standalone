@@ -1,7 +1,8 @@
 # - Quero
 
-#owner = CSU
-#controller = CSU
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 culture = inca
 religion = inti
 capital = "Quero"

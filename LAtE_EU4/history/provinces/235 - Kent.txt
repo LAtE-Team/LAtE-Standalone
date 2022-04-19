@@ -1,8 +1,9 @@
 #235 - Kent
 #Sussex+Kent
 
-#owner = ENG
-#controller = ENG
+owner = CVL
+controller = CVL
+add_core = CVL
 culture = chav
 religion = thelemic
 hre = no
