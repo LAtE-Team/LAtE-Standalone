@@ -30,6 +30,9 @@
  estate_scavengers.1.d: "The auctions for excess artifacts taken from the Scavengers has ended, we are now able to either extend them again or end the practice altogether."
  estate_scavengers.1.a: "Let us extend the auctions"
  estate_scavengers.1.b: "Not now"
+ EST_MANY_SCAVENGING_HUBS: "Many Scavenging Hubs: §Y$VAL$%§!"
+ scavengers_loyalty_modifier: "[Root.GetScavengersName] Loyalty Equilibrium"
+ scavengers_influence_modifier: "[Root.GetScavengersName] Influence"
 
  #Scavengers Agendas
  estate_privileges_and_agendas_events.3.sc: "The Proposal of the [Root.GetScavengersName]"

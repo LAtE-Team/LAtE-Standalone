@@ -53,6 +53,27 @@ estate_scavengers = {
 		}
 		influence = -40
 	}
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+			}
+		}
+		loyalty = -20
+	}
+	influence_modifier = {	
+		desc = EST_MANY_SCAVENGING_HUBS
+		trigger = {
+			scavenging_hub = 5
+		}
+		influence = 5
+	}
 
 	influence_from_dev_modifier = 1.0
 	
