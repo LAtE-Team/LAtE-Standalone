@@ -82,6 +82,7 @@ estate_scavengers = {
 	}
 
 	agendas = {
+		estate_scavengers_build_in_y
 		estate_scavengers_one_privilege
 		estate_scavengers_three_privileges
 		estate_scavengers_expand_into_x

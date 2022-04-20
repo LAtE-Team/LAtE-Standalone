@@ -61,7 +61,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		months = 120
 		modifier = {
@@ -144,6 +144,7 @@ country_event = {
 				size = 3
 			}
 		}
+		set_global_flag = can_union_outcome_flag
 	}
 	option = {		# No let us marry a local talent instead
 		name = "flavor_spa.EVTOPTB3716"
@@ -177,5 +178,6 @@ country_event = {
 				DIP = 2
 			}
 		}
+		set_global_flag = can_union_outcome_flag
 	}
 }

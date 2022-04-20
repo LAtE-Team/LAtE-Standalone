@@ -30,3 +30,27 @@
  estate_scavengers.1.d: "The auctions for excess artifacts taken from the Scavengers has ended, we are now able to either extend them again or end the practice altogether."
  estate_scavengers.1.a: "Let us extend the auctions"
  estate_scavengers.1.b: "Not now"
+
+ #Scavengers Agendas
+ estate_privileges_and_agendas_events.3.sc: "The Proposal of the [Root.GetScavengersName]"
+ local_scavengers_displeased: "Local [Root.GetScavengersName] Displeased"
+ estate_scavengers_build_in_y: "Build a Scavenging Hub in [agenda_province.GetName]"
+ estate_scavengers_one_privilege: "Create State Scavenger Bands"
+ estate_scavengers_three_privileges: "Extend Scavenger Privileges"
+ estate_scavengers_expand_into_x: "Expand into [agenda_province.GetAreaName]"
+ estate_scavengers_complete_conquest_of_x: "Complete the Conquest of [agenda_province.GetAreaName]"
+ estate_scavengers_develop_x: "Develop [agenda_province.GetName]"
+ estate_scavengers_colonise_X: "Settle [agenda_province.GetAreaName]"
+ estate_scavengers_colonise_more_X: "Colonize [agenda_province.GetAreaName] Area"
+ estate_scavengers_increase_autonomy: "Increase Autonomy in [agenda_province.GetName]"
+
+ #Scavengers Agendas Descriptions:
+ estate_scavengers_build_in_y_desc: "The [Root.GetScavengersName] request that we set up a Scavenging Hub in [agenda_province.GetName]."
+ estate_scavengers_one_privilege_desc: "The [Root.GetScavengersName] are eager for the protection and security that the [Root.Monarch.GetTitle] could provide. They promise the wonders of the Old World if they are given state Sanctions."
+ estate_scavengers_three_privileges_desc: "The [Root.GetScavengersName] complain at the lack of support from the [Root.Monarch.GetTitle]. They demand reassurance of their position in the form of greater privileges being bestowed upon them."
+ estate_scavengers_expand_into_x_desc: "The [Root.GetScavengersName] have been casting a jealous eye on [agenda_province.GetAreaName], an area they mightily desire to bring under their control. They call for a military campaign to secure part of it for our nation."
+ estate_scavengers_complete_conquest_of_x_desc: "The [Root.GetScavengersName] see [agenda_province.GetAreaName] as an a natural extension of [Root.GetUsableName] and resent the fact that it is not entirely our own to plunder. They demand action to secure the rest of the area for ourselves!"
+ estate_scavengers_develop_x_desc: "The [Root.GetScavengersName] request that we invest in the prosperity of their lands in [agenda_province.GetName]."
+ estate_scavengers_colonise_X_desc: "The [Root.GetScavengersName]' explorers have identified [agenda_province.GetAreaName] as an area well-suited for colonization. They request an expedition to claim it for [Root.GetUsableName]."
+ estate_scavengers_colonise_more_X_desc: "Our settlers in [agenda_owned_province.GetName] report a thriving colony and a land that is ripe for further plunder. The [Root.GetScavengersName] request that we send colonists to claim the rest of [agenda_province.GetAreaName] for [Root.GetUsableName]."
+ estate_scavengers_increase_autonomy_desc: "The [Root.GetScavengersName] have informed us that there are a number of scavengers that are close to retiring. They recommend that we give the new retirees some additional rights if they settle in [agenda_province.GetName]."
