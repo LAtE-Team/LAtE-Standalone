@@ -14,3 +14,24 @@ clear_religious_scholar_modifiers_effect = {
 	remove_country_modifier = adam_scholar_modifier
 	remove_country_modifier = nuh_scholar_modifier
 }
+
+on_province_owner_change_LAtE_estate_privileges_effects = {
+	if = {
+		limit = {
+			has_building = scavenging_hub
+		}
+		remove_building = scavenging_hub
+	}
+	if = {
+		limit = {
+			has_province_modifier = estate_scavengers_old_world_construction_mod
+		}
+		remove_province_modifier = estate_scavengers_old_world_construction_mod
+	}
+	if = {
+		limit = {
+			has_province_modifier = estate_scavengers_scavenge_equipment_mod
+		}
+		remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+	}
+}

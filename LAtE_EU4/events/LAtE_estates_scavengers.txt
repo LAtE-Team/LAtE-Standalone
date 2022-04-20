@@ -1,0 +1,22 @@
+namespace = estates_scavengers
+
+# Extension of The Artifact Auctions
+country_event = {
+	id = estates_scavengers.1
+	title = estates_scavengers.1.t
+	desc = {
+		trigger = { has_estate_privilege = estate_scavengers_auction_artifacts }
+		desc = estates_scavengers.1.d
+	}
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = estates_scavengers.1.a
+		reapply_estate_privilege = { privilege = estate_scavengers_auction_artifacts }
+	}
+	option = {
+		name = estates_scavengers.1.b
+	}
+}

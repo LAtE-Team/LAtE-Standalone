@@ -1,0 +1,56 @@
+#Building for the Scavengers Estate, does nothing by itself. Perhaps add devastation as the scavengers loot the province
+scavenging_hub = {
+	cost = 50
+	time = 12
+
+	modifier = {
+        allowed_num_of_buildings = 1
+	}
+
+	on_built = {
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_scavengers_old_world_construction } }
+			add_province_modifier = {
+				name = estate_scavengers_old_world_construction_mod
+				duration = -1
+			}
+		}
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_scavengers_scavenge_equipment } }
+			add_province_modifier = {
+				name = estate_scavengers_scavenge_equipment_mod
+				duration = -1
+			}
+		}
+	}
+
+	on_destroyed = {
+		if = {
+			limit = { has_province_modifier = estate_scavengers_old_world_construction_mod }
+			remove_province_modifier = estate_scavengers_old_world_construction_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_scavengers_scavenge_equipment_mod }
+			remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+		}
+	}
+
+	on_obsolete = {
+		if = {
+			limit = { has_province_modifier = estate_scavengers_old_world_construction_mod }
+			remove_province_modifier = estate_scavengers_old_world_construction_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_scavengers_scavenge_equipment_mod }
+			remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+        modifier ={
+            factor = 105
+            has_estate_privilege = estate_scavengers_state_bands   
+        }
+	}
+}

@@ -53,6 +53,8 @@ technology = {
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
+	#scavenging_hub from LAtE
+	scavenging_hub = yes
 }
 
 technology = {
