@@ -11,7 +11,7 @@ north_pacific = {
 		}
 
 	}
-	portlander = {
+	inlander = {
 		primary = OGN
 		dynasty_names = { "Kaskey" "Lovejoy" "Hollins" "Sabonis" "Aldridge" "Kersey" "Midthun" "Nesmith" "Harman" "Rawlins" "Preston" "Jerome" }
 

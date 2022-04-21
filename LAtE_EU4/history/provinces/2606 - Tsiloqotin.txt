@@ -1,0 +1,12 @@
+
+culture = cree
+religion = ghost_dance
+capital = "Dakelh"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2

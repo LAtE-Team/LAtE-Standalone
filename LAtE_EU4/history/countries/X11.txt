@@ -4,10 +4,10 @@ government = monarchy
 government_rank = 1
 mercantilism = 0.1
 technology_group = western
-primary_culture = portlander
-religion = raven_tales
+primary_culture = inlander
+religion = gaian
 clear_scripted_personalities = yes
-capital = 2486
+capital = 2487
 3043.8.5 = {
 	monarch = {
 		name = "Glenn IV"
@@ -21,7 +21,7 @@ capital = 2486
 	add_ruler_personality = benevolent_personality
 }
 3053.1.1 {
-	capital = 2486
+	capital = 2487
 	add_treasury = 38
 	add_prestige = 147
 }

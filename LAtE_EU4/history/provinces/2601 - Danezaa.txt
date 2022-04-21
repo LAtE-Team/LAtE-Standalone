@@ -1,7 +1,7 @@
 # No previous file for Danezaa
 
-culture = canuck
-religion = gaian
+culture = cree
+religion = ghost_dance
 capital = "Danezaa"
 trade_goods = unknown
 hre = no

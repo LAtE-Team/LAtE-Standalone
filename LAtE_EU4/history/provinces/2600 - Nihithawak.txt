@@ -1,7 +1,7 @@
 # No previous file for Nihithawak
 
-culture = canuck
-religion = gaian
+culture = cree
+religion = ghost_dance
 capital = "Nihithawak"
 trade_goods = unknown
 hre = no

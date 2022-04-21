@@ -1,0 +1,21 @@
+owner = X01
+controller = X01
+add_core = X01
+
+culture = paiute
+religion = ghost_dance
+trade_goods = livestock
+citysize = 2000
+add_permanent_claim = X00
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = MTC
+discovered_by = MTC
+discovered_by = X17
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

@@ -1,7 +1,7 @@
 # No previous file for Sekani
 
-culture = canuck
-religion = gaian
+culture = cree
+religion = ghost_dance
 capital = "Sekani"
 trade_goods = unknown
 hre = no

@@ -1,0 +1,14 @@
+#Seattle
+vassal = {
+	first = SAL
+	second = X09
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+#Vancouver
+vassal = {
+	first = SAL
+	second = X06
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

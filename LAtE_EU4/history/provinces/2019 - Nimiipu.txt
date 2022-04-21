@@ -1,0 +1,20 @@
+owner = X16
+controller = X16
+add_core = X16
+
+culture = nez_perce
+religion = ghost_dance
+trade_goods = fur
+citysize = 2000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = MTC
+discovered_by = MTC
+discovered_by = X17
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
