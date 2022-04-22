@@ -62,9 +62,11 @@ age_of_discovery = {
 			custom_trigger_tooltip = {
 				tooltip = obj_30_development_city_tooltip
 				any_owned_province = {
-					is_core = ROOT
-					controlled_by = owner
-					development = 30
+					exclude_from_progress = {
+						is_core = ROOT
+						controlled_by = owner
+					}
+					development_discounting_tribal = 30
 				}
 			}
 		}
@@ -161,6 +163,10 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { num_of_colonists = 1 }
+				}
 			}
 		}
 		
@@ -207,6 +213,14 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 100
+				modifier = {
+					factor = 0
+					NOT = {
+						any_subject_country = {
+							liberty_desire = 20
+						}
+					}
+				}
 			}
 		}
 		ab_venice_ship_trade = {
@@ -274,6 +288,10 @@ age_of_reformation = {
 					value = yes
 				}
 				trading_bonus = {
+					trade_goods = cloves
+					value = yes
+				}
+				trading_bonus = {
 					trade_goods = chinaware
 					value = yes
 				}
@@ -288,6 +306,7 @@ age_of_reformation = {
 		}
 		
 		obj_unify_culture = {	
+			is_subject = no
 			has_unified_culture_group = yes
 		}
 	}	
@@ -301,7 +320,7 @@ age_of_reformation = {
 				set_country_flag = religion_enforced_edict
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 0
 			}
 		}
 	
@@ -419,12 +438,7 @@ age_of_reformation = {
 			}
 		}
 	
-	}
-	
-	
-	
-
-	
+	}	
 }
 
 
@@ -508,7 +522,7 @@ age_of_absolutism = {
 				rival_change_cost = -0.5
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 0
 			}
 		}
 
@@ -556,7 +570,7 @@ age_of_absolutism = {
 				yearly_absolutism = 1
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
 	
@@ -585,7 +599,10 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				tag = SWE
+				OR = {
+					tag = SWE
+					tag = SCA
+				}
 			}
 			modifier = {
 				manpower_recovery_speed = 0.35
@@ -753,7 +770,10 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				tag = PRU
+				OR = {
+					tag = PRU
+					tag = GER
+				}
 			}
 			modifier = {
 				fire_damage_received = -0.2
@@ -778,7 +798,7 @@ age_of_revolutions = {
 				tag = RUS
 			}
 			modifier = {
-				max_states = 20
+				governing_capacity_modifier = 0.33
 			}
 			ai_will_do = {
 				factor = 100
@@ -786,7 +806,10 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				tag = HAB
+				OR = {
+					tag = HAB
+					tag = HLR
+				}
 			}
 			modifier = {
 				diplomatic_reputation = 5

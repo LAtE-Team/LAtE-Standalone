@@ -15,7 +15,7 @@
 #######################################
 
 feudalism = {
-	penalty = 0.5
+
 	bonus = {
 		free_leader_pool = 1
 	}
@@ -27,18 +27,11 @@ feudalism = {
 		is_year = 2600
 		owner = {
 			NOT = {
-				government = siberian_native_council
-				government = steppe_horde
-				government = tribal_kingdom
-				government = tribal_despotism
-				government = tribal_federation
-				government = tribal_democracy
-				government = jungle_horde
-
-				#technology_group = andean
-				#technology_group = mesoamerican
-				#technology_group = north_american
-				#technology_group = south_american
+				government = tribal
+				government = native
+				primary_culture = bedouin_arabic
+				primary_culture = uyghur
+				technology_group = sub_saharan
 			}
 		}
 	}
@@ -202,7 +195,6 @@ feudalism = {
 #######################################
 
 renaissance = {
-	penalty = 0.5
 
 	bonus = {
 		development_cost = -0.05
@@ -211,31 +203,16 @@ renaissance = {
 
 	trade_company_efficiency = 0.4
 
-	historical_start_date = 3050.1.1	#Equivalent of 1450 in vanilla
+
+	historical_start_date = 3060.1.1	#Equivalent of 1450 in vanilla
 	historical_start_province = 4021 # Antsiranana, Madagascar
 
 	history = {
-		is_year = 3050.1.1 
-		development = 21
-		owner = {
-			NOT = {
-				government = siberian_native_council
-				government = steppe_horde
-				government = tribal_kingdom
-				government = tribal_despotism
-				government = tribal_federation
-				government = tribal_democracy
-
-				#technology_group = andean
-				#technology_group = mesoamerican
-				#technology_group = north_american
-				#technology_group = south_american
-			}
-		}
+		always = no
 	}
 	
 	can_start = {
-		is_year = 3050
+		is_year = 3060
 		development = 21
 		is_island = no
 		continent = north_america
@@ -391,7 +368,6 @@ renaissance = {
 # Probably going to need to rejig this a whole bunch
 #######################################
 new_world_i = {
-	penalty = 0.5
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.10
@@ -403,7 +379,7 @@ new_world_i = {
 	historical_start_province = 224 #Sevilla
 
 	history = {
-		is_year = 3100
+		always = no
 	}
 	
 	can_start = {
@@ -424,13 +400,35 @@ new_world_i = {
 		}
 		is_in_capital_area = yes
 		owner = { 
-			has_idea = quest_for_the_new_world 
+			has_any_exploration_idea = yes
+			#at least one province colonised or colonising, or have a subject colony
+			OR = {
+				any_owned_province = {
+					OR = {
+						continent = europe
+						continent = oceania
+					}
+				}
+				any_subject_country = {
+					OR = {
+						is_subject_of_type = colony
+						is_subject_of_type = crown_colony
+						is_subject_of_type = private_enterprise
+						is_subject_of_type = self_governing_colony
+					}
+					capital_scope = {
+						OR = {
+							continent = europe
+							continent = oceania
+						}
+					}
+				}
+			}
 			OR = {
 				europe = { has_discovered = PREV }
 				oceania = { has_discovered = PREV }
 			}
 		}
-
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
@@ -489,6 +487,12 @@ new_world_i = {
 				OR = {
 					has_port = yes
 					is_capital = yes
+				}
+				owner = {
+					capital_scope = {
+						NOT = { continent = europe }
+						NOT = { continent = oceania }
+					}
 				}
 			}
 			custom_trigger_tooltip = {
@@ -581,7 +585,6 @@ new_world_i = {
 # Printing Press
 #######################################
 printing_press = {
-	penalty = 0.5
 
 	bonus = {
 		stability_cost_modifier = -0.05
@@ -593,15 +596,19 @@ printing_press = {
 	historical_start_province = 915 #Chicago
 
 	history = {
-		is_year = 3150
+		always = no
 	}
 	
 	can_start = {
 		is_year = 3150
-		
 		is_in_capital_area = yes
 		is_island = no
-		development = 20
+		is_state = yes
+		OR = {
+			development = 15
+			is_capital = yes
+			trade_goods = paper
+		}
 		owner = {
 			adm_tech = 12
 			NOT = {
@@ -748,7 +755,7 @@ printing_press = {
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_global_trade_embraced_other_continent
+				tooltip = tooltip_printing_press_embraced
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = printing_press
@@ -791,7 +798,6 @@ printing_press = {
 # Global Trade
 #######################################
 global_trade = {
-	penalty = 0.5
 
 	bonus = {
 		merchants = 1
@@ -803,7 +809,7 @@ global_trade = {
 	historical_start_province = 965 # New York
 	
 	history = {
-		is_year = 3200
+		always = no
 	}
 	
 	can_start = {
@@ -1030,7 +1036,6 @@ global_trade = {
 # Manufactories
 #######################################
 manufactories = {
-	penalty = 0.5
 
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -1471,7 +1476,6 @@ manufactories = {
 # Enlightenment
 #######################################
 enlightenment = {
-	penalty = 0.5
 
 	bonus = {
 		culture_conversion_cost = -0.25
@@ -1482,7 +1486,7 @@ enlightenment = {
 	historical_start_date = 3300.1.1
 	historical_start_province = 2669 # Texarkana
 	history = {
-		is_year = 3350
+		always = no
 	}
 	
 	can_start = {
@@ -1808,8 +1812,7 @@ enlightenment = {
 # Industrialisation
 #######################################
 industrialization = {
-	penalty = 0.5
-	
+		
 	trade_company_efficiency = 2.0
 
 	bonus = {
@@ -1964,7 +1967,7 @@ industrialization = {
 		}
 		#Rule Britannia specific
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -1979,7 +1982,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
@@ -1994,7 +1997,7 @@ industrialization = {
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 1
 			force_potential = yes
 			potential = {
 				has_dlc = "Rule Britannia"
