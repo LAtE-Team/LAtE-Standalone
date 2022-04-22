@@ -1,11 +1,12 @@
 owner = X11
 controller = X11
 add_core = X11
-
 culture = inlander
 religion = gaian
+
+is_city = yes
 trade_goods = wool
-citysize = 2000
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

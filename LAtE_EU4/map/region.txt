@@ -1194,8 +1194,6 @@ northeast_america_region = {
 
 southeast_america_region =  {
 	areas = {
-		chesapeake_area
-		great_valley_area
 		piedmont_north_america_area
 		american_georgia_area 
 		florida_area
@@ -1211,6 +1209,10 @@ southeast_america_region =  {
 		altamaha_area
 		sowega_area
 		wiregrass_area
+		west_florida_area
+		alabama_area
+		birmingham_area
+		mississippi_area
 	}
 	monsoon = {
 		00.06.01
@@ -1221,21 +1223,13 @@ southeast_america_region =  {
 mississippi_region = {
 	areas = {
 		lower_louisiana_area
-		west_florida_area
 		upper_louisiana_area
-		alabama_area
-		kentucky_area
-		appalachia_area
-		south_appalachia_area
-		mississippi_area
-		choctaw_area
 		mississippi_plain_area
+		ozarks_area
 		#AtE Additions
 		the_gateway_area
 		little_egypt_area
-		birmingham_area
-		kentuckiana_area
-		east_tennessee_area
+		lower_plains_area
 	}
 	monsoon = {
 		00.06.01
@@ -1246,9 +1240,7 @@ mississippi_region = {
 great_plains_region = {
 	areas = {
 		central_plains_area
-		lower_plains_area
 		high_plains_area
-		ozarks_area
 		dakota_area
 		south_dakota_area
 		upper_missouri_area
@@ -1260,10 +1252,6 @@ california_region = {
 	areas = {
 		#california_area
 		baja_california_area
-		arizona_area
-		colorado_plateau_area
-		new_mexico_area
-		apacheria_area
 		#central_valley_area
 		#After the End additions:
 		gran_francisco_area
@@ -1271,17 +1259,12 @@ california_region = {
 		socal_area
 		north_valley_area
 		death_valley_area
-		deseret_area
-		colorado_area
-		shasta_cascade_area
 		redwoods_area
 		salinas_area
 		wineland_area 
 		motherlode_area
 		kern_area
-		los_padres_area
-		yellowstone_area
-		
+		los_padres_area		
 	}
 }
 
@@ -1289,19 +1272,17 @@ cascadia_region = {
 	areas = {
 		#oregon_area
 		columbia_river_area
-		snake_river_area
 		salish_sea_area
 		interior_plateau_area
-		hecate_strait_area
-		alaska_area
 		straits_of_georgia_area
-		east_alaska_area
 		#LAtE Additions:
 		nootka_area
 		uunaay_area
 		bitteroot_area
 		blue_mountains_area
 		oregon_area_area
+		shasta_cascade_area
+		snake_river_area
 	}
 }
 
@@ -1309,7 +1290,6 @@ hudson_bay_region = {
 	areas = {
 		james_bay_area
 		hudson_bay_area
-		red_river_area
 		#saskatchewan_area
 		#prairies_area
 		#athabasca_area
@@ -1317,19 +1297,6 @@ hudson_bay_region = {
 		#assiniboia_area
 		west_kenora_area
 		east_kenora_area
-	}
-}
-
-north_west_territories_region = {
-	areas = {
-		saskatchewan_area
-		prairies_area
-		athabasca_area
-		assiniboia_area
-		keewatin_area
-		fort_smith_area
-		stikine_area
-		yukon_area
 	}
 }
 
@@ -1587,6 +1554,54 @@ st_lawrence_watershed_region = {
 		st_lawrence_river_area
 	}
 }
+
+north_west_territories_region = {
+	areas = {
+		saskatchewan_area
+		prairies_area
+		athabasca_area
+		assiniboia_area
+		keewatin_area
+		fort_smith_area
+		red_river_area
+	}
+}
+
+alaska_region = {
+	areas = {
+		alaska_area
+		east_alaska_area
+		hecate_strait_area
+		stikine_area
+		yukon_area
+	}
+}
+
+utah_region = {
+	areas = {
+		arizona_area
+		colorado_plateau_area
+		new_mexico_area
+		apacheria_area
+		deseret_area
+		colorado_area
+		yellowstone_area
+	}
+}
+
+grand_virginia_region = {
+	areas = {
+		chesapeake_area
+		great_valley_area
+		kentucky_area
+		kentuckiana_area
+		appalachia_area
+		south_appalachia_area
+		choctaw_area
+		east_tennessee_area
+	}
+}
+
 
 #Region for unused areas - purely to prevent error log spam
 

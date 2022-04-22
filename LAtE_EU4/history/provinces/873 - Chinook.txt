@@ -1,11 +1,13 @@
 owner = CSC
 controller = CSC
 add_core = CSC
-
 culture = cascadian
 religion = gaian
+
+is_city = yes
 trade_goods = cloth
-citysize = 2000
+center_of_trade = 2
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

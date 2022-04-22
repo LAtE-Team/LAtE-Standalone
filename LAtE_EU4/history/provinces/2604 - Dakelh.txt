@@ -1,12 +1,13 @@
 owner = X08
 controller = X08
 add_core = X08
-
 culture = canuck
 religion = gaian
+
+is_city = yes
 trade_goods = livestock
-citysize = 2000
-add_core = X08
+center_of_trade = 1
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

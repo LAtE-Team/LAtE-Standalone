@@ -1,12 +1,12 @@
-ck2_converter_generated = yes
 owner = X10
 controller = X10
 add_core = X10
-
 culture = inlander
 religion = gaian
+
+is_city = yes
 trade_goods = grain
-citysize = 2000
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

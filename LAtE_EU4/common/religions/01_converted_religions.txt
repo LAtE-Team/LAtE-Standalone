@@ -392,6 +392,9 @@ eastern = {
 			tolerance_heretic = -1
 		}
 		
+		uses_karma = yes
+		allow_female_defenders_of_the_faith = yes
+
 		heretic = { MASCULINIST }
 		
 		harmonized_modifier = harmonized_gaian
@@ -876,6 +879,8 @@ american_native = {
 			tolerance_own = 1
 			tolerance_heretic = -1
 		}
+
+		ancestors = yes
 		
 		heretic = { BEAR_SPIRIT }
 	}

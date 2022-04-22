@@ -8,6 +8,7 @@ culture = haida
 religion = raven_tales 
 capital = "Haida"
 trade_goods = fish
+center_of_trade = 1
 hre = no 
 base_tax = 4
 base_production = 4
