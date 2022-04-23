@@ -1,12 +1,20 @@
-yemoja_cult =
-{
+yemoja_cult = {
 	naval_maintenance_modifier = -0.15
 
 	allow = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = yemoja_cult
 			technology_group = sub_saharan
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = yemoja_cult
+				}
+			}
 		}
 	}
 	sprite = 1
@@ -20,15 +28,23 @@ yemoja_cult =
 	}
 }
 
-roog_cult =
-{
+roog_cult = {
 	land_attrition = -0.15
 
 	allow = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = roog_cult
 			technology_group = sub_saharan
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = roog_cult
+				}
+			}
 		}
 	}
 	sprite = 3
@@ -42,14 +58,22 @@ roog_cult =
 	}
 }
 
-nyame_cult =
-{
+nyame_cult = {
 	diplomatic_reputation = 1
 	allow = {
-		religion = shamanism
 		OR = {
 			technology_group = sub_saharan
 			has_unlocked_cult = nyame_cult
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = nyame_cult
+				}
+			}
 		}
 	}
 	sprite = 2
@@ -68,13 +92,22 @@ nyame_cult =
 cwezi_cult = { #Great lakes / Kitara successor states
 	sprite = 4
 	allow  = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = cwezi_cult
 			technology_group = central_african
 			AND = {
 				NOT = { technology_group = sub_saharan }
 				NOT = { technology_group = east_african }
+			}
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = cwezi_cult
+				}
 			}
 		}
 	}
@@ -92,13 +125,22 @@ central_african_ancestor_cult = {  #Name TBD (Woot, Mlira, Monomotapan religion)
 	sprite = 6
 	tolerance_own = 2
 	allow  = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = central_african_ancestor_cult
 			technology_group = central_african
 			AND = {
 				NOT = { technology_group = sub_saharan }
 				NOT = { technology_group = east_african }
+			}
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = central_african_ancestor_cult
+				}
 			}
 		}
 	}
@@ -114,13 +156,22 @@ central_african_ancestor_cult = {  #Name TBD (Woot, Mlira, Monomotapan religion)
 mwari_cult = { #Semi-monotheistic religion from Zimbabwe plateau
 	sprite = 5
 	allow  = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = mwari_cult
 			technology_group = central_african
 			AND = {
 				NOT = { technology_group = sub_saharan }
 				NOT = { technology_group = east_african }
+			}
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = mwari_cult
+				}
 			}
 		}
 	}
@@ -139,10 +190,19 @@ enkai_cult = {
 	manpower_recovery_speed = 0.15 
 	
 	allow = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = enkai_cult
 			technology_group = east_african
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = enkai_cult
+				}
+			}
 		}
 	}
 	sprite = 7
@@ -160,10 +220,19 @@ waaq_cult = {
 	global_unrest = -2
 
 	allow = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = waaq_cult	
 			technology_group = east_african
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = waaq_cult
+				}
+			}
 		}
 	}
 	sprite = 8
@@ -181,10 +250,19 @@ zanahary_cult = {
 	war_exhaustion = -0.05
 
 	allow = {
-		religion = shamanism
 		OR = {
 			has_unlocked_cult = zanahary_cult
 			technology_group = east_african
+		}
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = zanahary_cult
+				}
+			}
 		}
 	}
 	sprite = 9
@@ -203,8 +281,17 @@ zanahary_cult = {
 christianity_cult = {
 	sprite = 10
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = christianity_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = christianity_cult
+				}
+			}
+		}
 	}
 	global_own_trade_power = 0.25
 	ai_will_do = {
@@ -219,8 +306,17 @@ christianity_cult = {
 islam_cult = {
 	sprite = 11
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = islam_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = islam_cult
+				}
+			}
+		}
 	}
 	global_institution_spread = 0.1
 	ai_will_do = {
@@ -235,8 +331,17 @@ islam_cult = {
 buddhism_cult = {
 	sprite = 13
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = buddhism_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = buddhism_cult
+				}
+			}
+		}
 	}
 	development_cost = -0.1
 	ai_will_do = {
@@ -251,8 +356,17 @@ buddhism_cult = {
 dharmic_cult = {
 	sprite = 12
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = dharmic_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = dharmic_cult
+				}
+			}
+		}
 	}
 	global_trade_goods_size_modifier = 0.1	
 	ai_will_do = {
@@ -267,8 +381,17 @@ dharmic_cult = {
 south_central_american_cult = {
 	sprite = 17
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = south_central_american_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = south_central_american_cult
+				}
+			}
+		}
 	}
 	land_morale = 0.05
 	ai_will_do = {
@@ -283,8 +406,17 @@ south_central_american_cult = {
 norse_cult = {
 	sprite = 15
 	allow  = {
-		religion = shamanism
 		has_unlocked_cult = norse_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = norse_cult
+				}
+			}
+		}
 	}
 	tolerance_heathen = 2
 	ai_will_do = {
@@ -299,8 +431,17 @@ norse_cult = {
 jewish_cult = {
 	sprite = 14
 	allow = {
-		religion = shamanism
 		has_unlocked_cult = jewish_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = jewish_cult
+				}
+			}
+		}
 	}
 	advisor_cost = -0.1
 	ai_will_do = {
@@ -315,8 +456,17 @@ jewish_cult = {
 zoroastrian_cult = {
 	sprite = 16
 	allow = {
-		religion = shamanism
 		has_unlocked_cult = zoroastrian_cult
+		religion = shamanism
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = zoroastrian_cult
+				}
+			}
+		}
 	}
 	merchants = 2
 	ai_will_do = {
