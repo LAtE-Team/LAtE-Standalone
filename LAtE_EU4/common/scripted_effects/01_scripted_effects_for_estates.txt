@@ -136,6 +136,17 @@ each_estate_effect = {
 			$scavengers_effect$
 		]
 	}
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		[[effect]
+			$effect$
+		]
+		[[cowboys_effect]
+			$cowboys_effect$
+		]
+	}
 }
 
 #Clergy
@@ -441,6 +452,31 @@ reduce_estate_scavengers_loyalty_effect = {
 		}
 	}
 }
+
+#Cowboys
+add_estate_cowboys_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		add_estate_loyalty = {
+			estate = estate_cowboys
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_cowboys_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		add_estate_loyalty = {
+			estate = estate_cowboys
+			loyalty = -10
+		}
+	}
+}
+
 
 #Estate Privilege on_action effects
 
@@ -2096,13 +2132,6 @@ scaled_estate_cossacks_land_share_effect = {
 	scaled_estate_land_share_add_effect = { estate = estate_cossack }
 }
 
-scaled_estate_scavengers_land_share_effect = {
-	scaled_estate_land_share_add_effect = { estate = estate_scavengers }
-}
-
-scaled_estate_scavengers_negative_land_share_effect = {
-	scaled_estate_land_share_reduce_effect = { estate = estate_scavengers }
-}
 
 #Based on those above, but you can choose which estate you use
 #example of usage: scaled_estate_land_share_add_effect = { estate = estate_nobles }
@@ -2537,6 +2566,25 @@ spawn_rebels_from_unhappy_estate = {
 				as_if_faction = yes
 			}
 		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_cowboys
+					NOT = {
+						estate_loyalty = {
+							estate = estate_cowboys
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = cowboy_rebels
+				size = $size$
+				estate = estate_cowboys
+				as_if_faction = yes
+			}
+		}
 	}
 }
 
@@ -2660,6 +2708,16 @@ pick_random_estate_if_present = {
 			set_country_flag = estate_scavengers_$flag$
 			[[estate_action]
 			$estate_action$ = estate_scavengers
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_cowboys
+				NOT = { has_country_flag = estate_cowboys_$flag$ }
+			}
+			set_country_flag = estate_cowboys_$flag$
+			[[estate_action]
+			$estate_action$ = estate_cowboys
 			]
 		}
 	}
@@ -2791,6 +2849,8 @@ re_add_loyalty_from_seized_land = {
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_nomadic_tribes } }	add_estate_loyalty = { estate = estate_nomadic_tribes	 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_rajput } }			add_estate_loyalty = { estate = estate_rajput			 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_vaisyas } }		add_estate_loyalty = { estate = estate_vaisyas			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_scavengers } }		add_estate_loyalty = { estate = estate_scavengers		 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_cowboys } }		add_estate_loyalty = { estate = estate_cowboys			 loyalty = 20 } }
 	}
 }
 

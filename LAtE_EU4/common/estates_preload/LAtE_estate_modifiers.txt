@@ -14,3 +14,21 @@ estate_scavengers = {
 		}
 	}
 }
+
+estate_cowboys = {
+	modifier_definition = {
+		type = loyalty
+		key = cowboys_loyalty_modifier
+		trigger = {
+			has_estate = estate_cowboys
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = cowboys_influence_modifier
+		trigger = {
+			has_estate = estate_cowboys
+		}
+	}
+}

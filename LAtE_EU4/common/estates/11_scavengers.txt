@@ -1,5 +1,5 @@
-#Written and Created by Technecian, Estate that collects Old World tech and artifacts.
-estate_scavengers = {
+estate_scavengers =
+{
 	icon = 4
 
 	# If true, country will get estate
@@ -114,5 +114,5 @@ estate_scavengers = {
 		estate_scavengers_increase_autonomy
 	}
 
-	color = { 128 91 13 }
+	color = { 82 79 76 }
 }

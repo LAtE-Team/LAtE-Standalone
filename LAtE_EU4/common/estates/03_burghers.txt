@@ -184,6 +184,7 @@ estate_burghers =
 				has_disaster = estate_church_disaster
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
 			}
 		}	
 		influence = -40
@@ -197,6 +198,7 @@ estate_burghers =
 				has_disaster = estate_church_disaster
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
 			}
 		}
 		loyalty = -20
