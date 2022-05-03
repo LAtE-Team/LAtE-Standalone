@@ -1,0 +1,30 @@
+estate_cowboys_prime_herding_rights_mod = {
+	local_tax_modifier = -0.5
+	local_manpower_modifier = 0.25
+}
+
+
+estate_cowboys_exploration_expedition_mod = {
+	local_development_cost = -0.15
+}
+
+estate_antiquarians_one_faith_mod = {
+	local_unrest = 2
+	local_missionary_strength = 2
+	local_missionary_maintenance_cost = -0.2
+}
+
+estate_antiquarians_old_world_communities_mod = {
+	local_development_cost = -0.1
+}
+
+estate_army_recruitment_mod = {
+	local_manpower_modifier = 0.15
+	local_tax_modifier = -0.05
+}
+
+estate_unions_old_world_construction_mod = {
+	local_build_cost = -0.1
+	local_build_time = -0.1
+	local_great_project_upgrade_cost = -0.05
+}

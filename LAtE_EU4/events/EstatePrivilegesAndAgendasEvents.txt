@@ -227,6 +227,10 @@ country_event = {
 		clr_country_flag = estate_rajput_present_agenda
 		clr_country_flag = estate_scavengers_present_agenda
 		clr_country_flag = estate_cowboys_present_agenda
+		clr_country_flag = estate_antiquarians_present_agenda
+		clr_country_flag = estate_army_present_agenda
+		clr_country_flag = estate_unions_present_agenda
+		clr_country_flag = estate_press_present_agenda
 		clear_estate_agenda_cache = ROOT
 	}
 
@@ -833,6 +837,190 @@ country_event = {
 				}
 				estate_loyalty = {
 					estate = estate_cowboys
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = estate_privileges_and_agendas_events.3.an
+		trigger = { has_country_flag = estate_antiquarians_present_agenda }
+		start_estate_agenda = estate_antiquarians
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_antiquarians
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_antiquarians
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_antiquarians
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_antiquarians
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_antiquarians
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = estate_privileges_and_agendas_events.3.ar
+		trigger = { has_country_flag = estate_army_present_agenda }
+		start_estate_agenda = estate_army
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_army
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_army
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_army
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_army
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_army
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = estate_privileges_and_agendas_events.3.un
+		trigger = { has_country_flag = estate_unions_present_agenda }
+		start_estate_agenda = estate_unions
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_unions
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_unions
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_unions
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_unions
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_unions
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+
+	option = {
+		name = estate_privileges_and_agendas_events.3.pr
+		trigger = { has_country_flag = estate_press_present_agenda }
+		start_estate_agenda = estate_press
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_press
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_press
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_press
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_press
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_press
 					higher_than_influence = no
 				}
 			}

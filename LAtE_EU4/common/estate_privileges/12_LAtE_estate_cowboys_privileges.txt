@@ -1,3 +1,65 @@
+estate_cowboys_cowboy_primacy = {
+	icon = privilege_military_power
+	land_share = 10
+	max_absolutism = -5
+	loyalty = -0.05
+	is_valid = {
+		has_reform = open_range_feudalism
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = no_other_mil_privilege
+			NOT = { has_estate_privilege = estate_nobility_nobility_primacy }
+			NOT = { has_estate_privilege = estate_rajput_military }
+			NOT = { has_estate_privilege = estate_maratha_military }
+		}
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		country_military_power = 1
+	}
+	ai_will_do = {
+		factor = 13
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_nobles
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { crown_land_share = 35 }
+				AND = {
+					is_absolutism_active = yes
+					NOT = { crown_land_share = 55 }
+				}
+			}
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
+		}
+	}
+}
+
 estate_cowboys_land_rights = {
 	icon = privilege_grant_autonomy
 	land_share = 5
@@ -168,6 +230,10 @@ estate_cowboys_land_rights = {
 		}
 		modifier = {
 			factor = 0.75
+			has_estate_privilege = estate_cossacks_land_rights
+		}
+		modifier = {
+			factor = 0.75
 			has_estate_privilege = estate_nomadic_tribes_land_rights
 		}
 		modifier = {
@@ -181,6 +247,22 @@ estate_cowboys_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }

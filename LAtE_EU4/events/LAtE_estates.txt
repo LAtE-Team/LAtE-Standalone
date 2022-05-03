@@ -33,7 +33,6 @@ country_event = {
 		name = LAtE_estate_disasters.1.b
 		trigger = { 
 			ai = no 
-			has_dlc = "The Cossacks"
 		}
 		add_country_modifier = {
 			name = "serf_desertion"
@@ -46,5 +45,149 @@ country_event = {
 			custom_national_ideas = cossack_ideas
 			play_as = yes
 		}
+	}
+}
+
+# The Army take control
+country_event = {
+	id = LAtE_estate_disasters.2
+	title = LAtE_estate_disasters.2.t
+	desc = LAtE_estate_disasters.2.d
+	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = army_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.2.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.2.a.tt
+	}
+}
+
+# Army brought to heel
+country_event = {
+	id = LAtE_estate_disasters.3
+	title = LAtE_estate_disasters.3.t
+	desc = LAtE_estate_disasters.3.d
+	picture = NOBLE_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.3.a
+	}
+}
+
+# The Antiquarians takes control
+country_event = {
+	id = LAtE_estate_disasters.4
+	title = LAtE_estate_disasters.4.t
+	desc = LAtE_estate_disasters.4.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = antiquarians_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.4.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.4.a.tt
+	}
+}
+
+# Antiquarians brought to heel
+country_event = {
+	id = LAtE_estate_disasters.5
+	title = LAtE_estate_disasters.5.t
+	desc = LAtE_estate_disasters.5.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.5.a
+	}
+}
+
+# The Unions take control
+country_event = {
+	id = LAtE_estate_disasters.6
+	title = LAtE_estate_disasters.6.t
+	desc = LAtE_estate_disasters.6.d
+	picture = 7_Vaisya_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = unions_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.6.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.6.a.tt
+	}
+}
+
+# Unions brought to heel
+country_event = {
+	id = LAtE_estate_disasters.7
+	title = LAtE_estate_disasters.7.t
+	desc = LAtE_estate_disasters.7.d
+	picture = 8_Vaisya_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.7.a
+	}
+}
+
+# Powerful Press Society
+country_event = {
+	id = LAtE_estate_disasters.8
+	title = LAtE_estate_disasters.8.t
+	desc = LAtE_estate_disasters.8.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = press_estate_in_power
+	}
+	
+	option = {
+		name = estate_disasters.8.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.8.a.tt
+	}
+}
+
+# Press brought to heel
+country_event = {
+	id = LAtE_estate_disasters.9
+	title = LAtE_estate_disasters.9.t
+	desc = LAtE_estate_disasters.9.d
+	picture = 10_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.9.a
 	}
 }

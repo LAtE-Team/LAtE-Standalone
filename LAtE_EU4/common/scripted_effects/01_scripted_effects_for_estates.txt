@@ -147,6 +147,50 @@ each_estate_effect = {
 			$cowboys_effect$
 		]
 	}
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		[[effect]
+			$effect$
+		]
+		[[antiquarians_effect]
+			$antiquarians_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		[[effect]
+			$effect$
+		]
+		[[army_effect]
+			$army_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		[[effect]
+			$effect$
+		]
+		[[unions_effect]
+			$unions_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		[[effect]
+			$effect$
+		]
+		[[press_effect]
+			$press_effect$
+		]
+	}
 }
 
 #Clergy
@@ -472,6 +516,102 @@ reduce_estate_cowboys_loyalty_effect = {
 		}
 		add_estate_loyalty = {
 			estate = estate_cowboys
+			loyalty = -10
+		}
+	}
+}
+
+#Antiquarians
+add_estate_antiquarians_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_antiquarians_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -10
+		}
+	}
+}
+
+#Army
+add_estate_army_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_army_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = -10
+		}
+	}
+}
+
+#Unions
+add_estate_unions_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		add_estate_loyalty = {
+			estate = estate_unions
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_unions_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		add_estate_loyalty = {
+			estate = estate_unions
+			loyalty = -10
+		}
+	}
+}
+
+#Press
+add_estate_press_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		add_estate_loyalty = {
+			estate = estate_press
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_press_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		add_estate_loyalty = {
+			estate = estate_press
 			loyalty = -10
 		}
 	}
@@ -2585,6 +2725,82 @@ spawn_rebels_from_unhappy_estate = {
 				as_if_faction = yes
 			}
 		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_antiquarians
+					NOT = {
+						estate_loyalty = {
+							estate = estate_antiquarians
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = particularist_rebels #Any better rebels?
+				size = $size$
+				estate = estate_antiquarians
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_army
+					NOT = {
+						estate_loyalty = {
+							estate = estate_army
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = noble_rebels
+				size = $size$
+				estate = estate_army
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_unions
+					NOT = {
+						estate_loyalty = {
+							estate = estate_unions
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = cowboy_rebels
+				size = $size$
+				estate = estate_unions
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_press
+					NOT = {
+						estate_loyalty = {
+							estate = estate_press
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = cowboy_rebels
+				size = $size$
+				estate = estate_press
+				as_if_faction = yes
+			}
+		}
 	}
 }
 
@@ -2720,6 +2936,46 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_cowboys
 			]
 		}
+		1 = { 
+			trigger = {
+				has_estate = estate_antiquarians
+				NOT = { has_country_flag = estate_antiquarians_$flag$ }
+			}
+			set_country_flag = estate_antiquarians_$flag$
+			[[estate_action]
+			$estate_action$ = estate_antiquarians
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_army
+				NOT = { has_country_flag = estate_army_$flag$ }
+			}
+			set_country_flag = estate_army_$flag$
+			[[estate_action]
+			$estate_action$ = estate_army
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_unions
+				NOT = { has_country_flag = estate_unions_$flag$ }
+			}
+			set_country_flag = estate_unions_$flag$
+			[[estate_action]
+			$estate_action$ = estate_unions
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_press
+				NOT = { has_country_flag = estate_press_$flag$ }
+			}
+			set_country_flag = estate_press_$flag$
+			[[estate_action]
+			$estate_action$ = estate_press
+			]
+		}
 	}
 }
 
@@ -2851,6 +3107,10 @@ re_add_loyalty_from_seized_land = {
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_vaisyas } }		add_estate_loyalty = { estate = estate_vaisyas			 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_scavengers } }		add_estate_loyalty = { estate = estate_scavengers		 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_cowboys } }		add_estate_loyalty = { estate = estate_cowboys			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_antiquarians } }	add_estate_loyalty = { estate = estate_antiquarians		 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_army } }			add_estate_loyalty = { estate = estate_army 			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_unions } }			add_estate_loyalty = { estate = estate_unions			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_press } }			add_estate_loyalty = { estate = estate_press			 loyalty = 20 } }
 	}
 }
 

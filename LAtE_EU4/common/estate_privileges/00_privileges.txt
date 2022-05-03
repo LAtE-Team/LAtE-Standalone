@@ -182,6 +182,26 @@ estate_brahmins_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -368,6 +388,26 @@ estate_nobles_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }
@@ -556,6 +596,26 @@ estate_church_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -742,6 +802,26 @@ estate_maratha_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }
@@ -930,6 +1010,26 @@ estate_burghers_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -1116,6 +1216,26 @@ estate_vaisyas_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }
@@ -1304,6 +1424,26 @@ estate_cossacks_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -1490,6 +1630,26 @@ estate_nomadic_tribes_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }
@@ -1678,6 +1838,26 @@ estate_dhimmi_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -1864,6 +2044,26 @@ estate_jains_land_rights = {
 		modifier = {
 			factor = 0.75
 			has_estate_privilege = estate_rajput_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
 		}
 	}
 }
@@ -2052,6 +2252,26 @@ estate_rajput_land_rights = {
 			factor = 0.75
 			has_estate_privilege = estate_jains_land_rights
 		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cowboys_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_antiquarians_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_army_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_unions_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_press_land_rights
+		}
 	}
 }
 
@@ -2067,6 +2287,7 @@ estate_nobles_nobility_primacy = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
+			NOT = { has_estate_privilege = estate_cowboys_cowboy_primacy }
 		}
 	}
 	on_granted = {

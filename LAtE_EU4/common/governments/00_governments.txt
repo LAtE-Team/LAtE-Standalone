@@ -37,6 +37,7 @@ monarchy = {
 				confucian_bureaucracy
 				musa_rule
 				mossi_federal_kingdom
+				open_range_feudalism
 			}
 		}
 		hereditary_vs_nobility = {

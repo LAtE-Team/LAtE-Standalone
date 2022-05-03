@@ -20,3 +20,1353 @@ country_event = {
 		name = estates_scavengers.1.b
 	}
 }
+
+# Common Artifact Found
+country_event = {
+	id = estates_scavengers.2
+	title = estates_scavengers.2.t
+	desc = estates_scavengers.2.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+	}
+
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.8
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				100 = { set_variable = { which = scavengers_common_variable value = 1 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 2 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 3 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 4 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 5 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 6 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 7 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 8 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 9 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 10 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 11 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 12 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 13 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 14 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 15 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 16 } }
+				100 = { set_variable = { which = scavengers_common_variable value = 17 } }
+			}
+		}
+	}
+
+	after = {
+		set_variable = { which = scavengers_common_variable value = 0 }
+	}
+
+	option = {
+		name = estates_scavengers.2.1.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 1 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 2 } }
+		}
+		add_country_modifier = { name = estate_scavengers_adm_tech duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.2.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 2 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 3 } }
+		}
+		add_country_modifier = { name = estate_scavengers_dip_tech duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.3.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 3 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 4 } }
+		}
+		add_country_modifier = { name = estate_scavengers_mil_tech duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.4.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 4 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 5 } }
+		}
+		add_country_modifier = { name = estate_scavengers_all_power duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.5.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 5 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 6 } }
+		}
+		add_country_modifier = { name = estate_scavengers_innovativeness duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.6.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 6 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 7 } }
+		}
+		add_country_modifier = { name = estate_scavengers_idea_cost duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.7.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 7 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 8 } }
+		}
+		add_country_modifier = { name = estate_scavengers_splendor duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.8.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 8 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 9 } }
+		}
+		add_country_modifier = { name = estate_scavengers_prestige duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.9.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 9 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 10 } }
+		}
+		add_country_modifier = { name = estate_scavengers_advisors duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.10.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 10 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 11 } }
+		}
+		add_country_modifier = { name = estate_scavengers_legitimacy duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.11.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 11 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 12 } }
+		}
+		add_country_modifier = { name = estate_scavengers_spy duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.12.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 12 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 13 } }
+		}
+		add_country_modifier = { name = estate_scavengers_missionary duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.13.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 13 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 14 } }
+		}
+		add_country_modifier = { name = estate_scavengers_trade_efficiency duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.14.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 14 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 15 } }
+		}
+		add_country_modifier = { name = estate_scavengers_trade_steering duration = 1825 }
+
+	}
+
+	option = {
+		name = estates_scavengers.2.15.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 15 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 16 } }
+		}
+		add_country_modifier = { name = estate_scavengers_improve_relation duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.16.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 16 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 17 } }
+		}
+		add_country_modifier = { name = estate_scavengers_army_tradition duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.17.a
+		trigger = {
+			check_variable = { which = scavengers_common_variable value = 17 }
+			NOT = { check_variable = { which = scavengers_common_variable value = 18 } }
+		}
+		add_country_modifier = { name = estate_scavengers_navy_tradition duration = 1825 }
+	}
+
+	option = {
+		name = estates_scavengers.2.b
+		add_treasury = 50
+	}
+}
+
+# Province Artifact Found Dev Cost
+province_event = {
+	id = estates_scavengers.3
+	title = estates_scavengers.3.t
+	desc = estates_scavengers.3.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.3.a
+		add_province_modifier = { name = estate_scavengers_province_dev duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.3.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Trade
+province_event = {
+	id = estates_scavengers.4
+	title = estates_scavengers.4.t
+	desc = estates_scavengers.4.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.4.a
+		add_province_modifier = { name = estate_scavengers_province_trade duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.4.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Defense
+province_event = {
+	id = estates_scavengers.5
+	title = estates_scavengers.5.t
+	desc = estates_scavengers.5.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.5.a
+		add_province_modifier = { name = estate_scavengers_province_defense duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.5.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Movespeed
+province_event = {
+	id = estates_scavengers.6
+	title = estates_scavengers.6.t
+	desc = estates_scavengers.6.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.6.a
+		add_province_modifier = { name = estate_scavengers_province_movespeed duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.6.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Ships
+province_event = {
+	id = estates_scavengers.7
+	title = estates_scavengers.7.t
+	desc = estates_scavengers.7.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.7.a
+		add_province_modifier = { name = estate_scavengers_province_ships duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.7.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Tax
+province_event = {
+	id = estates_scavengers.8
+	title = estates_scavengers.8.t
+	desc = estates_scavengers.8.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.8.a
+		add_province_modifier = { name = estate_scavengers_province_tax duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.8.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Artifact Found Production
+province_event = {
+	id = estates_scavengers.9
+	title = estates_scavengers.9.t
+	desc = estates_scavengers.9.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+	}
+
+	option = {
+		name = estates_scavengers.9.a
+		add_province_modifier = { name = estate_scavengers_province_prod duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.9.b
+		add_treasury = 100
+		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
+	}
+}
+
+# Province Depleated
+province_event = {
+	id = estates_scavengers.10
+	title = estates_scavengers.10.t
+	desc = estates_scavengers.10.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_estate_privilege = estate_scavengers_state_bands }
+		has_building = scavenging_hub
+		NOT = {
+			has_province_modifier = estate_scavengers_province_dev
+			has_province_modifier = estate_scavengers_province_trade
+			has_province_modifier = estate_scavengers_province_defense
+			has_province_modifier = estate_scavengers_province_movespeed
+			has_province_modifier = estate_scavengers_province_ships
+			has_province_modifier = estate_scavengers_province_tax
+			has_province_modifier = estate_scavengers_province_prod
+			has_province_modifier = estate_scavengers_province_empty
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600
+
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 50 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { estate_loyalty = { estate = estates_scavengers loyalty = 75 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+
+		modifier = {
+			factor = 0.8
+			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_dev } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_trade } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_defense } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_movespeed } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_ships } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_tax } } 
+		}
+
+		modifier = {
+			factor = 0.99
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_prod } } 
+		}
+	}
+
+	option = {
+		name = estates_scavengers.10.a
+		add_province_modifier = { name = estate_scavengers_province_empty duration = -1 }
+	}
+}
+
+# Rare Artifact Found Fire Damage
+country_event = {
+	id = estates_scavengers.11
+	title = estates_scavengers.11.t
+	desc = estates_scavengers.11.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_fire_dmg }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.11.a
+		add_country_modifier = { name = estate_scavengers_spec_fire_dmg duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.11.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Fire Damage
+country_event = {
+	id = estates_scavengers.12
+	title = estates_scavengers.12.t
+	desc = estates_scavengers.12.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_fire_dmg }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.12.a
+		add_country_modifier = { name = estate_scavengers_spec_fire_dmg duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.12.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Shock Damage
+country_event = {
+	id = estates_scavengers.13
+	title = estates_scavengers.13.t
+	desc = estates_scavengers.13.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_shock_def }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.13.a
+		add_country_modifier = { name = estate_scavengers_spec_shock_def duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.13.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Discipline
+country_event = {
+	id = estates_scavengers.14
+	title = estates_scavengers.14.t
+	desc = estates_scavengers.14.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_discipline }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.14.a
+		add_country_modifier = { name = estate_scavengers_spec_discipline duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.14.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Morale
+country_event = {
+	id = estates_scavengers.15
+	title = estates_scavengers.15.t
+	desc = estates_scavengers.15.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_morale }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.15.a
+		add_country_modifier = { name = estate_scavengers_spec_morale duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.15.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Siege
+country_event = {
+	id = estates_scavengers.16
+	title = estates_scavengers.16.t
+	desc = estates_scavengers.16.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_ability }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.16.a
+		add_country_modifier = { name = estate_scavengers_spec_ability duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.16.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Recover Morale
+country_event = {
+	id = estates_scavengers.17
+	title = estates_scavengers.17.t
+	desc = estates_scavengers.17.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_recover_morale }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.17.a
+		add_country_modifier = { name = estate_scavengers_spec_recover_morale duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.17.b
+		add_treasury = 200
+	}
+}
+
+# Rare Artifact Found Attrition
+country_event = {
+	id = estates_scavengers.18
+	title = estates_scavengers.18.t
+	desc = estates_scavengers.18.d
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		has_estate_privilege = estate_scavengers_state_bands
+		scavenging_hub = 1
+		NOT = { has_country_modifier = estate_scavengers_spec_attrition }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 1.1
+			NOT = { estate_loyalty = { estate = estates_scavengers loyalty = 25 } }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_loyalty = { estate = estates_scavengers loyalty = 75 }
+		}
+
+		modifier = {
+			factor = 0.9
+			estate_influence = { estate = estates_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 5
+		}
+
+		modifier = {
+			factor = 0.9
+			scavenging_hub = 15
+		}
+
+		modifier = {
+			factor = 0.9
+			has_estate_privilege = estate_scavengers_raise_payroll
+		}
+	}
+
+	option = {
+		name = estates_scavengers.18.a
+		add_country_modifier = { name = estate_scavengers_spec_attrition duration = -1 }
+	}
+
+	option = {
+		name = estates_scavengers.18.b
+		add_treasury = 200
+	}
+}
+
+# The Scavengers take control
+country_event = {
+	id = estates_scavengers.19
+	title = estates_scavengers.19.t
+	desc = estates_scavengers.19.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = scavengers_estate_in_power
+	}
+	
+	option = {
+		name = estates_scavengers.19.a	
+		add_stability = -1
+		add_country_modifier = {
+			name = scavengers_dominance
+			duration = -1
+		}
+	}
+}
+
+# Mages brought to heel
+country_event = {
+	id = estates_scavengers.20
+	title = estates_scavengers.20.t
+	desc = estates_scavengers.20.d
+	picture = DHIMMI_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estates_scavengers.20.a
+	}
+}

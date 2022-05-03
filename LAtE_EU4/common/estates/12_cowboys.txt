@@ -55,7 +55,10 @@ estate_cowboys =
 			unit_type = western
 			unit_type = mexican
 		}
-		NOT = { religion_group = oldworld }
+		OR = {
+			religion_group = christian
+			has_reform = open_range_feudalism
+		}
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
 			has_estate = estate_cowboys
@@ -133,6 +136,7 @@ estate_cowboys =
 	}
 
 	privileges = {
+		estate_cowboys_cowboy_primacy
 		estate_cowboys_land_rights
 		estate_cowboys_exploration_expedition
 		estate_cowboys_cowboy_self_governance
