@@ -1,8 +1,8 @@
-estate_army_disaster = {
+estate_anabaptists_disaster = {
 	potential = {
-		has_estate = estate_army
+		has_estate = estate_anabaptists
 		estate_influence = {
-			estate = estate_army
+			estate = estate_anabaptists
 			influence = 80
 		}
 	}
@@ -11,7 +11,7 @@ estate_army_disaster = {
 	can_start = {
 		has_any_disaster = no
 		estate_influence = {
-			estate = estate_army
+			estate = estate_anabaptists
 			influence = 100
 		}
 		is_at_war = no
@@ -22,7 +22,7 @@ estate_army_disaster = {
 			has_any_disaster = yes
 			NOT = {
 				estate_influence = {
-					estate = estate_army
+					estate = estate_anabaptists
 					influence = 100
 				}		
 			}
@@ -35,7 +35,7 @@ estate_army_disaster = {
 			factor = 1
 			NOT = {
 				estate_influence = {
-					estate = estate_army
+					estate = estate_anabaptists
 					influence = 100
 				}
 			}
@@ -47,7 +47,7 @@ estate_army_disaster = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_army
+					estate = estate_anabaptists
 					loyalty = 50
 				}
 			}
@@ -57,7 +57,7 @@ estate_army_disaster = {
 			factor = 0.5
 			NOT = {
 				estate_loyalty = {
-					estate = estate_army
+					estate = estate_anabaptists
 					loyalty = 40
 				}
 			}
@@ -67,7 +67,7 @@ estate_army_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_army
+					estate = estate_anabaptists
 					loyalty = 30
 				}
 			}
@@ -77,33 +77,36 @@ estate_army_disaster = {
 			factor = 1
 			NOT = {
 				estate_loyalty = {
-					estate = estate_army
+					estate = estate_anabaptists
 					loyalty = 20
 				}
 			}
 			is_at_war = no
-		}
+		}	
 	}
 	
 	can_end = {
 		custom_trigger_tooltip = {
-			tooltip = EST_CRUSHED_NOBLES
-			NOT = {
-				has_country_flag = army_estate_in_power
-			}
+			tooltip = EST_CRUSHED_PRESS
+			OR = {
+				NOT = { has_country_flag = anabaptists_estate_in_power }
+				has_country_flag = noble_estate_in_power
+				has_country_flag = church_estate_in_power
+			}						
 		}
 	}
 	
-	modifier = {
-		global_tax_modifier = -0.25
-		global_trade_power = -0.25
-		trade_efficiency = -0.25
+	modifier = {	
+		global_regiment_cost = 0.2
+		legitimacy = -1
+		global_missionary_strength = -1
 	}
+	
+	stability_hit_on_war = 1
 
-	on_start = LAtE_estate_disasters.2
-	on_end = LAtE_estate_disasters.3
+	on_start = LAtE_estate_disasters.10
+	on_end = LAtE_estate_disasters.11
 	
 	on_monthly = {
 	}
 }
-

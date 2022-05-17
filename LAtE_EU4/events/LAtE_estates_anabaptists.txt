@@ -1,0 +1,215 @@
+namespace = estates_anabaptists
+
+#Anabaptists Wish to become an estate
+country_event = {
+	id = estates_anabaptists.1
+	title = estates_anabaptists.1.t # Anabaptists requests privileges
+	desc = estates_anabaptists.1.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	major = yes
+
+    trigger = {
+        NOT = { has_country_flag = anabaptists_accepted }
+        NOT = { has_country_flag = anabaptists_rejected }
+        NOT = { has_country_flag = anabaptists_expelled }
+        religion_group = christian
+        any_owned_province = {
+            OR = {
+                has_province_modifier = anabaptists_present_small
+                has_province_modifier = anabaptists_present_medium
+                has_province_modifier = anabaptists_present_large
+                religion = anabaptist
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 3
+    }
+	
+	option = {
+		name = estates_anabaptists.1.a	
+        set_country_flag = anabaptists_accepted
+	}
+
+	option = {
+		name = estates_anabaptists.1.a	
+        set_country_flag = anabaptists_rejected
+	}
+}
+
+#Anabaptists growth in province
+province_event = {
+	id = estates_anabaptists.2
+	title = estates_anabaptists.2.t # Anabaptists requests privileges
+	desc = estates_anabaptists.2.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+    trigger = {
+        NOT = { owner = { has_country_modifier = estates_anabaptists_growth_cooldown } }
+        NOT = { has_province_modifier = anabaptists_present_large }
+        OR = {
+            owner = { has_estate_privilege = estate_anabaptists_allow_growth }
+            has_province_modifier = anabaptists_present_medium
+            has_province_modifier = anabaptists_present_small
+        }
+        NOT = { owner = { has_country_flag = anabaptists_expelled } }
+        owner = { religion_group = christian }
+    }
+
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.95
+            has_province_modifier = anabaptists_present_small
+        }
+        modifier = {
+            factor = 0.9
+            has_province_modifier = anabaptists_present_medium
+        }
+        modifier = {
+            factor = 0.75
+            religion = anabaptist
+        }
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 25
+                }
+            }
+        }
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 50
+                }
+            }
+        }
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 75
+                }
+            }
+        }
+    }
+
+    immediate = {
+        owner = {
+            add_country_modifier = {
+                name = estates_anabaptists_growth_cooldown
+                duration = 12
+                hidden = yes
+            }
+        }
+    }
+	
+	option = {
+		name = estates_anabaptists.2.a	
+        if = {
+            limit = { has_province_modifier = anabaptists_present_medium }
+            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium  }
+            add_province_triggered_modifier = anabaptists_present_large
+        }
+        else_if = {
+            limit = { has_province_modifier = anabaptists_present_small }
+            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_small  }
+            add_province_triggered_modifier = anabaptists_present_medium
+        }
+        else = {
+            add_province_triggered_modifier = anabaptists_present_small
+        }
+	}
+
+	option = {
+		name = estates_anabaptists.2.b	
+        owner = {
+            add_estate_loyalty_modifier = {
+                estate = estates_anabaptists
+                desc = EST_ANA_GROWTH
+                loyalty = -10
+                duration = 3650
+            }
+        }
+	}
+}
+
+#Anabaptists conversion
+province_event = {
+	id = estates_anabaptists.3
+	title = estates_anabaptists.3.t # Anabaptists requests privileges
+	desc = estates_anabaptists.3.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+    trigger = {
+        NOT = { owner = { has_country_modifier = estates_anabaptists_conversion_cooldown } }
+        has_province_modifier = anabaptists_present_large
+        owner = { has_estate_privilege = estate_anabaptists_allow_proselytization }
+    }
+
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 25
+                }
+            }
+        }
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 50
+                }
+            }
+        }
+        modifier = {
+            factor = 0.75
+            owner = {
+                estate_influence = {
+                    estate = estates_anabaptists
+                    influence = 75
+                }
+            }
+        }
+    }
+
+    immediate = {
+        owner = {
+            add_country_modifier = {
+                name = estates_anabaptists_conversion_cooldown
+                duration = 12
+                hidden = yes
+            }
+        }
+    }
+	
+	option = {
+		name = estates_anabaptists.3.a	
+        change_religion = anabaptist
+	}
+
+	option = {
+		name = estates_anabaptists.3.b	
+        owner = {
+            add_estate_loyalty_modifier = {
+                estate = estates_anabaptists
+                desc = EST_ANA_RELIGION
+                loyalty = -10
+                duration = 3650
+            }
+        }
+	}
+}
+

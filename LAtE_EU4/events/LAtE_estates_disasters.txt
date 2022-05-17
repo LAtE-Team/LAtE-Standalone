@@ -171,7 +171,7 @@ country_event = {
 	}
 	
 	option = {
-		name = estate_disasters.8.a	
+		name = LAtE_estate_disasters.8.a	
 		add_stability = -1
 		custom_tooltip = LAtE_estate_disasters.8.a.tt
 	}
@@ -189,5 +189,41 @@ country_event = {
 	
 	option = {
 		name = LAtE_estate_disasters.9.a
+	}
+}
+
+# Powerful Anabaptists Society
+country_event = {
+	id = LAtE_estate_disasters.10
+	title = LAtE_estate_disasters.10.t
+	desc = LAtE_estate_disasters.10.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = anabaptists_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.10.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.10.a.tt
+	}
+}
+
+# Anabaptists brought to heel
+country_event = {
+	id = LAtE_estate_disasters.11
+	title = LAtE_estate_disasters.11.t
+	desc = LAtE_estate_disasters.11.d
+	picture = 10_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.11.a
 	}
 }

@@ -1,11 +1,14 @@
-estate_jains = {
+estate_anabaptists = {
 	icon = 11
 
 	# If true, country will get estate
 	
 	trigger = {	
-		has_dlc = "Dharma"
-		technology_group = indian
+		OR = {
+            has_estate = estate_anabaptists
+            has_country_flag = anabaptists_accepted
+        }
+        NOT = { has_country_flag = anabaptists_expelled }
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
 		NOT = { is_revolutionary_republic_trigger = yes }
@@ -29,11 +32,10 @@ estate_jains = {
 		build_cost = -0.10
 	}	
 	country_modifier_angry = {
-		interest = 1
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
-		jains_loyalty_modifier = 0.2
+		anabaptists_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {
@@ -41,13 +43,6 @@ estate_jains = {
 		modifier = {
 			factor = 0.1
 			NOT = { development = 5 }
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { religion_group = dharmic }
-			NOT = { religion = buddhism }
-			NOT = { religion = vajrayana }
-			NOT = { religion = mahayana }
 		}
 		modifier = {
 			factor = 0.5
@@ -72,10 +67,6 @@ estate_jains = {
 			factor = 1.5
 			province_trade_power = 20
 		}
-		modifier = {
-			factor = 1.5
-			has_province_modifier = paryushana
-		}
 	}
 
 	# Influence modifiers
@@ -89,6 +80,7 @@ estate_jains = {
 				has_disaster = estate_burghers_disaster
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
 				has_disaster = estate_scavengers_disaster
 			}
 		}
@@ -104,6 +96,7 @@ estate_jains = {
 				has_disaster = estate_burghers_disaster
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
 				has_disaster = estate_scavengers_disaster
 			}
 		}
@@ -111,47 +104,43 @@ estate_jains = {
 	}
 
 	privileges = {
-		estate_jains_land_rights
-		estate_jains_diplomacy
-		estate_jains_clerical_class
-		estate_jains_indebted_to_jains
-		estate_jains_conscientious_objection
-		estate_jains_control_over_monetary_policy
-		estate_jains_exclusive_trade_rights
-		estate_jains_private_trade_fleets
-		estate_jains_monopoly_of_textiles
-		estate_jains_monopoly_of_dyes
-		estate_jains_monopoly_of_glass
-		estate_jains_monopoly_of_paper
-		estate_jains_grant_liberties
+		estate_anabaptists_land_rights
+		estate_anabaptists_allow_growth
+		estate_anabaptists_allow_proselytization
+		estate_anabaptists_guaranteed_autonomy
+		estate_anabaptists_clerical_class
+		estate_anabaptists_conscientious_objection
+		estate_anabaptists_control_over_monetary_policy
+		estate_anabaptists_exclusive_trade_rights
+		estate_anabaptists_private_trade_fleets
+		estate_anabaptists_grant_liberties
 	}
 	
 	agendas = {
-		estate_jains_build_trade_building_in_y
-		estate_jains_build_port_building_in_y
-		estate_jains_build_production_building_in_y
-		estate_jains_build_manufactory_in_y
-		estate_jains_build_university_in_y
-		estate_jains_pay_off_loans
-		estate_jains_restore_republican_tradition
-		estate_jains_restore_currency
-		estate_jains_recovery_from_hyperinflation
-		estate_jains_increase_trade_power_in_X
-		estate_jains_access_sea
-		estate_jains_build_a_fleet
-		estate_jains_bigger_fleet_than_rival
-		estate_jains_improve_dip_rep
-		estate_jains_get_cash
-		estate_jains_develop_x
-		estate_jains_reduce_corruption
-		estate_jains_stop_converting_province_x
-		estate_jains_three_privileges
-		estate_jains_protect_against_piracy
-		estate_jains_hire_advisor
-		estate_jains_fire_advisor
+		estate_anabaptists_build_trade_building_in_y
+		estate_anabaptists_build_port_building_in_y
+		estate_anabaptists_build_production_building_in_y
+		estate_anabaptists_build_manufactory_in_y
+		estate_anabaptists_build_university_in_y
+		estate_anabaptists_pay_off_loans
+		estate_anabaptists_restore_republican_tradition
+		estate_anabaptists_restore_currency
+		estate_anabaptists_recovery_from_hyperinflation
+		estate_anabaptists_increase_trade_power_in_X
+		estate_anabaptists_access_sea
+		estate_anabaptists_build_a_fleet
+		estate_anabaptists_bigger_fleet_than_rival
+		estate_anabaptists_improve_dip_rep
+		estate_anabaptists_get_cash
+		estate_anabaptists_develop_x
+		estate_anabaptists_reduce_corruption
+		estate_anabaptists_three_privileges
+		estate_anabaptists_protect_against_piracy
+		estate_anabaptists_hire_advisor
+		estate_anabaptists_fire_advisor
 	}
 
-	color = { 65 115 240 }
+	color = { 105 75 45 }
 	
 	influence_from_dev_modifier = 1.0
 }

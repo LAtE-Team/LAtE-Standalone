@@ -1,0 +1,41 @@
+anabaptists_present_small = {
+	potential = {
+	}
+	trigger = {
+		owner = {
+			OR = {
+				NOT = { has_estate = estate_anabaptists }
+	           		NOT = { estate_loyalty = { estate = estate_anabaptists loyalty = 30 } }
+			}
+		}
+	}
+    min_local_autonomy = 10
+}
+
+anabaptists_present_medium = {
+	potential = {
+	}
+	trigger = {
+		owner = {
+			OR = {
+				NOT = { has_estate = estate_anabaptists }
+	           		NOT = { estate_loyalty = { estate = estate_anabaptists loyalty = 30 } }
+			}
+		}
+	}
+    min_local_autonomy = 30
+}
+
+anabaptists_present_large = {
+	potential = {
+	}
+	trigger = {
+		owner = {
+			OR = {
+				NOT = { has_estate = estate_anabaptists }
+	           		NOT = { estate_loyalty = { estate = estate_anabaptists loyalty = 30 } }
+			}
+		}
+	}
+    min_local_autonomy = 50
+}

@@ -97,6 +97,14 @@ on_province_owner_change_LAtE_estate_privileges_effects = {
 	}
 }
 
+scaled_estate_anabaptists_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_anabaptists }
+}
+
+scaled_estate_anabaptists_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_anabaptists }
+}
+
 scaled_estate_scavengers_land_share_effect = {
 	scaled_estate_land_share_add_effect = { estate = estate_scavengers }
 }

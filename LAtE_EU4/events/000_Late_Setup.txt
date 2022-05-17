@@ -18,4 +18,8 @@ country_event = {
 			}
 		}
 	}
+
+	option = {
+		name = late_setup.1.a
+	}
 }

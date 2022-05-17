@@ -1,0 +1,579 @@
+estate_anabaptists_land_rights = {
+	icon = privilege_grant_autonomy
+	land_share = 5
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		governing_capacity = 100
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.4
+			num_of_territories = 5
+		}
+		modifier = {
+			factor = 1.5
+			num_of_territories = 10
+		}
+		modifier = {
+			factor = 1.5
+			num_of_territories = 15
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 25 }
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_land_rights }
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				AND = {
+					governing_capacity_percentage = 0.9
+					NOT = { has_estate_privilege = estate_anabaptists_land_rights }
+				}
+				#The trigger below should make sure that the AI actually keeps this privilege when enacting it early game
+				AND = {
+					governing_capacity_percentage = 0.6
+					has_estate_privilege = estate_anabaptists_land_rights
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { governing_capacity_percentage = 0.5 }
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { crown_land_share = 40 }
+				AND = {
+					is_absolutism_active = yes
+					NOT = { crown_land_share = 60 }
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_land_rights }
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { crown_land_share = 30 }
+				AND = {
+					is_absolutism_active = yes
+					NOT = { crown_land_share = 50 }
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_land_rights }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 2
+			governing_capacity_percentage = 0.9
+		}
+		modifier = {
+			factor = 3
+			governing_capacity_percentage = 1
+		}
+		modifier = {
+			factor = 10
+			governing_capacity_percentage = 1.2
+		}
+		modifier = {
+			factor = 8
+			NOT = { adm_tech = 12 }
+			governing_capacity_percentage = 0.8
+		}
+		modifier = {
+			factor = 5
+			NOT = { adm_tech = 12 }
+			NOT = { government_rank = 1 }
+			governing_capacity_percentage = 0.65
+		}
+		#Tag specific convincement - after tech 17 (+250 governing capacity) it should not play a role anymore
+		modifier = {
+			factor = 1.25
+			tag = MOS
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = RUS
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = TUR
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = MNG
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = FRA
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = SPA
+			NOT = { adm_tech = 17 }
+		}
+		modifier = {
+			factor = 1.25
+			tag = PLC
+			NOT = { adm_tech = 17 }
+		}
+		#Has already a similar privilege active
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_brahmins_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_nobles_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_church_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_maratha_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_burghers_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_vaisyas_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_cossacks_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_nomadic_tribes_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_dhimmi_land_rights
+		}
+		modifier = {
+			factor = 0.75
+			has_estate_privilege = estate_rajput_land_rights
+		}
+	}
+}
+
+estate_anabaptists_allow_growth = {
+	icon = privilege_diplo_power
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.1
+	is_valid = {
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_anabaptists_allow_proselytization }
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		global_tax_modifier = 0.1
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { crown_land_share = 35 }
+				AND = {
+					is_absolutism_active = yes
+					NOT = { crown_land_share = 55 }
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
+		}
+	}
+}
+
+estate_anabaptists_allow_proselytization = {
+	icon = privilege_diplo_power
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.1
+	is_valid = {
+		culture_group = amerodeutsch
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_anabaptists_allow_growth }
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		global_tax_modifier = 0.2
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 75
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
+		}
+		modifier = {
+			factor = 0.8
+			OR = {
+				NOT = { crown_land_share = 35 }
+				AND = {
+					is_absolutism_active = yes
+					NOT = { crown_land_share = 55 }
+				}
+			}
+			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
+		}
+	}
+}
+
+estate_anabaptists_guaranteed_autonomy = {
+	icon = privilege_grant_autonomy
+	max_absolutism = -5
+	loyalty = 0.2
+	influence = 0.05
+	is_valid = {
+		NOT = { religion = anabaptist }
+		any_owned_province = {
+			religion = anabaptist
+		}
+	}
+	on_granted = {
+		custom_tooltip = estate_anabaptists_guaranteed_autonomy_effect_tooltip
+		hidden_effect = {
+			set_country_flag = anabaptists_tolerates_wrong_religion
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				religion = anabaptist
+			}
+			add_province_modifier = {
+				name = estate_anabaptists_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_anabaptists_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = anabaptists_tolerates_wrong_religion
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_anabaptists_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = anabaptists_tolerates_wrong_religion
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					NOT = { religion_group = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+			overlord = {
+				religion = ROOT
+				has_idea_group = religious_ideas
+			}
+		}
+	}
+}
+
+estate_anabaptists_clerical_class = {
+	icon = privilege_patronize_jain_families
+	loyalty = 0.1
+	max_absolutism = -10
+	influence = 0.1
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		state_maintenance_modifier = -0.25
+		development_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_anabaptists_conscientious_objection = {
+	icon = privilege_commission_jain_scripture
+	max_absolutism = -5
+	loyalty = 0.1
+	penalties = {
+		global_manpower_modifier = -0.1
+	}
+	benefits = {
+		yearly_corruption = -0.1
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_anabaptists_control_over_monetary_policy = {
+	icon = privilege_give_money
+	max_absolutism = -10
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+	}
+	penalties = {
+		all_power_cost = 0.05
+	}
+	benefits = {
+		inflation_reduction = 0.15
+		interest = -0.5
+		production_efficiency = 0.05
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			OR = {
+				inflation = 15
+				num_of_loans = 15
+			}
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_anabaptists_exclusive_trade_rights = {
+	icon = privilege_make_generous_donation
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0.05
+	is_valid = {
+		any_active_trade_node = {
+			calc_true_if = {
+				amount = 3
+				all_trade_node_member_province = {
+					owned_by = root
+					province_has_center_of_trade_of_level = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		random_active_trade_node = {
+			limit = {
+				calc_true_if = {
+					amount = 3
+					all_trade_node_member_province = {
+						owned_by = root
+						province_has_center_of_trade_of_level = 1
+					}
+				}
+			}
+			custom_tooltip = estate_burghers_exclusive_trade_rights_enact_tooltip
+			hidden_effect = {
+				every_trade_node_member_province = {
+					limit = {
+						owned_by = root
+						province_has_center_of_trade_of_level = 1
+					}
+					add_province_modifier = {
+						name = estate_burghers_exclusive_trade_rights_mod
+						duration = -1
+					}
+				}
+			}
+		}
+		add_mercantilism = 3
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+			}
+			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+			}
+			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_anabaptists_private_trade_fleets = {
+	icon = privilege_comission_merchant_ships_for_war
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		any_owned_province = {
+			has_port = yes
+		}
+		navy_size = 1
+	}
+	penalties = {
+	}
+	benefits = {
+		light_ship_cost = -0.2
+		global_ship_trade_power = 0.1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			num_of_light_ship = 15
+			trade_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_anabaptists_grant_liberties = {
+	icon = privilege_tolerance_heathen
+	max_absolutism = -10
+	influence = 0.1
+	loyalty = 0.1
+	is_valid = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

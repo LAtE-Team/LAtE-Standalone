@@ -124,12 +124,9 @@ estate_unions = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_jains_disaster
-				has_disaster = estate_scavengers_disaster
+				has_disaster = estate_antiquarians_disaster
+				has_disaster = estate_army_disaster
+				has_disaster = estate_press_disaster
 			}
 		}	
 		influence = -40
@@ -139,12 +136,9 @@ estate_unions = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
 			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_jains_disaster
-				has_disaster = estate_scavengers_disaster
+				has_disaster = estate_antiquarians_disaster
+				has_disaster = estate_army_disaster
+				has_disaster = estate_press_disaster
 			}
 		}
 		loyalty = -20

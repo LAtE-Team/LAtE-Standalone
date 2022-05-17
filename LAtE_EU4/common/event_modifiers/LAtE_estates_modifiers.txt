@@ -28,3 +28,15 @@ estate_unions_old_world_construction_mod = {
 	local_build_time = -0.1
 	local_great_project_upgrade_cost = -0.05
 }
+
+estates_anabaptists_growth_cooldown = {
+}
+
+estates_anabaptists_conversion_cooldown = {
+}
+
+estate_anabaptists_guaranteed_autonomy_mod = {
+	religion = yes
+	local_religious_unity_contribution = -1
+	local_missionary_strength = -1
+}

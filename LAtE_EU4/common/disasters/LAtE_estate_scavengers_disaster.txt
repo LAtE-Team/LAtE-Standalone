@@ -1,4 +1,3 @@
-
 estate_scavengers_disaster = {
 	potential = {
 		has_estate = estate_scavengers

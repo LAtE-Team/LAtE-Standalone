@@ -1,16 +1,17 @@
-estate_scavengers = {
+estate_anabaptists = {
 	modifier_definition = {
 		type = loyalty
-		key = scavengers_loyalty_modifier
+		key = anabaptists_loyalty_modifier
 		trigger = {
-			has_estate = estate_scavengers
+			has_estate = estate_anabaptists
 		}
 	}
+
 	modifier_definition = {
 		type = influence
-		key = scavengers_influence_modifier
+		key = anabaptists_influence_modifier
 		trigger = {
-			has_estate = estate_scavengers
+			has_estate = estate_anabaptists
 		}
 	}
 }
@@ -29,6 +30,23 @@ estate_cowboys = {
 		key = cowboys_influence_modifier
 		trigger = {
 			has_estate = estate_cowboys
+		}
+	}
+}
+
+estate_scavengers = {
+	modifier_definition = {
+		type = loyalty
+		key = scavengers_loyalty_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = scavengers_influence_modifier
+		trigger = {
+			has_estate = estate_scavengers
 		}
 	}
 }

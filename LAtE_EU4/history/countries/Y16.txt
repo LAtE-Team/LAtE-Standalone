@@ -8,6 +8,7 @@ primary_culture = hudsonian
 religion = anabaptist
 clear_scripted_personalities = yes
 capital = 4583
+set_country_flag = anabaptists_accepted
 3053.1.1 {
 	monarch = {
 		name = "Josiah"
