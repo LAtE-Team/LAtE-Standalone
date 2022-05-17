@@ -7228,7 +7228,6 @@ eastern_aryan = {
 		}
 	}
 	sinhala = {
-		primary = CEY
 		dynasty_names = {
 			"Kotteid" "Konnapu Bandara" "Gampolan" "Savulu"
 		}

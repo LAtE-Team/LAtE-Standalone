@@ -280,7 +280,7 @@ country_event = {
 				duration = 3650
 			}
 		}
-		hispaniola_area = {
+		haiti_area = {
 			limit = {
 				owned_by = ROOT
 			}
@@ -313,7 +313,7 @@ country_event = {
 				duration = 3650
 			}
 		}
-		hispaniola_area = {
+		haiti_area = {
 			limit = {
 				owned_by = ROOT
 			}

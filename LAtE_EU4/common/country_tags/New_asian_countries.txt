@@ -1,34 +1,34 @@
 
 #The Philippines
-DAV = countries/Davao.txt
-MNL = countries/Manila.txt
-PHL = countries/Philippines.txt
+DAV = "countries/Davao.txt"
+MNL = "countries/Manila.txt"
+PHL = "countries/Philippines.txt"
 
 #Russia
-VLG = countries/Vologda.txt
-VLD = countries/Vladimir.txt
-KOM = countries/Komi.txt
-KRS = countries/Krasnoyarsk.txt
-ALT = countries/AltaiUriankhai.txt
-HEI = countries/Heilongjiang.txt
-AMU = countries/Amur.txt
+VLG = "countries/Vologda.txt"
+VLD = "countries/Vladimir.txt"
+KOM = "countries/Komi.txt"
+KRS = "countries/Krasnoyarsk.txt"
+ALT = "countries/AltaiUriankhai.txt"
+HEI = "countries/Heilongjiang.txt"
+AMU = "countries/Amur.txt"
 
-STP = countries/StPetersburg.txt
-OMS = countries/Omsk.txt
-NVS = countries/NovoSibirsk.txt
-IRK = countries/Irkutsk.txt
+STP = "countries/StPetersburg.txt"
+OMS = "countries/Omsk.txt"
+NVS = "countries/NovoSibirsk.txt"
+IRK = "countries/Irkutsk.txt"
 
 #Kazakhstan
-TSE = countries/Tselinsky.txt
-KRG = countries/Karaganda.txt
-KYZ = countries/Kyzlorda.txt
-ATB = countries/Aktobe.txt
+TSE = "countries/Tselinsky.txt"
+KRG = "countries/Karaganda.txt"
+KYZ = "countries/Kyzlorda.txt"
+ATB = "countries/Aktobe.txt"
 
 #Papers, Please
-OBR = countries/Obristan.txt
-KLC = countries/Kolechia.txt
-ARZ = countries/Arstotzka.txt
-ATG = countries/Antegra.txt
-REP = countries/Republia.txt
-IMP = countries/Impor.txt
-UNF = countries/United_Federation.txt
+OBR = "countries/Obristan.txt"
+KLC = "countries/Kolechia.txt"
+ARZ = "countries/Arstotzka.txt"
+ATG = "countries/Antegra.txt"
+REP = "countries/Republia.txt"
+IMP = "countries/Impor.txt"
+UNF = "countries/United_Federation.txt"

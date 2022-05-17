@@ -1,4 +1,4 @@
-CST = countries/Charleston.txt
-HOU = countries/Houston.txt
-KOO = countries/Kootenay.txt
-UUN = countries/Uunaay.txt
+CST = "countries/Charleston.txt"
+HOU = "countries/Houston.txt"
+KOO = "countries/Kootenay.txt"
+UUN = "countries/Uunaay.txt"
