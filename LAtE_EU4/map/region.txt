@@ -1174,7 +1174,6 @@ great_lakes_region = {
 
 northeast_america_region = {
 	areas = {
-		great_woods_area
 		massachusetts_bay_area
 		connecticut_valley_area
 		hudson_valley_area
@@ -1185,6 +1184,9 @@ northeast_america_region = {
 		maine_area
 		maryland_area
 		#AtE Additions
+		vermont_area
+		new_hampshire_area
+		aroostook_area
 		cayuga_area
 		niagara_area
 		gotham_area

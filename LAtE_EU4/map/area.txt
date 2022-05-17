@@ -2878,89 +2878,17 @@ potosi_area = { #4
 # North America						   #
 ########################################
 
-# great_woods_area = { #3
-	# 969 2563 2564
-# }
-
-# maine_area = { #4
-	# 971 2565 2566 2567
-# }
-
 massachusetts_bay_area = { #4
-	968 970 2013 2561
+	967 968 2561
 }
 
 connecticut_valley_area = { #5
-	966 967 2010 2560 2562
+	966 2010 2560 4542
 }
-
-# hudson_valley_area = { #4
-	# 963 965 2558 2639
-# }
-
-# delaware_valley_area = { #5
-	# 955 956 957 962 2023
-# }
 
 iroquoisia_area = { #5
-	958 959 960 961 964
+	960 961 964 2559
 }
-
-# south_iroquoisia_area = { #3	Removed
-	# 969 2559 2563
-# }
-
-# susquehanna_area = { #4
-	# 954 2555 2556 2557
-# }
-
-# maryland_area = { #3
-	# 953 2553 2554
-# }
-
-# chesapeake_area = { #4
-	# 950 952 2549 2550
-# }
-
-# great_valley_area = { #3
-	# 949 2011 2552
-# }
-
-# piedmont_north_america_area = { #3
-	# 937 2544 2545
-# }
-
-# carolinas_area = { #3
-	# 938 2546 2547
-# }
-
-# south_carolina_area = { #5
-	# 932 933 2541 2542 2543
-# }
-
-# american_georgia_area = { #3
-	# 929 2539 2540
-# }
-
-# upper_american_georgia_area = { #3
-	# 930 931 2537 2538
-# }
-
-# florida_area = { #3
-	# 926 2535 2536
-# }
-
-# north_florida_area = { #3
-	# 927 928 2534
-# }
-
-# appalachia_area = { #3
-	# 951 2526 2551
-# }
-
-# south_appalachia_area = { #3
-	# 935 936 2548
-# }
 
 west_florida_area = { #5
 	921 922 923 2530 2533
@@ -3414,7 +3342,7 @@ straits_of_georgia_area = { #4
 # }
 
 restigouche_area = {
-	2567 4546 2571 2572
+	2567 2571 2572
 }
 
 shield_area = {
@@ -3496,15 +3424,23 @@ fort_smith_area = {
 #New England
 
 maine_area = { 
-	971 2565 2566 4544 4545
+	971 2013 2565 2566 4544
 }
 
-great_woods_area = { 
-	969 2563 2564 4543 2559
+aroostook_area = {
+	2567 4545 4546
+}
+
+vermont_area = { #was great_woods_area
+	969 2563 4543
+}
+
+new_hampshire_area = {
+	2562 2564 970
 }
 
 hudson_valley_area = { 
-	2558 4542 4584 4541 4583
+	2558 4584 4541 4583
 }
 
 cayuga_area = {	#Defunct
@@ -3512,7 +3448,7 @@ cayuga_area = {	#Defunct
 }
 
 niagara_area = {
-	4578 4577 4580
+	958 959 4578 4577 4580
 }
 
 gotham_area = {

@@ -84,7 +84,13 @@ country_decisions = {
 				}
 				add_permanent_claim = NEN
 			}
-			great_woods_area = {
+			vermont_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NEN
+			}
+			new_hampshire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
