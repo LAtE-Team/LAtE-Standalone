@@ -2032,7 +2032,7 @@ que_western = {
 		position = 8
 		provinces_to_highlight = {
 			OR = {
-				area = hispaniola_area
+				area = haiti_area
 				province_id = 1881
 				province_id = 496
 				province_id = 497
@@ -2044,7 +2044,7 @@ que_western = {
 			}
 		}
 		trigger = {
-			hispaniola_area = {
+			haiti_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -2287,7 +2287,7 @@ que_africa = {
 				name = "canadian_france_restored"
 				duration = 5475
 			}
-			hispaniola_area = {
+			haiti_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
