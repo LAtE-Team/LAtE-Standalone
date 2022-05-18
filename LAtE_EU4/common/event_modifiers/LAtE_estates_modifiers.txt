@@ -40,3 +40,9 @@ estate_anabaptists_guaranteed_autonomy_mod = {
 	local_religious_unity_contribution = -1
 	local_missionary_strength = -1
 }
+
+agenda_privateering_cowboys = {
+	privateer_efficiency = 0.15
+}
+
+recent_estate_cowboys_reply_of_the_zaporozhian_timer = { }

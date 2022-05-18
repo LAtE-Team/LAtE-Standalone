@@ -107,7 +107,7 @@ province_event = {
         owner = {
             add_country_modifier = {
                 name = estates_anabaptists_growth_cooldown
-                duration = 12
+                duration = 365
                 hidden = yes
             }
         }
@@ -191,7 +191,7 @@ province_event = {
         owner = {
             add_country_modifier = {
                 name = estates_anabaptists_conversion_cooldown
-                duration = 12
+                duration = 365
                 hidden = yes
             }
         }

@@ -132,7 +132,6 @@ estate_anabaptists = {
 		estate_anabaptists_bigger_fleet_than_rival
 		estate_anabaptists_improve_dip_rep
 		estate_anabaptists_get_cash
-		estate_anabaptists_develop_x
 		estate_anabaptists_reduce_corruption
 		estate_anabaptists_three_privileges
 		estate_anabaptists_protect_against_piracy

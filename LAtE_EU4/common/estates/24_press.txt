@@ -126,7 +126,6 @@ estate_press = {
 		estate_press_bigger_fleet_than_rival
 		estate_press_improve_dip_rep
 		estate_press_get_cash
-		estate_press_develop_x
 		estate_press_reduce_corruption
 		estate_press_three_privileges
 		estate_press_protect_against_piracy

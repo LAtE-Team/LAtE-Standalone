@@ -70,7 +70,10 @@ estate_scavengers =
 	influence_modifier = {	
 		desc = EST_MANY_SCAVENGING_HUBS
 		trigger = {
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 		influence = 5
 	}

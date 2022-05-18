@@ -288,7 +288,6 @@ on_colonial_reintegration = {
 # country
 on_peace_actor = {
 	events = {
-		usa_dlc.36				# Evacuation Day
 		native_americans.7		# Appoint Peace Chief
 	}
 }
@@ -303,7 +302,6 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
-	FROM = { country_event = { id = flavor_cri.6 } }
 	ROOT = { country_event = { id = tributary_events.32 } }
 	
 	if = {
@@ -348,7 +346,6 @@ on_war_won = {
 # country
 # root = loser country, from = winner country
 on_war_lost = {
-	ROOT = { country_event = { id = flavor_cri.6 } }
 	ROOT = { country_event = { id = tributary_events.32 } }
 	if = {
         limit = {
@@ -413,7 +410,6 @@ on_battle_won_province = {
 	}
 	random_events = {
 		1000 = 0
-		100 = war_of_the_roses.6	# WotR - Rebel Leaders Captured
 	}
 }
 
@@ -461,7 +457,6 @@ on_company_disolved ={
 on_battle_lost_province = {
 	random_events = {
 		1000 = 0
-		100 = tyw_events.22	# Capital Battle in Religious War
 	}
 }
 
@@ -486,9 +481,6 @@ on_siege_won_country = {
 		}
 	}
 	grant_manpower_from_capital_slave_raid = yes
-	events = {
-		tyw_events.14 # Fall of Prague in Religious War
-	}
 	random_events = {
 		10 = army_professionalism_events.1 #City Sacked
 		100 = 0
@@ -507,9 +499,6 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
-	events = {
-		synthetic_dawn.4
-	}
 	if = {
 		limit = {
 			from = {
@@ -557,10 +546,6 @@ on_siege_won_province = {
 # root = location, from = winning country
 on_siege_lost_province =  {
 	events = {
-		war_of_the_roses.10		# Lancaster Stronghold
-		war_of_the_roses.11		# York Stronghold
-		french_wars_of_religion.7 #Ravening Religious Fanatics
-		french_wars_of_religion.9 #french_wars_of_religion.9
 	}
 }
 
@@ -632,37 +617,15 @@ on_new_monarch = {
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
 		9492 					# Remove some event modifiers
-		flavor_boh.8			# Winter King in Prague
-		flavor_kol.1			# Bavarian Archbishop
-		war_of_the_roses.101	# WotR - House of Lancaster wins
-		war_of_the_roses.102	# WotR - House of York wins
-		war_of_the_roses.106	# WotR - Another dynasty has seized the throne
-		flavor_tur.102			# Janissary Reward
-		flavor_ori.7			# Hamvira Victorious
-		flavor_kbo.1			# The two branches of the Sayfawa dynasty
-		flavor_kbo.8			# Sayfawa pretenders
-		flavor_zan.5			# Coup of Coup of Suleiman and Muhammad al-Mazlum.
-		purple_phoenix.1		# BYZ pretenders
-		flavor_pol.3480			# The Pacta Conventa
 		protestantism_events.15	# Catholic Leaning Monarch
 		tengri_events.17		# Keep the Khojas in Power?
-		flavor_tus.15			# Savonarola Dies
-		flavor_brapru.22		# Succession of Albrecht Achilles
-		flavor_brapru.25		# Dispositio Achillea (can also trigger from flavor_brapru.22)
-		flavor_nor.27			# Proclamation in Hamar
 		china_events.43			# Picking new Capital for China
 		celestial_empire_events.3 #Resistance to Sinicization
-		flavor_boh.2			#Heretic Kings
-		flavor_hun.17			#Maintaining the Black Army
-		flavor_tim.1			#Death of Shah Rukh
 		muslim_school_events.20 #No Religious School
 		flavor_daimyo.4			#Shiba Yoshikado
-		flavor_fra.9000			# François Villon
 	}
 	random_events = { 
 		1000 = 0
-		100 = flavor_kol.1		# Bavarian Archbishop
-		100 = flavor_hsa.3		# Hansa: Tagfahrt
 		100 = inti_events.1		# Birth of a Panaca
 		50 = dynastic_events.4	
 		50 = dynastic_events.5	
@@ -690,7 +653,6 @@ on_new_consort = {
 	}
 	random_events = {
 		1000 = 0
-		25 = polynesian.16 #fijian marriage
 	}
 }
 
@@ -2564,8 +2526,6 @@ on_four_year_pulse = {
 		100 = china_events.44
 
 		10 = tortoise.1 # Galapagos Island Tortoises
-		
-		100 = flavor_pue.5
 		
 		#Totemism Events
 		100 = totemism_flavor.1

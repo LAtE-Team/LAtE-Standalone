@@ -1232,10 +1232,10 @@ estate_cowboys_recruit_more_cowboys = {
 	can_select = {
 		has_estate_privilege = estate_cowboys_establish_the_cowboy_regiments
 		OR = {
-			NOT = { cowboys_percentage = 0.1 }
+			NOT = { cossacks_percentage = 0.1 }
 			AND = {
 				has_estate_privilege = estate_cowboys_expand_the_cowboy_regiments
-				NOT = { cowboys_percentage = 0.2 }
+				NOT = { cossacks_percentage = 0.2 }
 			}
 		}
 	}
@@ -1249,7 +1249,7 @@ estate_cowboys_recruit_more_cowboys = {
 		}
 		if = {
 			limit = {
-				cowboys_percentage = 0.15
+				cossacks_percentage = 0.15
 			}
 			set_variable = {
 				which = estate_cowboys_recruit_more_cowboys_var
@@ -1258,7 +1258,7 @@ estate_cowboys_recruit_more_cowboys = {
 		}
 		else_if = {
 			limit = {
-				cowboys_percentage = 0.1
+				cossacks_percentage = 0.1
 			}
 			set_variable = {
 				which = estate_cowboys_recruit_more_cowboys_var
@@ -1267,7 +1267,7 @@ estate_cowboys_recruit_more_cowboys = {
 		}
 		else_if = {
 			limit = {
-				cowboys_percentage = 0.05
+				cossacks_percentage = 0.05
 			}
 			set_variable = {
 				which = estate_cowboys_recruit_more_cowboys_var
@@ -1289,7 +1289,7 @@ estate_cowboys_recruit_more_cowboys = {
 					value = 4
 				}
 			}
-			cowboys_percentage = 0.2
+			cossacks_percentage = 0.2
 		}
 		else_if = {
 			limit = {
@@ -1298,7 +1298,7 @@ estate_cowboys_recruit_more_cowboys = {
 					value = 3
 				}
 			}
-			cowboys_percentage = 0.15
+			cossacks_percentage = 0.15
 		}
 		else_if = {
 			limit = {
@@ -1307,10 +1307,10 @@ estate_cowboys_recruit_more_cowboys = {
 					value = 2
 				}
 			}
-			cowboys_percentage = 0.1
+			cossacks_percentage = 0.1
 		}
 		else = {
-			cowboys_percentage = 0.05
+			cossacks_percentage = 0.05
 		}
 	}
 	fail_if = {
