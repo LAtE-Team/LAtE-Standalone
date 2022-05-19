@@ -1,5 +1,6 @@
 name="Long After the End - ALPHA"
 path="mod/LAtE_EU4"
+replace_path="common/bookmarks"
 replace_path="common/cultures"
 replace_path="common/countries"
 replace_path="events"
