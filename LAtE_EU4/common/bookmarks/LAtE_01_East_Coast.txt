@@ -1,0 +1,38 @@
+bookmark =
+{
+	name = "EAST_COAST_NAME"
+	desc = "EAST_COAST_DESC"
+	date = 3053.11.11
+	
+	center = 965
+	default = yes
+	
+	country = ONT	#Lorent
+	country = QUE	#Deranne
+    country = MRT
+
+	country = Y34	#Michigan
+	country = Y16	#Hudsonia
+	
+    country = RED
+    country = NYS
+
+    country = FLD
+    country = Z03   #Peachtree
+    country = Z04   #Birmingham
+    country = Z05   #Blackmarch
+
+    country = ORD
+    country = Y29   #Ohio
+
+    country = Z01   #Magnolia
+    country = Z02   #Orleans
+
+	easy_country = ONT	#Ontario
+	easy_country = QUE	#Quebec
+	easy_country = Y34	#Michigan
+	easy_country = RED	#Redcoats
+	easy_country = FLD	#Florida
+	easy_country = Z03	#Peachtree
+
+}

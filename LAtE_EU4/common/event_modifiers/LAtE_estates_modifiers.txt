@@ -29,10 +29,10 @@ estate_unions_old_world_construction_mod = {
 	local_great_project_upgrade_cost = -0.05
 }
 
-estates_anabaptists_growth_cooldown = {
+anabaptists_estate_events_growth_cooldown = {
 }
 
-estates_anabaptists_conversion_cooldown = {
+anabaptists_estate_events_conversion_cooldown = {
 }
 
 estate_anabaptists_guaranteed_autonomy_mod = {

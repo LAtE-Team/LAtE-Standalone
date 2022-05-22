@@ -76,7 +76,7 @@ estate_scavengers_auction_artifacts = {
     }
     cooldown_years = 10
     on_cooldown_expires = {
-        country_event = { id = estates_scavengers.1 }
+        country_event = { id = scavengers_estate_events.11 }
     }
 
     ai_will_do = {

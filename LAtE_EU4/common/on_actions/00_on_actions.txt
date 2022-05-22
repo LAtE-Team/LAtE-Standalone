@@ -2978,6 +2978,97 @@ on_five_year_pulse_2 = {
 		150 = tribal_estate_events.12 #Demands
 		150 = tribal_estate_events.13 #Demands
 		150 = tribal_estate_events.14 #Demands		
+		# Jains
+		100 = jains_estate_events.2
+		100 = jains_estate_events.3
+		100 = jains_estate_events.4
+		100 = jains_estate_events.5
+		100 = jains_estate_events.6
+		100 = jains_estate_events.7
+		400 = jains_estate_events.8 # Disloyal
+		100 = jains_estate_events.9
+		400 = jains_estate_events.10 # Demands
+		100 = jains_estate_events.11
+		# Vaishyas
+		100 = vaisyas_estate_events.2
+		100 = vaisyas_estate_events.3
+		100 = vaisyas_estate_events.4
+		100 = vaisyas_estate_events.5
+		100 = vaisyas_estate_events.6
+		100 = vaisyas_estate_events.7
+		100 = vaisyas_estate_events.8
+		400 = vaisyas_estate_events.9
+		100 = vaisyas_estate_events.10
+		100 = vaisyas_estate_events.11
+		# Rajputs
+		100 = rajputs_estate_events.2
+		100 = rajputs_estate_events.3
+		100 = rajputs_estate_events.4
+		100 = rajputs_estate_events.5
+		400 = rajputs_estate_events.6
+		100 = rajputs_estate_events.7
+		400 = rajputs_estate_events.8
+		100 = rajputs_estate_events.9
+		100 = rajputs_estate_events.10
+		100 = rajputs_estate_events.11
+		# Cowboys
+		100 = cowboys_estate_events.1
+		#100 = cowboys_estate_events.2 (triggers in neighbor country)
+		100 = cowboys_estate_events.6
+		100 = cowboys_estate_events.7
+		100 = cowboys_estate_events.8
+		100 = cowboys_estate_events.9
+		100 = cowboys_estate_events.10
+		100 = cowboys_estate_events.11
+		400 = cowboys_estate_events.12 #Disloyal
+		100 = cowboys_estate_events.13
+		400 = cowboys_estate_events.14 #Demands
+		# Antiquarians
+		100 = antiquarians_estate_events.1
+		100 = antiquarians_estate_events.2
+		100 = antiquarians_estate_events.3
+		100 = antiquarians_estate_events.4
+		400 = antiquarians_estate_events.5 #Disloyal
+		400 = antiquarians_estate_events.6 #Demands
+		100 = antiquarians_estate_events.7 #Bonus
+		100 = antiquarians_estate_events.8
+		100 = antiquarians_estate_events.9
+		100 = antiquarians_estate_events.10
+		# Army
+		100 = army_estate_events.1 #Demands
+		100 = army_estate_events.2
+		100 = army_estate_events.3
+		100 = army_estate_events.4
+		400 = army_estate_events.5 #Demands
+		100 = army_estate_events.6
+		100 = army_estate_events.7
+		400 = army_estate_events.8 #Disloyal
+		400 = army_estate_events.9 #Disloyal
+		50 = army_estate_events.10
+		100 = army_estate_events.11 #Bonus
+		# Unions
+		100 = unions_estate_events.2
+		100 = unions_estate_events.3
+		100 = unions_estate_events.4
+		100 = unions_estate_events.5
+		100 = unions_estate_events.6
+		100 = unions_estate_events.7
+		100 = unions_estate_events.8
+		400 = unions_estate_events.9
+		100 = unions_estate_events.10
+		100 = unions_estate_events.11
+		# Press
+		100 = press_estate_events.2
+		100 = press_estate_events.3
+		100 = press_estate_events.4
+		100 = press_estate_events.5
+		100 = press_estate_events.6
+		100 = press_estate_events.7
+		400 = press_estate_events.8 # Disloyal
+		100 = press_estate_events.9
+		400 = press_estate_events.10 # Demands
+		100 = press_estate_events.11
+
 		1000 = 0              
 	}
 }

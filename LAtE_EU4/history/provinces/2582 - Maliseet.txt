@@ -1,11 +1,11 @@
 ck2_converter_generated = yes
-owner = MRT
-controller = MRT
-add_core = MRT
-culture = acadien
-religion = anglican
+owner = QUE
+controller = QUE
+add_core = QUE
+culture = quebecois
+religion = ursuline
 citysize = 2000
-add_core = Y41
+add_permanent_claim = MRT
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -15,10 +15,9 @@ discovered_by = MTC
 discovered_by = X17
 3053.1.1 = {
 	hre = no
-	base_tax = 1
-	base_production = 1
-	base_manpower = 1
-	
+	base_tax = 6
+	base_production = 6
+	base_manpower = 3
 	
 	
 	
@@ -711,8 +710,8 @@ discovered_by = X17
 	
 }
 3053.1.1 = {
-	owner = MRT
-	controller = MRT
-	culture = acadien
-	religion = anglican
+	owner = QUE
+	controller = QUE
+	culture = quebecois
+	religion = ursuline
 }

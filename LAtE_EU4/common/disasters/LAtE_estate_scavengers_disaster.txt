@@ -97,8 +97,8 @@ estate_scavengers_disaster = {
 		prestige = -0.5
 	}
 
-	on_start = estates_scavengers.19
-	on_end = estates_scavengers.20
+	on_start = LAtE_estate_disasters.14.s
+	on_end = LAtE_estate_disasters.14.e
 	
 	on_monthly = {
 	}

@@ -102,8 +102,8 @@ estate_antiquarians_disaster = {
 		tolerance_heathen = -2
 	}
 
-	on_start = LAtE_estate_disasters.4
-	on_end = LAtE_estate_disasters.5
+	on_start = LAtE_estate_disasters.21.s
+	on_end = LAtE_estate_disasters.21.e
 	
 	on_monthly = {
 	}

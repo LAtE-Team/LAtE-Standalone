@@ -1,10 +1,46 @@
 namespace = LAtE_estate_disasters
 
+# Powerful Anabaptists Society
+country_event = {
+	id = LAtE_estate_disasters.11.s
+	title = LAtE_estate_disasters.11.s.t
+	desc = LAtE_estate_disasters.11.s.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = anabaptists_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.11.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.11.s.a.tt
+	}
+}
+
+# Anabaptists brought to heel
+country_event = {
+	id = LAtE_estate_disasters.11.e
+	title = LAtE_estate_disasters.11.e.t
+	desc = LAtE_estate_disasters.11.e.d
+	picture = 10_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.11.e.a
+	}
+}
+
 # The Cowboys break free!
 country_event = {
-	id = LAtE_estate_disasters.1
-	title = LAtE_estate_disasters.1.t
-	desc = LAtE_estate_disasters.1.d
+	id = LAtE_estate_disasters.12.s
+	title = LAtE_estate_disasters.12.s.t
+	desc = LAtE_estate_disasters.12.s.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
 	
 	major = yes
@@ -15,7 +51,7 @@ country_event = {
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.1.a	
+		name = LAtE_estate_disasters.12.s.a	
 		add_country_modifier = {
 			name = "serf_desertion"
 			duration = 5475
@@ -30,7 +66,7 @@ country_event = {
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.1.b
+		name = LAtE_estate_disasters.12.s.b
 		trigger = { 
 			ai = no 
 		}
@@ -48,47 +84,47 @@ country_event = {
 	}
 }
 
-# The Army take control
+# The Scavengers take control
 country_event = {
-	id = LAtE_estate_disasters.2
-	title = LAtE_estate_disasters.2.t
-	desc = LAtE_estate_disasters.2.d
-	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	id = LAtE_estate_disasters.14.s
+	title = LAtE_estate_disasters.14.s.t
+	desc = LAtE_estate_disasters.14.s.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
 	
 	major = yes
 	is_triggered_only = yes
 	
 	immediate = {
-		set_country_flag = army_estate_in_power
+		set_country_flag = scavengers_estate_in_power
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.2.a	
+		name = LAtE_estate_disasters.14.s.a	
 		add_stability = -1
-		custom_tooltip = LAtE_estate_disasters.2.a.tt
+		custom_tooltip = LAtE_estate_disasters.14.s.a.tt
 	}
 }
 
-# Army brought to heel
+# Scavengers brought to heel
 country_event = {
-	id = LAtE_estate_disasters.3
-	title = LAtE_estate_disasters.3.t
-	desc = LAtE_estate_disasters.3.d
-	picture = NOBLE_ESTATE_eventPicture
+	id = LAtE_estate_disasters.14.e
+	title = LAtE_estate_disasters.14.e.t
+	desc = LAtE_estate_disasters.14.e.d
+	picture = DHIMMI_ESTATE_eventPicture
 	
 	major = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = LAtE_estate_disasters.3.a
+		name = LAtE_estate_disasters.14.e.a
 	}
 }
 
 # The Antiquarians takes control
 country_event = {
-	id = LAtE_estate_disasters.4
-	title = LAtE_estate_disasters.4.t
-	desc = LAtE_estate_disasters.4.d
+	id = LAtE_estate_disasters.21.s
+	title = LAtE_estate_disasters.21.s.t
+	desc = LAtE_estate_disasters.21.s.d
 	picture = CHURCH_ESTATE_UPSET_eventPicture
 	
 	major = yes
@@ -99,32 +135,69 @@ country_event = {
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.4.a	
+		name = LAtE_estate_disasters.21.s.a	
 		add_stability = -1
-		custom_tooltip = LAtE_estate_disasters.4.a.tt
+		custom_tooltip = LAtE_estate_disasters.21.s.a.tt
 	}
 }
 
 # Antiquarians brought to heel
 country_event = {
-	id = LAtE_estate_disasters.5
-	title = LAtE_estate_disasters.5.t
-	desc = LAtE_estate_disasters.5.d
+	id = LAtE_estate_disasters.21.e
+	title = LAtE_estate_disasters.21.e.t
+	desc = LAtE_estate_disasters.21.e.d
 	picture = CHURCH_ESTATE_1_eventPicture
 	
 	major = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = LAtE_estate_disasters.5.a
+		name = LAtE_estate_disasters.21.e.a
 	}
 }
 
+# The Army take control
+country_event = {
+	id = LAtE_estate_disasters.22.s
+	title = LAtE_estate_disasters.22.s.t
+	desc = LAtE_estate_disasters.22.s.d
+	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = army_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.22.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.22.s.a.tt
+	}
+}
+
+# Army brought to heel
+country_event = {
+	id = LAtE_estate_disasters.22.e
+	title = LAtE_estate_disasters.22.e.t
+	desc = LAtE_estate_disasters.22.e.d
+	picture = NOBLE_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.22.e.a
+	}
+}
+
+
 # The Unions take control
 country_event = {
-	id = LAtE_estate_disasters.6
-	title = LAtE_estate_disasters.6.t
-	desc = LAtE_estate_disasters.6.d
+	id = LAtE_estate_disasters.23.s
+	title = LAtE_estate_disasters.23.s.t
+	desc = LAtE_estate_disasters.23.s.d
 	picture = 7_Vaisya_Estate_eventPicture
 	
 	major = yes
@@ -135,32 +208,32 @@ country_event = {
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.6.a	
+		name = LAtE_estate_disasters.23.s.a	
 		add_stability = -1
-		custom_tooltip = LAtE_estate_disasters.6.a.tt
+		custom_tooltip = LAtE_estate_disasters.23.s.a.tt
 	}
 }
 
 # Unions brought to heel
 country_event = {
-	id = LAtE_estate_disasters.7
-	title = LAtE_estate_disasters.7.t
-	desc = LAtE_estate_disasters.7.d
+	id = LAtE_estate_disasters.23.e
+	title = LAtE_estate_disasters.23.e.t
+	desc = LAtE_estate_disasters.23.e.d
 	picture = 8_Vaisya_Estate_eventPicture
 	
 	major = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = LAtE_estate_disasters.7.a
+		name = LAtE_estate_disasters.23.e.a
 	}
 }
 
 # Powerful Press Society
 country_event = {
-	id = LAtE_estate_disasters.8
-	title = LAtE_estate_disasters.8.t
-	desc = LAtE_estate_disasters.8.d
+	id = LAtE_estate_disasters.24.s
+	title = LAtE_estate_disasters.24.s.t
+	desc = LAtE_estate_disasters.24.s.d
 	picture = 11_Jain_Estate_eventPicture
 	
 	major = yes
@@ -171,59 +244,23 @@ country_event = {
 	}
 	
 	option = {
-		name = LAtE_estate_disasters.8.a	
+		name = LAtE_estate_disasters.24.s.a	
 		add_stability = -1
-		custom_tooltip = LAtE_estate_disasters.8.a.tt
+		custom_tooltip = LAtE_estate_disasters.24.s.a.tt
 	}
 }
 
 # Press brought to heel
 country_event = {
-	id = LAtE_estate_disasters.9
-	title = LAtE_estate_disasters.9.t
-	desc = LAtE_estate_disasters.9.d
+	id = LAtE_estate_disasters.24.e
+	title = LAtE_estate_disasters.24.e.t
+	desc = LAtE_estate_disasters.24.e.d
 	picture = 10_Jain_Estate_eventPicture
 	
 	major = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = LAtE_estate_disasters.9.a
-	}
-}
-
-# Powerful Anabaptists Society
-country_event = {
-	id = LAtE_estate_disasters.10
-	title = LAtE_estate_disasters.10.t
-	desc = LAtE_estate_disasters.10.d
-	picture = 11_Jain_Estate_eventPicture
-	
-	major = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		set_country_flag = anabaptists_estate_in_power
-	}
-	
-	option = {
-		name = LAtE_estate_disasters.10.a	
-		add_stability = -1
-		custom_tooltip = LAtE_estate_disasters.10.a.tt
-	}
-}
-
-# Anabaptists brought to heel
-country_event = {
-	id = LAtE_estate_disasters.11
-	title = LAtE_estate_disasters.11.t
-	desc = LAtE_estate_disasters.11.d
-	picture = 10_Jain_Estate_eventPicture
-	
-	major = yes
-	is_triggered_only = yes
-	
-	option = {
-		name = LAtE_estate_disasters.11.a
+		name = LAtE_estate_disasters.24.e.a
 	}
 }

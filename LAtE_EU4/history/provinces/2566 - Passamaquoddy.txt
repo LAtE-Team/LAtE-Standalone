@@ -1,10 +1,10 @@
-owner = Y23
-controller = Y23
-add_core = Y23
+owner = Y25
+controller = Y25
+add_core = Y25
 
 culture = yankee
-religion = ursuline
-citysize = 2000
+religion = anglican
+is_city = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

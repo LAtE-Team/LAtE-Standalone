@@ -100,8 +100,8 @@ estate_army_disaster = {
 		trade_efficiency = -0.25
 	}
 
-	on_start = LAtE_estate_disasters.2
-	on_end = LAtE_estate_disasters.3
+	on_start = LAtE_estate_disasters.22.s
+	on_end = LAtE_estate_disasters.22.e
 	
 	on_monthly = {
 	}

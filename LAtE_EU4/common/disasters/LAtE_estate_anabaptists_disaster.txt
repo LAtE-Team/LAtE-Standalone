@@ -104,8 +104,8 @@ estate_anabaptists_disaster = {
 	
 	stability_hit_on_war = 1
 
-	on_start = LAtE_estate_disasters.10
-	on_end = LAtE_estate_disasters.11
+	on_start = LAtE_estate_disasters.11.s
+	on_end = LAtE_estate_disasters.11.e
 	
 	on_monthly = {
 	}

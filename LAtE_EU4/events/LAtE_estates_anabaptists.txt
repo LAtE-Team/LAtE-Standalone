@@ -1,10 +1,10 @@
-namespace = estates_anabaptists
+namespace = anabaptists_estate_events
 
 #Anabaptists Wish to become an estate
 country_event = {
-	id = estates_anabaptists.1
-	title = estates_anabaptists.1.t # Anabaptists requests privileges
-	desc = estates_anabaptists.1.d
+	id = anabaptists_estate_events.11
+	title = anabaptists_estate_events.11.t # Anabaptists requests privileges
+	desc = anabaptists_estate_events.11.d
 	picture = CHURCH_ESTATE_1_eventPicture
 	
 	major = yes
@@ -29,13 +29,13 @@ country_event = {
     }
 	
 	option = {
-		name = estates_anabaptists.1.a	
+		name = anabaptists_estate_events.11.a	
         set_country_flag = anabaptists_accepted
         ai_chance = { factor = 2 }
 	}
 
 	option = {
-		name = estates_anabaptists.1.b	
+		name = anabaptists_estate_events.11.b	
         set_country_flag = anabaptists_rejected
         ai_chance = { factor = 2 }
 	}
@@ -43,13 +43,13 @@ country_event = {
 
 #Anabaptists growth in province
 province_event = {
-	id = estates_anabaptists.2
-	title = estates_anabaptists.2.t # Anabaptists requests privileges
-	desc = estates_anabaptists.2.d
+	id = anabaptists_estate_events.12
+	title = anabaptists_estate_events.12.t # Anabaptists requests privileges
+	desc = anabaptists_estate_events.12.d
 	picture = CHURCH_ESTATE_1_eventPicture
 	
     trigger = {
-        NOT = { owner = { has_country_modifier = estates_anabaptists_growth_cooldown } }
+        NOT = { owner = { has_country_modifier = anabaptists_estate_events_growth_cooldown } }
         NOT = { has_province_modifier = anabaptists_present_large }
         OR = {
             owner = { has_estate_privilege = estate_anabaptists_allow_growth }
@@ -78,7 +78,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 25
                 }
             }
@@ -87,7 +87,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 50
                 }
             }
@@ -96,7 +96,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 75
                 }
             }
@@ -106,7 +106,7 @@ province_event = {
     immediate = {
         owner = {
             add_country_modifier = {
-                name = estates_anabaptists_growth_cooldown
+                name = anabaptists_estate_events_growth_cooldown
                 duration = 365
                 hidden = yes
             }
@@ -114,7 +114,7 @@ province_event = {
     }
 	
 	option = {
-		name = estates_anabaptists.2.a	
+		name = anabaptists_estate_events.12.a	
         if = {
             limit = { has_province_modifier = anabaptists_present_medium }
             hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium  }
@@ -131,10 +131,10 @@ province_event = {
 	}
 
 	option = {
-		name = estates_anabaptists.2.b	
+		name = anabaptists_estate_events.12.b	
         owner = {
             add_estate_loyalty_modifier = {
-                estate = estates_anabaptists
+                estate = anabaptists_estate_events
                 desc = EST_ANA_GROWTH
                 loyalty = -10
                 duration = 3650
@@ -145,15 +145,16 @@ province_event = {
 
 #Anabaptists conversion
 province_event = {
-	id = estates_anabaptists.3
-	title = estates_anabaptists.3.t # Anabaptists requests privileges
-	desc = estates_anabaptists.3.d
+	id = anabaptists_estate_events.13
+	title = anabaptists_estate_events.13.t # Anabaptists requests privileges
+	desc = anabaptists_estate_events.13.d
 	picture = CHURCH_ESTATE_1_eventPicture
 	
     trigger = {
-        NOT = { owner = { has_country_modifier = estates_anabaptists_conversion_cooldown } }
+        NOT = { owner = { has_country_modifier = anabaptists_estate_events_conversion_cooldown } }
         has_province_modifier = anabaptists_present_large
         owner = { has_estate_privilege = estate_anabaptists_allow_proselytization }
+        is_capital = no
     }
 
     mean_time_to_happen = {
@@ -162,7 +163,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 25
                 }
             }
@@ -171,7 +172,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 50
                 }
             }
@@ -180,7 +181,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = estates_anabaptists
+                    estate = anabaptists_estate_events
                     influence = 75
                 }
             }
@@ -190,7 +191,7 @@ province_event = {
     immediate = {
         owner = {
             add_country_modifier = {
-                name = estates_anabaptists_conversion_cooldown
+                name = anabaptists_estate_events_conversion_cooldown
                 duration = 365
                 hidden = yes
             }
@@ -198,15 +199,15 @@ province_event = {
     }
 	
 	option = {
-		name = estates_anabaptists.3.a	
+		name = anabaptists_estate_events.13.a	
         change_religion = anabaptist
 	}
 
 	option = {
-		name = estates_anabaptists.3.b	
+		name = anabaptists_estate_events.13.b	
         owner = {
             add_estate_loyalty_modifier = {
-                estate = estates_anabaptists
+                estate = anabaptists_estate_events
                 desc = EST_ANA_RELIGION
                 loyalty = -10
                 duration = 3650

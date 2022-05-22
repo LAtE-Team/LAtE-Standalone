@@ -1,10 +1,11 @@
-owner = Y23
-controller = Y23
-add_core = Y23
+owner = MRT
+controller = MRT
+add_core = MRT
+add_core = Y37
 
-culture = yankee
-religion = ursuline
-citysize = 2000
+culture = maritimer
+religion = anglican
+is_city = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -14,6 +15,6 @@ discovered_by = MTC
 discovered_by = X17
 
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3

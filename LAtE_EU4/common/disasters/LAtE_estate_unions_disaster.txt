@@ -103,8 +103,8 @@ estate_unions_disaster = {
 		prestige = -1
 	}
 
-	on_start = LAtE_estate_disasters.6
-	on_end = LAtE_estate_disasters.7
+	on_start = LAtE_estate_disasters.23.s
+	on_end = LAtE_estate_disasters.23.e
 	
 	on_monthly = {
 	}

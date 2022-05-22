@@ -444,7 +444,7 @@ country_decisions = {
 	cossack_nation = {
 		major = yes
 		potential = {
-			tag = ZAZ
+			always = no
 			NOT = { has_reform = cossacks_reform }
 			has_dlc = "The Cossacks"
 			NOT = { has_country_flag = embraced_steppes } 

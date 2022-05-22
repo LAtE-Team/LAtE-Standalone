@@ -104,8 +104,8 @@ estate_press_disaster = {
 	
 	stability_hit_on_war = 1
 
-	on_start = LAtE_estate_disasters.8
-	on_end = LAtE_estate_disasters.9
+	on_start = LAtE_estate_disasters.24.s
+	on_end = LAtE_estate_disasters.24.e
 	
 	on_monthly = {
 	}
