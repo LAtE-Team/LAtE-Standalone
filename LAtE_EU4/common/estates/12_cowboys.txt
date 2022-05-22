@@ -1,6 +1,6 @@
 estate_cowboys =
 {
-	icon = 4
+	icon = 13
 	
 	# Used for when declaring independence
 	independence_government = tribal

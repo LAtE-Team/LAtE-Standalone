@@ -1,5 +1,5 @@
 estate_press = {
-	icon = 11
+	icon = 18
 
 	# If true, country will get estate
 	
@@ -133,7 +133,7 @@ estate_press = {
 		estate_press_fire_advisor
 	}
 
-	color = { 65 115 240 }
+	color = { 140 180 180 }
 	
 	influence_from_dev_modifier = 1.0
 }

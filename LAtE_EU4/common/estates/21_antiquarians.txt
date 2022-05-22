@@ -1,6 +1,6 @@
 estate_antiquarians =
 {
-	icon = 1
+	icon = 15
 
 	# If true, country will get estate
 	trigger = {

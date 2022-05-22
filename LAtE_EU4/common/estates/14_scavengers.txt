@@ -1,6 +1,6 @@
 estate_scavengers =
 {
-	icon = 4
+	icon = 14
 
 	# If true, country will get estate
 	
@@ -117,5 +117,5 @@ estate_scavengers =
 		estate_scavengers_increase_autonomy
 	}
 
-	color = { 82 79 76 }
+	color = { 200 130 0 }
 }

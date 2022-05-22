@@ -1,5 +1,5 @@
 estate_unions = {
-	icon = 9
+	icon = 17
 
 	# If true, country will get estate
 	#Replaces Burghers
@@ -180,7 +180,7 @@ estate_unions = {
 		estate_unions_fire_advisor
 	}
 
-	color = { 230 230 15 }
+	color = { 200 0 50 }
 	
 	influence_from_dev_modifier = 1.0
 }

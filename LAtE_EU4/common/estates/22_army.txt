@@ -1,6 +1,6 @@
 estate_army =
 {
-	icon = 2
+	icon = 16
 
 	# If true, country will get estate
 	trigger = {
@@ -115,7 +115,7 @@ estate_army =
 	
 	#Alternative naming of estates
 	
-	color = { 200 0 50 }
+	color = { 65 115 240 }
 	
 	privileges = {
 		estate_army_land_rights

@@ -1,5 +1,5 @@
 estate_anabaptists = {
-	icon = 11
+	icon = 12
 
 	# If true, country will get estate
 	
@@ -139,7 +139,7 @@ estate_anabaptists = {
 		estate_anabaptists_fire_advisor
 	}
 
-	color = { 105 75 45 }
+	color = { 140 180 180 }
 	
 	influence_from_dev_modifier = 1.0
 }
