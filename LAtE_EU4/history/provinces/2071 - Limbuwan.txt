@@ -23,7 +23,7 @@ discovered_by = chinese
 discovered_by = NPL
 
 # = { discovered_by = ENG }
-# = { discovered_by = GBR }
+# = {  }
 
 
 

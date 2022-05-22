@@ -1,7 +1,7 @@
 ########################################
 # Events for Seven Cities
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-ï¿½rtqvist
 ########################################
 
 namespace = seven_cities_events
@@ -2859,7 +2859,7 @@ province_event = {
 	}
 }
 
-# Lost in Mind and Space - dedicated to Maja Wendel-Örtqvist (disappearing sister extraordinary)
+# Lost in Mind and Space - dedicated to Maja Wendel-ï¿½rtqvist (disappearing sister extraordinary)
 province_event = {
 	id = seven_cities_events.303
 	title = seven_cities_events.303.t
@@ -4377,10 +4377,6 @@ country_event = {
 					type = all
 					has_discovered = ROOT
 				}
-				james_bay_area = {
-					type = all
-					has_discovered = ROOT
-				}
 				inner_ontario_area = {
 					type = all
 					has_discovered = ROOT
@@ -4408,10 +4404,6 @@ country_event = {
 					type = all
 					has_discovered = ROOT
 				}
-				james_bay_area = {
-					type = all
-					has_discovered = ROOT
-				}
 				hudson_bay_area = {
 					type = all
 					has_discovered = ROOT
@@ -4436,10 +4428,6 @@ country_event = {
 			#Quivira
 			AND = {
 				canada_region = {
-					type = all
-					has_discovered = ROOT
-				}
-				james_bay_area = {
 					type = all
 					has_discovered = ROOT
 				}

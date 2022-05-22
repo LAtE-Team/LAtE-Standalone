@@ -4,7 +4,7 @@ discovered_by = chinese
 
 
 # = { discovered_by = POR } # Don Jorge de Mneses
-# = { discovered_by = GBR }
+# = {  }
 
 
 

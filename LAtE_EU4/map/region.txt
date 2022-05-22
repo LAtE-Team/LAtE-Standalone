@@ -1144,6 +1144,7 @@ canada_region = {
 
 north_quebec_region = {
 	areas = {
+		east_james_bay_area
 		labrador_area
 		north_cote_nord_area
 		saguenay_area
@@ -1290,7 +1291,8 @@ cascadia_region = {
 
 hudson_bay_region = {
 	areas = {
-		james_bay_area
+		ojibwa_area
+		west_james_bay_area
 		hudson_bay_area
 		#saskatchewan_area
 		#prairies_area

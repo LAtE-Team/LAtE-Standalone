@@ -21,7 +21,7 @@ discovered_by = chinese
 
 
 # = { capital = "Khaspur" }
-# = { discovered_by = GBR }
+# = {  }
 # = {
 	#owner = GBR
 	#controller = GBR

@@ -31,7 +31,7 @@ discovered_by = indian
 	#owner = TAU
 	
 #}
-# = { discovered_by = GBR }
+# = {  }
 
 
 native_size = 5

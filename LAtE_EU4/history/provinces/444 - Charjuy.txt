@@ -31,7 +31,7 @@ discovered_by = indian
 
 # = { discovered_by = ENG }
 # = { discovered_by = FRA }
-# = { discovered_by = GBR }
+# = {  }
 
 # = { #owner = BUK #controller = BUK #add_core= BUK } # Conquered by Bukhara
 

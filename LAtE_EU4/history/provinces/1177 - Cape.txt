@@ -1,9 +1,8 @@
 #1177 - Cape
 
-owner = GBR
-controller = GBR
+owner = SEF
+controller = SEF
 add_core = SEF
-#add_core = GBR
 culture = afrikaner
 religion = mwari
 capital = "Cape"

@@ -1330,7 +1330,11 @@ que_ont_quebec = {
 			}
 		}
 		trigger = {
-			james_bay_area = {
+			west_james_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_james_bay_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

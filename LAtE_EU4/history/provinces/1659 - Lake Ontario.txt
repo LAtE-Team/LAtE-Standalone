@@ -11,7 +11,7 @@ discovered_by = RED
 
 # = { discovered_by = FRA }
 # = { discovered_by = ENG }
-# = { discovered_by = GBR }
+# = {  }
 
 
 native_size = 5

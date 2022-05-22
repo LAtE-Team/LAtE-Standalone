@@ -2959,7 +2959,7 @@ high_plains_area = { #5
 }
 
 dakota_area = { #5
-	905 906 907 909 2007
+	906 907 909 2007
 }
 
 south_dakota_area = { #3
@@ -3065,8 +3065,12 @@ newfoundland_area = { #3
 	 # 988 2586 2587 2671
 # }
 
-james_bay_area = { #5
-	998 999 1000 1003 1004
+east_james_bay_area = { #5
+	998 999 1000 
+}
+
+west_james_bay_area = {
+	1003 1004  4828 2592
 }
 
 # inner_ontario_area = { #5 Abitibi
@@ -3078,7 +3082,7 @@ james_bay_area = { #5
 # }
 
 red_river_area = { #5
-	1008 1010 2016 2511 2593
+	1008 1010 2016 2511
 }
 
 assiniboia_area = { #3
@@ -3393,7 +3397,7 @@ ungava_area = {
 
 # Northern Ontario
 hudson_bay_area = { #5
-	1005 1006 4828 2592 2594
+	1005 1006 2594
 }
 
 east_kenora_area = {
@@ -3401,7 +3405,11 @@ east_kenora_area = {
 }
 
 west_kenora_area = {
-	4830 1806 1009 4796 4829
+	1806 1009 4796 4829
+}
+
+ojibwa_area = {
+	1007 4830 2593
 }
 
 #The Far North
@@ -3490,7 +3498,7 @@ calumet_area = {
 }
 
 upper_ontario_area = { #4
-	1001 1007 2015 4572 2590
+	1001 2015 4572 2590
 }
 
 lake_superior_area = { #4
@@ -3542,7 +3550,7 @@ mississippi_plain_area = { #Called Arkansas
 }
 
 upper_louisiana_area = { #4
-	900 902 2513 
+	900 902 905 2513 
 }
 
 lower_louisiana_area = { # 3

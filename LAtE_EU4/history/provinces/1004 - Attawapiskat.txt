@@ -17,4 +17,4 @@ native_hostileness = 1
 
 
 
-discovered_by = GBR
+
