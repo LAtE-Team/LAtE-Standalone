@@ -1,0 +1,46 @@
+american_feudal_ideas = {
+	start = {
+		vassal_income = 0.25
+		accept_vassalization_reasons = 15
+	}
+	bonus = {
+		general_cost = -0.20
+	}
+	trigger = {
+		government = monarchy
+		capital_scope = {
+			continent = north_america }
+
+	}
+	free = yes
+	
+	right_to_rule = {
+		global_unrest = -1
+        legitimacy = 1
+	}
+	feudal_america = {
+        global_tax_modifier = 0.05
+        production_efficiency = 0.05
+	}
+    knightly_traditions = {
+		army_tradition_decay = -0.5
+        cavalry_power = 0.10
+	}
+	noble_connections = {
+		heir_chance = 0.33
+        diplomatic_reputation = 1
+	}
+	royal_court = {
+		advisor_pool = 1
+        monthly_splendor = 0.5
+	}
+    decentralised_system = {
+		governing_capacity_modifier = 0.1
+        nobility_influence_modifier =
+	}
+	heirs_to_the_past = {
+		province_warscore_cost = -0.15
+        unjustified_demands = -0.25
+	}
+	
+}
