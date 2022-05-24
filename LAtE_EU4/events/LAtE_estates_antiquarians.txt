@@ -1,7 +1,7 @@
 ###########################################################
-# Events for the Clerical Estate
-#
-# written by Henrik Lohmander
+# Events for the Anabaptist Estate
+# First 11 Generic from Vanilla
+# Latter written by Technecian
 ###########################################################
 
 namespace = antiquarians_estate_events

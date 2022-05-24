@@ -1,6 +1,6 @@
-owner = X09
-controller = X09
-add_core = X09
+owner = X06
+controller = X06
+add_core = X06
 
 culture = cascadian
 religion = raven_tales

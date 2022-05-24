@@ -34,7 +34,7 @@ estate_scavengers_refurbish_weapons = {
         production_efficiency = -0.05
     }
     mechanics = {
-        enables_cossack_regiments
+        enables_rajput_regiments
     }
     ai_will_do ={
         factor = 1

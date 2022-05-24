@@ -1,3 +1,9 @@
+###########################################################
+# Events for the Anabaptist Estate
+# First 10 Generic, based on Vanilla
+# 11+ written by Technecian
+###########################################################
+
 namespace = scavengers_estate_events
 
 # Extension of The Artifact Auctions
@@ -53,12 +59,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -866,12 +878,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -929,12 +947,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -992,12 +1016,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -1055,12 +1085,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -1118,12 +1154,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -1181,12 +1223,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -1244,12 +1292,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
@@ -1307,12 +1361,18 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			scavenging_hub = 15
+			num_of_owned_provinces_with = {
+				value = 15
+				has_building = scavenging_hub
+			}
 		}
 
 		modifier = {

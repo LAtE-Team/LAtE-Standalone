@@ -715,7 +715,7 @@ astrakhan_area = { #5
 }
 
 lower_don_area = { #4
-	288 467 1971 2409
+	288 467 1971
 }
 
 kazan_area = { #3
@@ -755,7 +755,7 @@ kama_area = { #5
 }
 
 tambov_area = { #4
-	302 304 2408 2415 
+	302 304 2415 
 }
 
 saratov_area = { #3
@@ -2999,7 +2999,7 @@ coastal_prarie_area = { #3
 # }
 
 salish_sea_area = { #3
-   874 2484 2485 4899
+	2484 2485 4899 2408 2409
 }
 
 # interior_plateau_area = { #4
@@ -3338,7 +3338,7 @@ nootka_area = {
 }
 
 straits_of_georgia_area = { #4
-	973 974 2610
+	973 974 2610 874
 }
 
 # salish_sea_area = { 
