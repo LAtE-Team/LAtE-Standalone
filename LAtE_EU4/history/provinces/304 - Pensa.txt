@@ -17,9 +17,9 @@ religion = atomicist
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 #discovered_by = nomad_group
 discovered_by = indian
 

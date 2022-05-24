@@ -15,5 +15,5 @@ native_hostileness = 2
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian

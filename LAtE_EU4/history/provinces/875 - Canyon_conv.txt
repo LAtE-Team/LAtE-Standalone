@@ -19,7 +19,7 @@ discovered_by = X17
 	
 	
 #discovered_by = high_american 
-discovered_by = RED	
+	
 	
 	
 	

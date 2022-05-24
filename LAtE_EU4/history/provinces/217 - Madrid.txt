@@ -11,11 +11,11 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Madrid" 
-is_city = no # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself
+is_city = no # Includes the population of Alcalï¿½ de Henares and Guadalajara, that at times were bigger than Madrid itself
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

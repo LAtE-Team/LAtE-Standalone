@@ -1,4 +1,4 @@
-#15 - Western Jutland, incl. Ribe and Ringkøbing
+#15 - Western Jutland, incl. Ribe and Ringkï¿½bing
 
 culture = danish
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Ribe"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

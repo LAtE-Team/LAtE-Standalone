@@ -1,4 +1,4 @@
-#Smålenene, incl. Mossedal, Heggen og Fröland, Vemme, Rakkestad, Idd og Marker, Onsöy, Verne Kloster, Moss, Tune og Åbygge and part of Nedre Romerike.
+#Smï¿½lenene, incl. Mossedal, Heggen og Frï¿½land, Vemme, Rakkestad, Idd og Marker, Onsï¿½y, Verne Kloster, Moss, Tune og ï¿½bygge and part of Nedre Romerike.
  
 culture = norwegian
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Moss"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

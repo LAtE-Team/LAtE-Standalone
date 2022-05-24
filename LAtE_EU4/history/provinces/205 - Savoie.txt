@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Chambéry"
+capital = "Chambï¿½ry"
 is_city = yes	
 # = SAV
 
@@ -17,7 +17,7 @@ is_city = yes
 
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 

@@ -1,11 +1,11 @@
 owner = MRT
 controller = MRT
 add_core = MRT
+add_core = ARO
 
 culture = acadien
 religion = anglican
 is_city = yes
-add_core = Y39
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

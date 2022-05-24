@@ -1,4 +1,4 @@
-#Eastern and Northern Småland - Includes parts under Östgötalag
+#Eastern and Northern Smï¿½land - Includes parts under ï¿½stgï¿½talag
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Kalmar"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

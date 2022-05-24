@@ -250,7 +250,10 @@ estate_anabaptists_allow_proselytization = {
 	loyalty = 0.05
 	influence = 0.1
 	is_valid = {
-		culture_group = amerodeutsch
+		OR = {
+			culture_group = amerodeutsch
+			tag = HUD
+		}
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_anabaptists_allow_growth }
@@ -472,6 +475,7 @@ estate_anabaptists_exclusive_trade_rights = {
 				}
 			}
 		}
+		NOT = { has_estate = estate_burghers }
 	}
 	on_granted = {
 		random_active_trade_node = {
@@ -541,6 +545,7 @@ estate_anabaptists_private_trade_fleets = {
 			has_port = yes
 		}
 		navy_size = 1
+		NOT = { has_estate = estate_burghers }
 	}
 	penalties = {
 	}

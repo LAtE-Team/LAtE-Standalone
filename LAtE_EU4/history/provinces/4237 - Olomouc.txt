@@ -1,6 +1,6 @@
 #4237 - Olomouc
 
-capital = "Olmütz"
+capital = "Olmï¿½tz"
 culture = czech
 religion = matrem
 trade_goods = unknown
@@ -9,7 +9,7 @@ base_production = 1
 base_manpower = 1
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

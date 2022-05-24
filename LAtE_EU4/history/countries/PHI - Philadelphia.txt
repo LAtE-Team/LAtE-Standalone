@@ -1,0 +1,25 @@
+# Philadelphia
+government = republic 
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = delawarean
+religion = americanist
+clear_scripted_personalities = yes
+capital = 956
+3053.1.1 {
+	monarch = {
+		name = "Fulgent"
+		birth_date = 3027.4.15
+		dynasty = "van Chester"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 956
+	add_treasury = 0
+	add_prestige = 1
+}

@@ -1,4 +1,55 @@
 north_atlantic = {
+	beltway = {
+		primary = WDC
+		dynasty_names = { "Avunculus" "Bullfinch" "Smithson" }
+
+		male_names = {
+			Arthur Albert Arnold Abraham Alphonse Alexander Anthony
+			Benning Burleith Booker Barnaby Burke Bergstrom Benjamin Benedict Bernard Bannister Brutus
+			Carver Charles Chase Clark Cloture Calvin Cornelius
+			Douglass Dewey Dupont
+			Eugene Elliot Emerson Edgar Elias
+			Franklin Filibuster Farragut
+			Garfield Golias George Grant
+			Hawthorne Herbert Hamilton Harrison Hancock Henry
+			Jefferson John Jackson Jussolis Justus Julius Julian
+			Kent Knox
+			Lincoln Lamond Langston Lawrence Logan Lewis Locke Luther
+			Monroe Myer Morgan Meriweather Mason Maxwell Michael Mark
+			Naylor Nicholas
+			Petworth Penn Prentice Peter Paul Pershing Patton Preamble
+			Quincy Quorum Quentin
+			Rexford Ronald Rutherford Robert Rutledge
+			Shaw Shipley Smith Seymour Stephen Samuel Sherman Sidney Silvan
+			Truxton Totten Tenley Thaddeus Theodore Truman Thomas
+			Ulysses
+			Vernon Victor
+			Washington Wesley Woodrow Walter William
+			Zachary
+		}
+
+		female_names = {
+			Anacostia Alice Athena
+			Benefactia Beatrice
+			Concordia Chelsea Columbia Catharine
+			Diana Declara Donata Divina Diot
+			Emma Eleanor Eleutheria Elizabeth
+			Frances Felicity
+			Gloriana
+			Hilary
+			Ivy Invicta Interdicta Industria
+			Justina Justice Jennifer Julia
+			Libertas Liberalitas
+			Majority Martha Miranda Merces Millicent Melissa Mary
+			Nullabona Nongrata
+			Olympia Olivia
+			Prudence Petra Purity Prosperity Precedenta Pamela
+			Respublia
+			Subpoena Stella Sola Sarah Susanna
+			Virginia Victory Vindicta Virtue
+		}
+
+	}
 	gothamite = {
 		primary = NYS
 		dynasty_names = { "van Chester" }

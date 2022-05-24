@@ -1,0 +1,10 @@
+# Nova Scotia
+government = monarchy 
+
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = maritimer
+religion = anglican
+clear_scripted_personalities = yes
+capital = 4551

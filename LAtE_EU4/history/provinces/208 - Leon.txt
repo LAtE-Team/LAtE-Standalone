@@ -1,4 +1,4 @@
-#208 - León
+#208 - Leï¿½n
 
 #owner = CAS		#Juan II of Castille
 #controller = CAS
@@ -11,13 +11,13 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "León"
+capital = "Leï¿½n"
 is_city = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

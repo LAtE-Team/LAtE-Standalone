@@ -18,11 +18,11 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = { unrest = 20 } # Buildup to the Welsh Revolt

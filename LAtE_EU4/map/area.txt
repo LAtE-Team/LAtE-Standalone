@@ -3469,16 +3469,20 @@ miami_river_area = { #Called Indiana
 	4701 942 4704 943 2524
 }
 
+cleveland_area = {
+	947 4628
+}
+
 susquehanna_area = { #Westsylvania
-	4628 4627 4624 2555 954 
+	4627 4624 2555 954 4626
 }
 
 actual_susquehanna_area = {
-	4626 4579 4623 955 2557 
+	2556 4579 4623 955 2557 
 }
 
 ohio_country_area = { #4
-	946 947 948 2525 
+	946 948 2525 4576 4574
 }
 
 detroit_area = {
@@ -3536,7 +3540,7 @@ kentuckiana_area = {
 }
 
 appalachia_area = { #Called "Vandalia"
-	951 2551 4574 4576 2526
+	951 2551 2526
 }
 the_gateway_area = {
 	4586 4585 4588 4597 2514
@@ -3602,7 +3606,7 @@ chesapeake_area = { #Virginia
 }
 
 great_valley_area = { #Shenadoah
-	949 2011 2549 2553 2556 
+	949 2011 2549 2553 
 }
 
 piedmont_north_america_area = { #3
@@ -3672,7 +3676,11 @@ east_tennessee_area = {
 #Chesapeake
 
 maryland_area = { #3
-	953 2554 4618 4619 4620 957
+	953 2554 4614 4618
+}
+
+delmarva_area = {
+	4619 4620 957
 }
 
 delaware_valley_area = { #5
@@ -4051,7 +4059,7 @@ krasnoyarsk_area = {
 #Sea Areas
 
 great_lakes_sea_area = {
-	4616 1663 4615 4614 4612 4613 1662 4611 4617 1661 4609 4610 4594 4593 1660
+	4616 1663 4615 4612 4613 1662 4611 4617 1661 4609 4610 4594 4593 1660
 }
 
 st_lawrence_river_area = {

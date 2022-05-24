@@ -1,6 +1,7 @@
 owner = MRT
 controller = MRT
 add_core = MRT
+add_core = NSC
 
 culture = mikmaq
 religion = anglican

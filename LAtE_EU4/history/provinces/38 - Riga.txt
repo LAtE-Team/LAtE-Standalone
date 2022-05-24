@@ -1,4 +1,4 @@
-#Riga Bight, incl. the city of Riga, and Dünamünde.
+#Riga Bight, incl. the city of Riga, and Dï¿½namï¿½nde.
 
 culture = latvian
 religion = matrem
@@ -14,7 +14,7 @@ fort_15th = yes
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 extra_cost = 10

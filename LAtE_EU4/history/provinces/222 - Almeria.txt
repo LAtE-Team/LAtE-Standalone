@@ -1,4 +1,4 @@
-#222 - Almería
+#222 - Almerï¿½a
 
 #owner = GRA		#Mustapha Sa'd King of Granada
 #controller = GRA
@@ -10,22 +10,22 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Almería"
+capital = "Almerï¿½a"
 #estate = #estate_nobles
 is_city = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
 
-# = { revolt = { type = religious_rebels size = 2 } #controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almería to proceed the war against the christians from there.
-# = { revolt = {} #controller = CAS #owner = CAS #add_core= CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almería to the Catholic Kings
+# = { revolt = { type = religious_rebels size = 2 } #controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almerï¿½a to proceed the war against the christians from there.
+# = { revolt = {} #controller = CAS #owner = CAS #add_core= CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almerï¿½a to the Catholic Kings
 # = { unrest = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.
 # = { unrest = 0 religion = matrem } # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
 # = {

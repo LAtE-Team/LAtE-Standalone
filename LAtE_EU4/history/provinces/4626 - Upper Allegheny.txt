@@ -1,9 +1,9 @@
-owner = Y19
-controller = Y19
-add_core = Y19
+owner = AGH
+controller = AGH
+add_core = AGH
 
 culture = hudsonian
-religion = anabaptist
+religion = rust_cultist
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -16,3 +16,4 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
+add_province_triggered_modifier = anabaptists_present_small

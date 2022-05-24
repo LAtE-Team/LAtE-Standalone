@@ -2,7 +2,7 @@
 
 #owner = ALS
 #controller = ALS 
-capital = "Straßburg"
+capital = "Straï¿½burg"
 is_city = no
 culture = swabian
 religion = cult_of_reason
@@ -16,7 +16,7 @@ base_manpower = 1
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

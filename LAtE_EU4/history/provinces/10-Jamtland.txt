@@ -1,4 +1,4 @@
-#Jämtland+Härjedalen
+#Jï¿½mtland+Hï¿½rjedalen
 
 culture = swedish
 religion = finnish_pagan_reformed
@@ -7,13 +7,13 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Frösön"
+capital = "Frï¿½sï¿½n"
 is_city = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

@@ -1,4 +1,4 @@
-#Tröndelag, incl. Trondheim, Frosta, Röros, Steinviksholm
+#Trï¿½ndelag, incl. Trondheim, Frosta, Rï¿½ros, Steinviksholm
 
 culture = norwegian
 religion = finnish_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Trondheim"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

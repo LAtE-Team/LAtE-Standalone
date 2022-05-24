@@ -1,4 +1,4 @@
-#1954 - Torontál
+#1954 - Torontï¿½l
 
 #owner = HUN
 #controller = HUN 
@@ -13,7 +13,7 @@ base_manpower = 1
 is_city = no
 #add_core= HUN
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

@@ -5,7 +5,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = beltway
-religion = protestant
+religion = americanist
 clear_scripted_personalities = yes
 capital = 4618
 3053.1.1= {
@@ -23,5 +23,4 @@ capital = 4618
 	capital = 4618
 	add_treasury = 8
 	add_prestige = 86
-	elector = no
 }

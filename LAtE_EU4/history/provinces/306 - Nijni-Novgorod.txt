@@ -19,9 +19,9 @@ capital = "Nizhny Novgorod"
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 #discovered_by = nomad_group
 
 extra_cost = 10

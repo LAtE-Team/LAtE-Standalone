@@ -15,9 +15,9 @@ is_city = no
 #add_core= LIT
 add_local_autonomy = 25
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 #discovered_by = nomad_group

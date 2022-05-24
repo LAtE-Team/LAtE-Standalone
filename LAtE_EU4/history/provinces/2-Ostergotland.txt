@@ -1,4 +1,4 @@
-#Östergötland, contains Norrköping, Linköping etc.
+#ï¿½stergï¿½tland, contains Norrkï¿½ping, Linkï¿½ping etc.
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -7,11 +7,11 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Norrköping"
+capital = "Norrkï¿½ping"
 #estate = #estate_nobles
 is_city = no # Estimated
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

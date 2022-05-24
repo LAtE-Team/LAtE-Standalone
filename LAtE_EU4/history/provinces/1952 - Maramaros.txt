@@ -1,4 +1,4 @@
-#1952 - Máramaros
+#1952 - Mï¿½ramaros
 
 #owner = HUN
 #controller = HUN 
@@ -20,9 +20,9 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -31,7 +31,7 @@ discovered_by = indian
 # = {
 	#owner = TRA
 	#controller = TRA
-#} # Battle of Mohács, the end of the independent Kingdom of Hungary
+#} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 # = {
 	#owner = HAB
 	#controller = HAB

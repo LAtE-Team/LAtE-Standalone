@@ -22,9 +22,9 @@ discovered_by = QAS
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = { #owner = TUR #add_core= TUR #controller = TUR capital = "Janina" }

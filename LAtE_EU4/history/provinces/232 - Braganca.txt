@@ -1,10 +1,10 @@
-#232 - Bragança
+#232 - Braganï¿½a
 
 #owner = POR
 #controller = POR
 culture = portugese
 religion = matrem
-capital = "Bragança"
+capital = "Braganï¿½a"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -17,20 +17,20 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = { #controller = SPA }
 # = { #controller = POR }
-# = { unrest = 8 } # Portugal revolt headed by John of Bragança
+# = { unrest = 8 } # Portugal revolt headed by John of Braganï¿½a
 # = { unrest = 0 } # Portugal regained its independence & colonial possessions
 # = { #controller = FRA } # Occupied by France
 # = { #controller = POR }
-# = { #controller = FRA } # Wellington retreats into Lines of Torres Vedras fortification and Masséna can't enter Lisboa due to the scorched earth policy
+# = { #controller = FRA } # Wellington retreats into Lines of Torres Vedras fortification and Massï¿½na can't enter Lisboa due to the scorched earth policy
 # = { #controller = POR } # The Napoleonic army retreats from Portugal
 
 

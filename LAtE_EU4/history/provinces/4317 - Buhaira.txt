@@ -15,7 +15,7 @@ add_core = EGY
 discovered_by = high_american
 
 discovered_by = indian 
-discovered_by = RED
+
 discovered_by = east_african
 
 

@@ -1,9 +1,9 @@
-owner = Y20
-controller = Y20
-add_core = Y20
+owner = ESQ
+controller = ESQ
+add_core = ESQ
 
 culture = hudsonian
-religion = anabaptist
+religion = americanist
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -16,3 +16,4 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
+add_province_triggered_modifier = anabaptists_present_small

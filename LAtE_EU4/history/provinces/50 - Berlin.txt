@@ -12,12 +12,12 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 fort_15th = yes
-capital = "Berlin-Cölln"
+capital = "Berlin-Cï¿½lln"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

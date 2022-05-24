@@ -1,4 +1,4 @@
-#Eastern Skåne - More or less Kristianstad Län. Includes Göinge, Gladsax Len, Listerlandet, and others.
+#Eastern Skï¿½ne - More or less Kristianstad Lï¿½n. Includes Gï¿½inge, Gladsax Len, Listerlandet, and others.
 
 culture = scanian #mostly for identification purposes but also lulz
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Gladsax"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

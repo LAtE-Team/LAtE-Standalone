@@ -1,4 +1,4 @@
-#Western Småland - Tiohärads Lagsaga, ie: Värend, Finnveden och Njudung
+#Western Smï¿½land - Tiohï¿½rads Lagsaga, ie: Vï¿½rend, Finnveden och Njudung
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -7,10 +7,10 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Växjö"
+capital = "Vï¿½xjï¿½"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

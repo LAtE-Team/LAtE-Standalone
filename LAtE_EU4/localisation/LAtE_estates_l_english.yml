@@ -7,11 +7,14 @@
  estate_privileges_and_agendas_events.3.ab: "The Proposal of the [Root.GetAnabaptistsName]"
  local_anabaptists_displeased: "Local [Root.GetAnabaptistsName] Displeased"
  estate_anabaptists_guaranteed_autonomy_effect_tooltip: "Every owned province of §YAnabaptist§! faith gains:\nLocal Missionary Strength: §R-100%§!\nLocal Religious Unity Contribution: §G-100%§!"
- estate_anabaptists_guaranteed_autonomy_revoke_effect_tooltip: "The modifier §Y'Guaranteed Dhimmi Autonomy'§! is removed from all owned non-§YMuslim§! provinces."
- estate_anabaptists_guaranteed_autonomy_mod: "Guaranteed Dhimmi Autonomy"
- desc_estate_anabaptists_guaranteed_autonomy_mod: "The state has guaranteed greater autonomy for the Dhimmi."
+ estate_anabaptists_guaranteed_autonomy_revoke_effect_tooltip: "The modifier §Y'Guaranteed Anabaptist Autonomy'§! is removed from all owned §YAnabaptist§! provinces."
+ estate_anabaptists_guaranteed_autonomy_mod: "Guaranteed Anabaptist Autonomy"
+ desc_estate_anabaptists_guaranteed_autonomy_mod: "The state has guaranteed greater autonomy for the Anabaptists."
  curtail_estate_anabaptists_title: "Curtail the [Root.GetAnabaptistsName]"
  curtail_estate_anabaptists_desc: "The [Root.GetAnabaptistsName] have a stranglehold on our government. To seize control back from them we will need to curtail their power and privileges."
+ anabaptists_present_small: "Small Anabaptist Community"
+ anabaptists_present_medium: "Medium Anabaptist Community"
+ anabaptists_present_large: "Large Anabaptist Community"
 
  #Anabaptists Privileges
  estate_anabaptists_land_rights: "$ESTATE_NAME$ Land Rights"

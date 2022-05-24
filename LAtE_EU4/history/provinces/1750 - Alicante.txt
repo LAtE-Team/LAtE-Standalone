@@ -1,6 +1,6 @@
-#1750 - Alàcant
+#1750 - Alï¿½cant
 
-#owner = ARA		#Martí I of Aragon
+#owner = ARA		#Martï¿½ I of Aragon
 #controller = ARA
 #add_core= ARA
 #add_core= CAT
@@ -11,15 +11,15 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Alàcant" 
+capital = "Alï¿½cant" 
 is_city = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

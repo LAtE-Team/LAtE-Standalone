@@ -1,11 +1,11 @@
 owner = RED
 controller = RED
 add_core = RED
+add_core = WMT
 
 culture = yankee
-religion = ursuline
+religion = occultist
 is_city = yes
-add_core = Y24
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

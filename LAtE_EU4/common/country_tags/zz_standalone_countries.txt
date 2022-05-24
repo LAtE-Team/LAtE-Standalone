@@ -2,3 +2,35 @@ CST = "countries/Charleston.txt"
 HOU = "countries/Houston.txt"
 KOO = "countries/Kootenay.txt"
 UUN = "countries/Uunaay.txt"
+HUD = "countries/Hudsonia.txt"
+VER = "countries/Vermont.txt"
+NBW = "countries/NewBrunswick.txt"
+NSC = "countries/NovaScotia.txt"
+PEI = "countries/PrinceEdwardIsland.txt"
+ARO = "countries/Aroostook.txt"
+RTG = "countries/Restigouche.txt"
+AGH = "countries/Allegheny.txt"
+RHI = "countries/RhodeIsland.txt"
+WMT = "countries/WhiteMountain.txt"
+MNE = "countries/Maine.txt"
+LGI = "countries/LongIsland.txt" 
+CTC = "countries/Connecticut.txt" 
+MCS = "countries/Massachusetts.txt" 
+
+CYG = "countries/Cayuga.txt" #Y17
+HVL = "countries/HudsonValley.txt" #Y18
+WSQ = "countries/WestSusquehanna.txt" #Y19
+ESQ = "countries/EastSusquehanna.txt" #Y20
+ADK = "countries/Adirondack.txt" #Y21
+CMP = "countries/Champlain.txt" #Y22
+
+COA = "countries/Coalland.txt" #Z09
+JER = "countries/Jersey.txt" #Z18
+MRL = "countries/Maryland.txt" #Z19
+TMI = "countries/ThreeMileIsland.txt" #Z79
+BLT = "countries/Baltimore.txt" #Z34
+PHI = "countries/Philadelphia.txt" #Z36
+PCM = "countries/Pocomoke.txt" #Z91
+KIT = "countries/Kittatinny.txt" #Z97
+
+

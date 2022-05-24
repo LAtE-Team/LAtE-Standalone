@@ -62,6 +62,10 @@ province_event = {
 
     mean_time_to_happen = {
         months = 240
+        modifier =  {
+            factor = 10
+            NOT = { owner = { religion_group = christian } }
+        }
         modifier = {
             factor = 0.95
             has_province_modifier = anabaptists_present_small

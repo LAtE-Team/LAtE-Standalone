@@ -16,7 +16,7 @@ native_hostileness = 2
 discovered_by = east_african
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 extra_cost = 10

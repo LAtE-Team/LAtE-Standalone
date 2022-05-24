@@ -1,4 +1,4 @@
-#Närke
+#Nï¿½rke
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -7,10 +7,10 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Örebro"
+capital = "ï¿½rebro"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

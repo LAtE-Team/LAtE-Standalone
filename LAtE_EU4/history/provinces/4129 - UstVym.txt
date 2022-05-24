@@ -14,7 +14,7 @@ discovered_by = indian
 capital = "Ust-Vym"
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

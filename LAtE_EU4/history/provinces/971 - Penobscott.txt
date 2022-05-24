@@ -1,6 +1,6 @@
-owner = Y25
-controller = Y25
-add_core = Y25
+owner = MNE
+controller = MNE
+add_core = MNE
 
 culture = yankee
 religion = anglican

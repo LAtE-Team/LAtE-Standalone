@@ -13,7 +13,7 @@ base_manpower = 1
 #estate = #estate_burghers
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

@@ -1,4 +1,4 @@
-#Skaraborg, contains Skara, Skövde etc.
+#Skaraborg, contains Skara, Skï¿½vde etc.
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -7,11 +7,11 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Göteborg"
+capital = "Gï¿½teborg"
 is_city = no
  #"Domkyrkan i Skara"
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

@@ -17,15 +17,15 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
 
-# = { unrest = 2 } # Remença peasant revolt, in parallel with the Catalan civil war.
-# = { unrest = 0 } # End of the First Remença revolt
+# = { unrest = 2 } # Remenï¿½a peasant revolt, in parallel with the Catalan civil war.
+# = { unrest = 0 } # End of the First Remenï¿½a revolt
 # = {
 	#controller = SPA
 	#owner = SPA
@@ -34,9 +34,9 @@ discovered_by = indian
 # = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB } # The Germanies movement reaches the archipelago, the viceroy is deposed by the revolters
 # = { revolt = {} #controller = SPA } # The royal army retakes the city of Palma
 # = { #controller = HAB } # Balearic isles side with the Austrian cause
-# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # The pro-Austrian forces in Mallorca and Eïvissa ignore the Treaty of Utrecht.
+# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB } # The pro-Austrian forces in Mallorca and Eï¿½vissa ignore the Treaty of Utrecht.
 # = { revolt = {}  }
-# = { #controller = SPA } # Mallorca and Eïvissa surrender shortly after the fall of Barcelona
+# = { #controller = SPA } # Mallorca and Eï¿½vissa surrender shortly after the fall of Barcelona
 
 
 native_size = 5

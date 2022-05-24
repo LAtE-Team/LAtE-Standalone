@@ -17,9 +17,9 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -29,7 +29,7 @@ discovered_by = indian
 # = { unrest = 3 } # Isabel marries with Fernando of Aragon, breaking the Pacts of Guisando. King Enrique choses his daughter Juana ("La Beltraneja") as new heiress and a succession War erupts.
 # = { #controller = POR }
 # = { #controller = CAS }
-# = { unrest = 0 } # Peace of Alcaçovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
+# = { unrest = 0 } # Peace of Alcaï¿½ovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
 # = {	#controller = SPA
 	#owner = SPA
 	#add_core= SPA

@@ -1,10 +1,10 @@
-#4240 - Fejér (Fejér + Veszprém + Györ + parts of Komárom)
+#4240 - Fejï¿½r (Fejï¿½r + Veszprï¿½m + Gyï¿½r + parts of Komï¿½rom)
 
 #owner = HUN
 #controller = HUN 
 culture = hungarian
 religion = finnish_pagan_reformed
-capital = "Fehérvár"
+capital = "Fehï¿½rvï¿½r"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -14,7 +14,7 @@ is_city = yes
 #estate = #estate_church
 #add_core = HUN
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

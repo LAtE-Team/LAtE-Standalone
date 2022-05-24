@@ -4,7 +4,7 @@
 #controller = SWI
 culture = swiss
 religion = cult_of_reason
-capital = "Zürich"
+capital = "Zï¿½rich"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -17,9 +17,9 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

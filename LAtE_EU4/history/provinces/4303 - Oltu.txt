@@ -15,7 +15,7 @@ base_manpower = 2
 #add_core = GEO
 #add_core = ARM
 discovered_by = indian 
-discovered_by = RED
+
 discovered_by = high_american
 
 

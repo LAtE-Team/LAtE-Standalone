@@ -13,7 +13,7 @@ base_manpower = 1
 capital = "Kiel"
 is_city = yes
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

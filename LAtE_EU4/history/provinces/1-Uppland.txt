@@ -1,4 +1,4 @@
-#Uppland, contains Stockholm, Uppsala & Nyköping.
+#Uppland, contains Stockholm, Uppsala & Nykï¿½ping.
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -16,8 +16,8 @@ native_hostileness = 9
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian

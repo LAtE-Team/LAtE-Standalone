@@ -1,4 +1,4 @@
-#220 - València
+#220 - Valï¿½ncia
 
 #owner = ARA	#Alfons V of Aragon
 #controller = ARA
@@ -12,12 +12,12 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 fort_15th = yes
-capital = "València" 
+capital = "Valï¿½ncia" 
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

@@ -15,9 +15,9 @@ base_manpower = 1
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -28,9 +28,9 @@ discovered_by = indian
 # = { unrest = 0 } # Peace is restored
 # = { #owner = BUR #controller = BUR unrest = 5 } # Charles the Bold installs Louis de Bourbon
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # Citizens rise up against the disliked Louis de Bourbon
-# = { revolt = {} #controller = BUR } # Charles the Bold sacks Liège
-# = { #owner = LIE #controller = LIE  #add_core= HAB unrest = 0 } # Charles the Bold dies and Liège is re-established
-# = {  } # Liège signs a perpetual treaty of neutrality with Austria (and France)
+# = { revolt = {} #controller = BUR } # Charles the Bold sacks Liï¿½ge
+# = { #owner = LIE #controller = LIE  #add_core= HAB unrest = 0 } # Charles the Bold dies and Liï¿½ge is re-established
+# = {  } # Liï¿½ge signs a perpetual treaty of neutrality with Austria (and France)
 # = {
 	#owner = FRA
 	#controller = FRA

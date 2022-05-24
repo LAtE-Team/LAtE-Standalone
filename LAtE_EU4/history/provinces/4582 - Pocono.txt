@@ -1,9 +1,9 @@
-owner = Z09
-controller = Z09
-add_core = Z09
+owner = COA
+controller = COA
+add_core = COA
 
 culture = hudsonian
-religion = anabaptist
+religion = americanist
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -16,3 +16,4 @@ hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 3
+add_province_triggered_modifier = anabaptists_present_small

@@ -2,7 +2,7 @@
 
 
 #discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = western 
 discovered_by = eastern 
 discovered_by = muslim 

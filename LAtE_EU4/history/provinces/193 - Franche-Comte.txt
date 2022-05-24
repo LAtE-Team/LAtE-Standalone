@@ -1,8 +1,8 @@
-# 193 Franche-Comté - Principal cities: Besançon
+# 193 Franche-Comtï¿½ - Principal cities: Besanï¿½on
 
 #owner = BUR
 #controller = BUR 
-capital = "Besançon"
+capital = "Besanï¿½on"
 is_city = no
 #estate = #estate_burghers
 culture = burgundian
@@ -17,7 +17,7 @@ base_manpower = 1
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

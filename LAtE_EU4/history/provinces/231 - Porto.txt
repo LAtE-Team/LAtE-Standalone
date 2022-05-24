@@ -17,11 +17,11 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 extra_cost = 10
 
@@ -32,7 +32,7 @@ add_permanent_province_modifier = {
 
 # = { #controller = SPA }
 # = { #controller = POR }
-# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 } # Portugal regained it's independence & colonial possessions
 # = { #controller = FRA } # Occupied by France
 # = { #controller = POR }

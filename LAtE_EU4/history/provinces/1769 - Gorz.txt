@@ -1,4 +1,4 @@
-# 1769 - Görz
+# 1769 - Gï¿½rz
 #owner = HAB
 #controller = HAB
 #add_core= HAB
@@ -15,7 +15,7 @@ hre = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

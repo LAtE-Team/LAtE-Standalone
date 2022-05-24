@@ -16,15 +16,15 @@ is_city = no
 #estate = #estate_church
  # Santiago de Compostela pilgrimage
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
 
-# = { unrest = 4 } # Second war of the "irmandiños"
-# = { unrest = 0 } # End of the Second war of the "irmandiños"
+# = { unrest = 4 } # Second war of the "irmandiï¿½os"
+# = { unrest = 0 } # End of the Second war of the "irmandiï¿½os"
 # = { #controller = POR }
 # = { #controller = CAS }
 # = {  }

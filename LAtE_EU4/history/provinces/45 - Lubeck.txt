@@ -1,4 +1,4 @@
-#45 - Lübeck
+#45 - Lï¿½beck
 
 owner = BIZ
 controller = BIZ
@@ -11,13 +11,13 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 fort_15th = yes
-capital = "Lübeck"
+capital = "Lï¿½beck"
 is_city = yes
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 extra_cost = 15

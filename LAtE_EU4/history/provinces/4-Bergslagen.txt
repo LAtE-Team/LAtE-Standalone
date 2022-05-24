@@ -1,4 +1,4 @@
-#Bergslagen, contains Falun, Västerås etc.
+#Bergslagen, contains Falun, Vï¿½sterï¿½s etc.
 
 culture = swedish
 religion = norse_pagan_reformed
@@ -7,10 +7,10 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Västerås"
+capital = "Vï¿½sterï¿½s"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

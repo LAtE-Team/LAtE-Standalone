@@ -1,4 +1,4 @@
-#79 - Würzburg
+#79 - Wï¿½rzburg
 owner = BIZ
 controller = BIZ
 add_core= BIZ
@@ -9,13 +9,13 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 fort_15th = yes # Marienberg Fortress
-capital = "Würzburg"
+capital = "Wï¿½rzburg"
 hre = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 is_city = yes

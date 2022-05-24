@@ -12,7 +12,7 @@ bookmark =
     country = MRT
 
 	country = Y34	#Michigan
-	country = Y16	#Hudsonia
+	country = HUD	#Hudsonia
 	
     country = RED
     country = NYS

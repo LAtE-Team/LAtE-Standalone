@@ -16,7 +16,7 @@ is_city = yes
 add_core = BHT
 discovered_by = east_african
 discovered_by = indian 
-discovered_by = RED
+
 discovered_by = high_american
 
 

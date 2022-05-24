@@ -1,8 +1,8 @@
-# 182 Vermandois - Principal cities: Compiègne
+# 182 Vermandois - Principal cities: Compiï¿½gne
 
 #owner = FRA
 #controller = FRA
-capital = "Compiègne"
+capital = "Compiï¿½gne"
 is_city = no
 culture = cosmopolitan_french
 religion = cult_of_reason
@@ -12,7 +12,7 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

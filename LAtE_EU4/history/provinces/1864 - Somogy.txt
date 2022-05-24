@@ -4,7 +4,7 @@
 #controller = HUN 
 culture = hungarian
 religion = tengri_pagan_reformed
-capital = "Kaposvár"
+capital = "Kaposvï¿½r"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -14,7 +14,7 @@ is_city = no
 #estate = #estate_church
 #add_core= HUN
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

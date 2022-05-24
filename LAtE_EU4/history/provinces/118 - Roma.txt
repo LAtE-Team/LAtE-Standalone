@@ -17,7 +17,7 @@ fort_15th = yes #Castel Sant'Angelo
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5
