@@ -3011,6 +3011,17 @@ on_five_year_pulse_2 = {
 		100 = rajputs_estate_events.9
 		100 = rajputs_estate_events.10
 		100 = rajputs_estate_events.11
+		# Anabaptists
+		100 = anabaptists_estate_events.2
+		100 = anabaptists_estate_events.3
+		100 = anabaptists_estate_events.4
+		100 = anabaptists_estate_events.5
+		100 = anabaptists_estate_events.6
+		100 = anabaptists_estate_events.7
+		400 = anabaptists_estate_events.8 # Disloyal
+		100 = anabaptists_estate_events.9
+		400 = anabaptists_estate_events.10 # Demands
+		100 = anabaptists_estate_events.11
 		# Cowboys
 		100 = cowboys_estate_events.1
 		#100 = cowboys_estate_events.2 (triggers in neighbor country)

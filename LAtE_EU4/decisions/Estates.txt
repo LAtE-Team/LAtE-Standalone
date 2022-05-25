@@ -301,6 +301,183 @@ country_decisions = {
 		}
 	}
 
+	expel_estate_anabaptists = {
+		major = yes
+		potential = {
+			OR = {
+				has_country_flag = anabaptists_accepted
+				has_country_flag = anabaptists_rejected
+			}
+		}
+		allow = {
+			stability = 1
+			NOT = { num_of_rebel_armies = 1 }
+			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = {
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 30
+				}				
+			}
+		}
+		effect = {
+			add_stability = -1
+			if = {
+				limit = {
+					has_country_flag = anabaptists_accepted
+				}
+				clr_country_flag = anabaptists_accepted
+			}
+			if = {
+				limit = {
+					has_country_flag = anabaptists_rejected
+				}
+				clr_country_flag = anabaptists_rejected
+			}
+			set_country_flag = anabaptists_expelled
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	drive_out_anabaptists = {
+		potential = {
+			has_country_flag = anabaptists_expelled
+			any_owned_province = {
+				OR = {
+					has_province_modifier = anabaptists_present_small
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				OR = {
+					has_province_modifier = anabaptists_present_small
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+				NOT = { has_province_modifier = anabaptist_passive_resistance }
+				num_of_units_in_province = {
+					who = ROOT
+					amount = 10
+				}
+			}
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = anabaptists_present_small
+						has_province_modifier = anabaptists_present_medium
+						has_province_modifier = anabaptists_present_large
+					}
+					NOT = { has_province_modifier = anabaptist_passive_resistance }
+					num_of_units_in_province = {
+						who = ROOT
+						amount = 10
+					}
+				}
+				if = {
+					limit = { has_province_modifier = anabaptists_present_large }
+					hidden_effect = { remove_province_triggered_modifier = anabaptists_present_large }
+					add_province_triggered_modifier = anabaptists_present_medium
+				}
+				else_if = {
+					limit = { has_province_modifier = anabaptists_present_medium }
+					hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium }
+					add_province_triggered_modifier = anabaptists_present_small
+				}
+				else = {
+					hidden_effect = { remove_province_triggered_modifier = anabaptists_present_small }
+				}
+				add_province_modifier = {
+					name = anabaptist_passive_resistance
+					duration = 730
+				}
+				hidden_effect = {
+					if = {
+						limit = {
+							any_known_country = {
+								religion_group = christian
+								is_neighbor_of = ROOT
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }					
+							}
+						}
+						random_known_country = {
+							limit = {
+								religion_group = christian
+								is_neighbor_of = ROOT
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }
+							}
+							country_event = { id = anabaptists_estate_events.16 }
+						}
+					}
+					else_if = {
+						limit = {
+							ROOT = { religion_group = christian }
+							any_known_country = {
+								has_matching_religion = ROOT
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }					
+							}
+						}
+						random_known_country = {
+							limit = {
+								has_matching_religion  = ROOT
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }
+							}
+							country_event = { id = anabaptists_estate_events.16 }
+						}
+					}
+					else_if = {
+						limit = {
+							any_known_country = {
+								religion_group = christian
+								culture_group = amerodeutsch
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }					
+							}
+						}
+						random_known_country = {
+							limit = {
+								religion_group = christian
+								culture_group = amerodeutsch
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }
+							}
+							country_event = { id = anabaptists_estate_events.16 }
+						}
+					}
+					else = {
+						random_known_country = {
+							limit = {
+								religion_group = christian
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }
+							}
+							country_event = { id = anabaptists_estate_events.16 }
+						}
+					}
+				}
+				random_list = {
+					25 = { add_base_tax = -1 }
+					25 = { add_base_tax = -2 }
+					25 = { add_base_production = -1 }
+					25 = { add_base_production = -2 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	curtail_estate_scavengers = {
 		major = yes
 		potential = {
