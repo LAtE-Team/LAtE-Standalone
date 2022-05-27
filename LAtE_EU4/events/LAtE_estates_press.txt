@@ -1,7 +1,7 @@
 ###########################################################
-# Events for the Jains Estate
-#
-# written by Daniel Tolman
+# Events for the Press Estate
+# First 11 Generic from Vanilla
+# Modified by Technecian
 ###########################################################
 
 namespace = press_estate_events

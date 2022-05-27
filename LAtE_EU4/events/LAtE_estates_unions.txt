@@ -1,7 +1,7 @@
 ###########################################################
 # Events for the Vaisyas Estate
-#
-# written by Daniel Tolman
+# First 11 Generic from Vanilla
+# Modified by Technecian
 ###########################################################
 
 namespace = unions_estate_events

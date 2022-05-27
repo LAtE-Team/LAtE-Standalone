@@ -163,7 +163,7 @@ country_event = {
 	}
 	
 	option = {
-		name = antiquarians_estate_events.1.a #Ok
+		name = antiquarians_estate_events.2.a #Ok
 		add_estate_influence_modifier = {
 			estate = estate_antiquarians
 			desc = EST_VAL_CHURCH_ADVANCE

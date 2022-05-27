@@ -1,7 +1,7 @@
 ###########################################################
-# Events for the Nobility Estate
-#
-# written by Henrik Lohmander
+# Events for the Army Estate
+# First 11 Generic from Vanilla
+# Modified by Technecian
 ###########################################################
 
 namespace = army_estate_events

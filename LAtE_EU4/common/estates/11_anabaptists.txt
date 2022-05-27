@@ -86,7 +86,44 @@ estate_anabaptists = {
 		}
 		influence = -40
 	}
-	
+
+	influence_modifier = {	
+		desc = EST_ANA_COMMUNITIES
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					has_province_modifier = anabaptists_present_small
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 10
+					OR = {
+						has_province_modifier = anabaptists_present_medium
+						has_province_modifier = anabaptists_present_large
+					}
+				}
+			}
+		}
+		influence = 5
+	}
+	influence_modifier = {	
+		desc = EST_ANA_MANY_COMMUNITIES
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+			}
+		}
+		influence = 10
+	}
+
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {

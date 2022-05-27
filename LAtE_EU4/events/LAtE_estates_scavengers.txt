@@ -1,10 +1,756 @@
 ###########################################################
 # Events for the Anabaptist Estate
-# First 10 Generic, based on Vanilla
+# First 10 Generic based on Anbennar Adventurers
 # 11+ written by Technecian
 ###########################################################
 
 namespace = scavengers_estate_events
+
+#Advancement of the Scavengers
+country_event = {
+	id = scavengers_estate_events.1
+	title = scavengers_estate_events.1.t
+	desc = scavengers_estate_events.1.d
+	picture = COSSACK_ESTATE_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SCAVENGERS_ADVANCES
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SCAVENGERS_DECLINES
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = scavengers_estate_events.1.a #Ok
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_SCAVENGERS_ADVANCES
+			influence = 10
+			duration = 5475
+		}
+	}
+}
+
+#Decline of the Scavengers
+country_event = {
+	id = scavengers_estate_events.2
+	title = scavengers_estate_events.2.t
+	desc = scavengers_estate_events.2.d
+	picture = COSSACK_ESTATE_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SCAVENGERS_ADVANCES
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SCAVENGERS_DECLINES
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.2.a #Ok
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_SCAVENGERS_DECLINES
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+#Adventurers vs Nobles
+country_event = {
+	id = scavengers_estate_events.3
+	title = scavengers_estate_events.3.t
+	desc = scavengers_estate_events.3.d
+	picture = COSSACK_ESTATE_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		has_estate = estate_nobles
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_NO_COMMISSIONS_FOR_SCAVENGERS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_COMMISSIONS_FOR_SCAVENGERS
+			}
+		}
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	is_triggered_only = yes
+	
+	
+	
+	option = {
+		name = scavengers_estate_events.3.a #Ok.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_scavengers
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+		}
+
+		reduce_estate_scavengers_loyalty_effect = yes
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_NO_COMMISSIONS_FOR_SCAVENGERS
+			influence = -10
+			duration = 3650
+		}
+
+		add_army_tradition = -5
+	}
+	option = {
+		name = scavengers_estate_events.3.b #We promote on merit.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.2
+				NOT = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_scavengers
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+		}
+		reduce_estate_nobles_loyalty_effect = yes
+
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			desc = EST_VAL_COMMISSIONS_FOR_SCAVENGERS
+			influence = -10
+			duration = 3650
+		}
+	}
+}
+
+#Merchants Underpay Scavengers
+country_event = {
+	id = scavengers_estate_events.4
+	title = scavengers_estate_events.4.t
+	desc = scavengers_estate_events.4.d
+	picture = BURGHER_ESTATE_UPSET_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		has_estate = estate_burghers
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SUPPORTED_SCAVENGERS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_SUPPORTED_BURGHERS_VS_SCAVENGERS
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.4.a #Force the merchants to pay
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_burghers
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_scavengers
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_scavengers
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_SUPPORTED_SCAVENGERS
+			influence = 10
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			desc = EST_VAL_SUPPORTED_SCAVENGERS
+			influence = -10
+			duration = 5475
+		}
+	}
+	option = {
+		name = scavengers_estate_events.4.b #Support merchant - thats what I call a shrewd merchant
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_burghers
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_scavengers
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_SUPPORTED_BURGHERS_VS_SCAVENGERS
+			influence = -10
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			desc = EST_VAL_SUPPORTED_BURGHERS_VS_SCAVENGERS
+			influence = 10
+			duration = 5475
+		}
+	}
+}
+
+#Loyal - Promising Scavengers
+country_event = {
+	id = scavengers_estate_events.5
+	title = scavengers_estate_events.5.t
+	desc = scavengers_estate_events.5.d
+	picture = wihgfx_FEMALE_GENERAL_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		estate_loyalty = {
+			estate = estate_scavengers
+			loyalty = 50
+		}
+		estate_influence = {
+			estate = estate_scavengers
+			influence = 30
+		}
+
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_saved_name = {
+				key = root_name_male
+				type = advisor
+				scope = ROOT
+			}
+			set_saved_name = {
+				key = root_name_female
+				type = advisor
+				female = yes
+				scope = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.5.a #
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				is_at_war = yes
+			}
+		}
+		random_list = {
+			50 = {
+				define_conquistador = {
+					shock = 4
+					fire = 2
+					manuever = 5
+					siege = 0
+					name = root_name_male
+				}
+			}
+			50 = {
+				define_conquistador = {
+					shock = 4
+					fire = 2
+					manuever = 5
+					siege = 0
+					female = yes
+					name = root_name_female
+				}
+			}
+		}
+	}
+	option = {
+		name = scavengers_estate_events.5.b #
+		ai_chance = {
+			factor = 50
+		}
+		random_list = {
+			50 = {
+				define_advisor = {
+					type = army_reformer
+					name = root_name_male
+					skill = 3
+					culture = ROOT
+					religion = ROOT
+					discount = yes
+				}
+			}
+			50 = {
+				define_advisor = {
+					type = army_reformer
+					name = root_name_female
+					skill = 3
+					culture = ROOT
+					religion = ROOT
+					discount = yes
+				}
+			}
+		}
+	}
+}
+
+#Scavengers refuse to hand over Artifact to the State
+country_event = {
+	id = scavengers_estate_events.6
+	title = scavengers_estate_events.6.t
+	desc = scavengers_estate_events.6.d
+	picture = GOLDEN_STOOL_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		has_estate = estate_artificers
+		
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_artificers
+				modifier = EST_VAL_EXPLOITING_ARTIFACTS
+			}
+		}
+
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.6.a #Side with adventurers
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 60
+					}
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_scavengers
+			loyalty = 10
+		}
+	}
+	option = {
+		name = scavengers_estate_events.6.b #Side with artificers
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_influence = {
+						estate = estate_artificers
+						influence = 30
+					}
+				}
+			}
+		}
+		prestige = 10
+		
+		add_estate_loyalty = {
+			estate = estate_scavengers
+			loyalty = -15
+		}
+	}
+}
+
+#Disloyal & Influential - Undermine the State
+country_event = {
+	id = scavengers_estate_events.7 
+	title = scavengers_estate_events.7.t
+	desc = scavengers_estate_events.7.d
+	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		
+		NOT = {
+			estate_loyalty = {
+				estate = estate_scavengers
+				loyalty = 30
+			}
+		}
+		
+		estate_influence = {
+			estate = estate_scavengers
+			influence = 70
+		}
+		
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_UNDERMINING_THE_STATE
+			}
+		}
+
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_PUT_INTO_PLACE
+			}
+		}
+
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.7.a #Take it
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = { prestige = 30 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { 
+					estate_influence = {
+						estate = estate_scavengers
+						influence = 80
+					}
+				}
+			}
+		}
+		
+		add_corruption = 2
+		
+		add_estate_scavengers_loyalty_effect = yes
+		
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_UNDERMINING_THE_STATE
+			influence = 10
+			duration = 3650
+		}
+
+	}
+	option = {
+		name = scavengers_estate_events.7.b #Put them in their place
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = { mil_power = 100 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { 
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 10
+					}
+				}
+			}
+			modifier = {
+				factor = 1.25 
+				estate_influence = {
+					estate = estate_scavengers
+					influence = 90
+				}
+			}
+		}
+		
+		add_mil_power = -100
+		
+		reduce_estate_scavengers_loyalty_effect = yes
+		
+		add_estate_influence_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_PUT_INTO_PLACE
+			influence = -20
+			duration = 3650
+		}
+		
+	}
+}
+
+#Local Revolt
+province_event = {
+	id = scavengers_estate_events.8 #15
+	title = scavengers_estate_events.8.t
+	desc = scavengers_estate_events.8.d
+	picture = COSSACK_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = scavengers_estate_events.8.a #Ok.
+		
+	}
+}
+
+#Retired Scavengers Buy Land
+country_event = {
+	id = scavengers_estate_events.9
+	title = scavengers_estate_events.9.t
+	desc = scavengers_estate_events.9.d
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		estate_influence = {
+			estate = estate_scavengers
+			influence = 40
+		}
+		
+		crown_land_share = 20
+		
+		NOT = {
+			has_estate_loyalty_modifier = {
+				estate = estate_scavengers
+				modifier = EST_VAL_ADVICE_FROM_LOYAL_RETIRED_SCAVENGERS
+			}
+		}
+
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = scavengers_estate_events.9.a #Let them do as they please
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_influence = {
+						estate = estate_scavengers
+						influence = 15
+					}
+				}
+			}
+		}
+
+		scaled_estate_scavengers_land_share_effect = yes
+
+	}
+	option = {
+		name = scavengers_estate_events.9.b #Stop them from buying more land
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { years_of_income = 1 }
+			}
+		}
+		
+		add_years_of_income = -0.25
+		
+		add_estate_loyalty_modifier = {
+			estate = estate_scavengers
+			desc = EST_VAL_ADVICE_FROM_LOYAL_RETIRED_SCAVENGERS
+			loyalty = 10
+			duration = 7300
+		}
+		
+		scaled_estate_scavengers_land_share_effect = yes
+	}
+}
+
+#Demands - Too many Scavengers
+country_event = {
+	id = scavengers_estate_events.10
+	title = scavengers_estate_events.10.t
+	desc = scavengers_estate_events.10.d
+	picture = COSSACK_ESTATE_eventPicture
+	
+	trigger = {
+
+		has_estate = estate_scavengers
+		has_estate_privilege = estate_scavengers_organization_land_of_adventure
+		
+		estate_influence = {
+			estate = estate_scavengers
+			influence = 70
+		}
+		
+		NOT = { has_country_modifier = too_many_scavengers }
+		
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {
+		name = scavengers_estate_events.10.a #
+		
+		add_country_modifier = {
+			name = too_many_scavengers
+			duration = 3650
+		}
+	}
+
+}
 
 # Extension of The Artifact Auctions
 country_event = {
@@ -969,7 +1715,7 @@ country_event = {
 
 	option = {
 		name = scavengers_estate_events.22.a
-		add_country_modifier = { name = estate_scavengers_spec_fire_dmg duration = -1 }
+		add_country_modifier = { name = estate_scavengers_spec_shock_dmg duration = -1 }
 	}
 
 	option = {
@@ -978,7 +1724,7 @@ country_event = {
 	}
 }
 
-# Rare Artifact Found Shock Damage
+# Rare Artifact Found Shock Damage Defense
 country_event = {
 	id = scavengers_estate_events.23
 	title = scavengers_estate_events.23.t

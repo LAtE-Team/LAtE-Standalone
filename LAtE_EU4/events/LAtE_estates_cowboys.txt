@@ -1,7 +1,7 @@
 ###########################################################
 # Events for the Cossack Estate
-#
-# written by Henrik Lohmander
+# First 11 Generic from Vanilla
+# Modified by Technecian
 ###########################################################
 
 namespace = cowboys_estate_events

@@ -124,6 +124,11 @@ estate_scavengers_spec_fire_dmg = {
 	fire_damage = 0.1
 }
 
+estate_scavengers_spec_shock_dmg = {
+	is_rajput_modifier = yes
+	shock_damage = 0.1
+}
+
 estate_scavengers_spec_shock_def = {
 	is_rajput_modifier = yes
 	shock_damage_received = 0.2

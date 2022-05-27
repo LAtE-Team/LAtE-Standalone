@@ -51,7 +51,7 @@ MCN = "countries/Michiana.txt"
 SAG = "countries/Sagina.txt"
 DET = "countries/Detroit.txt"
 UPN = "countries/Upnorth.txt"
-#GRY = "countries/Gary.txt"
+GRY = "countries/Gary.txt"
 
 #Canada
 THN = "countries/Thunder.txt"

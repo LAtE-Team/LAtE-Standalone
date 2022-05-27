@@ -69,3 +69,8 @@ agenda_privateering_cowboys = {
 }
 
 recent_estate_cowboys_reply_of_the_zaporozhian_timer = { }
+
+too_many_scavengers = {
+	global_unrest = 3
+	global_monthly_devastation = 0.1
+}

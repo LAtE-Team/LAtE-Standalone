@@ -4,6 +4,8 @@
  estate_anabaptists_desc: "Though Anabaptists typically refuse any association with worldly politics, they have allowed some attached to our state in exchange for special privileges. In particular their non-violent oath which they seek to uphold will prevent them from serving in our armies, and they are sure to resist any attempts at conscription."
  anabaptists_loyalty_modifier: "[Root.GetAnabaptistsName] Loyalty Equilibrium"
  anabaptists_influence_modifier: "[Root.GetAnabaptistsName] Influence"
+ EST_ANA_COMMUNITIES: "Some Anabaptists Communities: §Y$VAL$%§!"
+ EST_ANA_MANY_COMMUNITIES: "Many Anabaptists Communities: §Y$VAL$%§!"
  estate_privileges_and_agendas_events.3.ab: "The Proposal of the [Root.GetAnabaptistsName]"
  local_anabaptists_displeased: "Local [Root.GetAnabaptistsName] Displeased"
  estate_anabaptists_guaranteed_autonomy_effect_tooltip: "Every owned province of §YAnabaptist§! faith gains:\nLocal Missionary Strength: §R-100%§!\nLocal Religious Unity Contribution: §G-100%§!"
@@ -297,7 +299,7 @@
 
  #Army
  estate_army: "Army"
- estate_army_desc: "The [Root.GetArmyName] are an ancient caste of warriors who serve [Root.GetUsableName] in exchange for land and privileges in their retirement. Their traditional responsibility is to fight and protect the realm against outside dangers as well as help the ruler keep the peace."
+ estate_army_desc: "This estate represents an ancient caste of warriors who serve our state in exchange for land and privileges in their retirement. Their traditional responsibility is to fight and protect the realm against outside dangers as well as help the ruler keep the peace."
  army_loyalty_modifier: "[Root.GetArmyName] Loyalty Equilibrium"
  army_influence_modifier: "[Root.GetArmyName] Influence"
  estate_privileges_and_agendas_events.3.ar: "The Proposal of the [Root.GetArmyName]"
@@ -382,7 +384,7 @@
 
  #Unions
  estate_unions: "Unions"
- estate_unions_desc: "The [Root.GetUnionsName] are the laborers and craftsmen organized by Old World codes. Though they are traditionally fairly low status, when organized and prosperous they can dominate a society."
+ estate_unions_desc: "This estate represents the laborers and craftsmen organized by Old World codes. Though they are traditionally fairly low status, when organized and prosperous they can dominate a society."
  unions_loyalty_modifier: "[Root.GetUnionsName] Loyalty Equilibrium"
  unions_influence_modifier: "[Root.GetUnionsName] Influence"
  estate_privileges_and_agendas_events.3.un: "The Proposal of the [Root.GetUnionsName]"
@@ -463,7 +465,7 @@
 
  #Press
  estate_press: "Press"
- estate_press_desc: "This estate represents the educated writers who reproduce Old World Knowledge as well as covering current events. Though they nominally follow the faith of [Root.GetUsableName], they are given more room to challenge the orthodoxy. They have found a niche in diplomacy and bureaucracy that makes them an asset to any state that offers them patronage."
+ estate_press_desc: "This estate represents the educated writers who reproduce Old World Knowledge as well as covering current events. Though they nominally follow the state faith, they are given more room to challenge the orthodoxy. They have found a niche in diplomacy and bureaucracy that makes them an asset to any state that offers them patronage."
  press_loyalty_modifier: "[Root.GetPressName] Loyalty Equilibrium"
  press_influence_modifier: "[Root.GetPressName] Influence"
  estate_privileges_and_agendas_events.3.pr: "The Proposal of the [Root.GetPressName]"
