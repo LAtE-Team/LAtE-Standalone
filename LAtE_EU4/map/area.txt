@@ -628,7 +628,7 @@ malopolska_area = { #5
 }
 
 red_ruthenia_area = { #4
-	261 1940 2424 2961
+	261 1940 2961
 }
 
 podolia_volhynia_area = { #4
@@ -3030,7 +3030,7 @@ east_alaska_area = { #3
 # }
 
 newfoundland_area = { #3
-	980 981 2573
+	980 981 2424 2573
 }
 
 # labrador_area = { #3
@@ -3466,7 +3466,7 @@ gotham_area = {
 #Indiana/Ohio
 
 miami_river_area = { #Called Indiana
-	4701 942 4704 943 2524
+	942 943 2524 4701 4704
 }
 
 cleveland_area = {
@@ -3486,19 +3486,27 @@ ohio_country_area = { #4
 }
 
 detroit_area = {
-	4555 4554 944 2521 4557
+	4555 4554 944 4556 4703   
+}
+
+saginaw_area = {
+	4557 2521 4558
 }
 
 michigan_area = { #4
-	4560 4561 4562 945 2522  
+	4560 4561 4562 4702 2522
 }
 
 up_north_area = {
-	4558 4589 4559 4591
+	945 4589 4559 4591
 }
 
-calumet_area = {
-	4565 4564 4563 913 4695 
+coulee_area = {
+	913 4695 4696
+}
+
+northwoods_area = {
+	4700 4693 4694
 }
 
 upper_ontario_area = { #4
@@ -3506,27 +3514,27 @@ upper_ontario_area = { #4
 }
 
 lake_superior_area = { #4
-	910 2517 2518 4571
+	910 2517 4571
 }
 
 soo_area = { # Called "Upper Peninsula"
-	911 4569 4567 4590 4568
+	911 4569 4567  
+}
+
+copperland_area = {
+	4568 4590 2518
 }
 
 wisconsin_area = { #3
-	4691 4692 912 4696 4694
+	4691 4692 912 
 }
 
 green_bay_area = {
-	914 4700 4693 4566
-}
-
-maumee_area = {
-	4556 4703 4702
+	914 4566 4565 4564
 }
 
 illinois_country_area = {
-	915 916 917 2519
+	915 916 917 2519 4563
 }
 
 #Missisippi Region

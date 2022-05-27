@@ -6,7 +6,6 @@ culture = grangelander
 religion = catholic
 is_city = yes
 add_permanent_claim = ORD
-add_core = Y43
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = Y34
-controller = Y34
-add_core = Y34
+owner = MIC
+controller = MIC
+add_core = MIC
 culture = motowner
 religion = rust_cultist
 is_city = yes
@@ -710,8 +710,8 @@ discovered_by = X17
 	
 }
 3053.1.1 = {
-	owner = Y34
-	controller = Y34
+	owner = MIC
+	controller = MIC
 	culture = motowner
 	religion = rust_cultist
 }

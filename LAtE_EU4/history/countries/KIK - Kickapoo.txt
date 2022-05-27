@@ -1,0 +1,26 @@
+# Kickapoo
+government = monarchy 
+
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = grangelander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 4696
+3046.11.18 = {
+	monarch = {
+		name = "Micah"
+		birth_date = 3011.1.8
+		dynasty = "Rodman"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}
+3053.1.1 {
+	capital = 4696
+	add_treasury = 21
+	add_prestige = 117
+}

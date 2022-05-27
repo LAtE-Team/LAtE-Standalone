@@ -1,9 +1,9 @@
-owner = Y29
-controller = Y29
-add_core = Y29
+owner = CLE
+controller = CLE
+add_core = CLE
 
 culture = motowner
-religion = catholic
+religion = rust_cultist
 is_city = yes
 add_core = Y31
 discovered_by = eastern

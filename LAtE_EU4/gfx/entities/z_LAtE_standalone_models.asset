@@ -26,7 +26,7 @@ entity = { clone = "NRN_CAVALRY_2" name = "MRL_CAVALRY_2" version = 10}
 entity = { clone = "NRN_INFANTRY_2" name = "MRL_INFANTRY_2" version = 10}
 
 #Michigan
-entity = { clone = "PAL_CAVALRY_1" name = "Y34_CAVALRY_1" version = 10}
-entity = { clone = "PAL_INFANTRY_1" name = "Y34_INFANTRY_1" version = 10}
-entity = { clone = "MLO_CAVALRY_2" name = "Y34_CAVALRY_2" version = 10}
-entity = { clone = "MLO_INFANTRY_2" name = "Y34_INFANTRY_2" version = 10}
+entity = { clone = "PAL_CAVALRY_1" name = "MIC_CAVALRY_1" version = 10}
+entity = { clone = "PAL_INFANTRY_1" name = "MIC_INFANTRY_1" version = 10}
+entity = { clone = "MLO_CAVALRY_2" name = "MIC_CAVALRY_2" version = 10}
+entity = { clone = "MLO_INFANTRY_2" name = "MIC_INFANTRY_2" version = 10}

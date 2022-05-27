@@ -1,5 +1,4 @@
 # Shield
-ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 107 133 103 }
 

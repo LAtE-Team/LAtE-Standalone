@@ -5221,7 +5221,6 @@ muskogean = {
 		}
 	}
 	chickasaw = {
-		primary = CHI
 		dynasty_names = {
 			Ackia Alaoute Amalahta Apeony Apilefaplimengo Ashukhuma Ayebisto Chatelaw
 			Chesafaliah Chinica Chopoussa Chucalissa Chukafalaya Chula Coppertown

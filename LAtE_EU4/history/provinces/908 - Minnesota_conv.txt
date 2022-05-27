@@ -3,7 +3,7 @@ controller = Y87
 add_core = Y87
 
 culture = dakota
-religion = ghost_dance
+religion = catholic
 is_city = yes
 discovered_by = eastern
 discovered_by = western

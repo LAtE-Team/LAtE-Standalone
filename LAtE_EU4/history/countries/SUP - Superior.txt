@@ -7,7 +7,7 @@ technology_group = eastern
 primary_culture = dellsman
 religion = norse_pagan_reformed
 clear_scripted_personalities = yes
-capital = 4700
+capital = 4571
 3053.1.1 {
 	monarch = {
 		name = "Rudolf"
@@ -30,7 +30,7 @@ capital = 4700
 	}
 }
 3053.1.1 {
-	capital = 4700
+	capital = 4571
 	add_treasury = 4
 	add_prestige = 275
 }

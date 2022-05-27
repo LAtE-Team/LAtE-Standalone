@@ -1,11 +1,11 @@
-# Algoma
+# Kenora
 government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
-primary_culture = metis
-religion = anglican
+primary_culture = anishinabe
+religion = ghost_dance
 clear_scripted_personalities = yes
 capital = 1001
 3053.1.1= {

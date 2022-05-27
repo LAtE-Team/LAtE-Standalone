@@ -7,32 +7,23 @@ bookmark =
 	center = 965
 	default = yes
 	
-	country = ONT	#Lorent
-	country = QUE	#Deranne
+	country = ONT
+	country = QUE
     country = MRT
 
-	country = Y34	#Michigan
-	country = HUD	#Hudsonia
+	country = HUD
+	country = RED
+	country = NYS
+	country = AGH
 	
-    country = RED
-    country = NYS
-
-    country = FLD
-    country = Z03   #Peachtree
-    country = Z04   #Birmingham
-    country = Z05   #Blackmarch
-
-    country = ORD
-    country = Y29   #Ohio
-
-    country = Z01   #Magnolia
-    country = Z02   #Orleans
+	country = WDC
+	country = VER
+	country = MNE
+	country = COA
 
 	easy_country = ONT	#Ontario
 	easy_country = QUE	#Quebec
-	easy_country = Y34	#Michigan
+	easy_country = HUD	#Hudsonia
 	easy_country = RED	#Redcoats
-	easy_country = FLD	#Florida
-	easy_country = Z03	#Peachtree
-
+	easy_country = NYS	#New York
 }

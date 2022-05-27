@@ -1,6 +1,6 @@
-owner = Y43
-controller = Y43
-add_core = Y43
+owner = KIK
+controller = KIK
+add_core = KIK
 
 culture = grangelander
 religion = catholic

@@ -1,9 +1,9 @@
-owner = Y51
-controller = Y51 
-add_core = Y51
+owner = KIK
+controller = KIK 
+add_core = KIK
 
 culture = dellsman
-religion = norse_pagan_reformed
+religion = catholic
 is_city = yes
 add_core = Y51
 discovered_by = eastern

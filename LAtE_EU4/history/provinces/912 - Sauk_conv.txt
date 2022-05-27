@@ -1,6 +1,6 @@
-owner = Y51
-controller = Y51 
-add_core = Y51
+owner = CPW
+controller = CPW 
+add_core = CPW
 
 culture = dellsman
 religion = norse_pagan_reformed

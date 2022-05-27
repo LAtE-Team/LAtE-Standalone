@@ -1,9 +1,9 @@
-owner = MTC
-controller = MTC 
-add_core = MTC
+owner = SUP
+controller = SUP 
+add_core = SUP
 
 culture = northlander
-religion = rust_cultist
+religion = norse_pagan_reformed
 is_city = yes
 add_permanent_claim = SUP
 add_permanent_claim = X78

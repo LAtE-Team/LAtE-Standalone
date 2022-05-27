@@ -1,9 +1,9 @@
-owner = Y29
-controller = Y29
-add_core = Y29
+owner = OHI
+controller = OHI
+add_core = OHI
 
 culture = rostmann
-religion = catholic
+religion = rust_cultist
 is_city = yes
 discovered_by = eastern
 discovered_by = western

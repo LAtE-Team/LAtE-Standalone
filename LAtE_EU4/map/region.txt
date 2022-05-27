@@ -1166,11 +1166,13 @@ great_lakes_region = {
 		wisconsin_area
 		#AtE Additions
 		up_north_area
-		calumet_area
+		coulee_area
 		soo_area
 		detroit_area
 		green_bay_area
-		maumee_area
+		saginaw_area
+		copperland_area
+		northwoods_area
 	}
 }
 
