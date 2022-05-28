@@ -1,0 +1,27 @@
+# Pocomoke
+government = monarchy 
+
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = delawarean
+religion = americanist
+clear_scripted_personalities = yes
+capital = 4620
+3044.7.20 = {
+	monarch = {
+		name = "Violet"
+		birth_date = 3039.8.13
+		dynasty = "Ibelin"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = drunkard_personality
+}
+3053.1.1 {
+	capital = 4620
+	add_treasury = -21
+	add_prestige = -12
+}

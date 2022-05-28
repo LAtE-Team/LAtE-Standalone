@@ -1,0 +1,182 @@
+estate_anabaptists = {
+	icon = 12
+
+	# If true, country will get estate
+	
+	trigger = {	
+		OR = {
+            has_estate = estate_anabaptists
+            has_country_flag = anabaptists_accepted
+        }
+        NOT = { has_country_flag = anabaptists_expelled }
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		NOT = { government = native }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { has_reform = pirate_republic_reform }
+		is_nomad = no
+		is_colonial_nation = no
+		NOT = { has_reform = celestial_empire }
+		NOT = { has_reform = revolutionary_empire_reform }
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		build_cost = -0.1
+		build_time = -0.1
+	}
+	country_modifier_neutral = {
+		build_cost = -0.10
+	}	
+	country_modifier_angry = {
+		global_unrest = 2
+	}
+	land_ownership_modifier = {
+		anabaptists_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			NOT = { development = 5 }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				NOT = { development = 10 }
+				NOT = { province_trade_power = 5 }
+			}
+		}
+		modifier = {
+			factor = 2
+			development = 20
+		}
+		modifier = {
+			factor = 0.5
+			is_territorial_core = owner
+		}
+		modifier = {
+			factor = 1.5
+			province_trade_power = 10
+		}
+		modifier = {
+			factor = 1.5
+			province_trade_power = 20
+		}
+	}
+
+	# Influence modifiers
+	base_influence = 5
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
+			}
+		}
+		influence = -40
+	}
+
+	influence_modifier = {	
+		desc = EST_ANA_COMMUNITIES
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					has_province_modifier = anabaptists_present_small
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 10
+					OR = {
+						has_province_modifier = anabaptists_present_medium
+						has_province_modifier = anabaptists_present_large
+					}
+				}
+			}
+		}
+		influence = 5
+	}
+	influence_modifier = {	
+		desc = EST_ANA_MANY_COMMUNITIES
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_large
+				}
+			}
+		}
+		influence = 10
+	}
+
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
+			}
+		}
+		loyalty = -20
+	}
+
+	privileges = {
+		estate_anabaptists_land_rights
+		estate_anabaptists_allow_growth
+		estate_anabaptists_allow_proselytization
+		estate_anabaptists_guaranteed_autonomy
+		estate_anabaptists_clerical_class
+		estate_anabaptists_conscientious_objection
+		estate_anabaptists_control_over_monetary_policy
+		estate_anabaptists_exclusive_trade_rights
+		estate_anabaptists_private_trade_fleets
+		estate_anabaptists_grant_liberties
+	}
+	
+	agendas = {
+		estate_anabaptists_build_trade_building_in_y
+		estate_anabaptists_build_port_building_in_y
+		estate_anabaptists_build_production_building_in_y
+		estate_anabaptists_build_manufactory_in_y
+		estate_anabaptists_build_university_in_y
+		estate_anabaptists_pay_off_loans
+		estate_anabaptists_restore_republican_tradition
+		estate_anabaptists_restore_currency
+		estate_anabaptists_recovery_from_hyperinflation
+		estate_anabaptists_increase_trade_power_in_X
+		estate_anabaptists_access_sea
+		estate_anabaptists_build_a_fleet
+		estate_anabaptists_bigger_fleet_than_rival
+		estate_anabaptists_improve_dip_rep
+		estate_anabaptists_get_cash
+		estate_anabaptists_reduce_corruption
+		estate_anabaptists_three_privileges
+		estate_anabaptists_protect_against_piracy
+		estate_anabaptists_hire_advisor
+		estate_anabaptists_fire_advisor
+	}
+
+	color = { 140 180 180 }
+	
+	influence_from_dev_modifier = 1.0
+}

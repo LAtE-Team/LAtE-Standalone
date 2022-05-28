@@ -16,24 +16,24 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 #fort_15th = yes
 # = { fort_16th = yes }
 # = { #controller = SPA }
 # = { #controller = POR }
-# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 }
 # = { fort_16th = no fort_17th = yes }
 # = { fort_17th = no fort_18th = yes }
 # = { #controller = FRA } # Occupied by France
 # = { #controller = POR }
-# = { #controller = FRA } # Invaded after the battle of Côa
+# = { #controller = FRA } # Invaded after the battle of Cï¿½a
 # = { #controller = POR } # The Napoleonic army retreats from Portugal
 
 

@@ -1,0 +1,165 @@
+estate_cowboys =
+{
+	icon = 13
+	
+	# Used for when declaring independence
+	independence_government = tribal
+	starting_reform = steppe_horde
+	independence_tech_group = nomad_group
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 2
+			has_terrain = steppe
+		}
+		modifier = {
+			factor = 2
+			culture_group = east_slavic
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { religion_group = christian }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { development = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			development = 15
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+	}
+
+	# If true, country will get estate
+	
+	trigger = {	
+		has_dlc = "The Cossacks"
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		NOT = { government = native }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { has_reform = veche_republic }
+		is_nomad = no
+		is_colonial_nation = no
+		NOT = { has_reform = celestial_empire }
+		OR = {
+			unit_type = eastern
+			unit_type = western
+			unit_type = mexican
+		}
+		OR = {
+			religion_group = christian
+			has_reform = open_range_feudalism
+		}
+		NOT = { has_reform = revolutionary_empire_reform }
+		OR = {
+			has_estate = estate_cowboys
+			any_owned_province = {
+				OR = {
+					superregion = great_plains_superregion
+					region = rio_grande_region
+				}
+			}
+		}
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		cavalry_cost = -0.2
+		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.10
+	}
+	country_modifier_neutral = {
+		cavalry_power = 0.2
+	}	
+	country_modifier_angry = {
+		cavalry_cost = 0.2
+		cavalry_power = -0.1
+		global_unrest = 2
+	}
+	land_ownership_modifier = {
+		cowboys_loyalty_modifier = 0.2
+	}
+
+	# Influence modifiers
+	base_influence = 0
+	influence_modifier = {
+		desc = EST_STEPPE_PROVINCES
+		trigger = {
+			any_owned_province = {
+				has_terrain = steppe
+			}
+			num_of_cities = 10
+		}
+		influence = 10
+	}
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
+			}
+		}
+		influence = -40
+	}
+
+	influence_from_dev_modifier = 2.0
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_brahmins_disaster
+				has_disaster = estate_vaisyas_disaster
+				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
+			}
+		}
+		loyalty = -20
+	}
+
+	privileges = {
+		estate_cowboys_cowboy_primacy
+		estate_cowboys_land_rights
+		estate_cowboys_exploration_expedition
+		estate_cowboys_cowboy_self_governance
+		estate_cowboys_establish_the_cowboy_regiments
+		estate_cowboys_expand_the_cowboy_regiments
+		estate_cowboys_recruit_cowboy_generals
+		estate_cowboys_prime_herding_rights
+	}
+
+	agendas = {
+		estate_cowboys_develop_x
+		estate_cowboys_three_privileges
+		estate_cowboys_reply_of_the_zaporozhian
+		estate_cowboys_expand_into_x
+		estate_cowboys_complete_conquest_of_x
+		estate_cowboys_colonise_X
+		estate_cowboys_go_privateering
+		estate_cowboys_go_privateering_2
+		estate_cowboys_despoil_x
+		estate_cowboys_recruit_more_cowboys
+		estate_cowboys_hire_advisor
+		estate_cowboys_fire_advisor
+	}
+
+	color = { 110 85 33 }
+}

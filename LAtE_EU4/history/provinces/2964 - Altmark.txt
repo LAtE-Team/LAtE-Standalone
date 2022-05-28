@@ -11,15 +11,15 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Stendal"
-#estate = #estate_burghers #Altmärkische Städtebund
+#estate = #estate_burghers #Altmï¿½rkische Stï¿½dtebund
 is_city = no
 
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

@@ -7,7 +7,7 @@ technology_group = western
 primary_culture = paiute
 religion = gaian
 clear_scripted_personalities = yes
-capital = 4515
+capital = 4516
 3053.1.1= {
 	monarch = {
 		name = "Foster"
@@ -20,7 +20,7 @@ capital = 4515
 	add_ruler_personality = conqueror_personality
 }
 3053.1.1 {
-	capital = 4515
+	capital = 4516
 	add_treasury = 9
 	add_prestige = 62
 }

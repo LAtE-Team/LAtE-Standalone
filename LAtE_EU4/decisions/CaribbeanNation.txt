@@ -55,7 +55,7 @@ country_decisions = {
 							type = all
 							owned_by = ROOT
 						}
-						hispaniola_area = {
+						haiti_area = {
 							type = all
 							owned_by = ROOT
 						}
@@ -85,7 +85,7 @@ country_decisions = {
 				custom_trigger_tooltip = {
 					tooltip = caribbean_nation_hispaniola_antilles_tooltip
 					AND = { #Hispaniola and the Lesser Antilles
-						hispaniola_area = {
+						haiti_area = {
 							type = all
 							owned_by = ROOT
 						}

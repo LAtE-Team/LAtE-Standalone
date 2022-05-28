@@ -15,9 +15,9 @@ capital = "Trent"
 #estate = #estate_church
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -56,7 +56,7 @@ base_production = 4 } #Maximilian's economic reforms
 	#controller = ITA
 	#add_core= ITA
 	
-#} # Incorporated into the Kingdom of Italy after the treaty of Schönbrunn
+#} # Incorporated into the Kingdom of Italy after the treaty of Schï¿½nbrunn
 # = {	#owner = HAB
 	#controller = HAB
 	#add_core= HAB

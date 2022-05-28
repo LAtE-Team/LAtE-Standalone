@@ -17,9 +17,9 @@ fort_15th = yes
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -27,7 +27,7 @@ discovered_by = indian
 # = { #owner = SAX #controller = SAX #add_core= SAX  capital = "Dresden" } # Incorporated into Saxony
 # = { capital = "Dresden" }
 # = { religion = protestant }
-# = { fort_15th = no fort_16th = yes } # Current structure of Festung Königstein is built
+# = { fort_15th = no fort_16th = yes } # Current structure of Festung Kï¿½nigstein is built
 # = { unrest = 5 } # Peasant revolt
 # = { unrest = 0 }
 # = { hre = no } # The Holy Roman Empire is dissolved

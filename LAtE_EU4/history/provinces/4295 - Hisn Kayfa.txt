@@ -17,7 +17,7 @@ add_core = ASY
 #add_core = HSN
 discovered_by = east_african
 discovered_by = indian 
-discovered_by = RED
+
 discovered_by = high_american
 
 

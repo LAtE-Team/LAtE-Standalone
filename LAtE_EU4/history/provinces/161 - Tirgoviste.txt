@@ -1,10 +1,10 @@
-#161 - Tîrgoviste
+#161 - Tï¿½rgoviste
 
 #owner = WAL
 #controller = WAL 
 culture = romanian
 religion = hellenic_pagan
-capital = "Tîrgoviste"
+capital = "Tï¿½rgoviste"
 trade_goods = grain
 hre = no
 base_tax = 1
@@ -21,9 +21,9 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

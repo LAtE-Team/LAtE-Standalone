@@ -14,9 +14,9 @@ is_city = no
 #estate = #estate_nobles
 #add_core= SAX
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 

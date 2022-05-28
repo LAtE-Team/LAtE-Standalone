@@ -1,7 +1,0 @@
-government = monarchy
-
-government_rank = 1
-primary_culture = hessian
-religion = matrem
-technology_group = european
-capital = 78	# Wurttembaden

@@ -1,7 +1,7 @@
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = GBR
+
 
 
 native_size = 5

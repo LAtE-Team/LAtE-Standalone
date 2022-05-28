@@ -1,4 +1,4 @@
-# 69 - Oberschwaben (incl. Lindau, Biberach, Überlingen, Ravensberg, and many of the other Free cities of Schwaben)
+# 69 - Oberschwaben (incl. Lindau, Biberach, ï¿½berlingen, Ravensberg, and many of the other Free cities of Schwaben)
 culture = swabian
 capital = "Ravensburg"
 religion = cult_of_reason
@@ -12,7 +12,7 @@ hre = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

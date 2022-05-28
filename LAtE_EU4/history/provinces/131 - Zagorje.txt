@@ -21,9 +21,9 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 
@@ -32,7 +32,7 @@ discovered_by = indian
 	#owner = HAB
 	#controller = HAB
 	#add_core= HAB
-#} # Battle of Mohács
+#} # Battle of Mohï¿½cs
 # = { revolt = { type = anti_tax_rebels size = 1 } #controller = REB } # Peasant uprising against Habsburg rule & the feudal system
 # = { revolt = {} } # Decisively defeated
 # = { unrest = 5 } # Conspiracy against Habsburg rule uncovered

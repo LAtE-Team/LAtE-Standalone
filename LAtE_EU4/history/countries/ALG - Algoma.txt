@@ -1,0 +1,26 @@
+# Algoma
+government = monarchy 
+
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = anishinabe
+religion = anglican
+clear_scripted_personalities = yes
+capital = 1001
+3052.11.19 = {
+	monarch = {
+		name = "Harold"
+		birth_date = 2998.9.16
+		dynasty = "Onaping"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+}
+3053.1.1 {
+	capital = 1001
+	add_treasury = 25
+	add_prestige = 124
+}

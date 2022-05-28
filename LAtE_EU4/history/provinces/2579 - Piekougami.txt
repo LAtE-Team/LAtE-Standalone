@@ -30,8 +30,8 @@ discovered_by = nomad_group
 	trade_goods = unknown
 	culture = cosmopolitan_french
 	religion = catholic 
- #Fort Métabéchouane
-# = { discovered_by = GBR 
+ #Fort Mï¿½tabï¿½chouane
+# = {  
 # = { #controller = GBR  # The government of New France capitulate at Montreal
 # = {
 	#owner = GBR
@@ -40,4 +40,4 @@ discovered_by = nomad_group
  # Treaty of Paris
 
 
-discovered_by = GBR
+

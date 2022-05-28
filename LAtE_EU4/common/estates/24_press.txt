@@ -1,0 +1,139 @@
+estate_press = {
+	icon = 18
+
+	# If true, country will get estate
+	
+	trigger = {	
+		religion_group = oldworld
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { government = native }
+		NOT = { has_reform = siberian_tribe }
+		OR = {
+			NOT = { has_reform = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
+		is_nomad = no
+		is_colonial_nation = no
+		NOT = { has_reform = revolutionary_empire_reform }
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		global_institution_spread = 0.33
+		advisor_cost = -0.15
+	}
+	country_modifier_neutral = {
+		global_institution_spread = 0.11
+		advisor_cost = -0.05
+	}	
+	country_modifier_angry = {
+		advisor_cost = 0.10
+		global_unrest = 2
+	}
+	land_ownership_modifier = {
+		press_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			NOT = { development = 5 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { religion_group = oldworld }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				NOT = { development = 10 }
+				NOT = { province_trade_power = 5 }
+			}
+		}
+		modifier = {
+			factor = 2
+			development = 20
+		}
+		modifier = {
+			factor = 0.5
+			is_territorial_core = owner
+		}
+		modifier = {
+			factor = 1.5
+			province_trade_power = 10
+		}
+		modifier = {
+			factor = 1.5
+			province_trade_power = 20
+		}
+	}
+
+	# Influence modifiers
+	base_influence = 5
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_antiquarians_disaster
+				has_disaster = estate_army_disaster
+				has_disaster = estate_unions_disaster
+			}
+		}
+		influence = -40
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_antiquarians_disaster
+				has_disaster = estate_army_disaster
+				has_disaster = estate_unions_disaster
+			}
+		}
+		loyalty = -20
+	}
+
+	privileges = {
+		estate_press_land_rights
+		estate_press_diplomacy
+		estate_press_clerical_class
+		estate_press_control_over_monetary_policy
+		estate_press_strong_duchies
+		estate_press_better_integration
+		estate_press_spin_room	
+	}
+	
+	agendas = {
+		estate_press_build_trade_building_in_y
+		estate_press_build_port_building_in_y
+		estate_press_build_production_building_in_y
+		estate_press_build_manufactory_in_y
+		estate_press_build_university_in_y
+		estate_press_pay_off_loans
+		estate_press_restore_republican_tradition
+		estate_press_restore_currency
+		estate_press_recovery_from_hyperinflation
+		estate_press_increase_trade_power_in_X
+		estate_press_access_sea
+		estate_press_build_a_fleet
+		estate_press_bigger_fleet_than_rival
+		estate_press_improve_dip_rep
+		estate_press_get_cash
+		estate_press_reduce_corruption
+		estate_press_three_privileges
+		estate_press_protect_against_piracy
+		estate_press_hire_advisor
+		estate_press_fire_advisor
+	}
+
+	color = { 140 180 180 }
+	
+	influence_from_dev_modifier = 1.0
+}

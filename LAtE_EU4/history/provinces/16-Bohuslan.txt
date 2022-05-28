@@ -1,4 +1,4 @@
-#Bohuslän, contains Marstrand, Uddevalla, Strömstad.
+#Bohuslï¿½n, contains Marstrand, Uddevalla, Strï¿½mstad.
 
 culture = norwegian
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Marstrand"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

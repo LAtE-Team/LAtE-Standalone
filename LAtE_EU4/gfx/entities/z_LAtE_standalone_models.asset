@@ -2,10 +2,10 @@
 #By Garant26 and Elzephor
 
 #Hudsonia
-entity = { clone = "HOL_CAVALRY_1" name = "Y16_CAVALRY_1" version = 10}
-entity = { clone = "HOL_INFANTRY_1" name = "Y16_INFANTRY_1" version = 10}
-entity = { clone = "HOL_CAVALRY_2" name = "Y16_CAVALRY_2" version = 10}
-entity = { clone = "HOL_INFANTRY_2" name = "Y16_INFANTRY_2" version = 10}
+entity = { clone = "HOL_CAVALRY_1" name = "HUD_CAVALRY_1" version = 10}
+entity = { clone = "HOL_INFANTRY_1" name = "HUD_INFANTRY_1" version = 10}
+entity = { clone = "HOL_CAVALRY_2" name = "HUD_CAVALRY_2" version = 10}
+entity = { clone = "HOL_INFANTRY_2" name = "HUD_INFANTRY_2" version = 10}
 
 #Orleans
 entity = { clone = "ORL_CAVALRY_1" name = "Z02_CAVALRY_1" version = 10}
@@ -20,13 +20,13 @@ entity = { clone = "HAM_CAVALRY_2" name = "Z03_CAVALRY_2" version = 10}
 entity = { clone = "HAM_INFANTRY_2" name = "Z03_INFANTRY_2" version = 10}
 
 #Maryland
-entity = { clone = "NRN_CAVALRY_1" name = "Z19_CAVALRY_1" version = 10}
-entity = { clone = "NRN_INFANTRY_1" name = "Z19_INFANTRY_1" version = 10}
-entity = { clone = "NRN_CAVALRY_2" name = "Z19_CAVALRY_2" version = 10}
-entity = { clone = "NRN_INFANTRY_2" name = "Z19_INFANTRY_2" version = 10}
+entity = { clone = "NRN_CAVALRY_1" name = "MRL_CAVALRY_1" version = 10}
+entity = { clone = "NRN_INFANTRY_1" name = "MRL_INFANTRY_1" version = 10}
+entity = { clone = "NRN_CAVALRY_2" name = "MRL_CAVALRY_2" version = 10}
+entity = { clone = "NRN_INFANTRY_2" name = "MRL_INFANTRY_2" version = 10}
 
 #Michigan
-entity = { clone = "PAL_CAVALRY_1" name = "Y34_CAVALRY_1" version = 10}
-entity = { clone = "PAL_INFANTRY_1" name = "Y34_INFANTRY_1" version = 10}
-entity = { clone = "MLO_CAVALRY_2" name = "Y34_CAVALRY_2" version = 10}
-entity = { clone = "MLO_INFANTRY_2" name = "Y34_INFANTRY_2" version = 10}
+entity = { clone = "PAL_CAVALRY_1" name = "MIC_CAVALRY_1" version = 10}
+entity = { clone = "PAL_INFANTRY_1" name = "MIC_INFANTRY_1" version = 10}
+entity = { clone = "MLO_CAVALRY_2" name = "MIC_CAVALRY_2" version = 10}
+entity = { clone = "MLO_INFANTRY_2" name = "MIC_INFANTRY_2" version = 10}

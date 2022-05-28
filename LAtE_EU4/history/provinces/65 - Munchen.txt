@@ -1,4 +1,4 @@
-# 65 - München
+# 65 - Mï¿½nchen
 owner = BIZ
 controller = BIZ
 add_core= BIZ
@@ -8,12 +8,12 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "München"
+capital = "Mï¿½nchen"
 is_city = yes
 hre = no
 fort_15th = yes
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

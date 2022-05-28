@@ -14,7 +14,7 @@ is_city = no
 #add_core= NOV
 fort_15th = yes
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 # = { #owner = MOS #controller = MOS #add_core= MOS 	}

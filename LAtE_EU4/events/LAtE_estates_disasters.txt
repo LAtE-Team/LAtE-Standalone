@@ -1,0 +1,266 @@
+namespace = LAtE_estate_disasters
+
+# Powerful Anabaptists Society
+country_event = {
+	id = LAtE_estate_disasters.11.s
+	title = LAtE_estate_disasters.11.s.t
+	desc = LAtE_estate_disasters.11.s.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = anabaptists_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.11.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.11.s.a.tt
+	}
+}
+
+# Anabaptists brought to heel
+country_event = {
+	id = LAtE_estate_disasters.11.e
+	title = LAtE_estate_disasters.11.e.t
+	desc = LAtE_estate_disasters.11.e.d
+	picture = 10_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.11.e.a
+	}
+}
+
+# The Cowboys break free!
+country_event = {
+	id = LAtE_estate_disasters.12.s
+	title = LAtE_estate_disasters.12.s.t
+	desc = LAtE_estate_disasters.12.s.d
+	picture = COSSACK_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = cowboy_estate_triggered
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.12.s.a	
+		add_country_modifier = {
+			name = "serf_desertion"
+			duration = 5475
+		}
+		create_independent_estate = {
+			estate = estate_cowboys
+			government = republic
+			government_reform = cossacks_reform
+			custom_national_ideas = cossack_ideas
+			play_as = no
+		}
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.12.s.b
+		trigger = { 
+			ai = no 
+		}
+		add_country_modifier = {
+			name = "serf_desertion"
+			duration = 5475
+		}
+		create_independent_estate = {
+			estate = estate_cowboys
+			government = republic
+			government_reform = cossacks_reform
+			custom_national_ideas = cossack_ideas
+			play_as = yes
+		}
+	}
+}
+
+# The Scavengers take control
+country_event = {
+	id = LAtE_estate_disasters.14.s
+	title = LAtE_estate_disasters.14.s.t
+	desc = LAtE_estate_disasters.14.s.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = scavengers_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.14.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.14.s.a.tt
+	}
+}
+
+# Scavengers brought to heel
+country_event = {
+	id = LAtE_estate_disasters.14.e
+	title = LAtE_estate_disasters.14.e.t
+	desc = LAtE_estate_disasters.14.e.d
+	picture = DHIMMI_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.14.e.a
+	}
+}
+
+# The Antiquarians takes control
+country_event = {
+	id = LAtE_estate_disasters.21.s
+	title = LAtE_estate_disasters.21.s.t
+	desc = LAtE_estate_disasters.21.s.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = antiquarians_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.21.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.21.s.a.tt
+	}
+}
+
+# Antiquarians brought to heel
+country_event = {
+	id = LAtE_estate_disasters.21.e
+	title = LAtE_estate_disasters.21.e.t
+	desc = LAtE_estate_disasters.21.e.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.21.e.a
+	}
+}
+
+# The Army take control
+country_event = {
+	id = LAtE_estate_disasters.22.s
+	title = LAtE_estate_disasters.22.s.t
+	desc = LAtE_estate_disasters.22.s.d
+	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = army_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.22.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.22.s.a.tt
+	}
+}
+
+# Army brought to heel
+country_event = {
+	id = LAtE_estate_disasters.22.e
+	title = LAtE_estate_disasters.22.e.t
+	desc = LAtE_estate_disasters.22.e.d
+	picture = NOBLE_ESTATE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.22.e.a
+	}
+}
+
+
+# The Unions take control
+country_event = {
+	id = LAtE_estate_disasters.23.s
+	title = LAtE_estate_disasters.23.s.t
+	desc = LAtE_estate_disasters.23.s.d
+	picture = 7_Vaisya_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = unions_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.23.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.23.s.a.tt
+	}
+}
+
+# Unions brought to heel
+country_event = {
+	id = LAtE_estate_disasters.23.e
+	title = LAtE_estate_disasters.23.e.t
+	desc = LAtE_estate_disasters.23.e.d
+	picture = 8_Vaisya_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.23.e.a
+	}
+}
+
+# Powerful Press Society
+country_event = {
+	id = LAtE_estate_disasters.24.s
+	title = LAtE_estate_disasters.24.s.t
+	desc = LAtE_estate_disasters.24.s.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = press_estate_in_power
+	}
+	
+	option = {
+		name = LAtE_estate_disasters.24.s.a	
+		add_stability = -1
+		custom_tooltip = LAtE_estate_disasters.24.s.a.tt
+	}
+}
+
+# Press brought to heel
+country_event = {
+	id = LAtE_estate_disasters.24.e
+	title = LAtE_estate_disasters.24.e.t
+	desc = LAtE_estate_disasters.24.e.d
+	picture = 10_Jain_Estate_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = LAtE_estate_disasters.24.e.a
+	}
+}

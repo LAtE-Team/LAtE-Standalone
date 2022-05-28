@@ -4,7 +4,7 @@
 #controller = POR
 culture = portugese
 religion = matrem
-capital = "Évora"
+capital = "ï¿½vora"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -14,14 +14,14 @@ is_city = no
 #add_core= POR
 #fort_15th = yes
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 # = { fort_16th = yes } 
-# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 }
 # = { fort_16th = no fort_17th = yes }
 # = { #controller = SPA } # War of the Spanish succession

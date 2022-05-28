@@ -13,7 +13,7 @@ is_city = yes
 base_manpower = 1
 #add_core = SIL
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

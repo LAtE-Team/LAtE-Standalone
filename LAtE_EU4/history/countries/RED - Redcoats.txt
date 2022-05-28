@@ -1,11 +1,11 @@
 # Redcoat Dominion
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 2
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = british
-religion = ursuline
+religion = thelemic
 clear_scripted_personalities = yes
 capital = 968
 3039.12.16 = {

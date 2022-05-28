@@ -15,7 +15,7 @@ base_manpower = 2
 #add_core = GRM
 discovered_by = high_american
 discovered_by = indian 
-discovered_by = RED
+
 
 
 

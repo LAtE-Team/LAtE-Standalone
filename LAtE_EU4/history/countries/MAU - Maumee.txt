@@ -1,0 +1,10 @@
+# Maumee
+government = monarchy 
+
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostmann
+religion = rust_cultist
+clear_scripted_personalities = yes
+capital = 4556

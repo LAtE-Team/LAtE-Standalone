@@ -756,4 +756,65 @@ dip_idea_modifiers = {
 			}
 		}
 	}
+	custom_idea_free_dip_policy = {
+		free_dip_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
+	custom_idea_possible_dip_policy = {
+		possible_dip_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
+	custom_idea_transport_power = {
+		transport_power = 0.1
+		level_cost_2 = 1
+		level_cost_3 = 3
+		level_cost_4 = 6	
+
+		# Used for random generation
+		chance = {
+			factor = 0.25
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}			
+	}
+	custom_idea_possible_disengagement_chance = {
+		disengagement_chance = 0.05
+
+		# Used for random generation
+		chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				NOT = { num_of_ports = 1 }
+			}
+		}			
+	}
+	custom_idea_yearly_karma_decay = {
+		yearly_karma_decay = 0.005
+		level_cost_2 = 3
+		level_cost_3 = 9
+		level_cost_4 = 18
+		enabled = {
+			has_dlc = "Common Sense"
+		}
+		chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { religion = buddhism }
+				NOT = { religion = vajrayana }
+				NOT = { religion = mahayana }
+			}
+		}
+	}
 }

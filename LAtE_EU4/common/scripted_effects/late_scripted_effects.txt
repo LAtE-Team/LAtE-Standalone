@@ -34,4 +34,121 @@ on_province_owner_change_LAtE_estate_privileges_effects = {
 		}
 		remove_province_modifier = estate_scavengers_scavenge_equipment_mod
 	}
+	if = {
+		limit = {
+			has_province_modifier = estate_antiquarians_one_faith_mod
+		}
+		remove_province_modifier = estate_antiquarians_one_faith_mod
+	}
+	if = {
+		limit = {
+			has_province_modifier = estate_antiquarians_old_world_communities_mod
+		}
+		remove_province_modifier = estate_antiquarians_old_world_communities_mod
+	}
+	if = {
+		limit = {
+			has_province_modifier = estate_army_recruitment_mod
+		}
+		remove_province_modifier = estate_army_recruitment_mod
+	}
+	if = {
+		limit = {
+			has_province_modifier = estate_unions_old_world_construction_mod
+		}
+		remove_province_modifier = estate_unions_old_world_construction_mod
+	}
+	if = {
+		limit = { has_terrain = steppe }
+		if = {
+			limit = {
+				owner = {
+					has_estate_privilege = estate_cowboys_prime_herding_rights
+				}
+				NOT = { has_province_modifier = estate_cowboys_prime_herding_rights_mod }
+			}
+			add_province_modifier = {
+				name = estate_cowboys_prime_herding_rights_mod
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					has_estate_privilege = estate_cowboys_exploration_expedition
+				}
+				NOT = { has_province_modifier = estate_cowboys_exploration_expedition_mod }
+			}
+			add_province_modifier = {
+				name = estate_cowboys_exploration_expedition_mod
+				duration = -1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_terrain = steppe
+			has_province_modifier = estate_cowboys_prime_herding_rights_mod
+			owner = {
+				NOT = { has_estate_privilege = estate_cowboys_prime_herding_rights }
+			}
+		}
+		remove_province_modifier = estate_cowboys_prime_herding_rights_mod
+	}
+}
+
+scaled_estate_anabaptists_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_anabaptists }
+}
+
+scaled_estate_anabaptists_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_anabaptists }
+}
+
+scaled_estate_scavengers_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_scavengers }
+}
+
+scaled_estate_scavengers_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_scavengers }
+}
+
+scaled_estate_cowboys_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_cowboys }
+}
+
+scaled_estate_cowboys_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_cowboys }
+}
+
+scaled_estate_antiquarians_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_antiquarians }
+}
+
+scaled_estate_antiquarians_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_antiquarians }
+}
+
+scaled_estate_army_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_army }
+}
+
+scaled_estate_army_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_army }
+}
+
+scaled_estate_unions_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_unions }
+}
+
+scaled_estate_unions_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_unions }
+}
+
+scaled_estate_press_land_share_effect = {
+	scaled_estate_land_share_add_effect = { estate = estate_press }
+}
+
+scaled_estate_press_negative_land_share_effect = {
+	scaled_estate_land_share_reduce_effect = { estate = estate_press }
 }

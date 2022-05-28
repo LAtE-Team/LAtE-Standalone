@@ -1,0 +1,124 @@
+estate_anabaptists = {
+	modifier_definition = {
+		type = loyalty
+		key = anabaptists_loyalty_modifier
+		trigger = {
+			has_estate = estate_anabaptists
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = anabaptists_influence_modifier
+		trigger = {
+			has_estate = estate_anabaptists
+		}
+	}
+}
+
+estate_cowboys = {
+	modifier_definition = {
+		type = loyalty
+		key = cowboys_loyalty_modifier
+		trigger = {
+			has_estate = estate_cowboys
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = cowboys_influence_modifier
+		trigger = {
+			has_estate = estate_cowboys
+		}
+	}
+}
+
+estate_scavengers = {
+	modifier_definition = {
+		type = loyalty
+		key = scavengers_loyalty_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = scavengers_influence_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+}
+
+estate_antiquarians = {
+	modifier_definition = {
+		type = loyalty
+		key = antiquarians_loyalty_modifier
+		trigger = {
+			has_estate = estate_antiquarians
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = antiquarians_influence_modifier
+		trigger = {
+			has_estate = estate_antiquarians
+		}
+	}
+}
+
+estate_army = {
+	modifier_definition = {
+		type = loyalty
+		key = army_loyalty_modifier
+		trigger = {
+			has_estate = estate_army
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = army_influence_modifier
+		trigger = {
+			has_estate = estate_army
+		}
+	}
+}
+
+estate_unions = {
+	modifier_definition = {
+		type = loyalty
+		key = unions_loyalty_modifier
+		trigger = {
+			has_estate = estate_unions
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = unions_influence_modifier
+		trigger = {
+			has_estate = estate_unions
+		}
+	}
+}
+
+estate_press = {
+	modifier_definition = {
+		type = loyalty
+		key = press_loyalty_modifier
+		trigger = {
+			has_estate = estate_press
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = press_influence_modifier
+		trigger = {
+			has_estate = estate_press
+		}
+	}
+}

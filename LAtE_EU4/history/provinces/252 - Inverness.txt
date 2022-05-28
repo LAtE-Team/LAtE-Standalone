@@ -13,7 +13,7 @@ capital = "Inverness"
 is_city = yes
 add_core= HSC
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

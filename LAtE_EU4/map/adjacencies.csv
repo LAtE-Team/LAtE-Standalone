@@ -1,5 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-6;12;sea;1258;-1;-1;-1;-1;Skåne-Sjaelland
+6;12;sea;1258;-1;-1;-1;-1;Skï¿½ne-Sjaelland
 12;14;sea;1258;-1;-1;-1;-1;Sjaelland-Fyn
 14;4142;sea;1258;-1;-1;-1;-1;Fyn-Aarhus
 14;4149;sea;1258;-1;-1;-1;-1;Fyn-Kolding
@@ -7,8 +7,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 12;1983;sea;1258;-1;-1;-1;-1;Sjaelland-Lolland
 123;124;sea;1307;-1;-1;-1;-1;Calabria-Messina
 151;316;sea;1320;-1;-1;-1;-1;Thrace-Bithynia
-1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Åland
-1930;27;sea;1253;-1;-1;-1;-1;Åland-Finland
+1;1930;sea;1928;-1;-1;-1;-1;Stockholm-ï¿½land
+1930;27;sea;1253;-1;-1;-1;-1;ï¿½land-Finland
 142;144;sea;1311;-1;-1;-1;-1;Janina-Corfu
 144;1773;sea;1312;-1;-1;-1;-1;Janina-Achaea
 146;164;sea;1319;-1;-1;-1;-1;Athens-Naxos
@@ -20,8 +20,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1014;4186;sea;1390;-1;-1;-1;-1;Bungo-Iyo
 4186;1825;sea;1390;-1;-1;-1;-1;Aki-Iyo
 2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
-36;35;sea;1926;-1;-1;-1;-1;Estland-Ösel
-35;39;sea;1256;-1;-1;-1;-1;Ösel-Kurland
+36;35;sea;1926;-1;-1;-1;-1;Estland-ï¿½sel
+35;39;sea;1256;-1;-1;-1;-1;ï¿½sel-Kurland
 597;620;sea;1361;-1;-1;-1;-1;Johor-Siak
 659;2677;sea;1361;-1;-1;-1;-1;Riau-Palembang
 2569;982;sea;1491;-1;-1;-1;-1;Acadia-Unamakik
@@ -79,7 +79,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3003;164;sea;1319;-1;-1;-1;-1;Euboea - Cyclades
 31;4152;lake;4139;-1;-1;-1;-1;Savolax - Kuusamo
 1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
-41;43;sea;1927;-1;-1;-1;-1;Danzig-Königsberg
+41;43;sea;1927;-1;-1;-1;-1;Danzig-Kï¿½nigsberg
 972;874;sea;1558;-1;-1;-1;-1;Nootka-Salish
 972;973;sea;1558;-1;-1;-1;-1;Nootka-Squamish
 972;974;sea;1558;-1;-1;-1;-1;Tajaaw-Kwakiutl
@@ -100,7 +100,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 987;4578;sea;1660;-1;-1;-1;-1;Welland-Niagara
 4555;4528;sea;4609;-1;-1;-1;-1;Detroit-Essex
 4554;4528;sea;4609;-1;-1;-1;-1;Port Huron-Essex
-911;1001;sea;4614;-1;-1;-1;-1;Menominee-Soo
 4641;2547;sea;1501;-1;-1;-1;-1;Currituck-Roanoke
 2547;4643;sea;1501;-1;-1;-1;-1;Roanoke-Carteret
 4620;950;sea;1501;-1;-1;-1;-1;Pocomoke-Chesapeake

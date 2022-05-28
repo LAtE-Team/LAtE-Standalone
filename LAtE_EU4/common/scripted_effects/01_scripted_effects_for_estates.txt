@@ -127,6 +127,17 @@ each_estate_effect = {
 	}
 	if = {
 		limit = {
+			has_estate = estate_anabaptists
+		}
+		[[effect]
+			$effect$
+		]
+		[[anabaptists_effect]
+			$anabaptists_effect$
+		]
+	}
+	if = {
+		limit = {
 			has_estate = estate_scavengers
 		}
 		[[effect]
@@ -134,6 +145,61 @@ each_estate_effect = {
 		]
 		[[scavengers_effect]
 			$scavengers_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		[[effect]
+			$effect$
+		]
+		[[cowboys_effect]
+			$cowboys_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		[[effect]
+			$effect$
+		]
+		[[antiquarians_effect]
+			$antiquarians_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		[[effect]
+			$effect$
+		]
+		[[army_effect]
+			$army_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		[[effect]
+			$effect$
+		]
+		[[unions_effect]
+			$unions_effect$
+		]
+	}
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		[[effect]
+			$effect$
+		]
+		[[press_effect]
+			$press_effect$
 		]
 	}
 }
@@ -418,6 +484,30 @@ reduce_estate_rajput_loyalty_effect = {
 	}
 }
 
+#Anabaptists
+add_estate_anabaptists_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_anabaptists
+		}
+		add_estate_loyalty = {
+			estate = estate_anabaptists
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_anabaptists_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_anabaptists
+		}
+		add_estate_loyalty = {
+			estate = estate_anabaptists
+			loyalty = -10
+		}
+	}
+}
+
 #Scavengers
 add_estate_scavengers_loyalty_effect = {
 	if = {
@@ -441,6 +531,127 @@ reduce_estate_scavengers_loyalty_effect = {
 		}
 	}
 }
+
+#Cowboys
+add_estate_cowboys_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		add_estate_loyalty = {
+			estate = estate_cowboys
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_cowboys_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_cowboys
+		}
+		add_estate_loyalty = {
+			estate = estate_cowboys
+			loyalty = -10
+		}
+	}
+}
+
+#Antiquarians
+add_estate_antiquarians_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_antiquarians_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -10
+		}
+	}
+}
+
+#Army
+add_estate_army_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_army_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_army
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = -10
+		}
+	}
+}
+
+#Unions
+add_estate_unions_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		add_estate_loyalty = {
+			estate = estate_unions
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_unions_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_unions
+		}
+		add_estate_loyalty = {
+			estate = estate_unions
+			loyalty = -10
+		}
+	}
+}
+
+#Press
+add_estate_press_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		add_estate_loyalty = {
+			estate = estate_press
+			loyalty = 10
+		}
+	}
+}
+reduce_estate_press_loyalty_effect = {
+	if = {
+		limit = {
+			has_estate = estate_press
+		}
+		add_estate_loyalty = {
+			estate = estate_press
+			loyalty = -10
+		}
+	}
+}
+
 
 #Estate Privilege on_action effects
 
@@ -484,6 +695,21 @@ on_religion_change_estate_privileges_effect = {
 				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
 			}
 			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				NOT = { has_estate_privilege = estate_anabaptists_guaranteed_autonomy }
+				NOT = { religion_group = christian }
+			}
+			any_owned_province = { has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod }
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
 		}
 	}
 	if = {
@@ -649,6 +875,30 @@ on_province_religion_converted_estate_privileges_effect = {
 				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
 			}
 			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				has_country_flag = anabaptists_tolerates_wrong_religion
+			}
+		}
+		if = {
+			limit = {
+				religion = anabaptist
+				NOT = { has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod }
+			}
+			add_province_modifier = {
+				name = estate_anabaptists_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { religion = anabaptist }
+				has_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_anabaptists_guaranteed_autonomy_mod
 		}
 	}
 	if = {
@@ -911,6 +1161,18 @@ on_province_owner_change_estate_privileges_effect = {
 		}
 		add_province_modifier = {
 			name = estate_dhimmi_guaranteed_autonomy_mod
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				has_country_flag = anabaptists_tolerates_wrong_religion
+			}
+			religion = anabaptist
+		}
+		add_province_modifier = {
+			name = estate_anabaptists_guaranteed_autonomy_mod
 			duration = -1
 		}
 	}
@@ -2096,13 +2358,6 @@ scaled_estate_cossacks_land_share_effect = {
 	scaled_estate_land_share_add_effect = { estate = estate_cossack }
 }
 
-scaled_estate_scavengers_land_share_effect = {
-	scaled_estate_land_share_add_effect = { estate = estate_scavengers }
-}
-
-scaled_estate_scavengers_negative_land_share_effect = {
-	scaled_estate_land_share_reduce_effect = { estate = estate_scavengers }
-}
 
 #Based on those above, but you can choose which estate you use
 #example of usage: scaled_estate_land_share_add_effect = { estate = estate_nobles }
@@ -2521,6 +2776,25 @@ spawn_rebels_from_unhappy_estate = {
 		1 = {
 			trigger = {
 				owner = {
+					has_estate = estate_anabaptists
+					NOT = {
+						estate_loyalty = {
+							estate = estate_anabaptists
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = particularist_rebels
+				size = $size$
+				estate = estate_anabaptists
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
 					has_estate = estate_scavengers
 					NOT = {
 						estate_loyalty = {
@@ -2534,6 +2808,101 @@ spawn_rebels_from_unhappy_estate = {
 				type = particularist_rebels #Any better rebels?
 				size = $size$
 				estate = estate_scavengers
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_cowboys
+					NOT = {
+						estate_loyalty = {
+							estate = estate_cowboys
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = cowboy_rebels
+				size = $size$
+				estate = estate_cowboys
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_antiquarians
+					NOT = {
+						estate_loyalty = {
+							estate = estate_antiquarians
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = particularist_rebels #Any better rebels?
+				size = $size$
+				estate = estate_antiquarians
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_army
+					NOT = {
+						estate_loyalty = {
+							estate = estate_army
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = noble_rebels
+				size = $size$
+				estate = estate_army
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_unions
+					NOT = {
+						estate_loyalty = {
+							estate = estate_unions
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = particularist_rebels
+				size = $size$
+				estate = estate_unions
+				as_if_faction = yes
+			}
+		}
+		1 = {
+			trigger = {
+				owner = {
+					has_estate = estate_press
+					NOT = {
+						estate_loyalty = {
+							estate = estate_press
+							loyalty = 30
+						}
+					}
+				}
+			}
+			spawn_rebels = {
+				type = particularist_rebels
+				size = $size$
+				estate = estate_press
 				as_if_faction = yes
 			}
 		}
@@ -2654,12 +3023,72 @@ pick_random_estate_if_present = {
 		}
 		1 = { 
 			trigger = {
+				has_estate = estate_anabaptists
+				NOT = { has_country_flag = estate_anabaptists_$flag$ }
+			}
+			set_country_flag = estate_anabaptists_$flag$
+			[[estate_action]
+			$estate_action$ = estate_anabaptists
+			]
+		}
+		1 = { 
+			trigger = {
 				has_estate = estate_scavengers
 				NOT = { has_country_flag = estate_scavengers_$flag$ }
 			}
 			set_country_flag = estate_scavengers_$flag$
 			[[estate_action]
 			$estate_action$ = estate_scavengers
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_cowboys
+				NOT = { has_country_flag = estate_cowboys_$flag$ }
+			}
+			set_country_flag = estate_cowboys_$flag$
+			[[estate_action]
+			$estate_action$ = estate_cowboys
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_antiquarians
+				NOT = { has_country_flag = estate_antiquarians_$flag$ }
+			}
+			set_country_flag = estate_antiquarians_$flag$
+			[[estate_action]
+			$estate_action$ = estate_antiquarians
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_army
+				NOT = { has_country_flag = estate_army_$flag$ }
+			}
+			set_country_flag = estate_army_$flag$
+			[[estate_action]
+			$estate_action$ = estate_army
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_unions
+				NOT = { has_country_flag = estate_unions_$flag$ }
+			}
+			set_country_flag = estate_unions_$flag$
+			[[estate_action]
+			$estate_action$ = estate_unions
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_press
+				NOT = { has_country_flag = estate_press_$flag$ }
+			}
+			set_country_flag = estate_press_$flag$
+			[[estate_action]
+			$estate_action$ = estate_press
 			]
 		}
 	}
@@ -2791,6 +3220,13 @@ re_add_loyalty_from_seized_land = {
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_nomadic_tribes } }	add_estate_loyalty = { estate = estate_nomadic_tribes	 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_rajput } }			add_estate_loyalty = { estate = estate_rajput			 loyalty = 20 } }
 		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_vaisyas } }		add_estate_loyalty = { estate = estate_vaisyas			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_anabaptists } }	add_estate_loyalty = { estate = estate_anabaptists		 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_scavengers } }		add_estate_loyalty = { estate = estate_scavengers		 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_cowboys } }		add_estate_loyalty = { estate = estate_cowboys			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_antiquarians } }	add_estate_loyalty = { estate = estate_antiquarians		 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_army } }			add_estate_loyalty = { estate = estate_army 			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_unions } }			add_estate_loyalty = { estate = estate_unions			 loyalty = 20 } }
+		if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_press } }			add_estate_loyalty = { estate = estate_press			 loyalty = 20 } }
 	}
 }
 

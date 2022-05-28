@@ -1,0 +1,29 @@
+bookmark =
+{
+	name = "EAST_COAST_NAME"
+	desc = "EAST_COAST_DESC"
+	date = 3053.11.11
+	
+	center = 965
+	default = yes
+	
+	country = ONT
+	country = QUE
+    country = MRT
+
+	country = HUD
+	country = RED
+	country = NYS
+	country = AGH
+	
+	country = WDC
+	country = VER
+	country = MNE
+	country = COA
+
+	easy_country = ONT	#Ontario
+	easy_country = QUE	#Quebec
+	easy_country = HUD	#Hudsonia
+	easy_country = RED	#Redcoats
+	easy_country = NYS	#New York
+}

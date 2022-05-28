@@ -1,7 +1,7 @@
 # No previous file for Kesyehotinne
 
 culture = metis
-religion = ursuline
+religion = ghost_dance
 capital = "Kesyehotinne"
 trade_goods = unknown
 hre = no

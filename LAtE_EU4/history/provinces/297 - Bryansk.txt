@@ -18,7 +18,7 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 # = { #owner = RUS #controller = RUS #add_core= RUS  add_local_autonomy = -50 } # Treaty of the Annunciation

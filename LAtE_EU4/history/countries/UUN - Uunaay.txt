@@ -1,8 +1,8 @@
 government = monarchy
  
 government_rank = 1
-primary_culture = haida
-religion = raven_tales
+primary_culture = inlander
+religion = gaian
 technology_group = western
 capital = 2607 #Haida
 

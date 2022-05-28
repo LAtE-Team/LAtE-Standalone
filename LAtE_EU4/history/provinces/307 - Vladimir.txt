@@ -19,7 +19,7 @@ capital = "Vladimir"
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

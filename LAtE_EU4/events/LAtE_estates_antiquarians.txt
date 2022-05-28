@@ -1,0 +1,1026 @@
+###########################################################
+# Events for the Antiquarians Estate
+# First 11 Generic from Vanilla
+# Latter written by Technecian
+###########################################################
+
+namespace = antiquarians_estate_events
+
+#Libertas Ecclesiae
+#State making demands on the Church
+#old_worlds
+country_event = {
+	id = antiquarians_estate_events.1
+	title = antiquarians_estate_events.1.t
+	desc = antiquarians_estate_events.1.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		religion_group = oldworld
+		estate_influence = {
+			estate = estate_antiquarians
+			influence = 25
+		}
+		NOT = {
+			estate_influence = {
+				estate = estate_antiquarians
+				influence = 75
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_DEMANDED_CHURCH_MONEY
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_DIDNT_DEMAND_CHURCH_MONEY
+			}
+		}
+		OR = {
+			AND = {
+				is_at_war = yes
+				NOT = { war_score = 25 }
+			}
+			is_in_deficit = yes
+			num_of_loans = 5
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.1.a #Make it clear that they need to contribute.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 45
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -15
+		}
+		add_patriarch_authority = -0.1
+		add_papal_influence = -10
+		add_years_of_income = 0.35
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_DEMANDED_CHURCH_MONEY
+			influence = -10
+			duration = 9125
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.1.b #We will find the money elsewhere.
+		add_prestige = 5
+		add_piety = 0.1
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_DIDNT_DEMAND_CHURCH_MONEY
+			influence = 10
+			duration = 9125
+		}
+	}
+}
+
+#Growing Influence of the Clergy
+country_event = {
+	id = antiquarians_estate_events.2
+	title = antiquarians_estate_events.2.t
+	desc = antiquarians_estate_events.2.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_ADVANCE
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_ADVANCE_20
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_DECLINE
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.2.a #Ok
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_CHURCH_ADVANCE
+			influence = 10
+			duration = 5475
+		}
+	}
+}
+
+#Declining Influence of the Clergy
+country_event = {
+	id = antiquarians_estate_events.3
+	title = antiquarians_estate_events.3.t
+	desc = antiquarians_estate_events.3.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_ADVANCE
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_ADVANCE_20
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_DECLINE
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.3.a #Ok
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_CHURCH_DECLINE
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+#$estate_antiquarians$ Questioned
+country_event = {
+	id = antiquarians_estate_events.4
+	title = antiquarians_estate_events.4.t
+	desc = antiquarians_estate_events.4.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		has_estate = estate_unions
+		estate_territory = {
+			estate = estate_unions
+			territory = 1
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_TITHES_DEFENDED
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_TITHES_UNDERMINED
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.4.a #Then we must force them to pay!
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_estate = estate_unions
+				NOT = {
+					estate_loyalty = {
+						estate = estate_unions
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_estate = estate_unions
+				estate_influence = {
+					estate = estate_unions
+					influence = 60
+				}
+			}
+		}
+		add_years_of_income = 0.2
+		if = {
+			limit = {
+				has_estate = estate_unions
+				any_owned_province = {
+					local_autonomy = 25
+					OR = {	# previous conditions for assigning the burgher estate for a province
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					local_autonomy = 25
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+				}
+				add_local_autonomy = -25 #If a province with Burghers have more than 25 it will be reduced by this much or down to 25.
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 15
+		}
+		if = {
+			limit = {
+				has_estate = estate_unions
+			}
+			add_estate_loyalty = {
+				estate = estate_unions
+				loyalty = -15
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_TITHES_DEFENDED
+			influence = 10
+			duration = 5475
+		}
+		if = {
+			limit = {
+				has_estate = estate_unions
+			}
+			add_estate_influence_modifier = {
+				estate = estate_unions
+				desc = EST_VAL_TITHES_DEFENDED
+				influence = -10
+				duration = 5475
+			}
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.4.b #A mild reprimand will be enough.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_TITHES_UNDERMINED
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+
+#Disloyal Clergy
+country_event = {
+	id = antiquarians_estate_events.5
+	title = antiquarians_estate_events.5.t
+	desc = antiquarians_estate_events.5.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		NOT = {
+			estate_loyalty = {
+				estate = estate_antiquarians
+				loyalty = 30
+			}
+		}
+		any_owned_province = {
+			religion = root
+			is_capital = no
+			is_city = yes
+		}
+		estate_territory = { 
+			estate = estate_antiquarians
+			territory = 10
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = peasant_clergy_revolt
+							value = estate
+							estate = estate_antiquarians
+						}
+					}
+					any_owned_province = {
+						religion = root
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = peasant_clergy_revolt }
+					}
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = peasant_clergy_revolt
+					}
+				}
+				random_owned_province = {
+					limit = {
+						religion = root
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = peasant_clergy_revolt }
+					}
+					set_province_flag = peasant_clergy_revolt
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.5.a #Ok
+		add_stability = -1
+		if = {
+			limit = { any_owned_province = { is_core = ROOT } }
+			every_owned_province = {
+				limit = { has_province_flag = peasant_clergy_revolt }
+				clr_province_flag = peasant_clergy_revolt
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 1
+				}
+			}
+		}
+	}
+}
+
+#Demands of influential Clergy
+country_event = {
+	id = antiquarians_estate_events.6
+	title = antiquarians_estate_events.6.t
+	desc = antiquarians_estate_events.6.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		estate_influence = {
+			estate = estate_antiquarians
+			influence = 70
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_ACCEPTED_HOLY_LAW
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_REJECTED_HOLY_LAW
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.6.a #Agree
+		ai_chance = {
+			factor = 25
+		}
+		add_country_modifier = {
+			name = "religious_court_life"
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_ACCEPTED_HOLY_LAW
+			influence = 10
+			duration = 5475
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.6.b #Disagree
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0.2
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 45
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+		}
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -20
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_REJECTED_HOLY_LAW
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+#Bonus for strong and loyal Clergy
+country_event = {
+	id = antiquarians_estate_events.7
+	title = antiquarians_estate_events.7.t
+	desc = antiquarians_estate_events.7.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 70
+		}
+		estate_influence = {
+			estate = estate_antiquarians
+			influence = 70
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { NOT = { stability = 3 } }
+				random_list = {
+					65 = { set_country_flag = loyalty_to_the_crown }
+					35 = { set_country_flag = efficient_administration }
+				}
+			}
+			if = {
+				limit = { stability = 3 }
+				set_country_flag = loyalty_to_the_crown
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.7.a #Agree
+		trigger_switch = {
+			on_trigger = has_country_flag
+			loyalty_to_the_crown = {
+				add_legitimacy = 15
+				add_horde_unity = 15
+				add_republican_tradition = 7
+				add_devotion = 7
+				add_authority = 15
+				add_piety = 0.15
+				add_papal_influence = 10
+				add_patriarch_authority = 0.1
+				clr_country_flag = loyalty_to_the_crown
+			}
+			efficient_administration = {
+				add_stability_or_adm_power = yes
+				clr_country_flag = efficient_administration
+			}
+		}
+	}
+}
+
+#Land Theft
+country_event = {
+	id = antiquarians_estate_events.8
+	title = antiquarians_estate_events.8.t
+	desc = antiquarians_estate_events.8.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		has_estate = estate_army
+		crown_land_share = 10
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_CHURCH_PROPERTIES_DEFENDED
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_LAND_THEFT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.8.a #Side with the $estate_antiquarians$.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 45
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_army
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_army
+					influence = 60
+				}
+			}
+		}
+		scaled_estate_antiquarians_land_share_effect = yes
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 15
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_CHURCH_PROPERTIES_DEFENDED
+			influence = 10
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_army
+			desc = EST_VAL_CHURCH_PROPERTIES_DEFENDED
+			influence = -10
+			duration = 5475
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.8.b #Side with the $estate_army$.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 45
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_army
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_army
+					influence = 60
+				}
+			}
+		}
+		scaled_estate_army_land_share_effect = yes
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = 15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_LAND_THEFT
+			influence = -10
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_army
+			desc = EST_VAL_LAND_THEFT
+			influence = 10
+			duration = 5475
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.8.c #Favor neither to retain control of province.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 45
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_army
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_army
+					influence = 60
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_army
+			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_LAND_THEFT
+			influence = -10
+			duration = 5475
+		}
+		add_estate_influence_modifier = {
+			estate = estate_army
+			desc = EST_VAL_LAND_THEFT
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+#Popular Religion
+#Sufis
+country_event = {
+	id = antiquarians_estate_events.9
+	title = antiquarians_estate_events.9.t
+	desc = antiquarians_estate_events.9.d
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		has_estate = estate_army
+		NOT = { religion = confucianism }
+		any_owned_province = {
+			has_owner_religion = no
+			is_city = yes
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_FOUGHT_SYNCRETISM
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_SYNCRETISM
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.9.a #
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 60
+				}
+			}
+		}
+		add_country_modifier = {
+			name = "campaign_against_syncretism"
+			duration = 5475
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_FOUGHT_SYNCRETISM
+			influence = 10
+			duration = 5475
+		}
+		reduce_estate_dhimmi_loyalty_effect = yes
+	}
+	option = {
+		name = antiquarians_estate_events.9.b #
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 65
+				}
+			}
+		}
+		add_country_modifier = {
+			name = "missionary_syncretism"
+			duration = 5475
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = -15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_SYNCRETISM
+			influence = -10
+			duration = 5475
+		}
+		add_estate_dhimmi_loyalty_effect = yes
+	}
+}
+
+#How independent are the Clergy?
+country_event = {
+	id = antiquarians_estate_events.10
+	title = antiquarians_estate_events.10.t
+	desc = antiquarians_estate_events.10.d
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_estate = estate_antiquarians
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_INDEPENDENT_CHURCH
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_antiquarians
+				modifier = EST_VAL_MEDDLING_IN_CHURCH_MATTERS
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = antiquarians_estate_events.10.a #Do not meddle in the affairs of the $estate_antiquarians$.
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 65
+				}
+			}
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_INDEPENDENT_CHURCH
+			influence = 10
+			duration = 5475
+		}
+	}
+	option = {
+		name = antiquarians_estate_events.10.b #Support the younger Candidate.
+		add_years_of_income = -0.25
+		add_prestige = -10
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					estate = estate_antiquarians
+					influence = 65
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_antiquarians
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_antiquarians
+			desc = EST_VAL_MEDDLING_IN_CHURCH_MATTERS
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+# Local Revolt
+province_event = {
+	id = antiquarians_estate_events.11
+	title = antiquarians_estate_events.11.t
+	desc = antiquarians_estate_events.11.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = antiquarians_estate_events.11.a #
+	}
+}

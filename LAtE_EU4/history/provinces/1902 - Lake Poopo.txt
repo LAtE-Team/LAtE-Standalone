@@ -3,7 +3,7 @@ discovered_by = andean
 discovered_by = brazilian
 # = { discovered_by = SPA }
 #discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

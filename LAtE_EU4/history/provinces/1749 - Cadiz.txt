@@ -17,11 +17,11 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = {
@@ -29,7 +29,7 @@ discovered_by = RED
 	#owner = SPA
 	#add_core= SPA
 #} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
-# = { culture = castillian } # Decree for the expulsion of the morisques in Andalucía, unlike Valencia, this was performed uneventfully.
+# = { culture = castillian } # Decree for the expulsion of the morisques in Andalucï¿½a, unlike Valencia, this was performed uneventfully.
 # = {  }
 # = { revolt = { type = pretender_rebels size = 0.5 } #controller = REB }
 # = { revolt = {} #controller = SPA }

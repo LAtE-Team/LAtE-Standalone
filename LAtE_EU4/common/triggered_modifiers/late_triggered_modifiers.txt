@@ -71,7 +71,7 @@ non_catholic_st_louis = {
 		NOT = { religion = catholic }
 		OR = {
 			religion_group = christian
-			religion_group = old_world
+			religion_group = oldworld
 		}
 	}
 
@@ -134,7 +134,7 @@ non_ursuline_quebec = {
 		NOT = { religion = ursuline }
 		OR = {
 			religion_group = christian
-			religion_group = old_world
+			religion_group = oldworld
 		}
 	}
 

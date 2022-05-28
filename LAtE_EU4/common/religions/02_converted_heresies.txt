@@ -414,7 +414,7 @@ oldworld = {
 		icon = 82
 		color = { 0.2 0.2 0.7 }
 		country = {
-			max_states = 5
+			governing_capacity_modifier = 0.1
 			idea_cost = -0.1
 			tolerance_heathen = -2
 		}
@@ -470,7 +470,7 @@ jewish_group = {
 		icon = 51
 		color = { 0.5 0.7 0.2 }
 		country = {
-			max_states = 5
+			governing_capacity_modifier = 0.1
 			idea_cost = -0.1
 			tolerance_own = 2
 			may_recruit_female_generals = yes

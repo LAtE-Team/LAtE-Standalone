@@ -1,4 +1,4 @@
-#1979 - Färöarna
+#1979 - Fï¿½rï¿½arna
 
 culture = norwegian
 religion = thelemic
@@ -13,7 +13,7 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

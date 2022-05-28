@@ -604,4 +604,20 @@ adm_idea_modifiers = {
 			}
 		}
 	}
+	custom_idea_free_adm_policy = {
+		free_adm_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
+	custom_idea_possible_adm_policy = {
+		possible_adm_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
 }

@@ -15,7 +15,7 @@ capital = "Tavastehus"
 is_city = no
 #fort_15th = yes
 discovered_by = high_american 
-discovered_by = RED
+
 
 native_size = 5
 native_ferocity = 1

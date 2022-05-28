@@ -14,16 +14,16 @@ is_city = no
 #estate = #estate_nobles
 #add_core= POR
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = { #controller = SPA }
 # = { #controller = POR }
-# = { unrest = 8 } # Revolt headed by John of Bragança
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 }
 # = { #controller = FRA } # Occupied by France
 # = { #controller = POR }

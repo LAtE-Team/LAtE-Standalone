@@ -1,4 +1,4 @@
-# 170 Finistère - Principal cities: Brest
+# 170 Finistï¿½re - Principal cities: Brest
 
 #owner = BRI
 #controller = BRI
@@ -15,7 +15,7 @@ base_manpower = 1
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

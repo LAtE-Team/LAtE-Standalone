@@ -1,4 +1,4 @@
-#224 - Andalucía
+#224 - Andalucï¿½a
 
 #owner = CAS	#Juan II of Castille
 #controller = CAS
@@ -16,11 +16,11 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 extra_cost = 20
 

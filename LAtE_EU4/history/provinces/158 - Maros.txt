@@ -5,7 +5,7 @@
 culture = transylvanian #Szeklers
 religion = catholic
 capital = "Targu Mures"
-#estate = #estate_nobles #Szekelyföld
+#estate = #estate_nobles #Szekelyfï¿½ld
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -22,7 +22,7 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

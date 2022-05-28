@@ -1,7 +1,7 @@
 #Raramuri
 central_american = {
 	raramuri = {
-		dynasty_names = { "Sikára" "Amézcua" "Blissid" "Acáid" "Caliente" "Muquirid" "Taríid" }
+		dynasty_names = { "Sikï¿½ra" "Amï¿½zcua" "Blissid" "Acï¿½id" "Caliente" "Muquirid" "Tarï¿½id" }
 	}
 }
 
@@ -15,13 +15,13 @@ caribbean = {
 native_american = {	#All-encompassing group for native cultures
 	#Metis
 	metis = { 
-		dynasty_names = { "Parenteau" "Delorme" "Lépine" "Callihoo" "Callihoo" "Desjarlais" "Bourque" "de Rocky Mountain House" "de Batchawana Bay" "de Blue Earth" "de La Crosse" "de Kewaunee" "de Virginia" "de Greenfield" "de Lakewood" "de Rushville" "de Valentine" "de Two Rivers" "de Marshall" "de Thunder Bay" "de St. Peter" "de Fort William" "Bottineau" "Boucher" "Vautour" "de Cardston" "de Pierre" "de Dryden" "de Mobridge" "Callihoo" "Riel" "Bouyer" "Parenteau" "Souray" "Dumont" }
+		dynasty_names = { "Parenteau" "Delorme" "Lï¿½pine" "Callihoo" "Callihoo" "Desjarlais" "Bourque" "de Rocky Mountain House" "de Batchawana Bay" "de Blue Earth" "de La Crosse" "de Kewaunee" "de Virginia" "de Greenfield" "de Lakewood" "de Rushville" "de Valentine" "de Two Rivers" "de Marshall" "de Thunder Bay" "de St. Peter" "de Fort William" "Bottineau" "Boucher" "Vautour" "de Cardston" "de Pierre" "de Dryden" "de Mobridge" "Callihoo" "Riel" "Bouyer" "Parenteau" "Souray" "Dumont" }
 
 		male_names = {
-			Albert Alec Alexander Ambroise-Dydime Ambrose Andrew Andy Angus Antoine Antonine Arron Arthur Asham August Augustin Axel Baptiste Bob Brian Bryan Calvin Charles Charles-Michel Clément Cuthbert Cyril David Denis Derrick Don Douglas Doyle Dwight Dydim Dylan Elzéar Eugène François Gabriel Gallant George Gerald Gil Gregory Guillaume Harley Henri Honoré Howard Ian Jacco Jaco Jacques James Jaxon Jean Jean-Baptiste Jess Joe John Jon Jonathan Jules Kalib Keith Kevin Laird Laurent-Salomon Lawrence Louis Malcolm Maxime Michel Pascal Paul Peter Pierre Ralph Ranald Ray Raymond Rene René Rick Robert Rod Salomon Shan Sheldon Solomon Theoren Thomas Todd Tom Tony Tête Vic Wade Wayne William Xavier Yvon
+			Albert Alec Alexander Ambroise-Dydime Ambrose Andrew Andy Angus Antoine Antonine Arron Arthur Asham August Augustin Axel Baptiste Bob Brian Bryan Calvin Charles Charles-Michel Clï¿½ment Cuthbert Cyril David Denis Derrick Don Douglas Doyle Dwight Dydim Dylan Elzï¿½ar Eugï¿½ne Franï¿½ois Gabriel Gallant George Gerald Gil Gregory Guillaume Harley Henri Honorï¿½ Howard Ian Jacco Jaco Jacques James Jaxon Jean Jean-Baptiste Jess Joe John Jon Jonathan Jules Kalib Keith Kevin Laird Laurent-Salomon Lawrence Louis Malcolm Maxime Michel Pascal Paul Peter Pierre Ralph Ranald Ray Raymond Rene Renï¿½ Rick Robert Rod Salomon Shan Sheldon Solomon Theoren Thomas Todd Tom Tony Tï¿½te Vic Wade Wayne William Xavier Yvon
 		}
 		female_names = {
-			Andrea Antonine Audrey Blanche Carole Catharine Chanta Chantell Charlotte Christi Christine Colleen Elizabeth Evelyn Frechette Hélène Isabelle Janet Jani Joanne Josephin Josette Julie Katherena Kinnie Laura Laurette Madame Madeline Magdelaine Marguerite Maria Marianne Marie Marie-Thérèse Marilyn Mary Nancy Norma Pearl Rose-Marie Roseanne Sandra Sara Sharon Shelly Suzanne Tanto Thelma Therese Yvonne
+			Andrea Antonine Audrey Blanche Carole Catharine Chanta Chantell Charlotte Christi Christine Colleen Elizabeth Evelyn Frechette Hï¿½lï¿½ne Isabelle Janet Jani Joanne Josephin Josette Julie Katherena Kinnie Laura Laurette Madame Madeline Magdelaine Marguerite Maria Marianne Marie Marie-Thï¿½rï¿½se Marilyn Mary Nancy Norma Pearl Rose-Marie Roseanne Sandra Sara Sharon Shelly Suzanne Tanto Thelma Therese Yvonne
 		}
 
 	}
@@ -53,7 +53,7 @@ native_american = {	#All-encompassing group for native cultures
 	aleutian = {
 		male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
-			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Iñuksuk Irniq 
+			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Iï¿½uksuk Irniq 
 			Itigaituk Kanguq Kataktuaq  Keedtapeck Kissarviarsuk Kumaglak Kunik Kunikpaa Malik Nanouk Nasak Natsiq 
 		}
 		female_names = {
@@ -167,10 +167,10 @@ native_american = {	#All-encompassing group for native cultures
 			Winewak Karakuntie Moyese Plante Wanyandie Aseniwuche
 		}
 		male_names = {
-			Nîshwi Nethwi Nyêwi Nyânanwi Neniwa Ihkwêwa Anemôha Kîshethwa Tepehkî-Kîshethwa   
+			Nï¿½shwi Nethwi Nyï¿½wi Nyï¿½nanwi Neniwa Ihkwï¿½wa Anemï¿½ha Kï¿½shethwa Tepehkï¿½-Kï¿½shethwa   
 		}
 		female_names = {
-			Nepi Wâpeshk Athâw Meshkw Mahkatêw Mîchiwa Wâpatamwa Ehtamwa Nakamowa Nâkwêwa
+			Nepi Wï¿½peshk Athï¿½w Meshkw Mahkatï¿½w Mï¿½chiwa Wï¿½patamwa Ehtamwa Nakamowa Nï¿½kwï¿½wa
 		}
 	}
 	cheyenne = {
@@ -255,7 +255,7 @@ native_american = {	#All-encompassing group for native cultures
 		primary = ABE
 		dynasty_names = {
 			Amoskeay Cocheco Cowasuck Koasek Masipskwoik Nashua Ossipee Pemigewasset Pennacook Pequaket	Piscataqua Souhegan 
-			Winnibisauga Amaseconti Alessikantekw Kinipekw Odanak Ossipee Panawahpskek Apikwahki Rocameca Wawinak Wôlinak
+			Winnibisauga Amaseconti Alessikantekw Kinipekw Odanak Ossipee Panawahpskek Apikwahki Rocameca Wawinak Wï¿½linak
 		}
 		male_names = {
 			Qualebeenewes Madockawando Wanagemeshaw Bungawarrawit Warrankansit Bomoseen Edaranaquin Eneas 
@@ -363,7 +363,7 @@ native_american = {	#All-encompassing group for native cultures
 			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
 		}
 		female_names = {
-			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satï¿½kon Tekakwitha 
 		}
 	}
 	cherokee = {
@@ -424,7 +424,7 @@ native_american = {	#All-encompassing group for native cultures
 			Gosweinquecrakqua Wanahedana Auroghteregh Scarhuhadigh Rutchogah Nathheldaneh Sawahegeh
 		}
 		female_names = {
-			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satï¿½kon Tekakwitha
 		}
 	}
 	
@@ -433,7 +433,7 @@ native_american = {	#All-encompassing group for native cultures
 		dynasty_names = {
 			Sichangu Oglala Itazipcho Hunkpapha Mnikhowozu Sihasapa Oohenunpa
 			Ihantkhunwan Ihankthunwanna Isanyathi Thithunwan Wichiyena
-			Wahpéthunwan Mdewakanthunwan Wahpéhute Sisithunwan 
+			Wahpï¿½thunwan Mdewakanthunwan Wahpï¿½hute Sisithunwan 
 		}
 		male_names = {
 			Wabasha Petette Tartunkanasiah Keejee Tarsega Wamadetunka Wannata Kokomako Shacope Penision Etaseepa 
@@ -630,7 +630,6 @@ native_american = {	#All-encompassing group for native cultures
 		}
 	}
 	chickasaw = {
-		primary = CHI
 		dynasty_names = {
 			Ackia Alaoute Amalahta Apeony Apilefaplimengo Ashukhuma Ayebisto Chatelaw
 			Chesafaliah Chinica Chopoussa Chucalissa Chukafalaya Chula Coppertown
@@ -659,7 +658,7 @@ native_american = {	#All-encompassing group for native cultures
 			Taos Tesuque Zia Zuni Hopi Piru
 		}
 		male_names = {
-			Popé Ku-htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo Catiti
+			Popï¿½ Ku-htihth Galisteo Xenome Ollito Tagu Bolsas Naranjo Catiti
 		}
 		female_names = {
 			Ootcakao Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
@@ -672,7 +671,7 @@ native_american = {	#All-encompassing group for native cultures
 			Yoreme Hiakim Potam Vicam Torim Bacum Cocorit Huirivis Benem Rahum
 		}
 		male_names = {
-			Oacpicagiguya Kaviu Papago Panhop Cajemé
+			Oacpicagiguya Kaviu Papago Panhop Cajemï¿½
 		}
 		female_names = {
 			Kahavasooah Ootcakao Sacagawea Chipeta Tocmetone
@@ -749,7 +748,7 @@ native_american = {	#All-encompassing group for native cultures
 	}
 	chipewyan = {
 		dynasty_names = {
-			"Tsi'naajinii" "Deeshchii'nii" "Tl'izi Lani" "Tl'aaschi'I" Tsenabahituii Nashashi "T'üschebaanii" "Jaa'yaaloolii"
+			"Tsi'naajinii" "Deeshchii'nii" "Tl'izi Lani" "Tl'aaschi'I" Tsenabahituii Nashashi "T'ï¿½schebaanii" "Jaa'yaaloolii"
 			"Keha'atiintii" "Naashaashi"
 		}
 		male_names = {
@@ -840,6 +839,29 @@ native_american = {	#All-encompassing group for native cultures
 		}
 		female_names = {
 			Elvamox Ethete Natane Bly Dae Cocheta Ekta Ela Elina Ila Imala Inayat Kushala Kusuma Liluye Lipika Lolaksi 
+		}
+	}
+	nez_perce = {
+		dynasty_names = {
+			Allahkoliken Takanin Wyakaikt Chuslum Moxmox Hallalhotsoot Hemene Otskai Wadass Kaunis
+		}
+		male_names = {
+			Alahmoot Allalimya ApashÂ Chapowits ChuslumÂ Ealahweemah Ealaot Ealaothek Eapalekthiloom Elaskolatat
+		}
+		female_names = {
+			Alikkees Chickamohpeo Ewetonemy Heyoon Kayaatonmy Petolvonnanick Seahdom Tamalwinonmi Wallowa Yiyik
+		}
+	}
+	ktunaxa = {
+		dynasty_names = {
+			Numa T'awu Kats Tsu Itlkitlwi Ko'i Anan Kyannik'in Ha'son Xa
+		}
+		male_names = {
+			Akam Akaxapqtli Initska Initswum Kakin K'antsupu's Kanusq'upak Kyaqkatluk Tak'ats T'awats'ikxu Titlna'ku Tlu Tsiiqu Wakuks Watak Waxwik'
+			Kyatlti'tlmak' Kyanukxu
+		}
+		female_names = {
+			Aq'ants'tla'in Akikq'antstla'in Initska Initswum Inq'am Kyanuqtlumna Mata Mat'qutl Mayuk Mits'qaqas Naqamtsu Natlmit' Natisatl Naxni Nuktsaqtlitl T'anquts Tak'ats Tlu'unana Tsatamanana
 		}
 	}
 }

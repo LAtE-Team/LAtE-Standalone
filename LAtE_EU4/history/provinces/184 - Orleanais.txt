@@ -1,8 +1,8 @@
-# 184 Orléannais - Principal cities: Orléans
+# 184 Orlï¿½annais - Principal cities: Orlï¿½ans
 
 #owner = FRA
 #controller = FRA
-capital = "Orléans"
+capital = "Orlï¿½ans"
 is_city = no
 culture = cosmopolitan_french
 religion = cult_of_reason
@@ -13,7 +13,7 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

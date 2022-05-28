@@ -1,0 +1,139 @@
+estate_antiquarians =
+{
+	icon = 15
+
+	# If true, country will get estate
+	trigger = {
+		religion_group = oldworld
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = trading_city }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { government = native }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		OR = {
+			NOT = { has_reform = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
+		is_nomad = no
+		is_colonial_nation = no
+		NOT = { has_reform = revolutionary_empire_reform }
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+		global_tax_modifier = 0.1
+		technology_cost = -0.1
+		papal_influence = 1
+		devotion = 0.5
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 1
+		stability_cost_modifier = -0.1
+	}
+	country_modifier_neutral = {
+		global_tax_modifier = 0.05
+		technology_cost = -0.05
+	}	
+	country_modifier_angry = {
+		global_tax_modifier = -0.1
+		papal_influence = -1
+		devotion = -0.5
+		church_power_modifier = -0.25
+		monthly_fervor_increase = -1
+		stability_cost_modifier = 0.1
+		global_unrest = 2
+	}
+
+	land_ownership_modifier = {
+		antiquarians_loyalty_modifier = 0.2
+	}
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			NOT = { religion_group = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { religion = owner }
+		}
+		modifier = {
+			factor = 0.67
+			NOT = { is_state_core = owner }
+		}
+		modifier = {
+			factor = 1.2
+			base_tax = 10
+		}
+	}
+
+	# Influence modifiers
+	base_influence = 10
+	influence_modifier = {
+		desc = EST_VAL_STATE_RELIGIOUS_MINORITY
+		trigger = {
+			NOT = { dominant_religion = ROOT }
+		}	
+		influence = -15
+	}
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_army_disaster
+				has_disaster = estate_unions_disaster
+				has_disaster = estate_press_disaster
+			}
+		}
+		influence = -40
+	}
+
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_army_disaster
+				has_disaster = estate_unions_disaster
+				has_disaster = estate_press_disaster
+			}
+		}
+		loyalty = -20
+	}
+
+	color = { 200 150 0 }
+
+	privileges = {
+		estate_antiquarians_land_rights
+		estate_antiquarians_religious_state
+		estate_antiquarians_new_world_mission
+		estate_antiquarians_clerical_oversight
+		estate_antiquarians_enforced_one_faith
+		estate_antiquarians_for_the_faith
+		estate_antiquarians_statutory_rights
+		estate_antiquarians_religious_diplomats
+		estate_antiquarians_old_world_communities
+	}
+
+	agendas = {
+		estate_antiquarians_develop_x
+		estate_antiquarians_build_temple_in_y
+		estate_antiquarians_build_university_in_y
+		estate_antiquarians_build_manufactory_in_y
+		estate_antiquarians_convert_province_x
+		estate_antiquarians_reduce_war_exhaustion
+		estate_antiquarians_recover_stability
+		estate_antiquarians_increase_stability
+		estate_antiquarians_reduce_overextension
+		estate_antiquarians_restore_devotion
+		estate_antiquarians_root_out_heresy
+		estate_antiquarians_crush_religious_revolts
+		estate_antiquarians_protect_brethren
+		estate_antiquarians_relations_with_dotf
+		estate_antiquarians_hire_advisor
+		estate_antiquarians_fire_advisor
+	}
+	influence_from_dev_modifier = 1.0
+}

@@ -1,4 +1,4 @@
-#Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
+#Hï¿½lsingland-Gï¿½strikland-Medelpad, from Gï¿½vle to Nï¿½s
 
 culture = swedish
 religion = finnish_pagan_reformed
@@ -7,10 +7,10 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Gävle"
+capital = "Gï¿½vle"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 native_size = 5

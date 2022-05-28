@@ -1,4 +1,4 @@
-# 183 Île-de-France - Principal cities: Paris
+# 183 ï¿½le-de-France - Principal cities: Paris
 
 owner = FRA
 controller = FRA
@@ -16,7 +16,7 @@ add_core= FRA
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 #fort_15th = yes

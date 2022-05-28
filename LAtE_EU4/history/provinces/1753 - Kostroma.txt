@@ -13,7 +13,7 @@ trade_goods = unknown
 base_manpower = 1
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 capital = "Kostroma"
 

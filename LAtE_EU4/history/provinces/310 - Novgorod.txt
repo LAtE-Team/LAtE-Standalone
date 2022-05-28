@@ -16,7 +16,7 @@ capital = "Novgorod"
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 center_of_trade = 2
 

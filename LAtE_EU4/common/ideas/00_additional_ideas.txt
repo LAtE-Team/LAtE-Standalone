@@ -503,6 +503,7 @@ deitsch_ideas = {		#Expanded to apply to all Anabaptists
 	bonus = { num_accepted_cultures = 2 }
 	trigger = {
 		OR = {
+			tag = HUD
 			religion = anabaptist
 			primary_culture = deitsch		
 		}

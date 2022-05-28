@@ -1,8 +1,0 @@
-#Bonn
-government = monarchy
-
-government_rank = 1
-primary_culture = hessian
-religion = thelemic
-technology_group = european
-capital = 84	# Berg/Bonn

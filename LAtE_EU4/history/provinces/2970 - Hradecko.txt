@@ -3,7 +3,7 @@
 #owner = BOH
 #controller = BOH
 #add_core= BOH
-capital = "Hradec Králové"
+capital = "Hradec Krï¿½lovï¿½"
 culture = czech
 religion = catholic
 trade_goods = unknown
@@ -19,9 +19,9 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
  

@@ -1,4 +1,4 @@
-#Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
+#Sï¿½nderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
 
 #add_core= LGO #Add Legoland
 #owner = LGO
@@ -13,7 +13,7 @@ base_manpower = 1
 capital = "Slesvig"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

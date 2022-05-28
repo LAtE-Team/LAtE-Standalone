@@ -14,7 +14,7 @@ capital = "Sligo"
 is_city = no
 #add_core= SLN
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

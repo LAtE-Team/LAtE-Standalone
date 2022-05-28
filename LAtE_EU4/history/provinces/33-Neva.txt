@@ -1,4 +1,4 @@
-#Näset + the land around the river Neva, incl. Nöteborg, Nyen and St.Petersburg.
+#Nï¿½set + the land around the river Neva, incl. Nï¿½teborg, Nyen and St.Petersburg.
 
 owner = STP
 controller = STP
@@ -17,7 +17,7 @@ capital = "St Petersburg" # initial Russian name
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 extra_cost = 10
 

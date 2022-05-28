@@ -3,6 +3,13 @@ scavenging_hub = {
 	cost = 50
 	time = 12
 
+	build_trigger = {
+		OR = {
+			owner = { religion_group = oldworld }
+			owner = { has_estate_privilege = estate_scavengers_state_bands }
+		}
+	}
+
 	modifier = {
         allowed_num_of_buildings = 1
 	}
@@ -22,6 +29,34 @@ scavenging_hub = {
 				duration = -1
 			}
 		}
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_antiquarians_enforced_one_faith } }
+			add_province_modifier = {
+				name = estate_antiquarians_one_faith_mod
+				duration = -1
+			}
+		}
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_antiquarians_old_world_communities } }
+			add_province_modifier = {
+				name = estate_antiquarians_old_world_communities_mod
+				duration = -1
+			}
+		}
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_army_levies } }
+			add_province_modifier = {
+				name = estate_army_recruitment_mod
+				duration = -1
+			}
+		}
+		if = {
+			limit = { FROM = { has_estate_privilege = estate_unions_old_world_construction } }
+			add_province_modifier = {
+				name = estate_unions_old_world_construction_mod
+				duration = -1
+			}
+		}
 	}
 
 	on_destroyed = {
@@ -32,6 +67,22 @@ scavenging_hub = {
 		if = {
 			limit = { has_province_modifier = estate_scavengers_scavenge_equipment_mod }
 			remove_province_modifier = estate_scavengers_scavenge_equipment_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_antiquarians_one_faith_mod }
+			remove_province_modifier = estate_antiquarians_one_faith_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_antiquarians_old_world_communities_mod }
+			remove_province_modifier = estate_antiquarians_old_world_communities_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_army_recruitment_mod }
+			remove_province_modifier = estate_army_recruitment_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_unions_old_world_construction_mod }
+			remove_province_modifier = estate_unions_old_world_construction_mod
 		}
 	}
 
@@ -44,6 +95,22 @@ scavenging_hub = {
 			limit = { has_province_modifier = estate_scavengers_scavenge_equipment_mod }
 			remove_province_modifier = estate_scavengers_scavenge_equipment_mod
 		}
+		if = {
+			limit = { has_province_modifier = estate_antiquarians_one_faith_mod }
+			remove_province_modifier = estate_antiquarians_one_faith_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_antiquarians_old_world_communities_mod }
+			remove_province_modifier = estate_antiquarians_old_world_communities_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_army_recruitment_mod }
+			remove_province_modifier = estate_army_recruitment_mod
+		}
+		if = {
+			limit = { has_province_modifier = estate_unions_old_world_construction_mod }
+			remove_province_modifier = estate_unions_old_world_construction_mod
+		}
 	}
 
 	ai_will_do = {
@@ -52,5 +119,9 @@ scavenging_hub = {
             factor = 105
             has_estate_privilege = estate_scavengers_state_bands   
         }
+		modifier = {
+			factor = 105
+			religion_group = oldworld
+		}
 	}
 }

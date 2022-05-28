@@ -6,7 +6,7 @@ add_core= BIZ
 culture = hessian
 religion = thelemic
 trade_goods = unknown
-capital = "Düsseldorf"
+capital = "Dï¿½sseldorf"
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -15,7 +15,7 @@ is_city = yes
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 hre = no

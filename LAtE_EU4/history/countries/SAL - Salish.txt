@@ -7,7 +7,7 @@ technology_group = western
 primary_culture = salish
 religion = raven_tales
 clear_scripted_personalities = yes
-capital = 2487
+capital = 972
 3043.9.22 = {
 	monarch = {
 		name = "Sahkonteic"
@@ -31,7 +31,7 @@ capital = 2487
 	}
 }
 3053.1.1 = {
-	capital = 2487
+	capital = 972
 	add_treasury = 37
 	add_prestige = 452
 }

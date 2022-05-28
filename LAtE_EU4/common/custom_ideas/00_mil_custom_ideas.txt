@@ -371,4 +371,20 @@ mil_idea_modifiers = {
 			}
 		}
 	}
+	custom_idea_free_mil_policy = {
+		free_mil_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
+	custom_idea_possible_mil_policy = {
+		possible_mil_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+		chance = {
+			factor = 0.25
+		}
+	}
 }

@@ -18,9 +18,9 @@ is_city = no
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 # = { unrest = 5 } # General discontent with the Janissaries' dominance

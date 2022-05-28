@@ -4,10 +4,10 @@ government = theocracy
 government_rank = 1
 mercantilism = 0.1
 technology_group = western
-primary_culture = mountainer
-religion = gaian
+primary_culture = nez_perce
+religion = ghost_dance
 clear_scripted_personalities = yes
-capital = 2489
+capital = 2019
 3038.10.8 = {
 	monarch = {
 		name = "Wewawewa"
@@ -32,7 +32,7 @@ capital = 2489
 	add_heir_personality = just_personality
 }
 3053.1.1 {
-	capital = 2489
+	capital = 2019
 	add_treasury = 31
 	add_prestige = 9
 }

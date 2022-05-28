@@ -1,17 +1,20 @@
-# 1813 - Saskatchewan
+owner = MTC
+controller = MTC 
+add_core = MTC
 
 culture = metis
-religion = ursuline
-capital = "Saskatchewan"
-trade_goods = unknown
+religion = ghost_dance
+is_city = yes
+add_core = Y62
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = MTC
+discovered_by = X17
+
 hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 10
-native_ferocity = 1
-native_hostileness = 3
-
-
-
 

@@ -28,7 +28,7 @@ alliance = {
 
 alliance = {
 	first = NYS #New York
-	second = Z36 #Philadelphia
+	second = PHI #Philadelphia
 	trade_league = 1
 	start_date = 3050.1.1
 	end_date = 3200.1.1
@@ -36,7 +36,7 @@ alliance = {
 
 alliance = {
 	first = NYS #New York
-	second = Z34 #Baltimore
+	second = BLT #Baltimore
 	trade_league = 1
 	start_date = 3050.1.1
 	end_date = 3200.1.1

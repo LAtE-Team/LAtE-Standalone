@@ -2,7 +2,7 @@
 
 
 #discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = western 
 discovered_by = eastern 
 discovered_by = muslim 
@@ -10,7 +10,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 # = { discovered_by = FRA }
 # = { discovered_by = ENG }
-# = { discovered_by = GBR }
+# = {  }
 
 
 native_size = 5

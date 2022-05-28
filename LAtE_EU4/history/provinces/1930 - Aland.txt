@@ -1,4 +1,4 @@
-#Åland
+#ï¿½land
 
 #owner = SWE
 #controller = SWE
@@ -15,7 +15,7 @@ trade_goods = fish
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

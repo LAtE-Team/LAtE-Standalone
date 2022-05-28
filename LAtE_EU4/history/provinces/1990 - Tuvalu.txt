@@ -13,8 +13,8 @@ native_ferocity = 1
 native_hostileness = 1
 
 # = {
-	#discovered_by = SPA	# Álvaro de Mendaña de Neira
+	#discovered_by = SPA	# ï¿½lvaro de Mendaï¿½a de Neira
 #}
 # = {
-	#discovered_by = GBR	# John Byron, unknown date
+	#	# John Byron, unknown date
 #}

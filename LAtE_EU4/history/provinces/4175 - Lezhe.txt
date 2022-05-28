@@ -4,7 +4,7 @@
 #controller = ALB
 culture = albanian
 religion = hellenic_pagan #for now
-capital = "Lezhë"
+capital = "Lezhï¿½"
 trade_goods = wool
 hre = no
 base_tax = 1
@@ -14,7 +14,7 @@ is_city = no
 #add_core= ALB
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
+
 
 native_size = 5
 native_ferocity = 1

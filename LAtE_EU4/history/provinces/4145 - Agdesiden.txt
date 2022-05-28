@@ -1,4 +1,4 @@
-#Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Råbyggelaget len)
+#Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Rï¿½byggelaget len)
 
 culture = norwegian
 religion = norse_pagan_reformed
@@ -10,7 +10,7 @@ base_manpower = 1
 capital = "Mandal"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

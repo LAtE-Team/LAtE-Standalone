@@ -10,7 +10,7 @@ base_manpower = 1
 is_city = no
 capital = "Bergen"
 discovered_by = high_american 
-discovered_by = RED
+
 extra_cost = 15
 
 center_of_trade = 2

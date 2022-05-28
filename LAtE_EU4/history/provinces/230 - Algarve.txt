@@ -16,17 +16,17 @@ is_city = no
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
 
 
-# = { unrest = 8 } # Revolt headed by John of Bragança
+
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 }
 # = { #controller = FRA } # Occupied by troops led by Manuel Godoy
-# = { #controller = POR } # Revolt in Olhão
+# = { #controller = POR } # Revolt in Olhï¿½o
 
 
 native_size = 5

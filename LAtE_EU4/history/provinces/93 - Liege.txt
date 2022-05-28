@@ -1,8 +1,8 @@
-# 93 Liège - Principal cities: Liège & Namur
+# 93 Liï¿½ge - Principal cities: Liï¿½ge & Namur
 
 #owner = LIE
 #controller = LIE
-capital = "Liège"
+capital = "Liï¿½ge"
 is_city = no
 culture = wallonian
 religion = cult_of_reason
@@ -13,7 +13,7 @@ trade_goods = unknown
 base_manpower = 1
 #add_core= LIE
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 native_size = 5

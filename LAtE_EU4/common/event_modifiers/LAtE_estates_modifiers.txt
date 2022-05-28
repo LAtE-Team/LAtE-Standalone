@@ -1,0 +1,76 @@
+anabaptists_estate_events_growth_cooldown = {
+}
+
+anabaptists_estate_events_conversion_cooldown = {
+}
+
+estate_anabaptists_guaranteed_autonomy_mod = {
+	religion = yes
+	local_religious_unity_contribution = -1
+	local_missionary_strength = -1
+}
+
+anabaptist_passive_resistance = {
+	local_tax_modifier = -0.33
+	local_production_efficiency = -0.33
+	province_trade_power_modifier = -0.33
+}
+
+anabaptist_resistance = {
+	build_cost = 0.25
+	build_time = 0.25
+}
+
+anabaptist_help_construction = {
+	development_cost = -0.1
+}
+
+anabaptist_theological_debates = {
+	tolerance_heathen = 1
+}
+
+anabaptists_denounced_as_heathens = {
+	tolerance_own = 1
+}
+
+estate_cowboys_prime_herding_rights_mod = {
+	local_tax_modifier = -0.5
+	local_manpower_modifier = 0.25
+}
+
+
+estate_cowboys_exploration_expedition_mod = {
+	local_development_cost = -0.15
+}
+
+estate_antiquarians_one_faith_mod = {
+	local_unrest = 2
+	local_missionary_strength = 2
+	local_missionary_maintenance_cost = -0.2
+}
+
+estate_antiquarians_old_world_communities_mod = {
+	local_development_cost = -0.1
+}
+
+estate_army_recruitment_mod = {
+	local_manpower_modifier = 0.15
+	local_tax_modifier = -0.05
+}
+
+estate_unions_old_world_construction_mod = {
+	local_build_cost = -0.1
+	local_build_time = -0.1
+	local_great_project_upgrade_cost = -0.05
+}
+
+agenda_privateering_cowboys = {
+	privateer_efficiency = 0.15
+}
+
+recent_estate_cowboys_reply_of_the_zaporozhian_timer = { }
+
+too_many_scavengers = {
+	global_unrest = 3
+	global_monthly_devastation = 0.1
+}

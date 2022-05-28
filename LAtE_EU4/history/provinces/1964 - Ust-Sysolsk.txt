@@ -16,7 +16,7 @@ capital = "Ust-Sysola"
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 
 
 

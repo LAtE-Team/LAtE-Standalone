@@ -13,14 +13,14 @@ base_manpower = 1
 is_city = no
 #add_core= POR
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 discovered_by = indian
 discovered_by = high_american 
-discovered_by = RED
 
 
-# = { unrest = 8 } # Revolt headed by John of Bragança
+
+# = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 # = { unrest = 0 }
 # = { #controller = SPA } # War of the Spanish succession
 # = { #controller = POR } # Treaty of Utrecht

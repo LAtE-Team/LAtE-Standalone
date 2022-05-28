@@ -4,6 +4,7 @@ estate_nobles =
 
 	# If true, country will get estate
 	trigger = {
+		NOT = { religion_group = oldworld }
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = veche_republic }
@@ -111,6 +112,7 @@ estate_nobles =
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_vaisyas_disaster
 				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
 			}
 		}	
 		influence = -40
@@ -125,6 +127,7 @@ estate_nobles =
 				has_disaster = estate_brahmins_disaster
 				has_disaster = estate_vaisyas_disaster
 				has_disaster = estate_jains_disaster
+				has_disaster = estate_scavengers_disaster
 			}
 		}
 		loyalty = -20

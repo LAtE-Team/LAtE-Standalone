@@ -118,6 +118,11 @@ christian = {
 			diplomatic_reputation = 3
 			war_exhaustion = 0.05
 		}
+		province = {
+			local_manpower_modifier = -0.5
+			local_development_cost = -0.1
+			local_missionary_strength = 0.1
+		}
 		country_as_secondary = {
 			diplomatic_reputation = 3
 			war_exhaustion = 0.05
@@ -392,6 +397,9 @@ eastern = {
 			tolerance_heretic = -1
 		}
 		
+		uses_karma = yes
+		allow_female_defenders_of_the_faith = yes
+
 		heretic = { MASCULINIST }
 		
 		harmonized_modifier = harmonized_gaian
@@ -876,6 +884,8 @@ american_native = {
 			tolerance_own = 1
 			tolerance_heretic = -1
 		}
+
+		ancestors = yes
 		
 		heretic = { BEAR_SPIRIT }
 	}

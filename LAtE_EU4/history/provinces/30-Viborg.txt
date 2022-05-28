@@ -1,4 +1,4 @@
-#Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
+#Viborgs lï¿½n, incl. Viborg, Villmansstrand, and Kivinï¿½bb.
 
 #owner = SWE
 #controller = SWE
@@ -18,7 +18,7 @@ fort_15th = yes
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 native_size = 5
 native_ferocity = 1

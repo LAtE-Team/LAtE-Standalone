@@ -563,7 +563,7 @@ defined_text = {
 			}
 			NOT = {
 				tag = RED
-				tag = Y16 #Hudsonia
+				tag = HUD #Hudsonia
 				tag = NYS
 			}
         }

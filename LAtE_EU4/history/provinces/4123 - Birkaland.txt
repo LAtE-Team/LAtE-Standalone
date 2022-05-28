@@ -11,10 +11,10 @@ base_tax = 1
 base_production = 1
 trade_goods = fur
 base_manpower = 1
-capital = "Messukylä"
+capital = "Messukylï¿½"
 is_city = no
 discovered_by = high_american 
-discovered_by = RED
+
 
 native_size = 5
 native_ferocity = 1

@@ -1,10 +1,10 @@
-#56 - Osnabrück
+#56 - Osnabrï¿½ck
 
 owner = BIZ
 controller = BIZ
 culture = hannoverian
 religion = thelemic
-capital = "Osnabrück"
+capital = "Osnabrï¿½ck"
 trade_goods = unknown
 hre = no
 base_tax = 1
@@ -16,7 +16,7 @@ add_core= BIZ
 
 
 discovered_by = high_american 
-discovered_by = RED
+
 discovered_by = indian
 
 

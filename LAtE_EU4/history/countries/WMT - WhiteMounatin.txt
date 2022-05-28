@@ -1,0 +1,10 @@
+# White Mountain
+government = monarchy 
+
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = yankee
+religion = americanist
+clear_scripted_personalities = yes
+capital = 970

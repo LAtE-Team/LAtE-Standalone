@@ -4,8 +4,8 @@ government = monarchy
 government_rank = 1
 mercantilism = 0.1
 technology_group = western
-primary_culture = salish
-religion = raven_tales
+primary_culture = grangelander
+religion = catholic
 clear_scripted_personalities = yes
 capital = 901
 3053.1.1 {
