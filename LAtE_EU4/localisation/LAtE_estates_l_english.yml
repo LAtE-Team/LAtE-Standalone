@@ -31,7 +31,11 @@
  desc_anabaptist_theological_debates: "The church has accepted the Jain claims to christendom, ensuring their rights and liberties."
  anabaptists_denounced_as_heathens: "Denounced Anabaptists as Heathens"
  desc_anabaptists_denounced_as_heathens: "Jainism has been denounced as heathenous, much to the approval of the Church."
-
+ ANABAPTISTS_GROWTH_TT: "The Anabaptist community in this province will grow."
+ ANABAPTISTS_SHRINK_TT: "The Anabaptist community in this province will shrink."
+ ANABAPTISTS_ACCEPTED_TT: "The Anabaptists will be accepted as an Estate."
+ ANABAPTISTS_REJECTED_TT: "The Anabaptists will be left to their own devices."
+ ANABAPTISTS_EXPELLED_TT: "The Anabaptists will be expelled from our provinces"
 
  #Anabaptists Privileges
  estate_anabaptists_land_rights: "$ESTATE_NAME$ Land Rights"

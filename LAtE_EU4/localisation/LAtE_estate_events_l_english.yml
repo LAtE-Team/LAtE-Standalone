@@ -76,7 +76,7 @@
  anabaptists_estate_events.9.t: "Anabaptists Offer Church"
  anabaptists_estate_events.9.d: "The Anabaptist community of [Root.Country.GetName], happy with the policies of the state, have offered to help construct a temple. Though we would still have to cover materials, the labour would be entirely free. This could be a great opportunity."
  anabaptists_estate_events.9.a: "We accept."
- anabaptists_estate_events.9.a: "Not right now."
+ anabaptists_estate_events.9.b: "Not right now."
  anabaptists_estate_events.10.t: "Anabaptistism on Trial"
  anabaptists_estate_events.10.d: "While Christian religions can be tolerated, there is no place in [Root.Country.GetName] for heathens who do not partake in communion. The $ESTATE_CHURCH$ has charged the Anabaptists with being heathens, due to their strange practices, and have held a debate before the [Root.Monarch.GetTitle] to settle the matter.\n\nThe $ESTATE_CHURCH$ argue that the Anabaptists refuse the infant baptism and the participation in the Christian state.\n\nThe Anabaptist monks present at the debate fervently repudiate this view. Opting for flexibility, they put forth a multitude of Anabaptist doctrines to demonstrate their true faith in the lord Jesus.\n\nUltimately, it falls upon the [Root.Monarch.GetTitle] to decide the fate of Anabaptistism in [Root.Country.GetName]. We must consider which argument we find most compelling."
  anabaptists_estate_events.10.a: "The Anabaptists are Christians, as we are."
@@ -109,6 +109,7 @@
  anabaptists_estate_events.16.d.long: "The Anabaptists of [FROM.GetName] have fled to our provinces to escape persecution. Because of our shared faith in Christ they hope to be allowed to stay and continue to practice their religion. They are willing to offer us their meager possessions in exchange for these privileges."
  anabaptists_estate_events.16.a: "They are welcome to stay"
  anabaptists_estate_events.16.b: "We have no need of them"
+ anabaptists_estate_events.16.c: "We will never have need of them"
 
  #Cowboys
  cossack_raids_opinion: "Cossack Raids"
