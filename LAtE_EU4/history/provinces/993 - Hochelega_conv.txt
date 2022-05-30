@@ -5,7 +5,6 @@ add_core = MTR
 
 culture = quebecois
 religion = ursuline
-trade_goods = glass
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -15,7 +14,9 @@ discovered_by = MTC
 discovered_by = X17
 
 hre = no
-base_tax = 10
-base_production = 10
-base_manpower = 5
+base_tax = 6
+base_production = 8
+base_manpower = 6
+trade_goods = glass
 center_of_trade = 2
+fort_15th = yes

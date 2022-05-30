@@ -17,3 +17,4 @@ hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 4
+trade_goods = tobacco

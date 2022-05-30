@@ -14,6 +14,7 @@ discovered_by = MTC
 discovered_by = X17
 
 hre = no
-base_tax = 8
-base_production = 8
+base_tax = 3
+base_production = 3
 base_manpower = 4
+trade_goods = naval_supplies
