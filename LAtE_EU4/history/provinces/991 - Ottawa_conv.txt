@@ -5,7 +5,6 @@ add_core = SHD #Home
 
 culture = ontarois
 religion = anglican
-add_permanent_claim = ONT
 is_city = yes
 discovered_by = eastern
 discovered_by = western

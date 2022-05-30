@@ -1,9 +1,9 @@
-owner = X43
-controller = X43
-add_core = X43
+owner = CTN
+controller = CTN
+add_core = CTN
 
-culture = inuit
-religion = anglican
+culture = mikmaq
+religion = ursuline
 is_city = yes
 discovered_by = eastern
 discovered_by = western

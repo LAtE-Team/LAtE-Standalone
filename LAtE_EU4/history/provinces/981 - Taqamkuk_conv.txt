@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = X40
-controller = X40
-add_core = X40
+owner = TAQ
+controller = TAQ
+add_core = TAQ
 culture = mikmaq
 religion = anglican
 is_city = yes
@@ -710,8 +710,8 @@ discovered_by = X17
 	
 }
 3053.1.1 = {
-	owner = X40
-	controller = X40
+	owner = TAQ
+	controller = TAQ
 	culture = mikmaq
 	religion = anglican
 }

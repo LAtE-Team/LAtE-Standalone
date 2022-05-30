@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = X66
-controller = X66
-add_core = X66
+owner = EEY
+controller = EEY
+add_core = EEY
 culture = anishinabe
 religion = ursuline
 is_city = yes
@@ -710,8 +710,8 @@ discovered_by = X17
 	
 }
 3053.1.1 = {
-	owner = X66
-	controller = X66
+	owner = EEY
+	controller = EEY
 	culture = anishinabe
 	religion = ursuline
 }

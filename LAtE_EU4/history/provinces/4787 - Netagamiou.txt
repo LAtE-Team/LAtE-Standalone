@@ -1,12 +1,18 @@
+owner = CTN
+controller = CTN
+add_core = CTN
+
 culture = inuit
-religion = ghost_dance 
-trade_goods = unknown 
-hre = no 
+religion = ursuline
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = MTC
+discovered_by = X17
+
+hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-native_size = 5 
-native_ferocity = 1 
-native_hostileness = 3 
-discovered_by = eastern
-discovered_by = western

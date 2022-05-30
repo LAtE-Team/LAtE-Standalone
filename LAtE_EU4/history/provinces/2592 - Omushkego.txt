@@ -1,6 +1,6 @@
 # No previous file for Omushkego
 
-culture = cree
+culture = anishinabe
 religion = ghost_dance
 capital = "Omushkego"
 trade_goods = unknown

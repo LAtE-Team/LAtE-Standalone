@@ -5,7 +5,6 @@ add_core = THN
 culture = ontarian
 religion = anglican
 is_city = yes
-add_permanent_claim = ONT
 add_core = Y62
 discovered_by = eastern
 discovered_by = western

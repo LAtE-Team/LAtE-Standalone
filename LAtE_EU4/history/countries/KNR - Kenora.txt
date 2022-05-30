@@ -7,7 +7,7 @@ technology_group = eastern
 primary_culture = anishinabe
 religion = ghost_dance
 clear_scripted_personalities = yes
-capital = 2593
+capital = 4830
 3053.1.1= {
 	monarch = {
 		name = "Banting"
@@ -20,7 +20,7 @@ capital = 2593
 	add_ruler_personality = kind_hearted_personality
 }
 3053.1.1 {
-	capital = 2593
+	capital = 4830
 	add_treasury = 19
 	add_prestige = 6
 }

@@ -1,6 +1,7 @@
 owner = QUE
 controller = QUE
 add_core = QUE
+add_core = GSP
 
 culture = quebecois
 religion = ursuline

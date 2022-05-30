@@ -1,6 +1,6 @@
 # No previous file for Quenebigon
 
-culture = cree
+culture = metis
 religion = ghost_dance
 capital = "Quenebigon"
 trade_goods = unknown

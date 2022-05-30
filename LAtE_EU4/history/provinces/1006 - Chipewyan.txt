@@ -1,6 +1,6 @@
 #1006 - Chipewyan
 
-culture = chipewyan
+culture = metis
 religion = ghost_dance
 capital = "Chipewyan"
 trade_goods = unknown

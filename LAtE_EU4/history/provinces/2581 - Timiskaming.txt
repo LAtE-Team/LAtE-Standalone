@@ -1,22 +1,18 @@
-# No previous file for Timiskaming
+owner = ARR
+controller = ARR
+add_core = ARR
 
-culture = cree
-religion = ghost_dance # I guess?
-capital = "Timiskaming"
-trade_goods = unknown
-hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 2
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
-
-
-
-discovered_by = western 
-discovered_by = eastern 
-discovered_by = muslim 
+culture = anishinabe
+religion = ursuline
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
 discovered_by = ottoman
-discovered_by = nomad_group
+discovered_by = MTC
+discovered_by = X17
 
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

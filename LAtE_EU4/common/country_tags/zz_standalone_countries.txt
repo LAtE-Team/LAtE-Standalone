@@ -62,6 +62,22 @@ MDL = "countries/Midland.txt"
 TAL = "countries/Talbot.txt"
 HUR = "countries/Huronia.txt"
 ALG = "countries/Algoma.txt"
+TAQ = "countries/Taqamkuk.txt" #X40
+AVA = "countries/Avalon.txt" #X42
+STD = "countries/Stadacona.txt" #Y64
+OUT = "countries/Outaouais.txt" #Y65
+MTR = "countries/Montreal.txt"
+MRC = "countries/Mauricie.txt" #Y67
+EST = "countries/Estrie.txt" #Y66
+GSP = "countries/Gaspesie.txt" 
+
+#Northern Quebec
+CTN = "countries/CoteNord.txt" #X43
+SGN = "countries/Saguenay.txt" 
+NVK = "countries/Nunavik.txt" 
+EEY = "countries/EeyouIstchee.txt" #X66
 
 #Hudson's Bay
 KNR = "countries/Kenora.txt"
+ARR = "countries/Aurora.txt" #X68
+MUS = "countries/Mushkegowuk.txt" #X67

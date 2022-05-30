@@ -3816,7 +3816,7 @@ western_carribean_area = {
 	5038 5039 5040
 }
 
- jamaica_area = { #4
+jamaica_area = { #4
 	487 5034 5043
 }
 
