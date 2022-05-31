@@ -2,13 +2,13 @@
 
 owner = VES
 controller =VES
-religion = cult_of_saints
+religion = sacred_heart
 add_core = VES
 culture = welsh
 discovered_by = south_american 
 discovered_by = andean
 discovered_by = brazilian
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Bahia"
 trade_goods = unknown
 is_city = yes

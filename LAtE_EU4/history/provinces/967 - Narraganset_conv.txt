@@ -4,7 +4,7 @@ add_core = RED
 add_core = RHI
 
 culture = british
-religion = thelemic
+religion = glorian
 is_city = yes
 discovered_by = eastern
 discovered_by = western

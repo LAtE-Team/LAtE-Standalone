@@ -1,7 +1,7 @@
 #2701 - Tagloc
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Tagloc"
 trade_goods = unknown
 hre = no

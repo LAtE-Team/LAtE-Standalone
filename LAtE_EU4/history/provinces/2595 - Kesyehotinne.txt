@@ -1,7 +1,7 @@
 # No previous file for Kesyehotinne
 
 culture = metis
-religion = ghost_dance
+religion = exovedate
 capital = "Kesyehotinne"
 trade_goods = unknown
 hre = no

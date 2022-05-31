@@ -32,12 +32,12 @@ add_core = MIG
 # = { is_city = no trade_goods = gold }
 owner = MIG
 controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = MIG
 3053.1.1 = {
 	owner = MIG
 	controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

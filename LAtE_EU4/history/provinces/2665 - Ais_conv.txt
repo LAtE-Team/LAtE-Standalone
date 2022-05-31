@@ -3,7 +3,7 @@ owner = TXK
 controller = TXK
 add_core = TXK
 culture = texan
-religion = neoroman
+religion = sedevacanist
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -714,5 +714,5 @@ discovered_by = X17
 	controller = TXK
 	add_core = TXK
 	culture = texan
-	religion = neoroman
+	religion = sedevacanist
 }

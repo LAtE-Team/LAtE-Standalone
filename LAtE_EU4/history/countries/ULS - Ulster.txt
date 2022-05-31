@@ -2,7 +2,7 @@ government = monarchy
 
 government_rank = 1
 technology_group = european
-religion = thelemic
+religion = thelema
 primary_culture = irish
 capital = 4121	# Ulster
 

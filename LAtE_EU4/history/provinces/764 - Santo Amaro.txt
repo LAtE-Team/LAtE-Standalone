@@ -18,7 +18,7 @@ native_hostileness = 1
 # = {
 	#owner = POR	
 	#controller = POR
-	capital = "São José dos Campos"
+	capital = "Sï¿½o Josï¿½ dos Campos"
 	is_city = no
 	religion = candomble
 	culture = carioca
@@ -31,12 +31,12 @@ add_core = RDJ
 # = { unrest = 0 } # The Jesuits are expulsed from the region
 owner = RDJ
 controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = RDJ
 3053.1.1 = {
 	owner = RDJ
 	controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

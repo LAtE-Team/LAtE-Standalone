@@ -3,7 +3,7 @@ owner = CLM
 controller = CLM
 add_core = CLM
 culture = tapatio
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 
 discovered_by = eastern
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = CLM
 	controller = CLM
 	culture = tapatio
-	religion = cult_of_saints
+	religion = sacred_heart
 }

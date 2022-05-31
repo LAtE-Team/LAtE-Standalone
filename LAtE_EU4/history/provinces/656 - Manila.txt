@@ -1,7 +1,7 @@
 #656 - Manila
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Manila"
 trade_goods = spices
 hre = no

@@ -1,7 +1,7 @@
 government = republic 
 add_government_reform = oligarchy_reform
 technology_group = oceanic
-religion = cult_of_saints
+religion = sacred_heart
 primary_culture = filipino
 capital = 2701 #Tagloc
 

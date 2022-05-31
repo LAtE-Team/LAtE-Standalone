@@ -1,5 +1,5 @@
 culture = inuit
-religion = ghost_dance 
+religion = pelagic 
 trade_goods = unknown 
 hre = no 
 base_tax = 1

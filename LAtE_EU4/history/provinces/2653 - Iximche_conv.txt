@@ -3,7 +3,7 @@ owner = X99
 controller = X99
 add_core = X99
 culture = chapin
-religion = uahomche
+religion = qabantajik
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = X99
 	controller = X99
 	culture = chapin
-	religion = uahomche
+	religion = qabantajik
 }

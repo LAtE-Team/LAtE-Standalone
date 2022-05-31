@@ -4,7 +4,7 @@ government_rank = 2
 mercantilism = 0.1
 technology_group = brazilian
 primary_culture = paribas
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 755
 3053.1.1 {

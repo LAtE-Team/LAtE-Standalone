@@ -3,7 +3,7 @@ controller = MTC
 add_core = MTC
 
 culture = metis
-religion = ghost_dance
+religion = exovedate
 is_city = yes
 add_core = Y62
 discovered_by = eastern

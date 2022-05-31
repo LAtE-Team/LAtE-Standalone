@@ -3,7 +3,7 @@ controller = KOO
 add_core = KOO
 
 culture = ktunaxa
-religion = ghost_dance
+religion = peyotist
 trade_goods = wine
 is_city = yes
 discovered_by = eastern

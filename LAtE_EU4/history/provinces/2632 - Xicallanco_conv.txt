@@ -3,7 +3,7 @@ owner = MEX
 controller = MEX
 add_core = MEX
 culture = jarocho
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 add_permanent_claim = X93
 discovered_by = eastern
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = MEX
 	controller = MEX
 	culture = jarocho
-	religion = cult_of_saints
+	religion = sacred_heart
 }

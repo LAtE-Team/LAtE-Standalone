@@ -3,7 +3,7 @@ owner = RIO
 controller = RIO
 add_core = RIO
 culture = tejano
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -712,5 +712,5 @@ discovered_by = X17
 	owner = RIO
 	controller = RIO
 	culture = tejano
-	religion = cult_of_saints
+	religion = sacred_heart
 }

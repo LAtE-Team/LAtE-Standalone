@@ -1,7 +1,7 @@
 #2698 - Pangasinan
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Pangasinan"
 trade_goods = grain
 hre = no

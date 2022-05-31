@@ -3,7 +3,7 @@ owner = VNZ
 controller = VNZ
 add_core = VNZ
 culture = cartagenero
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 add_permanent_claim = W07
 discovered_by = eastern
@@ -715,5 +715,5 @@ discovered_by = X17
 	owner = VNZ
 	controller = VNZ
 	culture = cartagenero
-	religion = cult_of_saints
+	religion = sacred_heart
 }

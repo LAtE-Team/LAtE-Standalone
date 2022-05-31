@@ -5,7 +5,7 @@ government_rank = 2
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = west_indian
-religion = uahomche
+religion = qabantajik
 clear_scripted_personalities = yes
 capital = 2637
 3053.1.1 {

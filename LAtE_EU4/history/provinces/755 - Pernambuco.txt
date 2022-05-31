@@ -20,12 +20,12 @@ add_core = PRB
 religion = candomble
 owner = PRB
 controller = PRB 
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = PRB
 3053.1.1 = {
 	owner = PRB
 	controller = PRB 
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 native_size = 5

@@ -3,7 +3,7 @@ controller = TXK
 add_core = TXK
 
 culture = creole
-religion = neoroman
+religion = sedevacanist
 is_city = yes
 discovered_by = eastern
 discovered_by = western

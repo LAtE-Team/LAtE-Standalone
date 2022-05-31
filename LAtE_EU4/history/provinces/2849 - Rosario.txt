@@ -2,7 +2,7 @@
 
 owner = LAP
 controller =LAP
-religion = cult_of_saints
+religion = sacred_heart
 add_core = LAP
 add_core = MES
 culture = platinean

@@ -1,7 +1,7 @@
 #998 - Ungava
 
 culture = inuit
-religion = ghost_dance
+religion = pelagic
 capital = "Ungava"
 trade_goods = unknown
 hre = no

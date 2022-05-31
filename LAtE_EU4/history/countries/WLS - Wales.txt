@@ -3,7 +3,7 @@ government = monarchy
 government_rank = 1
 technology_group = european
 primary_culture = welsh
-religion = thelemic
+religion = thelema
 capital = 242	# Gwynedd
 
 3031.1.1 = {

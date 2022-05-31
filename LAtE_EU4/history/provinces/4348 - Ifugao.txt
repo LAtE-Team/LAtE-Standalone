@@ -1,7 +1,7 @@
 #4348 - Ifugao
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Ifugao"
 trade_goods = unknown
 hre = no

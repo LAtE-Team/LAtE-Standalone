@@ -3,7 +3,7 @@ controller = X01
 add_core = X01
 
 culture = paiute
-religion = ghost_dance
+religion = peyotist
 trade_goods = livestock
 is_city = yes
 add_permanent_claim = X00

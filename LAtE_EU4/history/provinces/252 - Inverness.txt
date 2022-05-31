@@ -3,7 +3,7 @@
 owner = HSC
 controller = HSC
 culture = highland_scottish
-religion = thelemic
+religion = thelema
 hre = no
 base_tax = 3
 base_production = 3

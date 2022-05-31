@@ -3,7 +3,7 @@ controller = KNR
 add_core = KNR
 
 culture = anishinabe
-religion = ghost_dance
+religion = midewiwin
 is_city = yes
 discovered_by = eastern
 discovered_by = western

@@ -1,7 +1,7 @@
 # No previous file for Sekani
 
 culture = cree
-religion = ghost_dance
+religion = midewiwin
 capital = "Sekani"
 trade_goods = unknown
 hre = no

@@ -4,7 +4,7 @@
 owner = GBR
 controller = GBR
 culture = british
-religion = thelemic
+religion = thelema
 hre = no
 base_tax = 5
 base_production = 5

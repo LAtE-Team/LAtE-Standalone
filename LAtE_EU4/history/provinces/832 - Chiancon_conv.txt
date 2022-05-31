@@ -3,7 +3,7 @@ owner = W07
 controller = W07
 add_core = W07
 culture = cartagenero
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 add_core = W08
 discovered_by = eastern
@@ -716,5 +716,5 @@ discovered_by = X17
 	owner = W07
 	controller = W07
 	culture = muisca
-	religion = cult_of_saints
+	religion = sacred_heart
 }

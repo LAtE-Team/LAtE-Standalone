@@ -3,7 +3,7 @@ controller = KOO
 add_core = KOO
 
 culture = ktunaxa
-religion = ghost_dance
+religion = gaian
 trade_goods = fur
 is_city = yes
 add_core = X05

@@ -3,7 +3,7 @@ owner = HON
 controller = HON
 add_core = HON
 culture = garinagu
-religion = uahomche
+religion = qabantajik
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -712,5 +712,5 @@ discovered_by = X17
 	owner = HON
 	controller = HON
 	culture = garinagu
-	religion = uahomche
+	religion = qabantajik
 }

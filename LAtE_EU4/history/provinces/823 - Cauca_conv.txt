@@ -3,7 +3,7 @@ owner = ANQ
 controller = ANQ
 add_core = ANQ
 culture = rochela
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 add_core = X65
 discovered_by = eastern
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = ANQ
 	controller = ANQ
 	culture = rochela
-	religion = cult_of_saints
+	religion = sacred_heart
 }

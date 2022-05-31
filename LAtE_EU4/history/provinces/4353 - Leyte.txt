@@ -1,7 +1,7 @@
 #4353 - Leyte
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Leyte"
 trade_goods = unknown
 hre = no

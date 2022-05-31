@@ -2,10 +2,10 @@
 
 owner = VES
 controller =VES
-religion = cult_of_saints
+religion = sacred_heart
 add_core = VES
 culture = welsh
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Candelaria"
 trade_goods = unknown
 is_city = yes

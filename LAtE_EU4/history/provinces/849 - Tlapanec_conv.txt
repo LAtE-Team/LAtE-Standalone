@@ -3,7 +3,7 @@ owner = ZAP
 controller = ZAP
 add_core = ZAP
 culture = mixtec
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 
 discovered_by = eastern
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = ZAP
 	controller = ZAP
 	culture = mixtec
-	religion = cult_of_saints
+	religion = sacred_heart
 }

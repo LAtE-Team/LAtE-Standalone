@@ -48,7 +48,7 @@ neomayan_chichen_itza = {
 		has_discovered = 846	# Chicen Itza
 		OR = {
 			religion = neomayan
-			religion = uahomche
+			religion = qabantajik
 		}
 	}
 

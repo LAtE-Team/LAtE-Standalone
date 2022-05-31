@@ -1,7 +1,7 @@
 #2699 - Bikol
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Bikol"
 trade_goods = tropical_wood
 hre = no

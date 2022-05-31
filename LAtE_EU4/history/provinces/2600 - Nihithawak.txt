@@ -1,7 +1,7 @@
 # No previous file for Nihithawak
 
 culture = cree
-religion = ghost_dance
+religion = midewiwin
 capital = "Nihithawak"
 trade_goods = unknown
 hre = no

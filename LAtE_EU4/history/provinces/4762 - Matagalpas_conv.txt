@@ -3,7 +3,7 @@ owner = MSK
 controller = MSK
 add_core = MSK
 culture = garinagu
-religion = uahomche
+religion = qabantajik
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -712,5 +712,5 @@ discovered_by = X17
 	owner = MSK
 	controller = MSK
 	culture = garinagu
-	religion = uahomche
+	religion = qabantajik
 }

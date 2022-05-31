@@ -1,7 +1,7 @@
 #2702 - Butuan
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Butuan"
 trade_goods = grain
 hre = no

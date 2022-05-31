@@ -1,7 +1,7 @@
 #1105 - Vestbygden
 
 culture = inuit
-religion = brethren
+religion = pelagic
 capital = "Vestbygden"
 trade_goods = unknown
 hre = no

@@ -1,7 +1,7 @@
 #654 - Samar
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Visayas"
 trade_goods = tropical_wood
 hre = no

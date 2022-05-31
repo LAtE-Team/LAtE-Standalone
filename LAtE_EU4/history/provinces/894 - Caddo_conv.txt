@@ -3,7 +3,7 @@ controller = Y54
 add_core = Y54
 
 culture = ozark
-religion = neoroman
+religion = sedevacanist
 is_city = yes
 discovered_by = eastern
 discovered_by = western

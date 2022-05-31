@@ -1,10 +1,9 @@
 owner = Y88
 controller = Y88
-add_core = Y90 
 add_core = Y88
 
 culture = dakota
-religion = catholic
+religion = peyotist
 is_city = yes
 discovered_by = eastern
 discovered_by = western

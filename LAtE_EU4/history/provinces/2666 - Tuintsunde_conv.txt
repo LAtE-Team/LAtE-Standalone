@@ -3,7 +3,7 @@ owner = Y52
 controller = Y52
 add_core = Y52
 culture = shoshone
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 add_permanent_claim = COM
 discovered_by = eastern
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = Y52
 	controller = Y52
 	culture = shoshone
-	religion = cult_of_saints
+	religion = sacred_heart
 }

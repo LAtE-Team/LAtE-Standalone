@@ -27,15 +27,15 @@ add_core = PAU
 
 #} # brazilian settlement
 # = { discovered_by = ENG } # Drake
-# = { capital = "São Paulo" } # São Paulo was made the administrative capital
+# = { capital = "Sï¿½o Paulo" } # Sï¿½o Paulo was made the administrative capital
 owner = PAU
 controller = PAU
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = PAU
 3053.1.1 = {
 	owner = PAU
 	controller = PAU
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

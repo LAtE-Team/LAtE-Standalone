@@ -1,7 +1,7 @@
 owner = ECU
 controller = ECU
 culture = quiteno
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 hre = no
 base_tax = 1

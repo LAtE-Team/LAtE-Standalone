@@ -3,7 +3,7 @@
 owner = ECU
 controller = ECU
 culture = quiteno
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Esmeraldas"
 is_city = yes
 trade_goods = fish

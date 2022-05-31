@@ -26,15 +26,15 @@ native_hostileness = 3
 	culture = carioca
 add_core = RDJ
 #}
-# = { capital = "São Salvador de Campos" }
+# = { capital = "Sï¿½o Salvador de Campos" }
 owner = RDJ
 controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = RDJ
 3053.1.1 = {
 	owner = RDJ
 	controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

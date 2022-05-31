@@ -3,7 +3,7 @@
 owner = AMK
 controller = AMK
 culture = kyushuan
-religion = cult_of_saints # Hanare Kirishitan
+religion = sacred_heart # Hanare Kirishitan
 capital = "Nagasaki"
 trade_goods = naval_supplies
 hre = no

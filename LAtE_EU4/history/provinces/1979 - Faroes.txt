@@ -1,7 +1,7 @@
 #1979 - F�r�arna
 
 culture = norwegian
-religion = thelemic
+religion = thelema
 hre = no
 base_tax = 1
 base_production = 1

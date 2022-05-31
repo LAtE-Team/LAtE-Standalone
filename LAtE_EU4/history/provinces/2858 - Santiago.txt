@@ -2,7 +2,7 @@
 
 owner = MES
 controller = MES
-religion = cult_of_saints
+religion = sacred_heart
 add_core = MES
 culture = litoraleno
 discovered_by = south_american 

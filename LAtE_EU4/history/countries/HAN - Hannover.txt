@@ -3,7 +3,7 @@ government = monarchy
 
 government_rank = 1
 primary_culture = hannoverian
-religion = thelemic
+religion = thelema
 technology_group = european
 capital = 57	# Hannover
 

@@ -3,7 +3,7 @@ owner = SNR
 controller = SNR
 add_core = SNR
 culture = sonorense
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 discovered_by = eastern
 discovered_by = western
@@ -712,5 +712,5 @@ discovered_by = X17
 	owner = SNR
 	controller = SNR
 	culture = sonorense
-	religion = cult_of_saints
+	religion = sacred_heart
 }

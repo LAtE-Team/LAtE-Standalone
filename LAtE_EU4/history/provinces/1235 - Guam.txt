@@ -1,7 +1,7 @@
 #1235 - Guam
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Guam"
 trade_goods = fish
 hre = no

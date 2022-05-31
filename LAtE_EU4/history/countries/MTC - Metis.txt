@@ -5,7 +5,7 @@ government_rank = 2
 mercantilism = 0.1
 technology_group = nomad_group
 primary_culture = metis
-religion = ghost_dance
+religion = exovedate
 clear_scripted_personalities = yes
 capital = 1008
 3053.1.1 {

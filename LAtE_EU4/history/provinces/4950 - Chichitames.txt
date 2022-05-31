@@ -14,5 +14,5 @@ discovered_by = brazilian
 discovered_by = MTC
 discovered_by = X17
 culture = norteno
-religion = cult_of_saints
+religion = sacred_heart
 

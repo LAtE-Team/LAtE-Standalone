@@ -1,5 +1,5 @@
 culture = metis
-religion = ghost_dance 
+religion = exovedate 
 trade_goods = unknown 
 hre = no 
 base_tax = 1

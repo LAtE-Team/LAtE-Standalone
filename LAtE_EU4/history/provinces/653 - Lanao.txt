@@ -1,7 +1,7 @@
 #653 - Lanao
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Marawi"
 trade_goods = spices
 hre = no

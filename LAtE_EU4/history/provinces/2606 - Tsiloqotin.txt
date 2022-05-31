@@ -1,6 +1,6 @@
 
 culture = cree
-religion = ghost_dance
+religion = midewiwin
 capital = "Dakelh"
 trade_goods = unknown
 hre = no

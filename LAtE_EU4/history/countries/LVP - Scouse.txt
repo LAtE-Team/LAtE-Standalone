@@ -4,7 +4,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = european
 primary_culture = scouse
-religion = thelemic
+religion = thelema
 clear_scripted_personalities = yes
 capital = 244
 3053.1.1 {

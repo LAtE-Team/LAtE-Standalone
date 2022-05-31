@@ -3,7 +3,7 @@ owner = HON
 controller = HON
 add_core = HON
 culture = chapin
-religion = uahomche
+religion = qabantajik
 is_city = yes
 add_permanent_claim = MSK
 discovered_by = eastern
@@ -713,5 +713,5 @@ discovered_by = X17
 	owner = HON
 	controller = HON
 	culture = chapin
-	religion = uahomche
+	religion = qabantajik
 }

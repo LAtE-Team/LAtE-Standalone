@@ -3,7 +3,7 @@ controller = X02
 add_core = X02
 
 culture = paiute
-religion = ghost_dance
+religion = peyotist
 trade_goods = livestock
 is_city = yes
 discovered_by = eastern

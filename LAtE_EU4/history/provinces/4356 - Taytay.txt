@@ -1,7 +1,7 @@
 #4356 - Taytay
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Taytay"
 trade_goods = unknown
 hre = no

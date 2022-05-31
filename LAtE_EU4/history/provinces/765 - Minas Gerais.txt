@@ -4,7 +4,7 @@ culture = ge discovered_by = south_american
 discovered_by = andean
 discovered_by = brazilian
 religion = animism
-capital = "Sabará"
+capital = "Sabarï¿½"
 trade_goods = unknown
 hre = no
 base_tax = 6
@@ -32,15 +32,15 @@ add_core = MIG
 # = { MIG = { type = nationalist_rebels size = 2 } #controller = REB } # War between the brazilian & the Paulista bandeirantes
 # = { MIG = {} #controller = POR } # The Paulistas were defeated
 # = { MIG = { type = nationalist_rebels size = 2 } #controller = REB } # War of Emboabas
-# = { MIG = {} #controller = POR } # Joaquim José da Silva Xavier is captured
+# = { MIG = {} #controller = POR } # Joaquim Josï¿½ da Silva Xavier is captured
 owner = MIG
 controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = MIG
 3053.1.1 = {
 	owner = MIG
 	controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

@@ -217,7 +217,7 @@ mormon_theocracy = {
 		government = theocracy
 		OR = {
 			religion = mormon
-			religion = bickertonite
+			religion = neogodbeite
 			religion = strangite
 			religion = godbeite
 		}
@@ -318,7 +318,7 @@ british_protectorate = { # In her house in the White Hall, the dead Queen lies d
 	
 	trigger = {
 		government = english_monarchy
-		religion = thelemic
+		religion = thelema
 	}
 }
 thelemic_monarchy = { # Thelemic monarchies other than Britain
@@ -342,7 +342,7 @@ thelemic_monarchy = { # Thelemic monarchies other than Britain
 	
 	trigger = {
 		government = monarchy
-		religion = thelemic
+		religion = thelema
 	}
 }
 thelemic_theocracy = {
@@ -366,7 +366,7 @@ thelemic_theocracy = {
 	
 	trigger = {
 		government = theocracy
-		religion = thelemic
+		religion = thelema
 	}
 }
 occultist_theocracy = {

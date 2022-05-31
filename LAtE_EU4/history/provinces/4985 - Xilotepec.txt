@@ -3,7 +3,7 @@ owner = JAL
 controller = JAL
 add_core = JAL
 culture = chilango
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 
 add_permanent_claim = X91
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = JAL
 	controller = JAL
 	culture = chilango
-	religion = cult_of_saints
+	religion = sacred_heart
 }

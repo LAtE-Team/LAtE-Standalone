@@ -34,15 +34,15 @@ add_core = MIG
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # War between the brazilian & the Paulista bandeirantes
 # = { revolt = {} #controller = POR } # The Paulistas were defeated
 # = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # War of Emboabas
-# = { revolt = {} #controller = POR } # Joaquim José da Silva Xavier is captured
+# = { revolt = {} #controller = POR } # Joaquim Josï¿½ da Silva Xavier is captured
 owner = MIG
 controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = MIG
 3053.1.1 = {
 	owner = MIG
 	controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

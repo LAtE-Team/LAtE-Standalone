@@ -1,7 +1,7 @@
 #2697 - Tondo
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Tondo"
 trade_goods = sugar
 hre = no

@@ -3,7 +3,7 @@ controller = X16
 add_core = X16
 
 culture = nez_perce
-religion = ghost_dance
+religion = peyotist
 trade_goods = wool
 is_city = yes
 discovered_by = eastern

@@ -28,12 +28,12 @@ native_hostileness = 5
 
 owner = AGR
 controller = AGR
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = AGR
 3053.1.1 = {
 	owner = AGR
 	controller = AGR
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

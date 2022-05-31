@@ -4,5 +4,5 @@ government = monarchy
 government_rank = 2
 technology_group = brazilian
 primary_culture = litoraleno
-religion = cult_of_saints
+religion = sacred_heart
 capital = 2853

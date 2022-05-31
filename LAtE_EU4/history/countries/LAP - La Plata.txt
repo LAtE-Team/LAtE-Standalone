@@ -1,7 +1,7 @@
 government = monarchy 
 
 technology_group = brazilian
-religion = cult_of_saints
+religion = sacred_heart
 primary_culture = platinean
-capital = 778	# Santa María del Buen Ayre
+capital = 778	# Santa Marï¿½a del Buen Ayre
 

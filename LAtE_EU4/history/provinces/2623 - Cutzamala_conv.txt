@@ -3,7 +3,7 @@ owner = X91
 controller = X91
 add_core = X91
 culture = purepecha
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 
 discovered_by = eastern
@@ -714,5 +714,5 @@ discovered_by = X17
 	owner = X91
 	controller = X91
 	culture = purepecha
-	religion = cult_of_saints
+	religion = sacred_heart
 }

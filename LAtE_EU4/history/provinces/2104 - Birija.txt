@@ -4,7 +4,7 @@
 #controller = MYR
 #add_core= MYR
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Niuman"
 trade_goods = unknown
 hre = no
