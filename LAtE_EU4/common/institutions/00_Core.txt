@@ -387,8 +387,6 @@ new_world_i = {
 		OR = {
 			continent = north_america
 			continent = south_america
-			continent = asia
-			continent = africa
 		}
 		has_port = yes
 		is_island = no

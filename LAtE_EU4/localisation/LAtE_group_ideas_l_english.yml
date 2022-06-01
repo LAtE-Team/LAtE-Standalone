@@ -1,4 +1,5 @@
 ﻿l_english:
+ #american feudal NIs
  american_feudal_ideas: "American Feudal Ideas"
  american_feudal_ideas_start: "American Feudal Traditions"
  american_feudal_ideas_bonus: "American Feudal Ambitions"
@@ -17,6 +18,7 @@
  heirs_to_the_past: "Heirs to the Past"
  heirs_to_the_past_desc: "Our nation is the rightful heir to the pre-event world! We must crush all those who say otherwise."
 
+ #russian warlord NIs
  russian_warlord_ideas: "Russian Warlord Ideas"
  russian_warlord_ideas_start: "Russian Warlord Traditions"
  russian_warlord_ideas_bonus: "Russia Warlord Ambitions"
@@ -34,3 +36,22 @@
  secure_control_desc: "There are some elements within this country that would see the current leadership overthrown. I'm sure nobody will suspect anything if certain individuals changed their opinion or just disappeared entirely..."
  unification_wars: "Unification Wars"
  unification_wars_desc: "Despite the efforts of countless individuals and leaders to reunite Russia, none have succeeded, and the land remains in a relative stalemate. This began to change in the late 31st and the beginning of the 32nd centuries mainly due to advancements in military technology and tactics, both of which were adopted quickly by certain nations and slowly by others leading to an imbalance in the balance of power, shattering the status quo and the start of the Russian Unifications Wars."
+
+ #redcoat NIs
+ redcoat_ideas: "Redcoat Ideas"
+ redcoat_ideas_bonus: "Redcoat Ambition"
+ redcoat_ideas_start: "Redcoat Traditions"
+ invasion_of_the_redcoats: "Invasion of the Redcoats"
+ invasion_of_the_redcoats_desc: "By the will of The Queen, a grand fleet set sail from Britain to reclaim the Dominion of Canada and the Thirteen Colonies, righting a centuries old mistake. Though we have faced major setbacks since our arrival, our mission is not complete until all of North America submits to Her Majesty!"
+ the_siege_of_washington: "The Siege of Washington"
+ the_siege_of_washington_desc: "After securing a beachhead and much of New England, the natural target was to move south, towards Washington. City after city fell, no matter how hard the filthy 'Americanists' threw themselves at our superior armies, and at last, we laid siege to Washington. /n/nFor six months the city stood, then, winter set in... /n/nThousands upon thousands died to the cold, which wasn't helped by constant raids on our supply lines. A retreat was ordered, and as the army began to leave in shame, the regrouped Americanist army organised an ambush, combined with a sortie by the defenders annihilated the once glorious army. Only one of forty men returned, forever scarred... Needless to say, we can learn alot from this catastrophe"
+ slavers_of_america: "Slavers of America"
+ slavers_of_america_desc: "As the Dominion conquered more and more land, the question of what to do with its inhabitants remained unanswered, and the notorious John Anthony has an answer; put them to work. Thus began the golden age of slavery in America, with the Redcoat Dominion where its use was the most widespread in the entire world."
+ surrounded_on_all_sides: "Surrounded on all Sides"
+ surrounded_on_all_sides_desc: "The catastrophe in Washington put an end to the expansion of the Redcoat Dominion; much of its territory rebelled or the remants of conquered kingdoms taking back their land, leaving it with less than a third of New England and surrounded on all sides. Reinforcements from Britain were few and far between due to the distance and more pressing issues back home. This left few options for the remaining garrisons, who were forced on the defensive, and this has remained the Dominions' policy ever since."
+ recolonise_america: "Recolonise America"
+ recolonise_america_desc: "The Thirteen Colonies, or as they call themselves 'America' have fallen prey to degeneracy, worse yet, they blaspheme the Queen! This cannot stand. Assimilate those willing and repopulate the land with those loyal to Her Majesty!"
+ for_the_queen: "For The Queen!"
+ for_the_queen_desc: "The main reason for the Redcoat Expedition was to avenge the rebellion of the Thirteen Colonies, and reclaim Old America and Canada for The Queen. Show Her light to any who listen, and decide the fate of those who don't."
+ militant_society: "Militant Society"
+ militant_society_desc: "The British have always been a minority in The Dominion compared to the Americans, who, of course, cannot be trusted. This, combined with needing to replenish the thinly stretched garrison led to an increase militarization among the British population."

@@ -8,6 +8,12 @@ primary_culture = gothamite
 religion = americanist
 clear_scripted_personalities = yes
 capital = 965
+add_treasury = 80
+add_prestige = 25
+
+historical_friend = RED
+historical_rival = HUD
+
 3043.10.19 = {
 	monarch = {
 		name = "Gareth II"
@@ -18,9 +24,4 @@ capital = 965
 		mil = 3
 	}
 	add_ruler_personality = midas_touched_personality
-}
-3053.1.1 {
-	capital = 965
-	add_treasury = 386
-	add_prestige = 260
 }

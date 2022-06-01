@@ -2824,7 +2824,7 @@ spawn_rebels_from_unhappy_estate = {
 				}
 			}
 			spawn_rebels = {
-				type = cowboy_rebels
+				type = cossack_rebels
 				size = $size$
 				estate = estate_cowboys
 				as_if_faction = yes

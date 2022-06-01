@@ -16,5 +16,8 @@ discovered_by = X17
 hre = no
 base_tax = 6
 base_production = 6
-base_manpower = 3
+base_manpower = 4
+trade_goods = grain
+fort_15th = yes
+
 add_province_triggered_modifier = anabaptists_present_large

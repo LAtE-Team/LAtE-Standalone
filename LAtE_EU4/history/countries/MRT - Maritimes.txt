@@ -9,6 +9,11 @@ primary_culture = maritimer
 add_accepted_culture = acadien
 religion = anglican
 capital = 4549
+
+historical_friend = ONT
+historical_rival = RED
+historical_rival = QUE
+
 3051.1.14 = {
 	monarch = {
 		name = "Alaois II"

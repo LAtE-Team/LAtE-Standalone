@@ -18,3 +18,4 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 trade_goods = copper
+fort_15th = yes

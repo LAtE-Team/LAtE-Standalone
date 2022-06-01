@@ -1,0 +1,57 @@
+#Rust Cultist Alliance Block defending from Michigan
+alliance = {
+    first = IND
+	second = OHI
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+alliance = {
+    first = IND
+	second = CLE
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+alliance = {
+    first = IND
+	second = AGH
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+alliance = {
+    first = OHI
+	second = CLE
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+alliance = {
+    first = OHI
+	second = AGH
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+alliance = {
+    first = CLE
+	second = AGH
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+#MRT and HUD Guarantees against RED
+guarantee = {
+    first = HUD
+	second = VER
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+guarantee = {
+    first = MRT
+	second = MNE
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
