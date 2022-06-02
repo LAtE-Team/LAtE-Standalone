@@ -2,7 +2,7 @@ owner = CTN
 controller = CTN
 add_core = CTN
 
-culture = inuit
+culture = quebecois
 religion = ursuline
 is_city = yes
 discovered_by = eastern

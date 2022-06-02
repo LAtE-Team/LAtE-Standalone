@@ -1,0 +1,5 @@
+government = republic
+technology_group = eastern
+religion = anglican
+primary_culture = ontarian
+capital = 4537	# Ottawa

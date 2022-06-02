@@ -14,29 +14,8 @@ alliance = {
 }
 
 alliance = {
-    first = IND
-	second = AGH
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}
-
-alliance = {
     first = OHI
 	second = CLE
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}
-
-alliance = {
-    first = OHI
-	second = AGH
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}
-
-alliance = {
-    first = CLE
-	second = AGH
 	start_date = 3053.1.1
 	end_date = 3421.1.2
 }

@@ -1,6 +1,6 @@
 # Ursuline See
 government = theocracy
-add_government_reform = papacy_reform
+add_government_reform = monastic_order_reform
 government_rank = 2
 mercantilism = 0.1
 technology_group = eastern

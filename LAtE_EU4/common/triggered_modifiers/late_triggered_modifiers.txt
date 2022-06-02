@@ -150,45 +150,8 @@ non_ursuline_quebec = {
 
 
 ######################################
-# Ursuline control of Quebec City.
+# Ursuline control of Quebec City. Removed
 ######################################
-ursuline_quebec = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 4533	# Quebec City
-		religion = ursuline
-		NOT = { tag = URS }
-	}
-
-	trigger = {	
-		NOT = { overlord_of = URS }
-		owns_or_vassal_of = 4533 # Quebec City	
-		NOT = { tag = QUE }
-		NOT = { tag = CAN }
-	}
-
-	papal_influence = -10
-	diplomatic_reputation = -1
-	#icon = 9
-}
-
-abbess_general_subjugation = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 4533	# Quebec City
-		religion = ursuline
-		NOT = { tag = URS }
-	}
-
-	trigger = {	
-		overlord_of = URS
-		NOT = { tag = QUE }
-		NOT = { tag = CAN }
-	}
-
-	diplomatic_reputation = -2
-	#icon = 9
-}
 
 
 ##################################################

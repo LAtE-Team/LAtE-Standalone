@@ -1,3 +1,4 @@
+# Suggested by Lord Volt
 american_feudal_ideas = {
 	start = {
 		vassal_income = 0.25

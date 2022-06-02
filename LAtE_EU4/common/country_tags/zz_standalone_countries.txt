@@ -32,6 +32,7 @@ BLT = "countries/Baltimore.txt"
 PHI = "countries/Philadelphia.txt" 
 PCM = "countries/Pocomoke.txt" 
 KIT = "countries/Kittatinny.txt" 
+NYS = "countries/NewYork.txt"
 
 # Great Lakes
 GRB = "countries/GreenBay.txt"
@@ -54,6 +55,7 @@ UPN = "countries/Upnorth.txt"
 GRY = "countries/Gary.txt"
 
 #Canada
+CAN	= "countries/Canada.txt"
 THN = "countries/Thunder.txt"
 SHD = "countries/Shield.txt"
 TOR = "countries/Toronto.txt"
@@ -70,6 +72,8 @@ MTR = "countries/Montreal.txt"
 MRC = "countries/Mauricie.txt" #Y67
 EST = "countries/Estrie.txt" #Y66
 GSP = "countries/Gaspesie.txt" 
+NFL = "countries/Newfoundland.txt"
+ONT = "countries/Ontario.txt"
 
 #Northern Quebec
 CTN = "countries/CoteNord.txt" #X43

@@ -13,6 +13,7 @@ capital = 4549
 historical_friend = ONT
 historical_rival = RED
 historical_rival = QUE
+historical_rival = TAQ
 
 3051.1.14 = {
 	monarch = {

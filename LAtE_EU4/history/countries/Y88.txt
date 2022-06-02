@@ -1,9 +1,9 @@
 # The Badlands
-government = monarchy 
-add_government_reform = autocracy_reform 
-government_rank = 1
+government = tribal 
+add_government_reform = steppe_horde
+government_rank = 2
 mercantilism = 0.1
-technology_group = western
+technology_group = nomad_group
 primary_culture = dakota
 religion = peyotist
 secondary_religion = catholic
@@ -34,9 +34,4 @@ capital = 2007
 		mil = 3
 	}
 	add_heir_personality = just_personality
-}
-3053.1.1 {
-	capital = 2007
-	add_treasury = 6
-	add_prestige = 65
 }

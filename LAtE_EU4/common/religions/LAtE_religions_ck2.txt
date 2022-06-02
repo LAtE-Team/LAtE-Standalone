@@ -174,7 +174,7 @@ christian = {
 	defender_of_faith = yes
 	can_form_personal_unions = yes
 
-	center_of_religion = 118 # Rome
+	center_of_religion = 4585 # Rome
 
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 57 }
@@ -187,10 +187,6 @@ christian = {
 	catholic = {
 		color = { 204 204 0 }
 		icon = 11
-		allowed_conversion = {
-			reformed
-			protestant
-		}
 		country = {
 			tolerance_own = 1
 			global_heathen_missionary_strength = 0.01
@@ -537,10 +533,6 @@ christian = {
     sedevacanist = { # was neroman. Need to decide how this is going to work.
 		color = { 0.7 0.7 0.75 }
 		icon = 13
-		allowed_conversion = {
-			reformed
-			protestant
-		}
 		country = {
 			legitimacy = 1
 			tolerance_own = 2
@@ -571,163 +563,6 @@ christian = {
 		}
 		
 		heretic = { BOGOMILIST WALDENSIAN HUSSITE LOLLARD SOCINIAN }
-		
-		papacy = {
-			papal_tag = PAP
-			election_cost = 5
-			seat_of_papacy = 118 # rome
-			
-			levy_church_tax = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_years_of_income = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-				}				
-			}			
-			bless_monarch = {
-				cost = 40
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { prestige = 100 }
-				}
-				effect = {
-					add_prestige = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}
-			indulgence_for_sins = {
-				cost = 60
-				potential = {
-					government = monarchy
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { legitimacy = 100 }
-				}
-				effect = {
-					add_legitimacy = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}	
-			local_saint = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { stability = 3 }
-				}
-				effect = {
-					add_stability = 1
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 2
-						NOT = { stability = 0 }
-					}
-				}
-			}
-			forgiveness_for_usury = {
-				cost = 25
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { has_country_modifier = usury_forgiven }
-				}
-				effect = {
-					add_country_modifier = {
-						name = "usury_forgiven"
-						duration = 9125
-					}
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { num_of_loans = 1 }
-					}
-				}
-			}			
-			proclaim_holy_war = {
-				cost = 40
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					is_at_war = yes
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_yearly_manpower = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						manpower_percentage = 0.5
-					}
-				}
-			}	
-			send_papal_legate = {
-				cost = 30
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					random_list = {
-						25 = { create_advisor = inquisitor }
-						25 = { create_advisor = theologian }
-						25 = { create_advisor = statesman }
-						25 = { create_advisor = diplomat }
-					}
-				}
-				ai_will_do = {
-					factor = 0
-				}
-			}	
-			sanction_commercial_monopoly = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_mercantilism = 0.01
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { has_idea_group = trade_ideas }
-					}
-				}
-			}			
-		}
 	}
 
 	nestorian = {
@@ -754,178 +589,24 @@ christian = {
 		icon = 15
 		color = { 0.9 0.7 0 }
 		country = {
-			tolerance_own = 1
-			tolerance_heretic = -1
+			tolerance_own = 2
 			may_recruit_female_generals = yes
 			female_advisor_chance = 0.2
 		}
-		
-		papacy = {
-			papal_tag = URS
-			election_cost = 5
-			seat_of_papacy = 994 # Quebec
-			
-			levy_church_tax = {
-				cost = 100
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-				}
-				effect = {
-					add_years_of_income = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-				}				
-			}			
-			bless_monarch = {
-				cost = 40
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-					NOT = { prestige = 100 }
-				}
-				effect = {
-					add_prestige = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}
-			indulgence_for_sins = {
-				cost = 60
-				potential = {
-					government = monarchy
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-					NOT = { legitimacy = 100 }
-				}
-				effect = {
-					add_legitimacy = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}	
-			local_saint = {
-				cost = 100
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-					NOT = { stability = 3 }
-				}
-				effect = {
-					add_stability = 1
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 2
-						NOT = { stability = 0 }
-					}
-				}
-			}
-			forgiveness_for_usury = {
-				cost = 25
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-					NOT = { has_country_modifier = usury_forgiven }
-				}
-				effect = {
-					add_country_modifier = {
-						name = "usury_forgiven"
-						duration = 9125
-					}
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { num_of_loans = 1 }
-					}
-				}
-			}			
-			proclaim_holy_war = {
-				cost = 40
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					is_at_war = yes
-					NOT = { war_with = URS }
-				}
-				effect = {
-					add_yearly_manpower = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						manpower_percentage = 0.5
-					}
-				}
-			}	
-			send_papal_legate = {
-				cost = 30
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-				}
-				effect = {
-					random_list = {
-						25 = { create_advisor = inquisitor }
-						25 = { create_advisor = theologian }
-						25 = { create_advisor = statesman }
-						25 = { create_advisor = diplomat }
-					}
-				}
-				ai_will_do = {
-					factor = 0
-				}
-			}	
-			sanction_commercial_monopoly = {
-				cost = 100
-				potential = {
-					NOT = { tag = URS }
-				}
-				allow = {
-					NOT = { war_with = URS }
-				}
-				effect = {
-					add_mercantilism = 0.01
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { has_idea_group = trade_ideas }
-					}
-				}
-			}			
+
+		country_as_secondary = {
+			global_missionary_strength = 0.01
+			advisor_cost = -0.1
 		}
-		
-		heretic = { ANGELINE }
+
+		heretic = { CATHAR }
 	}
 
 	angeline = {
 		color = { 0.95 0.6 0 }
 		icon = 16
 		country = {
-			tolerance_own = 1
-			tolerance_heretic = -1
+			tolerance_own = 2
 			may_recruit_female_generals = yes
 			female_advisor_chance = 0.2
 		}
@@ -976,10 +657,6 @@ christian = {
 		color = { 0 0 178 }
 		icon = 19
 
-		allowed_conversion = {
-			reformed
-			catholic
-		}
 		allowed_center_conversion = {
 			catholic
 		}
@@ -1211,6 +888,7 @@ christian = {
 		color = { 135 77 255 }
 		icon = 25
 		allow_female_defenders_of_the_faith = yes
+		misguided_heretic
 
 		allowed_center_conversion = {
 			catholic
@@ -1721,6 +1399,12 @@ mesoamerican = { #Mesoamerican gods in ck2
 }
 
 oldworld = {
+	defender_of_faith = yes
+
+    harmonized_modifier = harmonized_oldworld
+	
+	crusade_name = RECLAMATION
+
 	americanist = {
 		color = { 0.3 0.3 0.8 }
 		icon = 48
@@ -1969,8 +1653,6 @@ oldworld = {
 	}
 
     #cult_of_reason in new file
-
-    harmonized_modifier = harmonized_oldworld   
 }
 
 pagan_group = {

@@ -8,6 +8,9 @@ primary_culture = rostmann
 religion = rust_cultist
 clear_scripted_personalities = yes
 capital = 948
+
+historical_rival = MIC
+
 3034.1.11 = {
 	monarch = {
 		name = "Wayne"

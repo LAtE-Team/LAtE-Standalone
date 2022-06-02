@@ -204,7 +204,19 @@ estate_burghers =
 		}
 		loyalty = -20
 	}
-	#Custom Names
+
+	#Names - LAtE
+	custom_name = {
+		desc = estate_sisters_of_charity
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = angeline
+			}
+		}
+	}
+
+	#Names - Vanilla
 	custom_name = {
 		desc = estate_bourgeoisie
 		trigger = {

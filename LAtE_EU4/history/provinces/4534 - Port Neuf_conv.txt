@@ -1,6 +1,6 @@
-owner = QUE
-controller = QUE
-add_core = QUE
+owner = URS
+controller = URS
+add_core = URS
 add_core = STD
 
 culture = quebecois

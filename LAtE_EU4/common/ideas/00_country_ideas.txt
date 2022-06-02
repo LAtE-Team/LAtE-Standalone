@@ -2692,44 +2692,6 @@ TAU_ideas = {
 	}
 }
 
-AVA_ideas = {
-	start = {
-		land_morale = 0.1
-		infantry_cost = -0.15
-	}
-	
-	bonus = {
-		cavalry_power = 0.15
-	}
-	
-	trigger = {
-		tag = AVA
-	}
-	free = yes
-	
-	legacy_of_the_pagan_dynasty = {
-		prestige = 1
-	}
-	ava_rajadhiraja = {
-		land_forcelimit_modifier = 0.2
-	}
-	manu_kye_dhammathat = {
-		stability_cost_modifier = -0.10
-	}
-	ava_bamar_literature = {
-		same_culture_advisor_cost = -0.2
-	}
-	ava_hill_tribes = {
-		global_manpower_modifier = 0.2
-	}
-	ava_shan_in_line = {
-		diplomatic_reputation = 1
-	}
-	ava_provincial_governors = {
-		global_autonomy = -0.05
-	}
-}
-
 
 GRA_ideas = {
 	start = {

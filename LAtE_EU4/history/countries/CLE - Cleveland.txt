@@ -9,6 +9,9 @@ primary_culture = motowner
 religion = rust_cultist
 clear_scripted_personalities = yes
 capital = 947
+
+historical_rival = MIC
+
 3034.1.11 = {
 	monarch = {
 		name = "Wayne"

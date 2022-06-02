@@ -322,25 +322,13 @@ country_decisions = {
 		}
 		effect = {
 			add_stability = -1
-			if = {
-				limit = {
-					has_country_flag = anabaptists_accepted
-				}
-				clr_country_flag = anabaptists_accepted
-			}
-			if = {
-				limit = {
-					has_country_flag = anabaptists_rejected
-				}
-				clr_country_flag = anabaptists_rejected
-			}
 			anabaptists_expelled_effect = yes
 		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0
-				always = yes
+				religion_group = christian
 			}
 		}
 	}

@@ -12,7 +12,11 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			NOT = { tag = GLK }
-			culture_group = amerodeutsch #Maybe be more sophisticated than just this
+			OR = {
+				culture = dellsman
+				culture = yooper
+				culture = northlander
+			}
 			OR = {
 				ai = no
 				AND = {

@@ -142,10 +142,7 @@ rastafarian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -201,7 +198,6 @@ rastafarian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -344,10 +340,7 @@ voodoo_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -403,7 +396,6 @@ voodoo_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -546,10 +538,7 @@ santeria_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -605,7 +594,6 @@ santeria_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -748,10 +736,7 @@ candomble_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -807,7 +792,6 @@ candomble_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -950,10 +934,7 @@ espiritista_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -1009,7 +990,6 @@ espiritista_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -1153,10 +1133,7 @@ midewiwin_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -1212,7 +1189,6 @@ midewiwin_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -1355,10 +1331,7 @@ raven_tales_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -1414,7 +1387,6 @@ raven_tales_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -1558,10 +1530,7 @@ peyotist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -1617,7 +1586,6 @@ peyotist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -1760,10 +1728,7 @@ amero_orthodox_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -1819,7 +1784,6 @@ amero_orthodox_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -1962,10 +1926,7 @@ exovedate_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -2021,7 +1982,6 @@ exovedate_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -2165,10 +2125,7 @@ neognostic_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -2224,7 +2181,6 @@ neognostic_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -2367,10 +2323,7 @@ sedevacanist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -2426,7 +2379,6 @@ sedevacanist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -2569,10 +2521,7 @@ nestorian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -2628,7 +2577,6 @@ nestorian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -2771,10 +2719,7 @@ ursuline_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -2830,7 +2775,6 @@ ursuline_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -2973,10 +2917,7 @@ angeline_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -3032,7 +2973,6 @@ angeline_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -3175,10 +3115,7 @@ anabaptist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -3234,7 +3171,6 @@ anabaptist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -3377,10 +3313,7 @@ batenburger_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -3436,7 +3369,6 @@ batenburger_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -3579,10 +3511,7 @@ protestant_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -3638,7 +3567,6 @@ protestant_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -3781,10 +3709,7 @@ antinomian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -3840,7 +3765,6 @@ antinomian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -3983,10 +3907,7 @@ charismatic_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -4042,7 +3963,6 @@ charismatic_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -4185,10 +4105,7 @@ postadventist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -4244,7 +4161,6 @@ postadventist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -4387,10 +4303,7 @@ falling_star_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -4446,7 +4359,6 @@ falling_star_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -4589,10 +4501,7 @@ moravian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -4648,7 +4557,6 @@ moravian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -4791,10 +4699,7 @@ wormwoodist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -4850,7 +4755,6 @@ wormwoodist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -4993,10 +4897,7 @@ anglican_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -5052,7 +4953,6 @@ anglican_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -5195,10 +5095,7 @@ nonconformist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -5254,7 +5151,6 @@ nonconformist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -5397,10 +5293,7 @@ apostolic_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -5456,7 +5349,6 @@ apostolic_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -5599,10 +5491,7 @@ celeste_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -5658,7 +5547,6 @@ celeste_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -5801,10 +5689,7 @@ nazarene_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -5860,7 +5745,6 @@ nazarene_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -6003,10 +5887,7 @@ true_cross_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -6062,7 +5943,6 @@ true_cross_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -6205,10 +6085,7 @@ edenite_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -6264,7 +6141,6 @@ edenite_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -6407,10 +6283,7 @@ cristo_rey_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -6466,7 +6339,6 @@ cristo_rey_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -6609,10 +6481,7 @@ reformista_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -6668,7 +6537,6 @@ reformista_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -6812,10 +6680,7 @@ sacred_heart_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -6871,7 +6736,6 @@ sacred_heart_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -7014,10 +6878,7 @@ patria_grande_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -7073,7 +6934,6 @@ patria_grande_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -7216,10 +7076,7 @@ fidencista_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -7275,7 +7132,6 @@ fidencista_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -7418,10 +7274,7 @@ navegante_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -7477,7 +7330,6 @@ navegante_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -7621,10 +7473,7 @@ cetic_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -7680,7 +7529,6 @@ cetic_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -7823,10 +7671,7 @@ gaian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -7882,7 +7727,6 @@ gaian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -8025,10 +7869,7 @@ shinto_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -8084,7 +7925,6 @@ shinto_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -8227,10 +8067,7 @@ nousthreskeia_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -8286,7 +8123,6 @@ nousthreskeia_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -8430,10 +8266,7 @@ mormon_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -8489,7 +8322,6 @@ mormon_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -8632,10 +8464,7 @@ neogodbeite_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -8691,7 +8520,6 @@ neogodbeite_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -8834,10 +8662,7 @@ woolleyite_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -8893,7 +8718,6 @@ woolleyite_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -9036,10 +8860,7 @@ strangite_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -9095,7 +8916,6 @@ strangite_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -9238,10 +9058,7 @@ lamanita_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -9297,7 +9114,6 @@ lamanita_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -9440,10 +9256,7 @@ furiegi_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -9499,7 +9312,6 @@ furiegi_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -9643,10 +9455,7 @@ mictlantec_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -9702,7 +9511,6 @@ mictlantec_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -9845,10 +9653,7 @@ sol_invicta_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -9904,7 +9709,6 @@ sol_invicta_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -10047,10 +9851,7 @@ qabantajik_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -10106,7 +9907,6 @@ qabantajik_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -10249,10 +10049,7 @@ neomayan_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -10308,7 +10105,6 @@ neomayan_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -10452,10 +10248,7 @@ americanist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -10511,7 +10304,6 @@ americanist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -10654,10 +10446,7 @@ hamiltonian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -10713,7 +10502,6 @@ hamiltonian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -10856,10 +10644,7 @@ jeffersonian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -10915,7 +10700,6 @@ jeffersonian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -11058,10 +10842,7 @@ libertarian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -11117,7 +10898,6 @@ libertarian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -11260,10 +11040,7 @@ consumerist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -11319,7 +11096,6 @@ consumerist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -11462,10 +11238,7 @@ monetarist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -11521,7 +11294,6 @@ monetarist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -11664,10 +11436,7 @@ atomicist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -11723,7 +11492,6 @@ atomicist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -11866,10 +11634,7 @@ aphite_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -11925,7 +11690,6 @@ aphite_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -12068,10 +11832,7 @@ rust_cultist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -12127,7 +11888,6 @@ rust_cultist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -12270,10 +12030,7 @@ chrome_cultist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -12329,7 +12086,6 @@ chrome_cultist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -12472,10 +12228,7 @@ glorian_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -12531,7 +12284,6 @@ glorian_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -12674,10 +12426,7 @@ thelema_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -12733,7 +12482,6 @@ thelema_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -12877,10 +12625,7 @@ revelationist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -12936,7 +12681,6 @@ revelationist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -13079,10 +12823,7 @@ trailwalker_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -13138,7 +12879,6 @@ trailwalker_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -13281,10 +13021,7 @@ occultist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -13340,7 +13077,6 @@ occultist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -13483,10 +13219,7 @@ norse_pagan_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -13542,7 +13275,6 @@ norse_pagan_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -13685,10 +13417,7 @@ celticist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -13744,7 +13473,6 @@ celticist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -13887,10 +13615,7 @@ aria_de_machete_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -13946,7 +13671,6 @@ aria_de_machete_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -14090,10 +13814,7 @@ brethren_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -14149,7 +13870,6 @@ brethren_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -14292,10 +14012,7 @@ pelagic_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -14351,7 +14068,6 @@ pelagic_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -14495,10 +14211,7 @@ jewish_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -14554,7 +14267,6 @@ jewish_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -14697,10 +14409,7 @@ reform_faith_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -14756,7 +14465,6 @@ reform_faith_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -14899,10 +14607,7 @@ meshichist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -14958,7 +14663,6 @@ meshichist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -15102,10 +14806,7 @@ hinduism_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -15161,7 +14862,6 @@ hinduism_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -15305,10 +15005,7 @@ ahmadi_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -15364,7 +15061,6 @@ ahmadi_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -15510,10 +15206,7 @@ finnish_pagan_reformed_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -15569,7 +15262,6 @@ finnish_pagan_reformed_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -15712,10 +15404,7 @@ hellenic_pagan_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -15771,7 +15460,6 @@ hellenic_pagan_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -15914,10 +15602,7 @@ matrem_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -15973,7 +15658,6 @@ matrem_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -16116,10 +15800,7 @@ zar_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -16175,7 +15856,6 @@ zar_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -16318,10 +15998,7 @@ mwari_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -16377,7 +16054,6 @@ mwari_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -16520,10 +16196,7 @@ zanahary_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -16579,7 +16252,6 @@ zanahary_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -16722,10 +16394,7 @@ confederated_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -16781,7 +16450,6 @@ confederated_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -16924,10 +16592,7 @@ anglo_papalist_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -16983,7 +16648,6 @@ anglo_papalist_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -17126,10 +16790,7 @@ united_church_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -17185,7 +16846,6 @@ united_church_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -17328,10 +16988,7 @@ yazidi_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -17387,7 +17044,6 @@ yazidi_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -17530,10 +17186,7 @@ cult_of_reason_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -17589,7 +17242,6 @@ cult_of_reason_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1
@@ -17732,10 +17384,7 @@ jain_rebels = {
 				owned_by = PAP
 				is_capital = yes
 			}
-			AND = {
-				owned_by = URS
-				is_capital = yes
-			}
+
 		}
  	}
 	siege_won_effect = {
@@ -17791,7 +17440,6 @@ jain_rebels = {
 			limit = {
 				OR = {
 					tag = PAP
-					tag = URS
 				}
 			}
 			add_stability = -1

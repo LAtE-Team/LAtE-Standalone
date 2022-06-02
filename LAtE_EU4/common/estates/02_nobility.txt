@@ -216,7 +216,18 @@ estate_nobles =
 		loyalty = -10
 	}
 	
-	#Alternative naming of estates
+	#Names - LAtE
+	custom_name = {
+		desc = estate_angeline
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = angeline
+			}
+		}
+	}
+
+	#Names - Vanilla
 	custom_name = {
 		desc = estate_oyo_mesi
 		trigger = {
