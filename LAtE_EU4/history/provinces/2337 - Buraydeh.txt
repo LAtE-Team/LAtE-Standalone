@@ -12,6 +12,6 @@ base_production = 1
 base_manpower = 1
 #is_city = yes
 #add_core = SHM
-discovered_by = indian
-discovered_by = east_african
+
+
 

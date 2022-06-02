@@ -12,14 +12,10 @@ base_manpower = 1
 capital = "Ostrov"
 is_city = no
 #add_core= PSK
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = high_american 
 
-discovered_by = indian
+ 
+
+
 
 
 # = {	#owner = RUS #controller = RUS #add_core= RUS  } # Pskov annexed by Russia

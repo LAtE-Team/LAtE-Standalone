@@ -14,9 +14,9 @@ base_production = 1
 trade_goods = unknown
 base_manpower = 1
 #add_core= PIC
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

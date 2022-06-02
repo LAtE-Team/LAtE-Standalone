@@ -18,6 +18,5 @@ native_hostileness = 0
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian

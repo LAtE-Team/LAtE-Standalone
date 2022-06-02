@@ -1,9 +1,7 @@
 # - Alagoas
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Penedo"
 trade_goods = unknown

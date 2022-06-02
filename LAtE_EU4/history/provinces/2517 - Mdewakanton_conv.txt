@@ -5,13 +5,8 @@ add_core = SUP
 culture = northlander
 religion = norse_pagan_reformed
 is_city = yes
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = MTC
-discovered_by = X17
-#discovered_by = high_american 
+
+# 
 
 
 hre = no

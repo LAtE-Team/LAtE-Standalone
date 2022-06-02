@@ -12,7 +12,7 @@ trade_goods = cloth
 hre = no
 base_tax = 6 
 base_production = 6
-discovered_by = sub_saharan
+
 extra_cost = 10
 
 center_of_trade = 2

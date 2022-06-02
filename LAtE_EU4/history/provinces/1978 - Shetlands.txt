@@ -15,11 +15,11 @@ is_city = no # Estimated
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 

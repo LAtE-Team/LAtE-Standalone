@@ -12,15 +12,14 @@ base_production = 1
 base_manpower = 1
 is_city = no
 #add_core= KOR
-discovered_by = chinese
-#discovered_by = nomad_group
-discovered_by = NRU
-discovered_by = NRA
 
-# = { discovered_by = POR }
+#
+
+
+
 # = { #add_core= MCH } # Manchu Invasion
 # = {  } # Qing vassalized Korea
-# = { discovered_by = NED } # Hendrick Hamel
+ # Hendrick Hamel
 
 
 native_size = 5

@@ -14,12 +14,12 @@ base_manpower = 1
 fort_15th = yes
 capital = "Berlin-C�lln"
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { religion = protestant }

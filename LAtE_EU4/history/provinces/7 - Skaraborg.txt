@@ -10,9 +10,9 @@ base_manpower = 1
 capital = "G�teborg"
 is_city = no
  #"Domkyrkan i Skara"
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

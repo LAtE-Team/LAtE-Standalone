@@ -1,6 +1,6 @@
 
-discovered_by = central_african
-discovered_by = sub_saharan
+
+
 
 
 native_size = 5

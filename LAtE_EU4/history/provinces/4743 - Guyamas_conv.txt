@@ -6,15 +6,7 @@ culture = sonorense
 religion = sacred_heart
 is_city = yes
 add_permanent_claim = COM
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = NRU 
-discovered_by = NRA 
-discovered_by = NRA
-discovered_by = MTC
-discovered_by = X17
+
 3053.1.1 = {
 	hre = no
 	base_tax = 0

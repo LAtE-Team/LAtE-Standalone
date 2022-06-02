@@ -10,16 +10,16 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-discovered_by = indian
+
 capital = "Novy Nizovoy"
 
 
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = GOL
+
 
 
 native_size = 5

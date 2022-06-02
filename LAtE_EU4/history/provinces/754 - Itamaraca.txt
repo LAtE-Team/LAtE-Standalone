@@ -1,9 +1,7 @@
 #754 - Itamaraca
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Filipeia"
 trade_goods = unknown
@@ -18,9 +16,9 @@ native_hostileness = 3
 
 
 
-# = { discovered_by = CAS } # Vicente Y��ez Pinz�n, couldn't make a claim due to the Treaty of Tordesillas
-# = { discovered_by = POR } #Pedro �lvares Cabral
-# = { discovered_by = SPA }
+ # Vicente Y��ez Pinz�n, couldn't make a claim due to the Treaty of Tordesillas
+ #Pedro �lvares Cabral
+
 
 # = {
 	#owner = POR

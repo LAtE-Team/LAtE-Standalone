@@ -13,7 +13,7 @@ base_production = 5
 base_manpower = 5
 is_city = no
 #estate = #estate_nomadic_tribes
-discovered_by = chinese
+
 owner = NRU
 controller = NRU
 add_core= NRU
@@ -21,4 +21,4 @@ add_core= NRU
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = indian
+

@@ -11,10 +11,10 @@ base_production = 2
 base_manpower = 2
 is_city = yes
 
-discovered_by = BRT
+
 
 owner = AMU
 controller = AMU
 add_core = AMU
 
-discovered_by = indian
+

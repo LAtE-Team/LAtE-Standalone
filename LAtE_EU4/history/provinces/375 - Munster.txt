@@ -13,9 +13,9 @@ base_manpower = 2
 capital = "Limerick"
 is_city = no
 #add_core= MNS
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

@@ -1,9 +1,7 @@
 # - Vila Rica
 
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Vila Rica"
 trade_goods = unknown
@@ -18,10 +16,10 @@ native_hostileness = 7
 
 
 
-# = { discovered_by = POR }
+
 
 # = {
-	#discovered_by = POR
+	
 	#owner = POR
 	#controller = POR
 	#add_core= POR

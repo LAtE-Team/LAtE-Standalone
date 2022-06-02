@@ -4,9 +4,7 @@
 #controller = TUA
 #add_core= TUA
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Espirito Santo"
 trade_goods = cocoa
@@ -19,7 +17,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-# = { discovered_by = POR } # Pedro �lvares Cabral
+ # Pedro �lvares Cabral
 # = {
 	capital = "Vila Velha"
 	#owner = POR

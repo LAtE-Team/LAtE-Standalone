@@ -5,9 +5,7 @@ controller =VES
 religion = sacred_heart
 add_core = VES
 culture = welsh
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = sacred_heart
 capital = "Bahia"
 trade_goods = unknown

@@ -1,4 +1,5 @@
 # New Zealand
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2

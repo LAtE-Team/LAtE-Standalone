@@ -1,9 +1,7 @@
 # - Pambu
 
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Pambu"
 trade_goods = unknown

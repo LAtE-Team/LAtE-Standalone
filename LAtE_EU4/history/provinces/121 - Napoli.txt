@@ -13,9 +13,9 @@ capital = "Napoli"
 is_city = no	# Estimated
 fort_15th = yes
 #add_core= NAP
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 extra_cost = 15
 
 center_of_trade = 2

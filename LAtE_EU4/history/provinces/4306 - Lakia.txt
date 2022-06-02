@@ -12,9 +12,9 @@ base_production = 3
 base_manpower = 3
 #is_city = yes
 
-discovered_by = indian 
+ 
 
-discovered_by = high_american
+
 
 
 

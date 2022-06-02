@@ -16,8 +16,8 @@ fort_15th = yes #Raibania
 
 
 
-discovered_by = chinese
-discovered_by = indian
+
+
 
 
 native_size = 5

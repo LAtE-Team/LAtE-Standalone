@@ -6,10 +6,7 @@ owner = BRZ
 controller = BRZ
 add_core = BRZ
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+
 
 religion = candomble
 capital = "Exaltacion"

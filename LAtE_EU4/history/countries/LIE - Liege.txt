@@ -1,8 +1,9 @@
+setup_vision = yes
 government = theocracy 
 add_government_reform = leading_clergy_reform
 government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = wallonian
-capital = 93	# Liège
+capital = 93	# Liï¿½ge
 add_accepted_culture = flemish

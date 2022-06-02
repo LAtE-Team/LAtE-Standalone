@@ -14,9 +14,9 @@ base_manpower = 1
 is_city = yes
 add_core = ARD
 #add_core = TBR
-discovered_by = east_african
-discovered_by = indian
-discovered_by = high_american
+
+
+
 
 
 

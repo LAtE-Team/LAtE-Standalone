@@ -1,4 +1,5 @@
 # Portuguesa
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -10,7 +11,7 @@ clear_scripted_personalities = yes
 capital = 2809
 3031.1.12 = {
 	monarch = {
-		name = "Tomás"
+		name = "Tomï¿½s"
 		birth_date = 2998.10.4
 		dynasty = "Belmonte"
 		adm = 4

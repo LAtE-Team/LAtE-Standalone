@@ -1,4 +1,4 @@
-# = { discovered_by = POR } # Don Jorge de Mneses
+ # Don Jorge de Mneses
 # = {  }
 
 

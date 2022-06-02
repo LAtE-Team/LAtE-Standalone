@@ -1,11 +1,11 @@
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = east_african
+
+
+
 
 
 native_size = 5

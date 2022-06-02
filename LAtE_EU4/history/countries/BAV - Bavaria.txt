@@ -1,11 +1,12 @@
 #Neubayern
+setup_vision = yes
 government = monarchy
 
 government_rank = 1
 technology_group = european
 primary_culture = bavarian
 religion = matrem
-capital = 65	# München!
+capital = 65	# Mï¿½nchen!
 
 3032.8.11 = {
 	monarch = {

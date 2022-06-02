@@ -16,8 +16,8 @@ add_core= DLH
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

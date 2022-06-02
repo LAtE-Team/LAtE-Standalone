@@ -12,12 +12,12 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Madrid" 
 is_city = no # Includes the population of Alcal� de Henares and Guadalajara, that at times were bigger than Madrid itself
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = {

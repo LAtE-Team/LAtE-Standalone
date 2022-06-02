@@ -1,10 +1,8 @@
 #753 - Rio Grande
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian 
-discovered_by = brazilian
+ 
+
 religion = animism
 capital = "Rio Grande"
 trade_goods = unknown

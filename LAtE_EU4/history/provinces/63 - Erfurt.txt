@@ -14,12 +14,12 @@ is_city = no
 #estate = #estate_nobles
 #add_core= SAX
 #add_core= THU
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 fort_15th = yes
 
 # = { #owner = THU #controller = THU }

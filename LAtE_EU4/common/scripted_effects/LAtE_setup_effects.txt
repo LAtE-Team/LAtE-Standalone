@@ -1,0 +1,450 @@
+setup_vision = {
+	if = {
+		limit = { exists = yes }
+		
+		set_country_flag = init_vision
+
+        #North America
+        if = {
+            limit = {
+                capital_scope = {
+                    continent = north_america
+                }
+            }
+			
+			north_america = {
+				limit = {
+					NOT = {
+						area = greenland_area
+						area = nunavik_area
+						area = hudson_bay_area
+						area = keewatin_area
+						province_id = 4802
+						province_id = 1811
+						province_id = 1812
+						province_id = 1804
+						province_id = 1807
+						province_id = 4828
+						province_id = 2592
+						province_id = 4795
+						province_id = 4829
+						province_id = 4796
+						province_id = 998
+						province_id = 4813
+						province_id = 4819
+						province_id = 4821
+						province_id = 4823
+					}
+				}
+				discover_country = ROOT
+			}
+			1665 = { discover_country = ROOT }
+			1664 = { discover_country = ROOT }
+			1903 = { discover_country = ROOT }
+			1904 = { discover_country = ROOT }
+			1905 = { discover_country = ROOT }
+			1907 = { discover_country = ROOT }
+			1922 = { discover_country = ROOT }
+
+			colombia_region = { discover_country = ROOT }
+			quito_area = { discover_country = ROOT }
+			iquitos_area = { discover_country = ROOT }
+			2889 = { discover_country = ROOT }
+
+
+			st_lawrence_watershed_region = { discover_country = ROOT }
+			gulf_of_panama_area = { discover_country = ROOT }
+			north_pacific_coast_area = { discover_country = ROOT }
+			gulf_of_alaska_area = {
+				limit = {
+					NOT = { province_id = 1682 }
+				}
+				discover_country = ROOT
+			}
+			caribbean_sea_area = { discover_country = ROOT }
+			gulf_of_mexico_area = { discover_country = ROOT }
+			bahama_channel_area = { discover_country = ROOT }
+			gulf_stream_area = { discover_country = ROOT }
+			gulf_of_st_lawrence_area = { discover_country = ROOT }
+			sea_of_labrador_area = {
+				limit = {
+					NOT = { province_id = 1484 }
+				}
+				discover_country = ROOT
+			}
+			1527 = { discover_country = ROOT }
+			1528 = { discover_country = ROOT }
+			1573 = { discover_country = ROOT }
+			1572 = { discover_country = ROOT }
+			1574 = { discover_country = ROOT }
+			1486 = { discover_country = ROOT }
+		}
+
+		#South America
+        if = {
+            limit = {
+                capital_scope = {
+                    continent = south_america
+                }
+            }
+			
+			south_america = {
+				discover_country = ROOT
+			}
+
+			central_america_superregion = { discover_country = ROOT }
+			southeast_america_region = { discover_country = ROOT }
+			california_region = { 
+				limit = {
+					NOT = { province_id = 2481 }
+				}
+				discover_country = ROOT 
+			}
+			utah_region = {
+				limit = {
+					NOT = {
+						OR = {
+							area = deseret_area
+							area = colorado_area
+							area = yellowstone_area
+						}
+					}
+				}
+				discover_country = ROOT
+			}
+			lower_louisiana_area = { discover_country = ROOT }
+			mississippi_plain_area = { discover_country = ROOT }
+
+			atlantic_south_america_region = { discover_country = ROOT }
+			pacific_south_america_region = { discover_country = ROOT }
+			coast_of_guyana_area = { discover_country = ROOT }
+			caribbean_sea_area = { discover_country = ROOT }
+			bahama_channel_area = { discover_country = ROOT }
+			gulf_of_mexico_area = { discover_country = ROOT }
+			north_pacific_coast_area = {
+				limit = {
+					NOT = { province_id = 1557 }
+				}
+				discover_country = ROOT
+			}
+			1502 = { discover_country = ROOT }
+			1700 = { discover_country = ROOT }
+			1701 = { discover_country = ROOT }
+			1702 = { discover_country = ROOT }
+		}
+
+		#South Africa
+		if = {
+			limit = {
+                capital_scope = {
+                    continent = africa
+					NOT = { region = maghreb_region }
+					NOT = { region = egypt_region}
+                }
+            }
+
+			africa = {
+				limit = {
+					NOT = {
+						OR = {
+							region = maghreb_region
+							region = egypt_region
+							province_id = 1127
+							province_id = 1111
+						}
+					}
+				}
+				discover_country = ROOT
+			}
+
+			gulf_of_guinea_sea_area = { discover_country = ROOT }
+			skeleton_coast_area = { discover_country = ROOT }
+			cape_of_storms_area = { discover_country = ROOT }
+			swahili_coast_sea_area = { discover_country = ROOT }
+			red_sea_area = { discover_country = ROOT }
+			1446 = { discover_country = ROOT }
+			4346 = { discover_country = ROOT }
+			1331 = { discover_country = ROOT }
+			1467 = { discover_country = ROOT }
+			1468 = { discover_country = ROOT }
+			1469 = { discover_country = ROOT }
+		}
+
+		#Europe and Mahgreb
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						continent = europe
+						region = maghreb_region
+					}
+					NOT = { 
+						OR = {
+							region = russia_region
+							region = crimea_region
+							region = ural_region
+							region = anatolia_region
+						}
+					}
+				}
+			}
+
+			europe = {
+				limit = {
+					NOT = {
+						OR = {
+							region = russia_region
+							region = crimea_area
+							region = ural_region
+							region = anatolia_region
+							region = caucasia_region
+							area = iceland_area
+						}
+					}
+				}
+				discover_country = ROOT
+			}
+
+			maghreb_region = { discover_country = ROOT }
+
+			mediterrenean_region = { discover_country = ROOT }
+			bay_of_biscay_area = { discover_country = ROOT }
+			celtic_sea_area = { discover_country = ROOT }
+			english_channel_area = { discover_country = ROOT }
+			north_sea_area = { discover_country = ROOT }
+			baltic_sea_region = { discover_country = ROOT }
+			norwegian_sea_area = {
+				limit = {
+					NOT = {
+						OR = {
+							province_id = 1474
+							province_id = 1475
+							province_id = 1476
+						}
+					}
+				}
+				discover_country = ROOT
+			}
+			1292 = { discover_country = ROOT }
+			1291 = { discover_country = ROOT }
+			1290 = { discover_country = ROOT }
+			1264 = { discover_country = ROOT }
+		}
+
+		#Levant, Persia, Caucasus
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = near_east_superregion
+						region = persia_region
+						region = caucasia_region
+					}
+				}
+			}
+
+			near_east_superregion = { discover_country = ROOT }
+			persia_region = { discover_country = ROOT }
+			caucasia_region = { discover_country = ROOT }
+			crimea_region = { discover_country = ROOT }
+			horn_of_africa_region = { discover_country = ROOT }
+			khorasan_region = { discover_country = ROOT }
+
+			red_sea_area = { discover_country = ROOT }
+			persian_gulf_area = { discover_country = ROOT }
+			eastern_mediterrenean_area = { discover_country = ROOT }
+			black_sea_area = { discover_country = ROOT }
+			1326 = { discover_country = ROOT }
+			1331 = { discover_country = ROOT }
+			4346 = { discover_country = ROOT }
+			1333 = { discover_country = ROOT }
+		}
+
+		#India
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = india_superregion
+						region = khorasan_region
+					}
+				}
+			}
+
+			india_superregion = { discover_country = ROOT }
+			khorasan_region = { discover_country = ROOT }
+			persia_region = { discover_country = ROOT }
+			burma_region = { discover_country = ROOT }
+
+			bay_of_bengal_area = { discover_country = ROOT }
+			persian_gulf_area = { discover_country = ROOT }
+			1619 = { discover_country = ROOT }
+			1340 = { discover_country = ROOT }
+			1339 = { discover_country = ROOT }
+			1338 = { discover_country = ROOT }
+			1337 = { discover_country = ROOT }
+		}
+
+		#Russia
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						region = russia_region
+						region = crimea_region
+						region = ural_region
+						region = central_asia_region
+						region = west_siberia_region
+						region = mongolia_region
+						region = east_siberia_region
+						region = manchuria_region
+					}
+				}
+			}
+
+			russia_region = { discover_country = ROOT }
+			crimea_region = { discover_country = ROOT }
+			ural_region = { discover_country = ROOT }
+			central_asia_region = { discover_country = ROOT }
+			west_siberia_region = { discover_country = ROOT }
+			mongolia_region = { discover_country = ROOT }
+			east_siberia_region = { discover_country = ROOT }
+			manchuria_region = { discover_country = ROOT }
+
+			black_sea_area = { discover_country = ROOT }
+			1326 = { discover_country = ROOT }
+			1327 = { discover_country = ROOT }
+		}
+
+		#Japan
+		if = {
+			limit = {
+				capital_scope = {
+					superregion = far_east_superregion
+				}
+			}
+
+			far_east_superregion = { discover_country = ROOT }
+			east_siberia_region = { discover_country = ROOT }
+			pacific_north_america_superregion = { 
+				limit = {
+					NOT = {
+						region = utah_region
+					}
+				}
+				discover_country = ROOT 
+			}
+			sea_of_japan_area = { discover_country = ROOT }
+			sea_of_okhotsk_area = { discover_country = ROOT }
+			east_china_sea_area = { discover_country = ROOT }
+			berring_sea_area = { discover_country = ROOT }
+			gulf_of_alaska_area = { discover_country = ROOT }
+			north_pacific_coast_area = {
+				limit = {
+					NOT = {
+						OR = {
+							province_id = 1551
+							province_id = 1552
+							province_id = 1553
+						}
+					}
+				}
+				discover_country = ROOT
+			}
+			1668 = { discover_country = ROOT }
+			1679 = { discover_country = ROOT }
+			1443 = { discover_country = ROOT }
+			1667 = { discover_country = ROOT }
+			1442 = { discover_country = ROOT }
+			1669 = { discover_country = ROOT }
+			1440 = { discover_country = ROOT }
+			1439 = { discover_country = ROOT }
+			4224 = { discover_country = ROOT }
+			1391 = { discover_country = ROOT }
+			1390 = { discover_country = ROOT }
+		}
+
+		# Oceanea
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						region = australia_region
+						region = new_zealand_region
+						area = melanesia_area
+					}
+				}
+			}
+
+			australia_region = { discover_country = ROOT }
+			new_zealand_region = { discover_country = ROOT }
+			melanesia_area = { discover_country = ROOT }
+			papua_area = { discover_country = ROOT }
+			vogelkop_area = { discover_country = ROOT }
+			ceram_area = { discover_country = ROOT }
+			molluca_area = { discover_country = ROOT }
+			spice_islands_area = { discover_country = ROOT }
+
+			tasman_sea_area = { discover_country = ROOT }
+			great_australian_bight_area = { discover_country = ROOT }
+			coral_sea_area = { discover_country = ROOT }
+			banda_arafura_seas_area = { discover_country = ROOT }
+			1417 = { discover_country = ROOT }
+			1418 = { discover_country = ROOT }
+			1419 = { discover_country = ROOT }
+			1420 = { discover_country = ROOT }
+			1431 = { discover_country = ROOT }
+			1430 = { discover_country = ROOT }
+			1432 = { discover_country = ROOT }
+			1399 = { discover_country = ROOT }	
+			1400 = { discover_country = ROOT }
+		}
+
+		# China and SEA
+		if = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = east_indies_superregion
+						superregion = china_superregion
+					}
+				}
+			}
+
+			east_indies_superregion = { discover_country = ROOT }
+			china_superregion = { discover_country = ROOT }
+			top_end_area = { discover_country = ROOT }
+			northern_australia_area = { discover_country = ROOT }
+
+			south_china_sea_region = { discover_country = ROOT }
+			east_china_sea_area = { discover_country = ROOT }
+			philipine_sea_area = { discover_country = ROOT }
+			coral_sea_area = { discover_country = ROOT }
+		}
+    }    
+
+
+
+    #Discover allies capitals
+	every_ally = {
+		capital_scope = {
+			discover_country = ROOT
+		}
+	}
+	# Resets prestige from being the first in the tech group to discover a province
+	add_prestige = -200
+	add_prestige = 100
+}
+
+setup_ai_attitude = {
+	# Set everyone's attitude to neutral towards one another
+	every_known_country = {
+		ROOT = {
+			set_ai_attitude = {
+				attitude = attitude_neutral
+				who = PREV
+				locked = no
+			}
+		}
+	}
+}

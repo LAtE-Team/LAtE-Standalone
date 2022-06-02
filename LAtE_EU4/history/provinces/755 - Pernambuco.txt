@@ -1,9 +1,7 @@
 #755 - Pernambuco
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Olinda"
 trade_goods = unknown

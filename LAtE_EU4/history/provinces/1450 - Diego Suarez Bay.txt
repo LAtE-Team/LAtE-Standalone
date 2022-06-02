@@ -1,6 +1,6 @@
 
-discovered_by = east_african
-# = { discovered_by = POR }
+
+
 
 
 native_size = 5

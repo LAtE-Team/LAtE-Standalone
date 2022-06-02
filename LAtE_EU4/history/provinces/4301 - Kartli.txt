@@ -13,8 +13,8 @@ base_manpower = 2
 #is_city = yes
 #add_core = GEO
 fort_15th = yes #Gori
-discovered_by = indian
-discovered_by = high_american
+
+
 
 
 

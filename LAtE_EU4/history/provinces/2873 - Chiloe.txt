@@ -3,9 +3,7 @@ add_core = PGO
 owner = PGO
 controller = PGO
 culture = platinean
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Chiloe"
 trade_goods = unknown

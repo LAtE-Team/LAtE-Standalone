@@ -1,4 +1,5 @@
 # Highdesert
+setup_vision = yes
 government = theocracy 
 
 government_rank = 1

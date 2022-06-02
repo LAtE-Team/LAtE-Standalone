@@ -16,8 +16,8 @@ fort_15th = yes
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

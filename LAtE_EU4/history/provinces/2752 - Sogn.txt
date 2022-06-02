@@ -9,7 +9,7 @@ trade_goods = unknown
 base_manpower = 1
 is_city = no
 capital = "Molde"
-discovered_by = high_american 
+ 
 
 
 

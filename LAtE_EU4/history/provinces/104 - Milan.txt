@@ -13,9 +13,9 @@ fort_15th = yes #Sforza Castle
 capital = "Milano"
 is_city = no	# Estimated
 #add_core= MLO
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 extra_cost = 10
 
 center_of_trade = 2

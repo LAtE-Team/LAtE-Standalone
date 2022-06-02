@@ -1,4 +1,4 @@
-# = { discovered_by = POR  # Gaspar Corte-Real
+  # Gaspar Corte-Real
 
 
 native_size = 5

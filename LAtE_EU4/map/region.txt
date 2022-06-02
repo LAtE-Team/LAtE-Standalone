@@ -1128,7 +1128,6 @@ canada_region = {
 		laurentian_area
 		huronia_area
 		upper_ontario_area
-		greenland_area
 		shield_area
 		talbot_area
 		greater_toronto_area
@@ -1152,6 +1151,7 @@ north_quebec_region = {
 		nord_du_quebec_area
 		nunavik_area
 		eeyou_istchee_area
+		greenland_area
 	}
 }
 
@@ -1390,6 +1390,7 @@ carribeans_region = {
 		leeward_antilles_area
 		windward_islands_area
 		lucayan_area
+		western_carribean_area
 	}
 	monsoon = {
 		00.06.01

@@ -15,8 +15,8 @@ base_manpower = 1
 #add_core = TUR
 #add_core = ERE
 #add_core = CND
-discovered_by = high_american
-discovered_by = indian 
+
+ 
 
 
 

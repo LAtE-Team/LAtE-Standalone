@@ -1,9 +1,7 @@
 # - Borborema
 
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Cimbres"
 trade_goods = unknown
@@ -15,7 +13,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 6
 
-# = { discovered_by = POR } # Pedro �lvares Cabral
+ # Pedro �lvares Cabral
 # = {
 	#owner = POR
 	#controller = POR

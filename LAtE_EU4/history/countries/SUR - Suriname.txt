@@ -1,4 +1,5 @@
 # Suriname
+setup_vision = yes
 government = theocracy 
 add_government_reform = leading_clergy_reform
 government_rank = 1
@@ -10,7 +11,7 @@ clear_scripted_personalities = yes
 capital = 745
 3026.2.1 = {
 	monarch = {
-		name = "Flávio II"
+		name = "Flï¿½vio II"
 		birth_date = 2990.3.19
 		dynasty = "van  Marowijne"
 		adm = 2

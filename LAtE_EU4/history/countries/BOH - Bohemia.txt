@@ -1,3 +1,4 @@
+setup_vision = yes
 government = native 
 government_rank = 1
 technology_group = european
@@ -7,7 +8,7 @@ add_army_professionalism = 0.1
 
 1378.11.29 = {
 	monarch = {
-		name = "Václav IV"
+		name = "Vï¿½clav IV"
 		dynasty = "von Luxemburg"
 		birth_date = 1361.2.26
 		adm = 2
@@ -20,7 +21,7 @@ add_army_professionalism = 0.1
 
 1419.1.1 = { leader = {	name = "Jan Zizka"	type = general	fire = 6	shock = 3	manuever = 5	siege = 0	death_date = 1424.10.11 } }
 
-1419.1.1 = { leader = {	name = "Prokop Holý"	type = general	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
+1419.1.1 = { leader = {	name = "Prokop Holï¿½"	type = general	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
 
 # Personal Union with Habsburg under Albrecht II 1437-1439
 
@@ -38,7 +39,7 @@ add_army_professionalism = 0.1
 
 1457.11.24 = {
 	monarch = {
-		name = "Jirí"
+		name = "Jirï¿½"
 		dynasty = "z Podebrad"
 		birth_date = 1420.4.23
 		adm = 5
@@ -48,7 +49,7 @@ add_army_professionalism = 0.1
 	queen = {
 		country_of_origin = BOH
 		name = "Joanna"
-		dynasty = "Rozmitál"
+		dynasty = "Rozmitï¿½l"
 		birth_date = 1430.1.1
 		death_date = 1475.11.12
 		female = yes
@@ -87,7 +88,7 @@ add_army_professionalism = 0.1
 	queen = {
 		country_of_origin = NAP
 		name = "Beatrice"
-		dynasty = "de Trastámara"
+		dynasty = "de Trastï¿½mara"
 		birth_date = 1457.11.16
 		death_date = 1500.4.7 #annulled, real death: 1508.9.23
 		female = yes

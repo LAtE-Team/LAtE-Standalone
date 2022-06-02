@@ -10,12 +10,12 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-discovered_by = indian
+
 capital = "Tikhvin"
 
 
 
-discovered_by = high_american 
+ 
 
 
 

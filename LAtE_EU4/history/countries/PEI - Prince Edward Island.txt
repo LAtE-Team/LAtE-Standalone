@@ -1,4 +1,5 @@
 # Prince Edward Island
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1

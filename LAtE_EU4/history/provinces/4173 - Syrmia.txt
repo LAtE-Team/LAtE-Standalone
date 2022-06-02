@@ -13,17 +13,13 @@ base_manpower = 1
 is_city = no
 #add_core= HUN
 #add_core= SER
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = high_american 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+ 
+
+
+
 
 # = { capital = "Kupinik" }
 # = { revolt = { type = anti_tax_rebels size = 2 } #controller = REB } # Rebel peasant troops led by Gheorghe Doja

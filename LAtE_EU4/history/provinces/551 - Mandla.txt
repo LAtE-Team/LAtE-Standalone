@@ -16,8 +16,8 @@ fort_15th = yes #Mandla fort + lots of minor forts
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

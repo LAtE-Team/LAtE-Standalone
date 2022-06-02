@@ -13,12 +13,12 @@ trade_goods = unknown
 base_manpower = 1
 #add_core= FRA
 #add_core= GUY
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 # = { religion = reformed }
 # = { unrest = 8 } # France is restless once again as ultra-cult_of_reason intentions become clear

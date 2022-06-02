@@ -1,7 +1,7 @@
 #4132 - Lake Mweru
 
 
-discovered_by = central_african
+
 
 
 native_size = 5

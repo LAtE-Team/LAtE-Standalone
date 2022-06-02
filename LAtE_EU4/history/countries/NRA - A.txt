@@ -1,4 +1,5 @@
 # New Russia
+setup_vision = yes
 government = republic
 add_government_reform = colonial_government
 government_rank = 1

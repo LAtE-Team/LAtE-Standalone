@@ -13,11 +13,11 @@ base_manpower = 2
 capital = "Dungannon"
 is_city = no
 #add_core= TYR
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 # = {

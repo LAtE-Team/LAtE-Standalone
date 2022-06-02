@@ -1,9 +1,7 @@
 #750 - Crato
 
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Crato"
 trade_goods = unknown
@@ -18,7 +16,7 @@ native_hostileness = 6
 
 
 
-# = { discovered_by = POR }
+
 
 # = {
 	#owner = POR

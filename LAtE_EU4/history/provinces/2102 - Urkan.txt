@@ -14,10 +14,10 @@ owner = AMU
 controller = AMU
 add_core = AMU
 
-discovered_by = chinese
+
 
 
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = indian
+

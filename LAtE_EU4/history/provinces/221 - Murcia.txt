@@ -16,12 +16,12 @@ is_city = no
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = {	#controller = SPA

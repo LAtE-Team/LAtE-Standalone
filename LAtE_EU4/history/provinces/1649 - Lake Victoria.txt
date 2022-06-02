@@ -1,7 +1,7 @@
 #1649 - Lake Victoria
 
 
-discovered_by = central_african
+
 
 
 native_size = 5

@@ -15,9 +15,9 @@ is_city = yes
 fort_15th = yes #Trencin Castle
 #add_core = HUN
 #add_core = SLO
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 native_size = 5
 native_ferocity = 1

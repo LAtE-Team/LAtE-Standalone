@@ -14,9 +14,9 @@ is_city = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 hre = no
 

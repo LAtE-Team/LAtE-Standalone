@@ -1,9 +1,7 @@
 # - Natividad
 
 culture = ge
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Natividad"
 trade_goods = unknown
@@ -18,7 +16,7 @@ native_hostileness = 7
 
 
 
-# = { discovered_by = POR }
+
 
 # = {
 	#owner = POR
@@ -29,7 +27,7 @@ native_hostileness = 7
 
 	religion = candomble
 	trade_goods = cocoa
-#} # Ranchers from São Paulo occupied the region in search of more productive land
+#} # Ranchers from Sï¿½o Paulo occupied the region in search of more productive land
 
 owner = BRZ
 controller = BRZ

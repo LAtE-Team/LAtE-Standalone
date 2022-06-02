@@ -17,12 +17,12 @@ is_city = no		# census of 1462, also includes the town of Figueres
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { revolt = { type = pretender_rebels size = 0 } #controller = REB } # Jaime de Urgell Uprising

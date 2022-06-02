@@ -19,6 +19,7 @@ east_indies_superregion = {
 oceania_superregion = {
 	oceanea_region
 	australia_region
+	new_zealand_region
 }
 
 china_superregion = {

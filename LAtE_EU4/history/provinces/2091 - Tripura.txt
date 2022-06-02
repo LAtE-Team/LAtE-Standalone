@@ -12,8 +12,8 @@ is_city = no
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

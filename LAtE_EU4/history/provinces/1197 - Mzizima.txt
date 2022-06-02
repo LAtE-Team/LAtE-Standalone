@@ -12,11 +12,11 @@ trade_goods = spices #slaves
 hre = no
 base_tax = 1
 base_production = 1
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-discovered_by = central_african
-discovered_by = east_african
+
+
+
+
+
 
 
 native_size = 5

@@ -1,11 +1,9 @@
 #749 - Maranhao
 
 culture = paribas
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
-capital = "São Luis"
+capital = "Sï¿½o Luis"
 trade_goods = tropical_wood
 hre = no
 base_tax = 3

@@ -15,8 +15,8 @@ add_core= BGL
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

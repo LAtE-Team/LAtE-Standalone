@@ -12,8 +12,8 @@ trade_goods = ivory
 hre = no
 base_tax = 2 
 base_production = 2
-discovered_by = east_african
-discovered_by = central_african
+
+
 center_of_trade = 2
 
 native_size = 5

@@ -14,11 +14,11 @@ capital = "Salisbury"
 is_city = no
 #add_core= ENG
 #Salisbury and Winchester Cathedrals
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 # = { unrest = 5 } # Start of the War of the Roses

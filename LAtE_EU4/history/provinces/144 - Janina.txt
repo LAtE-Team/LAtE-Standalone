@@ -14,16 +14,12 @@ is_city = no
 #estate = #estate_dhimmi
 #add_core= EPI
 #add_core= BYZ
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
 
-discovered_by = high_american 
+
+
+ 
+
+ 
 
 
 

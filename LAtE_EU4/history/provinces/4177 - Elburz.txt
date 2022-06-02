@@ -1,12 +1,12 @@
 #4177 - Elburz Mountains
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
-# = { discovered_by = ENG }
+
+
+
+#
+
 # = {  }
 
 

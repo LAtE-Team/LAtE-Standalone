@@ -1,16 +1,16 @@
 
-discovered_by = east_african
-
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
 
 
 
 
 
-# = { discovered_by = POR }
-# = { discovered_by = TUR }
+
+
+
+
+
+
+
 
 
 native_size = 5

@@ -13,12 +13,12 @@ base_manpower = 1
 is_city = no
 #estate = #estate_nobles
 #add_core= SAX
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { #owner = THU #controller = THU #add_core= THU }

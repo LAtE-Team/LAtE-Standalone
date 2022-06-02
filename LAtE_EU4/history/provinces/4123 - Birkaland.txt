@@ -13,7 +13,7 @@ trade_goods = fur
 base_manpower = 1
 capital = "Messukyl�"
 is_city = no
-discovered_by = high_american 
+ 
 
 
 native_size = 5

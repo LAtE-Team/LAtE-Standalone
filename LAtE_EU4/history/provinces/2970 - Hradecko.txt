@@ -13,17 +13,13 @@ base_production = 1
 base_manpower = 1
 #estate = #estate_nobles
 is_city = no
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = high_american 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+ 
+
+
+
  
 
 # = { revolt = { type = heretic_rebels size = 1 } #controller = REB } # Hussite Wars, Battle of Nekmir

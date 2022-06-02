@@ -1,13 +1,13 @@
 
-discovered_by = east_african
 
 
 
-# = { discovered_by = MNG }
-# = { discovered_by = POR }
-# = { discovered_by = FRA } # Parmentier Brothers
-# = { discovered_by = MNG }
-# = { discovered_by = POR }
+
+
+
+ # Parmentier Brothers
+
+
 
 
 

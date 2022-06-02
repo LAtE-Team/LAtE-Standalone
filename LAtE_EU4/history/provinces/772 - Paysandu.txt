@@ -6,9 +6,7 @@ controller = URU
 add_core= URU
 is_city = yes
 culture = litoraleno
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = sacred_heart
 capital = "Paysandu"
 trade_goods = unknown

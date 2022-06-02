@@ -1,4 +1,5 @@
 # Bottineau
+setup_vision = yes
 government = tribal 
 add_government_reform = steppe_horde
 government_rank = 1

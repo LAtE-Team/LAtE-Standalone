@@ -1,8 +1,6 @@
 #764 - Santo Amaro
 
-culture = tupinamba discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+culture = tupinamba 
 religion = animism
 capital = "Santo Amaro"
 trade_goods = unknown
@@ -14,7 +12,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 1
 
-# = { discovered_by = POR } # Amerigo Vespucci
+ # Amerigo Vespucci
 # = {
 	#owner = POR	
 	#controller = POR

@@ -15,9 +15,9 @@ add_core= BIZ
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

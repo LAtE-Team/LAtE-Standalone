@@ -7,13 +7,10 @@ culture = aimara
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+
 
 religion = inti
-capital = "Potosí"
+capital = "Potosï¿½"
 trade_goods = gold
 hre = no
 base_tax = 4 

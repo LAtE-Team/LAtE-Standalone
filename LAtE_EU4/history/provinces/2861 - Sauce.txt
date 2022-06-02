@@ -6,9 +6,7 @@ religion = sacred_heart
 add_core = LAP
 add_core = CDB
 culture = platinean
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = sacred_heart
 capital = "Sauce"
 trade_goods = unknown

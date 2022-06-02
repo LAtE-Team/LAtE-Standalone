@@ -14,14 +14,6 @@ is_city = no
 #add_core= PEG
 
 
-
-discovered_by = chinese
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-
-# = { discovered_by = POR }
-
 # = { #add_core= TAU } # Taungu Invasion
 # = { #controller = TAU }
 # = { #owner = TAU } # Annexed to the Kingdom of Taungoo
@@ -42,5 +34,4 @@ discovered_by = indian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

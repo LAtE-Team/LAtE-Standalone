@@ -17,4 +17,4 @@ native_ferocity = 6
 native_hostileness = 9
 
 
-discovered_by = chinese
+

@@ -2,12 +2,10 @@
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-# = { discovered_by = CAS } # Vicente Yáñez Pinzõn
-# = { discovered_by = POR }
-# = { discovered_by = SPA }
+
+ # Vicente Yï¿½ï¿½ez Pinzï¿½n
+
+
 
 
 

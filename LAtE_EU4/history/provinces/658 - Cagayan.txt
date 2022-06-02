@@ -11,9 +11,8 @@ base_manpower = 2
 native_size = 50
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = chinese
+
 add_core = MNL
 owner = MNL
 controller = MNL
-discovered_by = NRU 
-discovered_by = NRA
+

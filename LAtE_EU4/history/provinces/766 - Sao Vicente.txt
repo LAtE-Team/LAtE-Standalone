@@ -1,9 +1,7 @@
 #766 - Sao Vicente
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Sao Vicente"
 trade_goods = unknown
@@ -15,7 +13,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 2
 
-# = { discovered_by = POR } # Amerigo Vespucci
+ # Amerigo Vespucci
 # = {
 	#owner = POR
 	#controller = POR
@@ -26,7 +24,7 @@ add_core = PAU
 	religion = candomble
 
 #} # brazilian settlement
-# = { discovered_by = ENG } # Drake
+ # Drake
 # = { capital = "S�o Paulo" } # S�o Paulo was made the administrative capital
 owner = PAU
 controller = PAU

@@ -1,9 +1,7 @@
 #747 - Tucujulandia
 
 culture = amazonense
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
 capital = "Amapa"
 trade_goods = fish

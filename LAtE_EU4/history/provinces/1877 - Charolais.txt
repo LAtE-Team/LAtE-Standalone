@@ -14,12 +14,12 @@ base_manpower = 1
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { #owner = FRA #controller = FRA #add_core= FRA } # Charles the Bold dies and Louis XII of France takes the province

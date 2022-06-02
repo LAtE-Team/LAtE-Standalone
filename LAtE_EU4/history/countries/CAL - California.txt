@@ -1,4 +1,5 @@
 # California
+setup_vision = yes
 government = monarchy
 add_government_reform = celestial_empire
 government_rank = 3

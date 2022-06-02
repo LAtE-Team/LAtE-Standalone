@@ -14,5 +14,5 @@ base_manpower = 2
 #fort_15th = yes
 #add_core = TIM
 #add_core = TRS
-discovered_by = indian
+
 

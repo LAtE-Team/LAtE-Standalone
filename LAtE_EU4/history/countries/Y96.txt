@@ -1,4 +1,5 @@
-# Diné Bikéyah
+# Dinï¿½ Bikï¿½yah
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1

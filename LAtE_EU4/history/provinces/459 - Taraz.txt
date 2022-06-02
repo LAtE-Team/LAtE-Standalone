@@ -16,9 +16,9 @@ is_city = no
 
 
 
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+#
 
 # = {
 	#owner = KAS
@@ -26,7 +26,7 @@ discovered_by = indian
 	#add_core= KAS
 #}
 # = { #owner = KZH #controller = KZH  } # Kazakh horde forms
-# = { discovered_by = RUS }
+
 # = { #owner = OIR #controller = OIR } # Dzungarian invasion
 # = { #owner = KZH #controller = KZH }
 # = { #owner = OIR #controller = OIR } # Dzungarian invasion

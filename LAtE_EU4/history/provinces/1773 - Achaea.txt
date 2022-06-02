@@ -11,8 +11,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = no
-discovered_by = indian
-discovered_by = high_american 
+
+ 
 
 
 native_size = 5

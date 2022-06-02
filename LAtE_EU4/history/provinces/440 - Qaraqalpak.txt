@@ -16,10 +16,10 @@ is_city = no
 
 
 
-discovered_by = KAS
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+
+#
 
 
 # = { 
@@ -30,7 +30,7 @@ discovered_by = indian
 	 # was TIM
 #} # The Uzbek Shaybanids brings an end to the Timurid dynasty
 # = { #owner = KHI #controller = KHI  } # Khiva separates from Uzbeks
-# = { discovered_by = RUS }
+
 
 
 native_size = 5

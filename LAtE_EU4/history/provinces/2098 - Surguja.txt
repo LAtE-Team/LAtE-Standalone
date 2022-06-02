@@ -14,8 +14,8 @@ is_city = yes
 add_core= GDW
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

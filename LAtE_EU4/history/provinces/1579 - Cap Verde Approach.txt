@@ -1,6 +1,6 @@
-# = { discovered_by = POR }
-# = { discovered_by = indian
-discovered_by = indian }
+
+# = { 
+ }
 
 
 native_size = 5

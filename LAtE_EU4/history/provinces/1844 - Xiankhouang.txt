@@ -16,8 +16,8 @@ is_city = no
 
 
 
-discovered_by = chinese
-discovered_by = indian
+
+
 
 
 # = { #add_core= DAI } # Vietnamese Invasion
@@ -27,7 +27,7 @@ discovered_by = indian
 # = { unrest = 0 }
 # = { unrest = 6 }
 # = { unrest = 0 }
-# = { discovered_by = SPA }#Novus Atlas Sinensis
+#Novus Atlas Sinensis
 # = { #add_core= TOK } # Vietnamese Intervention
 # = {
 	#owner = MPH
@@ -42,5 +42,4 @@ discovered_by = indian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+
