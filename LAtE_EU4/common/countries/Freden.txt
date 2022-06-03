@@ -1,27 +1,26 @@
-# Saskatchewan
-ck2_converter_generated = yes
+# Freden
 graphical_culture = northamericagfx
-color = { 255 255 255 }
+color = { 100 132 230 }
 
 
 
 
 leader_names = {
 
-	"Christine" "Madame" "Chanta" "Shan" "Andrea" "Tête" "Chantell" "Marilyn" "Janet" "Malcolm" 
+	"Christine" "Madame" "Chanta" "Shan" "Andrea" "Tï¿½te" "Chantell" "Marilyn" "Janet" "Malcolm" 
 	"Norma" "Charles" "Maria" "Calvin" "James" "Madeline" "Michel" "Tanto" "Dwight" "Katherena" 
-	"Albert" "Augustin" "Audrey" "Pascal" "Elizabeth" "Clément" "Antoine" "Peter" "Laura" "Catharine" 
-	"Nancy" "Jani" "Hélène" "Carole" "Laurette" "Isabelle" "Shelly" "David" "Josephin" "Magdelaine" 
+	"Albert" "Augustin" "Audrey" "Pascal" "Elizabeth" "Clï¿½ment" "Antoine" "Peter" "Laura" "Catharine" 
+	"Nancy" "Jani" "Hï¿½lï¿½ne" "Carole" "Laurette" "Isabelle" "Shelly" "David" "Josephin" "Magdelaine" 
 	"Thelma" "Pearl" "Jean-Baptiste" "Louis" "Yvonne" "Rene" "Guillaume" "Ambroise-Dydime" "Yvon" "Jacques" 
-	"Gabriel" "Frechette" "Honoré" "Howard" "Kinnie" "Marie" "Joanne" "Rose-Marie" "Marguerite" "Kevin" 
-	"Don" "Sandra" "Bob" "Xavier" "Suzanne" "Eugène" "John" "Julie" "Therese" "Colleen" 
+	"Gabriel" "Frechette" "Honorï¿½" "Howard" "Kinnie" "Marie" "Joanne" "Rose-Marie" "Marguerite" "Kevin" 
+	"Don" "Sandra" "Bob" "Xavier" "Suzanne" "Eugï¿½ne" "John" "Julie" "Therese" "Colleen" 
 	"Alexander" "Jacco" "August" "Laird" "Ian" "Gallant" "Salomon" "Wayne" "Joe" "Andrew" 
 	"Dylan" "Wade" "Theoren" "George" "Bryan" "Vic" "Alec" "Ambrose" "Andy" "Angus" 
 	"Antonine" "Arron" "Arthur" "Asham" "Axel" "Baptiste" "Brian" "Charles-Michel" "Cuthbert" "Cyril" 
-	"Denis" "Derrick" "Douglas" "Doyle" "Dydim" "Elzéar" "François" "Gerald" "Gil" "Gregory" 
+	"Denis" "Derrick" "Douglas" "Doyle" "Dydim" "Elzï¿½ar" "Franï¿½ois" "Gerald" "Gil" "Gregory" 
 	"Harley" "Henri" "Jaco" "Jaxon" "Jean" "Jess" "Jon" "Jonathan" "Jules" "Kalib" 
 	"Keith" "Laurent-Salomon" "Lawrence" "Maxime" "Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" 
-	"René" "Rick" "Robert" "Rod" "Sheldon" "Solomon" "Thomas" "Todd" "Tom" "Tony" 
+	"Renï¿½" "Rick" "Robert" "Rod" "Sheldon" "Solomon" "Thomas" "Todd" "Tom" "Tony" 
 	"William" }
 monarch_names = {
 	"Christine #0" = -1
@@ -29,7 +28,7 @@ monarch_names = {
 	"Chanta #0" = -1
 	"Shan #1" = 33
 	"Andrea #0" = -1
-	"Tête #0" = 1
+	"Tï¿½te #0" = 1
 	"Chantell #0" = -1
 	"Marilyn #0" = -1
 	"Janet #0" = -1
@@ -49,14 +48,14 @@ monarch_names = {
 	"Audrey #0" = -1
 	"Pascal #0" = 1
 	"Elizabeth #0" = -1
-	"Clément #0" = 1
+	"Clï¿½ment #0" = 1
 	"Antoine #0" = 1
 	"Peter #0" = 1
 	"Laura #0" = -1
 	"Catharine #0" = -1
 	"Nancy #0" = -1
 	"Jani #0" = -1
-	"Hélène #0" = -1
+	"Hï¿½lï¿½ne #0" = -1
 	"Carole #0" = -1
 	"Laurette #0" = -1
 	"Isabelle #0" = -1
@@ -76,7 +75,7 @@ monarch_names = {
 	"Jacques #0" = 1
 	"Gabriel #0" = 1
 	"Frechette #0" = -1
-	"Honoré #0" = 1
+	"Honorï¿½ #0" = 1
 	"Howard #0" = 1
 	"Kinnie #0" = -1
 	"Marie #0" = -1
@@ -89,7 +88,7 @@ monarch_names = {
 	"Bob #0" = 1
 	"Xavier #0" = 1
 	"Suzanne #0" = -1
-	"Eugène #0" = 1
+	"Eugï¿½ne #0" = 1
 	"John #0" = 1
 	"Julie #0" = -1
 	"Therese #0" = -1
@@ -129,8 +128,8 @@ monarch_names = {
 	"Douglas #0" = 0
 	"Doyle #0" = 0
 	"Dydim #0" = 0
-	"Elzéar #0" = 0
-	"François #0" = 0
+	"Elzï¿½ar #0" = 0
+	"Franï¿½ois #0" = 0
 	"Gerald #0" = 0
 	"Gil #0" = 0
 	"Gregory #0" = 0
@@ -154,7 +153,7 @@ monarch_names = {
 	"Ranald #0" = 0
 	"Ray #0" = 0
 	"Raymond #0" = 0
-	"René #0" = 0
+	"Renï¿½ #0" = 0
 	"Rick #0" = 0
 	"Robert #0" = 0
 	"Rod #0" = 0

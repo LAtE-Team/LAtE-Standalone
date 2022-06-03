@@ -3,6 +3,8 @@
 owner = NRA
 controller = NRA
 add_core = NRA
+add_core = JNU
+
 culture = novorusskiy
 religion = nousthreskeia
 capital = "Yakutat"

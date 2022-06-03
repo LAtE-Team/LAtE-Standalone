@@ -1,12 +1,11 @@
 owner = MTC
 controller = MTC 
 add_core = MTC
+add_core = SAS
 
 culture = metis
 religion = exovedate
 is_city = yes
-add_core = Y62
-
 
 hre = no
 base_tax = 1

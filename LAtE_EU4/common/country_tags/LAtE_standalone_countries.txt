@@ -6,11 +6,7 @@ UUN = "countries/Uunaay.txt"
 # Atlantica
 HUD = "countries/Hudsonia.txt"
 VER = "countries/Vermont.txt"
-NBW = "countries/NewBrunswick.txt"
-NSC = "countries/NovaScotia.txt"
-PEI = "countries/PrinceEdwardIsland.txt"
 ARO = "countries/Aroostook.txt"
-RTG = "countries/Restigouche.txt"
 AGH = "countries/Allegheny.txt"
 RHI = "countries/RhodeIsland.txt"
 WMT = "countries/WhiteMountain.txt"
@@ -56,32 +52,55 @@ GRY = "countries/Gary.txt"
 
 #Canada
 CAN	= "countries/Canada.txt"
+MRT = "countries/Maritimes.txt"
+NBW = "countries/NewBrunswick.txt"
+NSC = "countries/NovaScotia.txt"
+PEI = "countries/PrinceEdwardIsland.txt"
+RTG = "countries/Restigouche.txt"
 THN = "countries/Thunder.txt"
+ALG = "countries/Algoma.txt"
 SHD = "countries/Shield.txt"
+ONT = "countries/Ontario.txt"
 TOR = "countries/Toronto.txt"
 OTW = "countries/Ottawa.txt"
 MDL = "countries/Midland.txt"
 TAL = "countries/Talbot.txt"
 HUR = "countries/Huronia.txt"
-ALG = "countries/Algoma.txt"
-TAQ = "countries/Taqamkuk.txt" #X40
-AVA = "countries/Avalon.txt" #X42
-STD = "countries/Stadacona.txt" #Y64
-OUT = "countries/Outaouais.txt" #Y65
-MTR = "countries/Montreal.txt"
-MRC = "countries/Mauricie.txt" #Y67
-EST = "countries/Estrie.txt" #Y66
-GSP = "countries/Gaspesie.txt" 
+TAQ = "countries/Taqamkuk.txt"
+AVA = "countries/Avalon.txt"
 NFL = "countries/Newfoundland.txt"
-ONT = "countries/Ontario.txt"
+QUE	= "countries/Quebec.txt"
+STD = "countries/Stadacona.txt"
+OUT = "countries/Outaouais.txt"
+MTR = "countries/Montreal.txt"
+MRC = "countries/Mauricie.txt"
+EST = "countries/Estrie.txt"
+GSP = "countries/Gaspesie.txt" 
 
 #Northern Quebec
-CTN = "countries/CoteNord.txt" #X43
+CTN = "countries/CoteNord.txt"
 SGN = "countries/Saguenay.txt" 
 NVK = "countries/Nunavik.txt" 
-EEY = "countries/EeyouIstchee.txt" #X66
+EEY = "countries/EeyouIstchee.txt"
 
 #Hudson's Bay
 KNR = "countries/Kenora.txt"
-ARR = "countries/Aurora.txt" #X68
-MUS = "countries/Mushkegowuk.txt" #X67
+ARR = "countries/Aurora.txt"
+MUS = "countries/Mushkegowuk.txt"
+
+#North West Territories 
+MTC = "countries/Metis.txt"
+ALB = "countries/Alberta.txt"
+SAS = "countries/Saskatchewan.txt"
+MTB = "countries/Manitoba.txt"
+PRL = "countries/Prairieland.txt"
+ATH = "countries/Athabasca.txt"
+BLF = "countries/Blackfoot.txt" #Needs new names
+FRD = "countries/Freden.txt" #Needs new names
+LIR = "countries/Liard.txt" #Needs new names
+JNU = "countries/Juneau.txt" #Needs new names
+STK = "countries/Stikine.txt" #Needs new names
+
+#Lakotah
+#Crow
+#Cheyenne

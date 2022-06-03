@@ -4648,7 +4648,7 @@ plains_algonquian = {
 		}
 	}
 	blackfoot = {
-		primary = BLA
+		primary = BLF
 		dynasty_names = {			
 			Aisikstukiks Apikaiyikis Emitahpahksaiyiks Motahtosiks Puhksinahmahyiks Saiyiks Siksinokaks Tsiniktsistsoyiks 
 			Ahkaisumiks Ahkaipokaks Ahkotahshiks Anepo Apikaiyiks Aputosikainah Inuhksoyistamiks Isissokasimiks Istsikaihan 

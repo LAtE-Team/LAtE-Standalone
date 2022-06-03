@@ -3,6 +3,8 @@
 owner = NRA
 controller = NRA
 add_core = NRA
+add_core = JNU
+
 culture = novorusskiy
 religion = nousthreskeia
 capital = "Tlingit"
@@ -15,12 +17,3 @@ native_size = 10
 native_ferocity = 2 
 native_hostileness = 3 
 is_city = yes
-
-
-
-
-
-
-
-
-

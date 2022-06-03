@@ -1,0 +1,5 @@
+# Prairieland
+setup_vision = yes
+religion = exovedate
+clear_scripted_personalities = yes
+capital = 1008

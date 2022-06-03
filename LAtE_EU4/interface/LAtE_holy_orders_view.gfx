@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_order_charity"
+		texturefile = "gfx/interface/holy_orders/charity.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_holy_order_ursuline"
+		texturefile = "gfx/interface/holy_orders/ursuline.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_holy_order_angeline"
+		texturefile = "gfx/interface/holy_orders/angeline.dds"
+		noOfFrames = 4
+	}
+}

@@ -1,5 +1,5 @@
 ursuline_order = {
-    icon = GFX_holy_order_jesuits
+    icon = GFX_holy_order_ursuline
     trigger = {
         OR = {
             religion = ursuline
@@ -40,7 +40,7 @@ ursuline_order = {
 }
 
 charity_order = {
-    icon = GFX_holy_order_dominicans
+    icon = GFX_holy_order_charity
     trigger = {
         OR = {
             religion = ursuline
@@ -73,7 +73,7 @@ charity_order = {
 }
 
 angeline_order = {
-    icon = GFX_holy_order_franciscans
+    icon = GFX_holy_order_angeline
     trigger = {
         OR = {
             religion = ursuline

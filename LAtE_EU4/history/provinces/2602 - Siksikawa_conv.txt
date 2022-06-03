@@ -1,14 +1,10 @@
-owner = MTC
-controller = MTC
-add_core = X17 
-add_core = MTC
+owner = ALB
+controller = ALB
+add_core = ALB
 
-culture = mountainer
+culture = prairielander
 religion = trailwalker
 is_city = yes
-add_permanent_claim = X19
-add_core = X18
-
 
 hre = no
 base_tax = 3

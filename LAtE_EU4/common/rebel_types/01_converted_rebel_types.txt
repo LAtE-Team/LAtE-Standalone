@@ -1557,7 +1557,7 @@ peyotist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = christian
+		religion_group = amero_syncretic 
 	}
 	
 	# Country scope
@@ -1572,7 +1572,7 @@ peyotist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = christian }
+				NOT = { religion_group = amero_syncretic }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1601,7 +1601,7 @@ peyotist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group = amero_syncretic
 				NOT = { religion = peyotist }
 			}
 			change_religion = peyotist
@@ -1755,7 +1755,7 @@ amero_orthodox_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = christian
+		religion_group = amero_syncretic
 	}
 	
 	# Country scope
@@ -1770,7 +1770,7 @@ amero_orthodox_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = christian }
+				NOT = { religion_group = amero_syncretic }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1799,7 +1799,7 @@ amero_orthodox_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = christian
+				religion_group = amero_syncretic
 				NOT = { religion = amero_orthodox }
 			}
 			change_religion = amero_orthodox
@@ -1953,6 +1953,205 @@ exovedate_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
+		religion_group = amero_syncretic
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	# Localisation for their demands
+	demands_description = "generic_rebels_demand"
+	
+	# Country Scope	
+	demands_enforced_effect = {
+		if = {
+			limit = {
+				NOT = { religion_group = amero_syncretic }
+			}
+			add_prestige = -50
+			every_owned_province = {
+				limit = {
+					has_rebel_faction = REB
+				}
+				add_local_autonomy = 20
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					tag = PAP
+				}
+			}
+			add_stability = -1
+		}
+		if = {
+			limit = {
+				religion = exovedate
+			}
+			add_country_modifier = {
+				name = "religious_intolerance"
+				duration = 3650
+			}
+		}
+		if = {
+			limit = {
+				religion_group = amero_syncretic
+				NOT = { religion = exovedate }
+			}
+			change_religion = exovedate
+			force_converted = yes
+		}
+	}
+}
+
+#Christian
+catholic_rebels = {
+
+	area = nation 					# Sticks to provinces of their nation
+	government = theocracy 			# Desires Theocracy
+	religion = catholic
+	defection = religion			# Defects to countries of their religion
+	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
+	independence = none				# Does not strive for independence
+	unit_transfer = yes
+	gfx_type = culture_province
+	
+	resilient = no
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	artillery = 0.0
+	infantry = 0.7
+	cavalry = 0.3
+	
+	morale = 1.1
+
+	# Possible handle actions
+	handle_action_negotiate = yes
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes		
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.0
+			owner = { religion = ROOT }
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { religion = catholic }
+		}
+		modifier = {
+			factor = 0.001
+			tolerance_to_this = 5
+		}
+		modifier = {
+			factor = 0.5
+			tolerance_to_this = 2
+		}
+		modifier = {
+			factor = 5.0
+			owner = { has_country_flag = religious_turmoil }
+		}		
+		modifier = {
+			factor = 2000
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = 1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = -1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { tolerance_to_this = -2 }
+		}
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 0.0
+			religion = catholic
+			owner = { religion = catholic }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { religion = catholic }
+			any_neighbor_province = {
+	 			religion = catholic
+	 			NOT = { has_province_modifier = "forced_conversion" }
+	 		}
+	 	}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+		NOT = {
+			AND = {
+				owned_by = PAP
+				is_capital = yes
+			}
+
+		}
+ 	}
+	siege_won_effect = {
+		if = {
+			limit = {
+				religion = catholic
+			}
+			add_province_modifier = {
+				name = "religious_violence"
+				duration = 730
+			}
+		}
+		if = {
+			limit = {
+				NOT = { religion = catholic }
+			}
+			change_religion = catholic
+			add_province_modifier = {
+				name = "forced_conversion"
+				duration = 730
+			}
+		}
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
 		religion_group = christian
 	}
 	
@@ -1988,7 +2187,7 @@ exovedate_rebels = {
 		}
 		if = {
 			limit = {
-				religion = exovedate
+				religion = catholic
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -1998,15 +2197,14 @@ exovedate_rebels = {
 		if = {
 			limit = {
 				religion_group = christian
-				NOT = { religion = exovedate }
+				NOT = { religion = catholic }
 			}
-			change_religion = exovedate
+			change_religion = catholic
 			force_converted = yes
 		}
 	}
 }
 
-#Christian
 neognostic_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
@@ -3538,7 +3736,7 @@ protestant_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = latter_day_saints
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -3553,7 +3751,7 @@ protestant_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = latter_day_saints }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3582,7 +3780,7 @@ protestant_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = latter_day_saints
+				religion_group = christian
 				NOT = { religion = protestant }
 			}
 			change_religion = protestant
@@ -4132,7 +4330,7 @@ postadventist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -4147,7 +4345,7 @@ postadventist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4176,7 +4374,7 @@ postadventist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = postadventist }
 			}
 			change_religion = postadventist
@@ -4528,7 +4726,7 @@ moravian_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -4543,7 +4741,7 @@ moravian_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4572,7 +4770,7 @@ moravian_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = moravian }
 			}
 			change_religion = moravian
@@ -4726,7 +4924,7 @@ wormwoodist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -4741,7 +4939,7 @@ wormwoodist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4770,7 +4968,7 @@ wormwoodist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = wormwoodist }
 			}
 			change_religion = wormwoodist
@@ -4924,7 +5122,7 @@ anglican_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -4939,7 +5137,7 @@ anglican_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4968,7 +5166,7 @@ anglican_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = anglican }
 			}
 			change_religion = anglican
@@ -5122,7 +5320,7 @@ nonconformist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -5137,7 +5335,7 @@ nonconformist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5166,7 +5364,7 @@ nonconformist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = nonconformist }
 			}
 			change_religion = nonconformist
@@ -5320,7 +5518,7 @@ apostolic_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -5335,7 +5533,7 @@ apostolic_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5364,7 +5562,7 @@ apostolic_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = apostolic }
 			}
 			change_religion = apostolic
@@ -5518,7 +5716,7 @@ celeste_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -5533,7 +5731,7 @@ celeste_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5562,7 +5760,7 @@ celeste_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = celeste }
 			}
 			change_religion = celeste
@@ -5716,7 +5914,7 @@ nazarene_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -5731,7 +5929,7 @@ nazarene_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5760,7 +5958,7 @@ nazarene_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = nazarene }
 			}
 			change_religion = nazarene
@@ -5914,7 +6112,7 @@ true_cross_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -5929,7 +6127,7 @@ true_cross_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5958,7 +6156,7 @@ true_cross_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = true_cross }
 			}
 			change_religion = true_cross
@@ -6112,7 +6310,7 @@ edenite_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -6127,7 +6325,7 @@ edenite_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6156,7 +6354,7 @@ edenite_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = edenite }
 			}
 			change_religion = edenite
@@ -6310,7 +6508,7 @@ cristo_rey_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -6325,7 +6523,7 @@ cristo_rey_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6354,7 +6552,7 @@ cristo_rey_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = cristo_rey }
 			}
 			change_religion = cristo_rey
@@ -6508,7 +6706,7 @@ reformista_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -6523,7 +6721,7 @@ reformista_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6552,7 +6750,7 @@ reformista_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = reformista }
 			}
 			change_religion = reformista
@@ -6905,7 +7103,7 @@ patria_grande_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = cult_of_saints
 	}
 	
 	# Country scope
@@ -6920,7 +7118,7 @@ patria_grande_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = cult_of_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6949,7 +7147,7 @@ patria_grande_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = cult_of_saints
 				NOT = { religion = patria_grande }
 			}
 			change_religion = patria_grande
@@ -7103,7 +7301,7 @@ fidencista_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = cult_of_saints
 	}
 	
 	# Country scope
@@ -7118,7 +7316,7 @@ fidencista_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = cult_of_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -7147,7 +7345,7 @@ fidencista_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = cult_of_saints
 				NOT = { religion = fidencista }
 			}
 			change_religion = fidencista
@@ -7301,7 +7499,7 @@ navegante_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = cult_of_saints
 	}
 	
 	# Country scope
@@ -7316,7 +7514,7 @@ navegante_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = cult_of_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -7345,7 +7543,7 @@ navegante_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = cult_of_saints
 				NOT = { religion = navegante }
 			}
 			change_religion = navegante
@@ -7896,7 +8094,7 @@ shinto_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = pacific
 	}
 	
 	# Country scope
@@ -7911,7 +8109,7 @@ shinto_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = pacific }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -7940,7 +8138,7 @@ shinto_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = pacific
 				NOT = { religion = shinto }
 			}
 			change_religion = shinto
@@ -8094,7 +8292,7 @@ nousthreskeia_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = pacific
 	}
 	
 	# Country scope
@@ -8109,7 +8307,7 @@ nousthreskeia_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = pacific }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -8138,7 +8336,7 @@ nousthreskeia_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = pacific
 				NOT = { religion = nousthreskeia }
 			}
 			change_religion = nousthreskeia
@@ -8491,7 +8689,7 @@ neogodbeite_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = latter_day_saints
 	}
 	
 	# Country scope
@@ -8506,7 +8704,7 @@ neogodbeite_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = latter_day_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -8535,7 +8733,7 @@ neogodbeite_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = latter_day_saints
 				NOT = { religion = neogodbeite }
 			}
 			change_religion = neogodbeite
@@ -8689,7 +8887,7 @@ woolleyite_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = latter_day_saints
 	}
 	
 	# Country scope
@@ -8704,7 +8902,7 @@ woolleyite_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = latter_day_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -8733,7 +8931,7 @@ woolleyite_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = latter_day_saints
 				NOT = { religion = woolleyite }
 			}
 			change_religion = woolleyite
@@ -8887,7 +9085,7 @@ strangite_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = latter_day_saints
 	}
 	
 	# Country scope
@@ -8902,7 +9100,7 @@ strangite_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = latter_day_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -8931,7 +9129,7 @@ strangite_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = latter_day_saints
 				NOT = { religion = strangite }
 			}
 			change_religion = strangite
@@ -9085,7 +9283,7 @@ lamanita_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = latter_day_saints
 	}
 	
 	# Country scope
@@ -9100,7 +9298,7 @@ lamanita_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = latter_day_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -9129,7 +9327,7 @@ lamanita_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = latter_day_saints
 				NOT = { religion = lamanita }
 			}
 			change_religion = lamanita
@@ -9283,7 +9481,7 @@ furiegi_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = latter_day_saints
 	}
 	
 	# Country scope
@@ -9298,7 +9496,7 @@ furiegi_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = latter_day_saints }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -9327,7 +9525,7 @@ furiegi_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = latter_day_saints
 				NOT = { religion = furiegi }
 			}
 			change_religion = furiegi
@@ -9680,7 +9878,7 @@ sol_invicta_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = american_native
+		religion_group = mesoamerican
 	}
 	
 	# Country scope
@@ -9695,7 +9893,7 @@ sol_invicta_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = american_native }
+				NOT = { religion_group = mesoamerican }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -9724,7 +9922,7 @@ sol_invicta_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = american_native
+				religion_group = mesoamerican
 				NOT = { religion = sol_invicta }
 			}
 			change_religion = sol_invicta
@@ -11265,7 +11463,7 @@ monetarist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = oldworld
 	}
 	
 	# Country scope
@@ -11280,7 +11478,7 @@ monetarist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = oldworld }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -11309,7 +11507,7 @@ monetarist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = oldworld
 				NOT = { religion = monetarist }
 			}
 			change_religion = monetarist
@@ -11661,7 +11859,7 @@ aphite_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = oldworld
 	}
 	
 	# Country scope
@@ -11676,7 +11874,7 @@ aphite_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = oldworld }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -11705,7 +11903,7 @@ aphite_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = oldworld
 				NOT = { religion = aphite }
 			}
 			change_religion = aphite
@@ -11859,7 +12057,7 @@ rust_cultist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = oldworld
 	}
 	
 	# Country scope
@@ -11874,7 +12072,7 @@ rust_cultist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = oldworld }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -11903,7 +12101,7 @@ rust_cultist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = oldworld
 				NOT = { religion = rust_cultist }
 			}
 			change_religion = rust_cultist
@@ -12057,7 +12255,7 @@ chrome_cultist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = oldworld
 	}
 	
 	# Country scope
@@ -12072,7 +12270,7 @@ chrome_cultist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = oldworld }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12101,7 +12299,7 @@ chrome_cultist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = oldworld
 				NOT = { religion = chrome_cultist }
 			}
 			change_religion = chrome_cultist
@@ -12255,7 +12453,7 @@ glorian_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = oldworld
 	}
 	
 	# Country scope
@@ -12270,7 +12468,7 @@ glorian_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = oldworld }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12299,7 +12497,7 @@ glorian_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = oldworld
 				NOT = { religion = glorian }
 			}
 			change_religion = glorian
@@ -12850,7 +13048,7 @@ trailwalker_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = pagan_group
 	}
 	
 	# Country scope
@@ -12865,7 +13063,7 @@ trailwalker_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = pagan_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12894,7 +13092,7 @@ trailwalker_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = pagan_group
 				NOT = { religion = trailwalker }
 			}
 			change_religion = trailwalker
@@ -13246,7 +13444,7 @@ norse_pagan_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = pagan_group
 	}
 	
 	# Country scope
@@ -13261,7 +13459,7 @@ norse_pagan_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = pagan_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -13290,7 +13488,7 @@ norse_pagan_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = pagan_group
 				NOT = { religion = norse_pagan }
 			}
 			change_religion = norse_pagan
@@ -13642,7 +13840,7 @@ aria_de_machete_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = pagan_group
 	}
 	
 	# Country scope
@@ -13657,7 +13855,7 @@ aria_de_machete_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = pagan_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -13686,7 +13884,7 @@ aria_de_machete_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = pagan_group
 				NOT = { religion = aria_de_machete }
 			}
 			change_religion = aria_de_machete
@@ -14039,7 +14237,7 @@ pelagic_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = nautical
 	}
 	
 	# Country scope
@@ -14054,7 +14252,7 @@ pelagic_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = nautical }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14083,7 +14281,7 @@ pelagic_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = nautical
 				NOT = { religion = pelagic }
 			}
 			change_religion = pelagic
@@ -14238,7 +14436,7 @@ jewish_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = jewish_group
 	}
 	
 	# Country scope
@@ -14253,7 +14451,7 @@ jewish_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = jewish_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14282,7 +14480,7 @@ jewish_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = jewish_group
 				NOT = { religion = jewish }
 			}
 			change_religion = jewish
@@ -14436,7 +14634,7 @@ reform_faith_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = jewish_group
 	}
 	
 	# Country scope
@@ -14451,7 +14649,7 @@ reform_faith_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = jewish_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14480,7 +14678,7 @@ reform_faith_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = jewish_group
 				NOT = { religion = reform_faith }
 			}
 			change_religion = reform_faith
@@ -14634,7 +14832,7 @@ meshichist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = jewish_group
 	}
 	
 	# Country scope
@@ -14649,7 +14847,7 @@ meshichist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = jewish_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14678,7 +14876,7 @@ meshichist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = jewish_group
 				NOT = { religion = meshichist }
 			}
 			change_religion = meshichist
@@ -14833,7 +15031,7 @@ hinduism_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = dharmic
 	}
 	
 	# Country scope
@@ -14848,7 +15046,7 @@ hinduism_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = dharmic }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14877,7 +15075,7 @@ hinduism_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = dharmic
 				NOT = { religion = hinduism }
 			}
 			change_religion = hinduism
@@ -16619,7 +16817,7 @@ anglo_papalist_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -16634,7 +16832,7 @@ anglo_papalist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -16663,7 +16861,7 @@ anglo_papalist_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = anglo_papalist }
 			}
 			change_religion = anglo_papalist
@@ -16817,7 +17015,7 @@ united_church_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = mesoamerican
+		religion_group = christian
 	}
 	
 	# Country scope
@@ -16832,7 +17030,7 @@ united_church_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = mesoamerican }
+				NOT = { religion_group = christian }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -16861,7 +17059,7 @@ united_church_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = mesoamerican
+				religion_group = christian
 				NOT = { religion = united_church }
 			}
 			change_religion = united_church

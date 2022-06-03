@@ -1,11 +1,10 @@
-owner= MTC
-controller = MTC
-add_core = X17 
-add_core = MTC
-culture = cree
-religion = sedevacanist
-is_city = yes
+owner= ALB
+controller = ALB
+add_core = ALB
 
+culture = prairielander
+religion = trailwalker
+is_city = yes
 
 hre = no
 base_tax = 1

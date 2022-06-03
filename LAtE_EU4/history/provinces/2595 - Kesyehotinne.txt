@@ -1,17 +1,13 @@
-# No previous file for Kesyehotinne
+owner= MTC
+controller = MTC
+add_core = MTC
+add_core = SAS
 
 culture = metis
 religion = exovedate
-capital = "Kesyehotinne"
-trade_goods = unknown
+is_city = yes
+
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
-
-
-
-
+base_tax = 4
+base_production = 4
+base_manpower = 4

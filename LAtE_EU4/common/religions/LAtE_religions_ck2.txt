@@ -480,10 +480,6 @@ christian = {
     neognostic = {
 		color = { 0.6 0.6 0.3 }
 		icon = 12
-		allowed_conversion = {
-			reformed
-			protestant
-		}
 		country = {
 			tolerance_own = 2
 			stability_cost_modifier = -0.1

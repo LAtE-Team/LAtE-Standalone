@@ -1,8 +1,5 @@
 #226 - Gibraltar
 
-owner = GBR
-controller = GBR
-add_core= GBR
 culture = british
 religion = thelema
 hre = no
