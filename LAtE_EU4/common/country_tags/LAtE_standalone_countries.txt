@@ -104,3 +104,6 @@ STK = "countries/Stikine.txt" #Needs new names
 #Lakotah
 #Crow
 #Cheyenne
+
+COL = "countries/Colombia.txt"
+CAM = "countries/UPCA.txt"

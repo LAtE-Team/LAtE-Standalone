@@ -203,7 +203,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA6164"
-		change_religion = reformed
+#		change_religion = reformed
 	}
 }
 
@@ -419,7 +419,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA6168"
-		change_religion = reformed
+#		change_religion = reformed
 	}
 }
 
@@ -585,7 +585,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA6171"
-		change_religion = reformed
+#		change_religion = reformed
 	}
 }
 
@@ -1906,7 +1906,7 @@ province_event = {
 
 	option = {
 		name = "religious_events.EVTOPTA1"
-		change_religion = reformed
+#		change_religion = reformed
 	}
 }
 
@@ -2410,13 +2410,6 @@ country_event = {
 		add_stability = -4
 	}
 	option = {
-		name = "religious_events.18.dd" #
-		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = reformed } }
-		change_religion = reformed
-		add_stability = -4
-	}
-	option = {
 		name = "religious_events.18.e" #
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = protestant } }
@@ -2428,13 +2421,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 		trigger = { any_owned_province = { religion = anglican } }
 		change_religion = anglican
-		add_stability = -4
-	}
-	option = {
-		name = "religious_events.18.h" #
-		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = hussite } }
-		change_religion = hussite
 		add_stability = -4
 	}
 	option = {

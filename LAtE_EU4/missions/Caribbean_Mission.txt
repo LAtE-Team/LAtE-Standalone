@@ -543,10 +543,10 @@ Caribbean_missions_4 = {
 		effect = {
 			custom_tooltip = Cubans_Assimilating
 			set_country_flag = cubans_assimilating
-			add_disaster_progress = {
-				disaster = caribbean_civil_war
-				value = -10
-			}
+#			add_disaster_progress = {
+#				disaster = caribbean_civil_war
+#				value = -10
+#			}
 		}
 	}
 	Caribbean_Florida = {
@@ -577,9 +577,13 @@ Caribbean_missions_4 = {
 		required_missions = { }
 		position = 4
 		trigger = {
-			OR = {
-				has_discovered = europe
-				has_discovered = africa 
+			any_province = {
+				continent = europe
+				has_discovered = prev
+			}
+			any_province = {
+				continent = africa
+				has_discovered = prev
 			}
 		}
 		effect = {
@@ -672,10 +676,10 @@ Caribbean_missions_5 = {
 		effect = {
 			custom_tooltip = Dominican_Assimilating
 			set_country_flag = dominicans_assimilating
-			add_disaster_progress = {
-				disaster = caribbean_civil_war
-				value = -10
-			}
+#			add_disaster_progress = {
+#				disaster = caribbean_civil_war
+#				value = -10
+#			}
 		}
 	}
 	Caribbean_Voodoo_Purge  = {

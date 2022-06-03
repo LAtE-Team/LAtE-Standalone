@@ -60,7 +60,6 @@ heretic_rebels = {
 			is_year = 1450
 			owner = { religion = catholic }
 			NOT = { is_religion_enabled = protestant }
-			NOT = { is_religion_enabled = reformed }
 		}
 
 	}

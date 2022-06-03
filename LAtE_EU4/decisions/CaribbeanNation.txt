@@ -15,7 +15,6 @@ country_decisions = {
 				culture_group = caribbanglo
 				culture_group = caribeno
 				culture_group = antillais
-				culture_group = antillaanse
 			}
 			OR = {
 				ai = no

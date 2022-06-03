@@ -20,7 +20,6 @@ country_event = {
 		any_owned_province = {
 			OR = {
 				religion = protestant
-				religion = reformed
 			}
 		}
 		NOT = { has_country_flag = submission_of_the_clergy }
@@ -29,10 +28,6 @@ country_event = {
 	mean_time_to_happen = {
 		months = 240
 		
-		modifier = {
-			factor = 0.9
-			dominant_religion = reformed
-		}
 		modifier = {
 			factor = 0.9
 			dominant_religion = protestant

@@ -739,7 +739,7 @@ muslim = {
 	crusade_name = JIHAD
 }
 
-pagan = {
+pagan_group = {
 	inti = {
 		color = { 64 115 115 }
 		icon = 88

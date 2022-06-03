@@ -140,7 +140,7 @@ country_decisions = {
 				limit = {
 					is_tribal = yes
 				}
-				change_government = despotic_monarchy
+				add_government_reform = despotic_monarchy
 			}
 			#if = {
 			#	limit = {

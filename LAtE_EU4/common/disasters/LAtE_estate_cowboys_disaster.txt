@@ -96,7 +96,7 @@ estate_cowboys_disaster = {
 		always = yes
 	}
 
-	on_start = estate_disasters.12.s
+	on_start = LAtE_estate_disasters.12.s
 	
 	on_start_effect = {
 		if = {

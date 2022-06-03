@@ -9,7 +9,7 @@ estate_cowboys_cowboy_primacy = {
 	can_select = {
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
-			NOT = { has_estate_privilege = estate_nobility_nobility_primacy }
+			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
 			NOT = { has_estate_privilege = estate_rajput_military }
 			NOT = { has_estate_privilege = estate_maratha_military }
 		}
@@ -171,36 +171,6 @@ estate_cowboys_land_rights = {
 		modifier = {
 			factor = 1.25
 			tag = MOS
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = RUS
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = TUR
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = MNG
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = FRA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = SPA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = PLC
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active

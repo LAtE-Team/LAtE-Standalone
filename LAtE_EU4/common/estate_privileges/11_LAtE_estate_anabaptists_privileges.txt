@@ -111,36 +111,6 @@ estate_anabaptists_land_rights = {
 			tag = MOS
 			NOT = { adm_tech = 17 }
 		}
-		modifier = {
-			factor = 1.25
-			tag = RUS
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = TUR
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = MNG
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = FRA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = SPA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = PLC
-			NOT = { adm_tech = 17 }
-		}
 		#Has already a similar privilege active
 		modifier = {
 			factor = 0.75
@@ -216,7 +186,6 @@ estate_anabaptists_allow_growth = {
 					influence = 75
 				}
 			}
-			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
 		}
 		modifier = {
 			factor = 0.8
@@ -227,7 +196,6 @@ estate_anabaptists_allow_growth = {
 					NOT = { crown_land_share = 55 }
 				}
 			}
-			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
 		}
 		modifier = {
 			factor = 0.8
@@ -270,28 +238,6 @@ estate_anabaptists_allow_proselytization = {
 	}
 	ai_will_do = {
 		factor = 12
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 30 }
-				estate_influence = {
-					estate = estate_anabaptists
-					influence = 75
-				}
-			}
-			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 35 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 55 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_anabaptists_diplomacy }
-		}
 		modifier = {
 			factor = 0.8
 			is_absolutism_active = yes

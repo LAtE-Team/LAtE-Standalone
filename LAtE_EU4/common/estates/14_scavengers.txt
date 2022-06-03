@@ -21,6 +21,10 @@ estate_scavengers =
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
 
+	province_independence_weight = {
+		factor = 1
+	}
+
 	# These scale with loyalty & power
 	country_modifier_happy = {
 		technology_cost = -0.1

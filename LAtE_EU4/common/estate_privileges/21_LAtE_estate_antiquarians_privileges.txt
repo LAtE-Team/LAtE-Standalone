@@ -111,36 +111,6 @@ estate_antiquarians_land_rights = {
 			tag = MOS
 			NOT = { adm_tech = 17 }
 		}
-		modifier = {
-			factor = 1.25
-			tag = RUS
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = TUR
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = MNG
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = FRA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = SPA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = PLC
-			NOT = { adm_tech = 17 }
-		}
 		#Has already a similar privilege active
 		modifier = {
 			factor = 0.75
@@ -315,7 +285,7 @@ estate_antiquarians_enforced_one_faith = {
         custom_tooltip = estate_antiquarians_one_faith_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_antiquarians_one_faith_mod
@@ -487,7 +457,7 @@ estate_antiquarians_old_world_communities = {
         custom_tooltip = estate_antiquarians_old_world_communities_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_antiquarians_old_world_communities_mod

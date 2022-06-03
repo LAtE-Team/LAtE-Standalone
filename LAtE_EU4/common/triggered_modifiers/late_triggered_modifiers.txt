@@ -194,7 +194,7 @@ mormon_independence = {
 	potential = {
 		normal_or_historical_nations = yes
 		has_discovered = 902	# Missouri
-		religion = latter_day_saints
+		religion_group = latter_day_saints
 	}
 
 	trigger = {

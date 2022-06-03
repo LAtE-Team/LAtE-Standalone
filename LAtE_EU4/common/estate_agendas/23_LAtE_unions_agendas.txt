@@ -2071,8 +2071,8 @@ estate_unions_colonise_X = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 			}
@@ -2264,8 +2264,8 @@ estate_unions_colonise_more_X = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 			}
@@ -2428,8 +2428,8 @@ estate_unions_colonial_nation = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 			}

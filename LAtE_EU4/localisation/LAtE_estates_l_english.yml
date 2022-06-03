@@ -170,6 +170,8 @@
  #Cowboys:
  estate_cowboys: "Cowboys"
  estate_cowboys_desc: "The Cowboys are the free people of the Steppes. Their background varies, some have been born on the grasslands while others are escaped serfs from the great latifundia that border the wild fields. Great raiders and hardy settlers, the Cowboys aspire to be recognized as an estate of the same importance as the Nobility and to strike down at anyone who would attempt to limit their freedom."
+ estate_cowboys_cowboy_primacy: "Cowboy Primacy"
+ estate_cowboys_cowboy_primacy_desc: "Giving the [Root.GetCowboysName] free rein over our military would strengthen our capacities considerably, even if it may cost us dearly in compensating their contributions."
  estate_cowboys_land_rights: "$ESTATE_NAME$ Land Rights"
  estate_cowboys_land_rights_desc: "The [Root.GetCowboysName] fancy themselves as a state within the state of [Root.GetUsableName] - or at least as a self-governing community. Allowing them to own further land would embolden their ambitions but could nevertheless be useful, as we would be able to make greater use of them as a paramilitary force."
  estate_cowboys_exploration_expedition: "$ESTATE_NAME$ Exploration Expeditions"

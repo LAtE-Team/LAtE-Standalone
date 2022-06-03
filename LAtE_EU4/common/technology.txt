@@ -164,7 +164,7 @@ groups = {
 				capital_scope = {
 					OR = {
 						continent = new_world
-					continent = north_america
+						continent = north_america
 						continent = south_america
 						continent = oceania
 					}

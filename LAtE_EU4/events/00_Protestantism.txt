@@ -2352,14 +2352,14 @@ province_event = {
 				}
 				random_empty_neighbor_province = {
 					create_colony = 300
-					change_religion = reformed
+					change_religion = protestant
 				}
 			}
 		}
 	}
 	option = {
 		name = protestantism_events.36.c #Convince the Protestant party to move to other lands.
-		change_religion = reformed
+#		change_religion = reformed
 		owner = {
 			random_owned_province = {
 				limit = {

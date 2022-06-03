@@ -117,7 +117,9 @@ scavenging_hub = {
 		factor = 1
         modifier ={
             factor = 105
-            has_estate_privilege = estate_scavengers_state_bands   
+            owner = {
+				has_estate_privilege = estate_scavengers_state_bands   
+			}
         }
 #		modifier = {
 #			factor = 105

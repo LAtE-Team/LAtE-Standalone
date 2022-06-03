@@ -76,7 +76,7 @@ colombiano = {
 }
 afroanglo = {
 	liberian = {
-		primary = LIB
+		primary = LBR
 	}
 }
 argentine = {

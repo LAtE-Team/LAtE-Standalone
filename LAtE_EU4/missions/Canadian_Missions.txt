@@ -15,7 +15,7 @@ que_restore_cathedral = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				province_id = 1008 # winnipeg
 				province_id = 2017 # edmonton
 				province_id = 992 # gatineau
@@ -49,7 +49,7 @@ que_restore_cathedral = {
 					has_building = cathedral
 				}
 				OR ={
-					has_estate = estate_church
+					owner = { has_estate = estate_church }
 					is_capital = yes					
 					owned_by = URS
 					has_building = cathedral
@@ -202,7 +202,7 @@ ont_religon = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				province_id = 4551 # halifax
 				province_id = 4531 # kingston
 				province_id = 993 # montreal
@@ -229,7 +229,7 @@ ont_religon = {
 					has_building = cathedral
 				}
 				OR ={
-					has_estate = estate_church
+					owner = { has_estate = estate_church }
 					is_capital = yes
 					has_building = cathedral
 				}
@@ -1439,7 +1439,7 @@ que_ont_quebec = {
 		required_missions = { que_ont_conquer_prairies }
 		position = 7
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				province_id = 2597 # saskatoon
 				province_id = 2005 # regina
 				province_id = 2004 # calgary
@@ -3937,7 +3937,7 @@ que_ont_peace = {
 			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = { num_of_rebel_armies = 1 }
 			NOT = { war_exhaustion = 0.01 }
-			has_truce = ROOT
+#			has_truce = ROOT
 		}
 		effect = {
 			add_prestige = 25

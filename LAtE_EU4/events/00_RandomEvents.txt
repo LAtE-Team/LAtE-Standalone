@@ -12605,26 +12605,10 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					religion = reformed
-				}
-			}
-			change_religion = reformed
-		}
-		if = {
-			limit = {
-				owner = {
 					religion = anglican
 				}
 			}
 			change_religion = anglican
-		}
-		if = {
-			limit = {
-				owner = {
-					religion = hussite
-				}
-			}
-			change_religion = hussite
 		}
 		owner = {
 			add_reform_desire = 0.015
@@ -13036,26 +13020,10 @@ country_event = {
 			if = {
 				limit = {
 					owner = {
-						religion = reformed
-					}
-				}
-				change_religion = reformed
-			}
-			if = {
-				limit = {
-					owner = {
 						religion = anglican
 					}
 				}
 				change_religion = anglican
-			}
-			if = {
-				limit = {
-					owner = {
-						religion = hussite
-					}
-				}
-				change_religion = hussite
 			}
 		}
 	}

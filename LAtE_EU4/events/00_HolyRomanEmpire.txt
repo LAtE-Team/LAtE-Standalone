@@ -81,7 +81,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA9075"
-		change_tag = USA
+		change_tag = HLR
 		restore_country_name_effect = yes
 		add_country_modifier = {
 			name = "rome_reborn"

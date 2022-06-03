@@ -467,7 +467,6 @@ prussian_republic = {
 		OR = {
 			is_playing_custom_nation = yes
 			religion = protestant
-			religion = reformed
 		}
 	}
 	
@@ -542,9 +541,6 @@ pirate_republic = {
 			}
 		}
 		NOT = { technology_group = andean }
-		NOT = { technology_group = north_american }
-		NOT = { technology_group = south_american }
-		NOT = { technology_group = mesoamerican }
 	}
 	
 	potential = {	
@@ -1380,17 +1376,7 @@ native_council_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		OR = {
-			technology_group = north_american
-			technology_group = south_american
-		}
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-			}
-		}
+		always =  yes
 	}
 
     fixed_rank = 1
@@ -1792,7 +1778,7 @@ celestial_empire_legacy = {
 	start_territory_to_estates = 0.9
 	nation_designer_trigger = {
 		culture_group = east_asian
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = {
 			OR = {
 				region = north_china_region
@@ -1873,7 +1859,6 @@ prussian_monarchy_legacy = {
 		OR = {
 			is_playing_custom_nation = yes
 			religion = protestant
-			religion = reformed
 		}
 	}
 
@@ -1950,7 +1935,7 @@ daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 	}
 
@@ -2019,7 +2004,7 @@ shogunate_legacy = {
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 		owns = 1020
 	}
@@ -2054,7 +2039,7 @@ indep_daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 	}
 
@@ -2334,7 +2319,6 @@ principality_legacy = {
 	nation_designer_cost = 5
 	nation_designer_trigger = {
 		culture_group = east_slavic
-		religion = orthodox
 	}
 
     fixed_rank = 1
@@ -2371,7 +2355,6 @@ tsardom_legacy = {
 
 	nation_designer_trigger = {
 		culture_group = east_slavic
-		religion = orthodox
 	}
 
     fixed_rank = 3
@@ -2572,13 +2555,11 @@ negusa_nagast = {
 	potential = {
 		OR = {
 			have_had_reform = negusa_nagast
-			tag = ETH
 		}
 	}
 	trigger = {
 		OR = {
 			have_had_reform = negusa_nagast
-			tag = ETH
 		}
 	}
 	valid_for_nation_designer = yes
@@ -2821,7 +2802,6 @@ mossi_federal_kingdom_legacy = {
 			}
 			AND = {
 				has_country_flag = msi_mossi_kingdom_event
-				tag = MSI
 			}
 		}
 	}
@@ -2869,7 +2849,6 @@ mossi_federal_kingdom = {
 			}
 			AND = {
 				has_country_flag = msi_mossi_kingdom_event
-				tag = MSI
 			}
 		}
 	}
@@ -2960,13 +2939,11 @@ musa_rule = {
 	legacy_equivalent = musa_rule_legacy
 	potential = {
 		OR = {
-			tag = MAL
 			have_had_reform = musa_rule
 		}
 	}
 	trigger = {
 		OR = {
-			tag = MAL
 			have_had_reform = musa_rule
 		}
 	}
@@ -3006,7 +2983,7 @@ great_man = {
 	potential = {
 		OR = {
 			AND = {
-				religion = shamanism
+				religion = animism
 				capital_scope = {
 					has_terrain = jungle
 				}
@@ -3017,7 +2994,7 @@ great_man = {
 	trigger = {
 		OR = {
 			AND = {
-				religion = shamanism
+				religion = animism
 				capital_scope = {
 					has_terrain = jungle
 				}

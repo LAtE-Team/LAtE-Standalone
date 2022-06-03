@@ -970,13 +970,11 @@ estate_burghers_discover_X_in_america = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 				tag = FRA
-				tag = NAV
-				tag = DAN
 				tag = NOR
 			}
 		}
@@ -1096,13 +1094,11 @@ estate_burghers_colonise_X = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 				tag = FRA
-				tag = NAV
-				tag = DAN
 				tag = NOR
 			}
 		}
@@ -1292,13 +1288,11 @@ estate_burghers_colonise_more_X = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 				tag = FRA
-				tag = NAV
-				tag = DAN
 				tag = NOR
 			}
 		}
@@ -1462,13 +1456,11 @@ estate_burghers_colonial_nation = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 				tag = FRA
-				tag = NAV
-				tag = DAN
 				tag = NOR
 			}
 		}
@@ -1565,8 +1557,8 @@ estate_burghers_expand_trade_company = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = POR
-				tag = CAS
+				tag = MRT
+				tag = QUE
 				tag = GBR
 				tag = NED
 			}
@@ -1783,17 +1775,18 @@ estate_burghers_trade_post_in_india = {
 estate_burghers_trade_post_in_malacca = {
 	can_select = {
 		is_at_war = no
+		always = no #check in on this later
 		capital_scope = {
 			continent = europe
 		}
 		num_of_ports = 6
-		NOT = {
-			any_owned_province = {
-				trade_company_region = trade_company_indonesia
-			}
-		}
+#		NOT = {
+#			any_owned_province = {
+#				trade_company_region = trade_company_indonesia
+#			}
+#		}
 		any_province = {
-			trade_company_region = trade_company_indonesia
+#			trade_company_region = trade_company_indonesia
 			has_port = yes
 			range = ROOT
 			has_discovered = ROOT
@@ -1815,7 +1808,7 @@ estate_burghers_trade_post_in_malacca = {
 		}
 	}
 	provinces_to_highlight = {
-		trade_company_region = trade_company_indonesia
+#		trade_company_region = trade_company_indonesia
 		OR = {
 			trade_goods = spices
 			trade_goods = cloves
@@ -1824,7 +1817,7 @@ estate_burghers_trade_post_in_malacca = {
 	}
 	task_requirements = {
 		any_owned_province = {
-			trade_company_region = trade_company_indonesia
+#			trade_company_region = trade_company_indonesia
 			OR = {
 				trade_goods = spices
 				trade_goods = cloves
@@ -1841,7 +1834,7 @@ estate_burghers_trade_post_in_malacca = {
 			limit = {
 				NOT = {
 					any_owned_province = {
-						trade_company_region = trade_company_indonesia
+#						trade_company_region = trade_company_indonesia
 						OR = {
 							trade_goods = spices
 							trade_goods = cloves
@@ -1855,7 +1848,7 @@ estate_burghers_trade_post_in_malacca = {
 		else = {
 			random_owned_province = {
 				limit = {
-					trade_company_region = trade_company_indonesia
+#					trade_company_region = trade_company_indonesia
 					OR = {
 						trade_goods = spices
 						trade_goods = cloves
@@ -2043,6 +2036,7 @@ estate_burghers_silk_trade = {
 #Get 5 spice provinces
 estate_burghers_spice_trade = {
 	can_select = {
+		always = no
 		is_at_war = no
 		capital_scope = {
 			continent = europe
@@ -2050,7 +2044,7 @@ estate_burghers_spice_trade = {
 		any_owned_province = {
 			OR = {
 				superregion = india_superregion
-				trade_company_region = trade_company_indonesia
+#				trade_company_region = trade_company_indonesia
 			}
 		}
 		NOT = { spices = 3 }
@@ -2133,7 +2127,6 @@ estate_burghers_tea_trade = {
 		modifier = {
 			factor = 2.5
 			OR = {
-				tag = ENG
 				tag = GBR
 			}
 		}

@@ -89,12 +89,6 @@ country_decisions = {
 				}
 				add_permanent_claim = NYS
 			}
-			cayuga_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = NYS
-			}
 			hudson_valley_area = {
 				limit = {
 					NOT = { owned_by = ROOT }

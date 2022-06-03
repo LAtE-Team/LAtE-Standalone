@@ -98,7 +98,7 @@ estate_scavengers_old_world_construction = {
         custom_tooltip = estate_scavengers_old_world_construction_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_scavengers_old_world_construction_mod
@@ -209,7 +209,7 @@ estate_scavengers_scavenge_equipment = {
         custom_tooltip = estate_scavengers_scavenge_equipment_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_scavengers_scavenge_equipment_mod

@@ -1062,7 +1062,6 @@ country_event = {
 		dip_tech = 8
 		OR = {
 			has_reform = shogunate
-			tag = JAP
 		}
 		NOT = { has_global_flag = japanese_tea_happened }
 	}
@@ -2235,50 +2234,7 @@ country_event = {
 }
 
 # Protestant and Reformed Churches Reject Incense
-country_event = {
-	id = prices.40
-	title = prices.40.t
-	desc = prices.40.d
-	picture = TRADEGOODS_eventPicture
-
-	fire_only_once = yes
-	
-	major = yes
-
-	trigger = {
-		NOT = { has_global_flag = incense_rejected }
-		is_religion_enabled = reformed
-		religion = reformed
-		any_owned_province = {
-			is_reformation_center = yes
-			religion = reformed
-		}
-		calc_true_if = {
-			all_country = {
-				OR = {
-					religion = protestant
-					religion = reformed
-				}
-			}
-			amount = 10
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = prices.40.a
-		add_fervor = 15
-		change_price = {
-			trade_goods = incense
-			key = REFORMED_REJECTION_OF_INCENSE
-			value = -0.25
-			duration = -1
-		}
-	}
-}
+# prices.40 removed
 
 
 # Growth of the Perfume Industry
@@ -2619,10 +2575,8 @@ country_event = {
 				}
 				random_owned_province = {
 					limit = {
-						any_owned_province = {
-							trade_goods = coal
-							NOT = { has_building = furnace }
-						}
+						trade_goods = coal
+						NOT = { has_building = furnace }
 					}
 					save_event_target_as = potential_furnace
 				}

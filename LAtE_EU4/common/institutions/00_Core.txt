@@ -31,7 +31,7 @@ feudalism = {
 				government = native
 				primary_culture = bedouin_arabic
 				primary_culture = uyghur
-				technology_group = sub_saharan
+#				technology_group = sub_saharan
 			}
 		}
 	}
@@ -133,13 +133,13 @@ feudalism = {
 				#NOT = { continent = south_america }
 				#NOT = { continent = new_world }
 				owner = {
-					NOT = { government = tribal_democracy }
-					NOT = { government = tribal_kingdom }
-					NOT = { government = tribal_despotism }
-					NOT = { government = tribal_federation }
-					NOT = { government = siberian_native_council }
-					NOT = { government = native_council }
-					NOT = { government = steppe_horde }
+#					NOT = { has_reform = tribal_democracy }
+					NOT = { has_reform = tribal_kingdom }
+					NOT = { has_reform = tribal_despotism }
+					NOT = { has_reform = tribal_federation }
+					NOT = { has_reform = siberian_native_council }
+#					NOT = { has_reform = native_council }
+					NOT = { has_reform = steppe_horde }
 				}
 			}
 		}
@@ -610,12 +610,12 @@ printing_press = {
 		owner = {
 			adm_tech = 12
 			NOT = {
-				government = siberian_native_council
-				government = steppe_horde
-				government = tribal_kingdom
-				government = tribal_despotism
-				government = tribal_federation
-				government = tribal_democracy
+				has_reform = siberian_native_council
+				has_reform = steppe_horde
+				has_reform = tribal_kingdom
+				has_reform = tribal_despotism
+				has_reform = tribal_federation
+#				has_reform = tribal_democracy
 			}
 		}
 	}

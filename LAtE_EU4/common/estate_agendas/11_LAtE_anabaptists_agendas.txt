@@ -1049,7 +1049,7 @@ estate_anabaptists_build_manufactory_in_y = {
 					}
 					has_building = ramparts
 					has_building = soldier_households
-					has_building = imanabaptistsment_offices
+					has_building = impressment_offices
 					has_building = state_house
 				}
 			}

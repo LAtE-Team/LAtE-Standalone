@@ -861,7 +861,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_MORAVIAN }
+		heretic = { OLD_MORAVIAN }
 	}
 
     wormwoodist = {
@@ -877,7 +877,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_WORMWOODIST }
+		heretic = { OLD_WORMWOODIST }
 	}
 
 	anglican = {
@@ -927,7 +927,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_NONCONFORMIST }
+		heretic = { OLD_NONCONFORMIST }
 	}
 
     apostolic = {
@@ -943,7 +943,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_APOSTOLIC }
+		heretic = { OLD_APOSTOLIC }
 	}
 
     celeste = {
@@ -959,7 +959,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_CELESTE }
+		heretic = { OLD_CELESTE }
 	}
 
     nazarene = {
@@ -975,7 +975,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_NAZARENE }
+		heretic = { OLD_NAZARENE }
 	}
 
     true_cross = {
@@ -991,7 +991,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 		
-		heresies = { OLD_TRUE_CROSS }
+		heretic = { OLD_TRUE_CROSS }
 	}
 
     edenite = {
@@ -1007,7 +1007,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_EDENITE }
+		heretic = { OLD_EDENITE }
 	}
 
     cristo_rey = {
@@ -1023,7 +1023,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_CRISTO_REY }
+		heretic = { OLD_CRISTO_REY }
 	}
 
     reformista = {
@@ -1039,7 +1039,7 @@ christian = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_REFORMISTA }
+		heretic = { OLD_REFORMISTA }
 	}
 }
 
@@ -1057,7 +1057,7 @@ cult_of_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_SACRED_HEART }
+		heretic = { OLD_SACRED_HEART }
 	}
 
     patria_grande = {
@@ -1073,7 +1073,7 @@ cult_of_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_PATRIA_GRANDE }
+		heretic = { OLD_PATRIA_GRANDE }
 	}
 
     fidencista = {
@@ -1089,7 +1089,7 @@ cult_of_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_FIDENCISTA }
+		heretic = { OLD_FIDENCISTA }
 	}
 
     navegante = {
@@ -1105,7 +1105,7 @@ cult_of_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_NAVEGANTE }
+		heretic = { OLD_NAVEGANTE }
 	}
 
 	harmonized_modifier = harmonized_cult_of_saints 
@@ -1287,7 +1287,7 @@ latter_day_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_LAMANITA }
+		heretic = { OLD_LAMANITA }
 	}
 
     furiegi = {
@@ -1303,7 +1303,7 @@ latter_day_saints = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_FURIEGI }
+		heretic = { OLD_FURIEGI }
 	}
 
 	harmonized_modifier = harmonized_latter_day_saints    
@@ -1583,7 +1583,7 @@ oldworld = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_APHITE }
+		heretic = { OLD_APHITE }
 	}
 
     rust_cultist = {
@@ -1614,7 +1614,7 @@ oldworld = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_CHROME_CULTIST }
+		heretic = { OLD_CHROME_CULTIST }
 	}
 
     glorian = {
@@ -1630,7 +1630,7 @@ oldworld = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_GLORIAN }
+		heretic = { OLD_GLORIAN }
 	}
 
     thelema = { #was thelemic
@@ -1695,7 +1695,7 @@ pagan_group = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_TRAILWALKER }
+		heretic = { OLD_TRAILWALKER }
 	}
 
     occultist = {
@@ -1761,7 +1761,7 @@ pagan_group = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_ARIA }
+		heretic = { OLD_ARIA }
 	}
 }
 
@@ -1795,7 +1795,7 @@ nautical = { #was pirate
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_PELAGIC }
+		heretic = { OLD_PELAGIC }
 	}
 
 	harmonized_modifier = harmonized_nautical #change from harmonized_pirate
@@ -1941,7 +1941,7 @@ jewish_group = {
 			tolerance_heretic = -1
 		}
 
-		heresies = { OLD_MESHICIST }
+		heretic = { OLD_MESHICIST }
 	}
 }
 
@@ -2599,7 +2599,7 @@ dharmic = {
 
 }
 
-muslim = { #heresies considered as religious schools
+muslim = { #heretic considered as religious schools
 	religious_schools = {
 		salafi_school = {
 			potential_invite_scholar = {

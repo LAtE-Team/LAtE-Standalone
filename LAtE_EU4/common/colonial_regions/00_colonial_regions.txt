@@ -880,56 +880,45 @@
 # }
 
 # Colombia				#Bringing this back as a placeholder since something somewhere uses it as a trigger
-colonial_colombia = {
-	color = { 227 40 40 }
-
-	# Random New World
-	tax_income = 3
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 2
-	
-	trade_goods = {
-		fur = 3
-		cocoa = 7
-		gold = 3
-		grain = 4
-		naval_supplies = 1
-	}
-
-	culture = {
-		guajiro = 15
-		inca = 6
-	}
-	
-	religion = {
-		animism = 10
-	}
-	
-	provinces = {
-		
-	}
+#colonial_colombia = {
+#	color = { 227 40 40 }
+#
+#	# Random New World
+#	tax_income = 3
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	
+#	trade_goods = {
+#		fur = 3
+#		cocoa = 7
+#		gold = 3
+#		grain = 4
+#		naval_supplies = 1
+#	}
+#
+#	culture = {
+#		guajiro = 15
+#		inca = 6
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#	
+#	provinces = {
+#		
+#	}
 
 	# Specific
-	names = {
-		trigger = {
-			OR = {
-				tag = SPA
-				tag = CAS
-				tag = ARA
-			}
-			owns = 223 # Granada
-		}
-		name = "COLONIAL_COLOMBIA_New_Granada"
-	}
 	# Generic
-	names = {
-		name = "COLONIAL_COLOMBIA_Root_Culture_GetName_Colombia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#	names = {
+#		name = "COLONIAL_COLOMBIA_Root_Culture_GetName_Colombia"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # # Brazil
 # colonial_brazil = {
@@ -1080,16 +1069,16 @@ colonial_colombia = {
 	# }
 # }
 
-colonial_britain = {
-	
-	names = {
-		name = "COLONIAL_BRITAIN_Root_Culture_GetName_Britain"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-
-}
+#colonial_britain = {
+#	
+#	names = {
+#		name = "COLONIAL_BRITAIN_Root_Culture_GetName_Britain"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#
+#}
 
 # Used for RNW
 colonial_placeholder_1 = {
