@@ -1,0 +1,16 @@
+rust_cult_armour_modifier_1 = {
+	land_morale = 0.05
+	fire_damage_received = -0.05
+}
+
+rust_cult_armour_modifier_2 = {
+	land_morale = 0.10
+	fire_damage_received = -0.05
+	shock_damage_received = -0.05
+}
+
+rust_cult_armour_modifier_3 = {
+	land_morale = 0.10
+	fire_damage_received = -0.10
+	shock_damage_received = -0.10
+}

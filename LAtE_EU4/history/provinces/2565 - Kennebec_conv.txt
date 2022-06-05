@@ -4,7 +4,7 @@ add_core = RED
 add_core = MNE
 
 culture = yankee
-religion = glorian
+religion = occultist
 is_city = yes
 
 

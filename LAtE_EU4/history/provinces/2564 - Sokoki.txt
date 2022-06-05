@@ -4,7 +4,7 @@ add_core = RED
 add_core = WMT
 
 culture = yankee
-religion = glorian
+religion = americanist
 is_city = yes
 
 

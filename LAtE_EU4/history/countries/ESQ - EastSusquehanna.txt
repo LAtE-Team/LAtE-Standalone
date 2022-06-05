@@ -3,10 +3,11 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = deitsch
 religion = americanist
+religious_school = jefferson_school
+
 clear_scripted_personalities = yes
 capital = 2558
 3053.1.1= {

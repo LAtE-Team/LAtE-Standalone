@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_oldworld_school"
+		texturefile = "gfx/interface/icon_oldworld_school.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_washington"
+		texturefile = "gfx/interface/icon_oldworld_school_washington.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_mall"
+		texturefile = "gfx/interface/icon_oldworld_school_mall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_atom"
+		texturefile = "gfx/interface/icon_oldworld_school_atom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_aphite"
+		texturefile = "gfx/interface/icon_oldworld_school_aphite.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_rust"
+		texturefile = "gfx/interface/icon_oldworld_school_rust.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_queen"
+		texturefile = "gfx/interface/icon_oldworld_school_queen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_crowley"
+		texturefile = "gfx/interface/icon_oldworld_school_crowley.dds"
+	}
+}

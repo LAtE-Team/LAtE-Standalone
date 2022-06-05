@@ -3,13 +3,13 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = rostmann
 religion = rust_cultist
+religious_school = rust_school
+
 clear_scripted_personalities = yes
 capital = 4704
-
 historical_rival = MIC
 
 3034.1.11 = {

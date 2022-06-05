@@ -7,6 +7,8 @@ mercantilism = 0.1
 technology_group = eastern
 primary_culture = delawarean
 religion = americanist
+religious_school = washington_school
+
 clear_scripted_personalities = yes
 capital = 4620
 3044.7.20 = {

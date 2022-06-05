@@ -7,5 +7,7 @@ mercantilism = 0.1
 technology_group = eastern
 primary_culture = gothamite
 religion = americanist
+religious_school = liberty_school
+
 clear_scripted_personalities = yes
 capital = 4540

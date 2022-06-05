@@ -1,0 +1,69 @@
+rust_cultist_improve_effect = {
+	if = {
+		limit = {
+			has_country_flag = rust_cult_improvements_4
+		}
+		add_prestige = 10
+	}
+	else_if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_3
+		}
+		clr_country_flag = rust_cult_improvements_3
+		set_country_flag = rust_cult_improvements_4
+	}
+	else_if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_2
+		}
+		clr_country_flag = rust_cult_improvements_2
+		set_country_flag = rust_cult_improvements_3
+	}
+	else_if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_1
+		}
+		clr_country_flag = rust_cult_improvements_1
+		set_country_flag = rust_cult_improvements_2
+	}
+	else = {
+		set_country_flag = rust_cult_improvements_1
+	}
+
+	custom_tooltip = RUST_CULTIST_IMPROVE_TT
+}
+
+rust_cultist_reduce_effect = {
+	if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_4
+		}
+		clr_country_flag = rust_cult_improvements_4
+		set_country_flag = rust_cult_improvements_3
+	}
+	else_if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_3
+		}
+		clr_country_flag = rust_cult_improvements_3
+		set_country_flag = rust_cult_improvements_2
+	}
+	else_if = {
+		limit = { 
+			has_country_flag = rust_cult_improvements_2
+		}
+		clr_country_flag = rust_cult_improvements_2
+		set_country_flag = rust_cult_improvements_1
+	}
+	else_if = {
+		limit = {
+			has_country_flag = rust_cult_improvements_1
+		}
+		set_country_flag = rust_cult_improvements_1
+	}
+	else = {
+		add_prestige = -10
+	}
+
+	custom_tooltip = RUST_CULTIST_REDUCE_TT
+}

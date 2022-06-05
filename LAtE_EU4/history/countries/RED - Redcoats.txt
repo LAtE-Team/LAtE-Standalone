@@ -3,11 +3,11 @@ setup_vision = yes
 government = monarchy 
 add_government_reform = autocracy_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = british
 add_accepted_culture = yankee
 religion = glorian
+religious_school = queen_school
 clear_scripted_personalities = yes
 capital = 968
 
