@@ -1,9 +1,7 @@
 # Cariboo
 setup_vision = yes
 government = theocracy 
-
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = canuck
 religion = gaian
@@ -20,9 +18,4 @@ capital = 2606
 	}
 	add_ruler_personality = infertile_personality
 	add_ruler_personality = righteous_personality
-}
-3053.1.1 {
-	capital = 2606
-	add_treasury = 23
-	add_prestige = 22
 }

@@ -1,6 +1,6 @@
-owner = X04
-controller = X04
-add_core = X04
+owner = HDR
+controller = HDR
+add_core = HDR
 
 culture = paiute
 religion = gaian

@@ -1,0 +1,33 @@
+# Portlandia
+setup_vision = yes
+government = theocracy
+
+government_rank = 1
+technology_group = western
+primary_culture = cascadian
+religion = gaian
+clear_scripted_personalities = yes
+capital = 873
+3053.1.1= {
+	monarch = {
+		name = "Fritz"
+		birth_date = 3011.4.28
+		dynasty = "Thielsen"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Jill"
+		monarch_name = "Jill"
+		dynasty = "Thielsen"
+		birth_date = 3035.7.5
+		death_date = 3115.7.5
+		female = yes
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	add_heir_personality = midas_touched_personality
+}

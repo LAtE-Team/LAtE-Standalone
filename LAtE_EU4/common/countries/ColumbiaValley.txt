@@ -1,5 +1,4 @@
 # Columbia Valley
-ck2_converter_generated = yes
 graphical_culture = asiangfx
 color = { 206 114 15 }
 

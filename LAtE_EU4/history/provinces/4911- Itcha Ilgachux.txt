@@ -1,7 +1,7 @@
-owner = X08
-controller = X08
-add_core = X08
-add_core = X08
+owner = CRB
+controller = CRB
+add_core = CRB
+add_core = CRB
 
 culture = canuck
 religion = gaian

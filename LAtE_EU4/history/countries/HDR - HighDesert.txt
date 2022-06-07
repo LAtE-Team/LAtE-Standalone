@@ -3,7 +3,6 @@ setup_vision = yes
 government = theocracy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = paiute
 religion = gaian
@@ -19,9 +18,4 @@ capital = 4516
 		mil = 4
 	}
 	add_ruler_personality = conqueror_personality
-}
-3053.1.1 {
-	capital = 4516
-	add_treasury = 9
-	add_prestige = 62
 }

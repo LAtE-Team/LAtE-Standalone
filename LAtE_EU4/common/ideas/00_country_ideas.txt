@@ -15624,42 +15624,6 @@ SUL_ideas = {
 	}
 }
 
-CRB_ideas = { 
-	start = {
-		num_accepted_cultures = 1
-		core_creation = -0.20
-	}
-	bonus = {
-		global_ship_trade_power = 0.2
-	}
-	trigger = {
-		tag = CRB
-	}
-	free = yes
-	crb_negara_gede = { 
-		yearly_absolutism = 1
-		legitimacy = 1
-	}
-	crb_tari_topeng = { 
-		same_culture_advisor_cost = -0.25
-	}
-	crb_alis_panther = { 
-		land_morale = 0.15
-	}
-	crb_mount_ciremai = { 
-		fire_damage = 0.1
-	}
-	crb_islamic_schools = { 
-		global_missionary_strength = 0.02
-	}
-	crb_batik_textiles = {
-		production_efficiency = 0.1
-	}
-	crb_royal_lineage = {
-		global_unrest = -1
-	}
-}
-
 tongan_ideas = { #Credit to James Beaumont
 	start = {
 		liberty_desire_from_subject_development = -0.25

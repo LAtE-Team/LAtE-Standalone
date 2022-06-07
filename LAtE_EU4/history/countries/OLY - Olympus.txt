@@ -1,0 +1,10 @@
+# Olympus
+setup_vision = yes
+government = monarchy 
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+primary_culture = salish
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 2485

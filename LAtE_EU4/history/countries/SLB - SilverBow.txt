@@ -3,7 +3,6 @@ setup_vision = yes
 government = theocracy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = nez_perce
 religion = peyotist
@@ -31,9 +30,4 @@ capital = 2019
 		mil = 1
 	}
 	add_heir_personality = just_personality
-}
-3053.1.1 {
-	capital = 2019
-	add_treasury = 31
-	add_prestige = 9
 }

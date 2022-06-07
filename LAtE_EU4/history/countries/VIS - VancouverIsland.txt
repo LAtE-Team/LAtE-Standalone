@@ -1,9 +1,8 @@
-# Vancouver Strait
+# Vancouver Island
 setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = canuck
 religion = gaian
@@ -20,9 +19,4 @@ capital = 972
 	}
 	add_ruler_personality = expansionist_personality
 	add_ruler_personality = craven_personality
-}
-3053.1.1 {
-	capital = 2604
-	add_treasury = 33
-	add_prestige = 405
 }

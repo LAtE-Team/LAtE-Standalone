@@ -24,7 +24,7 @@ north_pacific = {
 
 	}
 	canuck = {
-		primary = CSC
+		primary = VAN
 		dynasty_names = { "Strathcona" }
 
 		male_names = {

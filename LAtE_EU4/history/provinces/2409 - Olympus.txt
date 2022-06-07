@@ -2,7 +2,7 @@
 owner = SAL
 controller = SAL
 add_core = SAL
-add_core = X09
+add_core = OLY
 
 culture = cascadian
 religion = raven_tales

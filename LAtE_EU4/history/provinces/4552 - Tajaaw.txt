@@ -1,12 +1,12 @@
 owner = SAL
 controller = SAL
 add_core = SAL
+add_core = VIS
 
 culture = salish
 religion = raven_tales
 trade_goods = copper
 is_city = yes
-add_core = X07
 
 
 hre = no

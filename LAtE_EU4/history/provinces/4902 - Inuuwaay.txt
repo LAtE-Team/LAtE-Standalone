@@ -1,6 +1,6 @@
-owner = X10
-controller = X10
-add_core = X10
+owner = COV
+controller = COV
+add_core = COV
 culture = inlander
 religion = gaian
 

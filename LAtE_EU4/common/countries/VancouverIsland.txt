@@ -1,5 +1,4 @@
-# Vancouver Strait
-ck2_converter_generated = yes
+# Vancouver Island
 graphical_culture = asiangfx
 color = { 77 159 118 }
 

@@ -1,7 +1,5 @@
 CST = "countries/Charleston.txt"
 HOU = "countries/Houston.txt"
-KOO = "countries/Kootenay.txt"
-UUN = "countries/Uunaay.txt"
 
 # Atlantica
 HUD = "countries/Hudsonia.txt"
@@ -99,9 +97,30 @@ PRL = "countries/Prairieland.txt"
 ATH = "countries/Athabasca.txt"
 BLF = "countries/Blackfoot.txt" #Needs new names
 FRD = "countries/Freden.txt" #Needs new names
-LIR = "countries/Liard.txt" #Needs new names
+
+#Alaska
 JNU = "countries/Juneau.txt" #Needs new names
+LIR = "countries/Liard.txt" #Needs new names
+
+#Cascadia
 STK = "countries/Stikine.txt" #Needs new names
+VAN = "countries/Vancouver.txt"
+SEA = "countries/Seattle.txt"
+KOO = "countries/Kootenay.txt"
+OAK = "countries/Oakanagan.txt" 
+CRB = "countries/Cariboo.txt"
+PRT = "countries/Portlandia.txt" #Take CSC cores at game start #capital/color
+CSC = "countries/Cascadia.txt"
+BMT = "countries/BlueMountain.txt"
+HHV = "countries/HorseHeaven.txt"
+COV = "countries/ColumbiaValley.txt"
+SLB = "countries/SilverBow.txt"
+HDR = "countries/HighDesert.txt"
+NBS = "countries/NorthernBasin.txt"
+ESN = "countries/EastSnake.txt"
+VIS = "countries/VancouverIsland.txt"
+OLY = "countries/Olympus.txt" #capital/color
+DST = "countries/DireStraits.txt" #capital/color
 
 #Lakotah
 #Crow

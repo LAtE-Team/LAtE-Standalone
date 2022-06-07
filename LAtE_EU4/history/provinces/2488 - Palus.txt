@@ -1,6 +1,6 @@
-owner = X11
-controller = X11
-add_core = X11
+owner = HHV
+controller = HHV
+add_core = HHV
 culture = inlander
 religion = gaian
 

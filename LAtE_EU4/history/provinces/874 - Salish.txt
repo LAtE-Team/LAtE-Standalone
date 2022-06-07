@@ -1,6 +1,6 @@
-owner = X06
-controller = X06
-add_core = X06
+owner = VAN
+controller = VAN
+add_core = VAN
 
 culture = cascadian
 religion = raven_tales

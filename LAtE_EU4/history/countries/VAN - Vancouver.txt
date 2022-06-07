@@ -1,9 +1,8 @@
 # Vancouver
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = autocracy_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = canuck
 religion = raven_tales
@@ -19,9 +18,4 @@ capital = 973
 		mil = 2
 	}
 	add_ruler_personality = entrepreneur_personality
-}
-3053.1.1 {
-	capital = 973
-	add_treasury = 12
-	add_prestige = 95
 }

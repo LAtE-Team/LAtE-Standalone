@@ -1,6 +1,6 @@
-owner = X02
-controller = X02
-add_core = X02
+owner = NBS
+controller = NBS
+add_core = NBS
 
 culture = paiute
 religion = peyotist

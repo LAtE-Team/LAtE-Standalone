@@ -1,7 +1,7 @@
 #2408 - Seattle
-owner = X09
-controller = X09
-add_core = X09
+owner = SEA
+controller = SEA
+add_core = SEA
 
 culture = cascadian
 religion = raven_tales
@@ -10,6 +10,6 @@ is_city = yes
 
 
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 6
+base_production = 6
+base_manpower = 3

@@ -1,6 +1,6 @@
-owner = X15
-controller = X15
-add_core = X15
+owner = BMT
+controller = BMT
+add_core = BMT
 
 culture = inlander
 religion = gaian

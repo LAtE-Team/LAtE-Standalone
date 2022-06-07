@@ -3,7 +3,6 @@ setup_vision = yes
 government = monarchy 
 add_government_reform = elective_monarchy
 government_rank = 2
-mercantilism = 0.1
 technology_group = western
 primary_culture = salish
 religion = raven_tales
@@ -30,9 +29,4 @@ capital = 972
 		dip = 3
 		mil = 4
 	}
-}
-3053.1.1 = {
-	capital = 972
-	add_treasury = 37
-	add_prestige = 452
 }

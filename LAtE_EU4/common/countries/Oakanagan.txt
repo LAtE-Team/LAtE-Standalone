@@ -1,4 +1,4 @@
-#Uunay
+#Oakanagan
 graphical_culture = northamericagfx
 color = { 48 42 99 }
 

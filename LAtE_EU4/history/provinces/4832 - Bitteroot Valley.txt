@@ -1,7 +1,7 @@
 
-owner = X16
-controller = X16
-add_core = X16
+owner = SLB
+controller = SLB
+add_core = SLB
 
 culture = mountainer
 religion = gaian

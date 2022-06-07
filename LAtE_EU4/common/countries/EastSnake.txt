@@ -1,7 +1,6 @@
-# Horse Heaven
-ck2_converter_generated = yes
+# East Snake
 graphical_culture = asiangfx
-color = { 138 97 67 }
+color = { 2 167 91 }
 
 
 
@@ -19,6 +18,7 @@ leader_names = {
 	"Mark" "Guujaaw" "Judd" "Pattehus" "Chelamela" "Sulktalthscosum" "Sawehamish" "Josh" "Lou" "Rupp" 
 	"Olga" "Eric" "Semiahmoo" "Dorothy" "Brad" "Catherine" "Melanie" "Monte" "Elvamox" "Corina" 
 	"Andrew" "Marilyn" "Rose" "Karey" "Becca" "Caitlin" "Ashby" "Emily" "Jinx" "Courtney" 
+	"Nathaniel" "Rufus" "Madoc" "Chlahben" "Skwaikwi" "Smith" "Jarom" "Hagoth" "Hildegardt" "Tsaa Hamjuuwee" 
 	"Adam" "Allen" "Art" "Bosko" "Boyle" "Brandon" "Brendan" "Carr" "Clive" "Collin" 
 	"Corbett" "Craig" "Cramer" "Creed" "Curtis" "Damian" "Daniel" "Douglass" "Dunn" "Ebbe" 
 	"Edward" "Egan" "Ehren" "Ellis" "Emerson" "Engelbart" "Farel" "Feldberg" "Francis" "Fred" 
@@ -29,7 +29,7 @@ leader_names = {
 	"Ryan" "Salim" "Sam" "Sean" "Shepard" "Steffan" "Steve" "Stewart" "Storm" "Terrell" 
 	"Tucker" "Tyler" "Wagner" "Warren" "Wright" }
 monarch_names = {
-	"Glenn #4" = 39
+	"Glenn #0" = 1
 	"Roseanne #0" = -1
 	"Berry #0" = -1
 	"Vincent #0" = 1
@@ -49,18 +49,18 @@ monarch_names = {
 	"Eleanor #0" = -1
 	"Roe #0" = 1
 	"Amanda #0" = -1
-	"Kirk #0" = 1
+	"Kirk #2" = 30
 	"Frank #0" = 1
 	"Nance #0" = -1
-	"Carrie #1" = -22
-	"Hammond #2" = 36
+	"Carrie #0" = -1
+	"Hammond #0" = 1
 	"Aimee #0" = -1
-	"Elliott #1" = 21
+	"Elliott #0" = 1
 	"Brock #0" = 1
 	"Anna #0" = -1
 	"Ray #2" = 33
 	"Amber #0" = -1
-	"Breen #1" = 27
+	"Breen #0" = 1
 	"Faust #0" = 1
 	"Lance #0" = 1
 	"Jay #0" = 1
@@ -80,10 +80,10 @@ monarch_names = {
 	"Nina #0" = -1
 	"Sierra #0" = -1
 	"Wash #0" = 1
-	"Gus #1" = 30
-	"Garner #1" = 21
+	"Gus #0" = 1
+	"Garner #0" = 1
 	"Veronica #0" = -1
-	"Hagen #1" = 21
+	"Hagen #0" = 1
 	"Mikki #0" = -1
 	"Zooey #0" = -1
 	"Sally #0" = -1
@@ -103,7 +103,7 @@ monarch_names = {
 	"Simon #0" = 1
 	"Skagits #0" = -1
 	"Kumail #0" = 1
-	"Gray #1" = 21
+	"Gray #0" = 1
 	"Sheila #0" = -1
 	"Skowkale #0" = -1
 	"Greg #0" = 1
@@ -118,7 +118,7 @@ monarch_names = {
 	"Sawehamish #0" = -1
 	"Josh #0" = 1
 	"Lou #0" = 1
-	"Rupp #1" = 21
+	"Rupp #0" = 1
 	"Olga #0" = -1
 	"Eric #0" = 1
 	"Semiahmoo #0" = -1
@@ -135,10 +135,20 @@ monarch_names = {
 	"Karey #0" = -1
 	"Becca #0" = -1
 	"Caitlin #0" = -1
-	"Ashby #0" = 1
+	"Ashby #1" = 21
 	"Emily #0" = -1
 	"Jinx #0" = -1
 	"Courtney #0" = -1
+	"Nathaniel #1" = 0
+	"Rufus #1" = 0
+	"Madoc #2" = 0
+	"Chlahben #2" = 0
+	"Skwaikwi #1" = 0
+	"Smith #1" = 0
+	"Jarom #1" = 0
+	"Hagoth #1" = 0
+	"Hildegardt #1" = -1
+	"Tsaa Hamjuuwee #2" = 0
 	"Adam #0" = 0
 	"Allen #0" = 0
 	"Art #0" = 0

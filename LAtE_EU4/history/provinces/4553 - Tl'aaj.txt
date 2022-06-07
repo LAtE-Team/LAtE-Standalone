@@ -1,7 +1,7 @@
 owner = SAL
 controller = SAL
 add_core = SAL
-add_core = X05
+add_core = VIS
 
 culture = salish
 religion = raven_tales

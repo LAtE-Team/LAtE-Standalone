@@ -1,6 +1,6 @@
-owner = CSC
-controller = CSC
-add_core = CSC
+owner = PRT
+controller = PRT
+add_core = PRT
 
 culture = cascadian
 religion = gaian

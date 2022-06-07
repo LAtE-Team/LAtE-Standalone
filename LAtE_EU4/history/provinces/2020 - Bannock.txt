@@ -1,6 +1,6 @@
-owner = X01
-controller = X01
-add_core = X01
+owner = ESN
+controller = ESN
+add_core = ESN
 
 culture = paiute
 religion = peyotist

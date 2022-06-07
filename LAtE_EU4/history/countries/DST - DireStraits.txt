@@ -1,0 +1,10 @@
+# Salishan Empire
+setup_vision = yes
+government = monarchy 
+add_government_reform = elective_monarchy
+government_rank = 2
+technology_group = western
+primary_culture = salish
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 972

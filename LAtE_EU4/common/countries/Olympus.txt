@@ -1,7 +1,6 @@
-# Puget
-ck2_converter_generated = yes
+# Olympus
 graphical_culture = northamericagfx
-color = { 158 36 59 }
+color = { 108 157 50 }
 
 
 

@@ -1,6 +1,6 @@
-owner = UUN
-controller = UUN
-add_core = UUN
+owner = OAK
+controller = OAK
+add_core = OAK
 
 culture = inlander
 religion = gaian

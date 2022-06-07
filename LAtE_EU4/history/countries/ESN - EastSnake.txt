@@ -3,7 +3,6 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = paiute
 religion = peyotist
@@ -20,9 +19,4 @@ capital = 2020
 	}
 	add_ruler_personality = entrepreneur_personality
 	add_ruler_personality = midas_touched_personality
-}
-3053.1.1 {
-	capital = 2020
-	add_treasury = 21
-	add_prestige = 212
 }
