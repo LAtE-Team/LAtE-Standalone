@@ -1,7 +1,6 @@
-owner = QUE
-controller = QUE
-add_core = QUE
-add_core = STD
+owner = SJE
+controller = SJE
+add_core = SJE
 
 culture = quebecois
 religion = ursuline

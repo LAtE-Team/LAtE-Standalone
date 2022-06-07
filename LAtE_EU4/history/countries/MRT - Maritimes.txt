@@ -2,9 +2,7 @@
 setup_vision = yes
 government = monarchy 
 add_government_reform = feudalism_reform
-
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = maritimer
 add_accepted_culture = acadien
@@ -12,8 +10,8 @@ religion = anglican
 capital = 4549
 
 historical_friend = ONT
+historical_friend = HUD
 historical_rival = RED
-historical_rival = QUE
 historical_rival = TAQ
 
 3051.1.14 = {
@@ -21,13 +19,9 @@ historical_rival = TAQ
 		name = "Alaois II"
 		birth_date = 3045.5.11
 		dynasty = "Carmody"
-		adm = 2
-		dip = 3
+		adm = 3
+		dip = 5
 		mil = 3
 	}
-}
-3053.1.1 {
-	capital = 4549
-	add_treasury = 32
-	add_prestige = 130
+	add_ruler_personality = expansionist_personality
 }

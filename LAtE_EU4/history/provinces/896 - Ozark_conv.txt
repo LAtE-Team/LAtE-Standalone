@@ -3,7 +3,7 @@ controller = Y82
 add_core = Y82
 
 culture = cherokee
-religion = sedevacanist
+religion = catholic
 is_city = yes
 
 

@@ -1,9 +1,8 @@
 # Kenora
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = anishinabe
 religion = midewiwin
@@ -19,9 +18,4 @@ capital = 4830
 		mil = 2
 	}
 	add_ruler_personality = kind_hearted_personality
-}
-3053.1.1 {
-	capital = 4830
-	add_treasury = 19
-	add_prestige = 6
 }

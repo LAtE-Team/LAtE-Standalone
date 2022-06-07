@@ -3,7 +3,6 @@ setup_vision = yes
 government = monarchy 
 add_government_reform = feudalism_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = ontarian
 religion = anglican
@@ -12,6 +11,7 @@ capital = 2670
 
 historical_friend = MRT
 historical_friend = THN
+historical_friend = ONT
 historical_rival = MIC
 historical_rival = HUD
 
@@ -27,8 +27,4 @@ historical_rival = HUD
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = kind_hearted_personality
-}
-3053.1.1 {
-	capital = 2670
-	add_treasury = -2
 }

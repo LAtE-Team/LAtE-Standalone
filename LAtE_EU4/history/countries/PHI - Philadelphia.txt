@@ -1,6 +1,7 @@
 # Philadelphia
 setup_vision = yes
-government = republic 
+government = republic
+add_government_reform = oligarchy_reform 
 government_rank = 1
 technology_group = eastern
 primary_culture = delawarean
@@ -9,7 +10,7 @@ religious_school = liberty_school
 
 clear_scripted_personalities = yes
 capital = 956
-3053.1.1 {
+3053.1.1 = {
 	monarch = {
 		name = "Fulgent"
 		birth_date = 3027.4.15
@@ -19,9 +20,4 @@ capital = 956
 		mil = 1
 	}
 	add_ruler_personality = drunkard_personality
-}
-3053.1.1 {
-	capital = 956
-	add_treasury = 0
-	add_prestige = 1
 }

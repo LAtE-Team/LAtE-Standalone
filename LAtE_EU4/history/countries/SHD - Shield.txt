@@ -1,9 +1,8 @@
 # Shield
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = ontarois
 religion = anglican
@@ -19,9 +18,4 @@ capital = 4697
 		mil = 1
 	}
 	add_ruler_personality = intricate_web_weaver_personality
-}
-3053.1.1 {
-	capital = 4697
-	add_treasury = 25
-	add_prestige = 124
 }

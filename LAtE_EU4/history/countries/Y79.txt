@@ -3,10 +3,9 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = texan
-religion = sedevacanist
+religion = catholic
 clear_scripted_personalities = yes
 capital = 2014
 3037.8.7 = {
@@ -21,7 +20,7 @@ capital = 2014
 	add_ruler_personality = obsessive_perfectionist_personality
 	add_ruler_personality = malevolent_personality
 }
-3053.1.1 {
+3053.1.1 = {
 	capital = 2014
 	add_treasury = 15
 	add_prestige = 127

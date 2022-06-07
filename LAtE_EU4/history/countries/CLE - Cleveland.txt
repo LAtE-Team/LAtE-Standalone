@@ -2,8 +2,7 @@
 setup_vision = yes
 government = republic 
 add_government_reform = merchants_reform
-
-government_rank = 2
+government_rank = 1
 technology_group = eastern
 primary_culture = motowner
 religion = rust_cultist
@@ -24,9 +23,4 @@ historical_rival = MIC
 	}
 	add_ruler_personality = craven_personality
 	add_ruler_personality = malevolent_personality
-}
-3053.1.1 {
-	capital = 947
-	add_treasury = 197
-	add_prestige = 352
 }

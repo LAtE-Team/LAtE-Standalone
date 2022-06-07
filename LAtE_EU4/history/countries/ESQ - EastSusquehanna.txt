@@ -1,7 +1,7 @@
 # East Susquehanna
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = deitsch
@@ -20,9 +20,4 @@ capital = 2558
 		mil = 3
 	}
 	add_ruler_personality = conqueror_personality
-}
-3053.1.1 {
-	capital = 2558
-	add_treasury = 0
-	add_prestige = 7
 }

@@ -1,15 +1,14 @@
 # Northwoods
 setup_vision = yes
 government = monarchy 
-
-government_rank = 2
-mercantilism = 0.1
+add_government_reform = autocracy_reform
+government_rank = 1
 technology_group = eastern
 primary_culture = dellsman
 religion = norse_pagan_reformed
 clear_scripted_personalities = yes
 capital = 4693
-3053.1.1 {
+3053.1.1 = {
 	monarch = {
 		name = "Rudolf"
 		birth_date = 2992.1.17
@@ -29,9 +28,4 @@ capital = 4693
 		dip = 3
 		mil = 3
 	}
-}
-3053.1.1 {
-	capital = 4693
-	add_treasury = 4
-	add_prestige = 275
 }

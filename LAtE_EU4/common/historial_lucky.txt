@@ -1,0 +1,43 @@
+# Order here is the priority for taking them, if trigger is true.
+
+QUE = {
+	NOT = { 
+		exists = CAN 
+		is_year = 3300
+	}
+}
+
+CAN = {
+	NOT = { 
+		exists = QUE
+		is_year = 3300
+	}
+}
+
+MRT = {
+	NOT = { is_year = 3300 }
+}
+
+NYS = {
+	NOT = { is_year = 3300 }
+}
+
+MIC = {
+	always = yes
+}
+
+FLD = {
+	always = yes
+}
+
+MEX = {
+	always = yes
+}
+
+CBN = {
+	always = yes
+}
+
+MTC = {
+	always = yes
+}

@@ -1,5 +1,5 @@
 rust_baubles_1 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_baubles_icon"
 	cost = 100
 	potential = {
 		NOT = { has_country_flag = rust_cult_improvements_1 }
@@ -34,7 +34,7 @@ rust_baubles_1 = {
 }
 
 rust_baubles_2 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_baubles_icon"
 	cost = 100
 	potential = {
 		OR = {
@@ -69,7 +69,7 @@ rust_baubles_2 = {
 }
 
 rust_baubles_3 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_baubles_icon"
 	cost = 50
 	potential = {
 		OR = {
@@ -104,7 +104,7 @@ rust_baubles_3 = {
 }
 
 rust_armour_1 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_armour_icon"
 	cost = 100
 	potential = {
 		NOT = { has_country_flag = rust_cult_improvements_2 }
@@ -141,7 +141,7 @@ rust_armour_1 = {
 }
 
 rust_armour_2 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_armour_icon"
 	cost = 100
 	potential = {
 		OR = {
@@ -179,7 +179,7 @@ rust_armour_2 = {
 }
 
 rust_armour_3 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_armour_icon"
 	cost = 100
 	potential = {
 		has_country_flag = rust_cult_improvements_4
@@ -214,7 +214,7 @@ rust_armour_3 = {
 }
 
 rust_production_1 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_goods_icon"
 	cost = 100
 	potential = {
 		NOT = { has_country_flag = rust_cult_improvements_3 }
@@ -247,7 +247,7 @@ rust_production_1 = {
 }
 
 rust_production_2 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_goods_icon"
 	cost = 100
 	potential = {
 		has_country_flag = rust_cult_improvements_3
@@ -279,7 +279,7 @@ rust_production_2 = {
 }
 
 rust_production_3 = {
-	sprite = "GFX_dissolve_monasteries_icon"
+	sprite = "GFX_rust_cult_goods_icon"
 	cost = 100
 	potential = {
 		has_country_flag = rust_cult_improvements_4

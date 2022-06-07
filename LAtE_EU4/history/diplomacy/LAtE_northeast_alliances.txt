@@ -34,3 +34,19 @@ guarantee = {
 	start_date = 3053.1.1
 	end_date = 3421.1.2
 }
+
+# URS Vassals
+
+vassal = {
+	first = URS
+	second = SJE
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+vassal = {
+	first = URS
+	second = ONA
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

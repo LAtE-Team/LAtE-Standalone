@@ -38,4 +38,19 @@ spriteTypes = {
 		name = "GFX_icon_oldworld_school_crowley"
 		texturefile = "gfx/interface/icon_oldworld_school_crowley.dds"
 	}
+
+	spriteType = {
+		name = "GFX_rust_cult_baubles_icon"
+		texturefile = "gfx/interface/rust_cult_baubles_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_armour_icon"
+		texturefile = "gfx/interface/rust_cult_armour_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_goods_icon"
+		texturefile = "gfx/interface/rust_cult_goods_icon.dds"
+	}
 }

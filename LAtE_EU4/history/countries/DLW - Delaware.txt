@@ -1,7 +1,7 @@
-# Delmarva
+# Delaware
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = delawarean
@@ -21,9 +21,4 @@ capital = 957
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = well_connected_personality
-}
-3053.1.1 {
-	capital = 957
-	add_treasury = 45
-	add_prestige = 342
 }

@@ -14,10 +14,10 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		uses_religious_icons = yes
-		current_icon = icon_eleusa
+		current_icon = icon_washington
 		is_at_war = yes
 		any_owned_province = {
-			religion = orthodox
+			religion = americanist
 			NOT = { controlled_by = ROOT } #Rebels or Enemies
 			NOT = { units_in_province = 1 }
 		}
@@ -28,7 +28,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					NOT = { controlled_by = ROOT }
 					NOT = { units_in_province = 1 }
 				}
@@ -36,7 +36,7 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					has_owner_culture = yes
 					NOT = { controlled_by = ROOT }
 					NOT = { units_in_province = 1 }
@@ -122,11 +122,11 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		uses_religious_icons = yes
-		current_icon = icon_michael
+		current_icon = icon_lincoln
 		num_of_cities = 2
 		NOT = { manpower_percentage = 0.9 }
 		any_owned_province = {
-			religion = orthodox
+			religion = americanist
 			is_capital = no
 		}
 	}
@@ -135,14 +135,14 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					is_capital = no
 				}
 				save_event_target_as = michael_icon_church_province
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					has_owner_culture = yes
 					is_capital = no
 				}
@@ -150,7 +150,7 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					has_owner_culture = yes
 					base_manpower = 5
 					is_capital = no
@@ -187,7 +187,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		uses_religious_icons = yes
-		current_icon = icon_pancreator	
+		current_icon = icon_roosevelt	
 	}
 
 	mean_time_to_happen = {
@@ -213,8 +213,8 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		current_icon = icon_nicholas
-		religion = orthodox
+		current_icon = icon_jefferson
+		religion = americanist
 		any_country = {
 			OR = {
 				alliance_with = ROOT
@@ -241,20 +241,20 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = nicholas_icon_was_here
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					has_building = temple
 				}
 				save_event_target_as = nicholas_icon_was_here
 			}
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					has_building = cathedral
 				}
 				save_event_target_as = nicholas_icon_was_here
@@ -293,7 +293,7 @@ country_event = {
 			skill = 2
 			discount = yes
 			name = advisor_from_afar
-			religion = orthodox
+			religion = americanist
 			culture = event_target:benevolent_if_distant_neighbor
 		}
 	}
@@ -320,10 +320,10 @@ country_event = {
 	trigger = {
 		has_dlc = "Third Rome"
 		uses_religious_icons = yes
-		current_icon = icon_climacus
+		current_icon = icon_franklin
 		num_of_cities = 2
 		any_owned_province = {
-			religion = orthodox
+			religion = americanist
 			is_capital = no
 		}
 	}
@@ -332,7 +332,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					religion = orthodox
+					religion = americanist
 					is_capital = no
 				}
 				save_event_target_as = climacus_church_province

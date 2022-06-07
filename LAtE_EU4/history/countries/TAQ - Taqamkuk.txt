@@ -20,8 +20,3 @@ capital = 981
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = greedy_personality
 }
-3053.1.1 {
-	capital = 981
-	add_treasury = 21
-	add_prestige = 152
-}

@@ -490,7 +490,7 @@
 
  CURRENT_PATRIARCH_AUTHORITY: "Current Legal Authority"
  MAPMODE_PATRIARCHS_DESC: "This displays states with Establishd Tribunals. Yellow states have a Tribunal, green states can be assigned one, and red states cannot have a Tribunal."
- PATRIARCH_DESCRIPTION: "Legal Authority represents the level of influence that the legal system has on the nation. In true faith provinces, high Legal Authority will decrease local unrest and increase the number of recruits joining the army."
+ PATRIARCH_DESCRIPTION: "Legal Authority represents the authority of the Judicial-Clergy inside a Nation. In provinces following this religion, local unrest will decrease and more recruits will join the army. You can Estabilish Tribunal in a state to get +5 Legal Authority"
  STAPAT_LOW_DEV: "Tribunals can only be established in states with at least $NEED|Y$ development and there is only $CUR|Y$ in $NAME$."
  STAPAT_DO_IT: "You can Establish Tribunals in states with at least 30 Development if all provinces are fully cored, true faith and of an Accepted Culture.\n\nConsecrating a Tribunal in $NAME|Y$ will give us $VAL$ Legal Authority, and the following permanent effect:\n$EFFECT$"
  patriarch_state: "Tribunal of $NAME$"
@@ -594,6 +594,7 @@
  aphite_rebels_name: "$RELIGION$ Zealots"
  aphite_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  aphite_rebels_army: "$RELIGION$ Army"
+
  rust_cultist: "Rust Cultist"
  rust_cultist_religion_desc: "When the first of the Rust Cult stumbled upon an abandoned factory of the old world, what he saw seemed to be the handiwork of the gods. The cult quickly spread through the former Rust Belt, worshipping these houses of the divine and the technological marvels wrought within, which they are willing to defend with their lives. Rust Cultists dedicate much of their time to recovering and revering any old world technology they can find. Due to their age however, opportunities to find operational relics are few and far between."
  rust_cultist_rebels_demand: "Convert $COUNTRYNAME$"
@@ -604,6 +605,7 @@
  rust_cultist_rebels_army: "$RELIGION$ Army"
  RUST_ACTIONS_SHORT: "Production"
  RUST_ACTIONS_LONG: "Production Run"
+ RUST_ACTIONS_POWER_NAME: "Church Power"
  rust_baubles_1: "Bless Old World Baubles"
  desc_rust_baubles_1: "Our Rust Priests will display and bless various Old World trinkets, soldifying our rule and prestige."
  rust_baubles_2: "Bless Reinforced Old World Baubles"
@@ -660,6 +662,7 @@
  chrome_cultist_rebels_name: "$RELIGION$ Zealots"
  chrome_cultist_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  chrome_cultist_rebels_army: "$RELIGION$ Army"
+
  glorian: "Glorian"
  glorian_religion_desc: "Old Albion fell harder than most, her institutions and cities were completely swallowed in the madness of the Event. By the time the potentates of Britain organized and got back on their feet little was left of the old civilization. In the face of this spiritual vacuum they fell back on the fragments still known and recorded of Old Albion. In those ancient days there were great theologians, mystic-princes, bards that enchanted the world with their songs and verse, and ruling over them all was a fae and faultless Virgin Queen who shielded her people from all harm. While in distant lands across the sea the men of Albion are free to practice the mysteries of their cults in more divergent and heterodox manners. Many pray for an end to the long interregnum, and the return of the once and future Queen."
  glorian_rebels_demand: "Convert $COUNTRYNAME$"

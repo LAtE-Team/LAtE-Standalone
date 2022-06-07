@@ -325,7 +325,7 @@ estate_anabaptists_guaranteed_autonomy = {
 			factor = 0
 			NOT = {
 				any_owned_province = {
-					NOT = { religion_group = ROOT }
+					religion = anabaptist
 				}
 			}
 		}

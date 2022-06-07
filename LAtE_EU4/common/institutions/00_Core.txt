@@ -205,7 +205,7 @@ renaissance = {
 
 
 	historical_start_date = 3060.1.1	#Equivalent of 1450 in vanilla
-	historical_start_province = 4021 # Antsiranana, Madagascar
+	historical_start_province = 965 # New York
 
 	history = {
 		always = no
@@ -213,11 +213,18 @@ renaissance = {
 	
 	can_start = {
 		is_year = 3060
-		development = 21
+		OR = {
+			region = great_lakes_region
+			region = northeast_america_region
+		}
+		is_state = yes
 		is_island = no
-		continent = north_america
-		
-
+		OR = {
+			development = 20
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+		NOT = { religion = norse_pagan_reformed }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	
@@ -375,7 +382,7 @@ new_world_i = {
 
 	trade_company_efficiency = 0.6
 
-	historical_start_date = 3100.1.1
+	historical_start_date = 3110.1.1
 	historical_start_province = 224 #Sevilla
 
 	history = {
@@ -383,7 +390,7 @@ new_world_i = {
 	}
 	
 	can_start = {
-		is_year = 3100
+		is_year = 3110
 		OR = {
 			continent = north_america
 			continent = south_america
@@ -590,7 +597,7 @@ printing_press = {
 
 	trade_company_efficiency = 0.8
 
-	historical_start_date = 3150.1.1
+	historical_start_date = 3160.1.1
 	historical_start_province = 915 #Chicago
 
 	history = {
@@ -598,7 +605,7 @@ printing_press = {
 	}
 	
 	can_start = {
-		is_year = 3150
+		is_year = 3160
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -803,7 +810,7 @@ global_trade = {
 
 	trade_company_efficiency = 1.0
 
-	historical_start_date = 3200.1.1
+	historical_start_date = 3210.1.1
 	historical_start_province = 965 # New York
 	
 	history = {
@@ -811,7 +818,7 @@ global_trade = {
 	}
 	
 	can_start = {
-		is_year = 3200
+		is_year = 3210
 		is_island = no
 		highest_value_trade_node = yes
 		OR = {
@@ -1041,15 +1048,15 @@ manufactories = {
 
 	trade_company_efficiency = 1.25
 
-	historical_start_date = 3250.1.1
+	historical_start_date = 3260.1.1
 	historical_start_province = 947 # Cleveland
 
 	history = {
-		is_year = 3250
+		is_year = 3260
 	}
 	
 	can_start = {
-		is_year = 3250
+		is_year = 3260
 		
 		is_in_capital_area = yes
 		is_island = no
@@ -1481,14 +1488,14 @@ enlightenment = {
 
 	trade_company_efficiency = 1.5
 
-	historical_start_date = 3300.1.1
+	historical_start_date = 3310.1.1
 	historical_start_province = 2669 # Texarkana
 	history = {
 		always = no
 	}
 	
 	can_start = {
-		is_year = 3300
+		is_year = 3310
 		
 		is_in_capital_area = yes
 		is_island = no
@@ -1818,7 +1825,7 @@ industrialization = {
 		global_tax_modifier = 0.15
 	}
 
-	historical_start_date = 3350.1.1
+	historical_start_date = 3360.1.1
 	historical_start_province = 4624 #Pittsburgh, 20 development provinces in the Appalachians
 
 	history = {
@@ -1826,7 +1833,7 @@ industrialization = {
 	}
 	
 	can_start = {
-		is_year = 3350
+		is_year = 3360
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes

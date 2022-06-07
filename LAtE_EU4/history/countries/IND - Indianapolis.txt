@@ -1,8 +1,8 @@
 # Indianapolis
 setup_vision = yes
 government = monarchy 
-
-government_rank = 2
+add_government_reform = feudalism_reform
+government_rank = 1
 technology_group = eastern
 primary_culture = rostmann
 religion = rust_cultist
@@ -23,9 +23,4 @@ historical_rival = MIC
 	}
 	add_ruler_personality = craven_personality
 	add_ruler_personality = malevolent_personality
-}
-3053.1.1 {
-	capital = 4704
-	add_treasury = 197
-	add_prestige = 352
 }

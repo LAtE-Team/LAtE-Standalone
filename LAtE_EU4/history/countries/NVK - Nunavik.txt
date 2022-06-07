@@ -1,9 +1,8 @@
 # Nunavik
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = autocracy_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = inuit
 religion = ursuline
@@ -19,9 +18,4 @@ capital = 2575
 		mil = 2
 	}
 	add_ruler_personality = charismatic_negotiator_personality
-}
-3053.1.1 {
-	capital = 2575
-	add_treasury = 4
-	add_prestige = 136
 }

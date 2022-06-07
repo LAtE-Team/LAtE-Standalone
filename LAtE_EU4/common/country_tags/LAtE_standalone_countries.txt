@@ -76,6 +76,8 @@ MTR = "countries/Montreal.txt"
 MRC = "countries/Mauricie.txt"
 EST = "countries/Estrie.txt"
 GSP = "countries/Gaspesie.txt" 
+SJE = "countries/SaintJean.txt"
+ONA = "countries/Onatchiway.txt"
 
 #Northern Quebec
 CTN = "countries/CoteNord.txt"

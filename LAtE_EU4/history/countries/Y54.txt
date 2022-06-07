@@ -1,12 +1,10 @@
 # Timberland
 setup_vision = yes
 government = monarchy 
-
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = ozark
-religion = sedevacanist
+religion = catholic
 clear_scripted_personalities = yes
 capital = 894
 3034.7.14 = {
@@ -33,7 +31,7 @@ capital = 894
 		mil = 3
 	}
 }
-3053.1.1 {
+3053.1.1 = {
 	capital = 894
 	add_treasury = 20
 	add_prestige = 72

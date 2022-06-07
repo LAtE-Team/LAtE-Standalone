@@ -1,8 +1,8 @@
-owner = CTN
-controller = CTN
-add_core = CTN
+owner = ONA
+controller = ONA
+add_core = ONA
 
-culture = quebecois
+culture = inuit
 religion = ursuline
 is_city = yes
 

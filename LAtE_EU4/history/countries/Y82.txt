@@ -1,12 +1,10 @@
 # Sequoyah
 setup_vision = yes
 government = monarchy 
-
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = ozark
-religion = sedevacanist
+religion = catholic
 clear_scripted_personalities = yes
 capital = 896
 3028.8.18 = {
@@ -32,7 +30,7 @@ capital = 896
 	}
 	add_heir_personality = midas_touched_personality
 }
-3053.1.1 {
+3053.1.1 = {
 	capital = 896
 	add_treasury = 60
 	add_prestige = 100

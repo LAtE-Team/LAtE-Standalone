@@ -1,9 +1,7 @@
 # Massachusetts
 setup_vision = yes
-government = theocracy 
-add_government_reform = leading_clergy_reform
+government = monarchy
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = yankee
 religion = occultist

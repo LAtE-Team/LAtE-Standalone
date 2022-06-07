@@ -2,7 +2,7 @@
 --
 -- NDefines.NDiplomacy.MAX_CLIENT_STATES = 20
 NDefines.NGame.START_DATE = "3053.1.1"
-NDefines.NGame.END_DATE = "3421.1.2"
+NDefines.NGame.END_DATE = "3431.1.2"
 
 NDefines.NFrontend.CAMERA_LOOKAT_X = 1300.0 						-- Rotation point in main menu
 NDefines.NFrontend.CAMERA_LOOKAT_Y = 0.0

@@ -1,9 +1,8 @@
 # Aurora
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = anishinabe
 religion = ursuline
@@ -19,9 +18,4 @@ capital = 4779
 		mil = 3
 	}
 	add_ruler_personality = midas_touched_personality
-}
-3053.1.1 {
-	capital = 4779
-	add_treasury = 0
-	add_prestige = 3
 }

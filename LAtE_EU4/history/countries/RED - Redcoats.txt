@@ -11,36 +11,32 @@ religious_school = queen_school
 clear_scripted_personalities = yes
 capital = 968
 
-add_treasury = 150
-add_prestige = 50
-add_army_tradition = 50
+add_prestige = 25
 
 historical_friend = NYS
+historical_rival = MRT
+historical_rival = HUD
+clear_scripted_personalities = yes
 
-3038.12.16 = {
+3053.1.1 = {
 	monarch = {
 		name = "Outgrabe"
 		dynasty = "of  Boston"
 		birth_date = 3023.12.16		
-		adm = 6
-		dip = 5
-		mil = 6
-		leader = {	name = "Outgrabe"            	type = general	fire = 4	shock = 4	manuever = 4	siege = 2}
+		adm = 3
+		dip = 2
+		mil = 5
 	}
+	add_ruler_personality = inspiring_leader_personality
+	heir = {
+		name = "Claudas"
+		monarch_name = "Claudas"
+		dynasty = "of  Boston"
+		birth_date = 3048.9.30
+		death_date = 3073.9.30
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	add_heir_personality = craven_personality
 }
-
-clear_scripted_personalities = yes
-add_ruler_personality = inspiring_leader_personality
-add_ruler_personality = silver_tongue_personality
-heir = {
-	name = "Claudas"
-	monarch_name = "Claudas"
-	dynasty = "of  Boston"
-	birth_date = 3048.9.30
-	death_date = 3073.9.30
-	adm = 3
-	dip = 3
-	mil = 2
-}
-add_heir_personality = craven_personality
-

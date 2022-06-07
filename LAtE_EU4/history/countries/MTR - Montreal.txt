@@ -1,9 +1,7 @@
 # Montreal
 setup_vision = yes
-government = monarchy 
-
+government = republic 
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = quebecois
 religion = ursuline

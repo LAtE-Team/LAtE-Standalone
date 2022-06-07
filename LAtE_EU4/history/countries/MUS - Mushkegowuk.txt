@@ -1,9 +1,8 @@
 # Mushkegowuk
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = anishinabe
 religion = ursuline
@@ -20,9 +19,4 @@ capital = 1003
 		mil = 4
 	}
 	add_ruler_personality = pious_personality
-}
-3053.1.1 {
-	capital = 1003
-	add_treasury = 16
-	add_prestige = 65
 }

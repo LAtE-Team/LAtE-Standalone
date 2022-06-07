@@ -1,9 +1,8 @@
 # Vermont
 setup_vision = yes
 government = monarchy 
-
-government_rank = 2
-mercantilism = 0.1
+add_government_reform = autocracy_reform
+government_rank = 1
 technology_group = eastern
 primary_culture = yankee
 religion = ursuline
@@ -33,9 +32,4 @@ capital = 2563
 		dip = 2
 		mil = 3
 	}
-}
-3053.1.1 {
-	capital = 2563
-	add_treasury = 5
-	add_prestige = 39
 }

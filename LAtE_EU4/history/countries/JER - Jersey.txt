@@ -1,9 +1,8 @@
 # South Jersey
 setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = delawarean
 religion = americanist
@@ -11,7 +10,7 @@ religious_school = hamilton_school
 
 clear_scripted_personalities = yes
 capital = 962
-3053.1.1 {
+3053.1.1 = {
 	monarch = {
 		name = "Raleigh"
 		birth_date = 3030.5.8
@@ -21,9 +20,4 @@ capital = 962
 		mil = 2
 	}
 	add_ruler_personality = midas_touched_personality
-}
-3053.1.1 {
-	capital = 962
-	add_treasury = 55
-	add_prestige = 48
 }
