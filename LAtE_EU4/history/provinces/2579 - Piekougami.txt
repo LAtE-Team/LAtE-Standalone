@@ -14,28 +14,3 @@ native_hostileness = 9
 is_city = no
 
 
-
-
-
-
-
-# = {
-	#discovered_by = FRA
-	#owner = FRA
-	#controller = FRA
-	#add_core= FRA
-	is_city = no
-	trade_goods = unknown
-	culture = cosmopolitan_french
-	religion = catholic 
- #Fort M�tab�chouane
-# = {  
-# = { #controller = GBR  # The government of New France capitulate at Montreal
-# = {
-	#owner = GBR
-	#add_core= GBR
-	
- # Treaty of Paris
-
-
-

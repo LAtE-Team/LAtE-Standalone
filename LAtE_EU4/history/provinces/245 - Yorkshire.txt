@@ -4,7 +4,7 @@ owner = TYK
 controller = TYK
 add_core = TYK
 culture = tyke
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 6
 base_production = 6
@@ -14,39 +14,6 @@ capital = "York"
 is_city = no
 #add_core= ENG
 #add_core= NOL
-
-
-
- 
-
-
-
- 
-
-
-
-# = { unrest = 5 } # Start of the War of the Roses
-# = { unrest = 0 revolt = { type = pretender_rebels size = 3 leader = "Edward of York" } #controller = REB } # The Battle of Blore Heath
-# = { revolt = {} unrest = 5 } # The Lancastrians are back in control after the battle of Ludford Bridge
-# = { unrest = 0 revolt = { type = pretender_rebels size = 3 leader = "Edward of York" } #controller = REB } # Capture of York after Battle of Towton
-# = { revolt = {} unrest = 2 #controller = ENG } # Coronation of Edward IV
-# = { unrest = 5 } # Rivalry between Edward IV & Warwick
-# = { unrest = 0 revolt = { type = revolutionary_rebels size = 2 leader = "Richard Neville" } #controller = REB }
-# = { revolt = {} #controller = ENG } # Readeption of Henry VI
-# = { unrest = 8 } # Unpopularity of Warwick & War with Burgundy
-# = { unrest = 0 revolt = { type = revolutionary_rebels size = 2 leader = "Edward of York" } #controller = REB }
-# = { revolt = {} unrest = 2 #controller = ENG } # Murder of Henry VI & Restoration of Edward IV
-# = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
-# = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
-# = { religion = protestant  }
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Battle of Marston Moor
-# = { revolt = {} #controller = ENG } # End of First british Civil War
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	
-#}
-# = { capital = "Leeds"  }
 
 
 native_size = 5

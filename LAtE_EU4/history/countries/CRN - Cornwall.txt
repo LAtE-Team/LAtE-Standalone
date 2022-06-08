@@ -4,7 +4,8 @@ government = monarchy
 government_rank = 1
 technology_group = european
 primary_culture = welsh
-religion = thelema
+religion = glorian
+religious_school = queen_school
 capital = 233	# Exeter
 
 3011.1.1 = {

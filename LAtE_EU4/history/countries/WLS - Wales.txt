@@ -4,7 +4,8 @@ government = monarchy
 government_rank = 1
 technology_group = european
 primary_culture = welsh
-religion = thelema
+religion = glorian
+religious_school = crowley_school
 capital = 242	# Gwynedd
 
 3031.1.1 = {

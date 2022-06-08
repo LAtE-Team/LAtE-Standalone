@@ -4,7 +4,7 @@ owner = GOW
 controller = GOW
 add_core = GOW
 culture = weegan
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 3
 base_production = 3
@@ -14,26 +14,6 @@ capital = "Dundee"
 #fort_15th = yes
 is_city = no
 #add_core= SCO
-
-
-
- 
-
-
-
- 
-
-
-
-# = { religion = reformed }
-# = { revolt = { type = revolutionary_rebels size = 3 } #controller = REB }
-# = { revolt = {} #controller = SCO } # Battle of Philiphaugh
-# = { #controller = ENG }
-# = { #controller = SCO } # Union of Scotland and the COmmonwealth
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-#}
 
 
 native_size = 5

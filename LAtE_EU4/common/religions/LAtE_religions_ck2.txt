@@ -2647,18 +2647,21 @@ oldworld = {
 
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
+			glorian_aspect_call_of_the_sea
+			glorian_aspect_great_isles
+			glorian_aspect_mystic_princes
+			glorian_aspect_war_paint
+			glorian_aspect_sun_never_sets
+			glorian_aspect_lingua_anglica
+			glorian_aspect_holy_feudalism
+			glorian_aspect_local_taverns
+			glorian_aspect_pearl_of_the_atlantic
+			glorian_aspect_virgin_queen
+			glorian_aspect_bards
+			glorian_aspect_chivalry
+			glorian_aspect_pantheism
+			glorian_aspect_do_what_thou_wilt
+			glorian_aspect_tarot
 		}
 		aspects_name = PROTESTANT_ASPECTS
 	}

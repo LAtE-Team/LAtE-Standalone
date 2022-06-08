@@ -14,21 +14,6 @@ is_city = no
 #add_core= KAC
 
 
-
-
-#
-
-
-
-# = { capital = "Khaspur" }
-# = {  }
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-#}
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3

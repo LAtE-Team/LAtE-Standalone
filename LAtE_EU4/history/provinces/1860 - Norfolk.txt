@@ -5,7 +5,7 @@ owner = GBR
 controller = GBR
 add_core = GBR
 culture = british
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 3
 base_production = 3
@@ -14,39 +14,6 @@ base_manpower = 2
 capital = "Norwich"
 is_city = no
 #add_core= ENG
-
-
-
- 
-
-
-
- 
-
-
-
-# = { unrest = 5 } # Start of the War of the Roses
-# = { unrest = 0 revolt = { type = pretender_rebels size = 1 } #controller = REB } # Coventry's Switch to the Yorkists
-# = { revolt = {} unrest = 2 #controller = ENG } # Coronation of Edward IV
-# = { unrest = 5 } # Rivalry between Edward IV & Warwick
-# = { unrest = 0 revolt = { type = pretender_rebels size = 1 } #controller = REB }
-# = { revolt = {} #controller = ENG } # Readeption of Henry VI
-# = { unrest = 8 } # Unpopularity of Warwick & War with Burgundy
-# = { unrest = 0 revolt = { type = pretender_rebels size = 1 } #controller = REB } # Capture of Warwick Castle
-# = { revolt = {} unrest = 2 #controller = ENG } # Murder of Henry VI & Restoration of Edward IV
-# = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
-# = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
-# = { religion = protestant }
-# = { religion = reformed }
-# = { revolt = { type = revolutionary_rebels size = 0 } #controller = REB }
-# = { revolt = {} #controller = ENG } # End of First british Civil War
-# = { capital = "Birmingham" }
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	
-#}
 
 
 native_size = 5

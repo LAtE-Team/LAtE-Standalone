@@ -3,7 +3,8 @@ government = monarchy
 
 government_rank = 1
 technology_group = european
-religion = thelema
+religion = glorian
+religious_school = queen_school
 primary_culture = irish
 capital = 4121	# Ulster
 

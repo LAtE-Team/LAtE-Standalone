@@ -5,7 +5,7 @@ owner = TYK
 controller = TYK
 add_core = TYK
 culture = tyke
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 3
 base_production = 3
@@ -16,36 +16,6 @@ capital = "Newcastle"
 is_city = no
 #add_core= ENG
 #add_core= NOL
-
-
-
- 
-
-
-
- 
-
-
-
-# = { unrest = 5 } # Start of the War of the Roses
-# = { revolt = { type = revolutionary_rebels size = 0 } unrest = 2 #controller = REB } # Lancastrian Holdouts after Coronation of Edward IV
-# = { revolt = {} #controller = ENG }
-# = { unrest = 5 } # Rivalry between Edward IV & Warwick
-# = { unrest = 8 } # Unpopularity of Warwick & War with Burgundy
-# = { unrest = 2 } # Murder of Henry VI & Restoration of Edward IV
-# = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
-# = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
-# = { religion = protestant }
-# = { #controller = SCO }
-# = { #controller = ENG }
-# = { #controller = SCO }
-# = { #controller = ENG } # End of First british Civil War
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	
-#}
 
 
 native_size = 5

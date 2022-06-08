@@ -2,17 +2,12 @@ setup_vision = yes
 government = monarchy 
 add_government_reform = autocracy_reform 
 government_rank = 1
-mercantilism = 0.1
 technology_group = european
 primary_culture = weegan
-religion = thelema
+religion = glorian
+religious_school = queen_school
 clear_scripted_personalities = yes
 capital = 249
-3053.1.1 {
-	capital = 249
-	add_treasury = 0
-	add_prestige = 4
-}
 
 3001.1.1 = {
 	monarch = {

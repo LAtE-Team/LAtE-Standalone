@@ -4,7 +4,7 @@ owner = WLS
 controller = WLS
 add_core = WLS
 culture = welsh
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 4
 base_production = 4
@@ -14,38 +14,6 @@ capital = "Carmarthen"
 is_city = no
 #add_core= ENG
 #add_core= WLS
-
-
-
- 
-
-
-
- 
-
-
-
-# = { unrest = 20 } # Buildup to the Welsh Revolt
-# = { revolt = { type = nationalist_rebels size = 2 } #controller = REB } # The Welsh Revolt
-# = { unrest = 0 revolt = {} #controller = ENG } # british rule is restored
-# = { unrest = 5 } # Start of the War of the Roses
-# = { unrest = 2 } # Coronation of Edward IV
-# = { unrest = 5 } # Rivalry between Edward IV & Warwick
-# = { unrest = 8 } # Unpopularity of Warwick & War with Burgundy
-# = { unrest = 0 revolt = { type = revolutionary_rebels size = 2 } #controller = REB }
-# = { revolt = {} unrest = 2 #controller = ENG } # Murder of Henry VI & Restoration of Edward IV
-# = { unrest = 8 } # Revulsion at Supposed Murder of the Princes in the Tower
-# = { unrest = 0 } # Battle of Bosworth Field & the End of the War of the Roses
-# = { revolt = { type = revolutionary_rebels size = 1 } #controller = REB }
-# = { revolt = {} #controller = ENG } # End of First british Civil War
-# = { revolt = { type = revolutionary_rebels size = 2 } #controller = REB } # Start of Second british Civil War
-# = { revolt = {} #controller = ENG }
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	
-#}
-# = { religion = reformed }
 
 
 native_size = 5

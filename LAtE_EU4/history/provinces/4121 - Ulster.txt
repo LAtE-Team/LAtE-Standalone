@@ -4,7 +4,7 @@ owner = ULS
 controller = ULS
 add_core = ULS
 culture = irish
-religion = thelema
+religion = glorian
 hre = no
 base_tax = 4
 base_production = 4
@@ -13,34 +13,6 @@ base_manpower = 2
 capital = "Carrickfergus"
 is_city = no
 #add_core= ULS
- 
-
-
-
- 
-
-
-# = {
-	#owner = ENG
-	#controller = ENG
-	#add_core= ENG
-	capital = Belfast
-#} # Flight of the Earls
-# = { culture = british religion = protestant } # Jacobean Plantations
-# = { unrest = 15 }
-# = { unrest = 0 }
-# = { #add_core= IRE } # Confederation of Kilkenny
-# = { #controller = IRE }
-# = { #controller = ENG } # Battle of Scarrifhollis
-# = {	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-	
-#}
-# = { trade_goods = unknownof Linen Board
-# = { unrest = 10 } # Irish rebellion
-# = { unrest = 0 } # The rebels are defeated
-
 
 native_size = 5
 native_ferocity = 1
