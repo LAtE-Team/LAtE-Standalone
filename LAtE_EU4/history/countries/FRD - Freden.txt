@@ -8,3 +8,4 @@ primary_culture = deitsch
 religion = anabaptist
 clear_scripted_personalities = yes
 capital = 2603
+set_country_flag = anabaptists_accepted

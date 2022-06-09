@@ -27,7 +27,7 @@ saint_josephs_oratory = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
@@ -42,14 +42,14 @@ saint_josephs_oratory = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
@@ -199,13 +199,17 @@ parliment_hill = {
 	}
 
 	can_use_modifiers_trigger = {
-		owner = {
-			OR = {
-				tag = CAN
+		OR = {
+			owner = { tag = CAN }
+			AND = {
 				culture = quebecois
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
 				culture = ontarian
-			}			
-		}
+				province_is_or_accepts_culture = yes
+			}
+		}			
 	}
 
 	can_upgrade_trigger = {
@@ -321,7 +325,7 @@ ursuline_abbey = {
 
 	#can we build it?
 	build_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
@@ -336,14 +340,14 @@ ursuline_abbey = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion_group = {
+		province_is_or_accepts_religion = {
 			religion = ursuline
 		}
 	}
@@ -403,7 +407,6 @@ ursuline_abbey = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			discipline = 0.05
-			global_missionary_strength = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -433,8 +436,8 @@ ursuline_abbey = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			discipline = 0.05
-			global_missionary_strength = 1
-			missionaries = 1
+			manpower_in_true_faith_provinces = 0.1
+			global_heretic_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -464,8 +467,8 @@ ursuline_abbey = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			discipline = 0.1
-			global_missionary_strength = 1.5
-			missionaries = 1
+			manpower_in_true_faith_provinces = 0.15
+			global_heretic_missionary_strength = 0.02
 		}
 
 		#what effects happen when this tier is achieved
@@ -689,10 +692,10 @@ lady_liberty = {
 				culture = gothamite
 				province_is_or_accepts_culture = yes
 			}
-			religion = americanist
-			religion = jeffersonian
-			religion = hamiltonian
-			religion = libertarian
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -711,10 +714,10 @@ lady_liberty = {
 				culture = gothamite
 				province_is_or_accepts_culture = yes
 			}
-			religion = americanist
-			religion = jeffersonian
-			religion = hamiltonian
-			religion = libertarian
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -725,10 +728,10 @@ lady_liberty = {
 				culture = gothamite
 				province_is_or_accepts_culture = yes
 			}
-			religion = americanist
-			religion = jeffersonian
-			religion = hamiltonian
-			religion = libertarian
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -854,6 +857,476 @@ lady_liberty = {
 		}
 
 		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+}
+
+white_house = {
+	start = 4618 #Piscataway
+	date = 1444.01.01	#1800.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		OR = {
+			owner = { tag = USA }
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			owner = { tag = USA }
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
+		}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			owner = { tag = USA }
+			province_is_or_accepts_religion = { religion = americanist }
+			province_is_or_accepts_religion = { religion = jeffersonian }
+			province_is_or_accepts_religion = { religion = hamiltonian }
+			province_is_or_accepts_religion = { religion = libertarian }
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.05
+			state_governing_cost = -0.05
+			reelection_cost = -0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.1
+			state_governing_cost = -0.15
+			reelection_cost = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			reform_progress_growth = 0.2
+			state_governing_cost = -0.25
+			reelection_cost = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+halifax_harbour = {
+	start = 4551 #Halifax
+	date = 1713.01.01	#1640.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		culture = maritimer
+		province_is_or_accepts_culture = yes
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		culture = maritimer
+		province_is_or_accepts_culture = yes
+	}
+
+	can_upgrade_trigger = {
+		culture = maritimer
+		province_is_or_accepts_culture = yes
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+			local_ship_repair = 0.1
+			ship_recruit_speed = -0.1
+			local_ship_cost = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+			local_ship_repair = 0.1
+			ship_recruit_speed = -0.1
+			local_ship_cost = -0.1
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			naval_forcelimit_modifier = 0.1
+			naval_maintenance_modifier = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+			local_ship_repair = 0.2
+			ship_recruit_speed = -0.2
+			local_ship_cost = -0.2
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			naval_forcelimit_modifier = 0.2
+			naval_maintenance_modifier = -0.2
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+hub_of_ford = {
+	start = 4555 #Detroit
+	date = 1963.09.20	#1640.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = { religion_group = christian }
+			province_is_or_accepts_religion_group = { religion_group = muslim }
+			province_is_or_accepts_religion = { religion = rust_cultist }
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = { religion_group = christian }
+			province_is_or_accepts_religion_group = { religion_group = muslim }
+			province_is_or_accepts_religion = { religion = rust_cultist }
+		}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = { religion_group = christian }
+			province_is_or_accepts_religion_group = { religion_group = muslim }
+			province_is_or_accepts_religion = { religion = rust_cultist }
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_heathen_missionary_strength = 0.02
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_tax_modifier = 0.1
+		}
+		country_modifiers = {
+			global_heathen_missionary_strength = 0.02
+			missionaries = 1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_tax_modifier = 0.1
+		}
+		country_modifiers = {
+			global_heathen_missionary_strength = 0.03
+			missionaries = 1
+			missionary_maintenance_cost = -0.1
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+holy_name = {
+	start = 4563 #Chicago
+	date = 1713.01.01	#1640.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+
+	build_trigger = {
+		province_is_or_accepts_religion_group = { religion_group = christian }
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = { religion_group = christian }
+	}
+
+	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = { religion_group = christian }
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_governing_cost = -0.1
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_governing_cost = -0.25
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.2
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+			local_governing_cost = -0.25
+		}
+		country_modifiers = {
+			global_tax_modifier = 0.2
+			global_autonomy = -0.05
+		}
 		on_upgraded = {
 		}
 	}

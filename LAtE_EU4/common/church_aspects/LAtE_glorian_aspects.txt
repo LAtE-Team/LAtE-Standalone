@@ -222,7 +222,7 @@ glorian_aspect_chivalry = {
 		}
 	}
 	modifier = {
-		shock_damage_received = -0.1
+		recover_army_morale_speed = 0.1
 	}
 	ai_will_do = {
 		factor = 12

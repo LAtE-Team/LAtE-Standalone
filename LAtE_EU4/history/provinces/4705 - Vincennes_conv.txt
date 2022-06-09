@@ -5,8 +5,6 @@ add_core = Y46
 culture = riverlander
 religion = catholic
 is_city = yes
-add_core = Y30
-
 
 hre = no
 base_tax = 4

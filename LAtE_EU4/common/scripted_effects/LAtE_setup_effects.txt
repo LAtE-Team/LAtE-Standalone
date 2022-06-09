@@ -69,6 +69,8 @@ setup_vision = {
 			sea_of_labrador_area = {
 				limit = {
 					NOT = { province_id = 1484 }
+					NOT = { province_id = 1482 }
+					NOT = { province_id = 1924 }
 				}
 				discover_country = ROOT
 			}
@@ -127,6 +129,8 @@ setup_vision = {
 				}
 				discover_country = ROOT
 			}
+			1494 = { discover_country = ROOT }
+			1495 = { discover_country = ROOT }
 			1502 = { discover_country = ROOT }
 			1700 = { discover_country = ROOT }
 			1701 = { discover_country = ROOT }
