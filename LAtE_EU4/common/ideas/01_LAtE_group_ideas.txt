@@ -23,7 +23,7 @@ american_feudal_ideas = {
         global_tax_modifier = 0.05
 	}
     knightly_traditions = {
-		army_tradition_decay = -0.5
+		army_tradition_decay = -0.005
 	}
 	noble_connections = {
 		heir_chance = 0.33

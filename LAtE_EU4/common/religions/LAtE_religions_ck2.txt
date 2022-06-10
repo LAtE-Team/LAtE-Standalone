@@ -2272,7 +2272,7 @@ oldworld = {
 			picture = "GFX_icon_oldworld_school_crowley"
 
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
-			innovativeness_gain = 0.05
+			innovativeness_gain = 0.5
 		}		
 	}
 

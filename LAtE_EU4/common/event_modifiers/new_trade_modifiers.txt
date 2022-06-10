@@ -8,26 +8,27 @@ mackinac_straits_modifier = {		#Machilimackinac
 	picture = "estuary_icon"
 }
 
-chicago_canal_modifier = {			#Chicago
+chicago_canal_modifier = {			#Chicago, not implemented b/c of center of trade
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
 
-niagara_river_modifier = {				#giving this to Welland on the Canadian side.
+niagara_river_modifier = {				#giving this to Niagra on the American side.
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
 
-detroit_river_modifier = {			#Detroit
+detroit_river_modifier = {			#Essex
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+
 roanoke_estuary_modifier = {			#Roanoke
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
 
-cape_fear_estuary_modifier = {			#Roanoke
+cape_fear_estuary_modifier = {			#Cape Fear
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
@@ -36,10 +37,12 @@ savannah_estuary_modifier = {			#Savannah
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+
 san_joaquin_estuary_modifier = {		#San Joaquin
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+
 colorado_estuary_modifier = {	#Plutarcho
 	province_trade_power_value = 10
 	picture = "estuary_icon"
@@ -56,6 +59,11 @@ moose_estuary_modifier = {		#Moose Cree
 }
 
 la_grande_estuary_modifier = {		#Nunavik
+	province_trade_power_value = 10
+	picture = "estuary_icon"	
+}
+
+nottoway_estuary_modifier = {		#Cochrane
 	province_trade_power_value = 10
 	picture = "estuary_icon"	
 }

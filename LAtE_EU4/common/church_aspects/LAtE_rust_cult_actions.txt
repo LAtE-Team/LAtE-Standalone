@@ -312,7 +312,7 @@ rust_production_3 = {
 }
 
 rust_innovate_1 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_innovate_icon"
 	cost = 100
 	potential = {
 		NOT = { has_country_flag = rust_cult_improvements_1 }
@@ -338,7 +338,7 @@ rust_innovate_1 = {
 }
 
 rust_innovate_2 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_innovate_icon"
 	cost = 100
 	potential = {
 		has_country_flag = rust_cult_improvements_1
@@ -361,7 +361,7 @@ rust_innovate_2 = {
 }
 
 rust_innovate_3 = {
-	sprite = "GFX_grant_monopoly_icon"
+	sprite = "GFX_rust_cult_innovate_icon"
 	cost = 50
 	potential = {
 		OR = {
@@ -388,7 +388,7 @@ rust_innovate_3 = {
 }
 
 rust_improve_1 = {
-	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
 		NOT = { has_country_flag = rust_cult_improvements_1 }
@@ -415,7 +415,7 @@ rust_improve_1 = {
 }
 
 rust_improve_2 = {
-	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_1
@@ -442,7 +442,7 @@ rust_improve_2 = {
 }
 
 rust_improve_3 = {
-	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_2
@@ -472,7 +472,7 @@ rust_improve_3 = {
 }
 
 rust_improve_4 = {
-	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_3
@@ -492,7 +492,7 @@ rust_improve_4 = {
 }
 
 rust_streamline = {
-	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_3

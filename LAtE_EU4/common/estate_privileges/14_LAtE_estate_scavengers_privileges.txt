@@ -203,7 +203,7 @@ estate_scavengers_scavenge_equipment = {
         has_estate_privilege = estate_scavengers_state_bands
     }
     benefits = {
-        army_tradition_from_battle = 0.1
+        army_tradition_from_battle = 0.5
     }
     on_granted = {
         custom_tooltip = estate_scavengers_scavenge_equipment_effect_tooltip

@@ -13,3 +13,8 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 trade_goods = livestock
+
+add_permanent_province_modifier = {
+	name = detroit_river_modifier
+	duration = -1
+}
