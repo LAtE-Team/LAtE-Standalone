@@ -1,0 +1,7 @@
+# Nunavik
+setup_vision = yes
+government = monarchy 
+technology_group = eastern
+primary_culture = inuit
+religion = ursuline
+capital = 2575

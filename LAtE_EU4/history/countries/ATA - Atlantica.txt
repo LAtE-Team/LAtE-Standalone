@@ -1,0 +1,7 @@
+# Atlantica
+setup_vision = yes
+government = monarchy
+technology_group = eastern
+religion = americanist
+primary_culture = gothamite
+capital = 965	# Manhattan

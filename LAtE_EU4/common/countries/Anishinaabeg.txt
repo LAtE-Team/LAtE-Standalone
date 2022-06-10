@@ -1,6 +1,6 @@
-# Mushkegowuk
+# Anishinaabeg
 graphical_culture = northamericagfx
-color = { 42 190 150 }
+color = { 150 150 150 }
 
 
 

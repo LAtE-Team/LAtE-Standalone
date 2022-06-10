@@ -74,6 +74,8 @@ setup_vision = {
 				}
 				discover_country = ROOT
 			}
+			1494 = { discover_country = ROOT }
+			1495 = { discover_country = ROOT }
 			1527 = { discover_country = ROOT }
 			1528 = { discover_country = ROOT }
 			1573 = { discover_country = ROOT }
@@ -129,8 +131,6 @@ setup_vision = {
 				}
 				discover_country = ROOT
 			}
-			1494 = { discover_country = ROOT }
-			1495 = { discover_country = ROOT }
 			1502 = { discover_country = ROOT }
 			1700 = { discover_country = ROOT }
 			1701 = { discover_country = ROOT }

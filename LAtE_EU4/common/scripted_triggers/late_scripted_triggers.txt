@@ -51,3 +51,49 @@ can_have_center_of_reformation_trigger = { #Province Scope
 	NOT = { has_terrain = glacier }
 	NOT = { has_climate = tropical }
 }
+
+#Formable Tier System
+is_duchy_tier_formable = {
+	custom_trigger_tooltip = {
+		tooltip = is_duchy_tier_formable_tooltip
+		OR = {
+			tag = WDC
+			tag = DEI
+		}
+	}
+}
+
+is_kingdom_tier_formable = {
+	custom_trigger_tooltip = {
+		tooltip = is_kingdom_tier_formable_tooltip
+		OR = {
+			tag = INU
+			tag = ANB
+			tag = KEY
+			tag = NEN
+			tag = WIS
+			tag = ONT
+			tag = QUE
+			tag = MRT
+			tag = HUD
+			tag = NYS
+			tag = MIC
+			tag = PAP
+			tag = RED
+		}
+	}
+}
+
+is_empire_tier_formable = {
+	custom_trigger_tooltip = {
+		tooltip = is_empire_tier_formable_tooltip
+		OR = {
+			tag = CAN
+			tag = USA
+			tag = ATA
+			tag = AUT
+			tag = GLK
+			tag = HLR
+		}
+	}
+}

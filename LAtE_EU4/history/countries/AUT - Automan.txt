@@ -1,0 +1,7 @@
+# Automan
+setup_vision = yes
+government = monarchy
+technology_group = eastern
+religion = rust_cultist
+primary_culture = rostmann
+capital = 4555	# Detroit

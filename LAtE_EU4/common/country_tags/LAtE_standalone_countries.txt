@@ -27,8 +27,14 @@ PHI = "countries/Philadelphia.txt"
 PCM = "countries/Pocomoke.txt" 
 KIT = "countries/Kittatinny.txt" 
 NYS = "countries/NewYork.txt"
+DEI = "countries/Deitscherei.txt"
+NEN = "countries/NewEngland.txt"
+KEY = "countries/Keystone.txt"
+ATA = "countries/Atlantica.txt"
+USA	= "countries/USA.txt"
 
 # Great Lakes
+WIS = "countries/Wisconsin.txt"
 GRB = "countries/GreenBay.txt"
 CPR = "countries/Copperland.txt"
 SOO = "countries/Soo.txt"
@@ -47,6 +53,8 @@ SAG = "countries/Sagina.txt"
 DET = "countries/Detroit.txt"
 UPN = "countries/Upnorth.txt"
 GRY = "countries/Gary.txt"
+AUT = "countries/Automan.txt"
+GLK = "countries/TheGreatLakes.txt"
 
 #Canada
 CAN	= "countries/Canada.txt"
@@ -82,11 +90,13 @@ CTN = "countries/CoteNord.txt"
 SGN = "countries/Saguenay.txt" 
 NVK = "countries/Nunavik.txt" 
 EEY = "countries/EeyouIstchee.txt"
+INU = "countries/InuitNunangat.txt"
 
 #Hudson's Bay
 KNR = "countries/Kenora.txt"
 ARR = "countries/Aurora.txt"
 MUS = "countries/Mushkegowuk.txt"
+ANB = "countries/Anishinaabeg.txt"
 
 #North West Territories 
 MTC = "countries/Metis.txt"

@@ -1,6 +1,6 @@
-# Ohio
+# Automan
 graphical_culture = westerngfx
-color = { 193 19 61 }
+color = { 100 105 185 }
 
 
 
