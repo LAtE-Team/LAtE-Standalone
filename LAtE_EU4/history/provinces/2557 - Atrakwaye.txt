@@ -1,7 +1,6 @@
 owner = ESQ
 controller = ESQ
 add_core = ESQ
-add_core = DEI #Deitschland
 
 culture = deitsch
 religion = americanist

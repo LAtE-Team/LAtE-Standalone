@@ -1,7 +1,6 @@
 owner = COA
 controller = COA
 add_core = COA
-add_core = DEI #Deitschland
 
 culture = deitsch
 religion = americanist

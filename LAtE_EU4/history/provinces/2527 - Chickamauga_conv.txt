@@ -1,11 +1,10 @@
-owner = X69
-controller = X69
-add_core = X69
+owner = Z15
+controller = Z15
+add_core = Z15
 
 culture = appalachian
 religion = protestant
 is_city = yes
-
 
 hre = yes
 base_tax = 4

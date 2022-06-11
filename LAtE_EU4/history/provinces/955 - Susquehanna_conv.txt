@@ -1,7 +1,6 @@
 owner = TMI
 controller = TMI
 add_core = TMI
-add_core = DEI #Deitschland
 
 culture = deitsch
 religion = americanist

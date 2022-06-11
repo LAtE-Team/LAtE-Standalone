@@ -1,11 +1,10 @@
-owner = X69
-controller = X69
-add_core = X69
+owner = Z28
+controller = Z28
+add_core = Z28
 
 culture = riverlander
 religion = protestant
 is_city = yes
-
 
 hre = yes
 base_tax = 4

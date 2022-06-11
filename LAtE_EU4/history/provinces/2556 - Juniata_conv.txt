@@ -1,7 +1,6 @@
 owner = WSQ
 controller = WSQ
 add_core = WSQ
-add_core = DEI #Deitschland
 
 culture = deitsch
 religion = americanist

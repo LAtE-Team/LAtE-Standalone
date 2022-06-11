@@ -217,6 +217,7 @@ renaissance = {
 			region = great_lakes_region
 			region = northeast_america_region
 		}
+		religion_group = oldworld
 		is_state = yes
 		is_island = no
 		OR = {
@@ -613,6 +614,10 @@ printing_press = {
 			development = 15
 			is_capital = yes
 			trade_goods = paper
+		}
+		OR = {
+			region = southeast_america_region
+			region = grand_virginia_region
 		}
 		owner = {
 			adm_tech = 12

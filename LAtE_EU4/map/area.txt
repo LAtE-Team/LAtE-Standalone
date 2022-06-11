@@ -2947,52 +2947,9 @@ east_alaska_area = { #3
 	976 977 2613
 }
 
-# lower_acadia_area = { #5
-	# 982 983 984 2568 2569
-# }
-
-# straits_of_georgia_area = { #4
-   # 972 973 974 2610
-# }
-# upper_acadia_area = { #4
-   # 985 2570 2571 2572
-# }
-
 newfoundland_area = { #3
 	980 981 2424 2573
 }
-
-# labrador_area = { #3
-	# 997 2574 2575
-# }
-
-# cote_nord_area = { #4
-	# 996 2576 2577 2578
-# }
-
-# notre_dame_mountains_area = { #4
-	# 986 2012 2582 2583
-# }
-
-# lower_canada_area = { #4
-	# 990 993 994 2584
-# }
-
-# upper_canada_area = { #4
-	# 987 989 2585 2670
-# }
-
-# laurentian_area = { #4
-	# 992 2580 2581
-# }
-
-# upper_ontario_area = { #4
-	# 991 1001 1007 2015
-# }
-
-# huronia_area = { #4
-	 # 988 2586 2587 2671
-# }
 
 east_james_bay_area = { #5
 	998 999 1000 
@@ -3001,14 +2958,6 @@ east_james_bay_area = { #5
 west_james_bay_area = {
 	1003 1004  4828 2592
 }
-
-# inner_ontario_area = { #5 Abitibi
-	# 1002 2588 2589 2590 2591
-# }
-
-# hudson_bay_area = { #5
-	# 1005 1006 1009 2592 2594
-# }
 
 red_river_area = { #5
 	1008 1010 2016 2511
@@ -3243,7 +3192,7 @@ stadacona_area = {
 }
 
 huronia_area = { 
-	 988 2586 2587 2671 4538
+	988 2586 2587 2671 4538
 }
 
 notre_dame_mountains_area = { 
@@ -3269,10 +3218,6 @@ nootka_area = {
 straits_of_georgia_area = { #4
 	973 974 2610 874
 }
-
-# salish_sea_area = { 
-	# 874 2484 2485 973 2610
-# }
 
 restigouche_area = {
 	2567 2571 2572

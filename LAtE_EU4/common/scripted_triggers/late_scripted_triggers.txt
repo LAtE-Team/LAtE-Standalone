@@ -57,6 +57,7 @@ is_duchy_tier_formable = {
 	custom_trigger_tooltip = {
 		tooltip = is_duchy_tier_formable_tooltip
 		OR = {
+			tag = PAP
 			tag = WDC
 			tag = DEI
 		}
@@ -67,6 +68,7 @@ is_kingdom_tier_formable = {
 	custom_trigger_tooltip = {
 		tooltip = is_kingdom_tier_formable_tooltip
 		OR = {
+			tag = PAP
 			tag = INU
 			tag = ANB
 			tag = KEY
@@ -78,7 +80,6 @@ is_kingdom_tier_formable = {
 			tag = HUD
 			tag = NYS
 			tag = MIC
-			tag = PAP
 			tag = RED
 		}
 	}
@@ -88,6 +89,7 @@ is_empire_tier_formable = {
 	custom_trigger_tooltip = {
 		tooltip = is_empire_tier_formable_tooltip
 		OR = {
+			tag = PAP
 			tag = CAN
 			tag = USA
 			tag = ATA
