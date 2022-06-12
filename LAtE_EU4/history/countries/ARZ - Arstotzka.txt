@@ -3,6 +3,7 @@ government = monarchy
 add_government_reform = autocracy_reform 
 primary_culture = russian
 religion = atomicist
+religious_school = aphite_school
 technology_group = russian_group
 capital = 465 #Nogay
 

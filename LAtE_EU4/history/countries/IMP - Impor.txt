@@ -3,6 +3,7 @@ government = republic
 add_government_reform = merchants_reform
 primary_culture = russian
 religion = atomicist
+religious_school = helionist_school
 technology_group = russian_group
 capital = 2199 #Tarki
 
