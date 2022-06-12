@@ -100,7 +100,7 @@ aphite_school_modifier = {
 	land_attrition = -0.1
 }
 
-rust_school_modifier = {
+idealist_school_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
@@ -108,12 +108,20 @@ rust_school_modifier = {
 	global_trade_goods_size_modifier = 0.05
 }
 
-ford_school_modifier = {
+materialist_school_modifier = {
 	religion_sub_modifier = yes # Will make icon placed next to religion modifier
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	build_cost = -0.1
+}
+
+entropic_school_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	manpower_recovery_speed = 0.1
 }
 
 queen_school_modifier = {
@@ -130,4 +138,20 @@ crowley_school_modifier = {
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
 	innovativeness_gain = 0.5
+}
+
+summer_school_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	global_spy_defence = 0.1
+}
+
+lamb_school_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	tolerance_heathen = 0.15
 }

@@ -1,0 +1,33 @@
+namespace = rust_cult
+country_event = {
+	id = rust_cult.15
+	title = "rust_cult.15.title"
+	desc = "rust_cult.15.desc"
+	picture = PRAYING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "rust_cult.15.a"
+		add_legitimacy = 50
+		add_prestige = 10
+		exile_ruler_as = doing_something_else
+		add_stability = 1
+	}
+	option = {
+		name = "rust_cult.15.b"
+		add_inflation = 2
+		add_prestige = -10
+		add_splendor = 50
+		add_stability = 1
+	}
+	option = {
+		name = "rust_cult.15.c"
+		add_prestige = -10
+		kill_ruler = yes
+		set_religious_school = {
+			group = oldworld
+			school = idealist_school
+		}
+	}
+}

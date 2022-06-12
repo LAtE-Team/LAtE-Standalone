@@ -6,7 +6,7 @@ government_rank = 1
 technology_group = eastern
 primary_culture = motowner
 religion = rust_cultist
-religious_school = rust_school
+religious_school = materialist_school
 
 clear_scripted_personalities = yes
 capital = 947

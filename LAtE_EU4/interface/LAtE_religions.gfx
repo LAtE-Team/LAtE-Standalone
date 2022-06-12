@@ -8,6 +8,21 @@ spriteTypes = {
 		name = "GFX_icon_oldworld_school_washington"
 		texturefile = "gfx/interface/icon_oldworld_school_washington.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_jefferson"
+		texturefile = "gfx/interface/icon_oldworld_school_jefferson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_hamilton"
+		texturefile = "gfx/interface/icon_oldworld_school_hamilton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_libertarian"
+		texturefile = "gfx/interface/icon_oldworld_school_libertarian.dds"
+	}
 
 	spriteType = {
 		name = "GFX_icon_oldworld_school_mall"
@@ -25,8 +40,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_icon_oldworld_school_rust"
-		texturefile = "gfx/interface/icon_oldworld_school_rust.dds"
+		name = "GFX_icon_oldworld_school_materialist"
+		texturefile = "gfx/interface/icon_oldworld_school_materialist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_entropic"
+		texturefile = "gfx/interface/icon_oldworld_school_entropist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_idealist"
+		texturefile = "gfx/interface/icon_oldworld_school_idealist.dds"
 	}
 
 	spriteType = {
@@ -37,6 +62,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_oldworld_school_crowley"
 		texturefile = "gfx/interface/icon_oldworld_school_crowley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_summer"
+		texturefile = "gfx/interface/icon_oldworld_school_summer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_lamb"
+		texturefile = "gfx/interface/icon_oldworld_school_lamb.dds"
 	}
 
 	spriteType = {
@@ -62,5 +97,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_rust_cult_upgrade_icon"
 		texturefile = "gfx/interface/rust_cult_upgrade_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rust_cult_decay_icon"
+		texturefile = "gfx/interface/rust_cult_decay_icon.dds"
 	}
 }

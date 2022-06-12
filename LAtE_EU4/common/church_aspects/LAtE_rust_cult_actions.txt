@@ -387,10 +387,48 @@ rust_innovate_3 = {
 	}
 }
 
+rust_embracedecay = {
+	sprite = "GFX_rust_cult_decay_icon"
+	cost = 200
+	potential = {
+		NOT ={
+			OR ={
+				religious_school = {
+					group = oldworld
+					school = idealist_school
+				}
+				religious_school = {
+					group = oldworld
+					school = materialist_school
+				}
+			}
+		}
+	}
+	trigger = {
+		OR = {
+			NOT = { stability = 3 }
+			NOT = { legitimacy_equivalent = 100 }
+		}
+	}
+	effect = {
+		country_event = { id = rust_cult.15 }
+		custom_tooltip = RUST_CULTIST_DECAY_TT
+	}
+	ai_will_do = {
+		factor = 2
+	}
+}
+
 rust_improve_1 = {
 	sprite = "GFX_rust_cult_upgrade_icon"
 	cost = 200
 	potential = {
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
 		NOT = { has_country_flag = rust_cult_improvements_1 }
 		NOT = { has_country_flag = rust_cult_improvements_2 }
 		NOT = { has_country_flag = rust_cult_improvements_3 }
@@ -419,6 +457,12 @@ rust_improve_2 = {
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_1
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
 	}
 	trigger = {
 		has_institution = renaissance
@@ -446,6 +490,12 @@ rust_improve_3 = {
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_2
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
 	}
 	trigger = {
 		development_in_provinces = {
@@ -476,6 +526,12 @@ rust_improve_4 = {
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_3
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
 	}
 	trigger = {
 		any_owned_province = {
@@ -496,6 +552,12 @@ rust_streamline = {
 	cost = 200
 	potential = {
 		has_country_flag = rust_cult_improvements_3
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
 	}
 	trigger = {
 		any_owned_province = {

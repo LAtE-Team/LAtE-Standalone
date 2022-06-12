@@ -5,7 +5,7 @@ government_rank = 1
 technology_group = european
 primary_culture = tyke
 religion = glorian
-religious_school = queen_school
+religious_school = lamb_school
 clear_scripted_personalities = yes
 capital = 245
 

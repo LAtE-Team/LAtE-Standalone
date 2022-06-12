@@ -4,7 +4,7 @@ government = monarchy
 government_rank = 1
 technology_group = european
 religion = glorian
-religious_school = queen_school
+religious_school = lamb_school
 primary_culture = irish
 capital = 4121	# Ulster
 

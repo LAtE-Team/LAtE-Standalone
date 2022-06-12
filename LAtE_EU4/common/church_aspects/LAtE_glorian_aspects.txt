@@ -195,9 +195,15 @@ glorian_aspect_virgin_queen = {
 glorian_aspect_bards = {
 	cost = 100
 	potential = {
-		religious_school = {
-			group = oldworld
-			school = queen_school
+		OR = {
+			religious_school = {
+				group = oldworld
+				school = queen_school
+			}
+			religious_school = {
+				group = oldworld
+				school = summer_school
+			}
 		}
 	}
 	modifier = {
@@ -216,9 +222,15 @@ glorian_aspect_bards = {
 glorian_aspect_chivalry = {
 	cost = 100
 	potential = {
-		religious_school = {
-			group = oldworld
-			school = queen_school
+		OR = {
+			religious_school = {
+				group = oldworld
+				school = queen_school
+			}
+			religious_school = {
+				group = oldworld
+				school = lamb_school
+			}
 		}
 	}
 	modifier = {
@@ -236,9 +248,15 @@ glorian_aspect_chivalry = {
 glorian_aspect_pantheism = {
 	cost = 100
 	potential = {
-		religious_school = {
+		OR = {
+			religious_school = {
+				group = oldworld
+				school = crowley_school
+			}
+			religious_school = {
 			group = oldworld
-			school = crowley_school
+			school = summer_school
+			}
 		}
 	}
 	modifier = {
@@ -294,5 +312,54 @@ glorian_aspect_tarot = {
 			factor = 2
 			num_of_rebel_controlled_provinces = 1
 		}	
+	}
+}
+
+glorian_aspect_ritual_burning = {
+	cost = 100
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = summer_school
+		}
+	}
+	modifier = {
+		tolerance_own = 0.5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			unrest = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_rebel_controlled_provinces = 1
+		}	
+	}
+}
+
+glorian_aspect_great_emolation = {
+	cost = 100
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = lamb_school
+		}
+	}
+	modifier = {
+		hostile_attrition = 2.5
+		manpower_recovery_speed = 0.33
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			at_war_with_religious_enemy = yes
+		}
+		modifier = {
+			factor = 2
+			war_exhaustion > 0.5
+		}
 	}
 }
