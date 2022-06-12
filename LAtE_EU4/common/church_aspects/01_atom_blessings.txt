@@ -23,7 +23,12 @@ old_world_knowledge = {
 
 nuclear_families = {
 	is_blessing = yes
-
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = atom_school
+		}
+	}
 	modifier = {
 		stability_cost_modifier = -0.15
 	}
@@ -43,7 +48,12 @@ nuclear_families = {
 
 atomic_relics = {
 	is_blessing = yes
-
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = atom_school
+		}
+	}
 	modifier = {
 		prestige = 0.5
 	}
@@ -58,7 +68,12 @@ atomic_relics = {
 
 holy_weapons = {
 	is_blessing = yes
-
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = atom_school
+		}
+	}
 	modifier = {
 		land_morale = 0.07
 		naval_morale = 0.07
@@ -68,6 +83,196 @@ holy_weapons = {
 		modifier = {
 			factor = 3
 			is_at_war = yes
+		}
+	}
+}
+
+ritual_cleanliness = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = aphite_school
+		}
+	}
+	modifier = {
+		discipline = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+}
+
+perpetual_quarantine = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = aphite_school
+		}
+	}
+	modifier = {
+		harsh_treatment_cost = -0.2	
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			average_unrest = 1
+		}
+	}
+}
+
+modernizing_vaccination = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = aphite_school
+		}
+	}
+	modifier = {
+		technology_cost = -0.025
+		yearly_absolutism = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			current_age = age_of_absolutism # modify this later
+		}
+	}
+}
+
+sun_king = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = helionist_school
+		}
+	}
+	modifier = {
+		yearly_absolutism = 0.2
+		max_absolutism = 5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			current_age = age_of_absolutism # modify this later
+		}
+	}
+}
+
+nej_tak = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = helionist_school
+		}
+	}
+	modifier = {
+		shock_damage_received = -0.15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+}
+
+galactic_polity = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = helionist_school
+		}
+	}
+	modifier = {
+		vassal_income = 0.15
+		vassal_forcelimit_bonus = 1.0
+		governing_capacity_modifier = -0.33
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			vassal = 1
+		}
+		modifier = {
+			factor = 3
+			can_create_vassals = yes
+		}
+	}
+}
+
+dead_or_alive = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = schronist_school
+		}
+	}
+	modifier = {
+		manpower_recovery_speed = 0.10
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			had_recent_war = 5
+		}
+	}
+}
+
+human_shock_wave_duality = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = schronist_school
+		}
+	}
+	modifier = {
+		infantry_shock = 1.0
+		artillery_fire = 1.0	
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+}
+
+quantum_entanglament = {
+	is_blessing = yes
+	potential = {
+		religious_school = {
+			group = oldworld
+			school = schronist_school
+		}
+	}
+	modifier = {
+		improve_relation_modifier = 0.1
+		diplomatic_upkeep = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			num_of_diplomatic_relations = 3
 		}
 	}
 }

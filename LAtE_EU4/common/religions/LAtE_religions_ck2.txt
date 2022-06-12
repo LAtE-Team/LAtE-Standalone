@@ -2749,6 +2749,15 @@ oldworld = {
 			nuclear_families
 			atomic_relics
 			holy_weapons
+			ritual_cleanliness
+			perpetual_quarantine
+			modernizing_vaccination
+			sun_king
+			nej_tak
+			galactic_polity
+			dead_or_alive
+			human_shock_wave_duality
+			quantum_entanglament
 		}
 	}
 
