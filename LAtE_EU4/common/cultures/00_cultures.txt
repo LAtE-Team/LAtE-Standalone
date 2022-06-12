@@ -8382,6 +8382,9 @@ west_african = {
 			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
 	}
+	liberian = {
+		primary = LBR
+	}
 }	
 
 southern_african = {
