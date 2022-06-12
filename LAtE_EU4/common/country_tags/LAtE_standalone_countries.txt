@@ -1,5 +1,7 @@
 CST = "countries/Charleston.txt"
 HOU = "countries/Houston.txt"
+BTR = "countries/BatonRouge.txt"
+OUA = "countries/Ouachita.txt"
 
 # Atlantica
 HUD = "countries/Hudsonia.txt"
@@ -21,6 +23,7 @@ CMP = "countries/Champlain.txt"
 COA = "countries/Coalland.txt" 
 JER = "countries/Jersey.txt" 
 MRL = "countries/Maryland.txt" 
+MTL = "countries/Manitoulin.txt"
 TMI = "countries/ThreeMileIsland.txt" 
 BLT = "countries/Baltimore.txt" 
 PHI = "countries/Philadelphia.txt" 

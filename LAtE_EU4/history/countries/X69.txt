@@ -6,7 +6,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = dixie
-religion = protestant
+religion = catholic
 clear_scripted_personalities = yes
 capital = 940
 3053.1.1 {
@@ -30,10 +30,4 @@ capital = 940
 		mil = 2
 	}
 	add_heir_personality = pious_personality
-}
-3053.1.1 {
-	elector = yes
-	capital = 940
-	add_treasury = -20
-	add_prestige = 147
 }

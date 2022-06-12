@@ -3,7 +3,7 @@ controller = EEY
 add_core = EEY
 
 culture = anishinabe
-religion = ursuline
+religion = midewiwin
 is_city = yes
 
 

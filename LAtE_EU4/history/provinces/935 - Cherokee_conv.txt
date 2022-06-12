@@ -3,12 +3,9 @@ controller = Z15
 add_core = Z15
 
 culture = appalachian
-religion = protestant
+religion = catholic
 is_city = yes
-add_permanent_claim = APP
 
-
-hre = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2

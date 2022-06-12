@@ -4,3 +4,21 @@ vassal = {
 	start_date = 3053.1.1
 	end_date = 1900.1.1
 }
+vassal = {
+	first = Z03
+	second = Z11
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+vassal = {
+	first = Z05
+	second = Z75
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+alliance = {
+	first = Z24
+	second = Z33
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

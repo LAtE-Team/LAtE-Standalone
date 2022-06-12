@@ -1,0 +1,11 @@
+# Alabama
+setup_vision = yes
+government = monarchy 
+
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = tuskegean
+religion = protestant
+clear_scripted_personalities = yes
+capital = 924

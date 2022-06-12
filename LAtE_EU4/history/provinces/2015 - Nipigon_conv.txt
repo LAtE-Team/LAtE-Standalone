@@ -3,7 +3,7 @@ controller =  THN
 add_core =  THN
 
 culture = anishinabe
-religion = anglican
+religion = rust_cultist
 is_city = yes
 
 

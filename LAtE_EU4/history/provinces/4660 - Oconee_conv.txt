@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = FLD
-controller = FLD
-add_core = FLD
+owner = Z03
+controller = Z03
+add_core = Z03
 culture = dixie
 religion = protestant
 is_city = yes

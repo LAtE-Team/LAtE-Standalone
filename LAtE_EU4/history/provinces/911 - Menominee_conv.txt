@@ -3,7 +3,7 @@ controller = SOO
 add_core = SOO
 
 culture = yooper
-religion = norse_pagan_reformed
+religion = rust_cultist
 is_city = yes
 
 

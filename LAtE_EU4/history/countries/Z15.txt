@@ -6,7 +6,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = appalachian
-religion = protestant
+religion = catholic
 clear_scripted_personalities = yes
 capital = 4710
 3053.1.1= {
@@ -24,5 +24,4 @@ capital = 4710
 	capital = 4710
 	add_treasury = 19
 	add_prestige = 30
-	elector = no
 }

@@ -3,7 +3,7 @@ controller =  ALG #Algoma
 add_core =  ALG #Algoma
 
 culture = anishinabe
-religion = anglican
+religion = rust_cultist
 is_city = yes
 
 

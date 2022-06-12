@@ -2,12 +2,11 @@ owner = Y27
 controller = Y27
 add_core = Y27
 
-culture = melungeon
-religion = protestant
+culture = appalachian
+religion = catholic
 is_city = yes
-add_permanent_claim = APP
 
-hre = yes
+
 base_tax = 3
 base_production = 3
 base_manpower = 2
