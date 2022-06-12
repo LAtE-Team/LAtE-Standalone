@@ -12,7 +12,7 @@ country_decisions = {
 			NOT = { tag = WDC }
 			NOT = { tag = DLW }
 			capital_scope = {
-				region = northeast_america_region
+				region = atlantica_region
 			}
 			religion_group = oldworld
 			OR = {

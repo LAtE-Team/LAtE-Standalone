@@ -297,7 +297,7 @@ dip_idea_modifiers = {
 				num_of_ports = 5
 				capital_scope = {
 					OR = {
-						region = northeast_america_region
+						region = atlantica_region
 						region = southeast_america_region
 					}
 				}

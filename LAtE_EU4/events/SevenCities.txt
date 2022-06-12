@@ -627,7 +627,7 @@ province_event = {
 #			area = james_bay_area
 #			area = inner_ontario_area
 #			area = hudson_bay_area
-#			region = northeast_america_region
+#			region = atlantica_region
 #					region = southeast_america_region
 #			any_neighbor_province = {
 #				OR = {
@@ -635,7 +635,7 @@ province_event = {
 #					area = james_bay_area
 #					area = inner_ontario_area
 #					area = hudson_bay_area
-#					region = northeast_america_region
+#					region = atlantica_region
 #					region = southeast_america_region
 #				}
 #			}
@@ -2445,7 +2445,7 @@ province_event = {
 #			area = james_bay_area
 #			area = inner_ontario_area
 #			area = hudson_bay_area
-#			region = northeast_america_region
+#			region = atlantica_region
 #			region = southeast_america_region
 #		}
 #		FROM = {
@@ -2513,7 +2513,7 @@ province_event = {
 #			area = james_bay_area
 #			area = inner_ontario_area
 #			area = hudson_bay_area
-#			region = northeast_america_region
+#			region = atlantica_region
 #			region = southeast_america_region
 #		}
 #		FROM = {
@@ -2585,7 +2585,7 @@ province_event = {
 #			area = james_bay_area
 #			area = inner_ontario_area
 #			area = hudson_bay_area
-#			region = northeast_america_region
+#			region = atlantica_region
 #			region = southeast_america_region
 #		}
 #		NOT = {
@@ -4385,7 +4385,7 @@ country_event = {
 					type = all
 					has_discovered = ROOT
 				}
-				northeast_america_region = {
+				atlantica_region = {
 					type = all
 					has_discovered = ROOT
 				}
@@ -4412,7 +4412,7 @@ country_event = {
 					type = all
 					has_discovered = ROOT
 				}
-				northeast_america_region = {
+				atlantica_region = {
 					type = all
 					has_discovered = ROOT
 				}
@@ -4439,7 +4439,7 @@ country_event = {
 					type = all
 					has_discovered = ROOT
 				}
-				northeast_america_region = {
+				atlantica_region = {
 					type = all
 					has_discovered = ROOT
 				}

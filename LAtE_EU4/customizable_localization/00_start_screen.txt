@@ -559,7 +559,7 @@ defined_text = {
         localisation_key = string_start_northeast_america
         trigger = {
 			capital_scope = {
-				region = northeast_america_region
+				region = atlantica_region
 			}
 			NOT = {
 				tag = RED
@@ -582,7 +582,7 @@ defined_text = {
 			is_part_of_hre = yes
 			NOT = {
 				capital_scope = {
-					region = northeast_america_region
+					region = atlantica_region
 				}
 				tag = NYC
 			}

@@ -215,7 +215,7 @@ renaissance = {
 		is_year = 3060
 		OR = {
 			region = great_lakes_region
-			region = northeast_america_region
+			region = atlantica_region
 		}
 		religion_group = oldworld
 		is_state = yes

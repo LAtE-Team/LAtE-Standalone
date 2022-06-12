@@ -10,7 +10,7 @@ country_decisions = {
 			}
 			NOT = { exists = ATA }
 			capital_scope = {
-				region = northeast_america_region
+				region = atlantica_region
 			}
 			religion_group = christian
 			OR = {
@@ -96,7 +96,7 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			northeast_america_region = {
+			atlantica_region = {
 				add_permanent_claim = root
 			}
 			add_country_modifier = {

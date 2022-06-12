@@ -1176,7 +1176,7 @@ great_lakes_region = {
 	}
 }
 
-northeast_america_region = {
+atlantica_region = {
 	areas = {
 		delmarva_area
 		massachusetts_bay_area

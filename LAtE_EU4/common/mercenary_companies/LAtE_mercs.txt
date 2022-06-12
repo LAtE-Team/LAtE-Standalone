@@ -12,7 +12,7 @@ merc_united_empire_loyalists = {
 				OR = {
 					region = canada_region 
 					region = great_lakes_region
-					region = northeast_america_region
+					region = atlantica_region
 				}
 			}
 			any_owned_province = {
@@ -47,7 +47,7 @@ merc_bluenose = {
 			capital_scope = { 
 				OR = {
 					region = canada_region 
-					region = northeast_america_region
+					region = atlantica_region
 				}
 			}
 			any_owned_province = {
@@ -105,7 +105,7 @@ merc_toronto_guard = {
 				OR = {
 					region = canada_region
 					region = great_lakes_region
-					region = northeast_america_region
+					region = atlantica_region
 				}
 			}
 			has_country_modifier = mercenaries_to_the_standard
@@ -133,7 +133,7 @@ merc_liberty_company = {
 		OR = {
 			capital_scope = { 
 				OR = {
-					region = northeast_america_region
+					region = atlantica_region
 					region = canada_region
 					region = great_lakes_region
 					region = grand_virginia_region
@@ -173,7 +173,7 @@ merc_yankees = {
     trigger = {
 		capital_scope = {
 			OR = {
-				region = northeast_america_region
+				region = atlantica_region
 				region = canada_region
 			}
 		}
@@ -239,7 +239,7 @@ merc_fords_children = {
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		capital_scope = {
-			superregion = north_america_superregion
+			superregion = laurentia_superregion
 		}
 		religion = rust_cultist
 	}
@@ -256,7 +256,7 @@ merc_continental_army = {
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		capital_scope = {
-			superregion = north_america_superregion
+			superregion = laurentia_superregion
 		}
 		religion = americanist
 	}
