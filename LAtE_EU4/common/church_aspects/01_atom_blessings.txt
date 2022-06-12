@@ -137,7 +137,7 @@ modernizing_vaccination = {
 	}
 	modifier = {
 		technology_cost = -0.025
-		yearly_absolutism = 0.1
+		yearly_absolutism = 0.5
 	}
 	ai_will_do = {
 		factor = 10
@@ -157,7 +157,7 @@ sun_king = {
 		}
 	}
 	modifier = {
-		yearly_absolutism = 0.2
+		yearly_absolutism = 1.0
 		max_absolutism = 5
 	}
 	ai_will_do = {
@@ -200,7 +200,6 @@ galactic_polity = {
 	modifier = {
 		vassal_income = 0.15
 		vassal_forcelimit_bonus = 1.0
-		governing_capacity_modifier = -0.33
 	}
 	ai_will_do = {
 		factor = 10
@@ -244,8 +243,8 @@ human_shock_wave_duality = {
 		}
 	}
 	modifier = {
-		infantry_shock = 1.0
-		artillery_fire = 1.0	
+		shock_damage = 0.10
+		artillery_power = 0.05
 	}
 	ai_will_do = {
 		factor = 10
