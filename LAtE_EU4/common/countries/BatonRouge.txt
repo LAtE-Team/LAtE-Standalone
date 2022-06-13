@@ -1,0 +1,6 @@
+# Baton Rouge
+
+graphical_culture = easterngfx
+color = { 50 0 100 }
+
+

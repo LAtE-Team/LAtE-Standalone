@@ -1,0 +1,21 @@
+# Vancouver
+setup_vision = yes
+government = monarchy 
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+primary_culture = canuck
+religion = raven_tales
+clear_scripted_personalities = yes
+capital = 973
+3049.1.8 = {
+	monarch = {
+		name = "Squush-um III"
+		birth_date = 3005.11.7
+		dynasty = "Sacumehu"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+	add_ruler_personality = entrepreneur_personality
+}

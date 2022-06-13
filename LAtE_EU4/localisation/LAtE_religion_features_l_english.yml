@@ -1,0 +1,14 @@
+﻿l_english:
+ #Catholic
+ ursuline_order: "Order of Saint Ursula"
+ ursuline_order_desc: "Among the dedicated Christian evangelists, the missionaries of the Society of Jesus are determined to spread the word of God to the four corners of the world. They are firm advocates for the natural rights of all mankind, abhorring slavery and mistreatment"
+ charity_order: "Sisters of Charity"
+ charity_order_desc: "The Grey Nuns of the Sisters of Charity they seek to change the world through compassionate deeds."
+ angeline_order: "Sisters of Blessed Angelina"
+ angeline_order_desc: "The successors of Angelina of Montegiove in the Franciscan Sisters of Blessed Angelina seek to implore the faithful to righteous acts through example. To those not of the faith they are strict disciplinarians who will do what is necessary to impose God's law."
+ estate_ursuline: "Order of Saint Ursula"
+ estate_sisters_of_charity: "Sisters of Charity"
+ estate_angeline: "Sisters of Blessed Angelina"
+
+ #Old World
+ RECLAMATION: "Reclamation"

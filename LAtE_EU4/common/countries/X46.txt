@@ -9,16 +9,16 @@ color = { 140 170 190 }
 leader_names = {
 
 	"Dolora" "Sybil" "Aveline" "Jennette" "Tabitha" "Archibald" "Athena" "Emery" "Adam" "Athanase" 
-	"Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "André" "Adrien" 
-	"Aurèle" "Baudouin" "Barthélémy" "Balian" "Bohémond" "Cartier" "Charles" "Cyrille" "Cecil" "Claude" 
-	"Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "Étienne" "Édouard" "Éphrem" 
-	"François" "Foulques" "Frédéric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" 
-	"Guillaume" "Gilles" "Gabriel" "Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" 
-	"Ignace" "Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" 
+	"Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "Andrï¿½" "Adrien" 
+	"Aurï¿½le" "Baudouin" "Barthï¿½lï¿½my" "Balian" "Bohï¿½mond" "Cartier" "Charles" "Cyrille" "Cecil" "Claude" 
+	"Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "ï¿½tienne" "ï¿½douard" "ï¿½phrem" 
+	"Franï¿½ois" "Foulques" "Frï¿½dï¿½ric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" 
+	"Guillaume" "Gilles" "Gabriel" "Gaï¿½tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" 
+	"Ignace" "Jeannot" "Jean" "Jacques" "Jï¿½rome" "Joseph" "Josselin" "Josue" "Julien" "Justin" 
 	"Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Marcel" "Napoleon" 
-	"Nérée" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" 
-	"Rohard" "Robert" "René" "Roger" "Raymond" "Renaud" "Roupen" "Régis" "Roland" "Samuel" 
-	"Sulpice" "Serge" "Tancrède" "Vincent" "Wilfrid" "Xavier" }
+	"Nï¿½rï¿½e" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Rï¿½al" 
+	"Rohard" "Robert" "Renï¿½" "Roger" "Raymond" "Renaud" "Roupen" "Rï¿½gis" "Roland" "Samuel" 
+	"Sulpice" "Serge" "Tancrï¿½de" "Vincent" "Wilfrid" "Xavier" }
 monarch_names = {
 	"Dolora #0" = -1
 	"Sybil #0" = -1
@@ -38,13 +38,13 @@ monarch_names = {
 	"Amaury #0" = 0
 	"Andronic #0" = 0
 	"Alexandre #0" = 0
-	"André #0" = 0
+	"Andrï¿½ #0" = 0
 	"Adrien #0" = 0
-	"Aurèle #0" = 0
+	"Aurï¿½le #0" = 0
 	"Baudouin #0" = 0
-	"Barthélémy #0" = 0
+	"Barthï¿½lï¿½my #0" = 0
 	"Balian #0" = 0
-	"Bohémond #0" = 0
+	"Bohï¿½mond #0" = 0
 	"Cartier #0" = 0
 	"Charles #0" = 0
 	"Cyrille #0" = 0
@@ -57,12 +57,12 @@ monarch_names = {
 	"Damase #0" = 0
 	"Dustin #0" = 0
 	"Daniel #0" = 0
-	"Étienne #0" = 0
-	"Édouard #0" = 0
-	"Éphrem #0" = 0
-	"François #0" = 0
+	"ï¿½tienne #0" = 0
+	"ï¿½douard #0" = 0
+	"ï¿½phrem #0" = 0
+	"Franï¿½ois #0" = 0
 	"Foulques #0" = 0
-	"Frédéric #0" = 0
+	"Frï¿½dï¿½ric #0" = 0
 	"Fabien #0" = 0
 	"Ferreol #0" = 0
 	"Ghislain #0" = 0
@@ -73,7 +73,7 @@ monarch_names = {
 	"Guillaume #0" = 0
 	"Gilles #0" = 0
 	"Gabriel #0" = 0
-	"Gaétan #0" = 0
+	"Gaï¿½tan #0" = 0
 	"Henri #0" = 0
 	"Hector #0" = 0
 	"Hilaire #0" = 0
@@ -84,7 +84,7 @@ monarch_names = {
 	"Jeannot #0" = 0
 	"Jean #0" = 0
 	"Jacques #0" = 0
-	"Jérome #0" = 0
+	"Jï¿½rome #0" = 0
 	"Joseph #0" = 0
 	"Josselin #0" = 0
 	"Josue #0" = 0
@@ -100,7 +100,7 @@ monarch_names = {
 	"Maximilien #0" = 0
 	"Marcel #0" = 0
 	"Napoleon #0" = 0
-	"Nérée #0" = 0
+	"Nï¿½rï¿½e #0" = 0
 	"Ovide #0" = 0
 	"Olivier #0" = 0
 	"Odon #0" = 0
@@ -109,20 +109,20 @@ monarch_names = {
 	"Pierre #0" = 0
 	"Paul #0" = 0
 	"Philippe #0" = 0
-	"Réal #0" = 0
+	"Rï¿½al #0" = 0
 	"Rohard #0" = 0
 	"Robert #0" = 0
-	"René #0" = 0
+	"Renï¿½ #0" = 0
 	"Roger #0" = 0
 	"Raymond #0" = 0
 	"Renaud #0" = 0
 	"Roupen #0" = 0
-	"Régis #0" = 0
+	"Rï¿½gis #0" = 0
 	"Roland #0" = 0
 	"Samuel #0" = 0
 	"Sulpice #0" = 0
 	"Serge #0" = 0
-	"Tancrède #0" = 0
+	"Tancrï¿½de #0" = 0
 	"Vincent #0" = 0
 	"Wilfrid #0" = 0
 	"Xavier #0" = 0

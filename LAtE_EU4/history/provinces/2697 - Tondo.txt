@@ -1,7 +1,7 @@
 #2697 - Tondo
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Tondo"
 trade_goods = sugar
 hre = no
@@ -16,6 +16,5 @@ owner = MNL
 controller = MNL
 
 
-discovered_by = chinese
-discovered_by = NRU 
-discovered_by = NRA
+
+

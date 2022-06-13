@@ -1,0 +1,22 @@
+# Columbia Valley
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = western
+primary_culture = inlander
+religion = gaian
+clear_scripted_personalities = yes
+capital = 2486
+3045.2.26 = {
+	monarch = {
+		name = "Amberlin"
+		birth_date = 3002.11.9
+		dynasty = "Vina"
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+	add_ruler_personality = fierce_negotiator_personality
+}

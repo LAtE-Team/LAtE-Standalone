@@ -1,4 +1,5 @@
 # Georgetown
+setup_vision = yes
 government = theocracy 
 add_government_reform = leading_clergy_reform
 government_rank = 1
@@ -10,7 +11,7 @@ clear_scripted_personalities = yes
 capital = 743
 3021.2.21 = {
 	monarch = {
-		name = "Tristão"
+		name = "Tristï¿½o"
 		birth_date = 2982.10.11
 		dynasty = "of  Georgetown"
 		adm = 3

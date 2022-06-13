@@ -13,13 +13,6 @@ base_manpower = 2
 is_city = yes
 add_core= NPL
 
-
-
-discovered_by = indian
-discovered_by = chinese
-discovered_by = NPL
-
-
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3

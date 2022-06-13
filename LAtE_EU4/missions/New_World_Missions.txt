@@ -6,7 +6,7 @@ new_world_natives_missions = { #Applies to Europe
 		capital_scope = {
 			continent = europe
 		}
-		technology_group = high_american
+		technology_group = european
 	}
 	new_world_modernization = {
 		icon = mission_have_manufactories
@@ -14,8 +14,8 @@ new_world_natives_missions = { #Applies to Europe
 		trigger = {
 			is_tribal = no
 			NOT = {
-				government = native_council
-				government = siberian_native_council
+#				has_reform = native_council
+				has_reform = siberian_native_council
 			}
 			any_neighbor_country = {
 				has_institution = feudalism

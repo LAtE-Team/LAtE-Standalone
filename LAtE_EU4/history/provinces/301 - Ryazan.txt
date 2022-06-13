@@ -10,12 +10,12 @@ base_tax = 4
 base_production = 4
 trade_goods = iron
 base_manpower = 3
-discovered_by = indian
+
 capital = "Pereyaslavl-Ryazansky"
 
 
 
-discovered_by = high_american 
+ 
 
 
 

@@ -1,11 +1,13 @@
-# Delmarva
+# Delaware
+setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = delawarean
 religion = americanist
+religious_school = hamilton_school
+
 clear_scripted_personalities = yes
 capital = 957
 3031.5.14 = {
@@ -19,9 +21,4 @@ capital = 957
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = well_connected_personality
-}
-3053.1.1 {
-	capital = 957
-	add_treasury = 45
-	add_prestige = 342
 }

@@ -1,17 +1,12 @@
-owner = X15
-controller = X15
-add_core = X15
+owner = BMT
+controller = BMT
+add_core = BMT
 
 culture = inlander
 religion = gaian
 trade_goods = livestock
 is_city = yes
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = MTC
-discovered_by = X17
+
 
 hre = no
 base_tax = 1

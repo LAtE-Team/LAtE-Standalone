@@ -1,26 +1,9 @@
 # Mohawk Valley
+setup_vision = yes
 government = monarchy 
-
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = hudsonian
 religion = anglican
 clear_scripted_personalities = yes
 capital = 4583
-3053.1.1 {
-	monarch = {
-		name = "Montgomery"
-		birth_date = 3020.2.5
-		dynasty = "Dysart"
-		adm = 1
-		dip = 2
-		mil = 5
-	}
-	add_ruler_personality = tactical_genius_personality
-}
-3053.1.1 {
-	capital = 4583
-	add_treasury = 70
-	add_prestige = 126
-}

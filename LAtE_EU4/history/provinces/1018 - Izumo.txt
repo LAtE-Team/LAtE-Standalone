@@ -13,11 +13,10 @@ base_manpower = 2
 is_city = yes
 add_core= KOB
 fort_15th = yes #Gassantoda Castle
-discovered_by = chinese
+
 
 
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

@@ -15,8 +15,8 @@ add_core= KMT
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

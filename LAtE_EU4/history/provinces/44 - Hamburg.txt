@@ -4,7 +4,7 @@ owner = BIZ
 controller = BIZ
 add_core= BIZ
 culture = hannoverian
-religion = thelemic
+religion = thelema
 hre = no
 base_tax = 1
 base_production = 1
@@ -16,9 +16,9 @@ is_city = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 extra_cost = 25
 

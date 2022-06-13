@@ -4,11 +4,9 @@ owner = PRG
 controller = PRG
 add_core = PRG
 culture = litoraleno
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
-capital = "Asunción"
+capital = "Asunciï¿½n"
 is_city = yes
 trade_goods = unknown
 hre = no

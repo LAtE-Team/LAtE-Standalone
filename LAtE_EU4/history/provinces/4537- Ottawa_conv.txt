@@ -6,14 +6,12 @@ add_core = OTW
 culture = ontarian
 religion = anglican
 is_city = yes
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = MTC
-discovered_by = X17
+
 
 hre = no
-base_tax = 8
-base_production = 8
+base_tax = 4
+base_production = 6
 base_manpower = 4
+trade_goods = paper
+fort_15th = yes
+center_of_trade = 2

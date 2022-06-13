@@ -16,12 +16,12 @@ religion = atomicist
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-#discovered_by = nomad_group
-discovered_by = indian
+#
+
 
 
 # = { #owner = RUS #controller = RUS #add_core= RUS  } # Russian conquest of Kazan

@@ -12,4 +12,3 @@ native_ferocity = 4
 native_hostileness = 9
 
 capital = "Phangwa"
-discovered_by = central_african

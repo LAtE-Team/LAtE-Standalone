@@ -4,7 +4,7 @@
 owner = GBR
 controller = GBR
 culture = british
-religion = thelemic
+religion = glorian
 hre = no
 base_tax = 7
 base_production = 7
@@ -18,9 +18,9 @@ fort_15th = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 extra_cost = 25
 

@@ -1,4 +1,5 @@
 # Guajira
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -10,7 +11,7 @@ clear_scripted_personalities = yes
 capital = 2807
 3052.4.28 = {
 	monarch = {
-		name = "Ramón"
+		name = "Ramï¿½n"
 		birth_date = 3009.6.15
 		dynasty = "Serrano"
 		adm = 1

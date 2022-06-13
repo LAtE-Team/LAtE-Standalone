@@ -15,17 +15,13 @@ is_city = no
 fort_15th = yes #Spi� castle, Eger Castle, Orava
 #add_core= HUN
 #add_core= SLO
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+
+
+
 
 # = { unrest = 10 } # The city is attacked by Hussites
 # = { unrest = 0 }

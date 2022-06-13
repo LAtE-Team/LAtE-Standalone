@@ -1,4 +1,5 @@
 # Houston
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
@@ -6,6 +7,8 @@ mercantilism = 0.1
 technology_group = eastern
 primary_culture = texan
 religion = consumerist
+religious_school = mall_school
+
 clear_scripted_personalities = yes
 capital = 2665
 3053.1.1 {

@@ -1,4 +1,4 @@
-#Country Name: Please see filename.
+#Country Name: Canada
 
 graphical_culture = westerngfx
 

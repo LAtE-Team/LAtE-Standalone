@@ -1,10 +1,11 @@
 # Vespugia
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 technology_group = conic
 primary_culture = welsh
-religion = cult_of_saints 
+religion = sacred_heart 
 capital = 780
 
 3050.1.1 = {

@@ -4,7 +4,6 @@ owner = GEO
 controller = GEO
 culture = georgian
 religion = coptic
-religion = orthodox
 capital = "T'bilisi"
 trade_goods = dyes
 hre = no
@@ -13,6 +12,6 @@ base_production = 4
 base_manpower = 2
 #is_city = yes
 #add_core = GEO
-discovered_by = high_american
-discovered_by = indian
+
+
 

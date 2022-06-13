@@ -14,8 +14,8 @@ is_city = yes
 #add_core = RAS
 #add_core = ADE #Tahirids
 add_core = YEM
-discovered_by = indian
 
-discovered_by = east_african
+
+
 
 

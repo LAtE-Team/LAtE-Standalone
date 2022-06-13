@@ -2,10 +2,10 @@
 
 owner = VES
 controller =VES
-religion = cult_of_saints
+religion = sacred_heart
 add_core = VES
 culture = welsh
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Puerto Desaedo"
 trade_goods = unknown
 is_city = yes
@@ -16,7 +16,5 @@ base_manpower = 1
 native_size = 8
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 

@@ -16,8 +16,8 @@ fort_15th = yes #Mandsaur Fort
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

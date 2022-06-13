@@ -16,12 +16,12 @@ is_city = no
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { unrest = 3 } # Nobiliary uprising against King Enrique, Castilla goes into anarchy

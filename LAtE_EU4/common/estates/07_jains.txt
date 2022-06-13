@@ -5,7 +5,9 @@ estate_jains = {
 	
 	trigger = {	
 		has_dlc = "Dharma"
-		technology_group = indian
+		capital_scope = {
+			superregion = india_superregion
+		}
 		NOT = { has_government_attribute = is_merchant_republic }
 		NOT = { has_reform = trading_city }
 		NOT = { is_revolutionary_republic_trigger = yes }

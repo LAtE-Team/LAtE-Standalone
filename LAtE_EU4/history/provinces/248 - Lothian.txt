@@ -4,7 +4,7 @@ owner = GOW
 controller = GOW
 add_core = GOW
 culture = weegan
-religion = thelemic
+religion = glorian
 hre = no
 base_tax = 5
 base_production = 5
@@ -17,11 +17,11 @@ fort_15th = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 extra_cost = 15

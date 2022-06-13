@@ -152,3 +152,108 @@ scaled_estate_press_land_share_effect = {
 scaled_estate_press_negative_land_share_effect = {
 	scaled_estate_land_share_reduce_effect = { estate = estate_press }
 }
+
+anabaptists_estate_growth_effect ={
+	hidden_effect = {
+		if = {
+			limit = { has_province_modifier = anabaptists_present_medium }
+			remove_province_triggered_modifier = anabaptists_present_medium
+			add_province_triggered_modifier = anabaptists_present_large
+		}
+		else_if = {
+			limit = { has_province_modifier = anabaptists_present_small }
+			remove_province_triggered_modifier = anabaptists_present_small
+			add_province_triggered_modifier = anabaptists_present_medium
+		}
+		else = {
+			add_province_triggered_modifier = anabaptists_present_small
+		}   
+	}
+	custom_tooltip = ANABAPTISTS_GROWTH_TT
+}
+
+anabaptists_estate_shrink_effect = {
+	hidden_effect = {
+		if = {
+			limit = { has_province_modifier = anabaptists_present_large }
+			remove_province_triggered_modifier = anabaptists_present_large
+			add_province_triggered_modifier = anabaptists_present_medium
+		}
+		else_if = {
+			limit = { has_province_modifier = anabaptists_present_medium }
+			remove_province_triggered_modifier = anabaptists_present_medium
+			add_province_triggered_modifier = anabaptists_present_small
+		}
+		else_if = {
+			limit = { has_province_modifier = anabaptists_present_small }
+			remove_province_triggered_modifier = anabaptists_present_small
+		}		
+	}
+	custom_tooltip = ANABAPTISTS_SHRINK_TT
+}
+
+anabaptists_accepted_effect = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = anabaptists_accepted }
+		}
+		set_country_flag = anabaptists_accepted
+	}
+	if =  {
+		limit = {
+			has_country_flag = anabaptists_rejected
+		}
+		clr_country_flag = anabaptists_rejected
+	}
+	if =  {
+		limit = {
+			has_country_flag = anabaptists_expelled
+		}
+		clr_country_flag = anabaptists_expelled
+	}
+	custom_tooltip = ANABAPTISTS_ACCEPTED_TT
+}
+
+anabaptists_rejected_effect = {
+	if = {
+		limit = {
+			has_country_flag = anabaptists_accepted
+		}
+		clr_country_flag = anabaptists_accepted
+	}
+	if =  {
+		limit = {
+			NOT = { has_country_flag = anabaptists_rejected }
+		}
+		set_country_flag = anabaptists_rejected
+	}
+	if =  {
+		limit = {
+			has_country_flag = anabaptists_expelled
+		}
+		clr_country_flag = anabaptists_expelled
+	}
+	custom_tooltip = ANABAPTISTS_REJECTED_TT
+}
+
+anabaptists_expelled_effect = {
+	if = {
+		limit = {
+			has_country_flag = anabaptists_accepted
+		}
+		clr_country_flag = anabaptists_accepted
+	}
+	if =  {
+		limit = {
+			has_country_flag = anabaptists_rejected
+		}
+		clr_country_flag = anabaptists_rejected
+	}
+	if =  {
+		limit = {
+			NOT = { has_country_flag = anabaptists_expelled }
+		}
+		set_country_flag = anabaptists_expelled
+	}
+	custom_tooltip = ANABAPTISTS_EXPELLED_TT
+}

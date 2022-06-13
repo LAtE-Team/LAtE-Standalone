@@ -1,9 +1,10 @@
 # Philippines
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = oceanic
 primary_culture = filipino 
-religion = cult_of_saints
+religion = sacred_heart
 capital = 4349

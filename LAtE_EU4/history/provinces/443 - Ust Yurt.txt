@@ -15,16 +15,16 @@ is_city = no
 
 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
 
-#discovered_by = nomad_group
+
+ 
+
+#
 
 
 # = { #owner = KZH #controller = KZH #add_core= KZH  culture = khazak } # Qasim Khan conquers Nogai lands
 # = { #owner = KHI #controller = KHI #add_core= KHI  } # Khan of Khiva builds Mangyshlak fortress
-# = { discovered_by = RUS }
+
 
 
 native_size = 5

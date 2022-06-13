@@ -579,8 +579,14 @@ Antilles_Pirate_missions_4 = {
 		position = 3
 		trigger = {
 			OR = {
-				has_discovered = europe
-				has_discovered = africa 
+				any_province = {
+					continent = europe
+					has_discovered = PREV
+				}
+				any_province = {
+					continent = africa
+					has_discovered = PREV
+				}
 			}
 		}
 		effect = {

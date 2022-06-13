@@ -15,8 +15,8 @@ add_core = PUN
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 extra_cost = 10
 

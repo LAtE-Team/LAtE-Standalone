@@ -1,9 +1,10 @@
 # Táchira
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = caribbean
 primary_culture = gocho 
-religion = cult_of_saints
+religion = sacred_heart
 capital = 2813

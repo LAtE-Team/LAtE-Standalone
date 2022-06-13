@@ -1,9 +1,7 @@
 # - Sao Joao del Rei
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Sao Joao del Rei"
 trade_goods = unknown
@@ -18,7 +16,7 @@ native_hostileness = 1
 
 
 
-# = { discovered_by = POR }
+
 
 # = {
 	#owner = POR	
@@ -34,12 +32,12 @@ add_core = MIG
 # = { unrest = 0 } # The Jesuits are expulsed from the region
 owner = MIG
 controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = MIG
 3053.1.1 = {
 	owner = MIG
 	controller = MIG
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

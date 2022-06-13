@@ -1,12 +1,12 @@
-discovered_by = chinese
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
 
 
 
 
-# = { discovered_by = SPA }
+
+
+
+
+
 
 
 

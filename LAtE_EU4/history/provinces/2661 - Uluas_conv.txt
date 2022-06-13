@@ -3,16 +3,11 @@ owner = HON
 controller = HON
 add_core = HON
 culture = miskito
-religion = uahomche
+religion = qabantajik
 is_city = yes
 add_permanent_claim = MSK
 add_core = W01
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = MTC
-discovered_by = X17
+
 3053.1.1 = {
 	hre = no
 	base_tax = 4
@@ -714,5 +709,5 @@ discovered_by = X17
 	owner = HON
 	controller = HON
 	culture = miskito
-	religion = uahomche
+	religion = qabantajik
 }

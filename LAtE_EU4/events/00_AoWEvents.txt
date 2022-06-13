@@ -1405,9 +1405,7 @@ country_event = {
 	trigger = {
 		OR = {
 			religion = protestant
-			religion = reformed
 			religion = anglican
-			religion = hussite
 		}
 		any_owned_province = {
 			is_reformation_center = yes
@@ -1415,9 +1413,7 @@ country_event = {
 		any_neighbor_country = {
 			OR = {
 				religion = protestant
-				religion = reformed
 				religion = anglican
-				religion = hussite
 			}
 			NOT = { religion = ROOT }
 			any_owned_province = {
@@ -1438,9 +1434,7 @@ country_event = {
 			limit = {
 				OR = {
 					religion = protestant
-					religion = reformed
 					religion = anglican
-					religion = hussite
 				}
 				NOT = { religion = ROOT }
 				any_owned_province = {
@@ -1459,9 +1453,7 @@ country_event = {
 			limit = {
 				OR = {
 					religion = protestant
-					religion = reformed
 					religion = anglican
-					religion = hussite
 				}
 				NOT = { religion = ROOT }
 				any_owned_province = {
@@ -1563,9 +1555,7 @@ country_event = {
 		any_neighbor_country = {
 			OR = {
 				religion = protestant
-				religion = reformed
 				religion = anglican
-				religion = hussite
 			}
 			any_owned_province = {
 				is_reformation_center = yes
@@ -1574,9 +1564,7 @@ country_event = {
 		any_owned_province = {
 			OR = {
 				religion = protestant
-				religion = reformed
 				religion = anglican
-				religion = hussite
 			}
 		}
 	}
@@ -1592,7 +1580,6 @@ country_event = {
 			limit = {
 				OR = {
 					religion = protestant
-					religion = reformed
 					religion = anglican
 				}
 				any_owned_province = {
@@ -1668,8 +1655,9 @@ country_event = {
 	trigger = {
 		has_spawned_rebels = reformed_rebels
 		religion = catholic
+		always = no
 		any_neighbor_country = {
-			religion = reformed
+#			religion = reformed
 			any_owned_province = {
 				is_reformation_center = yes
 			}
@@ -1685,7 +1673,7 @@ country_event = {
 		name = "aow_events.38.a"
 		random_neighbor_country = {
 			limit = {
-				religion = reformed
+#				religion = reformed
 				any_owned_province = {
 					is_reformation_center = yes
 				}
@@ -1803,15 +1791,6 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = { likely_rebels = protestant_rebels }
-				create_revolt = 2
-			}
-		}
-		if = {
-			limit = {
-				FROM = { religion = reformed }
-			}
-			random_owned_province = {
-				limit = { likely_rebels = reformed_rebels }
 				create_revolt = 2
 			}
 		}

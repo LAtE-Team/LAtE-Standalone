@@ -1,0 +1,9 @@
+setup_vision = yes
+government = republic 
+government_rank = 1
+technology_group = eastern
+religion = protestant
+primary_culture = gulfard
+
+capital = 921
+

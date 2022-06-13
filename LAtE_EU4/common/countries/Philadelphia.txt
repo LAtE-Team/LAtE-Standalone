@@ -1,5 +1,4 @@
 # Philadelphia
-ck2_converter_generated = yes
 graphical_culture = westerngfx
 color = { 55 124 208 }
 

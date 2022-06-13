@@ -1,11 +1,12 @@
 # Belize
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = caribbean
 primary_culture = mayan
-religion = uahomche
+religion = qabantajik
 clear_scripted_personalities = yes
 capital = 843
 3015.7.16 = {

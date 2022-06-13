@@ -1,4 +1,5 @@
 # Brazilian Empire
+setup_vision = yes
 government = tribal	
 add_government_reform = tribal_despotism #Pending creation of jungle horde reform, or Brazil reform (whatver comes first)
 add_government_reform = feudalism_reform

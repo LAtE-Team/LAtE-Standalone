@@ -633,6 +633,105 @@ exploration_ideas = {
 			factor = 0
 			current_age = age_of_revolutions #too late
 		}
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						NOT = { 
+							OR = {
+								area = gulf_of_mexico_area 
+								area = hudson_bay_sea_area
+								area = great_lakes_sea_area
+							}
+						}
+					}
+				}
+			}
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				} 
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_ports = 3 }
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { has_institution = renaissance }
+			NOT = { tag = MRT }
+			NOT = { tag = QUE }
+		}
+		modifier = {
+			factor = 0.1
+			capital_scope = {
+				NOT = {
+					region = atlantica_region
+					region = canada_region
+					region = southeast_america_region
+					region = carribeans_region
+				}
+			}
+			NOT = { technology_group = high_eurasian }
+		}
+		modifier = {
+			factor = 0.5
+			tag = ONT
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_year = 1490 }
+			capital_scope = {
+				NOT = {
+					OR = {
+						region = canada_region
+						region = atlantica_region
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 5
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 10
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 15
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 20
+		}
+		modifier = {
+			factor = 1000
+			OR = {
+				tag = MRT
+				tag = QUE
+				tag = CAN
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = NYS
+				tag = TAQ
+				tag = RED
+			}
+		}
 	}
 }
 
@@ -822,6 +921,32 @@ expansion_ideas = {
 			OR = {
 				has_idea_group = exploration_ideas
 				is_colonial_nation = yes
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				tag = QUE
+				tag = MRT
+				tag = CAN
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_idea_group = exploration_ideas }
+			NOT = { is_colonial_nation = yes }
+			NOT = {
+				any_owned_province = {
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = {
+				technology_group = western
+				technology_group = eastern
+				technology_group = mexican
 			}
 		}
 	}

@@ -1,11 +1,13 @@
 # West Susquehanna
+setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = deitsch
 religion = americanist
+religious_school = jefferson_school
+
 clear_scripted_personalities = yes
 capital = 4582
 3053.1.1= {
@@ -18,9 +20,4 @@ capital = 4582
 		mil = 1
 	}
 	add_ruler_personality = obsessive_perfectionist_personality
-}
-3053.1.1 {
-	capital = 4582
-	add_treasury = 0
-	add_prestige = 1
 }

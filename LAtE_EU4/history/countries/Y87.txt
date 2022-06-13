@@ -1,13 +1,14 @@
 # Pembina
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = dakota
-religion = catholic
+religion = peyotist
+secondary_religion = catholic
 clear_scripted_personalities = yes
-capital = 2016
+capital = 908
 3038.8.15 = {
 	monarch = {
 		name = "Odakotah"
@@ -32,9 +33,4 @@ capital = 2016
 		mil = 3
 	}
 	add_heir_personality = calm_personality
-}
-3053.1.1 {
-	capital = 2016
-	add_treasury = -10
-	add_prestige = 97
 }

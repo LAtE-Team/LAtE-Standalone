@@ -3,7 +3,7 @@
 owner = BIZ
 controller = BIZ
 culture = hannoverian
-religion = thelemic
+religion = thelema
 capital = "Osnabr�ck"
 trade_goods = unknown
 hre = no
@@ -15,9 +15,9 @@ add_core= BIZ
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 

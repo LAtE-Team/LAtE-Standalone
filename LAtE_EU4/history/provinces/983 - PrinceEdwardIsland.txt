@@ -1,0 +1,15 @@
+owner = MRT
+controller = MRT
+add_core = MRT
+add_core = PEI
+
+culture = maritimer
+religion = anglican
+is_city = yes
+
+
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = grain

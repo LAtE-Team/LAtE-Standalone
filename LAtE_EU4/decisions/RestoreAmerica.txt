@@ -3,7 +3,7 @@ country_decisions = {
 	restore_america = {
 		major = yes
 		potential = {
-			owns = 953
+			owns = 4618
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -18,7 +18,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			northeast_america_region = {
+			atlantica_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -30,35 +30,7 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 			}
-			west_florida_area = {
-				type = all
-				owned_by = ROOT
-			}
-			alabama_area = {
-				type = all
-				owned_by = ROOT
-			}
-			kentucky_area = {
-				type = all
-				owned_by = ROOT
-			}
-			appalachia_area = {
-				type = all
-				owned_by = ROOT
-			}
-			south_appalachia_area = {
-				type = all
-				owned_by = ROOT
-			}
-			mississippi_area = {
-				type = all
-				owned_by = ROOT
-			}
-			choctaw_area = {
-				type = all
-				owned_by = ROOT
-			}
-			mississippi_plain_area = {
+			grand_virginia_region = {
 				type = all
 				owned_by = ROOT
 			}

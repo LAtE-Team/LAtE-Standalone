@@ -211,7 +211,7 @@ country_event = {
 	immediate = {
 		random_neighbor_country = {
 			limit = {
-				NOT = { religion = cult_of_saints }
+				NOT = { religion = sacred_heart }
 				alliance_with = ROOT
 				OR = {
 					AND = {
@@ -324,10 +324,10 @@ country_event = {
 	}
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		any_neighbor_country = {
-			NOT = { religion = cult_of_saints }
+			NOT = { religion = sacred_heart }
 			alliance_with = ROOT
 			OR = {
 				AND = {
@@ -382,11 +382,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = marian_guadalupe }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = marian_guadalupe
 		}
 	}
@@ -408,11 +408,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = marian_santa_muerte }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = marian_santa_muerte
 		}
 	}
@@ -434,11 +434,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = marian_el_santo }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = marian_el_santo
 		}
 	}
@@ -460,11 +460,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = gracia_inmaculado }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = gracia_inmaculado
 		}
 	}
@@ -486,11 +486,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = gracia_libertador }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = gracia_libertador
 		}
 	}
@@ -512,11 +512,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = gracia_dorado }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = gracia_dorado
 		}
 	}
@@ -538,11 +538,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = santo_nino }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = santo_nino
 		}
 	}
@@ -564,11 +564,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = jose_rizal }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = jose_rizal
 		}
 	}
@@ -590,11 +590,11 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		NOT = { has_unlocked_cult = maria_kannon }
 		any_neighbor_country = {
-			religion = cult_of_saints
+			religion = sacred_heart
 			has_adopted_cult = maria_kannon
 		}
 	}
@@ -620,7 +620,7 @@ country_event = {
 	immediate = {
 		random_owned_province = {
 			limit = {
-				NOT = { religion = cult_of_saints }
+				NOT = { religion = sacred_heart }
 				OR = {
 					AND = {
 						religion = catholic
@@ -732,10 +732,10 @@ country_event = {
 	}
 
 	trigger = {
-		religion = cult_of_saints
+		religion = sacred_heart
 		has_dlc = "Rights of Man"
 		any_owned_province = {
-			NOT = { religion = cult_of_saints }
+			NOT = { religion = sacred_heart }
 			OR = {
 				AND = {
 					religion = catholic
@@ -971,7 +971,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rights of Man"
-		religion = cult_of_saints
+		religion = sacred_heart
 		OR = {
 			ruler_has_personality = marian_personality
 			ruler_has_personality = gracia_personality

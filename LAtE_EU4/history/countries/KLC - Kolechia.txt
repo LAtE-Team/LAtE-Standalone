@@ -1,7 +1,9 @@
+setup_vision = yes
 government = monarchy 
 add_government_reform = autocracy_reform 
 primary_culture = russian
 religion = atomicist
+religious_school = schronist_school
 technology_group = russian_group
 capital = 466 #Sarai
 

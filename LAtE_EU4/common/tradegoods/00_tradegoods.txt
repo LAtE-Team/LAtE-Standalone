@@ -1252,7 +1252,7 @@ tobacco = {
 			factor = 0
 			is_random_new_world = no
 			NOT = { region = la_plata_region }
-			NOT = { region = northeast_america_region }
+			NOT = { region = atlantica_region }
 			NOT = { region = southeast_america_region }
 			NOT = { region = brazil_region }
 			NOT = { region = carribeans_region }

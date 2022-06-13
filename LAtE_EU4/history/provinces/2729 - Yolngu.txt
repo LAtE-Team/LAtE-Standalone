@@ -18,4 +18,3 @@ native_hostileness = 9
 
 
 
-discovered_by = chinese

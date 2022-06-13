@@ -1,8 +1,8 @@
 #Mountains splitting Norway from Sweden.
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
 
 

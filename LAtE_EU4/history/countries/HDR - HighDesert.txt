@@ -1,0 +1,21 @@
+# Highdesert
+setup_vision = yes
+government = theocracy 
+
+government_rank = 1
+technology_group = western
+primary_culture = paiute
+religion = gaian
+clear_scripted_personalities = yes
+capital = 4516
+3053.1.1= {
+	monarch = {
+		name = "Foster"
+		birth_date = 3036.5.20
+		dynasty = "Douglas"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+}

@@ -1,18 +1,19 @@
 # Jalisco
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = tapatio
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 2621
 3053.1.1= {
 	monarch = {
-		name = "Tarí"
+		name = "Tarï¿½"
 		birth_date = 3021.1.19
-		dynasty = "Taríid"
+		dynasty = "Tarï¿½id"
 		adm = 5
 		dip = 4
 		mil = 3

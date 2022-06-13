@@ -1,4 +1,5 @@
 # Los Llanos
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1

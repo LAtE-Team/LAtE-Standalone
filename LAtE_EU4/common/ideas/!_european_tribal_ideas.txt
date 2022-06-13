@@ -9,10 +9,10 @@ european_tribal_ideas = {
 			continent = europe
 		}
 		OR = {
-			government = tribal_despotism
-			government = tribal_kingdom
-			government = tribal_federation
-			government = tribal_democracy
+			has_reform = tribal_despotism
+			has_reform = tribal_kingdom
+			has_reform = tribal_federation
+#			has_reform = tribal_democracy
 		}
 	}
 	free = yes

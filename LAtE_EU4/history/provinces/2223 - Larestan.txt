@@ -15,8 +15,8 @@ add_core = PER
 
 
 
-discovered_by = indian
-#discovered_by = nomad_group
+
+#
 
 
 native_size = 5

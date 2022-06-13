@@ -1,0 +1,22 @@
+# Taqamkuk
+setup_vision = yes
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = mikmaq
+religion = anglican
+clear_scripted_personalities = yes
+capital = 981
+3034.6.10 = {
+	monarch = {
+		name = "Marshall III"
+		birth_date = 3017.3.26
+		dynasty = "Puvirnituq"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = greedy_personality
+}

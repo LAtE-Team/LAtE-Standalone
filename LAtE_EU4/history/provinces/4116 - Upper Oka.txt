@@ -12,13 +12,13 @@ base_manpower = 1
 capital = "Odayev"
 is_city = no
 #add_core= OKA
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+#
 
 # = { #owner = MOS #controller = MOS #add_core= MOS  } # Treaty of the Annunciation
 # = { #owner = RUS #controller = RUS #add_core= RUS  }

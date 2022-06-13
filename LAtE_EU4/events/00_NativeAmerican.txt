@@ -919,7 +919,7 @@ country_event = {
 		capital_scope = {
 			OR = {
 				region = mississippi_region
-				region = northeast_america_region
+				region = atlantica_region
 				region = southeast_america_region
 			}
 		}

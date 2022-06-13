@@ -3,7 +3,7 @@
 owner = HSC
 controller = HSC
 culture = highland_scottish
-religion = thelemic
+religion = glorian
 hre = no
 base_tax = 3
 base_production = 3
@@ -12,9 +12,9 @@ base_manpower = 2
 capital = "Inverness"
 is_city = yes
 add_core= HSC
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

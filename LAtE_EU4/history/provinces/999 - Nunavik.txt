@@ -1,23 +1,19 @@
-#999 - Nunavik
+owner = SGN
+controller = SGN
+add_core = SGN
 
-culture = cree
-religion = ghost_dance
-capital = "Nunavik"
-trade_goods = unknown
+culture = inuit
+religion = ursuline
+is_city = yes
+
+
 hre = no
 base_tax = 1
 base_production = 1
-base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 1
+base_manpower = 2
+trade_goods = salt
 
 add_permanent_province_modifier = {
-	name = "la_grande_estuary_modifier"
+	name = la_grande_estuary_modifier
 	duration = -1
 }
-
-
-
-
-

@@ -18,4 +18,4 @@ native_ferocity = 2
 
 
 
-discovered_by = high_american 
+ 

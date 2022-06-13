@@ -207,4 +207,51 @@ west_anglo = {
 		}
 
 	}
+	riverlander = {
+		dynasty_names = { "Escreve" "Cambariday" "Kingdom City" "Mudcray" "O'Fallon" "Wardsville" "Florissant" "Evansville" "Frankfort" "Hermann" "Plumbum" }
+
+		male_names = {
+			Allen Adam Abel Alexander Andrew
+			Boone Burnie Bixby Benton Bruce Beauregard Burton
+			Calhoun Clifton Clyde Claude Collier Cowin Curlew Caleb Cain Clarence Campion Clemens Curtis
+			Dodge Davis
+			Eolus Ellis Earl
+			Finn Fulton Fitch
+			Gregor
+			Hannibal Hank Horace Hull
+			Jake Jim Judah Josiah
+			Lee Leon Louis Lorton Langhorne Laurel
+			Mark Micaiah Marshall Morris Morgan Mouton
+			Nathaniel Napoleon Nereus Niphon
+			Orion
+			Porter Pleasant Perry Patrick Putnam Preston
+			Quintin
+			Ross
+			Sid Squire Simon Sampson Samuel Stirling Segar Sherod
+			Theodore Twain Tom Trigg Todd
+			Vick
+			William Winslow Winfield Webb Wheeler
+			Yadkin
+		}
+
+		female_names = {
+			Amy Antona Arletta Amanda Azalea Alexandra Adriana Annabelle Annie
+			Becky Beth Belle Bluebell
+			Camelia Charlotte Clover Cymophane Caroline Clara Connie
+			Daisy Dinah Dorothy Daffodil Dahlia
+			Estrella Emma Ellen
+			Fanny Fairy Fawn Fortune Fuchsia
+			Galatea Gem Georgiana
+			Helen Harriet
+			Ivy Ina Iris
+			Julia Juniper
+			Linda Lilac Lily Lucille
+			Mary Minnie Matilda Magnolia Myrtle Maisy May Mollie
+			Polly Pamela Petrita Pinola Poppy
+			Rose
+			Sarah Selma Susy Sophronia Spirea
+			Theodora Tritonia Tulip
+			Violet Virginia Varuna Victoria
+		}
+	}
 }

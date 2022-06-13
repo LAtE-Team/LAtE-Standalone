@@ -14,11 +14,11 @@ native_hostileness = 0
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = sub_saharan
+
+
+
 
 extra_cost = 10
 

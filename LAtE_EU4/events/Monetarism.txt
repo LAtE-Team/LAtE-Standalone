@@ -109,7 +109,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 2.0
-			government = theocratic_government
+			has_reform = theocratic_government
 		}
 	}
 	

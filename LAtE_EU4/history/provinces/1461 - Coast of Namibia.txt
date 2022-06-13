@@ -1,5 +1,5 @@
 
-discovered_by = central_african
+
 
 
 native_size = 5

@@ -1,4 +1,5 @@
-# Bolívar
+# Bolï¿½var
+setup_vision = yes
 government = theocracy 
 add_government_reform = leading_clergy_reform
 government_rank = 2
@@ -12,7 +13,7 @@ capital = 742
 	monarch = {
 		name = "Reinaldo"
 		birth_date = 2988.1.29
-		dynasty = "de  Ciudad Bolívar"
+		dynasty = "de  Ciudad Bolï¿½var"
 		adm = 2
 		dip = 5
 		mil = 6

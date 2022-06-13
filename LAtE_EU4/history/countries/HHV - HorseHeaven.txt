@@ -1,0 +1,22 @@
+# Horse Heaven
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = western
+primary_culture = inlander
+religion = gaian
+clear_scripted_personalities = yes
+capital = 2487
+3043.8.5 = {
+	monarch = {
+		name = "Glenn IV"
+		birth_date = 3027.6.13
+		dynasty = "Kaskey"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = benevolent_personality
+}

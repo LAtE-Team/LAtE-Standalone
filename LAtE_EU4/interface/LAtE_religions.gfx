@@ -1,0 +1,129 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_oldworld_school"
+		texturefile = "gfx/interface/icon_oldworld_school.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_washington"
+		texturefile = "gfx/interface/icon_oldworld_school_washington.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_jefferson"
+		texturefile = "gfx/interface/icon_oldworld_school_jefferson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_hamilton"
+		texturefile = "gfx/interface/icon_oldworld_school_hamilton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_libertarian"
+		texturefile = "gfx/interface/icon_oldworld_school_libertarian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_mall"
+		texturefile = "gfx/interface/icon_oldworld_school_mall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_atom"
+		texturefile = "gfx/interface/icon_oldworld_school_atom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_aphite"
+		texturefile = "gfx/interface/icon_oldworld_school_aphite.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_helionist"
+		texturefile = "gfx/interface/icon_oldworld_school_helionist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_schronist"
+		texturefile = "gfx/interface/icon_oldworld_school_schronist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_materialist"
+		texturefile = "gfx/interface/icon_oldworld_school_materialist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_entropic"
+		texturefile = "gfx/interface/icon_oldworld_school_entropist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_idealist"
+		texturefile = "gfx/interface/icon_oldworld_school_idealist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_queen"
+		texturefile = "gfx/interface/icon_oldworld_school_queen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_oldworld_school_crowley"
+		texturefile = "gfx/interface/icon_oldworld_school_crowley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_summer"
+		texturefile = "gfx/interface/icon_oldworld_school_summer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_oldworld_school_lamb"
+		texturefile = "gfx/interface/icon_oldworld_school_lamb.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_baubles_icon"
+		texturefile = "gfx/interface/rust_cult_baubles_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_armour_icon"
+		texturefile = "gfx/interface/rust_cult_armour_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_goods_icon"
+		texturefile = "gfx/interface/rust_cult_goods_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_innovate_icon"
+		texturefile = "gfx/interface/rust_cult_innovate_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rust_cult_upgrade_icon"
+		texturefile = "gfx/interface/rust_cult_upgrade_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rust_cult_decay_icon"
+		texturefile = "gfx/interface/rust_cult_decay_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_atomicist_blessing_select"
+		texturefile = "gfx//interface//atomicist_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_atomicist_blessing_select_glow"
+		texturefile = "gfx//interface//copts_blessing_select_glow.dds"
+		loadType = "INGAME"
+	}	
+}

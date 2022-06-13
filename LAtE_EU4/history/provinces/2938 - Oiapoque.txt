@@ -1,9 +1,7 @@
 # - Oiapoque
 
 culture = amazonense
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
 capital = "Oiapoque"
 trade_goods = fish

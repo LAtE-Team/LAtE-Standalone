@@ -1,8 +1,8 @@
 # Ursuline See
+setup_vision = yes
 government = theocracy
-add_government_reform = papacy_reform
+add_government_reform = monastic_order_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = quebecois
 religion = ursuline
@@ -20,9 +20,4 @@ capital = 4533
 	}
 	add_ruler_personality = benevolent_personality
 	add_ruler_personality = pious_personality
-}
-3053.1.1 {
-	capital = 4533
-	add_treasury = 1048
-	add_prestige = 167
 }

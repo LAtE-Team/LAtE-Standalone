@@ -1,11 +1,13 @@
 # East Susquehanna
+setup_vision = yes
 government = monarchy 
-
+add_government_reform = feudalism_reform
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = deitsch
 religion = americanist
+religious_school = jefferson_school
+
 clear_scripted_personalities = yes
 capital = 2558
 3053.1.1= {
@@ -18,9 +20,4 @@ capital = 2558
 		mil = 3
 	}
 	add_ruler_personality = conqueror_personality
-}
-3053.1.1 {
-	capital = 2558
-	add_treasury = 0
-	add_prestige = 7
 }

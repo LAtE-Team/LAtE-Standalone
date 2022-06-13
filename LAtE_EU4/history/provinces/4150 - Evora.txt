@@ -13,11 +13,11 @@ base_manpower = 1
 is_city = no
 #add_core= POR
 #fort_15th = yes
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 # = { fort_16th = yes } 

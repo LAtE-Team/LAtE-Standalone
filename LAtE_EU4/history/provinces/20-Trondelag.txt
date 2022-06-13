@@ -9,7 +9,7 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Trondheim"
 is_city = no
-discovered_by = high_american 
+ 
 
 
 

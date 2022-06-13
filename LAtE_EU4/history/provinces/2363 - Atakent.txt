@@ -16,10 +16,10 @@ is_city = no
 
 
 
-discovered_by = KAS
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+
+#
 
 
 # = { 
@@ -29,7 +29,7 @@ discovered_by = indian
 	
 #} # The Uzbek Shaybanids brings an end to the Timurid dynasty
 # = { #owner = KZH #controller = KZH  } # Qasim Khan's conquests
-# = { discovered_by = RUS }
+
 # = { #owner = OIR #controller = OIR } # Dzungarian invasion
 # = { #owner = KZH #controller = KZH }
 # = { #owner = OIR #controller = OIR } # Dzungarian invasion
@@ -39,5 +39,4 @@ discovered_by = indian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

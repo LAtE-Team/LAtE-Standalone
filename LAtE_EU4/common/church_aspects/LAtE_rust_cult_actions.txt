@@ -1,0 +1,578 @@
+rust_baubles_1 = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+		NOT = { has_country_flag = rust_cult_improvements_1 }
+		NOT = { has_country_flag = rust_cult_improvements_2 }
+		NOT = { has_country_flag = rust_cult_improvements_3 }
+		NOT = { has_country_flag = rust_cult_improvements_4 }
+	}
+	trigger = {
+		OR = {
+			NOT = { prestige = 100 }
+			NOT = { legitimacy_equivalent = 100 }
+		}
+	}
+	effect = {
+		add_prestige = 5
+		add_legitimacy_equivalent = {
+			amount = 10
+			republican_tradition = 5
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { prestige = 0 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 50 }
+		}
+	}
+}
+
+rust_baubles_2 = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+		OR = {
+			has_country_flag = rust_cult_improvements_1
+			has_country_flag = rust_cult_improvements_2
+		}
+	}
+	trigger = {
+		OR = {
+			NOT = { prestige = 100 }
+			NOT = { legitimacy_equivalent = 100 }
+		}
+	}
+	effect = {
+		add_prestige = 10
+		add_legitimacy_equivalent = {
+			amount = 20
+			republican_tradition = 10
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { prestige = 0 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 50 }
+		}
+	}
+}
+
+rust_baubles_3 = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 50
+	potential = {
+		OR = {
+			has_country_flag = rust_cult_improvements_3
+			has_country_flag = rust_cult_improvements_4
+		}
+	}
+	trigger = {
+		OR = {
+			NOT = { prestige = 100 }
+			NOT = { legitimacy_equivalent = 100 }
+		}
+	}
+	effect = {
+		add_prestige = 20
+		add_legitimacy_equivalent = {
+			amount = 20
+			republican_tradition = 10
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { prestige = 0 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 50 }
+		}
+	}
+}
+
+rust_armour_1 = {
+	sprite = "GFX_rust_cult_armour_icon"
+	cost = 100
+	potential = {
+		NOT = { has_country_flag = rust_cult_improvements_2 }
+		NOT = { has_country_flag = rust_cult_improvements_3 }
+		NOT = { has_country_flag = rust_cult_improvements_4 }
+	}
+	trigger = {
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_1
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_2
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_3
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = rust_cult_armour_modifier_1
+				duration = 3650
+			}
+		}
+		custom_tooltip = RUST_CULT_ARMOUR_EFFECT_1_TT
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_war = { participants = ROOT }
+		}
+	}
+}
+
+rust_armour_2 = {
+	sprite = "GFX_rust_cult_armour_icon"
+	cost = 100
+	potential = {
+		OR = {
+			has_country_flag = rust_cult_improvements_2
+			has_country_flag = rust_cult_improvements_3
+		}
+	}
+	trigger = {
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_1
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_2
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_3
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = rust_cult_armour_modifier_2
+				duration = 3650
+			}
+		}
+		custom_tooltip = RUST_CULT_ARMOUR_EFFECT_2_TT
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_war = { participants = ROOT }
+		}
+	}
+}
+
+rust_armour_3 = {
+	sprite = "GFX_rust_cult_armour_icon"
+	cost = 100
+	potential = {
+		has_country_flag = rust_cult_improvements_4
+	}
+	trigger = {
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_1
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_2
+		}
+		NOT = {
+			has_country_modifier = rust_cult_armour_modifier_3
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = rust_cult_armour_modifier_2
+				duration = 3650
+			}
+		}
+		custom_tooltip = RUST_CULT_ARMOUR_EFFECT_1_TT
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_war = { participants = ROOT }
+		}
+	}
+}
+
+rust_production_1 = {
+	sprite = "GFX_rust_cult_goods_icon"
+	cost = 100
+	potential = {
+		NOT = { has_country_flag = rust_cult_improvements_3 }
+		NOT = { has_country_flag = rust_cult_improvements_4 }
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_owned_provinces_production_income = {
+			years = 1
+			trigger = {
+				OR = {
+					trade_goods = copper
+					trade_goods = iron
+				}
+			}
+			custom_tooltip = RUST_CULT_PRODUCTION_1_TT
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_large_debt = yes
+		}
+	}
+}
+
+rust_production_2 = {
+	sprite = "GFX_rust_cult_goods_icon"
+	cost = 100
+	potential = {
+		has_country_flag = rust_cult_improvements_3
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_owned_provinces_production_income = {
+			years = 2
+			trigger = {
+				OR = {
+					trade_goods = copper
+					trade_goods = iron
+				}
+			}
+			custom_tooltip = RUST_CULT_PRODUCTION_2_TT
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_large_debt = yes
+		}
+	}
+}
+
+rust_production_3 = {
+	sprite = "GFX_rust_cult_goods_icon"
+	cost = 100
+	potential = {
+		has_country_flag = rust_cult_improvements_4
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_owned_provinces_production_income = {
+			years = 4
+			trigger = {
+				OR = {
+					trade_goods = copper
+					trade_goods = iron
+					trade_goods = coal
+				}
+			}
+			custom_tooltip = RUST_CULT_PRODUCTION_3_TT
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			is_in_large_debt = yes
+		}
+	}
+}
+
+rust_innovate_1 = {
+	sprite = "GFX_rust_cult_innovate_icon"
+	cost = 100
+	potential = {
+		NOT = { has_country_flag = rust_cult_improvements_1 }
+		NOT = { has_country_flag = rust_cult_improvements_2 }
+		NOT = { has_country_flag = rust_cult_improvements_3 }
+		NOT = { has_country_flag = rust_cult_improvements_4 }
+	}
+	trigger = {
+		NOT = {
+			innovativeness = 100
+		}
+	}
+	effect = {
+		change_innovativeness = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { innovativeness = 20 }
+		}
+	}
+}
+
+rust_innovate_2 = {
+	sprite = "GFX_rust_cult_innovate_icon"
+	cost = 100
+	potential = {
+		has_country_flag = rust_cult_improvements_1
+	}
+	trigger = {
+		NOT = {
+			innovativeness = 100
+		}
+	}
+	effect = {
+		change_innovativeness = 2
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { innovativeness = 20 }
+		}
+	}
+}
+
+rust_innovate_3 = {
+	sprite = "GFX_rust_cult_innovate_icon"
+	cost = 50
+	potential = {
+		OR = {
+			has_country_flag = rust_cult_improvements_2
+			has_country_flag = rust_cult_improvements_3
+			has_country_flag = rust_cult_improvements_4
+		}
+	}
+	trigger = {
+		NOT = {
+			innovativeness = 100
+		}
+	}
+	effect = {
+		change_innovativeness = 2
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { innovativeness = 20 }
+		}
+	}
+}
+
+rust_embracedecay = {
+	sprite = "GFX_rust_cult_decay_icon"
+	cost = 200
+	potential = {
+		NOT ={
+			OR ={
+				religious_school = {
+					group = oldworld
+					school = idealist_school
+				}
+				religious_school = {
+					group = oldworld
+					school = materialist_school
+				}
+			}
+		}
+	}
+	trigger = {
+		OR = {
+			NOT = { stability = 3 }
+			NOT = { legitimacy_equivalent = 100 }
+		}
+	}
+	effect = {
+		country_event = { id = rust_cult.15 }
+		custom_tooltip = RUST_CULTIST_DECAY_TT
+	}
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+rust_improve_1 = {
+	sprite = "GFX_rust_cult_upgrade_icon"
+	cost = 200
+	potential = {
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
+		NOT = { has_country_flag = rust_cult_improvements_1 }
+		NOT = { has_country_flag = rust_cult_improvements_2 }
+		NOT = { has_country_flag = rust_cult_improvements_3 }
+		NOT = { has_country_flag = rust_cult_improvements_4 }
+	}
+	trigger = {
+		any_owned_province = {
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
+			has_building = temple
+			has_building = scavenging_hub
+		}
+	}
+	effect = {
+		rust_cultist_improve_effect = yes
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+rust_improve_2 = {
+	sprite = "GFX_rust_cult_upgrade_icon"
+	cost = 200
+	potential = {
+		has_country_flag = rust_cult_improvements_1
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
+	}
+	trigger = {
+		has_institution = renaissance
+		any_owned_province = {
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
+			OR = {
+				has_building = workshop
+				has_building = counting_house
+			}
+		}
+	}
+	effect = {
+		rust_cultist_improve_effect = yes
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+rust_improve_3 = {
+	sprite = "GFX_rust_cult_upgrade_icon"
+	cost = 200
+	potential = {
+		has_country_flag = rust_cult_improvements_2
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
+	}
+	trigger = {
+		development_in_provinces = {
+			value = 100
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
+		}
+		any_owned_province = {
+			OR = {
+				trade_goods = copper
+				trade_goods = iron
+			}
+			has_building = weapons
+		}
+	}
+	effect = {
+		rust_cultist_improve_effect = yes
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+rust_improve_4 = {
+	sprite = "GFX_rust_cult_upgrade_icon"
+	cost = 200
+	potential = {
+		has_country_flag = rust_cult_improvements_3
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
+	}
+	trigger = {
+		any_owned_province = {
+			trade_goods = coal
+			has_building = furnace
+		}
+	}
+	effect = {
+		rust_cultist_improve_effect = yes
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+rust_streamline = {
+	sprite = "GFX_rust_cult_upgrade_icon"
+	cost = 200
+	potential = {
+		has_country_flag = rust_cult_improvements_3
+		NOT = { 
+			religious_school = {
+				group = oldworld
+				school = entropic_school
+			}
+		}
+	}
+	trigger = {
+		any_owned_province = {
+			trade_goods = coal
+			has_building = furnace
+		}
+	}
+	effect = {
+		random_list = {
+			2 = { add_adm_power = 100 }
+			2 = { add_dip_power = 100 }
+			2 = { add_mil_power = 100 }
+		}
+	}
+	ai_will_do = {
+		factor = 2
+	}
+}

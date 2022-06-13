@@ -1,8 +1,5 @@
 #368 - Madeira
 
-owner = CVD
-controller = CVD
-add_core = CVD
 is_city = yes
 culture = portugese
 religion = brethren

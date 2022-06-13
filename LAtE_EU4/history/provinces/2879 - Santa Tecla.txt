@@ -1,9 +1,7 @@
 # - Santa Tecla
 
 culture = gaucho
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
 capital = "Santa Tecla"
 trade_goods = tobacco
@@ -16,12 +14,12 @@ native_ferocity = 1
 native_hostileness = 5
 owner = AGR
 controller = AGR
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = AGR
 3053.1.1 = {
 	owner = AGR
 	controller = AGR
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

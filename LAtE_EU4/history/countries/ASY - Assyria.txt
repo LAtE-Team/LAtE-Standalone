@@ -1,4 +1,5 @@
 government_rank = 2
+setup_vision = yes
 government = monarchy 
 
 primary_culture = al_iraqiya_arabic

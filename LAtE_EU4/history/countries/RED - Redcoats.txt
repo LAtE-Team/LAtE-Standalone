@@ -1,38 +1,42 @@
 # Redcoat Dominion
+setup_vision = yes
 government = monarchy 
-add_government_reform = feudalism_reform
+add_government_reform = autocracy_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = british
-religion = thelemic
+add_accepted_culture = yankee
+religion = glorian
+religious_school = queen_school
 clear_scripted_personalities = yes
 capital = 968
-3039.12.16 = {
+
+add_prestige = 25
+
+historical_friend = NYS
+historical_rival = MRT
+historical_rival = HUD
+clear_scripted_personalities = yes
+
+3053.1.1 = {
 	monarch = {
 		name = "Outgrabe"
-		birth_date = 2986.3.8
 		dynasty = "of  Boston"
-		adm = 2
-		dip = 4
-		mil = 2
+		birth_date = 3023.12.16		
+		adm = 3
+		dip = 2
+		mil = 5
 	}
-	add_ruler_personality = drunkard_personality
-	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = inspiring_leader_personality
 	heir = {
 		name = "Claudas"
 		monarch_name = "Claudas"
 		dynasty = "of  Boston"
-		birth_date = 2993.9.30
+		birth_date = 3048.9.30
 		death_date = 3073.9.30
 		adm = 3
 		dip = 3
 		mil = 2
 	}
 	add_heir_personality = craven_personality
-}
-3053.1.1 {
-	capital = 968
-	add_treasury = 29
-	add_prestige = 121
 }

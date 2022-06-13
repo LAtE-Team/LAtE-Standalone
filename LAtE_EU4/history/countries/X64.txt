@@ -1,4 +1,5 @@
 # Abak
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -12,7 +13,7 @@ capital = 2937
 	monarch = {
 		name = "Rafael II"
 		birth_date = 2996.9.10
-		dynasty = "Bolvaríana"
+		dynasty = "Bolvarï¿½ana"
 		adm = 1
 		dip = 4
 		mil = 2

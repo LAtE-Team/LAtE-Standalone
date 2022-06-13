@@ -13,8 +13,8 @@ base_manpower = 3
 #is_city = yes
 #add_local_autonomy = 10
 #add_core = TAB
-discovered_by = high_american
-discovered_by = indian
+
+
 extra_cost = 10
 
 center_of_trade = 2

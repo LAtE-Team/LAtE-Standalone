@@ -16,8 +16,8 @@ fort_15th = yes #Champaner Fort
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

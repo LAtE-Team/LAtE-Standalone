@@ -1,11 +1,12 @@
 # Guatemala
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = chapin
-religion = uahomche
+religion = qabantajik
 clear_scripted_personalities = yes
 capital = 2653
 3053.1.1 {

@@ -1,0 +1,21 @@
+# Nunavik
+setup_vision = yes
+government = monarchy 
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = eastern
+primary_culture = inuit
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 2575
+3051.1.14 = {
+	monarch = {
+		name = "Limmy"
+		birth_date = 3034.5.2
+		dynasty = "Narr"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+}

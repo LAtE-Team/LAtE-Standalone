@@ -116,8 +116,9 @@ country_decisions = {
 
 	send_the_shaman_to_a_foreign_country = {
 		potential = {
+			always = no
 			has_country_flag = can_choose_to_unlock_a_cult
-			religion = shamanism
+#			religion = shamanism
 			has_dlc = "Rights of Man"
 		}
 		allow = {
@@ -165,7 +166,8 @@ country_decisions = {
 
 	switch_active_cult_decision = {
 		potential = {
-			religion = shamanism
+			always =  no
+#			religion = shamanism
 			OR = {
 				has_country_flag = enabled_cult_switching_mission
 				has_country_flag = enabled_cult_switching

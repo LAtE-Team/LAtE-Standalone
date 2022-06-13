@@ -15,8 +15,8 @@ add_core= TRT
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

@@ -1,0 +1,14 @@
+spriteTypes = {
+
+####### COLONY TERRAIN PICTURES #########
+
+	spriteType = {
+		name = "GFX_colony_terrain_tundra"
+		texturefile = "gfx/interface/colony_terrain_tundra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_tundra"
+		texturefile = "gfx/interface/combat_terrain_tundra.dds"
+	}
+}	

@@ -16,12 +16,12 @@ is_city = no
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { revolt = { type = religious_rebels size = 2 } #controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almer�a to proceed the war against the christians from there.

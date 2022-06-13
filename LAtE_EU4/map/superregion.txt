@@ -19,6 +19,7 @@ east_indies_superregion = {
 oceania_superregion = {
 	oceanea_region
 	australia_region
+	new_zealand_region
 }
 
 china_superregion = {
@@ -94,8 +95,8 @@ andes_superregion = {
 	la_plata_region
 }
 
-north_america_superregion = {
-	northeast_america_region
+laurentia_superregion = {
+	atlantica_region
 	great_lakes_region
 	canada_region
 	hudson_bay_region

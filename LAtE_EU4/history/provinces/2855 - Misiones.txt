@@ -2,13 +2,11 @@
 
 owner = MES
 controller = MES
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = MES
 culture = litoraleno
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-religion = cult_of_saints
+
+religion = sacred_heart
 capital = "Candelaria"
 trade_goods = unknown
 is_city = yes

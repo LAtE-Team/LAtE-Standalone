@@ -4,9 +4,7 @@ owner = MPC
 controller = MPC
 add_core = MPC
 culture = mapuche
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Huillimapu"
 is_city = yes

@@ -41,11 +41,6 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0.0
-				dominant_religion = reformed
-				is_emperor = no
-			}
-			modifier = {
-				factor = 0.0
 				dominant_religion = protestant
 				is_emperor = no
 			}

@@ -14,7 +14,7 @@ base_manpower = 1
 #add_core = ORM
 #add_core = SHR
 #add_core = YAS
-discovered_by = indian
-discovered_by = east_african
+
+
 
 

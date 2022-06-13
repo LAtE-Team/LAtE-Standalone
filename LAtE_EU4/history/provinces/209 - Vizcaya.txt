@@ -12,9 +12,9 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Bilbao" 
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 

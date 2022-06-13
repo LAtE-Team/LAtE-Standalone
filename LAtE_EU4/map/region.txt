@@ -81,12 +81,12 @@ italy_region = {
 
 north_german_region = {
 	areas = { 
-		erzgebirge_area
-		south_saxony_area
-		northern_saxony_area
-		thuringia_area
-		neumark_area
-		mittelmark_area
+#		erzgebirge_area
+#		south_saxony_area
+#		northern_saxony_area
+#		thuringia_area
+#		neumark_area
+#		mittelmark_area
 		vorpommern_area
 		bohemia_area
 		hinter_pommern_area
@@ -98,7 +98,7 @@ north_german_region = {
 		weser_area
 		holstein_area
 		mecklenburg_area
-		braunschweig_area
+#		braunschweig_area
 	}
 }
 
@@ -111,14 +111,14 @@ south_german_region = {
 		austria_proper_area
 		inner_austria_area
 		carinthia_area
-		switzerland_area
+#		switzerland_area
 		lower_bavaria_area
 		upper_bavaria_area
 		franconia_area
 		lower_swabia_area
-		upper_swabia_area
+#		upper_swabia_area
 		upper_rhineland_area
-		romandie_area
+#		romandie_area
 		palatinate_area
 	}
 }
@@ -128,7 +128,7 @@ russia_region = {
 		moscow_area
 		suzdal_area
 		novgorod_area
-		pskov_area
+#		pskov_area
 		beloozero_area
 		pomor_area
 		karelia_area
@@ -188,20 +188,20 @@ british_isles_region = {
 
 baltic_region = {
 	areas = {
-		lithuania_area
+#		lithuania_area
 		livonia_area
 		estonia_ingria_area
 		curonia_area
 		west_prussia_area
 		east_prussia_area
 		pomerelia_area
-		samogitia_area
+#		samogitia_area
 	}
 }
 
 poland_region = {
 	areas = {
-		wielkopolska_area
+#		wielkopolska_area
 		malopolska_area
 		red_ruthenia_area
 		mazovia_area
@@ -215,9 +215,9 @@ ruthenia_region = {
 		west_dniepr_area
 		east_dniepr_area
 		sloboda_ukraine_area
-		white_ruthenia_area
+#		white_ruthenia_area
 		podolia_volhynia_area
-		pripyat_area
+#		pripyat_area
 
 	}
 }
@@ -244,7 +244,7 @@ balkan_region = {
 		macedonia_area
 		northern_greece_area
 		morea_area
-		western_aegean_area
+#		western_aegean_area
 		thrace_area
 		albania_area
 	}
@@ -256,7 +256,7 @@ carpathia_region = {
 		alfold_area
 		slovakia_area
 		transylvania_area
-		southern_transylvania_area
+#		southern_transylvania_area
 		wallachia_area
 		moldavia_area
 	}
@@ -300,7 +300,7 @@ mashriq_region = {
 	areas = {
 		syria_area
 		palestine_area
-		rakka_area
+#		rakka_area
 		al_jazira_area
 		iraq_arabi_area
 		basra_area
@@ -437,7 +437,7 @@ guinea_region = {
 sahel_region = {
 	areas = {
 		darfur_central_sahara_area
-		kanem_area
+#		kanem_area
 		bornu_area
 		azbin_area
 		kurdufan_area
@@ -538,7 +538,7 @@ central_africa_region = {
 kongo_region = {
 	areas = {
 		coastal_kongo
-		kongo_area
+#		kongo_area
 		angola_namibia_area
 		southern_angola_area
 		matamba_area
@@ -1128,7 +1128,6 @@ canada_region = {
 		laurentian_area
 		huronia_area
 		upper_ontario_area
-		greenland_area
 		shield_area
 		talbot_area
 		greater_toronto_area
@@ -1152,6 +1151,7 @@ north_quebec_region = {
 		nord_du_quebec_area
 		nunavik_area
 		eeyou_istchee_area
+		greenland_area
 	}
 }
 
@@ -1176,7 +1176,7 @@ great_lakes_region = {
 	}
 }
 
-northeast_america_region = {
+atlantica_region = {
 	areas = {
 		delmarva_area
 		massachusetts_bay_area
@@ -1192,7 +1192,7 @@ northeast_america_region = {
 		vermont_area
 		new_hampshire_area
 		aroostook_area
-		cayuga_area
+#		cayuga_area
 		niagara_area
 		gotham_area
 		actual_susquehanna_area
@@ -1390,6 +1390,7 @@ carribeans_region = {
 		leeward_antilles_area
 		windward_islands_area
 		lucayan_area
+		western_carribean_area
 	}
 	monsoon = {
 		00.06.01

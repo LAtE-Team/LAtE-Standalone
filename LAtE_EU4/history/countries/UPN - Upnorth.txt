@@ -1,8 +1,7 @@
 # Upnorth
+setup_vision = yes
 government = monarchy 
-
-government_rank = 2
-mercantilism = 0.1
+government_rank = 1
 technology_group = eastern
 primary_culture = lacustrine
 add_accepted_culture = lacustrine

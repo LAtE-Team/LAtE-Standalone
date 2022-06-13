@@ -10,14 +10,14 @@ hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 5
-discovered_by = indian
+
 
 capital = "Yagoshiha"
 
 
 
 
-discovered_by = high_american 
+ 
 
 
 

@@ -1,7 +1,7 @@
 owner = ECU
 controller = ECU
 culture = quiteno
-religion = cult_of_saints
+religion = sacred_heart
 is_city = yes
 hre = no
 base_tax = 1
@@ -11,8 +11,5 @@ add_core = ECU
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+
 

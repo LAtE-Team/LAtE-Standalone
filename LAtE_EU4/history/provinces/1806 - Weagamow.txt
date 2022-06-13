@@ -1,6 +1,14 @@
-religion = ghost_dance
-culture = cree
+owner = KNR
+controller = KNR
+add_core = KNR
 
-native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+culture = metis
+religion = midewiwin
+is_city = yes
+
+
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = naval_supplies

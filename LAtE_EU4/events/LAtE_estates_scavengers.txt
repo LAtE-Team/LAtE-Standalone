@@ -430,17 +430,7 @@ country_event = {
 	picture = GOLDEN_STOOL_eventPicture
 	
 	trigger = {
-
 		has_estate = estate_scavengers
-		has_estate = estate_artificers
-		
-		NOT = {
-			has_estate_influence_modifier = {
-				estate = estate_artificers
-				modifier = EST_VAL_EXPLOITING_ARTIFACTS
-			}
-		}
-
 	}
 	
 	is_triggered_only = yes
@@ -485,13 +475,13 @@ country_event = {
 				factor = 1.5
 				NOT = {
 					estate_influence = {
-						estate = estate_artificers
+						estate = estate_scavengers
 						influence = 30
 					}
 				}
 			}
 		}
-		prestige = 10
+		add_prestige = 10
 		
 		add_estate_loyalty = {
 			estate = estate_scavengers
@@ -723,7 +713,7 @@ country_event = {
 	trigger = {
 
 		has_estate = estate_scavengers
-		has_estate_privilege = estate_scavengers_organization_land_of_adventure
+		has_estate_privilege = estate_scavengers_state_bands
 		
 		estate_influence = {
 			estate = estate_scavengers
@@ -790,17 +780,17 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
@@ -1040,17 +1030,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1076,7 +1066,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.13.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1108,17 +1098,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1144,7 +1134,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.14.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1176,17 +1166,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1212,7 +1202,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.15.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1244,17 +1234,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1280,7 +1270,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.16.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1312,17 +1302,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1348,7 +1338,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.17.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1380,17 +1370,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1416,7 +1406,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.18.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1448,17 +1438,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1484,7 +1474,7 @@ province_event = {
 
 	option = {
 		name = scavengers_estate_events.19.b
-		add_treasury = 100
+		owner = { add_treasury = 100 }
 		hidden_effect = { add_province_modifier = { name = estate_scavengers_province_empty duration = 3650 hidden = yes } }
 	}
 }
@@ -1516,17 +1506,17 @@ province_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } } }
+			NOT = { owner = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 50 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 50 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			owner = { estate_loyalty = { estate = scavengers_estate_events loyalty = 75 } }
+			owner = { estate_loyalty = { estate = estate_scavengers loyalty = 75 } }
 		}
 
 		modifier = {
@@ -1604,22 +1594,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -1673,22 +1663,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -1742,22 +1732,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -1811,22 +1801,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -1880,22 +1870,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -1949,22 +1939,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -2018,22 +2008,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {
@@ -2087,22 +2077,22 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			NOT = { estate_loyalty = { estate = scavengers_estate_events loyalty = 25 } }
+			NOT = { estate_loyalty = { estate = estate_scavengers loyalty = 25 } }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 50 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 50 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_loyalty = { estate = scavengers_estate_events loyalty = 75 }
+			estate_loyalty = { estate = estate_scavengers loyalty = 75 }
 		}
 
 		modifier = {
 			factor = 0.9
-			estate_influence = { estate = scavengers_estate_events influence = 50 }
+			estate_influence = { estate = estate_scavengers influence = 50 }
 		}
 
 		modifier = {

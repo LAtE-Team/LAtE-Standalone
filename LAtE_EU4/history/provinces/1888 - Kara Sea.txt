@@ -1,4 +1,4 @@
-discovered_by = indian
+
 
 
 native_size = 5

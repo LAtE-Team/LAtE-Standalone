@@ -1,18 +1,19 @@
 # Transpecos
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = western
 primary_culture = shoshone
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 2666
 3053.1.1 {
 	monarch = {
-		name = "Ricibúrsiri"
+		name = "Ricibï¿½rsiri"
 		birth_date = 3005.2.4
-		dynasty = "Sikára"
+		dynasty = "Sikï¿½ra"
 		adm = 6
 		dip = 1
 		mil = 5

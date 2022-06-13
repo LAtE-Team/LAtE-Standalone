@@ -194,7 +194,7 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				tag = POR
+				tag = MRT
 			}
 			modifier = {
 				global_colonial_growth = 50
@@ -206,7 +206,7 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				tag = MIC
 			}
 			modifier = {
 				reduced_liberty_desire = 30
@@ -226,7 +226,7 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
+				tag = NYS
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
@@ -390,7 +390,7 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
+				tag = CAN
 			}
 			modifier = {
 				shock_damage_received = -0.3
@@ -401,7 +401,7 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				tag = CBN
 			}
 			modifier = {
 				artillery_cost = -0.5
@@ -413,10 +413,7 @@ age_of_reformation = {
 		
 		ab_polish_legitimacy = {
 			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-				}
+				tag = MIC
 			}
 			modifier = {
 				global_trade_goods_size_modifier = 0.33
@@ -599,10 +596,7 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
-				OR = {
-					tag = SWE
-					tag = SCA
-				}
+				tag = CSC
 			}
 			modifier = {
 				manpower_recovery_speed = 0.35
@@ -614,10 +608,7 @@ age_of_absolutism = {
 
 		ab_manchu_banner = {
 			allow = {
-				OR = {
-					tag = MCH
-					tag = QNG
-				}
+				tag = BRA
 			}
 			modifier = {
 				amount_of_banners = 0.5
@@ -770,10 +761,7 @@ age_of_revolutions = {
 		}
 		ab_pru_military = {
 			allow = {
-				OR = {
-					tag = PRU
-					tag = GER
-				}
+				tag = RED
 			}
 			modifier = {
 				fire_damage_received = -0.2
@@ -806,10 +794,7 @@ age_of_revolutions = {
 		}
 		ab_austria_rep = {
 			allow = {
-				OR = {
-					tag = HAB
-					tag = HLR
-				}
+				tag = FLD
 			}
 			modifier = {
 				diplomatic_reputation = 5

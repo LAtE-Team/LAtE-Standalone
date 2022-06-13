@@ -3,7 +3,7 @@
 #owner = NOR
 #controller = NOR
 culture = norwegian
-religion = thelemic
+religion = glorian
 hre = no
 base_tax = 1
 base_production = 1
@@ -12,31 +12,6 @@ base_manpower = 1
 capital = "Lerwick"
 is_city = no # Estimated
 #add_core= NOR
-
-
-
-discovered_by = high_american 
-
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
-
-
-
-# = {
-	#owner = SCO
-	culture = scottish
-	#controller = SCO
-	#add_core= SCO
-	
-#} # Formally ceded to the crown of Scotland
-# = { religion = reformed } # First Protestant Minister Arrives in the Orkneys
-# = {
-	#owner = GBR
-	#controller = GBR
-	#add_core= GBR
-#}
-
 
 native_size = 5
 native_ferocity = 1

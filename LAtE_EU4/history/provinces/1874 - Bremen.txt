@@ -3,7 +3,7 @@
 owner = BIZ
 controller = BIZ
 culture = hannoverian
-religion = thelemic
+religion = thelema
 capital = "Bremen"
 trade_goods = unknown
 hre = no
@@ -16,9 +16,9 @@ fort_15th = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 extra_cost = 10
 

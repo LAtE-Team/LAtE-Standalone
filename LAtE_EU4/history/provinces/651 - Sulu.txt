@@ -1,7 +1,7 @@
 #651 - Sulu
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Jolo"
 trade_goods = naval_supplies
 hre = no
@@ -14,7 +14,6 @@ native_hostileness = 9
 
 
 
-discovered_by = chinese
-discovered_by = indian
-discovered_by = NRU 
-discovered_by = NRA
+
+
+

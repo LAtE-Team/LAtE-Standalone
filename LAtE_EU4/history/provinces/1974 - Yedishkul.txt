@@ -9,9 +9,9 @@ trade_goods = salt
 base_manpower = 2
 capital = "Kherson"
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

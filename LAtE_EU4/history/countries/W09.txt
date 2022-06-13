@@ -1,4 +1,5 @@
 # Coiba
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -10,7 +11,7 @@ clear_scripted_personalities = yes
 capital = 2664
 3021.7.1 = {
 	monarch = {
-		name = "Martín"
+		name = "Martï¿½n"
 		birth_date = 2984.8.1
 		dynasty = "Bello"
 		adm = 3

@@ -1,4 +1,5 @@
 # Cartagena
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -12,7 +13,7 @@ capital = 828
 	monarch = {
 		name = "Oscar II"
 		birth_date = 3000.4.16
-		dynasty = "Dorado García"
+		dynasty = "Dorado Garcï¿½a"
 		adm = 2
 		dip = 0
 		mil = 2

@@ -15,6 +15,6 @@ hre = no
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+

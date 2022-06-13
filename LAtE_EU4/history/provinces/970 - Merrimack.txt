@@ -1,0 +1,15 @@
+owner = RED
+controller = RED
+add_core = RED
+add_core = WMT
+
+culture = yankee
+religion = glorian
+is_city = yes
+
+
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 4
+trade_goods = fish

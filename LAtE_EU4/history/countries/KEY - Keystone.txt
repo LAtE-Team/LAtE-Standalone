@@ -1,0 +1,7 @@
+# Keystone
+setup_vision = yes
+government = monarchy
+technology_group = eastern
+religion = americanist
+primary_culture = delawarean
+capital = 956	# Philadelphia

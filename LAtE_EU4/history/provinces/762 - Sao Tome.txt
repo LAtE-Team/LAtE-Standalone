@@ -1,9 +1,7 @@
 #762 - Sao Tome
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Sao Tome"
 trade_goods = unknown
@@ -15,7 +13,7 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-# = { discovered_by = POR } # Gaspar de Lemos
+ # Gaspar de Lemos
 # = {
 	#owner = POR
 	#controller = POR
@@ -26,15 +24,15 @@ native_hostileness = 3
 	culture = carioca
 add_core = RDJ
 #}
-# = { capital = "São Salvador de Campos" }
+# = { capital = "Sï¿½o Salvador de Campos" }
 owner = RDJ
 controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = RDJ
 3053.1.1 = {
 	owner = RDJ
 	controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

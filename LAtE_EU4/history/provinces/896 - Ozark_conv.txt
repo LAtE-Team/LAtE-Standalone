@@ -3,14 +3,9 @@ controller = Y82
 add_core = Y82
 
 culture = cherokee
-religion = neoroman
+religion = catholic
 is_city = yes
-discovered_by = eastern
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman
-discovered_by = MTC
-discovered_by = X17
+
 
 hre = no
 base_tax = 4

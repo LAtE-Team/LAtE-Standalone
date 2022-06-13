@@ -15,9 +15,9 @@ is_city = no
 
 
 
-discovered_by = chinese
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+#
 
 
 # = {
@@ -36,7 +36,7 @@ discovered_by = indian
 	#add_core= UTS
 	
 #}
-# = { discovered_by = SPA }
+
 # = { revolt_risk = 7 } # Rebellion aginst the Chinese
 # = { revolt_risk = 0 }
 # = {
@@ -49,5 +49,4 @@ discovered_by = indian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

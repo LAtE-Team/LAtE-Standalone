@@ -16,13 +16,13 @@ add_core= BWD
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
+
+
+#
 
 extra_cost = 10
 

@@ -98,7 +98,7 @@ estate_scavengers_old_world_construction = {
         custom_tooltip = estate_scavengers_old_world_construction_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_scavengers_old_world_construction_mod
@@ -203,13 +203,13 @@ estate_scavengers_scavenge_equipment = {
         has_estate_privilege = estate_scavengers_state_bands
     }
     benefits = {
-        army_tradition_from_battle = 0.1
+        army_tradition_from_battle = 0.5
     }
     on_granted = {
         custom_tooltip = estate_scavengers_scavenge_equipment_effect_tooltip
     }
     on_granted_province = {
-        if {
+        if = {
             limit = { has_building = scavenging_hub }
             add_province_modifier = {
                 name = estate_scavengers_scavenge_equipment_mod

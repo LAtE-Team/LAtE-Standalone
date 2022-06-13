@@ -1,0 +1,22 @@
+# Northern Basin
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = western
+primary_culture = paiute
+religion = peyotist
+clear_scripted_personalities = yes
+capital = 4517
+3023.6.20 = {
+	monarch = {
+		name = "Lance III"
+		birth_date = 3008.7.4
+		dynasty = "Sabonis"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = tactical_genius_personality
+}

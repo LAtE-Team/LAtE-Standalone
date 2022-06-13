@@ -1,3 +1,4 @@
+# Suggested by Lord Volt
 american_feudal_ideas = {
 	start = {
 		vassal_income = 0.25
@@ -22,7 +23,7 @@ american_feudal_ideas = {
         global_tax_modifier = 0.05
 	}
     knightly_traditions = {
-		army_tradition_decay = -0.5
+		army_tradition_decay = -0.005
 	}
 	noble_connections = {
 		heir_chance = 0.33
@@ -51,8 +52,8 @@ russian_warlord_ideas = {
 		ae_impact = -0.10
 	}
 	trigger = {
-		culture_group = russian
-	     	OR = {
+		culture_group = east_slavic
+		OR = {
 			capital_scope = { continent = asia }
 		  	capital_scope = { continent = europe }
 		}
@@ -84,4 +85,43 @@ russian_warlord_ideas = {
 		core_creation = -0.1
 	}
 	
+}
+
+redcoat_ideas = {
+	start = {
+		prestige = 1
+		fabricate_claims_cost = -0.25
+	}
+	bonus = {
+		global_colonial_growth = 20
+	}
+	trigger = {
+		tag = RED
+	}
+	free = yes
+	
+	invasion_of_the_redcoats = {
+		warscore_cost_vs_other_religion = -0.20
+	}
+	the_siege_of_washington = {
+		siege_ability = 0.15
+	}
+	slavers_of_america = {
+		production_efficiency = 0.10
+	}
+	surrounded_on_all_sides = {
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
+	}
+	recolonise_america = {
+		culture_conversion_cost = -0.25
+		development_cost = -0.05
+	}
+	for_the_queen = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+	militant_society = {
+		global_manpower_modifier = 0.10
+	}
 }

@@ -1,3 +1,4 @@
+setup_vision = yes
 government = monarchy
  #was native_council 
 government_rank = 2

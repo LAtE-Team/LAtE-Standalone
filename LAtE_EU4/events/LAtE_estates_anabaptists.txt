@@ -235,43 +235,23 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = {
-		hidden_effect = {
-            random_owned_province = {
-                limit = {
-                    base_production = 3
-                    OR = {
-                        religion = anabaptist
-                        has_province_modifier = anabaptists_present_large
-                        has_province_modifier = anabaptists_present_medium
-                        has_province_modifier = anabaptists_present_small
-                    }
-                    is_capital = no
-                    is_city = yes
-                    NOT = { has_province_flag = anabaptist_passive_resistance_flag }
-                }
-                set_province_flag = anabaptist_passive_resistance_flag
-            }
-		}
-	}
 
 	option = {
 		name = anabaptists_estate_events.5.a
-		every_owned_province = {
+		random_owned_province = {
 			limit = {
-				has_province_flag = anabaptist_passive_resistance_flag
+				base_production = 3
+				OR = {
+					religion = anabaptist
+					has_province_modifier = anabaptists_present_large
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_small
+				}
+				is_capital = no
+				is_city = yes
+				NOT = { has_province_flag = anabaptist_passive_resistance_flag }
 			}
 			add_base_production = -2
-		}
-	}
-
-	after = {
-		every_owned_province = {
-			limit = {
-				has_province_flag = anabaptist_passive_resistance_flag
-			}
-			clr_province_flag = anabaptist_passive_resistance_flag
 		}
 	}
 }
@@ -386,42 +366,22 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = {
-		hidden_effect = {
-            random_owned_province = {
-                limit = {
-                    OR = {
-                        religion = anabaptist
-                        has_province_modifier = anabaptists_present_large
-                        has_province_modifier = anabaptists_present_medium
-                        has_province_modifier = anabaptists_present_small
-                    }
-                    is_capital = no
-                    is_city = yes
-                    NOT = { has_province_flag = anabaptist_growth }
-                }
-                set_province_flag = anabaptist_growth
-            }
-		}
-	}
 
 	option = {
 		name = anabaptists_estate_events.8.a
-		every_owned_province = {
+		random_owned_province = {
 			limit = {
-				has_province_flag = anabaptist_growth
+				OR = {
+					religion = anabaptist
+					has_province_modifier = anabaptists_present_large
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_small
+				}
+				is_capital = no
+				is_city = yes
+				NOT = { has_province_flag = anabaptist_growth }
 			}
 			add_base_production = 2
-		}
-	}
-
-	after = {
-		every_owned_province = {
-			limit = {
-				has_province_flag = anabaptist_growth
-			}
-			clr_province_flag = anabaptist_growth
 		}
 	}
 }
@@ -461,32 +421,21 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = {
-		hidden_effect = {
-            random_owned_province = {
-                limit = {
-                    OR = {
-                        religion = anabaptist
-                        has_province_modifier = anabaptists_present_large
-                        has_province_modifier = anabaptists_present_medium
-                        has_province_modifier = anabaptists_present_small
-                    }
-                    NOT = { has_building = temple }
-                    is_capital = no
-                    is_city = yes
-                    NOT = { has_province_flag = anabaptist_growth }
-                }
-                set_province_flag = anabaptist_growth
-            }
-		}
-	}
 
 	option = {
 		name = anabaptists_estate_events.9.a
-		every_owned_province = {
+		random_owned_province = {
 			limit = {
-				has_province_flag = anabaptist_growth
+				OR = {
+					religion = anabaptist
+					has_province_modifier = anabaptists_present_large
+					has_province_modifier = anabaptists_present_medium
+					has_province_modifier = anabaptists_present_small
+				}
+				NOT = { has_building = temple }
+				is_capital = no
+				is_city = yes
+				NOT = { has_province_flag = anabaptist_growth }
 			}
             add_building_construction = {
                 building = temple
@@ -502,15 +451,6 @@ country_event = {
             estate = estate_anabaptists
             loyalty = -10
         }
-	}
-
-	after = {
-		every_owned_province = {
-			limit = {
-				has_province_flag = anabaptist_growth
-			}
-			clr_province_flag = anabaptist_growth
-		}
 	}
 }
 
@@ -662,7 +602,7 @@ country_event = {
 	}
 }
 
-# Jains make demands
+# Anabaptists make demands
 country_event = {
 	id = anabaptists_estate_events.11
 	title = anabaptists_estate_events.11.t
@@ -788,14 +728,14 @@ country_event = {
 	
 	option = {
 		name = anabaptists_estate_events.12.a	
-        set_country_flag = anabaptists_accepted
+        anabaptists_accepted_effect = yes
         ai_chance = { factor = 2 }
 	}
 
 	option = {
 		name = anabaptists_estate_events.12.b	
-        set_country_flag = anabaptists_rejected
-        ai_chance = { factor = 2 }
+        anabaptists_rejected_effect = yes
+        ai_chance = { factor = 8 }
 	}
 }
 
@@ -840,7 +780,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 25
                 }
             }
@@ -849,7 +789,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 50
                 }
             }
@@ -858,7 +798,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 75
                 }
             }
@@ -877,26 +817,14 @@ province_event = {
 	
 	option = {
 		name = anabaptists_estate_events.13.a	
-        if = {
-            limit = { has_province_modifier = anabaptists_present_medium }
-            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium  }
-            add_province_triggered_modifier = anabaptists_present_large
-        }
-        else_if = {
-            limit = { has_province_modifier = anabaptists_present_small }
-            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_small  }
-            add_province_triggered_modifier = anabaptists_present_medium
-        }
-        else = {
-            add_province_triggered_modifier = anabaptists_present_small
-        }
+        anabaptists_estate_growth_effect = yes
 	}
 
 	option = {
 		name = anabaptists_estate_events.13.b	
         owner = {
             add_estate_loyalty_modifier = {
-                estate = anabaptists_estate_events
+                estate = estate_anabaptists
                 desc = EST_ANA_GROWTH
                 loyalty = -10
                 duration = 3650
@@ -925,7 +853,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 25
                 }
             }
@@ -934,7 +862,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 50
                 }
             }
@@ -943,7 +871,7 @@ province_event = {
             factor = 0.75
             owner = {
                 estate_influence = {
-                    estate = anabaptists_estate_events
+                    estate = estate_anabaptists
                     influence = 75
                 }
             }
@@ -969,7 +897,7 @@ province_event = {
 		name = anabaptists_estate_events.14.b	
         owner = {
             add_estate_loyalty_modifier = {
-                estate = anabaptists_estate_events
+                estate = estate_anabaptists
                 desc = EST_ANA_RELIGION
                 loyalty = -10
                 duration = 3650
@@ -996,7 +924,7 @@ province_event = {
             has_province_modifier = anabaptists_present_medium
             has_province_modifier = anabaptists_present_small
         }
-        NOT = { has_country_modifier = anabaptists_estate_events_growth_cooldown }
+        NOT = { owner = { has_country_modifier = anabaptists_estate_events_growth_cooldown } }
     }
 
     mean_time_to_happen = {
@@ -1025,6 +953,10 @@ province_event = {
             factor = 10
             religion = anabaptist
         }
+		modifier = {
+			factor = 10
+			culture = deitsch
+		}
     }
 
     immediate = {
@@ -1038,68 +970,100 @@ province_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					any_known_country = {
-						religion_group = christian
-						is_neighbor_of = ROOT
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }					
+					owner = {
+							any_known_country = {
+								religion_group = christian
+								is_neighbor_of = PREV
+								NOT = { has_country_flag = anabaptists_rejected }
+								NOT = { has_country_flag = anabaptists_expelled }	
+								NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }				
+							}
 					}
 				}
-				random_known_country = {
-					limit = {
-						religion_group = christian
-						is_neighbor_of = ROOT
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }
-					}
-					country_event = { id = anabaptists_estate_events.16 }
-				}
-			}
-			else_if = {
-				limit = {
-					ROOT = { religion_group = christian }
-					any_known_country = {
-						has_matching_religion = ROOT
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }					
-					}
-				}
-				random_known_country = {
-					limit = {
-						has_matching_religion  = ROOT
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }
-					}
-					country_event = { id = anabaptists_estate_events.16 }
+				owner = {
+					random_known_country = {
+						limit = {
+							religion_group = christian
+							is_neighbor_of = PREV
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
+						country_event = { id = anabaptists_estate_events.16 }
+					}							
 				}
 			}
 			else_if = {
 				limit = {
-					any_known_country = {
-						religion_group = christian
-						culture_group = amerodeutsch
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }					
+					owner = {
+						any_known_country = {
+							religion_group = christian
+							has_country_flag = anabaptists_accepted
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }					
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
 					}
 				}
-				random_known_country = {
-					limit = {
-						religion_group = christian
-						culture_group = amerodeutsch
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }
-					}
-					country_event = { id = anabaptists_estate_events.16 }
+				owner = {
+					random_known_country = {
+						limit = {
+							religion_group = christian
+							has_country_flag = anabaptists_accepted
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
+						country_event = { id = anabaptists_estate_events.16 }
+					}							
 				}
 			}
-			else = {
-				random_known_country = {
-					limit = {
-						religion_group = christian
-						NOT = { has_country_flag = anabaptists_rejected }
-						NOT = { has_country_flag = anabaptists_expelled }
+			else_if = {
+				limit = {
+					owner = {
+						any_known_country = {
+							religion_group = christian
+							culture_group = amerodeutsch
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }					
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}								
 					}
-					country_event = { id = anabaptists_estate_events.16 }
+				}
+				owner = {
+					random_known_country = {
+						limit = {
+							religion_group = christian
+							culture_group = amerodeutsch
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
+						country_event = { id = anabaptists_estate_events.16 }
+					}							
+				}
+			}
+			else_if = {
+				limit = {
+					owner = {
+						any_known_country = {
+							religion_group = christian
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }					
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }					
+						}								
+					}
+				}
+				owner = {
+					random_known_country = {
+						limit = {
+							religion_group = christian
+							NOT = { has_country_flag = anabaptists_rejected }
+							NOT = { has_country_flag = anabaptists_expelled }
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
+						country_event = { id = anabaptists_estate_events.16 }
+					}							
 				}
 			}
 		}
@@ -1107,20 +1071,7 @@ province_event = {
 	
 	option = {
 		name = anabaptists_estate_events.15.a	
-        if = {
-            limit = { has_province_modifier = anabaptists_present_large }
-            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_large }
-            add_province_triggered_modifier = anabaptists_present_medium
-        }
-        else_if = {
-            limit = { has_province_modifier = anabaptists_present_medium }
-            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium }
-            add_province_triggered_modifier = anabaptists_present_small
-        }
-        else_if = {
-            limit = { has_province_modifier = anabaptists_present_small }
-            hidden_effect = { remove_province_triggered_modifier = anabaptists_present_small }
-        }
+        anabaptists_estate_shrink_effect = yes
         random_list = {
             20 = {
                 add_base_tax = -1
@@ -1165,51 +1116,36 @@ country_event = {
 			is_neighbor_of = ROOT
 		}
 	}
-	
+
 	immediate = {
-		hidden_effect = {
-            random_owned_province = {
-                limit = {
-                    NOT = { has_province_modifier = anabaptists_present_small }
-                    is_city = yes
-                    NOT = { has_province_flag = anabaptist_growth }
-                }
-                set_province_flag = anabaptist_growth
-            }
+		add_country_modifier = {
+			name = anabaptists_estate_events_migration_cooldown
+			duration = 1825
+			hidden = yes
 		}
 	}
 
 	option = {
 		name = anabaptists_estate_events.16.a
-		every_owned_province = {
+		random_owned_province = {
 			limit = {
-				has_province_flag = anabaptist_growth
+				NOT = { has_province_modifier = anabaptists_present_large }
+				is_city = yes
+				NOT = { has_province_flag = anabaptist_growth }
 			}
-            if = {
-                limit = { has_province_modifier = anabaptists_present_medium }
-                hidden_effect = { remove_province_triggered_modifier = anabaptists_present_medium  }
-                add_province_triggered_modifier = anabaptists_present_large
-            }
-            else_if = {
-                limit = { has_province_modifier = anabaptists_present_small }
-                hidden_effect = { remove_province_triggered_modifier = anabaptists_present_small  }
-                add_province_triggered_modifier = anabaptists_present_medium
-            }
-            else = {
-                add_province_triggered_modifier = anabaptists_present_small
-            }            
+            anabaptists_estate_growth_effect = yes 
 		}
         if = {
             limit = {
                 NOT = { has_country_flag = anabaptists_accepted }
             }
-            set_country_flag = anabaptists_accepted
             add_years_of_income = 0.1
+			anabaptists_accepted_effect = yes
         }
 		ai_chance = {
-			factor = 1
+			factor = 2
 			modifier = {
-				factor = 36
+				factor = 18
 				has_country_flag = anabaptists_accepted
 			}
 		}
@@ -1222,12 +1158,14 @@ country_event = {
 		}
 	}
 
-	after = {
-		every_owned_province = {
-			limit = {
-				has_province_flag = anabaptist_growth
-			}
-			clr_province_flag = anabaptist_growth
+    option = {
+		name = anabaptists_estate_events.16.c
+		trigger = {
+			NOT = { has_country_flag = anabaptists_accepted }
+		}
+		anabaptists_rejected_effect = yes
+		ai_chance = {
+			factor = 4
 		}
 	}
 }

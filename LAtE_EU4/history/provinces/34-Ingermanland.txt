@@ -10,12 +10,12 @@ base_tax = 4
 base_production = 4
 trade_goods = unknown
 base_manpower = 3
-discovered_by = indian
+
 capital = "Koporye"
 
 
 
-discovered_by = high_american 
+ 
 
 
 native_size = 5

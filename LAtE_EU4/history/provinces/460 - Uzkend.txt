@@ -14,12 +14,12 @@ base_manpower = 4
 #add_core= CHG
 #estate = #estate_nobles
 is_city = no
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
-discovered_by = CHG
-discovered_by = OIR
+
+
+
+#
+
+
 
 # = {
 	#owner = KAS
@@ -27,7 +27,7 @@ discovered_by = OIR
 	#add_core= KAS
 #}
 # = { #owner = BUK #controller = BUK #add_core= BUK } # Muhammad Shaybani
-# = { discovered_by = RUS }
+
 # = { #owner = KOK #controller = KOK } # Independent principality established by Shaybanid Shahrukh
 
 

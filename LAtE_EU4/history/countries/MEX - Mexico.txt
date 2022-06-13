@@ -1,16 +1,17 @@
 # Mexico
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = chilango
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 852
 3053.1.1 {
 	monarch = {
-		name = "Diego García"
+		name = "Diego Garcï¿½a"
 		birth_date = 3023.3.17
 		dynasty = "el Capitalino"
 		adm = 4

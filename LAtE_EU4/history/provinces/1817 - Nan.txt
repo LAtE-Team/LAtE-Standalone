@@ -15,10 +15,10 @@ is_city = no
 
 
 
-discovered_by = chinese
-discovered_by = indian
 
-# = { discovered_by = POR }
+
+
+
 
 # = { #add_core= TAU } # Burmese vassal
 # = { #add_core= AYU } # Siamnese vassal
@@ -27,5 +27,4 @@ discovered_by = indian
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

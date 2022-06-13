@@ -15,12 +15,12 @@ base_manpower = 1
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { #owner = FRA #controller = FRA #add_core= FRA } # Provence added to France after the death of Duke Charles

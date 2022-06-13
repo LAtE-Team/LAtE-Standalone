@@ -16,12 +16,12 @@ shipyard = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 extra_cost = 15
 

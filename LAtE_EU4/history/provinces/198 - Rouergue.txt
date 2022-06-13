@@ -19,9 +19,9 @@ add_local_autonomy = 25
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

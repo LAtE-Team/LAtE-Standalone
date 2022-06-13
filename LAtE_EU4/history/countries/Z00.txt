@@ -1,4 +1,5 @@
 # The Triangle - not in existence at start date.
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2

@@ -1,9 +1,7 @@
 # - Castro
 
 culture = guarani
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Castro"
 trade_goods = unknown
@@ -18,7 +16,7 @@ native_hostileness = 5
 
 
 
-# = { discovered_by = POR }
+
 
 # = {
 	#owner = POR
@@ -32,12 +30,12 @@ add_core = PAU
 #}
 owner = PAU
 controller = PAU
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = PAU
 3053.1.1 = {
 	owner = PAU
 	controller = PAU
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

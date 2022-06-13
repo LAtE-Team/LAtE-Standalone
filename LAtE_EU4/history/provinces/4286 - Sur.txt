@@ -13,8 +13,8 @@ base_manpower = 1
 is_city = yes
 #add_core = ORM
 add_core = OMA
-discovered_by = indian
 
-discovered_by = east_african
+
+
 
 

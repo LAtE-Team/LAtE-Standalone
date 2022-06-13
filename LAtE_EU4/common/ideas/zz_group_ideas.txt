@@ -1010,7 +1010,7 @@ native_ideas = {
 		NOT = { 
 			capital_scope = {
 				OR = {
-					superregion = north_america_superregion
+					superregion = laurentia_superregion
 					region = california_region
 					region = rio_grande_region
 				}
@@ -3178,7 +3178,7 @@ eastern_algonquian_federation_ideas = {
 		primary_culture = algonquin
 		OR = {
 			capital_scope = {
-				region = northeast_america_region
+				region = atlantica_region
 			}
 			culture_group = eastern_algonquian
 		}

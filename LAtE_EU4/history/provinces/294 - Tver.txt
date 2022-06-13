@@ -10,8 +10,8 @@ base_tax = 4
 base_production = 4
 trade_goods = copper
 base_manpower = 3
-discovered_by = indian
-discovered_by = high_american 
+
+ 
 
 
 capital = "Tver"

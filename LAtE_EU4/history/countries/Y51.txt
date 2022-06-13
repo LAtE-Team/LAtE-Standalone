@@ -1,11 +1,12 @@
 # Bottineau
+setup_vision = yes
 government = tribal 
 add_government_reform = steppe_horde
 government_rank = 1
 mercantilism = 0.1
 technology_group = nomad_group
 primary_culture = northlander
-religion = ghost_dance
+religion = midewiwin
 clear_scripted_personalities = yes
 capital = 909
 3053.1.1 {

@@ -4,9 +4,7 @@ owner = PRG
 controller = PRG
 add_core = PRG
 culture = litoraleno
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
 capital = "Corumba"
 is_city = yes 

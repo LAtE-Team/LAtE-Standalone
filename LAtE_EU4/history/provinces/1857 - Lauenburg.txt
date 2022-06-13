@@ -4,7 +4,7 @@ owner = BIZ
 controller = BIZ
 add_core= BIZ
 culture = hannoverian
-religion = thelemic
+religion = thelema
 capital = "Lauenburg"
 trade_goods = unknown
 hre = no
@@ -15,9 +15,9 @@ is_city = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 

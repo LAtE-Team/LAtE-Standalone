@@ -1,8 +1,7 @@
 # Wisconsin
+setup_vision = yes
 government = monarchy 
-
-government_rank = 1
-mercantilism = 0.1
+government_rank = 2
 technology_group = western
 primary_culture = dellsman 
 religion = catholic

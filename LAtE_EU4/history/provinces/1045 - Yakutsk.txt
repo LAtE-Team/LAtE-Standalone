@@ -4,7 +4,7 @@ owner = NRU
 controller = NRU
 add_core = NRU
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Yakutsk"
 trade_goods = fur
 hre = no
@@ -16,6 +16,5 @@ native_ferocity = 1
 native_hostileness = 3
 is_city = yes
 
-discovered_by = NRU
-discovered_by = NRA
-discovered_by = indian
+
+

@@ -2,9 +2,7 @@
 
 culture = carioca
 add_core = RDJ
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
 capital = "Rio de Janeiro"
 trade_goods = sugar
@@ -20,12 +18,12 @@ extra_cost = 10
 center_of_trade = 2
 owner = RDJ
 controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = RDJ
 3053.1.1 = {
 	owner = RDJ
 	controller = RDJ
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

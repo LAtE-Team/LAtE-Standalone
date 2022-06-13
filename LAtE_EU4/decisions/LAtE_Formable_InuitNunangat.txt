@@ -1,0 +1,104 @@
+country_decisions = {
+
+	inuit_nunangat_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_inuitnunangat_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = INU }
+			culture = inuit
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 8
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			is_kingdom_tier_formable = no
+			is_empire_tier_formable = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 999			# Philadelphia
+				province_id = 2577			# Three Mile Island
+				province_id = 4785			# Pittsburgh
+				province_id = 2574			# Allegheny
+				province_id = 4787			# East Susquenah
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 999			# Philadelphia
+			owns_core_province = 2577			# Three Mile Island
+			owns_core_province = 4785			# Pittsburgh
+			owns_core_province = 2574			# Allegheny
+			owns_core_province = 4787			# East Susquenah
+		}
+		effect = {
+			change_tag = INU
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			north_quebec_region = {
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			set_country_flag = formed_inuitnunangat_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

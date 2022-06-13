@@ -1,28 +1,9 @@
 # Gary
+setup_vision = yes
 government = republic 
 add_government_reform = merchants_reform
-
-government_rank = 2
-mercantilism = 0.1
+government_rank = 1
 technology_group = eastern
 primary_culture = rostmann
 religion = rust_cultist
-clear_scripted_personalities = yes
 capital = 947
-3034.1.11 = {
-	monarch = {
-		name = "Wayne"
-		birth_date = 3024.11.4
-		dynasty = "Carter"
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-	add_ruler_personality = craven_personality
-	add_ruler_personality = malevolent_personality
-}
-3053.1.1 {
-	capital = 947
-	add_treasury = 197
-	add_prestige = 352
-}

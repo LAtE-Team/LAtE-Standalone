@@ -1,3 +1,4 @@
+setup_vision = yes
 government = native 
 government_rank = 1
 technology_group = european
@@ -297,7 +298,7 @@ capital = 76	# Salzburg
 
 1803.2.11 = {
 	monarch = {
-		name = "Ferdinand von Österreich"
+		name = "Ferdinand von ï¿½sterreich"
 		birth_date = 1769.5.6
 		adm = 0
 		dip = 1

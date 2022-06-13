@@ -12,12 +12,12 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Magdeburg"
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 extra_cost = 10
 
 center_of_trade = 2

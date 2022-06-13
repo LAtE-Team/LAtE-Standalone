@@ -1,0 +1,11 @@
+# Saskatchewan
+setup_vision = yes
+government = tribal 
+add_government_reform = stateless_society
+government_rank = 1
+technology_group = western
+primary_culture = deitsch
+religion = anabaptist
+clear_scripted_personalities = yes
+capital = 2603
+set_country_flag = anabaptists_accepted

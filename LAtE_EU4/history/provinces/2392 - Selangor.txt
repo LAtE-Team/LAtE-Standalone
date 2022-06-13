@@ -15,8 +15,8 @@ add_core= MSA
 
 
 
-discovered_by = chinese
-discovered_by = indian
+
+
 
 
 native_size = 5

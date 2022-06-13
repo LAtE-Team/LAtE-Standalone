@@ -1,11 +1,12 @@
 # Vautour
+setup_vision = yes
 government = tribal 
 add_government_reform = steppe_horde
 government_rank = 1
 mercantilism = 0.1
 technology_group = nomad_group
 primary_culture = metis
-religion = ghost_dance
+religion = exovedate
 clear_scripted_personalities = yes
 capital = 2501
 3053.1.1 {

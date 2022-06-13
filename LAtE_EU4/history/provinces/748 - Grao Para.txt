@@ -4,11 +4,9 @@
 #controller = TPA
 #add_core= TPA
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
-capital = "Belém"
+capital = "Belï¿½m"
 trade_goods = cocoa
 is_city = no
 hre = no
@@ -22,17 +20,17 @@ native_hostileness = 3
 
 
 
-# = { discovered_by = CAS discovered_by = POR } # Pinzón, Pedro Álvares Cabral 
-# = { discovered_by = SPA }
+ # Pinzï¿½n, Pedro ï¿½lvares Cabral 
+
 
 # = {
 	#owner = POR
 	#controller = POR
 	#add_core= POR
-	capital = "Belém"
+	capital = "Belï¿½m"
 	culture = amazonense
 	religion = candomble
-#} # Conquered by Portugal, Forte do Presépio
+#} # Conquered by Portugal, Forte do Presï¿½pio
 
 owner = BRZ
 controller = BRZ

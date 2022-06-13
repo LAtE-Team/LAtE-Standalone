@@ -14,8 +14,8 @@ base_manpower = 1
 is_city = no
 #add_core= CSH
 fort_15th = yes #the Nine Garrisons
-discovered_by = chinese
-#discovered_by = nomad_group
+
+#
 
 
 # = {
@@ -29,11 +29,10 @@ discovered_by = chinese
 	#add_core= QNG
 #}
 # = {  }
-# = { discovered_by = SPA } #Ferdinand Verbiest
+ #Ferdinand Verbiest
 
 
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
-discovered_by = NRU 
-discovered_by = NRA
+

@@ -1,11 +1,12 @@
 # Balcones
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = western
 primary_culture = tejano
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 2500
 3042.1.17 = {

@@ -1,4 +1,5 @@
 # Arizona
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
@@ -6,6 +7,8 @@ mercantilism = 0.1
 technology_group = western
 primary_culture = arixan
 religion = atomicist
+religious_school = atom_school
+
 clear_scripted_personalities = yes
 capital = 876
 3045.2.26 = {

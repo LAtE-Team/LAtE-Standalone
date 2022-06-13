@@ -13,11 +13,11 @@ base_manpower = 1
 capital = "C�rdoba" 
 #estate = #estate_nobles
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 

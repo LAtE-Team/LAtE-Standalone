@@ -4,7 +4,7 @@ owner = NRU
 controller = NRU
 add_core = NRU
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Olyokminsk"
 trade_goods = fish
 hre = no
@@ -18,8 +18,7 @@ is_city = yes
 
 
 
-#discovered_by = nomad_group
-discovered_by = NRU
-discovered_by = NRA
+#
 
-discovered_by = indian
+
+

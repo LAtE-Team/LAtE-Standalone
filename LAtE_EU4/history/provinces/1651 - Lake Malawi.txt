@@ -1,7 +1,7 @@
 #1651 - Malawi
 
 
-discovered_by = central_african
+
 
 
 

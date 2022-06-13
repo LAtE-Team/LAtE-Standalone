@@ -12,9 +12,9 @@ base_manpower = 2
 capital = "Aberdeen"
 is_city = yes
 add_core= HSC
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

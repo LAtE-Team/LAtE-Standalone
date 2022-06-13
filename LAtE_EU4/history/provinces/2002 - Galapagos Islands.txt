@@ -1,4 +1,4 @@
-#2002 - Galápagos Islands
+#2002 - Galï¿½pagos Islands
 
 culture = quiteno
 religion = brethren
@@ -14,7 +14,7 @@ native_hostileness = 1
 
 
 
-discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
+
+
+
+

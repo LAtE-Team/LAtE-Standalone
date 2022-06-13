@@ -2,8 +2,8 @@
 add_core = PGO
 owner = PGO
 controller = PGO
-discovered_by = south_american
-discovered_by = brazilian
+
+
 culture = platinean
 religion = animism
 capital = "Alacaluf"

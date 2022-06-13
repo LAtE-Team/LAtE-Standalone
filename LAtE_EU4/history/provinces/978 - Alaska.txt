@@ -4,7 +4,7 @@ owner = NRA
 controller = NRA
 add_core = NRA
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Alaska"
 trade_goods = unknown
 center_of_trade = 1
@@ -19,10 +19,9 @@ is_city = yes
 
 
 
-discovered_by = western
-discovered_by = eastern
-discovered_by = NRU 
-discovered_by = NRA
-discovered_by = NRA
+
+
+
+
 
 

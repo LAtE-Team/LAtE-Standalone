@@ -1,0 +1,22 @@
+# East Snake
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = western
+primary_culture = paiute
+religion = peyotist
+clear_scripted_personalities = yes
+capital = 2020
+3035.6.3 = {
+	monarch = {
+		name = "Rozz"
+		birth_date = 3005.12.19
+		dynasty = "Kaskey"
+		adm = 4
+		dip = 0
+		mil = 1
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = midas_touched_personality
+}

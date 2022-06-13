@@ -1,0 +1,9 @@
+# Gaspesie
+setup_vision = yes
+government = monarchy 
+government_rank = 1
+technology_group = eastern
+primary_culture = quebecois
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 2582

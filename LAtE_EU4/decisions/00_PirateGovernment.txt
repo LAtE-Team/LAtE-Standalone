@@ -69,15 +69,15 @@ country_decisions = {
 				}
 				apply_sprite_pack = dlc098_nss_sprite_pack
 			}
-			if = {
-				limit = {
-					OR = {
-						technology_group = muslim
-						technology_group = ottoman
-					}
-				}
-				apply_sprite_pack = dlc098_sle_sprite_pack
-			}
+#			if = {
+#				limit = {
+#					OR = {
+#						technology_group = muslim
+#						technology_group = ottoman
+#					}
+#				}
+#				apply_sprite_pack = dlc098_sle_sprite_pack
+#			}
 		}
 		ai_will_do = {
 			factor = 0

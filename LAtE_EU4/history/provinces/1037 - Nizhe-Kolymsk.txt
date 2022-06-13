@@ -4,7 +4,7 @@ owner = NRU
 controller = NRU
 add_core = NRU
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Omolon"
 trade_goods = fur
 hre = no
@@ -18,6 +18,5 @@ is_city = yes
 
 
 
-discovered_by = NRU
-discovered_by = NRA
-discovered_by = indian
+
+

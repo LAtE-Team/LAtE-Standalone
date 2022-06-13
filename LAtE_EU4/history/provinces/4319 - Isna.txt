@@ -3,7 +3,7 @@
 owner = EGY
 controller = EGY
 culture = al_misr_arabic
-religion = thelemic
+religion = thelema
 capital = "Isna"
 trade_goods = livestock
 hre = no
@@ -12,10 +12,10 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = EGY
-discovered_by = high_american
 
-discovered_by = indian 
 
-discovered_by = east_african
+ 
+
+
 
 

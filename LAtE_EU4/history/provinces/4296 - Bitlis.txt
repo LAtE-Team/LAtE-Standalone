@@ -14,10 +14,10 @@ base_manpower = 2
 is_city = yes
 #add_core = IRQ
 add_core = BHT
-discovered_by = east_african
-discovered_by = indian 
 
-discovered_by = high_american
+ 
+
+
 
 
 

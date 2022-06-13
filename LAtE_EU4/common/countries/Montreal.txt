@@ -1,0 +1,128 @@
+# Montreal
+graphical_culture = westerngfx
+color = { 158 17 18 }
+
+
+
+
+leader_names = {
+
+	"Odon" "Sofia" "Josselin" "Claude" "Jacques" "Daniel" "Baudouin" "Anne" "Blandine" "Camillien" 
+	"Sulpice" "Andr�" "Marcel" "Napoleon" "Joseph" "Alexandre" "Roger" "Acadie" "N�r�e" "Vincent" 
+	"Roland" "Barth�l�my" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin" 
+	"Amaury" "Andronic" "Adrien" "Aur�le" "Balian" "Boh�mond" "Cartier" "Charles" "Cecil" "Camille" 
+	"Christophe" "Denis" "Damase" "Dustin" "�tienne" "�douard" "�phrem" "Fran�ois" "Foulques" "Fr�d�ric" 
+	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel" 
+	"Ga�tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jeannot" "Jean" 
+	"J�rome" "Josue" "Julien" "Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" 
+	"Maurice" "Maximilien" "Ovide" "Olivier" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "R�al" 
+	"Rohard" "Robert" "Ren�" "Raymond" "Renaud" "Roupen" "R�gis" "Samuel" "Serge" "Tancr�de" 
+	"Wilfrid" "Xavier" }
+monarch_names = {
+	"Odon #2" = 18
+	"Sofia #1" = -1
+	"Josselin #1" = 0
+	"Claude #2" = 0
+	"Jacques #1" = 0
+	"Daniel #1" = 0
+	"Baudouin #1" = 0
+	"Anne #1" = -1
+	"Blandine #1" = -1
+	"Camillien #1" = 0
+	"Sulpice #1" = 0
+	"Andr� #1" = 0
+	"Marcel #1" = 0
+	"Napoleon #1" = 0
+	"Joseph #1" = 0
+	"Alexandre #1" = 0
+	"Roger #1" = 0
+	"Acadie #1" = -1
+	"N�r�e #1" = 0
+	"Vincent #1" = 0
+	"Roland #1" = 0
+	"Barth�l�my #1" = 0
+	"Cyrille #1" = 0
+	"Adam #0" = 0
+	"Athanase #0" = 0
+	"Ambrose #0" = 0
+	"Albert #0" = 0
+	"Alphonse #0" = 0
+	"Alain #0" = 0
+	"Augustin #0" = 0
+	"Amaury #0" = 0
+	"Andronic #0" = 0
+	"Adrien #0" = 0
+	"Aur�le #0" = 0
+	"Balian #0" = 0
+	"Boh�mond #0" = 0
+	"Cartier #0" = 0
+	"Charles #0" = 0
+	"Cecil #0" = 0
+	"Camille #0" = 0
+	"Christophe #0" = 0
+	"Denis #0" = 0
+	"Damase #0" = 0
+	"Dustin #0" = 0
+	"�tienne #0" = 0
+	"�douard #0" = 0
+	"�phrem #0" = 0
+	"Fran�ois #0" = 0
+	"Foulques #0" = 0
+	"Fr�d�ric #0" = 0
+	"Fabien #0" = 0
+	"Ferreol #0" = 0
+	"Ghislain #0" = 0
+	"Guy #0" = 0
+	"Georges #0" = 0
+	"Gautier #0" = 0
+	"Geoffroy #0" = 0
+	"Guillaume #0" = 0
+	"Gilles #0" = 0
+	"Gabriel #0" = 0
+	"Ga�tan #0" = 0
+	"Henri #0" = 0
+	"Hector #0" = 0
+	"Hilaire #0" = 0
+	"Hughes #0" = 0
+	"Hubert #0" = 0
+	"Isidore #0" = 0
+	"Ignace #0" = 0
+	"Jeannot #0" = 0
+	"Jean #0" = 0
+	"J�rome #0" = 0
+	"Josue #0" = 0
+	"Julien #0" = 0
+	"Justin #0" = 0
+	"Louis #0" = 0
+	"Laurent #0" = 0
+	"Lucien #0" = 0
+	"Leo #0" = 0
+	"Marc #0" = 0
+	"Michel #0" = 0
+	"Maurice #0" = 0
+	"Maximilien #0" = 0
+	"Ovide #0" = 0
+	"Olivier #0" = 0
+	"Onfroy #0" = 0
+	"Pascal #0" = 0
+	"Pierre #0" = 0
+	"Paul #0" = 0
+	"Philippe #0" = 0
+	"R�al #0" = 0
+	"Rohard #0" = 0
+	"Robert #0" = 0
+	"Ren� #0" = 0
+	"Raymond #0" = 0
+	"Renaud #0" = 0
+	"Roupen #0" = 0
+	"R�gis #0" = 0
+	"Samuel #0" = 0
+	"Serge #0" = 0
+	"Tancr�de #0" = 0
+	"Wilfrid #0" = 0
+	"Xavier #0" = 0
+
+
+	"Th�odora #0" = -1
+}
+

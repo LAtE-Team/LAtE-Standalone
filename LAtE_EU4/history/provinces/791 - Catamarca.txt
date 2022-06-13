@@ -7,10 +7,7 @@ culture = platinean
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+
 
 religion = candomble
 capital = "Catamarca"

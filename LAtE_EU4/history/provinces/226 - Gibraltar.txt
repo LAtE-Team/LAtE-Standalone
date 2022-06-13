@@ -1,10 +1,7 @@
 #226 - Gibraltar
 
-owner = GBR
-controller = GBR
-add_core= GBR
 culture = british
-religion = thelemic
+religion = thelema
 hre = no
 base_tax = 1
 base_production = 1
@@ -15,9 +12,9 @@ is_city = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 native_size = 5
 native_ferocity = 1

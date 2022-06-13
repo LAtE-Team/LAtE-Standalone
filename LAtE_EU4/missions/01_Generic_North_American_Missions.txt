@@ -146,7 +146,7 @@ gen_europe_hre_ban = {
 		}
 		
 		trigger = {
-			hre_reform_level = 1
+			hre_reform_passed = reichsreform
 			is_emperor = yes
 			NOT = { num_of_foreign_hre_provinces = 1 }
 		}

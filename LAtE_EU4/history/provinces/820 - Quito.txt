@@ -6,12 +6,9 @@ culture = quiteno
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
 
-religion = cult_of_saints
+
+religion = sacred_heart
 capital = "Quito"
 is_city = yes
 trade_goods = cloth

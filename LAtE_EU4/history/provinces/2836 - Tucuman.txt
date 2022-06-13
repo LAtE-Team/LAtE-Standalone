@@ -5,10 +5,7 @@ controller = SLT
 add_core= SLT
 is_city = yes
 culture = platinean
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+
 religion = candomble
 capital = "Tucuman"
 trade_goods = unknown

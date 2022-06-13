@@ -10,10 +10,10 @@ base_tax = 2
 base_production = 2
 trade_goods = unknown
 base_manpower = 3
-discovered_by = indian
+
 capital = "Mozhaisk"
 
-discovered_by = high_american 
+ 
 
 
 

@@ -1,0 +1,21 @@
+# Cariboo
+setup_vision = yes
+government = theocracy 
+government_rank = 1
+technology_group = western
+primary_culture = canuck
+religion = gaian
+clear_scripted_personalities = yes
+capital = 2606
+3043.6.2 = {
+	monarch = {
+		name = "Wallace"
+		birth_date = 3036.3.18
+		dynasty = "Neilson"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = righteous_personality
+}

@@ -4,7 +4,7 @@ owner = WLS
 controller = WLS
 add_core = WLS
 culture = welsh
-religion = thelemic
+religion = glorian
 hre = no
 base_tax = 3
 base_production = 3
@@ -17,11 +17,11 @@ is_city = no
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+
+
+ 
 
 
 

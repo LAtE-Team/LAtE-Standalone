@@ -14,4 +14,3 @@ base_production = 1
 
 
 
-discovered_by = east_african

@@ -1,0 +1,33 @@
+# Onatchiway
+setup_vision = yes
+government = republic 
+add_government_reform = oligarchy_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = inuit
+religion = ursuline
+clear_scripted_personalities = yes
+capital = 995
+3053.1.1 = {
+	monarch = {
+		name = "Archibald"
+		birth_date = 3028.1.22
+		dynasty = "Winthrop"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+	add_ruler_personality = strict_personality
+	heir = {
+		name = "Athena"
+		monarch_name = "Athena"
+		dynasty = "Winthrop"
+		birth_date = 3047.1.6
+		death_date = 3127.1.6
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = craven_personality
+}

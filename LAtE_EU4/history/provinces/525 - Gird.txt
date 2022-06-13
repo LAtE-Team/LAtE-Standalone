@@ -16,8 +16,8 @@ fort_15th = yes #"Gibraltar of India"
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 native_size = 5

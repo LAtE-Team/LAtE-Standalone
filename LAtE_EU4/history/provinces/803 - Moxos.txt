@@ -17,7 +17,4 @@ native_hostileness = 8
 
 
 
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-discovered_by = andean
+

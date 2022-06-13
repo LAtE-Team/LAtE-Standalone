@@ -1,7 +1,8 @@
+setup_vision = yes
 government = monarchy 
 add_government_reform = daimyo
 government_rank = 1
 primary_culture = kyushuan
-religion = cult_of_saints
+religion = sacred_heart
 technology_group = high_eurasian
 capital = 4182

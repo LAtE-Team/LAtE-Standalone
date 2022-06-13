@@ -1,0 +1,22 @@
+# Blue Mountains
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = western
+primary_culture = inlander
+religion = gaian
+clear_scripted_personalities = yes
+capital = 2483
+3025.6.24 = {
+	monarch = {
+		name = "Yeptah"
+		birth_date = 2994.11.1
+		dynasty = "Lovejoy"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = drunkard_personality
+}

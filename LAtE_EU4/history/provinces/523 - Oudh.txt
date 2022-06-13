@@ -15,8 +15,8 @@ add_core= ODH
 
 
 
-discovered_by = indian
-discovered_by = chinese
+
+
 
 
 

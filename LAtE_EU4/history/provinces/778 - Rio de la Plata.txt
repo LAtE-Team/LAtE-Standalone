@@ -2,13 +2,11 @@
 
 owner = LAP
 controller =LAP
-religion = cult_of_saints
+religion = sacred_heart
 add_core = LAP
 culture = platinean
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
-religion = cult_of_saints
+
+religion = sacred_heart
 capital = "Rio de la Plata"
 is_city = yes
 trade_goods = grain

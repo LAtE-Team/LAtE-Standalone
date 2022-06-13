@@ -9,9 +9,9 @@ base_production = 1
 base_manpower = 1
 capital = "Stettin"
 is_city = no
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 extra_cost = 10
 

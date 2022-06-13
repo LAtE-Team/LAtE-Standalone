@@ -150,6 +150,18 @@ estate_church =
 		loyalty = -20
 	}
 	
+	#Names - LAtE
+	custom_name = {
+		desc = estate_ursuline
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = angeline
+			}
+		}
+	}
+
+	#Names - Vanilla
 	custom_name = {
 		desc = estate_ogboni
 		trigger = {

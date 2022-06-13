@@ -2,11 +2,9 @@
 
 culture = baiano 
 add_core = BIA
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = candomble
-capital = "São Salvador"
+capital = "Sï¿½o Salvador"
 trade_goods = sugar
 hre = no
 base_tax = 9
@@ -20,12 +18,12 @@ extra_cost = 10
 center_of_trade = 2
 owner = BIA
 controller = BIA
-	religion = cult_of_saints
+	religion = sacred_heart
 add_core = BIA
 3053.1.1 = {
 	owner = BIA
 	controller = BIA
-	religion = cult_of_saints
+	religion = sacred_heart
 }
 
 

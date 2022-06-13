@@ -1,0 +1,32 @@
+#Metis Tributaries
+dependency = {
+	subject_type = "tributary_state"
+	first = MTC
+	second = ALB
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MTC
+	second = FRD
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MTC
+	second = ATH
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MTC
+	second = KNR
+	start_date = 3053.1.1
+	end_date = 3421.1.2
+}

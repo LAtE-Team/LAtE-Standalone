@@ -1,13 +1,13 @@
 #4179 - Armenian Highland (incl Mount Ararat)
 
-discovered_by = east_african
-discovered_by = high_american 
 
-discovered_by = indian
-discovered_by = indian
-discovered_by = high_american 
+ 
 
-#discovered_by = nomad_group
+
+
+ 
+
+#
 
 
 native_size = 5

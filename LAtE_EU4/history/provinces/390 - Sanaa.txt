@@ -13,8 +13,8 @@ base_manpower = 2
 is_city = yes
 add_core = YEM
 
-discovered_by = indian
-discovered_by = east_african
+
+
 
 fort_15th = yes #Thula Fortress
 

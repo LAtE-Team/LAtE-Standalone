@@ -1,7 +1,7 @@
 #2697 - Ilocos
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Ilocos"
 trade_goods = grain
 hre = no
@@ -16,7 +16,6 @@ owner = MNL
 controller = MNL
 
 
-discovered_by = chinese
 
-discovered_by = NRU 
-discovered_by = NRA
+
+

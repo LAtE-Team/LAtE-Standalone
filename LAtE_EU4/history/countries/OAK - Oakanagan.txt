@@ -1,0 +1,21 @@
+setup_vision = yes
+government = monarchy
+ 
+government_rank = 1
+primary_culture = inlander
+religion = gaian
+technology_group = western
+capital = 2607 #Haida
+
+
+3033.9.22 = {
+	monarch = {
+		name = "Yahl"
+		birth_date = 3017.6.18
+		dynasty = "Chuga"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+
+}

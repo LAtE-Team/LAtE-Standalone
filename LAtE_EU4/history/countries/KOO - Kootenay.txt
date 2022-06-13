@@ -1,10 +1,12 @@
 # Kootenay
+setup_vision = yes
 government = monarchy 
 add_government_reform = elective_monarchy
 government_rank = 1
 technology_group = western
 primary_culture = ktunaxa
-religion = ghost_dance
+religion = peyotist
+secondary_religion = gaian
 clear_scripted_personalities = yes
 capital = 2003
 3031.2.12 = {

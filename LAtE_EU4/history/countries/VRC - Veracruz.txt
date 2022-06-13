@@ -1,9 +1,10 @@
 # Veracruz
+setup_vision = yes
 government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = jarocho 
-religion = cult_of_saints
+religion = sacred_heart
 capital = 4942

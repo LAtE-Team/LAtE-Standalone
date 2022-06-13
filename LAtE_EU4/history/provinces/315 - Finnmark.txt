@@ -12,7 +12,7 @@ trade_goods = fish
 capital = "Vard�"
 is_city = no
 #add_core= NOR
-discovered_by = high_american 
+ 
 
 
 native_size = 5

@@ -1,0 +1,41 @@
+spriteTypes = { # If editing an existing .gfx file then this line will likely already be there, so you might not need to write this. However, make sure the following are inside this.
+    spriteType = {
+        name = "GFX_great_project_saint_josephs_oratory"	
+        texturefile = "gfx//interface//great_projects//great_project_saint_josephs_oratory.dds"
+    }
+
+    spriteType = {
+        name = "GFX_great_project_parliment_hill"	
+        texturefile = "gfx//interface//great_projects//great_project_parliment_hill.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_ursuline_abbey"	
+        texturefile = "gfx//interface//great_projects//great_project_ursuline_abbey.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_cn_tower"	
+        texturefile = "gfx//interface//great_projects//great_project_cn_tower.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_lady_liberty"	
+        texturefile = "gfx//interface//great_projects//great_project_lady_liberty.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_halifax_harbour"	
+        texturefile = "gfx//interface//great_projects//great_project_halifax_harbour.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_hub_of_ford"	
+        texturefile = "gfx//interface//great_projects//great_project_hub_of_ford.dds"
+    }
+
+	spriteType = {
+        name = "GFX_great_project_holy_name"	
+        texturefile = "gfx//interface//great_projects//great_project_holy_name.dds"
+    }
+}

@@ -1,0 +1,177 @@
+country_decisions = {
+
+	alabama_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			was_never_german_regional_tag_trigger = yes
+			NOT = { has_country_flag = formed_alabama_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ABM }
+			OR = {
+				primary_culture = dixie
+				primary_culture = tuskegean
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				#other claimants are gone
+				AND = {
+					ROOT = { NOT = { tag = Z05 } }
+					Z05 = {
+						OR = {
+							num_of_cities = 8
+							NOT = { is_subject_of = ROOT }
+						}
+					}
+					owned_by = Z05
+				}
+				AND = {
+					ROOT = { NOT = { tag = Z04 } }
+					Z04 = {
+						OR = {
+							num_of_cities = 8
+							NOT = { is_subject_of = ROOT }
+						}
+					}
+					owned_by = Z04
+				}
+				AND = {
+					ROOT = { NOT = { tag = Z24 } }
+					Z24 = {
+						OR = {
+							num_of_cities = 8
+							NOT = { is_subject_of = ROOT }
+						}
+					}
+					owned_by = Z24
+				}
+				#make sure you are not benefitting from others' conquests
+				AND = {
+					province_id = 922
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					province_id = 924
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = Z05 } }
+				OR = {
+					NOT = { exists = Z05 }
+					Z05 = {
+						NOT = { num_of_cities = 8 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = Z04 } }
+				OR = {
+					NOT = { exists = Z04 }
+					Z04 = {
+						NOT = { num_of_cities = 8 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = Z24 } }
+				OR = {
+					NOT = { exists = Z24 }
+					Z24 = {
+						NOT = { num_of_cities = 8 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 922
+			owns_or_non_sovereign_subject_of = 924
+		}
+		effect = {
+			change_tag = ABM
+			restore_country_name_effect = yes
+			if = {
+				limit = {
+					Z05 = { is_subject_of = ROOT }
+				}
+				inherit = Z05
+			}
+			if = {
+				limit = {
+					Z04 = { is_subject_of = ROOT }
+				}
+				inherit = Z04
+			}
+			if = {
+				limit = {
+					Z24 = { is_subject_of = ROOT }
+				}
+				inherit = Z24
+			}
+			birmingham_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			alabama_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			wiregrass_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_capital = 924
+			924 = { add_base_tax = 2 }
+			set_country_flag = formed_alabama_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = ABM_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					NOT = { tag = Z03 }
+					NOT = { tag = Z04 }
+					NOT = { tag = Z24 }
+					NOT = { was_tag = Z03 }
+					NOT = { was_tag = Z04 }
+					NOT = { was_tag = Z24 }
+				}
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

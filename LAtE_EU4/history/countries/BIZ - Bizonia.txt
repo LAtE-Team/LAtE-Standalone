@@ -1,9 +1,10 @@
+setup_vision = yes
 government = monarchy 
 government_rank = 2
 primary_culture = hessian
 add_accepted_culture = bavarian
 add_accepted_culture = hannoverian
 add_accepted_culture = franconian
-religion = thelemic
+religion = thelema
 technology_group = european
 capital = 1760	# Bonn

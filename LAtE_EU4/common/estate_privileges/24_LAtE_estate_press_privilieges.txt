@@ -111,36 +111,6 @@ estate_press_land_rights = {
 			tag = MOS
 			NOT = { adm_tech = 17 }
 		}
-		modifier = {
-			factor = 1.25
-			tag = RUS
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = TUR
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = MNG
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = FRA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = SPA
-			NOT = { adm_tech = 17 }
-		}
-		modifier = {
-			factor = 1.25
-			tag = PLC
-			NOT = { adm_tech = 17 }
-		}
 		#Has already a similar privilege active
 		modifier = {
 			factor = 0.75
@@ -430,8 +400,8 @@ estate_press_spin_room = {
 	penalties = {
 	}
 	benefits = {
-		improve_relation_modifier = 0.1
-        ae_impact = -0.1
+		improve_relation_modifier = 0.05
+        ae_impact = -0.05
 	}
 	ai_will_do = {
 		factor = 10

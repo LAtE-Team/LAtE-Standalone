@@ -1,11 +1,12 @@
 # Bajio
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
 mercantilism = 0.1
 technology_group = mexican
 primary_culture = purepecha
-religion = cult_of_saints
+religion = sacred_heart
 clear_scripted_personalities = yes
 capital = 2624
 3053.1.1 {
@@ -19,8 +20,8 @@ capital = 2624
 	}
 	add_ruler_personality = tolerant_personality
 	heir = {
-		name = "Abijí"
-		monarch_name = "Abijí"
+		name = "Abijï¿½"
+		monarch_name = "Abijï¿½"
 		dynasty = "Milmo"
 		birth_date = 3013.8.3
 		death_date = 3093.8.3

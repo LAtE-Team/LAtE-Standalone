@@ -1,7 +1,7 @@
 #1095 - Falklands
 
 culture = british
-religion = thelemic
+religion = thelema
 capital = "Falklands"
 trade_goods = fish
 hre = no

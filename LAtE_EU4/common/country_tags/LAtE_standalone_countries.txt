@@ -1,0 +1,143 @@
+CST = "countries/Charleston.txt"
+HOU = "countries/Houston.txt"
+BTR = "countries/BatonRouge.txt"
+OUA = "countries/Ouachita.txt"
+
+# Atlantica
+HUD = "countries/Hudsonia.txt"
+VER = "countries/Vermont.txt"
+ARO = "countries/Aroostook.txt"
+AGH = "countries/Allegheny.txt"
+RHI = "countries/RhodeIsland.txt"
+WMT = "countries/WhiteMountain.txt"
+MNE = "countries/Maine.txt"
+LGI = "countries/LongIsland.txt" 
+CTC = "countries/Connecticut.txt" 
+MCS = "countries/Massachusetts.txt" 
+CYG = "countries/Cayuga.txt" 
+HVL = "countries/HudsonValley.txt" 
+WSQ = "countries/WestSusquehanna.txt" 
+ESQ = "countries/EastSusquehanna.txt" 
+ADK = "countries/Adirondack.txt" 
+CMP = "countries/Champlain.txt" 
+COA = "countries/Coalland.txt" 
+JER = "countries/Jersey.txt" 
+MRL = "countries/Maryland.txt" 
+MTL = "countries/Manitoulin.txt"
+TMI = "countries/ThreeMileIsland.txt" 
+BLT = "countries/Baltimore.txt" 
+PHI = "countries/Philadelphia.txt" 
+PCM = "countries/Pocomoke.txt" 
+KIT = "countries/Kittatinny.txt" 
+NYS = "countries/NewYork.txt"
+DEI = "countries/Deitscherei.txt"
+NEN = "countries/NewEngland.txt"
+KEY = "countries/Keystone.txt"
+ATA = "countries/Atlantica.txt"
+USA	= "countries/USA.txt"
+
+# Great Lakes
+WIS = "countries/Wisconsin.txt"
+GRB = "countries/GreenBay.txt"
+CPR = "countries/Copperland.txt"
+SOO = "countries/Soo.txt"
+NWD = "countries/Northwoods.txt"
+SUP = "countries/Superior.txt"
+CPW = "countries/Chippewa.txt"
+IND = "countries/Indianapolis.txt"
+CHI = "countries/Chicago.txt"
+CLE = "countries/Cleveland.txt" 
+KIK = "countries/Kickapoo.txt"
+OHI = "countries/Ohio.txt"
+MIC = "countries/Michigan.txt" 
+MAU = "countries/Maumee.txt"
+MCN = "countries/Michiana.txt"
+SAG = "countries/Sagina.txt"
+DET = "countries/Detroit.txt"
+UPN = "countries/Upnorth.txt"
+GRY = "countries/Gary.txt"
+AUT = "countries/Automan.txt"
+GLK = "countries/TheGreatLakes.txt"
+
+#Canada
+CAN	= "countries/Canada.txt"
+MRT = "countries/Maritimes.txt"
+NBW = "countries/NewBrunswick.txt"
+NSC = "countries/NovaScotia.txt"
+PEI = "countries/PrinceEdwardIsland.txt"
+RTG = "countries/Restigouche.txt"
+THN = "countries/Thunder.txt"
+ALG = "countries/Algoma.txt"
+SHD = "countries/Shield.txt"
+ONT = "countries/Ontario.txt"
+TOR = "countries/Toronto.txt"
+OTW = "countries/Ottawa.txt"
+MDL = "countries/Midland.txt"
+TAL = "countries/Talbot.txt"
+HUR = "countries/Huronia.txt"
+TAQ = "countries/Taqamkuk.txt"
+AVA = "countries/Avalon.txt"
+NFL = "countries/Newfoundland.txt"
+QUE	= "countries/Quebec.txt"
+STD = "countries/Stadacona.txt"
+OUT = "countries/Outaouais.txt"
+MTR = "countries/Montreal.txt"
+MRC = "countries/Mauricie.txt"
+EST = "countries/Estrie.txt"
+GSP = "countries/Gaspesie.txt" 
+SJE = "countries/SaintJean.txt"
+ONA = "countries/Onatchiway.txt"
+
+#Northern Quebec
+CTN = "countries/CoteNord.txt"
+SGN = "countries/Saguenay.txt" 
+NVK = "countries/Nunavik.txt" 
+EEY = "countries/EeyouIstchee.txt"
+INU = "countries/InuitNunangat.txt"
+
+#Hudson's Bay
+KNR = "countries/Kenora.txt"
+ARR = "countries/Aurora.txt"
+MUS = "countries/Mushkegowuk.txt"
+ANB = "countries/Anishinaabeg.txt"
+
+#North West Territories 
+MTC = "countries/Metis.txt"
+ALB = "countries/Alberta.txt"
+SAS = "countries/Saskatchewan.txt"
+MTB = "countries/Manitoba.txt"
+PRL = "countries/Prairieland.txt"
+ATH = "countries/Athabasca.txt"
+BLF = "countries/Blackfoot.txt" #Needs new names
+FRD = "countries/Freden.txt" #Needs new names
+
+#Alaska
+JNU = "countries/Juneau.txt" #Needs new names
+LIR = "countries/Liard.txt" #Needs new names
+
+#Cascadia
+STK = "countries/Stikine.txt" #Needs new names
+VAN = "countries/Vancouver.txt"
+SEA = "countries/Seattle.txt"
+KOO = "countries/Kootenay.txt"
+OAK = "countries/Oakanagan.txt" 
+CRB = "countries/Cariboo.txt"
+PRT = "countries/Portlandia.txt" #Take CSC cores at game start #capital/color
+CSC = "countries/Cascadia.txt"
+BMT = "countries/BlueMountain.txt"
+HHV = "countries/HorseHeaven.txt"
+COV = "countries/ColumbiaValley.txt"
+SLB = "countries/SilverBow.txt"
+HDR = "countries/HighDesert.txt"
+NBS = "countries/NorthernBasin.txt"
+ESN = "countries/EastSnake.txt"
+VIS = "countries/VancouverIsland.txt"
+OLY = "countries/Olympus.txt" #capital/color
+DST = "countries/DireStraits.txt" #capital/color
+
+#Lakotah
+#Crow
+#Cheyenne
+
+COL = "countries/Colombia.txt"
+CAM = "countries/UPCA.txt"

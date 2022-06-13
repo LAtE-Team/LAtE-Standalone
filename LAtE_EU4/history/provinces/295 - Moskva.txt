@@ -10,10 +10,10 @@ base_tax = 6
 base_production = 6
 trade_goods = iron
 base_manpower = 5
-discovered_by = indian
+
 capital = "Moskva"
 
-discovered_by = high_american 
+ 
 
 
 

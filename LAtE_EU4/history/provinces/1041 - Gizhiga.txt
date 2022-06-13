@@ -4,7 +4,7 @@ owner = NRU
 controller = NRU
 add_core = NRU
 culture = novorusskiy
-religion = atomicist
+religion = nousthreskeia
 capital = "Gizhiga"
 trade_goods = fur
 hre = no
@@ -20,6 +20,5 @@ owner = NRU
 controller = NRU
 add_core= NRU
 
-discovered_by = NRU
-discovered_by = NRA
-discovered_by = indian
+
+

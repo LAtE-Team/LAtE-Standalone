@@ -1,14 +1,16 @@
 #1104 - Eiriksfjord
 
 culture = inuit
-religion = brethren
+religion = pelagic
 capital = "Eiriksfjord"
 trade_goods = unknown
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
+center_of_trade = 1
+
 native_size = 5
 native_ferocity = 2
-native_hostileness = 9
+native_hostileness = 2
 

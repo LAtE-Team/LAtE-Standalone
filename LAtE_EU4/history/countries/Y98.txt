@@ -1,11 +1,10 @@
 # The Western Slope
+setup_vision = yes
 government = monarchy 
-
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = angeleno
-religion = cetic
+religion = mormon
 clear_scripted_personalities = yes
 capital = 4523
 3053.1.1= {
@@ -30,7 +29,7 @@ capital = 4523
 	}
 	add_heir_personality = infertile_personality
 }
-3053.1.1 {
+3053.1.1 = {
 	capital = 4523
 	add_treasury = 13
 	add_prestige = 56

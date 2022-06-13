@@ -1,18 +1,18 @@
 
-discovered_by = east_african
-
-discovered_by = indian
-discovered_by = indian
-discovered_by = indian
-#discovered_by = nomad_group
 
 
 
 
 
-# = { discovered_by = MNG }
-# = { discovered_by = TUR }
-# = { discovered_by = POR }
+#
+
+
+
+
+
+
+
+
 
 
 native_size = 5

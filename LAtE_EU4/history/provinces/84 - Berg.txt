@@ -4,7 +4,7 @@ owner = BIZ #In reality Kleves and Berg are not united before 1510.
 controller = BIZ
 add_core= BIZ
 culture = hessian
-religion = thelemic
+religion = thelema
 trade_goods = unknown
 capital = "D�sseldorf"
 base_tax = 1
@@ -14,9 +14,9 @@ is_city = yes
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 hre = no
 

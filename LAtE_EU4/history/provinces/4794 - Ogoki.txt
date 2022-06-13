@@ -1,11 +1,14 @@
-culture = cree
-religion = ghost_dance 
-trade_goods = unknown 
-hre = no 
-base_tax = 1
+owner = MUS
+controller = MUS
+add_core = MUS
+
+culture = anishinabe
+religion = ursuline
+is_city = yes
+
+
+hre = no
+base_tax = 2
 base_production = 1
-base_manpower = 1
-native_size = 5 
-native_ferocity = 1 
-native_hostileness = 3 
-discovered_by = north_american
+base_manpower = 2
+trade_goods = naval_supplies

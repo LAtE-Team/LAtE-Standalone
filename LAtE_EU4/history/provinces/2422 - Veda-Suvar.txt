@@ -10,18 +10,18 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
-discovered_by = indian
+
 capital = "Veda-Suvar"
 
 
 
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-#discovered_by = nomad_group
-discovered_by = indian
+#
+
 
 
 

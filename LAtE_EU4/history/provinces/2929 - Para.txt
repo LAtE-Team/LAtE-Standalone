@@ -1,9 +1,7 @@
 # - Para
 
 culture = tupinamba
-discovered_by = south_american 
-discovered_by = andean
-discovered_by = brazilian
+
 religion = animism
 capital = "Portel"
 trade_goods = unknown
@@ -18,8 +16,8 @@ native_hostileness = 3
 
 
 
-# = { discovered_by = CAS discovered_by = POR } # Pinzón, Pedro Álvares Cabral 
-# = { discovered_by = SPA }
+ # Pinzï¿½n, Pedro ï¿½lvares Cabral 
+
 
 # = {
 	#owner = POR

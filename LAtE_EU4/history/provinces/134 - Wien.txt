@@ -13,9 +13,9 @@ fort_15th = yes #Vienna + Outer ring of fortifications
 capital = "Wien" 
 is_city = no
 hre = no
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 extra_cost = 10
 

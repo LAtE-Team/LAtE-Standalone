@@ -14,12 +14,12 @@ fort_15th = yes
 capital = "Valladolid"
 is_city = no
 ##estate = #estate_burghers
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 
 # = { unrest = 3 } # Nobiliary uprising against King Enrique, Castilla goes into anarchy

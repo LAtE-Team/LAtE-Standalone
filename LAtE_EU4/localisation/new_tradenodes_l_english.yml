@@ -43,5 +43,7 @@
  desc_la_grande_estuary_modifier:0 "Controlling the important river estuary of the La Grande River strengthens our hold on trade in the region."
  churchill_estuary_modifier:0 "Churchill River Estuary"
  desc_churchill_estuary_modifier:0 "Controlling the important river estuary of the Churchill River strengthens our hold on trade in the region."
+ nottoway_estuary_modifier: "Nottoway River Estuary"
+ desc_nottoway_estuary_modifier: "Controlling the important river estuary of the Nottoway River strengthens our hold on trade in the region."
  native_american:0 "Native American"
 

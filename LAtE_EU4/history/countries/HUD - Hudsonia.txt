@@ -1,8 +1,8 @@
 # Hudsonia
+setup_vision = yes
 government = monarchy 
-
+add_government_reform = autocracy_reform
 government_rank = 2
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = hudsonian
 religion = ursuline
@@ -11,7 +11,13 @@ capital = 4583
 set_country_flag = anabaptists_accepted
 set_estate_privilege = estate_anabaptists_allow_growth
 set_estate_privilege = estate_anabaptists_guaranteed_autonomy
-3053.1.1 {
+
+historical_friend = QUE
+historical_friend = MRT
+historical_rival = RED
+historical_rival = NYS
+
+3053.1.1 = {
 	monarch = {
 		name = "Josiah"
 		birth_date = 3017.11.15
@@ -21,6 +27,7 @@ set_estate_privilege = estate_anabaptists_guaranteed_autonomy
 		mil = 5
 	}
 	add_ruler_personality = pious_personality
+	add_heir_personality = babbling_buffoon_personality
 	heir = {
 		name = "Amelia"
 		monarch_name = "Amelia"
@@ -32,10 +39,4 @@ set_estate_privilege = estate_anabaptists_guaranteed_autonomy
 		dip = 4
 		mil = 4
 	}
-	add_heir_personality = babbling_buffoon_personality
-}
-3053.1.1 {
-	capital = 4583
-	add_treasury = 124
-	add_prestige = 296
 }

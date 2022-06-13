@@ -1,16 +1,18 @@
 # Sierra Madre
+setup_vision = yes
 government = monarchy 
 
 government_rank = 2
-mercantilism = 0.1
 technology_group = mexican
 primary_culture = raramuri
 religion = atomicist
+religious_school = aphite_school
+
 clear_scripted_personalities = yes
 capital = 864
 3053.1.1= {
 	monarch = {
-		name = "Paraérciniro"
+		name = "Paraï¿½rciniro"
 		birth_date = 3020.12.6
 		dynasty = "Caliente"
 		adm = 2

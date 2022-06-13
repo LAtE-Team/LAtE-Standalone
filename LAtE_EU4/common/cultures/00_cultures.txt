@@ -4648,7 +4648,7 @@ plains_algonquian = {
 		}
 	}
 	blackfoot = {
-		primary = BLA
+		primary = BLF
 		dynasty_names = {			
 			Aisikstukiks Apikaiyikis Emitahpahksaiyiks Motahtosiks Puhksinahmahyiks Saiyiks Siksinokaks Tsiniktsistsoyiks 
 			Ahkaisumiks Ahkaipokaks Ahkotahshiks Anepo Apikaiyiks Aputosikainah Inuhksoyistamiks Isissokasimiks Istsikaihan 
@@ -4954,26 +4954,6 @@ iroquoian = {
 			Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe 
 			Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu 
 			Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
-		}
-		female_names = {
-			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
-		}
-	}
-	laurentian = {
-		primary = OSH
-		dynasty_names = {
-			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon 
-			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
-			Cahiague Carhagouha Carmaron Contarea Conchake Chequamegon
-			Ekiodatsaan Endarahy Iahenhouton
-			Junqueindundeh Junundat
-			Karenhassa Kakouagoga Kandouche Kehesetoa Khioetoa
-			Oeniro Onentisati Ossossane Oukhahitoua
-			Scanonaerat Sunyendeand Skenchioe
-			Teanaustayae Teandewiata Tonache Teadeouita Teanhatenaron Tondakhra Tiedonderoga Touaguainchain Tarhetown Teotoguiaton
-		}
-		male_names = {
-			Donnacona Domagaya Taignoagny Agona Achelacy Adario Donyetat Odoro Shorondy Teroto Ouasquanequa Saragondy  
 		}
 		female_names = {
 			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
@@ -8401,6 +8381,9 @@ west_african = {
 			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
 			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
+	}
+	liberian = {
+		primary = LBR
 	}
 }	
 

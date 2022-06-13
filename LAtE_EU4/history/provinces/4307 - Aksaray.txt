@@ -13,8 +13,8 @@ base_manpower = 2
 #is_city = yes
 #add_core = KAR
 #add_core = ERE
-discovered_by = high_american
-discovered_by = indian 
+
+ 
 
 
 

@@ -10845,7 +10845,7 @@ country_event = {
 				OR = {
 					colonial_region = colonial_alaska
 					colonial_region = colonial_canada
-					region = northeast_america_region
+					region = atlantica_region
 				}
 				OR = {
 					culture = cosmopolitan_french
@@ -10866,7 +10866,7 @@ country_event = {
 			any_owned_province = {
 				NOT = { colonial_region = colonial_alaska }
 				NOT = { colonial_region = colonial_canada }
-				NOT = { region = northeast_america_region }
+				NOT = { region = atlantica_region }
 				continent = north_america
 				OR = {
 					culture = cosmopolitan_french
@@ -10958,7 +10958,7 @@ country_event = {
 					OR = {
 						colonial_region = colonial_alaska
 						colonial_region = colonial_canada
-						region = northeast_america_region
+						region = atlantica_region
 					}
 					OR = {
 						culture = cosmopolitan_french
@@ -10977,7 +10977,7 @@ country_event = {
 				any_owned_province = {
 					NOT = { colonial_region = colonial_alaska }
 					NOT = { colonial_region = colonial_canada }
-					NOT = { region = northeast_america_region }
+					NOT = { region = atlantica_region }
 					continent = north_america
 					OR = {
 						culture = cosmopolitan_french
@@ -11114,7 +11114,7 @@ country_event = {
 						OR = {
 							colonial_region = colonial_alaska
 							colonial_region = colonial_canada
-							region = northeast_america_region
+							region = atlantica_region
 						}
 						OR = {
 							culture = cosmopolitan_french
@@ -11130,7 +11130,7 @@ country_event = {
 						OR = {
 							colonial_region = colonial_alaska
 							colonial_region = colonial_canada
-							region = northeast_america_region
+							region = atlantica_region
 						}
 						OR = {
 							culture = cosmopolitan_french
@@ -11151,7 +11151,7 @@ country_event = {
 					any_owned_province = {
 						NOT = { colonial_region = colonial_alaska }
 						NOT = { colonial_region = colonial_canada }
-						NOT = { region = northeast_america_region }
+						NOT = { region = atlantica_region }
 						continent = north_america
 						OR = {
 							culture = cosmopolitan_french
@@ -11166,7 +11166,7 @@ country_event = {
 					limit = {
 						NOT = { colonial_region = colonial_alaska }
 						NOT = { colonial_region = colonial_canada }
-						NOT = { region = northeast_america_region }
+						NOT = { region = atlantica_region }
 						continent = north_america
 						OR = {
 							culture = cosmopolitan_french
@@ -11413,7 +11413,7 @@ country_event = {
 				OR = {
 					colonial_region = colonial_alaska
 					colonial_region = colonial_canada
-					region = northeast_america_region
+					region = atlantica_region
 				}
 				OR = {
 					culture = cosmopolitan_french
@@ -11457,7 +11457,7 @@ country_event = {
 				OR = {
 					colonial_region = colonial_alaska
 					colonial_region = colonial_canada
-					region = northeast_america_region
+					region = atlantica_region
 				}
 				OR = {
 					culture = cosmopolitan_french
@@ -11483,7 +11483,7 @@ country_event = {
 			any_owned_province = {
 				NOT = { colonial_region = colonial_alaska }
 				NOT = { colonial_region = colonial_canada }
-				NOT = { region = northeast_america_region }
+				NOT = { region = atlantica_region }
 				continent = north_america
 				OR = {
 					culture = cosmopolitan_french
@@ -11528,7 +11528,7 @@ country_event = {
 			any_owned_province = {
 				NOT = { colonial_region = colonial_alaska }
 				NOT = { colonial_region = colonial_canada }
-				NOT = { region = northeast_america_region }
+				NOT = { region = atlantica_region }
 				continent = north_america
 				OR = {
 					culture = cosmopolitan_french
@@ -12605,26 +12605,10 @@ province_event = {
 		if = {
 			limit = {
 				owner = {
-					religion = reformed
-				}
-			}
-			change_religion = reformed
-		}
-		if = {
-			limit = {
-				owner = {
 					religion = anglican
 				}
 			}
 			change_religion = anglican
-		}
-		if = {
-			limit = {
-				owner = {
-					religion = hussite
-				}
-			}
-			change_religion = hussite
 		}
 		owner = {
 			add_reform_desire = 0.015
@@ -13036,26 +13020,10 @@ country_event = {
 			if = {
 				limit = {
 					owner = {
-						religion = reformed
-					}
-				}
-				change_religion = reformed
-			}
-			if = {
-				limit = {
-					owner = {
 						religion = anglican
 					}
 				}
 				change_religion = anglican
-			}
-			if = {
-				limit = {
-					owner = {
-						religion = hussite
-					}
-				}
-				change_religion = hussite
 			}
 		}
 	}

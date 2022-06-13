@@ -1,0 +1,363 @@
+# Vancouver Island
+graphical_culture = asiangfx
+color = { 77 159 118 }
+
+
+
+
+leader_names = {
+
+	"Giteewans" "Kayung" "Sandlenee" "Yahl" "Skil Tiis" "Yahl Hinku" "Kimana" "Hluunaagad" "Wewick" "Yahl Sgoansins" 
+	"Kimani" "Masset" "Guusk'an" "Shada" "Kwaa Hiiwans" "Anne" "S'gana" "Tsang" "Skilkaadgan" "Elvamox" 
+	"Kaat" "Kikisoblu" "Waawga" "Hiidangsaa" "Sgaana" "Haiwee" "Stuut Jubgaab" "Gya'awhlans" "Absaquil" "Haina" 
+	"Gwaay Guu Ganhlin" "Atfalati" "Dzalarhons" "Hlgitun" "Yan" "Chiin" "Cuneah" "Ladalia" "Gidansda" "Tsahtsaa" 
+	"K'ap" "Gyaahlans" "Nasyah" "Yaahl" "Skaay" "Ninstints" "Naani" "Kimama" "Dayaang" "Sgaana Hiiwans" 
+	"Ginaawaan" "Kiusta" "Daa Heeigan" "Ihldiinii" "Taawga Halaa Leyga" "Kaisun" "Hiitl'daa" "Yahl Gwaawaas" "Yaanans" "Skilhlang" 
+	"Skidegate" "Yahguaas" "Skaaxwad" "Tsaa Hamjuuwee" "Olahl" "Hluuwee" "Kit" "Howkan" "Kagan" "Sgaal" 
+	"Gitkinjuuwaas" "Sgaann Hiwhwaans" "Hlgan Hiildaans" "Klinkwan" "Nang Kilsdlaas" "Guujaaw" "Siigee" "Hlk'yah Gaawga" "Kung" "Skedans" 
+	"Gogiid" "Gaahlaay" "Jaadaa" "Xa" "Kasaan" "Tsinni" "Xuut" "Willow" "Tl'aagaang Quna" "Tsaak" 
+	"Guubii" "Cynthia" "Aleshanee" "Sguii" "Hidansuu" "Clatsop" "Xanj" "Kyla" "Guulaas" "Rhys" 
+	"Leqamel" "Cha'atl" "Gabe" "Yahl Naaw" "Wiiaa" "Tumulth" "Kun" "Sholeetsa" "Teaga" "Tanu" 
+	"Oklumin" "Daniela" "Kwoiyang" "Wah-Kah-Nee" "Jaahguhl" "Sgaana Guujaanga" "Gyhldeptis" "Yahl Kangwaas" "Sonia" "Kaufman" 
+	"T'lajung Nung Kingaas" "Kristin" "Nang Jingwas" "Ganiihlaas" "Tahaygen" "Seeallapahan" "Koya" "Chee Xial Taaiixou" "Sukkwan" "Sdiithldaa" 
+	"Hiellan" "Cumshewa" "Nittawosew" "Wigaanad" "Thasi" "Quootis-hooi" "Dorothy" "Kwallatum" "Kilsdlaa Xidguns" "Skil Hiilans" 
+	"Hiljuuwaas" "Skilkwiitlaas" "Soowalhie" "Ginaaskilaas" "Kithlaigaa" "Evelyn" "Atewaas" "Multnomah" "Gaahlaa" "Ghaltsaakw" 
+	"Xhalkuts" "Abel" "Adolf" "Adrien" "Ahmed" "Aidan" "Aikam" "Alan" "Alexander" "Amir" 
+	"Anders" "Antony" "Arran" "Arthur" "Avan" "Balraj" "Barry" "Benedict" "Bennett" "Benson" 
+	"Bert" "Blackburn" "Brendan" "Brett" "Brian" "Bronson" "Bryan" "Caius" "Cameron" "Carson" 
+	"Charlie" "Chase" "Chris" "Clevin" "Conner" "Cory" "Couper" "Damien" "Darien" "Davis" 
+	"Daya" "Devon" "Douglas" "Drake" "Eason" "Easton" "Eckhart" "Edison" "Evander" "Fadi" 
+	"Filip" "Finnley" "Flynn" "Ford" "Francis" "Frank" "Fuller" "Gage" "Gary" "George" 
+	"Gordon" "Graham" "Gregory" "Greyson" "Harrison" "Hassan" "Hayden" "Heath" "Hendrix" "Herb" 
+	"Holden" "Hugh" "Hussain" "Ian" "Innell" "Ire" "Ivan" "Jacob" "James" "Jaxon" 
+	"Jayson" "Jazzy" "Jean-Luc" "Joel" "Jonah" "Jonathan" "Jordan" "Joshua" "Justin" "Kaden" 
+	"Kaleb" "Keaton" "Kellan" "Kenneth" "Kevin" "Knox" "Kristian" "Lance" "Landon" "Layne" 
+	"Lee" "Lewis" "Liam" "Linwood" "Loki" "Louis" "Luke" "Lynden" "Mac" "Mackenzie" 
+	"Madden" "Malakai" "Marc" "Mario" "Masen" "Matthew" "Michael" "Milan" "Mohamed" "Moore" 
+	"Nelson" "Nicholas" "Nigel" "Nixon" "Nolan" "Odin" "Olivier" "Oren" "Osric" "Peter" 
+	"Picard" "Ray" "Raymond" "Reece" "Rhett" "Rocky" "Rodney" "Roger" "Ronin" "Ross" 
+	"Russell" "Ryan" "Sage" "Sawyer" "Scott" "Seth" "Shane" "Sheldon" "Sherwood" "Smith" 
+	"Spider" "Stan" "Stephen" "Sukhman" "Sullivan" "Suzuki" "Tanner" "Terry" "Trent" "Trevor" 
+	"Tristan" "Tyler" "Tyson" "Victor" "Walker" "Wallace" "Wayne" "Wesley" "Yannick" }
+monarch_names = {
+	"Giteewans #0" = 1
+	"Kayung #0" = 1
+	"Sandlenee #0" = -1
+	"Yahl #0" = 1
+	"Skil Tiis #0" = -1
+	"Yahl Hinku #0" = -1
+	"Kimana #0" = -1
+	"Hluunaagad #1" = -46
+	"Wewick #0" = -1
+	"Yahl Sgoansins #0" = 1
+	"Kimani #0" = -1
+	"Masset #0" = 1
+	"Guusk'an #1" = -43
+	"Shada #0" = -1
+	"Kwaa Hiiwans #0" = -1
+	"Anne #0" = -1
+	"S'gana #0" = -1
+	"Tsang #0" = -1
+	"Skilkaadgan #0" = 1
+	"Elvamox #0" = -1
+	"Kaat #0" = 1
+	"Kikisoblu #0" = -1
+	"Waawga #0" = -1
+	"Hiidangsaa #0" = 1
+	"Sgaana #0" = 1
+	"Haiwee #0" = -1
+	"Stuut Jubgaab #0" = -1
+	"Gya'awhlans #0" = 1
+	"Absaquil #0" = 1
+	"Haina #0" = -1
+	"Gwaay Guu Ganhlin #0" = 1
+	"Atfalati #0" = -1
+	"Dzalarhons #0" = -1
+	"Hlgitun #0" = 1
+	"Yan #0" = -1
+	"Chiin #0" = 1
+	"Cuneah #0" = 1
+	"Ladalia #0" = -1
+	"Gidansda #1" = 24
+	"Tsahtsaa #0" = 1
+	"K'ap #0" = 1
+	"Gyaahlans #0" = 1
+	"Nasyah #0" = 1
+	"Yaahl #0" = -1
+	"Skaay #0" = 1
+	"Ninstints #0" = -1
+	"Naani #0" = -1
+	"Kimama #0" = -1
+	"Dayaang #1" = 27
+	"Sgaana Hiiwans #0" = -1
+	"Ginaawaan #0" = 1
+	"Kiusta #0" = -1
+	"Daa Heeigan #0" = -1
+	"Ihldiinii #0" = 1
+	"Taawga Halaa Leyga #0" = -1
+	"Kaisun #0" = -1
+	"Hiitl'daa #0" = 1
+	"Yahl Gwaawaas #1" = 36
+	"Yaanans #1" = -37
+	"Skilhlang #4" = 48
+	"Skidegate #0" = -1
+	"Yahguaas #0" = 1
+	"Skaaxwad #1" = 21
+	"Tsaa Hamjuuwee #1" = 24
+	"Olahl #0" = -1
+	"Hluuwee #6" = 69
+	"Kit #0" = -1
+	"Howkan #1" = 45
+	"Kagan #0" = 1
+	"Sgaal #0" = 1
+	"Gitkinjuuwaas #0" = 1
+	"Sgaann Hiwhwaans #0" = 1
+	"Hlgan Hiildaans #0" = -1
+	"Klinkwan #0" = 1
+	"Nang Kilsdlaas #1" = 18
+	"Guujaaw #0" = 1
+	"Siigee #0" = -1
+	"Hlk'yah Gaawga #0" = -1
+	"Kung #0" = -1
+	"Skedans #0" = 1
+	"Gogiid #0" = 1
+	"Gaahlaay #0" = 1
+	"Jaadaa #0" = -1
+	"Xa #0" = 1
+	"Kasaan #0" = -1
+	"Tsinni #0" = 1
+	"Xuut #0" = 1
+	"Willow #0" = -1
+	"Tl'aagaang Quna #0" = 1
+	"Tsaak #0" = -1
+	"Guubii #0" = -1
+	"Cynthia #0" = -1
+	"Aleshanee #0" = -1
+	"Sguii #0" = -1
+	"Hidansuu #0" = 1
+	"Clatsop #0" = 1
+	"Xanj #0" = -1
+	"Kyla #0" = -1
+	"Guulaas #0" = -1
+	"Rhys #0" = 1
+	"Leqamel #0" = -1
+	"Cha'atl #0" = -1
+	"Gabe #0" = 1
+	"Yahl Naaw #0" = -1
+	"Wiiaa #0" = 1
+	"Tumulth #0" = 1
+	"Kun #0" = 1
+	"Sholeetsa #0" = -1
+	"Teaga #0" = -1
+	"Tanu #0" = 1
+	"Oklumin #0" = -1
+	"Daniela #0" = -1
+	"Kwoiyang #0" = -1
+	"Wah-Kah-Nee #0" = -1
+	"Jaahguhl #0" = 1
+	"Sgaana Guujaanga #0" = -1
+	"Gyhldeptis #0" = -1
+	"Yahl Kangwaas #0" = -1
+	"Sonia #0" = -1
+	"Kaufman #0" = 1
+	"T'lajung Nung Kingaas #0" = 1
+	"Kristin #0" = -1
+	"Nang Jingwas #0" = 1
+	"Ganiihlaas #0" = 1
+	"Tahaygen #0" = 1
+	"Seeallapahan #0" = 1
+	"Koya #0" = 1
+	"Chee Xial Taaiixou #0" = 1
+	"Sukkwan #0" = 1
+	"Sdiithldaa #0" = 1
+	"Hiellan #0" = 1
+	"Cumshewa #0" = -1
+	"Nittawosew #0" = -1
+	"Wigaanad #0" = 1
+	"Thasi #1" = 30
+	"Quootis-hooi #0" = -1
+	"Dorothy #0" = -1
+	"Kwallatum #0" = 1
+	"Kilsdlaa Xidguns #0" = 1
+	"Skil Hiilans #1" = 18
+	"Hiljuuwaas #0" = 1
+	"Skilkwiitlaas #0" = 1
+	"Soowalhie #0" = -1
+	"Ginaaskilaas #0" = -1
+	"Kithlaigaa #0" = 1
+	"Evelyn #0" = -1
+	"Atewaas #0" = -1
+	"Multnomah #0" = -1
+	"Gaahlaa #0" = 1
+	"Ghaltsaakw #0" = 1
+	"Xhalkuts #0" = -1
+	"Abel #0" = 0
+	"Adolf #0" = 0
+	"Adrien #0" = 0
+	"Ahmed #0" = 0
+	"Aidan #0" = 0
+	"Aikam #0" = 0
+	"Alan #0" = 0
+	"Alexander #0" = 0
+	"Amir #0" = 0
+	"Anders #0" = 0
+	"Antony #0" = 0
+	"Arran #0" = 0
+	"Arthur #0" = 0
+	"Avan #0" = 0
+	"Balraj #0" = 0
+	"Barry #0" = 0
+	"Benedict #0" = 0
+	"Bennett #0" = 0
+	"Benson #0" = 0
+	"Bert #0" = 0
+	"Blackburn #0" = 0
+	"Brendan #0" = 0
+	"Brett #0" = 0
+	"Brian #0" = 0
+	"Bronson #0" = 0
+	"Bryan #0" = 0
+	"Caius #0" = 0
+	"Cameron #0" = 0
+	"Carson #0" = 0
+	"Charlie #0" = 0
+	"Chase #0" = 0
+	"Chris #0" = 0
+	"Clevin #0" = 0
+	"Conner #0" = 0
+	"Cory #0" = 0
+	"Couper #0" = 0
+	"Damien #0" = 0
+	"Darien #0" = 0
+	"Davis #0" = 0
+	"Daya #0" = 0
+	"Devon #0" = 0
+	"Douglas #0" = 0
+	"Drake #0" = 0
+	"Eason #0" = 0
+	"Easton #0" = 0
+	"Eckhart #0" = 0
+	"Edison #0" = 0
+	"Evander #0" = 0
+	"Fadi #0" = 0
+	"Filip #0" = 0
+	"Finnley #0" = 0
+	"Flynn #0" = 0
+	"Ford #0" = 0
+	"Francis #0" = 0
+	"Frank #0" = 0
+	"Fuller #0" = 0
+	"Gage #0" = 0
+	"Gary #0" = 0
+	"George #0" = 0
+	"Gordon #0" = 0
+	"Graham #0" = 0
+	"Gregory #0" = 0
+	"Greyson #0" = 0
+	"Harrison #0" = 0
+	"Hassan #0" = 0
+	"Hayden #0" = 0
+	"Heath #0" = 0
+	"Hendrix #0" = 0
+	"Herb #0" = 0
+	"Holden #0" = 0
+	"Hugh #0" = 0
+	"Hussain #0" = 0
+	"Ian #0" = 0
+	"Innell #0" = 0
+	"Ire #0" = 0
+	"Ivan #0" = 0
+	"Jacob #0" = 0
+	"James #0" = 0
+	"Jaxon #0" = 0
+	"Jayson #0" = 0
+	"Jazzy #0" = 0
+	"Jean-Luc #0" = 0
+	"Joel #0" = 0
+	"Jonah #0" = 0
+	"Jonathan #0" = 0
+	"Jordan #0" = 0
+	"Joshua #0" = 0
+	"Justin #0" = 0
+	"Kaden #0" = 0
+	"Kaleb #0" = 0
+	"Keaton #0" = 0
+	"Kellan #0" = 0
+	"Kenneth #0" = 0
+	"Kevin #0" = 0
+	"Knox #0" = 0
+	"Kristian #0" = 0
+	"Lance #0" = 0
+	"Landon #0" = 0
+	"Layne #0" = 0
+	"Lee #0" = 0
+	"Lewis #0" = 0
+	"Liam #0" = 0
+	"Linwood #0" = 0
+	"Loki #0" = 0
+	"Louis #0" = 0
+	"Luke #0" = 0
+	"Lynden #0" = 0
+	"Mac #0" = 0
+	"Mackenzie #0" = 0
+	"Madden #0" = 0
+	"Malakai #0" = 0
+	"Marc #0" = 0
+	"Mario #0" = 0
+	"Masen #0" = 0
+	"Matthew #0" = 0
+	"Michael #0" = 0
+	"Milan #0" = 0
+	"Mohamed #0" = 0
+	"Moore #0" = 0
+	"Nelson #0" = 0
+	"Nicholas #0" = 0
+	"Nigel #0" = 0
+	"Nixon #0" = 0
+	"Nolan #0" = 0
+	"Odin #0" = 0
+	"Olivier #0" = 0
+	"Oren #0" = 0
+	"Osric #0" = 0
+	"Peter #0" = 0
+	"Picard #0" = 0
+	"Ray #0" = 0
+	"Raymond #0" = 0
+	"Reece #0" = 0
+	"Rhett #0" = 0
+	"Rocky #0" = 0
+	"Rodney #0" = 0
+	"Roger #0" = 0
+	"Ronin #0" = 0
+	"Ross #0" = 0
+	"Russell #0" = 0
+	"Ryan #0" = 0
+	"Sage #0" = 0
+	"Sawyer #0" = 0
+	"Scott #0" = 0
+	"Seth #0" = 0
+	"Shane #0" = 0
+	"Sheldon #0" = 0
+	"Sherwood #0" = 0
+	"Smith #0" = 0
+	"Spider #0" = 0
+	"Stan #0" = 0
+	"Stephen #0" = 0
+	"Sukhman #0" = 0
+	"Sullivan #0" = 0
+	"Suzuki #0" = 0
+	"Tanner #0" = 0
+	"Terry #0" = 0
+	"Trent #0" = 0
+	"Trevor #0" = 0
+	"Tristan #0" = 0
+	"Tyler #0" = 0
+	"Tyson #0" = 0
+	"Victor #0" = 0
+	"Walker #0" = 0
+	"Wallace #0" = 0
+	"Wayne #0" = 0
+	"Wesley #0" = 0
+	"Yannick #0" = 0
+}
+

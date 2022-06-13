@@ -1,11 +1,11 @@
 #High Atlas
 
-discovered_by = high_american 
+ 
 
-discovered_by = high_american 
+ 
 
-discovered_by = indian
-discovered_by = indian
+
+
 
 native_size = 5
 native_ferocity = 1

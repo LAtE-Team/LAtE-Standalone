@@ -1,0 +1,33 @@
+# Silver Bow
+setup_vision = yes
+government = theocracy 
+
+government_rank = 1
+technology_group = western
+primary_culture = nez_perce
+religion = peyotist
+clear_scripted_personalities = yes
+capital = 2019
+3038.10.8 = {
+	monarch = {
+		name = "Wewawewa"
+		birth_date = 2995.5.15
+		dynasty = "Sing"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = silver_tongue_personality
+	heir = {
+		name = "Siskel"
+		monarch_name = "Siskel II"
+		dynasty = "Sing"
+		birth_date = 3034.6.9
+		death_date = 3114.6.9
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+	add_heir_personality = just_personality
+}

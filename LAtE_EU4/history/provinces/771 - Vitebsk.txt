@@ -14,9 +14,9 @@ capital = "Vitebsk"
 is_city = no	 
 #add_core= LIT
 #add_core= PLT
-discovered_by = high_american 
+ 
 
-discovered_by = indian
+
 
 
 native_size = 5

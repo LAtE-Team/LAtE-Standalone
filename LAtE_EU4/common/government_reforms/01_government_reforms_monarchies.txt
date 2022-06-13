@@ -52,18 +52,13 @@ plutocratic_reform = {
 	legacy_equivalent = despotic_monarchy
 	potential = {
 		OR = {
-			technology_group = indian
-			technology_group = muslim
-			technology_group = chinese
-			technology_group = east_african
+			technology_group = eastasian
+
 		}
 	}
 	nation_designer_trigger = {
 		OR = {
-			technology_group = indian
-			technology_group = muslim
-			technology_group = chinese
-			technology_group = east_african
+			technology_group = eastasian
 		}
 	}
 	valid_for_nation_designer = yes

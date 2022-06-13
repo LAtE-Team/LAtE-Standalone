@@ -1,5 +1,6 @@
+setup_vision = yes
 government = monarchy 
 primary_culture = al_misr_arabic
-religion = thelemic
+religion = thelema
 technology_group = westasian
 capital = 361 # Cairo

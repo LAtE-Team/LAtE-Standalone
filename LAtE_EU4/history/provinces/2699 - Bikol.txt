@@ -1,7 +1,7 @@
 #2699 - Bikol
 
 culture = filipino
-religion = cult_of_saints
+religion = sacred_heart
 capital = "Bikol"
 trade_goods = tropical_wood
 hre = no
@@ -14,6 +14,5 @@ native_hostileness = 9
 
 
 
-discovered_by = chinese
-discovered_by = NRU 
-discovered_by = NRA
+
+

@@ -13,7 +13,7 @@ base_manpower = 2
 add_core = TSE
 owner = TSE
 controller = TSE
-discovered_by = indian
+
 
 
 
