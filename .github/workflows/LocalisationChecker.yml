@@ -1,0 +1,15 @@
+name: Eu4LocalisationChecker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check for Unlocalized Stuff
+        run: |
+          D:\\a\\LAtE-Standalone\\LAtE-Standalone\\.scripts\\Eu4LocalisationChecker.exe
