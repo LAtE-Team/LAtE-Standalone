@@ -1,0 +1,125 @@
+laurentian_native = {	#All-encompassing group for native cultures
+	#Metis
+	metis = { 
+		primary = MTC
+		dynasty_names = { "Parenteau" "Delorme" "L�pine" "Callihoo" "Callihoo" "Desjarlais" "Bourque" "de Rocky Mountain House" "de Batchawana Bay" "de Blue Earth" "de La Crosse" "de Kewaunee" "de Virginia" "de Greenfield" "de Lakewood" "de Rushville" "de Valentine" "de Two Rivers" "de Marshall" "de Thunder Bay" "de St. Peter" "de Fort William" "Bottineau" "Boucher" "Vautour" "de Cardston" "de Pierre" "de Dryden" "de Mobridge" "Callihoo" "Riel" "Bouyer" "Parenteau" "Souray" "Dumont" }
+
+		male_names = {
+			Albert Alec Alexander Ambroise-Dydime Ambrose Andrew Andy Angus Antoine Antonine Arron Arthur Asham August Augustin Axel Baptiste Bob Brian Bryan Calvin Charles Charles-Michel Clément Cuthbert Cyril David Denis Derrick Don Douglas Doyle Dwight Dydim Dylan Elzéar Eugène François Gabriel Gallant George Gerald Gil Gregory Guillaume Harley Henri Honoré Howard Ian Jacco Jaco Jacques James Jaxon Jean Jean-Baptiste Jess Joe John Jon Jonathan Jules Kalib Keith Kevin Laird Laurent-Salomon Lawrence Louis Malcolm Maxime Michel Pascal Paul Peter Pierre Ralph Ranald Ray Raymond Rene René Rick Robert Rod Salomon Shan Sheldon Solomon Theoren Thomas Todd Tom Tony Tête Vic Wade Wayne William Xavier Yvon
+		}
+		female_names = {
+			Andrea Antonine Audrey Blanche Carole Catharine Chanta Chantell Charlotte Christi Christine Colleen Elizabeth Evelyn Frechette Héléne Isabelle Janet Jani Joanne Josephin Josette Julie Katherena Kinnie Laura Laurette Madame Madeline Magdelaine Marguerite Maria Marianne Marie Marie-Thôrèse Marilyn Mary Nancy Norma Pearl Rose-Marie Roseanne Sandra Sara Sharon Shelly Suzanne Tanto Thelma Therese Yvonne
+		}
+
+	}
+	#Innu
+	innu = {
+		dynasty_names = { "Keskapekiaq" "Kwemoodeech" "Pohomoosh" }
+
+		male_names = {
+			Acimus Ahapi Amiskut Anik Apun Aski Askikw Assin Atim Beechil Bill Charlie Chiiwetin Cipay Ciseaskikw Ciseatim Cisemahikan Ciseufwan Cisewapaskw Cisewen David Emmett George Gilbert Gilles Hugh Ifmit Jim Lobit Mahikan Mahtn Maikan Marc Masinahicen Maskisin Maskw Matthew Maxw Mike Miskinakw Mistamahtn Mistamiskut Mistanimu Mistapun Mistaski Mistayehyew Mistuk Mitihcin Mukuman Nascew Neku Nikamu Nimu Paskisikan Real Stanley Sunny Takun Tobias Troy Uciskw Ufwan Unakan Unawiw Utukey Wapaskw Wen Weyasi Wucu Yakaw Yehyew 
+		}
+
+		female_names = {
+			Ahawesis Akup Amiskw Apikusis Asiniy Atikw Atim Becky Ciseakup Ciseatim Cisehipu Cisemeli Danielle Hipu Isimit Iskutew Iskwew Jade Josephine Kathleen Legend Mani Meli Melinda Mispun Mistaisimit Mistamiskw Mistasiniy Mistasipi Mit Naomi Nekaw Nipi Nisk Pinehis Puti Ruby Sipi Sipis Tuan Uhu Wapaw Wiskacan 
+		}
+
+	}
+	inuit = {
+		male_names = {
+			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak 
+			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun 
+			Taktuq Taliriktug Tikaani Tiqriganiannig Tukkuyummavungga Tulimak Tulimaq Tulugaq Tungajuaq Tupiq Tuuq Ugalik 
+			Ujurak Ukiuk Unnuk Usuiituk
+		}
+		female_names = {
+			Ahnah Akna Chena Corazon Desna Kaskae Kaya Kirima Koko Malina Adlartok Ahnah Akiak Anana Anernerk Annakpok Aput 
+			Ataciare Atka Aukaneck Biisaiyowaq Buniq Chulyin Cikup Corazon Cupun Hey Iluak Iluq Imnek Ipiktok Iqniq Kakrayok 
+		}
+		dynasty_names = {
+			Amaruq Pakak Silaluk Kayuqtuq
+		}
+	}
+	cree = {
+		dynasty_names = {
+			Iyiyiw Chisasibi Wemindji Whapmagoostui Mistissini Nemaska "Ouje-Bougoumou" Waskaganish Waswanipi Mosoni Maskekowak 
+			Nehinawak Attawapiskat Chemawawin Kashechewan Misipawistik Missanabie Mosakahiken Neskntaga Opaskwayak Sapotaweyak 
+			Shamattawa  Tatskweyak Taykwa Weenusk Wuskwi Bunibonibee "Manto Sipi" Nisichawayashik "O-pipon-na-piwin" Pimicikamak 
+			Sakawithiniwak Kapawe'no Mikisew Wabasca Mamihkiyiniwak Nekaneet Ochapowace Peepeekisis
+		}
+		male_names = {
+			Kapapamahchakwew Abishabis Mistahi-maskwa Kamiokisihkwew Payipwat Pitikwahanapiwiyin Tepastenam 
+			Wahwaashkung Kiwash Nahookeesic Oombash Panacheese Yesno Wenangasie Katchang Moonias Ostamas 
+			Kwakigigckewang Keneswabe Matawagan Odagamea Missabay Pootoosh
+		}
+		female_names = {
+			Torotiy Meriy Elin Ashenee Astina Echa Kiche Kika Mati Matisa Matisoon Nichena Osceola Pamoon Paniya 
+		}
+	}
+	mikmaq = {
+		dynasty_names = {
+			Epekwik Epeggoitg Eskikewakik Esgigiag Kespek Gespegiag Kespukwitk Gespogoitg Siknikt Sigenitog sipeknekatik 
+			Segepenegatig Taqmkuk Tagamgoog Wunamakik Onamagig Aboushagan Antigonishe Bhicuctouche Chignecto Ekoupahag Jedaick 
+			Kigicapigiak Miramichi Nalkithoniash Nipigiguit Pohomoosh Shediac Tabogimkik Tabusintack Waycobah
+		}
+		male_names = {
+			Membectou Ounaginitish Eargamet Chickanicto Armquannott Attanas Rechibouctou Chichabenady Miductuk 
+			Spugonoit Nughquit Begamonit Chigaquisht Nelanoit
+		}
+		female_names = {
+			Mali Malian Maliazonis Azonis Malgelit
+		}
+	}
+	algonquin = {
+		dynasty_names = {
+			Missisage Saulteaux Bungee Saginaw Achiligouan Amicoures Amikwa Auwause Bawating Chequamegon Keweenaw Kitchigami 
+			Macomille Malanas Marameg Mackinac Mundua Nikikouek Noquet Mouusagai Ouasouarini Aousanik Outchibou Outchougai 
+			Ouxeiacomingo
+		}
+		male_names = {
+			Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun 
+			Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin 
+			Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew 
+			Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham 
+			Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa 
+			Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau 
+			Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke 
+			Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena 
+			Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck 
+			Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok 
+			Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm 
+			Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk 
+			Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam 
+			Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+		}
+		female_names = {
+			Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+		}
+	}
+	ojibwe = {
+		dynasty_names = {
+			Missisage Saulteaux Bungee Saginaw Achiligouan Amicoures Amikwa Auwause Bawating Chequamegon Keweenaw Kitchigami 
+			Macomille Malanas Marameg Mackinac Mundua Nikikouek Noquet Mouusagai Ouasouarini Aousanik Outchibou Outchougai 
+			Ouxeiacomingo
+		}
+		male_names = {
+			Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun 
+			Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin 
+			Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew 
+			Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham 
+			Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa 
+			Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau 
+			Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke 
+			Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena 
+			Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck 
+			Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok 
+			Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm 
+			Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk 
+			Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam 
+			Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+		}
+		female_names = {
+			Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+		}
+	}
+}

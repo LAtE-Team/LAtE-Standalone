@@ -2,7 +2,7 @@ owner = SHD #Home
 controller = SHD #Home
 add_core = SHD #Home
 
-culture = anishinabe
+culture = ojibwe
 religion = anglican
 is_city = yes
 

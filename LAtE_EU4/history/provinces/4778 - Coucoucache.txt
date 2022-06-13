@@ -2,7 +2,7 @@ owner = EEY
 controller = EEY
 add_core = EEY
 
-culture = anishinabe
+culture = algonquin
 religion = ursuline
 is_city = yes
 

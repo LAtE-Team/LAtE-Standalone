@@ -2,7 +2,7 @@ owner = ALG #Algoma
 controller = ALG #Algoma
 add_core = ALG #Algoma
 
-culture = anishinabe
+culture = ojibwe
 religion = anglican
 is_city = yes
 

@@ -9,7 +9,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ANB }
-			culture = anishinabe
+			OR = {
+				culture = ojibwe
+				culture = algonquin
+			}
 			OR = {
 				ai = no
 				AND = {

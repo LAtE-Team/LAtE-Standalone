@@ -1,4 +1,4 @@
-culture = cree
+culture = chipewyan
 religion = midewiwin 
 trade_goods = unknown 
 hre = no 

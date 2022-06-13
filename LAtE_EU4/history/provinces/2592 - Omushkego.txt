@@ -1,6 +1,6 @@
 # No previous file for Omushkego
 
-culture = anishinabe
+culture = cree
 religion = midewiwin
 capital = "Omushkego"
 trade_goods = unknown
