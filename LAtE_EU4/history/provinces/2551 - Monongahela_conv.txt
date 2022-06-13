@@ -1,10 +1,11 @@
-owner = Y28
-controller = Y28
-add_core = Y28
+owner = APP
+controller = APP
+add_core = APP
 culture = appalachian
-religion = rust_cultist
+religion = protestant
 is_city = yes
 
+hre = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2

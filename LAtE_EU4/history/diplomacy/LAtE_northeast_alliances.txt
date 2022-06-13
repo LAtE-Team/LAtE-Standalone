@@ -20,21 +20,6 @@ alliance = {
 	end_date = 3421.1.2
 }
 
-march = {
-    first = CLE
-	second = MTL
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}
-
-dependency = {
-	subject_type = "tributary_state"
-	first = Y28
-	second = Z23
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}
-
 #MRT and HUD Guarantees against RED
 guarantee = {
     first = HUD
@@ -65,4 +50,3 @@ vassal = {
 	start_date = 3053.1.1
 	end_date = 3421.1.2
 }
-

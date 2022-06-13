@@ -1,7 +1,6 @@
 # Savannah
 setup_vision = yes
-government = republic
-add_government_reform = peasants_republic
+government = monarchy 
 
 government_rank = 1
 mercantilism = 0.1
@@ -9,7 +8,7 @@ technology_group = eastern
 primary_culture = dixie
 religion = protestant
 clear_scripted_personalities = yes
-capital = 4661
+capital = 4662
 3031.10.8 = {
 	monarch = {
 		name = "Ricky"
@@ -23,7 +22,7 @@ capital = 4661
 	add_ruler_personality = cruel_personality
 }
 3053.1.1 {
-	capital = 4661
+	capital = 4662
 	add_treasury = 203
 	add_prestige = 88
 	elector = no

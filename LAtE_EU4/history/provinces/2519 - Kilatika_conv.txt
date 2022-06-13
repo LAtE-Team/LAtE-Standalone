@@ -3,7 +3,7 @@ controller = ORD
 add_core = ORD
 
 culture = chicagoan
-religion = rust_cultist
+religion = catholic
 is_city = yes
 add_core = Y36
 

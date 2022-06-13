@@ -1,9 +1,9 @@
-owner = BTR
-controller = BTR
-add_core = BTR
+owner = Z02
+controller = Z02
+add_core = Z02
 
 culture = gulfard
-religion = protestant
+religion = catholic
 is_city = yes
 
 hre = yes

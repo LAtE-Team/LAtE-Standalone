@@ -4,7 +4,7 @@ add_core = HUD
 add_core = CYG
 
 culture = hudsonian
-religion = rust_cultist
+religion = anabaptist
 is_city = yes
 
 
@@ -14,3 +14,4 @@ base_production = 4
 base_manpower = 2
 trade_goods = fish
 add_province_triggered_modifier = anabaptists_present_large
+add_province_modifier = estate_anabaptists_guaranteed_autonomy_mod

@@ -4,7 +4,7 @@ add_core = MIC
 add_core = UPN
 
 culture = lacustrine
-religion = rust_cultist
+religion = norse_pagan_reformed
 is_city = yes
 
 

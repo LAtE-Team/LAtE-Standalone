@@ -1,9 +1,9 @@
 #483 - Turks Islands
 
-owner = X75
+owner = CBN
 capital = "Cockburn Town"
-controller = X75
-add_core = X75
+controller = CBN
+add_core = CBN
 culture = west_indian
 religion = rastafarian
 is_city = yes
@@ -11,9 +11,15 @@ add_core = X75
 
 trade_goods = tobacco
 3053.1.1 = {
-	hre = yes
+	hre = no
 	base_tax = 3
 	base_production = 3
 	base_manpower = 2
 }
-
+3053.1.1 = {
+	owner = CBN
+	controller = CBN
+	culture = west_indian
+	religion = rastafarian
+	trade_goods = tobacco
+}

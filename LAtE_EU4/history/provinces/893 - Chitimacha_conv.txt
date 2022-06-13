@@ -2,10 +2,10 @@ owner = Z02
 controller = Z02
 add_core = Z02
 culture = creole
-religion = protestant
+religion = catholic
 is_city = yes
 
-hre = yes
+hre = no
 base_tax = 10
 base_production = 10
 base_manpower = 5
