@@ -304,8 +304,8 @@ catholic_rome = {
 	trigger = {	
 		NOT = { overlord_of = PAP }
 		owns_or_vassal_of = 118 # Roma		
-		NOT = { tag = ITA }
-		NOT = { tag = ROM }
+#		NOT = { tag = ITA }
+#		NOT = { tag = ROM }
 	}
 
 	papal_influence = -10
@@ -323,7 +323,7 @@ papal_subjugation = {
 
 	trigger = {	
 		overlord_of = PAP
-		NOT = { tag = ITA }
+#		NOT = { tag = ITA }
 	}
 
 	diplomatic_reputation = -2
@@ -376,7 +376,7 @@ submission_to_emperor = {
 
 	trigger = {
 		is_emperor = no
-		NOT = { tag = ITA }
+#		NOT = { tag = ITA }
 		capital_scope = {
 			is_part_of_hre = yes
 		}
@@ -517,35 +517,35 @@ excommunication = {
 ##################################################
 # The Pentarchy
 ##################################################
-pentarchy_mod = {
-	potential = {
-		normal_or_historical_nations = yes
-		religion = orthodox
-		OR = {
-			has_discovered = 118 	# Rome
-			has_discovered = 151 	# Constantinople
-			has_discovered = 2313 	# Antioch
-			has_discovered = 379 	# Jerusalem
-			has_discovered = 358 	# Alexandria
-		}
-	}
-
-	trigger = {
-		owns = 118 	# Rome
-		owns = 151 	# Constantinople
-		owns = 2313 # Antioch
-		owns = 379 	# Jerusalem
-		owns = 358 	# Alexandria
-		118 = { religion = orthodox }
-		151 = { religion = orthodox }
-		2313 = { religion = orthodox }
-		379 = { religion = orthodox }
-		358 = { religion = orthodox }
-	}
-	
-	prestige = 0.5
-	missionaries = 1
-}
+#pentarchy_mod = {
+#	potential = {
+#		normal_or_historical_nations = yes
+#		religion = orthodox
+#		OR = {
+#			has_discovered = 118 	# Rome
+#			has_discovered = 151 	# Constantinople
+#			has_discovered = 2313 	# Antioch
+#			has_discovered = 379 	# Jerusalem
+#			has_discovered = 358 	# Alexandria
+#		}
+#	}
+#
+#	trigger = {
+#		owns = 118 	# Rome
+#		owns = 151 	# Constantinople
+#		owns = 2313 # Antioch
+#		owns = 379 	# Jerusalem
+#		owns = 358 	# Alexandria
+#		118 = { religion = orthodox }
+#		151 = { religion = orthodox }
+#		2313 = { religion = orthodox }
+#		379 = { religion = orthodox }
+#		358 = { religion = orthodox }
+#	}
+#	
+#	prestige = 0.5
+#	missionaries = 1
+#}
 
 ##################################################
 # China modifiers
@@ -660,7 +660,6 @@ hre_dominant_catholic = {
 		OR = {
 			religion = catholic
 			religion = protestant
-			religion = reformed
 		}
 	}
 
@@ -684,37 +683,12 @@ hre_dominant_protestant = {
 		OR = {
 			religion = catholic
 			religion = protestant
-			religion = reformed
 		}
 	}
 
 	trigger = {
 		religion = protestant
 		hre_religion = protestant
-		hre_religion_locked = yes
-	}
-	
-	legitimacy = 0.25
-	tolerance_own = 1
-	global_missionary_strength = 0.01
-	imperial_authority = 0.25
-}
-
-hre_dominant_reformed = {
-	potential = {
-		capital_scope = {
-			continent = europe
-		}
-		OR = {
-			religion = catholic
-			religion = protestant
-			religion = reformed
-		}
-	}
-
-	trigger = {
-		religion = reformed
-		hre_religion = reformed
 		hre_religion_locked = yes
 	}
 	

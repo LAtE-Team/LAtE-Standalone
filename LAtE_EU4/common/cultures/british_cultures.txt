@@ -1,6 +1,5 @@
 british = {
 	anglo_saxon = {
-		primary = ENG
 		dynasty_names = { }
 	}
 	scouse = {
@@ -178,7 +177,6 @@ british = {
 
 gaelic = {
 	pictish = {
-		primary = SCO
 		dynasty_names = { }
 	}
 }

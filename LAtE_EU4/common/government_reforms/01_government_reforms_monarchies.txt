@@ -137,7 +137,7 @@ grand_duchy_reform = {
 	potential = {
 		OR = {
 			AND = {
-				tag = LIT
+				always = no
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -212,7 +212,7 @@ shogunate = {
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 		owns = 1020
 	}
@@ -251,7 +251,7 @@ daimyo = {
 	lock_level_when_selected = yes
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 	}
 	modifiers = {
@@ -288,7 +288,7 @@ indep_daimyo = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = { region = japan_region }
 	}
 	legacy_equivalent = indep_daimyo_legacy
@@ -333,7 +333,7 @@ celestial_empire = {
 	lock_level_when_selected = yes
 	nation_designer_trigger = {
 		culture_group = east_asian
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = {
 			OR = {
 				region = north_china_region
@@ -391,7 +391,7 @@ chinese_warlord = {
 					primary_culture = miao
 					primary_culture = yi
 				}
-				religion = animist
+				religion_group = afro_syncretic
 			}
 			AND = {
 				primary_culture = bai
@@ -399,7 +399,7 @@ chinese_warlord = {
 			}
 			religion = confucianism
 		}
-		technology_group = chinese
+		technology_group = eastasian
 		capital_scope = {
 			OR = {
 				region = north_china_region
@@ -420,14 +420,14 @@ chinese_warlord = {
 			primary_culture = yi
 			culture_group = east_asian
 		}
-		technology_group = chinese
+		technology_group = eastasian
 		OR = {
 			AND = {
 				OR = {
 					primary_culture = miao
 					primary_culture = yi
 				}
-				religion = animist
+				religion_group = afro_syncretic
 			}
 			AND = {
 				primary_culture = bai
@@ -567,7 +567,7 @@ ottoman_government = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
-				tag = RUM
+				always = no
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -610,11 +610,10 @@ prussian_monarchy = {
 	potential = {
 		OR = {
 			AND = {
-				tag = PRU
+				always = no
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
-				tag = GER
 				have_had_reform = prussian_monarchy
 			}
 			AND = {
@@ -627,8 +626,6 @@ prussian_monarchy = {
 		OR = {
 			is_playing_custom_nation = yes
 			religion = protestant
-			religion = reformed
-			religion = hussite
 			religion = anglican
 		}
 	}
@@ -683,7 +680,7 @@ principality = {
 	potential = {
 		NOT = { has_reform = tsardom }
 		NOT = { have_had_reform = tsardom }
-		religion = orthodox
+		always = no
 		OR = {
 			culture_group = east_slavic
 			AND = {
@@ -698,7 +695,7 @@ principality = {
 	nation_designer_cost = 5
 	nation_designer_trigger = {
 		culture_group = east_slavic
-		religion = orthodox
+		always = no
 	}
 	modifiers = {
 		global_unrest = -1
@@ -718,7 +715,7 @@ tsardom = {
 	icon = "king"
 	allow_normal_conversion = yes
 	potential = {
-		religion = orthodox
+		always = no
 		culture_group = east_slavic
 		OR = {
 			AND = {
@@ -726,7 +723,7 @@ tsardom = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
-				tag = UKR
+				always = no
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -742,7 +739,7 @@ tsardom = {
 
 	nation_designer_trigger = {
 		culture_group = east_slavic
-		religion = orthodox
+		always = no
 	}
 
 	modifiers = {
@@ -768,7 +765,7 @@ mamluk_government = {
 		religion_group = muslim
 		OR = {
 			AND = {
-				tag = MAM
+				always = no
 				NOT = { map_setup = map_setup_random }
 			}
 			have_had_reform = mamluk_government
@@ -862,7 +859,7 @@ mughal_government = {
 	potential = {
 		has_dlc = "Dharma"
 		AND = {
-			tag = MUG
+			always = no
 			NOT = { map_setup = map_setup_random }
 		}
 	}
@@ -1088,7 +1085,7 @@ mandala_reform = {
 			religion_group = muslim
 			religion = animism
 		}
-		technology_group = chinese
+		technology_group = eastasian
 		OR = {
 			has_dlc = "Leviathan"
 			has_dlc = "Dharma"
@@ -1104,7 +1101,7 @@ mandala_reform = {
 			religion_group = dharmic
 			religion_group = muslim
 		}
-		technology_group = chinese
+		technology_group = eastasian
 		OR = {
 			has_dlc = "Leviathan"
 			has_dlc = "Dharma"
@@ -1124,7 +1121,7 @@ nayankara_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		technology_group = indian
+		technology_group = westasian
 		OR = {
 			religion_group = dharmic
 			religion = buddhism
@@ -1141,7 +1138,7 @@ nayankara_reform = {
 	nation_designer_cost = 10
 	legacy_equivalent = feudal_monarchy
 	nation_designer_trigger = {
-		technology_group = indian
+		technology_group = westasian
 		OR = {
 			religion_group = dharmic
 			religion = buddhism
@@ -1190,7 +1187,7 @@ rajput_kingdom = {
 			primary_culture = vindhyan
 		}
 		NOT = { primary_culture = marathi }
-		technology_group = indian
+		technology_group = westasian
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -1200,7 +1197,7 @@ rajput_kingdom = {
 			primary_culture = vindhyan
 		}
 		NOT = { primary_culture = marathi }
-		technology_group = indian
+		technology_group = westasian
 	}
 	legacy_equivalent = feudal_monarchy
 	modifiers = {
@@ -1287,11 +1284,11 @@ uparaja_reform = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		religion = buddhism
-		technology_group = chinese
+		technology_group = eastasian
 	}
 	potential = {
 		religion = buddhism
-		technology_group = chinese
+		technology_group = eastasian
 	}
 	valid_for_nation_designer = no
 	modifiers = {
@@ -1305,10 +1302,6 @@ uparaja_reform = {
 			factor = 2
 			legitimacy = 75
 		}
-		modifier = {
-			factor = 3
-			tag = SIA
-		}
 	}
 }
 
@@ -1319,13 +1312,13 @@ negusa_nagast = {
 	potential = {
 		OR = {
 			have_had_reform = negusa_nagast
-			tag = ETH
+			always = no
 		}
 	}
 	trigger = {
 		OR = {
 			have_had_reform = negusa_nagast
-			tag = ETH
+			always = no
 		}
 	}
 	valid_for_nation_designer = yes
@@ -1406,7 +1399,7 @@ mossi_federal_kingdom = {
 			}
 			AND = {
 				has_country_flag = msi_mossi_kingdom_event
-				tag = MSI
+				always = no
 			}
 		}
 	}
@@ -1480,13 +1473,13 @@ musa_rule = {
 	legacy_equivalent = musa_rule_legacy
 	potential = {
 		OR = {
-			tag = MAL
+			always = no
 			have_had_reform = musa_rule
 		}
 	}
 	trigger = {
 		OR = {
-			tag = MAL
+			always = no
 			have_had_reform = musa_rule
 		}
 	}
@@ -1592,9 +1585,8 @@ enforce_trader_privileges_reform = {
 	potential = {
 		is_reform_available = plutocratic_reform
 		OR = {
-			technology_group = indian
-			technology_group = muslim
-			technology_group = chinese
+			technology_group = westasian
+			technology_group = eastasian
 			technology_group = east_african
 		}
 	}
@@ -1659,7 +1651,7 @@ poligar_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		technology_group = indian
+		technology_group = westasian
 		OR = {
 			culture_group = dravidian
 			primary_culture = oriya
@@ -1698,7 +1690,7 @@ deccani_society_reform = {
 	potential = {
 		has_dlc = "Dharma"
 		is_revolutionary = no
-		technology_group = indian
+		technology_group = westasian
 		religion_group = muslim
 		OR = {
 			culture_group = dravidian
@@ -1812,7 +1804,7 @@ sidhi_recruitment = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		technology_group = indian
+		technology_group = westasian
 		religion_group = muslim
 		OR = {
 			culture_group = dravidian
@@ -1832,7 +1824,7 @@ mansabdari_reform = {
 	icon = "noble_muslim"
 	allow_normal_conversion = yes
 	potential = {
-		tag = MUG
+		always = no
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Dharma"
 	}
@@ -1944,14 +1936,14 @@ of_noble_bearing_reform = {
 		NOT = {
 			AND = {
 				has_estate = estate_maratha
-				technology_group = indian
+				technology_group = westasian
 				NOT = { has_estate = estate_nobles }
 			}
 		}
 		NOT = {
 			AND = {
 				has_estate = estate_rajput
-				technology_group = indian
+				technology_group = westasian
 				NOT = { has_estate = estate_nobles }
 			}
 		}
@@ -2048,7 +2040,7 @@ dakhni_culture_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		technology_group = indian
+		technology_group = westasian
 		religion_group = muslim
 		OR = {
 			culture_group = dravidian
@@ -2068,7 +2060,7 @@ zabt_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Dharma"
-		tag = MUG
+		always = no
 	}
 	modifiers = {
 		governing_capacity = 150

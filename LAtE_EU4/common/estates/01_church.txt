@@ -132,13 +132,13 @@ estate_church =
 		}
 		loyalty = -20
 	}
-	loyalty_modifier = {
-		desc = EST_KNI_CONQUEST_OF_JERUSALEM
-		trigger = {
-			has_country_flag = kni_clergy_flag
-		}
-		loyalty = 10
-	}
+#	loyalty_modifier = {
+#		desc = EST_KNI_CONQUEST_OF_JERUSALEM
+#		trigger = {
+#			has_country_flag = kni_clergy_flag
+#		}
+#		loyalty = 10
+#	}
 	loyalty_modifier = {
 		desc = EST_INWARD_PERFECTION_OFFENSIVE_WAR
 		trigger = {
@@ -162,17 +162,17 @@ estate_church =
 	}
 
 	#Names - Vanilla
-	custom_name = {
-		desc = estate_ogboni
-		trigger = {
-			tag = OYO
-		}
-	}
+#	custom_name = {
+#		desc = estate_ogboni
+#		trigger = {
+#			tag = OYO
+#		}
+#	}
 	custom_name = {
 		desc = estate_tengbiise
 		trigger = {
 			primary_culture = mossi
-			religion = shamanism
+			religion_group = afro_syncretic
 		}
 	}
 	custom_name = {
@@ -186,12 +186,6 @@ estate_church =
 		}
 	}
 	custom_name = {
-		desc = estate_babaylanes
-		trigger = {
-			tag = MAS
-		}
-	}
-	custom_name = {
 		desc = estate_brahmins
 		trigger = {
 			religion = hinduism
@@ -202,23 +196,25 @@ estate_church =
 		trigger = {
 			OR = {
 				religion = protestant
-				religion = reformed
+				religion = antinomian
+				religion = charismatic
+				religion = postadventist
 			}
 		}
 	}
-	custom_name = {
-		desc = estate_popes
-		trigger = {
-			AND = {
-				religion = orthodox
-				OR = {
-					culture_group = east_slavic
-					culture_group = south_slavic
-					culture_group = west_slavic
-				}
-			}
-		}
-	}
+#	custom_name = {
+#		desc = estate_popes
+#		trigger = {
+#			AND = {
+#				religion = orthodox
+#				OR = {
+#					culture_group = east_slavic
+#					culture_group = south_slavic
+#					culture_group = west_slavic
+#				}
+#			}
+#		}
+#	}
 	custom_name = {
 		desc = estate_shamans
 		trigger = {
@@ -236,7 +232,7 @@ estate_church =
 	custom_name = {
 		desc = estate_medicine_men
 		trigger = {
-			religion = totemism
+			religion_group = american_native
 		}
 	}
 	custom_name = {
@@ -287,16 +283,16 @@ estate_church =
 	custom_name = {
 		desc = estate_tlamacazqueh
 		trigger = {
-			religion = nahuatl
+			religion_group = mesoamerican
 		}
 	}
-	custom_name = {
-		desc = estate_yangban_scholars
-		trigger = {
-			tag = KOR
-			religion = confucianism
-		}
-	}
+#	custom_name = {
+#		desc = estate_yangban_scholars
+#		trigger = {
+#			tag = KOR
+#			religion = confucianism
+#		}
+#	}
 	custom_name = {
 		desc = estate_kahuna
 		trigger = {
@@ -314,31 +310,31 @@ estate_church =
 			religion = animism
 		}
 	}		
-	custom_name = {
-		desc = estate_taula_otua
-		trigger = {
-			tag = TOG
-			religion = animism
-		}
-	}	
-	custom_name = {
-		desc = estate_taula_aitu
-		trigger = {
-			tag = SAM
-			religion = animism
-		}
-	}
-	custom_name = {
-		desc = estate_bete
-		trigger = {
-			OR = {
-				tag = LAI
-				tag = VIL
-				tag = VNL
-			}
-			religion = animism
-		}
-	}
+#	custom_name = {
+#		desc = estate_taula_otua
+#		trigger = {
+#			tag = TOG
+#			religion = animism
+#		}
+#	}	
+#	custom_name = {
+#		desc = estate_taula_aitu
+#		trigger = {
+#			tag = SAM
+#			religion = animism
+#		}
+#	}
+#	custom_name = {
+#		desc = estate_bete
+#		trigger = {
+#			OR = {
+#				tag = LAI
+#				tag = VIL
+#				tag = VNL
+#			}
+#			religion = animism
+#		}
+#	}
 
 	contributes_to_curia_treasury = yes
 	color = { 200 150 0 }

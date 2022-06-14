@@ -136,7 +136,7 @@ country_event = {
 				}
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
 						technology_group = central_african
 						technology_group = sub_saharan
@@ -179,7 +179,7 @@ country_event = {
 						}
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -193,7 +193,7 @@ country_event = {
 					limit = {
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -657,7 +657,7 @@ country_event = {
 				NOT = { owned_by = ROOT }
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
 						technology_group = central_african
 						technology_group = sub_saharan
@@ -707,7 +707,7 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -722,7 +722,7 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -897,7 +897,7 @@ country_event = {
 				NOT = { owned_by = ROOT }
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
 						technology_group = central_african
 						technology_group = sub_saharan
@@ -944,7 +944,7 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -959,7 +959,7 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -1038,7 +1038,7 @@ country_event = {
 						war_with = ROOT
 					}
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
 						technology_group = central_african
 						technology_group = sub_saharan
@@ -1059,7 +1059,7 @@ country_event = {
 							}
 						}
 						OR = {
-							technology_group = indian
+							technology_group = westasian
 							technology_group = east_african
 							technology_group = central_african
 							technology_group = sub_saharan
@@ -1105,7 +1105,7 @@ country_event = {
 								war_with = ROOT
 							}
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -1126,7 +1126,7 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
 									technology_group = central_african
 									technology_group = sub_saharan
@@ -1146,7 +1146,7 @@ country_event = {
 								war_with = ROOT
 							}
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
 								technology_group = central_african
 								technology_group = sub_saharan
@@ -1167,7 +1167,7 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
 									technology_group = central_african
 									technology_group = sub_saharan
@@ -1191,7 +1191,7 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
 									technology_group = central_african
 									technology_group = sub_saharan

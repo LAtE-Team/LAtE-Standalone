@@ -1,0 +1,38 @@
+redcoat_ideas = {
+	start = {
+		prestige = 1
+		fabricate_claims_cost = -0.25
+	}
+	bonus = {
+		global_colonial_growth = 20
+	}
+	trigger = {
+		tag = RED
+	}
+	free = yes
+	
+	invasion_of_the_redcoats = {
+		warscore_cost_vs_other_religion = -0.20
+	}
+	the_siege_of_washington = {
+		siege_ability = 0.15
+	}
+	slavers_of_america = {
+		production_efficiency = 0.10
+	}
+	surrounded_on_all_sides = {
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
+	}
+	recolonise_america = {
+		culture_conversion_cost = -0.25
+		development_cost = -0.05
+	}
+	for_the_queen = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+	militant_society = {
+		global_manpower_modifier = 0.10
+	}
+}

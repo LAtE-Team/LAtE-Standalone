@@ -1,4 +1,6 @@
 afro_syncretic = {
+	crusade_name = CRUSADE
+
     rastafarian = {
 		color = { 0.8 0.4 0.0 }
 		icon = 1
@@ -83,6 +85,8 @@ afro_syncretic = {
 }
 
 american_native = {
+	crusade_name = CRUSADE
+
 	midewiwin = { #was ghost_dance
 		color = { 0.9 0.4 0.2 }
 		icon = 6
@@ -121,6 +125,8 @@ american_native = {
 }
 
 amero_syncretic = {
+	crusade_name = CRUSADE
+
     peyotist = {
         color = { 1 0.38 0.09 }
         icon = 8
@@ -1044,6 +1050,8 @@ christian = {
 }
 
 cult_of_saints = {
+	crusade_name = CRUSADE
+
     sacred_heart = {
 		icon = 32
 		color = { 0.8 0.1 0.2 }
@@ -1112,6 +1120,8 @@ cult_of_saints = {
 }
 
 pacific = {
+	crusade_name = CRUSADE
+
 	cetic = {
 		icon = 35
 		color = { 0.7 0.52 0.90 }
@@ -1196,6 +1206,8 @@ pacific = {
 }
 
 latter_day_saints = {
+	crusade_name = CRUSADE
+
 	mormon = {
 		color = { 0.75 0.4 0.55 }
 		icon = 39
@@ -1312,6 +1324,8 @@ latter_day_saints = {
 }
 
 mesoamerican = { #Mesoamerican gods in ck2
+	crusade_name = CRUSADE
+
     mictlantec = {
 		color = { 0.8 0.8 0.8 }
 		icon = 44
@@ -2768,9 +2782,6 @@ oldworld = {
 	consumerist = {
 		color = { 0.05 0.5 0.05 }
 		icon = 49
-		allowed_conversion = {
-			monetarist
-		}
 		on_convert = {
 			change_religion = consumerist
 			add_prestige = -100
@@ -2926,6 +2937,8 @@ oldworld = {
 }
 
 pagan_group = {
+	crusade_name = CRUSADE
+
 	animism = {
 		color = { 127 0 0 }
 		icon = 55
@@ -3040,6 +3053,8 @@ pagan_group = {
 }
 
 nautical = { #was pirate
+	crusade_name = CRUSADE
+
     brethren = {
 		color = { 0.3 0.2 0.2 }
 		icon = 62
@@ -3076,6 +3091,8 @@ nautical = { #was pirate
 }
 
 jewish_group = {
+	crusade_name = CRUSADE
+
 	jewish = {
 		icon = 64
 		color = { 0 156 231 }
@@ -4017,4 +4034,7 @@ muslim = { #heretic considered as religious schools
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
+
+	crusade_name = JIHAD
+
 }

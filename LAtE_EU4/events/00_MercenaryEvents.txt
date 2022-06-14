@@ -308,13 +308,13 @@ country_event = {
 	title = mercs.5.t
 	desc = {
 		trigger = {
-			technology_group = indian
+			technology_group = westasian
 		}
 		desc = mercs.5.d
 	}
 	desc = {
 		trigger = {
-			NOT = { technology_group = indian }
+			NOT = { technology_group = westasian }
 		}
 		desc = mercs.5.d2
 	}
@@ -327,7 +327,7 @@ country_event = {
 		NOT = { has_country_modifier = elephants_in_europe }
 		OR = {
 			AND = {
-				technology_group = indian
+				technology_group = westasian
 				any_country = {
 					war_with = ROOT
 					any_owned_province = {
@@ -369,7 +369,7 @@ country_event = {
 			if = {
 				limit = {
 					NOT = {
-						technology_group = indian
+						technology_group = westasian
 					}
 				}
 				random_hired_mercenary_company = {
@@ -391,7 +391,7 @@ country_event = {
 	option = {
 		name = mercs.5.a
 		trigger = {
-			NOT = { technology_group = indian }
+			NOT = { technology_group = westasian }
 		}
 		add_country_modifier = {
 			name = "elephants_in_europe_mercs"
@@ -401,7 +401,7 @@ country_event = {
 	option = {
 		name = mercs.5.b
 		trigger = {
-			technology_group = indian
+			technology_group = westasian
 		}
 		add_country_modifier = {
 			name = "elephants_in_europe"

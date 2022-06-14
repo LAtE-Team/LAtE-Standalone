@@ -1,4 +1,7 @@
 ﻿l_english:
+ generic_rebels_demand: "Convert $COUNTRYNAME$"
+ generic_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+
  afro_syncretic: "Afro-Syncretic"
  rastafarian: "Rastafarian"
  rastafarian_religion_desc: "The Rastafari are a religious group originating in Jamaica, inspired by the teachings of Marcus Garvey. They believe in the divinity of Emperor Haile Selassie I of Ethiopia, known before his coronation as Ras Tafari."

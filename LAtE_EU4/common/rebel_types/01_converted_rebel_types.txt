@@ -26,6 +26,8 @@
 #Afro Syncretic
 rastafarian_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = rastafarian
@@ -34,6 +36,7 @@ rastafarian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -224,6 +227,8 @@ rastafarian_rebels = {
 
 voodoo_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = voodoo
@@ -232,6 +237,7 @@ voodoo_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -422,6 +428,8 @@ voodoo_rebels = {
 
 santeria_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = santeria
@@ -430,6 +438,7 @@ santeria_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -620,6 +629,8 @@ santeria_rebels = {
 
 candomble_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = candomble
@@ -628,6 +639,7 @@ candomble_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -818,6 +830,8 @@ candomble_rebels = {
 
 espiritista_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = espiritista
@@ -826,6 +840,7 @@ espiritista_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -1017,6 +1032,8 @@ espiritista_rebels = {
 #American Native
 midewiwin_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = midewiwin
@@ -1025,6 +1042,7 @@ midewiwin_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -1215,6 +1233,8 @@ midewiwin_rebels = {
 
 raven_tales_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = raven_tales
@@ -1223,6 +1243,7 @@ raven_tales_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -1414,6 +1435,8 @@ raven_tales_rebels = {
 #Amero-Syncretic
 peyotist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = peyotist
@@ -1422,6 +1445,7 @@ peyotist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -1612,6 +1636,8 @@ peyotist_rebels = {
 
 amero_orthodox_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = amero_orthodox
@@ -1620,6 +1646,7 @@ amero_orthodox_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -1810,6 +1837,8 @@ amero_orthodox_rebels = {
 
 exovedate_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = exovedate
@@ -1818,6 +1847,7 @@ exovedate_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2009,6 +2039,8 @@ exovedate_rebels = {
 #Christian
 catholic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = catholic
@@ -2017,6 +2049,7 @@ catholic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2207,6 +2240,8 @@ catholic_rebels = {
 
 neognostic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = neognostic
@@ -2215,6 +2250,7 @@ neognostic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2405,6 +2441,8 @@ neognostic_rebels = {
 
 sedevacanist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = sedevacanist
@@ -2413,6 +2451,7 @@ sedevacanist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2603,6 +2642,8 @@ sedevacanist_rebels = {
 
 nestorian_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = nestorian
@@ -2611,6 +2652,7 @@ nestorian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2801,6 +2843,8 @@ nestorian_rebels = {
 
 ursuline_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = ursuline
@@ -2809,6 +2853,7 @@ ursuline_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -2999,6 +3044,8 @@ ursuline_rebels = {
 
 angeline_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = angeline
@@ -3007,6 +3054,7 @@ angeline_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -3197,6 +3245,8 @@ angeline_rebels = {
 
 anabaptist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = anabaptist
@@ -3205,6 +3255,7 @@ anabaptist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -3395,6 +3446,8 @@ anabaptist_rebels = {
 
 batenburger_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = batenburger
@@ -3403,6 +3456,7 @@ batenburger_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -3593,6 +3647,8 @@ batenburger_rebels = {
 
 protestant_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = protestant
@@ -3601,6 +3657,7 @@ protestant_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -3791,6 +3848,8 @@ protestant_rebels = {
 
 antinomian_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = antinomian
@@ -3799,6 +3858,7 @@ antinomian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -3989,6 +4049,8 @@ antinomian_rebels = {
 
 charismatic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = charismatic
@@ -3997,6 +4059,7 @@ charismatic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -4187,6 +4250,8 @@ charismatic_rebels = {
 
 postadventist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = postadventist
@@ -4195,6 +4260,7 @@ postadventist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -4385,6 +4451,8 @@ postadventist_rebels = {
 
 falling_star_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = falling_star
@@ -4393,6 +4461,7 @@ falling_star_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -4583,6 +4652,8 @@ falling_star_rebels = {
 
 moravian_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = moravian
@@ -4591,6 +4662,7 @@ moravian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -4781,6 +4853,8 @@ moravian_rebels = {
 
 wormwoodist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = wormwoodist
@@ -4789,6 +4863,7 @@ wormwoodist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -4979,6 +5054,8 @@ wormwoodist_rebels = {
 
 anglican_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = anglican
@@ -4987,6 +5064,7 @@ anglican_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -5177,6 +5255,8 @@ anglican_rebels = {
 
 nonconformist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = nonconformist
@@ -5185,6 +5265,7 @@ nonconformist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -5375,6 +5456,8 @@ nonconformist_rebels = {
 
 apostolic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = apostolic
@@ -5383,6 +5466,7 @@ apostolic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -5573,6 +5657,8 @@ apostolic_rebels = {
 
 celeste_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = celeste
@@ -5581,6 +5667,7 @@ celeste_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -5771,6 +5858,8 @@ celeste_rebels = {
 
 nazarene_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = nazarene
@@ -5779,6 +5868,7 @@ nazarene_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -5969,6 +6059,8 @@ nazarene_rebels = {
 
 true_cross_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = true_cross
@@ -5977,6 +6069,7 @@ true_cross_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -6167,6 +6260,8 @@ true_cross_rebels = {
 
 edenite_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = edenite
@@ -6175,6 +6270,7 @@ edenite_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -6365,6 +6461,8 @@ edenite_rebels = {
 
 cristo_rey_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = cristo_rey
@@ -6373,6 +6471,7 @@ cristo_rey_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -6563,6 +6662,8 @@ cristo_rey_rebels = {
 
 reformista_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = reformista
@@ -6571,6 +6672,7 @@ reformista_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -6762,6 +6864,8 @@ reformista_rebels = {
 #Cult of Saints
 sacred_heart_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = sacred_heart
@@ -6770,6 +6874,7 @@ sacred_heart_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -6895,7 +7000,7 @@ sacred_heart_rebels = {
 			limit = {
 				NOT = { religion = sacred_heart }
 			}
-			change_religion = cult_of_saints
+			change_religion = sacred_heart
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -6952,13 +7057,15 @@ sacred_heart_rebels = {
 				religion_group = cult_of_saints
 				NOT = { religion = sacred_heart }
 			}
-			change_religion = cult_of_saints
+			change_religion = sacred_heart
 			force_converted = yes
 		}
 	}
 }
 
 patria_grande_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -6968,6 +7075,7 @@ patria_grande_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -7158,6 +7266,8 @@ patria_grande_rebels = {
 
 fidencista_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = fidencista
@@ -7166,6 +7276,7 @@ fidencista_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -7356,6 +7467,8 @@ fidencista_rebels = {
 
 navegante_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = navegante
@@ -7364,6 +7477,7 @@ navegante_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -7555,6 +7669,8 @@ navegante_rebels = {
 #Pacific
 cetic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = cetic
@@ -7563,6 +7679,7 @@ cetic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -7753,6 +7870,8 @@ cetic_rebels = {
 
 gaian_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = gaian
@@ -7761,6 +7880,7 @@ gaian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -7951,6 +8071,8 @@ gaian_rebels = {
 
 shinto_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = shinto
@@ -7959,6 +8081,7 @@ shinto_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -8149,6 +8272,8 @@ shinto_rebels = {
 
 nousthreskeia_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = nousthreskeia
@@ -8157,6 +8282,7 @@ nousthreskeia_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -8348,6 +8474,8 @@ nousthreskeia_rebels = {
 #Latter Day Saints
 mormon_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = mormon
@@ -8356,6 +8484,7 @@ mormon_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -8546,6 +8675,8 @@ mormon_rebels = {
 
 neogodbeite_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = neogodbeite
@@ -8554,6 +8685,7 @@ neogodbeite_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -8744,6 +8876,8 @@ neogodbeite_rebels = {
 
 woolleyite_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = woolleyite
@@ -8752,6 +8886,7 @@ woolleyite_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -8942,6 +9077,8 @@ woolleyite_rebels = {
 
 strangite_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = strangite
@@ -8950,6 +9087,7 @@ strangite_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -9140,6 +9278,8 @@ strangite_rebels = {
 
 lamanita_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = lamanita
@@ -9148,6 +9288,7 @@ lamanita_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -9338,6 +9479,8 @@ lamanita_rebels = {
 
 furiegi_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = furiegi
@@ -9346,6 +9489,7 @@ furiegi_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -9537,6 +9681,8 @@ furiegi_rebels = {
 #Mesoamerican
 mictlantec_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = mictlantec
@@ -9545,6 +9691,7 @@ mictlantec_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -9735,6 +9882,8 @@ mictlantec_rebels = {
 
 sol_invicta_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = sol_invicta
@@ -9743,6 +9892,7 @@ sol_invicta_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -9933,6 +10083,8 @@ sol_invicta_rebels = {
 
 qabantajik_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = qabantajik
@@ -9941,6 +10093,7 @@ qabantajik_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -10131,6 +10284,8 @@ qabantajik_rebels = {
 
 neomayan_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = neomayan
@@ -10139,6 +10294,7 @@ neomayan_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -10330,6 +10486,8 @@ neomayan_rebels = {
 #Old World Cultist
 americanist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = americanist
@@ -10338,6 +10496,7 @@ americanist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -10526,601 +10685,9 @@ americanist_rebels = {
 	}
 }
 
-hamiltonian_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = hamiltonian
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = hamiltonian }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = hamiltonian
-			owner = { religion = hamiltonian }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = hamiltonian }
-			any_neighbor_province = {
-	 			religion = hamiltonian
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = hamiltonian
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = hamiltonian }
-			}
-			change_religion = hamiltonian
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = hamiltonian
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = hamiltonian }
-			}
-			change_religion = hamiltonian
-			force_converted = yes
-		}
-	}
-}
-
-jeffersonian_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = jeffersonian
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = jeffersonian }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = jeffersonian
-			owner = { religion = jeffersonian }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = jeffersonian }
-			any_neighbor_province = {
-	 			religion = jeffersonian
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = jeffersonian
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = jeffersonian }
-			}
-			change_religion = jeffersonian
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = jeffersonian
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = jeffersonian }
-			}
-			change_religion = jeffersonian
-			force_converted = yes
-		}
-	}
-}
-
-libertarian_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = libertarian
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = libertarian }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = libertarian
-			owner = { religion = libertarian }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = libertarian }
-			any_neighbor_province = {
-	 			religion = libertarian
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = libertarian
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = libertarian }
-			}
-			change_religion = libertarian
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = libertarian
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = libertarian }
-			}
-			change_religion = libertarian
-			force_converted = yes
-		}
-	}
-}
-
 consumerist_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -11130,6 +10697,7 @@ consumerist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -11318,205 +10886,9 @@ consumerist_rebels = {
 	}
 }
 
-monetarist_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = monetarist
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = monetarist }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = monetarist
-			owner = { religion = monetarist }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = monetarist }
-			any_neighbor_province = {
-	 			religion = monetarist
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = monetarist
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = monetarist }
-			}
-			change_religion = monetarist
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = monetarist
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = monetarist }
-			}
-			change_religion = monetarist
-			force_converted = yes
-		}
-	}
-}
-
 atomicist_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -11526,6 +10898,7 @@ atomicist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -11714,205 +11087,9 @@ atomicist_rebels = {
 	}
 }
 
-aphite_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = aphite
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = aphite }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = aphite
-			owner = { religion = aphite }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = aphite }
-			any_neighbor_province = {
-	 			religion = aphite
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = aphite
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = aphite }
-			}
-			change_religion = aphite
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = aphite
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = aphite }
-			}
-			change_religion = aphite
-			force_converted = yes
-		}
-	}
-}
-
 rust_cultist_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -11922,6 +11099,7 @@ rust_cultist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -12110,205 +11288,9 @@ rust_cultist_rebels = {
 	}
 }
 
-chrome_cultist_rebels = {
-
-	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 			# Desires Theocracy
-	religion = chrome_cultist
-	defection = religion			# Defects to countries of their religion
-	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
-	independence = none				# Does not strive for independence
-	unit_transfer = yes
-	gfx_type = culture_province
-	
-	resilient = no
-	reinforcing = yes
-	general = yes
-	smart = yes
-	
-	artillery = 0.0
-	infantry = 0.7
-	cavalry = 0.3
-	
-	morale = 1.1
-
-	# Possible handle actions
-	handle_action_negotiate = yes
-	handle_action_stability = yes
-	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
-	# The rebel type with the highest modifier for this province gets picked
-	spawn_chance = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			is_overseas = yes
-		}
-		modifier = {
-			factor = 0.0
-			owner = { religion = ROOT }
-		}
-		modifier = {
-			factor = 0.0
-			NOT = { religion = chrome_cultist }
-		}
-		modifier = {
-			factor = 0.001
-			tolerance_to_this = 5
-		}
-		modifier = {
-			factor = 0.5
-			tolerance_to_this = 2
-		}
-		modifier = {
-			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
-		}		
-		modifier = {
-			factor = 2000
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = 1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -1 }
-		}
-		modifier = {
-			factor = 2
-			NOT = { tolerance_to_this = -2 }
-		}
-	}
- 
- 	# This is checked for EACH province in the Area of Operations
-	movement_evaluation = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			units_in_province = 1
-		}
-		modifier = {
-			factor = 0.001
-			controlled_by = REB
-		}
-		modifier = {
-			factor = 0.0
-			religion = chrome_cultist
-			owner = { religion = chrome_cultist }
-		}
-		modifier = {
-			factor = 2.0
-			NOT = { religion = chrome_cultist }
-			any_neighbor_province = {
-	 			religion = chrome_cultist
-	 			NOT = { has_province_modifier = "forced_conversion" }
-	 		}
-	 	}
-		modifier = {
-			factor = 1.5
-			unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 4
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 6
-		}
-	}
- 
- 	# Province Scope
- 	siege_won_trigger = {
-		NOT = {
-			AND = {
-				owned_by = PAP
-				is_capital = yes
-			}
-
-		}
- 	}
-	siege_won_effect = {
-		if = {
-			limit = {
-				religion = chrome_cultist
-			}
-			add_province_modifier = {
-				name = "religious_violence"
-				duration = 730
-			}
-		}
-		if = {
-			limit = {
-				NOT = { religion = chrome_cultist }
-			}
-			change_religion = chrome_cultist
-			add_province_modifier = {
-				name = "forced_conversion"
-				duration = 730
-			}
-		}
-	}
-	
-	# Country scope
-	can_negotiate_trigger = {
-		religion_group = oldworld
-	}
-	
-	# Country scope
-	can_enforce_trigger = {
-		always = yes
-	}
-	
-	# Localisation for their demands
-	demands_description = "generic_rebels_demand"
-	
-	# Country Scope	
-	demands_enforced_effect = {
-		if = {
-			limit = {
-				NOT = { religion_group = oldworld }
-			}
-			add_prestige = -50
-			every_owned_province = {
-				limit = {
-					has_rebel_faction = REB
-				}
-				add_local_autonomy = 20
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					tag = PAP
-				}
-			}
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				religion = chrome_cultist
-			}
-			add_country_modifier = {
-				name = "religious_intolerance"
-				duration = 3650
-			}
-		}
-		if = {
-			limit = {
-				religion_group = oldworld
-				NOT = { religion = chrome_cultist }
-			}
-			change_religion = chrome_cultist
-			force_converted = yes
-		}
-	}
-}
-
 glorian_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -12318,6 +11300,7 @@ glorian_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -12508,6 +11491,8 @@ glorian_rebels = {
 
 thelema_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = thelema
@@ -12516,6 +11501,7 @@ thelema_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -12707,6 +11693,8 @@ thelema_rebels = {
 #Pagan
 revelationist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = revelationist
@@ -12715,6 +11703,7 @@ revelationist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -12905,6 +11894,8 @@ revelationist_rebels = {
 
 trailwalker_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = trailwalker
@@ -12913,6 +11904,7 @@ trailwalker_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -13103,6 +12095,8 @@ trailwalker_rebels = {
 
 occultist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = occultist
@@ -13111,6 +12105,7 @@ occultist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -13301,14 +12296,17 @@ occultist_rebels = {
 
 norse_pagan_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = norse_pagan
+	religion = norse_pagan_reformed
 	defection = religion			# Defects to countries of their religion
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -13340,7 +12338,7 @@ norse_pagan_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = norse_pagan }
+			NOT = { religion = norse_pagan_reformed }
 		}
 		modifier = {
 			factor = 0.001
@@ -13385,14 +12383,14 @@ norse_pagan_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = norse_pagan
-			owner = { religion = norse_pagan }
+			religion = norse_pagan_reformed
+			owner = { religion = norse_pagan_reformed }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = norse_pagan }
+			NOT = { religion = norse_pagan_reformed }
 			any_neighbor_province = {
-	 			religion = norse_pagan
+	 			religion = norse_pagan_reformed
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -13423,7 +12421,7 @@ norse_pagan_rebels = {
 	siege_won_effect = {
 		if = {
 			limit = {
-				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
 			add_province_modifier = {
 				name = "religious_violence"
@@ -13432,9 +12430,9 @@ norse_pagan_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = norse_pagan }
+				NOT = { religion = norse_pagan_reformed }
 			}
-			change_religion = norse_pagan
+			change_religion = norse_pagan_reformed
 			add_province_modifier = {
 				name = "forced_conversion"
 				duration = 730
@@ -13479,7 +12477,7 @@ norse_pagan_rebels = {
 		}
 		if = {
 			limit = {
-				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -13489,15 +12487,17 @@ norse_pagan_rebels = {
 		if = {
 			limit = {
 				religion_group = pagan_group
-				NOT = { religion = norse_pagan }
+				NOT = { religion = norse_pagan_reformed }
 			}
-			change_religion = norse_pagan
+			change_religion = norse_pagan_reformed
 			force_converted = yes
 		}
 	}
 }
 
 celticist_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -13507,6 +12507,7 @@ celticist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -13697,6 +12698,8 @@ celticist_rebels = {
 
 aria_de_machete_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = aria_de_machete
@@ -13705,6 +12708,7 @@ aria_de_machete_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -13896,6 +12900,8 @@ aria_de_machete_rebels = {
 #Nautical
 brethren_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = brethren
@@ -13904,6 +12910,7 @@ brethren_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -14039,7 +13046,7 @@ brethren_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pirate
+		religion_group = nautical
 	}
 	
 	# Country scope
@@ -14054,7 +13061,7 @@ brethren_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = pirate }
+				NOT = { religion_group = nautical }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -14083,7 +13090,7 @@ brethren_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = pirate
+				religion_group = nautical
 				NOT = { religion = brethren }
 			}
 			change_religion = brethren
@@ -14094,6 +13101,8 @@ brethren_rebels = {
 
 pelagic_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = pelagic
@@ -14102,6 +13111,7 @@ pelagic_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -14293,6 +13303,8 @@ pelagic_rebels = {
 #Jewish
 jewish_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = jewish
@@ -14301,6 +13313,7 @@ jewish_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -14491,6 +13504,8 @@ jewish_rebels = {
 
 reform_faith_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = reform_faith
@@ -14499,6 +13514,7 @@ reform_faith_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -14689,6 +13705,8 @@ reform_faith_rebels = {
 
 meshichist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = meshichist
@@ -14697,6 +13715,7 @@ meshichist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -14888,6 +13907,8 @@ meshichist_rebels = {
 #Dharmic
 hinduism_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = hinduism
@@ -14896,6 +13917,7 @@ hinduism_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -15087,6 +14109,8 @@ hinduism_rebels = {
 #Muslim
 ahmadi_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = ahmadi
@@ -15095,6 +14119,7 @@ ahmadi_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -15288,6 +14313,8 @@ ahmadi_rebels = {
 ######################################################################
 finnish_pagan_reformed_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = finnish_pagan_reformed
@@ -15296,6 +14323,7 @@ finnish_pagan_reformed_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -15486,6 +14514,8 @@ finnish_pagan_reformed_rebels = {
 
 hellenic_pagan_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = hellenic_pagan
@@ -15494,6 +14524,7 @@ hellenic_pagan_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -15684,6 +14715,8 @@ hellenic_pagan_rebels = {
 
 matrem_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = matrem
@@ -15692,6 +14725,7 @@ matrem_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -15882,6 +14916,8 @@ matrem_rebels = {
 
 zar_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = zar
@@ -15890,6 +14926,7 @@ zar_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -16080,6 +15117,8 @@ zar_rebels = {
 
 mwari_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = mwari
@@ -16088,6 +15127,7 @@ mwari_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -16278,6 +15318,8 @@ mwari_rebels = {
 
 zanahary_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = zanahary
@@ -16286,6 +15328,7 @@ zanahary_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -16476,6 +15519,8 @@ zanahary_rebels = {
 
 confederated_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = confederated
@@ -16484,6 +15529,7 @@ confederated_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -16674,6 +15720,8 @@ confederated_rebels = {
 
 anglo_papalist_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = anglo_papalist
@@ -16682,6 +15730,7 @@ anglo_papalist_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -16872,6 +15921,8 @@ anglo_papalist_rebels = {
 
 united_church_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = united_church
@@ -16880,6 +15931,7 @@ united_church_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -17070,6 +16122,8 @@ united_church_rebels = {
 
 yazidi_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = yazidi
@@ -17078,6 +16132,7 @@ yazidi_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -17268,6 +16323,8 @@ yazidi_rebels = {
 
 cult_of_reason_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = cult_of_reason
@@ -17276,6 +16333,7 @@ cult_of_reason_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes
@@ -17466,6 +16524,8 @@ cult_of_reason_rebels = {
 
 jain_rebels = {
 
+	color = { 230 175 175 }
+
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
 	religion = jain
@@ -17474,6 +16534,7 @@ jain_rebels = {
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
+	will_relocate = yes	
 	
 	resilient = no
 	reinforcing = yes

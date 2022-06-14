@@ -251,7 +251,6 @@ age_of_reformation = {
 	objectives = {
 		obj_christian_convert = {
 			OR = {
-				religion = monetarist
 				religion = confederated
 			}
 		}

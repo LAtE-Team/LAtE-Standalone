@@ -7,7 +7,7 @@ estate_brahmins = {
 		has_dlc = "Dharma"
 		OR = {
 			AND = {
-				technology_group = indian
+				technology_group = westasian
 				religion_group = muslim
 				NOT = { has_country_flag = gained_dhimmi_estate }
 			}

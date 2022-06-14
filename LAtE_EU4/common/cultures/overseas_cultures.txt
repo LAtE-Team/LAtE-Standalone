@@ -59,7 +59,6 @@ west_african = {
 #edokko
 japanese_g = {
 	edokko = {
-		primary = JAP
 		dynasty_names = { "Takeda" "Chiba" "Maeda" }
 		
 		male_names = {

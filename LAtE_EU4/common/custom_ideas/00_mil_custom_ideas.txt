@@ -104,8 +104,7 @@ mil_idea_modifiers = {
 			modifier = {
 				factor = 1.25
 				OR = {
-					technology_group = indian
-					technology_group = muslim
+					technology_group = westasian
 					technology_group = eastern
 				}
 			}
@@ -118,8 +117,7 @@ mil_idea_modifiers = {
 			modifier = {
 				factor = 1.25
 				OR = {
-					technology_group = ottoman
-					technology_group = muslim
+					technology_group = westasian
 				}
 			}
 		}
@@ -249,14 +247,15 @@ mil_idea_modifiers = {
 			factor = 1
 			modifier = {
 				factor = 2
-				government = steppe_horde
+				has_reform = steppe_horde
 			}
 			modifier = {
 				factor = 1.1
 				OR = {
-					technology_group = muslim
-					technology_group = western
-					technology_group = sub_saharan
+					technology_group = westasian
+					technology_group = west_african
+					technology_group = east_african
+					technology_group = south_african
 				}
 			}
 			modifier = {
@@ -272,9 +271,6 @@ mil_idea_modifiers = {
 				factor = 0
 				OR = {
 					technology_group = andean
-					technology_group = south_american
-					technology_group = mesoamerican
-					technology_group = north_american
 				}
 			}
 		}
@@ -315,23 +311,20 @@ mil_idea_modifiers = {
 			modifier = {
 				factor = 1.1
 				OR = {
-					technology_group = muslim
-					technology_group = western
-					technology_group = indian
-					technology_group = sub_saharan
+					technology_group = westasian
+					technology_group = west_african
+					technology_group = east_african
+					technology_group = south_african
 				}
 			}
 			modifier = {
 				factor = 2
-				government = steppe_horde
+				has_reform = steppe_horde
 			}
 			modifier = {
 				factor = 0
 				OR = {
 					technology_group = andean
-					technology_group = south_american
-					technology_group = mesoamerican
-					technology_group = north_american
 				}
 			}
 		}
@@ -363,7 +356,6 @@ mil_idea_modifiers = {
 				}
 				capital_scope = {
 					OR = {
-						has_terrain = mountains
 						has_terrain = highlands
 						has_terrain = hills
 					}

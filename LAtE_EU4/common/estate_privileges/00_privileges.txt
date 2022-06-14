@@ -123,7 +123,7 @@ estate_brahmins_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -133,12 +133,12 @@ estate_brahmins_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -330,7 +330,7 @@ estate_nobles_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -340,12 +340,12 @@ estate_nobles_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -537,7 +537,7 @@ estate_church_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -547,12 +547,12 @@ estate_church_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -744,7 +744,7 @@ estate_maratha_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -754,12 +754,12 @@ estate_maratha_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -951,7 +951,7 @@ estate_burghers_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -961,12 +961,12 @@ estate_burghers_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -1158,7 +1158,7 @@ estate_vaisyas_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -1168,12 +1168,12 @@ estate_vaisyas_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -1365,7 +1365,7 @@ estate_cossacks_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -1375,12 +1375,12 @@ estate_cossacks_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -1572,7 +1572,7 @@ estate_nomadic_tribes_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -1582,12 +1582,12 @@ estate_nomadic_tribes_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -1779,7 +1779,7 @@ estate_dhimmi_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -1789,12 +1789,12 @@ estate_dhimmi_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -1986,7 +1986,7 @@ estate_jains_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -1996,12 +1996,12 @@ estate_jains_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -2193,7 +2193,7 @@ estate_rajput_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = MNG
+			tag = BRZ
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
@@ -2203,12 +2203,12 @@ estate_rajput_land_rights = {
 		}
 		modifier = {
 			factor = 1.25
-			tag = SPA
+			tag = CAN
 			NOT = { adm_tech = 17 }
 		}
 		modifier = {
 			factor = 1.25
-			tag = PLC
+			tag = GLK
 			NOT = { adm_tech = 17 }
 		}
 		#Has already a similar privilege active
@@ -2686,8 +2686,6 @@ estate_church_papal_emissary = {
 		modifier = {
 			factor = 0
 			OR = {
-				tag = SWE
-				tag = ENG
 				tag = GBR
 			}
 		}
@@ -2724,18 +2722,6 @@ estate_church_clerical_ministers = {
 			}
 			if = {
 				limit = {
-					has_dlc = "Emperor"
-				}
-				NOT = { religion = hussite }
-			}
-			if = {
-				limit = {
-					has_dlc = "Wealth of Nations"
-				}
-				NOT = { religion = reformed }
-			}
-			if = {
-				limit = {
 					has_dlc = "Cradle of Civilization"
 				}
 				NOT = { religion_group = muslim }
@@ -2745,12 +2731,6 @@ estate_church_clerical_ministers = {
 					has_dlc = "Mandate of Heaven"
 				}
 				NOT = { religion = confucianism }
-			}
-			if = {
-				limit = {
-					has_dlc = "Third Rome"
-				}
-				NOT = { religion = orthodox }
 			}
 			if = {
 				limit = {
@@ -2788,29 +2768,11 @@ estate_church_clerical_ministers = {
 	}
 	conditional_modifier = {
 		trigger = {
-			has_dlc = "Emperor"
-			religion = hussite
-		}
-		modifier = {
-			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
 			has_dlc = "Origins"
 			religion = jewish
 		}
 		modifier = {
 			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Wealth of Nations"
-			religion = reformed
-		}
-		modifier = {
-			monthly_fervor_increase = 0.5
 		}
 	}
 	conditional_modifier = {
@@ -2829,15 +2791,6 @@ estate_church_clerical_ministers = {
 		}
 		modifier = {
 			yearly_harmony = 0.25
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Third Rome"
-			religion = orthodox
-		}
-		modifier = {
-			yearly_patriarch_authority = 0.005
 		}
 	}
 	conditional_modifier = {
@@ -2866,11 +2819,6 @@ estate_church_clerical_ministers = {
 			}
 			religion = protestant
 			num_of_aspects = 3
-		}
-		modifier = {
-			factor = 10
-			religion = orthodox
-			has_dlc = "Third Rome"
 		}
 	}
 }
@@ -2931,12 +2879,12 @@ estate_church_inwards_perfection = {
 	cooldown_years = 25
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 1000
-			tag = KOR
-			NOT = { num_of_cities = 30 }
-			religion = confucianism
-		}
+#		modifier = {
+#			factor = 1000
+#			tag = KOR
+#			NOT = { num_of_cities = 30 }
+#			religion = confucianism
+#		}
 	}
 }
 
@@ -3120,12 +3068,10 @@ estate_burghers_new_world_charter = {
 		modifier = {
 			factor = 10
 			OR = {
-				tag = POR
-				tag = CAS
-				tag = SPA
-				tag = ENG
+				tag = MRT
+				tag = QUE
+				tag = CAN
 				tag = GBR
-				tag = SCO
 				tag = FRA
 			}
 		}
@@ -4784,13 +4730,13 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 10
-			OR = {
-				tag = MCH
-				tag = MJZ
-			}
-		}
+#		modifier = {
+#			factor = 10
+#			OR = {
+#				tag = MCH
+#				tag = MJZ
+#			}
+#		}
 	}
 }
 
@@ -4906,13 +4852,6 @@ estate_burghers_monopoly_of_textiles = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5004,13 +4943,6 @@ estate_burghers_monopoly_of_dyes = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5094,13 +5026,6 @@ estate_burghers_monopoly_of_glass = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -5190,13 +5115,6 @@ estate_burghers_monopoly_of_paper = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5283,13 +5201,6 @@ estate_vaisyas_monopoly_of_textiles = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -5385,13 +5296,6 @@ estate_vaisyas_monopoly_of_dyes = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5478,13 +5382,6 @@ estate_vaisyas_monopoly_of_glass = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5568,13 +5465,6 @@ estate_vaisyas_monopoly_of_paper = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -5666,13 +5556,6 @@ estate_jains_monopoly_of_textiles = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -5770,13 +5653,6 @@ estate_jains_monopoly_of_dyes = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -5862,13 +5738,6 @@ estate_jains_monopoly_of_glass = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -5960,13 +5829,6 @@ estate_jains_monopoly_of_paper = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -6053,13 +5915,6 @@ estate_nobles_monopoly_of_metals = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6155,13 +6010,6 @@ estate_nobles_monopoly_of_livestock = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -6244,13 +6092,6 @@ estate_nobles_monopoly_of_gems = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6341,13 +6182,6 @@ estate_rajput_monopoly_of_metals = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6444,13 +6278,6 @@ estate_rajput_monopoly_of_livestock = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -6535,13 +6362,6 @@ estate_rajput_monopoly_of_gems = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6632,13 +6452,6 @@ estate_maratha_monopoly_of_metals = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6734,13 +6547,6 @@ estate_maratha_monopoly_of_livestock = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -6824,13 +6630,6 @@ estate_maratha_monopoly_of_gems = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -6919,13 +6718,6 @@ estate_church_monopoly_of_incense = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -7008,13 +6800,6 @@ estate_church_monopoly_of_wool = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -7104,13 +6889,6 @@ estate_church_monopoly_of_wine = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -7182,7 +6960,7 @@ estate_church_monopoly_of_slaves = {
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
-		religion = nahuatl
+		religion_group = mesoamerican
 		any_owned_province = {
 			trade_goods = slaves
 		}
@@ -7194,13 +6972,6 @@ estate_church_monopoly_of_slaves = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -7290,13 +7061,6 @@ estate_brahmins_monopoly_of_incense = {
 					value = 1
 				}
 			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
 		}
 	}
 	on_granted = {
@@ -7380,13 +7144,6 @@ estate_brahmins_monopoly_of_wool = {
 			NOT = {
 				has_disaster_progress = {
 					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
 					value = 1
 				}
 			}
@@ -7805,10 +7562,10 @@ estate_nobles_golden_liberty = {
 		if = {
 			limit = {
 				OR = {
-					tag = PLC
+					tag = GLK
 					AND = {
-						tag = POL
-						NOT = { exists = PLC }
+						tag = MIC
+						NOT = { exists = GLK }
 					}
 				}
 			}
@@ -7831,10 +7588,10 @@ estate_nobles_golden_liberty = {
 		if = {
 			limit = {
 				OR = {
-					tag = PLC
+					tag = GLK
 					AND = {
-						tag = POL
-						NOT = { exists = PLC }
+						tag = MIC
+						NOT = { exists = GLK }
 					}
 				}
 			}
@@ -8572,7 +8329,7 @@ estate_burghers_prussian_confederation = {
 	influence = 0.1
 	loyalty = 0.1
 	is_valid = {
-		tag = TEU
+#		tag = TEU
 		has_country_flag = pru_confederation_flag
 	}
 	on_granted = {
@@ -8796,9 +8553,9 @@ estate_burghers_khmer_irrigation = {
 	is_valid = {
 		NOT = { has_estate_privilege = estate_vaisyas_khmer_irrigation }
 		OR = {
-			tag = LNA
-			tag = KHM
-			tag = SUN
+#			tag = LNA
+#			tag = KHM
+#			tag = SUN
 			has_estate_privilege = estate_vaisyas_khmer_irrigation
 		}
 	}
@@ -8864,8 +8621,8 @@ estate_vaisyas_khmer_irrigation = {
 	is_valid = {
 		NOT = { has_estate_privilege = estate_burghers_khmer_irrigation }
 		OR = {
-			tag = LNA
-			tag = KHM
+#			tag = LNA
+#			tag = KHM
 			has_estate_privilege = estate_vaisyas_khmer_irrigation
 		}
 	}
@@ -8977,8 +8734,8 @@ estate_burghers_tropical_nation = {
 	is_valid = {
 		OR = {
 			has_estate_privilege = estate_burghers_tropical_nation
-			technology_group = chinese
-			technology_group = indian
+			technology_group = eastasian
+			technology_group = westasian
 		}
 	}
 	can_select = {
@@ -9614,8 +9371,8 @@ estate_nobles_neighbor_raids = {
 		has_dlc = "Origins"
 		OR = {
 			technology_group = east_african
-			technology_group = central_african
-			technology_group = sub_saharan
+			technology_group = west_african
+			technology_group = south_african
 			has_reform = steppe_horde
 			has_reform = great_mongol_state_reform
 		}
@@ -9649,7 +9406,7 @@ estate_church_heir_shrine = {
 	influence = 0.2
 	loyalty = 0.05
 	is_valid = {
-		religion = shamanism
+		religion_group = afro_syncretic
 		has_dlc = "Rights of Man"
 		NOT = { has_country_flag = heir_cult_through_missions }
 		has_government_attribute = heir
@@ -9694,7 +9451,7 @@ estate_church_embrace_singluar_cult = {
 	influence = 0.25
 	loyalty = 0.05
 	is_valid = {
-		religion = shamanism
+		religion_group = afro_syncretic
 		has_dlc = "Rights of Man"
 	}
 	can_select = {
@@ -9731,7 +9488,7 @@ estate_church_flexible_cults = {
 	max_absolutism = -10
 	influence = 0.05
 	is_valid = {
-		religion = shamanism
+		religion_group = afro_syncretic
 		has_dlc = "Rights of Man"
 		NOT = { has_country_flag = enabled_cult_switching_mission }
 	}
@@ -10357,8 +10114,7 @@ estate_nobles_grant_power_to_the_bashorun = {
 			NOT = { has_country_flag = can_create_tributaries_flag }
 			NOT = { is_nomad = yes }
 			NOT = { religion_group = eastern }
-			NOT = { technology_group = chinese }
-			NOT = { technology_group = polynesian_tech }
+			NOT = { technology_group = eastasian }
 		}
 	}
 	on_granted = {

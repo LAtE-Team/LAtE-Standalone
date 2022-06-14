@@ -1,6 +1,5 @@
 lost_cultures_group = {
 	equine = {
-		primary = TRL
 
 		male_names = {
 			Spot Star Spirit Blaze Lucky Chief Rain Stormy Duke Traveler "Clever Hans" Dreamer Midnight Twilight Arion Carlos Triumph

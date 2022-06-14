@@ -82,12 +82,7 @@ americanist_theocracy = {
 	
 	trigger = {
 		government = theocracy
-		OR = {
-			religion = americanist
-			religion = hamiltonian
-			religion = jeffersonian
-			religion = libertarian
-		}
+		religion = americanist
 	}
 }
 atomicist_theocracy = {
@@ -135,10 +130,7 @@ consumerist_monarchy = {
 	
 	trigger = {
 		government = monarchy
-		OR = {
-			religion = consumerist
-			religion = monetarist
-		}
+		religion = consumerist
 	}
 }
 consumerist_republic = {
@@ -162,10 +154,7 @@ consumerist_republic = {
 	
 	trigger = {
 		government = republic
-		OR = {
-			religion = consumerist
-			religion = monetarist
-		}
+		religion = consumerist
 	}
 }
 consumerist_theocracy = {
