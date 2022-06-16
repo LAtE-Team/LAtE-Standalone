@@ -907,11 +907,18 @@ christian = {
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
 		
 		aspects = {
-			divorce_consort_aspect
-			gain_consort_aspect
-			dissolve_monasteries_aspect
-			monopoly_aspect
-			stability_aspect
+			anglican_divorce_consort
+			anglican_gain_consort
+			anglican_justify_reign
+			anglican_call_of_the_sea
+			anglican_mission_across_the_sea
+			anglican_request_budget_no_canterbury
+			anglican_request_budget_canterbury
+			anglican_request_budget_control_canterbury
+			anglican_monopoly
+			anglican_duchy_stability
+			anglican_kingdom_stability
+			anglican_empire_stability
 		}
 		aspects_name = ANGLICAN_ASPECTS
 		

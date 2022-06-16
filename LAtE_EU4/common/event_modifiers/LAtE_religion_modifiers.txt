@@ -14,3 +14,12 @@ rust_cult_armour_modifier_3 = {
 	fire_damage_received = -0.10
 	shock_damage_received = -0.10
 }
+
+anglican_stability_modifier = {
+	stability_cost_modifier = -0.5
+}
+
+anglican_colonial_modifier = {
+	native_assimilation = 0.25
+	colonist_placement_chance = 0.05
+}
