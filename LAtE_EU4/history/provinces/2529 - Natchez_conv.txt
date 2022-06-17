@@ -1,9 +1,9 @@
-owner = Z02
-controller = Z02
-add_core = Z02
+owner = OUA
+controller = OUA
+add_core = OUA
 
-culture = gulfard
-religion = catholic
+culture = dixie
+religion = protestant
 is_city = yes
 
 hre = yes

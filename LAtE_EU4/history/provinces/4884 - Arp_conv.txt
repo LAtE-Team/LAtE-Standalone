@@ -3,7 +3,7 @@ owner = CLR
 controller = CLR
 add_core = CLR
 culture = coloradan
-religion = catholic
+religion = trailwalker
 is_city = yes
 
 3053.1.1 = {
@@ -11,7 +11,7 @@ is_city = yes
 	base_tax = 0
 	base_production = 0
 	base_manpower = 0
-	
+}
 	
 	
 	

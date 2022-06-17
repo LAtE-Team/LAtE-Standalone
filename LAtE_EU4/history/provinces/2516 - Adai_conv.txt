@@ -3,10 +3,10 @@ controller = Z02
 add_core = Z02
 
 culture = creole
-religion = catholic
+religion = protestant
 is_city = yes
 
-hre = no
+hre = yes
 base_tax = 6
 base_production = 6
 base_manpower = 3

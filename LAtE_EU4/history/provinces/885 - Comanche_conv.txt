@@ -3,7 +3,7 @@ controller = COM
 add_core = COM
 
 culture = shoshone
-religion = catholic
+religion = trailwalker
 is_city = yes
 add_core = Y57
 

@@ -6,7 +6,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = southron
-religion = protestant
+religion = rust_cultist
 clear_scripted_personalities = yes
 capital = 949
 3038.8.9 = {
@@ -25,5 +25,4 @@ capital = 949
 	capital = 949
 	add_treasury = 15
 	add_prestige = 236
-	elector = no
 }

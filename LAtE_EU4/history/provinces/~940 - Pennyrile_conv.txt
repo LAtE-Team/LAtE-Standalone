@@ -1,0 +1,13 @@
+owner = X69
+controller = X69
+add_core = X69
+
+culture = riverlander
+religion = protestant
+is_city = yes
+
+
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2

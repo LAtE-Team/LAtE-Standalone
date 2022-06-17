@@ -1,0 +1,15 @@
+owner = Y88
+controller = Y88
+add_core = Y90 
+add_core = Y88
+
+culture = dakota
+religion = catholic
+is_city = yes
+add_permanent_claim = X00
+
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

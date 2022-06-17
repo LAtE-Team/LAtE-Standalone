@@ -1,0 +1,12 @@
+owner = Z02
+controller = Z02
+add_core = Z02
+
+culture = gulfard
+religion = catholic
+is_city = yes
+
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2

@@ -3,11 +3,11 @@ controller = X69
 add_core = X69
 
 culture = riverlander
-religion = protestant
+religion = catholic
 is_city = yes
 
 
-hre = yes
+hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2

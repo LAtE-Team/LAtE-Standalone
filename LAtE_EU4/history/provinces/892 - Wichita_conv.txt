@@ -3,7 +3,7 @@ controller = COM
 add_core = COM
 
 culture = navajo
-religion = catholic
+religion = trailwalker
 is_city = yes
 
 hre = no

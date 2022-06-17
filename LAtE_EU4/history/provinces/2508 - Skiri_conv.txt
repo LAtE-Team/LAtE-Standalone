@@ -3,7 +3,7 @@ controller = Y86
 add_core = Y86
 
 culture = grangelander
-religion = catholic
+religion = trailwalker
 is_city = yes
 
 

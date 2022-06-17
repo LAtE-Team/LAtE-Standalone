@@ -1,0 +1,12 @@
+owner = Z28
+controller = Z28
+add_core = Z28
+
+culture = riverlander
+religion = protestant
+is_city = yes
+
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2

@@ -3,7 +3,7 @@ owner = Y85
 controller = Y85
 add_core = Y85
 culture = shoshone
-religion = catholic
+religion = trailwalker
 is_city = yes
 add_permanent_claim = COM
 
@@ -12,8 +12,7 @@ add_permanent_claim = COM
 	base_tax = 4
 	base_production = 4
 	base_manpower = 2
-	
-	
+}
 	
 	
 	

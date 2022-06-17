@@ -3,7 +3,7 @@ owner = Z01
 controller = Z01
 add_core = Z01
 culture = riverlander
-religion = protestant
+religion = catholic
 is_city = yes
 
 3053.1.1 = {
@@ -11,7 +11,7 @@ is_city = yes
 	base_tax = 4
 	base_production = 4
 	base_manpower = 2
-	
+}
 	
 	
 	

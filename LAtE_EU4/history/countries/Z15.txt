@@ -6,7 +6,7 @@ government_rank = 1
 mercantilism = 0.1
 technology_group = eastern
 primary_culture = appalachian
-religion = protestant
+religion = rust_cultist
 clear_scripted_personalities = yes
 capital = 4710
 3053.1.1= {
@@ -19,9 +19,6 @@ capital = 4710
 		mil = 1
 	}
 	add_ruler_personality = charismatic_negotiator_personality
-}
-3053.1.1 {
-	capital = 4710
 	add_treasury = 19
 	add_prestige = 30
 	elector = no

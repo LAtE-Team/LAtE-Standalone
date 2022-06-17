@@ -1,0 +1,14 @@
+owner = MUS
+controller = MUS
+add_core = MUS
+
+culture = ojibwe
+religion = ursuline
+is_city = yes
+
+
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+trade_goods = naval_supplies

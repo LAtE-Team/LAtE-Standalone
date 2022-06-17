@@ -25,5 +25,5 @@ capital = 2011
 	capital = 2011
 	add_treasury = 30
 	add_prestige = 244
-	elector = no
+	elector = yes
 }

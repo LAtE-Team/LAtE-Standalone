@@ -1,0 +1,19 @@
+owner = ARR
+controller = ARR
+add_core = ARR
+
+culture = cree
+religion = ursuline
+is_city = yes
+
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = salt
+
+add_permanent_province_modifier = {
+	name = nottoway_estuary_modifier
+	duration = -1
+}

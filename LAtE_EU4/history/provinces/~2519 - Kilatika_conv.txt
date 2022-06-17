@@ -1,0 +1,15 @@
+owner = ORD
+controller = ORD
+add_core = ORD
+
+culture = chicagoan
+religion = catholic
+is_city = yes
+add_core = Y36
+
+
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = livestock
