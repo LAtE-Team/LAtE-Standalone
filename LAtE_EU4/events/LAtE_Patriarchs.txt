@@ -4,6 +4,7 @@
 ###########################################
 
 namespace = patriarch_events
+#Update LOC
 
 # Local Saints and Feasts
 country_event = {
@@ -14,11 +15,11 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		religion = orthodox
+		religion = americanist
 		any_owned_province = {
 			has_state_patriach = yes
 			has_owner_culture = no
-			religion = orthodox
+			religion = americanist
 		}
 	}
 	
@@ -34,7 +35,7 @@ country_event = {
 				limit = {
 					has_state_patriach = yes
 					has_owner_culture = no
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_saint_state_province
 			}
@@ -73,11 +74,11 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		religion = orthodox
+		religion = americanist
 		any_owned_province = {
 			has_state_patriach = yes
 			is_in_capital_area = yes
-			religion = orthodox
+			religion = americanist
 		}
 	}
 	
@@ -93,7 +94,7 @@ country_event = {
 				limit = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_see_province
 			}
@@ -102,7 +103,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 10
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_see_province
 			}
@@ -111,7 +112,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 20
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_see_province
 			}
@@ -120,7 +121,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 25
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_see_province
 			}
@@ -129,7 +130,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 30
-					religion = orthodox
+					religion = americanist
 				}
 				save_event_target_as = local_see_province
 			}
@@ -170,10 +171,10 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		religion = orthodox
+		religion = americanist
 		any_owned_province = {
 			has_state_patriach = yes
-			religion = orthodox
+			religion = americanist
 			is_in_capital_area = yes
 			NOT = {
 				has_province_modifier = orthodox_cathedral
@@ -199,7 +200,7 @@ country_event = {
 				limit = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
-					religion = orthodox
+					religion = americanist
 					NOT = {
 						has_province_modifier = orthodox_cathedral
 					}
@@ -217,7 +218,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 10
-					religion = orthodox
+					religion = americanist
 					NOT = {
 						has_province_modifier = orthodox_cathedral
 					}
@@ -235,7 +236,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 20
-					religion = orthodox
+					religion = americanist
 					NOT = {
 						has_province_modifier = orthodox_cathedral
 					}
@@ -253,7 +254,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 25
-					religion = orthodox
+					religion = americanist
 					NOT = {
 						has_province_modifier = orthodox_cathedral
 					}
@@ -271,7 +272,7 @@ country_event = {
 					has_state_patriach = yes
 					is_in_capital_area = yes
 					development = 30
-					religion = orthodox
+					religion = americanist
 					NOT = {
 						has_province_modifier = orthodox_cathedral
 					}
@@ -318,11 +319,11 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		religion = orthodox
+		religion = americanist
 		any_owned_province = {
 			has_state_patriach = yes
 			is_capital = no
-			religion = orthodox
+			religion = americanist
 			is_in_capital_area = yes
 			has_owner_culture = no
 			NOT = {
@@ -346,7 +347,7 @@ country_event = {
 				limit = {
 					has_state_patriach = yes
 					is_capital = no
-					religion = orthodox
+					religion = americanist
 					is_in_capital_area = yes
 					has_owner_culture = no
 					NOT = {
@@ -397,11 +398,11 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Third Rome"
-		religion = orthodox
+		religion = americanist
 		any_owned_province = {
 			has_state_patriach = yes
 			is_capital = no
-			religion = orthodox
+			religion = americanist
 			is_in_capital_area = yes
 			NOT = { has_province_flag = land_theft_from_monastics }
 		}
@@ -419,7 +420,7 @@ country_event = {
 				limit = {
 					has_state_patriach = yes
 					is_capital = no
-					religion = orthodox
+					religion = americanist
 					is_in_capital_area = yes
 					NOT = { has_province_flag = land_theft_from_monastics }
 				}
