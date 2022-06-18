@@ -3488,7 +3488,7 @@ emporia_area = { # Emporia
 	4682 5061 5062
 }
 
-nova_area = { NoVA
+nova_area = { # NoVA
 	5056 5058 5059
 }
 

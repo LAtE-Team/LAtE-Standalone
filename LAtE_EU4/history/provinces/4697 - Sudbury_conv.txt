@@ -3,7 +3,7 @@ controller = SHD
 add_core = SHD
 
 culture = ontarois
-religion = anglican
+religion = ursuline
 is_city = yes
 
 

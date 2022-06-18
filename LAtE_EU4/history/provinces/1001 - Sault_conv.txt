@@ -3,7 +3,7 @@ controller =  ALG #Algoma
 add_core =  ALG #Algoma
 
 culture = ojibwe
-religion = anglican
+religion = midewiwin
 is_city = yes
 
 

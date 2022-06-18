@@ -4,7 +4,7 @@ add_core = MRT
 add_core = ARO
 
 culture = acadien
-religion = occultist
+religion = anglican
 is_city = yes
 
 
