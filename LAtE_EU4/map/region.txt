@@ -1331,6 +1331,9 @@ mexico_region = {
 		sinaloa_area
 		sonora_y_sinaloa_area
 		istmo_area
+		rio_grande_area
+		northeast_mexico_area
+		chihuahua_area
 	}
 	monsoon = {
 		00.06.01
@@ -1338,15 +1341,19 @@ mexico_region = {
 	}
 }
 
-rio_grande_region = {
+texas_region = {
 	areas = {
-		rio_grande_area
-		northeast_mexico_area
-		texas_area
-		coastal_prarie_area
+		arklatexas_area
+		lower_rio_grande_area
 		pecos_area
 		llano_estacado_area
-		chihuahua_area
+		piney_woods_area 
+		greater_austin_area
+		edwards_brush_area
+		houston_coast_area
+		metroplex_area
+		waco_area
+		
 	}
 	monsoon = {
 		00.06.01

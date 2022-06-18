@@ -1,0 +1,12 @@
+owner = TXK
+controller = TXK
+add_core = TXK
+
+culture = texan
+religion = catholic
+is_city = yes
+
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2

@@ -1,0 +1,12 @@
+owner = OUA
+controller = OUA
+add_core = OUA
+
+culture = texan
+religion = catholic
+is_city = yes
+
+hre = yes
+base_tax = 1
+base_production = 2
+base_manpower = 2

@@ -1,0 +1,14 @@
+ck2_converter_generated = yes
+owner = HOU
+controller = HOU
+add_core = HOU
+culture = texan
+religion = consumerist
+is_city = yes
+
+3053.1.1 = {
+	hre = no
+	base_tax = 2
+	base_production = 3
+	base_manpower = 1
+}

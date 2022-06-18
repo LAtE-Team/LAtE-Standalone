@@ -1,0 +1,16 @@
+ck2_converter_generated = yes
+owner = Y52
+controller = Y52
+add_core = Y52
+culture = shoshone
+religion = sacred_heart
+is_city = yes
+add_permanent_claim = COM
+
+3053.1.1 = {
+	hre = no
+	base_tax = 2
+	base_production = 3
+	base_manpower = 1
+	
+}
