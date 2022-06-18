@@ -1,13 +1,13 @@
 ck2_converter_generated = yes
-owner = Z01
-controller = Z01
-add_core = Z01
+owner = Z28
+controller = Z28
+add_core = Z28
 culture = riverlander
 religion = catholic
 is_city = yes
 
 3053.1.1 = {
-	hre = yes
+	hre = no
 	base_tax = 4
 	base_production = 4
 	base_manpower = 2

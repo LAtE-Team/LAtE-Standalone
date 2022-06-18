@@ -1,0 +1,13 @@
+owner = OUA
+controller = OUA
+add_core = OUA
+
+culture = creole
+religion = catholic
+is_city = yes
+capital = "De Soto"
+
+hre = yes
+base_tax = 1
+base_production = 2
+base_manpower = 1

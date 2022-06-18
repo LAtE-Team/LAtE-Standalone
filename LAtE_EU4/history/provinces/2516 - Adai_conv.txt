@@ -2,7 +2,7 @@ owner = Z02
 controller = Z02
 add_core = Z02
 
-culture = creole
+culture = cajun
 religion = protestant
 is_city = yes
 

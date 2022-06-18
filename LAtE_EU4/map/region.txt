@@ -1232,6 +1232,7 @@ mississippi_region = {
 	areas = {
 		lower_louisiana_area
 		upper_louisiana_area
+		uper_louisiana_area
 		mississippi_plain_area
 		ozarks_area
 		#AtE Additions

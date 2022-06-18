@@ -1,0 +1,13 @@
+owner = Z02
+controller = Z02
+add_core = Z02
+
+culture = cajun
+religion = catholic
+is_city = yes
+capital = "Lac Charles"
+
+hre = yes
+base_tax = 2
+base_production = 1
+base_manpower = 3

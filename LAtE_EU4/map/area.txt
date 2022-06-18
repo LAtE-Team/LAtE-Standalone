@@ -2824,7 +2824,7 @@ west_florida_area = { #5
 }
 
  mississippi_area = { #4
-	919 920 2528 2529
+	919 920 2528 2529 5065
  }
 
 # choctaw_area = { #3
@@ -2863,13 +2863,6 @@ west_florida_area = { #5
 	# 912 913 914
 # }
 
-# lower_louisiana_area = { # 3
-	# 893 2014 2516 
-# }
-
-# upper_louisiana_area = { #4
-	# 900 902 2513 2514
-# }
 
 ozarks_area = { #3
 	899 2509 2515
@@ -3440,7 +3433,11 @@ upper_louisiana_area = { #4
 }
 
 lower_louisiana_area = { # 3
-	893 2014 2516 4885
+	893 2516 5063
+}
+
+uper_louisiana_area = { # confusing but I dont want to mess with the other thing
+	2014 4885 5064
 }
 
 #North West
