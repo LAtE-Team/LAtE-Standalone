@@ -3,7 +3,7 @@ controller = ARR
 add_core = ARR
 
 culture = cree
-religion = midewiwin
+religion = ursuline
 is_city = yes
 
 

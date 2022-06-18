@@ -3,7 +3,7 @@ controller = MUS
 add_core = MUS
 
 culture = ojibwe	
-religion = ursuline
+religion = midewiwin
 is_city = yes
 
 

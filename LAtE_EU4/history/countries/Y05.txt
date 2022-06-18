@@ -3,12 +3,11 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = eastern
 primary_culture = southron
 religion = americanist
 clear_scripted_personalities = yes
-capital = 2529
+capital = 2553
 3047.3.29 = {
 	monarch = {
 		name = "Melanie"
@@ -20,10 +19,4 @@ capital = 2529
 		mil = 3
 	}
 	add_ruler_personality = strict_personality
-}
-3053.1.1 {
-	capital = 2529
-	add_treasury = 33
-	add_prestige = 108
-	elector = no
 }

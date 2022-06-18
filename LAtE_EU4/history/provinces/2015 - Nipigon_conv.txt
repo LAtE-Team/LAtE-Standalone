@@ -3,7 +3,7 @@ controller =  THN
 add_core =  THN
 
 culture = ontarian
-religion = midewiwin
+religion = anglican
 is_city = yes
 
 
