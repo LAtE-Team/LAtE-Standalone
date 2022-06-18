@@ -2820,7 +2820,7 @@ iroquoisia_area = { #5
 }
 
 west_florida_area = { #5
-	921 922 923 2530 2533
+	921 922 923 2530 5066
 }
 
  mississippi_area = { #4
@@ -3541,11 +3541,15 @@ sowega_area = {
 }
 
 wiregrass_area = {
-	4669 4671 4672 
+	4669 4671 4672 2533
 }
 
 alabama_area = { #Black March
 	924 925 2532 4678 
+}
+
+highland_rim_area = {
+	4681 2531
 }
 
 birmingham_area = {
@@ -3553,11 +3557,11 @@ birmingham_area = {
 }
 
 choctaw_area = { #West Tennessee
-	918 934 4681 4709 939
+	918 4709 939
 }
 
 east_tennessee_area = {
-	2527 2531 4710
+	2527 4710 934
 }
 
 #Chesapeake

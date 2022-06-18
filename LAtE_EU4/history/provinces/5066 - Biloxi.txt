@@ -1,0 +1,12 @@
+owner = Z33
+controller = Z33
+add_core = Z33
+
+culture = gulfard
+religion = protestant
+is_city = yes
+
+hre = yes
+base_tax = 6
+base_production = 6
+base_manpower = 3

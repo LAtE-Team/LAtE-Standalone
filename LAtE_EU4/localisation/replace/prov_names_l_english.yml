@@ -2527,7 +2527,7 @@
  PROV2527:0 "Murfreesboro"	#Was Chickamauga
  PROV2528:0 "Yazoo"	
  PROV2529:0 "Natchez"
- PROV2530:0 "Tallahoma"	#Was Biloxi
+ PROV2530:0 "Tallahoma"
  PROV2531:0 "Huntsville" #Was Napochi
  PROV2532:0 "Conecuh"	#Was Tohome
  PROV2533:0 "Chatot"
@@ -4002,3 +4002,4 @@
  PROV5063:0 "Les'lacs"
  PROV5064:0 "Natichotches"
  PROV5065:0 "Tupelo"
+ PROV5066:0 "Biloxi"
