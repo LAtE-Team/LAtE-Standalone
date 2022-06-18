@@ -1196,6 +1196,7 @@ atlantica_region = {
 		niagara_area
 		gotham_area
 		actual_susquehanna_area
+		the_sidelings_area
 	}
 }
 
@@ -1608,6 +1609,8 @@ grand_virginia_region = {
 		south_appalachia_area
 		choctaw_area
 		east_tennessee_area
+		nova_area
+		emporia_area
 	}
 }
 

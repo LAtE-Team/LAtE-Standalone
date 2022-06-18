@@ -3484,11 +3484,19 @@ snake_river_area = {
 #The South
 
 chesapeake_area = { #Virginia
-	950 952 2550 4683 4682
+	950 952 2550 4683 5060
+}
+
+emporia_area = { # Emporia
+	4682 5061 5062
+}
+
+nova_area = { NoVA
+	5056 5058 5059
 }
 
 great_valley_area = { #Shenadoah
-	949 2011 2549 2553 
+	949 2011 2549 
 }
 
 piedmont_north_america_area = { #3
@@ -3569,11 +3577,16 @@ delaware_valley_area = { #5
 	956 2023 4621 4622 4582
 }
 
+the_sidelings_area = { #The Sidelings
+	2553 5057
+}
+
 #Appalachia
 
 south_appalachia_area = { #Overmountain
-	 2548 941 935
+	2548 941 935
 }
+
 
 #Australia
 
