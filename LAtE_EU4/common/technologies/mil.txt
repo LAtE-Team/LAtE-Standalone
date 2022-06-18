@@ -65,6 +65,10 @@ technology = {
 	enable = vaquero_cavalry
 	enable = eurasian_samurai_warrior
 	enable = fareastern_cossack
+	enable = southeast_asian_ambushers
+	enable = elephant_crossbowmen
+	enable = noble_cavalry
+	enable = noble_warriors
 }
 
 technology = {
@@ -142,6 +146,7 @@ technology = {
 	enable = machetero_infantry
 	enable = mexican_standoff_infantry
 	enable = reformed_samurai_warrior
+	enable = southeast_asian_arquebusiers
 	
 	combat_width = 2
 }
@@ -172,6 +177,7 @@ technology = {
 	enable = gendarmerie_cavalry
 	enable = mexican_skirmish_cavalry
 	enable = eurasian_samurai_cavalry
+	enable = elephant_swivel_gunners
 	
 	combat_width = 2
 }
@@ -231,6 +237,8 @@ technology = {
 	enable = zebenya_infantry
 	enable = cuauhocelotl_warriors
 	enable = eurasian_streltsy
+	enable = istinggar_musketeers
+	enable = jiaozhi_musketeers
 	
 	military_tactics 	= 	0.25
 	combat_width = 1	
@@ -266,6 +274,7 @@ technology = {
 	enable = lancero_cavalry
 	enable = reformed_vaquero_cavalry
 	enable = reformed_fareastern_cossack
+	enable = elephant_cannoneers
 }
 
 technology = {
@@ -311,6 +320,7 @@ technology = {
 	enable = guerilla_infantry
 	enable = mexican_musketeer
 	enable = neo_soldaty_infantry
+	enable = ambush_musketeers
 }
 
 technology = {
@@ -361,6 +371,7 @@ technology = {
 	enable = reformed_russian_musketeers
 	enable = mexican_musketeer_cavalry
 	enable = eurasian_hussar
+	enable = southeast_asian_cavalry
 	
 	combat_width = 2
 }
@@ -390,6 +401,7 @@ technology = {
 	enable = improved_digger
 	enable = katua_o_digger
 	enable = mexican_guerilla_infantry
+	enable = levy_line_infantry
 }
 
 technology = {
@@ -429,6 +441,7 @@ technology = {
 	supply_limit		= 	0.5	
 	
 	enable = grossense_banner		
+	enable = reformed_southeast_asian_cavalry
 }
 
 technology = {
@@ -492,6 +505,7 @@ technology = {
 	enable = siberian_insurgent_infantry
 	enable = reformed_ballestero_infantry
 	enable = eurasian_swarm_cavalry
+	enable = southeast_asian_mass_infantry
 }
 
 technology = {
@@ -599,6 +613,7 @@ technology = {
 	enable = mexican_dragoon
 	enable = americanized_streltsy_infantry
 	enable = eurasian_dragoon
+	enable = southeast_asian_dragoons
 }
 
 technology = {
@@ -684,6 +699,8 @@ technology = {
 	enable = advanced_lancero_cavalry
 	enable = mexican_mass_infantry
 	enable = reformed_americanized_streltsy_infantry
+	enable = southeast_asian_guerrillas
+	enable = southeast_asian_drill_infantry
 	
 	combat_width = 2
 }
@@ -739,6 +756,8 @@ technology = {
 	enable = caribbean_dragoons
 	enable = chilango_cavalry
 	enable = mexican_mounted_artillery
+	enable = americanized_southeast_asian_dragoons
+	enable = africanized_southeast_asian_dragoons
 }
 
 technology = {
