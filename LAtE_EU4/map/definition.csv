@@ -2528,7 +2528,7 @@ province;red;green;blue;x;x
 2527;202;202;46;Chickamauga;x
 2528;34;122;246;Yazoo;x
 2529;160;221;196;Natchez;x
-2530;97;12;145;Biloxi;x
+2530;97;12;145;Tallahoma;x
 2531;223;132;95;Napochi;x
 2532;55;131;46;Tohome;x		#Conecuh
 2533;181;201;246;Chatot;x
@@ -4926,3 +4926,4 @@ province;red;green;blue;x;x
 5063;160;155;255;Les'lacs;x
 5064;201;255;208;Natichotches;x
 5065;183;106;163;Tupelo;x
+5066;153;93;98;Biloxi;x

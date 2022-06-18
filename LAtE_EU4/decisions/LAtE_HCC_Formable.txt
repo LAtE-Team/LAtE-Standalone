@@ -141,6 +141,13 @@ country_decisions = {
 				}
 				add_permanent_claim = root
 			}
+			highland_rim_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

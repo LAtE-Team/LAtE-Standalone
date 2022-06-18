@@ -1219,6 +1219,7 @@ southeast_america_region =  {
 		wiregrass_area
 		west_florida_area
 		alabama_area
+		highland_rim_area
 		birmingham_area
 		mississippi_area
 	}
