@@ -3,10 +3,11 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 1
-mercantilism = 0.1
 technology_group = western
 primary_culture = chilango
-religion = sacred_heart
+religion = consumerist
+religious_school = bank_school
+
 clear_scripted_personalities = yes
 capital = 2497
 3053.1.1= {
@@ -30,9 +31,4 @@ capital = 2497
 		mil = 1
 	}
 	add_heir_personality = craven_personality
-}
-3053.1.1 {
-	capital = 2497
-	add_treasury = 175
-	add_prestige = 152
 }

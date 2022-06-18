@@ -2808,6 +2808,103 @@ oldworld = {
 			trade_efficiency = 0.05
 		}
 		heretic = { MONETARIST }
+
+		uses_judaism_power = yes
+		aspects_name = CONSUMERIST_ASPECTS
+			
+		aspects = {
+			consumerist_reatail_therapy
+			consumerist_invisible_hand
+			consumerist_customer_is_always_right
+			consumerist_inteligent_investing
+			consumerist_passive_income
+			consumerist_smart_spending
+			consumerist_communities_aspect
+			consumerist_synergy
+			consumerist_marketing
+			consumerist_manpower
+			consumerist_defensiveness
+			consumerist_morale
+		}
+
+		celebrate = {
+			cost = 200
+			potential = {
+			}
+			allow = {
+				custom_trigger_tooltip = {
+					tooltip = JUDAISM_HAS_ADM_ASPECT
+					OR = {
+						has_church_aspect = consumerist_reatail_therapy
+						has_church_aspect = consumerist_invisible_hand
+						has_church_aspect = consumerist_customer_is_always_right
+						has_church_aspect = consumerist_inteligent_investing
+						has_church_aspect = consumerist_passive_income
+						has_church_aspect = consumerist_smart_spending
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = consumerist_reatail_therapy
+					}
+					NOT = { stability = 3 }
+				}
+				if = {
+					limit = {
+						has_church_aspect = consumerist_customer_is_always_right
+					}
+				}
+			}
+			effect = {
+				if = {
+					limit = {
+						has_church_aspect = consumerist_reatail_therapy
+					}
+					add_stability = 1
+				}
+				if = {
+					limit = {
+						has_church_aspect = consumerist_smart_spending
+					}
+					change_government_reform_progress = 20
+					add_legitimacy_equivalent = {
+						amount = 5
+						republican_tradition = 5
+					}
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						add_heir_claim = 5
+					}
+				}
+				if = {
+					limit = {
+						has_church_aspect = consumerist_inteligent_investing
+					}
+					add_years_of_income = 0.3
+					add_inflation = -1
+				}
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					OR = {
+						AND = {
+							NOT = { has_church_aspect = judaism_communities_aspect }
+							NOT = { has_church_aspect = jewish_abrahamic_aspect }
+							NOT = { has_church_aspect = judaism_diplomatic_rabbi_aspect }
+						}
+						AND = {
+							NOT = { has_church_aspect = judaism_yom_kippur_aspect }
+							NOT = { has_church_aspect = judaism_remember_passover_aspect }
+							NOT = { has_church_aspect = judaism_purim_teachings_aspect }
+						}
+					}
+				}
+			}
+		}
 	}
 
     atomicist = {

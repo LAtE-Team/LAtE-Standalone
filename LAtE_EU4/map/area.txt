@@ -3980,9 +3980,6 @@ western_aegean_area = {
 odishi_area = {
 }
 
-georgia_area = {
-}
-
 rakka_area = {
 }
 
@@ -4009,14 +4006,6 @@ east_altishahr_area = {
 
 }
 
-amnok_area = {
-
-}
-
-north_korea_area = {
-
-}
-
 hejaz_area = {
 
 }
@@ -4027,13 +4016,11 @@ sarat_area = {
 
 ad_dahna_area = {}
 
-najd_area = {}
-
 kongo_area = {}
 
 kanem_area = {}
 
-munster_area {}
+munster_area = {}
 connacht_area = {}
 leinster_area = {}
 ulster_area = {}

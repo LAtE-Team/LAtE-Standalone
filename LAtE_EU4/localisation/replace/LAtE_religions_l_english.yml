@@ -144,7 +144,7 @@
  anabaptist_rebels_demand: "Convert $COUNTRYNAME$"
  anabaptist_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  anabaptist_rebels_title: "Religious"
- anabaptist_rebels_name: "$RELIGION$ Zealots"
+ anabaptist_rebels_name: "Batenburger Zealots"
  anabaptist_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  anabaptist_rebels_army: "$RELIGION$ Army"
  batenburger: "Neo-Batenburgers"
@@ -608,6 +608,10 @@
  consumerist_rebels_name: "$RELIGION$ Zealots"
  consumerist_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  consumerist_rebels_army: "$RELIGION$ Army"
+
+ SYNAGOGUE_OF:0 "Temple of $COUNTRY$"
+ SYNAGOGUE_POWER:0 "Faith Power: $POWER|Y$"
+
  monetarist: "Monetarist"
  monetarist_religion_desc: "Monetarists split from Consumerists over a disagreement as to the correct way to honor the Almighty Dollar. Monetarists reject the Consumerist ritual of retail therapy and reverance of the Invisible Hand and hold that the Almighty Dollar is best served by the accumulation of wealth."
  monetarist_rebels_demand: "Convert $COUNTRYNAME$"
