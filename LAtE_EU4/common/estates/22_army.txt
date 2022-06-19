@@ -112,8 +112,25 @@ estate_army =
 		}
 		loyalty = 5
 	}
-	
-	#Alternative naming of estates
+
+	#Names - LAtE
+	custom_name = {
+		desc = estate_guards
+		trigger = {
+			OR = {
+				religion = atomicist
+			}
+		}
+	}
+
+	custom_name = {
+		desc = estate_police
+		trigger = {
+			OR = {
+				religion = rust_cultist
+			}
+		}
+	}
 	
 	color = { 65 115 240 }
 	

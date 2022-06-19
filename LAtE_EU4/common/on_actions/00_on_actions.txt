@@ -3249,6 +3249,24 @@ on_revoke_estate_land = {
 	}
 	if = {
 		limit = {
+			has_estate = estate_cowboys
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_cowboys
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = cowboy_rebels
+			size = 1
+		}
+		province_event = { id = cowboys_estate_events.15 }
+	}	
+	if = {
+		limit = {
 			has_estate = estate_dhimmi
 			owner = {
 				NOT = {
@@ -3468,6 +3486,134 @@ on_revoke_estate_land = {
 			size = 1
 		}
 		province_event = { id = marathas_estate_events.1 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_scavengers
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_scavengers
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = particularist_rebels
+			size = 1
+		}
+		province_event = { id = scavengers_estate_events.8 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_anabaptists
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_anabaptists
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = anabaptist_rebels
+			size = 1
+		}
+		province_event = { id = anabaptists_estate_events.1 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+			has_owner_religion = yes
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = religious_rebels
+			size = 1
+		}
+		province_event = { id = antiquarians_estate_events.11 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_antiquarians
+			has_owner_religion = no
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_antiquarians
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = particularist_rebels
+			size = 1
+		}
+		province_event = { id = antiquarians_estate_events.11 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_unions
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_unions
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = particularist_rebels
+			size = 1
+		}
+		province_event = { id = unions_estate_events.1 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_army
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_army
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = noble_rebels
+			size = 1
+		}
+		province_event = { id = army_estate_events.12 }
+	}
+	if = {
+		limit = {
+			has_estate = estate_press
+			owner = {
+				NOT = {
+					estate_loyalty = {
+						estate = estate_press
+						loyalty = 40
+					}
+				}
+			}
+		}
+		spawn_rebels = {
+			type = particularist_rebels
+			size = 1
+		}
+		province_event = { id = press_estate_events.1 }
 	}
 }
 

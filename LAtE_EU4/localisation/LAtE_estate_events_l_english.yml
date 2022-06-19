@@ -49,7 +49,7 @@
 
  #Anabaptists
  anabaptists_estate_events.1.t: "Revolt of the [Root.GetName] Anabaptists"
- anabaptists_estate_events.1.d: "Inspired by Batenburgers, the local Anabaptist population of the [Root.GetName] province have taken up arms against us due to the revocation of their privileges!"
+ anabaptists_estate_events.1.d: "Led by Batenburgers, the local Anabaptist population of the [Root.GetName] province have taken up arms against us due to the revocation of their privileges!"
  anabaptists_estate_events.1.a: "Ok."
  EST_VAL_ANA_ADVANCE: "Advancement of the Anabaptist Community: §Y$VAL$%§!"
  EST_VAL_ANA_DECLINE: "Decline of the Anabaptist Community: §Y$VAL$%§!"

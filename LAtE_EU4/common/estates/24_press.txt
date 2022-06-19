@@ -100,6 +100,16 @@ estate_press = {
 		loyalty = -20
 	}
 
+	#Names - LAtE
+	custom_name = {
+		desc = estate_publishers
+		trigger = {
+			OR = {
+				religion = atomicist
+			}
+		}
+	}
+
 	privileges = {
 		estate_press_land_rights
 		estate_press_diplomacy

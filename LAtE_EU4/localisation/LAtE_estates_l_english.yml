@@ -199,6 +199,12 @@
  desc_estate_cowboys_prime_herding_rights_mod: "We have granted the Cowboys full grazing rights over all steppe land in return for them offering more conscripts for our armies."
  cowboys_loyalty_modifier: "[Root.GetCowboysName] Loyalty Equilibrium"
  cowboys_influence_modifier: "[Root.GetCowboysName] Influence"
+ cowboy_rebels_name: "$COUNTRY$ Cowboys"
+ cowboy_rebels_title: "Cowboy Rebels"
+ cowboy_rebels_desc: "Cowboy Rebels seek to establish their own rule over the plains."
+ cowboy_rebels_army: "Gang"
+ cowboy_rebels_demand: "Increased Autonomy"
+ cowboy_rebels_demand_desc: "The Cowboys demand the right of recognition and to be able to rule themselves according to their own traditions."
 
  #Cowboys Agendas:
  estate_privileges_and_agendas_events.3.cb: "The Proposal of the [Root.GetCowboysName]"
@@ -248,6 +254,9 @@
  curtail_estate_antiquarians_desc: "Our state [Root.GetAntiquariansName] wields a great deal of influence over the secular matters of the state. To limit their influence on state matters we will need to curtail their power and privileges."
  estate_antiquarians_disaster: "Antiquarian Coup"
  estate_antiquarians_disaster_desc: "The Antiquarian have grown so powerful they assumed de facto control over our country"
+ estate_judges: "Judges"
+ estate_researchers: "Researchers"
+ estate_engineers: "Engineers"
 
  #Antiquarians Privileges
  estate_antiquarians_land_rights: "$ESTATE_NAME$ Land Rights"
@@ -321,6 +330,8 @@
  curtail_estate_army_desc: "Our government is run by and for the [Root.GetArmyName]. To adopt a more centralized administration we will need to curtail their power and privileges."
  estate_army_disaster: "Army Coup"
  estate_army_disaster_desc: "The Army have grown so powerful they assumed de facto control over our country"
+ estate_guards: "Guards"
+ estate_police: "Police"
 
  #Army Privileges
  estate_army_land_rights: "$ESTATE_NAME$ Land Rights"
@@ -408,6 +419,7 @@
  curtail_estate_unions_desc: "Through bribery and corruption, the [Root.GetUnionsName] have a stranglehold on our government. To seize control back from them we will need to curtail their power and privileges."
  estate_unions_disaster: "Union Coup"
  estate_unions_disaster_desc: "The Unions have grown so powerful they assumed de facto control over our country"
+ estate_employees: "Employees"
 
  #Unions Privileges
  estate_unions_land_rights: "$ESTATE_NAME$ Land Rights"
@@ -488,6 +500,7 @@
  curtail_estate_press_desc: "The [Root.GetPressName] have a stranglehold on our government. To seize control back from them we will need to curtail their power and privileges."
  estate_press_disaster: "Press Coup"
  estate_press_disaster_desc: "The Press have grown so powerful they assumed de facto control over our country"
+ estate_publishers: "Publishers"
 
  #Press Privileges
  estate_press_land_rights: "$ESTATE_NAME$ Land Rights"
