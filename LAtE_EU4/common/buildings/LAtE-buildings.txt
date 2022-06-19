@@ -4,9 +4,12 @@ scavenging_hub = {
 	time = 12
 
 	build_trigger = {
-		OR = {
-			owner = { religion_group = oldworld }
-			owner = { has_estate_privilege = estate_scavengers_state_bands }
+		custom_trigger_tooltip = {
+			tooltip = SCAVENGING_HUB_TT
+			OR = {
+				owner = { religion_group = oldworld }
+				owner = { has_estate_privilege = estate_scavengers_state_bands }
+			}
 		}
 	}
 

@@ -7,7 +7,8 @@ estate_scavengers_state_bands = {
     penalties = {
         global_manpower_modifier = -0.05
     }
-    benefits = {
+    on_granted = {
+        custom_tooltip = STATE_BANDS_TT
     }
     ai_will_do = {
         factor = 10
