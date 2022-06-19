@@ -1,7 +1,7 @@
 # Mandelaku Cavalry
 
 type = cavalry
-unit_type = sub_saharan
+unit_type = west_african
 
 maneuver = 2	
 offensive_morale = 1

@@ -1,6 +1,6 @@
 # Americanized South African Infantry
 
-unit_type = sub_saharan
+unit_type = west_african
 type = infantry
 
 maneuver = 1

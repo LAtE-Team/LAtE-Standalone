@@ -176,17 +176,16 @@ groups = {
 	west_african = {
 		start_level = 3
 		start_cost_modifier = 0.65
-		nation_designer_unit_type = sub_saharan
 	}
 	south_african = {
 		start_level = 3
 		start_cost_modifier = 0.65
-		nation_designer_unit_type = sub_saharan
+		nation_designer_unit_type = west_african
 	}
 	east_african = {
 		start_level = 2
 		start_cost_modifier = 0.65
-		nation_designer_unit_type = sub_saharan
+		nation_designer_unit_type = west_african
 	}
 	south_east_asian = {
 		start_level = 1
