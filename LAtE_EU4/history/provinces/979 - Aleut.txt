@@ -3,24 +3,14 @@
 owner = NRA
 controller = NRA
 add_core = NRA
+
 culture = novorusskiy
 religion = nousthreskeia
-capital = "Aleut"
-trade_goods = unknown
-hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 2
-native_size = 5
-native_ferocity = 1 
-native_hostileness = 6 
 is_city = yes
+capital = "Aleut"
 
-
-
-
-
-
-
-
-
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = fish

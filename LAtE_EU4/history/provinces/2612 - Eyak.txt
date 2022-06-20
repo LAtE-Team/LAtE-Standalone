@@ -3,23 +3,15 @@
 owner = NRA
 controller = NRA
 add_core = NRA
+
 culture = novorusskiy
 religion = nousthreskeia
-capital = "Eyak"
-trade_goods = unknown
-hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 3
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
 is_city = yes
+capital = "Eyak"
 
 
-
-
-
-
-
-
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+trade_goods = naval_supplies

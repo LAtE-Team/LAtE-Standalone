@@ -1,7 +1,5 @@
 #4175 - Lezhe, Scuttari, Northern Albania
 
-#owner = ALB
-#controller = ALB
 culture = albanian
 religion = hellenic_pagan #for now
 capital = "Lezh�"
@@ -11,7 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = no
-#add_core= ALB
 
  
 

@@ -3,22 +3,14 @@
 owner = HDA
 controller = HDA
 add_core = HDA
+
 culture = haida
 religion = raven_tales
-capital = "Quileute"
-trade_goods = fur
-hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 3
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
 is_city = yes
+capital = "Quileute"
 
-
-
-
-
-
-
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = fur
