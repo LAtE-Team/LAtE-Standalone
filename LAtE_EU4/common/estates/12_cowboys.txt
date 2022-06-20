@@ -63,10 +63,7 @@ estate_cowboys =
 		OR = {
 			has_estate = estate_cowboys
 			any_owned_province = {
-				OR = {
-					superregion = great_plains_superregion
-					region = rio_grande_region
-				}
+				superregion = great_plains_superregion
 			}
 		}
 	}

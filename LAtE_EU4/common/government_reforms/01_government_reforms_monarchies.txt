@@ -1505,10 +1505,7 @@ open_range_feudalism = {
 			technology_group = mexican
 		}
 		any_owned_province = {
-			OR = {
-				superregion = great_plains_superregion
-				region = rio_grande_region
-			}
+			superregion = great_plains_superregion
 		}
 	}
 	nation_designer_trigger = {
@@ -1518,10 +1515,7 @@ open_range_feudalism = {
 			technology_group = mexican
 		}
 		any_owned_province = {
-			OR = {
-				superregion = great_plains_superregion
-				region = rio_grande_region
-			}
+			superregion = great_plains_superregion
 		}
 	}
 	valid_for_nation_designer = yes
