@@ -3008,7 +3008,7 @@ waco_area = {
 
 
 new_mexico_area = { #6
-	880 881 882 2495 4975 4976 
+	880 881 2495 4975 4976 
 }
 
 colorado_plateau_area = { #4

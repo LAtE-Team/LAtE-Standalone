@@ -140,7 +140,6 @@ estate_army =
 		estate_army_officer_corp
 		estate_army_levies
 		estate_army_right_of_counsel
-		estate_army_statutory_rights
 		estate_army_special_regiments
 	}
 

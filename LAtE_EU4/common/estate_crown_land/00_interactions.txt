@@ -212,6 +212,19 @@ interaction = {
 			NOT = { has_estate_privilege = estate_brahmins_statutory_rights }
 		}
 		else_if = {
+			limit = { 
+				OR = {
+					has_estate_privilege = estate_antiquarians_statutory_rights
+					AND = {
+						religion_group = oldworld
+						has_estate = estate_antiquarians
+					}
+				}
+				has_estate = estate_antiquarians
+			}
+			NOT = { has_estate_privilege = estate_antiquarians_statutory_rights }
+		}
+		else_if = {
 			limit = {
 				OR = {
 					has_estate_privilege = estate_nobles_statutory_rights

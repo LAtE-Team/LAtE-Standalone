@@ -341,7 +341,6 @@
  estate_army_officer_corp: "$ESTATE_NAME$ in Officer Corps"
  estate_army_levies: "Increased Levies"
  estate_army_right_of_counsel: "Right of Counsel"
- estate_army_statutory_rights: "Estates Statutory Rights"
  estate_army_special_regiments: "Establish the Special Forces"
 
  #Army Privileges Descriptions
@@ -350,7 +349,6 @@
  estate_army_officer_corp_desc: "The [Root.GetArmyName] are experienced in the art of leading men. It is only sensible that they should be the ones to lead our armies."
  estate_army_levies_desc: "Levies from the [Root.GetArmyName] provide the majority of our nation's armies. An arrangement can be made for them to provide us with more men in return for other compensation."
  estate_army_right_of_counsel_desc: "The [Root.GetArmyName] must have the right to speak to the [Root.Monarch.GetTitle] openly and freely, without fear of repercussions."
- estate_army_statutory_rights_desc: "In return for their support in a moment of need, the [Root.Monarch.GetTitle] has agreed to grant the Estates considerable rights that place stringent limitations on [Root.Monarch.GetHerHis] authority."
  estate_army_special_regiments_desc: "We can sponsor training and recruitment program to be able to raise ancient special units."
 
  #Army Agendas
