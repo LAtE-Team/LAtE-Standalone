@@ -11,4 +11,13 @@
  merc_packers: "Odin's Packers"
  merc_fords_children: "Ford's Children"
  merc_continental_army: "The Continental Army"
+ merc_superior_company: "Superior Company"
+ merc_thunderers: "Thunderers"
+ merc_roughriders: "Saskatchewan Roughriders"
+ merc_stampeders: "Alberta Stampeders"
+ merc_whitecaps: "Vancouver Whitecaps"
+ merc_sounders: "Seattle Sounders"
+ merc_haida: "Haida Free Company"
+
+ #Weights
  rnw_modifier_weights: "Random New World Modifier Weights"
