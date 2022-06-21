@@ -6,7 +6,7 @@ add_core = OTW
 culture = ontarian
 religion = anglican
 is_city = yes
-
+set_seat_in_parliament = yes
 
 hre = no
 base_tax = 4

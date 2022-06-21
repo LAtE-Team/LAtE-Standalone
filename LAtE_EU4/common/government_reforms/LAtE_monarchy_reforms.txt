@@ -92,6 +92,8 @@ canadian_empire = {
 
 	modifiers = {
 		governing_capacity = 250
+		num_accepted_cultures = 1
+		global_autonomy = -0.05
 	}
 
 	conditional = {

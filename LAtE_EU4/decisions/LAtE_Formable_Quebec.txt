@@ -118,6 +118,7 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
+			add_government_reform = canadian_province
 			set_country_flag = formed_quebec_flag
 		}
 		ai_will_do = {
