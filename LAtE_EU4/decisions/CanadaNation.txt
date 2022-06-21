@@ -151,6 +151,7 @@ country_decisions = {
 				}
 				add_permanent_claim = CAN
 			}
+			add_government_reform = canadian_empire
 			set_country_flag = formed_canada_flag
 		}
 		ai_will_do = {
@@ -236,6 +237,7 @@ country_decisions = {
 				}
 				add_permanent_claim = CAN
 			}
+			add_government_reform = canadian_empire
 			set_country_flag = formed_canada_flag
 		}
 		ai_will_do = {

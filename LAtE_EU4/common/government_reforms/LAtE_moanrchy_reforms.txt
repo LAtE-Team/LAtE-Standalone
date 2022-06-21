@@ -1,0 +1,111 @@
+canadian_province = {
+	icon = "russian_principality"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_reform = canadian_empire }
+		NOT = { have_had_reform = canadian_empire }
+		OR = {
+			religion = ursuline
+			religion = anglican
+		}
+		OR = {
+			culture = quebecois
+			culture = ontarian
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = principality
+			}
+		}
+	}
+	fixed_rank = 2
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		OR = {
+			culture = quebecois
+			culture = ontarian
+		}
+		OR = {
+			religion = ursuline
+			religion = anglican
+		}
+	}
+	modifiers = {
+		governing_capacity = 100
+	}
+
+	conditional = {
+		allow = { 
+			has_dlc = "Third Rome" 
+			has_dlc = "Common Sense"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		has_parliament = yes
+		custom_attributes = {
+			blocked_call_diet = yes
+			disables_nobility = yes
+		}
+	}
+}
+
+canadian_empire = {
+	icon = "king"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			religion = ursuline
+			religion = anglican
+		}
+		OR = {
+			culture = quebecois
+			culture = ontarian
+			culture = lakeheader
+		}
+		OR = {
+			AND = {
+				tag = CAN
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = canadian_empire
+			}
+		}
+	}
+	fixed_rank = 3
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	nation_designer_trigger = {
+		OR = {
+			culture = quebecois
+			culture = ontarian
+			culture = lakeheader
+		}
+		OR = {
+			religion = ursuline
+			religion = anglican
+		}
+	}
+
+	modifiers = {
+		governing_capacity = 250
+	}
+
+	conditional = {
+		allow = { 
+			has_dlc = "Third Rome" 
+			has_dlc = "Common Sense"
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		has_parliament = yes
+		custom_attributes = {
+			blocked_call_diet = yes
+			disables_nobility = yes
+		}
+	}
+}

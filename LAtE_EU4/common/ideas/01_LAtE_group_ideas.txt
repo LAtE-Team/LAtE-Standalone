@@ -1,88 +1,596 @@
-# Suggested by Lord Volt
-american_feudal_ideas = {
+ONT_ideas = {
 	start = {
-		vassal_income = 0.25
-		accept_vassalization_reasons = 15
+		stability_cost_modifier = -0.1
+		global_tax_modifier = 0.1
 	}
 	bonus = {
-		general_cost = -0.20
+		global_colonial_growth = 25
 	}
 	trigger = {
-		government = monarchy
-		capital_scope = {
-			continent = north_america
+		OR = {
+			tag = ONT
+			culture = ontarian
 		}
+		
 	}
 	free = yes
-	
-	right_to_rule = {
-		global_unrest = -1
-        legitimacy = 1
+
+	lakes_of_ontario = {
+		galley_power = 0.15
 	}
-	feudal_america = {
-        global_tax_modifier = 0.05
+	trent_severn_canal = {
+		global_prov_trade_power_modifier = 0.2
 	}
-    knightly_traditions = {
-		army_tradition_decay = -0.005
+	reclaim_the_north = {
+		colonists = 1
 	}
-	noble_connections = {
-		heir_chance = 0.33
-        diplomatic_reputation = 1
+	peace_order_good_government = {
+		stability_cost_modifier = -0.1
 	}
-	royal_court = {
-		advisor_pool = 1
+	reestablish_the_old_four = {
+		global_institution_spread = 0.1
 	}
-    decentralised_system = {
-		governing_capacity_modifier = 0.1
-        nobility_influence_modifier = 0.1
+	canadian_cornucopia = {
+		global_trade_goods_size_modifier = 0.1
 	}
-	heirs_to_the_past = {
-		province_warscore_cost = -0.15
-        unjustified_demands = -0.25
+	repel_the_americans = {
+		defensiveness = 0.2
 	}
-	
 }
 
-russian_warlord_ideas = {
+maritimer_ideas = {
 	start = {
-		global_manpower_modifier = 0.15
-		province_warscore_cost = -0.1
+		naval_forcelimit = 0.2
+		global_sailors_modifier = 0.25
 	}
 	bonus = {
-		ae_impact = -0.10
+		naval_maintenance_modifier = -0.25
 	}
 	trigger = {
-		culture_group = east_slavic
 		OR = {
-			capital_scope = { continent = asia }
-		  	capital_scope = { continent = europe }
+			tag = MRT
+			culture = maritimer
+		}
+		
+	}
+	free = yes
+
+	grand_banks_fisheries = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	tradition_of_song = {
+		global_unrest = -1
+	}
+	farewell_to_nova_scotia = {
+		naval_morale = 0.25
+	}
+	repel_the_inuit = {
+		leader_naval_fire = 1
+	}
+	gaels_and_acadians = {
+		num_accepted_cultures = 2 
+	}
+	luadhadh = {
+		production_efficiency = 0.1
+	}
+	ceilidh_and_seanachas = {
+		prestige_decay = -0.01
+	}
+}
+mormon_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		caravan_power = 0.2
+	}
+	bonus = { global_unrest = -2 }
+	trigger = {
+		religion_group = latter_day_saints
+	}
+	free = yes
+
+	two_year_missions = {
+		missionaries = 1
+	}
+	legacy_joseph_smith = {
+		tolerance_own = 3
+	}
+	theodemocracy = {
+		republican_tradition = 0.5
+		devotion = 1
+	}
+	plat_of_zion = {
+		build_cost = -0.1
+	}
+	ward_and_stake = {
+		stability_cost_modifier = -0.10
+	}
+	american_zion = {
+		core_creation = -0.25
+	}
+	mormon_trail = {
+		colonists = 1
+	}
+}
+deitsch_ideas = {		#Expanded to apply to all Anabaptists
+	start = {
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+	}
+	bonus = { num_accepted_cultures = 2 }
+	trigger = {
+		OR = {
+			tag = HUD
+			religion = anabaptist
+			primary_culture = deitsch		
 		}
 	}
 	free = yes
-	
-	russian_warlord_era = {
-		army_tradition_from_battle = 0.33
-		drill_gain_modifier = 0.33
+
+	agricultural_legacy = {
+		global_trade_goods_size_modifier = 0.1
 	}
-	adapted_to_the_extremes = {
-		land_attrition = -0.10
+	rumspringa = {
+		global_unrest = -1
 	}
-   	true_son_of_mother_russia = {
+	simple_living = {
+		stability_cost_modifier = -0.1
+	}
+	barn_raising = {
+		development_cost = -0.1
+	}
+	nonviolence = {
+		diplomatic_reputation = 1
+	}
+	demut = {
+		tolerance_own = 3
+	}
+	nonconformation = {
+		enemy_core_creation = 0.5
+	}
+}
+californian_ideas = {
+	start = {
+		adm_tech_cost_modifier = -0.1
+		diplomatic_reputation = 1
+	}
+	bonus = { 
 		legitimacy = 1
-		republican_tradition = 0.25
-		years_of_nationalism = -5
+		meritocracy = 1
 	}
-	eurasian_trade = {
-		province_trade_power_modifier = 0.15
+	trigger = {
+		OR = {
+			culture_group = californian
+			tag = CAL
+		}
+		NOT = {
+			religion = brethren
+		}
 	}
-	secure_control = {
-		harsh_treatment_cost = -0.33
+	free = yes
+
+	philosopher_emperors = {
+		idea_cost = -0.1
 	}
-	discipline_the_rabble = {
+	ancient_velocipedes = {
+		movement_speed = 0.15
+	}
+	pacific_line = {
+		trade_efficiency = 0.1
+	}
+	hydraulic_empire = {
+		development_cost = -0.1
+		stability_cost_modifier = -0.1
+	}
+	bureaucratic_infrastructure = {
+		advisor_cost = -0.15
+	}
+	hollywood = {
+		prestige = 1
+	}
+	hawaiian_guard = {
+		global_manpower_modifier = 0.1
+	}
+}
+union_ideas = {
+    start = {
+        light_ship_cost = -0.1
+        interest = -1
+    }
+
+    bonus = {
+        technology_cost = -0.1
+    }
+
+    trigger = {
+        OR = {
+            has_reform = merchant_republic
+            has_reform = oligarchic_republic
+            has_reform = administrative_republic
+        }
+        OR = {
+            primary_culture = rostmann
+            primary_culture = motowner
+            religion = rust_cultist
+        }
+    }
+	
+	free = yes
+
+    legacy_of_the_liberator = {
+        republican_tradition = 0.5
+    }
+
+    trade_union = {
+        trade_efficiency = 0.15
+    }
+
+    picket_line = {
+        discipline = 0.05
+    }
+
+    fair_days_pay = {
+        infantry_cost = -0.1
+    }
+
+    teamsters = {
+        spy_offence = 0.1
+    }
+
+    solidarity = {
+        global_prov_trade_power_modifier = 0.2
+    }
+
+    first_strike = {
+        artillery_power = 0.1
+    }
+}
+rostmann_ideas = {
+    start = {
+		development_cost = -0.1
+		infantry_power = 0.2
+    }
+    bonus = {
+		technology_cost = -0.1  
+    }
+
+    trigger = {
+		primary_culture = rostmann
+		OR = {
+			religion = rust_cultist
+			religion_group = christian
+		}
+    }
+
+    free = yes
+
+    the_rust_belt = {
+		loot_amount = 0.1
+    }
+    gewalthaufen = {
+		shock_damage_received = -0.2
+    }
+    dienstmann = {
+		advisor_pool = 1
+		manpower_recovery_speed = 0.2
+    }
+    rost_sprachraum = {
+		num_accepted_cultures = 2
+    }
+    mittelstand  = {
+		production_efficiency = 0.1
+    }
+    heilkraft = {
+		prestige = 1
+		army_tradition = 1
+    }
+    ordnungssinn = {
+		stability_cost_modifier = -0.1
+    }
+}
+chicagoan_ideas = {
+    start = {
+		garrison_size = 0.30
+		recover_army_morale_speed = 0.1
+    }
+    bonus = {
+		global_tax_modifier = 0.15
+	}
+
+    trigger = {
+		primary_culture = chicagoan
+		religion_group = christian
+	}
+    
+    free = yes
+
+    # the_great_bastion 
+    chicagoan_idea_1 = {
+		defensiveness = 0.20
+    }
+    # steamboat_diplomacy 
+    chicagoan_idea_2 = {
+		diplomats = 1
+    }
+    # sénéchaussée_des_chicago 
+    chicagoan_idea_3 = {
+		heir_chance = 0.33
+		legitimacy = 1
+    }
+    # chicago_stock_exchange 
+    chicagoan_idea_4 = {
+		global_own_trade_power = 0.1
+    }
+    # devout_christians 
+    chicagoan_idea_5 = {
+		papal_influence = 1
+		tolerance_own = 2
+    }
+    # urbs_in_horto 
+    chicagoan_idea_6 = {
+		advisor_pool = 1
+    }
+    # the_three_park_commission 
+    chicagoan_idea_7 = {
+		religious_unity = 0.2
+    }
+}
+pirate_ideas = {
+	start = {
+		may_perform_slave_raid = yes
+		privateer_efficiency = 0.30
+    }
+    bonus = {
+		heavy_ship_cost = -0.25
+	}
+
+    trigger = {
+		religion = brethren
+     }
+    
+    free = yes
+
+    # Floating Cities
+    pirate_idea_1 = {
+		naval_forcelimit = 0.3
+    }
+    # The Tale of Black Bart
+    pirate_idea_2 = {
+		capture_ship_chance = 0.2
+		naval_maintenance_modifier = -0.25
+    }
+    # Yo Ho, a Pirate's Life for Me!
+    pirate_idea_3 = {
+		global_sailors_modifier = 0.25
+    }
+    # Black Blockades
+    pirate_idea_4 = {
+		blockade_efficiency = 0.3
+    }
+    # Black Sails in the Night
+    pirate_idea_5 = {
+		leader_naval_manuever = 1
+    }
+    # A Belly Full'O Grog
+    pirate_idea_6 = {
+		naval_morale = 0.25
+    }
+    # The Promise of Booty
+    pirate_idea_7 = {
+		sunk_ship_morale_hit_recieved = -0.2
+		prestige_from_naval = 0.20
+    }
+}
+LAP_ideas = {		#Argentine Ideas. From Extended Timline.
+	start = {
+		global_unrest = -1
+	}
+
+	bonus = {
+		land_morale = 0.20
+	}
+
+	trigger = {
+		OR = {
+			tag = ARG
+			culture_group = argentine
+		}
+	}
+	free = yes		# will be added at load
+
+	revolutionary_spirit = {
+		republican_tradition = 0.5
+		legitimacy = 0.5
+	}
+	fertile_pampas = {
+		global_tax_modifier = 0.1
+	}
+	rio_de_la_plata = {
+		global_trade_power = 0.2
+	}
+	patagonian_pecuary = {
+		land_forcelimit_modifier = 0.20
+	}
+	criollo_horses = {
+		cavalry_power = 0.10
+	}
+	silver_reserves = {
+		diplomatic_reputation = 3
+	}
+	argentinian_cultural_heritage = {
+		prestige = 1
+	}
+}
+
+gaian_ideas = {		#Gaian Ideas
+	start = {
+		diplomats = 1
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+		range = 0.25
+	}
+
+	trigger = {
+		OR = {
+			religion = gaian
+		}
+	}
+	free = yes		# will be added at load
+
+	gaian_idea_1 = {
+		land_attrition = -0.1
+	}
+	gaian_idea_2 = {
+		idea_cost = -0.10
+	}
+	gaian_idea_3 = {
+		army_tradition = 0.5
+	}
+	gaian_idea_4 = {
+		development_cost = -0.1
+	}
+	gaian_idea_5 = {
+		legitimacy = 1
+	}
+	gaian_idea_6 = {
+		defensiveness = 0.20
+	}
+	gaian_idea_7 = {
+		colonists = 1
+	}
+}
+
+mousy_ideas = {
+    start = {
+        defensiveness = 0.1
+        culture_conversion_cost = -0.2
+    }
+
+    bonus = {
+        leader_land_shock = 1
+    }
+
+	trigger = {
+		dynasty = "Waltney"
+		OR = {
+			religion = americanist
+			tag = FLD 	#Florida should just get this in the Standalone
+		}
+		government = monarchy
+	}
+
+    free = yes
+
+    house_of_mouse = {
+        prestige = 1
+    }
+
+    waltney_renaissance = {
+        global_institution_spread = 0.1
+    }
+
+    fight_choreography = {
+        prestige_from_land = 1
+    }
+
+    waltney_princesses = {
+        legitimacy = 0.5
+        female_advisor_chance = 0.25
+    }
+
+    tales_as_old_as_time = {
+        diplomatic_reputation = 2
+    }
+
+    let_it_go = {
+        diplomatic_annexation_cost = -0.1
+    }
+
+    tomorrowland = {
+        technology_cost = -0.1
+    }
+}
+
+european_tribal_ideas = {
+	start = {
+		hostile_attrition = 1
+		merchants = 1
+	}
+	bonus = { war_exhaustion_cost = -0.10 }
+	trigger = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			has_reform = tribal_despotism
+			has_reform = tribal_kingdom
+			has_reform = tribal_federation
+#			has_reform = tribal_democracy
+		}
+	}
+	free = yes
+
+	deep_roots = {
+		defensiveness = 0.1
+	}
+	warriors_grit = {
+		shock_damage_received = -0.1
+	}
+	ruthless_raiders = {
+		leader_land_shock = 1
+		loot_amount = 0.10
+	}
+	ancestral_pride = {
+		war_exhaustion_cost = -0.10
+	}
+	arctolatry = {
+		infantry_power = 0.1
+	}
+	side_by_side = {
+		land_morale = 0.1
+	}
+	hero_of_the_legends = {
+		free_leader_pool = 1
+	}
+}
+
+jewish_ideas = {
+	start = {
+		tolerance_own = 1
+		legitimacy = 1
+	}
+	
+	bonus = {
+		diplomatic_reputation = 1
+	}
+	
+	trigger = {
+		tag = ISR
+		religion_group = jewish_group
+	}
+	free = yes
+	
+	end_of_diaspora = {
+		global_unrest = -1
+	}
+	national_myths_restored = {
 		discipline = 0.05
 	}
-	unification_wars = {
-		core_creation = -0.1
+	return_home = {
+		production_efficiency = 0.2
 	}
-	
+	jewish_trade_tradition = {
+		trade_steering = 0.1
+		trade_efficiency = 0.1
+	}
+	jewish_banking = {
+		interest = -1
+	}
+	people_of_exile = {
+		global_colonial_growth = 33
+	}
+	the_chosen_people = {
+		enemy_core_creation = 1.0
+	}
 }
