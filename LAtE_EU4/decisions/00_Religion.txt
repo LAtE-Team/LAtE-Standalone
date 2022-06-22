@@ -1,12 +1,9 @@
 country_decisions = {
 
 	# Catholic ones, that affects reform desire.
-	institute_the_societas_jesu = {
+	institute_the_societas_jesu = { #Maybe use for ursline
 		potential = {
-			OR = {
-				tag = POR
-				tag = SPA
-			}
+			always = no
 			religion = catholic
 			NOT = { has_country_modifier = the_societas_jesu }
 			NOT = { has_country_modifier = jesuits_expelled }
@@ -225,7 +222,6 @@ country_decisions = {
 			religion_group = christian
 			OR = {
 				is_religion_enabled = protestant
-				is_religion_enabled = reformed
 			}
 		}
 		allow = {
@@ -271,10 +267,7 @@ country_decisions = {
 	test_act = {
 		potential = {
 			NOT = { has_country_modifier = the_test_act }
-			OR = {
-				religion = protestant
-				religion = reformed
-			}
+			religion = protestant
 		}
 		allow = {
 			adm_tech = 10
@@ -296,7 +289,6 @@ country_decisions = {
 			NOT = { has_country_modifier = the_dissolution_of_the_monasteries }
 			OR = {
 				religion = protestant
-				religion = reformed
 				AND = {
 					religion = catholic
 					has_country_modifier = the_statue_in_restraint_of_appeals
@@ -325,10 +317,7 @@ country_decisions = {
 	popery_act = {
 		potential = {
 			NOT = { has_country_modifier = the_popery_act }
-			OR = {
-				religion = protestant
-				religion = reformed
-			}
+			religion = protestant
 			adm_tech = 11
 		}
 		allow = {
@@ -371,7 +360,7 @@ country_decisions = {
 		potential = {
 			NOT = { has_ruler_modifier = khalifah }
 			religion = sunni
-			NOT = { tag = MAM } #Controls the Caliph already.
+#			NOT = { tag = MAM } #Controls the Caliph already.
 			NOT = { government = republic }
 			ruler_religion = sunni
 		}
@@ -569,7 +558,7 @@ country_decisions = {
 				factor = 0
 				has_country_flag = sultan_titles_for_non_muslims
 				had_country_flag = { flag = sultan_titles_for_non_muslims days = 10950 } #After 30 years
-				NOT = { tag = ARK }
+#				NOT = { tag = ARK }
 			}
 		}
 	}
@@ -751,11 +740,6 @@ country_decisions = {
 			NOT = { has_dlc = "Dharma" }
 			OR = {
 				AND = {
-					tag = MUG
-					religion_group = muslim
-					any_owned_province = { religion = hinduism }
-				}
-				AND = {
 					religion = hinduism
 					any_owned_province = { religion_group = muslim }			
 				}
@@ -935,9 +919,8 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_modifier = religious_sacrifices }
 			religion_group = pagan
-			NOT = { religion = nahuatl }
+			NOT = { religion_group = mesoamerican }
 			NOT = { religion = inti }
-			NOT = { religion = mesoamerican_religion }
 		}
 		allow = {
 			adm = 3
@@ -1374,7 +1357,7 @@ country_decisions = {
 	shamanism_wondering_shamans = {
 		potential = {
 			NOT = { has_country_modifier = wandering_shamans_modifier }
-			religion = shamanism
+			religion_group = afro_syncretic
 			any_owned_province = {
 				NOT = { religion = owner }
 			}
@@ -1404,7 +1387,7 @@ country_decisions = {
 	totemism_purification_movement = {
 		potential = {
 			NOT = { has_country_modifier = purification_movement_modifier }
-			religion = totemism
+			religion = raven_tales
 			any_owned_province = {
 				NOT = { religion = owner }
 			}
@@ -1433,7 +1416,7 @@ country_decisions = {
 	mesoamerican_codification_of_the_faith = {
 		potential = {
 			NOT = { has_country_modifier = codification_of_mayan_faith }
-			religion = mesoamerican_religion
+			religion_group = mesoamerican
 			any_owned_province = {
 				NOT = { religion = owner }
 			}
@@ -1473,7 +1456,7 @@ country_decisions = {
 	nahuatl_conversion_ceremonies = {
 		potential = {
 			NOT = { has_country_modifier = nahuatl_sacrificial_stones }
-			religion = nahuatl
+			religion_group = mesoamerican
 			any_owned_province = {
 				NOT = { religion = owner }
 			}
