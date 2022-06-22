@@ -29,7 +29,7 @@ harmonized_afro_syncretic = {
 	religion = yes
 }
 
-harmonized_pirate = {
+harmonized_nautical = {
 	trade_efficiency = 0.05 #
 	religion = yes
 }

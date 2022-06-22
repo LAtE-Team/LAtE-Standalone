@@ -1012,7 +1012,7 @@ native_ideas = {
 				OR = {
 					superregion = laurentia_superregion
 					region = california_region
-					region = rio_grande_region
+					region = texas_region
 				}
 			}
 		}
