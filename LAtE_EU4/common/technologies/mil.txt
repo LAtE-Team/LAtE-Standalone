@@ -73,6 +73,8 @@ technology = {
 	enable = african_spearmen
 	enable = african_mandelaku
 	enable = abyssinian_light_cavalry
+	enable = wladfaeg_longbowmen
+	enable = conic_gaucho_cavalry
 }
 
 technology = {
@@ -155,6 +157,7 @@ technology = {
 	enable = east_african_warrior
 	enable = south_african_warrior
 	enable = west_african_warrior
+	enable = platinean_pikemen
 	
 	combat_width = 2
 }
@@ -188,6 +191,7 @@ technology = {
 	enable = elephant_swivel_gunners
 	enable = african_somali_cavalry
 	enable = african_tuareg_cavalry
+	enable = improved_conic_gaucho_cavalry
 	
 	combat_width = 2
 }
@@ -287,6 +291,8 @@ technology = {
 	enable = elephant_cannoneers
 	enable = african_abyssinian_cavalry
 	enable = african_mossi_horsemen
+	enable = patagonian_mountain_warriors
+	enable = mapuche_malon_rider
 }
 
 technology = {
@@ -389,6 +395,8 @@ technology = {
 	enable = eurasian_hussar
 	enable = southeast_asian_cavalry
 	enable = african_hussar
+	enable = patagonian_arquebusiers
+	enable = patagonian_tank_cavalry
 	
 	combat_width = 2
 }
@@ -488,6 +496,7 @@ technology = {
 	enable = mexican_guerilla_cavalry
 	enable = yaqui_musket_cavalry
 	enable = eurasian_mass_infantry
+	enable = patagonian_swarm_cavalry
 	
 	combat_width = 2
 }
@@ -528,6 +537,7 @@ technology = {
 	enable = reformed_ballestero_infantry
 	enable = eurasian_swarm_cavalry
 	enable = southeast_asian_mass_infantry
+	enable = chilean_riflemen
 }
 
 technology = {
@@ -640,6 +650,7 @@ technology = {
 	enable = central_african_guerrilla
 	enable = west_african_guerrilla
 	enable = east_african_guerrilla
+	enable = conic_dragoon
 }
 
 technology = {
@@ -731,6 +742,7 @@ technology = {
 	enable = americanized_east_african_infantry
 	enable = americanized_south_african_infantry
 	enable = americanized_west_african_infantry
+	enable = conic_andean_insurgent_infantry
 	
 	combat_width = 2
 }
