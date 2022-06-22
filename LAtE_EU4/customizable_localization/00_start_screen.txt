@@ -555,24 +555,12 @@ defined_text = {
         }
     }
 	
-	text = { #Northeast America (not Redcoats or Hudsonia)
-        localisation_key = string_start_northeast_america
+	text = { #Atlantica
+        localisation_key = string_start_atlantica
         trigger = {
 			capital_scope = {
 				region = atlantica_region
 			}
-			NOT = {
-				tag = RED
-				tag = HUD #Hudsonia
-				tag = NYS
-			}
-        }
-    }
-	
-	text = { #New York
-        localisation_key = string_start_new_york
-        trigger = {
-			tag = NYS
         }
     }
 	
@@ -584,7 +572,6 @@ defined_text = {
 				capital_scope = {
 					region = atlantica_region
 				}
-				tag = NYC
 			}
         }
     }
