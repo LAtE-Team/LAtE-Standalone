@@ -2,7 +2,7 @@ owner= FRD
 controller = FRD
 add_core = FRD
 
-culture = deitsch
+culture = plautdietsch
 religion = anabaptist
 is_city = yes
 

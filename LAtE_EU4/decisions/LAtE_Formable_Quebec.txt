@@ -59,14 +59,8 @@ country_decisions = {
 			change_tag = QUE
 			if = {
 				limit = {
+					NOT = { has_idea_group = QUE_ideas }
 					has_custom_ideas = no
-					OR = {
-						ai = no
-						AND = {
-							ai = yes
-							has_idea_group = default_ideas
-						}
-					}
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}

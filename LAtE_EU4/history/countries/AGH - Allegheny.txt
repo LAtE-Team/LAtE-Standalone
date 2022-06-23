@@ -4,7 +4,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-primary_culture = rostmann
+primary_culture = alleghenian
 religion = rust_cultist
 religious_school = materialist_school
 

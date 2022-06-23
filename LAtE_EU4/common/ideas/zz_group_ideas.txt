@@ -89,11 +89,7 @@ barbary_pirate_ideas = {
 	}
 	trigger = {
 		has_reform = pirate_republic_reform
-		OR = {
-			culture_group = maghrebi
-			tag = TET
-			tag = SLE
-		}
+		culture_group = maghrebi
 	}
 	free = yes
 	barbary_slave_trade = {
@@ -130,17 +126,9 @@ pirate_ideas = {
 		unjustified_demands = -0.25
 	}
 	trigger = {
-		OR = {
-			AND = {
-				has_reform = pirate_republic_reform
-				NOT = { culture_group = maghrebi }
-				NOT = { tag = TET }
-				NOT = { tag = SLE }
-			}
-			tag = NSS
-			tag = PRY
-			tag = TOR
-			tag = LIB
+		AND = {
+			has_reform = pirate_republic_reform
+			NOT = { culture_group = maghrebi }
 		}
 	}
 	free = yes
@@ -385,7 +373,6 @@ bengali_ideas = {
 		OR = {
 			primary_culture = bengali
 			TAG = KMT
-			TAG = KAC
 		}
 	}
     free = yes       #will be added at load.
@@ -427,7 +414,6 @@ gujarati_ideas = {
 		OR = {
 			primary_culture = gujarati
 			primary_culture = saurashtri
-			tag = BGA
 		}
 	}
 	free = yes
@@ -513,10 +499,7 @@ mindanao_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = MGD
-			tag = LNO
-		}
+		always = no
 	}
 	
 	free = yes
@@ -836,10 +819,7 @@ malayan_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			religion_group = muslim
-			tag = PAH
-		}
+		religion_group = muslim
 		culture_group = malay
 		NOT = {
 			primary_culture = sumatran
@@ -1334,9 +1314,8 @@ mesoamerican_ideas = {
 	
 	trigger = {
 		OR = {
-			religion = nahuatl
-			tag = GAM
-			tag = CCM
+			religion_group = mesoamerican
+			culture_group = central_american
 		}
 	}
 	
@@ -1384,7 +1363,6 @@ TIB_ideas = {
 	
 	trigger = {
 		OR = {
-			tag = TIB
 			AND = {
 				OR = {
 					primary_culture = tibetan
@@ -1431,11 +1409,7 @@ west_african_ideas = {
 	}
 	
 	trigger = {
-		technology_group = sub_saharan
-		NOT = {
-			tag = LOA
-			tag = NDO
-		}
+		technology_group = west_african
 	}
 	free = yes
 	
@@ -1753,7 +1727,6 @@ chinese_ideas = {
 	trigger = {
 		OR = {
 			culture_group = east_asian #Chinese
-			tag = CGS #Changsheng
 		}
 	}
 	free = yes
@@ -1796,9 +1769,7 @@ vindhyan_ideas = {
 		OR = {
 			tag = BND
 			tag = BGL
-			tag = PAN
 			AND = {
-				tag = GWA
 				NOT = { primary_culture = marathi }
 			}
 		}
@@ -2033,7 +2004,7 @@ mayan_ideas = {
 	}
 	
 	trigger = {
-		religion = mesoamerican_religion
+		religion_group = mesoamerican
 	}
 	free = yes
 	
@@ -2426,11 +2397,7 @@ luzon_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = PGS
-			tag = TDO
-			tag = MNA
-		}
+		always = no
 	}
 	
 	free = yes
@@ -2758,14 +2725,7 @@ plains_native_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			culture_group = caddoan
-			culture_group = plains_algonquian
-			culture_group = siouan
-			primary_culture = chipewyan
-			primary_culture = kiowa
-			primary_culture = shoshone
-		}
+		culture_group = plains_native
 		NOT = { primary_culture = caddo }
 	}
 	free = yes
@@ -2850,22 +2810,8 @@ ne_native_ideas = {
 		OR = {
 			AND = {
 				government = native
-				OR = {
-					culture_group = central_algonquian
-					culture_group = eastern_algonquian
-					culture_group = iroquoian
-					primary_culture = chiwere
-					primary_culture = osage
-				}
-				NOT = {
-					OR = {
-						tag = CHE
-						tag = TSC
-					}
-				}
+				culture_group = laurentian_native
 			}
-			tag = POT
-			tag = ILL
 		}
 	}
 	free = yes
@@ -2904,12 +2850,7 @@ se_native_ideas = {
 	}
 	trigger = {
 		government = native
-		OR = {
-			culture_group = muskogean
-			primary_culture = caddo
-			tag = CHE
-			tag = TSC
-		}
+		always = no
 	}
 	free = yes
 	se_mississippian_legacy = {
@@ -2947,10 +2888,7 @@ sw_native_ideas = {
 	}
 	trigger = {
 		government = native
-		OR = {
-			culture_group = apachean
-			culture_group = sonoran
-		}
+		always = no
 		NOT = {
 			OR = {
 				primary_culture = kiowa
@@ -2993,12 +2931,7 @@ fijian_ideas = { #Credit to James Beaumont
 	}
 	
 	trigger = {
-		OR = {
-			tag = LAI
-			tag = VIL
-			tag = VIT
-			tag = VNL
-		}
+		always = no
 	}
 	free = yes
 	
@@ -3042,11 +2975,7 @@ hawaiian_ideas = { #Credit to James Beaumont
 	
 	trigger = {
 		OR = {
-			tag = HAW
-			tag = KAA
 			tag = MAU
-			tag = OAH
-			tag = UHW
 		}
 	}
 	free = yes		#will be added at load.
@@ -3089,7 +3018,7 @@ iroquoian_federation_ideas = {
 	
 	trigger = {
 		AND = { 
-			primary_culture = iroquois
+			always = no
 			is_federation_nation = yes
 		}
 	}
@@ -3135,7 +3064,6 @@ siouan_federation_ideas = {
 				is_federation_nation = yes
 				primary_culture = dakota
 			}
-			tag = SIO
 		}
 	}
 	free = yes
@@ -3180,7 +3108,6 @@ eastern_algonquian_federation_ideas = {
 			capital_scope = {
 				region = atlantica_region
 			}
-			culture_group = eastern_algonquian
 		}
 	}
 	free = yes
@@ -3229,7 +3156,6 @@ central_algonquian_federation_ideas = {
 				region = canada_region
 				region = hudson_bay_region
 			}
-			culture_group = central_algonquian
 		}
 	}
 	free = yes
@@ -3310,7 +3236,6 @@ generic_federation_ideas = {
 	trigger = { 
 		is_federation_nation = yes
 		NOT = {
-			primary_culture = iroquois
 			primary_culture = creek
 			primary_culture = algonquin
 			primary_culture = dakota
@@ -3358,7 +3283,6 @@ horn_of_african_ideas = {
 		culture_group = cushitic
 		NOT = { primary_culture = somali }
 		NOT = { primary_culture = tigray }
-		NOT = { tag = ETH }
 	}
 	free = yes
 	

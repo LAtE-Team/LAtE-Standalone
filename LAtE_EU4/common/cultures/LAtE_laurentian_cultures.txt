@@ -16,6 +16,7 @@ laurentian = {
 		dynasty_names = { "Parsons" "Blues" "Boystown" "Cabrinigreen" "Budlong" "Pilsen" "Englewood" "Pingtom" "Gallagher" "Milkovich" "Jordan" "West" "West" }
 	}
 	motowner = {
+		primary = CLE
 		dynasty_names = { "Yancey" "Fluellen" "Licious" }
 
 		male_names = {

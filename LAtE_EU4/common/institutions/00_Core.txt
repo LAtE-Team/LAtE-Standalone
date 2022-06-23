@@ -133,12 +133,11 @@ feudalism = {
 				#NOT = { continent = south_america }
 				#NOT = { continent = new_world }
 				owner = {
-#					NOT = { has_reform = tribal_democracy }
 					NOT = { has_reform = tribal_kingdom }
 					NOT = { has_reform = tribal_despotism }
 					NOT = { has_reform = tribal_federation }
 					NOT = { has_reform = siberian_native_council }
-#					NOT = { has_reform = native_council }
+					NOT = { government = native }
 					NOT = { has_reform = steppe_horde }
 				}
 			}
@@ -627,7 +626,6 @@ printing_press = {
 				has_reform = tribal_kingdom
 				has_reform = tribal_despotism
 				has_reform = tribal_federation
-#				has_reform = tribal_democracy
 			}
 		}
 	}

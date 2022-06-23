@@ -198,7 +198,7 @@ galloamerican = {
 
 	}
 	ontarois = {
-		primary = ONT
+		primary = SHD
 		dynasty_names = { "Belcourt" "Giroux" "Morissette" }
 
 		male_names = {

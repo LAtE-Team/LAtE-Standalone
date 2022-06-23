@@ -2,7 +2,7 @@ owner = AGH
 controller = AGH
 add_core = AGH
 
-culture = rostmann
+culture = alleghenian
 religion = rust_cultist
 is_city = yes
 

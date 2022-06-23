@@ -105,7 +105,7 @@ midatlantic = {
 
 	}
 	hudsonian = {
-		primary = NYS
+		primary = HUD
 		dynasty_names = { "Groot" "Dongan" "Langmuir" "Westingson" "Ranvincle" "Allen" "Wents" "Schenectady" "Rittner" "Mackerras" "Ranvincle" "Chambersburg" "Altoona" "Rodham" "Vedder" "Schermerhorn" "Dongan" "Ranvincle" "Herkimer" "Elran" }
 
 		male_names = {
