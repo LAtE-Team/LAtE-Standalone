@@ -40,3 +40,7 @@
  HAVE_LESS_STRELTSY_THAN:1 "Have less Macpaps than §Y$VALUE$§!.\n"
  HAVE_AT_LEAST_STRELTSY_THAN:1 "Have at least §Y$VALUE$§! Macpaps.\n"
  STRELTSY_REGIMENT_TYPE:0 "Macpaps"
+
+ african_mandelaku:0 "New Model Mandekalu Cavalry"
+ african_mandelakuDESCR:0 "The New Model Mandekalu Cavalry were descendents of the soldiers who owed direct fealty to the Mansa of Mali in antiquity, who equipped and fed them in exchange for military service."
+ african_cuirassierDESCR:0 "Heavily armoured African Cavalry employing American Cuirassier tactics."
