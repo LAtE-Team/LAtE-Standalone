@@ -10,7 +10,7 @@
  rajput_regiment:0 "Old Worlder"
  RECRUIT_RAJPUT_REGIMENTS:0 "Recruit Old World Regiments"
  enables_rajput_regiments:0 "Old World Regiments"
- RAJPUT_REGIMENT_TYPE:0 "Old Worlder
+ RAJPUT_REGIMENT_TYPE:0 "Old Worlder"
  RAJPUT_DESC:2 "By granting special privileges to our estates, we gain access to elite warriors. Old Worlders have stronger morale than average troops, are cheaper to reinforce and retain their drill bonuses for a longer period of time."
  RAJPUT_FORCELIMIT:1 "We can recruit up to $VAL|%Y$ of our force-limit of $FL$ as §GOld Worlders§! due to:\n"
 
