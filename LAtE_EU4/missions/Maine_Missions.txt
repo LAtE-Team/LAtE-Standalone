@@ -1,0 +1,155 @@
+MNE_reconquest_of_new_england = {
+		generic = no #if a mission without generic = yes wants this slot then it oMNErides this.
+		ai = yes
+	potential = {
+		tag = MNE
+	}
+	has_country_shield = yes
+	MNE_prepare_the_reconquest = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		position = 1
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	MNE_court_the_maritimers = {
+		icon = mission_alliances
+		required_missions = {MNE_prepare_the_reconquest}
+		position = 2
+		
+		trigger = {
+			dip_power = 50
+			calc_true_if = {
+				MRT = {
+					religion = anglican
+					has_opinion = {
+						who = MNE
+						value = 175
+					}
+				}
+			}
+		}
+		effect = {
+			add_dip_power = -50
+			add_army_tradition = 10
+			every_country = {
+				limit = {
+					religion = anglican
+					alliance_with = MNE
+				}
+				add_army_tradition = 10
+					add_trust = {
+						who = MNE
+						value = 30
+						mutual = yes
+					}
+			}
+		}
+	}
+	MNE_begin_the_reconquest = {
+		icon = mission_crusade_for_varna
+		required_missions = {MNE_rekindle_ursuline_alliances}
+		position = 3
+		
+		provinces_to_highlight = {
+			OR {
+				province_id = 4544
+				province_id = 2565
+				province_id = 2013
+			}
+			OR = {
+				NOT = { owned_by = MNE }
+			}
+		}
+		trigger = {
+			4544 = {owned_by = MNE}
+			2565 = {owned_by = MNE}
+			2013 = {owned_by = MNE}
+		}
+		effect ={
+			massachusetts_bay_area = { add_permanent_claim = ROOT}
+			new_hampshire_area = { add_permanent_claim = ROOT}
+			every_core_province = {
+				limit = { 
+					owned_by = ROOT
+					province_id = 4544
+					province_id = 2565
+					province_id = 2013
+					NOT = {
+						religion = anglican
+					}
+				}
+				change_religion = anglican
+				add_devastation = 10
+			}
+		}
+	}
+	MNE_push_the_redcoats_to_the_sea = {
+		icon = mission_cannons_firing
+		required_missions = {MNE_begin_the_reconquest}
+		position = 4
+		
+		provinces_to_highlight = {
+			OR {
+				area = massachusetts_bay_area
+				area = new_hampshire_area
+			}
+			OR = {
+				NOT = { owned_by = MNE }
+			}
+		}
+		trigger = {
+			massachusetts_bay_area = {owned_by = MNE}
+			new_hampshire_area = {owned_by = MNE}
+			RED { exists = no }
+		}
+		effect ={
+			vermont_area = { add_permanent_claim = ROOT}
+			connecticut_valley_area = { add_permanent_claim = ROOT}
+			every_owned_province = {
+				limit = { 
+					owned_by = ROOT
+					area = massachusetts_bay_area
+					area = new_hampshire_area
+					NOT = {
+						culture = yankee
+						religion = ursuline
+					}
+				}
+				change_religion = ursuline
+				change_culture = yankee
+				add_devastation = 10
+			}
+		}
+	}
+	MNE_reunify_new_england = {
+		icon = mission_unite_home_region
+		required_missions = {MNE_push_the_redcoats_to_the_sea}
+		position = 5
+		
+		provinces_to_highlight = {
+			OR {
+				area = vermont_area
+				area = connecticut_valley_area
+			}
+			OR = {
+				NOT = { owned_by = MNE }
+			}
+		}
+		trigger = {
+			vermont_area = {owned_by = MNE}
+			connecticut_valley_area = {owned_by = MNE}
+			VER { exists = no }
+		}
+		effect ={
+			change_tag = NEN
+		}
+	}
+}
