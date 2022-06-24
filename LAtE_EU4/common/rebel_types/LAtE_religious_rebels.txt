@@ -12040,7 +12040,7 @@ trailwalker_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan_group
+		religion_group = pagan
 	}
 	
 	# Country scope
@@ -12055,7 +12055,7 @@ trailwalker_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12084,7 +12084,7 @@ trailwalker_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = pagan_group
+				religion_group = pagan
 				NOT = { religion = trailwalker }
 			}
 			change_religion = trailwalker
@@ -12442,7 +12442,7 @@ norse_pagan_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan_group
+		religion_group = pagan
 	}
 	
 	# Country scope
@@ -12457,7 +12457,7 @@ norse_pagan_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12486,7 +12486,7 @@ norse_pagan_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = pagan_group
+				religion_group = pagan
 				NOT = { religion = norse_pagan_reformed }
 			}
 			change_religion = norse_pagan_reformed
@@ -12844,7 +12844,7 @@ aria_de_machete_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan_group
+		religion_group = pagan
 	}
 	
 	# Country scope
@@ -12859,7 +12859,7 @@ aria_de_machete_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = pagan_group }
+				NOT = { religion_group = pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -12888,7 +12888,7 @@ aria_de_machete_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = pagan_group
+				religion_group = pagan
 				NOT = { religion = aria_de_machete }
 			}
 			change_religion = aria_de_machete
