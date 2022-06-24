@@ -150,6 +150,7 @@ MNE_reconquest_of_new_england = {
 		}
 		effect ={
 			change_tag = NEN
+			set_government_rank = 2
 		}
 	}
 }
