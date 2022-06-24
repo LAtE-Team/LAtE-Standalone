@@ -76,19 +76,6 @@ MNE_reconquest_of_new_england = {
 		effect ={
 			massachusetts_bay_area = { add_permanent_claim = ROOT}
 			new_hampshire_area = { add_permanent_claim = ROOT}
-			every_core_province = {
-				limit = { 
-					owned_by = ROOT
-					province_id = 4544
-					province_id = 2565
-					province_id = 2013
-					NOT = {
-						religion = anglican
-					}
-				}
-				change_religion = anglican
-				add_devastation = 10
-			}
 		}
 	}
 	MNE_push_the_redcoats_to_the_sea = {
@@ -113,20 +100,6 @@ MNE_reconquest_of_new_england = {
 		effect ={
 			vermont_area = { add_permanent_claim = ROOT}
 			connecticut_valley_area = { add_permanent_claim = ROOT}
-			every_owned_province = {
-				limit = { 
-					owned_by = ROOT
-					area = massachusetts_bay_area
-					area = new_hampshire_area
-					NOT = {
-						culture = yankee
-						religion = ursuline
-					}
-				}
-				change_religion = ursuline
-				change_culture = yankee
-				add_devastation = 10
-			}
 		}
 	}
 	MNE_reunify_new_england = {

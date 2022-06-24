@@ -80,21 +80,6 @@ VER_reconquest_of_new_england = {
 		effect ={
 			massachusetts_bay_area = { add_permanent_claim = ROOT}
 			new_hampshire_area = { add_permanent_claim = ROOT}
-			every_owned_province = {
-				limit = { 
-					owned_by = ROOT
-					province_id = 4542
-					province_id = 966
-					province_id = 2010
-					NOT = {
-						culture = yankee
-						religion = ursuline
-					}
-				}
-				change_religion = ursuline
-				change_culture = yankee
-				add_devastation = 10
-			}
 		}
 	}
 	VER_push_the_redcoats_to_the_sea = {
@@ -119,20 +104,6 @@ VER_reconquest_of_new_england = {
 		effect ={
 			maine_area = { add_permanent_claim = ROOT}
 			aroostook_area = { add_permanent_claim = ROOT}
-			every_owned_province = {
-				limit = { 
-					owned_by = ROOT
-					area = massachusetts_bay_area
-					area = new_hampshire_area
-					NOT = {
-						culture = yankee
-						religion = ursuline
-					}
-				}
-				change_religion = ursuline
-				change_culture = yankee
-				add_devastation = 10
-			}
 		}
 	}
 	VER_reunify_new_england = {
