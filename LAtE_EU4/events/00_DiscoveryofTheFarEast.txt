@@ -9,11 +9,9 @@ country_event = {
 		NOT = { has_global_flag = japan_has_encountered_the_west }
 		technology_group = western
 		OR = {
-			religion = reformed
 			religion = catholic
 			religion = protestant
 			religion = anglican
-			religion = hussite
 		}
 		japan_region = {
 			has_discovered = ROOT

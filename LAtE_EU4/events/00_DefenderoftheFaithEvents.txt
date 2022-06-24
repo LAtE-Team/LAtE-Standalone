@@ -404,7 +404,6 @@ country_event = {
 		has_dlc = "Emperor"
 		OR = {
 			religion = protestant
-			religion = reformed
 		}
 		current_age = age_of_reformation
 		is_defender_of_faith = yes
@@ -561,9 +560,7 @@ country_event = {
 		}
 		OR = {
 			religion = protestant
-			religion = reformed
 			religion = anglican
-			religion = hussite
 		}
 		NOT = {
 			has_country_modifier = victory_for_the_reformation

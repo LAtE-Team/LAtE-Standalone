@@ -827,22 +827,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTAf9469"
-		trigger = {
-			OR = {
-				religion = mesoamerican_religion
-				religion = nahuatl
-			}
-		}
-		define_heir = {
-			dynasty = ROOT
-			male = yes
-			name = "Ahuizotl"
-			claim = 100
-			mil = 6
-		}
-	}
-	option = {
 		name = "EVTOPTAg9469"
 		trigger = {
 			religion = inti
@@ -851,32 +835,6 @@ country_event = {
 			dynasty = ROOT
 			male = yes
 			name = "Pachakutiq"
-			claim = 100
-			mil = 6
-		}
-	}
-	option = {
-		name = "EVTOPTAh9469"
-		trigger = {
-			religion = totemism
-		}
-		define_heir = {
-			dynasty = ROOT
-			male = yes
-			name = "Deganawida"
-			claim = 100
-			mil = 6
-		}
-	}
-	option = {
-		name = "EVTOPTAi9469"
-		trigger = {
-			religion = shamanism #Fetishism
-		}
-		define_heir = {
-			dynasty = ROOT
-			male = yes
-			name = "Ruhinda"
 			claim = 100
 			mil = 6
 		}
@@ -1031,12 +989,6 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTBf9469"
-		trigger = {
-			OR = {
-				religion = mesoamerican_religion
-				religion = nahuatl
-			}
-		}
 		define_heir = {
 			male = yes
 			dynasty = ROOT
@@ -1054,32 +1006,6 @@ country_event = {
 			male = yes
 			dynasty = ROOT
 			name = "Viracocha"
-			claim = 100
-			adm = 6
-		}
-	}
-	option = {
-		name = "EVTOPTBh9469"
-		trigger = {
-			religion = totemism
-		}
-		define_heir = {
-			male = yes
-			dynasty = ROOT
-			name = "Hiawatha"
-			claim = 100
-			adm = 6
-		}
-	}
-	option = {
-		name = "EVTOPTBi9469"
-		trigger = {
-			religion = shamanism #Fetishism
-		}
-		define_heir = {
-			male = yes
-			dynasty = ROOT
-			name = "Ruhanga"
 			claim = 100
 			adm = 6
 		}

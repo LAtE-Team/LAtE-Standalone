@@ -1015,7 +1015,6 @@ country_event = {
 		has_dlc = "Rights of Man"
 		religion = coptic 
 		NOT = { any_neighbor_country = { religion = catholic } }
-		NOT = { any_neighbor_country = { religion = orthodox } }
 		NOT = { any_owned_province = { continent = europe } }
 		NOT = { has_country_flag = reconnected_with_eastern_med_christians }
 		capital_scope = { continent = africa }
@@ -1039,7 +1038,6 @@ country_event = {
 				limit = { 
 					OR = {
 						religion = catholic
-						religion = orthodox
 					}
 					capital_scope = { 
 						OR = {

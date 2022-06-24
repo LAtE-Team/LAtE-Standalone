@@ -1037,7 +1037,7 @@ country_event = {
 		change_religion = sunni
 		if = {
 			limit = { technology_group = nomad_group }
-			change_technology_group = muslim
+			change_technology_group = westasian
 			swap_free_idea_group = yes
 		}
 		define_ruler = {
@@ -1981,8 +1981,6 @@ country_event = {
 		religion = tengri_pagan_reformed
 		OR = {
 			secondary_religion = protestant
-			secondary_religion = orthodox
-			secondary_religion = reformed
 			secondary_religion = coptic
 			secondary_religion = catholic
 		}
@@ -2136,8 +2134,6 @@ country_event = {
 		religion = tengri_pagan_reformed
 		OR = {
 			secondary_religion = protestant
-			secondary_religion = orthodox
-			secondary_religion = reformed
 			secondary_religion = coptic
 			secondary_religion = catholic
 		}
@@ -2180,8 +2176,6 @@ country_event = {
 		religion = tengri_pagan_reformed
 		OR = {
 			secondary_religion = protestant
-			secondary_religion = orthodox
-			secondary_religion = reformed
 			secondary_religion = coptic
 			secondary_religion = catholic
 		}
@@ -2231,8 +2225,6 @@ country_event = {
 		is_female = no
 		OR = {
 			secondary_religion = protestant
-			secondary_religion = orthodox
-			secondary_religion = reformed
 			secondary_religion = coptic
 			secondary_religion = catholic
 		}
@@ -2499,132 +2491,8 @@ country_event = {
 	}
 }
 
-
-#Support of the Shamans
-country_event = {
-	id = tengri_events.52
-	title = tengri_events.52.t
-	desc = tengri_events.52.d
-	picture = ANGRY_SHAMANS_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = tengri_pagan_reformed
-		OR = {
-			secondary_religion = shamanism
-			secondary_religion = totemism
-		}
-		
-		OR = {
-			AND = {
-				NOT = { stability = 3 }
-				is_at_war = no
-			}
-			AND = {
-				war_exhaustion = 1
-				is_at_war = yes
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 360
-	}
-	
-	option = {
-		name = tengri_events.52.a #The Gods favor our wars
-		trigger = { is_at_war = yes }
-		add_war_exhaustion = -2
-	}
-	option = {
-		name = tengri_events.52.b #The Gods will bless this peace
-		trigger = { is_at_war = no }
-		add_stability_or_adm_power = yes
-	}
-}
-
 #Flower Wars
 #Generally Benificial Event. Option 1 only rarely viable.
-country_event = {
-	id = tengri_events.53
-	title = tengri_events.53.t
-	desc = tengri_events.53.d
-	picture = ANGRY_SHAMANS_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = tengri_pagan_reformed
-		secondary_religion = nahuatl
-		vassal = 1
-	}
-	
-	immediate = {
-		hidden_effect = {
-			random_subject_country = {
-				set_country_flag = tengri_nahautl_raids
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 360
-	}
-	
-	option = {
-		name = tengri_events.53.a #
-		random_subject_country = {
-			add_opinion = {
-				who = ROOT
-				modifier = tengri_nahuatl_extradition
-			}
-			clr_country_flag = tengri_nahautl_raids
-		}
-	}
-	option = {
-		name = tengri_events.53.b #
-		add_army_tradition = 10
-		random_subject_country = {
-			add_opinion = {
-				who = ROOT
-				modifier = tengri_nahuatl_sacrifices
-			}
-			clr_country_flag = tengri_nahautl_raids
-		}
-	}
-}
-
-#Sumptuary Restrictions
-country_event = {
-	id = tengri_events.54
-	title = tengri_events.54.t
-	desc = tengri_events.54.d
-	picture = ANGRY_SHAMANS_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = tengri_pagan_reformed
-		secondary_religion = nahuatl
-	}
-	
-	mean_time_to_happen = {
-		months = 360
-	}
-	
-	option = {
-		name = tengri_events.54.a #Side with the Merchant.
-		add_horde_unity = -10
-		add_legitimacy = -10
-		add_devotion = -5
-		add_republican_tradition = -5
-	}
-	option = {
-		name = tengri_events.54.b #Side with the Warriors.
-		add_prestige = -15
-	}
-}
 
 #Confiscation of Deities
 province_event = {
@@ -2663,37 +2531,6 @@ province_event = {
 	}
 }
 
-#Ball Games
-country_event = {
-	id = tengri_events.56
-	title = tengri_events.56.t
-	desc = tengri_events.56.d
-	picture = SENCRATIC_ALTER_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = tengri_pagan_reformed
-		secondary_religion = mesoamerican_religion
-	}
-	
-	mean_time_to_happen = {
-		months = 360
-	}
-	
-	option = {
-		name = tengri_events.56.a #For the gods
-		add_prestige = 10
-	}
-	option = {
-		name = tengri_events.56.b #For the people
-		add_legitimacy = 5
-		add_horde_unity = 5
-		add_devotion = 3
-		add_republican_tradition = 3
-	}
-}
-
 #New Bible Translation
 country_event = {
 	id = tengri_events.57
@@ -2718,77 +2555,6 @@ country_event = {
 		add_legitimacy = 10
 		add_devotion = 10
 		add_republican_tradition = 5
-	}
-}
-
-#Predestination
-country_event = {
-	id = tengri_events.58
-	title = tengri_events.58.t
-	desc = tengri_events.58.d
-	picture = SENCRATIC_ALTER_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = tengri_pagan_reformed
-		secondary_religion = reformed
-	}
-	
-	mean_time_to_happen = {
-		months = 360
-	}
-	
-	option = {
-		name = tengri_events.58.a #
-		add_years_of_income = 0.1
-	}
-	option = {
-		name = tengri_events.58.b #
-		add_horde_unity = 10
-		add_legitimacy = 10
-		add_devotion = 10
-		add_republican_tradition = 5
-	}
-}
-
-#New Mission Established
-province_event = {
-	id = tengri_events.59
-	title = tengri_events.59.t
-	desc = tengri_events.59.d
-	picture = RELIGIOUS_MIGRANTS_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		owner = {
-			religion = tengri_pagan_reformed
-			secondary_religion = orthodox
-		}
-		has_empty_adjacent_province = yes
-		owner = { NOT = { num_of_colonies = 2 } }
-	}
-	
-	mean_time_to_happen = {
-		months = 380
-	}
-
-	is_mtth_scaled_to_size = 1
-	
-	option = {
-		name = tengri_events.59.a #
-		random_empty_neighbor_province = {
-			create_colony = 100
-			change_religion = orthodox
-		}
-	}
-	option = {
-		name = tengri_events.59.b #
-		random_empty_neighbor_province = {
-			add_base_tax = 1
-			change_religion = orthodox
-		}
 	}
 }
 

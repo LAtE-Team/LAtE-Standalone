@@ -2552,7 +2552,6 @@ country_event = {
 			modifier = {
 				factor = 3.5
 				NOT = { tag = JAP }
-				NOT = { tag = OTM }
 				any_known_country = {
 					capital_scope = { region = japan_region }
 					religion = catholic
@@ -2569,15 +2568,10 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				NOT = { tag = JAP }
-				NOT = { tag = OTM }
 				any_known_country = {
 					capital_scope = { region = japan_region }
 					religion = catholic
 				}
-			}
-			modifier = {
-				factor = 4
-				tag = OTM
 			}
 		}
 		change_religion = catholic

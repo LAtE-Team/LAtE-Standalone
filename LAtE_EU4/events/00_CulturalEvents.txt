@@ -91,57 +91,7 @@ country_event = {
 }
 
 # Byzantine Refugees
-country_event = {
-	id = cultural_event.3
-	title = cultural_event.3.t
-	desc = cultural_event.3.d
-	picture = BIG_BOOK_eventPicture
-
-	trigger = {
-		has_institution = renaissance
-		religion_group = christian
-		current_age = age_of_discovery
-		NOT = {
-			exists = BYZ
-			has_country_flag = received_byzantines
-		}
-		151 = {
-			culture = turkish
-			religion = sunni
-			NOT = { owned_by = ROOT }
-		}
-		dip_power = 50
-		adm_power = 30
-		prestige = 30
-		dip = 4
-		capital_scope = {
-			continent = europe
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 60
-	}
-	
-	immediate = {
-		set_country_flag = received_byzantines
-	}
-	
-	option = {
-		name = cultural_event.3.a
-		add_country_modifier = {
-			name = "byzantine_influx"
-			duration = 10950
-		}
-		add_dip_power = -50
-		add_adm_power = -30
-		add_prestige = 5
-	}
-	option = {
-		name = cultural_event.3.b
-		add_prestige = -5
-	}
-}
+# country_event = { id = cultural_event.3
 
 # Support The Florentine School
 country_event = {
@@ -269,51 +219,6 @@ country_event = {
 			duration = 36500
 		}
 		add_years_of_income = -0.2
-		add_adm_power = -10
-	}
-	option = {
-		name = cultural_event.4.b
-		add_prestige = -5
-	}
-}
-
-# Golden Age of Dutch Painting
-country_event = {
-	id = cultural_event.7
-	title = cultural_event.7.t
-	desc = cultural_event.7.d
-	picture = IMPORTANT_STATUE_eventPicture
-
-	trigger = {
-		owns = 97
-		97 = {
-			religion = reformed
-			controller = { tag = root }
-		}
-		NOT = {
-			has_country_flag = dutch_masters
-		}
-		current_age = age_of_absolutism
-		has_idea = patron_of_art
-		years_of_income = 0.6
-		adm_power = 10
-	}
-	
-	mean_time_to_happen = {
-		months = 160
-	}
-	
-	immediate = {
-		set_country_flag = dutch_masters
-	}
-	
-	option = {
-		name = cultural_event.4.a
-		add_country_modifier = {
-			name = "dutch_masters"
-			duration = 18250
-		}
-		add_years_of_income = -0.6
 		add_adm_power = -10
 	}
 	option = {
