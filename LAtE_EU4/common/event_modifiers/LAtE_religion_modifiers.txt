@@ -46,3 +46,12 @@ consumerist_community_wrong_culture = {
 	local_sailors_modifier = 0.2
 	religion = yes
 }
+
+ursuline_schism_mended_modifier = {
+	local_missionary_strength = 0.015
+	local_missionary_maintenance_cost = -0.5
+}
+
+ursuline_schism_mender_modifier = {
+	global_heretic_missionary_strength = 0.015
+}

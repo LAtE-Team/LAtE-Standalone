@@ -1,0 +1,68 @@
+country_decisions = {
+
+	mend_the_ursuline_schism = {
+		major = yes
+		potential = {
+			religion = catholic
+			NOT = { has_global_flag = ursuline_schism_mended }
+			capital_scope = {
+				continent = north_america
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4555 			# Detroit
+				province_id = 993			# Montreal
+				province_id = 4533			# Quebec City
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { religion = catholic }
+			}
+		}
+		allow = {
+			4555 = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = catholic
+			}
+			993 = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = catholic
+			}
+			4533 = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = catholic
+			}
+		}
+		effect = {	
+			hidden_effect = {
+				set_global_flag = ursuline_schism_mended
+			}
+			custom_tooltip = URSULINE_SCHISM_MENDED_TT
+			add_country_modifier = {
+				name = ursuline_schism_mender_modifier
+				duration = -1
+			}
+			hidden_effect = {
+				every_country = {
+					limit = {
+						religion_group = christian
+						capital_scope = {
+							continent = north_america
+						}
+					}
+					country_event = {
+						id = catholic_flavor.1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+}

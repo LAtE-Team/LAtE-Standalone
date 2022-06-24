@@ -4,6 +4,10 @@ ursuline_order = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
     }
     cost = 50
@@ -45,6 +49,10 @@ charity_order = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
     }
     cost = 50
@@ -78,6 +86,10 @@ angeline_order = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
     }
     cost = 50
