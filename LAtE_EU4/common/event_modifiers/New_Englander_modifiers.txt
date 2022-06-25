@@ -4,5 +4,5 @@ nen_yankee_resettlement = {
 }
 nen_religious_pacification = {
 	global_missionary_strength = +0.02
-	missionary_maintenance = -0.2
+	missionary_maintenance_cost = -0.2
 }

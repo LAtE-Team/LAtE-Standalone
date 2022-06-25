@@ -1,4 +1,5 @@
 VER_reconquest_of_new_england = {
+		slot = 2
 		generic = no #if a mission without generic = yes wants this slot then it overrides this.
 		ai = yes
 	potential = {
