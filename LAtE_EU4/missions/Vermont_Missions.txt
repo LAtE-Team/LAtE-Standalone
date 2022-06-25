@@ -80,6 +80,10 @@ VER_reconquest_of_new_england = {
 		effect ={
 			massachusetts_bay_area = { add_permanent_claim = ROOT}
 			new_hampshire_area = { add_permanent_claim = ROOT}
+			add_country_modifier = {
+				name = "nen_religious_pacification"
+				duration = 9125 #25 years
+			}
 		}
 	}
 	VER_push_the_redcoats_to_the_sea = {
@@ -104,6 +108,10 @@ VER_reconquest_of_new_england = {
 		effect ={
 			maine_area = { add_permanent_claim = ROOT}
 			aroostook_area = { add_permanent_claim = ROOT}
+			add_country_modifier = {
+				name = "nen_yankee_resettlement"
+				duration = 9125 #25 years
+			}
 		}
 	}
 	VER_reunify_new_england = {

@@ -1,0 +1,8 @@
+#For Vermont, Maine, and New England
+nen_yankee_resettlement = {
+	culture_conversion_cost = -0.25
+}
+nen_religious_pacification = {
+	global_missionary_strength = +0.02
+	missionary_maintenance = -0.2
+}
