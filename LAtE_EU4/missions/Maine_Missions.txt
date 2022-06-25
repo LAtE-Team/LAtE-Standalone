@@ -55,7 +55,7 @@ MNE_reconquest_of_new_england = {
 	}
 	MNE_begin_the_reconquest = {
 		icon = mission_crusade_for_varna
-		required_missions = {MNE_rekindle_ursuline_alliances}
+		required_missions = {MNE_court_the_maritimers}
 		position = 3
 		
 		provinces_to_highlight = {
