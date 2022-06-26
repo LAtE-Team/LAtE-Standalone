@@ -83,7 +83,7 @@ MNE_reconquest_of_new_england = {
 			}
 		}
 	}
-	MNE_push_the_redcoats_to_the_sea = {
+	MNE_vanquish_the_redcoats = {
 		icon = mission_cannons_firing
 		required_missions = {MNE_begin_the_reconquest}
 		position = 4

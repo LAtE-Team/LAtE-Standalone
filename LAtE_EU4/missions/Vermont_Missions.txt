@@ -87,7 +87,7 @@ VER_reconquest_of_new_england = {
 			}
 		}
 	}
-	VER_push_the_redcoats_to_the_sea = {
+	VER_vanquish_the_redcoats = {
 		icon = mission_cannons_firing
 		required_missions = {VER_begin_the_reconquest}
 		position = 4
