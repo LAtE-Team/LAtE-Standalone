@@ -113,7 +113,7 @@ MNE_reconquest_of_new_england = {
 	}
 	MNE_reunify_new_england = {
 		icon = mission_unite_home_region
-		required_missions = {MNE_push_the_redcoats_to_the_sea}
+		required_missions = {MNE_vanquish_the_redcoats}
 		position = 5
 		
 		provinces_to_highlight = {
