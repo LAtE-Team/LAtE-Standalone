@@ -66,13 +66,13 @@ MNE_reconquest_of_new_england = {
 				province_id = 2013
 			}
 			OR = {
-				NOT = { owned_by = MNE }
+				NOT = { owned_by = ROOT }
 			}
 		}
 		trigger = {
-			4544 = {owned_by = MNE}
-			2565 = {owned_by = MNE}
-			2013 = {owned_by = MNE}
+			4544 = {owned_by = ROOT}
+			2565 = {owned_by = ROOT}
+			2013 = {owned_by = ROOT}
 		}
 		effect ={
 			massachusetts_bay_area = { add_permanent_claim = ROOT}
@@ -94,12 +94,12 @@ MNE_reconquest_of_new_england = {
 				area = new_hampshire_area
 			}
 			OR = {
-				NOT = { owned_by = MNE }
+				NOT = { owned_by = ROOT }
 			}
 		}
 		trigger = {
-			massachusetts_bay_area = {owned_by = MNE}
-			new_hampshire_area = {owned_by = MNE}
+			massachusetts_bay_area = {owned_by = ROOT}
+			new_hampshire_area = {owned_by = ROOT}
 			RED { exists = no }
 		}
 		effect ={
@@ -122,12 +122,12 @@ MNE_reconquest_of_new_england = {
 				area = connecticut_valley_area
 			}
 			OR = {
-				NOT = { owned_by = MNE }
+				NOT = { owned_by = ROOT }
 			}
 		}
 		trigger = {
-			vermont_area = {owned_by = MNE}
-			connecticut_valley_area = {owned_by = MNE}
+			vermont_area = {owned_by = ROOT}
+			connecticut_valley_area = {owned_by = ROOT}
 			VER { exists = no }
 		}
 		effect ={
