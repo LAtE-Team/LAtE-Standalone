@@ -1,5 +1,5 @@
 ﻿l_english:
  nen_religious_pacification: "Religious Pacification"
- nen_religious_pacification_desc: "Missionaries have begun their process of bringing the local to the $COUNTRY_RELIGION$'s faith."
+ nen_religious_pacification_desc: "Missionaries have begun their process of bringing the local to the [Root.Religion.GetName] faith."
  nen_yankee_resettlement: "Yankee Resettlement"
  nen_yankee_resettlement_desc: "Many Yankees have begun to return to former Redcoats territory."
