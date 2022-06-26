@@ -64,7 +64,7 @@ VER_reconquest_of_new_england = {
 		position = 3
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				province_id = 4542
 				province_id = 966
 				province_id = 2010
@@ -93,7 +93,7 @@ VER_reconquest_of_new_england = {
 		position = 4
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				area = massachusetts_bay_area
 				area = new_hampshire_area
 			}
@@ -104,7 +104,7 @@ VER_reconquest_of_new_england = {
 		trigger = {
 			massachusetts_bay_area = {owned_by = ROOT}
 			new_hampshire_area = {owned_by = ROOT}
-			RED { exists = no }
+			RED = { exists = no }
 		}
 		effect ={
 			maine_area = { add_permanent_claim = ROOT}
@@ -121,7 +121,7 @@ VER_reconquest_of_new_england = {
 		position = 5
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				area = maine_area
 				area = aroostook_area
 			}
@@ -132,7 +132,7 @@ VER_reconquest_of_new_england = {
 		trigger = {
 			maine_area = {owned_by = ROOT}
 			aroostook_area = {owned_by = ROOT}
-			MNE { exists = no }
+			MNE = { exists = no }
 		}
 		effect ={
 			change_tag = NEN

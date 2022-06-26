@@ -74,11 +74,31 @@ country_event = {
 		trigger = {
 			religion = ursuline	
 		}
-		add_stability = -1
+		change_religion = ursuline
+		hidden_effect = {
+			capital_scope = {
+				change_religion = ursuline
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
 	}
+
 
 	option = {
 		name = catholic_flavor.1.d
+		trigger = {
+			religion = ursuline	
+		}
+		add_stability = -1
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = catholic_flavor.1.e
 		trigger = {
 			NOT = { religion = catholic }
 			NOT = { religion = ursuline }	

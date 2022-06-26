@@ -27,13 +27,11 @@ MNE_reconquest_of_new_england = {
 		
 		trigger = {
 			dip_power = 50
-			calc_true_if = {
-				MRT = {
-					religion = anglican
-					has_opinion = {
-						who = MNE
-						value = 175
-					}
+			MRT = {
+				religion = anglican
+				has_opinion = {
+					who = MNE
+					value = 175
 				}
 			}
 		}
@@ -60,7 +58,7 @@ MNE_reconquest_of_new_england = {
 		position = 3
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				province_id = 4544
 				province_id = 2565
 				province_id = 2013
@@ -89,7 +87,7 @@ MNE_reconquest_of_new_england = {
 		position = 4
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				area = massachusetts_bay_area
 				area = new_hampshire_area
 			}
@@ -100,7 +98,7 @@ MNE_reconquest_of_new_england = {
 		trigger = {
 			massachusetts_bay_area = {owned_by = ROOT}
 			new_hampshire_area = {owned_by = ROOT}
-			RED { exists = no }
+			RED = { exists = no }
 		}
 		effect ={
 			vermont_area = { add_permanent_claim = ROOT}
@@ -117,7 +115,7 @@ MNE_reconquest_of_new_england = {
 		position = 5
 		
 		provinces_to_highlight = {
-			OR {
+			OR = {
 				area = vermont_area
 				area = connecticut_valley_area
 			}
@@ -128,7 +126,7 @@ MNE_reconquest_of_new_england = {
 		trigger = {
 			vermont_area = {owned_by = ROOT}
 			connecticut_valley_area = {owned_by = ROOT}
-			VER { exists = no }
+			VER = { exists = no }
 		}
 		effect ={
 			change_tag = NEN
