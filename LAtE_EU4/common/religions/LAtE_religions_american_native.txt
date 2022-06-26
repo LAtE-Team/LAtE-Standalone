@@ -1,0 +1,39 @@
+american_native = {
+	crusade_name = CRUSADE
+
+	midewiwin = { #was ghost_dance
+		color = { 0.9 0.4 0.2 }
+		icon = 6
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { BEAR_SPIRIT }
+	}
+
+	raven_tales = {
+		color = { 0.7 0 0 }
+		icon = 7
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+
+		ancestors = yes
+		
+		heretic = { BEAR_SPIRIT }
+	}
+	
+	harmonized_modifier = harmonized_american_native
+}

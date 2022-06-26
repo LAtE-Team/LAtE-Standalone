@@ -1,0 +1,117 @@
+latter_day_saints = {
+	crusade_name = CRUSADE
+
+	mormon = {
+		color = { 0.75 0.4 0.55 }
+		icon = 39
+		
+		country = {
+			global_missionary_strength = 0.01
+			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			advisor_cost = -0.1
+			heir_chance = 1.0
+		}
+		
+		heretic = { BICKERTONITE GODBEITE STRANGITE }
+		
+		fervor = yes
+	}
+
+    neogodbeite = { # was bickertonite
+		color = { 0.55 0.3 0.35 }
+		icon = 40
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { GODBEITE STRANGITE }
+		
+		fervor = yes
+	}
+
+    woolleyite = {
+		color = { 0.8 0.55 0.6 }
+		icon = 41
+		
+		country = {
+			global_missionary_strength = 0.01
+			heir_chance = 1.0
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { GODBEITE BICKERTONITE STRANGITE }
+		
+		fervor = yes
+	}
+	
+	strangite = {
+		color = { 0.6 0.35 0.5 }
+		icon = 42
+		
+		country = {
+			global_missionary_strength = 0.01
+			heir_chance = 1.0
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			advisor_cost = -0.1
+			heir_chance = 1.0
+		}
+		
+		heretic = { BICKERTONITE GODBEITE }
+		
+		fervor = yes
+	}
+
+    lamanita = {
+		icon = 43
+		color = { 0.90 0.40 0.55 }
+
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+
+		heretic = { OLD_LAMANITA }
+	}
+
+    furiegi = {
+		icon = 43
+		color = { 0.40 0.4 0.55 }
+
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+
+		heretic = { OLD_FURIEGI }
+	}
+
+	harmonized_modifier = harmonized_latter_day_saints    
+}

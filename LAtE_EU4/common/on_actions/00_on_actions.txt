@@ -3702,6 +3702,12 @@ on_province_religion_converted = {
 		remove_province_modifier = son_fetishism_as_secondary_religion_province
 	}
 	judaism_on_province_change_religion_or_change_owner_effect = yes
+	if = {
+		limit = {
+			has_province_modifier = ursuline_schism_mended_modifier
+		}
+		remove_province_modifier = ursuline_schism_mended_modifier
+	}
 }
 
 # province
@@ -3877,6 +3883,12 @@ on_province_owner_change = {
 			has_province_modifier = son_fetishism_as_secondary_religion_province
 		}
 		remove_province_modifier = son_fetishism_as_secondary_religion_province
+	}
+	if = {
+		limit = {
+			has_province_modifier = ursuline_schism_mended_modifier
+		}
+		remove_province_modifier = ursuline_schism_mended_modifier
 	}
 }
 

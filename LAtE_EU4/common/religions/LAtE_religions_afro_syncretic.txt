@@ -1,0 +1,132 @@
+afro_syncretic = {
+	crusade_name = CRUSADE
+
+    rastafarian = {
+		color = { 0.8 0.4 0.0 }
+		icon = 1
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { NYAHBINGHI BOBO_ASHANTI HOWELLITE }
+	}
+
+	voodoo = {
+		color = { 0.3 0.5 0.2 }
+		icon = 2
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { OLD_VOODOO }
+	}
+
+	santeria = {
+		color = { 0.6 0.75 0.0 }
+		icon = 3
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { OLD_SANTERIA }
+	}
+
+	candomble = {
+		color = { 0.6 0.75 0.2 }
+		icon = 4
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { OLD_CANDOMBLE }
+	}
+
+	espiritista = {
+		color = { 0.7 0.4 0.5 }
+		icon = 5
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { OLD_ESPIRITISTA }
+	}
+
+	#LAtE Exclusive
+	zar = {
+		color = { 127 76 76 }
+		icon = 74
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { GOAT_SKULL }
+	}
+	mwari = {
+		color = { 0.6 0.3 0.4 }
+		icon = 75
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { GOAT_SKULL }
+	}
+	zanahary = {
+		color = { 76 25 178 }
+		icon = 76
+		
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		heretic = { GOAT_SKULL }
+	}
+
+	harmonized_modifier = harmonized_afro_syncretic
+}

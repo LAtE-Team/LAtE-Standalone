@@ -1,0 +1,85 @@
+pacific = {
+	crusade_name = CRUSADE
+
+	cetic = {
+		icon = 35
+		color = { 0.7 0.52 0.90 }
+
+		country = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+		}
+		
+		heretic = { REGICIDAL }
+		
+		uses_harmony = yes
+
+		harmonized_modifier = harmonized_cetic
+	}
+
+	gaian = {
+		icon = 36
+		color = { 0.3 0.7 0.4 }
+
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+			may_recruit_female_generals = yes
+			female_advisor_chance = 0.5
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		
+		uses_karma = yes
+		allow_female_defenders_of_the_faith = yes
+
+		heretic = { MASCULINIST }
+		
+		harmonized_modifier = harmonized_gaian
+	}
+
+	shinto = {
+		color = { 204 0 0 }
+		icon = 37
+		country = {
+			land_morale = 0.1
+			tolerance_heathen = 1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			discipline = 0.05
+			global_unrest = -1
+		}
+		heretic = { SHUGENDO }
+		uses_isolationism = yes
+		
+		harmonized_modifier = harmonized_shinto
+		
+	}
+
+	nousthreskeia = {
+		icon = 38
+		color = { 0.44 0.39 0.33 }
+
+		country = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+		}
+		
+		heretic = { GOAT_SKULL }
+		
+		harmonized_modifier = harmonized_nousthreskeia
+	}
+}

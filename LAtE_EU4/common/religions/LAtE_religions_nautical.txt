@@ -1,0 +1,37 @@
+nautical = { #was pirate
+	crusade_name = CRUSADE
+
+    brethren = {
+		color = { 0.3 0.2 0.2 }
+		icon = 62
+		
+		country = {
+			loot_amount = 0.25
+			naval_morale = 0.1
+		}
+		country_as_secondary = {
+			loot_amount = 0.25
+			naval_morale = 0.1
+		}
+		
+		heretic = { LUBBER }
+	}
+
+    pelagic = {
+		icon = 63
+		color = { 0.8 0.8 0.8 }
+
+		country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+
+		heretic = { OLD_PELAGIC }
+	}
+
+	harmonized_modifier = harmonized_nautical #change from harmonized_pirate
+}

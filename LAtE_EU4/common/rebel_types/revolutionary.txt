@@ -213,7 +213,6 @@ revolutionary_rebels = {
 			}
 			hidden_effect = {
 				country_event = { id = revolution.10 } #Generic
-				country_event = { id = revolution.15 } #France (non-monarchy)
 			}
 		}
 #		else_if = {
