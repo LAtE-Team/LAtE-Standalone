@@ -188,7 +188,7 @@ country_event = {
 	}
 
 	option = {
-		name = hudsonia_events.5.b
+		name = hudsonia_events.5.c
 		add_innovativeness_big_effect = yes
 		ai_chance = {
 			factor = 1

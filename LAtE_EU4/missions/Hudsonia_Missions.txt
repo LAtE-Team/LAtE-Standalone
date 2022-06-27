@@ -11,7 +11,7 @@ HUD_missions_1 = {
     }
     
     HUD_mission_claims = {
-        icon = mission_alliances
+        icon = mission_unite_home_region
         position = 1
                 
         provinces_to_highlight = {
@@ -56,7 +56,7 @@ HUD_missions_1 = {
     }
 
 	HUD_mission_cores = {
-        icon = mission_alliances
+        icon = mission_conquer_50_development
 		required_missions = {
 			HUD_mission_claims
 		}
@@ -109,7 +109,7 @@ HUD_missions_1 = {
     }
 
 	HUD_mission_deitscherei = {
-        icon = mission_alliances
+        icon = mission_cannons_firing
 		required_missions = {
 			HUD_mission_cores
 		}
@@ -185,7 +185,7 @@ HUD_missions_2 = {
     }
     
     HUD_mission_mercs = {
-        icon = mission_alliances
+        icon = mission_landsknecht_soldier
         position = 2
 		required_missions = {
 			HUD_mission_claims
@@ -216,7 +216,7 @@ HUD_missions_2 = {
     }
 
 	HUD_mission_fort_newburgh = {
-        icon = mission_alliances
+        icon = fortress_of_belgrade
 		required_missions = {
 			HUD_mission_mercs
 		}
@@ -252,7 +252,7 @@ HUD_missions_2 = {
     }
 
 	HUD_mission_keystone = {
-        icon = mission_alliances
+        icon = consolidate_the_stadholders
 		required_missions = {
 			HUD_mission_fort_newburgh
 			HUD_mission_deitscherei
@@ -324,7 +324,7 @@ HUD_missions_2 = {
     }
 
 	HUD_mission_manhattan_docks = {
-        icon = mission_alliances
+        icon = mission_galleys_in_port
 		required_missions = {
 			HUD_mission_keystone
 		}
@@ -372,7 +372,7 @@ HUD_missions_2 = {
     }
 
 	HUD_mission_germany = {
-        icon = mission_alliances
+        icon = bavarian_cultural_dominance
 		required_missions = {
 			HUD_mission_manhattan_docks
 		}
@@ -414,7 +414,7 @@ HUD_missions_3 = {
     }
     
     HUD_mission_baltimore = {
-        icon = mission_alliances
+        icon = develop_provence
         position = 5
 		required_missions = {
 			HUD_mission_keystone
@@ -469,7 +469,7 @@ HUD_missions_3 = {
     }
 
 	HUD_mission_trade = {
-        icon = mission_alliances
+        icon = mission_dominate_home_trade_node
 		required_missions = {
 			HUD_mission_baltimore
 		}
@@ -548,7 +548,7 @@ HUD_missions_3 = {
     }
 
 	HUD_mission_greater_germany = {
-        icon = mission_alliances
+        icon = Blood_Iron
 		required_missions = {
 			HUD_mission_trade
 			HUD_mission_germany
@@ -595,7 +595,7 @@ HUD_missions_4 = {
     }
     
     HUD_mission_quebec = {
-        icon = mission_alliances
+        icon = mission_religious
         position = 1
                 
         provinces_to_highlight = {
@@ -681,7 +681,7 @@ HUD_missions_4 = {
     }
 
 	HUD_mission_vermont = {
-        icon = mission_alliances
+        icon = mission_have_two_subjects
 		required_missions = {
 			HUD_mission_maritimes
 		}
@@ -751,7 +751,7 @@ HUD_missions_5 = {
     }
     
     HUD_mission_fort_raquette = {
-        icon = mission_alliances
+        icon = fortress_switzerland
         position = 2
 		required_missions = {
 			HUD_mission_quebec
@@ -789,7 +789,7 @@ HUD_missions_5 = {
     }
 
 	HUD_mission_develop_capital = {
-        icon = mission_alliances
+        icon = mission_colonial
 		required_missions = {
 			HUD_mission_fort_raquette
 		}
@@ -819,6 +819,7 @@ HUD_missions_5 = {
 					name = HUD_tade_hubs
 					duration = -1
 				}
+				rename_capital = "Albany"
 			}
 			4578 = {
 				add_province_modifier = {
@@ -830,7 +831,7 @@ HUD_missions_5 = {
     }
 
 	HUD_mission_develop_countryside = {
-        icon = mission_alliances
+        icon = mission_rb_import_potatoes
 		required_missions = {
 			HUD_mission_develop_capital
 			HUD_mission_vermont
@@ -896,7 +897,7 @@ HUD_missions_5 = {
     }
 
 	HUD_mission_connecticut = {
-        icon = mission_alliances
+        icon = mission_rb_unite_the_clans
 		required_missions = {
 			HUD_mission_develop_countryside
 		}
@@ -938,7 +939,7 @@ HUD_missions_5 = {
     }
 
 	HUD_mission_before_maine = {
-        icon = mission_alliances
+        icon = mission_rb_conquer_wales
 		required_missions = {
 			HUD_mission_connecticut
 		}
@@ -996,7 +997,7 @@ HUD_missions_6 = {
     }
     
     HUD_mission_betray_quebec = {
-        icon = mission_alliances
+        icon = a_show_of_strength
         position = 5
 		required_missions = {
 			HUD_mission_develop_countryside
@@ -1063,7 +1064,7 @@ HUD_missions_6 = {
     }
 
 	HUD_mission_control_quebec = {
-        icon = mission_alliances
+        icon = mission_monarch_in_throne_room
 		required_missions = {
 			HUD_mission_betray_quebec
 		}
@@ -1149,7 +1150,7 @@ HUD_missions_6 = {
     }
 
 	HUD_mission_hudsonian_empire = {
-        icon = mission_alliances
+        icon = mission_empire
 		required_missions = {
 			HUD_mission_control_quebec
 			HUD_mission_before_maine
@@ -1193,7 +1194,7 @@ HUD_missions_anabaptist = {
     }
     
     HUD_mission_allow_proselytization = {
-        icon = mission_alliances
+        icon = contracts_of_correspondence
         position = 1
    
         trigger = {
@@ -1213,7 +1214,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_anabaptist_churches = {
-        icon = mission_alliances
+        icon = fund_the_monasteries
 		required_missions = {
 			HUD_mission_allow_proselytization
 		}
@@ -1259,7 +1260,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_merc_army = {
-        icon = mission_alliances
+        icon = mission_assemble_an_army
 		required_missions = {
 			HUD_mission_anabaptist_churches
 			HUD_mission_mercs
@@ -1307,7 +1308,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_scavengers = {
-        icon = mission_alliances
+        icon = establish_the_musketeers
 		required_missions = {
 			HUD_mission_merc_army
 		}
@@ -1342,7 +1343,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_anabaptist_courts = {
-        icon = mission_alliances
+        icon = join_the_reformation
 		required_missions = {
 			HUD_mission_scavengers
 			HUD_mission_develop_countryside
@@ -1405,7 +1406,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_first_manufactory = {
-        icon = mission_alliances
+        icon = mission_have_manufactories
 		required_missions = {
 			HUD_mission_anabaptist_courts
 		}
@@ -1445,7 +1446,7 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_old_world_anabaptists = {
-        icon = mission_alliances
+        icon = mission_settlers_north_america
 		required_missions = {
 			HUD_mission_first_manufactory
 			HUD_mission_germany
@@ -1507,7 +1508,7 @@ HUD_missions_ursuline = {
     }
     
     HUD_mission_convert_capital = {
-        icon = mission_alliances
+        icon = catholic_confraternity
         position = 1
    
         provinces_to_highlight = {
@@ -1538,7 +1539,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_convert_country = {
-        icon = mission_alliances
+        icon = catholic_volunteers
 		required_missions = {
 			HUD_mission_convert_capital
 		}
@@ -1566,7 +1567,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_expel_anabaptists = {
-        icon = mission_alliances
+        icon = crush_heretic_strongholds
 		required_missions = {
 			HUD_mission_convert_country
 			HUD_mission_mercs
@@ -1598,7 +1599,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_scavenge_anabaptist_lands = {
-        icon = mission_alliances
+        icon = mission_high_income
 		required_missions = {
 			HUD_mission_expel_anabaptists
 		}
@@ -1638,7 +1639,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_convert_keystone = {
-        icon = mission_alliances
+        icon = counter_reformation
 		required_missions = {
 			HUD_mission_scavenge_anabaptist_lands
 			HUD_mission_keystone
@@ -1712,7 +1713,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_ursuline_churches = {
-        icon = mission_alliances
+        icon = connect_further_austria
 		required_missions = {
 			HUD_mission_convert_keystone
 		}
@@ -1750,7 +1751,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_ursuline_atlantica = {
-        icon = mission_alliances
+        icon = holy_state
 		required_missions = {
 			HUD_mission_ursuline_churches
 			HUD_mission_before_maine
@@ -1772,6 +1773,7 @@ HUD_missions_ursuline = {
 				country_or_non_sovereign_subject_holds = ROOT
 				religion = ursuline
 			}
+			army_size_percentage = 1
         }
         
         effect = {
