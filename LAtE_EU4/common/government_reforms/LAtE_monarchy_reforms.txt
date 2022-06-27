@@ -111,3 +111,23 @@ canadian_empire = {
 		}
 	}
 }
+
+mercenary_army_reform = {
+	icon = "black_army_reform"
+	allow_normal_conversion = yes
+	potential = {
+		tag = HUD
+		has_country_flag = mercenary_army_reform_flag
+		is_revolutionary = no
+	}
+	modifiers = {
+		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.025
+	}
+	custom_attributes = {
+		disables_nobility = yes
+	}
+	ai = {
+		factor = 3
+	}
+}

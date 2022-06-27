@@ -36,10 +36,19 @@ HUD_missions_1 = {
 				4582 = {
 					is_claim = ROOT
 				}
+				AND = {
+					owns_or_non_sovereign_subject_of  = 4626
+					owns_or_non_sovereign_subject_of  = 4579
+					owns_or_non_sovereign_subject_of  = 4582
+				}
 			}
         }
         
         effect = {
+			add_country_modifier = {
+				name = HUD_eager_army
+				duration = 3650
+			}
 			add_permanent_claim = 4626
 			add_permanent_claim = 4579
 			add_permanent_claim = 4582
@@ -70,6 +79,18 @@ HUD_missions_1 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				4626 = { anabaptists_estate_growth_effect = yes }
+				4579 = { anabaptists_estate_growth_effect = yes }
+				4582 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
 			add_permanent_claim = 2023
 			add_permanent_claim = 4621
 			add_permanent_claim = 955
@@ -110,6 +131,21 @@ HUD_missions_1 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				2023 = { anabaptists_estate_growth_effect = yes }
+				4621 = { anabaptists_estate_growth_effect = yes }
+				955 = { anabaptists_estate_growth_effect = yes }
+				2557 = { anabaptists_estate_growth_effect = yes }
+				4623 = { anabaptists_estate_growth_effect = yes }
+				2556 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
 			susquehanna_area = {
 				add_permanent_claim = root
 			}
@@ -155,6 +191,11 @@ HUD_missions_2 = {
 			hidden_effect = {
 				set_country_flag = HUD_mercs
 			}
+			add_country_modifier = {
+				name = HUD_mercenary_roster
+				duration = -1
+			}
+			custom_tooltip = HUDSONIA_MERC_TT
         }
     }
 
@@ -180,6 +221,12 @@ HUD_missions_2 = {
         }
         
         effect = {
+			4541 = {
+				add_province_modifier = {
+					name = HUD_fort_modifier
+					duration = -1
+				}
+			}
 			add_permanent_claim = 965
 			add_permanent_claim = 2639
 			add_permanent_claim = 4540
@@ -247,6 +294,10 @@ HUD_missions_2 = {
         }
         
         effect = {
+			add_country_modifier = {
+				name = HUD_growing_momentum
+				duration = 7300
+			}
 			add_permanent_claim = 962 
 			add_permanent_claim = 956 
 			delmarva_area = {
@@ -280,6 +331,24 @@ HUD_missions_2 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				965 = { 
+					anabaptists_estate_growth_effect = yes
+				}
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			965 = {
+				add_province_modifier = {
+					name = HUD_manhattan_docks
+					duration = -1
+				}
+			}
 			create_explorer = {
 				tradition = 60
 			}
@@ -309,7 +378,10 @@ HUD_missions_2 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_accross_the_ocean
+				duration = 7300
+			}
         }
     }
 }
@@ -348,6 +420,29 @@ HUD_missions_3 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				2554 = { anabaptists_estate_growth_effect = yes }
+				956 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			2554 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 3650
+				}				
+			}
+			956 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 3650
+				}
+			}
 			add_permanent_claim = 953
 			add_permanent_claim = 4618
 			add_permanent_claim = 4614
@@ -419,7 +514,10 @@ HUD_missions_3 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_trade_modifier
+				duration = 7300
+			}
         }
     }
 
@@ -484,7 +582,7 @@ HUD_missions_4 = {
 					QUE = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 150
 						}
 					}
 				}
@@ -493,7 +591,7 @@ HUD_missions_4 = {
 					CAN = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 150
 						}
 					}
 				}
@@ -511,7 +609,10 @@ HUD_missions_4 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_diplomacy
+				duration = 7300
+			}
         }
     }
 
@@ -532,7 +633,7 @@ HUD_missions_4 = {
 					MRT = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 150
 						}						
 					}
 				}
@@ -542,7 +643,10 @@ HUD_missions_4 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_honour
+				duration = 7300
+			}
         }
     }
 
@@ -563,7 +667,7 @@ HUD_missions_4 = {
 					VER = {
 						has_opinion = {
 							who = ROOT
-							value = 100
+							value = 190
 						}
 					}
 				}
@@ -614,7 +718,16 @@ HUD_missions_5 = {
         }
         
         effect = {
-			add_prestige = 10
+			960 = {
+				add_province_modifier = {
+					name = HUD_fort_modifier
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = HUD_fort_maintenance_modifier
+				duration = 7300
+			}
         }
     }
 
@@ -644,7 +757,18 @@ HUD_missions_5 = {
         }
         
         effect = {
-			add_prestige = 10
+			4583 = {
+				add_province_modifier = {
+					name = HUD_tade_hubs
+					duration = -1
+				}
+			}
+			4578 = {
+				add_province_modifier = {
+					name = HUD_tade_hubs
+					duration = -1
+				}
+			}
         }
     }
 
@@ -707,6 +831,7 @@ HUD_missions_5 = {
         }
         
         effect = {
+			add_years_of_income = 0.5
 			connecticut_valley_area = {
 				add_permanent_claim = ROOT
 			}
@@ -734,6 +859,18 @@ HUD_missions_5 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				connecticut_valley_area = {
+					anabaptists_estate_growth_effect = yes
+				}
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
 			new_hampshire_area = {
 				add_permanent_claim = ROOT
 			}
@@ -771,6 +908,15 @@ HUD_missions_5 = {
         }
         
         effect = {
+			every_owned_province = {
+				limit = {
+					culture = british
+				}
+				add_province_modifier = {
+					name = HUD_culture
+					duration = 3650
+				}
+			}
 			maine_area = {
 				add_permanent_claim = ROOT
 			}
@@ -816,6 +962,10 @@ HUD_missions_6 = {
 					army_size = CAN
 					exists = CAN
 				}
+				AND = {
+					NOT = { exists = QUE }
+					NOT = { exists = CAN }
+				}
 			}
 		}
 
@@ -838,6 +988,20 @@ HUD_missions_6 = {
 					target = CAN
 				}
 			}
+			else_if = {
+				limit = { 
+					AND = {
+						NOT = { exists = QUE }
+						NOT = { exists = CAN }
+					}
+				}
+				notre_dame_mountains_area = {
+					add_permanent_claim = ROOT
+				}
+				lower_canada_area = {
+					add_permanent_claim = ROOT
+				}
+			}
 		}
     }
 
@@ -848,7 +1012,22 @@ HUD_missions_6 = {
 		}
 		
         provinces_to_highlight = {
-			owned_by = MRT
+			OR = {
+				AND = {
+					owned_by = QUE
+					exists = QUE
+				}
+				AND = {
+					owned_by = CAN
+					exists = CAN
+				}
+				AND = {
+					NOT = { exists = CAN }
+					NOT = { exists = QUE }
+					area = notre_dame_mountains_area
+					area = lower_canada_area
+				}
+			}
         }
    
 		trigger = {
@@ -865,10 +1044,50 @@ HUD_missions_6 = {
 					}
 					exists = CAN
 				}
+				AND = {
+					NOT = { exists = CAN }
+					NOT = { exists = QUE }
+					notre_dame_mountains_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					lower_canada_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
 			}
 		}
 		effect = {
-			add_prestige = 10
+			if = {
+				limit = {
+					exists = CAN
+					CAN = {
+						is_subject_of = ROOT
+					}
+				}
+				CAN = {
+					add_country_modifier = {
+						name = HUD_liberty_desire
+						duration = 10950
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					exists = QUE
+					QUE = {
+						is_subject_of = ROOT
+					}
+				}
+				QUE = {
+					add_country_modifier = {
+						name = HUD_liberty_desire
+						duration = 10950
+					}
+				}
+			}
+			else = {
+				add_yearly_manpower = 2
+			}
 		}
     }
 
@@ -892,7 +1111,12 @@ HUD_missions_6 = {
         }
         
         effect = {
-			add_prestige = 10
+			override_country_name = HUDSONIAN_EMPIRE
+			set_country_flag = is_hudsonian_empire_flag
+			add_country_modifier = {
+				name = HUD_hudsonian_empire
+				duration = -1
+			}
         }
     }
 }
@@ -918,7 +1142,14 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_anabaptist_cooperation
+				duration = 7300
+			}
+			add_estate_loyalty = {
+				estate = estate_anabaptists
+				loyalty = 10
+			}
         }
     }
 
@@ -955,7 +1186,16 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_anabaptist_churches
+				duration = 7300
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_CHURCHES_HUD
+				loyalty = 10
+				duration = 7300
+			}
         }
     }
 
@@ -999,7 +1239,10 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			hidden_effect = {
+				set_country_flag = mercenary_army_reform_flag
+			}
+			add_government_reform = mercenary_army_reform
         }
     }
 
@@ -1025,7 +1268,16 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			hidden_effect = {
+				set_country_flag = scavenger_mercs
+			}
+			custom_tooltip = SCAVENGER_MERC_TT
+			add_estate_influence_modifier = {
+				estate = estate_scavengers
+				desc = EST_ANABAPTIST_COURTS_DESC_HUD
+				influence = 10
+				duration = 7300
+			}
         }
     }
 
@@ -1073,7 +1325,22 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_anabaptist_courts
+				duration = -1
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_COURTS_HUD
+				loyalty = 10
+				duration = 7300
+			}
+			add_estate_influence_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_COURTS_DESC_HUD
+				influence = 10
+				duration = 7300
+			}
         }
     }
 
@@ -1099,7 +1366,21 @@ HUD_missions_anabaptist = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = HUD_first_factories
+				duration = 7300
+			}
+			random_owned_province = {
+				limit = {
+					has_province_modifier = anabaptists_present_large
+					religion = anabaptist
+					has_manufactory_trigger = yes	
+				}
+				add_province_modifier = {
+					name = HUD_first_factory
+					duration = -1
+				}
+			}
         }
     }
 
