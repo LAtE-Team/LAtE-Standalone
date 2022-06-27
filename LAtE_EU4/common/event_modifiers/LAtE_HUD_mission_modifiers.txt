@@ -12,7 +12,7 @@ HUD_trade_modifier = {
 }
 
 HUD_mercenary_roster = {
-	mercenary_manpower = 0.1
+	mercenary_manpower = 0.15
 }
 
 HUD_anabaptist_cooperation = {
@@ -82,4 +82,22 @@ HUD_culture = {
 
 HUD_liberty_desire = {
 	liberty_desire = -50
+}
+
+HUD_trade_steering = {
+	trade_steering = 0.15
+	global_tariffs = 0.25
+}
+
+HUD_cleared_land = {
+	development_cost = -0.2
+}
+
+HUD_ursuline_holy_land = {
+	tolerance_own = 2
+}
+
+HUD_ursuline_churches = {
+	global_tax_modifier = 0.15
+	harsh_treatment_cost = -0.33
 }
