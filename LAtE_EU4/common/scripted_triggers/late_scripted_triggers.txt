@@ -98,3 +98,15 @@ is_empire_tier_formable = {
 		}
 	}
 }
+
+has_holy_order_LAtE_trigger = { #For use on areas
+	custom_trigger_tooltip = {
+		tooltip = "has_holy_order_trigger_tooltip"
+		OR = {
+			holy_order = ursuline_order
+			holy_order = charity_order
+			holy_order = angeline_order
+			holy_order = anabaptist_order
+		}
+	}
+}
