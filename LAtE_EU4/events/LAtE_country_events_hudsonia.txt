@@ -1,0 +1,197 @@
+namespace = hudsonia_events
+
+country_event = {
+	id = hudsonia_events.1 
+	title = hudsonia_events.1.t
+	desc = hudsonia_events.1.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		tag = HUD
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = hudsonia_events.1.a #Yes
+		custom_tooltip = HUDSONIA_ANABAPTIST_PATH_TT
+		hidden_effect = {
+			remove_estate_privilege = estate_anabaptists_allow_growth
+			set_country_flag = anabaptist_holy_order_flag
+		}
+		set_estate_privilege = estate_anabaptists_allow_proselytization
+		add_government_reform = anabaptist_kingdom_reform
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hudsonia_events.1.b #Yes
+		custom_tooltip = HUDSONIA_URSULINE_PATH_TT
+		hidden_effect = {
+			set_country_flag = HUD_ursuline_dominance
+		}
+		remove_estate_privilege = estate_anabaptists_allow_growth
+		remove_estate_privilege = estate_anabaptists_guaranteed_autonomy
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	after = {
+		swap_non_generic_missions = yes
+	}
+}
+
+country_event = {
+	id = hudsonia_events.2
+	title = hudsonia_events.2.t #Hudsonia Demands Vassalage
+	desc = hudsonia_events.2.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hudsonia_events.2.a #Yes
+		HUD = {
+			vassalize = ROOT
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hudsonia_events.2.b #No
+		reverse_add_opinion = {
+			who = HUD
+			modifier = abandoned_mlc
+		}		
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	after = {
+		HUD = {
+			country_event = {
+				id = hudsonia_events.3
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = hudsonia_events.3
+	title = hudsonia_events.3.t
+	desc = {
+		trigger = {
+			VER = { vassal_of = HUD }
+		}
+		desc = hudsonia_events.3.d.a
+
+	}
+	desc = {
+		trigger = {
+			NOT = { VER = { vassal_of = HUD } }
+		}
+		desc = hudsonia_events.3.d.b
+
+	}
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hudsonia_events.3.a #Cool!
+		trigger = {
+			VER = { vassal_of = HUD }
+		}
+	}
+
+	option = {
+		name = hudsonia_events.3.b #Yes
+		trigger = {
+			NOT = { VER = { vassal_of = HUD } }
+		}
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			target = VER
+		}
+	}
+}
+
+country_event = {
+	id = hudsonia_events.4
+	title = hudsonia_events.4.t #Hudsonia Demands Vassalage
+	desc = hudsonia_events.4.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	trigger = {
+		is_colonial_nation_of = HUD
+		HUD = {
+			has_country_flag = oversesa_anabaptists
+		}
+		NOT = { has_country_flag = anabaptists_accepted }
+		NOT = { has_country_flag = anabaptists_rejected }
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = hudsonia_events.4.a #Yes
+		anabaptists_accepted_effect = yes
+		capital_scope = {
+			anabaptists_estate_growth_effect = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hudsonia_events.4.b #No
+		anabaptists_rejected_effect = yes
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
+	id = hudsonia_events.5
+	title = hudsonia_events.5.t
+	desc = hudsonia_events.5.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hudsonia_events.5.a
+		add_years_of_income = 1
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hudsonia_events.5.b
+		add_adm_power = 100
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hudsonia_events.5.b
+		add_innovativeness_big_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

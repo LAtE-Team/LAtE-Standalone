@@ -131,3 +131,22 @@ mercenary_army_reform = {
 		factor = 3
 	}
 }
+
+anabaptist_kingdom_reform = {
+	icon = "black_army_reform"
+	allow_normal_conversion = yes
+	potential = {
+		tag = HUD
+		has_reform = anabaptist_kingdom_reform
+	}
+	modifiers = {
+		land_forcelimit_modifier = -0.05
+		global_unrest = -2
+	}
+	custom_attributes = {
+		disables_church = yes
+	}
+	ai = {
+		factor = 3
+	}
+}
