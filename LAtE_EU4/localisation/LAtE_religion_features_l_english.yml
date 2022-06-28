@@ -9,6 +9,8 @@
  estate_ursuline: "Order of Saint Ursula"
  estate_sisters_of_charity: "Sisters of Charity"
  estate_angeline: "Sisters of Blessed Angelina"
+ anabaptist_order: "Community of Anabaptists"
+ anabaptist_order_desc: "Because of the peculiar nature of our government, local Anabaptist communities have enough autonomy to act as autonomous holy orders, taking care of local administration in a state."
 
  #Old World
  RECLAMATION: "Reclamation"
