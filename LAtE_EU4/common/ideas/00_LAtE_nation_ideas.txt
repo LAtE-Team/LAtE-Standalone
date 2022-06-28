@@ -474,3 +474,46 @@ CBN_ideas = {
 		navy_tradition = 1
 	}
 }
+NEN_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		idea_cost = -0.05
+	}
+	bonus = {
+		development_cost = -0.10
+	}
+	trigger = {
+		OR = {
+			tag = VER
+			tag = MNE
+			tag = NEN
+			culture = yankee
+		}
+	}
+	free = yes
+	
+	nen_new_england_timber = {
+		build_cost = -0.10
+		global_ship_cost = -0.10
+	}
+	nen_the_green_mountaineer = {
+		movement_speed = 0.10
+		hostile_attrition = 1
+	}
+	nen_yankee_perseverance = {
+		land_attrition = -0.10
+	}
+	nen_ivy_league_legacy = {
+		embracement_cost = -0.10
+		technology_cost = -0.05
+	}
+	nen_of_patriots_and_red_socks = {
+		mercenary_cost = -0.10
+	}
+	nen_shipping_down_to_boston = {
+		global_trade_power = 0.10
+	}
+	nen_crossroads_of_culture = {
+		num_accepted_cultures = 1
+	}
+}
