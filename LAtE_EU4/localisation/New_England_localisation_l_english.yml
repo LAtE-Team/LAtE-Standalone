@@ -6,6 +6,8 @@
  
  #National Ideas
  NEN_ideas: "New Englander Ideas"
+ NEN_ideas_start: "New Englander Traditions"
+ NEN_ideas_bonus: "New Englander Ambition"
  nen_new_england_timber: "New England Timber"
  nen_new_england_timber_desc: "The New England region is known for its bountiful forest, and such, many has taken advantage of this for constructing buildings and ships alike."
  nen_the_green_mountaineer: "The Green Mountaineer"
