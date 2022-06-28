@@ -16,7 +16,6 @@ HUD_missions_1 = {
                 
         provinces_to_highlight = {
 			OR = {
-				province_id = 4626
 				province_id = 4579
 				province_id = 4582
 			}
@@ -27,9 +26,6 @@ HUD_missions_1 = {
    
         trigger = {
             OR = {
-				4626 = {
-					is_claim = ROOT
-				}
 				4579 = {
 					is_claim = ROOT
 				}
@@ -37,7 +33,6 @@ HUD_missions_1 = {
 					is_claim = ROOT
 				}
 				AND = {
-					owns_or_non_sovereign_subject_of  = 4626
 					owns_or_non_sovereign_subject_of  = 4579
 					owns_or_non_sovereign_subject_of  = 4582
 				}
@@ -49,7 +44,6 @@ HUD_missions_1 = {
 				name = HUD_eager_army
 				duration = 3650
 			}
-			add_permanent_claim = 4626
 			add_permanent_claim = 4579
 			add_permanent_claim = 4582
         }
@@ -63,7 +57,6 @@ HUD_missions_1 = {
 		
         provinces_to_highlight = {
 			OR = {
-				province_id = 4626
 				province_id = 4579
 				province_id = 4582
 			}
@@ -73,7 +66,6 @@ HUD_missions_1 = {
         }
    
         trigger = {
-			owns_or_non_sovereign_subject_of  = 4626
 			owns_or_non_sovereign_subject_of  = 4579
 			owns_or_non_sovereign_subject_of  = 4582
         }
@@ -83,7 +75,6 @@ HUD_missions_1 = {
 				limit = {
 					NOT = { has_country_flag = HUD_ursuline_dominance }
 				}
-				4626 = { anabaptists_estate_growth_effect = yes }
 				4579 = { anabaptists_estate_growth_effect = yes }
 				4582 = { anabaptists_estate_growth_effect = yes }
 				add_estate_loyalty = {
@@ -95,7 +86,6 @@ HUD_missions_1 = {
 				limit = {
 					has_country_flag = HUD_ursuline_dominance
 				}
-				4626 = { anabaptists_estate_shrink_effect = yes }
 				4579 = { anabaptists_estate_shrink_effect = yes }
 				4582 = { anabaptists_estate_shrink_effect = yes }
 			}
@@ -314,6 +304,22 @@ HUD_missions_2 = {
 				name = HUD_growing_momentum
 				duration = 7300
 			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				4626 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = HUD_ursuline_dominance
+				}
+				4626 = { anabaptists_estate_shrink_effect = yes }
+			}
 			add_permanent_claim = 962 
 			add_permanent_claim = 956 
 			delmarva_area = {
@@ -483,10 +489,14 @@ HUD_missions_3 = {
 				province_id = 4624
 			}
 			NOT = {
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
+				AND = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+					province_has_center_of_trade_of_level = 2
+					base_production = 10
 				}
 			}
         }

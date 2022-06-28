@@ -195,3 +195,5 @@ country_event = {
 		}
 	}
 }
+
+#Posisble event to give accepted culture slot for Deitsch if anabaptist path

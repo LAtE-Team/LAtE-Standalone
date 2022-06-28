@@ -76,8 +76,6 @@ is_kingdom_tier_formable = {
 			tag = ONT
 			tag = QUE
 			tag = MRT
-			tag = HUD
-			tag = NYS
 			tag = MIC
 			tag = RED
 		}
@@ -95,6 +93,8 @@ is_empire_tier_formable = {
 			tag = AUT
 			tag = GLK
 			tag = HLR
+			tag = HUD
+			tag = NYS
 		}
 	}
 }

@@ -751,6 +751,7 @@ province_event = {
         NOT = { has_province_modifier = anabaptists_present_large }
         OR = {
             owner = { has_estate_privilege = estate_anabaptists_allow_growth }
+			owner = { has_estate_privilege = estate_anabaptists_allow_proselytization }
             has_province_modifier = anabaptists_present_medium
             has_province_modifier = anabaptists_present_small
         }
@@ -845,6 +846,7 @@ province_event = {
         has_province_modifier = anabaptists_present_large
         owner = { has_estate_privilege = estate_anabaptists_allow_proselytization }
         is_capital = no
+		NOT = { religion = anabaptist }
     }
 
     mean_time_to_happen = {
@@ -1090,6 +1092,7 @@ province_event = {
 	}
 }
 
+#Anabaptists seek shelter
 country_event = {
 	id = anabaptists_estate_events.16
 	title = anabaptists_estate_events.16.t
@@ -1129,7 +1132,10 @@ country_event = {
 		name = anabaptists_estate_events.16.a
 		random_owned_province = {
 			limit = {
-				NOT = { has_province_modifier = anabaptists_present_large }
+				OR = {
+					NOT = { has_province_modifier = anabaptists_present_large }
+					is_capital = yes
+				}
 				is_city = yes
 				NOT = { has_province_flag = anabaptist_growth }
 			}

@@ -10,8 +10,13 @@ add_accepted_culture = motowner
 religion = ursuline
 clear_scripted_personalities = yes
 capital = 4555
-add_treasury = 499
-add_prestige = 344
+historical_friend = URS
+historical_rival = QUE
+historical_rival = HUD
+historical_rival = OHI
+historical_rival = IND
+historical_rival = CLE
+
 3026.1.17 = {
 	monarch = {
 		name = "Lucius"

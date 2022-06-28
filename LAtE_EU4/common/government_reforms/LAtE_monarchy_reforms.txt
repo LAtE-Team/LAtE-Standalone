@@ -141,7 +141,9 @@ anabaptist_kingdom_reform = {
 	}
 	modifiers = {
 		land_forcelimit_modifier = -0.05
+		global_tax_modifier = -0.1
 		global_unrest = -2
+		governing_capacity = 100
 	}
 	custom_attributes = {
 		disables_church = yes

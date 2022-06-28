@@ -16,6 +16,7 @@ historical_friend = QUE
 historical_friend = MRT
 historical_rival = RED
 historical_rival = NYS
+historical_rival = AGH
 
 3053.1.1 = {
 	monarch = {

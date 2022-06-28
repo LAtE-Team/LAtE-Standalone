@@ -14,6 +14,7 @@ add_treasury = 80
 add_prestige = 25
 
 historical_friend = RED
+historical_friend = AGH
 historical_rival = HUD
 
 3043.10.19 = {

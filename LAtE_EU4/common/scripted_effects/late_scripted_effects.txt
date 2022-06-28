@@ -165,9 +165,13 @@ anabaptists_estate_growth_effect ={
 			remove_province_triggered_modifier = anabaptists_present_small
 			add_province_triggered_modifier = anabaptists_present_medium
 		}
-		else = {
+		else_if = {
+			limit = { NOT = { has_province_modifier = anabaptists_present_large } }
 			add_province_triggered_modifier = anabaptists_present_small
-		}   
+		} 
+		else = {
+			add_base_production = 1
+		}  
 	}
 	custom_tooltip = ANABAPTISTS_GROWTH_TT
 }
