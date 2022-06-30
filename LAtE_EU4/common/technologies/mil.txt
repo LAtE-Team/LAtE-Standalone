@@ -509,8 +509,8 @@ technology = {
 	enable = yaqui_musket_cavalry
 	enable = eurasian_mass_infantry
 	enable = patagonian_swarm_cavalry
-	enable = incan_guerrilla_cavalry
-	enable = ecuadorian_musket_nfantry
+	enable = incan_guerrilla_infantry
+	enable = ecuadorian_musket_infantry
 	
 	combat_width = 2
 }
