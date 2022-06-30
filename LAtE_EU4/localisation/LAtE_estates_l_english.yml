@@ -38,7 +38,7 @@
  ANABAPTISTS_SHRINK_TT: "The §YAnabaptist Community§! in this province will §YShrink§!."
  ANABAPTISTS_ACCEPTED_TT: "The §YAnabaptists§! will be accepted as an §YEstate§!."
  ANABAPTISTS_REJECTED_TT: "The §YAnabaptists§! will be left to their own devices."
- ANABAPTISTS_EXPELLED_TT: "The §YAnabaptists§! will be expelled from our provinces"
+ ANABAPTISTS_EXPELLED_TT: "The §YAnabaptists§! will begin to be expelled from our provinces"
 
  #Anabaptists Privileges
  estate_anabaptists_land_rights: "$ESTATE_NAME$ Land Rights"

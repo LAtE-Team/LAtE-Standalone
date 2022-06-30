@@ -59,7 +59,11 @@ country_event = {
 			vassalize = ROOT
 		}
 		ai_chance = {
-			factor = 1
+			factor = 9
+			modifier = {
+				factor = 0
+				total_development = HUD				
+			}
 		}
 	}
 
@@ -70,7 +74,17 @@ country_event = {
 			modifier = abandoned_mlc
 		}		
 		ai_chance = {
-			factor = 0
+			factor = 1
+			modifier = {
+				factor = 3
+				any_owned_province = {
+					NOT = { area = vermont_area }
+				}
+			}
+			modifier = {
+				factor = 3
+				total_development = 50
+			}
 		}
 	}
 

@@ -44,8 +44,18 @@ HUD_missions_1 = {
 				name = HUD_eager_army
 				duration = 3650
 			}
-			add_permanent_claim = 4579
-			add_permanent_claim = 4582
+			if = {
+				limit = {
+					NOT = { is_core = 4579 }
+				}
+				add_permanent_claim = 4579
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4582 }
+				}
+				add_permanent_claim = 4582
+			}
         }
     }
 
@@ -89,12 +99,42 @@ HUD_missions_1 = {
 				4579 = { anabaptists_estate_shrink_effect = yes }
 				4582 = { anabaptists_estate_shrink_effect = yes }
 			}
-			add_permanent_claim = 2023
-			add_permanent_claim = 4621
-			add_permanent_claim = 955
-			add_permanent_claim = 2557
-			add_permanent_claim = 4623
-			add_permanent_claim = 2556
+			if = {
+				limit = {
+					NOT = { is_core = 2023 }
+				}
+				add_permanent_claim = 2023
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4621 }
+				}
+				add_permanent_claim = 4621
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 955 }
+				}
+				add_permanent_claim = 955
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2557 }
+				}
+				add_permanent_claim = 2557
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4623 }
+				}
+				add_permanent_claim = 4623
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2556 }
+				}
+				add_permanent_claim = 2556
+			}
         }
     }
 
@@ -156,9 +196,19 @@ HUD_missions_1 = {
 				2556 = { anabaptists_estate_shrink_effect = yes }
 			}
 			susquehanna_area = {
-				add_permanent_claim = root
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
-			add_permanent_claim = 4577
+			if = {
+				limit = {
+					NOT = { is_core = 4577 }
+				}
+				add_permanent_claim = 4577
+			}
         }
     }
 }
@@ -233,11 +283,36 @@ HUD_missions_2 = {
 					duration = -1
 				}
 			}
-			add_permanent_claim = 965
-			add_permanent_claim = 2639
-			add_permanent_claim = 4540
-			add_permanent_claim = 4539
-			add_permanent_claim = 4622
+			if = {
+				limit = {
+					NOT = { is_core = 965 }
+				}
+				add_permanent_claim = 965
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2639 }
+				}
+				add_permanent_claim = 2639
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4540 }
+				}
+				add_permanent_claim = 4540
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4539 }
+				}
+				add_permanent_claim = 4539
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4622 }
+				}
+				add_permanent_claim = 4622
+			}
         }
     }
 
@@ -320,12 +395,32 @@ HUD_missions_2 = {
 				}
 				4626 = { anabaptists_estate_shrink_effect = yes }
 			}
-			add_permanent_claim = 962 
-			add_permanent_claim = 956 
-			delmarva_area = {
-				add_permanent_claim = root
+			if = {
+				limit = {
+					NOT = { is_core = 962 }
+				}
+				add_permanent_claim = 962
 			}
-			add_permanent_claim = 2554
+			if = {
+				limit = {
+					NOT = { is_core = 956 }
+				}
+				add_permanent_claim = 956
+			}
+			delmarva_area = {
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 2554 }
+				}
+				add_permanent_claim = 2554
+			}
         }
     }
 
@@ -465,11 +560,31 @@ HUD_missions_3 = {
 					duration = 3650
 				}
 			}
-			add_permanent_claim = 953
-			add_permanent_claim = 4618
-			add_permanent_claim = 4614
+			if = {
+				limit = {
+					NOT = { is_core = 953 }
+				}
+				add_permanent_claim = 953
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4618 }
+				}
+				add_permanent_claim = 4618
+			}
+			if = {
+				limit = {
+					NOT = { is_core = 4614 }
+				}
+				add_permanent_claim = 4614
+			}
 			the_sidelings_area = {
-				add_permanent_claim = root
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
         }
     }
@@ -742,7 +857,12 @@ HUD_missions_4 = {
 			}
 			else = {
 				vermont_area = {
-					add_permanent_claim = ROOT
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
 				}
 			}
         }
@@ -901,7 +1021,12 @@ HUD_missions_5 = {
         effect = {
 			add_years_of_income = 0.5
 			connecticut_valley_area = {
-				add_permanent_claim = ROOT
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
         }
     }
@@ -940,10 +1065,20 @@ HUD_missions_5 = {
 				}
 			}
 			new_hampshire_area = {
-				add_permanent_claim = ROOT
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
 			massachusetts_bay_area = {
-				add_permanent_claim = ROOT
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
         }
     }
@@ -986,10 +1121,20 @@ HUD_missions_5 = {
 				}
 			}
 			maine_area = {
-				add_permanent_claim = ROOT
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
 			aroostook_area = {
-				add_permanent_claim = ROOT
+				if = {
+					limit = {
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+				}
 			}
         }
     }
@@ -1064,10 +1209,20 @@ HUD_missions_6 = {
 					}
 				}
 				notre_dame_mountains_area = {
-					add_permanent_claim = ROOT
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
 				}
 				lower_canada_area = {
-					add_permanent_claim = ROOT
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
 				}
 			}
 		}
@@ -1116,9 +1271,11 @@ HUD_missions_6 = {
 					NOT = { exists = CAN }
 					NOT = { exists = QUE }
 					notre_dame_mountains_area = {
+						type = all
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 					lower_canada_area = {
+						type = all
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 				}
@@ -1154,7 +1311,38 @@ HUD_missions_6 = {
 				}
 			}
 			else = {
-				add_yearly_manpower = 2
+				quinte_area = {
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
+				}
+				greater_toronto_area = {
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
+				}
+				talbot_area = {
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
+				}
+				huronia_area = {
+					if = {
+						limit = {
+							NOT = { is_core = root }
+						}
+						add_permanent_claim = root
+					}
+				}
 			}
 		}
     }
@@ -1209,6 +1397,24 @@ HUD_missions_anabaptist = {
    
         trigger = {
 			has_estate_privilege = estate_anabaptists_allow_proselytization
+			estate_loyalty = {
+				estate = estate_anabaptists
+				loyalty = 60
+			}
+			OR = {
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 40
+				}
+				num_of_estate_agendas_completed = {
+					estate = estate_anabaptists
+					value = 2
+				}
+				num_of_estate_privileges = {
+					estate = estate_anabaptists
+					value = 4
+				}
+			}
         }
         
         effect = {
@@ -1243,7 +1449,7 @@ HUD_missions_anabaptist = {
    
         trigger = {
 			calc_true_if = {
-				amount = 5
+				amount = 3
 				all_owned_province = {
 					has_province_modifier = anabaptists_present_large
 					religion = anabaptist
