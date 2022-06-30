@@ -1,0 +1,120 @@
+NEN_stabilizing_the_realm = {
+	slot = 3
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_finalize_the_pacification = {
+		icon = mission_religious
+		required_missions = {}
+		position = 1
+		
+		position_to_highlight = {
+			region = atlantica_region
+			OR = {
+				NOT = {
+					religion = ROOT
+					culture = ROOT
+				}
+			}
+		}
+		trigger = {
+			region = atlantica_region
+			OR = {
+				religion = ROOT
+				culture = ROOT
+				}
+			}
+		}
+		effect = {
+			set_capital = 968
+		}
+	NEN_develop_boston_port = {
+		icon = mission_rb_empire
+		required_missions = {NEN_finalize_the_pacification}
+		position = 2
+		
+		trigger = {
+			OR = {
+				
+			}
+		}
+		effect = {
+			
+		}
+	}
+	NEN_restore_northern_ivy = {}
+	NEN_restore_southern_ivy = {}
+}
+
+NEN_ursuline_relation = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		AND = {
+			tag = NEN
+			religion = ursuline
+		}
+	}
+	NEN_befriend_the_order = {
+		icon = mission_alliances
+		required_missions = {}
+		position = 1
+		trigger = {
+			if = {
+				OR = {
+					AND = {
+						exists = URS
+						URS = {
+							has_opinion = {
+								who = ROOT
+								value = 150
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = URS }
+						QUE = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {}
+	}
+NEN_anglican_relation = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		AND = {
+			tag = NEN
+			religion = anglican
+		}
+	}
+	NEN_purchase_of_aroostook = {
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4546
+				province_id = 2567
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
+	}
+}
