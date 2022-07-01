@@ -53,7 +53,10 @@ Maritime_Kingdom_missions_1 = {
         effect = {
             1104 = {
                 create_colony = 200
-                local_colonial_growth = 50
+                add_province_modifier = {
+                    name = maritimes_settling_down
+                    duration = 3650
+                }
             }
             add_country_modifier = {
                 name = maritimes_into_the_sunrise
@@ -739,7 +742,7 @@ Maritime_Kingdom_missions_4 = {
             2583 = {
                spawn_rebels = {
                     type = ursuline_rebels
-                    size = 15
+                    size = 3
                     win = yes
                 }
             }
@@ -936,6 +939,7 @@ Maritime_Kingdom_missions_5 = {
         }
         trigger = {
             notre_dame_mountains_area = {
+                type = all
                 is_core = ROOT
             }
         }

@@ -8,6 +8,10 @@ maritimes_into_the_sunrise = {
     colonists = 1
 }
 
+maritimes_settling_down = {
+    local_colonial_growth = 50
+}
+
 maritimes_colonial_inspiration = {
     colonist_placement_chance = 0.05
     global_colonial_growth = 20
