@@ -152,3 +152,35 @@ anabaptist_kingdom_reform = {
 		factor = 3
 	}
 }
+
+maritimer_united_duchies = {
+	icon = "queen"
+	allow_normal_conversion = no
+	potential = {
+		tag = MRT
+	}
+	modifiers = {
+		## Estate influence +5 each
+		no_stability_loss_on_monarch_death = yes
+		
+	}
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		queen = yes
+		heir = no
+		duration = 50
+		has_term_election = yes
+		states_general_mechanic = {
+			statists = {
+				diplomatic_reputation = 1
+				global_unrest = -1
+				legitimacy = -0.5
+			}
+			monarchists = {
+				prestige = 0.5
+				manpower_recovery_speed = 0.1
+				legitimacy = 0.5
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 # The Maritimes
 setup_vision = yes
 government = monarchy 
-add_government_reform = feudalism_reform
+add_government_reform = maritimer_united_duchies
 government_rank = 2
 technology_group = eastern
 primary_culture = maritimer
@@ -16,12 +16,14 @@ historical_rival = TAQ
 
 3051.1.14 = {
 	monarch = {
-		name = "Alaois II"
+		name = "Ophelia"
+		female = yes
 		birth_date = 3045.5.11
 		dynasty = "Carmody"
-		adm = 3
-		dip = 5
-		mil = 3
+		adm = 2
+		dip = 4
+		mil = 2
 	}
 	add_ruler_personality = expansionist_personality
 }
+change_statists_vs_orangists = 0.1

@@ -696,6 +696,7 @@ on_extend_regency = {
 # country 
 on_new_term_election = {
 	events = {
+		maritimes_events.1
 		700		# Election event
 		elections.720		# Dutch Republic
 		elections.800	# Lottery election
@@ -717,6 +718,7 @@ on_death_election = {
 		country_event = { id = pirates.1 }
 	}
 	events = {
+		maritimes_events.2
 		701		# Election event
 		elections.721		# Dutch Republic
 		elections.800	# Lottery election
