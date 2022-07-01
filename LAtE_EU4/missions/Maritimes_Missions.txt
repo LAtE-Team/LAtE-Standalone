@@ -1,0 +1,1067 @@
+Maritime_Kingdom_missions_1 = {
+    slot = 1
+    generic = no
+    ai = yes
+    potential = {
+        tag = MRT
+    }
+    has_country_shield = yes
+
+    # Remember to include mission new_brunswick in 2nd sequence!!!
+
+    maritimes_naval_buildup = {
+		icon = mission_alliances
+		required_missions = { maritimes_nova_scotia }
+		position = 4
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			newfoundland_area = {
+                limit = {
+                    NOT = { is_core = ROOT }
+                    NOT = { owned_by = ROOT }
+                }
+                add_claim = ROOT
+            }
+		}
+	}
+    maritimes_pirate_lessons = {
+        icon = mission_alliances
+        required_missions = { maritimes_naval_buildup }
+        provinces_to_highlight = {
+                area = newfoundland_area
+        }
+        trigger = {
+            newfoundland_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_pirate_lessons
+                duration = 10950
+            }
+        }
+    }
+    maritimes_familiar_horizon = {
+        icon = mission_alliances
+        required_missions = { maritimes_pirate_lessons }
+        trigger = {
+            num_of_explorers = 1
+        }
+        effect = {
+            1104 = {
+                create_colony = 200
+                local_colonial_growth = 50
+            }
+            add_country_modifier = {
+                name = maritimes_into_the_sunrise
+                duration = 10950
+            }
+        }
+    }
+    maritimes_cold_sunrise = {
+        icon = mission_alliances
+        required_missions = { maritimes_familiar_horizon }
+        trigger = {
+            greenland_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_colonial_inspiration
+                duration = 18250
+            }
+        }
+    }
+    maritimes_first_contact = {
+        icon = mission_alliances
+        required_missions = { maritimes_cold_sunrise }
+        trigger = {
+            has_discovered = 248
+        }
+        effect = {
+            248 = {
+                cede_province = MRT
+            }
+        }
+    }
+    maritimes_unwelcome_visitors = {
+        icon = mission_alliances
+        required_missions = { maritimes_first_contact }
+        trigger = {
+            248 = {
+                fort_level = 2
+            }
+        }
+        effect = {
+            248 = {
+                add_province_modifier = {
+                    name = maritimes_fortified_outpost
+                    duration = -1
+                }
+            }
+        }
+    }
+    maritimes_a_brave_new_world = {
+        icon = mission_alliances
+        required_missions = { maritimes_unwelcome_visitors }
+        trigger = {
+            lowlands_area = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+        effect = {
+            4549 = {
+                add_base_tax = -1
+                add_base_manpower = -1
+                add_base_production = -1
+            }
+            248 = {
+                add_base_tax = 2
+                add_base_manpower = 2
+                add_base_production = 2
+            }
+        }
+    }
+    maritimes_across_the_strait = {
+        icon = mission_alliances
+        required_missions = { maritimes_a_brave_new_world }
+        provinces_to_highlight = {
+            area = normandy_area
+        }
+        trigger = {
+            any_province = {
+                area = normandy_area 
+                owner = {
+                    is_colonial_nation_of = ROOT
+                }
+                
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_french_imports
+                duration = 7300
+            }
+        }
+    }
+    maritimes_arrival_in_bizonia = {
+        icon = mission_alliances
+        required_missions = { maritimes_across_the_strait }
+        trigger = {
+            any_province = {
+                owner = {
+                    is_colonial_nation_of = ROOT
+                }
+                region = north_german_region
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_establishment_in_germany
+                duration = -1
+            }
+        }
+    }
+    maritimes_the_far_north = {
+        icon = mission_alliances
+        required_missions = { maritimes_arrival_in_bizonia }
+        trigger = {
+            any_province = {
+                owner = {
+                    is_colonial_nation_of = ROOT
+                }
+                region = scandinavia_region
+            }
+        }
+        effect = {
+            add_stability = 1
+        }
+    }
+}
+Maritime_Kingdom_missions_2 = {
+    slot = 2
+    generic = no
+    ai = yes
+    potential = {
+        tag = MRT
+    }
+    has_country_shield = yes
+
+    maritimes_nova_scotia = {
+        icon = mission_alliances
+        required_missions = { maritimes_small_council }
+        position = 3
+        provinces_to_highlight = { 
+            province_id = 4551
+         }
+        trigger = {
+            4551 = {
+                development = 7
+                has_building = marketplace
+            }
+        }
+        effect = {
+            change_dip = 1
+            add_country_modifier = {
+                name = maritimes_swayed_merchants
+                duration = 3650
+            }
+        }
+    }
+    maritimes_encourage_local_artisans = {
+        icon = mission_alliances
+        required_missions = { maritimes_cold_sunrise maritimes_a_new_era }
+        position = 8
+        trigger = {
+            marketplace = 5
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_encouraged_local_artisans
+                duration = 9125
+            }
+        }
+    }
+    maritimes_new_local_faith = {
+        icon = mission_alliances
+        required_missions = { maritimes_a_brave_new_world maritimes_a_home_for_the_monks }
+        position = 11
+        trigger = {
+            AND = {
+                estate_loyalty = {
+                    estate = estate_burghers
+                    loyalty = 50
+                }
+                estate_loyalty = {
+                    estate = estate_church
+                    loyalty = 50
+                }
+            }
+            248 = {
+                has_building = temple
+            }
+        }
+        effect = {
+            248 = {
+                add_province_modifier = {
+                    name = maritimes_new_local_faith
+                    duration = -1
+                }
+            }
+        }
+    }
+    maritimes_missionary_fervor = {
+        icon = mission_alliances
+        required_missions = { maritimes_new_local_faith }
+        trigger = {
+            248 = {
+                has_building = temple
+                has_owner_religion = yes
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_missionary_fervor
+                duration = 10950
+            }
+        }
+    }
+    maritimes_true_to_the_faith = {
+        icon = mission_alliances
+        required_missions = { maritimes_missionary_fervor }
+        provinces_to_highlight = { region = british_isles_region }
+        trigger = {
+            british_isles_region = {
+                type = all
+                owner = {
+                    is_colonial_nation_of = ROOT
+                    dominant_religion = ROOT
+                }
+                religion = ROOT
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_anglican_champions
+                duration = -1
+            }
+        }
+    }
+}
+Maritime_Kingdom_missions_3 = {
+    slot = 3
+    generic = no
+    ai = yes
+    potential = {
+        tag = MRT
+    }
+    has_country_shield = yes
+
+    maritimes_matters_of_the_realm = {
+        icon = mission_alliances
+        trigger = {
+            has_estate_privilege = estate_church_independent_inquisition
+            has_estate_privilege = estate_burghers_commercial_board_of_advice
+            has_estate_privilege = estate_nobles_advisors
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_ducal_advisors
+                duration = 7300
+            }
+        }
+    }
+    maritimes_small_council = {
+        icon = mission_alliances
+        required_missions = { maritimes_matters_of_the_realm }
+        trigger = {
+            AND = {
+                employed_advisor = {
+                    category = ADM
+                }
+                employed_advisor = {
+                    category = DIP
+                }
+                employed_advisor = {
+                    category = MIL
+                }
+            }
+        }
+        effect = {
+            # add_stability = 1
+            add_estate_loyalty = {
+                estate = estate_burghers
+                loyalty = 10
+            }
+            add_estate_loyalty = {
+                estate = estate_church
+                loyalty = 10
+            }
+            add_estate_loyalty = {
+                estate = estate_nobles
+                loyalty = 10
+            }
+        }
+    }    
+    maritimes_prince_edward_island = {
+        icon = mission_alliances
+        required_missions = { maritimes_small_council }
+        provinces_to_highlight = { province_id = 983 }
+        trigger = {
+            983 = {
+                base_tax = 7
+                has_building = temple
+            }
+        }
+        effect = {
+            change_adm = 1
+            983 = {
+                add_province_modifier = {
+                    name = maritimes_loyal_clergy
+                    duration = 3650
+                }
+            }
+        }
+    }
+    maritimes_ducal_cooperation = {
+        icon = mission_alliances
+        required_missions = { maritimes_prince_edward_island maritimes_nova_scotia maritimes_st_john }
+        trigger = {
+            always = yes
+        }
+        effect = {
+            add_stability = 1
+        }
+    }
+    maritimes_the_fourth_party = {
+        icon = mission_alliances
+        required_missions = { maritimes_ducal_cooperation }
+        provinces_to_highlight = { 
+            OR = {
+                province_id = 2571 
+                province_id = 2572 
+                province_id = 4546 
+                province_id = 2567 
+            }
+        }
+        trigger = {
+            accepted_culture = acadien
+            2571 = {
+                culture = acadien
+                NOT = {
+                    unrest = 0.01
+                }
+            }
+            2572 = {
+                culture = acadien
+                NOT = {
+                    unrest = 0.01
+                }
+            }
+            4546 = {
+                culture = acadien
+                NOT = {
+                    unrest = 0.01
+                }
+            }
+            2567 = {
+                culture = acadien
+                NOT = {
+                    unrest = 0.01
+                }
+            }
+        }
+        effect = {
+            restigouche_area = {
+                add_province_modifier = {
+                    name = maritimes_fourth_party
+                    duration = 7300
+                }
+            }
+            4546 = {
+                add_province_modifier = {
+                    name = maritimes_fourth_party
+                    duration = 7300
+                }
+            }
+            2567 = {
+                add_province_modifier = {
+                    name = maritimes_fourth_party
+                    duration = 7300
+                }
+            }
+        }
+    }
+    maritimes_restitutrix = {
+        icon = mission_alliances
+        required_missions = { maritimes_the_fourth_party }
+        trigger = {
+            is_year = 3068
+        }
+        effect = {
+            add_ruler_modifier = {
+                name = maritimes_restitutrix
+                duration = -1
+            }
+            add_stability = 1
+        }
+    }
+    maritimes_a_new_era = {
+        icon = mission_alliances
+        required_missions = { maritimes_restitutrix }
+        trigger = {
+            has_institution = renaissance
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_new_era
+                duration = 9125
+            }
+        }
+    }
+    maritimes_request_clerical_counsel = {
+        icon = mission_alliances
+        required_missions = { maritimes_a_new_era }
+        trigger = {
+            OR = {
+                inquisitor = 2
+                theologian = 2
+            }
+        }
+        effect = { 
+            add_country_modifier = {
+                name = maritimes_clerical_counsel
+                duration = 3650
+            }
+        }
+    }
+    maritimes_strengthening_the_faith = {
+        icon = mission_alliances
+        required_missions = { maritimes_request_clerical_counsel }
+        trigger = {
+            temple = 5
+            stability = 1
+        }
+        effect = {
+            983 = {
+                add_base_tax = 2
+            }
+            add_country_modifier = {
+                name = maritimes_faith_strengthened
+                duration = 7300
+            }
+        }
+    }
+    maritimes_a_home_for_the_monks = {
+        icon = mission_alliances
+        required_missions = { maritimes_strengthening_the_faith }
+        provinces_to_highlight = { province_id = 983 }
+        trigger = {
+            983 = {
+                num_of_times_improved = 10
+                num_free_building_slots = 0
+            }
+        }
+        effect = {
+            983 = {
+                add_province_modifier = {
+                    name = maritimes_a_home_for_the_monks
+                    duration = -1
+                }
+            }
+        }
+    }
+    maritimes_entrench_the_clergy = {
+        icon = mission_alliances
+        required_missions = { maritimes_a_home_for_the_monks }
+        trigger = {
+            estate_influence = {
+                estate = estate_church
+                influence = 50
+            }
+            has_estate_privilege = estate_church_one_faith_one_culture
+        }
+        effect = { # This will eventually be a gov. reform which grants higher clergy influence at the cost of loyalty in the other estates.
+            add_country_modifier = {
+                name = maritimes_clergy_entrenched_in_government
+                duration = -1
+            }
+        }
+    }
+}
+Maritime_Kingdom_missions_4 = {
+    slot = 4
+    generic = no
+    ai = yes
+    potential = {
+        tag = MRT
+    }
+    has_country_shield = yes
+
+    maritimes_st_john = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_small_council
+        }
+        position = 3
+        provinces_to_highlight = {
+            province_id = 2570
+        }
+        trigger = {
+            2570 = {
+                base_manpower = 7
+            }
+        }
+        effect = {
+            change_mil = 1
+            add_country_modifier = {
+                name = maritimes_st_john
+                duration = 3650
+            }
+        }
+    }
+    maritimes_a_multicultural_army = {
+        icon = mission_alliances
+        required_missions = { maritimes_the_fourth_party maritimes_feeding_the_recruits }
+        position = 6
+        provinces_to_highlight = { 
+            OR = {
+                province_id = 2571 
+                province_id = 2572 
+                province_id = 4546 
+                province_id = 2567 
+            }
+        }
+        trigger = {
+            NOT = {
+                average_unrest = 1
+            }
+            2571 = {
+                base_manpower = 4
+            }
+            2572 = {
+                base_manpower = 4
+            }
+            4546 = {
+                base_manpower = 4
+            }
+            2567 = {
+                base_manpower = 4
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_a_multicultural_army
+                duration = -1
+            }
+        }
+    }
+    maritimes_southern_brethren = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_a_multicultural_army
+        }
+        provinces_to_highlight = {
+            owner = {
+                tag = MNE
+            }
+        }
+        trigger = {
+            alliance_with = MNE
+            MNE = {
+                has_opinion = {
+                    who = ROOT
+                    value = 180
+                }
+            }
+        }
+        effect = {
+            create_march = MNE
+        }
+    }
+    maritimes_into_the_fold = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_southern_brethren
+        }
+        provinces_to_highlight = {
+            province_id = 971
+        }
+        trigger = {
+            MNE = {
+                is_subject_of = MRT
+            }
+            971 = {
+                fort_level = 2
+            }
+        }
+        effect = {
+            vermont_area = {
+                add_permanent_claim = MNE
+            }
+            new_hampshire_area = {
+                add_permanent_claim = MNE
+            }
+        }
+    }
+    maritimes_religious_diplomacy = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_request_clerical_counsel
+            maritimes_the_nobility_in_government
+        }
+        trigger = {
+            always = yes
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_religious_diplomacy
+                duration = 9125
+            }
+        }
+    }
+    maritimes_religious_might = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_religious_diplomacy
+        }
+        provinces_to_highlight = {
+            province_id = 2570
+        }
+        trigger = {
+            2570 = {
+                has_building = temple
+            }
+            any_known_country = {
+                religion = ursuline
+                ROOT = {
+                    is_rival = prev
+                }
+            }
+        }
+        effect = {
+            hidden_effect = {
+                every_known_country = {
+                    limit = {
+                        religion = ursuline
+                    }
+                    add_opinion = {
+                        who = ROOT
+                        modifier = maritimes_religious_might
+                        years = 50
+                    }
+                }
+            }
+            custom_tooltip = MARITIMES_URSULINE_OPINION_TT
+        }
+    }
+    maritimes_pillar_of_the_faith = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_religious_might
+        }
+        trigger = {
+            all_known_country = {
+                religion = anglican
+                exists = yes
+                has_opinion = {
+                    who = ROOT
+                    value = 100
+                }
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_pillar_of_the_faith
+                duration = 9125
+            }
+        }
+    }
+    maritimes_new_heretics = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_entrench_the_clergy
+            maritimes_vae_victis
+        }
+        provinces_to_highlight = {
+            area = notre_dame_mountains_area
+        }
+        trigger = {
+            notre_dame_mountains_area = {
+                is_core = ROOT
+            }
+        }
+        effect = {
+            2583 = {
+               spawn_rebels = {
+                    type = ursuline_rebels
+                    size = 15
+                    win = yes
+                }
+            }
+            add_country_modifier = {
+                name = maritimes_new_heretics
+                duration = 7300
+            }
+        }
+    }
+    maritimes_settling_our_differences = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_new_heretics
+        }
+        trigger = {
+            accepted_culture = quebecois
+        }
+        effect = {
+            notre_dame_mountains_area = {
+                add_unrest = -5
+            }
+        }
+    }
+}
+Maritime_Kingdom_missions_5 = {
+    slot = 5
+    generic = no
+    ai = yes
+    potential = {
+        tag = MRT
+    }
+    has_country_shield = yes
+
+    maritimes_military_commitments = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_st_john
+        }
+        position = 4
+        trigger = {
+            army_size_percentage = 0.75
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_military_commitments
+                duration = 3650
+            }
+        }
+    }
+    maritimes_feeding_the_recruits = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_military_commitments
+        }
+        provinces_to_highlight = {
+            province_id = 2570
+        }
+        trigger = {
+            2570 = {
+                has_building = temple
+                has_building = marketplace
+            }
+        }
+        effect = {
+            2570 = {
+                add_province_modifier = {
+                    name = maritimes_feeding_the_recruits
+                    duration = 7300
+                }
+            }
+        }
+    }
+    maritimes_military_heartland = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_feeding_the_recruits
+        }
+        provinces_to_highlight = {
+            province_id = 2570
+        }
+        trigger = {
+            2570 = {
+                fort_level = 2
+                has_building = barracks
+            }
+        }
+        effect = {
+            2570 = {
+                add_province_modifier = {
+                    name = maritimes_military_heartland
+                    duration = -1
+                }
+            }
+        }
+    }
+    maritimes_the_western_flank = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_military_heartland
+        }
+        provinces_to_highlight = {
+            province_id = 2567
+        }
+        trigger = {
+            2567 = {
+                fort_level = 2
+            }
+        }
+        effect = {
+            2567 = {
+                add_province_modifier = {
+                    name = maritimes_the_western_flank
+                    duration = 14600
+                }
+            }
+        }
+    }
+    maritimes_the_nobility_in_government = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_the_western_flank
+        }
+        trigger = {
+            OR = {
+                army_reformer = 2
+                commandant = 2
+            }
+            estate_influence = {
+                estate = estate_nobles
+                influence = 50
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_the_nobility_in_government
+                duration = 10950
+            }
+        }
+    }
+    maritimes_hostile_relations = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_the_nobility_in_government
+        }
+        trigger = {
+            QUE = {
+                is_rival = MRT
+                OR = {
+                    has_opinion_modifier = {
+                        who = ROOT
+                        modifier = scornfully_insulted
+                    }
+                    has_opinion_modifier = {
+                        who = ROOT
+                        modifier = insulted
+                    }
+                }
+            }
+        }
+        effect = {
+            notre_dame_mountains_area = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+    maritimes_para_bellum = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_hostile_relations
+        }
+        trigger = {
+            has_spy_network_in = {
+                who = QUE
+                value = 75
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_para_bellum
+                duration = 3650
+            }
+            993 = {
+                add_claim = MRT
+            }
+        }
+    }
+    maritimes_vae_victis = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_para_bellum
+        }
+        provinces_to_highlight = {
+            area = notre_dame_mountains_area
+        }
+        trigger = {
+            notre_dame_mountains_area = {
+                is_core = ROOT
+            }
+        }
+        effect = {
+            notre_dame_mountains_area = {
+                add_devastation = 20
+                add_province_modifier = {
+                    name = maritimes_rival_conquest
+                    duration = 10950
+                }
+            }
+            2570 = {
+                add_base_manpower = 2
+            }
+            4551 = {
+                add_base_production = 2
+            }
+            983 = {
+                add_base_tax = 2
+            }
+        }
+    }
+    maritimes_take_the_island = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_vae_victis
+        }
+        provinces_to_highlight = {
+            province_id = 993
+        }
+        trigger = {
+            993 = {
+                owned_by = ROOT
+            }
+        }
+        effect = {
+            add_adm_power = -125
+            993 = {
+                add_core = MRT
+            }
+        }
+    }
+    maritimes_restore_the_island = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_take_the_island
+        }
+        provinces_to_highlight = {
+            province_id = 993
+        }
+        trigger = {
+            993 = {
+                fort_level = 2
+                has_building = marketplace
+                has_building = dock
+            }
+        }
+        effect = {
+            993 = {
+                add_province_modifier = {
+                    name = maritimes_restored_island
+                    duration = -1
+                }
+            }
+        }
+    }
+    maritimes_an_old_enemy = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_restore_the_island
+        }
+        trigger = {
+            OR = {
+                AND = {
+                    army_size = ONT
+                    exists = ONT
+                }
+                AND = {
+                    army_size = CAN
+                    exists = CAN
+                }
+            }
+        }
+        effect = {
+            if = {
+                limit = {
+                    exists = ONT
+                }
+                add_casus_belli = {
+                    type = cb_restore_personal_union
+                    target = ONT
+                }
+            }
+            else_if = {
+                limit = {
+                    exists = CAN
+                }
+                add_casus_belli = {
+                    type = cb_restore_personal_union
+                    target = CAN
+                }
+            }
+        }
+    }
+    maritimes_tour_de_force = {
+        icon = mission_alliances
+        required_missions = {
+            maritimes_an_old_enemy
+        }
+        trigger = {
+            OR = {
+                AND = {
+                    is_subject_of = MRT
+                    exists = ONT
+                }
+                AND = {
+                    is_subject_of = MRT
+                    exists = CAN
+                }
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = maritimes_tour_de_force
+                duration = -1
+            }
+        }
+    }
+}
