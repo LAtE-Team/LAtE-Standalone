@@ -23,7 +23,9 @@ country_event = {
 			dynasty = "Carmody"
 		}
 		change_statists_vs_orangists = -0.33
-	
+		country_event = {
+			id = maritimes_events.3
+		}
 	}
 	
 	option = {
@@ -32,6 +34,16 @@ country_event = {
 			dynasty = "Carmody"
 		}
 		change_statists_vs_orangists = 0.33
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
 	}
 }
 
@@ -54,19 +66,82 @@ country_event = {
 	}
 	
 	option = {
-		name = elections.720.a
+		name = maritimes_events.2.a
 		define_ruler = {
 			dynasty = "Carmody"
 		}
 		change_statists_vs_orangists = -0.33
-	
+		country_event = {
+			id = maritimes_events.3
+		}
 	}
 	
 	option = {
-		name = elections.720.g
+		name = maritimes_events.2.b
 		define_ruler = {
 			dynasty = "Carmody"
 		}
 		change_statists_vs_orangists = 0.33
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
+	}
+}
+
+country_event = { # set this up later
+	id = maritimes_events.3
+	title = maritimes_events.3.t
+	desc = maritimes_events.3.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = maritimes_events.3.a
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
+	}
+
+	option = {
+		name = maritimes_events.3.b
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
+	}
+
+	option = {
+		name = maritimes_events.3.c
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
 	}
 }
