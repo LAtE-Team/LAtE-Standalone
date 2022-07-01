@@ -1,0 +1,49 @@
+namespace = keystone_events
+
+country_event = {
+	id = keystone_events.1 
+	title = keystone_events.1.t
+	desc = keystone_events.1.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = AGH
+		}
+	}
+	
+	option = {
+		name = keystone_events.1.a #Yes
+		anabaptists_accepted_effect = yes
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = keystone_events.1.b #Yes
+		anabaptists_rejected_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = keystone_events.1.c #Yes
+		anabaptists_expelled_effect = yes
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	after = {
+		swap_non_generic_missions = yes
+	}
+}

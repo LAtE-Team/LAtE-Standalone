@@ -756,7 +756,10 @@ province_event = {
             has_province_modifier = anabaptists_present_small
         }
         NOT = { owner = { has_country_flag = anabaptists_expelled } }
-        owner = { religion_group = christian }
+        OR = {
+			owner = { religion_group = christian }
+			owner = { has_country_flag = anabaptists_accepted }
+		}
     }
 
     mean_time_to_happen = {
@@ -919,7 +922,10 @@ province_event = {
         NOT = { owner = { has_country_flag = anabaptists_accepted } } 
         OR = {
             owner = { has_country_flag = anabaptists_expelled }
-            NOT = { owner = { religion_group = christian } } 
+            AND = {
+				NOT = { owner = { religion_group = christian } } 
+				NOT = { owner = { has_country_flag = anabaptists_accepted } }
+			}
         }
         OR = {
             has_province_modifier = anabaptists_present_large
