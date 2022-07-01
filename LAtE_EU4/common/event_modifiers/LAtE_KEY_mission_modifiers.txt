@@ -1,0 +1,63 @@
+DEI_advisor_cost_modidifer = {
+	advisor_cost = -0.25
+}
+
+KEY_institution_modifier = {
+	global_institution_spread = 0.25
+	embracement_cost = -0.1
+}
+
+KEY_discipline_modifier = {
+	discipline = 0.05
+	drill_gain_modifier = 0.25
+}
+
+KEY_siege_modifier ={
+	artillery_bonus_vs_fort = 1
+	siege_ability = 0.1
+}
+
+KEY_ccr_modifier = {
+	core_creation = -0.1
+	unjustified_demands = -0.1
+}
+
+KEY_prod_eff_modifier = {
+	production_efficiency = 0.1
+}
+
+KEY_development_modifier = {
+	development_cost = -0.1
+}
+
+DEI_homeland_modifier = {
+	local_tax_modifier = 0.1
+	local_production_efficiency = 0.1
+}
+
+KEY_construction_modifier = {
+	build_cost = -0.1
+	build_time = -0.1
+}
+
+DEI_governing_modifier = {
+	governing_capacity_modifier = 0.1
+}
+
+KEY_missionary_modifier = {
+	global_missionary_strength = 0.015
+}
+
+KEY_anabaptists_accept_modifier = {
+	global_tax_modifier = 0.1
+}
+
+KEY_anabaptists_growth_modifier = {
+	local_state_maintenance_modifier = -0.1
+	local_monthly_devastation = -0.1
+	local_prosperity_growth = 0.1
+}
+
+KEY_cleared_lands_modifier = {
+	local_development_cost = -0.1
+}

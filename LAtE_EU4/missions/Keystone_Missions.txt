@@ -8,10 +8,12 @@ KEY_missions_accept_anabaptists = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = AGH
 			tag = KEY
@@ -28,7 +30,16 @@ KEY_missions_accept_anabaptists = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_anabaptists_accept_modifier
+				duration = 7300
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_VAL_ANB_KEY
+				loyalty = 10
+				duration = 7300
+			}
         }
     }
 
@@ -61,7 +72,19 @@ KEY_missions_accept_anabaptists = {
         }
         
         effect = {
-			add_prestige = 10
+			add_years_of_income = 0.5
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = anabaptists_present_large
+						has_province_modifier = anabaptists_present_medium
+					}
+				}
+				add_province_modifier = {
+					name = KEY_anabaptists_growth_modifier
+					duration = 7300
+				}
+			}
         }
     }
 }
@@ -76,10 +99,12 @@ KEY_missions_expel_anabaptists = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = AGH
 			tag = KEY
@@ -113,7 +138,21 @@ KEY_missions_expel_anabaptists = {
         }
         
         effect = {
-			add_prestige = 10
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = actual_susquehanna_area
+						province_id = 4626
+						province_id = 4621
+						province_id = 2023
+						province_id = 4582	
+					}
+				}
+				add_province_modifier = {
+					name = KEY_cleared_lands_modifier
+					duration = 10950
+				}
+			}
         }
     }
 
@@ -140,7 +179,11 @@ KEY_missions_expel_anabaptists = {
         }
         
         effect = {
-			add_prestige = 10
+			if = {
+				limit = {
+					has_estate = estate_antiquarians
+				}
+			}
         }
     }
 }
@@ -188,7 +231,10 @@ KEY_missions_churches = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_missionary_modifier
+				duration = 7300
+			}
         }
     }
 }
@@ -203,10 +249,12 @@ DEI_missions_1.1 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = KEY
 		}	
@@ -225,7 +273,11 @@ DEI_missions_1.1 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_discipline_modifier
+				duration = 10950
+			}
+			
         }
     }
 }
@@ -240,10 +292,12 @@ DEI_missions_2.1 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = KEY
 		}	
@@ -259,6 +313,10 @@ DEI_missions_2.1 = {
         }
         
         effect = {
+			add_country_modifier = {
+				name = thriving_arms_industry
+				duration = 9125
+			}
 			if = {
 				limit = {
 					capital_scope = {
@@ -339,11 +397,25 @@ DEI_missions_2.1 = {
         trigger = {
 			OR = {
 				AND = {
+					capital_scope = {
+						OR = {
+							province_id = 2556
+							province_id = 4623
+							province_id = 2557
+						}
+					}
 					owns = 2556
 					owns = 4623
 					owns = 2557
 				}
 				AND = {
+					capital_scope = {
+						OR = {
+							province_id = 955
+							province_id = 2023
+							province_id = 4621
+						}
+					}
 					owns = 955
 					owns = 2023
 					owns = 4621
@@ -361,6 +433,34 @@ DEI_missions_2.1 = {
 							province_id = 4621
 						}
 					}
+					owns = 955
+					owns = 2023
+					owns = 4621
+				}
+				if = {
+					limit = {
+						has_country_flag = anabaptists_accepted
+					}
+					955 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					2023 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					4621 = {
+						anabaptists_estate_growth_effect = yes
+					}
+				}
+				else = {
+					955 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					2023 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					4621 = {
+						anabaptists_estate_shrink_effect = yes
+					}
 				}
 				give_claims = { id = 2556 }
 				give_claims = { id = 4623 }
@@ -375,6 +475,34 @@ DEI_missions_2.1 = {
 							province_id = 4623
 							province_id = 2557
 						}
+					}
+					owns = 2556
+					owns = 4623
+					owns = 2557
+				}
+				if = {
+					limit = {
+						has_country_flag = anabaptists_accepted
+					}
+					2556 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					4623 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					2557 = {
+						anabaptists_estate_growth_effect = yes
+					}
+				}
+				else = {
+					2556 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					4623 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					2557 = {
+						anabaptists_estate_shrink_effect = yes
 					}
 				}
 				give_claims = { id = 955 }
@@ -396,10 +524,12 @@ DEI_missions_3.1 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = KEY
 		}	
@@ -423,7 +553,12 @@ DEI_missions_3.1 = {
         }
         
         effect = {
-			add_prestige = 10
+			capital_scope = {
+				add_province_modifier = {
+					name = growth_of_capital
+					duration = 9125
+				}
+			}
         }
     }
 }
@@ -438,10 +573,12 @@ DEI_missions_4.1 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag	= ESQ
-			tag = WSQ
-			tag = TMI
-			tag = COA
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
 			tag = DEI
 			tag = KEY
 		}	
@@ -457,7 +594,19 @@ DEI_missions_4.1 = {
         }
         
         effect = {
-			add_prestige = 10
+			if = {
+				limit = {
+					NOT = { has_institution = renaissance }
+				}
+				add_country_modifier = {
+					name = DEI_advisor_cost_modidifer
+					duration = 7300
+				}
+			}
+			else = {
+				add_years_of_income = 0.5
+				add_adm_power = 50
+			}
         }
     }
 
@@ -483,7 +632,10 @@ DEI_missions_4.1 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_institution_modifier
+				duration = 7300
+			}
         }
     }
 }
@@ -516,7 +668,10 @@ DEI_missions_1.2 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_siege_modifier
+				duration = 10950
+			}
         }
     }
 }
@@ -566,6 +721,10 @@ DEI_missions_2.2 = {
         }
         
         effect = {
+			add_country_modifier = {
+				name = KEY_ccr_modifier
+				duration = 10950
+			}
 			give_claims = { area = susquehanna_area }
 			give_claims = { id = 4577 }
         }
@@ -593,6 +752,12 @@ DEI_missions_2.2 = {
         }
         
         effect = {
+			add_adm_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = KEY_prod_eff_modifier
+				duration = 7300
+			}
 			give_claims = { id = 956 }
 			give_claims = { id = 2554 }
         }
@@ -634,7 +799,7 @@ DEI_missions_3.2 = {
 
         trigger = {
 			calc_true_if = {
-				amount = 8
+				amount = 6
 				all_owned_province = {
 					OR = {
 						has_building = workshop
@@ -645,7 +810,10 @@ DEI_missions_3.2 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_development_modifier
+				duration = 7300
+			}
         }
     }
 
@@ -693,7 +861,42 @@ DEI_missions_3.2 = {
 		}
         
         effect = {
-			add_prestige = 10
+			2556 = {
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			4623 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			2557 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			955 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			2023 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			4621 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
         }
     }
 }
@@ -726,7 +929,10 @@ DEI_missions_4.2 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_construction_modifier
+				duration = 10950
+			}
         }
     }
 
@@ -759,7 +965,10 @@ DEI_missions_4.2 = {
 		}
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = DEI_governing_modifier
+				duration = -1
+			}
 		}
     }
 }
