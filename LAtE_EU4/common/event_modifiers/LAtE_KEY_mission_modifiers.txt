@@ -61,3 +61,13 @@ KEY_anabaptists_growth_modifier = {
 KEY_cleared_lands_modifier = {
 	local_development_cost = -0.1
 }
+
+AGH_morale_modifier = {
+	land_morale = 0.05
+}
+
+AGH_pittsburgh_modifier = {
+	local_production_efficiency = 0.1
+	local_governing_cost = -0.25
+	province_trade_power_value = 5
+}

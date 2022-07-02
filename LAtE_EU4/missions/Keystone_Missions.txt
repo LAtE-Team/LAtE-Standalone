@@ -179,9 +179,35 @@ KEY_missions_expel_anabaptists = {
         }
         
         effect = {
+			add_years_of_income = 1
 			if = {
 				limit = {
 					has_estate = estate_antiquarians
+				}
+				add_estate_loyalty_modifier = {
+					estate = estate_antiquarians
+					desc = EST_VAL_LOOTED_ANABAPTISTS
+					loyalty = 10
+					duration = 7300
+				}
+				add_estate_loyalty = {
+					estate = estate_antiquarians
+					loyalty = 10
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate = estate_scavengers
+				}
+				add_estate_loyalty_modifier = {
+					estate = estate_scavengers
+					desc = EST_VAL_LOOTED_ANABAPTISTS
+					loyalty = 10
+					duration = 7300
+				}
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = 10
 				}
 			}
         }
@@ -1004,7 +1030,10 @@ AGH_missions_1 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_discipline_modifier
+				duration = 10950
+			}
         }
     }
 
@@ -1019,7 +1048,10 @@ AGH_missions_1 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_siege_modifier
+				duration = 10950
+			}
         }
     }
 
@@ -1039,7 +1071,10 @@ AGH_missions_1 = {
 		}
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = AGH_morale_modifier
+				duration = -1
+			}
         }
     }
 }
@@ -1072,6 +1107,10 @@ AGH_missions_2 = {
         }
         
         effect = {
+			add_country_modifier = {
+				name = thriving_arms_industry
+				duration = 9125
+			}	
 			give_claims = { id = 4579 }
 			give_claims = { id = 2557 }
 			give_claims = { id = 4623 }
@@ -1103,6 +1142,10 @@ AGH_missions_2 = {
         }
         
         effect = {
+			add_country_modifier = {
+				name = KEY_ccr_modifier
+				duration = 10950
+			}
 			give_claims = { id = 955 }
 			give_claims = { id = 4582 }
 			give_claims = { id = 2023 }
@@ -1135,6 +1178,49 @@ AGH_missions_2 = {
         }
         
         effect = {
+			if = {
+				limit = {
+					has_country_flag = anabaptists_accepted
+				}
+				955 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2023 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				4621 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2556 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				4623 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2557 = {
+					anabaptists_estate_growth_effect = yes
+				}
+			}
+			else = {
+				955 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2023 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				4621 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2556 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				4623 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2557 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+			}
 			give_claims = { id = 956 }
 			give_claims = { id = 2554 }
         }
@@ -1177,7 +1263,12 @@ AGH_missions_3 = {
         }
         
         effect = {
-			add_prestige = 10
+			capital_scope = {
+				add_province_modifier = {
+					name = growth_of_capital
+					duration = 9125
+				}
+			}
         }
     }
 
@@ -1200,7 +1291,16 @@ AGH_missions_3 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_construction_modifier
+				duration = 7300
+			}
+			4624 = {
+				add_province_modifier = {
+					name = AGH_pittsburgh_modifier
+					duration = -1
+				}
+			}
         }
     }
 
@@ -1241,7 +1341,10 @@ AGH_missions_3 = {
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_prod_eff_modifier
+				duration = 7300
+			}
         }
     }
 }
@@ -1306,7 +1409,72 @@ AGH_missions_4 = {
         }
         
         effect = {
-			add_prestige = 10
+			if = {
+				limit = {
+					is_rival = OHI
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = OHI
+				}
+			}
+			else_if = {
+				limit = {
+					OHI = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				add_favors = {
+					who = OHI
+					amount = 10
+				}
+			}
+			else = {
+				ohio_country_area = {
+					if = {
+						limit = {
+							NOT = { is_claim = root }
+						}
+						add_claim = root
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_rival = CLE
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = CLE
+				}
+			}
+			else_if = {
+				limit = {
+					CLE = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				add_favors = {
+					who = CLE
+					amount = 10
+				}
+			}
+			else = {
+				cleveland_area = {					
+					if = {
+						limit = {
+							NOT = { is_claim = root }
+						}
+						add_claim = root
+					}
+				}
+			}
         }
     }
 
@@ -1343,16 +1511,16 @@ AGH_missions_4 = {
     
     AGH_mission_embrace_renaissance = {
         icon = mission_unite_home_region
-		required_missions = {
-			DEI_mission_advisors
-		}
 
         trigger = {
 			has_institution = renaissance
         }
         
         effect = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = KEY_development_modifier
+				duration = 10950
+			}
         }
     }
 
