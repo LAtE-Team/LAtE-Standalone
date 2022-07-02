@@ -71,3 +71,17 @@ AGH_pittsburgh_modifier = {
 	local_governing_cost = -0.25
 	province_trade_power_value = 5
 }
+
+AGH_factories_modifier = {
+	trade_goods_size = 0.5	
+}
+
+KEY_religious_unity_modifier = {
+	tolerance_own = 2
+	global_autonomy = -0.05
+}
+
+KEY_university_modifier = {
+	idea_cost = -0.1
+	technology_cost = -0.05
+}
