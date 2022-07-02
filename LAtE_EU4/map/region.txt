@@ -1273,7 +1273,9 @@ california_region = {
 		wineland_area 
 		motherlode_area
 		kern_area
-		los_padres_area		
+		los_padres_area	
+		mojave_area
+		alta_baja_area
 	}
 }
 
@@ -1595,15 +1597,21 @@ alaska_region = {
 	}
 }
 
-utah_region = {
+four_corners_region = {
 	areas = {
 		arizona_area
 		colorado_plateau_area
 		new_mexico_area
-		apacheria_area
-		deseret_area
+		salt_lake_area
+		wasatch_area
+		west_estacado_area
+		high_plateaus_area
 		colorado_area
 		yellowstone_area
+		gadsen_area
+		uncompahghre_area
+		roan_area
+		taylor_area
 	}
 }
 

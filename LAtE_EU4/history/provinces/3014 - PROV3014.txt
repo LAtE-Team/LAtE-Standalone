@@ -1,0 +1,16 @@
+ck2_converter_generated = yes
+owner = CAL
+controller = CAL
+add_core = CAL
+culture = californio
+religion = cetic
+is_city = yes
+add_core = BAJ
+
+3053.1.1 = {
+	hre = no
+	base_tax = 4
+	base_production = 10
+	base_manpower = 6
+}
+	

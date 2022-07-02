@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+owner = DES
+controller = DES
+add_core = DES
+culture = utahn
+religion = mormon
+capital = "Salt Lake City"
+trade_goods = salt #SALT Lake
+is_city = yes
+
+3053.1.1 = {
+	hre = no
+	base_tax = 10
+	base_production = 10
+	base_manpower = 5
+}
+3053.1.1 = {
+	owner = DES
+	controller = DES
+	culture = utahn
+	religion = mormon
+}

@@ -1,0 +1,13 @@
+owner = X86
+controller = X86
+add_core = X86
+
+culture = chino
+religion = sacred_heart
+is_city = yes
+add_permanent_claim = SNR
+
+hre = no
+base_tax = 0
+base_production = 0
+base_manpower = 0

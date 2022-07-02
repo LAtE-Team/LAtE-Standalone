@@ -1,0 +1,14 @@
+owner = X00
+controller = X00
+add_core = X00
+
+culture = mountainer
+religion = trailwalker
+is_city = yes
+add_permanent_claim = CLR
+
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

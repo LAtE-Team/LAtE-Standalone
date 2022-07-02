@@ -2896,8 +2896,8 @@ badlands_area = { #5
 	1809 2008 2009 2504 2505
 }
 
-llano_estacado_area = { #5
-	882 885 2496 2497 4974 5072
+llano_estacado_area = { #3
+	885 2497 5072
 }
 
 arklatexas_area = { #3
@@ -2998,21 +2998,29 @@ pecos_area = { #5
 	2498 2666 5068 5069
 }
 
-apacheria_area = { #3
-	879 2492 4978 4977
-}
-
 waco_area = {
 	886 2500 5080
 }
 
 
 new_mexico_area = { #6
-	880 881 2495 4975 4976 
+	881 2495 4975 4976 3025 882
 }
 
-colorado_plateau_area = { #4
-	875 878 2493 2494
+west_estacado_area = {
+	880 2496 4974
+}
+
+high_plateaus_area = {
+	3034 3038 4518 4519
+}
+
+wasatch_area = {
+	3033 3037 4521
+}
+
+colorado_plateau_area = { #6
+	878 4978 3020 3036 3022 3023 
 }
 
 # # arizona_area = { #4
@@ -3140,33 +3148,43 @@ los_padres_area = {
 }
 
 socal_area = {
-	2478 867 2476 4507 4509 4508
+	2478 4507 4508 3013 3012 3011
 }
 
 arizona_area = { #4
-	 876 2491 877
+	876 2491 3019 3016 3017
+}
+
+gadsen_area = {
+	4977 877 879 2492
 }
 
 north_valley_area = {
 	4501 2480 2479 4738
 }
 
+alta_baja_area = {
+	4509 2476 3014 3015
+}
+
+mojave_area = {
+	4512 867 3010
+}
+
 redwoods_area = {
 	2481 4500 2477 2482
 }
-
-
 
 shasta_cascade_area = { # Called "Northern Jefferson"
 	4515 4516 4517 4913
 }
 
 death_valley_area = {
-	4514 4511 4513 4512
+	4514 4511 4513 3009
 }
 
-deseret_area = {
-	4518 2490 4521 4520 4519
+salt_lake_area = {
+	2490 3031 3032
 }
 
 # colorado_area = {
@@ -3460,8 +3478,21 @@ uper_louisiana_area = { # confusing but I dont want to mess with the other thing
 yellowstone_area = {
 	4601 4604 2506 2507
 }
+
 colorado_area = {
-	4522 4524 4523 4525 4526 
+	4524 4525 4526 3026 3028
+}
+
+uncompahghre_area = {
+	4523 4520 3035 3027
+}
+
+roan_area = {
+	3029 4522 3030
+}
+
+taylor_area = {
+	2494 3024
 }
 
 columbia_river_area = { 
@@ -3754,7 +3785,7 @@ baja_california_area = { #4
 }
 
 sonora_y_sinaloa_area = { #Just Sonora
-	4741 2616 862 4994 4993
+	4741 2616 862 4994 4993 3039
 }
 
 sinaloa_area = {
