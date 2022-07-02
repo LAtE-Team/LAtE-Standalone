@@ -27,3 +27,4 @@ historical_rival = TAQ
 	add_ruler_personality = expansionist_personality
 }
 change_statists_vs_orangists = 0.1
+remove_accepted_culture = acadien

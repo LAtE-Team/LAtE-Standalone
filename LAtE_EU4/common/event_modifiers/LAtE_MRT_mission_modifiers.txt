@@ -181,3 +181,24 @@ maritimes_tour_de_force = {
     diplomatic_reputation = 1
     reduced_liberty_desire = 10
 }
+
+maritimes_election_clergy_favored = {
+    church_influence_modifier = 0.05
+    church_loyalty_modifier = 0.1
+}
+
+maritimes_election_burghers_favored = {
+    burghers_influence_modifier = 0.05
+    burghers_loyalty_modifier = 0.1
+}
+
+maritimes_election_nobles_favored = {
+    nobles_influence_modifier = 0.05
+    nobles_loyalty_modifier = 0.1
+}
+
+maritimes_monarchist_favored = {
+    church_loyalty_modifier = -0.05
+    burghers_loyalty_modifier = -0.05
+    nobles_loyalty_modifier = -0.05
+}

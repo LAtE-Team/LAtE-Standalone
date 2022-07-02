@@ -160,9 +160,11 @@ maritimer_united_duchies = {
 		tag = MRT
 	}
 	modifiers = {
-		## Estate influence +5 each
+		advisor_cost = -0.1
+		church_influence_modifier = 0.05
+		burghers_influence_modifier = 0.05
+		nobles_influence_modifier = 0.05
 		no_stability_loss_on_monarch_death = yes
-		
 	}
 	conditional = {
 		allow = { has_dlc = "Res Publica" }
@@ -175,6 +177,7 @@ maritimer_united_duchies = {
 				diplomatic_reputation = 1
 				global_unrest = -1
 				legitimacy = -0.5
+				min_autonomy = 5
 			}
 			monarchists = {
 				prestige = 0.5

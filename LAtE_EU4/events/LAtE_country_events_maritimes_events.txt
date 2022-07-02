@@ -44,6 +44,10 @@ country_event = {
 			}
 			set_capital = 4549
 		}
+		add_ruler_modifier = {
+			name = maritimes_monarchist_favored
+			duration = -1
+		}
 	}
 }
 
@@ -92,10 +96,14 @@ country_event = {
 			}
 			set_capital = 4549
 		}
+		add_ruler_modifier = {
+			name = maritimes_monarchist_favored
+			duration = -1
+		}
 	}
 }
 
-country_event = { # set this up later
+country_event = { # Statist Candidate Chosen
 	id = maritimes_events.3
 	title = maritimes_events.3.t
 	desc = maritimes_events.3.d
@@ -109,11 +117,16 @@ country_event = { # set this up later
 			limit = {
 				NOT = {
 					capital_scope = {
-						province_id = 4549
+						province_id = 983
 					}
 				}
 			}
-			set_capital = 4549
+			set_capital = 983
+			change_adm = 1
+			add_ruler_modifier = {
+				name = maritimes_election_clergy_favored
+				duration = -1
+			}
 		}
 	}
 
@@ -123,11 +136,16 @@ country_event = { # set this up later
 			limit = {
 				NOT = {
 					capital_scope = {
-						province_id = 4549
+						province_id = 4551
 					}
 				}
 			}
-			set_capital = 4549
+			set_capital = 4551
+			change_dip = 1
+			add_ruler_modifier = {
+				name = maritimes_election_burghers_favored
+				duration = -1
+			}
 		}
 	}
 
@@ -137,11 +155,16 @@ country_event = { # set this up later
 			limit = {
 				NOT = {
 					capital_scope = {
-						province_id = 4549
+						province_id = 2570
 					}
 				}
 			}
-			set_capital = 4549
+			set_capital = 2570
+			change_mil = 1
+			add_ruler_modifier = {
+				name = maritimes_election_nobles_favored
+				duration = -1
+			}
 		}
 	}
 }

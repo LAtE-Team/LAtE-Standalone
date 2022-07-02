@@ -735,6 +735,7 @@ Maritime_Kingdom_missions_4 = {
         }
         trigger = {
             notre_dame_mountains_area = {
+                type = all
                 is_core = ROOT
             }
         }
