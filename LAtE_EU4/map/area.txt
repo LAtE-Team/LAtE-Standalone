@@ -3003,10 +3003,13 @@ waco_area = {
 }
 
 
-new_mexico_area = { #6
-	881 2495 4975 4976 3025 882
+new_mexico_area = { #4
+	881 2495 4975  882
 }
 
+gorge_and_valley_area = { #3
+	3025 4526 4976
+}
 west_estacado_area = {
 	880 2496 4974
 }
@@ -3019,8 +3022,8 @@ wasatch_area = {
 	3033 3037 4521
 }
 
-colorado_plateau_area = { #6
-	878 4978 3020 3036 3022 3023 
+colorado_plateau_area = { #5
+	4978 3020 3036 3022 3023 
 }
 
 # # arizona_area = { #4
@@ -3480,11 +3483,11 @@ yellowstone_area = {
 }
 
 colorado_area = {
-	4524 4525 4526 3026 3028
+	4524 4525 3026 3028
 }
 
 uncompahghre_area = {
-	4523 4520 3035 3027
+	4523 4520 3035 3027 878
 }
 
 roan_area = {

@@ -1612,6 +1612,7 @@ four_corners_region = {
 		uncompahghre_area
 		roan_area
 		taylor_area
+		gorge_and_valley_area
 	}
 }
 
