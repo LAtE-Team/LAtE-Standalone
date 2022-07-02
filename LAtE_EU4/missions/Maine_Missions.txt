@@ -129,8 +129,15 @@ MNE_reconquest_of_new_england = {
 			VER = { exists = no }
 		}
 		effect ={
-			change_tag = NEN
-			set_government_rank = 2
+			add_country_modifier = {
+				name = "nen_yankee_unification"
+				duration = 9125 #25 years
+			}
+			gotham_area = { add_permanent_claim = ROOT}
+			delaware_valley_area = { add_permanent_claim = ROOT }
+			hidden_effect = {
+				set_country_flag = nen_anglican_dominance
+			}
 		}
 	}
 }

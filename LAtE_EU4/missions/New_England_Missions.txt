@@ -27,26 +27,40 @@ NEN_stabilizing_the_realm = {
 				culture = ROOT
 				}
 			}
-		}
 		effect = {
 			set_capital = 968
 		}
+	}
+
 	NEN_develop_boston_port = {
 		icon = mission_rb_empire
 		required_missions = {NEN_finalize_the_pacification}
 		position = 2
 		
 		trigger = {
+		968 = {
 			OR = {
-				
+				has_building = marketplace
+				has_building = dock
 			}
 		}
 		effect = {
-			
+			968 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
 		}
 	}
-	NEN_restore_northern_ivy = {}
-	NEN_restore_southern_ivy = {}
+	NEN_new_englander_armada = {}
+	NEN_restore_northern_ivy = {
+		trigger = {}
+		effect = {}
+	}
+	NEN_restore_southern_ivy = {
+		trigger = {}
+		effect ={}
+	}
 }
 
 NEN_ursuline_relation = {
@@ -54,16 +68,15 @@ NEN_ursuline_relation = {
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
-		AND = {
-			tag = NEN
-			religion = ursuline
+		tag = NEN
+		has_country_flag = nen_ursuline_dominance
 		}
-	}
 	NEN_befriend_the_order = {
 		icon = mission_alliances
 		required_missions = {}
 		position = 1
 		trigger = {
+			has_country_flag = nen_ursuline_dominance
 			if = {
 				OR = {
 					AND = {
@@ -89,16 +102,16 @@ NEN_ursuline_relation = {
 		}
 		effect = {}
 	}
+}
 NEN_anglican_relation = {
 	slot = 4
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
-		AND = {
-			tag = NEN
-			religion = anglican
-		}
+		tag = NEN
+		has_country_flag = nen_anglican_dominance
 	}
+
 	NEN_purchase_of_aroostook = {
 		position = 1
 		provinces_to_highlight = {
@@ -111,7 +124,7 @@ NEN_anglican_relation = {
 			}
 		}
 		trigger = {
-			
+			has_country_flag = nen_anglican_dominance
 		}
 		effect = {
 			

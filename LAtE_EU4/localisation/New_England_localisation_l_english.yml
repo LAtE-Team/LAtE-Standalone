@@ -3,6 +3,8 @@
  nen_religious_pacification_desc: "Missionaries have begun their process of bringing the local to the [Root.Religion.GetName] faith."
  nen_yankee_resettlement: "Yankee Resettlement"
  nen_yankee_resettlement_desc: "Many Yankees have begun to return to former Redcoats territory to replace the former British subjects living there."
+ nen_yankee_unification: "Yankee Unification"
+ nen_yankee_unification_desc: "We have successfully unified New England under one banner once again like the Mahonics before us centuries ago. Let us celebrate this victory to the unification of all Yankees under one banner for the first time in centuries!"
  
  #National Ideas
  NEN_ideas: "New Englander Ideas"
