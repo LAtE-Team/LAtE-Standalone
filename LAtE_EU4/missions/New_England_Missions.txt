@@ -39,7 +39,7 @@ NEN_stabilizing_the_realm = {
 		
 		trigger = {
 		968 = {
-			OR = {
+			AND = {
 				has_building = marketplace
 				has_building = dock
 			}
@@ -52,7 +52,14 @@ NEN_stabilizing_the_realm = {
 			}
 		}
 	}
-	NEN_new_englander_armada = {}
+	NEN_new_englander_armada = {
+		icon =
+		required_missions = {NEN_develop_boston_port}
+		position = 3
+		
+		trigger = {}
+		effect = {}
+	}
 	NEN_restore_northern_ivy = {
 		trigger = {}
 		effect = {}
@@ -100,7 +107,9 @@ NEN_ursuline_relation = {
 				}
 			}
 		}
-		effect = {}
+		effect = {
+			#insert effect here
+		}
 	}
 }
 NEN_anglican_relation = {
@@ -125,9 +134,54 @@ NEN_anglican_relation = {
 		}
 		trigger = {
 			has_country_flag = nen_anglican_dominance
+			treasury = 500
+			MRT = {
+				religion = anglican
+				has_opinion = {
+					who = MNE
+					value = 175
+				}
+			}
 		}
 		effect = {
-			
+			#insert event here
 		}
 	}
+}
+NEN_expansion_tree = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_sack_of_gotham = {
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 965
+				province_id = 4539
+				province_id = 4540
+				province_id = 2639
+				province_id = 4622
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+	}
+		trigger = {
+			2560 = { owned_by = ROOT }
+			965 = { owned_by = ROOT }
+			4539 = { owned_by = ROOT }
+			4540 = { owned_by = ROOT }
+			2639 = { owned_by = ROOT }
+			4622 = { owned_by = ROOT }
+			NYS = {
+				exists = NO
+			}
+		}
+		effect = {
+		#insert event here
+		}
 }
