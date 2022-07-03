@@ -85,3 +85,16 @@ KEY_university_modifier = {
 	idea_cost = -0.1
 	technology_cost = -0.05
 }
+
+KEY_trade_steering_modifier = {
+	trade_steering = 0.1
+}
+
+KEY_fort_modifier = {
+	fort_maintenance_modifier = -0.25
+	defensiveness = 0.1
+}
+
+KEY_trade_goods_modifier = {
+	global_trade_goods_size_modifier = 0.1
+}
