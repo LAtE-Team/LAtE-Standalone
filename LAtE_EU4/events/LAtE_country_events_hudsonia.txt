@@ -71,7 +71,7 @@ country_event = {
 		name = hudsonia_events.2.b #No
 		reverse_add_opinion = {
 			who = HUD
-			modifier = abandoned_mlc
+			modifier = outrageous_demands
 		}		
 		ai_chance = {
 			factor = 1

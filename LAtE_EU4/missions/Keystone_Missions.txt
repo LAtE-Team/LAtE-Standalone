@@ -1494,7 +1494,22 @@ AGH_missions_4 = {
         }
         
         effect = {
-			add_prestige = 10
+			if = {
+				limit = {
+					exists = Y28
+					NOT = {
+						is_rival = Y28
+					}
+				}
+				Y28 = {
+					country_event = {
+						id = keystone_events.2
+					}
+				}
+			}
+			else = {
+				give_claims = { area = appalachia_area }
+			}
         }
     }
     
@@ -1840,7 +1855,9 @@ KEY_missions_2 = {
         }
         
         effect = {
-			add_prestige = 10
+			country_event = {
+				id = keystone_events.4
+			}
         }
     }
 
@@ -2204,7 +2221,9 @@ KEY_missions_5 = {
         }
         
         effect = {
-			add_prestige = 10
+			country_event = {
+				id = keystone_events.5
+			}
         }
     }
 }

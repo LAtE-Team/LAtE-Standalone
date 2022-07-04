@@ -98,3 +98,11 @@ KEY_fort_modifier = {
 KEY_trade_goods_modifier = {
 	global_trade_goods_size_modifier = 0.1
 }
+
+KEY_church_power_modifier = {
+	church_power_modifier = 0.5
+}
+
+KEY_patriarch_authority_modifier = {
+	yearly_patriarch_authority = 0.1
+}
