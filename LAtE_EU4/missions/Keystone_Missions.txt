@@ -22,7 +22,7 @@ KEY_missions_accept_anabaptists = {
     }
     
     KEY_mission_allow_growth = {
-        icon = mission_unite_home_region
+        icon = contracts_of_correspondence
         position = 1
                 
         trigger = {
@@ -44,7 +44,7 @@ KEY_missions_accept_anabaptists = {
     }
 
     KEY_mission_anabaptists_prosper = {
-        icon = mission_unite_home_region
+        icon = fund_the_monasteries
 		required_missions = {
 			KEY_mission_allow_growth
 		}
@@ -113,7 +113,7 @@ KEY_missions_expel_anabaptists = {
     }
     
     KEY_mission_expel_from_our_lands = {
-        icon = mission_unite_home_region
+        icon = crush_heretic_strongholds
         position = 1
                 
 		provinces_to_highlight = {
@@ -157,7 +157,7 @@ KEY_missions_expel_anabaptists = {
     }
 
     KEY_mission_loot_their_lands = {
-        icon = mission_unite_home_region
+        icon = mission_high_income
 		required_missions = {
 			KEY_mission_expel_from_our_lands
 		}
@@ -231,7 +231,7 @@ KEY_missions_churches = {
     }
     
     KEY_mission_build_churches = {
-        icon = mission_unite_home_region
+        icon = connect_further_austria
         position = 4
 
 		provinces_to_highlight = {
@@ -331,7 +331,7 @@ DEI_missions_2.1 = {
     }
     
     DEI_mission_prepare_unification = {
-        icon = mission_unite_home_region
+        icon = mission_build_up_to_force_limit
         position = 1
 
         trigger = {
@@ -1099,7 +1099,7 @@ AGH_missions_2 = {
     }
 
     AGH_mission_grow_army = {
-        icon = mission_unite_home_region
+        icon = mission_build_up_to_force_limit
         position = 1
 
         trigger = {
@@ -1688,7 +1688,7 @@ KEY_missions_1= {
     }
     
     KEY_mission_philadelphia = {
-        icon = mission_unite_home_region
+        icon = capture_adriatic_ports
         position = 5
 
 		provinces_to_highlight = {
@@ -1814,7 +1814,7 @@ KEY_missions_2 = {
     }
     
     KEY_mission_baltimore = {
-        icon = mission_unite_home_region
+        icon = fight_bosnian_heresies
         position = 5
 
 		provinces_to_highlight = {
@@ -1840,7 +1840,7 @@ KEY_missions_2 = {
     }
 
     KEY_mission_washington = {
-        icon = mission_unite_home_region
+        icon = Control_Junkers
 		required_missions = {
 			KEY_mission_baltimore
 		}
@@ -1963,7 +1963,7 @@ KEY_missions_3 = {
     }
     
     KEY_mission_fortify_north = {
-        icon = mission_unite_home_region
+        icon = fortress_of_belgrade
         position = 6
 
 		provinces_to_highlight = {
@@ -2079,7 +2079,7 @@ KEY_missions_4 = {
     }
 
     KEY_mission_build_manufactories = {
-        icon = mission_unite_home_region
+        icon = mission_have_manufactories
 		position = 6
 		provinces_to_highlight = {
 			owned_by = root
@@ -2104,7 +2104,7 @@ KEY_missions_4 = {
     }
 
 	KEY_mission_build_universities = {
-        icon = mission_unite_home_region
+        icon = bibliotheca_corviana
 		required_missions = {
 			KEY_mission_build_manufactories
 			KEY_mission_religious_effects
@@ -2148,7 +2148,7 @@ KEY_missions_5 = {
     }
     
     KEY_mission_convert_keystone = {
-        icon = mission_unite_home_region
+        icon = mission_hands_praying
         position = 5
 		required_missions = {
 			KEY_mission_build_churches
@@ -2197,7 +2197,7 @@ KEY_missions_5 = {
     }
 
     KEY_mission_religious_effects = {
-        icon = mission_unite_home_region
+        icon = all_bases_covered
 		required_missions = {
 			KEY_mission_convert_keystone
 		}
