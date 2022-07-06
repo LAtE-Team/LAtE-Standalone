@@ -9,3 +9,9 @@ nen_religious_pacification = {
 nen_yankee_unification = {
 	core_creation = -0.10 
 }
+nen_crusaders_fervor = {
+	global_missionary_strength = 0.01
+}
+nen_yankee_armada = {
+	naval_maintenance_modifier = -0.10
+}

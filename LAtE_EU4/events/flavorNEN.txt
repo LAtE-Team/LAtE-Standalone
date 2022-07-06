@@ -1,0 +1,71 @@
+namespace = flavor_NEN
+
+country_event = {
+	id = flavor_NEN.1
+	title = "flavor_NEN.1.TITLE"
+	desc = "flavor_NEN.1.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of NEN_purchase_of_aroostook mission as NEN
+	option = {	#Accepts ducats in exchange for land
+		name = "flavor_NEN.1.a"
+		ai_chance = { factor = 0.95}
+		MRT = {
+			4546 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = MRT
+							is_core = MRT
+						}
+					}
+					add_core = NEN
+					change_controller = NEN
+				}
+			}
+			2567 = {
+				if = {
+					limit = {
+					NOT = {
+							is_permanent_claim = MRT
+							is_core = MRT
+						}
+					}
+					add_core = NEN
+					change_controller = NEN
+				}
+			}
+		treasury = -500
+		add_accepted_culture = acadian
+		}
+	}
+	option = {	#refuse to take offer
+		name = "flavor_NEN.2.b"
+		ai_chance = { factor = 0.05}
+		4546 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		2567 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+

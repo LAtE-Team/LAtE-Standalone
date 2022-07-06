@@ -33,7 +33,7 @@ NEN_stabilizing_the_realm = {
 	}
 
 	NEN_develop_boston_port = {
-		icon = mission_rb_empire
+		icon = mission_develop_the_capital
 		required_missions = {NEN_finalize_the_pacification}
 		position = 2
 		
@@ -46,27 +46,139 @@ NEN_stabilizing_the_realm = {
 		}
 		effect = {
 			968 = {
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_center_of_trade_level = 1
 			}
 		}
 	}
 	NEN_new_englander_armada = {
-		icon =
+		icon = mission_rb_a_mighty_fleet
 		required_missions = {NEN_develop_boston_port}
 		position = 3
+		provinces_to_highlight = {
+			region = atlantica_region
+			OR = {
+				trade_good = naval_supplies
+				NOT = { has_building = manufactories }
+			}
+		}
 		
-		trigger = {}
-		effect = {}
+		trigger = {
+			region = atlantica_region
+			OR = {
+				trade_good = naval_supplies
+				NOT = { has_building = manufactories }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_yankee_armada
+				duration = -1
+			}
+		}
 	}
 	NEN_restore_northern_ivy = {
-		trigger = {}
-		effect = {}
+		icon = florentine_renaissance
+		required_missions = {NEN_new_englander_armada}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 968
+				province_id = 967
+				province_id = 2564
+				province_id = 2560
+			}
+			OR = {
+				NOT = { has_building = university }
+			}
+		}
+		
+		trigger = {
+			968 = { has_building = university }
+			967 = { has_building = university }
+			2564 = { has_building = university }
+			2560 = { has_building = university }
+		}
+		effect = {
+			968 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+					desc = northern_ivy_restored_tooltip
+				}
+			}
+			967 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+					desc = northern_ivy_restored_tooltip
+				}
+			}
+			2564 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+					desc = northern_ivy_restored_tooltip
+				}
+			}
+			2560 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+					desc = northern_ivy_restored_tooltip
+				}
+			}
+		}
 	}
 	NEN_restore_southern_ivy = {
-		trigger = {}
-		effect ={}
+		icon = mission_rb_renovate_oxbridge
+		required_missions = {NEN_restore_northern_ivy}
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 958
+				province_id = 962
+				province_id = 985
+			}
+			OR = {
+				NOT = { has_building = university }
+			}
+		}
+		trigger = {
+			958 = { has_building = university }
+			962 = { has_building = university }
+			965 = { has_building = university }
+		}
+		effect = {
+			958 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+					desc = southern_ivy_restored_tooltip
+				}
+			}
+			962 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+					desc = southern_ivy_restored_tooltip
+				}
+			}
+			965 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+					desc = southern_ivy_restored_tooltip
+				}
+			}
+			add_country_modifier = {
+				name = ivy_league_restored
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -76,6 +188,7 @@ NEN_ursuline_relation = {
 	ai = yes
 	potential = {
 		tag = NEN
+		was_tag = VER
 		has_country_flag = nen_ursuline_dominance
 		}
 	NEN_befriend_the_order = {
@@ -100,7 +213,7 @@ NEN_ursuline_relation = {
 						QUE = {
 							has_opinion = {
 								who = ROOT
-								value = 100
+								value = 175
 							}
 						}
 					}
@@ -108,7 +221,95 @@ NEN_ursuline_relation = {
 			}
 		}
 		effect = {
-			#insert effect here
+			if = {
+				limit = { exists = URS }
+					add_trust = {
+						who = ENG
+						value = 30
+						mutual = yes
+					}
+			}
+			else = {
+				QUE = { 
+					add_trust = {
+						who = VER
+						value = 30
+						mutual = yes
+					}
+				}
+			}
+		}
+	}
+	NEN_northern_expansion = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_befriend_the_order}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2567
+				province_id = 4546
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			2567 = {owned_by = ROOT}
+			4546 = {owned_by = ROOT}
+		}
+		effect = {
+			restigouche_area = { add_permanent_claim = ROOT }
+			upper_acadia_area = { add_permanent_claim = ROOT }
+			cape_breton_area = { add_permanent_claim = ROOT }
+			nova_scotia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_destroy_the_maritimers = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_northern_expansion}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = restigouche_area
+				area = upper_acadia_area
+				area = cape_breton_area
+				area = nova_scotia_area
+				
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			restigouche_area = {owned_by = ROOT}
+			upper_acadia_area = {owned_by = ROOT}
+			cape_breton_area = {owned_by = ROOT}
+			nova_scotia_area = {owned_by = ROOT}
+		}
+		effect = {
+			newfoundland_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_conquer_newfoundland = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_destroy_the_maritimers}
+		position = 5
+		provinces_to_highlight = {
+			area = newfoundland_area
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			newfoundland_area = {owned_by = ROOT}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_crusaders_fervor
+				duration = 9125 #25 years
+			}
 		}
 	}
 }
@@ -118,10 +319,13 @@ NEN_anglican_relation = {
 	ai = yes
 	potential = {
 		tag = NEN
+		was_tag = MNE
 		has_country_flag = nen_anglican_dominance
 	}
 
 	NEN_purchase_of_aroostook = {
+		icon = mission_alliances
+		required_missions = {}
 		position = 1
 		provinces_to_highlight = {
 			OR = {
@@ -144,12 +348,47 @@ NEN_anglican_relation = {
 			}
 		}
 		effect = {
-			#insert event here
+			#add_country_event = { id = flavor_NEN.1 }
 		}
+	}
+	NEN_conquest_of_quebec = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_purchase_of_aroostook}
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				notre_dame_mountains_area
+				lower_canada_area
+				laurentian_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			notre_dame_mountains_area = {owned_by = ROOT}
+			lower_canada_area = {owned_by = ROOT}
+			laurentian_area = {owned_by = ROOT}
+			ONT ={
+				is_lesser_in_union = no
+			}
+		}
+		effect = {
+			
+		}
+	}
+	NEN_vanquish_the_ordinate = {
+		icon = mission_alliances
+		required_missions = {}
+		position = 3
+		trigger ={}
+		effect = {}
 	}
 }
 NEN_expansion_tree = {
-	slot = 2
+	slot = 1
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
@@ -157,6 +396,8 @@ NEN_expansion_tree = {
 	}
 	has_country_shield = yes
 	NEN_sack_of_gotham = {
+	
+	position = 1
 		provinces_to_highlight = {
 			OR = {
 				province_id = 2560
@@ -182,6 +423,35 @@ NEN_expansion_tree = {
 			}
 		}
 		effect = {
-		#insert event here
+		hudson_valley_area = { add_permanent_claim = ROOT }
+		niagara_area = { add_permanent_claim = ROOT }
+		iroquoisia_area = { add_permanent_claim = ROOT }
+		
+		#add_country_event = { id = nen_flavour.2 }
 		}
+	}
+	NEN_southern_expansion = {
+		
+	}
+	NEN_antiquarian_eclipse = {
+		
+	}
+	NEN_an_atlantic_empire = {
+		
+	}
+}
+NEN_expansion_tree_2 = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_western_expedition = {
+		position = 2
+	}
+	NEN_appalachian_conquest = {
+	
+	}
 }
