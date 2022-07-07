@@ -358,9 +358,9 @@ NEN_anglican_relation = {
 		
 		provinces_to_highlight = {
 			OR = {
-				notre_dame_mountains_area
-				lower_canada_area
-				laurentian_area
+				area = notre_dame_mountains_area
+				area = lower_canada_area
+				area = laurentian_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -376,7 +376,7 @@ NEN_anglican_relation = {
 			}
 		}
 		effect = {
-			
+			 = { add_permanent_claim = ROOT}
 		}
 	}
 	NEN_vanquish_the_ordinate = {
@@ -384,7 +384,12 @@ NEN_anglican_relation = {
 		required_missions = {}
 		position = 3
 		trigger ={}
-		effect = {}
+		effect = {
+			add_country_modifier = {
+				name = anglican_triumphant
+				duration = 9125
+			}
+		}
 	}
 }
 NEN_expansion_tree = {
@@ -396,7 +401,8 @@ NEN_expansion_tree = {
 	}
 	has_country_shield = yes
 	NEN_sack_of_gotham = {
-	
+	icon =
+	required_missions = {}
 	position = 1
 		provinces_to_highlight = {
 			OR = {
@@ -418,26 +424,61 @@ NEN_expansion_tree = {
 			4540 = { owned_by = ROOT }
 			2639 = { owned_by = ROOT }
 			4622 = { owned_by = ROOT }
-			NYS = {
-				exists = NO
-			}
+			NYS = { exists = no }
 		}
 		effect = {
 		hudson_valley_area = { add_permanent_claim = ROOT }
 		niagara_area = { add_permanent_claim = ROOT }
 		iroquoisia_area = { add_permanent_claim = ROOT }
-		
+		delmarva_area = { add_permanent_claim = ROOT }
 		#add_country_event = { id = nen_flavour.2 }
 		}
 	}
 	NEN_southern_expansion = {
+		icon = 
+		required_missions = {NEN_sack_of_gotham}
+		position = 2
 		
+		trigger = {
+			delaware_valley_area = {owned_by = ROOT}
+			
+		}
+		effect = {
+			maryland_area = { add_permanent_claim = ROOT }
+		}
 	}
 	NEN_antiquarian_eclipse = {
+		icon = 
+		required_missions = {NEN_southern_expansion}
+		position = 3
 		
+		trigger = {
+		
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_twilight_of_the_antiquarian
+				duration = 9125
+			}
+		}
 	}
 	NEN_an_atlantic_empire = {
+		icon = mission_empire
+		required_missions = {NEN_antiquarian_eclipse NEN_appalachian_conquest}
+		position = 4
 		
+		provinces_to_highlight = {
+			region = atlantica_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			atlantica_region = { owned_by = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				
+			}
+		}
 	}
 }
 NEN_expansion_tree_2 = {
@@ -449,9 +490,42 @@ NEN_expansion_tree_2 = {
 	}
 	has_country_shield = yes
 	NEN_western_expedition = {
+		icon =
+		required_missions = {NEN_sack_of_gotham}
 		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 965
+				province_id = 4539
+				province_id = 4540
+				province_id = 2639
+				province_id = 4622
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+	}
+		trigger = {
+			hudson_valley_area = { owned_by = ROOT }
+			niagara_area = { owned_by = ROOT }
+			iroquoisia_area = { owned_by = ROOT }
+			HUD = { exists = no }
+		}
+		effect = {
+			
+		}
 	}
 	NEN_appalachian_conquest = {
-	
+		icon = 
+		required_missions = {NEN_western_expedition}
+		position = 3
+		
+		trigger = {
+			
+		}
+		effect = {
+			
+		}
 	}
 }

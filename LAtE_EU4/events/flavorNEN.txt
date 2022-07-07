@@ -68,4 +68,14 @@ country_event = {
 		}
 	}
 }
-
+country_event = {
+	id = flavor_NEN.2
+	title = "flavor_NEN.2.TITLE"
+	desc = "flavor_NEN.2.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of NEN_sack_of_gotham mission as NEN
+	
+}
