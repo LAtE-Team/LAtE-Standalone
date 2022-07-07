@@ -377,7 +377,7 @@ DEI_missions_2.1 = {
     }
 
     DEI_mission_take_half = {
-        icon = mission_unite_home_region
+        icon = mission_conquer_50_development
 		required_missions = {
 			DEI_mission_prepare_unification
 		}
@@ -563,7 +563,7 @@ DEI_missions_3.1 = {
     }
     
     DEI_mission_improve_capital = {
-        icon = mission_unite_home_region
+        icon = mission_colonial
         position = 1
 
 		provinces_to_highlight = {
@@ -612,7 +612,7 @@ DEI_missions_4.1 = {
     }
     
     DEI_mission_stab_up = {
-        icon = mission_unite_home_region
+        icon = mission_monarch_in_throne_room
         position = 1
 
         trigger = {
@@ -637,7 +637,7 @@ DEI_missions_4.1 = {
     }
 
 	DEI_mission_advisors = {
-        icon = mission_unite_home_region
+        icon = mission_alliances
 		required_missions = {
 			DEI_mission_stab_up
 		}
@@ -719,7 +719,7 @@ DEI_missions_2.2 = {
     }
     
     DEI_mission_unify_deitscherei = {
-        icon = mission_unite_home_region
+        icon = mission_italian_condottiere
         position = 3
 		required_missions = {
 			DEI_mission_take_half
@@ -757,7 +757,7 @@ DEI_missions_2.2 = {
     }
 
     DEI_mission_take_allegheny = {
-        icon = mission_unite_home_region
+        icon = consolidate_the_stadholders
 		required_missions = {
 			DEI_mission_unify_deitscherei
 		}
@@ -807,7 +807,7 @@ DEI_missions_3.2 = {
     }
     
     DEI_mission_workshops = {
-        icon = mission_unite_home_region
+        icon = mission_early_game_buildings
         position = 3
 		required_missions = {
 			DEI_mission_improve_capital
@@ -844,7 +844,7 @@ DEI_missions_3.2 = {
     }
 
     DEI_mission_improve_deitscherei = {
-        icon = mission_unite_home_region
+        icon = mission_rb_import_potatoes
 		required_missions = {
 			DEI_mission_workshops
 			DEI_mission_unify_deitscherei
@@ -944,7 +944,7 @@ DEI_missions_4.2 = {
     }
     
     DEI_mission_embrace_renaissance = {
-        icon = mission_unite_home_region
+        icon = continue_the_renaissance
         position = 3
 		required_missions = {
 			DEI_mission_advisors
@@ -963,7 +963,7 @@ DEI_missions_4.2 = {
     }
 
 	DEI_mission_courthouses = {
-        icon = mission_unite_home_region
+        icon = join_the_reformation
 		required_missions = {
 			DEI_mission_embrace_renaissance
 		}
