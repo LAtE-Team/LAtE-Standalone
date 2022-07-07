@@ -288,7 +288,7 @@ DEI_missions_1.1 = {
     }
     
     DEI_mission_drill = {
-        icon = mission_unite_home_region
+        icon = mission_assemble_an_army
         position = 2
 		required_missions = {
 			DEI_mission_prepare_unification
@@ -683,7 +683,7 @@ DEI_missions_1.2 = {
     }
     
     DEI_mission_cannons = {
-        icon = mission_unite_home_region
+        icon = mission_cannons_firing
         position = 3
 		required_missions = {
 			DEI_mission_drill
@@ -1019,7 +1019,7 @@ AGH_missions_1 = {
     }
 
     AGH_mission_drill = {
-        icon = mission_unite_home_region
+        icon = mission_assemble_an_army
         position = 2
 		required_missions = {
 			AGH_mission_grow_army
@@ -1038,7 +1038,7 @@ AGH_missions_1 = {
     }
 
     AGH_mission_cannons = {
-        icon = mission_unite_home_region
+        icon = mission_cannons_firing
 		required_missions = {
 			AGH_mission_drill
 		}
@@ -1056,7 +1056,7 @@ AGH_missions_1 = {
     }
 
 	AGH_mission_retake_niagara = {
-        icon = mission_unite_home_region
+        icon = mission_impaled_soldies
 		required_missions = {
 			AGH_mission_cannons
 		}
@@ -1119,7 +1119,7 @@ AGH_missions_2 = {
     }
 
     AGH_mission_take_susquehanna = {
-        icon = mission_unite_home_region
+        icon = mission_conquer_50_development
 		required_missions = {
 			AGH_mission_grow_army
 		}
@@ -1154,7 +1154,7 @@ AGH_missions_2 = {
     }
 
 	AGH_mission_take_delaware = {
-        icon = mission_unite_home_region
+        icon = consolidate_the_stadholders
         position = 3
 		required_missions = {
 			AGH_mission_take_susquehanna
@@ -1247,7 +1247,7 @@ AGH_missions_3 = {
     }
     
     AGH_mission_improve_capital = {
-        icon = mission_unite_home_region
+        icon = mission_colonial
         position = 1
 
 		provinces_to_highlight = {
@@ -1273,7 +1273,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_improve_pittsburgh = {
-        icon = mission_unite_home_region
+        icon = develop_the_po_valley
 		required_missions = {
 			AGH_mission_improve_capital
 		}
@@ -1301,7 +1301,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_develop_rust = {
-        icon = mission_unite_home_region
+        icon = mission_rb_import_potatoes
 		required_missions = {
 			AGH_mission_improve_pittsburgh
 		}
@@ -1468,7 +1468,7 @@ AGH_missions_4 = {
     }
 
 	AGH_mission_transallegheny = {
-        icon = mission_religious
+        icon = mission_have_two_subjects
 		required_missions = {
 			AGH_mission_alliances
 		}
@@ -1514,7 +1514,7 @@ AGH_missions_4 = {
     }
     
     AGH_mission_embrace_renaissance = {
-        icon = mission_unite_home_region
+        icon = continue_the_renaissance
 
         trigger = {
 			has_institution = renaissance
@@ -1529,7 +1529,7 @@ AGH_missions_4 = {
     }
 
 	AGH_mission_workshops = {
-        icon = mission_unite_home_region
+        icon = mission_early_game_buildings
 		required_missions = {
 			AGH_mission_develop_rust
 			AGH_mission_embrace_renaissance
