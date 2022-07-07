@@ -10,7 +10,7 @@ Maritime_Kingdom_missions_1 = {
     # Remember to include mission new_brunswick in 2nd sequence!!!
 
     maritimes_naval_buildup = {
-		icon = mission_alliances
+		icon = mission_rb_a_mighty_fleet
 		required_missions = { maritimes_nova_scotia }
 		position = 4
 		trigger = {
@@ -27,7 +27,7 @@ Maritime_Kingdom_missions_1 = {
 		}
 	}
     maritimes_pirate_lessons = {
-        icon = mission_alliances
+        icon = mission_sponsor_piracy
         required_missions = { maritimes_naval_buildup }
         provinces_to_highlight = {
                 area = newfoundland_area
@@ -45,7 +45,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_familiar_horizon = {
-        icon = mission_alliances
+        icon = mission_look_west
         required_missions = { maritimes_pirate_lessons }
         trigger = {
             num_of_explorers = 1
@@ -65,7 +65,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_cold_sunrise = {
-        icon = mission_alliances
+        icon = mission_rb_settle_the_north
         required_missions = { maritimes_familiar_horizon }
         trigger = {
             greenland_area = {
@@ -80,7 +80,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_first_contact = {
-        icon = mission_alliances
+        icon = mission_colonise_brazil
         required_missions = { maritimes_cold_sunrise }
         trigger = {
             has_discovered = 248
@@ -92,7 +92,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_unwelcome_visitors = {
-        icon = mission_alliances
+        icon = mission_expel_the_moriscos
         required_missions = { maritimes_first_contact }
         trigger = {
             248 = {
@@ -109,7 +109,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_a_brave_new_world = {
-        icon = mission_alliances
+        icon = mission_portuguese_interference
         required_missions = { maritimes_unwelcome_visitors }
         trigger = {
             lowlands_area = {
@@ -130,7 +130,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_across_the_strait = {
-        icon = mission_alliances
+        icon = mission_retake_ceuta
         required_missions = { maritimes_a_brave_new_world }
         provinces_to_highlight = {
             area = normandy_area
@@ -152,7 +152,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_arrival_in_bizonia = {
-        icon = mission_alliances
+        icon = claim_the_borderlands
         required_missions = { maritimes_across_the_strait }
         trigger = {
             any_province = {
@@ -170,7 +170,7 @@ Maritime_Kingdom_missions_1 = {
         }
     }
     maritimes_the_far_north = {
-        icon = mission_alliances
+        icon = mission_rb_colonise_canada
         required_missions = { maritimes_arrival_in_bizonia }
         trigger = {
             any_province = {
@@ -195,7 +195,7 @@ Maritime_Kingdom_missions_2 = {
     has_country_shield = yes
 
     maritimes_nova_scotia = {
-        icon = mission_alliances
+        icon = mission_dominate_home_trade_node
         required_missions = { maritimes_small_council }
         position = 3
         provinces_to_highlight = { 
@@ -216,7 +216,7 @@ Maritime_Kingdom_missions_2 = {
         }
     }
     maritimes_encourage_local_artisans = {
-        icon = mission_alliances
+        icon = explore_caribbean
         required_missions = { maritimes_cold_sunrise maritimes_a_new_era }
         position = 8
         trigger = {
@@ -230,7 +230,7 @@ Maritime_Kingdom_missions_2 = {
         }
     }
     maritimes_new_local_faith = {
-        icon = mission_alliances
+        icon = catholic_confraternity
         required_missions = { maritimes_a_brave_new_world maritimes_a_home_for_the_monks }
         position = 11
         trigger = {
@@ -258,7 +258,7 @@ Maritime_Kingdom_missions_2 = {
         }
     }
     maritimes_missionary_fervor = {
-        icon = mission_alliances
+        icon = mission_rb_control_state_religion
         required_missions = { maritimes_new_local_faith }
         trigger = {
             248 = {
@@ -274,7 +274,7 @@ Maritime_Kingdom_missions_2 = {
         }
     }
     maritimes_true_to_the_faith = {
-        icon = mission_alliances
+        icon = mission_rb_weather_the_reformation
         required_missions = { maritimes_missionary_fervor }
         provinces_to_highlight = { region = british_isles_region }
         trigger = {
@@ -305,7 +305,7 @@ Maritime_Kingdom_missions_3 = {
     has_country_shield = yes
 
     maritimes_matters_of_the_realm = {
-        icon = mission_alliances
+        icon = imperial_ascendancy
         trigger = {
             has_estate_privilege = estate_church_independent_inquisition
             has_estate_privilege = estate_burghers_commercial_board_of_advice
@@ -319,7 +319,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_small_council = {
-        icon = mission_alliances
+        icon = all_bases_covered
         required_missions = { maritimes_matters_of_the_realm }
         trigger = {
             AND = {
@@ -351,7 +351,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }    
     maritimes_prince_edward_island = {
-        icon = mission_alliances
+        icon = mission_european_church
         required_missions = { maritimes_small_council }
         provinces_to_highlight = { province_id = 983 }
         trigger = {
@@ -371,7 +371,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_ducal_cooperation = {
-        icon = mission_alliances
+        icon = mission_noble_council
         required_missions = { maritimes_prince_edward_island maritimes_nova_scotia maritimes_st_john }
         trigger = {
             always = yes
@@ -381,7 +381,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_the_fourth_party = {
-        icon = mission_alliances
+        icon = mission_steppe_warriors
         required_missions = { maritimes_ducal_cooperation }
         provinces_to_highlight = { 
             OR = {
@@ -440,7 +440,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_restitutrix = {
-        icon = mission_alliances
+        icon = mission_empire
         required_missions = { maritimes_the_fourth_party }
         trigger = {
             is_year = 3068
@@ -454,7 +454,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_a_new_era = {
-        icon = mission_alliances
+        icon = mission_early_game_buildings
         required_missions = { maritimes_restitutrix }
         trigger = {
             has_institution = renaissance
@@ -467,7 +467,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_request_clerical_counsel = {
-        icon = mission_alliances
+        icon = control_the_church
         required_missions = { maritimes_a_new_era }
         trigger = {
             OR = {
@@ -483,7 +483,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_strengthening_the_faith = {
-        icon = mission_alliances
+        icon = counter_reformation
         required_missions = { maritimes_request_clerical_counsel }
         trigger = {
             temple = 5
@@ -500,7 +500,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_a_home_for_the_monks = {
-        icon = mission_alliances
+        icon = connect_further_austria
         required_missions = { maritimes_strengthening_the_faith }
         provinces_to_highlight = { province_id = 983 }
         trigger = {
@@ -519,7 +519,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_entrench_the_clergy = {
-        icon = mission_alliances
+        icon = defenestrate_the_heretics
         required_missions = { maritimes_a_home_for_the_monks }
         trigger = {
             estate_influence = {
@@ -546,7 +546,7 @@ Maritime_Kingdom_missions_4 = {
     has_country_shield = yes
 
     maritimes_st_john = {
-        icon = mission_alliances
+        icon = friends_in_high_places
         required_missions = {
             maritimes_small_council
         }
@@ -568,7 +568,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_a_multicultural_army = {
-        icon = mission_alliances
+        icon = influence_the_princes
         required_missions = { maritimes_the_fourth_party maritimes_feeding_the_recruits }
         position = 6
         provinces_to_highlight = { 
@@ -604,7 +604,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_southern_brethren = {
-        icon = mission_alliances
+        icon = hungarian_union
         required_missions = {
             maritimes_a_multicultural_army
         }
@@ -627,7 +627,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_into_the_fold = {
-        icon = mission_alliances
+        icon = fortress_of_belgrade
         required_missions = {
             maritimes_southern_brethren
         }
@@ -652,7 +652,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_religious_diplomacy = {
-        icon = mission_alliances
+        icon = hand-picked_bureaucrats
         required_missions = {
             maritimes_request_clerical_counsel
             maritimes_the_nobility_in_government
@@ -668,7 +668,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_religious_might = {
-        icon = mission_alliances
+        icon = evengelize_the_faith
         required_missions = {
             maritimes_religious_diplomacy
         }
@@ -703,7 +703,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_pillar_of_the_faith = {
-        icon = mission_alliances
+        icon = immaculate_government
         required_missions = {
             maritimes_religious_might
         }
@@ -725,7 +725,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_new_heretics = {
-        icon = mission_alliances
+        icon = crush_heretic_strongholds
         required_missions = {
             maritimes_entrench_the_clergy
             maritimes_vae_victis
@@ -754,7 +754,7 @@ Maritime_Kingdom_missions_4 = {
         }
     }
     maritimes_settling_our_differences = {
-        icon = mission_alliances
+        icon = mission_hands_praying
         required_missions = {
             maritimes_new_heretics
         }
@@ -778,7 +778,7 @@ Maritime_Kingdom_missions_5 = {
     has_country_shield = yes
 
     maritimes_military_commitments = {
-        icon = mission_alliances
+        icon = mission_assemble_an_army
         required_missions = {
             maritimes_st_john
         }
@@ -794,7 +794,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_feeding_the_recruits = {
-        icon = mission_alliances
+        icon = mission_colonial
         required_missions = {
             maritimes_military_commitments
         }
@@ -817,7 +817,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_military_heartland = {
-        icon = mission_alliances
+        icon = fortress_switzerland
         required_missions = {
             maritimes_feeding_the_recruits
         }
@@ -840,7 +840,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_the_western_flank = {
-        icon = mission_alliances
+        icon = fight_bosnian_heresies
         required_missions = {
             maritimes_military_heartland
         }
@@ -862,7 +862,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_the_nobility_in_government = {
-        icon = mission_alliances
+        icon = empower_the_junkers
         required_missions = {
             maritimes_the_western_flank
         }
@@ -884,7 +884,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_hostile_relations = {
-        icon = mission_alliances
+        icon = encroach_on_the_germans
         required_missions = {
             maritimes_the_nobility_in_government
         }
@@ -910,7 +910,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_para_bellum = {
-        icon = mission_alliances
+        icon = invade_poland
         required_missions = {
             maritimes_hostile_relations
         }
@@ -931,7 +931,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_vae_victis = {
-        icon = mission_alliances
+        icon = balance_the_estates
         required_missions = {
             maritimes_para_bellum
         }
@@ -964,7 +964,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_take_the_island = {
-        icon = mission_alliances
+        icon = mission_disrupt_portuguese_trade
         required_missions = {
             maritimes_vae_victis
         }
@@ -984,7 +984,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_restore_the_island = {
-        icon = mission_alliances
+        icon = mission_great_trading_houses
         required_missions = {
             maritimes_take_the_island
         }
@@ -1008,7 +1008,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_an_old_enemy = {
-        icon = mission_alliances
+        icon = mission_friends_or_enemies
         required_missions = {
             maritimes_restore_the_island
         }
@@ -1046,7 +1046,7 @@ Maritime_Kingdom_missions_5 = {
         }
     }
     maritimes_tour_de_force = {
-        icon = mission_alliances
+        icon = mission_have_two_subjects
         required_missions = {
             maritimes_an_old_enemy
         }
