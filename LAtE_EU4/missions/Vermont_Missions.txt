@@ -102,8 +102,14 @@ VER_reconquest_of_new_england = {
 			}
 		}
 		trigger = {
-			massachusetts_bay_area = {owned_by = ROOT}
-			new_hampshire_area = {owned_by = ROOT}
+			massachusetts_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			new_hampshire_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			RED = { exists = no }
 		}
 		effect ={
@@ -123,15 +129,18 @@ VER_reconquest_of_new_england = {
 		provinces_to_highlight = {
 			OR = {
 				area = maine_area
-				area = aroostook_area
+				province_id = 4545
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
 			}
 		}
 		trigger = {
-			maine_area = {owned_by = ROOT}
-			aroostook_area = {owned_by = ROOT}
+			maine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4545 = {owned_by = ROOT}
 			MNE = { exists = no }
 		}
 		effect ={
@@ -141,8 +150,5 @@ VER_reconquest_of_new_england = {
 			}
 			gotham_area = { add_permanent_claim = ROOT}
 			delaware_valley_area = { add_permanent_claim = ROOT } 
-			hidden_effect = {
-				set_country_flag = nen_ursuline_dominance
-			}
 		}
 }

@@ -96,8 +96,14 @@ MNE_reconquest_of_new_england = {
 			}
 		}
 		trigger = {
-			massachusetts_bay_area = {owned_by = ROOT}
-			new_hampshire_area = {owned_by = ROOT}
+			massachusetts_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			new_hampshire_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			RED = { exists = no }
 		}
 		effect ={
@@ -124,20 +130,22 @@ MNE_reconquest_of_new_england = {
 			}
 		}
 		trigger = {
-			vermont_area = {owned_by = ROOT}
-			connecticut_valley_area = {owned_by = ROOT}
+			vermont_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4542 = {owned_by = ROOT}
+			966 = {owned_by = ROOT}
+			2010 = {owned_by = ROOT}
 			VER = { exists = no }
 		}
-		effect ={
+		effect = {
 			add_country_modifier = {
 				name = "nen_yankee_unification"
 				duration = 9125 #25 years
 			}
 			gotham_area = { add_permanent_claim = ROOT}
 			delaware_valley_area = { add_permanent_claim = ROOT }
-			hidden_effect = {
-				set_country_flag = nen_anglican_dominance
-			}
 		}
 	}
 }

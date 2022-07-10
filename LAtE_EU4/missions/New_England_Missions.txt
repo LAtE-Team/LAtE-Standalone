@@ -1,3 +1,202 @@
+NEN_expansion_tree = {
+	slot = 1
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_sack_of_gotham = {
+		icon = 
+		required_missions = {}
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 965
+				province_id = 4539
+				province_id = 4540
+				province_id = 2639
+				province_id = 4622
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			2560 = { owned_by = ROOT }
+			965 = { owned_by = ROOT }
+			4539 = { owned_by = ROOT }
+			4540 = { owned_by = ROOT }
+			2639 = { owned_by = ROOT }
+			4622 = { owned_by = ROOT }
+			NYS = { exists = no }
+		}
+		effect = {
+		hudson_valley_area = { add_permanent_claim = ROOT }
+		niagara_area = { add_permanent_claim = ROOT }
+		iroquoisia_area = { add_permanent_claim = ROOT }
+		delmarva_area = { add_permanent_claim = ROOT }
+		add_country_event = { id = flavor_NEN.2 }
+		}
+	}
+	NEN_southern_expansion = {
+		icon = 
+		required_missions = {NEN_sack_of_gotham}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = delaware_valley_area
+				area = delmarva_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			delaware_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			delmarva_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			maryland_area = { add_permanent_claim = ROOT }
+			the_sidelings_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_antiquarian_eclipse = {
+		icon = 
+		required_missions = {NEN_southern_expansion}
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = maryland_area
+				area = the_sidelings_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			maryland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			the_sidelings_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_twilight_of_the_antiquarian
+				duration = 9125
+			}
+		}
+	}
+	NEN_an_atlantic_empire = {
+		icon = mission_empire
+		required_missions = {NEN_antiquarian_eclipse NEN_appalachian_conquest}
+		position = 4
+		
+		provinces_to_highlight = {
+			region = atlantica_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			atlantica_region = { owned_by = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = atlantic_imperialism
+				duration = 9125
+			}
+			nova_area = { add_permanent_claim = ROOT }
+		}
+	}
+}
+NEN_expansion_tree_2 = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_western_expedition = {
+		icon = 
+		required_missions = {NEN_sack_of_gotham}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = hudson_valley_area
+				area = niagara_area
+				area = iroquoisia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			hudson_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			niagara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			iroquoisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			HUD = { exists = no }
+		}
+		effect = {
+			susquehanna_area = { add_permanent_claim = ROOT }
+			actual_susquehanna_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_susquehannan_conquest = {
+		icon = 
+		required_missions = {NEN_western_expedition}
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = susquehanna_area
+				area = actual_susquehanna_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			actual_susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			cleveland_area = { add_permanent_claim = ROOT }
+			ohio_country_area = { add_permanent_claim = ROOT }
+			indiana_area = { add_permanent_claim = ROOT }
+			appalachia_area = { add_permanent_claim = ROOT }
+			south_appalachia_area = { add_permanent_claim = ROOT }
+			east_tennessee_area = { add_permanent_claim = ROOT }
+		}
+	}
+}
 NEN_stabilizing_the_realm = {
 	slot = 3
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
@@ -12,7 +211,16 @@ NEN_stabilizing_the_realm = {
 		position = 1
 		
 		position_to_highlight = {
-			region = atlantica_region
+			OR {
+				province_id = 4542
+				province_id = 966
+				province_id = 2010
+				province_id = 294
+				area = vermont_area
+				area = massachusetts_bay_area
+				area = new_hampshire_area
+				area = maine_area
+			}
 			OR = {
 				NOT = {
 					religion = ROOT
@@ -21,19 +229,43 @@ NEN_stabilizing_the_realm = {
 			}
 		}
 		trigger = {
-			region = atlantica_region
-			OR = {
+			4542 = {
 				religion = ROOT
 				culture = ROOT
-				}
 			}
+			966 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			2010 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			294 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			vermont_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+			massachusetts_bay_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+			new_hampshire_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+			
+		}
 		effect = {
 			set_capital = 968
 		}
 	}
 
 	NEN_develop_boston_port = {
-		icon = mission_develop_the_capital
+		icon = mission_hanseatic_city
 		required_missions = {NEN_finalize_the_pacification}
 		position = 2
 		
@@ -80,7 +312,7 @@ NEN_stabilizing_the_realm = {
 		}
 	}
 	NEN_restore_northern_ivy = {
-		icon = florentine_renaissance
+		icon = mission_develop_the_capital
 		required_missions = {NEN_new_englander_armada}
 		position = 4
 		provinces_to_highlight = {
@@ -189,14 +421,14 @@ NEN_ursuline_relation = {
 	potential = {
 		tag = NEN
 		was_tag = VER
-		has_country_flag = nen_ursuline_dominance
-		}
+	}
 	NEN_befriend_the_order = {
 		icon = mission_alliances
 		required_missions = {}
 		position = 1
 		trigger = {
-			has_country_flag = nen_ursuline_dominance
+			was_tag = VER
+			religion = ursuline
 			if = {
 				OR = {
 					AND = {
@@ -266,7 +498,7 @@ NEN_ursuline_relation = {
 		}
 	}
 	NEN_destroy_the_maritimers = {
-		icon = mission_crusade_for_varna
+		icon = mission_cannons_firing
 		required_missions = {NEN_northern_expansion}
 		position = 4
 		provinces_to_highlight = {
@@ -283,17 +515,29 @@ NEN_ursuline_relation = {
 		}
 		
 		trigger = {
-			restigouche_area = {owned_by = ROOT}
-			upper_acadia_area = {owned_by = ROOT}
-			cape_breton_area = {owned_by = ROOT}
-			nova_scotia_area = {owned_by = ROOT}
+			restigouche_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_acadia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cape_breton_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nova_scotia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			newfoundland_area = { add_permanent_claim = ROOT }
 		}
 	}
 	NEN_conquer_newfoundland = {
-		icon = mission_crusade_for_varna
+		icon = mission_unite_home_region
 		required_missions = {NEN_destroy_the_maritimers}
 		position = 5
 		provinces_to_highlight = {
@@ -320,9 +564,7 @@ NEN_anglican_relation = {
 	potential = {
 		tag = NEN
 		was_tag = MNE
-		has_country_flag = nen_anglican_dominance
 	}
-
 	NEN_purchase_of_aroostook = {
 		icon = mission_alliances
 		required_missions = {}
@@ -337,7 +579,8 @@ NEN_anglican_relation = {
 			}
 		}
 		trigger = {
-			has_country_flag = nen_anglican_dominance
+			was_tag = MNE
+			religion = anglican
 			treasury = 500
 			MRT = {
 				religion = anglican
@@ -348,7 +591,11 @@ NEN_anglican_relation = {
 			}
 		}
 		effect = {
-			#add_country_event = { id = flavor_NEN.1 }
+			add_country_event = { id = flavor_NEN.1 }
+			notre_dame_mountains_area = { add_permanent_claim = ROOT }
+			lower_canada_area = { add_permanent_claim = ROOT }
+			laurentian_area = { add_permanent_claim = ROOT }
+			algonquin_area = { add_permanent_claim = ROOT }
 		}
 	}
 	NEN_conquest_of_quebec = {
@@ -361,6 +608,7 @@ NEN_anglican_relation = {
 				area = notre_dame_mountains_area
 				area = lower_canada_area
 				area = laurentian_area
+				area = algonquin_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -368,164 +616,133 @@ NEN_anglican_relation = {
 		}
 		
 		trigger = {
-			notre_dame_mountains_area = {owned_by = ROOT}
-			lower_canada_area = {owned_by = ROOT}
-			laurentian_area = {owned_by = ROOT}
+			notre_dame_mountains_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_canada_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			laurentian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			algonquin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			ONT ={
 				is_lesser_in_union = no
 			}
 		}
 		effect = {
-			 = { add_permanent_claim = ROOT}
+			stadacona_area = { add_permanent_claim = ROOT }
+			cote_nord_area = { add_permanent_claim = ROOT }
+			shield_area = { add_permanent_claim = ROOT }
+			eeyou_istchee_area = { add_permanent_claim = ROOT }
 		}
 	}
 	NEN_vanquish_the_ordinate = {
 		icon = mission_alliances
-		required_missions = {}
+		required_missions = {NEN_conquest_of_quebec}
 		position = 3
-		trigger ={}
+		provinces_to_highlight = {
+			OR = {
+				area = stadacona_area
+				area = cote_nord_area
+				area = shield_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			stadacona_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cote_nord_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shield_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			north_cote_nord_area = { add_permanent_claim = ROOT }
+			labrador_area = { add_permanent_claim = ROOT }
+			ungava_area = { add_permanent_claim = ROOT }
+			nord_du_quebec_area = { add_permanent_claim = ROOT }
+			saguenay_area = { add_permanent_claim = ROOT }
+			east_james_bay_area = { add_permanent_claim = ROOT }
+			eeyou_istchee_area = { add_permanent_claim = ROOT}
+		}
+	}
+	NEN_arctic_conquest = {
+		icon = mission_alliances
+		required_missions = {NEN_conquest_of_quebec}
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = eeyou_istchee_area
+			}
+		}
+		trigger = {
+			eeyou_istchee_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_cote_nord_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			labrador_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ungava_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nord_du_quebec_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_james_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			hudson_bay_region = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_hudson_bay_crusade = {
+		icon = mission_alliances
+		required_missions = {NEN_conquest_of_quebec}
+		position = 4
+		
+		provinces_to_highlight = {
+			region = hudson_bay_region
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			hudson_bay_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
 		effect = {
 			add_country_modifier = {
 				name = anglican_triumphant
 				duration = 9125
 			}
-		}
-	}
-}
-NEN_expansion_tree = {
-	slot = 1
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = yes
-	potential = {
-		tag = NEN
-	}
-	has_country_shield = yes
-	NEN_sack_of_gotham = {
-	icon =
-	required_missions = {}
-	position = 1
-		provinces_to_highlight = {
-			OR = {
-				province_id = 2560
-				province_id = 965
-				province_id = 4539
-				province_id = 4540
-				province_id = 2639
-				province_id = 4622
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-			}
-	}
-		trigger = {
-			2560 = { owned_by = ROOT }
-			965 = { owned_by = ROOT }
-			4539 = { owned_by = ROOT }
-			4540 = { owned_by = ROOT }
-			2639 = { owned_by = ROOT }
-			4622 = { owned_by = ROOT }
-			NYS = { exists = no }
-		}
-		effect = {
-		hudson_valley_area = { add_permanent_claim = ROOT }
-		niagara_area = { add_permanent_claim = ROOT }
-		iroquoisia_area = { add_permanent_claim = ROOT }
-		delmarva_area = { add_permanent_claim = ROOT }
-		#add_country_event = { id = nen_flavour.2 }
-		}
-	}
-	NEN_southern_expansion = {
-		icon = 
-		required_missions = {NEN_sack_of_gotham}
-		position = 2
-		
-		trigger = {
-			delaware_valley_area = {owned_by = ROOT}
-			
-		}
-		effect = {
-			maryland_area = { add_permanent_claim = ROOT }
-		}
-	}
-	NEN_antiquarian_eclipse = {
-		icon = 
-		required_missions = {NEN_southern_expansion}
-		position = 3
-		
-		trigger = {
-		
-		}
-		effect = {
-			add_country_modifier = {
-				name = nen_twilight_of_the_antiquarian
-				duration = 9125
-			}
-		}
-	}
-	NEN_an_atlantic_empire = {
-		icon = mission_empire
-		required_missions = {NEN_antiquarian_eclipse NEN_appalachian_conquest}
-		position = 4
-		
-		provinces_to_highlight = {
-			region = atlantica_region
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			atlantica_region = { owned_by = ROOT }
-		}
-		effect = {
-			add_country_modifier = {
-				
-			}
-		}
-	}
-}
-NEN_expansion_tree_2 = {
-	slot = 2
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = yes
-	potential = {
-		tag = NEN
-	}
-	has_country_shield = yes
-	NEN_western_expedition = {
-		icon =
-		required_missions = {NEN_sack_of_gotham}
-		position = 2
-		provinces_to_highlight = {
-			OR = {
-				province_id = 2560
-				province_id = 965
-				province_id = 4539
-				province_id = 4540
-				province_id = 2639
-				province_id = 4622
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-			}
-	}
-		trigger = {
-			hudson_valley_area = { owned_by = ROOT }
-			niagara_area = { owned_by = ROOT }
-			iroquoisia_area = { owned_by = ROOT }
-			HUD = { exists = no }
-		}
-		effect = {
-			
-		}
-	}
-	NEN_appalachian_conquest = {
-		icon = 
-		required_missions = {NEN_western_expedition}
-		position = 3
-		
-		trigger = {
-			
-		}
-		effect = {
-			
 		}
 	}
 }

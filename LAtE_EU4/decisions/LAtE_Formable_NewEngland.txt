@@ -40,6 +40,7 @@ country_decisions = {
 				province_id = 967			# Rhode Island
 				province_id = 971			# Penobscott
 				province_id = 2561			# Plymouth
+				province_id = 4545			# Skowhegan
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -58,6 +59,7 @@ country_decisions = {
 			owns_core_province = 967			# Rhode Island
 			owns_core_province = 971			# Penobscott
 			owns_core_province = 2561			# Plymouth
+			owns_core_province = 4545			# Skowhegan
 		}
 		effect = {
 			change_tag = NEN
