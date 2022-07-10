@@ -23,6 +23,7 @@ country_event = {
 					}
 					add_core = NEN
 					change_controller = NEN
+					remove_core = MRT
 				}
 			}
 			2567 = {
@@ -35,6 +36,7 @@ country_event = {
 					}
 					add_core = NEN
 					change_controller = NEN
+					remove_core = MRT
 				}
 			}
 		treasury = -500
@@ -69,7 +71,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = flavor_NEN.2
+	id = flavor_NEN.2 #This is where we burn Manhattan to the ground
 	title = "flavor_NEN.2.TITLE"
 	desc = "flavor_NEN.2.DESC"
 	picture = COURT_eventPicture
@@ -77,5 +79,18 @@ country_event = {
 	fire_only_once = yes
 	
 	is_triggered_only = yes	#Triggered on completion of NEN_sack_of_gotham mission as NEN
-	
+	option = {	#Burn Manhattan to the ground
+		name = "flavor_NEN.2.a"
+		ai_chance = { factor = 1 }
+		ROOT = {
+			965 = {
+				add_devastation = 10
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+			}
+			treasury = 500
+			}
+		}
+	}
 }
