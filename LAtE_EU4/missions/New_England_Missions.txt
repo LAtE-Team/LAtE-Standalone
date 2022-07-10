@@ -7,8 +7,6 @@ NEN_expansion_tree = {
 	}
 	has_country_shield = yes
 	NEN_sack_of_gotham = {
-		icon = 
-		required_missions = {}
 		position = 1
 		provinces_to_highlight = {
 			OR = {
@@ -33,15 +31,14 @@ NEN_expansion_tree = {
 			NYS = { exists = no }
 		}
 		effect = {
-		hudson_valley_area = { add_permanent_claim = ROOT }
-		niagara_area = { add_permanent_claim = ROOT }
-		iroquoisia_area = { add_permanent_claim = ROOT }
-		delmarva_area = { add_permanent_claim = ROOT }
-		add_country_event = { id = flavor_NEN.2 }
+			hudson_valley_area = { add_permanent_claim = ROOT }
+			niagara_area = { add_permanent_claim = ROOT }
+			iroquoisia_area = { add_permanent_claim = ROOT }
+			delmarva_area = { add_permanent_claim = ROOT }
+			country_event = { id = flavor_NEN.2 }
 		}
 	}
 	NEN_southern_expansion = {
-		icon = 
 		required_missions = {NEN_sack_of_gotham}
 		position = 2
 		provinces_to_highlight = {
@@ -70,7 +67,6 @@ NEN_expansion_tree = {
 		}
 	}
 	NEN_antiquarian_eclipse = {
-		icon = 
 		required_missions = {NEN_southern_expansion}
 		position = 3
 		
@@ -130,7 +126,6 @@ NEN_expansion_tree_2 = {
 	}
 	has_country_shield = yes
 	NEN_western_expedition = {
-		icon = 
 		required_missions = {NEN_sack_of_gotham}
 		position = 2
 		provinces_to_highlight = {
@@ -164,7 +159,6 @@ NEN_expansion_tree_2 = {
 		}
 	}
 	NEN_susquehannan_conquest = {
-		icon = 
 		required_missions = {NEN_western_expedition}
 		position = 3
 		
@@ -190,7 +184,7 @@ NEN_expansion_tree_2 = {
 		effect = {
 			cleveland_area = { add_permanent_claim = ROOT }
 			ohio_country_area = { add_permanent_claim = ROOT }
-			indiana_area = { add_permanent_claim = ROOT }
+			miami_river_area = { add_permanent_claim = ROOT }
 			appalachia_area = { add_permanent_claim = ROOT }
 			south_appalachia_area = { add_permanent_claim = ROOT }
 			east_tennessee_area = { add_permanent_claim = ROOT }
@@ -210,8 +204,8 @@ NEN_stabilizing_the_realm = {
 		required_missions = {}
 		position = 1
 		
-		position_to_highlight = {
-			OR {
+		provinces_to_highlight = {
+			OR = {
 				province_id = 4542
 				province_id = 966
 				province_id = 2010
@@ -270,10 +264,11 @@ NEN_stabilizing_the_realm = {
 		position = 2
 		
 		trigger = {
-		968 = {
-			AND = {
-				has_building = marketplace
-				has_building = dock
+			968 = {
+				AND = {
+					has_building = marketplace
+					has_building = dock
+				}
 			}
 		}
 		effect = {
@@ -292,16 +287,16 @@ NEN_stabilizing_the_realm = {
 		provinces_to_highlight = {
 			region = atlantica_region
 			OR = {
-				trade_good = naval_supplies
-				NOT = { has_building = manufactories }
+				trade_goods = naval_supplies
+				has_manufactory_trigger = no
 			}
 		}
 		
 		trigger = {
-			region = atlantica_region
-			OR = {
-				trade_good = naval_supplies
-				NOT = { has_building = manufactories }
+			all_owned_province = {
+				region = atlantica_region
+				trade_goods = naval_supplies
+				has_manufactory_trigger = yes
 			}
 		}
 		effect = {
@@ -420,33 +415,34 @@ NEN_ursuline_relation = {
 	ai = yes
 	potential = {
 		tag = NEN
-		was_tag = VER
+		OR = {
+			was_tag = VER
+			religion = ursuline
+		}
+		NOT = { was_tag = MNE }
 	}
 	NEN_befriend_the_order = {
 		icon = mission_alliances
 		required_missions = {}
 		position = 1
 		trigger = {
-			was_tag = VER
 			religion = ursuline
-			if = {
-				OR = {
-					AND = {
-						exists = URS
-						URS = {
-							has_opinion = {
-								who = ROOT
-								value = 150
-							}
+			OR = {
+				AND = {
+					exists = URS
+					URS = {
+						has_opinion = {
+							who = ROOT
+							value = 150
 						}
 					}
-					AND = {
-						NOT = { exists = URS }
-						QUE = {
-							has_opinion = {
-								who = ROOT
-								value = 175
-							}
+				}
+				AND = {
+					NOT = { exists = URS }
+					QUE = {
+						has_opinion = {
+							who = ROOT
+							value = 175
 						}
 					}
 				}
@@ -455,11 +451,11 @@ NEN_ursuline_relation = {
 		effect = {
 			if = {
 				limit = { exists = URS }
-					add_trust = {
-						who = ENG
-						value = 30
-						mutual = yes
-					}
+				add_trust = {
+					who = URS
+					value = 30
+					mutual = yes
+				}
 			}
 			else = {
 				QUE = { 
@@ -563,7 +559,11 @@ NEN_anglican_relation = {
 	ai = yes
 	potential = {
 		tag = NEN
-		was_tag = MNE
+		OR = {
+			was_tag = MNE
+			religion = anglican
+		}
+		NOT = { was_tag = VER }
 	}
 	NEN_purchase_of_aroostook = {
 		icon = mission_alliances
@@ -579,7 +579,6 @@ NEN_anglican_relation = {
 			}
 		}
 		trigger = {
-			was_tag = MNE
 			religion = anglican
 			treasury = 500
 			MRT = {
@@ -591,7 +590,7 @@ NEN_anglican_relation = {
 			}
 		}
 		effect = {
-			add_country_event = { id = flavor_NEN.1 }
+			country_event = { id = flavor_NEN.1 }
 			notre_dame_mountains_area = { add_permanent_claim = ROOT }
 			lower_canada_area = { add_permanent_claim = ROOT }
 			laurentian_area = { add_permanent_claim = ROOT }
@@ -683,7 +682,7 @@ NEN_anglican_relation = {
 	}
 	NEN_arctic_conquest = {
 		icon = mission_alliances
-		required_missions = {NEN_conquest_of_quebec}
+		required_missions = {NEN_vanquish_the_ordinate}
 		position = 4
 		
 		provinces_to_highlight = {
@@ -723,7 +722,7 @@ NEN_anglican_relation = {
 	}
 	NEN_hudson_bay_crusade = {
 		icon = mission_alliances
-		required_missions = {NEN_conquest_of_quebec}
+		required_missions = {NEN_arctic_conquest}
 		position = 4
 		
 		provinces_to_highlight = {
