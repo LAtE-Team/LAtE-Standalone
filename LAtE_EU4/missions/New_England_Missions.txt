@@ -7,6 +7,7 @@ NEN_expansion_tree = {
 	}
 	has_country_shield = yes
 	NEN_sack_of_gotham = {
+		icon = mission_burning_castle
 		position = 1
 		provinces_to_highlight = {
 			OR = {
@@ -39,6 +40,7 @@ NEN_expansion_tree = {
 		}
 	}
 	NEN_southern_expansion = {
+		icon = mission_mounted_battle
 		required_missions = {NEN_sack_of_gotham}
 		position = 2
 		provinces_to_highlight = {
@@ -67,6 +69,7 @@ NEN_expansion_tree = {
 		}
 	}
 	NEN_antiquarian_eclipse = {
+		icon = mission_magnificent_castle
 		required_missions = {NEN_southern_expansion}
 		position = 3
 		
@@ -98,7 +101,7 @@ NEN_expansion_tree = {
 	}
 	NEN_an_atlantic_empire = {
 		icon = mission_empire
-		required_missions = {NEN_antiquarian_eclipse NEN_appalachian_conquest}
+		required_missions = {NEN_antiquarian_eclipse NEN_susquehannan_conquest}
 		position = 4
 		
 		provinces_to_highlight = {
@@ -126,6 +129,7 @@ NEN_expansion_tree_2 = {
 	}
 	has_country_shield = yes
 	NEN_western_expedition = {
+		icon = mission_rb_conquer_wales
 		required_missions = {NEN_sack_of_gotham}
 		position = 2
 		provinces_to_highlight = {
@@ -159,6 +163,7 @@ NEN_expansion_tree_2 = {
 		}
 	}
 	NEN_susquehannan_conquest = {
+		icon = mission_rb_unite_the_clans
 		required_missions = {NEN_western_expedition}
 		position = 3
 		
@@ -209,7 +214,7 @@ NEN_stabilizing_the_realm = {
 				province_id = 4542
 				province_id = 966
 				province_id = 2010
-				province_id = 294
+				province_id = 4545
 				area = vermont_area
 				area = massachusetts_bay_area
 				area = new_hampshire_area
@@ -235,7 +240,7 @@ NEN_stabilizing_the_realm = {
 				religion = ROOT
 				culture = ROOT
 			}
-			294 = {
+			4545 = {
 				religion = ROOT
 				culture = ROOT
 			}
@@ -333,28 +338,24 @@ NEN_stabilizing_the_realm = {
 				add_province_modifier = {
 					name = northern_ivy_restored
 					duration = -1
-					desc = northern_ivy_restored_tooltip
 				}
 			}
 			967 = {
 				add_province_modifier = {
 					name = northern_ivy_restored
 					duration = -1
-					desc = northern_ivy_restored_tooltip
 				}
 			}
 			2564 = {
 				add_province_modifier = {
 					name = northern_ivy_restored
 					duration = -1
-					desc = northern_ivy_restored_tooltip
 				}
 			}
 			2560 = {
 				add_province_modifier = {
 					name = northern_ivy_restored
 					duration = -1
-					desc = northern_ivy_restored_tooltip
 				}
 			}
 		}
@@ -384,21 +385,18 @@ NEN_stabilizing_the_realm = {
 				add_province_modifier = {
 					name = southern_ivy_restored
 					duration = -1
-					desc = southern_ivy_restored_tooltip
 				}
 			}
 			962 = { 
 				add_province_modifier = {
 					name = southern_ivy_restored
 					duration = -1
-					desc = southern_ivy_restored_tooltip
 				}
 			}
 			965 = { 
 				add_province_modifier = {
 					name = southern_ivy_restored
 					duration = -1
-					desc = southern_ivy_restored_tooltip
 				}
 			}
 			add_country_modifier = {
@@ -422,7 +420,7 @@ NEN_ursuline_relation = {
 		NOT = { was_tag = MNE }
 	}
 	NEN_befriend_the_order = {
-		icon = mission_alliances
+		icon = mission_candide_letter
 		required_missions = {}
 		position = 1
 		trigger = {
@@ -471,7 +469,7 @@ NEN_ursuline_relation = {
 	NEN_northern_expansion = {
 		icon = mission_crusade_for_varna
 		required_missions = {NEN_befriend_the_order}
-		position = 3
+		position = 2
 		provinces_to_highlight = {
 			OR = {
 				province_id = 2567
@@ -491,12 +489,13 @@ NEN_ursuline_relation = {
 			upper_acadia_area = { add_permanent_claim = ROOT }
 			cape_breton_area = { add_permanent_claim = ROOT }
 			nova_scotia_area = { add_permanent_claim = ROOT }
+			add_accepted_culture = acadian
 		}
 	}
 	NEN_destroy_the_maritimers = {
 		icon = mission_cannons_firing
 		required_missions = {NEN_northern_expansion}
-		position = 4
+		position = 3
 		provinces_to_highlight = {
 			OR = {
 				area = restigouche_area
@@ -529,26 +528,39 @@ NEN_ursuline_relation = {
 			}
 		}
 		effect = {
-			newfoundland_area = { add_permanent_claim = ROOT }
-		}
-	}
-	NEN_conquer_newfoundland = {
-		icon = mission_unite_home_region
-		required_missions = {NEN_destroy_the_maritimers}
-		position = 5
-		provinces_to_highlight = {
-			area = newfoundland_area
-			OR = {
-				NOT = { owned_by = ROOT }
-			}
-		}
-		trigger = {
-			newfoundland_area = {owned_by = ROOT}
-		}
-		effect = {
 			add_country_modifier = {
 				name = nen_crusaders_fervor
 				duration = 9125 #25 years
+			}
+		}
+	}
+	NEN_convert_the_maritimers = {
+		icon = mission_european_church
+		required_missions = {NEN_destroy_the_maritimers}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = restigouche_area
+				area = upper_acadia_area
+				area = cape_breton_area
+				area = nova_scotia_area
+				
+			}
+			OR = {
+				NOT = { religion = ROOT }
+			}
+		}
+		trigger = {
+			restigouche_area = { religion = ROOT }
+			upper_acadia_area = { religion = ROOT }
+			cape_breton_area = { religion = ROOT }
+			nova_scotia_area = { religion = ROOT }
+		}
+		effect = {
+			add_accepted_culture = maritimer
+			add_country_modifier = {
+				name = ursuline_supremacy
+				duration = 9125
 			}
 		}
 	}
@@ -566,7 +578,7 @@ NEN_anglican_relation = {
 		NOT = { was_tag = VER }
 	}
 	NEN_purchase_of_aroostook = {
-		icon = mission_alliances
+		icon = mission_candide_letter
 		required_missions = {}
 		position = 1
 		provinces_to_highlight = {
@@ -631,26 +643,25 @@ NEN_anglican_relation = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			ONT ={
+			ONT = {
 				is_lesser_in_union = no
 			}
 		}
 		effect = {
 			stadacona_area = { add_permanent_claim = ROOT }
-			cote_nord_area = { add_permanent_claim = ROOT }
 			shield_area = { add_permanent_claim = ROOT }
 			eeyou_istchee_area = { add_permanent_claim = ROOT }
 		}
 	}
 	NEN_vanquish_the_ordinate = {
-		icon = mission_alliances
+		icon = mission_cannons_firing
 		required_missions = {NEN_conquest_of_quebec}
 		position = 3
 		provinces_to_highlight = {
 			OR = {
 				area = stadacona_area
-				area = cote_nord_area
 				area = shield_area
+				area = eeyou_istchee_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -661,78 +672,11 @@ NEN_anglican_relation = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			cote_nord_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			shield_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		}
-		effect = {
-			north_cote_nord_area = { add_permanent_claim = ROOT }
-			labrador_area = { add_permanent_claim = ROOT }
-			ungava_area = { add_permanent_claim = ROOT }
-			nord_du_quebec_area = { add_permanent_claim = ROOT }
-			saguenay_area = { add_permanent_claim = ROOT }
-			east_james_bay_area = { add_permanent_claim = ROOT }
-			eeyou_istchee_area = { add_permanent_claim = ROOT}
-		}
-	}
-	NEN_arctic_conquest = {
-		icon = mission_alliances
-		required_missions = {NEN_vanquish_the_ordinate}
-		position = 4
-		
-		provinces_to_highlight = {
-			OR = {
-				area = eeyou_istchee_area
-			}
-		}
-		trigger = {
 			eeyou_istchee_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			north_cote_nord_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			labrador_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			ungava_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			nord_du_quebec_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			east_james_bay_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			hudson_bay_region = { add_permanent_claim = ROOT }
-		}
-	}
-	NEN_hudson_bay_crusade = {
-		icon = mission_alliances
-		required_missions = {NEN_arctic_conquest}
-		position = 4
-		
-		provinces_to_highlight = {
-			region = hudson_bay_region
-			OR = {
-				NOT = { owned_by = ROOT }
-			}
-		}
-		trigger = {
-			hudson_bay_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -740,6 +684,42 @@ NEN_anglican_relation = {
 		effect = {
 			add_country_modifier = {
 				name = anglican_triumphant
+				duration = 9125
+			}
+		}
+	}
+	NEN_pacify_the_quebecois = {
+		icon = mission_european_church
+		required_missions = {NEN_vanquish_the_ordinate}
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = notre_dame_mountains_area
+				area = lower_canada_area
+				area = laurentian_area
+				area = algonquin_area
+				area = stadacona_area
+				area = shield_area
+				area = eeyou_istchee_area
+			}
+			OR = {
+				NOT = { religion = ROOT }
+			}
+		}
+		trigger = {
+			notre_dame_mountains_area = { religion = ROOT }
+			lower_canada_area = { religion = ROOT }
+			laurentian_area = { religion = ROOT }
+			algonquin_area = { religion = ROOT }
+			stadacona_area = { religion = ROOT }
+			shield_area = { religion = ROOT }
+			eeyou_istchee_area = { religion = ROOT }
+		}
+		effect = {
+			add_accepted_culture = quebecois
+			add_country_modifier = {
+				name = anglican_supremacy
 				duration = 9125
 			}
 		}

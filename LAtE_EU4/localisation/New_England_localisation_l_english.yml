@@ -5,6 +5,14 @@
  nen_yankee_resettlement_desc: "Many Yankees have begun to return to former Redcoats territory to replace the former British subjects living there."
  nen_yankee_unification: "Yankee Unification"
  nen_yankee_unification_desc: "We have successfully unified New England under one banner once again like the Mahonics before us centuries ago. Let us celebrate this victory to the unification of all Yankees under one banner for the first time in centuries!"
+ nen_yankee_armada: "Yankee Armada"
+ nen_yankee_armada_desc: "We have now proven to the world that we reign supreme on the Atlantic coast whenever our armada roams the sea from north to south!"
+ northern_ivy_restored: "Northern Ivy Restored"
+ northern_ivy_restored_desc: "We have restored the Northern branch of the Ivy League schools. These scholars shall help us recover pre-Event knowledges and spread them across the realm."
+ southern_ivy_restored: "Southern Ivy Restored"
+ southern_ivy_restored: "We have restored the Southern branch of the Ivy League schools. These scholars shall help us recover pre-Event knowledges and spread them across the realm."
+ ivy_league_restored: "Ivy League Restored"
+ ivy_league_restored_desc: "With all of the Ivy League schools restored to their former glory, we can now employ the cream of the crop of the academia to our council."
  
  #National Ideas
  NEN_ideas: "New Englander Ideas"
@@ -24,3 +32,34 @@
  nen_shipping_down_to_boston_desc: "Boston Harbor is a well-known port that traditionally serves as the center of trade in New England even before the Event. Let us expand it beyond its former glory to increase our economic influence in the Atlantic."
  nen_crossroads_of_culture: "Crossroads of Culture"
  nen_crossroads_of_culture_desc: "New England serves as a crossroad between the two communities, the Anglophone Yankees and the Francophone Acadians up north of Maine. Regardless of our language, we agree that the one thing we have in common is that we are New Englanders by birth regardless of our mother tongue."
+ 
+#Mission
+ nen_sack_of_gotham_title: "Sack of Gotham"
+ nen_sack_of_gotham_desc: "The perfidious Gothamite once dominates us financially. Let us show them who is the boss by conquering and sacking their capital!"
+ nen_southern_expansion_title: "Southern Expansion"
+ nen_southern_expansion_desc: "Since we have conquered Manhattan, many antiquarians have been wary of our encroachment in their realm. Let us bring the fight them."
+ nen_antiquarian_eclipse_title: "Antiquarian Eclipse"
+ nen_antiquarian_eclipse_desc: "The antiquarians"
+ nen_western_expedition: "Western Expedition"
+ nen_western_expedition_desc: "Hudsonia has been a thorn on our side ever since we lay our eyes on the southern half of the Atlantic Seaboard. Let us wipe them out of the map once and for all!"
+ nen_susquehannan_conquest: "Susquehannan Conquest"
+ nen_susquehanan_conquest_desc: ""
+ nen_an_atlantic_empire_title: "An Atlantic Empire"
+ nen_an_atlantic_empire_desc: "With all of the Atlantic Seaboard under our control, let us celebrate our hegemony as the lord of the Atlantic."
+ nen_befriend_the_order_title: "Befriend the Order"
+ nen_befriend_the_order_desc: "Since we are know a kingdom in our own rights, let us court the Ursuline Order to prove our legitimacy as the bulwark of Christianity."
+ nen_northern_expansion_title: "Northern Expansion"
+ nen_northern_expansion_desc: "Aroostook was our territory under the Mahonics before the kingdom collapsed. Let us retake it by force from the Maritimers, and reunite all of New England under our control once again!"
+ nen_destroy_the_maritimers_title: "Destroy the Maritimers"
+ nen_destroy_the_maritimers_desc: "We cannot let the Maritimers."
+ nen_convert_the_maritimers_title: "Convert the Maritimers"
+ nen_convert_the_maritimers_desc: ""
+ nen_purchase_of_aroostook_title: "Purchase of Aroostook"
+ nen_purchase_of_aroostook_desc:
+ nen_conquest_of_quebec_title: "Conquest of Québec"
+ nen_conquest_of_quebec_desc:
+ nen_vanquish_the_ordinate_title: "Vanquish the Ordinate"
+ nen_vanquish_the_ordinate_desc:
+ nen_pacify_the_quebecois_title: "Pacify the Québécois"
+ nen_pacify_the_quebecois_desc:
+ 
