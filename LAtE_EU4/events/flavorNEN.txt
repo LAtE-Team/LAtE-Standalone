@@ -11,7 +11,7 @@ country_event = {
 	is_triggered_only = yes	#Triggered on completion of NEN_purchase_of_aroostook mission as NEN
 	option = {	#Accepts ducats in exchange for land
 		name = "flavor_NEN.1.a"
-		ai_chance = { factor = 0.95}
+		ai_chance = { factor = 1}
 		MRT = {
 			4546 = {
 				if = {
@@ -45,7 +45,7 @@ country_event = {
 	}
 	option = {	#refuse to take offer
 		name = "flavor_NEN.2.b"
-		ai_chance = { factor = 0.05}
+		ai_chance = { factor = 0}
 		4546 = {
 			if = {
 				limit = {
@@ -74,7 +74,7 @@ country_event = {
 	id = flavor_NEN.2 #This is where we burn Manhattan to the ground
 	title = "flavor_NEN.2.TITLE"
 	desc = "flavor_NEN.2.DESC"
-	picture = COURT_eventPicture
+	picture = NOT_DISCIPLINED_SOLDIERS_eventPicture
 	
 	fire_only_once = yes
 	

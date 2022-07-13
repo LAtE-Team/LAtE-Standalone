@@ -113,7 +113,7 @@ NEN_expansion_tree = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = atlantic_imperialism
+				name = nen_atlantic_imperialism
 				duration = 9125
 			}
 			nova_area = { add_permanent_claim = ROOT }
