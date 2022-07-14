@@ -7,7 +7,7 @@ NEN_expansion_tree = {
 	}
 	has_country_shield = yes
 	NEN_sack_of_gotham = {
-		icon = mission_burning_castle
+		icon = boh_humiliate_austria
 		position = 1
 		provinces_to_highlight = {
 			OR = {
@@ -40,7 +40,7 @@ NEN_expansion_tree = {
 		}
 	}
 	NEN_southern_expansion = {
-		icon = mission_mounted_battle
+		icon = league_of_the_public_weal
 		required_missions = {NEN_sack_of_gotham}
 		position = 2
 		provinces_to_highlight = {
@@ -420,7 +420,7 @@ NEN_ursuline_relation = {
 		NOT = { was_tag = MNE }
 	}
 	NEN_befriend_the_order = {
-		icon = mission_candide_letter
+		icon = mission_alliances
 		required_missions = {}
 		position = 1
 		trigger = {
@@ -578,7 +578,7 @@ NEN_anglican_relation = {
 		NOT = { was_tag = VER }
 	}
 	NEN_purchase_of_aroostook = {
-		icon = mission_candide_letter
+		icon = mission_alliances
 		required_missions = {}
 		position = 1
 		provinces_to_highlight = {
