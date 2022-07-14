@@ -489,7 +489,7 @@ NEN_ursuline_relation = {
 			upper_acadia_area = { add_permanent_claim = ROOT }
 			cape_breton_area = { add_permanent_claim = ROOT }
 			nova_scotia_area = { add_permanent_claim = ROOT }
-			add_accepted_culture = acadian
+			add_accepted_culture = acadien
 		}
 	}
 	NEN_destroy_the_maritimers = {
@@ -559,7 +559,7 @@ NEN_ursuline_relation = {
 		effect = {
 			add_accepted_culture = maritimer
 			add_country_modifier = {
-				name = ursuline_supremacy
+				name = nen_ursuline_supremacy
 				duration = 9125
 			}
 		}
@@ -683,7 +683,7 @@ NEN_anglican_relation = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = anglican_triumphant
+				name = nen_anglican_triumphant
 				duration = 9125
 			}
 		}
@@ -719,7 +719,7 @@ NEN_anglican_relation = {
 		effect = {
 			add_accepted_culture = quebecois
 			add_country_modifier = {
-				name = anglican_supremacy
+				name = nen_anglican_supremacy
 				duration = 9125
 			}
 		}

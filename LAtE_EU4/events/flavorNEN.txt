@@ -39,8 +39,8 @@ country_event = {
 					remove_core = MRT
 				}
 			}
-		treasury = -500
-		add_accepted_culture = acadian
+		add_treasury = -500
+		add_accepted_culture = acadien
 		}
 	}
 	option = {	#refuse to take offer
@@ -89,8 +89,7 @@ country_event = {
 				add_base_production = -1
 				add_base_manpower = -1
 			}
-			treasury = 500
-			}
+			add_treasury = 500
 		}
 	}
 }

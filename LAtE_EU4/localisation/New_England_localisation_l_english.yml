@@ -88,7 +88,7 @@
  
  #Events
  flavor_NEN.1.TITLE: "Purchase of Aroostook"
- flavor_NEN.1.DESC: "[Root.NEN.GetName] has offered us a large sum of money in exchange for the Northern provinces of Aroostook. Do we accept this offer or not?"
+ flavor_NEN.1.DESC: "[From.GetName] has offered us a large sum of money in exchange for the Northern provinces of Aroostook. Do we accept this offer or not?"
  flavor_NEN.1.a: "Accept the offer"
  flavor_NEN.1.b: "Decline the offer"
  flavor_NEN.2.TITLE: "Sack of Gotham"
