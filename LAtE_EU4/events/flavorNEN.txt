@@ -39,8 +39,11 @@ country_event = {
 					remove_core = MRT
 				}
 			}
-		add_treasury = -500
-		add_accepted_culture = acadien
+			add_treasury = 500
+		}
+		NEN = {
+			add_treasury = -500
+			add_accepted_culture = acadien
 		}
 	}
 	option = {	#refuse to take offer
