@@ -725,3 +725,37 @@ NEN_anglican_relation = {
 		}
 	}
 }
+#NEN_americanist_relation = {
+	#for converter Americanist game
+	#slot = 4
+	#generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	#ai = yes
+	#potential = {
+		#tag = NEN
+		#OR = { religion = americanist }
+		#OR = {
+			#NOT = {
+				#was_tag = MNE
+				#was_tag = VER
+				#religion = occultist
+				#religion_group = christian
+			}
+		}
+	}
+}
+#NEN_occultist_tree = {
+	#for converter Occultist game
+	#slot = 4
+	#generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	#ai = yes
+	#potential = {
+		#tag = NEN
+		#OR = { #religion = occultist }
+		#NOT = {
+			#was_tag = MNE
+			#was_tag = VER
+			#religion = americanist
+			#religion_group = christian
+		}
+	}
+}
