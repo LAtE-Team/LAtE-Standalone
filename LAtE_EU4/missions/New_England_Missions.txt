@@ -726,7 +726,7 @@ NEN_anglican_relation = {
 	}
 }
 #NEN_generic_new_englander_religion_tree = {
-	#for converter Americanist or Occultist game
+	#for converter game
 	#slot = 4
 	#generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	#ai = yes
