@@ -1,0 +1,72 @@
+maritime_schism_disaster = {
+	potential = {
+		tag = MRT
+	}
+
+	can_start = {
+		has_any_disaster = no
+		NOT = {
+			ruler_age = 18
+		}
+		is_year = 3053
+	}
+
+	can_stop = {
+		is_year = 50000 # Replace with flag for having taken decision to form the maritimes
+	}
+
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = {
+				stability = 1
+			}
+		}
+		modifier = {
+			factor = -0.5
+			stability = 3
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 50
+				}
+			}
+		}
+	}
+
+	can_end = {
+		is_year = 3068
+	}
+
+	modifier = {
+		global_unrest = 4
+		diplomatic_reputation = -10
+	}
+
+	on_start = maritimes_events.1 # Gathering Storm
+	on_end = maritimes_events.2 # Golden Prophesy
+
+	on_monthly = {
+	}
+}
