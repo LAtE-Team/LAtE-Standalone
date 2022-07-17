@@ -64,8 +64,8 @@ maritime_schism_disaster = {
 		diplomatic_reputation = -10
 	}
 
-	on_start = maritimes_events.1 # Gathering Storm
-	on_end = maritimes_events.2 # Golden Prophesy
+	on_start = maritimes_events.4 # Gathering Storm
+	on_end = maritimes_events.5 # A Pleasant Breeze
 
 	on_monthly = {
 	}

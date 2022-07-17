@@ -187,3 +187,22 @@ country_event = {
 		add_prestige = 5
 	}
 }
+
+country_event = {
+	id = maritimes_events.5
+	title = maritimes_events.5.t
+	desc = maritimes_events.5.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = MRT
+	}
+
+	option = {
+		name = maritimes_events.5.a
+		add_prestige = 5
+	}
+}
