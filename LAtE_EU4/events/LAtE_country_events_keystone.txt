@@ -17,6 +17,13 @@ country_event = {
 			}
 			tag = AGH
 		}
+		any_owned_province = {
+			OR = {
+				has_province_modifier = anabaptists_present_large
+				has_province_modifier = anabaptists_present_medium
+				has_province_modifier = anabaptists_present_small
+			}
+		}
 	}
 	
 	option = {
