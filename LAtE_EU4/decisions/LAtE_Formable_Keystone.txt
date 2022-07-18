@@ -100,6 +100,9 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = formed_keystone_flag
+			hidden_effect = {
+				swap_non_generic_missions = yes
+			}
 		}
 		ai_will_do = {
 			factor = 1
