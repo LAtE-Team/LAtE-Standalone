@@ -35,3 +35,6 @@ nen_anglican_supremacy = {
 nen_twilight_of_the_antiquarian = {
 	global_missionary_strength = 0.01
 }
+nen_atlantic_imperialism = {
+	core_creation = -0.20
+}
