@@ -558,6 +558,7 @@ theocracy = {
 				mycelic_dryads_reform
 				graft_state_reform
 				dryadic_society_reform
+				americanist_presidency_reform
 			}
 		}
 		internal_vs_external_mission = {

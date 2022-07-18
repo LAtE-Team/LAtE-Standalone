@@ -1,0 +1,27 @@
+americanist_presidency_reform = {
+	icon = "religious_leader"
+	allow_normal_conversion = yes
+	potential = {
+        religion = americanist
+        OR =  {
+            tag = WDC
+            tag = USA
+        }
+	}
+	lock_level_when_selected = yes
+	valid_for_nation_designer = no
+	modifiers = {
+		vassal_income = 0.25
+		global_unrest = -1
+		max_absolutism = -30
+		governing_capacity = 100
+	}
+
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		is_elective = yes
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
