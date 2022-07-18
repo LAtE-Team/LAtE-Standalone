@@ -16,6 +16,7 @@ country_event = {
 			modifier = { #The Maritimes is under a personal union as a junior partner
 				MRT = {
 					junior_union_under = NEN
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
@@ -104,6 +105,12 @@ country_event = {
 						attitude = attitude_hostile
 					}
 				}
+				OR = {
+					MRT = {
+						junior_union_under = NEN
+						liberty_desire = 50
+					}
+				}
 			}
 		}
 		ai_chance = {
@@ -122,6 +129,7 @@ country_event = {
 			modifier = { #The Maritimes is under a personal union as a junior partner
 				MRT = {
 					junior_union_under = NEN
+					NOT = { liberty_desire = 50 }
 				}
 			}
 		}
