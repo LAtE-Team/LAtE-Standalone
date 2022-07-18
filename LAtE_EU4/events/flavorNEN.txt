@@ -14,7 +14,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = { #The Maritimes is under a personal union as a junior partner
-				MRT = {
+				ROOT = {
 					junior_union_under = NEN
 					NOT = { liberty_desire = 50 }
 				}
@@ -23,7 +23,7 @@ country_event = {
 		ai_chance = {
 			factor = 2
 			modifier = { #The Maritimes is in debt or broke
-				MRT = {
+				ROOT = {
 					OR = {
 						is_in_deficit = yes
 						num_of_loans = 1
@@ -34,7 +34,7 @@ country_event = {
 		ai_chance = 
 			factor = 0.5
 			modifier = {
-				MRT = {
+				ROOT = {
 					
 				}
 			}
@@ -54,38 +54,38 @@ country_event = {
 					}
 				}
 				OR = {
-					MRT = {
+					ROOT = {
 						junior_union_under = NEN
 						liberty_desire = 50
 					}
 				}
 			}
 		}
-		MRT = {
+		ROOT = {
 			4546 = {
 				if = {
 					limit = {
 						NOT = {
-							is_permanent_claim = MRT
-							is_core = MRT
+							is_permanent_claim = ROOT
+							is_core = ROOT
 						}
 					}
 					add_core = NEN
 					change_controller = NEN
-					remove_core = MRT
+					remove_core = ROOT
 				}
 			}
 			2567 = {
 				if = {
 					limit = {
 					NOT = {
-							is_permanent_claim = MRT
-							is_core = MRT
+							is_permanent_claim = ROOT
+							is_core = ROOT
 						}
 					}
 					add_core = NEN
 					change_controller = NEN
-					remove_core = MRT
+					remove_core = ROOT
 				}
 			}
 			add_treasury = 500
@@ -99,7 +99,7 @@ country_event = {
 		name = "flavor_NEN.2.b"
 		ai_chance = {
 			factor = 50
-			modifier = { #MRT hates your gut
+			modifier = { #Aroostook owner hates your gut
 				OR = {
 					FROM = {
 					is_rival = yes
@@ -112,7 +112,7 @@ country_event = {
 					}
 				}
 				OR = {
-					MRT = {
+					ROOT = {
 						junior_union_under = NEN
 						liberty_desire = 50
 					}
@@ -121,8 +121,8 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0.5
-			modifier = { #The Maritimes is in debt or broke
-				MRT = {
+			modifier = { #The AI is in debt or broke
+				ROOT = {
 					OR = {
 						is_in_deficit = yes
 						num_of_loans = 1
@@ -132,8 +132,8 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 0
-			modifier = { #The Maritimes is under a personal union as a junior partner
-				MRT = {
+			modifier = { #The AI is under a personal union as a junior partner
+				ROOT = {
 					junior_union_under = NEN
 					NOT = { liberty_desire = 50 }
 				}
@@ -143,22 +143,22 @@ country_event = {
 			if = {
 				limit = {
 					NOT = {
-						is_permanent_claim = ROOT
-						is_core = ROOT
+						is_permanent_claim = NEN
+						is_core = NEN
 					}
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = NEN
 			}
 		}
 		2567 = {
 			if = {
 				limit = {
 					NOT = {
-						is_permanent_claim = ROOT
-						is_core = ROOT
+						is_permanent_claim = NEN
+						is_core = NEN
 					}
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = NEN
 			}
 		}
 	}

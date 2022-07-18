@@ -593,12 +593,17 @@ NEN_anglican_relation = {
 		trigger = {
 			religion = anglican
 			treasury = 500
-			MRT = {
-				religion = anglican
-				has_opinion = {
-					who = MNE
-					value = 175
+			OR = {
+				MRT = {
+					religion = anglican
+					has_opinion = {
+						who = MNE
+						value = 175
+					}
 				}
+			OR = {
+				MRT = { exists = no }
+			}
 			}
 		}
 		effect = {
