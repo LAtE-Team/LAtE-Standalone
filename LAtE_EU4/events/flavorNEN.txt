@@ -11,7 +11,49 @@ country_event = {
 	is_triggered_only = yes	#Triggered on completion of NEN_purchase_of_aroostook mission as NEN
 	option = {	#Accepts ducats in exchange for land
 		name = "flavor_NEN.1.a"
-		ai_chance = { factor = 1}
+		ai_chance = {
+			factor = 50
+			modifier = { #The Maritimes is under a personal union as a junior partner
+				MRT = {
+					junior_union_under = NEN
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = { #The Maritimes is in debt or broke
+				MRT = {
+					OR = {
+						is_in_deficit = yes
+						num_of_loans = 1
+					}
+				}
+			}
+		}
+		ai_chance = 
+			factor = 0.5
+			modifier = {
+				MRT = {
+					
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0
+			modifier = { #MRT hates your gut
+				OR = {
+					FROM = {
+					is_rival = yes
+					}
+				}
+				OR = {
+					ai_attitude = {
+						who = FROM
+						attitude = attitude_hostile
+					}
+				}
+			}
+		}
 		MRT = {
 			4546 = {
 				if = {
@@ -48,7 +90,41 @@ country_event = {
 	}
 	option = {	#refuse to take offer
 		name = "flavor_NEN.2.b"
-		ai_chance = { factor = 0}
+		ai_chance = {
+			factor = 50
+			modifier = { #MRT hates your gut
+				OR = {
+					FROM = {
+					is_rival = yes
+					}
+				}
+				OR = {
+					ai_attitude = {
+						who = FROM
+						attitude = attitude_hostile
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0.5
+			modifier = { #The Maritimes is in debt or broke
+				MRT = {
+					OR = {
+						is_in_deficit = yes
+						num_of_loans = 1
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0
+			modifier = { #The Maritimes is under a personal union as a junior partner
+				MRT = {
+					junior_union_under = NEN
+				}
+			}
+		}
 		4546 = {
 			if = {
 				limit = {
