@@ -28,6 +28,9 @@ nen_ursuline_supremacy = {
 	global_heretic_missionary_strength = 0.03
 	missionary_maintenance_cost = -0.2
 }
+nen_anglican_triumphant = {
+	global_missionary_strength = 0.01
+}
 nen_anglican_supremacy = {
 	global_heretic_missionary_strength = 0.03
 	missionary_maintenance_cost = -0.2
