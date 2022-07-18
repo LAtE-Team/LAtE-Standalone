@@ -604,6 +604,14 @@ NEN_anglican_relation = {
 			OR = {
 				MRT = { exists = no }
 			}
+			OR = {
+				4546 = {
+					NOT = { owned_by = MRT }
+				}
+				2567 = {
+					NOT = { owned_by = MRT }
+				}
+			}
 			}
 		}
 		effect = {
