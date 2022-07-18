@@ -592,7 +592,7 @@ NEN_anglican_relation = {
 		}
 		trigger = {
 			religion = anglican
-			treasury = 500
+			treasury = 200
 			OR = {
 				MRT = {
 					religion = anglican

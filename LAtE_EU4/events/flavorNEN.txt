@@ -34,14 +34,15 @@ country_event = {
 		ai_chance = 
 			factor = 0.5
 			modifier = {
-				ROOT = {
-					
+				military_strength = {
+					who = FROM
+					value = 2.0
 				}
 			}
 		}
 		ai_chance = {
 			factor = 0
-			modifier = { #MRT hates your gut
+			modifier = { #The AI hates your gut
 				OR = {
 					FROM = {
 					is_rival = yes
@@ -88,10 +89,10 @@ country_event = {
 					remove_core = ROOT
 				}
 			}
-			add_treasury = 500
+			add_treasury = 200
 		}
 		NEN = {
-			add_treasury = -500
+			add_treasury = -200
 			add_accepted_culture = acadien
 		}
 	}
@@ -116,6 +117,15 @@ country_event = {
 						junior_union_under = NEN
 						liberty_desire = 50
 					}
+				}
+			}
+		}
+		ai_chance = 
+			factor = 2
+			modifier = {
+				military_strength = {
+					who = FROM
+					value = 2.0
 				}
 			}
 		}
