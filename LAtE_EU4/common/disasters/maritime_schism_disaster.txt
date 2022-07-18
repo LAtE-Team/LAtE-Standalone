@@ -61,7 +61,6 @@ maritime_schism_disaster = {
 
 	modifier = {
 		global_unrest = 4
-		diplomatic_reputation = -10
 	}
 
 	on_start = maritimes_events.4 # Gathering Storm
