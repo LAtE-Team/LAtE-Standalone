@@ -151,4 +151,5 @@ VER_reconquest_of_new_england = {
 			gotham_area = { add_permanent_claim = ROOT}
 			delaware_valley_area = { add_permanent_claim = ROOT } 
 		}
+	}
 }
