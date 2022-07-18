@@ -53,6 +53,12 @@ country_event = {
 						attitude = attitude_hostile
 					}
 				}
+				OR = {
+					MRT = {
+						junior_union_under = NEN
+						liberty_desire = 50
+					}
+				}
 			}
 		}
 		MRT = {
