@@ -210,6 +210,9 @@ country_event = {
 					galley = NSC
 				}
 			release = RTG
+			RTG = {
+				create_alliance = ARO
+			}
 				2572 = {
 					infantry = RTG
 					infantry = RTG
@@ -518,27 +521,27 @@ country_event = {
 				transport = NSC
 			}
 			release = RTG
-				2572 = {
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-					infantry = RTG
-				}
+			2572 = {
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+			}
 			release = ARO
-				2567 = {
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-					infantry = ARO
-				}
+			2567 = {
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+			}
 			release = PEI
 			983 = {
 				infantry = PEI
@@ -592,6 +595,20 @@ country_event = {
 		}
 		custom_tooltip = SCHISM_MRT
 	}
+	after = {
+		if = {
+			limit = { exists = ARO }
+			ARO = {
+				add_government_reform = maritimer_acadien_principality
+			}
+		}
+		if = {
+			limit = { exists = RTG }
+			RTG = {
+				add_government_reform = maritimer_acadien_principality
+			}
+		}
+	}
 }
 
 country_event = {
@@ -609,14 +626,22 @@ country_event = {
 
 	option = {
 		name = maritimes_events.5.a
-		add_prestige = 5
-		change_tag = MRT
-		set_government_and_rank = {
-			government = monarchy
-			rank = 2
+		add_prestige = 25
+		if = {
+			limit = { 
+				NOT = {
+				tag = MRT
+				}
+			}
+			change_tag = MRT
+			set_government_and_rank = {
+				government = monarchy
+				rank = 2
+			}
+			add_government_reform = maritimer_united_duchies
+			set_capital = 4549
 		}
-		add_government_reform = maritimer_united_duchies
-		set_capital = 4549
+		set_government_rank = 2
 	}
 }
 

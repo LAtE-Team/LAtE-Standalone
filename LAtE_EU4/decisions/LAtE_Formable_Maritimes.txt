@@ -135,6 +135,10 @@ country_decisions = {
 				province_id = 4551
 				province_id = 2568
 			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		allow = {
 			owns_core_province = 2572

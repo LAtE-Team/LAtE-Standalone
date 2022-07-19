@@ -188,3 +188,23 @@ maritimer_united_duchies = {
 		}
 	}
 }
+
+maritimer_acadien_principality = {
+	icon = "king"
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		primary_culture = acadien
+	}
+	modifiers = {
+		land_morale = 0.2
+		hostile_attrition = 2
+		defensiveness = 0.2
+		governing_capacity_modifier = -0.9
+	}
+	custom_attributes = {
+		disables_church = yes
+		disables_nobility = yes
+		# disables_burghers = yes
+	}
+}
