@@ -56,11 +56,17 @@ maritime_schism_disaster = {
 	}
 
 	can_end = {
-		is_year = 3068
+		hidden_trigger = {
+			has_country_flag = MRT_survived_disaster
+		}
+		custom_trigger_tooltip = {
+			tooltip = MRT_survived_disaster
+		}
 	}
 
 	modifier = {
 		global_unrest = 4
+		land_morale = -0.1
 	}
 
 	on_start = maritimes_events.4 # Gathering Storm

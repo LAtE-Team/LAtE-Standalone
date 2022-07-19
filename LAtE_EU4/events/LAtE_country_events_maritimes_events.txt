@@ -173,7 +173,7 @@ country_event = { # Statist Candidate Chosen
 country_event = {
 	id = maritimes_events.4
 	title = maritimes_events.4.t
-	desc = maritimes_events.4.d
+	desc = maritimes_events.4.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
@@ -628,6 +628,6 @@ country_event = {
 
 	option = {
 		name = maritimes_events.6.a
-		add_prestige = 6
+		add_prestige = 10
 	}
 }
