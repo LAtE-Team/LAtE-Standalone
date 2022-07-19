@@ -69,7 +69,7 @@ NEN_expansion_tree = {
 		}
 	}
 	NEN_antiquarian_eclipse = {
-		icon = mission_magnificent_castle
+		icon = mission_conquer_50_development
 		required_missions = {NEN_southern_expansion}
 		position = 3
 		
@@ -601,17 +601,13 @@ NEN_anglican_relation = {
 						value = 175
 					}
 				}
-			OR = {
 				MRT = { exists = no }
-			}
-			OR = {
 				4546 = {
 					NOT = { owned_by = MRT }
 				}
 				2567 = {
 					NOT = { owned_by = MRT }
 				}
-			}
 			}
 		}
 		effect = {
