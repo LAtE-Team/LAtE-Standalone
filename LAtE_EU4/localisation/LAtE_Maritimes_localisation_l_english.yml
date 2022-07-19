@@ -217,7 +217,7 @@
  MRT_survived_disaster:0 "Own all core provinces which constitute the realm of the §YMaritimes§!"
  restore_order_title:0 "Restore Order"
  restore_order_desc:0 "The Maritimes has been ripped apart by civil strife as the duchies sought total independence from the crown. By carefully choosing their allegiance, our ruler has led the loyalist army to victory. All eyes turn to our nation as the declaration of the cessation of hostilities is read."
- MRT_restore_order:0 "§RThis will end the civil war and reform the Maritimes!§!"
+ MRT_restore_order:0 "§GThis will end the civil war and reform the Maritimes!§!"
  maritimer_acadien_principality:0 "Acadien Rebels"
  maritimer_acadien_principality_desc:0 "The Acadien natives of this nation have risen up against their Maritime overlords."
  ACADIEN_REBELS:0 "Acadien Rebels"

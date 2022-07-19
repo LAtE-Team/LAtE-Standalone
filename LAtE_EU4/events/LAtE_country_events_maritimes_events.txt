@@ -612,6 +612,15 @@ country_event = {
 		ARO = {
 			add_historical_friend = RTG
 		}
+		PEI = {
+			add_government_reform = autocracy_reform
+		}
+		NBW = {
+			add_government_reform = autocracy_reform
+		}
+		NSC = {
+			add_government_reform = autocracy_reform
+		}
 	}
 }
 
