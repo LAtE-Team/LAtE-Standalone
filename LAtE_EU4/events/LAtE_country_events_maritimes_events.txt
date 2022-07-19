@@ -610,6 +610,13 @@ country_event = {
 	option = {
 		name = maritimes_events.5.a
 		add_prestige = 5
+		change_tag = MRT
+		set_government_and_rank = {
+			government = monarchy
+			rank = 2
+		}
+		add_government_reform = maritimer_united_duchies
+		set_capital = 4549
 	}
 }
 

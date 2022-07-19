@@ -183,7 +183,7 @@ maritimer_united_duchies = {
 				prestige = 0.5
 				manpower_recovery_speed = 0.1
 				legitimacy = 0.5
-				tax_income = 0.1
+				global_tax_modifier = 0.1
 			}
 		}
 	}

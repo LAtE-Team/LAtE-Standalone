@@ -1,6 +1,9 @@
 maritime_schism_disaster = {
 	potential = {
 		tag = MRT
+		NOT = {
+			has_country_flag = MRT_survived_disaster
+		}
 	}
 
 	can_start = {
@@ -56,10 +59,8 @@ maritime_schism_disaster = {
 	}
 
 	can_end = {
-		hidden_trigger = {
-			has_country_flag = MRT_survived_disaster
-		}
 		custom_trigger_tooltip = {
+			has_country_flag = MRT_survived_disaster
 			tooltip = MRT_survived_disaster
 		}
 	}
