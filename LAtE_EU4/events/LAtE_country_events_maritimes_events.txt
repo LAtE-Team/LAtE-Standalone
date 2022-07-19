@@ -188,31 +188,28 @@ country_event = {
 		hidden_effect = {
 			change_tag = PEI
 			release = NSC
-				4551 = {
-					infantry = NSC
-					infantry = NSC
-					infantry = NSC
-					infantry = NSC
-					infantry = NSC
-					cavalry = NSC
-					cavalry = NSC
-					cavalry = NSC
-					cavalry = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-					galley = NSC
-				}
-			release = RTG
-			RTG = {
-				create_alliance = ARO
+			4551 = {
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
 			}
+			release = RTG
 				2572 = {
 					infantry = RTG
 					infantry = RTG
@@ -607,6 +604,13 @@ country_event = {
 			RTG = {
 				add_government_reform = maritimer_acadien_principality
 			}
+		}
+		RTG = {
+			create_alliance = ARO
+			add_historical_friend = ARO
+		}
+		ARO = {
+			add_historical_friend = RTG
 		}
 	}
 }
