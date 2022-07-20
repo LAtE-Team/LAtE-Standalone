@@ -187,6 +187,7 @@ country_event = {
 		name = maritimes_events.4.a
 		hidden_effect = {
 			change_tag = PEI
+			swap_non_generic_missions = yes
 			release = NSC
 			4551 = {
 				infantry = NSC
@@ -284,6 +285,7 @@ country_event = {
 		name = maritimes_events.4.b
 		hidden_effect = {
 			change_tag = NSC
+			swap_non_generic_missions = yes
 			release = PEI
 				983 = {
 					infantry = PEI
@@ -386,6 +388,7 @@ country_event = {
 		name = maritimes_events.4.c
 		hidden_effect = {
 			change_tag = NBW
+			swap_non_generic_missions = yes
 			release = PEI
 				983 = {
 					infantry = PEI
@@ -613,13 +616,15 @@ country_event = {
 			add_historical_friend = RTG
 		}
 		PEI = {
-			add_government_reform = autocracy_reform
+			change_government = theocracy
+			add_government_reform = monastic_order_reform
 		}
 		NBW = {
 			add_government_reform = autocracy_reform
 		}
 		NSC = {
-			add_government_reform = autocracy_reform
+			change_government = republic
+			add_government_reform = merchants_reform
 		}
 	}
 }
@@ -647,14 +652,25 @@ country_event = {
 				}
 			}
 			change_tag = MRT
-			set_government_and_rank = {
-				government = monarchy
-				rank = 2
-			}
+			change_government = monarchy
+			set_government_rank = 2
 			add_government_reform = maritimer_united_duchies
+			swap_non_generic_missions = yes
 			set_capital = 4549
 		}
+	}
+
+	option = {
+		name = maritimes_events.5.b
+		add_prestige = 25
+		if = {
+			limit = {
+				NOT = {
+					tag = PEI
+				}
+			}
 		set_government_rank = 2
+		}
 	}
 }
 
