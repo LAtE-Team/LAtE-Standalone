@@ -213,6 +213,10 @@ Maritime_Kingdom_missions_2 = {
                 name = maritimes_swayed_merchants
                 duration = 3650
             }
+            add_disaster_progress = {
+                disaster = maritime_schism_disaster
+                value = -5
+            }
         }
     }
     maritimes_encourage_local_artisans = {
@@ -367,6 +371,10 @@ Maritime_Kingdom_missions_3 = {
                     name = maritimes_loyal_clergy
                     duration = 3650
                 }
+            }
+            add_disaster_progress = {
+                disaster = maritime_schism_disaster
+                value = -5
             }
         }
     }
@@ -564,6 +572,10 @@ Maritime_Kingdom_missions_4 = {
             add_country_modifier = {
                 name = maritimes_st_john
                 duration = 3650
+            }
+            add_disaster_progress = {
+                disaster = maritime_schism_disaster
+                value = -5
             }
         }
     }
