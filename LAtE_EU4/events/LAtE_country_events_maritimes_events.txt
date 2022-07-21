@@ -692,3 +692,88 @@ country_event = {
 		add_prestige = 10
 	}
 }
+
+country_event = {
+	id = maritimes_events.7
+	title = maritimes_events.7.t
+	desc = maritimes_events.7.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.7.a
+		MRT = {
+			create_march = ROOT
+		}
+		ROOT = {
+			add_treasury = 100
+		}
+	}
+
+	option = {
+		name = maritimes_events.7.b
+		custom_tooltip = MRT_MNE_REFUSED
+	}
+
+	after = {
+		MRT = {
+			country_event = {
+				id = maritimes_events.8
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.8
+	title = maritimes_events.8.t
+	desc = {
+		trigger = {
+			MNE = {
+				vassal_of = MRT
+			}
+		}
+		desc = maritimes_events.8.d.a
+	}
+
+	desc = {
+		trigger = {
+			NOT = {
+				MNE = {
+					vassal_of = MRT
+				}
+			}
+		}
+		desc = maritimes_events.8.d.b
+	}
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # CHECK
+		name = maritimes_events.8.a
+		trigger = {
+			MNE = {
+				vassal_of = MRT
+			}
+		}
+	}
+
+	option = {
+		name = maritimes_events.8.b
+		trigger = {
+			NOT = {
+				MNE = {
+					vassal_of = MRT
+				}
+			}
+		}
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			target = MNE
+		}
+	}
+}

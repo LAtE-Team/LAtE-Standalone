@@ -635,7 +635,11 @@ Maritime_Kingdom_missions_4 = {
             }
         }
         effect = {
-            create_march = MNE
+            MNE = {
+                country_event = {
+                    id = maritimes_events.7
+                }
+            }
         }
     }
     maritimes_into_the_fold = {
