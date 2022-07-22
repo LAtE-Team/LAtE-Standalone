@@ -196,6 +196,168 @@ NEN_expansion_tree_2 = {
 		}
 	}
 }
+NEN_exploration_tree_france = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_colonize_northern_france = {
+		icon = mission_conquer_50_development
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+				area = brittany_area
+				area = seine_area
+				area = picardy_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			normandy_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			brittany_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			seine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			picardy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			loire_area = { add_permanent_claim = ROOT }
+			bourgogne_area = { add_permanent_claim = ROOT }
+			guyenne_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_central_france = {
+		icon = mission_rb_repatriate_burgundy
+		required_missions = {NEN_landing_in_normandy}
+		position = 8
+		
+		provinces_to_highlight = {
+			OR = {
+				area = loire_area
+				area = bourgogne_area
+				area = guyenne_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			loire_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bourgogne_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guyenne_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			massif_central_area = { add_permanent_claim = ROOT }
+			languedoc_area = { add_permanent_claim = ROOT }
+			provence_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_southern_france = {
+		icon = negotiate_for_avignon
+		required_missions = {NEN_landing_in_normandy}
+		position = 9
+		
+		provinces_to_highlight = {
+			OR = {
+				area = massif_central_area
+				area = languedoc_area
+				area = provence_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			massif_central_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			languedoc_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			provence_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_foothold_on_continental_europe
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_france = {
+		icon = mission_religious
+		required_missions = {NEN_the_final_showdown}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+				area = brittany_area
+				area = picardy_area
+				area = seine_area
+				area = loire_area
+				area = bourgogne_area
+				area = guyenne_area
+				area = massif_central_area
+				area = languedoc_area
+				
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			normandy_area = { religion = ROOT }
+			brittany_area = { religion = ROOT }
+			picardy_area = { religion = ROOT }
+			seine_area = { religion = ROOT }
+			loire_area = { religion = ROOT }
+			bourgogne_area = { religion = ROOT }
+			guyenne_area = { religion = ROOT }
+			massif_central_area = { religion = ROOT }
+			languedoc_area = { religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_france
+				duration = -1
+			}
+		}
+	}
+}
 NEN_stabilizing_the_realm = {
 	slot = 3
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
@@ -256,7 +418,6 @@ NEN_stabilizing_the_realm = {
 				religion = ROOT
 				culture = ROOT
 			}
-			
 		}
 		effect = {
 			set_capital = 968
@@ -370,6 +531,7 @@ NEN_stabilizing_the_realm = {
 				province_id = 958
 				province_id = 962
 				province_id = 985
+				province_id = 956
 			}
 			OR = {
 				NOT = { has_building = university }
@@ -379,6 +541,7 @@ NEN_stabilizing_the_realm = {
 			958 = { has_building = university }
 			962 = { has_building = university }
 			965 = { has_building = university }
+			956 = { has_building = university }
 		}
 		effect = {
 			958 = { 
@@ -399,6 +562,12 @@ NEN_stabilizing_the_realm = {
 					duration = -1
 				}
 			}
+			956 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+				}
+			}
 			add_country_modifier = {
 				name = ivy_league_restored
 				duration = -1
@@ -406,7 +575,266 @@ NEN_stabilizing_the_realm = {
 		}
 	}
 }
-
+NEN_exploration_tree_britain = {
+	slot = 3
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_beyond_the_atlantic = {
+		icon = mission_rb_grow_the_channel
+		required_missions = {}
+		position = 6
+		
+		trigger = {
+			exploration_ideas = 1
+			has_discovered = 375
+		}
+		effect = {
+			western_ireland_area = { add_permanent_claim = ROOT }
+			eastern_ireland_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_landfall_in_ireland = {
+		icon = mission_rb_conquer_ireland
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		
+		trigger = {
+			western_ireland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_ireland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			highlands_area = { add_permanent_claim = ROOT }
+			lowlands_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_scottish_expedition = {
+		icon = mission_rb_conquer_scotland
+		required_missions = {NEN_landfall_in_ireland}
+		position = 8
+		
+		trigger = {
+			highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			northern_england_area = { add_permanent_claim = ROOT }
+			wales_area = { add_permanent_claim = ROOT }
+			mercia_area = { add_permanent_claim = ROOT }
+			wessex_area = { add_permanent_claim = ROOT }
+			east_anglia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_the_final_showdown = {
+		icon = mission_rb_scottish_conquer_london
+		required_missions = {NEN_scottish_expedition}
+		position = 9
+		
+		trigger = {
+			northern_england_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wales_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mercia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wessex_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = nen_avenge_the_ancestor
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_britain = {
+		icon = mission_religious
+		required_missions = {NEN_the_final_showdown}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = western_ireland_area
+				area = eastern_ireland_area
+				area = highlands_area
+				area = lowlands_area
+				area = northern_england_area
+				area = wales_area
+				area = mercia_area
+				area = wessex_area
+				area = east_anglia_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			western_ireland_area = { religion = ROOT }
+			eastern_ireland_area = { religion = ROOT }
+			highlands_area = { religion = ROOT }
+			lowlands_area = { religion = ROOT }
+			northern_england_area = { religion = ROOT }
+			wales_area = { religion = ROOT }
+			mercia_area = { religion = ROOT }
+			wessex_area = { religion = ROOT }
+			east_anglia_area = { religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_britain
+				duration = -1
+			}
+		}
+	}
+}
+NEN_exploration_tree_low_countries = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_landfall_in_flanders = {
+		icon = sources_of_trade
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		provinces_to_highlight = {
+			area = flanders_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			flanders_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			brabant_area = { add_permanent_claim = ROOT }
+			frisia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_holland = {
+		icon = mission_hanseatic_city
+		required_missions = {NEN_landfall_in_flanders}
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = brabant_area
+				area = frisia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			brabant_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			frisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			wallonia_area = { add_permanent_claim = ROOT }
+			luxemburg_liege_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_wallonia = {
+		icon = unite_the_realm
+		required_missions = {NEN_colonize_holland}
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = wallonia_area
+				area = luxemburg_liege_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wallonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luxemburg_liege_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_foothold_on_the_low_countries
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_the_low_countries = {
+		icon = mission_religious
+		required_missions = {NEN_colonize_wallonia}
+		position = 10
+				provinces_to_highlight = {
+			OR = {
+				area = flanders_area
+				area = frisia_area
+				area = wallonia_area
+				area = luxemburg_liege_area
+				area = brabant_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			flanders_area = { religion = ROOT }
+			frisia_area = { religion = ROOT }
+			wallonia_area = { religion = ROOT }
+			luxemburg_liege_area = { religion = ROOT }
+			brabant_area = { religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_the_low_countries
+				duration = -1
+			}
+		}
+	}
+}
 NEN_ursuline_relation = {
 	slot = 4
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
@@ -458,7 +886,7 @@ NEN_ursuline_relation = {
 			else = {
 				QUE = { 
 					add_trust = {
-						who = VER
+						who = NEN
 						value = 30
 						mutual = yes
 					}
@@ -734,7 +1162,7 @@ NEN_anglican_relation = {
 		}
 	}
 }
-# NEN_generic_new_englander_religion_tree = {
+# NEN_generic_religion_tree = {
 # 	#for converter game
 # 	slot = 4
 # 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
@@ -753,6 +1181,8 @@ NEN_anglican_relation = {
 # 	NEN_mission_1 = {
 # 		required_missions = {}
 # 		position = 1
+# 		
+# 		
 # 	}
 # 	NEN_find_right_minded_allies = {
 # 		icon = mission_alliances

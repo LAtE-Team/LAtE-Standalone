@@ -41,3 +41,27 @@ nen_twilight_of_the_antiquarian = {
 nen_atlantic_imperialism = {
 	core_creation = -0.20
 }
+nen_avenge_our_ancestor = {
+	yearly_prestige = 1.00
+	global_missionary_strength = 0.01
+}
+nen_foothold_on_continental_europe = {
+	yearly_prestige = 0.50
+	development_cost = -0.10
+}
+nen_foothold_on_the_low_countries = {
+	yearly_prestige = 0.50
+	global_ship_trade_power = 0.10
+}
+nen_recivilization_of_france = {
+	cavalry_power = 0.10
+	goods_produced = 0.10
+}
+nen_recivilization_of_britain = {
+	colonist = 1
+	range = 0.10
+}
+nen_recivilization_of_the_low_countries = {
+	naval_attrition = -0.10
+	global_trade_power = 0.10
+}
