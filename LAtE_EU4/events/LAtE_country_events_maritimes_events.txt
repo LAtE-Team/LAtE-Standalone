@@ -710,11 +710,31 @@ country_event = {
 		ROOT = {
 			add_treasury = 100
 		}
+		ai_chance = {
+			factor = 9
+			modifier = {
+				factor = 0
+				total_development = MRT				
+			}
+		}
 	}
 
 	option = {
 		name = maritimes_events.7.b
 		custom_tooltip = MRT_MNE_REFUSED
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				any_owned_province = {
+					NOT = { area = maine_area }
+				}
+			}
+			modifier = {
+				factor = 3
+				total_development = 50
+			}
+		}
 	}
 
 	after = {
