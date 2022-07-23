@@ -1822,7 +1822,7 @@ PHI_missions_2 = {
     }
 
 	PHI_mission_take_susquehanna = {
-        icon = consolidate_the_stadholders
+        icon = mission_italian_condottiere
         position = 3
 		required_missions = {
 			PHI_mission_take_delaware
@@ -1984,7 +1984,7 @@ PHI_missions_3 = {
     }
 
 	PHI_mission_shipyard = {
-        icon = mission_rb_import_potatoes
+        icon = mission_early_game_buildings
 		required_missions = {
 			PHI_mission_marketplace
 		}
@@ -2031,7 +2031,7 @@ PHI_missions_3 = {
     }
 
 	PHI_mission_fleet = {
-        icon = mission_rb_import_potatoes
+        icon = mission_galleys_in_port
 		required_missions = {
 			PHI_mission_shipyard
 		}
@@ -2070,7 +2070,7 @@ PHI_missions_4 = {
     }
 
 	PHI_mission_barracks = {
-        icon = mission_alliances
+        icon = mission_have_two_subjects
 		position = 2
 		required_missions = {
 			PHI_mission_improve_capital
@@ -2130,7 +2130,7 @@ PHI_missions_4 = {
     }
 
 	PHI_mission_develop_countryside = {
-        icon = mission_early_game_buildings
+        icon = mission_rb_import_potatoes
 		required_missions = {
 			PHI_mission_shipyard
 			PHI_mission_embrace_renaissance
