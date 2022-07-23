@@ -246,7 +246,7 @@ NEN_exploration_tree_france = {
 	}
 	NEN_colonize_central_france = {
 		icon = mission_rb_repatriate_burgundy
-		required_missions = {NEN_landing_in_normandy}
+		required_missions = {NEN_colonize_northern_france}
 		position = 8
 		
 		provinces_to_highlight = {
@@ -281,7 +281,7 @@ NEN_exploration_tree_france = {
 	}
 	NEN_colonize_southern_france = {
 		icon = negotiate_for_avignon
-		required_missions = {NEN_landing_in_normandy}
+		required_missions = {NEN_colonize_central_france}
 		position = 9
 		
 		provinces_to_highlight = {
@@ -317,7 +317,7 @@ NEN_exploration_tree_france = {
 	}
 	NEN_convert_france = {
 		icon = mission_religious
-		required_missions = {NEN_the_final_showdown}
+		required_missions = {NEN_colonize_southern_france}
 		position = 10
 		
 		provinces_to_highlight = {
@@ -719,122 +719,6 @@ NEN_exploration_tree_britain = {
 		}
 	}
 }
-NEN_exploration_tree_low_countries = {
-	slot = 4
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = yes
-	potential = {
-		tag = NEN
-	}
-	has_country_shield = yes
-	NEN_landfall_in_flanders = {
-		icon = sources_of_trade
-		required_missions = {NEN_beyond_the_atlantic}
-		position = 7
-		provinces_to_highlight = {
-			area = flanders_area
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			flanders_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			brabant_area = { add_permanent_claim = ROOT }
-			frisia_area = { add_permanent_claim = ROOT }
-		}
-	}
-	NEN_colonize_holland = {
-		icon = mission_hanseatic_city
-		required_missions = {NEN_landfall_in_flanders}
-		position = 8
-		provinces_to_highlight = {
-			OR = {
-				area = brabant_area
-				area = frisia_area
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-			}
-		}
-		trigger = {
-			brabant_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			frisia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			wallonia_area = { add_permanent_claim = ROOT }
-			luxemburg_liege_area = { add_permanent_claim = ROOT }
-		}
-	}
-	NEN_colonize_wallonia = {
-		icon = unite_the_realm
-		required_missions = {NEN_colonize_holland}
-		position = 7
-		provinces_to_highlight = {
-			OR = {
-				area = wallonia_area
-				area = luxemburg_liege_area
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			wallonia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			luxemburg_liege_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = nen_foothold_on_the_low_countries
-				duration = 9125
-			}
-		}
-	}
-	NEN_convert_the_low_countries = {
-		icon = mission_religious
-		required_missions = {NEN_colonize_wallonia}
-		position = 10
-				provinces_to_highlight = {
-			OR = {
-				area = flanders_area
-				area = frisia_area
-				area = wallonia_area
-				area = luxemburg_liege_area
-				area = brabant_area
-			}
-			OR = {
-				NOT = {
-					religion = ROOT
-				}
-			}
-		}
-		trigger = {
-			flanders_area = { religion = ROOT }
-			frisia_area = { religion = ROOT }
-			wallonia_area = { religion = ROOT }
-			luxemburg_liege_area = { religion = ROOT }
-			brabant_area = { religion = ROOT }
-		}
-		effect = {
-			add_country_modifier = {
-				name = nen_recivilization_of_the_low_countries
-				duration = -1
-			}
-		}
-	}
-}
 NEN_ursuline_relation = {
 	slot = 4
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
@@ -1228,3 +1112,119 @@ NEN_anglican_relation = {
 # 		position = 4
 # 	}
 # }
+NEN_exploration_tree_low_countries = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_landfall_in_flanders = {
+		icon = sources_of_trade
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		provinces_to_highlight = {
+			area = flanders_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			flanders_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			brabant_area = { add_permanent_claim = ROOT }
+			frisia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_holland = {
+		icon = mission_hanseatic_city
+		required_missions = {NEN_landfall_in_flanders}
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = brabant_area
+				area = frisia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			brabant_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			frisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			wallonia_area = { add_permanent_claim = ROOT }
+			luxemburg_liege_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_wallonia = {
+		icon = unite_the_realm
+		required_missions = {NEN_colonize_holland}
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = wallonia_area
+				area = luxemburg_liege_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wallonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luxemburg_liege_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_foothold_on_the_low_countries
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_the_low_countries = {
+		icon = mission_religious
+		required_missions = {NEN_colonize_wallonia}
+		position = 10
+				provinces_to_highlight = {
+			OR = {
+				area = flanders_area
+				area = frisia_area
+				area = wallonia_area
+				area = luxemburg_liege_area
+				area = brabant_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			flanders_area = { religion = ROOT }
+			frisia_area = { religion = ROOT }
+			wallonia_area = { religion = ROOT }
+			luxemburg_liege_area = { religion = ROOT }
+			brabant_area = { religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_the_low_countries
+				duration = -1
+			}
+		}
+	}
+}

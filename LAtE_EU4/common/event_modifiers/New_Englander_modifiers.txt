@@ -55,10 +55,10 @@ nen_foothold_on_the_low_countries = {
 }
 nen_recivilization_of_france = {
 	cavalry_power = 0.10
-	goods_produced = 0.10
+	trade_goods_size_modifier = 0.10
 }
 nen_recivilization_of_britain = {
-	colonist = 1
+	colonists = 1
 	range = 0.10
 }
 nen_recivilization_of_the_low_countries = {
