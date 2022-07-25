@@ -436,18 +436,21 @@ Maritime_Kingdom_missions_3 = {
         }
         effect = {
             restigouche_area = {
+                remove_province_modifier = maritimes_acadien_unrest
                 add_province_modifier = {
                     name = maritimes_fourth_party
                     duration = 7300
                 }
             }
             4546 = {
+                remove_province_modifier = maritimes_acadien_unrest
                 add_province_modifier = {
                     name = maritimes_fourth_party
                     duration = 7300
                 }
             }
             2567 = {
+                remove_province_modifier = maritimes_acadien_unrest
                 add_province_modifier = {
                     name = maritimes_fourth_party
                     duration = 7300
@@ -661,6 +664,7 @@ Maritime_Kingdom_missions_4 = {
                 limit = {
                     exists = MNE
                 }
+                add_treasury = -100
                 MNE = {
                     country_event = {
                         id = maritimes_events.7
