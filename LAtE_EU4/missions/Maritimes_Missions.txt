@@ -34,6 +34,7 @@ Maritime_Kingdom_missions_1 = {
         }
         trigger = {
             newfoundland_area = {
+                type = all
                 country_or_non_sovereign_subject_holds = ROOT
             }
         }
@@ -49,13 +50,19 @@ Maritime_Kingdom_missions_1 = {
         required_missions = { maritimes_pirate_lessons }
         trigger = {
             num_of_explorers = 1
+            has_discovered = 1104
         }
         effect = {
-            1104 = {
-                create_colony = 200
-                add_province_modifier = {
-                    name = maritimes_settling_down
-                    duration = 3650
+            if = {
+                limit = {
+                    1104 = { is_empty = yes }
+                }
+                1104 = {
+                    create_colony = 200
+                    add_province_modifier = {
+                        name = maritimes_settling_down
+                        duration = 3650
+                    }
                 }
             }
             add_country_modifier = {
@@ -69,6 +76,7 @@ Maritime_Kingdom_missions_1 = {
         required_missions = { maritimes_familiar_horizon }
         trigger = {
             greenland_area = {
+                type = all
                 country_or_non_sovereign_subject_holds = ROOT
             }
         }
@@ -208,7 +216,7 @@ Maritime_Kingdom_missions_2 = {
             }
         }
         effect = {
-            change_dip = 1
+            increase_ruler_power = { dip = yes}
             add_country_modifier = {
                 name = maritimes_swayed_merchants
                 duration = 3650
@@ -365,7 +373,7 @@ Maritime_Kingdom_missions_3 = {
             }
         }
         effect = {
-            change_adm = 1
+            increase_ruler_power = { adm = yes }
             983 = {
                 add_province_modifier = {
                     name = maritimes_loyal_clergy
@@ -496,6 +504,7 @@ Maritime_Kingdom_missions_3 = {
         trigger = {
             temple = 5
             stability = 1
+            owns_core_province = 983
         }
         effect = {
             983 = {
@@ -568,7 +577,7 @@ Maritime_Kingdom_missions_4 = {
             }
         }
         effect = {
-            change_mil = 1
+            increase_ruler_power = { mil = yes }
             add_country_modifier = {
                 name = maritimes_st_john
                 duration = 3650
@@ -597,15 +606,19 @@ Maritime_Kingdom_missions_4 = {
             }
             2571 = {
                 base_manpower = 4
+                owned_by = ROOT
             }
             2572 = {
                 base_manpower = 4
+                owned_by = ROOT
             }
             4546 = {
                 base_manpower = 4
+                owned_by = ROOT
             }
             2567 = {
                 base_manpower = 4
+                owned_by = ROOT
             }
         }
         effect = {
@@ -626,19 +639,34 @@ Maritime_Kingdom_missions_4 = {
             }
         }
         trigger = {
-            alliance_with = MNE
-            MNE = {
-                has_opinion = {
-                    who = ROOT
-                    value = 180
+            OR = {
+                AND = {
+                    alliance_with = MNE
+                    MNE = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 180
+                        }
+                    }
                 }
+                NOT = { exists = MNE }
             }
+
         }
         effect = {
-            MNE = {
-                country_event = {
-                    id = maritimes_events.7
+            if = {
+                limit = {
+                    exists = MNE
                 }
+                MNE = {
+                    country_event = {
+                        id = maritimes_events.7
+                    }
+                }
+            }
+            else = {
+                give_claims = { area = maine_area }
+                give_claims = { id = 4545 }
             }
         }
     }
@@ -651,19 +679,31 @@ Maritime_Kingdom_missions_4 = {
             province_id = 971
         }
         trigger = {
-            MNE = {
-                is_subject_of = MRT
+            OR = {
+                MNE = {
+                    is_subject_of = MRT
+                }
+                owns_core_province = 971
             }
             971 = {
                 fort_level = 2
             }
         }
         effect = {
-            vermont_area = {
-                add_permanent_claim = MNE
+            if = {
+                limit = {
+                    exists = MNE
+                }
+                vermont_area = {
+                    add_permanent_claim = MNE
+                }
+                new_hampshire_area = {
+                    add_permanent_claim = MNE
+                }
             }
-            new_hampshire_area = {
-                add_permanent_claim = MNE
+            else = {
+                give_claims = { area = vermont_area }
+                give_claims = { area = new_hampshire_area }
             }
         }
     }
@@ -694,6 +734,7 @@ Maritime_Kingdom_missions_4 = {
         trigger = {
             2570 = {
                 has_building = temple
+                owned_by = ROOT
             }
             any_known_country = {
                 religion = ursuline
@@ -905,19 +946,39 @@ Maritime_Kingdom_missions_5 = {
             maritimes_the_nobility_in_government
         }
         trigger = {
-            QUE = {
-                is_rival = MRT
-                OR = {
-                    has_opinion_modifier = {
-                        who = ROOT
-                        modifier = scornfully_insulted
-                    }
-                    has_opinion_modifier = {
-                        who = ROOT
-                        modifier = insulted
+            OR = {
+                QUE = {
+                    is_rival = MRT
+                    OR = {
+                        has_opinion_modifier = {
+                            who = ROOT
+                            modifier = scornfully_insulted
+                        }
+                        has_opinion_modifier = {
+                            who = ROOT
+                            modifier = insulted
+                        }
                     }
                 }
+                CAN = {
+                    is_rival = MRT
+                    OR = {
+                        has_opinion_modifier = {
+                            who = ROOT
+                            modifier = scornfully_insulted
+                        }
+                        has_opinion_modifier = {
+                            who = ROOT
+                            modifier = insulted
+                        }
+                    }
+                }
+                AND =  {
+                    NOT = { exists = QUE }
+                    NOT = { exists = CAN }
+                }
             }
+
         }
         effect = {
             notre_dame_mountains_area = {
@@ -931,10 +992,25 @@ Maritime_Kingdom_missions_5 = {
             maritimes_hostile_relations
         }
         trigger = {
-            has_spy_network_in = {
-                who = QUE
-                value = 75
+            OR = {
+                has_spy_network_in = {
+                    who = QUE
+                    value = 75
+                }
+                has_spy_network_in = {
+                    who = CAN
+                    value = 75
+                }
+                AND = {
+                    NOT = { exists = QUE }
+                    NOT = { exists = CAN }
+                    notre_dame_mountains_area = {
+                        type = all
+                        owned_by = ROOT
+                    }
+                }
             }
+
         }
         effect = {
             add_country_modifier = {
@@ -1038,6 +1114,10 @@ Maritime_Kingdom_missions_5 = {
                     army_size = CAN
                     exists = CAN
                 }
+                AND = {
+                    NOT = { exists = ONT }
+                    NOT = { exists = CAN }
+                }
             }
         }
         effect = {
@@ -1059,6 +1139,12 @@ Maritime_Kingdom_missions_5 = {
                     target = CAN
                 }
             }
+            else = {
+                give_claims = { area = quinte_area }
+                give_claims = { area = huronia_area }
+                give_claims = { area = greater_toronto_area }
+                give_claims = { area = talbot_area }
+            }
         }
     }
     maritimes_tour_de_force = {
@@ -1075,6 +1161,24 @@ Maritime_Kingdom_missions_5 = {
                 AND = {
                     is_subject_of = MRT
                     exists = CAN
+                }
+                AND = {
+                    quinte_area = {
+                        type = all
+                        owned_by = ROOT
+                    }
+                    huronia_area = {
+                        type = all
+                        owned_by = ROOT
+                    }
+                    greater_toronto_area = {
+                        type = all
+                        owned_by = ROOT
+                    }
+                    talbot_area = {
+                        type = all
+                        owned_by = ROOT
+                    }
                 }
             }
         }
