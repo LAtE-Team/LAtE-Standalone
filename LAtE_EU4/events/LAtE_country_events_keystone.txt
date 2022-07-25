@@ -1,0 +1,267 @@
+namespace = keystone_events
+
+country_event = {
+	id = keystone_events.1 
+	title = keystone_events.1.t
+	desc = keystone_events.1.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = AGH
+		}
+		any_owned_province = {
+			OR = {
+				has_province_modifier = anabaptists_present_large
+				has_province_modifier = anabaptists_present_medium
+				has_province_modifier = anabaptists_present_small
+			}
+		}
+	}
+	
+	option = {
+		name = keystone_events.1.a #Yes
+		anabaptists_accepted_effect = yes
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	option = {
+		name = keystone_events.1.b #Yes
+		anabaptists_rejected_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = keystone_events.1.c #Yes
+		anabaptists_expelled_effect = yes
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+	after = {
+		swap_non_generic_missions = yes
+	}
+}
+
+country_event = {
+	id = keystone_events.2
+	title = keystone_events.2.t
+	desc = keystone_events.2.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keystone_events.2.a #Yes
+		FROM = {
+			vassalize = ROOT
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				total_development = FROM				
+			}
+		}
+	}
+
+	option = {
+		name = keystone_events.2.b #No
+		reverse_add_opinion = {
+			who = FROM
+			modifier = outrageous_demands
+		}		
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 3
+				any_owned_province = {
+					NOT = { area = appalachia_area }
+				}
+			}
+			modifier = {
+				factor = 3
+				total_development = 50
+			}
+		}
+	}
+
+	after = {
+		FROM = {
+			country_event = {
+				id = keystone_events.3
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = keystone_events.3
+	title = keystone_events.3.t	
+	desc = {
+		trigger = {
+			FROM = { vassal_of = ROOT }
+		}
+		desc = keystone_events.3.d.a
+
+	}
+	desc = {
+		trigger = {
+			NOT = { FROM = { vassal_of = ROOT } }
+		}
+		desc = keystone_events.3.d.b
+
+	}
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keystone_events.3.a #Cool!
+		trigger = {
+			FROM = { vassal_of = ROOT }
+		}
+	}
+
+	option = {
+		name = keystone_events.3.b #Yes
+		trigger = {
+			NOT = { FROM = { vassal_of = ROOT } }
+		}
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = keystone_events.4
+	title = keystone_events.4.t
+	desc = keystone_events.4.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keystone_events.4.a 
+		trigger = {
+			religion = americanist
+		}
+		give_claims = { area = nova_area }
+		give_claims = { area = great_valley_area }
+		give_claims = { area = chesapeake_area }
+		4618 = {
+			if = {
+				limit = {
+					NOT = {
+						has_great_project = {
+							type = white_house
+							tier = 3
+						}
+					}
+				}
+				add_great_project_tier = {
+					type = white_house
+					tier = 1
+				}
+			}
+			else = {
+				root = {
+					add_prestige = 20					
+				}
+			}
+
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = keystone_events.4.b
+		trigger = {
+			religion = rust_cultist
+		}
+		give_claims = { area = nova_area }
+		give_claims = { area = great_valley_area }
+		give_claims = { area = chesapeake_area }
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = keystone_events.4.c
+		trigger = {
+			NOT = { religion = americanist }
+			NOT = { religion = rust_cultist }
+		}
+		add_prestige = 25
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = keystone_events.5
+	title = keystone_events.5.t
+	desc = keystone_events.5.d
+	picture = 11_Jain_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keystone_events.5.a #Yes
+		trigger = {
+			religion = rust_cultist
+		}
+		add_country_modifier = {
+			name = KEY_church_power_modifier
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = keystone_events.5.b #Yes
+		trigger = {
+			religion = americanist
+		}
+		add_country_modifier = {
+			name = KEY_patriarch_authority_modifier
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = keystone_events.5.c #Yes
+		trigger = {
+			NOT = { religion = americanist }
+			NOT = { religion = rust_cultist }
+		}
+		add_prestige = 25
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
