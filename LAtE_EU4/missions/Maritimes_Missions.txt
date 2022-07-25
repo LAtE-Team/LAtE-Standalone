@@ -451,7 +451,10 @@ Maritime_Kingdom_missions_3 = {
         icon = mission_empire
         required_missions = { maritimes_the_fourth_party }
         trigger = {
-            is_year = 3068
+            custom_trigger_tooltip = {
+                tooltip = MRT_passed_disaster
+                has_country_flag = MRT_survived_disaster
+            }
         }
         effect = {
             add_ruler_modifier = {
