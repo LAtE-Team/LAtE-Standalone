@@ -1046,72 +1046,72 @@ NEN_anglican_relation = {
 		}
 	}
 }
-# NEN_generic_religion_tree = {
-# 	#for converter game
-# 	slot = 4
-# 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-# 	ai = yes
-# 	potential = {
-# 		tag = NEN
-# 		NOT = {
-# 			OR = {
-# 				was_tag = MNE
-# 				was_tag = VER
-# 				religion = anglican
-# 				religion = ursuline
-# 			}
-# 		}
-# 	}
-# 	NEN_mission_1 = {
-# 		required_missions = {}
-# 		position = 1
-# 		
-# 		
-# 	}
-# 	NEN_find_right_minded_allies = {
-# 		icon = mission_alliances
-# 		required_missions = {NEN_mission_1}
-# 		position = 2
+NEN_generic_religion_tree = {
+	#for converter game
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+		NOT = {
+			OR = {
+				was_tag = MNE
+				was_tag = VER
+				religion = anglican
+				religion = ursuline
+			}
+		}
+	}
+	NEN_mission_1 = {
+		required_missions = {}
+		position = 1
 		
-# 		trigger = {
-# 			dip_power = 50
-# 			calc_true_if = {
-# 				all_ally = {
-# 					religion = ROOT
-# 					has_opinion = {
-# 						who = ROOT
-# 						value = 175
-# 					}
-# 				}
-# 				amount = 2
-# 			}
-# 		}
-# 		effect = {
-# 			add_dip_power = -50
-# 			add_army_tradition = 10
-# 			every_country = {
-# 				limit = {
-# 					religion = ROOT
-# 					alliance_with = ROOT
-# 				}
-# 				add_army_tradition = 10
-# 					add_trust = {
-# 						who = ROOT
-# 						value = 30
-# 						mutual = yes
-# 					}
-# 			}
-# 		}
-# 	}
-# 	NEN_mission_3 = {
-# 		required_missions = { NEN_find_right_minded_allies }
-# 		position = 3
-# 	}
-# 	NEN_mission_4 = {
-# 		required_missions = { NEN_mission_3 }
-# 		position = 4
-# 	}
-# }
+		
+	}
+	NEN_find_right_minded_allies = {
+		icon = mission_alliances
+		required_missions = {NEN_mission_1}
+		position = 2
+		
+		trigger = {
+			dip_power = 50
+			calc_true_if = {
+				all_ally = {
+					religion = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 175
+					}
+				}
+				amount = 2
+			}
+		}
+		effect = {
+			add_dip_power = -50
+			add_army_tradition = 10
+			every_country = {
+				limit = {
+					religion = ROOT
+					alliance_with = ROOT
+				}
+				add_army_tradition = 10
+					add_trust = {
+						who = ROOT
+						value = 30
+						mutual = yes
+					}
+			}
+		}
+	}
+	NEN_mission_3 = {
+		required_missions = { NEN_find_right_minded_allies }
+		position = 3
+	}
+	NEN_mission_4 = {
+		required_missions = { NEN_mission_3 }
+		position = 4
+	}
+}
 NEN_exploration_tree_low_countries = {
 	slot = 4
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
