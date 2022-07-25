@@ -599,6 +599,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = {
+			has_reform = maritimer_united_duchies
+		}
 		has_states_general_mechanic = yes
 		OR = {
 			is_lesser_in_union = no
@@ -729,6 +732,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = {
+			has_reform = maritimer_united_duchies
+		}
 		has_states_general_mechanic = yes
 		OR = {
 			is_lesser_in_union = no

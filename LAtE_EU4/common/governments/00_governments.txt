@@ -41,6 +41,8 @@ monarchy = {
 				mossi_federal_kingdom
 				open_range_feudalism
 				anabaptist_kingdom_reform
+				maritimer_united_duchies
+				maritimer_acadien_principality
 			}
 		}
 		hereditary_vs_nobility = {
