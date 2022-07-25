@@ -664,6 +664,7 @@ Maritime_Kingdom_missions_4 = {
                 limit = {
                     exists = MNE
                 }
+                add_treasury = -100
                 MNE = {
                     country_event = {
                         id = maritimes_events.7
@@ -723,7 +724,6 @@ Maritime_Kingdom_missions_4 = {
             always = yes
         }
         effect = {
-            add_treasury = -100
             add_country_modifier = {
                 name = maritimes_religious_diplomacy
                 duration = 9125
