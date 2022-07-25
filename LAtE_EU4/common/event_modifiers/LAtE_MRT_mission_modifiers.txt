@@ -202,3 +202,7 @@ maritimes_monarchist_favored = {
     burghers_loyalty_modifier = -0.05
     nobles_loyalty_modifier = -0.05
 }
+
+maritimes_acadien_unrest = {
+    local_unrest = 8
+}
