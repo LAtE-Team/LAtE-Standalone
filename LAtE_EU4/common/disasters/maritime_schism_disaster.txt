@@ -15,7 +15,7 @@ maritime_schism_disaster = {
 	}
 
 	can_stop = {
-		is_year = 50000 # Replace with flag for having taken decision to form the maritimes
+		ruler_age = 18
 	}
 
 	progress = {
