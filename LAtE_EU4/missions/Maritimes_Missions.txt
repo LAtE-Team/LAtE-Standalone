@@ -464,7 +464,13 @@ Maritime_Kingdom_missions_3 = {
         trigger = {
             custom_trigger_tooltip = {
                 tooltip = MRT_passed_disaster
-                has_country_flag = MRT_survived_disaster
+                OR = {
+                    has_country_flag = MRT_survived_disaster
+                    AND = {
+                        ruler_age = 18
+                        tag = MRT
+                    }
+                }
             }
         }
         effect = {
