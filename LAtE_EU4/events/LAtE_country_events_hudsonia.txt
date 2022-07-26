@@ -211,3 +211,43 @@ country_event = {
 }
 
 #Posisble event to give accepted culture slot for Deitsch if anabaptist path
+country_event = {
+	id = hudsonia_events.6
+	title = hudsonia_events.6.t
+	desc = hudsonia_events.6.d
+	picture = 11_Jain_Estate_eventPicture
+
+	trigger = {
+		tag	= HUD
+		has_country_flag = anabaptists_accepted
+		calc_true_if = {
+			amount = 4
+			owns_core_province = 2023
+			owns_core_province = 4621
+			owns_core_province = 955
+			owns_core_province = 2557
+			owns_core_province = 4623
+			owns_core_province = 2556
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = hudsonia_events.6.a
+		if = {
+			limit = {
+				NOT = { accepted_culture = deitsch }
+			}
+			add_accepted_culture = deitsch
+		}
+		add_country_modifier = {
+			name = HUD_deitsch_accepted_modifier
+			duration = -1
+		}
+	}
+}
