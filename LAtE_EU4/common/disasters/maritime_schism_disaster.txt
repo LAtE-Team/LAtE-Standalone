@@ -22,12 +22,8 @@ maritime_schism_disaster = {
 		modifier = {
 			factor = 1
 			NOT = {
-				stability = 1
+				stability = 3
 			}
-		}
-		modifier = {
-			factor = -0.5
-			stability = 3
 		}
 		modifier = {
 			factor = 0.5
