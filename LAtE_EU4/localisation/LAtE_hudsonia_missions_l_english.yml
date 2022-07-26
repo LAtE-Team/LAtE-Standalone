@@ -122,6 +122,8 @@
  desc_HUD_ursuline_holy_land:0 "The Ordinate faith reigns supreme in Hudsonia. Where once the anabaptists were tasked with maintaining basic order, the holy orders toil. There is no aspect of daily life where they are not felt."
  HUD_ursuline_churches:0 "Ordinate Churches"
  desc_HUD_ursuline_churches:0 "Ordinate churches have been set up across the land, taking in taxes and dolling out punishments."
+ HUD_deitsch_accepted_modifier:0 "Deitsch Brotherhood"
+ desc_HUD_deitsch_accepted_modifier:0 "As the upholders of Anabaptist rights we have a special brotherhood with the Deitsch."
  EST_ANABAPTIST_CHURCHES_HUD:0 "Anabaptist Churches"
  EST_ANABAPTIST_COURTS_DESC_HUD:0 "Anabaptist Courts"
  EST_ANABAPTIST_COURTS_HUD:0 "Anabaptist Courts"
@@ -152,6 +154,9 @@
  hudsonia_events.5.a:0 "We will take the linen"
  hudsonia_events.5.b:0 "We will study their log books"
  hudsonia_events.5.c:0 "We will study their tools"
+ hudsonia_events.6.t:0 "Our Deitsch Brethren"
+ hudsonia_events.6.d:0 "As we advance into Deitsch territory we have been greeted as liberators by the communities that have still held on to their Anabaptist faith. Because of the interrelation of their faith and culture, these communities have been significantly easier to integrate into our administration. So long as we maintain the status and privileges of the Anabaptists, we can expect greater cooperation from our Deitsch brethren."
+ hudsonia_events.6.a:0 "Excellent"
 
  #Misc
  mercenary_army_reform:0 "Institutional Mercenary Army"
