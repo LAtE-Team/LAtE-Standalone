@@ -1135,7 +1135,7 @@ NEN_generic_religion_tree = {
 	}
 	NEN_build_an_empire = {
 		icon = mission_empire
-		required_missions = { NEN_mission_3 }
+		required_missions = { NEN_establish_religious_unity }
 		position = 4
 		
 		trigger = {
