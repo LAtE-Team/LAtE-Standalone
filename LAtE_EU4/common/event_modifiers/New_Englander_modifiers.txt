@@ -65,3 +65,6 @@ nen_recivilization_of_the_low_countries = {
 	naval_attrition = -0.10
 	global_trade_power = 0.10
 }
+nen_a_stable_nation = {
+	national_unrest = -1.00
+}

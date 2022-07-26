@@ -37,7 +37,8 @@
  nen_foothold_on_the_low_countries_desc: "We have successfully gained a foothold on the Low Countries."
  nen_recivilization_of_the_low_countries: "Re-civilization of the Low Countries"
  nen_recivilization_of_the_low_countries_desc: "We have successfully gained a foothold on the Low Countries."
- 
+ nen_a_stable_nation: "A Stable Nation"
+ nen_a_stable_nation_desc: "We have successfully stabilized our nation by converting our subject to our faith."
  
  #National Ideas
  NEN_ideas: "New Englander Ideas"
@@ -123,7 +124,14 @@
  NEN_colonize_wallonia_desc: "To the East of Flanders lies Wallonia where there is plenty of iron for us to turn into steel. Let us colonize Wallonia to strengthen our military."
  NEN_convert_the_low_countries_title: "Convert the Low Countries"
  NEN_convert_the_low_countries_desc: "Now that we have established a colony in the Low Countries, we should spread our faith to the locals to cement our influence in the region."
- 
+ NEN_prepare_an_army_title: "Prepare an Army"
+ NEN_prepare_an_army_desc: "If we want to conquer other nations, we must prepare our army by recruiting as much men as possible."
+ NEN_find_right_minded_allies_title: "Find Right-minded Allies"
+ NEN_find_right_minded_allies_desc: "To fight alone is difficult, but if we find an ally that share our religion, we could make the conquest easier for us and have someone to back us when we are in trouble."
+ NEN_establish_religious_unity_title: "Establish Religious Unity"
+ NEN_establish_religious_unity_desc: "Since New England contains lots of people that do not always share our faith, conflicts tend to rise. Let us ensure that everyone share the same faith to prevent any sectarian violence occuring in our nation."
+ NEN_build_an_empire_title: " Build an Empire"
+ NEN_build_an_empire_desc: "To build an empire, we must conquer other nations while investing in developments within our own nation."
  #Events
  flavor_NEN.1.TITLE: "Purchase of Aroostook"
  flavor_NEN.1.DESC: "[From.GetName] has offered us a large sum of money in exchange for the northern provinces of Aroostook. Should we accept this offer?"
