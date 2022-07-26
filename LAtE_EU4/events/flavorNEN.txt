@@ -12,17 +12,16 @@ country_event = {
 	option = {	#Accepts ducats in exchange for land
 		name = "flavor_NEN.1.a"
 		ai_chance = {
-			factor = 50
+			factor = 1
 			modifier = { #The Maritimes is under a personal union as a junior partner
+				factor = 50
 				ROOT = {
-					junior_union_under = NEN
+					junior_union_with = NEN
 					NOT = { liberty_desire = 50 }
 				}
 			}
-		}
-		ai_chance = {
-			factor = 2
 			modifier = { #The Maritimes is in debt or broke
+				factor = 2
 				ROOT = {
 					OR = {
 						is_in_deficit = yes
@@ -30,22 +29,18 @@ country_event = {
 					}
 				}
 			}
-		}
-		ai_chance = 
-			factor = 0.5
 			modifier = {
+				factor = 0.5
 				military_strength = {
 					who = FROM
 					value = 2.0
 				}
 			}
-		}
-		ai_chance = {
-			factor = 0
 			modifier = { #The AI hates your gut
+			factor = 0
 				OR = {
 					FROM = {
-					is_rival = yes
+						is_rival = ROOT
 					}
 				}
 				OR = {
@@ -56,7 +51,7 @@ country_event = {
 				}
 				OR = {
 					ROOT = {
-						junior_union_under = NEN
+						junior_union_with = NEN
 						liberty_desire = 50
 					}
 				}
@@ -97,13 +92,14 @@ country_event = {
 		}
 	}
 	option = {	#refuse to take offer
-		name = "flavor_NEN.2.b"
+		name = "flavor_NEN.1.b"
 		ai_chance = {
-			factor = 50
+			factor = 1
 			modifier = { #Aroostook owner hates your gut
+			factor = 50
 				OR = {
 					FROM = {
-					is_rival = yes
+						is_rival = ROOT
 					}
 				}
 				OR = {
@@ -114,24 +110,20 @@ country_event = {
 				}
 				OR = {
 					ROOT = {
-						junior_union_under = NEN
+						junior_union_with = NEN
 						liberty_desire = 50
 					}
 				}
 			}
-		}
-		ai_chance = 
-			factor = 2
 			modifier = {
+				factor = 2
 				military_strength = {
 					who = FROM
 					value = 2.0
 				}
 			}
-		}
-		ai_chance = {
-			factor = 0.5
 			modifier = { #The AI is in debt or broke
+			factor = 0.5
 				ROOT = {
 					OR = {
 						is_in_deficit = yes
@@ -139,12 +131,10 @@ country_event = {
 					}
 				}
 			}
-		}
-		ai_chance = {
-			factor = 0
 			modifier = { #The AI is under a personal union as a junior partner
+			factor = 0
 				ROOT = {
-					junior_union_under = NEN
+					junior_union_with = NEN
 					NOT = { liberty_desire = 50 }
 				}
 			}

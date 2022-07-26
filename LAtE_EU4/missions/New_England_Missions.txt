@@ -1117,19 +1117,18 @@ NEN_generic_religion_tree = {
 		required_missions = { NEN_find_right_minded_allies }
 		position = 3
 		provinces_to_highlight = {
-			all_owned_province = {
-				region = atlantica_region
-				NOT = { religion = ROOT }
-			}
+			owned_by = ROOT
+			region = atlantica_region
+			NOT = { religion = ROOT }
 		}
 		
 		trigger = {
 			religious_unity = 1
 		}
 		effect = {
-			add_country_modifier = 
-			name = NEN_a_stable_nation
-			duration = 9125
+			add_country_modifier = {
+				name = NEN_a_stable_nation
+				duration = 9125
 			}
 		}
 	}

@@ -10,6 +10,6 @@
  VER_vanquish_the_redcoats_title: "Vanquish the Redcoats"
  VER_vanquish_the_redcoats_desc: "Like our ancestors eons ago, let us finish off the Redcoats and drive them to the sea where they came from so that they will never step foot on Yankee soil again."
  VER_reunify_new_england_title: "Reunify New England"
- VER_reunify_new_england_desc: "With the Redcoats driven out of Yankee soil, let us finish off our competitor, the heretics of [Root.MNE.GetName] and their allies, and form New England"
+ VER_reunify_new_england_desc: "With the Redcoats driven out of Yankee soil, let us finish off our competitor, the heretics of [Root.GetName] and their allies, and form New England"
  
  
