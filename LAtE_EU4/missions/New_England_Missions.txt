@@ -748,12 +748,31 @@ NEN_ursuline_relation = {
 				}
 				AND = {
 					NOT = { exists = URS }
+					NOT = { exists = CAN }
+					exists = QUE
 					QUE = {
 						has_opinion = {
 							who = ROOT
 							value = 175
 						}
 					}
+				}
+				AND = {
+					NOT = { exists = URS }
+					NOT = { exists = QUE }
+					exists = CAN
+					CAN = {
+						has_opinion = {
+							who = ROOT
+							value = 175
+						}
+						religion = ursuline
+					}
+				}
+				AND = {
+					NOT = { exists = URS }
+					NOT = { exists = QUE }
+					NOT = { exists = CAN }
 				}
 			}
 		}
@@ -766,7 +785,8 @@ NEN_ursuline_relation = {
 					mutual = yes
 				}
 			}
-			else = {
+			else_if = {
+				limit = { exists = QUE }
 				QUE = { 
 					add_trust = {
 						who = NEN
@@ -774,6 +794,19 @@ NEN_ursuline_relation = {
 						mutual = yes
 					}
 				}
+			}
+			else_if = {
+				limit = { exists = CAN }
+				CAN = { 
+					add_trust = {
+						who = NEN
+						value = 30
+						mutual = yes
+					}
+				}
+			}
+			else = {
+				add_prestige = 10
 			}
 		}
 	}
