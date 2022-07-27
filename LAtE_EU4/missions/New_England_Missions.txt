@@ -340,15 +340,15 @@ NEN_exploration_tree_france = {
 			}
 		}
 		trigger = {
-			normandy_area = { religion = ROOT }
-			brittany_area = { religion = ROOT }
-			picardy_area = { religion = ROOT }
-			seine_area = { religion = ROOT }
-			loire_area = { religion = ROOT }
-			bourgogne_area = { religion = ROOT }
-			guyenne_area = { religion = ROOT }
-			massif_central_area = { religion = ROOT }
-			languedoc_area = { religion = ROOT }
+			normandy_area = { type = all religion = ROOT }
+			brittany_area = { type = all religion = ROOT }
+			picardy_area = { type = all religion = ROOT }
+			seine_area = { type = all religion = ROOT }
+			loire_area = { type = all religion = ROOT }
+			bourgogne_area = { type = all religion = ROOT }
+			guyenne_area = { type = all religion = ROOT }
+			massif_central_area = { type = all religion = ROOT }
+			languedoc_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
@@ -452,10 +452,9 @@ NEN_stabilizing_the_realm = {
 		position = 3
 		provinces_to_highlight = {
 			region = atlantica_region
-			OR = {
-				trade_goods = naval_supplies
-				has_manufactory_trigger = no
-			}
+			owned_by = ROOT
+			trade_goods = naval_supplies
+			has_manufactory_trigger = no
 		}
 		
 		trigger = {
@@ -701,15 +700,15 @@ NEN_exploration_tree_britain = {
 			}
 		}
 		trigger = {
-			western_ireland_area = { religion = ROOT }
-			eastern_ireland_area = { religion = ROOT }
-			highlands_area = { religion = ROOT }
-			lowlands_area = { religion = ROOT }
-			northern_england_area = { religion = ROOT }
-			wales_area = { religion = ROOT }
-			mercia_area = { religion = ROOT }
-			wessex_area = { religion = ROOT }
-			east_anglia_area = { religion = ROOT }
+			western_ireland_area = { type = all religion = ROOT }
+			eastern_ireland_area = { type = all religion = ROOT }
+			highlands_area = { type = all religion = ROOT }
+			lowlands_area = { type = all religion = ROOT }
+			northern_england_area = { type = all religion = ROOT }
+			wales_area = { type = all religion = ROOT }
+			mercia_area = { type = all religion = ROOT }
+			wessex_area = { type = all religion = ROOT }
+			east_anglia_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
@@ -863,10 +862,10 @@ NEN_ursuline_relation = {
 			}
 		}
 		trigger = {
-			restigouche_area = { religion = ROOT }
-			upper_acadia_area = { religion = ROOT }
-			cape_breton_area = { religion = ROOT }
-			nova_scotia_area = { religion = ROOT }
+			restigouche_area = { type = all religion = ROOT }
+			upper_acadia_area = { type = all religion = ROOT }
+			cape_breton_area = { type = all religion = ROOT }
+			nova_scotia_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_accepted_culture = maritimer
@@ -1029,13 +1028,13 @@ NEN_anglican_relation = {
 			}
 		}
 		trigger = {
-			notre_dame_mountains_area = { religion = ROOT }
-			lower_canada_area = { religion = ROOT }
-			laurentian_area = { religion = ROOT }
-			algonquin_area = { religion = ROOT }
-			stadacona_area = { religion = ROOT }
-			shield_area = { religion = ROOT }
-			eeyou_istchee_area = { religion = ROOT }
+			notre_dame_mountains_area = { type = all religion = ROOT }
+			lower_canada_area = { type = all religion = ROOT }
+			laurentian_area = { type = all religion = ROOT }
+			algonquin_area = { type = all religion = ROOT }
+			stadacona_area = { type = all religion = ROOT }
+			shield_area = { type = all religion = ROOT }
+			eeyou_istchee_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_accepted_culture = quebecois
@@ -1250,11 +1249,11 @@ NEN_exploration_tree_low_countries = {
 			}
 		}
 		trigger = {
-			flanders_area = { religion = ROOT }
-			frisia_area = { religion = ROOT }
-			wallonia_area = { religion = ROOT }
-			luxemburg_liege_area = { religion = ROOT }
-			brabant_area = { religion = ROOT }
+			flanders_area = { type = all religion = ROOT }
+			frisia_area = { type = all religion = ROOT }
+			wallonia_area = { type = all religion = ROOT }
+			luxemburg_liege_area = { type = all religion = ROOT }
+			brabant_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
