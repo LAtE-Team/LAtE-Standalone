@@ -693,9 +693,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -715,9 +712,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -729,9 +723,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -876,9 +867,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -892,9 +880,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -902,9 +887,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
