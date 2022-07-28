@@ -41,7 +41,7 @@ nen_twilight_of_the_antiquarian = {
 nen_atlantic_imperialism = {
 	core_creation = -0.20
 }
-nen_avenge_our_ancestor = {
+nen_avenge_the_ancestor = {
 	prestige = 1.00
 	global_missionary_strength = 0.01
 }
