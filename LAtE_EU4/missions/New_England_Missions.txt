@@ -888,7 +888,7 @@ NEN_ursuline_relation = {
 				area = upper_acadia_area
 				area = cape_breton_area
 				area = nova_scotia_area
-				
+				area = aroostook_area
 			}
 			OR = {
 				NOT = { religion = ROOT }
@@ -899,6 +899,7 @@ NEN_ursuline_relation = {
 			upper_acadia_area = { type = all religion = ROOT }
 			cape_breton_area = { type = all religion = ROOT }
 			nova_scotia_area = { type = all religion = ROOT }
+			aroostook_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_accepted_culture = maritimer
@@ -971,8 +972,6 @@ NEN_anglican_relation = {
 			OR = {
 				area = notre_dame_mountains_area
 				area = lower_canada_area
-				area = laurentian_area
-				area = algonquin_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -988,22 +987,13 @@ NEN_anglican_relation = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			laurentian_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			algonquin_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			ONT = {
 				is_lesser_in_union = no
 			}
 		}
 		effect = {
 			stadacona_area = { add_permanent_claim = ROOT }
-			shield_area = { add_permanent_claim = ROOT }
-			eeyou_istchee_area = { add_permanent_claim = ROOT }
+			
 		}
 	}
 	NEN_vanquish_the_ordinate = {
@@ -1013,8 +1003,8 @@ NEN_anglican_relation = {
 		provinces_to_highlight = {
 			OR = {
 				area = stadacona_area
-				area = shield_area
-				area = eeyou_istchee_area
+				area = laurentian_area
+				area = algonquin_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -1025,11 +1015,11 @@ NEN_anglican_relation = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			shield_area = {
+			laurentian_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			eeyou_istchee_area = {
+			algonquin_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1053,8 +1043,6 @@ NEN_anglican_relation = {
 				area = laurentian_area
 				area = algonquin_area
 				area = stadacona_area
-				area = shield_area
-				area = eeyou_istchee_area
 			}
 			OR = {
 				NOT = { religion = ROOT }
@@ -1066,8 +1054,6 @@ NEN_anglican_relation = {
 			laurentian_area = { type = all religion = ROOT }
 			algonquin_area = { type = all religion = ROOT }
 			stadacona_area = { type = all religion = ROOT }
-			shield_area = { type = all religion = ROOT }
-			eeyou_istchee_area = { type = all religion = ROOT }
 		}
 		effect = {
 			add_accepted_culture = quebecois
