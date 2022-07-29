@@ -693,9 +693,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -715,9 +712,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -729,9 +723,6 @@ lady_liberty = {
 				province_is_or_accepts_culture = yes
 			}
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -876,9 +867,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -892,9 +880,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -902,9 +887,6 @@ white_house = {
 		OR = {
 			owner = { tag = USA }
 			province_is_or_accepts_religion = { religion = americanist }
-			province_is_or_accepts_religion = { religion = jeffersonian }
-			province_is_or_accepts_religion = { religion = hamiltonian }
-			province_is_or_accepts_religion = { religion = libertarian }
 		}
 	}
 
@@ -1326,6 +1308,109 @@ holy_name = {
 		country_modifiers = {
 			global_tax_modifier = 0.2
 			global_autonomy = -0.05
+		}
+		on_upgraded = {
+		}
+	}
+}
+
+crimson_library = {
+	start = 968 #Boston
+	date = 1848.01.01	#1640.01.01
+	time = { months = 0	}
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 1
+	type = monument
+
+	build_trigger = {
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+	}
+
+	can_upgrade_trigger = {
+	}
+
+	keep_trigger = {
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+		cost_to_upgrade = {
+			factor = 0
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		cost_to_upgrade = {
+			factor = 1000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_institution_spread = 0.1
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		cost_to_upgrade = {
+			factor = 2500
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_institution_spread = 0.2
+			embracement_cost = -0.05
+		}
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		cost_to_upgrade = {
+			factor = 5000
+		}
+		province_modifiers = {
+		}
+		area_modifier = {
+		}
+		country_modifiers = {
+			global_institution_spread = 0.3
+			embracement_cost = -0.1
+			idea_cost = -0.05
 		}
 		on_upgraded = {
 		}

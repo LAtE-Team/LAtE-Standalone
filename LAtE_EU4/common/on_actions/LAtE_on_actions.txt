@@ -6,6 +6,9 @@ on_startup = {
 		saints.100
 		late_trade.2
 		fixes.1
+		hudsonia_events.1 #Pick a path
+		maritimes_events.6
+		keystone_events.1 
 		#Vanilla
 		muslim_school_events.20 #Pick School
 	}

@@ -1,0 +1,2715 @@
+KEY_missions_accept_anabaptists = {
+	slot = 5                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = AGH
+			tag = KEY
+		}
+		has_country_flag = anabaptists_accepted
+    }
+    
+    KEY_mission_allow_growth = {
+        icon = contracts_of_correspondence
+        position = 1
+                
+        trigger = {
+            has_estate_privilege = estate_anabaptists_allow_growth
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_anabaptists_accept_modifier
+				duration = 7300
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_VAL_ANB_KEY
+				loyalty = 10
+				duration = 7300
+			}
+        }
+    }
+
+    KEY_mission_anabaptists_prosper = {
+        icon = fund_the_monasteries
+		required_missions = {
+			KEY_mission_allow_growth
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					has_province_modifier = anabaptists_present_large
+					has_province_modifier = anabaptists_present_medium
+				}
+			}
+		}
+                
+        trigger = {
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					OR = {
+						has_province_modifier = anabaptists_present_large
+						has_province_modifier = anabaptists_present_medium
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_years_of_income = 0.5
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = anabaptists_present_large
+						has_province_modifier = anabaptists_present_medium
+					}
+				}
+				add_province_modifier = {
+					name = KEY_anabaptists_growth_modifier
+					duration = 7300
+				}
+			}
+        }
+    }
+}
+
+KEY_missions_expel_anabaptists = {
+	slot = 5                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = AGH
+			tag = PHI
+			tag = KEY
+		}
+		NOT = { has_country_flag = anabaptists_accepted }
+    }
+    
+    KEY_mission_expel_from_our_lands = {
+        icon = crush_heretic_strongholds
+        position = 1
+                
+		provinces_to_highlight = {
+			owned_by = ROOT
+			OR = {
+				has_province_modifier = anabaptists_present_large
+				has_province_modifier = anabaptists_present_medium
+				has_province_modifier = anabaptists_present_small				
+			}
+		}
+
+        trigger = {
+			OR = {
+				NOT = {
+					tag = PHI
+				}
+				any_owned_province = {
+					is_core = root
+					area = actual_susquehanna_area
+				}
+				owns_core_province = 4626
+				owns_core_province = 4621
+				owns_core_province = 2023
+				owns_core_province = 4582
+			}
+			all_owned_province = {
+				NOT = {
+					OR = {
+						has_province_modifier = anabaptists_present_large
+						has_province_modifier = anabaptists_present_medium
+						has_province_modifier = anabaptists_present_small
+					}
+				}
+			}
+        }
+        
+        effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = actual_susquehanna_area
+						province_id = 4626
+						province_id = 4621
+						province_id = 2023
+						province_id = 4582	
+					}
+				}
+				add_province_modifier = {
+					name = KEY_cleared_lands_modifier
+					duration = 10950
+				}
+			}
+        }
+    }
+
+    KEY_mission_loot_their_lands = {
+        icon = mission_high_income
+		required_missions = {
+			KEY_mission_expel_from_our_lands
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {	
+				has_building = scavenging_hub
+			}
+		}
+                
+        trigger = {
+			calc_true_if = {
+				amount = 9
+				all_owned_province = {
+					has_building = scavenging_hub
+				}
+			}
+        }
+        
+        effect = {
+			add_years_of_income = 1
+			if = {
+				limit = {
+					has_estate = estate_antiquarians
+				}
+				add_estate_loyalty_modifier = {
+					estate = estate_antiquarians
+					desc = EST_VAL_LOOTED_ANABAPTISTS
+					loyalty = 10
+					duration = 7300
+				}
+				add_estate_loyalty = {
+					estate = estate_antiquarians
+					loyalty = 10
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate = estate_scavengers
+				}
+				add_estate_loyalty_modifier = {
+					estate = estate_scavengers
+					desc = EST_VAL_LOOTED_ANABAPTISTS
+					loyalty = 10
+					duration = 7300
+				}
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = 10
+				}
+			}
+        }
+    }
+}
+
+KEY_missions_churches = {
+	slot = 5                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = DEI
+			tag = AGH
+			tag = PHI
+			tag = KEY
+		}	
+    }
+    
+    KEY_mission_build_churches = {
+        icon = connect_further_austria
+        position = 4
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_missionary_modifier
+				duration = 7300
+			}
+        }
+    }
+}
+
+DEI_missions_1.1 = {
+	slot = 1                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_drill = {
+        icon = mission_assemble_an_army
+        position = 2
+		required_missions = {
+			DEI_mission_prepare_unification
+		}
+
+        trigger = {
+			army_professionalism = 0.2
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_discipline_modifier
+				duration = 10950
+			}
+			
+        }
+    }
+}
+
+DEI_missions_2.1 = {
+	slot = 2                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_prepare_unification = {
+        icon = mission_build_up_to_force_limit
+        position = 1
+
+        trigger = {
+			army_size_percentage = 1
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = thriving_arms_industry
+				duration = 9125
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							province_id = 955
+							province_id = 2023
+							province_id = 4621
+						}
+					}
+				}
+				give_claims = { id = 955 }
+				give_claims = { id = 2023 }
+				give_claims = { id = 4621 }
+				give_claims = { id = 4582 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							province_id = 2556
+							province_id = 4623
+							province_id = 2557
+						}
+					}
+				}
+				give_claims = { id = 2556 }
+				give_claims = { id = 4623 }
+				give_claims = { id = 2557 }
+				give_claims = { id = 4579 }
+			}
+        }
+    }
+
+    DEI_mission_take_half = {
+        icon = mission_conquer_50_development
+		required_missions = {
+			DEI_mission_prepare_unification
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					ROOT = {
+						capital_scope = {
+							OR = {
+								province_id = 2556
+								province_id = 4623
+								province_id = 2557
+							}														
+						}
+					}
+					OR = {
+						province_id = 2556
+						province_id = 4623
+						province_id = 2557
+					}
+				}
+				AND = {
+					ROOT = {
+						capital_scope = {
+							OR = {
+								province_id = 955
+								province_id = 2023
+								province_id = 4621
+							}														
+						}
+					}
+					OR = {
+						province_id = 955
+						province_id = 2023
+						province_id = 4621
+					}
+				}
+			}
+			NOT = { owned_by = ROOT }
+		}
+                
+        trigger = {
+			OR = {
+				AND = {
+					capital_scope = {
+						OR = {
+							province_id = 2556
+							province_id = 4623
+							province_id = 2557
+						}
+					}
+					owns = 2556
+					owns = 4623
+					owns = 2557
+				}
+				AND = {
+					capital_scope = {
+						OR = {
+							province_id = 955
+							province_id = 2023
+							province_id = 4621
+						}
+					}
+					owns = 955
+					owns = 2023
+					owns = 4621
+				}
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							province_id = 955
+							province_id = 2023
+							province_id = 4621
+						}
+					}
+					owns = 955
+					owns = 2023
+					owns = 4621
+				}
+				if = {
+					limit = {
+						has_country_flag = anabaptists_accepted
+					}
+					955 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					2023 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					4621 = {
+						anabaptists_estate_growth_effect = yes
+					}
+				}
+				else = {
+					955 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					2023 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					4621 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+				}
+				give_claims = { id = 2556 }
+				give_claims = { id = 4623 }
+				give_claims = { id = 2557 }
+				give_claims = { id = 4579 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							province_id = 2556
+							province_id = 4623
+							province_id = 2557
+						}
+					}
+					owns = 2556
+					owns = 4623
+					owns = 2557
+				}
+				if = {
+					limit = {
+						has_country_flag = anabaptists_accepted
+					}
+					2556 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					4623 = {
+						anabaptists_estate_growth_effect = yes
+					}
+					2557 = {
+						anabaptists_estate_growth_effect = yes
+					}
+				}
+				else = {
+					2556 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					4623 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+					2557 = {
+						anabaptists_estate_shrink_effect = yes
+					}
+				}
+				give_claims = { id = 955 }
+				give_claims = { id = 2023 }
+				give_claims = { id = 4621 }
+				give_claims = { id = 4582 }
+			}
+        }
+    }
+}
+
+DEI_missions_3.1 = {
+	slot = 3                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_improve_capital = {
+        icon = mission_colonial
+        position = 1
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+			NOT = { num_of_times_improved_by_owner = 5 }
+		}
+
+        trigger = {
+			capital_scope = {
+				num_of_times_improved_by_owner = 5
+			}
+        }
+        
+        effect = {
+			capital_scope = {
+				add_province_modifier = {
+					name = growth_of_capital
+					duration = 9125
+				}
+			}
+        }
+    }
+}
+
+DEI_missions_4.1 = {
+	slot = 4                   # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				primary_culture = deitsch
+				capital_scope = {
+					region = atlantica_region
+				}
+			}
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_stab_up = {
+        icon = mission_monarch_in_throne_room
+        position = 1
+
+        trigger = {
+			stability = 1
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_institution = renaissance }
+				}
+				add_country_modifier = {
+					name = DEI_advisor_cost_modidifer
+					duration = 7300
+				}
+			}
+			else = {
+				add_years_of_income = 0.5
+				add_adm_power = 50
+			}
+        }
+    }
+
+	DEI_mission_advisors = {
+        icon = mission_alliances
+		required_missions = {
+			DEI_mission_stab_up
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 2
+				employed_advisor = {
+					category = ADM
+				}
+				employed_advisor = {
+					category = DIP
+				}
+				employed_advisor = {
+					category = MIL
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_institution_modifier
+				duration = 7300
+			}
+        }
+    }
+}
+
+DEI_missions_1.2 = {
+	slot = 1                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_cannons = {
+        icon = mission_cannons_firing
+        position = 3
+		required_missions = {
+			DEI_mission_drill
+		}
+
+        trigger = {
+			num_of_artillery = 6
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_siege_modifier
+				duration = 10950
+			}
+        }
+    }
+}
+
+DEI_missions_2.2 = {
+	slot = 2                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_unify_deitscherei = {
+        icon = mission_italian_condottiere
+        position = 3
+		required_missions = {
+			DEI_mission_take_half
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2556
+				province_id = 4623
+				province_id = 2557
+				province_id = 955
+				province_id = 2023
+				province_id = 4621
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			owns = 955
+			owns = 2023
+			owns = 4621
+			owns = 2556
+			owns = 4623
+			owns = 2557
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_ccr_modifier
+				duration = 10950
+			}
+			give_claims = { area = susquehanna_area }
+			give_claims = { id = 4577 }
+        }
+    }
+
+    DEI_mission_take_allegheny = {
+        icon = consolidate_the_stadholders
+		required_missions = {
+			DEI_mission_unify_deitscherei
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = susquehanna_area
+				province_id = 4577
+			}
+			NOT = { owned_by = ROOT }
+		}
+                
+        trigger = {
+			susquehanna_area = {
+				owned_by = ROOT
+			}
+			owns = 4577
+        }
+        
+        effect = {
+			add_adm_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = KEY_prod_eff_modifier
+				duration = 7300
+			}
+			give_claims = { id = 956 }
+			give_claims = { id = 2554 }
+        }
+    }
+}
+
+DEI_missions_3.2 = {
+	slot = 3                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_workshops = {
+        icon = mission_early_game_buildings
+        position = 3
+		required_missions = {
+			DEI_mission_improve_capital
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 6
+				all_owned_province = {
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_development_modifier
+				duration = 7300
+			}
+        }
+    }
+
+    DEI_mission_improve_deitscherei = {
+        icon = mission_rb_import_potatoes
+		required_missions = {
+			DEI_mission_workshops
+			DEI_mission_unify_deitscherei
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			OR = {
+				province_id = 2556
+				province_id = 4623
+				province_id = 2557
+				province_id = 955
+				province_id = 2023
+				province_id = 4621
+			}
+			NOT = { 
+				development = 12
+			}
+		}
+                
+        trigger = {
+			2556 = { 
+				development = 12
+			}
+			4623 = { 
+				development = 12
+			}
+			2557 = { 
+				development = 12
+			}
+			955 = { 
+				development = 12
+			}
+			2023 = { 
+				development = 12
+			}
+			4621 = { 
+				development = 12
+			}
+		}
+        
+        effect = {
+			2556 = {
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			4623 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			2557 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			955 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			2023 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+			4621 = { 
+				add_province_modifier = {
+					name = DEI_homeland_modifier
+					duration = -1
+				} 
+			}
+        }
+    }
+}
+
+DEI_missions_4.2 = {
+	slot = 4                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = DEI
+			tag = KEY
+		}	
+		NOT = { was_tag = AGH }
+		NOT = { was_tag = PHI }
+    }
+    
+    DEI_mission_embrace_renaissance = {
+        icon = continue_the_renaissance
+        position = 3
+		required_missions = {
+			DEI_mission_advisors
+		}
+
+        trigger = {
+			has_institution = renaissance
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_construction_modifier
+				duration = 10950
+			}
+        }
+    }
+
+	DEI_mission_courthouses = {
+        icon = join_the_reformation
+		required_missions = {
+			DEI_mission_embrace_renaissance
+		}
+
+		provinces_to_highlight = {
+			owned_by = root
+			NOT = {
+				OR = {
+					has_building = courthouse
+					has_building = town_hall
+				}
+			}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					OR = {
+						has_building = courthouse
+						has_building = town_hall
+					}
+				}
+			}
+		}
+        
+        effect = {
+			add_country_modifier = {
+				name = DEI_governing_modifier
+				duration = -1
+			}
+		}
+    }
+}
+
+AGH_missions_1 = {
+	slot = 1                   # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = AGH
+			tag = KEY
+		}	
+		OR = {
+			was_tag = AGH
+			tag = AGH
+		}
+    }
+
+    AGH_mission_drill = {
+        icon = mission_assemble_an_army
+        position = 2
+		required_missions = {
+			AGH_mission_grow_army
+		}
+
+        trigger = {
+			army_professionalism = 0.2
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_discipline_modifier
+				duration = 10950
+			}
+        }
+    }
+
+    AGH_mission_cannons = {
+        icon = mission_cannons_firing
+		required_missions = {
+			AGH_mission_drill
+		}
+
+        trigger = {
+			num_of_artillery = 6
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_siege_modifier
+				duration = 10950
+			}
+        }
+    }
+
+	AGH_mission_retake_niagara = {
+        icon = mission_impaled_soldies
+		required_missions = {
+			AGH_mission_cannons
+		}
+
+		provinces_to_highlight = {
+			province_id = 4578
+			NOT = { owned_by = root }
+		}
+                
+        trigger = {
+			owns = 4578
+		}
+        
+        effect = {
+			add_country_modifier = {
+				name = AGH_morale_modifier
+				duration = -1
+			}
+        }
+    }
+}
+
+AGH_missions_2 = {
+	slot = 2                   # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = AGH
+			tag = KEY
+		}	
+		OR = {
+			was_tag = AGH
+			tag = AGH
+		}
+    }
+
+    AGH_mission_grow_army = {
+        icon = mission_build_up_to_force_limit
+        position = 1
+
+        trigger = {
+			army_size_percentage = 1
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = thriving_arms_industry
+				duration = 9125
+			}	
+			give_claims = { id = 4579 }
+			give_claims = { id = 2557 }
+			give_claims = { id = 4623 }
+			give_claims = { id = 2556 }
+		}
+    }
+
+    AGH_mission_take_susquehanna = {
+        icon = mission_conquer_50_development
+		required_missions = {
+			AGH_mission_grow_army
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4579
+				province_id = 2557
+				province_id = 4623
+				province_id = 2556
+			}
+			NOT = { owned_by = ROOT }
+		}
+                
+        trigger = {
+			owns = 4579
+			owns = 2557
+			owns = 4623
+			owns = 2556
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_ccr_modifier
+				duration = 10950
+			}
+			give_claims = { id = 955 }
+			give_claims = { id = 4582 }
+			give_claims = { id = 2023 }
+			give_claims = { id = 4621 }
+        }
+    }
+
+	AGH_mission_take_delaware = {
+        icon = consolidate_the_stadholders
+        position = 3
+		required_missions = {
+			AGH_mission_take_susquehanna
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 955
+				province_id = 4582
+				province_id = 2023
+				province_id = 4621
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			owns = 955
+			owns = 4582
+			owns = 2023
+			owns = 4621
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					has_country_flag = anabaptists_accepted
+				}
+				955 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2023 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				4621 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2556 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				4623 = {
+					anabaptists_estate_growth_effect = yes
+				}
+				2557 = {
+					anabaptists_estate_growth_effect = yes
+				}
+			}
+			else = {
+				955 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2023 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				4621 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2556 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				4623 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+				2557 = {
+					anabaptists_estate_shrink_effect = yes
+				}
+			}
+			give_claims = { id = 956 }
+			give_claims = { id = 2554 }
+        }
+    }
+}
+
+AGH_missions_3 = {
+	slot = 3                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = AGH
+			tag = KEY
+		}	
+		OR = {
+			was_tag = AGH
+			tag = AGH
+		}
+    }
+    
+    AGH_mission_improve_capital = {
+        icon = mission_colonial
+        position = 1
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+			NOT = { num_of_times_improved_by_owner = 5 }
+		}
+
+        trigger = {
+			capital_scope = {
+				num_of_times_improved_by_owner = 5
+			}
+        }
+        
+        effect = {
+			capital_scope = {
+				add_province_modifier = {
+					name = growth_of_capital
+					duration = 9125
+				}
+			}
+        }
+    }
+
+	AGH_mission_improve_pittsburgh = {
+        icon = develop_the_po_valley
+		required_missions = {
+			AGH_mission_improve_capital
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			province_id = 4624
+			NOT = { num_of_times_improved_by_owner = 5 }
+		}
+
+        trigger = {
+			4624 = {
+				num_of_times_improved_by_owner = 5
+			}
+        }
+        
+        effect = {
+			4624 = {
+				add_province_modifier = {
+					name = AGH_pittsburgh_modifier
+					duration = -1
+				}
+			}
+        }
+    }
+
+	AGH_mission_develop_rust = {
+        icon = mission_rb_import_potatoes
+		required_missions = {
+			AGH_mission_improve_pittsburgh
+		}
+
+		provinces_to_highlight = {
+			owned_by = root
+			OR = {
+				trade_goods = iron
+				trade_goods = copper
+			}
+			NOT = { development = 12}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 6
+				all_owned_province = {
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+					}
+					development = 12
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = KEY_construction_modifier
+				duration = 10950
+			}
+		}
+    
+    }
+}
+
+AGH_missions_4 = {
+	slot = 4                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = AGH
+			tag = KEY
+		}	
+		OR = {
+			was_tag = AGH
+			tag = AGH
+		}
+    }
+
+	AGH_mission_alliances = {
+        icon = mission_alliances
+		position = 1
+		
+        provinces_to_highlight = {
+			OR = {
+				owned_by = CLE
+				owned_by = OHI
+			}
+        }
+   
+        trigger = {
+            OR = {
+				AND = {
+					exists = CLE
+					CLE = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				is_rival = CLE
+				NOT = { exists = CLE }
+			}
+			OR = {
+				AND = {
+					exists = OHI
+					OHI = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				is_rival = OHI
+				NOT = { exists = OHI }
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					is_rival = OHI
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = OHI
+				}
+			}
+			else_if = {
+				limit = {
+					OHI = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				add_favors = {
+					who = OHI
+					amount = 10
+				}
+			}
+			else = {
+				ohio_country_area = {
+					if = {
+						limit = {
+							NOT = { is_claim = root }
+						}
+						add_claim = root
+					}
+				}
+			}
+			if = {
+				limit = {
+					is_rival = CLE
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = CLE
+				}
+			}
+			else_if = {
+				limit = {
+					CLE = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				add_favors = {
+					who = CLE
+					amount = 10
+				}
+			}
+			else = {
+				cleveland_area = {					
+					if = {
+						limit = {
+							NOT = { is_claim = root }
+						}
+						add_claim = root
+					}
+				}
+			}
+        }
+    }
+
+	AGH_mission_transallegheny = {
+        icon = mission_have_two_subjects
+		required_missions = {
+			AGH_mission_alliances
+		}
+                
+        provinces_to_highlight = {
+			owned_by = Y28
+        }
+   
+        trigger = {
+			OR = {
+				AND = {
+					exists = Y28
+					OHI = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				is_rival = Y28
+				NOT = { exists = Y28 }
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					exists = Y28
+					NOT = {
+						is_rival = Y28
+					}
+				}
+				Y28 = {
+					country_event = {
+						id = keystone_events.2
+					}
+				}
+			}
+			else = {
+				give_claims = { area = appalachia_area }
+			}
+        }
+    }
+    
+    AGH_mission_embrace_renaissance = {
+        icon = continue_the_renaissance
+
+        trigger = {
+			has_institution = renaissance
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_development_modifier
+				duration = 10950
+			}
+        }
+    }
+
+	AGH_mission_workshops = {
+        icon = mission_early_game_buildings
+		required_missions = {
+			AGH_mission_develop_rust
+			AGH_mission_embrace_renaissance
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			OR = {
+				trade_goods = iron
+				trade_goods = copper
+			}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 6
+				all_owned_province = {
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_prod_eff_modifier
+				duration = 7300
+			}
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = iron
+							trade_goods = copper
+						}
+						development = 12
+						NOT = {
+							has_province_modifier = AGH_factories_modifier
+						}
+					}
+					add_province_modifier = {
+						name = AGH_factories_modifier
+						duration = -1
+					}
+				}
+			}
+			custom_tooltip = AGH_FACTORIES_MISSION_TT
+		}
+    }
+}
+
+PHI_missions_1 = {
+	slot = 1                   # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = PHI
+			tag = KEY
+		}	
+		OR = {
+			was_tag = PHI
+			tag = PHI
+		}
+    }
+
+    PHI_mission_drill = {
+        icon = mission_assemble_an_army
+        position = 2
+		required_missions = {
+			PHI_mission_grow_army
+		}
+
+        trigger = {
+			army_professionalism = 0.2
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_discipline_modifier
+				duration = 10950
+			}
+        }
+    }
+
+    PHI_mission_cannons = {
+        icon = mission_cannons_firing
+		required_missions = {
+			PHI_mission_drill
+		}
+
+        trigger = {
+			num_of_artillery = 6
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_siege_modifier
+				duration = 10950
+			}
+        }
+    }
+}
+
+PHI_missions_2 = {
+	slot = 2                   # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = PHI
+			tag = KEY
+		}	
+		OR = {
+			was_tag = PHI
+			tag = PHI
+		}
+    }
+
+    PHI_mission_grow_army = {
+        icon = mission_build_up_to_force_limit
+        position = 1
+
+        trigger = {
+			army_size_percentage = 1
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = thriving_arms_industry
+				duration = 9125
+			}	
+			give_claims = { id = 4582 }
+			give_claims = { id = 2023 }
+			give_claims = { id = 4621 }
+		}
+    }
+
+    PHI_mission_take_delaware = {
+        icon = mission_conquer_50_development
+		required_missions = {
+			PHI_mission_grow_army
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4582
+				province_id = 2023
+				province_id = 4621
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			owns = 4582
+			owns = 2023
+			owns = 4621
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_ccr_modifier
+				duration = 10950
+			}
+			give_claims = { area = actual_susquehanna_area }
+        }
+    }
+
+	PHI_mission_take_susquehanna = {
+        icon = mission_italian_condottiere
+        position = 3
+		required_missions = {
+			PHI_mission_take_delaware
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = actual_susquehanna_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			actual_susquehanna_area = {
+				type = all
+				owned_by = ROOT
+			}
+        }
+        
+        effect = {
+			955 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			2023 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			4621 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			2556 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			4623 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			2557 = {
+				anabaptists_estate_shrink_effect = yes
+			}
+			give_claims = { area = susquehanna_area }
+        }
+    }
+
+	PHI_mission_take_allegheny = {
+        icon = consolidate_the_stadholders
+        position = 3
+		required_missions = {
+			PHI_mission_take_susquehanna
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = susquehanna_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			susquehanna_area = {
+				type = all
+				owned_by = ROOT
+			}
+        }
+        
+        effect = {
+			add_adm_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = KEY_prod_eff_modifier
+				duration = 7300
+			}
+			give_claims = { id = 4577 }
+			give_claims = { id = 2554 }
+        }
+    }
+}
+
+PHI_missions_3 = {
+	slot = 3                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = PHI
+			tag = KEY
+		}	
+		OR = {
+			was_tag = PHI
+			tag = PHI
+		}
+    }
+    
+    PHI_mission_improve_capital = {
+        icon = mission_colonial
+        position = 1
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			province_id = 956
+			NOT = { num_of_times_improved_by_owner = 5 }
+		}
+
+        trigger = {
+			956 = {
+				num_of_times_improved_by_owner = 5
+				owned_by = ROOT
+			}
+        }
+        
+        effect = {
+			956 = {
+				add_province_modifier = {
+					name = PHI_capital_modifier_1
+					duration = -1
+				}
+			}
+        }
+    }
+
+	PHI_mission_marketplace = {
+        icon = develop_the_po_valley
+		required_missions = {
+			PHI_mission_improve_capital
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			province_id = 956
+			NOT = { 
+				OR = {
+					has_building = marketplace 
+					has_building = trade_depot
+				}
+			}
+		}
+
+        trigger = {
+			956 = {
+				owned_by = ROOT
+				OR = {
+					has_building = marketplace 
+					has_building = trade_depot
+				}
+			}
+        }
+        
+        effect = {
+			956 = {
+				remove_province_modifier = PHI_capital_modifier_1
+				add_province_modifier = {
+					name = PHI_capital_modifier_2
+					duration = -1
+				}
+			}
+        }
+    }
+
+	PHI_mission_shipyard = {
+        icon = mission_early_game_buildings
+		required_missions = {
+			PHI_mission_marketplace
+		}
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			province_id = 956
+			NOT = { 
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+			}
+		}
+
+        trigger = {
+			956 = {
+				owned_by = ROOT
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+			}
+		}
+
+		effect = {
+			956 = {
+				remove_province_modifier = PHI_capital_modifier_2
+				add_province_modifier = {
+					name = PHI_capital_modifier_3
+					duration = -1
+				}
+			}
+		}
+    
+    }
+
+	PHI_mission_fleet = {
+        icon = mission_galleys_in_port
+		required_missions = {
+			PHI_mission_shipyard
+		}
+
+        trigger = {
+			num_of_light_ship = 20 
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = PHI_fleet_modifier
+				duration = 10950
+			}
+		}
+    
+    }
+}
+
+PHI_missions_4 = {
+	slot = 4                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = PHI
+			tag = KEY
+		}	
+		OR = {
+			was_tag = PHI
+			tag = PHI
+		}
+    }
+
+	PHI_mission_barracks = {
+        icon = mission_have_two_subjects
+		position = 2
+		required_missions = {
+			PHI_mission_improve_capital
+		}
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+			NOT = { 
+				OR = {
+					has_building = barracks 
+					has_building = training_fields
+				}
+				OR = {
+					has_building = regimental_camp
+					has_building = conscription_center
+					base_manpower = 10
+				}
+			}
+		}
+
+        trigger = {
+			capital_scope = {
+				OR = {
+					has_building = barracks 
+					has_building = training_fields
+				}
+				OR = {
+					has_building = regimental_camp
+					has_building = conscription_center
+					base_manpower = 10
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = PHI_recruitment_modifier
+				duration = 7300
+			}
+        }
+    }
+    
+    PHI_mission_embrace_renaissance = {
+        icon = continue_the_renaissance
+
+        trigger = {
+			has_institution = renaissance
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_development_modifier
+				duration = 10950
+			}
+        }
+    }
+
+	PHI_mission_develop_countryside = {
+        icon = mission_rb_import_potatoes
+		required_missions = {
+			PHI_mission_shipyard
+			PHI_mission_embrace_renaissance
+		}
+
+		provinces_to_highlight = {
+			owned_by = root
+			NOT = { development = 12}
+		}
+
+        trigger = {
+			calc_true_if = {
+				amount = 8
+				all_owned_province = {
+					development = 12
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = KEY_construction_modifier
+				duration = 10950
+			}
+		}
+    }
+}
+
+KEY_missions_1= {
+	slot = 1                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = KEY
+		}	
+    }
+    
+    KEY_mission_philadelphia = {
+        icon = capture_adriatic_ports
+        position = 5
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 956
+				province_id = 4622
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			owns = 956
+			owns = 4622
+        }
+        
+        effect = {
+			956 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 7300
+				}
+			}
+			add_country_modifier = {
+				name = KEY_trade_steering_modifier
+				duration = 7300
+			}
+			give_claims = { area = gotham_area }
+		}
+    }
+
+    KEY_mission_gotham = {
+        icon = mission_galleys_in_port
+		position = 7
+		required_missions = {
+			KEY_mission_philadelphia
+		}
+
+		provinces_to_highlight = {
+			province_id = 965
+			NOT = {
+				AND = {
+					OR = {
+						has_building = dock
+						has_building = drydock
+					}
+					OR = {
+						has_building = shipyard
+						has_building = grand_shipyard
+					}
+				}
+			}
+		}
+                
+        trigger = {
+			965 = {
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+        }
+        
+        effect = {
+			965 = {
+				add_province_modifier = {
+					name = HUD_manhattan_docks
+					duration = -1
+				}
+			}
+			create_explorer = {
+				tradition = 60
+			}
+        }
+    }
+
+	KEY_mission_colonization = {
+        icon = bavarian_cultural_dominance
+		required_missions = {
+			KEY_mission_gotham
+		}
+                
+        provinces_to_highlight = {
+			colonial_region = colonial_Germany
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+			any_known_country = {
+				is_colonial_nation_of = ROOT
+				capital_scope = {
+					colonial_region = colonial_Germany
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_accross_the_ocean
+				duration = 7300
+			}
+        }
+    }
+}
+
+KEY_missions_2 = {
+	slot = 2                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = KEY
+		}	
+    }
+    
+    KEY_mission_baltimore = {
+        icon = fight_bosnian_heresies
+        position = 5
+
+		provinces_to_highlight = {
+			province_id = 2554
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+			owns = 2554
+        }
+        
+        effect = {
+			2554 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 7300
+				}
+			}
+			give_claims = { area = delmarva_area }
+			give_claims = { area = maryland_area }
+			give_claims = { area = the_sidelings_area }
+		}
+    }
+
+    KEY_mission_washington = {
+        icon = Control_Junkers
+		required_missions = {
+			KEY_mission_baltimore
+		}
+
+		provinces_to_highlight = {
+			province_id = 4618
+			NOT = { owned_by = ROOT }
+		}
+                
+        trigger = {
+			owns = 4618
+        }
+        
+        effect = {
+			country_event = {
+				id = keystone_events.4
+			}
+        }
+    }
+
+	KEY_mission_trade = {
+        icon = mission_dominate_home_trade_node
+		position = 8
+		required_missions = {
+			KEY_mission_washington
+			KEY_mission_gotham
+			KEY_mission_hudsonia	
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4583
+				province_id = 965
+				province_id = 956
+				province_id = 2554
+				province_id = 4624
+			}
+			NOT = {
+				AND = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+					province_has_center_of_trade_of_level = 2
+					base_production = 10
+				}
+			}
+		}
+                
+        trigger = {
+			4583 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			965 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			956 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			2554 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			4624 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_trade_modifier
+				duration = 7300
+			}
+        }
+    }
+}
+
+KEY_missions_3 = {
+	slot = 3                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = KEY
+		}	
+    }
+    
+    KEY_mission_fortify_north = {
+        icon = fortress_of_belgrade
+        position = 6
+
+		provinces_to_highlight = {
+			owned_by = ROOT
+			OR = {
+				province_id = 4577
+				province_id = 4578
+				province_id = 4626
+				province_id = 4579
+				province_id = 4582
+				province_id = 4622
+				province_id = 2639
+				province_id = 965
+			}
+			NOT = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+		}
+
+        trigger = {
+			OR = {
+				NOT = { exists = HUD }
+				any_owned_province = {
+					OR = {
+						province_id = 4577
+						province_id = 4578
+						province_id = 4626
+						province_id = 4579
+						province_id = 4582
+						province_id = 4622
+						province_id = 2639
+						province_id = 965
+					}
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_fort_modifier
+				duration = 7300
+			}
+			give_claims = { area = hudson_valley_area }
+			give_claims = { area = niagara_area }
+			give_claims = { area = iroquoisia_area }
+		}
+    }
+
+    KEY_mission_hudsonia = {
+        icon = mission_unite_home_region
+		required_missions = {
+			KEY_mission_fortify_north
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = hudson_valley_area
+				area = niagara_area
+				area = iroquoisia_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+                
+        trigger = {
+			hudson_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			niagara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			iroquoisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+        }
+        
+        effect = {
+			give_claims = { area = connecticut_valley_area }
+			give_claims = { area = vermont_area }
+			give_claims = { area = massachusetts_bay_area }
+			give_claims = { area = new_hampshire_area }
+			give_claims = { area = maine_area }
+			give_claims = { area = aroostook_area }
+        }
+    }
+}
+
+KEY_missions_4 = {
+	slot = 4                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = KEY
+		}	
+    }
+
+    KEY_mission_build_manufactories = {
+        icon = mission_have_manufactories
+		position = 6
+		provinces_to_highlight = {
+			owned_by = root
+			has_manufactory_trigger = no
+		}
+                
+        trigger = {
+			calc_true_if = {
+				amount = 8
+				all_owned_province = {
+					has_manufactory_trigger = yes
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_trade_goods_modifier
+				duration = 10950
+			}
+        }
+    }
+
+	KEY_mission_build_universities = {
+        icon = bibliotheca_corviana
+		required_missions = {
+			KEY_mission_build_manufactories
+			KEY_mission_religious_effects
+		}
+
+		provinces_to_highlight = {
+			owned_by = root
+			NOT = { has_building = university }
+		}
+                
+        trigger = {
+			calc_true_if = {
+				amount = 3
+				all_owned_province = {
+					has_building = university
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_university_modifier
+				duration = 7300
+			}
+        }
+    }
+}
+
+KEY_missions_5 = {
+	slot = 5                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = KEY
+		}	
+    }
+    
+    KEY_mission_convert_keystone = {
+        icon = mission_hands_praying
+        position = 5
+		required_missions = {
+			KEY_mission_build_churches
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = susquehanna_area
+				area = actual_susquehanna_area
+				area = delaware_valley_area
+				province_id = 4577
+			}
+			NOT = {
+				religion = root
+			}
+		}
+
+        trigger = {
+			susquehanna_area = {
+				type = all
+				owned_by = root
+				religion = root
+			}
+			actual_susquehanna_area = {
+				type = all
+				owned_by = root
+				religion = root
+			}
+			delaware_valley_area = {
+				type = all
+				owned_by = root
+				religion = root
+			}
+			4577 = { 
+				owned_by = root
+				religion = root 
+			}
+		}
+        
+        effect = {
+			add_country_modifier = {
+				name = KEY_religious_unity_modifier
+				duration = 10950
+			}
+		}
+    }
+
+    KEY_mission_religious_effects = {
+        icon = all_bases_covered
+		required_missions = {
+			KEY_mission_convert_keystone
+		}
+                
+        trigger = {
+			OR = {
+				has_country_flag = rust_cult_improvements_4
+				has_country_flag = rust_cult_improvements_3
+				AND = {
+					susquehanna_area = {
+						has_state_patriach = yes
+					}
+					actual_susquehanna_area = {
+						has_state_patriach = yes
+					}
+					delaware_valley_area ={
+						has_state_patriach = yes
+					}
+				}
+			}
+        }
+        
+        effect = {
+			country_event = {
+				id = keystone_events.5
+			}
+        }
+    }
+}

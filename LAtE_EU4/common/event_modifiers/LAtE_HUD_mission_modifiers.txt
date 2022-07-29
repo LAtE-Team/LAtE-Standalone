@@ -1,0 +1,107 @@
+HUD_fort_modifier = {
+	local_defensiveness = 0.1
+	garrison_growth = 0.05
+}
+
+HUD_fort_maintenance_modifier = {
+	fort_maintenance_modifier = -0.5
+}
+
+HUD_trade_modifier = {
+	trade_efficiency = 0.2
+}
+
+HUD_mercenary_roster = {
+	mercenary_manpower = 0.15
+}
+
+HUD_anabaptist_cooperation = {
+	build_cost = -0.10
+	production_efficiency = 0.1
+}
+
+HUD_anabaptist_churches = {
+	global_tax_modifier = 0.10
+	development_cost = -0.10
+}
+
+HUD_anabaptist_courts = {
+	global_autonomy = -0.05
+}
+
+HUD_first_factory = {
+	trade_goods_size_modifier = 0.25
+}
+
+HUD_first_factories = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+HUD_eager_army = {
+	land_morale = 0.05
+}
+
+HUD_growing_momentum = {
+	core_creation = -0.1
+	province_warscore_cost = -0.1
+}
+
+HUD_manhattan_docks = {
+	local_ship_cost = -0.2
+	local_ship_repair = 0.2
+	ship_recruit_speed = -0.2
+}
+
+HUD_accross_the_ocean = {
+	global_colonial_growth = 30
+}
+
+HUD_coastal_cities = {
+	local_development_cost = -0.1
+}
+
+HUD_tade_hubs = {
+	province_trade_power_value = 10
+}
+
+HUD_hudsonian_empire = {
+	administrative_efficiency = 0.05
+}
+
+HUD_diplomacy = {
+	improve_relation_modifier = 0.15
+}
+
+HUD_honour = {
+	diplomatic_reputation = 2
+}
+
+HUD_culture = {
+	local_culture_conversion_cost = -0.5
+}
+
+HUD_liberty_desire = {
+	liberty_desire = -50
+}
+
+HUD_trade_steering = {
+	trade_steering = 0.15
+	global_tariffs = 0.25
+}
+
+HUD_cleared_land = {
+	development_cost = -0.2
+}
+
+HUD_ursuline_holy_land = {
+	tolerance_own = 2
+}
+
+HUD_ursuline_churches = {
+	global_tax_modifier = 0.15
+	harsh_treatment_cost = -0.33
+}
+
+HUD_deitsch_accepted_modifier = {
+	num_accepted_cultures = 1
+}

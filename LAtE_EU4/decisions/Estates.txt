@@ -308,6 +308,7 @@ country_decisions = {
 				has_country_flag = anabaptists_accepted
 				has_country_flag = anabaptists_rejected
 			}
+			NOT = { tag = HUD }
 		}
 		allow = {
 			stability = 1

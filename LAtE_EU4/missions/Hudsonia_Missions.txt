@@ -1,0 +1,1797 @@
+HUD_missions_1 = {
+	slot = 1                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = yes  # Whether to display the country shield on the icon.    
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_claims = {
+        icon = mission_unite_home_region
+        position = 1
+                
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4579
+				province_id = 4582
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+            OR = {
+				4579 = {
+					is_claim = ROOT
+				}
+				4582 = {
+					is_claim = ROOT
+				}
+				AND = {
+					owns_or_non_sovereign_subject_of  = 4579
+					owns_or_non_sovereign_subject_of  = 4582
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_eager_army
+				duration = 3650
+			}
+			give_claims = { id = 4579 }
+			give_claims = { id = 4582 }
+        }
+    }
+
+	HUD_mission_cores = {
+        icon = mission_conquer_50_development
+		required_missions = {
+			HUD_mission_claims
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4579
+				province_id = 4582
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+			owns_or_non_sovereign_subject_of  = 4579
+			owns_or_non_sovereign_subject_of  = 4582
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				4579 = { anabaptists_estate_growth_effect = yes }
+				4582 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = HUD_ursuline_dominance
+				}
+				4579 = { anabaptists_estate_shrink_effect = yes }
+				4582 = { anabaptists_estate_shrink_effect = yes }
+			}
+			give_claims = { id = 2023 }
+			give_claims = { id = 4621 }
+			give_claims = { id = 955 }
+			give_claims = { id = 2557 }
+			give_claims = { id = 4623 }
+			give_claims = { id = 2556 }
+        }
+    }
+
+	HUD_mission_deitscherei = {
+        icon = mission_cannons_firing
+		required_missions = {
+			HUD_mission_cores
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				province_id = 2023
+				province_id = 4621
+				province_id = 955
+				province_id = 2557
+				province_id = 4623
+				province_id = 2556
+			}
+			NOT = {
+				is_core = root
+				owned_by = root
+			}
+        }
+   
+        trigger = {
+			owns_or_non_sovereign_subject_of  = 2023
+			owns_or_non_sovereign_subject_of  = 4621
+			owns_or_non_sovereign_subject_of  = 955
+			owns_or_non_sovereign_subject_of  = 2557
+			owns_or_non_sovereign_subject_of  = 4623
+			owns_or_non_sovereign_subject_of  = 2556
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				2023 = { anabaptists_estate_growth_effect = yes }
+				4621 = { anabaptists_estate_growth_effect = yes }
+				955 = { anabaptists_estate_growth_effect = yes }
+				2557 = { anabaptists_estate_growth_effect = yes }
+				4623 = { anabaptists_estate_growth_effect = yes }
+				2556 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = HUD_ursuline_dominance
+				}
+				2023 = { anabaptists_estate_shrink_effect = yes }
+				4621 = { anabaptists_estate_shrink_effect = yes }
+				955 = { anabaptists_estate_shrink_effect = yes }
+				2557 = { anabaptists_estate_shrink_effect = yes }
+				4623 = { anabaptists_estate_shrink_effect = yes }
+				2556 = { anabaptists_estate_shrink_effect = yes }
+			}
+			give_claims = { area = susquehanna_area }
+			give_claims = { id = 4577 }
+        }
+    }
+}
+
+HUD_missions_2 = {
+	slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_mercs = {
+        icon = mission_landsknecht_soldier
+        position = 2
+		required_missions = {
+			HUD_mission_claims
+		}
+	
+		provinces_to_highlight = {
+			NOT = { base_manpower = 4 }
+			owned_by = ROOT
+			is_core = ROOT
+        }
+   
+        trigger = {
+            calc_true_if = {
+				amount = 5
+				all_owned_province = {
+					base_manpower = 4
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_mercenary_roster
+				duration = -1
+			}
+			custom_tooltip = HUDSONIA_MERC_TT
+        }
+    }
+
+	HUD_mission_fort_newburgh = {
+        icon = fortress_of_belgrade
+		required_missions = {
+			HUD_mission_mercs
+		}
+		
+        provinces_to_highlight = {
+			province_id = 4541
+        }
+   
+        trigger = {
+			4541 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+        }
+        
+        effect = {
+			4541 = {
+				add_province_modifier = {
+					name = HUD_fort_modifier
+					duration = -1
+				}
+			}
+			give_claims = { id = 965 }
+			give_claims = { id = 2639 }
+			give_claims = { id = 4540 }
+			give_claims = { id = 4539 }
+			give_claims = { id = 4622 }
+        }
+    }
+
+	HUD_mission_keystone = {
+        icon = consolidate_the_stadholders
+		required_missions = {
+			HUD_mission_fort_newburgh
+			HUD_mission_deitscherei
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				area = niagara_area
+				area = iroquoisia_area
+				area = hudson_valley_area
+				area = susquehanna_area
+				area = actual_susquehanna_area
+				area = delaware_valley_area
+				area = gotham_area
+			}
+			NOT = { province_id = 956 }
+			NOT = { province_id = 962 }
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+			niagara_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			iroquoisia_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			hudson_valley_area = {
+				type = all
+				is_core = ROOT
+				owned_by = ROOT
+			}
+			susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			actual_susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4582 = { country_or_non_sovereign_subject_holds = ROOT }
+			2023 = { country_or_non_sovereign_subject_holds = ROOT }
+			4621 = { country_or_non_sovereign_subject_holds = ROOT }
+			4622 = { country_or_non_sovereign_subject_holds = ROOT }
+			965 = { country_or_non_sovereign_subject_holds = ROOT }
+			2639 = { country_or_non_sovereign_subject_holds = ROOT }
+			4540 = { country_or_non_sovereign_subject_holds = ROOT }
+			4539 = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_growing_momentum
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				4626 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = HUD_ursuline_dominance
+				}
+				4626 = { anabaptists_estate_shrink_effect = yes }
+			}
+			give_claims = { id = 962 }
+			give_claims = { id = 956 }
+			give_claims = { area = delmarva_area }
+			give_claims = { id = 2554 }
+        }
+    }
+
+	HUD_mission_manhattan_docks = {
+        icon = mission_galleys_in_port
+		required_missions = {
+			HUD_mission_keystone
+		}
+		
+        provinces_to_highlight = {
+			province_id = 965
+        }
+   
+        trigger = {
+			965 = {
+				OR = {
+					has_building = dock
+					has_building = drydock
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				965 = { 
+					anabaptists_estate_growth_effect = yes
+				}
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			965 = {
+				add_province_modifier = {
+					name = HUD_manhattan_docks
+					duration = -1
+				}
+			}
+			create_explorer = {
+				tradition = 60
+			}
+        }
+    }
+
+	HUD_mission_germany = {
+        icon = bavarian_cultural_dominance
+		required_missions = {
+			HUD_mission_manhattan_docks
+		}
+		
+        provinces_to_highlight = {
+			colonial_region = colonial_Germany
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+			any_known_country = {
+				is_colonial_nation_of = ROOT
+				capital_scope = {
+					colonial_region = colonial_Germany
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_accross_the_ocean
+				duration = 7300
+			}
+        }
+    }
+}
+
+HUD_missions_3 = {
+	slot = 1
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_baltimore = {
+        icon = develop_provence
+        position = 5
+		required_missions = {
+			HUD_mission_keystone
+		}
+                
+        provinces_to_highlight = {
+			OR = {
+				province_id = 2554
+				province_id = 956
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+            owns_or_non_sovereign_subject_of = 2554
+			owns_or_non_sovereign_subject_of = 956
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				2554 = { anabaptists_estate_growth_effect = yes }
+				956 = { anabaptists_estate_growth_effect = yes }
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			2554 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 3650
+				}				
+			}
+			956 = {
+				add_province_modifier = {
+					name = HUD_coastal_cities
+					duration = 3650
+				}
+			}
+			give_claims = { id = 953 }
+			give_claims = { id = 4618 }
+			give_claims = { id = 4614 }
+			give_claims = { area = the_sidelings_area }
+        }
+    }
+
+	HUD_mission_trade = {
+        icon = mission_dominate_home_trade_node
+		required_missions = {
+			HUD_mission_baltimore
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4583
+				province_id = 965
+				province_id = 956
+				province_id = 2554
+				province_id = 4624
+			}
+			NOT = {
+				AND = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+					province_has_center_of_trade_of_level = 2
+					base_production = 10
+				}
+			}
+        }
+   
+        trigger = {
+			4583 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			965 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			956 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			2554 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+			4624 = {
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				province_has_center_of_trade_of_level = 2
+				base_production = 10
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_trade_modifier
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_greater_germany = {
+        icon = Blood_Iron
+		required_missions = {
+			HUD_mission_trade
+			HUD_mission_germany
+		}
+		
+        provinces_to_highlight = {
+			colonial_region = colonial_Germany
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+			calc_true_if = {
+				amount = 15
+				all_province = {
+					colonial_region = colonial_Germany
+					owner = {
+						is_colonial_nation_of = ROOT
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_dip_power = 200
+			add_country_modifier = {
+				name = HUD_trade_steering
+				duration = 7300
+			}
+        }
+    }
+}
+
+HUD_missions_4 = {
+	slot = 5
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_quebec = {
+        icon = mission_religious
+        position = 1
+                
+        provinces_to_highlight = {
+			OR = {
+				owned_by = QUE
+				owned_by = CAN
+			}
+        }
+   
+        trigger = {
+            OR = {
+				AND = {
+					exists = QUE
+					QUE = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+				AND = {
+					exists = CAN
+					CAN = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+				OR = {
+					is_rival = QUE
+					is_rival = CAN
+				}
+				NOT = {
+					OR = {
+						exists = QUE
+						exists = CAN
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_diplomacy
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_maritimes = {
+        icon = mission_alliances
+		required_missions = {
+			HUD_mission_quebec
+		}
+		
+        provinces_to_highlight = {
+			owned_by = MRT
+        }
+   
+        trigger = {
+            OR = {
+				AND = {
+					exists = MRT
+					MRT = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}						
+					}
+				}
+				is_rival = MRT
+				NOT = { exists = MRT }
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_honour
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_vermont = {
+        icon = mission_have_two_subjects
+		required_missions = {
+			HUD_mission_maritimes
+		}
+		
+        provinces_to_highlight = {
+			owned_by = VER
+        }
+   
+        trigger = {
+            OR = {
+				AND = {
+					exists = VER
+					VER = {
+						has_opinion = {
+							who = ROOT
+							value = 190
+						}
+					}
+				}
+				is_rival = VER
+				NOT = { exists = VER }
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = {
+						is_rival = VER
+					}
+					exists = VER
+				}
+				VER = {
+					country_event = {
+						id = hudsonia_events.2
+					}
+				}
+			}
+			else_if = {
+				limit = { 
+					is_rival = VER
+					exists = VER
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					target = VER
+				}
+			}
+			else = {
+				give_claims = { area = vermont_area }
+			}
+        }
+    }
+}
+
+HUD_missions_5 = {
+	slot = 4
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_fort_raquette = {
+        icon = fortress_switzerland
+        position = 2
+		required_missions = {
+			HUD_mission_quebec
+		}
+                
+        provinces_to_highlight = {
+			OR = {
+				province_id = 960
+			}
+        }
+   
+        trigger = {
+			960 = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+        }
+        
+        effect = {
+			960 = {
+				add_province_modifier = {
+					name = HUD_fort_modifier
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = HUD_fort_maintenance_modifier
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_develop_capital = {
+        icon = mission_colonial
+		required_missions = {
+			HUD_mission_fort_raquette
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4583
+				province_id = 4578
+			}
+			NOT = {
+				num_of_times_improved_by_owner = 5
+			}
+        }
+   
+        trigger = {
+            4583 = {
+				num_of_times_improved_by_owner = 5
+			}
+			4578 = {
+				num_of_times_improved_by_owner = 5
+			}
+        }
+        
+        effect = {
+			4583 = {
+				add_province_modifier = {
+					name = HUD_tade_hubs
+					duration = -1
+				}
+				rename_capital = "Albany"
+			}
+			4578 = {
+				add_province_modifier = {
+					name = HUD_tade_hubs
+					duration = -1
+				}
+			}
+        }
+    }
+
+	HUD_mission_develop_countryside = {
+        icon = mission_rb_import_potatoes
+		required_missions = {
+			HUD_mission_develop_capital
+			HUD_mission_vermont
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				area = hudson_valley_area
+				area = iroquoisia_area
+				province_id = 958
+				province_id = 959
+				province_id = 4580
+				province_id = 4578
+			}
+			OR = {
+				NOT = { development = 10 }
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+        }
+   
+        trigger = {
+			hudson_valley_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+			iroquoisia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+			958 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+			959 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+			4580 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+			4578 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 10
+			}
+        }
+        
+        effect = {
+			add_years_of_income = 0.5
+			give_claims = { area = connecticut_valley_area }
+        }
+    }
+
+	HUD_mission_connecticut = {
+        icon = mission_rb_unite_the_clans
+		required_missions = {
+			HUD_mission_develop_countryside
+		}
+		
+        provinces_to_highlight = {
+			area = connecticut_valley_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+            connecticut_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+        
+        effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = HUD_ursuline_dominance }
+				}
+				connecticut_valley_area = {
+					anabaptists_estate_growth_effect = yes
+				}
+				add_estate_loyalty = {
+					estate = estate_anabaptists
+					loyalty = 5
+				}
+			}
+			give_claims = { area = new_hampshire_area }
+			give_claims = { area = massachusetts_bay_area }
+        }
+    }
+
+	HUD_mission_before_maine = {
+        icon = mission_rb_conquer_wales
+		required_missions = {
+			HUD_mission_connecticut
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				area = new_hampshire_area
+				area = massachusetts_bay_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+   
+        trigger = {
+            new_hampshire_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			massachusetts_bay_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+        
+        effect = {
+			every_owned_province = {
+				limit = {
+					culture = british
+				}
+				add_province_modifier = {
+					name = HUD_culture
+					duration = 3650
+				}
+			}
+			give_claims = { area = maine_area }
+			give_claims = { area = aroostook_area }
+        }
+    }
+}
+
+HUD_missions_6 = {
+	slot = 5
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+    }
+    
+    HUD_mission_betray_quebec = {
+        icon = a_show_of_strength
+        position = 5
+		required_missions = {
+			HUD_mission_develop_countryside
+		}
+                
+        provinces_to_highlight = {
+			OR = {
+				owned_by = QUE
+				owned_by = CAN
+			}
+        }
+   
+		trigger = {
+			OR = {
+				AND = {
+					army_size = QUE
+					exists = QUE
+				}
+				AND = {
+					army_size = CAN
+					exists = CAN
+				}
+				AND = {
+					NOT = { exists = QUE }
+					NOT = { exists = CAN }
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					exists = QUE
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					target = QUE
+				}
+			}
+			else_if = {
+				limit = {
+					exists = CAN
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					target = CAN
+				}
+			}
+			else_if = {
+				limit = { 
+					AND = {
+						NOT = { exists = QUE }
+						NOT = { exists = CAN }
+					}
+				}
+				give_claims = { area = notre_dame_mountains_area }
+				give_claims = { area = lower_canada_area }
+			}
+		}
+    }
+
+	HUD_mission_control_quebec = {
+        icon = mission_monarch_in_throne_room
+		required_missions = {
+			HUD_mission_betray_quebec
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				AND = {
+					owned_by = QUE
+					exists = QUE
+				}
+				AND = {
+					owned_by = CAN
+					exists = CAN
+				}
+				AND = {
+					NOT = { exists = CAN }
+					NOT = { exists = QUE }
+					area = notre_dame_mountains_area
+					area = lower_canada_area
+				}
+			}
+        }
+   
+		trigger = {
+			OR = {
+				AND = {
+					QUE = {
+						is_subject_of = ROOT
+					}
+					exists = QUE
+				}
+				AND = {
+					CAN = {
+						is_subject_of = ROOT
+					}
+					exists = CAN
+				}
+				AND = {
+					NOT = { exists = CAN }
+					NOT = { exists = QUE }
+					notre_dame_mountains_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					lower_canada_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = CAN
+					CAN = {
+						is_subject_of = ROOT
+					}
+				}
+				CAN = {
+					add_country_modifier = {
+						name = HUD_liberty_desire
+						duration = 10950
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					exists = QUE
+					QUE = {
+						is_subject_of = ROOT
+					}
+				}
+				QUE = {
+					add_country_modifier = {
+						name = HUD_liberty_desire
+						duration = 10950
+					}
+				}
+			}
+			else = {
+				give_claims = { area = quinte_area }
+				give_claims = { area = greater_toronto_area }
+				give_claims = { area = talbot_area }
+				give_claims = { area = huronia_area }
+			}
+		}
+    }
+
+	HUD_mission_hudsonian_empire = {
+        icon = mission_empire
+		required_missions = {
+			HUD_mission_control_quebec
+			HUD_mission_before_maine
+		}
+		
+        provinces_to_highlight = {
+			region = atlantica_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+   
+        trigger = {
+            atlantica_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+        
+        effect = {
+			add_mil_power = 200
+			override_country_name = HUDSONIAN_EMPIRE
+			set_country_flag = is_hudsonian_empire_flag
+			set_government_rank = 3
+			add_country_modifier = {
+				name = HUD_hudsonian_empire
+				duration = -1
+			}
+        }
+    }
+}
+
+HUD_missions_anabaptist = {
+	slot = 3
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+		NOT = { has_country_flag = HUD_ursuline_dominance }
+    }
+    
+    HUD_mission_allow_proselytization = {
+        icon = contracts_of_correspondence
+        position = 1
+   
+        trigger = {
+			has_estate_privilege = estate_anabaptists_allow_proselytization
+			estate_loyalty = {
+				estate = estate_anabaptists
+				loyalty = 60
+			}
+			OR = {
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 40
+				}
+				num_of_estate_agendas_completed = {
+					estate = estate_anabaptists
+					value = 2
+				}
+				num_of_estate_privileges = {
+					estate = estate_anabaptists
+					value = 4
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_anabaptist_cooperation
+				duration = 7300
+			}
+			add_estate_loyalty = {
+				estate = estate_anabaptists
+				loyalty = 10
+			}
+        }
+    }
+
+	HUD_mission_anabaptist_churches = {
+        icon = fund_the_monasteries
+		required_missions = {
+			HUD_mission_allow_proselytization
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			has_province_modifier = anabaptists_present_large
+			religion = anabaptist
+			NOT = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+        }
+   
+        trigger = {
+			calc_true_if = {
+				amount = 3
+				all_owned_province = {
+					has_province_modifier = anabaptists_present_large
+					religion = anabaptist
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_anabaptist_churches
+				duration = 7300
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_CHURCHES_HUD
+				loyalty = 10
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_merc_army = {
+        icon = mission_assemble_an_army
+		required_missions = {
+			HUD_mission_anabaptist_churches
+			HUD_mission_mercs
+			HUD_mission_fort_raquette
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4583
+			}
+			NOT = { 
+				AND = {
+					OR = {
+						has_building = barracks
+						has_building = training_fields
+					}
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+			}
+        }
+   
+        trigger = {
+			4583 = {
+				OR = {
+					has_building = barracks
+					has_building = training_fields
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+        }
+        
+        effect = {
+			hidden_effect = {
+				set_country_flag = mercenary_army_reform_flag
+			}
+			add_government_reform = mercenary_army_reform
+			custom_tooltip = HUDSONIA_MERC_RESERVES_TT
+		}
+    }
+
+	HUD_mission_scavengers = {
+        icon = establish_the_musketeers
+		required_missions = {
+			HUD_mission_merc_army
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_building = scavenging_hub }
+        }
+   
+        trigger = {
+			has_estate_privilege = estate_scavengers_state_bands
+			calc_true_if = {
+				amount = 8
+				all_owned_province = {
+					has_building = scavenging_hub
+				}
+			}
+        }
+        
+        effect = {
+			hidden_effect = {
+				set_country_flag = scavenger_mercs
+			}
+			custom_tooltip = SCAVENGER_MERC_TT
+			add_estate_influence_modifier = {
+				estate = estate_scavengers
+				desc = EST_ANABAPTIST_COURTS_DESC_HUD
+				influence = 10
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_anabaptist_courts = {
+        icon = join_the_reformation
+		required_missions = {
+			HUD_mission_scavengers
+			HUD_mission_develop_countryside
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			has_province_modifier = anabaptists_present_large
+			religion = anabaptist
+			NOT = {
+				AND = {
+					OR = {
+						has_building = courthouse
+						has_building = town_hall
+					}
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+			}
+        }
+   
+        trigger = {
+			calc_true_if = {
+				amount = 10
+				all_owned_province = {
+					has_province_modifier = anabaptists_present_large
+					religion = anabaptist
+					OR = {
+						has_building = courthouse
+						has_building = town_hall
+					}
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_anabaptist_courts
+				duration = -1
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_COURTS_HUD
+				loyalty = 10
+				duration = 7300
+			}
+			add_estate_influence_modifier = {
+				estate = estate_anabaptists
+				desc = EST_ANABAPTIST_COURTS_DESC_HUD
+				influence = 10
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_first_manufactory = {
+        icon = mission_have_manufactories
+		required_missions = {
+			HUD_mission_anabaptist_courts
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			has_province_modifier = anabaptists_present_large
+			religion = anabaptist
+			has_manufactory_trigger = no
+        }
+   
+        trigger = {
+			any_owned_province = {
+				has_province_modifier = anabaptists_present_large
+				religion = anabaptist
+				has_manufactory_trigger = yes
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_first_factories
+				duration = 7300
+			}
+			random_owned_province = {
+				limit = {
+					has_province_modifier = anabaptists_present_large
+					religion = anabaptist
+					has_manufactory_trigger = yes	
+				}
+				add_province_modifier = {
+					name = HUD_first_factory
+					duration = -1
+				}
+			}
+        }
+    }
+
+	HUD_mission_old_world_anabaptists = {
+        icon = mission_settlers_north_america
+		required_missions = {
+			HUD_mission_first_manufactory
+			HUD_mission_germany
+		}
+		
+        provinces_to_highlight = {
+			colonial_region = colonial_Germany
+			country_or_non_sovereign_subject_holds = ROOT
+        }
+   
+        trigger = {
+			any_province = {
+				owner = {
+					is_colonial_nation_of = ROOT
+				}
+				has_manufactory_trigger = yes
+				OR = {
+					has_building = courthouse
+					has_building = town_hall
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+        }
+        
+        effect = {
+			hidden_effect = {
+				set_country_flag = oversesa_anabaptists
+			}
+			add_adm_power = 200
+			every_subject_country = {
+				limit = {
+					is_colonial_nation_of = ROOT
+				}
+				country_event = {
+					id = hudsonia_events.4
+				}
+			}
+        }
+    }
+}
+
+HUD_missions_ursuline = {
+	slot = 3
+    generic = no
+    ai = yes
+	has_country_shield = yes
+    
+    potential = {
+        NOT = { map_setup = map_setup_random }
+		tag = HUD
+		has_country_flag = HUD_ursuline_dominance
+    }
+    
+    HUD_mission_convert_capital = {
+        icon = catholic_confraternity
+        position = 1
+   
+        provinces_to_highlight = {
+			area = hudson_valley_area
+			NOT = { religion = ursuline }
+        }
+
+        trigger = {
+			hudson_valley_area = {
+				type = all
+				religion = ursuline
+				owned_by = ROOT
+				is_core = ROOT
+				holy_order = ursuline_order
+			}
+        }
+        
+        effect = {
+			define_advisor = {
+				skill = 1
+				type = inquisitor
+				religion = ursuline
+				culture = quebecois
+				cost_multiplier = 0.25
+				female = yes
+			}
+        }
+    }
+
+	HUD_mission_convert_country = {
+        icon = catholic_volunteers
+		required_missions = {
+			HUD_mission_convert_capital
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				religion = ursuline
+			}
+        }
+   
+        trigger = {
+			all_owned_province = {
+				religion = ursuline
+				is_core = ROOT
+			}
+        }
+        
+        effect = {
+			anabaptists_expelled_effect = yes
+			hudson_valley_area = {
+				anabaptists_estate_shrink_effect = yes
+			}
+        }
+    }
+
+	HUD_mission_expel_anabaptists = {
+        icon = crush_heretic_strongholds
+		required_missions = {
+			HUD_mission_convert_country
+			HUD_mission_mercs
+			HUD_mission_fort_raquette
+		}
+		
+        provinces_to_highlight = {
+			owned_by = root
+			OR = {
+				has_province_modifier = anabaptists_present_large
+				has_province_modifier = anabaptists_present_medium
+			}
+        }
+   
+        trigger = {
+			all_owned_province = {
+				is_core = ROOT
+				NOT = { has_province_modifier = anabaptists_present_large }
+				NOT = { has_province_modifier = anabaptists_present_medium }
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_cleared_land
+				duration = 7300
+			}
+		}
+    }
+
+	HUD_mission_scavenge_anabaptist_lands = {
+        icon = mission_high_income
+		required_missions = {
+			HUD_mission_expel_anabaptists
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_building = scavenging_hub }
+        }
+   
+        trigger = {
+			has_estate_privilege = estate_scavengers_state_bands
+			calc_true_if = {
+				amount = 8
+				all_owned_province = {
+					has_building = scavenging_hub
+				}
+			}
+        }
+        
+        effect = {
+			add_estate_influence_modifier = {
+				estate = estate_scavengers
+				desc = EST_SCAVENGERS_LOOTED_ANABAPTISTS
+				influence = 10
+				duration = 3650
+			}
+			add_estate_loyalty_modifier = {
+				estate = estate_scavengers
+				desc = EST_SCAVENGERS_LOOTED_ANABAPTISTS
+				loyalty = 10
+				duration = 3650
+			}
+			country_event = {
+				id = hudsonia_events.5
+			}
+        }
+    }
+
+	HUD_mission_convert_keystone = {
+        icon = counter_reformation
+		required_missions = {
+			HUD_mission_scavenge_anabaptist_lands
+			HUD_mission_keystone
+		}
+		
+        provinces_to_highlight = {
+			OR = {
+				area = niagara_area
+				area = iroquoisia_area
+				area = hudson_valley_area
+				area = susquehanna_area
+				area = actual_susquehanna_area
+				area = delaware_valley_area
+				area = gotham_area
+			}
+			NOT = { 
+				AND = {
+					religion = ursuline
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
+			}
+        }
+   
+        trigger = {
+			niagara_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ursuline
+			}
+			iroquoisia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ursuline
+			}
+			hudson_valley_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ursuline
+			}
+			susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ursuline
+			}
+			actual_susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ursuline
+			}
+			delaware_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ursuline
+			}
+			gotham_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ursuline
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_ursuline_holy_land
+				duration = -1
+			}
+        }
+    }
+
+	HUD_mission_ursuline_churches = {
+        icon = connect_further_austria
+		required_missions = {
+			HUD_mission_convert_keystone
+		}
+		
+        provinces_to_highlight = {
+			owned_by = ROOT
+			religion = ursuline
+			NOT = {
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+        }
+   
+        trigger = {
+			calc_true_if = {
+				amount = 15
+				all_owned_province = {
+					religion = ursuline
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+			}
+        }
+        
+        effect = {
+			add_country_modifier = {
+				name = HUD_ursuline_churches
+				duration = 7300
+			}
+        }
+    }
+
+	HUD_mission_ursuline_atlantica = {
+        icon = holy_state
+		required_missions = {
+			HUD_mission_ursuline_churches
+			HUD_mission_before_maine
+		}
+		
+        provinces_to_highlight = {
+			region = atlantica_region
+			NOT = { 
+				AND = {
+					religion = ursuline
+					country_or_non_sovereign_subject_holds = ROOT 
+				}
+			}
+        }
+   
+        trigger = {
+			atlantica_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				religion = ursuline
+			}
+			army_size_percentage = 1
+        }
+        
+        effect = {
+			add_adm_power = 200
+			add_army_tradition = 20
+			add_army_professionalism = 0.1
+			add_absolutism = 10
+        }
+    }
+}

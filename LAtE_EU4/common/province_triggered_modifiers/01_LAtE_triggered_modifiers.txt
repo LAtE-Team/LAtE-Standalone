@@ -39,3 +39,13 @@ anabaptists_present_large = {
 	}
     min_local_autonomy = 50
 }
+
+walden_pond = {
+	potential = {
+		
+	}
+	trigger = {
+		province_is_or_accepts_religion = { religion = americanist }
+	}
+	prestige = 0.5
+}

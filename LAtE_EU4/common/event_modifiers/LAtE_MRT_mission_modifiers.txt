@@ -1,0 +1,208 @@
+maritimes_pirate_lessons = {
+    naval_morale = 0.2
+    light_ship_power = 0.2
+}
+
+maritimes_into_the_sunrise = {
+    range = 0.33
+    colonists = 1
+}
+
+maritimes_settling_down = {
+    local_colonial_growth = 50
+}
+
+maritimes_colonial_inspiration = {
+    colonist_placement_chance = 0.05
+    global_colonial_growth = 20
+}
+
+maritimes_fortified_outpost = {
+    defensiveness = 0.2
+    province_trade_power_value = 5
+}
+
+maritimes_french_imports = {
+    trade_steering = 0.3
+    merchants = 1
+}
+
+maritimes_establishment_in_germany = {
+    manpower_recovery_speed = 0.2
+    colonist_placement_chance = 0.15
+}
+
+maritimes_swayed_merchants = {
+    trade_efficiency = 0.15
+    global_trade_power = 0.1
+}
+
+maritimes_encouraged_local_artisans = {
+    production_efficiency = 0.1
+    trade_steering = 0.15
+}
+
+maritimes_new_local_faith = {
+    local_missionary_strength = 0.03
+    local_missionary_maintenance_cost = -0.33
+}
+
+maritimes_missionary_fervor = {
+    global_unrest = -2
+    native_assimilation = 0.25
+}
+
+maritimes_anglican_champions = {
+    global_missionary_strength = 0.01
+    tolerance_own = 1
+}
+
+maritimes_ducal_advisors = {
+    advisor_cost = -0.1
+    advisor_pool = 1
+}
+
+maritimes_loyal_clergy = {
+    local_tax_modifier = 0.2
+    local_state_maintenance_modifier = -0.25
+}
+
+maritimes_fourth_party = {
+    local_tax_modifier = 0.1
+    local_production_efficiency = 0.1
+    local_manpower_modifier = 0.1
+}
+
+maritimes_restitutrix = {
+    legitimacy = 1
+    stability_cost_modifier = -0.25
+    diplomatic_reputation = 1
+    global_prosperity_growth = 0.1
+}
+
+maritimes_new_era = {
+    build_cost = -0.25
+    build_time = -0.25
+}
+
+maritimes_clerical_counsel = {
+    adm_advisor_cost = -0.25
+    tolerance_own = 2
+}
+
+maritimes_faith_strengthened = {
+    global_tax_modifier = 0.1
+    stability_cost_modifier = -0.15
+}
+
+maritimes_a_home_for_the_monks = {
+    local_religious_conversion_resistance = 0.5
+    min_local_autonomy = 20
+    tax_income = 4
+    local_development_cost = -0.25
+}
+
+maritimes_clergy_entrenched_in_government = { # This should eventually be a gov. reform
+    church_influence_modifier = 0.1
+    church_power_modifier = 0.1
+    relation_with_heretics = -20
+    tolerance_heretic = -1
+    administrative_efficiency = 0.05
+}
+
+maritimes_a_multicultural_army = {
+    global_manpower_modifier = 0.10
+    manpower_recovery_speed = 0.10
+}
+
+maritimes_religious_diplomacy = {
+    diplomatic_reputation = 1
+    relation_with_heretics = -20
+    diplomatic_upkeep = 1
+}
+
+maritimes_pillar_of_the_faith = {
+    improve_relation_modifier = 0.2
+    enforce_religion_cost = -0.5
+}
+
+maritimes_new_heretics = {
+    global_heretic_missionary_strength = 0.03
+}
+
+maritimes_st_john = {
+    land_maintenance_modifier = -0.15
+    global_regiment_cost = -0.10
+}
+
+maritimes_military_commitments = {
+    yearly_army_professionalism = 0.01
+    drill_gain_modifier = 0.10
+}
+
+maritimes_feeding_the_recruits = {
+    trade_goods_size = 1
+}
+
+maritimes_military_heartland = {
+    defensiveness = 0.2
+    supply_limit_modifier = 0.25
+}
+
+maritimes_the_western_flank = {
+    fort_maintenance_modifier = -0.50
+    hostile_attrition = 2
+}
+
+maritimes_the_nobility_in_government = {
+    nobles_loyalty_modifier = 0.1
+    mil_advisor_cost = -0.25
+    army_tradition = 1
+}
+
+maritimes_para_bellum = {
+    siege_ability = 0.2
+    blockade_efficiency = 0.3
+    siege_blockade_progress = 1
+}
+
+maritimes_rival_conquest = {
+    local_tax_modifier = -0.1
+    local_production_efficiency = -0.1
+    local_manpower_modifier = -0.2
+}
+
+maritimes_restored_island = {
+    defensiveness = 0.2
+    trade_value = 10
+}
+
+maritimes_tour_de_force = {
+    diplomatic_reputation = 1
+    reduced_liberty_desire = 10
+}
+
+maritimes_election_clergy_favored = {
+    church_influence_modifier = 0.05
+    church_loyalty_modifier = 0.1
+}
+
+maritimes_election_burghers_favored = {
+    burghers_influence_modifier = 0.05
+    burghers_loyalty_modifier = 0.1
+}
+
+maritimes_election_nobles_favored = {
+    nobles_influence_modifier = 0.05
+    nobles_loyalty_modifier = 0.1
+}
+
+maritimes_monarchist_favored = {
+    church_loyalty_modifier = -0.05
+    burghers_loyalty_modifier = -0.05
+    nobles_loyalty_modifier = -0.05
+}
+
+maritimes_acadien_unrest = {
+    local_unrest = 8
+}

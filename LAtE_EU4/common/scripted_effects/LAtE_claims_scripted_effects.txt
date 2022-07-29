@@ -1,0 +1,38 @@
+#Imported from missions expanded
+give_province_claims = {
+    $id$ = {
+        if = {
+            limit = {
+                NOT = { is_core = $tag$ }
+                NOT = { is_permanent_claim = $tag$ }
+            }
+            add_permanent_claim = $tag$
+        }
+    }
+}
+
+give_area_claims = {
+    $group$ = {
+        limit = {
+            NOT = { is_core = $tag$ }
+            NOT = { is_permanent_claim = $tag$ }
+        }
+        add_permanent_claim = $tag$
+    }
+}
+
+give_claims = {
+    [[province]
+        give_province_claims = { id = $province$ tag = ROOT }
+    ]
+    [[id]
+        give_province_claims = { id = $id$ tag = ROOT }
+    ]
+    [[area]
+        give_area_claims = { group = $area$ tag = ROOT }
+    ]
+    [[region]
+        give_area_claims = { group = $region$ tag = ROOT }
+    ]
+    
+}
