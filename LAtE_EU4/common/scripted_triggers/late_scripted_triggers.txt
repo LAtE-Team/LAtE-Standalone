@@ -110,3 +110,10 @@ has_holy_order_LAtE_trigger = { #For use on areas
 		}
 	}
 }
+
+LAtE_has_any_exploration_idea = {
+	OR = {
+		has_idea = quest_for_the_new_world
+		has_idea = legendary_voyagers
+	}
+}
