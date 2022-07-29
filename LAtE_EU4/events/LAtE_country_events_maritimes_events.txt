@@ -861,3 +861,66 @@ country_event = {
 		custom_tooltip = MRT_EXPLORERS_UNLOCKED
 	}
 }
+
+country_event = {
+	id = maritimes_events.11
+	title = maritimes_events.11.t
+	desc = maritimes_events.11.d
+	picture = PIRATES_CAPTURED_eventPicture
+	trigger = {
+		tag = MRT
+		has_disaster_progress = {
+			disaster = maritime_schism_disaster
+			value = 5
+		}
+		newfoundland_area = {
+			type = all
+			owned_by = MRT
+		}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.11.a
+		add_disaster_progress = {
+			value = -5
+			disaster = maritime_schism_disaster
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.12
+	title = maritimes_events.12.t
+	desc = maritimes_events.12.d
+	picture = COLONIZATION_eventPicture
+	trigger = {
+		tag = MRT
+		is_year = 3130
+	}
+	mean_time_to_happen = {
+		days = 90
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.12.a
+		create_explorer = {
+			name = "Magnolia Luciphy"
+			tradition = 100
+			female = yes
+		}
+	}
+	option = {
+		name = maritimes_events.12.b
+		define_advisor = {
+			type = navigator
+			name = "Magnolia Luciphy"
+			skill = 2
+			female = yes
+			culture = maritimer
+			religion = anglican
+			discount = yes
+		}
+	}
+}
