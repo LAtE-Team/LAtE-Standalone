@@ -21,9 +21,32 @@ bookmark =
 	country = MNE
 	country = COA
 
+	#Final 11:
+	#country = QUE #Old content
+	#country = ONT #Old content
+	#country = MRT #New conent
+
+	#country = MIC #No content
+	#country = HUD #New content
+	#country = URS #No conent
+	
+	#country = RED #No conent
+	#country = NYS #No content
+	#country = AGH #New content
+	#country = WDC #No content
+
+	#country = GRB or DLW
+
 	easy_country = ONT	#Ontario
 	easy_country = QUE	#Quebec
 	easy_country = HUD	#Hudsonia
 	easy_country = RED	#Redcoats
 	easy_country = NYS	#New York
+
+	#Final Easy
+	#easy_country = QUE
+	#easy_country = MIC
+	#easy_country = HUD
+	#easy_country = RED
+	#easy_country = NYS
 }
