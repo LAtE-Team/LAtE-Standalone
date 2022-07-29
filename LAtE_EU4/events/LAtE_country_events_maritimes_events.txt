@@ -185,6 +185,9 @@ country_event = {
 
 	option = {
 		name = maritimes_events.4.a
+		ai_chance = {
+			factor = 0
+		}
 		hidden_effect = {
 			change_tag = PEI
 			swap_non_generic_missions = yes
@@ -283,6 +286,9 @@ country_event = {
 	}
 	option = {
 		name = maritimes_events.4.b
+		ai_chance = {
+			factor = 25
+		}
 		hidden_effect = {
 			change_tag = NSC
 			swap_non_generic_missions = yes
@@ -386,6 +392,9 @@ country_event = {
 	}
 	option = {
 		name = maritimes_events.4.c
+		ai_chance = {
+			factor = 0
+		}
 		hidden_effect = {
 			change_tag = NBW
 			swap_non_generic_missions = yes
@@ -492,6 +501,9 @@ country_event = {
 	}
 	option = {
 		name = maritimes_events.4.d
+		ai_chance = {
+			factor = 0
+		}
 		hidden_effect = {
 			release = NSC
 			4551 = {
@@ -594,6 +606,15 @@ country_event = {
 			set_government_rank = 1
 		}
 		custom_tooltip = SCHISM_MRT
+	}
+	option = {
+		trigger = {
+			ai = yes
+		}
+		ai_chance = {
+			factor = 75
+		}
+		set_country_flag = MRT_survived_disaster
 	}
 	after = {
 		if = {

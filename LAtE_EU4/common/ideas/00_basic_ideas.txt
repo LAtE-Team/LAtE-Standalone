@@ -720,6 +720,7 @@ exploration_ideas = {
 			factor = 1000
 			OR = {
 				tag = MRT
+				tag = NSC
 				tag = QUE
 				tag = CAN
 			}
