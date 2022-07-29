@@ -1,0 +1,61 @@
+central_american = {
+	graphical_culture = southamericagfx
+
+	aztek = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Mixcoatl Necahual Nelli Ohtli Papa Patli
+		}
+	}
+	totonac = {
+		male_names = {
+			Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
+			Motelchiuh Tehuetstiquitzin Tlacotzin Xochiquentzin Acamapichtli Chimalpopoca Tenoch Acacitli 
+			Axacaya Cacamatzin Eyahue Huicton Ilhuicamina Itzquautzin Mazatl Nopaltzin Olintecke Opochtli 
+			Quetzalmantzin Quimichetl Texcoyo Timas Tlacaelel Tlotzin Xiuhcozcatl Xocoyol Yaztachimal Zolton
+			Ahcambal Huanitzin Panitzin
+		}
+		female_names = {
+			Centehua Moyolehuani Yaotl Xipil Xitlali Xiuhcoatl Xochicotzin Xochiyotl Xoco Yayauhqui Yolihuani Yoloxochitl 
+			Yolyamanitzin 
+		}
+	}
+	purepecha = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chs�axcejj Ch�alaxa Chonna Bicu Coqui Djoraxa Gw�ib�on� Gyazob 
+			Ipalnemoani Ji Jzi� Jituh Jzi� L�xda�xo Lyebe Mbalaz Na Yel Naquichinisa Naxi�anguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzi� Tobi Rusiguunda V�eni Vezi� Zne Yel Zni� Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+	matlatzinca = {
+		male_names = {
+			Tariacuri Hiquingaje Hiripan Tangaxuan Tzitzipandaquare Zuangua Huitzimengari Tangaxoan Tzimtzincha 
+			Cuinierangari Bibejw Binech Bzojj Chs�axcejj Ch�alaxa Chonna Bicu Coqui Djoraxa Gw�ib�on� Gyazob 
+			Ipalnemoani Ji Jzi� Jituh Jzi� L�xda�xo Lyebe Mbalaz Na Yel Naquichinisa Naxi�anguiiu Ngolbex An 
+			Rire Nisa Ro Pijje Jzi� Tobi Rusiguunda V�eni Vezi� Zne Yel Zni� Zyrx Gyejj Nguiiu
+		}
+		female_names = {
+			Zyanya Nayeli Teiuc Teicuih Teyacapan Tepin 
+		}
+	}
+	dynasty_names = {
+		# CKII
+		"Acatl" "Atl" "Calli" "Cipactli" "Coatl" "Coyotl" "Cozcaquauhtli" "Cuetzpalin" "Ehecatl" "Icpalli" 
+		"Itz" "Itzcuintli" "Macehualli" "Malinalli" "Mazatl" "Miquiztli" "Nezahual" "Nochtli" "Ocelotl" 
+		"Ollin" "Otli" "Ozomatli" "Pipiltin" "Pochtecatl" "Quauhtli" "Quauitl" "Quiautl" "Tecpatl" 
+		"Tecuhtli" "Tepetl" "Tetl" "Tlantli" "Tochtli" "Toltecatl" "Xochitl"
+	}
+	raramuri = {
+		dynasty_names = { "Sik�ra" "Am�zcua" "Blissid" "Ac�id" "Caliente" "Muquirid" "Tar�id" }
+	}
+}

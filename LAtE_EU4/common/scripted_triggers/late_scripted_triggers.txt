@@ -23,7 +23,6 @@ can_have_center_of_reformation_trigger = { #Province Scope
 	continent = north_america
 	OR = {
 		religion = confederated
-		religion = monetarist
 	}
 	NOT = { province_id = 4585 }
 	is_in_capital_area = yes
@@ -77,8 +76,6 @@ is_kingdom_tier_formable = {
 			tag = ONT
 			tag = QUE
 			tag = MRT
-			tag = HUD
-			tag = NYS
 			tag = MIC
 			tag = RED
 		}
@@ -96,6 +93,27 @@ is_empire_tier_formable = {
 			tag = AUT
 			tag = GLK
 			tag = HLR
+			tag = HUD
+			tag = NYS
 		}
+	}
+}
+
+has_holy_order_LAtE_trigger = { #For use on areas
+	custom_trigger_tooltip = {
+		tooltip = "has_holy_order_trigger_tooltip"
+		OR = {
+			holy_order = ursuline_order
+			holy_order = charity_order
+			holy_order = angeline_order
+			holy_order = anabaptist_order
+		}
+	}
+}
+
+LAtE_has_any_exploration_idea = {
+	OR = {
+		has_idea = quest_for_the_new_world
+		has_idea = legendary_voyagers
 	}
 }

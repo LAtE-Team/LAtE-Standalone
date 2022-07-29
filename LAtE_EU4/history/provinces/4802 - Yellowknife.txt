@@ -1,5 +1,5 @@
-culture = cree
-religion = midewiwin 
+culture = chipewyan
+religion = peyotist 
 trade_goods = unknown 
 hre = no 
 base_tax = 1

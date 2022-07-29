@@ -1,14 +1,1 @@
-
-owner = SLB
-controller = SLB
-add_core = SLB
-
-culture = mountainer
-religion = gaian
-is_city = yes
-
-
-hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+#empty

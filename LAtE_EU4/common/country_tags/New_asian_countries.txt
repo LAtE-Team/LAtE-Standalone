@@ -32,3 +32,5 @@ ATG = "countries/Antegra.txt"
 REP = "countries/Republia.txt"
 IMP = "countries/Impor.txt"
 UNF = "countries/United_Federation.txt"
+
+JAP = "countries/Japan.txt"

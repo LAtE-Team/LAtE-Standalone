@@ -1,58 +1,290 @@
-#trade_company_west_africa = {
-#	color = { 50 0 200 }
-#	
-#	provinces = {
-#		1164 1165 1166 1096 1793 2241 1466 1097 1098 1118 1119 1151 1163 2242 1168 1306 4078 4079 4080 
-#		1126 1139 1141 2257 2258 #West Africa Coast
-#		1147 2289 2290 2294 #Benin
-#		1112 1113 1116 2239 #Jolof
-#		1114 1117 2238 #Futa Jalon
-#		1167 1171 1172 1174 #Angola
-#	}
-#	
-#	# Specific
-#	# Generic
-#	names = {
-#		name = "TRADE_COMPANY_WEST_AFRICA_Root_Culture_GetName"
-#	}
-#	names = {
-#		name = "TRADE_COMPANY_WEST_AFRICA_Africa_Trade_Company"
-#	}
-#}
+#North America
 
-#trade_company_south_africa = {
-#	color = { 0 175 0 }
-#	
-#	provinces = {
-#		789 833 1175 1176 1177 1178 1179 1180 1181 1182 1801 1173 2856 2864 2880 
-#	}
-#	
-#	# Specific
-#	# Generic
-#	names = {
-#		name = "TRADE_COMPANY_SOUTH_AFRICA_Root_Culture_GetName"
-#	}
-#	names = {
-#		name = "TRADE_COMPANY_SOUTH_AFRICA_Africa_Trade_Company"
-#	}
-#}
+trade_company_ungava = {
+	color = { 55 105 184  }
+	provinces = { 
+		4816 4815 4814 4818 4817 4819 4813 4812 998 4793 999 4790 4791 4785 2575 4789 4783 4784 4786 4792 2574 4788 4824 4831 4822 4823 4821 4825 4826 2574 996 997 4787 1104 1105 
+	}
+	names = {
+		name = "TRADE_COMPANY_UNGAVA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_UNGAVA_North_America_Trade_Company"
+	}
+}
 
-#trade_company_east_africa = {
-#	color = { 200 0 0 }
-#	
-#	provinces = {
-#		788 1100 1102 1103 1183 1186 1192 1193 1194 1195 1196 1197 1198 1199 1200 1201 1202 1203 1204 1792 2796 2774 4020 4021 4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 4049 
-#	}
-#	
-#	# Specific
-#	# Generic
-#	names = {
-#		name = "TRADE_COMPANY_EAST_AFRICA_Root_Culture_GetName"
-#	}
-#	names = {
-#		name = "TRADE_COMPANY_EAST_AFRICA_Africa_Trade_Company"
-#	}
-#}
+trade_company_athabasca = {
+	color = { 200 200 200 }
+	provinces = { 
+		1005 4796 2594 1006 4798 4797 4800 4799 2595 4801 4802 4803 2599 2600 2601 4804 2603 4806 4807 4805 4811 4810 4808 4809 4820 
+	}
+	names = {
+		name = "TRADE_COMPANY_ATHABASCA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_ATHABASCA_North_America_Trade_Company"
+	}
+}
+
+trade_company_hudson_bay = {
+	color = { 220 178 155   }
+	provinces = { 
+		2580 2585 4537 992 2581 4535 991 4699 4698 2592 1002 2588 2589 2590 2591 1000 1003 1004 1007 2593 1486 4781 4778 4776 4775 4779 4780 4782 4794 4795 4796 1806 4793 4828 4827 4830 4829 2015 4572 
+	}
+	names = {
+		name = "TRADE_COMPANY_HUDSON_BAY_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_HUDSON_BAY_North_America_Trade_Company"
+	}
+}
+
+trade_company_vancouver = {
+	color = { 44 130 117 }
+	provinces = { 
+		872 2482 873 2486 2003 2604 2605 2606 2607 874 2484 2485 2408 2409 972 973 974 2610 975 2022 2609 978 979 2611 2612 976 977 2613 4552 4553 972 1558 2483 2488 2487 2019 4600 4599 4899 4900 4901 4902 4903 4904 4905 4906 4907 4908 4909 4910 4911 4912 4913	
+	}
+	names = {
+		name = "TRADE_COMPANY_VANCOUVER_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_VANCOUVER_North_America_Trade_Company"
+	}
+}
+
+trade_company_great_plains = {
+	color = { 64 40 22 }
+	provinces = { 
+		4691 4692 912 4696 4694 908 2512 906 907 909 2007 2008 1008 1010 2016 2511 1009 2005 2596 2598 1011 1813 2597 2004 2017 2018 2602 2006 2501 2502 2503 2510 2517 4700 4693 910 4571 2518 
+	}
+	names = {
+		name = "TRADE_COMPANY_GREAT_PLAINS_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_GREAT_PLAINS_North_America_Trade_Company"
+	}
+}
+
+trade_company_great_lakes = {
+	color = { 46 110 176 }
+	provinces = { 
+		989 4578 4531 4530 2670 4527 987 4529 4554 4555 4577 2521 4557 4558 4559 4591 4589 4570 911 2587 2586 988 4562 4561 4560 945 4563 4564 4565 4590 4567 4569 4528 4568 1661 2522 944 959 4538 2671 4697 1001 4566 914 4628 947 4703 4556 4702 4580 958
+	}
+	names = {
+		name = "TRADE_COMPANY_GREAT_LAKES_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_GREAT_LAKES_North_America_Trade_Company"
+	}
+}
+
+trade_company_halifax = {
+	color = { 117 38 143 }
+	provinces = { 
+		2424 2562 970 2013 2565 971 2566 985 2570 4548 4549 984 2568 4551 982 983 2569 2571 2572 980 981 2573 1492 2564 4544 4545 4546 2567
+	}
+	names = {
+		name = "TRADE_COMPANY_HALIFAX_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_HALIFAX_North_America_Trade_Company"
+	}
+}
+
+trade_company_chesapeake = {
+	color = { 46 114 55 }
+	provinces = { 
+		4579 950 952 2550 953 2554 4618 4619 4620 957 2553 2556 4623 2557 968 2561 955 956 2023 4621 4622 963 2558 4542 4584 4541 2639 965 4540 4539 962 4583 4582 4581 966 967 2010 2560 1500 4614
+	}
+	names = {
+		name = "TRADE_COMPANY_CHESAPEAKE_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CHESAPEAKE_North_America_Trade_Company"
+	}
+}
+
+trade_company_ohio = {
+	color = { 136 79 101 }
+	provinces = { 
+		934 2527 935 2548 941 4710 4709 940 4707 4708 4573 4711 951 2551 4574 4576 2526 2523 4705 946 948 2525 4627 4624 2555 954 4625 4626 4704 4701 942 2524 943
+	}
+	names = {
+		name = "TRADE_COMPANY_OHIO_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_OHIO_North_America_Trade_Company"
+	}
+}
+
+trade_company_st_lawrence = {
+	color = { 193 192 14 }
+	provinces = { 
+		964 969 2563 4543 2559 4536 2579 990 993 2584 4532 4606 986 2012 2582 2583 4547 4534 4533 994 995 2577 2576 2578 960 961 4777
+	}
+	names = {
+		name = "TRADE_COMPANY_ST_LAWRENCE_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_ST_LAWRENCE_North_America_Trade_Company"
+	}
+}
+
+trade_company_california = {
+	color = { 117 38 143 }
+	provinces = { 
+		4501 4500 2481 2477 2480 4738 2479 4676 871 4596 4658 4502 4503 2021 4595 4598 4740 4504 4550 4575 4505 2537 869 4735 4739 870 4506 1556 
+	}
+	names = {
+		name = "TRADE_COMPANY_CALIFORNIA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CALIFORNIA_North_America_Trade_Company"
+	}
+}
+
+trade_company_los_angeles = {
+	color = { 244 184 12 }
+	provinces = { 
+		4512 876 877 2491 879 2493 4508 868 4736 4737 2478 4507 867 4509 2476 2620 865 4744 866 4742 4741 2616 1555 4977 4978 862 4993 4743 4745 859 4992 4990 4994
+	}
+	names = {
+		name = "TRADE_COMPANY_LOS_ANGELES_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_LOS_ANGELES_North_America_Trade_Company"
+	}
+}
+
+trade_company_basin = {
+	color = { 217 84 84 }
+	provinces = { 
+		880 881 2492 2495 875 878 2494 4518 2490 4521 4520 4519 4522 4523 4604 4601 2020 2489 2490 4517 4514 4511 4513 4515 4516 4975 4976 
+	}
+	names = {
+		name = "TRADE_COMPANY_BASIN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_BASIN_North_America_Trade_Company"
+	}
+}
+
+trade_company_oklahoma = {
+	color = { 139 117 96 }
+	provinces = { 
+		4884 2667 2666 883 2498 883 886 2500 882 885 2496 2497 891 892 896 2509 4524 4525 4526 889 890 2506 2507 2625 898 901 2508 2672 1809 2009 2504 2505 903 887 4974 
+	}
+	names = {
+		name = "TRADE_COMPANY_OKLAHOMA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_OKLAHOMA_North_America_Trade_Company"
+	}
+}
+
+trade_company_mississippi = {
+	color = { 44 130 117 }
+	provinces = { 
+		4883 4885 2014 2669 918 899 2515 894 895 897 2514 939 919 920 2528 2529 4706 4586 4585 4587 4588 4597 900 902 2513 2514 905 904 4695 913 915 916 917 2519 2520 
+	}
+	names = {
+		name = "TRADE_COMPANY_MISSISSIPPI_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_MISSISSIPPI_North_America_Trade_Company"
+	}
+}
+
+trade_company_dixie = {
+	color = { 229 178 153 }
+	provinces = { 
+		2541 4657 929 2540 4660 4656 4661 4662 930 931 2538 4674 4667 4663 2539 4665 4664 4666 4670 4668 4673 4669 4671 4672 924 925 2532 4678 4677 4679 4680 4684 4675 4681 2531 
+	}
+	names = {
+		name = "TRADE_COMPANY_DIXIE_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_DIXIE_North_America_Trade_Company"
+	}
+}
+
+trade_company_carolina = {
+	color = { 113 11 43 }
+	provinces = { 
+		2011 949 2549 4683 4682 2544 4647 938 2547 4642 4641 4643 937 4645 4644 4646 4649 2546 4650 2543 932 2542 4659 4655 4653 4654 4647 4648 933 2545 2544 4651 4652 4650 2543 932 2542 1501 
+	}
+	names = {
+		name = "TRADE_COMPANY_CAROLINA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CAROLINA_North_America_Trade_Company"
+	}
+}
+
+trade_company_colima = {
+	color = { 48 64 126 }
+	provinces = { 
+		851 2643 854 2617 2621 2657 853 856 857 2615 2642 861 2619 2614 860 863 864 2618 855 1552 4746 4920 4923 4924 4919 4985 4984 4986 4987 4989 4991 4988 4950 	
+	}
+	names = {
+		name = "TRADE_COMPANY_COLIMA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_COLIMA_North_America_Trade_Company"
+	}
+}
+
+trade_company_mexico = {
+	color = { 109 170 26 }
+	provinces = { 
+		1551 2623 849 2627 2645 2648 850 852 2626 2628 2644 844 847 2629 2646 2635 2638 2649 841 842 843 2636 2653 2634 1550 4755 4754 4756 4757 4914 4915 4916 4926 4927 4928 4929 4930 2622 2623 2624 4917 4918 4925 5051 5052 5053 5054 5055
+	}
+	names = {
+		name = "TRADE_COMPANY_MEXICO_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_MEXICO_North_America_Trade_Company"
+	}
+}
+
+trade_company_gulf_of_mexico = {
+	color = { 239 114 35 }
+	provinces = { 
+		4942 4717 2535 4719 928 2534 921 922 923 2530 2533 893 2516 2665 888 884 858 2499 2668 848 2630 2631 2641 2647 2632 845 2633 2650 2651 846 2652 928 1511 4747 4753
+	}
+	names = {
+		name = "TRADE_COMPANY_GULF_OF_MEXICO_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_GULF_OF_MEXICO_North_America_Trade_Company"
+	}
+}
+
+trade_company_carribean = {
+	color = { 73 147 29 }
+	provinces = { 
+		927 926 2536 484 485 2656 486 2654 2655 488 489 490 2658 2659 487 481 491 492 482 483 493 494 495 496 1881 497 498 499 500 501 830 2807 2813 741 831 2808 834 2805 2809 2810 2939 1516 4718 4713 4715 4712 4714 4716 4970 4969 4968 4966 4967 4963 4962 4964 4965 4960 4959 4956 4957 4953 4955 4958 4954 5031 5032 5033 5034 5035 5036 5037 5038 5039 5040 5041 5042 5043 5044 5045
+	}
+	names = {
+		name = "TRADE_COMPANY_CARRIBEAN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_CARRIBEAN_North_America_Trade_Company"
+	}
+}
+
+trade_company_panama = {
+	color = { 10 120 39 }
+	provinces = { 
+		839 840 2637 2640 2662 837 838 2660 2661 2663 826 835 836 2664 2819 828 829 2806 824 825 827 832 2817 2812 2814 2815 822 823 2816 2818 4758 4759 4761 4760 4762 4763 4764 4766 4765 4949 4948 4951 4952 4947 4944 4945 4946 4943 4940 4939 4941 4936 4937 5046 5047 5048 5049 5050 
+	}
+	names = {
+		name = "TRADE_COMPANY_PANAMA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_PANAMA_North_America_Trade_Company"
+	}
+}
 
 trade_company_west_india = {
 	color = { 135 104 85 }
@@ -95,18 +327,6 @@ trade_company_east_india = {
 		543 2040 2084 2398
 	}
 	
-	# Specific (Removed for redundancy)
-	#names = {
-	#	trigger = {
-	#		OR = {
-	#			tag = GBR
-	#			tag = ENG
-	#		}
-	#		primary_culture = english
-	#	}
-	#	name = "TRADE_COMPANY_INDIA_British_East_India_Company"
-	#}
-	# Generic
 	names = {
 		name = "TRADE_COMPANY_EAST_INDIA_Root_Culture_GetName"
 	}
@@ -147,29 +367,6 @@ trade_company_north_india = {
 	}
 }
 
-# trade_company_indonesia = {
-	# color = { 0 240 0 }
-	
-	# provinces = {
-		# 593 594 595 596 597 598 599 617 618 619 620 621 622 623 636 637 638 639 640 659 1361 1998 1999 2390 2391 2392 2393 2394 2673 2674 2675 2676 2677 2678 2679 2680 2681 2682 2683 2684 2685 2686 2703 2704 2705 2706 2707 2708 2709 2710 2711 2712 2740 1101
-	# }
-
-	# # Specific (Removed for potential confusion)
-	# #names = {
-	# #	trigger = {
-	# #		primary_culture = dutch
-	# #	}
-	# #	name = "TRADE_COMPANY_INDONESIA_Dutch_East_Indies_Company"
-	# #}
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_INDONESIA_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_INDONESIA_Indonesia_Trade_Company"
-	# }
-# }
-
 trade_company_philippines = {
 	color = { 0 200 150 }
 	
@@ -187,95 +384,6 @@ trade_company_philippines = {
 		name = "TRADE_COMPANY_PHILIPPINES_Indonesia_Trade_Company"
 	}
 }
-
-# trade_company_moluccas = {
-	# color = { 196 191 61 }
-	
-	# provinces = {
-		# 646 2687 2688 2689 2690 2718 2724 1357 1245 647 645 2717 648 649 650 2725 2696 2695 635 633 634 643 2713 2714 642 2715 641 2716 632 627 2691 631 2693 629 2692 628 626 625 630 624 644 2723
-	# }
-
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_MOLUCCAS_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_MOLUCCAS_Indonesia_Trade_Company"
-	# }
-# }
-
-# trade_company_indochina = {
-	# color = { 84 152 93 }
-	
-	# provinces = {
-		# 589 592 600 601 602 603 604 605 606 609 607 608 611 612 614 615 1817 1823 1844 1022 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 591 2404 2371
-	# }
-	
-	# # Specific
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_INDOCHINA_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_INDOCHINA_China_Trade_Company"
-	# }
-# }
-
-# trade_company_south_china = {
-	# color = { 100 230 20 }
-	
-	# provinces = {
-		# 2161 1371 610 613 616 664 665 666 667 668 672 738 1016 1840 2154 2155 2156 2157 2158 2159 2160 2162 2163 2164 2173 2174 2372 671 2373
-		# 662 663 673 674 4199 #Yun-Gui Hinterland
-	# }
-	
-	# # Specific
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_SOUTH_CHINA_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_SOUTH_CHINA_China_Trade_Company"
-	# }
-# }
-
-# trade_company_east_china = {
-	# color = { 178 34 34 }
-	
-	# provinces = {
-		# 669 670 683 684 685 686 1821 1822 1824 1829 1833 1838 1897 2143 2144 2145 2146 2147 2148 2149 2150 2151 2152 2153
-		# 2141 2142 4196 #North Jiangsu
-	# }
-	
-	# # Specific
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_EAST_CHINA_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_EAST_CHINA_China_Trade_Company"
-	# }
-# }
-
-# trade_company_north_china = {
-	# color = { 60 60 255 }
-	
-	# provinces = {
-		# 690 691 702 697 723 2138 2139 2140 2114 2115 2747
-		# 703 1816 2136 4194 #North Hebei
-		# 695 696 2137 4195 #South Hebei
-		# 704 726 2111 2112 2113 #Liaoning
-	# }
-	
-	# # Specific
-	# # Generic
-	# names = {
-		# name = "TRADE_COMPANY_NORTH_CHINA_Root_Culture_GetName"
-	# }
-	# names = {
-		# name = "TRADE_COMPANY_NORTH_CHINA_China_Trade_Company"
-	# }
-# }
 
 # South America
 

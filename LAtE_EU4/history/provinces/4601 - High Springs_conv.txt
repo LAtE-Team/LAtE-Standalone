@@ -3,7 +3,7 @@ controller = X00
 add_core = X00
 
 culture = mountainer
-religion = neognostic
+religion = mormon
 is_city = yes
 
 

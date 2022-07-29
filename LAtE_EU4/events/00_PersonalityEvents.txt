@@ -479,15 +479,12 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = { NOT = { religion = totemism } }
-			random_list = {
-				20 = {
-					remove_ruler_personality = just_personality
-					add_ruler_personality = greedy_personality
-				}
-				80 = { }
+		random_list = {
+			20 = {
+				remove_ruler_personality = just_personality
+				add_ruler_personality = greedy_personality
 			}
+			80 = { }
 		}
 	}
 
@@ -596,16 +593,13 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = { NOT = { religion = totemism } }
-			random_list = {
-				10 = {
-					remove_ruler_personality = righteous_personality
-					add_ruler_personality = greedy_personality
-				}
-				90 = {
-					add_prestige = 10
-				}
+		random_list = {
+			10 = {
+				remove_ruler_personality = righteous_personality
+				add_ruler_personality = greedy_personality
+			}
+			90 = {
+				add_prestige = 10
 			}
 		}
 	}
@@ -905,15 +899,12 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = { NOT = { religion = totemism } }
-			random_list = {
-				10 = {
-					remove_ruler_personality = kind_hearted_personality
-					add_ruler_personality = cruel_personality
-				}
-				90 = { add_prestige = -10 }
+		random_list = {
+			10 = {
+				remove_ruler_personality = kind_hearted_personality
+				add_ruler_personality = cruel_personality
 			}
+			90 = { add_prestige = -10 }
 		}
 	}
 	option = {
@@ -960,7 +951,6 @@ country_event = {
 				}
 			}
 			15 = {
-				trigger = { NOT = { religion = totemism } }
 				remove_ruler_personality = free_thinker_personality
 				add_ruler_personality = babbling_buffoon_personality
 			}
@@ -977,16 +967,13 @@ country_event = {
 		name = "personality_events.15.b" #We cannot allow him to make a mockery of our faith!
 		add_prestige = 10
 		add_estate_church_loyalty_effect = yes
-		if = {
-			limit = { NOT = { religion = totemism } }
-			random_list = {
-				30 = {
-					remove_ruler_personality = free_thinker_personality
-					add_ruler_personality = zealot_personality
-				}
-				70 = {
-					#Nothing to see here
-				}
+		random_list = {
+			30 = {
+				remove_ruler_personality = free_thinker_personality
+				add_ruler_personality = zealot_personality
+			}
+			70 = {
+				#Nothing to see here
 			}
 		}
 		set_ruler_flag = free_thinker_swap_no
@@ -2297,11 +2284,8 @@ country_event = {
 		add_years_of_income = 0.5
 		random_list = {
 			20 = {
-				if = {
-					limit = { NOT = { religion = totemism } }
-					remove_ruler_personality = entrepreneur_personality
-					add_ruler_personality = greedy_personality
-				}
+				remove_ruler_personality = entrepreneur_personality
+				add_ruler_personality = greedy_personality
 				event_target:easy_money_province = {
 					area = {
 						limit = {

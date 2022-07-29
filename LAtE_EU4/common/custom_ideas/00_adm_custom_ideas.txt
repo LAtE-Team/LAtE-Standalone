@@ -21,7 +21,11 @@ adm_idea_modifiers = {
 			factor = 1
 			modifier = {
 				factor = 1.1
-				technology_group = sub_saharan
+				OR = {
+					technology_group = west_african
+					technology_group = south_african
+					technology_group = east_african
+				}
 			}
 		}
 	}
@@ -68,7 +72,7 @@ adm_idea_modifiers = {
 				factor = 1.25
 				OR = {
 					government = theocracy
-					government = monastic_order_government
+					has_reform = monastic_order_government
 				}
 			}
 			modifier = {
@@ -76,7 +80,10 @@ adm_idea_modifiers = {
 				OR = {
 					religion = brethren
 					religion = neognostic
-					religion = hamiltonian
+					religious_school = {
+						group = oldworld
+						school = hamilton_school
+					}
 				}
 			}
 			modifier = {
@@ -214,7 +221,7 @@ adm_idea_modifiers = {
 				factor = 1.25
 				OR = {
 					government = theocracy
-					government = monastic_order_government
+					has_reform = monastic_order_government
 				}
 			}
 			modifier = {
@@ -228,7 +235,10 @@ adm_idea_modifiers = {
 				OR = {
 					religion = brethren
 					religion = neognostic
-					religion = hamiltonian
+					religious_school = {
+						group = oldworld
+						school = hamilton_school
+					}
 				}
 			}
 			modifier = {
@@ -237,7 +247,10 @@ adm_idea_modifiers = {
 			}
 			modifier = {
 				factor = 1.1
-				religion = jeffersonian
+				religious_school = {
+					group = oldworld
+					school = jefferson_school
+				}
 			}
 			modifier = {
 				factor = 1.1
@@ -336,7 +349,7 @@ adm_idea_modifiers = {
 				factor = 0
 				OR = {
 					NOT = { government = monarchy }
-					government = steppe_horde
+					has_reform = steppe_horde
 				}
 			}
 		}
@@ -351,7 +364,7 @@ adm_idea_modifiers = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { government = steppe_horde }
+				NOT = { has_reform = steppe_horde }
 			}
 		}
 	}

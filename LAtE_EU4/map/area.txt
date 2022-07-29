@@ -2820,11 +2820,11 @@ iroquoisia_area = { #5
 }
 
 west_florida_area = { #5
-	921 922 923 2530 2533
+	921 922 923 2530 5066
 }
 
  mississippi_area = { #4
-	919 920 2528 2529
+	919 920 2528 2529 5065
  }
 
 # choctaw_area = { #3
@@ -2863,13 +2863,6 @@ west_florida_area = { #5
 	# 912 913 914
 # }
 
-# lower_louisiana_area = { # 3
-	# 893 2014 2516 
-# }
-
-# upper_louisiana_area = { #4
-	# 900 902 2513 2514
-# }
 
 ozarks_area = { #3
 	899 2509 2515
@@ -2903,16 +2896,36 @@ badlands_area = { #5
 	1809 2008 2009 2504 2505
 }
 
-llano_estacado_area = { #4
-	882 885 2496 2497 4974
+llano_estacado_area = { #5
+	882 885 2496 2497 4974 5072
 }
 
-texas_area = { #4
-	884 887 888 2665 2669
+arklatexas_area = { #3
+	2669 5081 5082
 }
 
-coastal_prarie_area = { #3
-	883 886 2500
+piney_woods_area = {
+	2665 5083 5084 5085
+}
+
+greater_austin_area = {
+	5077 5087 5088
+}
+
+edwards_brush_area = {
+	5067 5073 5074 5075 5076
+}
+
+houston_coast_area = {
+	888 5070 5071 5086
+}
+
+metroplex_area = {
+	887 5079 5078
+}
+
+lower_rio_grande_area = { #3
+	883 884 2499
 }
 
 # oregon_area = { #4
@@ -2981,26 +2994,21 @@ athabasca_area = { #5
 northeast_mexico_area = { #5
 	861 2614 2619 2667 4950
 }
-pecos_area = { #3
-	2498 2666 882
+pecos_area = { #5
+	2498 2666 5068 5069
 }
 
 apacheria_area = { #3
 	879 2492 4978 4977
 }
 
-
-# durango_area = { #4
-	# 860 863 864 2498 2618
-# }
-
-# rio_grande_area = { # 3
-	# 858 2499 2668
-# }
+waco_area = {
+	886 2500 5080
+}
 
 
-new_mexico_area = { #5
-	880 881 2495 4975 4976
+new_mexico_area = { #6
+	880 881 2495 4975 4976 
 }
 
 colorado_plateau_area = { #4
@@ -3440,7 +3448,11 @@ upper_louisiana_area = { #4
 }
 
 lower_louisiana_area = { # 3
-	893 2014 2516 4885
+	893 2516 5063
+}
+
+uper_louisiana_area = { # confusing but I dont want to mess with the other thing
+	2014 4885 5064
 }
 
 #North West
@@ -3484,11 +3496,19 @@ snake_river_area = {
 #The South
 
 chesapeake_area = { #Virginia
-	950 952 2550 4683 4682
+	950 952 2550 4683 5060
+}
+
+emporia_area = { # Emporia
+	4682 5061 5062
+}
+
+nova_area = { # NoVA
+	5056 5058 5059
 }
 
 great_valley_area = { #Shenadoah
-	949 2011 2549 2553 
+	949 2011 2549 
 }
 
 piedmont_north_america_area = { #3
@@ -3536,11 +3556,15 @@ sowega_area = {
 }
 
 wiregrass_area = {
-	4669 4671 4672 
+	4669 4671 4672 2533
 }
 
 alabama_area = { #Black March
 	924 925 2532 4678 
+}
+
+highland_rim_area = {
+	4681 2531
 }
 
 birmingham_area = {
@@ -3548,11 +3572,11 @@ birmingham_area = {
 }
 
 choctaw_area = { #West Tennessee
-	918 934 4681 4709 939
+	918 4709 939
 }
 
 east_tennessee_area = {
-	2527 2531 4710
+	2527 4710 934
 }
 
 #Chesapeake
@@ -3569,11 +3593,16 @@ delaware_valley_area = { #5
 	956 2023 4621 4622 4582
 }
 
+the_sidelings_area = { #The Sidelings
+	2553 5057
+}
+
 #Appalachia
 
 south_appalachia_area = { #Overmountain
-	 2548 941 935
+	2548 941 935
 }
+
 
 #Australia
 
@@ -3733,7 +3762,7 @@ sinaloa_area = {
 }
 
 rio_grande_area = { # 3
-	858 2499 2668 4747 4748
+	858 2668 4747 4748
 }
 
 durango_area = { #3
@@ -3980,9 +4009,6 @@ western_aegean_area = {
 odishi_area = {
 }
 
-georgia_area = {
-}
-
 rakka_area = {
 }
 
@@ -4009,14 +4035,6 @@ east_altishahr_area = {
 
 }
 
-amnok_area = {
-
-}
-
-north_korea_area = {
-
-}
-
 hejaz_area = {
 
 }
@@ -4027,13 +4045,11 @@ sarat_area = {
 
 ad_dahna_area = {}
 
-najd_area = {}
-
 kongo_area = {}
 
 kanem_area = {}
 
-munster_area {}
+munster_area = {}
 connacht_area = {}
 leinster_area = {}
 ulster_area = {}

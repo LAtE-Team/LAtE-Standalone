@@ -1,0 +1,208 @@
+amerodeutsch = {
+	deitsch = {
+		primary = DEI
+		dynasty_names = { "Yoder" "Offenstein" "Albrecht" }
+		male_names = {
+			Abelard Adalfrid Adalhelm Adalrich Aldous Adalfuns Adalbert Abram Arnuld Amalrich Andreas Amos Anaklet Agatho Albright Arnwald Aaron Abraham Adam Andrew Asher Allen
+			Bertrand Berchtold Botger Benjamin Benedikt Bruno Burkhard Bodomar Bernhard Bartel Bartholomeus Bastian
+			Christian Clemens Calixt Cajus Coelestin Conrad
+			David Dietrich Derek Daniel
+			Elijah Elias Ezekiel Eberhart Emmanuel Ernst Eckert Egilbright Eugen
+			Frederich Friedrich Fredegar Ferdinand Felix Franziskus Fredegisel Flory
+			Georg Gisalhart Garman Gerhard Gideon Gregor Gebhard Gottschalk Gotfrid Gundobert Gabriel
+			Heinrich Hartman Heidrich Hesso Hermann Helmuth Hippolyt Hubert Hugbert Hildebrand Hagenbert Hrodebert Hensel
+			Innozenz Isaiah Isaac Immanuel
+			Johannes Joshua Joseph Jakob Jeremiah Julius Johst James Jared Jesse Jethro Jokim
+			Karl Klause Kunrat Konstantin Kephart Kasimir
+			Lorenz Lothar Luithart Ludwig Lucas Linus Lühr Ludger Leonardt Levi
+			Markus Markwald Mark Maganhard Menno Moses Marius Maginulf Matthias Martin Micah
+			Nicolaus Nagalrich Noah
+			Otto Obediah Otacher Octavius Oskar
+			Petrus Peter Paulus Philip Philibert Pius Paschalis Paul
+			Robrecht Robert Rollant Reinhard Reinhold Ricohard Richard Reuchlin Rufus
+			Stephan Simon Samuel Silvester Sebastian Samson Seth Solomon Stephen
+			Theodor Thomas Trautman Theiss Terri Thaddeus
+			Urban Ursus
+			Valentin Viktor
+			Wilhelm Walther Wibert
+			Zachariah Zephaniah Zacharias
+		}
+		
+		female_names = {
+			Adelgiese Adelina Adela Alessa Agathe Amelia Anna Annegret Astrid
+			Bethany Benigna Beatrix Brunhilde Brigitte
+			Charlotte Claudia Constanze
+			Deborah Delilah Doris Dorothea Dietlinde
+			Erdmuthe Esther Edith Elizabet Eleonore Ebba Emilie Emma Erika Ermentrude Eva
+			Flora Franziska Frauke Freja Frida Friederike
+			Gertrude Gabriela Gerda Gerhilde Gerlinde Gisela Gretchen Gretel Gundhilde Grimtrude
+			Helga Hilda Hannelore Hedwig Helene Heinrike Heilwig Hertha Hiltraud
+			Ilsa Inga Ingeburg Ingrid Irene Irmentrude Irmgard Isolde Isabel
+			Johanna Jessika Josephine Judith Justine
+			Katrin Kristina Karen Karoline Klara Kora Krimhild
+			Lauren Linda Liselotte Luise Luitgard
+			Mildburg Mildred Magdalene Margarethe Marianne Marlene Melanie Miriam Monika
+			Natalie Nicole
+			Otrum Ottilie Olivia Oda
+			Petra Pauline Patricia Philomena Phyllis Pia
+			Rachel Rebecca Regine Renate Rosemarie Ruth
+			Sophie Sarah Severina Sibylle Sieghild Sieglinde Sonja Stefanie Susanne Swanhilde
+			Theodora Tabitha Thekla Theresa
+			Ulrike
+			Valerie Verena Veronika Viktoria
+			Wilhelmine Walburga Waltrude Wanda Wiebke
+		}
+	}
+	plautdietsch  = { #Names could be updated
+		primary = FRD
+		dynasty_names = { "Yoder" "Offenstein" "Albrecht" }
+		male_names = {
+			Abe Abraham Alan Alfred Andreas Andrew Anson Armin Arnold Art Arthur
+			Bart Bartholomew Benno Bernhard Bernard Brad Bert Albert Bryan Brian Byron
+			Carl Chris Christopher Clifford Colter Cornelius Curwin
+			Dale Dan Daniel David Delbert Diedrich Theoderic Dirk Theoderic Don Donald
+			Ed Edward Elam Elias Elijah Elmer Erdman Erhart Erich Eric Ernie Ernest
+			Floyd Franz Francis Fred Frederick
+			Gerhard Gerard Graham Gregor Gregory
+			Harold Harvey Howard Heinrich Henry Helmut Homer
+			Isaac
+			Jakob Jacob Jeff Geoffrey Johann John Jonathan Joe Joseph
+			Kelvin
+			Leonard Levi
+			Mark Maurice Menno Matt Matthew
+			Patrick Paul Peter
+			Ray Raymond Reuben Ruben Rick Richard Rob Robert Royden Russ Russell
+			Sam Samuel Siegfried Sigfried Simon Steven Stephen
+			Ted Theodore Thom Thomas
+			Vic Victor Vincent
+			Werner
+			Zac Zachary Zeke Ezekiel
+		}
+		
+		female_names = {
+			Abby Abigail Aganetha Allison Alison Anna Anne
+			Barbara Becky Beatrice Betty Elizabeth
+			Candice Carrie Cindy
+			Dora Doris Dotty Dorothy
+			Edna Elizabeth Emma Erna Esther
+			Gertrude Greta
+			Hannah Harriet Helena Helen Henrietta
+			Ingrid
+			Jane Janice Judith Judy Judith Julia
+			Katherina Catherine
+			Lilly Lillian Lisa Lois Lynette
+			Magdalena magdalene Maggy Margaret Marge Maria Mary Martha Michelle Miriam
+			Nancy
+			Rachel Rebecca Robyn Robin
+			Sarah Sophie Sophia Suzy Susan
+			Trudy Gertrude
+			Wanda
+		}
+	}
+	rostmann = {
+		primary = AUT
+		dynasty_names = { "Steinbach" "Stahlbleche" "von Elmhurst" "Kurbeling" "Krug" "Kriegshower" "Totenson" "Glasmacher" "Krug" "Domschke" "Cass" "Dampfblast" "Oxgrill" "von La Grange" "Heim" "Ticknor" "Mechatorque" "Gretson" "von Norway" "von Hilltop" "von Trotwood" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von East Jordan" "von Mason" "von Spencerville" "von Flint" "von Chelsea" "von Sylvania" }
+
+		male_names = {
+			Abraham Adalbert Armstrong Alfraed Amalrick Adalfuns Adam Aripert Anthony Adalrost
+			Berick Benjamin Burrill Bentley Benzene Bessemer
+			Christian Christoph
+			Daniel David Dean Dodge Dexter Durant Dorrich
+			Erik Etzel Eurich Edward Edmund Eugene Erwin Elwood Edgar Eisenwulf Eisenrich Eisenslaus
+			Frederich Filadelph Florent Ferdinand Franjo
+			Gilberht Georg Gottfrid Gerolt Gordon Gelbin
+			Hugo Hammo Henrich Hudson Harley
+			Isaac
+			Johannes Jakob Justin Julian Jerome Jagiel
+			Karles Keifer Kasimir
+			Lawrenz Ludewis Lumen Leonard Ladislaus
+			Michael Morits Martin Marklin Miles Maynard Marshall
+			Nicholaus Nathan
+			Otto Oliver Orvil
+			Paul Peter Preston Payton
+			Rostwin Rohardt Roger Raymund Richardt Rainalt Rustin
+			Steppen Sidmund Stahlrich Stahlgar Stanislaus
+			Thomm Theodor Todrich
+			Vincentz Viktor Virgil Velibor
+			Willelm Weyland Wayne Walther Woodward Wilbur Wernher Woitke
+			Zachary Zwentibold
+		}
+
+		female_names = {
+			Adela Annelise Angelica Ann Amanda Antonia Aurora Alyssa Adina
+			Brunhilde Belaire
+			Corvette Courtney Chelsea Celia Cheryl
+			Daniela Diane Deborah Dawn
+			Eleanor Erica Emma Ellen Eisenhilda Eisentrude
+			Grimhilt Gladys Gabriella Georgeanna
+			Hailey Helene Heather Hedwig
+			Isebella Idebelle
+			Kathryn Kristina
+			Jennifer Julia Josefina Jessa Janette
+			Lorelei Lenore
+			Mary Martha Margaret Melissa Michelle Maxine
+			Nichole Nannis Natalie
+			Paula
+			Rosa Rachel Rebecca Rita Regina Roxy
+			Sara Susan Steffi Stahlhilda
+			Todhilda
+			Violet Virginia
+			Willa
+			Yvette
+		}
+
+	}
+	alleghenian = {
+		primary = AGH
+		dynasty_names = { "Steinbach" "Stahlbleche" "von Elmhurst" "Kurbeling" "Krug" "Kriegshower" "Totenson" "Glasmacher" "Krug" "Domschke" "Cass" "Dampfblast" "Oxgrill" "von La Grange" "Heim" "Ticknor" "Mechatorque" "Gretson" "von Norway" "von Hilltop" "von Trotwood" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von Montecristo" "von East Jordan" "von Mason" "von Spencerville" "von Flint" "von Chelsea" "von Sylvania" }
+
+		male_names = {
+			Abraham Adalbert Armstrong Alfraed Amalrick Adalfuns Adam Aripert Anthony Adalrost
+			Berick Benjamin Burrill Bentley Benzene Bessemer
+			Christian Christoph
+			Daniel David Dean Dodge Dexter Durant Dorrich
+			Erik Etzel Eurich Edward Edmund Eugene Erwin Elwood Edgar Eisenwulf Eisenrich Eisenslaus
+			Frederich Filadelph Florent Ferdinand Franjo
+			Gilberht Georg Gottfrid Gerolt Gordon Gelbin
+			Hugo Hammo Henrich Hudson Harley
+			Isaac
+			Johannes Jakob Justin Julian Jerome Jagiel
+			Karles Keifer Kasimir
+			Lawrenz Ludewis Lumen Leonard Ladislaus
+			Michael Morits Martin Marklin Miles Maynard Marshall
+			Nicholaus Nathan
+			Otto Oliver Orvil
+			Paul Peter Preston Payton
+			Rostwin Rohardt Roger Raymund Richardt Rainalt Rustin
+			Steppen Sidmund Stahlrich Stahlgar Stanislaus
+			Thomm Theodor Todrich
+			Vincentz Viktor Virgil Velibor
+			Willelm Weyland Wayne Walther Woodward Wilbur Wernher Woitke
+			Zachary Zwentibold
+		}
+
+		female_names = {
+			Adela Annelise Angelica Ann Amanda Antonia Aurora Alyssa Adina
+			Brunhilde Belaire
+			Corvette Courtney Chelsea Celia Cheryl
+			Daniela Diane Deborah Dawn
+			Eleanor Erica Emma Ellen Eisenhilda Eisentrude
+			Grimhilt Gladys Gabriella Georgeanna
+			Hailey Helene Heather Hedwig
+			Isebella Idebelle
+			Kathryn Kristina
+			Jennifer Julia Josefina Jessa Janette
+			Lorelei Lenore
+			Mary Martha Margaret Melissa Michelle Maxine
+			Nichole Nannis Natalie
+			Paula
+			Rosa Rachel Rebecca Rita Regina Roxy
+			Sara Susan Steffi Stahlhilda
+			Todhilda
+			Violet Virginia
+			Willa
+			Yvette
+		}
+
+	}
+}

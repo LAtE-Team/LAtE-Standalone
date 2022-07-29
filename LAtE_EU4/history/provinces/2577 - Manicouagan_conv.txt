@@ -2,7 +2,7 @@ owner = CTN
 controller = CTN
 add_core = CTN
 
-culture = inuit
+culture = innu
 religion = ursuline
 is_city = yes
 

@@ -1,0 +1,74 @@
+maritime_schism_disaster = {
+	potential = {
+		tag = MRT
+		NOT = {
+			has_country_flag = MRT_survived_disaster
+		}
+	}
+
+	can_start = {
+		has_any_disaster = no
+		NOT = {
+			ruler_age = 18
+		}
+		is_year = 3053
+	}
+
+	can_stop = {
+		ruler_age = 18
+	}
+
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = {
+				stability = 3
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 50
+				}
+			}
+		}
+	}
+
+	can_end = {
+		custom_trigger_tooltip = {
+			has_country_flag = MRT_survived_disaster
+			tooltip = MRT_survived_disaster
+		}
+	}
+
+	modifier = {
+		global_unrest = 4
+		land_morale = -0.1
+	}
+
+	on_start = maritimes_events.4 # Gathering Storm
+	on_end = maritimes_events.5 # A Pleasant Breeze
+
+	on_monthly = {
+	}
+}

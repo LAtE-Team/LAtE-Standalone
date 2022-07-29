@@ -1,0 +1,35 @@
+increase_ruler_power = {
+	[[adm]
+	if = {
+		limit = {
+			NOT = { adm = 6 }
+		}
+		change_adm = 1
+	}
+	else = {
+		add_adm_power = 50
+	}
+	]
+	[[dip]
+	if = {
+		limit = {
+			NOT = { dip = 6 }
+		}
+		change_dip = 1
+	}
+	else = {
+		add_dip_power = 50
+	}
+	]	
+	[[mil]
+	if = {
+		limit = {
+			NOT = { mil = 6 }
+		}
+		change_mil = 1
+	}
+	else = {
+		add_mil_power = 50
+	}
+	]
+}

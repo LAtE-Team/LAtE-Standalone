@@ -1,0 +1,13 @@
+owner = Y81
+controller = Y81
+add_core = Y81
+
+culture = shoshone
+religion = consumerist
+is_city = yes
+add_permanent_claim = COM
+
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1

@@ -153,14 +153,15 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		always = no
 		has_dlc = "Leviathan"
 		tag = PAP
 		religion = catholic
 		any_owned_province = {
-			has_great_project = {
-				type = stpeters_cathedral
-				tier = 3
-			}
+#			has_great_project = {
+#				type = stpeters_cathedral
+#				tier = 3
+#			}
 			religion = catholic
 		}
 	}
@@ -169,10 +170,10 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					has_great_project = {
-						type = stpeters_cathedral
-						tier = 3
-					}
+#					has_great_project = {
+#						type = stpeters_cathedral
+#						tier = 3
+#					}
 					religion = catholic
 				}
 				save_event_target_as = basilica_province
@@ -207,15 +208,15 @@ country_event = {
 			add_unrest = -3
 		}
 		random_owned_province = {
-			limit = {
-				religion = catholic
-				NOT = {
-					has_great_project = {
-						type = stpeters_cathedral
-						tier = 3
-					}
-				}
-			}
+#			limit = {
+#				religion = catholic
+#				NOT = {
+#					has_great_project = {
+#						type = stpeters_cathedral
+#						tier = 3
+#					}
+#				}
+#			}
 			add_unrest = -2
 		}
 		add_country_modifier = {
@@ -286,15 +287,16 @@ country_event = {
 	hidden = yes
 
 	trigger = {
+		always = no
 		if = {
 			limit = {
 				has_dlc = "Leviathan"
 			}
 			146 = {
-				has_great_project = {
-					type = parthenon
-					tier = 1
-				}
+#				has_great_project = {
+#					type = parthenon
+#					tier = 1
+#				}
 			}
 		}
 		NOT = { has_global_flag = parthenon_now_mosque }
@@ -311,7 +313,7 @@ country_event = {
 
     option = { #Update Parthenon
 		set_global_flag = parthenon_now_mosque
-		show_ambient_object = parthenon_minaret
+#		show_ambient_object = parthenon_minaret
 		hide_ambient_object = parthenon
 
 		ai_chance = {
@@ -330,16 +332,17 @@ country_event = {
 	hidden = yes
 
 	trigger = {
+		always = no
 		if = {
 			limit = {
 				has_dlc = "Leviathan"
 			}
-			146 = {
-				has_great_project = {
-					type = parthenon
-					tier = 1
-				}
-			}
+#			146 = {
+#				has_great_project = {
+#					type = parthenon
+#					tier = 1
+#				}
+#			}
 		}
 		has_global_flag = parthenon_now_mosque
 		owns = 146
@@ -354,7 +357,7 @@ country_event = {
     option = { #Update Parthenon
 		clr_global_flag = parthenon_now_mosque
 		show_ambient_object = parthenon
-		hide_ambient_object = parthenon_minaret
+#		hide_ambient_object = parthenon_minaret
 
 		ai_chance = {
 			factor = 1

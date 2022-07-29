@@ -938,15 +938,12 @@ province_event = {
 	trigger = {
 		has_dlc = "Conquest of Paradise"
 		is_colony = no
-		is_core = MAH
 		owner = {
 			NOT = { has_country_flag = last_of_the_mahican }
 			is_colonial_nation = yes
 		}
 		
-		MAH = {
-			exists = no
-		}
+		always = no
 	}
 	
 	mean_time_to_happen = {

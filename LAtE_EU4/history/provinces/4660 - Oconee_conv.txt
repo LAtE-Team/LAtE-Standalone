@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = FLD
-controller = FLD
-add_core = FLD
+owner = Z03
+controller = Z03
+add_core = Z03
 culture = dixie
 religion = protestant
 is_city = yes
@@ -12,9 +12,7 @@ add_permanent_claim = Z12
 	base_tax = 4
 	base_production = 4
 	base_manpower = 2
-	
-	
-	
+}
 	
 	
 	

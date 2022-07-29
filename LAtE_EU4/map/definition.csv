@@ -2528,7 +2528,7 @@ province;red;green;blue;x;x
 2527;202;202;46;Chickamauga;x
 2528;34;122;246;Yazoo;x
 2529;160;221;196;Natchez;x
-2530;97;12;145;Biloxi;x
+2530;97;12;145;Tallahoma;x
 2531;223;132;95;Napochi;x
 2532;55;131;46;Tohome;x		#Conecuh
 2533;181;201;246;Chatot;x
@@ -4916,5 +4916,37 @@ province;red;green;blue;x;x
 5053;13;66;48;Sayaxche;x
 5054;20;79;59;Lacandon;x
 5055;111;41;67;Chetumal;x
-5056;;;;;x
-
+5056;226;201;255;Fairfax;x
+5057;255;168;107;Loudoun;x
+5058;235;255;107;Fauquier;x
+5059;235;112;255;Spotsylvania;x
+5060;44;137;47;Great Dismal;x
+5061;82;137;134;Windsor;x
+5062;173;65;67;Severn;x
+5063;160;155;255;Les'lacs;x
+5064;201;255;208;Natichotches;x
+5065;183;106;163;Tupelo;x
+5066;153;93;98;Biloxi;x
+5067;109;102;196;Nye;x
+5068;178;57;144;Balmorhea;x
+5069;114;36;92;Marfa;x
+5070;79;133;181;Sweeny;x
+5071;178;98;130;Corpus Christi;x
+5072;147;72;59;Outklahoma;x
+5073;170;70;157;Uvalde;x
+5074;109;167;196;Freer;x
+5075;170;219;157;San Antonio;x
+5076;78;43;181;Beevile;x
+5077;159;152;234;Luing;x
+5078;234;125;70;Bastrop;x
+5079;234;58;99;Dripping Spring;x
+5080;133;75;147;Dossart;x
+5081;86;157;181;Killen;x
+5082;47;85;98;Longview;x
+5083;76;127;98;Lufkin;x
+5084;47;198;98;Woodsvile;x
+5085;234;185;145;Mineola;x
+5086;152;167;181;Conroe;x
+5087;164;43;181;Austin;x
+5088;178;85;39;College Station;x
+5089;;;;;x

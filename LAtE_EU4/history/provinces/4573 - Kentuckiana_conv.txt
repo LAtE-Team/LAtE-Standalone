@@ -1,6 +1,6 @@
-owner = Y46
-controller = Y46
-add_core = Y46
+owner = KTA
+controller = KTA
+add_core = KTA
 
 culture = riverlander
 religion = catholic
@@ -11,3 +11,4 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
+trade_goods = grain

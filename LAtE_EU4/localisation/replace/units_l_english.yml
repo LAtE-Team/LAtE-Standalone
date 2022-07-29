@@ -1,7 +1,7 @@
 ﻿l_english:
  RAJPUT_REGIMENT:0 "Old World Regiment\n$EFFECT$"
  ONLY_RAJPUT_MODIFIER:0 "§YAffects only Old World Regiments§!"
- REGCAT_rajput:0 "Old Worlders"
+ REGCAT_rajput:0 "Old Worlder"
  RAJPUT_NAME:0 "$HOME$'s $NUM$$ORDER$ Old Worlders"
  ADD_RAJPUT_SUB_UNIT_EFFECT:0 "Get '§GOld Worlders§!' $UNIT$ in $WHERE|Y$."
  RAJPUT_REGIMENT_TYPE:0 "Old Worlder"
@@ -10,8 +10,10 @@
  rajput_regiment:0 "Old Worlder"
  RECRUIT_RAJPUT_REGIMENTS:0 "Recruit Old World Regiments"
  enables_rajput_regiments:0 "Old World Regiments"
- RAJPUT_REGIMENT_TYPE:0 "Old Worlder
- 
+ RAJPUT_REGIMENT_TYPE:0 "Old Worlder"
+ RAJPUT_DESC:2 "By granting special privileges to our estates, we gain access to elite warriors. Old Worlders have stronger morale than average troops, are cheaper to reinforce and retain their drill bonuses for a longer period of time."
+ RAJPUT_FORCELIMIT:1 "We can recruit up to $VAL|%Y$ of our force-limit of $FL$ as §GOld Worlders§! due to:\n"
+
  COSSACK_REGIMENT:0 "Cowboy Regiment\n$EFFECT$"
  ONLY_COSSACK_MODIFIER:0 "§YAffects only Cowboy Regiments§!"
  REGCAT_cossack:0 "Cowboys"
@@ -24,3 +26,21 @@
  RECRUIT_COSSACK_REGIMENTS:0 "Recruit Cowboy Regiments"
  enables_cossack_regiments:0 "Cowboy Regiments"
  COSSACK_REGIMENT_TYPE:0 "Cowboys"
+ COSSACKS_DESC:2 "By granting special privileges to the §YCowboys§! estate, we can enlist their best horsermen for our armies. Cossacks deal more shock damage than average cavalry regiments."
+ COSSACKS_FORCELIMIT:1 "We can recruit up to $VAL|%Y$ of our force-limit of $FL$ as §GCowboys§! due to:\n"
+
+ STRELTSY_NAME:0 "$HOME$'s $NUM$$ORDER$ Macpap Regiment"
+ STRELTSY_REGIMENT:0 "Macpap Regiment\nFire Damage Bonus: $VAL$"
+ streltsy_modifier:0 "Reliance on Macpaps"
+ REGCAT_streltsy:0 "Macpaps"
+ loyal_streltsy:0 "Loyalty Macpaps"
+ desc_loyal_streltsy:0 "The loyalty of our Macpap regiments ensures a stable future for our nation, at least for the time being."
+ ONLY_STRELTSY_MODIFIER:0 "§YAffects only Macpap Regiments§!"
+ ADD_STRELTSY_SUB_UNIT_EFFECT:0 "Get '§GMacpap§!' $UNIT$ in §Y$WHERE$§!."
+ HAVE_LESS_STRELTSY_THAN:1 "Have less Macpaps than §Y$VALUE$§!.\n"
+ HAVE_AT_LEAST_STRELTSY_THAN:1 "Have at least §Y$VALUE$§! Macpaps.\n"
+ STRELTSY_REGIMENT_TYPE:0 "Macpaps"
+
+ african_mandelaku:0 "New Model Mandekalu Cavalry"
+ african_mandelakuDESCR:0 "The New Model Mandekalu Cavalry were descendents of the soldiers who owed direct fealty to the Mansa of Mali in antiquity, who equipped and fed them in exchange for military service."
+ african_cuirassierDESCR:0 "Heavily armoured African Cavalry employing American Cuirassier tactics."

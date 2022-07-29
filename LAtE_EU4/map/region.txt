@@ -1196,6 +1196,7 @@ atlantica_region = {
 		niagara_area
 		gotham_area
 		actual_susquehanna_area
+		the_sidelings_area
 	}
 }
 
@@ -1218,6 +1219,7 @@ southeast_america_region =  {
 		wiregrass_area
 		west_florida_area
 		alabama_area
+		highland_rim_area
 		birmingham_area
 		mississippi_area
 	}
@@ -1231,6 +1233,7 @@ mississippi_region = {
 	areas = {
 		lower_louisiana_area
 		upper_louisiana_area
+		uper_louisiana_area
 		mississippi_plain_area
 		ozarks_area
 		#AtE Additions
@@ -1328,6 +1331,9 @@ mexico_region = {
 		sinaloa_area
 		sonora_y_sinaloa_area
 		istmo_area
+		rio_grande_area
+		northeast_mexico_area
+		chihuahua_area
 	}
 	monsoon = {
 		00.06.01
@@ -1335,15 +1341,19 @@ mexico_region = {
 	}
 }
 
-rio_grande_region = {
+texas_region = {
 	areas = {
-		rio_grande_area
-		northeast_mexico_area
-		texas_area
-		coastal_prarie_area
+		arklatexas_area
+		lower_rio_grande_area
 		pecos_area
 		llano_estacado_area
-		chihuahua_area
+		piney_woods_area 
+		greater_austin_area
+		edwards_brush_area
+		houston_coast_area
+		metroplex_area
+		waco_area
+		
 	}
 	monsoon = {
 		00.06.01
@@ -1608,6 +1618,8 @@ grand_virginia_region = {
 		south_appalachia_area
 		choctaw_area
 		east_tennessee_area
+		nova_area
+		emporia_area
 	}
 }
 

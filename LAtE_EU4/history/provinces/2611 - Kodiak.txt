@@ -3,23 +3,14 @@
 owner = NRA
 controller = NRA
 add_core = NRA
+
 culture = novorusskiy
 religion = nousthreskeia
-capital = "Quileute"
-trade_goods = unknown
-hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 3
-native_size = 5
-native_ferocity = 1
-native_hostileness = 2
 is_city = yes
+capital = "Quileute"
 
-
-
-
-
-
-
-
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish

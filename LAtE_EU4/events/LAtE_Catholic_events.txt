@@ -1,0 +1,107 @@
+##############################
+# Catholic Events            #
+#                            #
+# Adapted by Technician      #
+##############################
+
+namespace = catholic_flavor
+
+# The Ursulines Brought to Heel
+country_event = {
+	id = catholic_flavor.1
+	title = catholic_flavor.1.t
+	desc = {
+		trigger = {  
+			religion = catholic
+		}
+		desc = catholic_flavor.1.catholic.d
+	}
+	desc = {
+		trigger = {  
+			religion = ursuline
+		}
+		desc = catholic_flavor.1.ursuline.d
+	}
+	desc = {
+		trigger = {  
+			NOT = { religion = catholic }
+			NOT = { religion = ursuline }
+		}
+		desc = catholic_flavor.1.christian.d
+	}
+	picture = POPE_PREACHING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = catholic_flavor.1.a
+		trigger = {
+			religion = catholic
+			any_owned_province = {
+				religion = ursuline
+			}
+		}
+		add_prestige = 20
+		every_owned_province = {
+			limit = {
+				religion = ursuline
+			}
+			add_province_modifier = {
+				name = ursuline_schism_mended_modifier
+				duration = 7300
+			}
+		}
+		custom_tooltip = URSULINE_SCHISM_MENDED_TT
+	}
+
+	option = {
+		name = catholic_flavor.1.b
+		trigger = {
+			religion = catholic
+			NOT = {
+				any_owned_province = {
+					religion = ursuline
+				}
+			}
+		}
+		add_prestige = 20
+		add_stability = 1
+		custom_tooltip = URSULINE_SCHISM_MENDED_TT
+	}
+
+	option = {
+		name = catholic_flavor.1.c
+		trigger = {
+			religion = ursuline	
+		}
+		change_religion = ursuline
+		hidden_effect = {
+			capital_scope = {
+				change_religion = ursuline
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+
+	option = {
+		name = catholic_flavor.1.d
+		trigger = {
+			religion = ursuline	
+		}
+		add_stability = -1
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = catholic_flavor.1.e
+		trigger = {
+			NOT = { religion = catholic }
+			NOT = { religion = ursuline }	
+		}
+	}
+}

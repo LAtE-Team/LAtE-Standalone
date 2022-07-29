@@ -136,11 +136,11 @@ country_event = {
 				}
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
-						technology_group = central_african
-						technology_group = sub_saharan
-						technology_group = chinese
+						technology_group = south_african
+						technology_group = east_african
+						technology_group = eastasian
 					}
 				}
 			}
@@ -179,11 +179,11 @@ country_event = {
 						}
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}
 					}
@@ -193,11 +193,11 @@ country_event = {
 					limit = {
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}
 					}
@@ -657,11 +657,11 @@ country_event = {
 				NOT = { owned_by = ROOT }
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
-						technology_group = central_african
-						technology_group = sub_saharan
-						technology_group = chinese
+						technology_group = south_african
+						technology_group = east_african
+						technology_group = eastasian
 					}
 				}
 			}
@@ -707,11 +707,11 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}
 					}
@@ -722,11 +722,11 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}
 					}
@@ -897,11 +897,11 @@ country_event = {
 				NOT = { owned_by = ROOT }
 				owner = {
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
-						technology_group = central_african
-						technology_group = sub_saharan
-						technology_group = chinese
+						technology_group = south_african
+						technology_group = east_african
+						technology_group = eastasian
 					}
 				}	
 			}
@@ -944,11 +944,11 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}	
 					}
@@ -959,11 +959,11 @@ country_event = {
 						NOT = { owned_by = ROOT }
 						owner = {
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 						}
 					}
@@ -1038,11 +1038,11 @@ country_event = {
 						war_with = ROOT
 					}
 					OR = {
-						technology_group = indian
+						technology_group = westasian
 						technology_group = east_african
-						technology_group = central_african
-						technology_group = sub_saharan
-						technology_group = chinese
+						technology_group = south_african
+						technology_group = east_african
+						technology_group = eastasian
 					}
 					any_country = {
 						NOT = {
@@ -1059,11 +1059,11 @@ country_event = {
 							}
 						}
 						OR = {
-							technology_group = indian
+							technology_group = westasian
 							technology_group = east_african
-							technology_group = central_african
-							technology_group = sub_saharan
-							technology_group = chinese
+							technology_group = south_african
+							technology_group = east_african
+							technology_group = eastasian
 						}
 					}
 				}	
@@ -1105,11 +1105,11 @@ country_event = {
 								war_with = ROOT
 							}
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 							any_country = {
 								NOT = {
@@ -1126,11 +1126,11 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
-									technology_group = central_african
-									technology_group = sub_saharan
-									technology_group = chinese
+									technology_group = south_african
+									technology_group = east_african
+									technology_group = eastasian
 								}
 							}
 						}	
@@ -1146,11 +1146,11 @@ country_event = {
 								war_with = ROOT
 							}
 							OR = {
-								technology_group = indian
+								technology_group = westasian
 								technology_group = east_african
-								technology_group = central_african
-								technology_group = sub_saharan
-								technology_group = chinese
+								technology_group = south_african
+								technology_group = east_african
+								technology_group = eastasian
 							}
 							any_country = {
 								NOT = {
@@ -1167,11 +1167,11 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
-									technology_group = central_african
-									technology_group = sub_saharan
-									technology_group = chinese
+									technology_group = south_african
+									technology_group = east_african
+									technology_group = eastasian
 								}
 							}
 						}
@@ -1191,11 +1191,11 @@ country_event = {
 									}
 								}
 								OR = {
-									technology_group = indian
+									technology_group = westasian
 									technology_group = east_african
-									technology_group = central_african
-									technology_group = sub_saharan
-									technology_group = chinese
+									technology_group = south_african
+									technology_group = east_african
+									technology_group = eastasian
 								}
 							}
 							save_event_target_as = company_interference_country_2

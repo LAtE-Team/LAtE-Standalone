@@ -1,0 +1,70 @@
+#For Vermont, Maine, and New England
+nen_yankee_resettlement = {
+	culture_conversion_cost = -0.25
+}
+nen_religious_pacification = {
+	global_missionary_strength = +0.02
+	missionary_maintenance_cost = -0.2
+}
+nen_yankee_unification = {
+	core_creation = -0.10 
+}
+nen_crusaders_fervor = {
+	global_missionary_strength = 0.01
+}
+nen_yankee_armada = {
+	naval_maintenance_modifier = -0.1
+}
+northern_ivy_restored = {
+	local_institution_spread = 0.1
+}
+southern_ivy_restored = {
+	local_institution_spread = 0.1
+}
+ivy_league_restored = {
+	advisor_cost = -0.1
+}
+nen_ursuline_supremacy = {
+	global_heretic_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.2
+}
+nen_anglican_triumphant = {
+	global_missionary_strength = 0.01
+}
+nen_anglican_supremacy = {
+	global_heretic_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.2
+}
+nen_twilight_of_the_antiquarian = {
+	global_missionary_strength = 0.01
+}
+nen_atlantic_imperialism = {
+	core_creation = -0.20
+}
+nen_avenge_the_ancestor = {
+	prestige = 1.00
+	global_missionary_strength = 0.01
+}
+nen_foothold_on_continental_europe = {
+	prestige = 0.50
+	development_cost = -0.10
+}
+nen_foothold_on_the_low_countries = {
+	prestige = 0.50
+	global_ship_trade_power = 0.10
+}
+nen_recivilization_of_france = {
+	cavalry_power = 0.10
+	trade_goods_size_modifier = 0.10
+}
+nen_recivilization_of_britain = {
+	colonists = 1
+	range = 0.10
+}
+nen_recivilization_of_the_low_countries = {
+	naval_attrition = -0.10
+	global_trade_power = 0.10
+}
+nen_a_stable_nation = {
+	global_unrest = -1.00
+}

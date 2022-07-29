@@ -21,7 +21,6 @@ propagate_religion =
 			AND = {
 				OR = {
 					religion = consumerist
-					religion = monetarist
 				}
 				dominant_religion = ROOT
 				FROM = {
@@ -52,7 +51,6 @@ propagate_religion =
 			AND = {
 				OR = {
 					religion = consumerist
-					religion = monetarist
 				}
 				dominant_religion = ROOT
 				FROM = {

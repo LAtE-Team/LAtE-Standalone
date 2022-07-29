@@ -228,29 +228,23 @@ estate_nobles =
 	}
 
 	#Names - Vanilla
-	custom_name = {
-		desc = estate_oyo_mesi
-		trigger = {
-			tag = OYO
-		}
-	}
+#	custom_name = {
+#		desc = estate_oyo_mesi
+#		trigger = {
+#			tag = OYO
+#		}
+#	}
 	custom_name = {
 		desc = estate_nakomse
 		trigger = {
 			primary_culture = mossi
-			religion = shamanism
+			religion_group = afro_syncretic
 		}
 	}
 	custom_name = {
 		desc = estate_chieftains
 		trigger = {
 			has_reform = tribal_confederacy
-		}
-	}
-	custom_name = {
-		desc = estate_beys
-		trigger = {
-			technology_group = ottoman
 		}
 	}
 	custom_name = {
@@ -272,18 +266,18 @@ estate_nobles =
 			}
 		}
 	}
-	custom_name = {
-		desc = estate_timawa
-		trigger = {
-			tag = MAS
-		}
-	}
-	custom_name = {
-		desc = estate_nayaks
-		trigger = {
-			tag = VIJ
-		}
-	}
+#	custom_name = {
+#		desc = estate_timawa
+#		trigger = {
+#			tag = MAS
+#		}
+#	}
+#	custom_name = {
+#		desc = estate_nayaks
+#		trigger = {
+#			tag = VIJ
+#		}
+#	}
 	custom_name = {
 		desc = estate_samantas
 		trigger = {
@@ -302,18 +296,18 @@ estate_nobles =
 			has_reform = celestial_empire
 		}
 	}
-	custom_name = {
-		desc = estate_mansabdars
-		trigger = {
-			tag = MUG
-		}
-	}
-	custom_name = {
-		desc = estate_tetecuhtin
-		trigger = {
-			religion = nahuatl
-		}
-	}
+#	custom_name = {
+#		desc = estate_mansabdars
+#		trigger = {
+#			tag = MUG
+#		}
+#	}
+#	custom_name = {
+#		desc = estate_tetecuhtin
+#		trigger = {
+#			religion = nahuatl
+#		}
+#	}
 	custom_name = {
 		desc = estate_andriana
 		trigger = {
@@ -324,7 +318,6 @@ estate_nobles =
 		desc = estate_amirs
 		trigger = {
 			religion_group = muslim
-			NOT = { technology_group = ottoman } #Should possibly be more restricted
 		}
 	}
 	custom_name = {
@@ -339,20 +332,20 @@ estate_nobles =
 			culture_group = japanese_g
 		}
 	}
-	custom_name = {
-		desc = estate_yangban_administrators
-		trigger = {
-			tag = KOR
-			religion = confucianism
-		}
-	}
+#	custom_name = {
+#		desc = estate_yangban_administrators
+#		trigger = {
+#			tag = KOR
+#			religion = confucianism
+#		}
+#	}
 	custom_name = {
 		desc = estate_junkers
 		trigger = {
 			OR = {
 				has_reform = prussian_republic_reform
 				has_reform = prussian_monarchy
-				tag = GER
+#				tag = GER
 			}
 		}
 	}
@@ -363,7 +356,7 @@ estate_nobles =
 				capital_scope = {
 					area = northern_polynesia_area
 				}
-				tag = SAM
+#				tag = SAM
 			}
 			primary_culture = polynesian
 			religion = animism
@@ -376,25 +369,25 @@ estate_nobles =
 			religion = animism
 		}
 	}
-	custom_name = {
-		desc = estate_eiki
-		trigger = {
-			tag = TOG
-			primary_culture = polynesian
-			religion = animism
-		}
-	}
-	custom_name = {
-		desc = estate_ratu
-		trigger = {
-			OR = {
-				tag = LAI
-				tag = VIL
-				tag = VNL
-			}
-			religion = animism
-		}
-	}
+#	custom_name = {
+#		desc = estate_eiki
+#		trigger = {
+#			tag = TOG
+#			primary_culture = polynesian
+#			religion = animism
+#		}
+#	}
+#	custom_name = {
+#		desc = estate_ratu
+#		trigger = {
+#			OR = {
+#				tag = LAI
+#				tag = VIL
+#				tag = VNL
+#			}
+#			religion = animism
+#		}
+#	}
 	custom_name = {
 		desc = estate_warriors
 		trigger = {

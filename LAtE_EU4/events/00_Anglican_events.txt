@@ -76,7 +76,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Rule Britannia"
-		is_religion_enabled = reformed
+		is_religion_enabled = protestant
 		religion = anglican
 	}
 	mean_time_to_happen = {
@@ -238,7 +238,6 @@ country_event = {
 		any_owned_province = {
 			is_capital = no
 			OR = {
-				religion = reformed
 				religion = protestant
 				religion = catholic
 			}
@@ -260,7 +259,6 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = catholic
-						religion = reformed
 					}
 				}
 				save_event_target_as = prayer_book_province
@@ -282,7 +280,6 @@ country_event = {
 					OR = {
 						religion = protestant
 						religion = catholic
-						religion = reformed
 					}
 				}
 				add_province_modifier = {
@@ -396,7 +393,6 @@ country_event = {
 			OR = {
 				religion = anglican
 				religion = catholic
-				religion = reformed
 				religion = protestant
 			}
 			NOT = {
@@ -424,7 +420,6 @@ country_event = {
 					OR = {
 						religion = anglican
 						religion = catholic
-						religion = reformed
 						religion = protestant
 					}
 					NOT = {
@@ -449,7 +444,6 @@ country_event = {
 					OR = {
 						religion = anglican
 						religion = catholic
-						religion = reformed
 						religion = protestant
 					}
 				}
@@ -470,7 +464,6 @@ country_event = {
 					OR = {
 						religion = anglican
 						religion = catholic
-						religion = reformed
 						religion = protestant
 					}
 				}
@@ -599,7 +592,6 @@ country_event = {
 			continent = europe
 			OR = {
 				religion = catholic
-				religion = reformed
 			}
 		}
 		NOT = {
@@ -640,29 +632,8 @@ country_event = {
 				continent = capital
 				OR = {
 					religion = catholic
-					religion = reformed
 				}
 			}
-			add_province_modifier = {
-				name = anglican_iconoclasm
-				duration = 3650
-			}
-		}
-	}
-	option = {
-		name = anglican_events.12.c # stop these radicals
-		trigger = {
-			is_religion_enabled = reformed
-			any_owned_province = {
-				religion = reformed
-			}
-		}
-		random_owned_province = {
-			limit = {
-					religion = reformed
-					continent = capital
-			}
-			change_religion = anglican
 			add_province_modifier = {
 				name = anglican_iconoclasm
 				duration = 3650

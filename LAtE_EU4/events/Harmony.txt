@@ -136,7 +136,7 @@ country_event = {
 		name = "confucian_events.105.a"
 		tooltip = {
 			add_country_modifier = {
-				name = "harmonized_pirate"
+				name = "harmonized_nautical"
 				duration = -1
 			}
 		}

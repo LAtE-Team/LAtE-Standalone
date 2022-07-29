@@ -1,4 +1,4 @@
-# Mushkegowuk
+# Anishinaabeg
 setup_vision = yes
 government = monarchy 
 technology_group = eastern

@@ -448,7 +448,7 @@ country_event = {
 			estate = estate_brahmins
 			influence = 40
 		}
-		technology_group = indian
+		technology_group = westasian
 		NOT = {
 			has_estate_influence_modifier = {
 				estate = estate_brahmins

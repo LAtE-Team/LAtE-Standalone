@@ -1,7 +1,8 @@
 ﻿l_english:
- #Catholic
+ #Christian
+ province_is_or_accepts_ursuline_tt: "The Religion of §Y[Root.GetName]§! is §YOrdinate§! and is either the State or the Syncretic Religion of the owner."
  ursuline_order: "Order of Saint Ursula"
- ursuline_order_desc: "Among the dedicated Christian evangelists, the missionaries of the Society of Jesus are determined to spread the word of God to the four corners of the world. They are firm advocates for the natural rights of all mankind, abhorring slavery and mistreatment"
+ ursuline_order_desc: "Among the dedicated Christian evangelists, the missionaries of the Order of Saint Ursula are determined to spread the word of God to the four corners of the world. They are firm advocates for the natural rights of all mankind, abhorring slavery and mistreatment"
  charity_order: "Sisters of Charity"
  charity_order_desc: "The Grey Nuns of the Sisters of Charity they seek to change the world through compassionate deeds."
  angeline_order: "Sisters of Blessed Angelina"
@@ -9,6 +10,14 @@
  estate_ursuline: "Order of Saint Ursula"
  estate_sisters_of_charity: "Sisters of Charity"
  estate_angeline: "Sisters of Blessed Angelina"
+ anabaptist_order: "Community of Anabaptists"
+ anabaptist_order_desc: "Because of the peculiar nature of our government, local Anabaptist communities have enough autonomy to act as autonomous holy orders, taking care of local administration in a state."
 
  #Old World
  RECLAMATION: "Reclamation"
+ province_is_or_accepts_americanist_tt: "The Religion of §Y[Root.GetName]§! is §YAmericanist§! and is either the State or the Syncretic Religion of the owner."
+ province_is_or_accepts_rust_cultist_tt: "The Religion of §Y[Root.GetName]§! is §YRust Cultist§! and is either the State or the Syncretic Religion of the owner."
+ americanist_presidency_reform: "Americanist Presidency"
+ americanist_presidency_reform_desc: "The government of this nation is based around the religious institutions of the Americanist Presidency, with power resting in the elected president."
+ walden_pond: "Walden Pond"
+ desc_walden_pond: "An ancient serene pond where the American legend Thoreau is said to have reached enlightenment."

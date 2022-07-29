@@ -14,3 +14,44 @@ rust_cult_armour_modifier_3 = {
 	fire_damage_received = -0.10
 	shock_damage_received = -0.10
 }
+
+anglican_stability_modifier = {
+	stability_cost_modifier = -0.5
+}
+
+anglican_colonial_modifier = {
+	native_assimilation = 0.25
+	colonist_placement_chance = 0.05
+}
+
+consumerist_abrahamic_roots = {
+	trade_goods_size_modifier = 0.2
+	local_tax_modifier = 0.2
+	local_missionary_strength = -1
+	local_religious_unity_contribution = -1
+	religion = yes
+}
+
+consumerist_community_same_culture_group = {
+	local_tax_modifier = 0.15
+	local_manpower_modifier = 0.15
+	local_sailors_modifier = 0.15
+	religion = yes
+}
+
+consumerist_community_wrong_culture = {
+	local_unrest = -2
+	local_tax_modifier = 0.33
+	local_manpower_modifier = 0.33
+	local_sailors_modifier = 0.2
+	religion = yes
+}
+
+ursuline_schism_mended_modifier = {
+	local_missionary_strength = 0.015
+	local_missionary_maintenance_cost = -0.5
+}
+
+ursuline_schism_mender_modifier = {
+	global_heretic_missionary_strength = 0.015
+}

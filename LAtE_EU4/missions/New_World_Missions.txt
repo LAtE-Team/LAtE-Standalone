@@ -14,7 +14,7 @@ new_world_natives_missions = { #Applies to Europe
 		trigger = {
 			is_tribal = no
 			NOT = {
-#				has_reform = native_council
+				government = native
 				has_reform = siberian_native_council
 			}
 			any_neighbor_country = {

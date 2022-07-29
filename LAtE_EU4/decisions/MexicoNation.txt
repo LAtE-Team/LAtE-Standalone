@@ -70,15 +70,6 @@ country_decisions = {
 			}
 			set_government_rank = 3
 			mexico_region = {
-				limit = {
-					NOT = { area = texas_area }
-					NOT = { area = llano_estacado_area }
-					NOT = { area = coastal_prarie_area }
-					NOT = { area = rio_grande_area }
-					NOT = { area = northeast_mexico_area }
-					NOT = { area = durango_area }
-					NOT = { area = sonora_y_sinaloa_area }
-				}
 				add_permanent_claim = MEX
 			}
 			add_country_modifier = {

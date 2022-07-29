@@ -1,0 +1,188 @@
+namespace = flavor_NEN
+
+country_event = {
+	id = flavor_NEN.1
+	title = "flavor_NEN.1.TITLE"
+	desc = "flavor_NEN.1.DESC"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of NEN_purchase_of_aroostook mission as NEN
+	option = {	#Accepts ducats in exchange for land
+		name = "flavor_NEN.1.a"
+		ai_chance = {
+			factor = 1
+			modifier = { #The Maritimes is under a personal union as a junior partner
+				factor = 50
+				ROOT = {
+					junior_union_with = NEN
+					NOT = { liberty_desire = 50 }
+				}
+			}
+			modifier = { #The Maritimes is in debt or broke
+				factor = 2
+				ROOT = {
+					OR = {
+						is_in_deficit = yes
+						num_of_loans = 1
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				military_strength = {
+					who = FROM
+					value = 2.0
+				}
+			}
+			modifier = { #The AI hates your gut
+			factor = 0
+				OR = {
+					FROM = {
+						is_rival = ROOT
+					}
+				}
+				OR = {
+					ai_attitude = {
+						who = FROM
+						attitude = attitude_hostile
+					}
+				}
+				OR = {
+					ROOT = {
+						junior_union_with = NEN
+						liberty_desire = 50
+					}
+				}
+			}
+		}
+		ROOT = {
+			4546 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = NEN
+					change_controller = NEN
+					remove_core = ROOT
+				}
+			}
+			2567 = {
+				if = {
+					limit = {
+					NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = NEN
+					change_controller = NEN
+					remove_core = ROOT
+				}
+			}
+			add_treasury = 200
+		}
+		NEN = {
+			add_treasury = -200
+			add_accepted_culture = acadien
+		}
+	}
+	option = {	#refuse to take offer
+		name = "flavor_NEN.1.b"
+		ai_chance = {
+			factor = 1
+			modifier = { #Aroostook owner hates your gut
+			factor = 50
+				OR = {
+					FROM = {
+						is_rival = ROOT
+					}
+				}
+				OR = {
+					ai_attitude = {
+						who = FROM
+						attitude = attitude_hostile
+					}
+				}
+				OR = {
+					ROOT = {
+						junior_union_with = NEN
+						liberty_desire = 50
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				military_strength = {
+					who = FROM
+					value = 2.0
+				}
+			}
+			modifier = { #The AI is in debt or broke
+			factor = 0.5
+				ROOT = {
+					OR = {
+						is_in_deficit = yes
+						num_of_loans = 1
+					}
+				}
+			}
+			modifier = { #The AI is under a personal union as a junior partner
+			factor = 0
+				ROOT = {
+					junior_union_with = NEN
+					NOT = { liberty_desire = 50 }
+				}
+			}
+		}
+		4546 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = NEN
+						is_core = NEN
+					}
+				}
+				add_permanent_claim = NEN
+			}
+		}
+		2567 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = NEN
+						is_core = NEN
+					}
+				}
+				add_permanent_claim = NEN
+			}
+		}
+	}
+}
+country_event = {
+	id = flavor_NEN.2 #This is where we burn Manhattan to the ground
+	title = "flavor_NEN.2.TITLE"
+	desc = "flavor_NEN.2.DESC"
+	picture = NOT_DISCIPLINED_SOLDIERS_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes	#Triggered on completion of NEN_sack_of_gotham mission as NEN
+	option = {	#Burn Manhattan to the ground
+		name = "flavor_NEN.2.a"
+		ai_chance = { factor = 1 }
+		ROOT = {
+			965 = {
+				add_devastation = 10
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+			}
+			add_treasury = 500
+		}
+	}
+}

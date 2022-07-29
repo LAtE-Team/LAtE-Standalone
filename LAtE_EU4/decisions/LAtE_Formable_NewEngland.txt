@@ -36,6 +36,11 @@ country_decisions = {
 				province_id = 4543			# Burlington
 				province_id = 970			# New Hampshire
 				province_id = 2013			# Kennebec
+				province_id = 2010			# Connecticut
+				province_id = 967			# Rhode Island
+				province_id = 971			# Penobscott
+				province_id = 2561			# Plymouth
+				province_id = 4545			# Skowhegan
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -43,7 +48,6 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -51,22 +55,15 @@ country_decisions = {
 			owns_core_province = 4543			# Burlington
 			owns_core_province = 970			# New Hampshire
 			owns_core_province = 2013			# Kennebec
+			owns_core_province = 2010			# Connecticut
+			owns_core_province = 967			# Rhode Island
+			owns_core_province = 971			# Penobscott
+			owns_core_province = 2561			# Plymouth
+			owns_core_province = 4545			# Skowhegan
 		}
 		effect = {
 			change_tag = NEN
-			if = {
-				limit = {
-					has_custom_ideas = no
-					OR = {
-						ai = no
-						AND = {
-							ai = yes
-							has_idea_group = default_ideas
-						}
-					}
-				}
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
+			swap_non_generic_missions = yes
 			if = {
 				limit = {
 					is_part_of_hre = yes
@@ -128,6 +125,9 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = formed_new_england_flag
+			hidden_effect = {
+                swap_non_generic_missions = yes
+            }
 		}
 		ai_will_do = {
 			factor = 1

@@ -2,7 +2,7 @@ country_decisions = {
 
 	designate_the_staple_port = {
 		potential = {
-			tag = ENG
+			always = no
 			owns = 87
 			NOT = { 87 = { has_province_modifier = the_staple_port } }
 
@@ -21,7 +21,7 @@ country_decisions = {
 		effect = {
 			1744 = {
 				 owner = {
-					add_opinion = { who = ENG modifier = opinion_designated_staple_port }
+					add_opinion = { who = ROOT modifier = opinion_designated_staple_port }
 				}
 			}
 			add_mercantilism = 10

@@ -133,12 +133,18 @@ country_event = {
 				has_estate = estate_brahmins
 				NOT = {	num_of_estate_privileges = { estate = estate_brahmins	value = 4 } }
 			}
+			AND = {
+				religion_group = oldworld
+				has_estate = estate_antiquarians
+				NOT = {	num_of_estate_privileges = { estate = estate_brahmins	value = 4 } }
+			}
 		}
 		NOT = {
             has_estate_privilege = estate_brahmins_statutory_rights
             has_estate_privilege = estate_nobles_statutory_rights
             has_estate_privilege = estate_burghers_statutory_rights
             has_estate_privilege = estate_church_statutory_rights
+			has_estate_privilege = estate_antiquarians_statutory_rights
         }
 	}
 
@@ -171,6 +177,13 @@ country_event = {
 				has_estate = estate_brahmins
 			}
 			set_estate_privilege = estate_brahmins_statutory_rights
+		}
+		else_if = {
+			limit = { 
+				religion_group = oldworld
+				has_estate = estate_antiquarians
+			}
+			set_estate_privilege = estate_antiquarians_statutory_rights
 		}
 		else_if = {
 			limit = {

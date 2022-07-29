@@ -21,6 +21,26 @@ americanist_washington = {
 	missionaries = 1
 }
 
+#########################################################
+# Americanist same dynasty as president.
+#########################################################
+americanist_washington = {
+	potential = {
+		normal_or_historical_nations = yes
+		religion = americanist
+	}
+
+	trigger = {
+		NOT = { has_reform = americanist_presidency_reform }
+		any_known_country = {
+			has_reform = americanist_presidency_reform
+			dynasty = ROOT
+		}
+	}
+
+	yearly_patriarch_authority = 1
+}
+
 ######################################
 # Mictlantec control of Cholula.
 ######################################

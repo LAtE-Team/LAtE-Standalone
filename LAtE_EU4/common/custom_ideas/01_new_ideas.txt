@@ -89,7 +89,7 @@ new_idea_dip_modifiers = {
 			modifier = {
 				factor = 0
 				religion_group = christian
-				NOT = { government = monastic_order_government }
+				NOT = { has_reform = monastic_order_government }
 			}
 			modifier = {
 				factor = 5

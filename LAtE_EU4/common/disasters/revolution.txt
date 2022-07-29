@@ -229,7 +229,6 @@ revolution = {
 	on_monthly = {
 		events = { #Revolution for different nations
 			revolution.10 #Generic
-			revolution.15 #France (non-monarchy)
 		}
 		random_events = { 
 			1000 = 0

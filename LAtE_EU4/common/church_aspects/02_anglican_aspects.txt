@@ -1,0 +1,380 @@
+anglican_divorce_consort = {
+	sprite = "GFX_divorce_consort_icon"
+	cost = 50
+	potential = {
+		has_dlc = "Rights of Man"
+		government = monarchy
+		NOT = { has_reform = iqta }
+		NOT = { has_reform = mamluk_government }
+		NOT = { has_reform = ottoman_government }
+		has_consort = yes
+	}
+	trigger = {
+		has_heir = no
+		is_lesser_in_union = no
+		has_regency = no
+	}
+	effect = {
+		custom_tooltip = divorce_consort_tooltip
+		hidden_effect = {
+			remove_consort = yes
+		}		
+	}
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				consort_has_personality = infertile_personality
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				consort_adm = 2
+				consort_dip = 2
+				consort_mil = 2
+			}
+		}
+	}
+}
+
+anglican_gain_consort = {
+	sprite = "GFX_marry_local_suitor_icon"
+	cost = 50
+	potential = {
+		has_dlc = "Rights of Man"
+		government = monarchy
+		NOT = { has_reform = iqta }
+		NOT = { has_reform = mamluk_government }
+		NOT = { has_reform = ottoman_government }
+		has_consort = no
+	}
+	trigger = {
+		is_lesser_in_union = no
+		has_regency = no
+	}
+	effect = {
+		if = {
+			limit = {
+				is_female = no
+			}
+			define_consort = {
+				country_of_origin = ROOT
+				hide_skills = yes
+				female = yes
+			}
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			define_consort = {
+				country_of_origin = ROOT
+				hide_skills = yes
+				male = yes
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			ruler_age = 40
+		}
+		modifier = {
+			factor = 2
+			ruler_age = 60
+		}
+	}
+}
+
+anglican_justify_reign = {
+	sprite = "GFX_marry_local_suitor_icon"
+	cost = 100
+	potential = {
+		OR = {
+			NOT = { has_dlc = "Rights of Man" }
+			NOT = { government = monarchy }
+			has_reform = iqta
+			has_reform = mamluk_government
+			has_reform = ottoman_government
+		}
+	}
+	trigger = {
+		NOT = { legitimacy_equivalent = 100 }
+	}
+	effect = {
+		add_legitimacy_equivalent = {
+			amount = 10
+			republican_tradition = 5
+		}		
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			NOT = {
+				legitimacy_equivalent = 50
+			}
+		}
+	}
+}
+
+anglican_call_of_the_sea = {
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 100
+	potential = {
+		NOT = { has_idea_group = exploration_ideas }
+	}
+	trigger = {
+		NOT = {
+			sailors_percentage = 1
+		}
+	}
+	effect = {
+		add_yearly_sailors = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { sailors_percentage = 0.25 }
+		}
+	}
+}
+
+anglican_mission_across_the_sea = {
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 100
+	potential = {
+		has_idea_group = exploration_ideas
+	}
+	trigger = {
+		NOT = {
+			has_country_modifier = anglican_colonial_modifier
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = anglican_colonial_modifier
+				duration = 3650
+			}
+		}
+		custom_tooltip = ANGLICAN_COLONIAL_TT
+	}
+	ai_will_do = {
+		factor = 3
+	}
+}
+
+anglican_request_budget_no_canterbury = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	potential = {
+		NOT = {
+			2570 = {
+				OR = {
+					religion = anglican
+					owner = {
+						religion = anglican
+					}
+				}
+			}
+		}
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_income = 0.1
+		add_inflation = 0.25
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_in_large_debt = yes
+		}
+	}
+}
+
+anglican_request_budget_canterbury = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	potential = {
+		2570 = {
+			NOT = { owned_by = ROOT }
+			OR = {
+				religion = anglican
+				owner = {
+					religion = anglican
+				}
+			}
+		}
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_income = 0.25
+		add_inflation = 0.5
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_in_large_debt = yes
+		}
+	}
+}
+
+anglican_request_budget_control_canterbury = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	potential = {
+		2570 = { owned_by = ROOT }
+	}
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+	}
+	effect = {
+		add_years_of_income = 0.40
+		add_inflation = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_in_large_debt = yes
+		}
+	}
+}
+
+anglican_monopoly = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			mercantilism = 100
+		}
+	}
+	effect = {
+		add_mercantilism = 1
+		add_inflation = -0.5
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trade_income_percentage = 0.4
+		}
+	}
+}
+
+anglican_duchy_stability = { #common book of prayers
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 100
+	potential = {
+		NOT = { government_rank = 2 }
+	}
+	trigger = {
+		NOT = {
+			has_country_modifier = anglican_stability_modifier
+		}
+	}
+	effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = anglican_stability_modifier
+				duration = 365
+			}
+		}
+		custom_tooltip = ANGLICAN_STAB_TT
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 0.5
+			stability = 0
+		}
+		modifier = {
+			factor = 0.5
+			stability = 1
+		}
+		modifier = {
+			factor = 0.5
+			stability = 2
+		}
+	}
+}
+
+anglican_kingdom_stability = { #autonomous preists
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 200
+	potential = {
+		government_rank = 2
+		NOT = { government_rank = 3 }
+	}
+	trigger = {
+		NOT = {
+			stability = 3
+		}
+	}
+	effect = {
+		add_stability = 1
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 0.5
+			stability = 0
+		}
+		modifier = {
+			factor = 0.5
+			stability = 1
+		}
+		modifier = {
+			factor = 0.5
+			stability = 2
+		}
+	}
+}
+
+anglican_empire_stability = { #Supreme governors
+	sprite = "GFX_progress_of_the_supreme_governor_icon"
+	cost = 150
+	potential = {
+		government_rank = 3
+	}
+	trigger = {
+		NOT = {
+			stability = 3
+		}
+	}
+	effect = {
+		add_stability = 1
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			factor = 0.5
+			stability = 0
+		}
+		modifier = {
+			factor = 0.5
+			stability = 1
+		}
+		modifier = {
+			factor = 0.5
+			stability = 2
+		}
+	}
+}

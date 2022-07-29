@@ -810,111 +810,6 @@ country_event = {
 	}
 }
 
-#Calvinist Advisor at Court
-country_event = {
-	id = protestantism_events.13
-	title = protestantism_events.13.t
-	desc = protestantism_events.13.d
-	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
-	
-	trigger = {
-		religion = protestant
-		has_dlc = "Common Sense"
-		NOT = { num_of_aspects = 3 }
-		NOT = { church_power = 200 }
-		is_religion_enabled = protestant
-		OR = {
-			employed_advisor = {
-				religion = reformed
-				type = treasurer
-			}
-			employed_advisor = {
-				religion = reformed
-				type = philosopher
-			}
-			employed_advisor = {
-				religion = reformed
-				type = artist
-			}
-			employed_advisor = {
-				religion = reformed
-				type = theologian
-			}
-			employed_advisor = {
-				religion = reformed
-				type = master_of_mint
-			}
-			employed_advisor = {
-				religion = reformed
-				type = inquisitor
-			}
-		}
-		NOT = { has_ruler_flag = calvinist_advisor_at_court }
-	}
-	
-	immediate = {
-		hidden_effect = {
-			set_ruler_flag = calvinist_advisor_at_court
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 260
-	}
-	
-	option = {
-		name = protestantism_events.13.a #Nonsense
-		add_church_power = -25
-	}
-	
-	option = {
-		name = protestantism_events.13.b #Dismiss Advisor
-		reduce_meritocracy_effect = yes
-		add_prestige = -10
-		if = {
-			limit = {
-				advisor = inquisitor
-			}
-			remove_advisor = inquisitor
-		}
-		if = {
-			limit = {
-				advisor = master_of_mint
-			}
-			remove_advisor = master_of_mint
-		}
-		if = {
-			limit = {
-				advisor = theologian
-			}
-			remove_advisor = theologian
-		}
-		if = {
-			limit = {
-				advisor = artist
-			}
-			remove_advisor = artist
-		}
-		if = {
-			limit = {
-				advisor = philosopher
-			}
-			remove_advisor = philosopher
-		}
-		if = {
-			limit = {
-				advisor = treasurer
-			}
-			remove_advisor = treasurer
-		}
-	}
-	
-	#option = {
-	#	name = protestantism_events.13.c #Change some of the Laws being put to question.
-	#	add_stability = -1
-	#}
-}
-
 #Catholic Leaning Heir
 country_event = {
 	id = protestantism_events.14
@@ -1859,14 +1754,7 @@ country_event = {
 	
 	option = {
 		name = protestantism_events.28.b #This smells of Calvinism
-		trigger = { is_religion_enabled = reformed }
 		add_adm_power = -10
-	}
-	
-	option = {
-		name = protestantism_events.28.c #Attempt to limit the spread
-		trigger = { NOT = { is_religion_enabled = reformed } }
-		add_adm_power = -25
 	}
 }
 
@@ -2255,7 +2143,6 @@ province_event = {
 		NOT = { has_province_modifier = colonial_religious_tensions }
 		OR = {
 			religion = protestant
-			religion = reformed
 		}
 		owner = {
 			religion = protestant
@@ -2312,7 +2199,6 @@ province_event = {
 		NOT = { has_province_modifier = loyalist_preacher }
 		OR = {
 			religion = protestant
-			religion = reformed
 		}
 		owner = {
 			religion = protestant
@@ -2391,7 +2277,6 @@ province_event = {
 		NOT = { has_province_modifier = loyalist_preacher }
 		OR = {
 			religion = protestant
-			religion = reformed
 		}
 		owner = {
 			religion = protestant
@@ -2482,7 +2367,6 @@ country_event = {
 			num_of_owned_provinces_with = {
 				value = 6
 				OR = {
-					religion = reformed
 					has_province_modifier = patriot_preacher
 				}
 			}
@@ -2510,7 +2394,6 @@ country_event = {
 			limit = {
 				OR = {
 					has_province_modifier = colonial_religious_tensions
-					religion = reformed
 				}
 			}
 			if = {

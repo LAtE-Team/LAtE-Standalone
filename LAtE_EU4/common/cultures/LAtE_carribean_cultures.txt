@@ -1,0 +1,44 @@
+carribean = {
+	graphical_culture = northamericagfx
+
+	arawak = { #Taino
+		male_names = {
+			Áhari Ebedimu Gunfuli Kaigouchi Ilumani Pirijá Semén
+			Wiwakaleme Haubariria Toratora Amorotahe Haubariria Kaigouchi Shoko Laliwa Arah Pirijá Arata Toruí Mbicy 
+		}
+		female_names = {
+			Hayá Isani Takuiba Twengga
+		}
+	}
+	maipurean = {
+		male_names = {
+			Áhari Ebedimu Gunfuli Kaigouchi Ilumani Pirijá Semén
+			Wiwakaleme Haubariria Toratora Amorotahe Haubariria Kaigouchi Shoko Laliwa Arah Pirijá Arata Toruí Mbicy 
+		}
+		female_names = {
+			Hayá Isani Takuiba Twengga
+		}
+	}
+	carib = {
+		male_names = {
+			Áhari Ebedimu Gunfuli Kaigouchi Ilumani Pirijá Semén
+		}
+		female_names = {
+			Hayá Isani
+		}
+	}
+	guajiro = { #	Lokono / Northern Mainland Arawak
+		male_names = {
+			Wiwakaleme Haubariria Toratora Amorotahe Haubariria Kaigouchi Shoko Laliwa Arah Pirijá Arata Toruí Mbicy 
+		}
+		female_names = {
+			Takuiba Twengga
+		}
+	}
+	dynasty_names = {
+		Eregu Heliya Nenege Waricha Kapongong Makushi Korobahado Panapi Muritaro Fararinno Kafotay Mudaukaho Waia Madinina
+	}
+	wayuu = {
+		dynasty_names = { "Viloria" "Naranjo" "Uriana" }
+	}
+}

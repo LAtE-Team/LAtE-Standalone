@@ -126,4 +126,23 @@ spriteTypes = {
 		texturefile = "gfx//interface//copts_blessing_select_glow.dds"
 		loadType = "INGAME"
 	}	
+
+	spriteType =
+	{
+		name = "GFX_alert_pick_church_aspect_rust_cultist"
+		texturefile = "gfx\\interface\\alert_pick_church_aspect_anglican.dds"
+		alwaystransparent = yes
+	}
+	spriteType =
+	{
+		name = "GFX_alert_pick_church_aspect_glorian"
+		texturefile = "gfx\\interface\\alert_pick_church_aspect_protestant.dds"
+		alwaystransparent = yes
+	}
+	spriteType =
+	{
+		name = "GFX_alert_pick_church_aspect_consumerist"
+		texturefile = "gfx\\interface\\alert_pick_church_aspect_protestant.dds"
+		alwaystransparent = yes
+	}
 }

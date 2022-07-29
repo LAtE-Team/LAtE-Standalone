@@ -6,7 +6,7 @@ technology_group = eastern
 primary_culture = texan
 religion = catholic
 clear_scripted_personalities = yes
-capital = 2014
+capital = 887
 3036.11.21 = {
 	monarch = {
 		name = "Abner II"
@@ -18,9 +18,4 @@ capital = 2014
 	}
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = craven_personality
-}
-3053.1.1 = {
-	capital = 2014
-	add_treasury = 68
-	add_prestige = 414
 }

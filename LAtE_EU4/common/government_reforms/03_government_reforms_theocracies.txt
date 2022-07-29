@@ -513,7 +513,7 @@ clerical_commission_reform = {
 		NOT = { 
 			OR = {
 				has_reform = monastic_order_reform
-				tag = KOJ
+				always = no
 			}
 		}
 	}
@@ -557,7 +557,7 @@ theocratic_democracy_reform = {
 		NOT = { 
 			OR = {
 				has_reform = monastic_order_reform
-				tag = KOJ
+				always = no
 			}
 		}
 	}
@@ -618,14 +618,14 @@ regionally_elected_commanders = {
 	potential = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 	}
 	
 	trigger = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 		if = {
 			limit = { has_dlc = "Common Sense" }
@@ -682,14 +682,14 @@ monastic_elections_reform = {
 	potential = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 	}
 	
 	trigger = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 	}
 	
@@ -726,13 +726,13 @@ commander_king_reform = {
 	potential = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 	}
 	trigger = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 		full_idea_group = theocracy_gov_ideas
 	}
@@ -760,7 +760,7 @@ admiral_king_reform = {
 	potential = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 		capital_scope = {
 			has_port = yes
@@ -769,7 +769,7 @@ admiral_king_reform = {
 	trigger = {
 		OR = {
 			has_reform = monastic_order_reform
-			tag = KOJ
+			always = no
 		}
 		has_reform = mission_to_kill_pirates_reform
 		OR = {

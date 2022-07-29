@@ -1,7 +1,6 @@
 owner = CRB
 controller = CRB
 add_core = CRB
-add_core = CRB
 
 culture = canuck
 religion = gaian
@@ -11,5 +10,5 @@ is_city = yes
 
 hre = no
 base_tax = 1
-base_production = 1
-base_manpower = 1
+base_production = 2
+base_manpower = 2

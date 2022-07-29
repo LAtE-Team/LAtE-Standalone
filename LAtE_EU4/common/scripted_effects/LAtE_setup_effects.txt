@@ -98,6 +98,7 @@ setup_vision = {
 
 			central_america_superregion = { discover_country = ROOT }
 			southeast_america_region = { discover_country = ROOT }
+			texas_region = { discover_country = ROOT }
 			california_region = { 
 				limit = {
 					NOT = { province_id = 2481 }
@@ -116,6 +117,7 @@ setup_vision = {
 				}
 				discover_country = ROOT
 			}
+			uper_louisiana_area = { discover_country = ROOT }
 			lower_louisiana_area = { discover_country = ROOT }
 			mississippi_plain_area = { discover_country = ROOT }
 
@@ -132,6 +134,7 @@ setup_vision = {
 				discover_country = ROOT
 			}
 			1502 = { discover_country = ROOT }
+			1501 = { discover_country = ROOT }
 			1700 = { discover_country = ROOT }
 			1701 = { discover_country = ROOT }
 			1702 = { discover_country = ROOT }

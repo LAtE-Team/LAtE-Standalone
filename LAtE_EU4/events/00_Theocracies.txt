@@ -865,7 +865,6 @@ country_event = {
 		trigger = {
 			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
 			OR = {
-				religion = reformed
 				religion = protestant
 			}
 		}
@@ -906,10 +905,6 @@ country_event = {
 				age = 35
 				hidden = yes
 			}
-		}
-		if = { 
-			limit = { religion = reformed }
-			add_fervor = 10
 		}
 		if = { 
 			limit = { religion = protestant }

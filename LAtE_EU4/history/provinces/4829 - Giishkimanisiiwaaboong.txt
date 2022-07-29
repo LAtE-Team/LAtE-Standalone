@@ -1,4 +1,4 @@
-culture = anishinabe
+culture = cree
 religion = midewiwin 
 trade_goods = unknown 
 hre = no 

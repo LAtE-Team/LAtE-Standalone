@@ -1,0 +1,3 @@
+maritimes_religious_might = {
+	opinion = -100
+}

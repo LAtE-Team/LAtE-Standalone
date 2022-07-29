@@ -1,6 +1,6 @@
-owner = TXK
-controller = TXK
-add_core = TXK
+owner = Y54
+controller = Y54
+add_core = Y54
 
 culture = texan
 religion = catholic

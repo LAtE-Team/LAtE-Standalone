@@ -2,13 +2,14 @@ owner= FRD
 controller = FRD
 add_core = FRD
 
-culture = deitsch
+culture = plautdietsch
 religion = anabaptist
 is_city = yes
 
 hre = no
-base_tax = 2
-base_production = 2
+base_tax = 4
+base_production = 4
 base_manpower = 2
+trade_goods = livestock
 
 add_province_triggered_modifier = anabaptists_present_large

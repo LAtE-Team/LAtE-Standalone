@@ -1,0 +1,947 @@
+namespace = maritimes_events
+
+country_event = {
+	id = maritimes_events.1
+	title = maritimes_events.1.t
+	desc = maritimes_events.1.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		always = yes
+		has_reform = maritimer_united_duchies
+		has_states_general_mechanic = yes
+		OR = {
+			is_lesser_in_union = no
+			is_statists_in_power = yes
+		}
+	}
+	
+	option = {
+		name = elections.720.a
+		define_ruler = {
+			dynasty = "Carmody"
+		}
+		change_statists_vs_orangists = -0.33
+		country_event = {
+			id = maritimes_events.3
+		}
+	}
+	
+	option = {
+		name = elections.720.g
+		define_ruler = {
+			dynasty = "Carmody"
+		}
+		change_statists_vs_orangists = 0.33
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
+		add_ruler_modifier = {
+			name = maritimes_monarchist_favored
+			duration = -1
+		}
+	}
+}
+
+
+country_event = {
+	id = maritimes_events.2
+	title = maritimes_events.2.t
+	desc = maritimes_events.2.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = maritimer_united_duchies
+		has_states_general_mechanic = yes
+		OR = {
+			is_lesser_in_union = no
+			is_statists_in_power = yes
+		}
+	}
+	
+	option = {
+		name = maritimes_events.2.a
+		define_ruler = {
+			dynasty = "Carmody"
+		}
+		change_statists_vs_orangists = -0.33
+		country_event = {
+			id = maritimes_events.3
+		}
+	}
+	
+	option = {
+		name = maritimes_events.2.b
+		define_ruler = {
+			dynasty = "Carmody"
+		}
+		change_statists_vs_orangists = 0.33
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4549
+					}
+				}
+			}
+			set_capital = 4549
+		}
+		add_ruler_modifier = {
+			name = maritimes_monarchist_favored
+			duration = -1
+		}
+	}
+}
+
+country_event = { # Statist Candidate Chosen
+	id = maritimes_events.3
+	title = maritimes_events.3.t
+	desc = maritimes_events.3.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = maritimes_events.3.a
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 983
+					}
+				}
+			}
+			set_capital = 983
+			change_adm = 1
+			add_ruler_modifier = {
+				name = maritimes_election_clergy_favored
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name = maritimes_events.3.b
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 4551
+					}
+				}
+			}
+			set_capital = 4551
+			change_dip = 1
+			add_ruler_modifier = {
+				name = maritimes_election_burghers_favored
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name = maritimes_events.3.c
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 2570
+					}
+				}
+			}
+			set_capital = 2570
+			change_mil = 1
+			add_ruler_modifier = {
+				name = maritimes_election_nobles_favored
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.4
+	title = maritimes_events.4.t
+	desc = maritimes_events.4.desc
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		has_disaster = maritime_schism_disaster
+	}
+
+	option = {
+		name = maritimes_events.4.a
+		ai_chance = {
+			factor = 0
+		}
+		hidden_effect = {
+			change_tag = PEI
+			swap_non_generic_missions = yes
+			release = NSC
+			4551 = {
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+			}
+			release = RTG
+				2572 = {
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+				}
+			release = ARO
+				2567 = {
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+				}
+			release = NBW
+				2570 = {
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					transport = NBW
+					transport = NBW
+					transport = NBW
+					transport = NBW
+				}
+			set_government_rank = 1
+			4549 = {
+				kill_units = {
+					who = PEI
+				}
+			}
+			983 = {
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				cavalry = PEI
+				cavalry = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+			}
+		}
+		custom_tooltip = SCHISM_PEI
+	}
+	option = {
+		name = maritimes_events.4.b
+		ai_chance = {
+			factor = 25
+		}
+		hidden_effect = {
+			change_tag = NSC
+			swap_non_generic_missions = yes
+			release = PEI
+				983 = {
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					cavalry = PEI
+					cavalry = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+				}
+			release = RTG
+				2572 = {
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+				}
+			release = ARO
+				2567 = {
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+				}
+			release = NBW
+				2570 = {
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					infantry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					cavalry = NBW
+					transport = NBW
+					transport = NBW
+					transport = NBW
+					transport = NBW
+				}
+			set_government_rank = 1
+			4549 = {
+				kill_units = {
+					who = NSC
+				}
+			}
+			4551 = {
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+			}
+		}
+		custom_tooltip = SCHISM_NSC
+	}
+	option = {
+		name = maritimes_events.4.c
+		ai_chance = {
+			factor = 0
+		}
+		hidden_effect = {
+			change_tag = NBW
+			swap_non_generic_missions = yes
+			release = PEI
+				983 = {
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					infantry = PEI
+					cavalry = PEI
+					cavalry = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					galley = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+					transport = PEI
+				}
+			release = RTG
+				2572 = {
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+					infantry = RTG
+				}
+			release = ARO
+				2567 = {
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+					infantry = ARO
+				}
+			release = NSC
+				4551 = {
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					infantry = NSC
+					cavalry = NSC
+					cavalry = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					galley = NSC
+					transport = NSC
+					transport = NSC
+					transport = NSC
+					transport = NSC
+					transport = NSC
+					transport = NSC
+				}
+			set_government_rank = 1
+			set_capital = 2570
+			4549 = {
+				kill_units = {
+					who = NBW
+				}
+			}
+			2570 = {
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+			}
+		}
+		custom_tooltip = SCHISM_NBW
+	}
+	option = {
+		name = maritimes_events.4.d
+		ai_chance = {
+			factor = 0
+		}
+		hidden_effect = {
+			release = NSC
+			4551 = {
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				infantry = NSC
+				cavalry = NSC
+				cavalry = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				galley = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+				transport = NSC
+			}
+			release = RTG
+			2572 = {
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+				infantry = RTG
+			}
+			release = ARO
+			2567 = {
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+				infantry = ARO
+			}
+			release = PEI
+			983 = {
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				infantry = PEI
+				cavalry = PEI
+				cavalry = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				galley = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+				transport = PEI
+			}
+			2570 = {
+				cede_province = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				infantry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				cavalry = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+				transport = NBW
+			}
+			4548 = {
+				cede_province = NBW
+			}
+			985 = {
+				cede_province = NBW
+			}
+			set_government_rank = 1
+		}
+		custom_tooltip = SCHISM_MRT
+	}
+	option = {
+		trigger = {
+			ai = yes
+		}
+		ai_chance = {
+			factor = 75
+		}
+		set_country_flag = MRT_survived_disaster
+	}
+	after = {
+		if = {
+			limit = { exists = ARO }
+			ARO = {
+				add_government_reform = maritimer_acadien_principality
+			}
+		}
+		if = {
+			limit = { exists = RTG }
+			RTG = {
+				add_government_reform = maritimer_acadien_principality
+			}
+		}
+		RTG = {
+			create_alliance = ARO
+			add_historical_friend = ARO
+		}
+		ARO = {
+			add_historical_friend = RTG
+		}
+		PEI = {
+			change_government = theocracy
+			add_government_reform = monastic_order_reform
+		}
+		NBW = {
+			add_government_reform = autocracy_reform
+		}
+		NSC = {
+			change_government = republic
+			add_government_reform = merchants_reform
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.5
+	title = maritimes_events.5.t
+	desc = maritimes_events.5.d
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = MRT
+	}
+
+	option = {
+		name = maritimes_events.5.a
+		add_prestige = 25
+		if = {
+			limit = { 
+				NOT = {
+				tag = MRT
+				}
+			}
+			change_tag = MRT
+			change_government = monarchy
+			set_government_rank = 2
+			add_government_reform = maritimer_united_duchies
+			swap_non_generic_missions = yes
+			set_capital = 4549
+		}
+	}
+
+	option = {
+		name = maritimes_events.5.b
+		add_prestige = 25
+		if = {
+			limit = {
+				NOT = {
+					tag = PEI
+				}
+			}
+		set_government_rank = 2
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.6
+	title = maritimes_events.6.t
+	desc = maritimes_events.6.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = MRT
+	}
+
+	option = {
+		name = maritimes_events.6.a
+		add_prestige = 10
+	}
+}
+
+country_event = {
+	id = maritimes_events.7
+	title = maritimes_events.7.t
+	desc = maritimes_events.7.d
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.7.a
+		MRT = {
+			create_march = ROOT
+		}
+		ROOT = {
+			add_treasury = 100
+		}
+		ai_chance = {
+			factor = 9
+			modifier = {
+				factor = 0
+				total_development = MRT				
+			}
+		}
+	}
+
+	option = {
+		name = maritimes_events.7.b
+		custom_tooltip = MRT_MNE_REFUSED
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				any_owned_province = {
+					NOT = { area = maine_area }
+				}
+			}
+			modifier = {
+				factor = 3
+				total_development = 50
+			}
+		}
+	}
+
+	after = {
+		MRT = {
+			country_event = {
+				id = maritimes_events.8
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.8
+	title = maritimes_events.8.t
+	desc = {
+		trigger = {
+			MNE = {
+				vassal_of = MRT
+			}
+		}
+		desc = maritimes_events.8.d.a
+	}
+	
+	desc = {
+		trigger = {
+			NOT = {
+				MNE = {
+					vassal_of = MRT
+				}
+			}
+		}
+		desc = maritimes_events.8.d.b
+	}
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # CHECK
+		name = maritimes_events.8.a
+		trigger = {
+			MNE = {
+				vassal_of = MRT
+			}
+		}
+	}
+
+	option = {
+		name = maritimes_events.8.b
+		trigger = {
+			NOT = {
+				MNE = {
+					vassal_of = MRT
+				}
+			}
+		}
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			target = MNE
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.9
+	title = maritimes_events.9.t
+	desc = maritimes_events.9.d
+	picture = ANGRY_MOB_eventPicture
+	trigger = {
+		tag = MRT
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.9.a
+		2572 = {
+			add_province_modifier = {
+				name = maritimes_acadien_unrest
+				duration = -1
+			}
+		}
+		2571 = {
+			add_province_modifier = {
+				name = maritimes_acadien_unrest
+				duration = -1
+			}
+		}
+		4546 = {
+			add_province_modifier = {
+				name = maritimes_acadien_unrest
+				duration = -1
+			}
+		}
+		2567 = {
+			add_province_modifier = {
+				name = maritimes_acadien_unrest
+				duration = -1
+			}
+		}
+		custom_tooltip = MRT_acadien_rebels
+	}
+}
+
+country_event = {
+	id = maritimes_events.10
+	title = maritimes_events.10.t
+	desc = maritimes_events.10.d
+	picture = NAVAL_MILITARY_eventPicture
+	trigger = {
+		tag = MRT
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.10.a
+		set_country_flag = MRT_EXPLORER_FLAG
+		create_explorer = {
+			tradition = 80
+		}
+		custom_tooltip = MRT_EXPLORERS_UNLOCKED
+	}
+}
+
+country_event = {
+	id = maritimes_events.11
+	title = maritimes_events.11.t
+	desc = maritimes_events.11.d
+	picture = PIRATES_CAPTURED_eventPicture
+	trigger = {
+		tag = MRT
+		has_disaster_progress = {
+			disaster = maritime_schism_disaster
+			value = 5
+		}
+		newfoundland_area = {
+			type = all
+			owned_by = MRT
+		}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.11.a
+		add_disaster_progress = {
+			value = -5
+			disaster = maritime_schism_disaster
+		}
+	}
+}
+
+country_event = {
+	id = maritimes_events.12
+	title = maritimes_events.12.t
+	desc = maritimes_events.12.d
+	picture = COLONIZATION_eventPicture
+	trigger = {
+		tag = MRT
+		is_year = 3130
+	}
+	mean_time_to_happen = {
+		days = 90
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.12.a
+		create_explorer = {
+			name = "Magnolia Luciphy"
+			tradition = 100
+			female = yes
+		}
+	}
+	option = {
+		name = maritimes_events.12.b
+		define_advisor = {
+			type = navigator
+			name = "Magnolia Luciphy"
+			skill = 2
+			female = yes
+			culture = maritimer
+			religion = anglican
+			discount = yes
+		}
+	}
+}

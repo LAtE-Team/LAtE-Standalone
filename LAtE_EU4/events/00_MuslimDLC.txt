@@ -1337,7 +1337,6 @@ country_event = {
 			factor = 100
 		}
 		set_global_flag = hagia_sophia_now_mosque
-		show_ambient_object = hagia_sophia_minarets
 		hide_ambient_object = hagia_sophia
 		add_piety = 0.2
 		add_prestige = 20

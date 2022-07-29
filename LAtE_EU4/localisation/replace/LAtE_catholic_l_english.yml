@@ -1,0 +1,18 @@
+﻿l_english:
+ #Catholic Flavour
+ mend_the_ursuline_schism_title: "Mend the Ordinate Schism"
+ mend_the_ursuline_schism_desc: "Despite sharing no major doctrinal differences with us, the Ordinate faithful refuse to acknowledge the authority of the Pope in St. Louis. It is time to rectify this situation. If we control their power bases, we can subdue their holy orders under him."
+ catholic_flavor.1.t: "The Ordinate Schism Mended"
+ catholic_flavor.1.catholic.d: "The Ordinate holy orders have finally been brought to heel. With the peaceful capture of all of their leaders, the order of St. Ursula, the sisters of Charity, and the order of Blessed Angelina are now under the control of the Pope in St. Louis."
+ catholic_flavor.1.ursuline.d: "It is a dark day for the Ordinate faithful. The heathenous Pope in St. Louis and his vile minions have captured and subdued our leaders. With the main holy orders subdued, there seems to be little hope of avoiding his authority."
+ catholic_flavor.1.christian.d: "In an unexpected turn of events, the rising Ordinate faith in the north seems to have suffered a terrible blow. The catholics have captured the leaders of their main holy orders, forcing them to swear oaths of loyalty."
+ catholic_flavor.1.a: "The remaining heathens must recognize the Lord's messenger"
+ catholic_flavor.1.b: "This is a clear sign of the Lord's favour"
+ catholic_flavor.1.c: "I suppose we have little choice"
+ catholic_flavor.1.d: "May the Lord have mercy on our souls"
+ catholic_flavor.1.e: "The Catholic Schism mended"
+ ursuline_schism_mended_modifier: "Ordinate Schism Mended"
+ desc_ursuline_schism_mended_modifier: "The Ordinate holy orders have been vassalized  by the Pope in St. Louis. The remaining heathens see little reason in continuing to resist our authority."
+ ursuline_schism_mender_modifier: "Ordinate Schism Mender"
+ desc_ursuline_schism_mender_modifier: "Our nation has the honour of mending the Ordinate Schism by subduing their holy orders. Because of this all heathens fear us, and our fealty to the Pope in St. Louis."
+ URSULINE_SCHISM_MENDED_TT: "We will now have access to the §GOrdinate Holy Orders§!"

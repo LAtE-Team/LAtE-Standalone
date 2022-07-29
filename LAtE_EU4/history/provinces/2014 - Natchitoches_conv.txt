@@ -1,13 +1,13 @@
-owner = Z02
-controller = Z02
-add_core = Z02
+owner = OUA
+controller = OUA
+add_core = OUA
 
 culture = creole
 religion = catholic
 is_city = yes
 
 
-hre = no
+hre = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2

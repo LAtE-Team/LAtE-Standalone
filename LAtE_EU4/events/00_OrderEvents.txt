@@ -24,11 +24,11 @@ country_event = {
 					continent = south_america
 					continent = new_world
 				}
-				holy_order = dominican_order
+				holy_order = charity_order
 			}
 		}
 		any_owned_province = {
-			holy_order = dominican_order
+			holy_order = charity_order
 		}
 	}
 
@@ -44,7 +44,7 @@ country_event = {
 							continent = south_america
 							continent = new_world
 						}
-						holy_order = dominican_order
+						holy_order = charity_order
 					}
 				}
 				random_owned_province = {
@@ -54,7 +54,7 @@ country_event = {
 							continent = south_america
 							continent = new_world
 						}
-						holy_order = dominican_order
+						holy_order = charity_order
 					}
 					save_event_target_as = las_casas_province
 				}
@@ -68,7 +68,7 @@ country_event = {
 								continent = south_america
 								continent = new_world
 							}
-							holy_order = dominican_order
+							holy_order = charity_order
 						}
 						save_event_target_as = las_casas_province
 					}
@@ -112,7 +112,7 @@ country_event = {
 		name = order_events.1.c
 		random_owned_province = {
 			limit = {
-				holy_order = dominican_order
+				holy_order = charity_order
 			}
 			set_province_flag = dominican_unrest
 			add_unrest = 2
@@ -120,13 +120,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -136,13 +136,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -152,13 +152,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -168,13 +168,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -202,7 +202,7 @@ country_event = {
 		NOT = { has_country_modifier = nationwide_witch_hunts }
 		NOT = { has_country_modifier = forbade_witch_hunts }
 		any_owned_province = {
-			holy_order = dominican_order
+			holy_order = charity_order
 			NOT = { has_province_modifier = local_witch_hunts }
 		}
 	}
@@ -213,7 +213,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					NOT = { has_province_modifier = local_witch_hunts }
 				}
 				save_event_target_as = maleficarum_province
@@ -262,7 +262,7 @@ country_event = {
 		adm_tech = 17
 		treasury = 150
 		any_owned_province = {
-			holy_order = dominican_order
+			holy_order = charity_order
 			num_free_building_slots = 1
 			NOT = { has_building = university }
 		}
@@ -274,7 +274,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					holy_order = dominican_order
+					holy_order = charity_order
 					num_free_building_slots = 1
 					NOT = { has_building = university }
 				}
@@ -318,7 +318,7 @@ country_event = {
 	trigger = {
 		advisor = inquisitor
 		any_owned_province = {
-			holy_order = franciscan_order
+			holy_order = angeline_order
 		}
 	}
 
@@ -327,8 +327,8 @@ country_event = {
 	option = {
 		name = order_events.4.a
 		random_owned_province = {
-			limit = { holy_order = franciscan_order }
-			holy_order = dominican_order
+			limit = { holy_order = angeline_order }
+			holy_order = charity_order
 		}
 	}
 
@@ -349,7 +349,7 @@ country_event = {
 		is_year = 1517
 		is_papal_controller = yes
 		any_owned_province = {
-			holy_order = franciscan_order
+			holy_order = angeline_order
 		}
 	}
 
@@ -358,7 +358,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
-				limit = { holy_order = franciscan_order }
+				limit = { holy_order = angeline_order }
 				save_event_target_as = franciscan_mediation_province
 			}
 		}
@@ -413,13 +413,13 @@ country_event = {
 	trigger = {
 		is_papal_controller = yes
 		any_owned_province = {
-			holy_order = franciscan_order
+			holy_order = angeline_order
 			any_neighbor_province = {
 				owned_by = ROOT
 				can_establish_order = yes
-				NOT = { holy_order = franciscan_order }
-				NOT = { holy_order = dominican_order }
-				NOT = { holy_order = jesuit_order }
+				NOT = { holy_order = angeline_order }
+				NOT = { holy_order = charity_order }
+				NOT = { holy_order = ursuline_order }
 			}
 		}
 	}
@@ -430,13 +430,13 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					holy_order = franciscan_order
+					holy_order = angeline_order
 					any_neighbor_province = {
 						owned_by = ROOT
 						can_establish_order = yes
-						NOT = { holy_order = franciscan_order }
-						NOT = { holy_order = dominican_order }
-						NOT = { holy_order = jesuit_order }
+						NOT = { holy_order = angeline_order }
+						NOT = { holy_order = charity_order }
+						NOT = { holy_order = ursuline_order }
 					}
 				}
 				save_event_target_as = franciscan_origin_province
@@ -444,9 +444,9 @@ country_event = {
 					limit = {
 						owned_by = ROOT
 						can_establish_order = yes
-						NOT = { holy_order = franciscan_order }
-						NOT = { holy_order = dominican_order }
-						NOT = { holy_order = jesuit_order }
+						NOT = { holy_order = angeline_order }
+						NOT = { holy_order = charity_order }
+						NOT = { holy_order = ursuline_order }
 					}
 					save_event_target_as = franciscan_target_province
 				}
@@ -458,7 +458,7 @@ country_event = {
 		name = order_events.6.a
 		add_papal_influence = -5
 		event_target:franciscan_target_province = {
-			holy_order = franciscan_order
+			holy_order = angeline_order
 		}
 	}
 
@@ -487,7 +487,7 @@ country_event = {
 	trigger = {
 		has_country_modifier = counter_reformation
 		any_owned_province = {
-			holy_order = jesuit_order
+			holy_order = ursuline_order
 			religion = protestant
 			has_hostile_reformation_center = no
 		}
@@ -500,7 +500,7 @@ country_event = {
 		add_papal_influence = -5
 		random_owned_province = {
 			limit = {
-				holy_order = jesuit_order
+				holy_order = ursuline_order
 				religion = protestant
 				has_hostile_reformation_center = no
 			}
@@ -523,7 +523,7 @@ country_event = {
 
 	trigger = {
 		any_owned_province = {
-			holy_order = jesuit_order
+			holy_order = ursuline_order
 			has_empty_adjacent_province = yes
 			any_empty_neighbor_province = {
 				has_discovered = ROOT
@@ -537,7 +537,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					has_empty_adjacent_province = yes
 					any_empty_neighbor_province = {
 						has_discovered = ROOT
@@ -603,7 +603,7 @@ country_event = {
 	trigger = {
 		is_papal_controller = no
 		any_owned_province = {
-			holy_order = jesuit_order
+			holy_order = ursuline_order
 		}
 	}
 
@@ -614,7 +614,7 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_capital = no
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_modifier = "oe_jesuit_unrest" }
 				}
 				save_event_target_as = order_events_9_prov
@@ -653,7 +653,7 @@ country_event = {
 		add_papal_influence = -5
 		random_owned_province = {
 			limit = {
-				holy_order = dominican_order
+				holy_order = charity_order
 			}
 			set_province_flag = dominican_unrest
 			add_unrest = 1
@@ -661,13 +661,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -677,13 +677,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -693,13 +693,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest
@@ -709,13 +709,13 @@ country_event = {
 		if = {
 			limit = {
 				any_owned_province = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 			}
 			random_owned_province = {
 				limit = {
-					holy_order = jesuit_order
+					holy_order = ursuline_order
 					NOT = { has_province_flag = dominican_unrest }
 				}
 				set_province_flag = dominican_unrest

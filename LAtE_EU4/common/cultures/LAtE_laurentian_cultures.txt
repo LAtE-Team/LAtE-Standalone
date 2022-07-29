@@ -1,0 +1,71 @@
+laurentian = {
+	lacustrine = {
+		primary = GLK
+		dynasty_names = { }
+	}
+	ontarian = {
+		primary = ONT
+		dynasty_names = { "Laurier" "Dysart" "Montrose" "Bloomfield" "Humber" "de Bonnechere" "Mississauga" "Dunsworth" "Chicona" "Harpist" "Tremblay" "Aylmer" "Garson" "Welland" "Harpist" "Dunsworth" "Cornwall" "Nipigon" "Frid" "de Michelenburg" "Onaping" "Movenpick" "Bloor" "Dundas" "Landsdowne" "Dufferin" "Spadina" "Adelaide" "Richmond" "Simcoe"}
+	}
+	lakeheader = {
+		primary = THN
+		dynasty_names = { "Laurier" "Dysart" "Montrose" "Bloomfield" "Humber" "de Bonnechere" "Mississauga" "Dunsworth" "Chicona" "Harpist" "Tremblay" "Aylmer" "Garson" "Welland" "Harpist" "Dunsworth" "Cornwall" "Nipigon" "Frid" "de Michelenburg" "Onaping" "Movenpick" "Bloor" "Dundas" "Landsdowne" "Dufferin" "Spadina" "Adelaide" "Richmond" "Simcoe"}
+	}
+	chicagoan = {
+		primary = ORD
+		dynasty_names = { "Parsons" "Blues" "Boystown" "Cabrinigreen" "Budlong" "Pilsen" "Englewood" "Pingtom" "Gallagher" "Milkovich" "Jordan" "West" "West" }
+	}
+	motowner = {
+		primary = CLE
+		dynasty_names = { "Yancey" "Fluellen" "Licious" }
+
+		male_names = {
+			Andre Amos Aristo Autry
+			Barry Bayard Byron
+			Carl Coleman Clarence Crathman Cholly Cleveland Columbus Cornell Council Clay Curtis
+			Dixon Donovan Darell Derek Dewitt Dorsey Duane
+			Earl Edwin Eldra Esham Elbridge Emerson Ernest
+			Franklin Frederick Freman Ford
+			Gordy Gil Griffin Gino Gerald George
+			Hardaway Hank Harvey Herschel Hubert Huey
+			Jackson James Jay Jerry Johnny Joseph Jermaine
+			Kelly Kirk Kendrick Kwame
+			Lamont Lawrence Lee Leroy Levi Lincoln Lionel
+			Martin Maurice Mack Marshal Marv Marvin Merald Morris Mixon Melvin Morgan Marlon
+			Ossian Oddis Odell
+			Paul Plato Preston Pervis
+			Quincy
+			Ruffin Rich Remus Ronald Reuben Ray
+			Sidney Sweet Stevland Spencer Stokely Sylvester Stubbs
+			Taylor Tee Ty Tito
+			Uriel
+			Vernon Vinnie
+			Walter Washington Whitfield Wade Wayne Wilson
+		}
+		
+		female_names = {
+			Anita Annette
+			Barbara Betty Brenda Bertha
+			Carla Caroline Claudette Cindy Carolyn
+			Debbie Diana Dorinda
+			Esther
+			Florence
+			Georgeanna Gladys Gloria Greer
+			Isobel
+			Jeanette Jobete Joyce
+			Katherine
+			Leah Loretta LaBrenda Louvain Lawanda Lois Lynda
+			Mary Mable Martha Maxine Marlene Marcella Mildred Michelle
+			Norma
+			Pamela Paula
+			Reba Rosalind Roschelle Rita
+			Sandra Scherrie Saundra Sondra Susaye Syreeta
+			Teena Tammi Thelma
+			Uhura
+			Victory Valerie Velvelette Vernessa
+			Wanda
+			Yvonne
+		}
+
+	}
+}

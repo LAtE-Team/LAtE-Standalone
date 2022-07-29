@@ -1,0 +1,63 @@
+# Warriors of Ursula
+merc_warriors_of_ursula = {
+	regiments_per_development = 0.01
+	home_province = 4555
+	cavalry_weight = 0.5
+	sprites = { dlc040_kni_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		religion = ursuline
+	}
+	modifier = {
+		cavalry_power = 0.15
+		shock_damage = 0.05
+	}
+	cost_modifier = 0.5
+}
+
+# The Packers
+merc_packers = {
+    regiments_per_development = 0.025
+	cost_modifier = 0.8
+    home_province = 914
+	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		religion = norse_pagan_reformed
+	}
+	modifier = {
+        shock_damage = 0.05
+	}
+}
+
+# Ford's Children
+merc_fords_children = {
+    regiments_per_development = 0.025
+	cost_modifier = 0.8
+    home_province = 4624
+	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		capital_scope = {
+			superregion = laurentia_superregion
+		}
+		religion = rust_cultist
+	}
+	modifier = {
+        shock_damage_received = -0.05
+	}
+}
+
+# Continental Army
+merc_continental_army = {
+    regiments_per_development = 0.03
+	cost_modifier = 1.2
+    home_province = 4618
+	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		capital_scope = {
+			superregion = laurentia_superregion
+		}
+		religion = americanist
+	}
+	modifier = {
+        land_morale = 0.1
+	}
+}

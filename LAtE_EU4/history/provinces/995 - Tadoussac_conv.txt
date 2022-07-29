@@ -2,7 +2,7 @@ owner = ONA
 controller = ONA
 add_core = ONA
 
-culture = inuit
+culture = innu
 religion = ursuline
 is_city = yes
 

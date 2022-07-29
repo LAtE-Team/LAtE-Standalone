@@ -4,7 +4,7 @@ controller = Y88
 add_core = Y88
 
 culture = dakota
-religion = catholic
+religion = trailwalker
 is_city = yes
 add_core = X03
 

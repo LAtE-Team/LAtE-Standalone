@@ -1,0 +1,11 @@
+# Nova
+setup_vision = yes
+government = monarchy 
+
+government_rank = 1
+technology_group = eastern
+primary_culture = southron
+religion = americanist
+religious_school = washington_school
+clear_scripted_personalities = yes
+capital = 5056

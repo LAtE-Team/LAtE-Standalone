@@ -2,8 +2,8 @@ owner = MUS
 controller = MUS
 add_core = MUS
 
-culture = anishinabe
-religion = ursuline
+culture = ojibwe	
+religion = midewiwin
 is_city = yes
 
 

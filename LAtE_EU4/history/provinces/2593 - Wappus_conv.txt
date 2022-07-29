@@ -2,7 +2,7 @@ owner = KNR
 controller = KNR
 add_core = KNR
 
-culture = metis
+culture = ojibwe
 religion = midewiwin
 is_city = yes
 add_core = Y63

@@ -56,14 +56,8 @@ country_decisions = {
 			change_tag = ONT
 			if = {
 				limit = {
+					NOT = { has_idea_group = ONT_ideas }
 					has_custom_ideas = no
-					OR = {
-						ai = no
-						AND = {
-							ai = yes
-							has_idea_group = default_ideas
-						}
-					}
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
@@ -115,6 +109,7 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
+			add_government_reform = canadian_province
 			set_country_flag = formed_ontario_flag
 		}
 		ai_will_do = {

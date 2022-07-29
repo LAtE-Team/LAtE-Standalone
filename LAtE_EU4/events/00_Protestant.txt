@@ -157,19 +157,6 @@ country_event = {
 		set_country_flag = "protestant_reformation" 
 		hidden_effect = {
 			set_global_flag = reformation_started
-			if = {
-				limit = {
-					BOH = {
-						religion = hussite
-					}
-				}
-				BOH = {
-					country_event = {
-						id = flavor_boh.7
-						days = 10
-					}
-				}
-			}
 		}
 	}
 }

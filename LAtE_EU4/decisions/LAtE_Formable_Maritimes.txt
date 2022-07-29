@@ -55,13 +55,6 @@ country_decisions = {
 			if = {
 				limit = {
 					has_custom_ideas = no
-					OR = {
-						ai = no
-						AND = {
-							ai = yes
-							has_idea_group = default_ideas
-						}
-					}
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
@@ -120,4 +113,54 @@ country_decisions = {
 		}
 	}
 	
+	restore_order = {
+		major = yes
+		potential = {
+			has_disaster = maritime_schism_disaster
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2572
+				province_id = 2571
+				province_id = 4546
+				province_id = 2567
+				province_id = 2570
+				province_id = 4548
+				province_id = 985
+				province_id = 4549
+				province_id = 983
+				province_id = 982
+				province_id = 2569
+				province_id = 984
+				province_id = 4551
+				province_id = 2568
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			owns_core_province = 2572
+			owns_core_province = 2571
+			owns_core_province = 4546
+			owns_core_province = 2567
+			owns_core_province = 2570
+			owns_core_province = 4548
+			owns_core_province = 985
+			owns_core_province = 4549
+			owns_core_province = 983
+			owns_core_province = 982
+			owns_core_province = 2569
+			owns_core_province = 984
+			owns_core_province = 4551
+			owns_core_province = 2568
+		}
+		effect = {
+			hidden_effect = {
+				set_country_flag = MRT_survived_disaster
+			}
+			custom_tooltip = MRT_restore_order
+		}
+	}
 }

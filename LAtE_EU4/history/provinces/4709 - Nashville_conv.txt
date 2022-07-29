@@ -3,10 +3,10 @@ controller = Z28
 add_core = Z28
 
 culture = riverlander
-religion = protestant
+religion = catholic
 is_city = yes
 
-hre = yes
+hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2

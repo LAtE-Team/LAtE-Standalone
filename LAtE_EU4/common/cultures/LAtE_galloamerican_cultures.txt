@@ -1,0 +1,250 @@
+galloamerican = {
+	quebecois = {
+		primary = QUE
+		dynasty_names = { "Castel" "Chauveau" "Demers" "de Mékinac" "de Rimouski" "Castel" "de Quyon" "de Victoriaville" "de Clermont" "Chauveau" "de Montecristo" "de Maskinongé" "de Mirabel" "de Montecristo" "d'Anjou" "de Montecristo" "de Montecristo" "de Montecristo" "de Montecristo" "de Montecristo" }
+
+		male_names = {
+			Adam Athanase Ambrose Albert Alphonse Alain Augustin Amaury Andronic Alexandre André Adrien
+			Aurèle
+			Baudouin Barthélémy Balian Bohémond
+			Cartier Charles Cyrille Cecil Claude Camille Christophe Camillien
+			Denis Damase Dustin Daniel
+			Étienne Édouard Éphrem
+			François Foulques Frédéric Fabien Ferreol
+			Ghislain Guy Georges Gautier Geoffroy Guillaume Gilles Gabriel Gaétan
+			Henri Hector Hilaire Hughes Hubert
+			Isidore Ignace
+			Jeannot Jean Jacques Jérome Joseph Josselin Josue Julien Justin
+			Louis Laurent Lucien Leo
+			Marc Michel Maurice Maximilien Marcel
+			Napoléon Nérée
+			Ovide Olivier Odon Onfroy
+			Pascal Pierre Paul Philippe
+			Réal Rohard Robert René Roger Raymond Renaud Roupen Régis Roland
+			Samuel Sulpice Serge
+			Tancrède
+			Vincent
+			Wilfrid
+			Xavier
+		}
+		
+		female_names = {
+			Axelle Acadie Antoinette Alix Andrée Andréanne Adéline Adrianne Alexandra Arianne Agrippine Anne Aude
+			Béatrice
+			Chloé Concordie Charlotte Constance Caroline Céline
+			Denise Danielle
+			Eschive
+			Frédérique
+			Geneviève
+			Henriette Hélène
+			Isabelle Isadora
+			Jocelyne Jacqueline Josée Joelle Jeanette Jeannine
+			Lucie Laura Léa Louise Lyse
+			Macha Marie Marguerite Marcelle Maryse Mélissa Marcelline Milaine Mylène
+			Nancy Noémie
+			Rachelle
+			Safia Sibylle Stéphanie Sarah Sharon Suzanne
+			Théodora
+			Valérie Véronique
+			Yvon
+		}
+
+	}
+	acadien = {
+		primary = CAN
+		dynasty_names = { "d'Entremont" "de Graff" "Aymar" }
+
+		male_names = {
+			Aubin Augustule Adhémar Alden Amédée Azor
+			Beausejour Baudouin Bruin Bourbon Baptiste Boishebert
+			Camille Charles Clovis Claude Chenard Cyprien Calixte
+			David Daniel Dupont
+			Étienne Eymard
+			Félix Firmin
+			Gérald Gagnon Grégoire Gontran Gozlin Godefroi
+			Heribert Henri Herménégilde Hidulphe
+			Isidore Isaie
+			Jean Jacques Joseph
+			Louis Leonce Lévite
+			Marcel Martin Michael Mathurin
+			Norbert Neil Noël Nicolas
+			Octave Odo
+			Pier Paul Paris Pépin
+			René Rhéal Roméo Réginald Roland Robert Richard Renart Rorgon Richelieu
+			Samuel Sidoine
+			Télésphore Tybalt Thomas
+			Vernon Valois Valentin
+			Wilifred
+			Yvon
+		}
+		female_names = {
+			Andrea Angèle Anne Antoinette Antonine Anne-Marie
+			Bilechilde Brigitte
+			Clare Chrodoare Céline Claudette Catherine Cheryl
+			Evangeline Edith Émilienne Elaine Ermengunde Émilie
+			France
+			Gracia
+			Julie Jeanne
+			Lyse Louise
+			Marie Madeleine Marguerite Moira
+			Natasha
+			Phoebe Patricia Pierrette
+			Rotrude
+			Syagria Suzanne
+			Thérèse
+			Viola
+		}
+
+	}
+	creole = {
+		primary = LOU
+		dynasty_names = { "Chennault" "St. Germain" "Bellocq" }
+
+		male_names = {
+			Alcée Alcide Amédé Achille Anatole Ardoin Adam Audubon Aristide Arthel
+			Barthelemy Boyd Bryant
+			Clifton Charles Clarence Canray "Claire Lee" Caliste Caesar Cedric Castile
+			Dillard D'Jalma Dagobert Darcourt Debrun
+			Fernest Foret
+			Edgar Edmonde Evariste Earl Eduoard Eustace Eli
+			Fauntleroy Francis
+			Geno Georgic Guinefort Garland Gaudet Guillot
+			Irvan Icar
+			Julien Justin
+			Kolax Keith
+			Lucas Lionel Lézin
+			Marcus Maugris Maxille
+			Norbert
+			Odon Olfert Orion
+			Pierre Paul
+			Richmond
+			Solomon Sécaire Stanley Septime
+			Thomy Tyrann Toutant Theotis Troian
+			Vernel
+			Wellman Wendell Warrington
+		}
+
+		female_names = {
+			Anne-Marie Adah Arna Alice Alexis Arthel Adana Aledia
+			Blanche Betye
+			Clementine Camille Charlotte Cedalie
+			Desiree Damita Dorsille
+			Eulaley Eudora Eunice Evangeline Edolie Emetilda Ephelia
+			Genevieve
+			Henriette Helouise
+			Ida Inesia Isalie
+			Justine Joan Juniper
+			Louise Leah Lurita Lycelia
+			Manon Micaela Marceline Merri Madeleine
+			Orolia
+			Savannah Sidonie Sybil Stella Sheryl Suzanne Shailene
+			Troian Toi Tiana Tina
+			Ursile
+			Virginie Veronica
+			Ysabeau
+		}
+
+	}
+	cajun = {
+		primary = LOU
+		dynasty_names = { "le Cowbellion" "Genois" "Almonester" }
+
+		male_names = {
+			Achille Augustin Aaron Antoine Alphonse Ashton Avery Amos Andy Amédé Anatole Alcée Alexandre Alain
+			Bacchus Bernard Bennett Baptiste Blaise Bobby Bolivar Bastien
+			Comus Charles Clayton Claude Cleary Clement Conrad Christophe Chauvin
+			Darius Domenic Dudley David Daniel Deforest
+			Ernie Endymion Eli Eraste Eugene Earl Edwin Eduoard
+			Felix Floyd French Ferdinand Frederic Florian
+			Gustave Gilbert Gillis Girard George Gabriel
+			Huey Hercule Hermes Henry Hollis Harry Hardin
+			John Joseph Jefferson Jonah Jerome Jack Julian Jules
+			Landry Lash Louis Lionell Lucien Lumis LeBreton
+			Momus Marc Martin
+			Napoleon Nicolas Norbert
+			Orpheus Oceanus Octave Omer
+			Polycarp Proteus Pierre Paul Presley
+			Ronnie Raymond Robert Russel Raveneau
+			Samedi Sidoine Samuel Stanton Steve Sidney Solomon
+			Tuck Toutant Terrell Troy Tammany Tim Thomas
+			Valcour Victor Valéry Virgil
+			Wardell
+			Xerxes
+		}
+
+		female_names = {
+			Anne Acadie Angela Amelie Adah Alice
+			Barbara Blanche Betsy Benilde Britney
+			Charlotte Cypress Catherine Carmen Claudine
+			Desirée Dawn Delphine Daria
+			Evangeline Eulalie Eloise Eurydice Eléonore
+			Georgie Grace
+			Hope
+			Iris Irma Ida
+			Julie Judith Jacquotte
+			Kathleen Katrina
+			Louise Lisa Lacey Laurette
+			Marie Micaela
+			Nicole Nadine
+			Olivia
+			Perdita Phylicia
+			Rose Reese Rosette Rachel
+			Sabine Sandra Shelby Suzanne Sybil Solange Serafine
+			Tiana Traci Trishelle
+			Ursuline
+			Verda Virginia Vanessa
+			Wendy Willow
+		}
+
+	}
+	ontarois = {
+		primary = SHD
+		dynasty_names = { "Belcourt" "Giroux" "Morissette" }
+
+		male_names = {
+			Adam Albert Augustule Alden André Adrien
+			Bruce Benoît Brent
+			Carter Camille Charles Claude Christopher
+			David Daniel Damien Denis
+			Edward Érik Edwin
+			Félix Firmin François Frédéric
+			Gérald Gagnon Grégoire Gilles Gilbert Guy Geoffroy
+			Henri Hughes Hubert
+			Isidore Isaie
+			Jean Jacques Joseph Justin Julien
+			Louis Leonce Lévite Lloyd
+			Marc Marcel Martin Mauril Michael
+			Napoleon Norbert Neil Noël Nicolas
+			Octave Odo Olivier
+			Pierre Paul Philippe
+			Raymond Roméo Réginald Robert Roch Roland Richard Roger
+			Samuel Sebastien Stéphane
+			Tybalt Thomas
+			Vernon Vincent
+			Wilfrid Wade
+			Yvon
+		}
+
+		female_names = {
+			Andrea Angèle Annette Antoinette Avril Alanis
+			Brigitte
+			Clare Céline Cécile Claudette Catherine Cheryl Chantal Charlotte Caroline
+			Denise Danielle Diane
+			Edith Elaine Émilie
+			France
+			Gracia
+			Helen
+			Jacqueline Julie Jeanne
+			Lyse Louise Lucie
+			Marie Madeleine Marguerite Moira
+			Nancy Natasha
+			Phoebe Patricia
+			Rachel Rotrude
+			Suzanne Shelley Sarah
+			Thérèse
+			Veronic Viola
+			Yvonne
+		}
+
+	}
+}

@@ -1,0 +1,51 @@
+amero_syncretic = {
+	crusade_name = CRUSADE
+
+    peyotist = {
+        color = { 1 0.38 0.09 }
+        icon = 8
+
+        country = {
+			tolerance_own = 1
+			tolerance_heretic = -1            
+        }
+        country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+        }
+		can_have_secondary_religion = yes
+
+        heretic = { OLD_PAYOTIST }
+    }
+
+    amero_orthodox = {
+        color = { 0.7 0 0.5 }
+        icon = 9
+
+        country = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+        }
+        country_as_secondary = {
+			tolerance_own = 1
+			tolerance_heretic = -1
+        }
+
+        heretic = { OLD_AMERO_ORTHODOX }
+    }
+
+    exovedate = {
+        color = { 0.96 0.66 0.60 }
+        icon = 10
+
+        country = {
+			tolerance_heathen = 3
+			tolerance_own = 2
+        }
+        country_as_secondary = {
+			tolerance_heathen = 2
+        }
+
+        heretic = { OLD_EXOVADATE }
+    }
+}

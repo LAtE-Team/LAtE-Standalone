@@ -1,0 +1,12 @@
+owner = NVA
+controller = NVA
+add_core = NVA
+
+culture = southron
+religion = americanist
+is_city = yes
+
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 6

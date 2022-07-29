@@ -1,7 +1,7 @@
 ck2_converter_generated = yes
-owner = FLD
-controller = FLD
-add_core = FLD
+owner = Y08
+controller = Y08
+add_core = Y08
 culture = gulfard
 religion = protestant
 is_city = yes
@@ -13,7 +13,7 @@ add_permanent_claim = Y08
 	base_tax = 1
 	base_production = 1
 	base_manpower = 1
-	
+}
 	
 	
 	

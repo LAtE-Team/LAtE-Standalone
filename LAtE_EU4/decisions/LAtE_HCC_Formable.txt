@@ -141,6 +141,13 @@ country_decisions = {
 				}
 				add_permanent_claim = root
 			}
+			highland_rim_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -152,7 +159,7 @@ country_decisions = {
 			if = {
 				limit = { 
 					has_custom_ideas = no
-					NOT = { has_idea_group = ABM_ideas }
+#					NOT = { has_idea_group = ABM_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}

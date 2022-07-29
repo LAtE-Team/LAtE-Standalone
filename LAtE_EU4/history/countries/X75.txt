@@ -1,12 +1,13 @@
 # Bahama
 setup_vision = yes
-government = monarchy 
+government = republic
+add_government_reform = free_city 
 
 government_rank = 1
 mercantilism = 0.1
 technology_group = caribbean
 primary_culture = west_indian
-religion = rastafarian
+religion = protestant
 clear_scripted_personalities = yes
 capital = 482
 3046.5.26 = {

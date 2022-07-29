@@ -229,17 +229,17 @@ estate_burghers =
 			culture_group = east_asian
 		}
 	}
-	custom_name = {
-		desc = estate_neoconfucian_reformers
-		trigger = {
-			tag = KOR
-			religion = confucianism
-		}
-	}
+#	custom_name = {
+#		desc = estate_neoconfucian_reformers
+#		trigger = {
+#			tag = KOR
+#			religion = confucianism
+#		}
+#	}
 	custom_name = {
 		desc = estate_pochteca
 		trigger = {
-			religion = nahuatl
+			religion_group = mesoamerican
 		}
 	}
 	custom_name = {

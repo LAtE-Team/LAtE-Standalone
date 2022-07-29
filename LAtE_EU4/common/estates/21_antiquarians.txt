@@ -103,6 +103,34 @@ estate_antiquarians =
 		loyalty = -20
 	}
 
+	#Names - LAtE
+	custom_name = {
+		desc = estate_judges
+		trigger = {
+			OR = {
+				religion = americanist
+			}
+		}
+	}
+
+	custom_name = {
+		desc = estate_researchers
+		trigger = {
+			OR = {
+				religion = atomicist
+			}
+		}
+	}
+
+	custom_name = {
+		desc = estate_engineers
+		trigger = {
+			OR = {
+				religion = rust_cultist
+			}
+		}
+	}
+
 	color = { 200 150 0 }
 
 	privileges = {

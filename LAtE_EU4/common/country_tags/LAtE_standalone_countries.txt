@@ -8,6 +8,7 @@ HUD = "countries/Hudsonia.txt"
 VER = "countries/Vermont.txt"
 ARO = "countries/Aroostook.txt"
 AGH = "countries/Allegheny.txt"
+NVA = "countries/Nova.txt"
 RHI = "countries/RhodeIsland.txt"
 WMT = "countries/WhiteMountain.txt"
 MNE = "countries/Maine.txt"
@@ -35,7 +36,7 @@ NEN = "countries/NewEngland.txt"
 KEY = "countries/Keystone.txt"
 ATA = "countries/Atlantica.txt"
 USA	= "countries/USA.txt"
-
+ 
 # Great Lakes
 WIS = "countries/Wisconsin.txt"
 GRB = "countries/GreenBay.txt"
@@ -58,6 +59,7 @@ UPN = "countries/Upnorth.txt"
 GRY = "countries/Gary.txt"
 AUT = "countries/Automan.txt"
 GLK = "countries/TheGreatLakes.txt"
+FRG = "countries/Forgottonia.txt"
 
 #Canada
 CAN	= "countries/Canada.txt"
@@ -134,6 +136,10 @@ ESN = "countries/EastSnake.txt"
 VIS = "countries/VancouverIsland.txt"
 OLY = "countries/Olympus.txt" #capital/color
 DST = "countries/DireStraits.txt" #capital/color
+
+#Grand Virginia
+LTE = "countries/LittleEgypt.txt"
+KTA = "countries/Kentuckiana.txt"
 
 #Lakotah
 #Crow

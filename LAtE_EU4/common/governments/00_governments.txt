@@ -24,6 +24,8 @@ monarchy = {
 				austrian_dual_monarchy
 				principality
 				tsardom
+				canadian_province
+				canadian_empire
 				mamluk_government
 				feudal_theocracy
 				celestial_empire
@@ -38,6 +40,9 @@ monarchy = {
 				musa_rule
 				mossi_federal_kingdom
 				open_range_feudalism
+				anabaptist_kingdom_reform
+				maritimer_united_duchies
+				maritimer_acadien_principality
 			}
 		}
 		hereditary_vs_nobility = {
@@ -52,6 +57,7 @@ monarchy = {
 				deccani_society_reform
 				mughal_government
 				black_army_reform
+				mercenary_army_reform
 				legion_of_honor_reform
 				imperial_nobility_reform
 				uparaja_reform
@@ -69,6 +75,7 @@ monarchy = {
 				fraternite_reform
 				examination_system_reform
 				corvee_reform
+				maritimer_entrenched_clergy
 			}
 		}
 		growth_of_administration = {
@@ -98,6 +105,7 @@ monarchy = {
 				feuillant_reform
 				two_chamber_reform
 				imperial_decree_reform
+				maritimer_board_of_explorers
 			}
 		}
 		absolute_rule_vs_constitutional = {
@@ -554,6 +562,7 @@ theocracy = {
 				mycelic_dryads_reform
 				graft_state_reform
 				dryadic_society_reform
+				americanist_presidency_reform
 			}
 		}
 		internal_vs_external_mission = {

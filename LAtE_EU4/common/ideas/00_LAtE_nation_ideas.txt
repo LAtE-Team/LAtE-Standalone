@@ -1,0 +1,519 @@
+HLR_ideas = {
+	start = {
+		possible_policy = 1
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.05
+	}	
+
+	trigger = {
+		tag = HLR
+	}
+	free = yes
+	
+	hlr_imperial_throne = {
+		legitimacy = 1.5 #unique (it's the HRE :D)
+	}
+	hlr_kaiserliche_armee = {
+		land_morale = 0.15
+	}
+	hlr_imperial_diplomacy = {
+		improve_relation_modifier = 0.33
+	}
+	hlr_centralised_empire = {
+		global_tax_modifier = 0.2
+	}
+	hlr_roman_heritage = {
+		core_creation = -0.2
+	}
+	hlr_adopting_the_goosestep = {
+		discipline = 0.05
+	}
+	hlr_onwards_and_upwards = {
+		governing_capacity_modifier = 0.1
+	}
+}
+
+redcoat_ideas = {
+	start = {
+		prestige = 1
+		fabricate_claims_cost = -0.25
+	}
+	bonus = {
+		global_colonial_growth = 20
+	}
+	trigger = {
+		tag = RED
+	}
+	free = yes
+	
+	invasion_of_the_redcoats = {
+		warscore_cost_vs_other_religion = -0.20
+	}
+	the_siege_of_washington = {
+		siege_ability = 0.15
+	}
+	slavers_of_america = {
+		production_efficiency = 0.10
+	}
+	surrounded_on_all_sides = {
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.15
+	}
+	recolonise_america = {
+		culture_conversion_cost = -0.25
+		development_cost = -0.05
+	}
+	for_the_queen = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+	militant_society = {
+		global_manpower_modifier = 0.10
+	}
+}
+
+CAN_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		republican_tradition = 0.3
+		legitimacy = 1
+	}
+	
+	trigger = {
+		tag = CAN
+	}
+	free = yes
+	
+	settling_the_interior = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
+	}		
+	the_hudson_bay_company = {
+		merchants = 1
+	}
+	singing_lumberjacks = {
+		production_efficiency = 0.10
+	}	
+	the_maritimes = {
+		navy_tradition = 1
+	}
+	the_quebec_act = {
+		tolerance_heretic = 2
+	}
+	legacy_of_the_empire = {
+		trade_steering = 0.15
+	}
+	the_forests_of_canada = {
+		global_ship_cost = -0.1
+	}
+}
+
+TXK_ideas = {
+	start = {
+		trade_efficiency = 0.05
+		discipline = 0.05
+	}
+	bonus = {
+		prestige = 1
+	}
+	trigger = {
+		tag = TXK
+	}
+	free = yes
+
+	great_collegium = {
+		global_institution_spread = 0.1
+	}
+	vaquero_supreme_of_the_plains = {
+		cavalry_power = 0.15
+	}
+	holy_scourge = {
+		cb_on_religious_enemies = yes
+	}
+	nomad_overlordship = {
+		manpower_recovery_speed = 0.2
+	}
+	rediscovery = {
+		technology_cost = -0.1
+	}
+	civilizing_the_plains = {
+		war_exhaustion_cost = -0.10
+	}
+	orbis_judicans_conscientiae = {
+		tolerance_own = 2
+		church_power_modifier = 0.10
+	}
+}
+
+WDC_ideas = {
+	start = {
+		tolerance_heathen = 1
+		global_missionary_strength = 0.03
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = WDC
+	}
+	free = yes
+	
+	white_house = {
+		prestige = 1
+		legitimacy = 1
+		republican_tradition = 0.5
+		devotion = 1
+	}
+	guardian_holy_city = {
+		tolerance_own = 2
+	}
+	dc_frontier_state = {
+		discipline = 0.05
+	}
+	dc_land_of_the_heathen = {
+		missionaries = 1
+	}
+	crossing_the_delaware = {
+		leader_land_shock = 1
+	}
+	pentagon = {
+		defensiveness = 0.25
+	}
+	old_capitol = {
+		diplomatic_reputation = 2
+	}
+}
+brotherhood_ideas = {
+	start = {
+		development_cost = -0.15
+		shock_damage = 0.25
+	}
+	
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = SBH
+			tag = MWB
+		}
+	}
+	free = yes
+	
+	# Advanced Weaponry
+	bos_idea_1 = {
+		siege_ability = 0.1
+	}
+	# Brotherhood Bunkers
+	bos_idea_2 = {
+		build_cost = -0.15
+		global_garrison_growth = 0.5
+	}
+	# Strict Hierachy
+	bos_idea_3 = {
+		land_forcelimit_modifier = 0.15
+		global_manpower_modifier = 0.15
+	}
+	# Experienced Soldiers
+	bos_idea_4 = {
+		land_morale = 0.1
+	}
+	# Power Armour
+	bos_idea_5 = {
+		infantry_cost = -0.15
+	}
+	# Brotherhood Discipline
+	bos_idea_6 = {
+		discipline = 0.05
+	}
+	# Power Training
+	bos_idea_7 = {
+		war_exhaustion_cost = -0.15
+	}
+}
+
+tagalog_ideas = {
+    start = {
+        global_sailors_modifier = 0.20
+        diplomatic_reputation = 2
+    }
+    bonus = {
+	    hostile_attrition = 1
+            }
+
+    trigger = {
+		OR = {
+			tag = MNL
+			tag = DAV
+		}
+    }
+
+    free = yes
+
+    kalakalang_galyon_ng_maynila = {
+        global_trade_power = 0.20
+    }
+    taga-ilog = {
+        global_trade_goods_size_modifier = 0.15
+    }
+    pag-a-anito = {
+        tolerance_own = 2
+    }
+    balangay_flotilla = {
+        navy_tradition_decay = -0.02
+        transport_power = 0.33
+    }
+    pearl_of_the_orient_seas = {
+        prestige = 1
+    }
+    re-settle_the_islands = {
+        colonists = 1
+    }
+    saligang-batas = {
+        republican_tradition = 0.5
+        legitimacy = 1
+        devotion = 1
+    }
+}
+
+nys_ideas = {		#New Yorker Ideas
+    start = {
+        global_trade_power = 0.20
+        trade_steering = 0.25 
+    }
+    bonus = {
+		merchants = 1 
+	}
+
+    trigger = {
+		tag = NYS
+    }
+
+    free = yes
+
+    nys_idea_1 = {
+        republican_tradition = 0.5
+        legitimacy = 1
+        devotion = 1
+    }
+    nys_idea_2 = {
+        num_accepted_cultures = 2 
+    }
+    nys_idea_3 = {
+        local_development_cost = -0.15
+    }
+    nys_idea_4 = {
+        global_unrest = -1
+    }
+    nys_idea_5 = {
+        prestige = 1
+		diplomatic_reputation = 1
+    }
+    nys_idea_6 = {
+        trade_range_modifier = 0.25
+		light_ship_cost = -0.20
+    }
+    nys_idea_7 = {
+        core_creation = -0.20
+    }
+}
+
+ARZ_ideas = {
+
+    start = {
+        global_spy_defence = 0.25
+		infantry_power = 0.10
+	}
+    bonus = {
+	    unjustified_demands = -0.30
+	    }
+	    
+	trigger = {
+		tag = ARZ
+	}
+	
+	free = yes
+
+        #fortified borders
+	arz_idea_1 = {
+		defensiveness = 0.20
+        army_tradition_decay = -0.02
+	}
+        # volda okhrana
+	arz_idea_2 = {
+		discipline = 0.05
+	}
+        # nirsk steppe farming
+	arz_idea_3 = {
+		production_efficiency = 0.10
+	}
+        # arstotzkan absolutism
+	arz_idea_4 = {
+		yearly_absolutism = 0.03
+                stability_cost_modifier = -0.1
+	}
+        # ban on hostile impor'ts
+	arz_idea_5 = {
+		embargo_efficiency = 0.25
+	}
+        # decorated leadership
+	arz_idea_6 = {
+		land_morale = 0.10
+	}
+        # the ministries of arstotzka
+	arz_idea_7 = {
+		state_maintenance_modifier = -0.20
+	}
+}
+
+CLM_ideas = {	#Republic of Colima ideas
+	start = {
+		trade_range_modifier = 0.2
+		global_own_trade_power = 0.2
+	}
+	bonus = {
+		range = 0.25
+	}
+	
+	trigger = {
+		tag = CLM
+		government = republic
+	}
+	clm_idea_1 = { merchants = 1 }     							 #Merchants of Mexico
+	clm_idea_2 = { tolerance_own = 2 }     					   	 #The Cathedral of Our Lady of Colima
+	clm_idea_3 = { inflation_reduction = 0.1 }    				 #El Banco de Colima
+	clm_idea_4 = { global_trade_goods_size_modifier = 0.1 }      #Sailfish
+	clm_idea_5 = { trade_steering = 0.25 }    					 #Puerto de Altura
+	clm_idea_6 = { land_morale = 0.15 }     					 #Lucha de Apuestas
+	clm_idea_7 = { range = 0.25 }     							 #Into the Pacific
+
+	
+	free = yes
+}
+
+
+CHL_ideas = {	#Chilean Ideas. From Extended Timline.
+	start = {
+		global_tax_modifier = 0.1
+	}
+
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+
+	trigger = {
+		tag = CHL
+	}
+	free = yes		# will be added at load
+
+	nationalistic_traditions = {
+		enemy_core_creation = 0.5
+	}
+	cordillera_de_los_andes = {
+		hostile_attrition = 1
+	}
+	ancient_populations = {
+		technology_cost = -0.1
+	}
+	corralero_breed = {
+		cavalry_cost = -0.1
+	}
+	stability_chile = {
+		stability_cost_modifier = -0.1
+	}
+	copper_mining_chile = {
+		global_tax_modifier = 0.1
+	}
+	maritime_hegemony = {
+		naval_forcelimit_modifier = 0.25
+	}
+}
+
+CBN_ideas = {
+	start = {
+		galley_power = 0.25
+		naval_forcelimit_modifier = 0.25
+	}
+	bonus = {
+		legitimacy = 1
+	}
+	trigger = {
+		tag = CBN
+	}
+	free = yes
+	
+	cbn_tobacco_production = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	cbn_excellent_leaders = {
+		leader_naval_fire = 1
+	}
+	cbn_settler_Growth = {
+		global_colonial_growth = 15
+	}
+	cbn_convert_the_islands = {
+		global_missionary_strength = 0.02
+	}
+	cbn_redevelopment = {
+		development_cost = -0.1
+	}
+	cbn_dip_tech_cost = {
+		technology_cost = -0.05
+	}
+	cbn_tradition_of_navy = {
+		navy_tradition = 1
+	}
+}
+NEN_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		idea_cost = -0.05
+	}
+	bonus = {
+		development_cost = -0.10
+	}
+	trigger = {
+		OR = {
+			tag = VER
+			tag = MNE
+			tag = NEN
+			culture = yankee
+		}
+	}
+	free = yes
+	
+	nen_new_england_timber = {
+		build_cost = -0.10
+		global_ship_cost = -0.10
+	}
+	nen_the_green_mountaineer = {
+		movement_speed = 0.10
+		hostile_attrition = 1
+	}
+	nen_yankee_perseverance = {
+		land_attrition = -0.10
+	}
+	nen_ivy_league_legacy = {
+		embracement_cost = -0.10
+		technology_cost = -0.05
+	}
+	nen_of_patriots_and_red_socks = {
+		mercenary_cost = -0.10
+	}
+	nen_shipping_down_to_boston = {
+		global_trade_power = 0.10
+	}
+	nen_crossroads_of_culture = {
+		num_accepted_cultures = 1
+	}
+}

@@ -1,0 +1,88 @@
+# Suggested by Lord Volt
+american_feudal_ideas = {
+	start = {
+		vassal_income = 0.25
+		accept_vassalization_reasons = 15
+	}
+	bonus = {
+		general_cost = -0.20
+	}
+	trigger = {
+		government = monarchy
+		capital_scope = {
+			continent = north_america
+		}
+	}
+	free = yes
+	
+	right_to_rule = {
+		global_unrest = -1
+        legitimacy = 1
+	}
+	feudal_america = {
+        global_tax_modifier = 0.05
+	}
+    knightly_traditions = {
+		army_tradition_decay = -0.005
+	}
+	noble_connections = {
+		heir_chance = 0.33
+        diplomatic_reputation = 1
+	}
+	royal_court = {
+		advisor_pool = 1
+	}
+    decentralised_system = {
+		governing_capacity_modifier = 0.1
+        nobles_influence_modifier = 0.1
+	}
+	heirs_to_the_past = {
+		province_warscore_cost = -0.15
+        unjustified_demands = -0.25
+	}
+	
+}
+
+russian_warlord_ideas = {
+	start = {
+		global_manpower_modifier = 0.15
+		province_warscore_cost = -0.1
+	}
+	bonus = {
+		ae_impact = -0.10
+	}
+	trigger = {
+		culture_group = east_slavic
+		OR = {
+			capital_scope = { continent = asia }
+		  	capital_scope = { continent = europe }
+		}
+	}
+	free = yes
+	
+	russian_warlord_era = {
+		army_tradition_from_battle = 0.33
+		drill_gain_modifier = 0.33
+	}
+	adapted_to_the_extremes = {
+		land_attrition = -0.10
+	}
+   	true_son_of_mother_russia = {
+		legitimacy = 1
+		republican_tradition = 0.25
+		years_of_nationalism = -5
+	}
+	eurasian_trade = {
+		province_trade_power_modifier = 0.15
+	}
+	secure_control = {
+		harsh_treatment_cost = -0.33
+	}
+	discipline_the_rabble = {
+		discipline = 0.05
+	}
+	unification_wars = {
+		core_creation = -0.1
+	}
+	
+}

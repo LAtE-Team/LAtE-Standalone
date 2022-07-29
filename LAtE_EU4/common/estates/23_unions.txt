@@ -144,6 +144,17 @@ estate_unions = {
 		loyalty = -20
 	}
 
+	#Names - LAtE
+	custom_name = {
+		desc = estate_employees
+		trigger = {
+			OR = {
+				religion = consumerist
+				religion = atomicist
+			}
+		}
+	}
+
 	privileges = {
 		estate_unions_land_rights
 		estate_unions_loyalty_privilege

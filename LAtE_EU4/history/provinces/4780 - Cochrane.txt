@@ -2,7 +2,7 @@ owner = ARR
 controller = ARR
 add_core = ARR
 
-culture = anishinabe
+culture = cree
 religion = ursuline
 is_city = yes
 

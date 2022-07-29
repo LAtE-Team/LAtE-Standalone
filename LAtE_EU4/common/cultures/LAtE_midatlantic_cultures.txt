@@ -1,0 +1,207 @@
+midatlantic = {
+	beltway = {
+		primary = WDC
+		dynasty_names = { "Avunculus" "Bullfinch" "Smithson" }
+
+		male_names = {
+			Arthur Albert Arnold Abraham Alphonse Alexander Anthony
+			Benning Burleith Booker Barnaby Burke Bergstrom Benjamin Benedict Bernard Bannister Brutus
+			Carver Charles Chase Clark Cloture Calvin Cornelius
+			Douglass Dewey Dupont
+			Eugene Elliot Emerson Edgar Elias
+			Franklin Filibuster Farragut
+			Garfield Golias George Grant
+			Hawthorne Herbert Hamilton Harrison Hancock Henry
+			Jefferson John Jackson Jussolis Justus Julius Julian
+			Kent Knox
+			Lincoln Lamond Langston Lawrence Logan Lewis Locke Luther
+			Monroe Myer Morgan Meriweather Mason Maxwell Michael Mark
+			Naylor Nicholas
+			Petworth Penn Prentice Peter Paul Pershing Patton Preamble
+			Quincy Quorum Quentin
+			Rexford Ronald Rutherford Robert Rutledge
+			Shaw Shipley Smith Seymour Stephen Samuel Sherman Sidney Silvan
+			Truxton Totten Tenley Thaddeus Theodore Truman Thomas
+			Ulysses
+			Vernon Victor
+			Washington Wesley Woodrow Walter William
+			Zachary
+		}
+
+		female_names = {
+			Anacostia Alice Athena
+			Benefactia Beatrice
+			Concordia Chelsea Columbia Catharine
+			Diana Declara Donata Divina Diot
+			Emma Eleanor Eleutheria Elizabeth
+			Frances Felicity
+			Gloriana
+			Hilary
+			Ivy Invicta Interdicta Industria
+			Justina Justice Jennifer Julia
+			Libertas Liberalitas
+			Majority Martha Miranda Merces Millicent Melissa Mary
+			Nullabona Nongrata
+			Olympia Olivia
+			Prudence Petra Purity Prosperity Precedenta Pamela
+			Respublia
+			Subpoena Stella Sola Sarah Susanna
+			Virginia Victory Vindicta Virtue
+		}
+
+	}
+	gothamite = {
+		primary = NYS
+		dynasty_names = { "van Chester" }
+
+		male_names = {
+			Adriaen Aldobrandt Abraham Andrew Aaron Ardolph Achilles Agapett Alberht Alessander Arnold Aurel
+			Beppe Bruce Bartolomeus Benedett Benett Bruno Boniface Bonaventura Berthold Bertrand
+			Christopher Cornelis Caleb Carles Cadwallader Caloger Casimir Carmine Celsus Constantin
+			David Dewitt Daniel Darius Donat Dorian Duile Diufe
+			Elihu Ezra Ebenezer Edward Eastman Elmo Egidis Erasmis Ermann Ercole Eusebe Eustace Evarist Ezio
+			Francelin Florell Frederik Ferdinand Ferrutt Fulgent Flavis Fulvis Friso
+			Giovannes Gerard Giorge Gerolamm German Gennard Gianluke Gianpaul Gioacchim Girald Goffred
+			Henreyk Hector Horatis Humbert
+			Isaac Isaiah Isidorr
+			Jay Jonas Jacobbe Julius
+			Koch
+			Lewis Levi Ludovick Leander Leonard Leone Lelis Livis Loris Lucis Lambert Lamoral
+			Martin Marinus Marius Meyer Michael Marcus Manlis Modestis Mattheus
+			Nicholas Narciss Nevis Nestor Nunzis
+			Oldstead Osvald Orsinis Ottavis Ottavin Ottone
+			Pieter Paulus Peregrin Patricis
+			Quirinis
+			Rudy Richard Robertus
+			Samuel Stephen Seth Stratis Salvator Sylvester Silvis Sedgewick
+			Theo Thom Thaddeus Tacit Tullis
+			Ulderic 
+			Vincent Victor Venceslaus Varian
+			Wualter Wuillem Whitehead Wagner
+			York
+		}
+		female_names = {
+			Ada Albertine Alda Amalia Anna Annalise Annetta Anita Anastacey Alexia Ariane
+			Barbara Berenice Bernardina Brunella 
+			Catharyna Chelsea Caro Clarice Chelo Christina Carlotte
+			Daisy
+			Esmerald Eleanor Estella Emma
+			Fay Francisca Fiorina Fioretta
+			Graziella Gemma
+			Hermanna Henrietta
+			Irene
+			Jordan Juliana
+			Lauren
+			Martha Maria Minnie Margarita Maxima Magdalene Myrtle
+			Nina
+			Pauline Pamela
+			Rebecca Rosalia Rita Regina Renata
+			Stephanie
+			Teresita Thea
+			Victoria Velma
+			Willemina
+			Zenobia
+		}
+
+	}
+	hudsonian = {
+		primary = HUD
+		dynasty_names = { "Groot" "Dongan" "Langmuir" "Westingson" "Ranvincle" "Allen" "Wents" "Schenectady" "Rittner" "Mackerras" "Ranvincle" "Chambersburg" "Altoona" "Rodham" "Vedder" "Schermerhorn" "Dongan" "Ranvincle" "Herkimer" "Elran" }
+
+		male_names = {
+			Andries Anton August Abraham Artur Albert Abel Archibald Andre
+			Baltus Brom Benjamin
+			Cashunyon Charles Cornelis Clinton Cangueese Carillon Cyrus Cephas Chester Cotton
+			Derrick Diedrich Daniel Deserontyon Delby Darius David
+			Ebenezer Ethan Edgar Ernest Elihu Ezra Edwin Erastus Ellis Eli
+			Frederick Franklin Friso
+			Guyasut Geoffrey Gideon Gerrit Gemolo
+			Hudson Hendrick Hunter Hamilton Holbrook Harmanus Hugh Himerius
+			Ichabod Isaac
+			Johannes Jervis Josiah Jocelyn Jacobus Jasper Jovan Jeremiah
+			Kirke Kent Kel
+			Launcelot Leo Lewis Lemuel
+			Morris Martin Moses Montgomery Malcolm Mather
+			Nicholas Nathaniel Norton
+			Otetian Ogden Oliver Oswald
+			Pindar Philip Phinehas
+			Quincy Quentin Quoz
+			Roger Richard Raymond Rip Rodney Rufus Rollin
+			Stephanus Stanwix Samuel Silus Simon Solon
+			Traynor Theodore Tehwehron Tompkin Truman
+			Vincent
+			William Washington Walter Whitelaw Worcester
+			Xander
+		}
+		female_names = {
+			Aliequippa Alice Amelia Alexandra Armgard Anna
+			Bethany Barbara Beatrix Bella
+			Caroline Chelsea Christine
+			Degonadonty Donata Doris Dorothy
+			Ellen Elizabeth Emma
+			Geraldine
+			Hiawatha Hannah Hillary
+			Judith Jane Jennifer Jocelyn
+			Kirsten Katrina
+			Luna Leona Lauren
+			Molly Margaret Mina
+			Owandah Ogarita
+			Pauline
+			Rebecca Regina Renata
+			Shelley Shelby
+			Theodosia Tiaogeara
+			Viola
+			Waneik
+		}
+
+	}
+	delawarean = {
+		primary = DLW
+		dynasty_names = { "Calvert" "Midfield" "Zappa" }
+
+		male_names = {
+			Anthony Aloysius Andrew Albert Abraham Abner August Adam Abel Arnold Allen Arthur Aston Alphonse Algernon Archibald Alexander Adrian Aurelian
+			Boies Benjamin Bigelow Bernard Benedict Browne Barton Bevil Baynham Barclay Baxter
+			Carroll Christopher Cameron Caleb Clark Caesar Coplestone Christian Cade Cale Canby Callaway Cahoon
+			Dennis Daniel Donald David Dudd Danrick Dyre Dunlap
+			Edmond Edward Edwin Eugene Edgar Eldridge Ethan Eusebius Eleazar Endymion Ephraim
+			Frederick Francis Fitzwilliam Fletcher Franklin Fenwick
+			Gerald Gary Gregory George Grant Gunning Gallagher Giles Gilbert Gervase Gove Gregg
+			Hendrick Hugh Herbert Horace Harold Howard Humphrey Hamon
+			Ignatius Isaac Ian
+			James John Joseph Jerome Jeremiah Jeffrey Jasper Joshua Justinian
+			Keith Kenrick Kensey
+			Ludovic Luke Lambert Lockhart Lionel Luff
+			Michael Martin Mark Maurice Matthew Milton Marmaduke
+			Nathaniel Nicholas Norman
+			Oliver Outerbridge Ogilvy
+			Patricius Paul Peter Philander Phineas Philip Philadelphus Percy Philemon Preston
+			Richard Rupert Ronald Rowland Ralph Reginald Reorus
+			Stephen Severin Sherman Samuel Simon Stansbury Saul Summerset Spencer Seymour Stanley
+			Thomas Timothy Theodore Theobald Truesdell
+			Vincent Victor Voshell
+			Wallis Wilbur Willard Wingfield Winston Warwick Wayne Warren
+			Xavier
+		}
+		female_names = {
+			Adrienne Aubrey Anna Allison Alice Alexa Ashley Angelica Abigail Amelia
+			Barbara Brilliana
+			Charlotte Christine Cynthia
+			Erin Eve Elizabeth
+			Georgine
+			Hilary Henriette
+			Jessica Jennifer Jane Janet Josephine Joanne Junie Julie Judith
+			Katharine
+			Linda Laura Lois Livia
+			Mary Martha Madison Marceline Melanie Melody
+			Nancy Nicole
+			Petra Paula Patricia
+			Roberta Rachel
+			Theresa
+			Sara Susan
+			Valerie
+			Wilmot
+		}
+
+	}
+}

@@ -1,0 +1,86 @@
+mesoamerican = { #Mesoamerican gods in ck2
+	crusade_name = CRUSADE
+
+    mictlantec = {
+		color = { 0.8 0.8 0.8 }
+		icon = 44
+		country = {
+			land_morale = 0.1
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			raze_power_gain = 0.2
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		#doom = yes
+		#declare_war_in_regency = yes
+		#religious_reforms = yes
+		#reform_tooltip = NAHUATL_REFORM_TOOLTIP
+		
+		heretic = { NAHUATL_HERETIC }	
+	}
+
+    sol_invicta = {
+		icon = 45
+		color = { 0.9 0.6 0.0 }
+		
+		country = {
+			tolerance_own = 3
+			hostile_attrition = 1
+		}
+		country_as_secondary = {
+			tolerance_own = 3
+			hostile_attrition = 1
+		}
+		
+		heretic = { DARKNESS }	
+	}
+
+	qabantajik = { # was uahomche
+		color = { 0.2 0.5 0.2 }
+		icon = 46
+		country = {
+			tolerance_own = 1
+			advisor_pool = 1
+		}
+		country_as_secondary = {
+			advisor_pool = 1
+			stability_cost_modifier = -0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		#religious_reforms = yes
+		#reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
+		
+		heretic = { MESOAMERICAN_HERETIC }	
+	}
+
+	neomayan = {
+		color = { 0.2 0.5 0.2 }
+		icon = 47
+		country = {
+			tolerance_own = 1
+			advisor_pool = 1
+		}
+		country_as_secondary = {
+			advisor_pool = 1
+			stability_cost_modifier = -0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		
+		#religious_reforms = yes
+		#reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
+		
+		heretic = { MESOAMERICAN_HERETIC }	
+	}
+
+	harmonized_modifier = harmonized_mesoamerican
+}

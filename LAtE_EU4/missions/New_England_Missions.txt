@@ -1,0 +1,1284 @@
+NEN_expansion_tree = {
+	slot = 1
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_sack_of_gotham = {
+		icon = boh_humiliate_austria
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2560
+				province_id = 965
+				province_id = 4539
+				province_id = 4540
+				province_id = 2639
+				province_id = 4622
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			2560 = { owned_by = ROOT }
+			965 = { owned_by = ROOT }
+			4539 = { owned_by = ROOT }
+			4540 = { owned_by = ROOT }
+			2639 = { owned_by = ROOT }
+			4622 = { owned_by = ROOT }
+			NYS = { exists = no }
+		}
+		effect = {
+			hudson_valley_area = { add_permanent_claim = ROOT }
+			niagara_area = { add_permanent_claim = ROOT }
+			iroquoisia_area = { add_permanent_claim = ROOT }
+			delmarva_area = { add_permanent_claim = ROOT }
+			country_event = { id = flavor_NEN.2 }
+		}
+	}
+	NEN_southern_expansion = {
+		icon = league_of_the_public_weal
+		required_missions = {NEN_sack_of_gotham}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = delaware_valley_area
+				area = delmarva_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			delaware_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			delmarva_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			maryland_area = { add_permanent_claim = ROOT }
+			the_sidelings_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_antiquarian_eclipse = {
+		icon = mission_conquer_50_development
+		required_missions = {NEN_southern_expansion}
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = maryland_area
+				area = the_sidelings_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			maryland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			the_sidelings_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_twilight_of_the_antiquarian
+				duration = 9125
+			}
+		}
+	}
+	NEN_an_atlantic_empire = {
+		icon = mission_empire
+		required_missions = {NEN_antiquarian_eclipse NEN_susquehannan_conquest}
+		position = 4
+		
+		provinces_to_highlight = {
+			region = atlantica_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			atlantica_region = { owned_by = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_atlantic_imperialism
+				duration = 9125
+			}
+			nova_area = { add_permanent_claim = ROOT }
+		}
+	}
+}
+NEN_expansion_tree_2 = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_western_expedition = {
+		icon = mission_rb_conquer_wales
+		required_missions = {NEN_sack_of_gotham}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = hudson_valley_area
+				area = niagara_area
+				area = iroquoisia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			hudson_valley_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			niagara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			iroquoisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			HUD = { exists = no }
+		}
+		effect = {
+			susquehanna_area = { add_permanent_claim = ROOT }
+			actual_susquehanna_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_susquehannan_conquest = {
+		icon = mission_rb_unite_the_clans
+		required_missions = {NEN_western_expedition}
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = susquehanna_area
+				area = actual_susquehanna_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			actual_susquehanna_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			cleveland_area = { add_permanent_claim = ROOT }
+			ohio_country_area = { add_permanent_claim = ROOT }
+			miami_river_area = { add_permanent_claim = ROOT }
+			appalachia_area = { add_permanent_claim = ROOT }
+			south_appalachia_area = { add_permanent_claim = ROOT }
+			east_tennessee_area = { add_permanent_claim = ROOT }
+		}
+	}
+}
+NEN_exploration_tree_france = {
+	slot = 2
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_colonize_northern_france = {
+		icon = mission_conquer_50_development
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+				area = brittany_area
+				area = seine_area
+				area = picardy_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			normandy_area  = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			brittany_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			seine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			picardy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			loire_area = { add_permanent_claim = ROOT }
+			bourgogne_area = { add_permanent_claim = ROOT }
+			guyenne_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_central_france = {
+		icon = mission_rb_repatriate_burgundy
+		required_missions = {NEN_colonize_northern_france}
+		position = 8
+		
+		provinces_to_highlight = {
+			OR = {
+				area = loire_area
+				area = bourgogne_area
+				area = guyenne_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			loire_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bourgogne_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			guyenne_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			massif_central_area = { add_permanent_claim = ROOT }
+			languedoc_area = { add_permanent_claim = ROOT }
+			provence_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_southern_france = {
+		icon = negotiate_for_avignon
+		required_missions = {NEN_colonize_central_france}
+		position = 9
+		
+		provinces_to_highlight = {
+			OR = {
+				area = massif_central_area
+				area = languedoc_area
+				area = provence_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			massif_central_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			languedoc_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			provence_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_foothold_on_continental_europe
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_france = {
+		icon = mission_religious
+		required_missions = {NEN_colonize_southern_france}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+				area = brittany_area
+				area = picardy_area
+				area = seine_area
+				area = loire_area
+				area = bourgogne_area
+				area = guyenne_area
+				area = massif_central_area
+				area = languedoc_area
+				
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			normandy_area = { type = all religion = ROOT }
+			brittany_area = { type = all religion = ROOT }
+			picardy_area = { type = all religion = ROOT }
+			seine_area = { type = all religion = ROOT }
+			loire_area = { type = all religion = ROOT }
+			bourgogne_area = { type = all religion = ROOT }
+			guyenne_area = { type = all religion = ROOT }
+			massif_central_area = { type = all religion = ROOT }
+			languedoc_area = { type = all religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_france
+				duration = -1
+			}
+		}
+	}
+}
+NEN_stabilizing_the_realm = {
+	slot = 3
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_finalize_the_pacification = {
+		icon = mission_religious
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4542
+				province_id = 966
+				province_id = 2010
+				province_id = 4545
+				area = vermont_area
+				area = massachusetts_bay_area
+				area = new_hampshire_area
+				area = maine_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+					culture = ROOT
+				}
+			}
+		}
+		trigger = {
+			4542 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			966 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			2010 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			4545 = {
+				religion = ROOT
+				culture = ROOT
+			}
+			vermont_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+			massachusetts_bay_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+			new_hampshire_area = {
+				religion = ROOT
+				culture = ROOT
+			}
+		}
+		effect = {
+			set_capital = 968
+		}
+	}
+
+	NEN_develop_boston_port = {
+		icon = mission_hanseatic_city
+		required_missions = {NEN_finalize_the_pacification}
+		position = 2
+		
+		trigger = {
+			968 = {
+				AND = {
+					has_building = marketplace
+					has_building = dock
+				}
+			}
+		}
+		effect = {
+			968 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+	NEN_new_englander_armada = {
+		icon = mission_rb_a_mighty_fleet
+		required_missions = {NEN_develop_boston_port}
+		position = 3
+		provinces_to_highlight = {
+			region = atlantica_region
+			owned_by = ROOT
+			trade_goods = naval_supplies
+			has_manufactory_trigger = no
+		}
+		
+		trigger = {
+			all_owned_province = {
+				region = atlantica_region
+				trade_goods = naval_supplies
+				has_manufactory_trigger = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_yankee_armada
+				duration = -1
+			}
+		}
+	}
+	NEN_restore_northern_ivy = {
+		icon = mission_develop_the_capital
+		required_missions = {NEN_new_englander_armada}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				province_id = 968
+				province_id = 967
+				province_id = 2564
+				province_id = 2560
+			}
+			OR = {
+				NOT = { has_building = university }
+			}
+		}
+		
+		trigger = {
+			968 = { has_building = university }
+			967 = { has_building = university }
+			2564 = { has_building = university }
+			2560 = { has_building = university }
+		}
+		effect = {
+			968 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+				}
+			}
+			967 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+				}
+			}
+			2564 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+				}
+			}
+			2560 = {
+				add_province_modifier = {
+					name = northern_ivy_restored
+					duration = -1
+				}
+			}
+		}
+	}
+	NEN_restore_southern_ivy = {
+		icon = mission_rb_renovate_oxbridge
+		required_missions = {NEN_restore_northern_ivy}
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 958
+				province_id = 962
+				province_id = 985
+				province_id = 956
+			}
+			OR = {
+				NOT = { has_building = university }
+			}
+		}
+		trigger = {
+			958 = { has_building = university }
+			962 = { has_building = university }
+			965 = { has_building = university }
+			956 = { has_building = university }
+		}
+		effect = {
+			958 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+				}
+			}
+			962 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+				}
+			}
+			965 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+				}
+			}
+			956 = { 
+				add_province_modifier = {
+					name = southern_ivy_restored
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = ivy_league_restored
+				duration = -1
+			}
+		}
+	}
+}
+NEN_exploration_tree_britain = {
+	slot = 3
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_beyond_the_atlantic = {
+		icon = mission_rb_grow_the_channel
+		required_missions = {}
+		position = 6
+		
+		trigger = {
+			exploration_ideas = 1
+			has_discovered = 375
+		}
+		effect = {
+			western_ireland_area = { add_permanent_claim = ROOT }
+			eastern_ireland_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_landfall_in_ireland = {
+		icon = mission_rb_conquer_ireland
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		
+		trigger = {
+			western_ireland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_ireland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			highlands_area = { add_permanent_claim = ROOT }
+			lowlands_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_scottish_expedition = {
+		icon = mission_rb_conquer_scotland
+		required_missions = {NEN_landfall_in_ireland}
+		position = 8
+		
+		trigger = {
+			highlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			northern_england_area = { add_permanent_claim = ROOT }
+			wales_area = { add_permanent_claim = ROOT }
+			mercia_area = { add_permanent_claim = ROOT }
+			wessex_area = { add_permanent_claim = ROOT }
+			east_anglia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_the_final_showdown = {
+		icon = mission_rb_scottish_conquer_london
+		required_missions = {NEN_scottish_expedition}
+		position = 9
+		
+		trigger = {
+			northern_england_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wales_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mercia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wessex_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			east_anglia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = nen_avenge_the_ancestor
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_britain = {
+		icon = mission_religious
+		required_missions = {NEN_the_final_showdown}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = western_ireland_area
+				area = eastern_ireland_area
+				area = highlands_area
+				area = lowlands_area
+				area = northern_england_area
+				area = wales_area
+				area = mercia_area
+				area = wessex_area
+				area = east_anglia_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			western_ireland_area = { type = all religion = ROOT }
+			eastern_ireland_area = { type = all religion = ROOT }
+			highlands_area = { type = all religion = ROOT }
+			lowlands_area = { type = all religion = ROOT }
+			northern_england_area = { type = all religion = ROOT }
+			wales_area = { type = all religion = ROOT }
+			mercia_area = { type = all religion = ROOT }
+			wessex_area = { type = all religion = ROOT }
+			east_anglia_area = { type = all religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_britain
+				duration = -1
+			}
+		}
+	}
+}
+NEN_ursuline_relation = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+		OR = {
+			was_tag = VER
+			religion = ursuline
+		}
+		NOT = { was_tag = MNE }
+	}
+	NEN_befriend_the_order = {
+		icon = mission_alliances
+		required_missions = {}
+		position = 1
+		trigger = {
+			religion = ursuline
+			OR = {
+				AND = {
+					exists = URS
+					URS = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+				AND = {
+					NOT = { exists = URS }
+					NOT = { exists = CAN }
+					exists = QUE
+					QUE = {
+						has_opinion = {
+							who = ROOT
+							value = 175
+						}
+					}
+				}
+				AND = {
+					NOT = { exists = URS }
+					NOT = { exists = QUE }
+					exists = CAN
+					CAN = {
+						has_opinion = {
+							who = ROOT
+							value = 175
+						}
+						religion = ursuline
+					}
+				}
+				AND = {
+					NOT = { exists = URS }
+					NOT = { exists = QUE }
+					NOT = { exists = CAN }
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { exists = URS }
+				add_trust = {
+					who = URS
+					value = 30
+					mutual = yes
+				}
+			}
+			else_if = {
+				limit = { exists = QUE }
+				QUE = { 
+					add_trust = {
+						who = NEN
+						value = 30
+						mutual = yes
+					}
+				}
+			}
+			else_if = {
+				limit = { exists = CAN }
+				CAN = { 
+					add_trust = {
+						who = NEN
+						value = 30
+						mutual = yes
+					}
+				}
+			}
+			else = {
+				add_prestige = 10
+			}
+		}
+	}
+	NEN_northern_expansion = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_befriend_the_order}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2567
+				province_id = 4546
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			2567 = {owned_by = ROOT}
+			4546 = {owned_by = ROOT}
+		}
+		effect = {
+			restigouche_area = { add_permanent_claim = ROOT }
+			upper_acadia_area = { add_permanent_claim = ROOT }
+			cape_breton_area = { add_permanent_claim = ROOT }
+			nova_scotia_area = { add_permanent_claim = ROOT }
+			add_accepted_culture = acadien
+		}
+	}
+	NEN_destroy_the_maritimers = {
+		icon = mission_cannons_firing
+		required_missions = {NEN_northern_expansion}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = restigouche_area
+				area = upper_acadia_area
+				area = cape_breton_area
+				area = nova_scotia_area
+				
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			restigouche_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_acadia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cape_breton_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			nova_scotia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_crusaders_fervor
+				duration = 9125 #25 years
+			}
+		}
+	}
+	NEN_convert_the_maritimers = {
+		icon = mission_european_church
+		required_missions = {NEN_destroy_the_maritimers}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = restigouche_area
+				area = upper_acadia_area
+				area = cape_breton_area
+				area = nova_scotia_area
+				area = aroostook_area
+			}
+			OR = {
+				NOT = { religion = ROOT }
+			}
+		}
+		trigger = {
+			restigouche_area = { type = all religion = ROOT }
+			upper_acadia_area = { type = all religion = ROOT }
+			cape_breton_area = { type = all religion = ROOT }
+			nova_scotia_area = { type = all religion = ROOT }
+			aroostook_area = { type = all religion = ROOT }
+		}
+		effect = {
+			add_accepted_culture = maritimer
+			add_country_modifier = {
+				name = nen_ursuline_supremacy
+				duration = 9125
+			}
+		}
+	}
+}
+NEN_anglican_relation = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+		OR = {
+			was_tag = MNE
+			religion = anglican
+		}
+		NOT = { was_tag = VER }
+	}
+	NEN_purchase_of_aroostook = {
+		icon = mission_alliances
+		required_missions = {}
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4546
+				province_id = 2567
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			religion = anglican
+			treasury = 200
+			OR = {
+				MRT = {
+					religion = anglican
+					has_opinion = {
+						who = MNE
+						value = 175
+					}
+				}
+				MRT = { exists = no }
+				4546 = {
+					NOT = { owned_by = MRT }
+				}
+				2567 = {
+					NOT = { owned_by = MRT }
+				}
+			}
+		}
+		effect = {
+			country_event = { id = flavor_NEN.1 }
+			notre_dame_mountains_area = { add_permanent_claim = ROOT }
+			lower_canada_area = { add_permanent_claim = ROOT }
+			laurentian_area = { add_permanent_claim = ROOT }
+			algonquin_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_conquest_of_quebec = {
+		icon = mission_crusade_for_varna
+		required_missions = {NEN_purchase_of_aroostook}
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = notre_dame_mountains_area
+				area = lower_canada_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		
+		trigger = {
+			notre_dame_mountains_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_canada_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ONT = {
+				is_lesser_in_union = no
+			}
+		}
+		effect = {
+			stadacona_area = { add_permanent_claim = ROOT }
+			
+		}
+	}
+	NEN_vanquish_the_ordinate = {
+		icon = mission_cannons_firing
+		required_missions = {NEN_conquest_of_quebec}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = stadacona_area
+				area = laurentian_area
+				area = algonquin_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			stadacona_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			laurentian_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			algonquin_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_anglican_triumphant
+				duration = 9125
+			}
+		}
+	}
+	NEN_pacify_the_quebecois = {
+		icon = mission_european_church
+		required_missions = {NEN_vanquish_the_ordinate}
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = notre_dame_mountains_area
+				area = lower_canada_area
+				area = laurentian_area
+				area = algonquin_area
+				area = stadacona_area
+			}
+			OR = {
+				NOT = { religion = ROOT }
+			}
+		}
+		trigger = {
+			notre_dame_mountains_area = { type = all religion = ROOT }
+			lower_canada_area = { type = all religion = ROOT }
+			laurentian_area = { type = all religion = ROOT }
+			algonquin_area = { type = all religion = ROOT }
+			stadacona_area = { type = all religion = ROOT }
+		}
+		effect = {
+			add_accepted_culture = quebecois
+			add_country_modifier = {
+				name = nen_anglican_supremacy
+				duration = 9125
+			}
+		}
+	}
+}
+NEN_generic_religion_tree = {
+	#for converter game
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+		NOT = {
+			OR = {
+				was_tag = MNE
+				was_tag = VER
+				religion = anglican
+				religion = ursuline
+			}
+		}
+	}
+	NEN_prepare_an_army = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {}
+		position = 1
+		
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	NEN_find_right_minded_allies = {
+		icon = mission_alliances
+		required_missions = { NEN_prepare_an_army }
+		position = 2
+		
+		trigger = {
+			dip_power = 50
+			calc_true_if = {
+				all_ally = {
+					religion = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 175
+					}
+				}
+				amount = 2
+			}
+		}
+		effect = {
+			add_dip_power = -50
+			add_army_tradition = 10
+			every_country = {
+				limit = {
+					religion = ROOT
+					alliance_with = ROOT
+				}
+				add_army_tradition = 10
+					add_trust = {
+						who = ROOT
+						value = 30
+						mutual = yes
+					}
+			}
+		}
+	}
+	NEN_establish_religious_unity = {
+		icon = mission_religious
+		required_missions = { NEN_find_right_minded_allies }
+		position = 3
+		provinces_to_highlight = {
+			owned_by = ROOT
+			region = atlantica_region
+			NOT = { religion = ROOT }
+		}
+		
+		trigger = {
+			religious_unity = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = NEN_a_stable_nation
+				duration = 9125
+			}
+		}
+	}
+	NEN_build_an_empire = {
+		icon = mission_empire
+		required_missions = { NEN_establish_religious_unity }
+		position = 4
+		
+		trigger = {
+			total_development = 1000
+		}
+		effect = {
+			add_country_modifier = {
+				name = "imperial_ambition"
+				duration = 9125
+			}
+		}
+	}
+}
+NEN_exploration_tree_low_countries = {
+	slot = 4
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = yes
+	potential = {
+		tag = NEN
+	}
+	has_country_shield = yes
+	NEN_landfall_in_flanders = {
+		icon = sources_of_trade
+		required_missions = {NEN_beyond_the_atlantic}
+		position = 7
+		provinces_to_highlight = {
+			area = flanders_area
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			flanders_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			brabant_area = { add_permanent_claim = ROOT }
+			frisia_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_holland = {
+		icon = mission_hanseatic_city
+		required_missions = {NEN_landfall_in_flanders}
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				area = brabant_area
+				area = frisia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+		trigger = {
+			brabant_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			frisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			wallonia_area = { add_permanent_claim = ROOT }
+			luxemburg_liege_area = { add_permanent_claim = ROOT }
+		}
+	}
+	NEN_colonize_wallonia = {
+		icon = unite_the_realm
+		required_missions = {NEN_colonize_holland}
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				area = wallonia_area
+				area = luxemburg_liege_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			wallonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			luxemburg_liege_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_foothold_on_the_low_countries
+				duration = 9125
+			}
+		}
+	}
+	NEN_convert_the_low_countries = {
+		icon = mission_religious
+		required_missions = {NEN_colonize_wallonia}
+		position = 10
+				provinces_to_highlight = {
+			OR = {
+				area = flanders_area
+				area = frisia_area
+				area = wallonia_area
+				area = luxemburg_liege_area
+				area = brabant_area
+			}
+			OR = {
+				NOT = {
+					religion = ROOT
+				}
+			}
+		}
+		trigger = {
+			flanders_area = { type = all religion = ROOT }
+			frisia_area = { type = all religion = ROOT }
+			wallonia_area = { type = all religion = ROOT }
+			luxemburg_liege_area = { type = all religion = ROOT }
+			brabant_area = { type = all religion = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = nen_recivilization_of_the_low_countries
+				duration = -1
+			}
+		}
+	}
+}

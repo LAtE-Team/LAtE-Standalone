@@ -2,7 +2,7 @@ owner = EEY
 controller = EEY
 add_core = EEY
 
-culture = anishinabe
+culture = cree
 religion = ursuline
 is_city = yes
 
@@ -11,4 +11,4 @@ hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 2
-trade_goods = copper
+trade_goods = gems

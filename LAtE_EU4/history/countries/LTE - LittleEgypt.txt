@@ -1,0 +1,33 @@
+# Little Egypt
+setup_vision = yes
+government = monarchy 
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = riverlander
+religion = catholic
+clear_scripted_personalities = yes
+capital = 2520
+3042.4.27 = {
+	monarch = {
+		name = "Walther"
+		birth_date = 3014.2.25
+		dynasty = "Cass"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = infertile_personality
+	heir = {
+		name = "Raymund"
+		monarch_name = "Raymund"
+		dynasty = "Cass"
+		birth_date = 3031.10.24
+		death_date = 3111.10.24
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = benevolent_personality
+}

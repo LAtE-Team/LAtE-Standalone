@@ -4,7 +4,12 @@ ursuline_order = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
+        NOT = { has_country_flag = anabaptist_holy_order_flag }
     }
     cost = 50
     cost_type = adm_power
@@ -39,12 +44,46 @@ ursuline_order = {
     }
 }
 
+anabaptist_order = {
+    icon = GFX_holy_order_ursuline
+    trigger = {
+        OR = {
+            religion = ursuline
+            religion = angeline
+        }
+        has_country_flag = anabaptist_holy_order_flag
+    }
+    cost = 50
+    cost_type = adm_power
+    per_province_effect = {
+        add_base_tax = 1
+    }
+    per_province_abandon_effect = {
+        add_base_tax = -1
+    }
+    modifier = {
+        local_governing_cost = -0.10
+        local_development_cost = -0.05
+    }
+    ai_priority = {
+        factor = 2
+        modifier = {
+            factor = 2.0
+            NOT = { religion = ROOT }
+        }
+    }
+}
+
 charity_order = {
     icon = GFX_holy_order_charity
     trigger = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
     }
     cost = 50
@@ -78,6 +117,10 @@ angeline_order = {
         OR = {
             religion = ursuline
             religion = angeline
+            AND = {
+                religion = catholic
+                has_global_flag = ursuline_schism_mended
+            }
         }
     }
     cost = 50

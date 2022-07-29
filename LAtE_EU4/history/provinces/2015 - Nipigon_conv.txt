@@ -2,7 +2,7 @@ owner =  THN
 controller =  THN
 add_core =  THN
 
-culture = anishinabe
+culture = lakeheader
 religion = anglican
 is_city = yes
 

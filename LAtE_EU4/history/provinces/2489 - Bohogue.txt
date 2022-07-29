@@ -4,12 +4,12 @@ add_core = SLB
 
 culture = nez_perce
 religion = peyotist
-trade_goods = wool
+trade_goods = naval_supplies
 is_city = yes
 
 
 hre = no
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 	

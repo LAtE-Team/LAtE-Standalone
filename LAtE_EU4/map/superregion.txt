@@ -112,13 +112,13 @@ great_plains_superregion = {
 	great_plains_region
 	north_west_territories_region
 	mississippi_region
+	texas_region
 }
 
 central_america_superregion = {
 	central_america_region
 	mexico_region
 	carribeans_region
-	rio_grande_region
 }
 
 near_east_superregion = {

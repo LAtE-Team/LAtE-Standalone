@@ -3,11 +3,10 @@ controller = Y05
 add_core = Y05
 
 culture = beltway
-religion = protestant
+religion = americanist
 is_city = yes
 
-
-hre = yes
-base_tax = 6
-base_production = 6
+hre = no
+base_tax = 2
+base_production = 2
 base_manpower = 3

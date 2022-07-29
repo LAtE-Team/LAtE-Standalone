@@ -983,15 +983,15 @@ country_event = {
 			limit = {
 				ruler_has_personality = gracia_personality
 			}
-			change_technology_group = ottoman
+			change_technology_group = caribbean
 			remove_ruler_personality = gracia_personality
 		}
 		if = {
 			limit = {
 				ruler_has_personality = marian_personality
-				technology_group = ottoman
+				technology_group = caribbean
 			}
-			change_technology_group = muslim
+			change_technology_group = mexican
 			remove_ruler_personality = marian_personality
 		}
 	}

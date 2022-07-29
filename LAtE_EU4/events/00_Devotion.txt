@@ -620,7 +620,6 @@ country_event = {
 		has_dlc = "Common Sense"
 		uses_devotion = yes
 		OR = {
-			religion = reformed
 			religion = protestant
 		}
 		has_country_flag = theo_influential_reformer_flag
@@ -641,10 +640,6 @@ country_event = {
 	option = {
 		name = devotion_events.26.a
 		add_prestige = 10
-		if = { 
-			limit = { religion = reformed }
-			add_fervor = 15
-		}
 		if = { 
 			limit = { religion = protestant }
 			add_church_power = 15
@@ -1601,45 +1596,6 @@ country_event = {
 }
 
 # Confiscation of a Reformed Church
-country_event = {
-	id = devotion_events.117
-	title = devotion_events.117.t
-	desc = devotion_events.117.d
-	picture = ANGRY_MOB_eventPicture
-	
-	trigger = {
-		has_dlc = "Common Sense"
-		uses_devotion = yes
-		religion_group = christian
-		NOT = {
-			religion = reformed
-		}
-		is_religion_enabled = reformed
-		any_owned_province = {
-			religion = reformed
-		}
-		NOT = { has_reform = papacy_reform }
-	}
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-		
-	option = {
-		name = devotion_events.117.a
-		random_owned_province = {
-			limit = {
-				religion = reformed
-			}
-			add_province_modifier = {
-				name = dev_confiscated_reformed_church
-				duration = 3650
-			}
-		}
-	}
-}
 
 # Hallesches Heilthum
 country_event = {
@@ -1667,7 +1623,6 @@ country_event = {
 		name = devotion_events.118.a
 		trigger = {
 			OR = {
-				religion = reformed
 				religion = protestant
 			}
 		}
@@ -1679,7 +1634,6 @@ country_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					religion = reformed
 					religion = protestant
 				}
 			}

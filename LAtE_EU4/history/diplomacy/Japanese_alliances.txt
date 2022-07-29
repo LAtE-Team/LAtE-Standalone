@@ -83,12 +83,3 @@ vassal = {
 	start_date = 3053.1.1
 	end_date = 3421.1.2
 }
-
-#Colony
-vassal = {
-	subject_type = "colony"
-	first = TKD
-	second = BKK
-	start_date = 3053.1.1
-	end_date = 3421.1.2
-}

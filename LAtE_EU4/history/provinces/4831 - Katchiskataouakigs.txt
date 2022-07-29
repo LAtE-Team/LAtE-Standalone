@@ -2,7 +2,7 @@ owner = SGN
 controller = SGN
 add_core = SGN
 
-culture = inuit
+culture = cree
 religion = ursuline
 is_city = yes
 
