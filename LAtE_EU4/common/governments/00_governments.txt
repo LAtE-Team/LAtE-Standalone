@@ -75,6 +75,7 @@ monarchy = {
 				fraternite_reform
 				examination_system_reform
 				corvee_reform
+				maritimer_entrenched_clergy
 			}
 		}
 		growth_of_administration = {
@@ -104,6 +105,7 @@ monarchy = {
 				feuillant_reform
 				two_chamber_reform
 				imperial_decree_reform
+				maritimer_board_of_explorers
 			}
 		}
 		absolute_rule_vs_constitutional = {

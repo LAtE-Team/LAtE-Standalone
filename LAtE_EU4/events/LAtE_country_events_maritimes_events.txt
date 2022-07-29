@@ -841,3 +841,23 @@ country_event = {
 		custom_tooltip = MRT_acadien_rebels
 	}
 }
+
+country_event = {
+	id = maritimes_events.10
+	title = maritimes_events.10.t
+	desc = maritimes_events.10.d
+	picture = NAVAL_MILITARY_eventPicture
+	trigger = {
+		tag = MRT
+	}
+	fire_only_once = yes
+
+	option = {
+		name = maritimes_events.10.a
+		set_country_flag = MRT_EXPLORER_FLAG
+		create_explorer = {
+			tradition = 80
+		}
+		custom_tooltip = MRT_EXPLORERS_UNLOCKED
+	}
+}

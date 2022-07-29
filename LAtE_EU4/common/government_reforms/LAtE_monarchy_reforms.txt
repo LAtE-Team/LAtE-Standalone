@@ -208,3 +208,34 @@ maritimer_acadien_principality = {
 		# disables_burghers = yes
 	}
 }
+
+maritimer_board_of_explorers = {
+	icon = "merchant_ship"
+	allow_normal_conversion = yes
+	potential = {
+		tag = MRT
+		has_country_flag = MRT_EXPLORER_FLAG
+	}
+	modifiers = {
+		colonist_placement_chance = 0.05
+		global_colonial_growth = 50
+		global_tariffs = 0.25
+		burghers_influence_modifier = 0.1
+	}
+}
+
+maritimer_entrenched_clergy = {
+	icon = "religious_leader"
+	allow_normal_conversion = no
+	potential = {
+		tag = MRT
+		has_country_flag = MRT_ENTRENCHED_CLERGY
+	}
+	modifiers = {
+		church_influence_modifier = 0.1
+		church_power_modifier = 0.1
+		relation_with_heretics = -20
+		tolerance_heretic = -1
+		administrative_efficiency = 0.05
+	}
+}

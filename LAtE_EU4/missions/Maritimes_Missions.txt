@@ -189,7 +189,9 @@ Maritime_Kingdom_missions_1 = {
             }
         }
         effect = {
-            add_stability = 1
+            country_event = {
+                id = maritimes_events.10
+            }
         }
     }
 }
@@ -558,10 +560,8 @@ Maritime_Kingdom_missions_3 = {
             has_estate_privilege = estate_church_one_faith_one_culture
         }
         effect = { # This will eventually be a gov. reform which grants higher clergy influence at the cost of loyalty in the other estates.
-            add_country_modifier = {
-                name = maritimes_clergy_entrenched_in_government
-                duration = -1
-            }
+            set_country_flag = MRT_ENTRENCHED_CLERGY
+            add_government_reform = maritimer_entrenched_clergy
         }
     }
 }
