@@ -22,6 +22,12 @@ country_event = {
 		}
 		set_estate_privilege = estate_anabaptists_allow_proselytization
 		add_government_reform = anabaptist_kingdom_reform
+		if = {
+			limit = {
+				ai = yes
+			}
+			complete_mission = HUD_mission_allow_proselytization
+		}
 		ai_chance = {
 			factor = 1
 		}

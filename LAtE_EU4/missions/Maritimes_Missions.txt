@@ -213,7 +213,7 @@ Maritime_Kingdom_missions_2 = {
          }
         trigger = {
             4551 = {
-                development = 7
+                base_production = 7
                 has_building = marketplace
             }
         }
