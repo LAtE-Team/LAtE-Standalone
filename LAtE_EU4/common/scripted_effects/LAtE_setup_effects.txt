@@ -105,7 +105,7 @@ setup_vision = {
 				}
 				discover_country = ROOT 
 			}
-			utah_region = {
+			four_corners_region = {
 				limit = {
 					NOT = {
 						OR = {
@@ -336,7 +336,7 @@ setup_vision = {
 			pacific_north_america_superregion = { 
 				limit = {
 					NOT = {
-						region = utah_region
+						region = four_corners_region
 					}
 				}
 				discover_country = ROOT 
