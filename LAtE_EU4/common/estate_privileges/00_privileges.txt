@@ -2458,6 +2458,11 @@ estate_nobles_advisors = {
 			factor = 3
 			uses_meritocracy = yes
 		}
+		modifier = {
+			factor = 1000
+			tag = MRT
+			NOT = { mission_completed = maritimes_matters_of_the_realm }
+		}
 	}
 }
 
@@ -2629,6 +2634,11 @@ estate_church_independent_inquisition = {
 		modifier = {
 			factor = 3
 			uses_meritocracy = yes
+		}
+		modifier = {
+			factor = 1000
+			tag = MRT
+			NOT = { mission_completed = maritimes_matters_of_the_realm }
 		}
 	}
 }
@@ -3041,6 +3051,11 @@ estate_burghers_commercial_board_of_advice = {
 		modifier = {
 			factor = 3
 			uses_meritocracy = yes
+		}
+		modifier = {
+			factor = 1000
+			tag = MRT
+			NOT = { mission_completed = maritimes_matters_of_the_realm }
 		}
 	}
 }
