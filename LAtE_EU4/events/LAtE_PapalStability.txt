@@ -1,0 +1,51 @@
+##############################
+# Catholic Events		     #
+#                            #
+# Written by Technecian 	 #
+##############################
+
+namespace = papal_stability
+
+# Simony
+country_event = {
+	id = papal_stability.4
+	title = papal_stability.4.t
+	desc = papal_stability.4.d
+	picture = RELIGION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = catholic
+		NOT = { is_religion_enabled = protestant }
+		NOT = { tag = PAP }
+		NOT = {
+			has_global_flag = pap_disables_simony_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+	}
+	option = {
+		name = papal_stability.4.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				has_global_flag = borgia_pope_global
+			}
+		}
+		add_years_of_income = 0.2
+		add_reform_desire = 0.002
+	}
+	option = {
+		name = papal_stability.4.b
+		ai_chance = {
+			factor = 10
+		}
+		add_papal_influence = 10
+		add_devotion = 1
+	}
+}
