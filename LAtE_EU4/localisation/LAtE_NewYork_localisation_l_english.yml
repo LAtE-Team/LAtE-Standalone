@@ -1,6 +1,6 @@
 ﻿l_english:
 # Gov ranks and names
- DARK_CITY:0 "Dark City"
+ DARK_CITY:0 "City-State"
  TAMMANY_REPUBLIC:0 "Patrician Electorate"
  CITY_WITH_EMPIRE:0 "Megapolis"
  COUNCILLOR:0 "Councillor"
@@ -17,4 +17,6 @@
 
 # Gov. reforms
  tammany_republic_reform:0 "Tammany Republic"
+ tammany_republic_reform_desc:0 "Tammany Republic desc."
  vicar_of_lady_liberty_reform:0 "Vicar of Lady Liberty"
+ vicar_of_lady_liberty_reform_desc:0 "Vicar of Lady Liberty desc"
