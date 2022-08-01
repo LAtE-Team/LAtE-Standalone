@@ -1,0 +1,71 @@
+tammany_republic_reform = { # NYS True republic reform
+	icon = "black_market_consortium"
+	allow_normal_conversion = no
+	has_term_election = no
+	republican_name = yes
+	royal_marriage = no
+	republic = yes
+	
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+
+	modifiers = {
+		merchants = 1
+		caravan_power = 0.33
+		max_absolutism = -50
+    	governing_capacity = 150
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_legacy
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_legacy
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		lottery_election = yes
+		election_on_death = yes
+		is_merchant_republic = yes
+	}
+
+	potential = {
+		tag = NYS
+		NOT = {
+			has_reform = vicar_of_lady_liberty_reform
+		}
+	}
+}
+
+vicar_of_lady_liberty_reform = { # NYS Dictatorship reform
+	icon = "man_on_podium"
+	allow_normal_conversion = no
+	potential = {
+		tag = NYS
+		NOT = {
+			has_reform = tammany_republic_reform
+		}
+	}
+}

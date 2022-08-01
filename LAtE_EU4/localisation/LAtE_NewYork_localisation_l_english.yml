@@ -1,0 +1,20 @@
+﻿l_english:
+# Gov ranks and names
+ DARK_CITY:0 "Dark City"
+ TAMMANY_REPUBLIC:0 "Patrician Electorate"
+ CITY_WITH_EMPIRE:0 "Megapolis"
+ COUNCILLOR:0 "Councillor"
+ PATRICIAN:0 "Patrician"
+ GRAND_PATRICIAN:0 "Grand Patrician"
+ JUNTA:0 "Free Junta"
+ BENEVOLENT_DICTATORSHIP:0 "Benevolent Dictatorship"
+ LIBERTARIAN_EMPIRE:0 "Libertarian Empire"
+ VICAR:0 "Vicar"
+ LIBERATOR:0 "Liberator"
+ GRAND_LIBERATOR:0 "Grand Liberator"
+ LIBERATRESS:0 "Liberatress"
+ GRAND_LIBERATRESS:0 "Grand Liberatress"
+
+# Gov. reforms
+ tammany_republic_reform:0 "Tammany Republic"
+ vicar_of_lady_liberty_reform:0 "Vicar of Lady Liberty"
