@@ -6,46 +6,453 @@
 
 namespace = papal_stability
 
-# Simony
+#0-10 Opening and Control of Texas/Chicago
+
+country_event = {
+	id = papal_stability.0
+	title = papal_stability.0.t
+	desc = papal_stability.0.d
+
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = PAP
+	}
+
+	immediate = {
+		add_reform_desire = -1
+	}
+
+	option = {
+		name = papal_stability.0.a
+	}
+}
+
+#Ordinate - Catholic Contact, Game Start event
+country_event = {
+	id = papal_stability.1
+	title = papal_stability.1.t
+	desc = {
+		trigger = {
+			tag = PAP
+		}
+		desc = papal_stability.1.pope.d
+	}
+	desc = {
+		trigger = {
+			NOT = { tag = PAP }
+			religion = catholic
+		}
+		desc = papal_stability.1.catholic.d
+	}
+	desc = {
+		trigger = {
+			NOT = { tag = PAP }
+			religion = ursuline
+		}
+		desc = papal_stability.1.ursuline.d
+	}
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		OR = {
+			religion = catholic
+			religion = ursuline
+		}
+		NOT = { has_country_flag = catholic_ordinate_contact_flag }
+		NOT = { is_year = 3060 }
+	}
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = papal_stability.1.pope.o
+		trigger = {
+			tag = PAP
+		}
+		add_reform_desire = -0.2
+	}
+
+	option = {
+		name = papal_stability.1.catholic.o
+		trigger = {
+			NOT = { tag = PAP }
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = papal_stability.1.ordinate.o
+		trigger = {
+			NOT = { tag = PAP }
+			religion = ursuline
+		}
+	}
+
+	after = {
+		set_country_flag = catholic_ordinate_contact_flag
+	}
+}
+
+#Loss of Chicago
+country_event = {
+	id = papal_stability.2
+	title = papal_stability.2.t
+	desc = papal_stability.2.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		tag = PAP
+		NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+		4563 = {
+			NOT = { religion = catholic }
+			owner = {
+				NOT = { religion = catholic }
+			}
+		}
+	}
+
+	option = {
+		name = papal_stability.2.a
+		add_reform_desire = -0.1
+	}
+
+	after = {
+		set_global_flag = catholic_lost_control_of_chicago_flag
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.4
+				days = 4
+			}
+		}
+		4563 = {
+			owner = {
+				country_event = {
+					id = papal_stability.4
+					days = 4
+				}				
+			}
+		}
+	}
+}
+
+#Chicago regained
+country_event = {
+	id = papal_stability.3
+	title = papal_stability.3.t
+	desc = papal_stability.3.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		tag = PAP
+		has_global_flag = catholic_lost_control_of_chicago_flag
+		4563 = {
+			religion = catholic
+			owner = {
+				religion = catholic
+			}
+		}
+	}
+
+	option = {
+		name = papal_stability.3.a
+		add_reform_desire = 0.1
+	}
+
+	after = {
+		clr_global_flag = catholic_lost_control_of_chicago_flag
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.4
+				days = 4
+			}
+		}
+	}
+}
+
+#Chicago Announcement
 country_event = {
 	id = papal_stability.4
 	title = papal_stability.4.t
-	desc = papal_stability.4.d
+	desc = {
+		trigger = {
+			religion = catholic
+			has_global_flag = catholic_lost_control_of_chicago_flag
+		}
+		desc = papal_stability.4.catholic.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion = catholic }
+			has_global_flag = catholic_lost_control_of_chicago_flag
+		}
+		desc = papal_stability.4.enemy.d
+	}
+	desc = {
+		trigger = {
+			NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+		}
+		desc = papal_stability.4.regained.d
+	}
 	picture = RELIGION_eventPicture
-	
+
 	is_triggered_only = yes
-	
-	trigger = {
-		religion = catholic
-		NOT = { is_religion_enabled = protestant }
-		NOT = { tag = PAP }
-		NOT = {
-			has_global_flag = pap_disables_simony_flag
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-		
-	}
+
 	option = {
-		name = papal_stability.4.a
-		ai_chance = {
-			factor = 10
-			modifier = {
-				factor = 5
-				has_global_flag = borgia_pope_global
-			}
+		name = papal_stability.4.catholic.o
+		trigger = {
+			religion = catholic
+			has_global_flag = catholic_lost_control_of_chicago_flag
 		}
-		add_years_of_income = 0.2
-		add_reform_desire = 0.002
 	}
+
 	option = {
-		name = papal_stability.4.b
-		ai_chance = {
-			factor = 10
+		name = papal_stability.4.enemy.o
+		trigger = {
+			NOT = { religion = catholic }
+			has_global_flag = catholic_lost_control_of_chicago_flag
 		}
-		add_papal_influence = 10
-		add_devotion = 1
+	}
+
+	option = {
+		name = papal_stability.4.regained.o
+		trigger = {
+			NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+		}
 	}
 }
+
+#Loss of Texas
+country_event = {
+	id = papal_stability.5
+	title = papal_stability.5.t
+	desc = papal_stability.5.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		tag = PAP
+		NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+		texas_region = {
+			type = all
+			NOT = { religion = catholic }
+			owner = {
+				NOT = { religion = catholic }
+			}
+		}
+	}
+
+	option = {
+		name = papal_stability.5.a
+		add_reform_desire = -0.2
+	}
+
+	after = {
+		set_global_flag = catholic_lost_control_of_texas_flag
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.4
+				days = 4
+			}
+		}
+		every_known_country = {
+			limit = {
+				capital_scope = {
+					region = texas_region
+				}
+			}
+			country_event = {
+				id = papal_stability.7
+				days = 4
+			}
+		}
+	}
+}
+
+#Texas regained
+country_event = {
+	id = papal_stability.6
+	title = papal_stability.6.t
+	desc = papal_stability.6.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		tag = PAP
+		has_global_flag = catholic_lost_control_of_texas_flag
+		texas_region = {
+			type = all
+			religion = catholic
+			owner = {
+				religion = catholic
+			}
+		}
+	}
+
+	option = {
+		name = papal_stability.6.a
+		add_reform_desire = 0.2
+	}
+
+	after = {
+		clr_global_flag = catholic_lost_control_of_texas_flag
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.7
+				days = 4
+			}
+		}
+	}
+}
+
+#Chicago Announcement
+country_event = {
+	id = papal_stability.7
+	title = papal_stability.7.t
+	desc = {
+		trigger = {
+			religion = catholic
+			has_global_flag = catholic_lost_control_of_texas_flag
+		}
+		desc = papal_stability.7.catholic.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion = catholic }
+			has_global_flag = catholic_lost_control_of_texas_flag
+		}
+		desc = papal_stability.7.enemy.d
+	}
+	desc = {
+		trigger = {
+			NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+		}
+		desc = papal_stability.7.regained.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.7.catholic.o
+		trigger = {
+			religion = catholic
+			has_global_flag = catholic_lost_control_of_texas_flag
+		}
+	}
+
+	option = {
+		name = papal_stability.7.enemy.o
+		trigger = {
+			NOT = { religion = catholic }
+			has_global_flag = catholic_lost_control_of_texas_flag
+		}
+	}
+
+	option = {
+		name = papal_stability.7.regained.o
+		trigger = {
+			NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+		}
+	}
+}
+
+#Loss of St Louis - Papacy Ended:
+country_event = {
+	id = papal_stability.8
+	title = papal_stability.8.t
+	desc = papal_stability.8.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = papal_stability.8.a
+		PAP = { set_papacy_active = no }
+		add_reform_desire = -10
+	}
+
+	after = {
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.9
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = papal_stability.9
+	title = papal_stability.9.t
+	desc = papal_stability.9.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.9.a
+	}
+}
+
+# Simony
+# country_event = {
+# 	id = papal_stability.4
+# 	title = papal_stability.4.t
+# 	desc = papal_stability.4.d
+# 	picture = RELIGION_eventPicture
+	
+# 	is_triggered_only = yes
+	
+# 	trigger = {
+# 		religion = catholic
+# 		NOT = { is_religion_enabled = protestant }
+# 		NOT = { tag = PAP }
+# 		NOT = {
+# 			has_global_flag = pap_disables_simony_flag
+# 		}
+# 	}
+	
+# 	mean_time_to_happen = {
+# 		days = 1
+		
+# 	}
+# 	option = {
+# 		name = papal_stability.4.a
+# 		ai_chance = {
+# 			factor = 10
+# 			modifier = {
+# 				factor = 5
+# 				has_global_flag = borgia_pope_global
+# 			}
+# 		}
+# 		add_years_of_income = 0.2
+# 		add_reform_desire = 0.002
+# 	}
+# 	option = {
+# 		name = papal_stability.4.b
+# 		ai_chance = {
+# 			factor = 10
+# 		}
+# 		add_papal_influence = 10
+# 		add_devotion = 1
+# 	}
+# }
