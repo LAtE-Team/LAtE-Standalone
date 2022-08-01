@@ -719,6 +719,7 @@ on_death_election = {
 	}
 	events = {
 		maritimes_events.2
+		ny_events.1
 		701		# Election event
 		elections.721		# Dutch Republic
 		elections.800	# Lottery election

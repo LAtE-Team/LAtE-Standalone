@@ -1,0 +1,44 @@
+namespace = ny_events
+
+country_event = { # Election on ruler death
+	id = ny_events.1
+	title = ny_events.1.t
+	desc = ny_events.1.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		always = yes
+		has_reform = tammany_republic_reform
+	}
+
+	option = { # Wayne tree
+		name = ny_events.1.a
+		add_republican_tradition = -5
+		define_ruler = {
+			dynasty = "Wayne"
+		}
+	}
+	option = { # Levi / Religious tree
+		name = ny_events.1.b
+		add_republican_tradition = -5
+		define_ruler = {
+			dynasty = "Levi"
+		}
+	}
+	option = { # Colonial
+		name = ny_events.1.c
+		add_republican_tradition = -5
+		define_ruler = {
+			dynasty = "Amos"
+		}
+	}
+	option = { # Trader
+		name = ny_events.1.d
+		add_republican_tradition = -5
+		define_ruler = {
+			dynasty = "Coeur"
+		}
+	}
+}

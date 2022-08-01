@@ -1,6 +1,6 @@
 # New York
 setup_vision = yes
-government = republic 
+government = republic
 add_government_reform = tammany_republic_reform
 government_rank = 2
 technology_group = eastern

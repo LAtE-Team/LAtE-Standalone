@@ -20,3 +20,11 @@
  tammany_republic_reform_desc:0 "Tammany Republic desc."
  vicar_of_lady_liberty_reform:0 "Vicar of Lady Liberty"
  vicar_of_lady_liberty_reform_desc:0 "Vicar of Lady Liberty desc"
+
+# Election event
+ ny_events.1.t:0 "REPLACE_ME"
+ ny_events.1.desc:0 "REPLACE_ME"
+ ny_events.1.a:0 "REPLACE_ME"
+ ny_events.1.b:0 "REPLACE_ME"
+ ny_events.1.c:0 "REPLACE_ME"
+ ny_events.1.d:0 "REPLACE_ME"
