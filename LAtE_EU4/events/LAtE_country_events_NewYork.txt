@@ -1,44 +1,454 @@
 namespace = ny_events
 
-country_event = { # Election on ruler death
+# country_event = { # Election on ruler death
+# 	id = ny_events.1
+# 	title = ny_events.1.t
+# 	desc = ny_events.1.desc
+# 	picture = ELECTION_REPUBLICAN_eventPicture
+
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		always = yes
+# 		has_reform = tammany_republic_reform
+# 	}
+
+# 	option = { # Wayne tree
+# 		name = ny_events.1.a
+# 		add_republican_tradition = -5
+# 		define_ruler = {
+# 			dynasty = "Wayne"
+# 		}
+# 	}
+# 	option = { # Levi / Religious tree
+# 		name = ny_events.1.b
+# 		add_republican_tradition = -5
+# 		define_ruler = {
+# 			dynasty = "Levi"
+# 		}
+# 	}
+# 	option = { # Colonial
+# 		name = ny_events.1.c
+# 		add_republican_tradition = -5
+# 		define_ruler = {
+# 			dynasty = "Amos"
+# 		}
+# 	}
+# 	option = { # Trader
+# 		name = ny_events.1.d
+# 		add_republican_tradition = -5
+# 		define_ruler = {
+# 			dynasty = "Coeur"
+# 		}
+# 	}
+# }
+
+country_event = {
 	id = ny_events.1
 	title = ny_events.1.t
 	desc = ny_events.1.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
-
+	
 	is_triggered_only = yes
-
+	
 	trigger = {
 		always = yes
-		has_reform = tammany_republic_reform
+		has_government_reform = tammany_republic_reform
 	}
 
-	option = { # Wayne tree
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					NOT = { has_country_flag = ven_new_promissione_ducale }
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					random_gender = yes
+					min_age = 50
+					max_age = 75
+					change_adm = 2
+					change_dip = -1
+					change_mil = -1
+					option = 0
+					dynasty = "Wayne"
+				}
+			}
+			else_if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					random_gender = yes
+					min_age = 50
+					max_age = 75
+					change_adm = 3
+					change_dip = -1
+					change_mil = -1
+					option = 0
+					dynasty = "Wayne"
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { republic_with_female_rulers_trigger = yes }
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = 3
+					change_dip = -1
+					change_mil = -1
+					option = 0
+					dynasty = "Wayne"
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = 2
+					change_dip = -1
+					change_mil = -1
+					option = 0
+					dynasty = "Wayne"
+				}
+			}
+			if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					NOT = { has_country_flag = ven_new_promissione_ducale }
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = 2
+					change_mil = -1
+					random_gender = yes
+					option = 1
+					dynasty = "Levi"
+				}
+			}
+			else_if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					random_gender = yes
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = 3
+					change_mil = -1
+					option = 0
+					dynasty = "Levi"
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { republic_with_female_rulers_trigger = yes }
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = 3
+					change_mil = -1
+					option = 0
+					dynasty = "Levi"
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = 2
+					change_mil = -1
+					option = 1
+					dynasty = "Levi"
+				}
+			}
+			if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					NOT = { has_country_flag = ven_new_promissione_ducale }
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 2
+					random_gender = yes
+					option = 2
+					dynasty = "Amos"
+				}
+			}
+			else_if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					random_gender = yes
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 3
+					option = 0
+					dynasty = "Amos"
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { republic_with_female_rulers_trigger = yes }
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 3
+					option = 0
+					dynasty = "Amos"
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 2
+					option = 2
+					dynasty = "Amos"
+				}
+			}
+			if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					NOT = { has_country_flag = ven_new_promissione_ducale }
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_d_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 2
+					random_gender = yes
+					option = 2
+					dynasty = "Coeur"
+				}
+			}
+			else_if = {
+				limit = {
+					republic_with_female_rulers_trigger = yes
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_d_@ROOT
+					random_gender = yes
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 3
+					option = 0
+					dynasty = "Coeur"
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { republic_with_female_rulers_trigger = yes }
+					has_country_flag = ven_new_promissione_ducale
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_d_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 3
+					option = 0
+					dynasty = "Coeur"
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_d_@ROOT
+					min_age = 50
+					max_age = 75
+					change_adm = -1
+					change_dip = -1
+					change_mil = 2
+					option = 2
+					dynasty = "Coeur"
+				}
+			}
+		}
+	}
+	
+	after = {
+		clear_exiled_ruler = lottery_candidate_a_@ROOT
+		clear_exiled_ruler = lottery_candidate_b_@ROOT
+		clear_exiled_ruler = lottery_candidate_c_@ROOT
+		clear_exiled_ruler = lottery_candidate_d_@ROOT
+	}
+	
+	option = {
 		name = ny_events.1.a
-		add_republican_tradition = -5
-		define_ruler = {
-			dynasty = "Wayne"
+		ai_chance = {
+			factor = 0
 		}
+		set_ruler = lottery_candidate_a_@ROOT
+		add_republican_tradition = -25
+		custom_tooltip = lottery_candidate_bonus_one
 	}
-	option = { # Levi / Religious tree
+	option = {
 		name = ny_events.1.b
-		add_republican_tradition = -5
-		define_ruler = {
-			dynasty = "Levi"
+		ai_chance = {
+			factor = 0
 		}
+		set_ruler = lottery_candidate_b_@ROOT
+		add_republican_tradition = -25
+		custom_tooltip = lottery_candidate_bonus_one
 	}
-	option = { # Colonial
+	option = {
 		name = ny_events.1.c
-		add_republican_tradition = -5
-		define_ruler = {
-			dynasty = "Amos"
+		ai_chance = {
+			factor = 0
 		}
+		set_ruler = lottery_candidate_c_@ROOT
+		add_republican_tradition = -25
+		custom_tooltip = lottery_candidate_bonus_one
 	}
-	option = { # Trader
+	option = {
 		name = ny_events.1.d
-		add_republican_tradition = -5
-		define_ruler = {
-			dynasty = "Coeur"
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = lottery_candidate_d_@ROOT
+		add_republican_tradition = -25
+		custom_tooltip = lottery_candidate_bonus_one
+	}
+	option = { # lottery
+		name = ny_events.1.da
+		ai_chance = {
+			factor = 90
+		}
+		random_list = {
+			25 = { 
+				set_ruler = lottery_candidate_a_@ROOT 
+			}
+			25 = { 
+				set_ruler = lottery_candidate_b_@ROOT 
+			}
+			25 = { 
+				set_ruler = lottery_candidate_c_@ROOT 
+			}
+			25 = { 
+				set_ruler = lottery_candidate_d_@ROOT 
+			}
+		}
+		add_republican_tradition = 15
+		custom_tooltip = lottery_candidate_bonus_plural
+	}
+	option = { # nepotism
+		name = ny_events.1.e
+		trigger = {
+			has_government_attribute = enables_nepotism
+		}
+		ai_chance = { factor = 10 }
+		if = {
+			limit = {
+				has_country_flag = strengthened_signoria_flag
+			}
+			custom_tooltip = strengthened_signoria_election_tt
+			clr_country_flag = strengthened_signoria_flag
+		}
+		else = {
+			add_republican_tradition = -15
+		}
+		if = {
+			limit = { 
+				republic_with_female_rulers_trigger = yes
+				NOT = { has_reform = signoria_reform }
+			}
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				change_mil = -1
+				change_adm = -1
+				change_dip = -1
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else_if = {
+			limit = { 
+				republic_with_female_rulers_trigger = yes
+				has_reform = signoria_reform
+			}
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else_if = {
+			limit = { 
+				NOT = { republic_with_female_rulers_trigger = yes }
+				has_reform = signoria_reform
+			}
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+			}
+		}
+		else = {
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				change_mil = -1
+				change_adm = -1
+				change_dip = -1
+				name = "lastname"
+			}
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 10
+			}				
 		}
 	}
 }
