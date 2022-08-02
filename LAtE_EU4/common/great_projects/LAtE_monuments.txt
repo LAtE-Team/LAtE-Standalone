@@ -1418,7 +1418,7 @@ crimson_library = {
 }
 
 thunder_dome = {
-	start = 914 #Boston
+	start = 914 #Green Bay
 	date = 1957.09.29	#1640.01.01
 	time = { months = 0	}
 	build_cost = 0
@@ -1428,6 +1428,15 @@ thunder_dome = {
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion = { religion = norse_pagan_reformed }
+			AND = {
+				culture_group = ameronordic
+				owner = {
+					culture_group = ameronordic
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -1437,9 +1446,27 @@ thunder_dome = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion = { religion = norse_pagan_reformed }
+			AND = {
+				culture_group = ameronordic
+				owner = {
+					culture_group = ameronordic
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion = { religion = norse_pagan_reformed }
+			AND = {
+				culture_group = ameronordic
+				owner = {
+					culture_group = ameronordic
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
