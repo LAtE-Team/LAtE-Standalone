@@ -413,6 +413,226 @@ country_event = {
 	}
 }
 
+#Discover of the Old World
+country_event = {
+	id = papal_stability.10
+	title = papal_stability.10.t
+	desc = papal_stability.10.d
+	picture = RELIGION_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		religion = catholic
+		capital_scope = {
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		europe_superregion = {
+			has_discovered = ROOT
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	immediate = {
+		set_global_flag = catholic_discovered_old_world_flag
+	}
+
+	option = {
+		name = papal_stability.10.a
+	}
+
+	after = {
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = papal_stability.11
+		}
+	}
+}
+
+#Discovery of the Old World announcement
+country_event = {
+	id = papal_stability.11
+	title = papal_stability.11.t
+	desc = papal_stability.11.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.11.a
+	}
+}
+
+#Neoroman Breaks Out
+province_event = {
+	id = papal_stability.12
+	title = papal_stability.12.t
+	desc = papal_stability.13.t
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		religion = catholic
+		owner = {
+			religion = catholic
+			NOT = { tag = PAP }
+		}
+		OR ={
+			continent = north_america
+			continent = europe
+		}
+		OR = {
+			AND = {
+				NOT = { reform_desire = 30 }
+				NOT = { has_global_flag = neoroman_enabled_flag }
+			}
+			AND = {
+				NOT = { reform_desire = 15 }
+				has_global_flag = neoroman_enabled_flag
+				NOT = { has_global_flag = neoroman_expanded_flag }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+		modifier = {
+			factor = 0.5
+			continent = north_america
+		}
+	}
+
+	immediate = {
+		add_reform_center = sedevacanist
+		if = {
+			limit = {
+				NOT = { has_global_flag = neoroman_enabled_flag }
+			}
+			set_global_flag = neoroman_enabled_flag
+		}
+		else_if = {
+			limit = { 
+				NOT = { has_global_flag = neoroman_expanded_flag }
+			}
+			set_global_flag = neoroman_expanded_flag
+		}
+	}
+
+	option = {
+		name = papal_stability.12.a
+	}
+
+	after = {
+		owner = {
+			every_known_country = {
+				limit = {
+					religion = catholic
+				}
+				country_event = papal_stability.13
+			}			
+		}
+	}
+}
+
+#Neoroman Notifier
+country_event = {
+	id = papal_stability.13
+	title = papal_stability.13.t
+	desc = papal_stability.13.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.13.a
+	}
+}
+
+# The Discovery of Rome
+country_event = {
+	id = papal_stability.14
+	title = papal_stability.14.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = papal_stability.14.catholic.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion = catholic }
+			religion_group = christian
+		}
+		desc = papal_stability.14.christian.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+		desc = papal_stability.14.heathen.d
+	}
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		capital_scope = {
+			continent = north_america
+		}
+		has_discovered = 118 #Rome
+	}
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.5
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = papal_stability.14.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = papal_stability.14.christian.o
+		trigger = {
+			NOT = { religion = catholic }
+			religion_group = christian
+		}
+	}
+
+	option = {
+		name = papal_stability.14.heathen.o
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+#Roman Discovery Notifier
+country_event = {
+	id = papal_stability.15
+	title = papal_stability.15.t
+	desc = papal_stability.15.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.15.a
+	}
+}
+
+
 # Simony
 # country_event = {
 # 	id = papal_stability.4
