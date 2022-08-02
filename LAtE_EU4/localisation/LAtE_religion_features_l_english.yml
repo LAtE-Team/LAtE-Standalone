@@ -21,3 +21,6 @@
  americanist_presidency_reform_desc: "The government of this nation is based around the religious institutions of the Americanist Presidency, with power resting in the elected president."
  walden_pond: "Walden Pond"
  desc_walden_pond: "An ancient serene pond where the American legend Thoreau is said to have reached enlightenment."
+
+ #Pagan
+ province_is_or_accepts_norse_pagan_reformed_tt: "The Religion of §Y[Root.GetName]§! is §YNorse§! and is either the State or the Syncretic Religion of the owner."
