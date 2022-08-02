@@ -43,4 +43,11 @@ spriteTypes = { # If editing an existing .gfx file then this line will likely al
         name = "GFX_great_project_crimson_library"	
         texturefile = "gfx//interface//great_projects//great_project_crimson_library.dds"
     }
+
+    spriteType = {
+        name = "GFX_great_project_thunder_dome"	
+        texturefile = "gfx//interface//great_projects//great_project_thunder_dome.dds"
+    }
+
+    
 }
