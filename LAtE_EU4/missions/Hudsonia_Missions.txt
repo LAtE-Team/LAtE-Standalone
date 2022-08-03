@@ -1550,7 +1550,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_convert_country = {
-        icon = catholic_volunteers
+        icon = mission_hudsonia_establish_control
 		required_missions = {
 			HUD_mission_convert_capital
 		}

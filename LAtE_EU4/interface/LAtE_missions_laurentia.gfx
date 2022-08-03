@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "mission_hudsonia_establish_control"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_establish_control.dds"
+	}
+}
