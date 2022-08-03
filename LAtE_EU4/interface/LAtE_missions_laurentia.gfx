@@ -3,4 +3,14 @@ spriteTypes = {
 		name = "mission_hudsonia_establish_control"
 		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_establish_control.dds"
 	}
+
+	spritetype = {
+		name = "mission_maritimes_matters_of_the_realm"
+		texturefile = "gfx//interface//missions//laurentia//mission_maritimes_matters_of_the_realm.dds"
+	}
+
+	spritetype = {
+		name = "mission_maritimes_restitutrix"
+		texturefile = "gfx//interface//missions//laurentia//mission_maritimes_restitutrix.dds"
+	}
 }
