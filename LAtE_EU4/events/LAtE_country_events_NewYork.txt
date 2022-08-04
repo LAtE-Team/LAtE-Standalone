@@ -53,7 +53,7 @@ country_event = {
 	
 	trigger = {
 		always = yes
-		has_government_reform = tammany_republic_reform
+		has_reform = tammany_republic_reform
 	}
 
 	immediate = {
