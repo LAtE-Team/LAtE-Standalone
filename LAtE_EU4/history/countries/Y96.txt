@@ -22,8 +22,3 @@ capital = 878
 	}
 	add_ruler_personality = careful_personality
 }
-3053.1.1 {
-	capital = 878
-	add_treasury = 15
-	add_prestige = 24
-}
