@@ -13,3 +13,8 @@ base_production = 10
 base_manpower = 5
 trade_goods = gems
 fort_15th = yes
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
+}

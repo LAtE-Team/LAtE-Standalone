@@ -1,0 +1,40 @@
+ruins_modifier_1 = { #base 0-15 dev
+	picture = "ruins_one"
+}
+
+ruins_modifier_2 = { #cleared 15-30 dev
+	local_development_cost = -0.15
+	allowed_num_of_buildings = 1
+	picture = "ruins_two"
+}
+
+ruins_moidifier_3 = { #functional 30-45 dev
+	local_development_cost = -0.25
+	allowed_num_of_buildings = 1
+	picture = "ruins_three"
+}
+
+ruins_moidifier_4 = { #restored 45-60 dev
+	local_development_cost = -0.25
+	allowed_num_of_buildings = 2
+	local_friendly_movement_speed = -0.05
+	province_trade_power_modifier = 0.05
+	picture = "ruins_four"
+}
+
+ruins_moidifier_5 = { #metropolis 60+ dev
+	local_development_cost = -0.25
+	allowed_num_of_buildings = 2
+	local_friendly_movement_speed = -0.1
+	province_trade_power_modifier = 0.1
+	trade_goods_size_modifier = 0.1
+	picture = "ruins_five"
+}
+
+ruins_provincial_cooldown_modifier = {
+
+}
+
+ruins_global_cooldown_modifier = {
+
+}

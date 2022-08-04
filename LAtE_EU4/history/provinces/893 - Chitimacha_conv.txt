@@ -1,6 +1,7 @@
 owner = Z02
 controller = Z02
 add_core = Z02
+
 culture = creole
 religion = protestant
 is_city = yes
@@ -9,3 +10,8 @@ hre = yes
 base_tax = 10
 base_production = 10
 base_manpower = 5
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
+}
