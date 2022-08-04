@@ -850,8 +850,11 @@ country_event = {
 	trigger = {
 		has_government_attribute = lottery_election
 		NOT = { has_disaster =  bonfire_of_the_vanities_disaster }
+		NOT = {
+			has_reform = tammany_republic_reform
+		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {

@@ -1,8 +1,8 @@
 # New York
 setup_vision = yes
-government = republic 
-add_government_reform = merchants_reform
-government_rank = 1
+government = republic
+add_government_reform = tammany_republic_reform
+government_rank = 2
 technology_group = eastern
 primary_culture = gothamite
 religion = americanist
