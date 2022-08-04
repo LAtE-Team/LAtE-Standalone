@@ -109,7 +109,7 @@ setup_vision = {
 				limit = {
 					NOT = {
 						OR = {
-							area = deseret_area
+							area = salt_lake_area
 							area = colorado_area
 							area = yellowstone_area
 						}
