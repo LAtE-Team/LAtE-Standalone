@@ -1,5 +1,5 @@
 # Sierra Madre
-ck2_converter_generated = yes
+
 graphical_culture = southamericagfx
 color = { 207 202 170 }
 

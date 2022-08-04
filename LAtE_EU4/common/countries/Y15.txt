@@ -1,5 +1,5 @@
 # Knights of the Golden Circle
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 180 180 180 }
 

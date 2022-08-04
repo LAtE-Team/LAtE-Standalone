@@ -1,5 +1,5 @@
 # Dominica
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 210 0 20 }
 

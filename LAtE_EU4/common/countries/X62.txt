@@ -1,5 +1,5 @@
 # Orinoquía
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 42 156 92 }
 

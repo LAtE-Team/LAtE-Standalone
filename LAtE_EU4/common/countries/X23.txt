@@ -1,5 +1,5 @@
 # Wineland
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 233 134 198 }
 

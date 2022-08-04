@@ -1,5 +1,5 @@
 # Delmarva
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 199 164 41 }
 

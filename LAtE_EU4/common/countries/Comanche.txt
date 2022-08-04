@@ -1,5 +1,5 @@
 # Comancheria
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 216 158 73 }
 

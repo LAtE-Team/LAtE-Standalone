@@ -1,5 +1,5 @@
 # Wilmington
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 200 140 30 }
 

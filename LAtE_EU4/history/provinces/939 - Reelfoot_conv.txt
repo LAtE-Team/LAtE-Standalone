@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = Z28
 controller = Z28
 add_core = Z28

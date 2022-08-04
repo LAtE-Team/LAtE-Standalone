@@ -3,7 +3,7 @@ setup_vision = yes
 government = republic 
 add_government_reform = peasants_republic
 government_rank = 1
-mercantilism = 0.1
+
 technology_group = western
 primary_culture = riverlander
 religion = catholic

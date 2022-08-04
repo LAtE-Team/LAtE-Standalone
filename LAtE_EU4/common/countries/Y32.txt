@@ -1,5 +1,5 @@
 # Miami Valley
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 253 244 134 }
 

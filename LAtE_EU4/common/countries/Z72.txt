@@ -1,5 +1,5 @@
 # St. Landry
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 176 28 80 }
 

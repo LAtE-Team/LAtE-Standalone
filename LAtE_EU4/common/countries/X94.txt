@@ -1,5 +1,5 @@
 # Cozumel
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 61 131 117 }
 

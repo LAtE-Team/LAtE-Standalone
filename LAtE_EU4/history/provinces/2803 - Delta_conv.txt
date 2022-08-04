@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = BOV
 controller = BOV
 add_core = BOV

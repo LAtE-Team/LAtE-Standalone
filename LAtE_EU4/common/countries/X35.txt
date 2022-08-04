@@ -1,5 +1,5 @@
 # West Snake
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 255 201 49 }
 

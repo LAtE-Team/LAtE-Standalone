@@ -1,5 +1,5 @@
 # Oregon
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 190 55 200 }
 

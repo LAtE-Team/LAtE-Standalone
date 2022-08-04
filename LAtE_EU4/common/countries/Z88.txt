@@ -1,5 +1,5 @@
 # Roanoke Rapids
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 150 200 55 }
 

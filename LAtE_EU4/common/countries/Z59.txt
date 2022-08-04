@@ -1,5 +1,5 @@
 # Benning
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 11 151 209 }
 

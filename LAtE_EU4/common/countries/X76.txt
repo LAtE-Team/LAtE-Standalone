@@ -1,5 +1,5 @@
 # Grand Cayman
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 193 219 13 }
 

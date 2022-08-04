@@ -1,5 +1,5 @@
 # Ozarks
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 162 181 147 }
 

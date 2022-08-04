@@ -3,7 +3,7 @@ setup_vision = yes
 government = monarchy 
 
 government_rank = 2
-mercantilism = 0.1
+
 technology_group = high_eurasian
 primary_culture = novorusskiy
 religion = nousthreskeia

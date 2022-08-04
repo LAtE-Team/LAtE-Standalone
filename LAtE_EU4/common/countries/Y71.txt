@@ -1,5 +1,5 @@
 # Ottawa
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 153 158 141 }
 

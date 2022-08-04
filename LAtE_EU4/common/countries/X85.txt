@@ -1,5 +1,5 @@
 # Shasta Cascade
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 107 125 190 }
 

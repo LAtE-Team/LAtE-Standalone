@@ -1,5 +1,5 @@
 # Sacramento
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 192 61 146 }
 

@@ -1,5 +1,5 @@
 # Chapel Hill
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 112 65 160 }
 

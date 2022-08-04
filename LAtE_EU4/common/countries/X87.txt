@@ -1,5 +1,5 @@
 # Costa Grande
-ck2_converter_generated = yes
+
 graphical_culture = muslimgfx
 color = { 28 228 254 }
 

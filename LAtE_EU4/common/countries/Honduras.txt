@@ -1,5 +1,5 @@
 # Honduras
-ck2_converter_generated = yes
+
 graphical_culture = southamericagfx
 color = { 220 240 250 }
 

@@ -38,7 +38,6 @@ add_core = PRB
 	#add_core= NED
 	capital = "Frederikstad"
 	culture = dutch
-	religion = reformed
 #} # Dutch occupation
 # = { unrest = 7 } # Religious confrontations between the brazilian-Brazilian and the Dutch Calvinists
 # = {

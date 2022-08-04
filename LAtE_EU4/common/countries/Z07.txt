@@ -1,5 +1,5 @@
 # Plaquemines
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 36 102 8 }
 

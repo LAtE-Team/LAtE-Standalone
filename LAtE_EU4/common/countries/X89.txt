@@ -1,5 +1,5 @@
 # Istmo
-ck2_converter_generated = yes
+
 graphical_culture = southamericagfx
 color = { 198 234 239 }
 
