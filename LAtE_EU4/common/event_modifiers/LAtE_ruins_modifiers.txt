@@ -8,13 +8,13 @@ ruins_modifier_2 = { #cleared 15-30 dev
 	picture = "ruins_two"
 }
 
-ruins_moidifier_3 = { #functional 30-45 dev
+ruins_modifier_3 = { #functional 30-45 dev
 	local_development_cost = -0.25
 	allowed_num_of_buildings = 1
 	picture = "ruins_three"
 }
 
-ruins_moidifier_4 = { #restored 45-60 dev
+ruins_modifier_4 = { #restored 45-60 dev
 	local_development_cost = -0.25
 	allowed_num_of_buildings = 2
 	local_friendly_movement_speed = -0.05
@@ -22,7 +22,7 @@ ruins_moidifier_4 = { #restored 45-60 dev
 	picture = "ruins_four"
 }
 
-ruins_moidifier_5 = { #metropolis 60+ dev
+ruins_modifier_5 = { #metropolis 60+ dev
 	local_development_cost = -0.25
 	allowed_num_of_buildings = 2
 	local_friendly_movement_speed = -0.1
