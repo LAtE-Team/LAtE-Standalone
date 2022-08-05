@@ -17,7 +17,7 @@ ruins_modifier_3 = { #functional 30-45 dev
 ruins_modifier_4 = { #restored 45-60 dev
 	local_development_cost = -0.25
 	allowed_num_of_buildings = 2
-	local_friendly_movement_speed = -0.05
+	local_friendly_movement_speed = 0.05
 	province_trade_power_modifier = 0.05
 	picture = "ruins_four"
 }
@@ -25,7 +25,7 @@ ruins_modifier_4 = { #restored 45-60 dev
 ruins_modifier_5 = { #metropolis 60+ dev
 	local_development_cost = -0.25
 	allowed_num_of_buildings = 2
-	local_friendly_movement_speed = -0.1
+	local_friendly_movement_speed = 0.1
 	province_trade_power_modifier = 0.1
 	trade_goods_size_modifier = 0.1
 	picture = "ruins_five"

@@ -57,19 +57,22 @@ province_event = {
 	
 	option = {
 		name = ruins_events.1.a #Yes
-		set_province_flag = ruins_upgrade_flag
-		set_variable = {
-			which = ruinsUpgradeVariable
-			value = 0
+		hidden_effect = {
+			set_province_flag = ruins_upgrade_flag
+			set_variable = {
+				which = ruinsUpgradeVariable
+				value = 0
+			}
+			set_variable = {
+				which = ruinsBadEventsVariable
+				value = 0
+			}
+			set_variable = {
+				which = ruinsGoodEventsVariable
+				value = 0
+			}
 		}
-		set_variable = {
-			which = ruinsBadEventsVariable
-			value = 0
-		}
-		set_variable = {
-			which = ruinsGoodEventsVariable
-			value = 0
-		}
+		custom_tooltip = ruins_start_upgrade_tt
 		add_province_modifier = {
 			name = ruins_under_construction_modifier
 			duration = -1
@@ -85,6 +88,7 @@ province_event = {
 
 	option = {
 		name = ruins_events.1.b #Not this province
+		custom_tooltip = ruins_province_cooldown_tt
 		add_province_modifier = {
 			name = ruins_provincial_cooldown_modifier
 			duration = 1460
@@ -94,6 +98,7 @@ province_event = {
 
 	option = {
 		name = ruins_events.1.c #Not at all
+		custom_tooltip = ruins_global_cooldown_tt
 		owner = {
 			add_country_modifier = {
 				name = ruins_global_cooldown_modifier
@@ -124,10 +129,12 @@ province_event = {
 	}
 
 	immediate = {
-		clr_province_flag = ruins_upgrade_flag
-		set_variable = {
-			which = ruinsUpgradeVariable
-			value = 0
+		hidden_effect = {
+			clr_province_flag = ruins_upgrade_flag
+			set_variable = {
+				which = ruinsUpgradeVariable
+				value = 0
+			}
 		}
 	}
 
@@ -243,30 +250,28 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsBadEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.4.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_years_of_income = -0.5 }
 	}
 
 	option = {
 		name = ruins_events.4.b
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_dip_power = -25 }
 		owner = {
@@ -279,11 +284,9 @@ province_event = {
 
 	option = {
 		name = ruins_events.4.c
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 	}
 }
@@ -328,41 +331,37 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsBadEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.5.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_yearly_manpower = -1 }
 	}
 
 	option = {
 		name = ruins_events.5.b
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_stability = -1 }
 	}
 
 	option = {
 		name = ruins_events.5.c
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 	}
 }
@@ -407,19 +406,19 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsBadEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.6.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_adm_power = -100 }
 	}
@@ -431,22 +430,18 @@ province_event = {
 				employed_advisor = { category = ADM }
 			}
 		}
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { remove_advisor_by_category = ADM }
 	}
 
 	option = {
 		name = ruins_events.6.c
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 	}
 }
@@ -491,30 +486,28 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsBadEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.7.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		owner = { add_corruption = 2 }
 	}
 
 	option = {
 		name = ruins_events.7.c
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 	}
 }
@@ -569,19 +562,19 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsGoodEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.8.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 		add_base_production = 2
 		if = {
@@ -601,11 +594,9 @@ province_event = {
 
 	option = {
 		name = ruins_events.8.b
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		if = {
 			limit = {
@@ -673,19 +664,19 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsGoodEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.9.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 		owner = { add_years_of_income = 0.25 }
 		if = {
@@ -705,11 +696,9 @@ province_event = {
 
 	option = {
 		name = ruins_events.9.b
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		if = {
 			limit = {
@@ -795,19 +784,19 @@ province_event = {
 	}
 
 	immediate = {
-		change_variable = {
-			which = ruinsGoodEventsVariable
-			value = 1
+		hidden_effect = {
+			change_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
 		}
 	}
 
 	option = {
 		name = ruins_events.10.a
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = -5
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = -5
 		}
 		random_list = {
 			100 = { change_trade_goods = glass }
@@ -835,11 +824,9 @@ province_event = {
 
 	option = {
 		name = ruins_events.10.b
-		hidden_effect = {
-			change_variable = {
-				which = ruinsUpgradeVariable
-				value = 2
-			}
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 2
 		}
 		if = {
 			limit = {
