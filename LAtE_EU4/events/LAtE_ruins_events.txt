@@ -1,0 +1,858 @@
+###########################################################
+# Events for the ruins terrain
+# Created by Technecian
+###########################################################
+
+namespace = ruins_events
+
+#Debugging event
+province_event = {
+	id = ruins_events.0
+	title = ruins_events.0.t
+	desc = ruins_events.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = ruins_events.0.a
+	}
+}
+
+# Ruin is ready to upgrade
+province_event = {
+	id = ruins_events.1
+	title = ruins_events.1.t
+	desc = ruins_events.1.d
+	picture = 9_Vaisya_Estate_eventPicture
+	
+	trigger = {
+		has_terrain = ruins
+		NOT = { has_province_modifier = ruins_modifier_5 }
+		NOT = { has_province_modifier = ruins_provincial_cooldown_modifier }
+		NOT = { owner = { has_country_modifier = ruins_global_cooldown_modifier } }
+		NOT = { has_province_flag = ruins_upgrade_flag }
+		OR = {
+			AND = {
+				has_province_modifier = ruins_modifier_1
+				development = 15
+			}
+			AND = {
+				has_province_modifier = ruins_modifier_2
+				development = 30
+			}
+			AND = {
+				has_province_modifier = ruins_modifier_3
+				development = 45
+			}
+			AND = {
+				has_province_modifier = ruins_modifier_4
+				development = 60
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = ruins_events.1.a #Yes
+		set_province_flag = ruins_upgrade_flag
+		set_variable = {
+			which = ruinsUpgradeVariable
+			value = 0
+		}
+		set_variable = {
+			which = ruinsBadEventsVariable
+			value = 0
+		}
+		set_variable = {
+			which = ruinsGoodEventsVariable
+			value = 0
+		}
+		add_province_modifier = {
+			name = ruins_under_construction_modifier
+			duration = -1
+		}
+		owner = {
+			add_country_modifier = {
+				name = ruins_global_cooldown_modifier
+				duration = 365
+				hidden = yes
+			}
+		}
+	}
+
+	option = {
+		name = ruins_events.1.b #Not this province
+		add_province_modifier = {
+			name = ruins_provincial_cooldown_modifier
+			duration = 1460
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = ruins_events.1.c #Not at all
+		owner = {
+			add_country_modifier = {
+				name = ruins_global_cooldown_modifier
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+}
+
+# Ruins is upgraded
+province_event = {
+	id = ruins_events.2
+	title = ruins_events.2.t
+	desc = ruins_events.2.d
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 100
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		clr_province_flag = ruins_upgrade_flag
+		set_variable = {
+			which = ruinsUpgradeVariable
+			value = 0
+		}
+	}
+
+	option = {
+		name = ruins_events.2.a
+		remove_province_modifier = ruins_under_construction_modifier
+		if = {
+			limit = { has_province_modifier = ruins_modifier_4 }
+			hidden_effect = { remove_province_modifier = ruins_modifier_4 }
+			add_province_modifier = {
+				name = ruins_modifier_5
+				duration = -1
+			}
+		}
+		if = {
+			limit = { has_province_modifier = ruins_modifier_3 }
+			hidden_effect = { remove_province_modifier = ruins_modifier_3 }
+			add_province_modifier = {
+				name = ruins_modifier_4
+				duration = -1
+			}
+		}
+		if = {
+			limit = { has_province_modifier = ruins_modifier_2 }
+			hidden_effect = { remove_province_modifier = ruins_modifier_2 }
+			add_province_modifier = {
+				name = ruins_modifier_3
+				duration = -1
+			}
+		}
+		if = {
+			limit = { has_province_modifier = ruins_modifier_1 }
+			hidden_effect = { remove_province_modifier = ruins_modifier_1 }
+			add_province_modifier = {
+				name = ruins_modifier_2
+				duration = -1
+			}
+		}
+	}
+}
+
+#Upgrade Progress Roughly monthly
+province_event = {
+	id = ruins_events.3
+	title = ruins_events.3.t
+	desc = ruins_events.3.d
+
+	hidden = yes
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.3.a
+	}
+}
+
+#Stumbling Block: Unexpected Cost (Gold)
+province_event = {
+	id = ruins_events.4
+	title = ruins_events.4.t
+	desc = ruins_events.4.d
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 2
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsBadEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.4.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_years_of_income = -0.5 }
+	}
+
+	option = {
+		name = ruins_events.4.b
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_dip_power = -25 }
+		owner = {
+			add_country_modifier = {
+				name = ruins_merchants_contribution_modifier
+				duration = 3650
+			}
+		}
+	}
+
+	option = {
+		name = ruins_events.4.c
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+	}
+}
+
+#Stumbling Block: Clearing Out Encampments (manpower)
+province_event = {
+	id = ruins_events.5
+	title = ruins_events.5.t
+	desc = ruins_events.5.d
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 2
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsBadEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.5.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_yearly_manpower = -1 }
+	}
+
+	option = {
+		name = ruins_events.5.b
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_stability = -1 }
+	}
+
+	option = {
+		name = ruins_events.5.c
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+	}
+}
+
+#Stumbling Block: Planning Replacements (manpower)
+province_event = {
+	id = ruins_events.6
+	title = ruins_events.6.t
+	desc = ruins_events.6.d
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 2
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsBadEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.6.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_adm_power = -100 }
+	}
+
+	option = {
+		name = ruins_events.6.BAD_ideas_bonus
+		trigger = {
+			owner = {
+				employed_advisor = { category = ADM }
+			}
+		}
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { remove_advisor_by_category = ADM }
+	}
+
+	option = {
+		name = ruins_events.6.c
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+	}
+}
+
+# Local Officials Siphon Resources
+province_event = {
+	id = ruins_events.7
+	title = ruins_events.7.t
+	desc = ruins_events.7.d
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsBadEventsVariable
+				value = 2
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsBadEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.7.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		owner = { add_corruption = 2 }
+	}
+
+	option = {
+		name = ruins_events.7.c
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+	}
+}
+
+# Local Officials Siphon Resources
+province_event = {
+	id = ruins_events.8
+	title = ruins_events.8.t
+	desc = {
+		trigger = {
+			owner = {
+				has_estate = estate_scavengers
+			}
+		}
+		desc = ruins_events.8.d.scavengers
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+		}
+		desc = ruins_events.8.d.noscavengers
+	}
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsGoodEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.8.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+		add_base_production = 2
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = -10
+				}	
+			}
+		}
+	}
+
+	option = {
+		name = ruins_events.8.b
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = 5
+				}	
+			}
+		}
+	}
+}
+
+# Treasure Found
+province_event = {
+	id = ruins_events.9
+	title = ruins_events.9.t
+	desc = {
+		trigger = {
+			owner = {
+				has_estate = estate_scavengers
+			}
+		}
+		desc = ruins_events.9.d.scavengers
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+		}
+		desc = ruins_events.9.d.noscavengers
+	}
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsGoodEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.9.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+		owner = { add_years_of_income = 0.25 }
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = -10
+				}	
+			}
+		}
+	}
+
+	option = {
+		name = ruins_events.9.b
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = 5
+				}	
+			}
+		}
+	}
+}
+
+# Trade Good Rare Event
+province_event = {
+	id = ruins_events.10
+	title = ruins_events.10.t
+	desc = {
+		trigger = {
+			owner = {
+				has_estate = estate_scavengers
+			}
+		}
+		desc = ruins_events.10.d.scavengers
+	}
+	desc = {
+		trigger = {
+			NOT = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+		}
+		desc = ruins_events.10.d.noscavengers
+	}
+
+	trigger = {
+		has_terrain = ruins
+		has_province_flag = ruins_upgrade_flag
+		check_variable = {
+			which = ruinsUpgradeVariable
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = ruinsUpgradeVariable
+				value = 100
+			}
+		}
+		NOT = {
+			OR = {
+				trade_goods = glass
+				trade_goods = gems
+				trade_goods = paper
+				trade_goods = cloth
+				trade_goods = silk
+				trade_goods = dyes
+				trade_goods = chinaware
+				trade_goods = tea
+				trade_goods = tobacco
+				trade_goods = cotton
+				trade_goods = sugar
+				trade_goods = coffee
+				trade_goods = cocoa
+				trade_goods = coal
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 2
+			check_variable = {
+				which = ruinsGoodEventsVariable
+				value = 1
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = ruinsGoodEventsVariable
+			value = 1
+		}
+	}
+
+	option = {
+		name = ruins_events.10.a
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = -5
+			}
+		}
+		random_list = {
+			100 = { change_trade_goods = glass }
+			100 = { change_trade_goods = gems }
+			100 = { change_trade_goods = paper }
+			100 = { change_trade_goods = cloth }
+			50 = { change_trade_goods = silk }
+			25 = { change_trade_goods = dyes }
+			25 = { change_trade_goods = chinaware }
+		}
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = -10
+				}	
+			}
+		}
+	}
+
+	option = {
+		name = ruins_events.10.b
+		hidden_effect = {
+			change_variable = {
+				which = ruinsUpgradeVariable
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					has_estate = estate_scavengers
+				}
+			}
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_scavengers
+					loyalty = 5
+				}	
+			}
+		}
+	}
+}

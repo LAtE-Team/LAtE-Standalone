@@ -868,6 +868,7 @@ country_event = {
 	title = maritimes_events.10.t
 	desc = maritimes_events.10.d
 	picture = NAVAL_MILITARY_eventPicture
+	is_triggered_only = yes
 	trigger = {
 		tag = MRT
 	}

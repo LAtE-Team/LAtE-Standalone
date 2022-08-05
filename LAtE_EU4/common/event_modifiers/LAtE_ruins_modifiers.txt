@@ -31,10 +31,20 @@ ruins_modifier_5 = { #metropolis 60+ dev
 	picture = "ruins_five"
 }
 
+ruins_under_construction_modifier = {
+	local_production_efficiency = -0.15
+	province_trade_power_modifier = -0.1
+	local_development_cost = 0.2
+}
+
 ruins_provincial_cooldown_modifier = {
 
 }
 
 ruins_global_cooldown_modifier = {
 
+}
+
+ruins_merchants_contribution_modifier = {
+	trade_efficiency = -0.15
 }
