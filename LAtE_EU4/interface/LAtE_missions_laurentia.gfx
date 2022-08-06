@@ -28,4 +28,29 @@ spriteTypes = {
 		name = "mission_ursuline_nuns"
 		texturefile = "gfx//interface//missions//laurentia//mission_ursuline_nuns.dds"
 	}
+
+	spritetype = {
+		name = "mission_anabaptist_church"
+		texturefile = "gfx//interface//missions//laurentia//mission_anabaptist_church.dds"
+	}
+
+	spritetype = {
+		name = "mission_anabaptist_preacher"
+		texturefile = "gfx//interface//missions//laurentia//mission_anabaptist_preacher.dds"
+	}
+
+	spritetype = {
+		name = "mission_hudsonia_orange_army"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_orange_army.dds"
+	}
+
+	spritetype = {
+		name = "mission_hudsonia_scavenger_corps"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_scavenger_corps.dds"
+	}
+	
+	spritetype = {
+		name = "mission_hudsonia_mercenary_army"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_mercenary_army.dds"
+	}
 }

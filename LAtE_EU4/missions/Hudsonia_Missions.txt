@@ -173,7 +173,8 @@ HUD_missions_2 = {
     }
     
     HUD_mission_mercs = {
-        icon = mission_landsknecht_soldier
+        #icon = mission_landsknecht_soldier
+		icon = mission_hudsonia_orange_army
         position = 2
 		required_missions = {
 			HUD_mission_claims
@@ -1187,7 +1188,8 @@ HUD_missions_anabaptist = {
     }
     
     HUD_mission_allow_proselytization = {
-        icon = contracts_of_correspondence
+        #icon = contracts_of_correspondence
+		icon = mission_anabaptist_preacher
         position = 1
    
         trigger = {
@@ -1225,7 +1227,8 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_anabaptist_churches = {
-        icon = fund_the_monasteries
+        #icon = fund_the_monasteries
+		icon = mission_anabaptist_church
 		required_missions = {
 			HUD_mission_allow_proselytization
 		}
@@ -1271,7 +1274,8 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_merc_army = {
-        icon = mission_assemble_an_army
+        #icon = mission_assemble_an_army
+		icon = mission_hudsonia_mercenary_army
 		required_missions = {
 			HUD_mission_anabaptist_churches
 			HUD_mission_mercs
@@ -1319,7 +1323,8 @@ HUD_missions_anabaptist = {
     }
 
 	HUD_mission_scavengers = {
-        icon = establish_the_musketeers
+        #icon = establish_the_musketeers
+		icon = mission_hudsonia_scavenger_corps
 		required_missions = {
 			HUD_mission_merc_army
 		}

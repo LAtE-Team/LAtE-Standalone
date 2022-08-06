@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "government_reform_orange_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//orange_kingdom.dds"
+	}
+}
