@@ -16,6 +16,14 @@ province_event = {
 	option = {
 		name = ruins_events.0.a
 	}
+
+	option = {
+		name = ruins_events.0.b
+		change_variable = {
+			which = ruinsUpgradeVariable
+			value = 50
+		}
+	}
 }
 
 # Ruin is ready to upgrade
@@ -23,7 +31,7 @@ province_event = {
 	id = ruins_events.1
 	title = ruins_events.1.t
 	desc = ruins_events.1.d
-	picture = 9_Vaisya_Estate_eventPicture
+	picture = CITY_DEVELOPMENT_eventPicture
 	
 	trigger = {
 		has_terrain = ruins
@@ -114,6 +122,7 @@ province_event = {
 	id = ruins_events.2
 	title = ruins_events.2.t
 	desc = ruins_events.2.d
+	picture = CITY_VIEW_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -134,6 +143,11 @@ province_event = {
 			set_variable = {
 				which = ruinsUpgradeVariable
 				value = 0
+			}
+			add_province_modifier = {
+				name = ruins_provincial_cooldown_modifier
+				duration = 365
+				hidden = yes
 			}
 		}
 	}
@@ -215,6 +229,7 @@ province_event = {
 	id = ruins_events.4
 	title = ruins_events.4.t
 	desc = ruins_events.4.d
+	picture = ECONOMY_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -269,6 +284,13 @@ province_event = {
 
 	option = {
 		name = ruins_events.4.b
+		trigger = {
+			owner = {
+				NOT = {
+					has_country_modifier = ruins_merchants_contribution_modifier
+				}
+			}
+		}
 		change_variable = {
 			which = ruinsUpgradeVariable
 			value = 2
@@ -296,6 +318,7 @@ province_event = {
 	id = ruins_events.5
 	title = ruins_events.5.t
 	desc = ruins_events.5.d
+	picture = MILITARY_CAMP_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -366,11 +389,12 @@ province_event = {
 	}
 }
 
-#Stumbling Block: Planning Replacements (manpower)
+#Stumbling Block: More Planning (adm)
 province_event = {
 	id = ruins_events.6
 	title = ruins_events.6.t
 	desc = ruins_events.6.d
+	picture = OVEREXTENSION_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -424,7 +448,7 @@ province_event = {
 	}
 
 	option = {
-		name = ruins_events.6.BAD_ideas_bonus
+		name = ruins_events.6.b
 		trigger = {
 			owner = {
 				employed_advisor = { category = ADM }
@@ -451,6 +475,7 @@ province_event = {
 	id = ruins_events.7
 	title = ruins_events.7.t
 	desc = ruins_events.7.d
+	picture = CORRUPTION_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -512,7 +537,7 @@ province_event = {
 	}
 }
 
-# Local Officials Siphon Resources
+# Old world workshops
 province_event = {
 	id = ruins_events.8
 	title = ruins_events.8.t
@@ -534,6 +559,7 @@ province_event = {
 		}
 		desc = ruins_events.8.d.noscavengers
 	}
+	picture = COLONIZATION_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -636,6 +662,7 @@ province_event = {
 		}
 		desc = ruins_events.9.d.noscavengers
 	}
+	picture = ECONOMY_eventPicture
 
 	trigger = {
 		has_terrain = ruins
@@ -738,6 +765,7 @@ province_event = {
 		}
 		desc = ruins_events.10.d.noscavengers
 	}
+	picture = CITY_DEVELOPMENT_eventPicture
 
 	trigger = {
 		has_terrain = ruins
