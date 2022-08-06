@@ -13,4 +13,19 @@ spriteTypes = {
 		name = "mission_maritimes_restitutrix"
 		texturefile = "gfx//interface//missions//laurentia//mission_maritimes_restitutrix.dds"
 	}
+
+	spritetype = {
+		name = "mission_americanist_knight"
+		texturefile = "gfx//interface//missions//laurentia//mission_americanist_knight.dds"
+	}
+
+	spritetype = {
+		name = "mission_rust_knight"
+		texturefile = "gfx//interface//missions//laurentia//mission_rust_knight.dds"
+	}
+
+	spritetype = {
+		name = "mission_ursuline_nuns"
+		texturefile = "gfx//interface//missions//laurentia//mission_ursuline_nuns.dds"
+	}
 }

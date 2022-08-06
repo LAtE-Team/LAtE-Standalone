@@ -1519,7 +1519,7 @@ HUD_missions_ursuline = {
     }
     
     HUD_mission_convert_capital = {
-        icon = catholic_confraternity
+        icon = mission_ursuline_nuns
         position = 1
    
         provinces_to_highlight = {
