@@ -77,3 +77,7 @@
  ruins_start_upgrade_tt:0 "We will begin to renovate the ruins of [Root.GetName]"
  ruins_province_cooldown_tt:0 "We will not be notified about renovating the ruins of [Root.GetName] for at least 4 years"
  ruins_global_cooldown_tt:0 "We will not be notified about renovating any ruins for at least 10 years"
+ disable_ruins_growth_title:0 "Disable Ruin Renovations"
+ disable_ruins_growth_desc:0 "Will disable ruin renovation events untill re-enabled."
+ enable_ruins_growth_title:0 "Enable Ruin Renovations"
+ enable_ruins_growth_desc:0 "Enables ruin renovation events."

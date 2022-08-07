@@ -38,6 +38,7 @@ province_event = {
 		NOT = { has_province_modifier = ruins_modifier_5 }
 		NOT = { has_province_modifier = ruins_provincial_cooldown_modifier }
 		NOT = { owner = { has_country_modifier = ruins_global_cooldown_modifier } }
+		NOT = { owner = { has_country_flag = disable_ruins_growth } }
 		NOT = { has_province_flag = ruins_upgrade_flag }
 		OR = {
 			AND = {
