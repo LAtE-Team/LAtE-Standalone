@@ -3,7 +3,7 @@ controller = NYS
 add_core = NYS
 
 culture = gothamite
-religion = americanist
+religion = jewish
 is_city = yes
 
 
@@ -17,3 +17,5 @@ add_province_modifier = {
 	name = ruins_modifier_1
 	duration = -1
 }
+
+add_province_triggered_modifier = legacy_of_levi
