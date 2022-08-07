@@ -1,5 +1,5 @@
 # Jackson
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 158 175 186 }
 

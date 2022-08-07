@@ -1,5 +1,5 @@
 # Antilles
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 255 161 0 }
 

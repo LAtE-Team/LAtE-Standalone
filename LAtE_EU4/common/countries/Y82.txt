@@ -1,5 +1,5 @@
 # Sequoyah
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 22 202 44 }
 

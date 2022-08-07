@@ -1,5 +1,5 @@
 # Green River
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 34 170 96 }
 

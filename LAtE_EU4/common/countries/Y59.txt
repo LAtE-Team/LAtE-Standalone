@@ -1,5 +1,5 @@
 # Apacheria
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 175 118 196 }
 

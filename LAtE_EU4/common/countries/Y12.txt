@@ -1,5 +1,5 @@
 # Ecumenical Church Council
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 183 60 155 }
 

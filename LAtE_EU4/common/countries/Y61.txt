@@ -1,5 +1,5 @@
 # de Lakewood
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 114 164 233 }
 

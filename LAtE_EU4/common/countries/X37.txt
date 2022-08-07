@@ -1,5 +1,5 @@
 # Berdoo
-ck2_converter_generated = yes
+
 graphical_culture = muslimgfx
 color = { 241 190 144 }
 

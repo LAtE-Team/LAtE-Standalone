@@ -1,5 +1,5 @@
 # Portuguesa
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 51 161 157 }
 

@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_scavenging_hub"
-		texturefile = "gfx//interface//buildings//scavengers_camp.tga"
+		texturefile = "gfx//interface//buildings//scavenging_hub.tga"
 		loadType = "INGAME"
 	}
 

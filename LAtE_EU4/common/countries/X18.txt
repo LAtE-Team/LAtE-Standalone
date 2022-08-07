@@ -1,5 +1,5 @@
 # Vautour
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 199 216 203 }
 

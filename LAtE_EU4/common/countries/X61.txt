@@ -1,5 +1,5 @@
 # Georgetown
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 234 39 49 }
 

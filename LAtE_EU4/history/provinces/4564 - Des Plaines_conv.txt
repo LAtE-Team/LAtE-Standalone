@@ -1,15 +1,19 @@
-ck2_converter_generated = yes
 owner = ORD
 controller = ORD
 add_core = ORD
+
 culture = chicagoan
 religion = catholic
 is_city = yes
 add_core = Y36
-
 
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 4
 trade_goods = livestock
+
+add_province_modifier = {
+	name = ruins_modifier_1
+	duration = -1
+}

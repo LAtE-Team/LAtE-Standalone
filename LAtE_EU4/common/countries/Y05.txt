@@ -1,5 +1,5 @@
 # The Potomac
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 166 210 255 }
 

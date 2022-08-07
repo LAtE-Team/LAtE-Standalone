@@ -1,5 +1,5 @@
 # Tachira
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 121 64 58 }
 

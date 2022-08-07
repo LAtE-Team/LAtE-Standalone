@@ -1,5 +1,5 @@
 # Jacinto
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 253 90 72 }
 

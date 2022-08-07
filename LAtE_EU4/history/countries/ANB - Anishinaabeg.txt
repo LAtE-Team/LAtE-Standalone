@@ -2,6 +2,6 @@
 setup_vision = yes
 government = monarchy 
 technology_group = eastern
-primary_culture = anishinabe
+primary_culture = ojibwe
 religion = ursuline
 capital = 1001

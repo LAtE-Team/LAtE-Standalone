@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = X95
 controller = X95
 add_core = X95

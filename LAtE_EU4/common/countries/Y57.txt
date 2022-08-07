@@ -1,5 +1,5 @@
 # Amarillo
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 255 247 147 }
 

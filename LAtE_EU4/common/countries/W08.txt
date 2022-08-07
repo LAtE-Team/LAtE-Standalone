@@ -1,5 +1,5 @@
 # Cesar
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 86 199 190 }
 

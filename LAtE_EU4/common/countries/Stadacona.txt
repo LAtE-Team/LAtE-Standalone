@@ -1,5 +1,5 @@
 # Stadacona
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 243 136 133 }
 

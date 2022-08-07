@@ -1,5 +1,5 @@
 # Atlántida
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 101 136 150 }
 

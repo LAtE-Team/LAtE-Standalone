@@ -1,5 +1,5 @@
 # NoVa
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 240 180 230 }
 

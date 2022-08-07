@@ -1,5 +1,5 @@
 # Black March
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 55 55 66 }
 

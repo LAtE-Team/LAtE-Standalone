@@ -1,5 +1,5 @@
 # Mojave
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 241 215 194 }
 

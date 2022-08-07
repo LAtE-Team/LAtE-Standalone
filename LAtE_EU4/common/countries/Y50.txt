@@ -1,5 +1,5 @@
 # de Kewaunee
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 209 161 189 }
 

@@ -1,5 +1,5 @@
 # Cumberland
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 140 170 150 }
 

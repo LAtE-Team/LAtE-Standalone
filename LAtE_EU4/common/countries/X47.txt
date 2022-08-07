@@ -1,5 +1,5 @@
 # Zulia
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 134 32 176 }
 

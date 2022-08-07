@@ -1,5 +1,5 @@
 # Carteret
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 230 250 25 }
 

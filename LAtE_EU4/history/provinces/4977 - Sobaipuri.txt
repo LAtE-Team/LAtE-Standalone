@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = Y97
 controller = Y97
 add_core = Y97

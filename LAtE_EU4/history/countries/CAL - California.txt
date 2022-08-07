@@ -3,7 +3,7 @@ setup_vision = yes
 government = monarchy
 add_government_reform = celestial_empire
 government_rank = 3
-mercantilism = 0.1
+
 technology_group = western
 primary_culture = angeleno
 religion = cetic

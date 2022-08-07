@@ -1,5 +1,5 @@
 # Grand Bahama
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 200 191 100 }
 

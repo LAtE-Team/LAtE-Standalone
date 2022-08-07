@@ -4,7 +4,7 @@ graphical_culture = westerngfx
 
 color = { 225 216 89 }
 
-preferred_religion = reformed
+preferred_religion = celticist
 
 historical_idea_groups = {
 	administrative_ideas

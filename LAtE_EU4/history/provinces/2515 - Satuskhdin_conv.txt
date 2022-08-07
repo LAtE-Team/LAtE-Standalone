@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = Y53
 controller = Y53
 add_core = Y53

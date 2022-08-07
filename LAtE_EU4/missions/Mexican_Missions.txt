@@ -84,25 +84,7 @@ mex_conquer_southeast_1 = {
 		effect = {
 			every_province = {
 				limit = {
-					area = texas_area
-				}
-				add_permanent_claim = ROOT
-			}
-			every_province = {
-				limit = {
-					area = coastal_prarie_area
-				}
-				add_permanent_claim = ROOT
-			}
-			every_province = {
-				limit = {
-					area = llano_estacado_area
-				}
-				add_permanent_claim = ROOT
-			}
-			every_province = {
-				limit = {
-					area = lower_plains_area
+					region = texas_region
 				}
 				add_permanent_claim = ROOT
 			}
@@ -664,7 +646,6 @@ mex_pacific = {
 			region = mexico_region
 			has_port = yes
 			NOT = {
-				area = texas_area
 				area = rio_grande_area
 				area = eastern_mexico_area
 			}
@@ -679,7 +660,6 @@ mex_pacific = {
 					region = mexico_region
 					has_port = yes
 					NOT = {
-						area = texas_area
 						area = rio_grande_area
 						area = eastern_mexico_area
 					}

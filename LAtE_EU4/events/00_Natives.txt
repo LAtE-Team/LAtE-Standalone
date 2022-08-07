@@ -68,30 +68,7 @@ province_event = {
 province_event = {
 	id = 3072
 	title = "EVTNAME3072"
-	desc = {
-		desc = "EVTDESC3072"
-		trigger = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-				colonial_region = colonial_australia
-			}
-		}
-	}
-	desc = {
-		desc = "EVTDESC3072.TC"
-		trigger = {
-			NOT = {
-				OR = {
-					continent = north_america
-					continent = south_america
-					continent = new_world
-					colonial_region = colonial_australia
-				}
-			}
-		}
-	}
+	desc = "EVTDESC3072.TC"
 	picture = NATIVES_eventPicture
 	
 	trigger = {
@@ -234,30 +211,7 @@ province_event = {
 province_event = {
 	id = 3074
 	title = "EVTNAME3074"
-	desc = {
-		desc = "EVTDESC3074"
-		trigger = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-				colonial_region = colonial_australia
-			}
-		}
-	}
-	desc = {
-		desc = "EVTDESC3074.TC"
-		trigger = {
-			NOT = {
-				OR = {
-					continent = north_america
-					continent = south_america
-					continent = new_world
-					colonial_region = colonial_australia
-				}
-			}
-		}
-	}
+	desc = "EVTDESC3074.TC"
 	picture = COLONIZATION_eventPicture
 	
 	trigger = {

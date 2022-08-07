@@ -143,6 +143,7 @@
  estate_scavengers.1.a: "Let us extend the auctions"
  estate_scavengers.1.b: "Not now"
  EST_MANY_SCAVENGING_HUBS: "Many §YScavenging Hubs§!: §Y$VAL$%§!"
+ EST_SCA_RUINS_PROVINCE: "§YRuins§! Province: §Y$VAL$%§!"
  scavengers_loyalty_modifier: "[Root.GetScavengersName] Loyalty Equilibrium"
  scavengers_influence_modifier: "[Root.GetScavengersName] Influence"
  curtail_estate_scavengers_title: "Curtail the [Root.GetScavengersName]"

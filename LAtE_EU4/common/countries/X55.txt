@@ -1,5 +1,5 @@
 # Los Andes
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 131 54 63 }
 
