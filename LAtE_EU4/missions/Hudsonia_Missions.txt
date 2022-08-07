@@ -1615,7 +1615,7 @@ HUD_missions_ursuline = {
     }
 
 	HUD_mission_scavenge_anabaptist_lands = {
-        icon = mission_high_income
+        icon = mission_hudsonia_scavenge_their_lands
 		required_missions = {
 			HUD_mission_expel_anabaptists
 		}

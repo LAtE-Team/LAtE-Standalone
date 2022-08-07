@@ -22,7 +22,7 @@ KEY_missions_accept_anabaptists = {
     }
     
     KEY_mission_allow_growth = {
-        icon = contracts_of_correspondence
+        icon = mission_anabaptist_preacher
         position = 1
                 
         trigger = {
@@ -44,7 +44,7 @@ KEY_missions_accept_anabaptists = {
     }
 
     KEY_mission_anabaptists_prosper = {
-        icon = fund_the_monasteries
+        icon = mission_anabaptist_church
 		required_missions = {
 			KEY_mission_allow_growth
 		}
@@ -171,7 +171,7 @@ KEY_missions_expel_anabaptists = {
     }
 
     KEY_mission_loot_their_lands = {
-        icon = mission_high_income
+        icon = mission_hudsonia_scavenge_their_lands
 		required_missions = {
 			KEY_mission_expel_from_our_lands
 		}
@@ -246,7 +246,7 @@ KEY_missions_churches = {
     }
     
     KEY_mission_build_churches = {
-        icon = connect_further_austria
+        icon = mission_keystone_temples
         position = 4
 
 		provinces_to_highlight = {
@@ -1296,7 +1296,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_improve_pittsburgh = {
-        icon = develop_the_po_valley
+        icon = mission_pittsburgh
 		required_missions = {
 			AGH_mission_improve_capital
 		}
@@ -1324,7 +1324,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_develop_rust = {
-        icon = mission_rb_import_potatoes
+        icon = mission_iron_mines
 		required_missions = {
 			AGH_mission_improve_pittsburgh
 		}
@@ -1552,7 +1552,7 @@ AGH_missions_4 = {
     }
 
 	AGH_mission_workshops = {
-        icon = mission_early_game_buildings
+        icon = mission_metalshops
 		required_missions = {
 			AGH_mission_develop_rust
 			AGH_mission_embrace_renaissance
@@ -1919,7 +1919,7 @@ PHI_missions_3 = {
     }
     
     PHI_mission_improve_capital = {
-        icon = mission_colonial
+        icon = mission_philadelphia
         position = 1
 
 		provinces_to_highlight = {
@@ -1946,7 +1946,7 @@ PHI_missions_3 = {
     }
 
 	PHI_mission_marketplace = {
-        icon = develop_the_po_valley
+        icon = mission_reading_terminal_market
 		required_missions = {
 			PHI_mission_improve_capital
 		}
@@ -1984,7 +1984,7 @@ PHI_missions_3 = {
     }
 
 	PHI_mission_shipyard = {
-        icon = mission_early_game_buildings
+        icon = mission_port_of_philadelphia
 		required_missions = {
 			PHI_mission_marketplace
 		}
@@ -2174,7 +2174,7 @@ KEY_missions_1= {
     }
     
     KEY_mission_philadelphia = {
-        icon = capture_adriatic_ports
+        icon = mission_kittatinny
         position = 5
 
 		provinces_to_highlight = {
@@ -2300,7 +2300,7 @@ KEY_missions_2 = {
     }
     
     KEY_mission_baltimore = {
-        icon = fight_bosnian_heresies
+        icon = mission_baltimore
         position = 5
 
 		provinces_to_highlight = {
@@ -2326,7 +2326,7 @@ KEY_missions_2 = {
     }
 
     KEY_mission_washington = {
-        icon = Control_Junkers
+        icon = mission_march_on_washington
 		required_missions = {
 			KEY_mission_baltimore
 		}
