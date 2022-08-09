@@ -479,6 +479,7 @@ province_event = {
 
 	trigger = {
 		religion = catholic
+		has_global_flag = catholic_discovered_old_world_flag
 		owner = {
 			religion = catholic
 			NOT = { tag = PAP }
@@ -591,6 +592,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
+		has_global_flag = catholic_discovered_old_world_flag
 		LAtE_papal_stabillity_trigger = yes
 		has_discovered = 118 #Rome
 	}
@@ -702,6 +704,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
+		has_global_flag = catholic_discovered_old_world_flag
 		LAtE_papal_stabillity_trigger = yes
 		owns_or_non_sovereign_subject_of = 118
 		118 = {
@@ -830,6 +833,54 @@ country_event = {
 
 	option = {
 		name = papal_stability.17.a
+	}
+}
+
+#The evil green witch!
+country_event = {
+	id = papal_stability.18
+	title = papal_stability.18.t
+	desc = papal_stability.18.d
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		has_global_flag = catholic_discovered_old_world_flag
+		LAtE_papal_stabillity_trigger = yes
+		tag = PAP
+	}
+
+	mean_time_to_happen = {
+		years = 12
+	}
+
+	option = {
+		name = papal_stability.18.a
+	}
+
+	after = {
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.19
+				days = 4
+			}
+		}
+	}
+}
+
+#Green Witch Notifier
+country_event = {
+	id = papal_stability.19
+	title = papal_stability.19.t
+	desc = papal_stability.19.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.19.a
 	}
 }
 
