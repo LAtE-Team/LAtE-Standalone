@@ -337,6 +337,15 @@ defined_text = {
 			}
         }
     }
+
+    text = { #Great Lakes
+        localisation_key = string_start_great_lakes
+        trigger = {
+            capital_scope = {
+                region = great_lakes_region
+            }
+        }
+    }
 	
 	text = { #HCC
         localisation_key = string_start_HCC
