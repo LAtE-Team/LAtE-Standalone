@@ -117,3 +117,13 @@ LAtE_has_any_exploration_idea = {
 		has_idea = legendary_voyagers
 	}
 }
+
+LAtE_papal_stabillity_trigger = {
+	OR = {
+		capital_scope = {
+			continent = north_america
+			continent = south_america
+		}
+	}
+	is_tribal = no
+}

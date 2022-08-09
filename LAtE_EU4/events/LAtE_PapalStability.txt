@@ -56,6 +56,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
+		LAtE_papal_stabillity_trigger = yes
 		OR = {
 			religion = catholic
 			religion = ursuline
@@ -424,12 +425,7 @@ country_event = {
 
 	trigger = {
 		religion = catholic
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-			}
-		}
+		LAtE_papal_stabillity_trigger = yes
 		europe_superregion = {
 			has_discovered = ROOT
 		}
@@ -595,9 +591,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
-		capital_scope = {
-			continent = north_america
-		}
+		LAtE_papal_stabillity_trigger = yes
 		has_discovered = 118 #Rome
 	}
 
@@ -630,19 +624,212 @@ country_event = {
 			NOT = { religion_group = christian }
 		}
 	}
+
+	after = {
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.15
+				days = 4
+			}
+		}			
+	}
 }
 
 #Roman Discovery Notifier
 country_event = {
 	id = papal_stability.15
 	title = papal_stability.15.t
-	desc = papal_stability.15.d
+	desc = {
+		trigger = {
+			FROM = {
+				religion = catholic
+			}
+		}
+		desc = papal_stability.15.catholic.d
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				NOT = { religion = catholic }
+				religion_group = christian
+			}	
+		}
+		desc = papal_stability.15.christian.d
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				NOT = { religion_group = christian }
+			}
+		}
+		desc = papal_stability.15.heathen.d
+	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
 		name = papal_stability.15.a
+	}
+}
+
+#Ownership of Rome
+country_event = {
+	id = papal_stability.16
+	title = papal_stability.16.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = papal_stability.16.catholic.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion = catholic }
+			religion_group = christian
+		}
+		desc = papal_stability.16.christian.d
+	}
+	desc = {
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+		desc = papal_stability.16.heathen.d
+	}
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		LAtE_papal_stabillity_trigger = yes
+		owns_or_non_sovereign_subject_of = 118
+		118 = {
+			religion = root
+		}
+		is_vassal = no
+		OR = {
+			AND = {
+				religion = catholic
+				NOT = { has_global_flag = catholic_owns_rome }
+			}
+			AND = {
+				NOT = { religion = catholic }
+				religion_group = christian
+				NOT = { has_global_flag = christian_owns_rome }
+			}
+			AND = {
+				NOT = { religion_group = christian }
+				NOT = { has_global_flag = heathen_owns_rome }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 4
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				religion = catholic
+			}
+			set_global_flag = catholic_owns_rome
+			clr_global_flag = christian_owns_rome
+			clr_global_flag = heathen_owns_rome
+		}
+		if = {
+			limit = {
+				NOT = { religion = catholic }
+				religion_group = christian
+			}
+			clr_global_flag = catholic_owns_rome
+			set_global_flag = christian_owns_rome
+			clr_global_flag = heathen_owns_rome
+		}
+		if = {
+			limit = {
+				NOT = { religion_group = christian }
+			}
+			clr_global_flag = catholic_owns_rome
+			clr_global_flag = christian_owns_rome
+			set_global_flag = heathen_owns_rome
+		}
+	}
+
+	option = {
+		name = papal_stability.16.catholic.d
+		trigger = {
+			religion = catholic
+		}
+		add_reform_desire = 0.1
+	}
+
+	option = {
+		name = papal_stability.16.christian.d
+		trigger = {
+			NOT = { religion = catholic }
+			religion_group = christian
+		}
+		add_reform_desire = -0.1
+	}
+
+	option = {
+		name = papal_stability.16.heathen.d
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+		add_reform_desire = -0.2
+	}
+
+	after = {
+		every_known_country = {
+			limit = {
+				religion = catholic
+			}
+			country_event = {
+				id = papal_stability.17
+				days = 4
+			}
+		}			
+	}
+}
+
+#Roman Ownership Notifier
+country_event = {
+	id = papal_stability.17
+	title = papal_stability.17.t
+	desc = {
+		trigger = {
+			FROM = {
+				religion = catholic
+			}
+		}
+		desc = papal_stability.17.catholic.d
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				NOT = { religion = catholic }
+				religion_group = christian
+			}	
+		}
+		desc = papal_stability.17.christian.d
+	}
+	desc = {
+		trigger = {
+			FROM = {
+				NOT = { religion_group = christian }
+			}
+		}
+		desc = papal_stability.17.heathen.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = papal_stability.17.a
 	}
 }
 
