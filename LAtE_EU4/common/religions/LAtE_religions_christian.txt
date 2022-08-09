@@ -357,6 +357,9 @@ christian = {
     sedevacanist = { # was neroman. Need to decide how this is going to work.
 		color = { 0.7 0.7 0.75 }
 		icon = 13
+		allowed_center_conversion = {
+			catholic
+		}
 		country = {
 			legitimacy = 1
 			tolerance_own = 2

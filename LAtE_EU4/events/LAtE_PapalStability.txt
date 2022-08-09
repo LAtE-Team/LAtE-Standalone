@@ -452,7 +452,10 @@ country_event = {
 			limit = {
 				religion = catholic
 			}
-			country_event = papal_stability.11
+			country_event = {
+				id = papal_stability.11
+				days = 4
+			}
 		}
 	}
 }
@@ -511,6 +514,7 @@ province_event = {
 
 	immediate = {
 		add_reform_center = sedevacanist
+		change_religion = sedevacanist
 		if = {
 			limit = {
 				NOT = { has_global_flag = neoroman_enabled_flag }
@@ -529,13 +533,23 @@ province_event = {
 		name = papal_stability.12.a
 	}
 
+	option = {
+		name = papal_stability.12.b
+		owner = {
+			change_religion = sedevacanist
+		}
+	}
+
 	after = {
 		owner = {
 			every_known_country = {
 				limit = {
 					religion = catholic
 				}
-				country_event = papal_stability.13
+				country_event = {
+					id = papal_stability.13
+					days = 4
+				}
 			}			
 		}
 	}
