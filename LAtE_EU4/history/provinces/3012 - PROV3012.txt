@@ -1,15 +1,18 @@
-ck2_converter_generated = yes
 owner = CAL
 controller = CAL
 add_core = CAL
+
 culture = angeleno
 religion = cetic
 is_city = yes
 add_core = LAX
 
-3053.1.1 = {
-	hre = no
-	base_tax = 6
-	base_production = 6
-	base_manpower = 4
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
 }

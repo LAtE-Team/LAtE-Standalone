@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = SNR
 controller = SNR
 add_core = SNR

@@ -1,5 +1,5 @@
 # Sonora
-ck2_converter_generated = yes
+
 graphical_culture = muslimgfx
 color = { 169 104 75 }
 

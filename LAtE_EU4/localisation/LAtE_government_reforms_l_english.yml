@@ -7,3 +7,5 @@
  #Mechanics
  mechanic_disables_church_yes:0 "Disables Clergy estate."
  mechanic_disables_church_no:0 "Enables Clergy estate."
+ mechanic_disables_burghers_yes:0 "Disables Burghers estate."
+ mechanic_disables_burghers_no:0 "Enables Burghers estate."

@@ -1,5 +1,5 @@
 # Adirondack
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 123 100 66 }
 

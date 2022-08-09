@@ -49,3 +49,16 @@ walden_pond = {
 	}
 	prestige = 0.5
 }
+
+legacy_of_levi = {
+	potential = {
+
+	}
+	trigger = {
+		owner = { tag = NYS }
+		NOT = { owner = { has_country_flag = new_york_americanist_dominance_flag } }
+	}
+	religion = yes
+	local_religious_unity_contribution = -1
+	local_missionary_strength = -1
+}

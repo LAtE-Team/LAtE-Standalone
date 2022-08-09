@@ -15,3 +15,8 @@ base_manpower = 6
 trade_goods = cloth
 center_of_trade = 2
 fort_15th = yes
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
+}

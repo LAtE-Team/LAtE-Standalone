@@ -1,5 +1,5 @@
 # Montgomery
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 64 64 91 }
 

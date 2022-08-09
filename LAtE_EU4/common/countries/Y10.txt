@@ -1,5 +1,5 @@
 # Chickasaw
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 172 231 234 }
 

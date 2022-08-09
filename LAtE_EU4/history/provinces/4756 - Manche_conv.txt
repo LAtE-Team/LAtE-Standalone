@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = BLZ
 controller = BLZ
 add_core = BLZ

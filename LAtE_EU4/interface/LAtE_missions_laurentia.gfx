@@ -1,0 +1,111 @@
+spriteTypes = {	
+	spriteType = {
+		name = "mission_hudsonia_establish_control"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_establish_control.dds"
+	}
+
+	spritetype = {
+		name = "mission_maritimes_matters_of_the_realm"
+		texturefile = "gfx//interface//missions//laurentia//mission_maritimes_matters_of_the_realm.dds"
+	}
+
+	spritetype = {
+		name = "mission_maritimes_restitutrix"
+		texturefile = "gfx//interface//missions//laurentia//mission_maritimes_restitutrix.dds"
+	}
+
+	spritetype = {
+		name = "mission_americanist_knight"
+		texturefile = "gfx//interface//missions//laurentia//mission_americanist_knight.dds"
+	}
+
+	spritetype = {
+		name = "mission_rust_knight"
+		texturefile = "gfx//interface//missions//laurentia//mission_rust_knight.dds"
+	}
+
+	spritetype = {
+		name = "mission_ursuline_nuns"
+		texturefile = "gfx//interface//missions//laurentia//mission_ursuline_nuns.dds"
+	}
+
+	spritetype = {
+		name = "mission_anabaptist_church"
+		texturefile = "gfx//interface//missions//laurentia//mission_anabaptist_church.dds"
+	}
+
+	spritetype = {
+		name = "mission_anabaptist_preacher"
+		texturefile = "gfx//interface//missions//laurentia//mission_anabaptist_preacher.dds"
+	}
+
+	spritetype = {
+		name = "mission_hudsonia_orange_army"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_orange_army.dds"
+	}
+
+	spritetype = {
+		name = "mission_hudsonia_scavenger_corps"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_scavenger_corps.dds"
+	}
+	
+	spritetype = {
+		name = "mission_hudsonia_mercenary_army"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_mercenary_army.dds"
+	}
+	
+	spritetype = {
+		name = "mission_hudsonia_scavenge_their_lands"
+		texturefile = "gfx//interface//missions//laurentia//mission_hudsonia_scavenge_their_lands.dds"
+	}
+
+	spritetype = {
+		name = "mission_pittsburgh"
+		texturefile = "gfx//interface//missions//laurentia//mission_pittsburgh.dds"
+	}
+
+	spritetype = {
+		name = "mission_iron_mines"
+		texturefile = "gfx//interface//missions//laurentia//mission_iron_mines.dds"
+	}
+
+	spritetype = {
+		name = "mission_metalshops"
+		texturefile = "gfx//interface//missions//laurentia//mission_metalshops.dds"
+	}
+
+	spritetype = {
+		name = "mission_philadelphia"
+		texturefile = "gfx//interface//missions//laurentia//mission_philadelphia.dds"
+	}
+
+	spritetype = {
+		name = "mission_port_of_philadelphia"
+		texturefile = "gfx//interface//missions//laurentia//mission_port_of_philadelphia.dds"
+	}
+
+	spritetype = {
+		name = "mission_reading_terminal_market"
+		texturefile = "gfx//interface//missions//laurentia//mission_reading_terminal_market.dds"
+	}
+
+	spritetype = {
+		name = "mission_baltimore"
+		texturefile = "gfx//interface//missions//laurentia//mission_baltimore.dds"
+	}
+
+	spritetype = {
+		name = "mission_kittatinny"
+		texturefile = "gfx//interface//missions//laurentia//mission_kittatinny.dds"
+	}
+
+	spritetype = {
+		name = "mission_march_on_washington"
+		texturefile = "gfx//interface//missions//laurentia//mission_march_on_washington.dds"
+	}
+
+	spritetype = {
+		name = "mission_keystone_temples"
+		texturefile = "gfx//interface//missions//laurentia//mission_keystone_temples.dds"
+	}
+}

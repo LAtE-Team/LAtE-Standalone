@@ -1,5 +1,5 @@
 # Havana
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 206 166 155 }
 

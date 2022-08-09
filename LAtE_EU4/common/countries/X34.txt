@@ -1,5 +1,5 @@
 # Los Angeles
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 220 208 74 }
 

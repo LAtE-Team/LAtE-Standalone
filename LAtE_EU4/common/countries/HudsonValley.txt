@@ -1,5 +1,5 @@
 # Hudson Valley
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 183 158 72 }
 

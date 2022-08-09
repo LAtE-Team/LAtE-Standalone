@@ -1,5 +1,5 @@
 # Superior
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 121 188 196 }
 

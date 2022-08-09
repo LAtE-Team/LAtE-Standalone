@@ -1,5 +1,5 @@
 # Currituck
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 205 200 20 }
 

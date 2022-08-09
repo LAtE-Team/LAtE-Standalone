@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = Z51
 controller = Z51
 add_core = Z51

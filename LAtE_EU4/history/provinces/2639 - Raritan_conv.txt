@@ -3,7 +3,7 @@ controller = NYS
 add_core = NYS
 
 culture = gothamite
-religion = americanist
+religion = jewish
 is_city = yes
 
 
@@ -12,3 +12,10 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 trade_goods = cloth
+
+add_province_modifier = {
+	name = ruins_modifier_1
+	duration = -1
+}
+
+add_province_triggered_modifier = legacy_of_levi

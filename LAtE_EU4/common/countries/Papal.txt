@@ -1,31 +1,53 @@
 # The Papacy
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 255 249 198 }
-historical_idea_groups = {
-	religious_ideas
-	defensive_ideas
-	offensive_ideas
-	economic_ideas
-	trade_ideas
-	diplomatic_ideas
-	administrative_ideas
+historical_idea_groups = {
+
+	religious_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	economic_ideas
+
+	trade_ideas
+
+	diplomatic_ideas
+
+	administrative_ideas
+
 }
 
-historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	italian_condotta
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	italian_condotta
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
 }
 
 
@@ -163,23 +185,41 @@ monarch_names = {
 	"Poppy #0" = -1
 	"Petrita #0" = -1
 }
-ship_names = {
-	Abraham Adam Angeli Archangeli "Archangelus Gabriel" "Archangelus Michael" "Archangelus Raphael"
-	Cherubim "Corpus Christi" "David Rex" Dominationes
-	"Episcopus Romanus" Eva "Franciscus Assisiensis" Hierosalyma
-	"Iesu Christus Salvator" "Ioannes Baptista" Iob Isaac Moyses Noe
-	"Pater et Pastor" "Pontifex Maximum" Potestates Principatus
-	"Salomon Rex" "Sancta Birgitta" "Sanctus Alexander" "Sanctus Ambrosius" "Sanctus Andreas"
-	"Sanctus Anselmus" "Sanctus Augustinus" "Sanctus Bartholomeus" "Sanctus Bernardus"
-	"Sanctus Bonaventura" "Sanctus Cassianus" "Sanctus Cyprianus" "Sanctus Dominicus"
-	"Sanctus Hieronymus" "Sanctus Hilarius" "Sanctus Hippolytus" "Sanctus Iohannes"
-	"Sanctus Iosephus" "Sanctus Isidorus" "Sanctus Iudas" "Sanctus Leo I" "Sanctus Linus"
-	"Sanctus Mattheus" "Sanctus Matthias" "Sanctus Patricius" "Sanctus Paulus" "Sanctus Petrus"
-	"Sanctus Philippus" "Sanctus Simon" "Sanctus Synesius" "Sanctus Thomas" "Sanctus Urbanus I"
-	Seraphim "St Albertus Magnus" "St Antonius de Padova" "St Basilius Magnus" "St Beda Venerabilis"
-	"St Cathatina Sienensis" "St Ciaranus Maior" "St Ciaranus Minor" "St Ephraem Syrus"
-	"St Gregorius Magnus" "St Iacobus Alphei" "St Iacobus Maior" "St Iohannes Damascena"
-	"St Petrus Chrysologus" "St Petrus Damianus" "St Thomas Aquinas"
-	Throni "Virgo Maria" Virtutes
+ship_names = {
+
+	Abraham Adam Angeli Archangeli "Archangelus Gabriel" "Archangelus Michael" "Archangelus Raphael"
+
+	Cherubim "Corpus Christi" "David Rex" Dominationes
+
+	"Episcopus Romanus" Eva "Franciscus Assisiensis" Hierosalyma
+
+	"Iesu Christus Salvator" "Ioannes Baptista" Iob Isaac Moyses Noe
+
+	"Pater et Pastor" "Pontifex Maximum" Potestates Principatus
+
+	"Salomon Rex" "Sancta Birgitta" "Sanctus Alexander" "Sanctus Ambrosius" "Sanctus Andreas"
+
+	"Sanctus Anselmus" "Sanctus Augustinus" "Sanctus Bartholomeus" "Sanctus Bernardus"
+
+	"Sanctus Bonaventura" "Sanctus Cassianus" "Sanctus Cyprianus" "Sanctus Dominicus"
+
+	"Sanctus Hieronymus" "Sanctus Hilarius" "Sanctus Hippolytus" "Sanctus Iohannes"
+
+	"Sanctus Iosephus" "Sanctus Isidorus" "Sanctus Iudas" "Sanctus Leo I" "Sanctus Linus"
+
+	"Sanctus Mattheus" "Sanctus Matthias" "Sanctus Patricius" "Sanctus Paulus" "Sanctus Petrus"
+
+	"Sanctus Philippus" "Sanctus Simon" "Sanctus Synesius" "Sanctus Thomas" "Sanctus Urbanus I"
+
+	Seraphim "St Albertus Magnus" "St Antonius de Padova" "St Basilius Magnus" "St Beda Venerabilis"
+
+	"St Cathatina Sienensis" "St Ciaranus Maior" "St Ciaranus Minor" "St Ephraem Syrus"
+
+	"St Gregorius Magnus" "St Iacobus Alphei" "St Iacobus Maior" "St Iohannes Damascena"
+
+	"St Petrus Chrysologus" "St Petrus Damianus" "St Thomas Aquinas"
+
+	Throni "Virgo Maria" Virtutes
+
 }
 

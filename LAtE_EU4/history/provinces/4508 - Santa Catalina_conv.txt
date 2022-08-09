@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = X83
 controller = X83
 add_core = X83

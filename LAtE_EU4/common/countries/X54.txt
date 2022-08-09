@@ -1,5 +1,5 @@
 # Monagas
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 79 72 128 }
 

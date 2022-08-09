@@ -1,5 +1,5 @@
 # The Triangle
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 124 89 125 }
 

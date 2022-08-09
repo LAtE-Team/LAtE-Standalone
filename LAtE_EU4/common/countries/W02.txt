@@ -1,5 +1,5 @@
 # Altas Honduras
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 222 228 252 }
 

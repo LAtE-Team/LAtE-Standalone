@@ -1,5 +1,5 @@
 # Maryland
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 92 86 71 }
 

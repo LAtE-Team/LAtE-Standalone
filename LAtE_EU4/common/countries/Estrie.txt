@@ -1,5 +1,5 @@
 # Estrie
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 221 208 210 }
 

@@ -794,6 +794,13 @@ country_event = {
 		}
 
 		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+
+		modifier = {
 			factor = 0.9
 			num_of_owned_provinces_with = {
 				value = 5
@@ -1071,6 +1078,11 @@ province_event = {
 		}
 
 		modifier = {
+			factor = 0.9
+			has_terrain = ruins
+		}
+
+		modifier = {
 			factor = 0.8
 			owner = { has_estate_privilege = estate_scavengers_raise_payroll }
 		}
@@ -1132,6 +1144,11 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			has_terrain = ruins
 		}
 
 		modifier = {
@@ -1205,6 +1222,11 @@ province_event = {
 
 		modifier = {
 			factor = 0.9
+			has_terrain = ruins
+		}
+
+		modifier = {
+			factor = 0.9
 			development = 30
 		}
 
@@ -1274,6 +1296,11 @@ province_event = {
 
 		modifier = {
 			factor = 0.9
+			has_terrain = ruins
+		}
+
+		modifier = {
+			factor = 0.9
 			development = 30
 		}
 
@@ -1306,6 +1333,7 @@ province_event = {
 	trigger = {
 		owner = { has_estate_privilege = estate_scavengers_state_bands }
 		has_building = scavenging_hub
+		has_port = yes
 		NOT = {
 			has_province_modifier = estate_scavengers_province_dev
 			has_province_modifier = estate_scavengers_province_trade
@@ -1339,6 +1367,11 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			has_terrain = ruins
 		}
 
 		modifier = {
@@ -1412,6 +1445,11 @@ province_event = {
 
 		modifier = {
 			factor = 0.9
+			has_terrain = ruins
+		}
+
+		modifier = {
+			factor = 0.9
 			development = 30
 		}
 
@@ -1481,6 +1519,11 @@ province_event = {
 
 		modifier = {
 			factor = 0.9
+			has_terrain = ruins
+		}		
+
+		modifier = {
+			factor = 0.9
 			development = 30
 		}
 
@@ -1546,6 +1589,11 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 2
+			has_terrain = ruins
 		}
 
 		modifier = {
@@ -1638,6 +1686,13 @@ country_event = {
 		}
 
 		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+
+		modifier = {
 			factor = 0.9
 			num_of_owned_provinces_with = {
 				value = 5
@@ -1705,6 +1760,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			estate_influence = { estate = estate_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
 		}
 
 		modifier = {
@@ -1778,6 +1840,13 @@ country_event = {
 		}
 
 		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+
+		modifier = {
 			factor = 0.9
 			num_of_owned_provinces_with = {
 				value = 5
@@ -1845,6 +1914,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			estate_influence = { estate = estate_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
 		}
 
 		modifier = {
@@ -1918,6 +1994,13 @@ country_event = {
 		}
 
 		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+
+		modifier = {
 			factor = 0.9
 			num_of_owned_provinces_with = {
 				value = 5
@@ -1985,6 +2068,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			estate_influence = { estate = estate_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
 		}
 
 		modifier = {
@@ -2058,6 +2148,13 @@ country_event = {
 		}
 
 		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+
+		modifier = {
 			factor = 0.9
 			num_of_owned_provinces_with = {
 				value = 5
@@ -2125,6 +2222,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			estate_influence = { estate = estate_scavengers influence = 50 }
+		}
+
+		modifier = {
+			factor = 0.95
+			any_owned_province = {
+				has_terrain = ruins
+			}
 		}
 
 		modifier = {

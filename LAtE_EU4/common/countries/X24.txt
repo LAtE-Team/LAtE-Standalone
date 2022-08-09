@@ -1,5 +1,5 @@
 # Hayward
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 173 119 164 }
 

@@ -319,7 +319,7 @@ Maritime_Kingdom_missions_3 = {
     has_country_shield = yes
 
     maritimes_matters_of_the_realm = {
-        icon = imperial_ascendancy
+        icon = mission_maritimes_matters_of_the_realm
         trigger = {
             has_estate_privilege = estate_church_independent_inquisition
             has_estate_privilege = estate_burghers_commercial_board_of_advice
@@ -461,7 +461,7 @@ Maritime_Kingdom_missions_3 = {
         }
     }
     maritimes_restitutrix = {
-        icon = mission_empire
+        icon = mission_maritimes_restitutrix
         required_missions = { maritimes_the_fourth_party }
         trigger = {
             custom_trigger_tooltip = {

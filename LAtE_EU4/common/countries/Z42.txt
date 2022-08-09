@@ -1,5 +1,5 @@
 # Hampton Roads
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 152 152 250 }
 

@@ -1,5 +1,5 @@
 # Onatchiway
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 140 170 190 }
 

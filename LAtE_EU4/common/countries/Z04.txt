@@ -1,5 +1,5 @@
 # Birmingham
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 119 201 156 }
 

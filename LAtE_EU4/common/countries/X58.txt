@@ -1,5 +1,5 @@
 # Guajira
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 206 65 78 }
 

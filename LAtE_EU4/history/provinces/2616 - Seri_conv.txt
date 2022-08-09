@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = X86
 controller = X86
 add_core = X86

@@ -21,6 +21,7 @@ estate_burghers =
 		}
 		is_nomad = no
 		is_colonial_nation = no
+		NOT = { has_government_attribute = disables_burghers }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
 

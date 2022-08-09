@@ -1,5 +1,5 @@
 # Canaveral
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 251 234 21 }
 

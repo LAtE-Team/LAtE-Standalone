@@ -10,3 +10,8 @@ hre = yes
 base_tax = 6
 base_production = 6
 base_manpower = 3
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
+}

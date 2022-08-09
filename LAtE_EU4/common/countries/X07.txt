@@ -1,5 +1,5 @@
 # North End
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 60 156 205 }
 
