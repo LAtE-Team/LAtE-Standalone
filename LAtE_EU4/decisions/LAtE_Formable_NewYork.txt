@@ -87,4 +87,25 @@ country_decisions = {
 		}
 	}
 	
+	new_york_restore_tammany = {
+		major = yes
+		potential = {
+			tag = NYS
+			has_reform = vicar_of_lady_liberty_reform
+			republican_tradition = 90
+		}
+
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 965	# Manhattan
+			owns_core_province = 4540	# Brooklyn
+			owns_core_province = 4539	# Long Island
+		}
+
+		effect = {
+			add_government_reform = tammany_republic_reform
+		}
+	}
 }

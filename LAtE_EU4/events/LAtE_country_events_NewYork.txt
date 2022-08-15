@@ -452,3 +452,22 @@ country_event = {
 		}
 	}
 }
+
+country_event = { # Dictatorship
+	id = ny_events.2
+	title = ny_events.2.t
+	desc = ny_events.2.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	trigger = {
+		tag = NYS
+		NOT = {
+			republican_tradition = 40
+		}
+	}
+
+	option = {
+		name = ny_events.2.a
+		add_government_reform = vicar_of_lady_liberty_reform
+	}
+}

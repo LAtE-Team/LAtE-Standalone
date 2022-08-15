@@ -62,6 +62,29 @@ tammany_republic_reform = { # NYS True republic reform
 vicar_of_lady_liberty_reform = { # NYS Dictatorship reform
 	icon = "man_on_podium"
 	allow_normal_conversion = no
+	royal_marriage = yes
+
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+
+	modifiers = {
+		diplomats = 1
+		diplomatic_reputation = 1
+		caravan_power = 0.33
+		max_absolutism = -50
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
+		lottery_election = no
+		election_on_death = yes
+		is_merchant_republic = yes
+	}
+
 	potential = {
 		tag = NYS
 		NOT = {
