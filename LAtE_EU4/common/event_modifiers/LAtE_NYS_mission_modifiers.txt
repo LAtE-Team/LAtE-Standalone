@@ -1,0 +1,20 @@
+nys_military_funding_secured = {
+	land_maintenance_modifier = -0.1
+}
+
+nys_reservist_base = {
+	local_manpower_modifier = 0.2
+}
+
+nys_efficient_quartering_of_troops = {
+	global_manpower_modifier = 0.1
+}
+
+nys_redcoat_military_advice = {
+	drill_gain_modifier = 0.1
+	drill_decay_modifier = -0.1
+}
+
+nys_military_furor = {
+	infantry_power = 0.2
+}

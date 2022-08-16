@@ -18,6 +18,7 @@
  merc_whitecaps: "Vancouver Whitecaps"
  merc_sounders: "Seattle Sounders"
  merc_haida: "Haida Free Company"
+ merc_militia: "Minutemen"
 
  #Weights
  rnw_modifier_weights: "Random New World Modifier Weights"

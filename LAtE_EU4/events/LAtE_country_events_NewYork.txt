@@ -471,3 +471,28 @@ country_event = { # Dictatorship
 		add_government_reform = vicar_of_lady_liberty_reform
 	}
 }
+
+country_event = {
+	id = ny_events.3
+	title = ny_events.3.t
+	desc = ny_events.3.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = NYS
+	}
+
+	option = {
+		name = ny_events.3.a
+		declare_war_with_cb = {
+			casus_belli = cb_annex
+			who = HUD
+			war_goal_province = 4583
+		}
+		RED = {
+			join_all_offensive_wars_of = NYS
+		}
+	}
+}

@@ -1,11 +1,151 @@
-# NewYork_Missions_1 = { # Expansion / Military
-# 	slot = 1
-# 	generic = no
-# 	ai = yes
-# 	potential = {
-# 		tag = NYS
-# 	}
-# 	has_country_shield = yes
+NewYork_Missions_1 = { # Expansion / Military (Wayne)
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = NYS
+	}
+	has_country_shield = yes
 
-	
-# }
+	nys_secure_military_funding = {
+		icon = mission_assemble_an_army
+		trigger = {
+			army_size_percentage = 0.9
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_military_funding_secured
+				duration = 5475 
+			}
+		}
+	}
+	nys_the_reservists = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_secure_military_funding
+		}
+		trigger = {
+			manpower_percentage = 0.75
+			faction_in_power = mr_aristocrats
+		}
+		effect = {
+			965 = {
+				add_base_manpower = 2
+				add_province_modifier = {
+					name = nys_reservist_base
+					duration = -1
+				}
+			}
+		}
+	}
+	nys_house_the_troops = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_the_reservists
+		}
+		trigger = {
+			barracks = 3
+			faction_influence = {
+				faction = mr_aristocrats
+				influence = 70
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_efficient_quartering_of_troops
+				duration = 10950
+			}
+		}
+	}
+	nys_formalise_the_militia = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_house_the_troops
+		}
+		trigger = {
+			treasury = 100
+			965 = {
+				infantry_in_province = 10
+			}
+		}
+		effect = {
+			custom_tooltip = NYS_MILITIA
+			set_country_flag = nys_mercs_unlocked
+			add_treasury = -100
+			965 = {
+				kill_units = {
+					who = owner
+					type = infantry
+					amount = 10
+				}
+			}
+		}
+	}
+
+	# WAYNE
+
+	nys_redcoat_lessons = {
+		icon = mission_assemble_an_army
+		# required_missions = {
+
+		# }
+		trigger = {
+			dip_power = 75
+			RED = {
+				has_opinion = {
+					who = NYS
+					value = 150
+				}
+			}
+		}
+		effect = {
+			define_advisor = {
+				type = army_reformer
+				skill = 2
+				discount = yes
+				culture = british
+				religion = glorian
+			}
+			add_country_modifier = {
+				name = nys_redcoat_military_advice
+				duration = 10950
+			}
+		}
+	}
+	nys_well_oiled_militia = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_redcoat_lessons
+		}
+		trigger = {
+			army_professionalism = 0.5
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_military_furor
+				duration = 7300
+			}
+		}
+	}
+	nys_growing_tensions = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_well_oiled_militia
+		}
+		trigger = {
+			HUD = {
+				is_rival = NYS
+			}
+			has_spy_network_in = {
+				who = HUD
+				value = 80
+			}
+			alliance_with = RED
+		}
+		effect = {
+			country_event = {
+				id = ny_events.3
+			}
+		}
+	}
+}

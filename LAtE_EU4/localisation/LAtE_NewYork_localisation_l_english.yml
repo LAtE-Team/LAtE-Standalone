@@ -39,3 +39,6 @@
  ny_events.2.t:0 "REPLACE_ME"
  ny_events.2.desc:0 "REPLACE_ME"
  ny_events.2.a:0 "REPLACE_ME"
+
+# Tooltips
+ NYS_MILITIA:0 "When we go to war, the §YMinutemen§! will be available for hire in our capital."

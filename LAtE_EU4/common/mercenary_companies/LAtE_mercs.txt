@@ -149,6 +149,21 @@ merc_liberty_company = {
 	}
 }
 
+# NY Minutemen
+merc_militia = {
+	regiments_per_development = 0.03
+	cost_modifier = 0
+	home_province = 2560
+	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		is_at_war = yes
+		has_country_flag = nys_mercs_unlocked
+	}
+	modifier = {
+		recover_army_morale_speed = 0.2
+	}
+}
+
 # Yankee Doodles
 merc_yankees = {
     regiments_per_development = 0.03
