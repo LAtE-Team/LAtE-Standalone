@@ -47,6 +47,7 @@ country_decisions = {
 				name = ursuline_schism_mender_modifier
 				duration = -1
 			}
+			add_reform_desire = 0.2
 			hidden_effect = {
 				every_country = {
 					limit = {

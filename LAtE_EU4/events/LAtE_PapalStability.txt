@@ -855,6 +855,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.18.a
+		add_reform_desire = -0.1
 	}
 
 	after = {
