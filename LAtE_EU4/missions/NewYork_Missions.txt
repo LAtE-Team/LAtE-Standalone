@@ -8,7 +8,11 @@ NewYork_Missions_1 = { # Expansion / Military (Wayne)
 	has_country_shield = yes
 
 	nys_secure_military_funding = {
+		position = 3
 		icon = mission_assemble_an_army
+		required_missions = {
+			nys_city_reunited
+		}
 		trigger = {
 			army_size_percentage = 0.9
 		}
@@ -84,25 +88,6 @@ NewYork_Missions_1 = { # Expansion / Military (Wayne)
 			}
 		}
 	}
-	nys_strike_out = {
-		icon = mission_assemble_an_army
-		required_missions = {
-			nys_formalise_the_militia
-		}
-		provinces_to_highlight = {
-			province_id = 962
-		}
-		trigger = {
-			962 = {
-				is_claim = NYS
-			}
-		}
-		effect = {
-			962 = {
-				add_core = NYS
-			}
-		}
-	}
 }
 	# WAYNE
 nys_wayne_tree = {
@@ -114,9 +99,11 @@ nys_wayne_tree = {
 	has_country_shield = yes
 
 	nys_redcoat_lessons = {
-		position = 6
+		position = 7
 		icon = mission_assemble_an_army
-		required_missions = {}
+		required_missions = {
+			nys_tammany_republic
+		}
 		provinces_to_highlight = {
 			province_id = 968
 		}
@@ -219,10 +206,11 @@ NewYork_Missions_2 = { # Development / City Economics (Coeur)
 	has_country_shield = yes
 
 	nys_the_city_never_sleeps = {
+		position = 3
 		icon = mission_assemble_an_army
-		# required_missions = {
-			
-		# }
+		required_missions = {
+			nys_city_reunited
+		}
 		provinces_to_highlight = {
 			province_id = 965
 		}
@@ -316,9 +304,11 @@ nys_coeur_tree = {
 	has_country_shield = yes
 
 	nys_manhattan_land_efficiency_act = {
-		position = 6
+		position = 7
 		icon = mission_assemble_an_army
-		required_missions = {}
+		required_missions = {
+			nys_tammany_republic
+		}
 		provinces_to_highlight = {
 			province_id = 965
 		}
@@ -421,10 +411,45 @@ NewYork_Missions_3 = { # Tammany
 	}
 	has_country_shield = yes
 
-	nys_tammany_republic = {
+	nys_stake_our_claim = {
 		position = 1
-		icon = mission_assemble_an_army
+		icon = mission_alliances
 		required_missions = {}
+		trigger = {
+			treasury = 50
+		}
+		effect = {
+			add_treasury = -50
+			962 = {
+				add_permanent_claim = NYS
+			}
+		}
+	}
+	nys_city_reunited = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_stake_our_claim
+		}
+		provinces_to_highlight = {
+			province_id = 962
+		}
+		trigger = {
+			962 = {
+				owned_by = NYS
+			}
+		}
+		effect = {
+			962 = {
+				add_core = NYS
+			}
+		}
+	}
+	nys_tammany_republic = {
+		position = 6
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_city_reunited
+		}
 		trigger = {
 			NOT = {
 				has_ruler =  "Gareth II"
