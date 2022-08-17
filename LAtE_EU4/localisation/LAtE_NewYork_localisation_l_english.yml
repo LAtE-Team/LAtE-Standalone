@@ -42,3 +42,8 @@
 
 # Tooltips
  NYS_MILITIA:0 "When we go to war, the §YMinutemen§! will be available for hire in our capital."
+
+# Tammany Mission Event
+ nys_missions_unlocked:0 "New family-specific missions will be unlocked upon their respective elections"
+ nys_stay_tammany:0 "This will strengthen the Republic"
+ nys_leave_tammany:0 "This will embolden the would-be dictators in the hall..."

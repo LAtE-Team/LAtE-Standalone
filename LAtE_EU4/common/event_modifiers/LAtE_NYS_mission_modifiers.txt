@@ -28,3 +28,52 @@ nys_chose_intolerance = {
 	tolerance_of_heathens_capacity = -2
 	global_missionary_strength = 0.3
 }
+
+nys_gotham_revitalized = {
+	local_monthly_devastation = -0.1
+	local_prosperity_growth = 0.05
+}
+
+nys_streamlined_budget = {
+	inflation_reduction = -0.01
+	global_tax_modifier = 0.05
+}
+
+nys_new_guild_privileges = {
+	production_efficiency = 0.2
+}
+
+nys_infrastructure_plan = {
+	great_project_upgrade_cost = -0.25
+	build_cost = -0.1
+	build_time = -0.1
+}
+
+nys_manhattan_project = {
+	allowed_num_of_buildings = 1
+	allowed_num_of_manufactories = 1
+	local_development_cost = -0.2
+}
+
+nys_superway_construction = { # EYY, I'M WALKIN' HERE!
+	allowed_num_of_buildings = -1
+	local_unrest = 4
+	trade_value_modifier = -0.2
+	local_friendly_movement_speed = -0.5
+}
+
+nys_superway = {
+	local_friendly_movement_speed = 0.2
+	local_tax_modifier = 0.1
+	trade_value = 5
+	local_institution_spread = 0.2
+	local_unrest = 2
+}
+
+nys_faith_in_tammany = {
+	republican_tradition = 0.5
+}
+
+nys_murmurs_of_dissent = {
+	republican_tradition = -1.5
+}

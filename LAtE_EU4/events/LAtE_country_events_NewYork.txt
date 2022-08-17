@@ -514,3 +514,73 @@ country_event = { # Fate of the Hudsonian heathens
 		}
 	}
 }
+
+country_event = { # The Empire State
+	id = ny_events.5
+	title = ny_events.5.t
+	desc = ny_events.5.desc
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = NYS
+	}
+
+	option = { # Keep Tammany, change name to The Empire State
+		name = ny_events.5.a
+		override_country_name = EMPIRE_STATE
+	}
+
+	option = { # Take control, change name...
+		name = ny_events.5.b
+		add_government_reform = vicar_of_lady_liberty_reform
+		override_country_name = EMPIRE_STATE
+	}
+
+	option = { # BORING!
+		name = ny_events.5.c
+		add_prestige = -5
+	}
+}
+
+country_event = { # The Tammany Republic (Mission)
+	id = ny_events.6
+	title = ny_events.6.t
+	desc = ny_events.6.desc
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = NYS
+	}
+
+	option = { # Keep Tammany and strengthen the republic
+		name = ny_events.6.a
+		custom_tooltip = nys_stay_tammany
+		add_country_modifier = {
+			name = nys_faith_in_tammany
+			duration = 18250
+		}
+		custom_tooltip = nys_missions_unlocked
+		set_country_flag = nys_familial_missions
+		hidden_effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+
+	option = { # Murmurs of dissent
+		name = ny_events.6.b
+		custom_tooltip = nys_leave_tammany
+		add_country_modifier = {
+			name = nys_murmurs_of_dissent
+			duration = 18250
+		}
+		custom_tooltip = nys_missions_unlocked
+		set_country_flag = nys_familial_missions
+		hidden_effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+}
