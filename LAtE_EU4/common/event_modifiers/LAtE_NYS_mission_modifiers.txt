@@ -18,3 +18,13 @@ nys_redcoat_military_advice = {
 nys_military_furor = {
 	infantry_power = 0.2
 }
+
+nys_chose_tolerance = {
+	tolerance_of_heathens_capacity = 4
+	global_missionary_strength = -0.3
+}
+
+nys_chose_intolerance = {
+	tolerance_of_heathens_capacity = -2
+	global_missionary_strength = 0.3
+}

@@ -148,4 +148,26 @@ NewYork_Missions_1 = { # Expansion / Military (Wayne)
 			}
 		}
 	}
+	nys_anabaptist_heresy = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_growing_tensions
+		}
+		trigger = {
+			hudson_valley_area = {
+				type = all
+				owned_by = NYS
+			}
+			NYS = {
+				NOT = {
+					religion = anabaptist
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = ny_events.4
+			}
+		}
+	}
 }
