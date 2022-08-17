@@ -98,11 +98,43 @@ nys_wayne_tree = {
 	}
 	has_country_shield = yes
 
-	nys_redcoat_lessons = {
+	nys_looking_westwards = {
 		position = 7
-		icon = mission_assemble_an_army
+		icon = mission_alliances
 		required_missions = {
 			nys_tammany_republic
+		}
+		trigger = {
+			treasury = 100
+			has_spy_network_in = {
+				who = COA
+				value = 80
+			}
+			is_rival = COA
+		}
+		effect = {
+			add_treasury = -100
+			4582 = {
+				add_permanent_claim = NYS
+			}
+			2023 = {
+				add_permanent_claim = NYS
+			}
+			4621 = {
+				add_permanent_claim = NYS
+			}
+			COA = {
+				add_opinion = {
+					who = NYS
+					modifier = nys_laid_claims
+				}
+			}
+		}
+	}
+	nys_redcoat_lessons = {
+		icon = mission_assemble_an_army
+		required_missions = {
+			nys_looking_westwards
 		}
 		provinces_to_highlight = {
 			province_id = 968
@@ -192,32 +224,6 @@ nys_wayne_tree = {
 		effect = {
 			country_event = {
 				id = ny_events.4
-			}
-		}
-	}
-	nys_looking_westwards = {
-		icon = mission_alliances
-		required_missions = {
-			nys_anabaptist_heresy
-		}
-		trigger = {
-			treasury = 50
-			has_spy_network_in = {
-				who = COA
-				value = 80
-			}
-			is_rival = COA
-		}
-		effect = {
-			add_treasury = -50
-			4582 = {
-				add_permanent_claim = NYS
-			}
-			2023 = {
-				add_permanent_claim = NYS
-			}
-			4621 = {
-				add_permanent_claim = NYS
 			}
 		}
 	}
