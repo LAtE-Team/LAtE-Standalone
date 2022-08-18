@@ -1,0 +1,486 @@
+ordinate_council = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 200
+	potential = {
+	}
+	trigger = {
+		OR = {
+			NOT = { has_country_modifier = ordinate_debate_modifier_10 }
+			NOT = { stability = 3 }
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					current_age = age_of_revolutions
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 10
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 9
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.9
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { current_age = age_of_discovery }
+					NOT = { current_age = age_of_reformation }
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 9
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 8
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.8
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { current_age = age_of_discovery }
+					NOT = { current_age = age_of_reformation }
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 8
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 7
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.7
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { current_age = age_of_discovery }
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 7
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 6
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.6
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { current_age = age_of_discovery }
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 6
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 5
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.5
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 5
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 4
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.4
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 4
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 3
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.3
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						check_variable = {
+							which = ordinate_debates_variable
+							value = 3
+						}
+					}
+					check_variable = {
+						which = ordinate_debates_variable
+						value = 2
+					}
+				}
+				change_variable = {
+					which = ordinate_debates_variable
+					value = 1
+				}
+				country_event = {
+					id = ordinate_flavor.2
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_country_modifier = ordinate_debate_modifier_1a }
+					NOT = { has_country_modifier = ordinate_debate_modifier_1b }
+				}
+				set_variable = {
+					which = ordinate_debates_variable
+					value = 2
+				}
+				country_event = {
+					id = ordinate_flavor.1
+				}
+			}
+			else = {
+				country_event = {
+					id = ordinate_flavor.10
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+ordinate_empower_ursulines = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+		NOT = { has_country_flag = anabaptist_holy_order_flag }
+	}
+	trigger = {
+		any_owned_province = {
+			holy_order = ursuline_order
+		}
+		OR = {
+			adm_power = 50
+			has_estate = estate_church
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = ordinate_empowered_ursulines_modifier
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_influence_modifier = {
+				estate = estate_church
+				desc = EST_EMPOWERED_URS_TT
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_adm_power = -50
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					holy_order = ursuline_order
+				}
+				add_province_modifier = {
+					name = ordinate_empowered_ursulines_modifier
+					duration = 3650
+				}
+			}
+		}
+		custom_tooltip = ordinate_empower_ursulines_tt
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { 
+				estate_influence = {
+					estate = estate_church
+					influence = 80
+				}
+			}
+		}
+	}
+}
+
+ordinate_empower_anabaptists = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+		has_country_flag = anabaptist_holy_order_flag
+	}
+	trigger = {
+		any_owned_province = {
+			holy_order = anabaptist_order
+		}
+		OR = {
+			adm_power = 50
+			has_estate = estate_anabaptists
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = ordinate_empowered_anabaptists_modifier
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_estate = estate_anabaptists
+			}
+			add_estate_influence_modifier = {
+				estate = estate_anabaptists
+				desc = EST_EMPOWERED_ANA_TT
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_adm_power = -50
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					holy_order = anabaptist_order
+				}
+				add_province_modifier = {
+					name = ordinate_empowered_anabaptists_modifier
+					duration = 3650
+				}
+			}
+		}
+		custom_tooltip = ordinate_empower_anabaptists_tt
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { 
+				estate_influence = {
+					estate = estate_anabaptists
+					influence = 80
+				}
+			}
+		}
+	}
+}
+
+ordinate_empower_charity = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+	}
+	trigger = {
+		any_owned_province = {
+			holy_order = charity_order
+		}
+		OR = {
+			dip_power = 50
+			has_estate = estate_burghers
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = ordinate_empowered_charity_modifier
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_estate = estate_burghers
+			}
+			add_estate_influence_modifier = {
+				estate = estate_burghers
+				desc = EST_EMPOWERED_BUR_TT
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_dip_power = -50
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					holy_order = charity_order
+				}
+				add_province_modifier = {
+					name = ordinate_empowered_charity_modifier
+					duration = 3650
+				}
+			}
+		}
+		custom_tooltip = ordinate_empower_charity_tt
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { 
+				estate_influence = {
+					estate = estate_burghers
+					influence = 80
+				}
+			}
+		}
+	}
+}
+
+ordinate_empower_angelines = {
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 100
+	potential = {
+	}
+	trigger = {
+		any_owned_province = {
+			holy_order = angeline_order
+		}
+		OR = {
+			mil_power = 50
+			has_estate = estate_nobles
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = ordinate_empowered_angelines_modifier
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_influence_modifier = {
+				estate = estate_nobles
+				desc = EST_EMPOWERED_ANG_TT
+				influence = 10
+				duration = 3650
+			}
+		}
+		else = {
+			add_mil_power = -50
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					holy_order = angeline_order
+				}
+				add_province_modifier = {
+					name = ordinate_empowered_angelines_modifier
+					duration = 3650
+				}
+			}
+		}
+		custom_tooltip = ordinate_empower_angelines_tt
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { 
+				estate_influence = {
+					estate = estate_nobles
+					influence = 80
+				}
+			}
+		}
+	}
+}
+
+ordinate_empower_monarch = { # Might wanna change the effect of this, idk
+	sprite = "GFX_rust_cult_baubles_icon"
+	cost = 200
+	potential = {
+	}
+	trigger = {
+	}
+	effect = {
+		hidden_effect = {
+			add_adm_power = 25
+			add_dip_power = 25
+			add_mil_power = 25
+		}
+		custom_tooltip = ordinate_empower_monarch_tt
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			NOT = { prestige = 0 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 50 }
+		}
+	}
+}
