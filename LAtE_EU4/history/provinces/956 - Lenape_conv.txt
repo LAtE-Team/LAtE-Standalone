@@ -1,6 +1,6 @@
-owner = PHI
-controller = PHI
-add_core = PHI
+owner = PLD
+controller = PLD
+add_core = PLD
 
 culture = delawarean
 religion = americanist
