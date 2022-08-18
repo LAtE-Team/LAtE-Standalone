@@ -227,40 +227,46 @@ nys_wayne_tree = {
 			}
 		}
 	}
-	# nys_league_intimidation = { # Something is screwed up with the PHI tag. Not sure how to proceed. They're already in the trade league, so this is really only optional.
-	# 	icon = mission_alliances
-	# 	required_missions = {
-	# 		nys_looking_westwards
-	# 	}
-	# 	trigger = {
-	# 		treasury = 150
-	# 		PHI = {
-	# 			has_opinion = {
-	# 				who = NYS
-	# 				value = 150
-	# 			}
-	# 		}
-	# 	}
-	# 	effect = {
-	# 		# if = {
-	# 		# 	limit = { 
-	# 		# 		exists = PHI
-	# 		# 	}
-	# 		# 	add_treasury = -150
-	# 		# 	PHI = {
-	# 		# 		add_treasury = 150
-	# 		# 	}
-	# 		# 	create_vassal = PHI
-	# 		# }
-	# 		# else = {
-	# 		# 	add_treasury = -50
-	# 		# 	956 = {
-	# 		# 		add_permanent_claim = NYS
-	# 		# 	}
-	# 		# }
-	# 		create_vassal = PHI
-	# 	}
-	# }
+	nys_league_intimidation = { # Something is screwed up with the PLD tag. Not sure how to proceed. They're already in the trade league, so this is really only optional.
+		icon = mission_alliances
+		required_missions = {
+			nys_anabaptist_heresy
+		}
+		trigger = {
+			treasury = 150
+			OR = {
+				AND = {
+					exists = PLD
+					PLD = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+				NOT = { exists = PLD }
+			}
+		}
+		effect = {
+			if = {
+				limit = { 
+					exists = PLD
+				}
+				add_treasury = -150
+				PLD = {
+					add_treasury = 150
+				}
+				create_vassal = PLD
+			}
+			else = {
+				add_treasury = -50
+				956 = {
+					add_permanent_claim = NYS
+				}
+			}
+			create_vassal = PLD
+		}
+	}
 }
 NewYork_Missions_2 = { # Development / City Economics (Coeur)
 	slot = 2
