@@ -230,15 +230,21 @@ nys_wayne_tree = {
 	nys_league_intimidation = { # Something is screwed up with the PLD tag. Not sure how to proceed. They're already in the trade league, so this is really only optional.
 		icon = mission_alliances
 		required_missions = {
-			nys_looking_westwards
+			nys_anabaptist_heresy
 		}
 		trigger = {
 			treasury = 150
-			PLD = {
-				has_opinion = {
-					who = NYS
-					value = 150
+			OR = {
+				AND = {
+					exists = PLD
+					PLD = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
 				}
+				NOT = { exists = PLD }
 			}
 		}
 		effect = {

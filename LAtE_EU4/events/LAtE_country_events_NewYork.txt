@@ -601,7 +601,7 @@ country_event = { # Closening our bond mission event (for Philadelphia)
 		NYS = {
 			create_subject = {
 				subject_type = vassal
-				subject = THIS
+				subject = ROOT
 			}
 		}
 		ai_chance = {
@@ -618,7 +618,7 @@ country_event = { # Closening our bond mission event (for Philadelphia)
 		NYS = {
 			add_opinion = {
 				who = THIS
-				modifier = nys_PLD_spurned_protection
+				modifier = nys_phi_spurned_protection
 			}
 		}
 		ai_chance = {
@@ -648,12 +648,12 @@ country_event = { # Closening our bond mission event (for Philadelphia)
 	}
 }
 
-country_event = { # PLDladelPLDa's response
+country_event = { # Philadelphia's response
 	id = ny_events.8
 	title = ny_events.8.t
 	picture = RELIGION_eventPicture
 	is_triggered_only = yes
-	desc = { # PLDladelPLDa accepted
+	desc = { # Philadelphia accepted
 		trigger = {
 			PLD = {
 				vassal_of = NYS
