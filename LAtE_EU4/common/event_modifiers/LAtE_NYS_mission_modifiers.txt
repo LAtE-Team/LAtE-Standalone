@@ -77,3 +77,7 @@ nys_faith_in_tammany = {
 nys_murmurs_of_dissent = {
 	republican_tradition = -1.5
 }
+
+ny_family_business = {
+	yearly_corruption = 0.5
+}

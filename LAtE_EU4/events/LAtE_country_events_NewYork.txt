@@ -563,6 +563,10 @@ country_event = { # The Tammany Republic (Mission)
 			name = nys_faith_in_tammany
 			duration = 18250
 		}
+		add_country_modifier = {
+			name = ny_family_business
+			duration = -1
+		}
 		custom_tooltip = nys_missions_unlocked
 		set_country_flag = nys_familial_missions
 		hidden_effect = {
@@ -576,6 +580,10 @@ country_event = { # The Tammany Republic (Mission)
 		add_country_modifier = {
 			name = nys_murmurs_of_dissent
 			duration = 18250
+		}
+		add_country_modifier = {
+			name = ny_family_business
+			duration = -1
 		}
 		custom_tooltip = nys_missions_unlocked
 		set_country_flag = nys_familial_missions

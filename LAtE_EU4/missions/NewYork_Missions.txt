@@ -227,46 +227,6 @@ nys_wayne_tree = {
 			}
 		}
 	}
-	nys_league_intimidation = { # Something is screwed up with the PLD tag. Not sure how to proceed. They're already in the trade league, so this is really only optional.
-		icon = mission_alliances
-		required_missions = {
-			nys_anabaptist_heresy
-		}
-		trigger = {
-			treasury = 150
-			OR = {
-				AND = {
-					exists = PLD
-					PLD = {
-						has_opinion = {
-							who = ROOT
-							value = 150
-						}
-					}
-				}
-				NOT = { exists = PLD }
-			}
-		}
-		effect = {
-			if = {
-				limit = { 
-					exists = PLD
-				}
-				add_treasury = -150
-				PLD = {
-					add_treasury = 150
-				}
-				create_vassal = PLD
-			}
-			else = {
-				add_treasury = -50
-				956 = {
-					add_permanent_claim = NYS
-				}
-			}
-			create_vassal = PLD
-		}
-	}
 }
 NewYork_Missions_2 = { # Development / City Economics (Coeur)
 	slot = 2
@@ -542,9 +502,44 @@ NewYork_Missions_3 = { # Tammany
 	}
 }
 
-# nys_cloak_dagger_tree = {
-# 	slot = 3
-# 	potential = {
-# 		has_country_flag = nys_familial_missions
-# 	}
-# }
+nys_cloak_dagger_tree = {
+	slot = 3
+	potential = {
+		has_country_flag = nys_familial_missions
+	}
+
+	nys_league_intimidation = { # Expand the trade league through intrigue and bribery
+		icon = mission_alliances
+		required_missions = {
+			nys_tammany_republic
+		}
+		trigger = {
+			treasury = 150
+			OR = {
+				AND = {
+					exists = PLD
+					has_spy_network_in = {
+						who = PLD
+						value = 50
+					}
+					PLD = {
+						has_opinion = {
+							who = ROOT
+							value = 150
+						}
+					}
+				}
+				NOT = { exists = PLD }
+			}
+		}
+		effect = {
+			add_corruption = 5
+			add_treasury = -150
+			PLD = {
+				country_event = {
+					id = ny_events.7
+				}
+			}
+		}
+	}
+}
