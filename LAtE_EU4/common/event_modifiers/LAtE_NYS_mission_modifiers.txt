@@ -81,3 +81,8 @@ nys_murmurs_of_dissent = {
 ny_family_business = {
 	yearly_corruption = 0.5
 }
+
+nys_heart_of_darkness = {
+	siege_ability = 0.2
+	yearly_corruption = 0.5
+}

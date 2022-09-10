@@ -508,6 +508,10 @@ nys_cloak_dagger_tree = {
 		has_country_flag = nys_familial_missions
 	}
 
+	# nys_family_act = { # Enact special tier 2 "Republican Virtues" reform which strengthens the guilds and adds yearly corruption
+
+	# }
+
 	nys_league_intimidation = { # Expand the trade league through intrigue and bribery
 		icon = mission_alliances
 		required_missions = {
@@ -533,12 +537,60 @@ nys_cloak_dagger_tree = {
 			}
 		}
 		effect = {
-			add_corruption = 5
+			add_corruption = 2
 			add_treasury = -150
 			PLD = {
 				country_event = {
 					id = ny_events.7
 				}
+			}
+		}
+	}
+
+	nys_no_special_favors = {
+		icon = mission_alliances
+		required_missions = {
+			nys_league_intimidation
+		}
+		trigger = {
+			has_spy_network_in = {
+				who = RED
+				value = 100
+			}
+			num_of_heavy_ship = 10 # Don't let any survivors escape back to the "Old" World
+			navy_size_percentage = 1
+		}
+		effect = {
+			massachusetts_bay_area = {
+				add_permanent_claim = NYS
+			}
+			connecticut_valley_area = {
+				add_permanent_claim = NYS
+			}
+			# Add some sort of negative "Infiltration from unknown spies" modifier to RED here
+		}
+	}
+
+	nys_heart_of_darkness = {
+		icon = mission_alliances
+		required_missions = {
+			nys_no_special_favors
+		}
+		trigger = {
+			spy_ideas = 7
+			massachusetts_bay_area = {
+				owned_by = NYS
+				type = all
+			}
+			connecticut_valley_area = {
+				owned_by = NYS
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_heart_of_darkness
+				duration = -1
 			}
 		}
 	}
