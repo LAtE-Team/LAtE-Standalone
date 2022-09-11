@@ -63,18 +63,18 @@ vicar_of_lady_liberty_reform = { # NYS Dictatorship reform
 	icon = "man_on_podium"
 	allow_normal_conversion = no
 	royal_marriage = yes
+	dictatorship = yes
 
 	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
+		mr_aristocrats # Testing how this works - just one faction might be a little weird
 	}
 
 	modifiers = {
-		diplomats = 1
-		diplomatic_reputation = 1
-		caravan_power = 0.33
-		max_absolutism = -50
+		diplomatic_reputation = -1
+		max_absolutism = -20
+		discipline = 0.05
+		global_manpower_modifier = 0.1
+		global_unrest = 3
 	}
 
 	custom_attributes = {
@@ -88,7 +88,26 @@ vicar_of_lady_liberty_reform = { # NYS Dictatorship reform
 	potential = {
 		tag = NYS
 		NOT = {
+			republican_tradition = 50
+		}
+		NOT = {
 			has_reform = tammany_republic_reform
 		}
+	}
+}
+
+four_families_reform = { # NYS Republican Virtues reform
+	icon = "dutch_republic"
+	allow_normal_conversion = no
+
+	modifiers = {
+		candidate_random_bonus = 1
+		diplomatic_reputation = 1
+		yearly_corruption = 0.2
+	}
+
+	potential = {
+		tag = NYS
+		has_reform = four_families_reform
 	}
 }

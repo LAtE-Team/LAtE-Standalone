@@ -294,6 +294,7 @@ republic = {
 				liberte_reform
 				egalite_reform
 				fraternite_reform
+				four_families_reform
 			}
 		}
 		frequent_elections_vs_consolidation_of_power = {

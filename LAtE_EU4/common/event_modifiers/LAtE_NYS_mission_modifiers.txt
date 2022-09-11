@@ -86,3 +86,9 @@ nys_heart_of_darkness = {
 	siege_ability = 0.2
 	yearly_corruption = 0.5
 }
+
+nys_unknown_infiltration = { # Modifier for RED
+	defensiveness = -0.33
+	land_morale = -0.1
+	naval_morale = -0.1
+}

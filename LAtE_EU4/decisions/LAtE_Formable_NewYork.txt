@@ -101,6 +101,7 @@ country_decisions = {
 
 		effect = {
 			add_government_reform = tammany_republic_reform
+			clr_country_flag = nys_tammany_abolished
 		}
 	}
 }

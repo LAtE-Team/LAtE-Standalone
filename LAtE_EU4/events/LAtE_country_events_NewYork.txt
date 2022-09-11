@@ -445,17 +445,22 @@ country_event = { # Dictatorship
 	title = ny_events.2.t
 	desc = ny_events.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
-	
+	fire_only_once = yes
+
 	trigger = {
 		tag = NYS
 		NOT = {
 			republican_tradition = 40
+		}
+		NOT = {
+			has_country_flag = nys_tammany_abolished
 		}
 	}
 
 	option = {
 		name = ny_events.2.a
 		add_government_reform = vicar_of_lady_liberty_reform
+		set_country_flag = nys_tammany_abolished
 	}
 }
 
@@ -703,5 +708,18 @@ country_event = { # Philadelphia's response
 		956 = {
 			add_permanent_claim = NYS
 		}
+	}
+}
+
+country_event = {
+	id = ny_events.9
+	title = ny_events.9.t
+	desc = ny_events.9.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.9.a
+		add_government_reform = four_families_reform
 	}
 }

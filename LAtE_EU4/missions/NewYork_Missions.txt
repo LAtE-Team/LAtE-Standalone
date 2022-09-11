@@ -508,9 +508,27 @@ nys_cloak_dagger_tree = {
 		has_country_flag = nys_familial_missions
 	}
 
-	# nys_family_act = { # Enact special tier 2 "Republican Virtues" reform which strengthens the guilds and adds yearly corruption
-
-	# }
+	nys_family_act = { # Enact special tier 2 "Republican Virtues" reform which strengthens the guilds and adds yearly corruption
+		icon = mission_alliances
+		required_missions = {
+			nys_tammany_republic
+		}
+		trigger = {
+			OR = {
+				dynasty = "Wayne"
+				dynasty = "Coeur"
+				dynasty = "Amos"
+				dynasty = "Levi"
+			}
+			republican_tradition = 90
+			government_reform_progress = 100
+		}
+		effect = {
+			country_event = {
+				id = ny_events.9
+			}
+		}
+	}
 
 	nys_league_intimidation = { # Expand the trade league through intrigue and bribery
 		icon = mission_alliances
@@ -568,6 +586,12 @@ nys_cloak_dagger_tree = {
 				add_permanent_claim = NYS
 			}
 			# Add some sort of negative "Infiltration from unknown spies" modifier to RED here
+			RED = {
+				add_country_modifier = {
+					name = nys_unknown_infiltration
+					duration = 7305
+				}
+			}
 		}
 	}
 
