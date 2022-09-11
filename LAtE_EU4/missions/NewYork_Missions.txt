@@ -589,7 +589,7 @@ nys_cloak_dagger_tree = {
 			RED = {
 				add_country_modifier = {
 					name = nys_unknown_infiltration
-					duration = 7305
+					duration = 7300
 				}
 			}
 		}

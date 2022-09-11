@@ -683,6 +683,12 @@ on_monarch_death = {
 	joan_de_trastamara_king_died_effect = yes
 	events = {
 	}
+	if = {
+		limit = {
+			has_reform = vicar_of_lady_liberty_reform
+			add_government_reform = tammany_republic_reform
+		}
+	}
 }
 
 # country 
