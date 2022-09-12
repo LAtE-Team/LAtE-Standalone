@@ -12,6 +12,43 @@
  estate_angeline: "Sisters of Blessed Angelina"
  anabaptist_order: "Community of Anabaptists"
  anabaptist_order_desc: "Because of the peculiar nature of our government, local Anabaptist communities have enough autonomy to act as autonomous holy orders, taking care of local administration in a state."
+ ordinate_council: "§YCall a Council§!"
+ desc_ordinate_council: "Since the exact nature of our religious hierarchy is not determined, it is often important to call a council of the leaders of the faith to settle issues."
+
+ ordinate_empower_ursulines: "§YEmpower Ursulines§!"
+ desc_ordinate_empower_ursulines: "The Ursulines, the first to defy St. Louis, the most influential religious order. If we wish to use their great wealth we should empower them at court."
+ ordinate_empowered_ursulines_modifier: "Ursulines Empowered"
+ desc_ordinate_empowered_ursulines_modifier: "We have empowered the Ursuline holy order in exchange for greater taxes."
+ EST_EMPOWERED_URS_TT: "Empowered Ursulines"
+ ordinate_empower_ursulines_tt: "Every owned province with an §YUrsuline§! holy older will gain §G15%§! local tax and the Ursuline estate will gain 10 influence for 10 years."
+
+ ordinate_empower_anabaptists: "§YEmpower Anabaptists§!"
+ desc_ordinate_empower_anabaptists: "With our deepened ties to the Anabaptists we can further favour them at court if we desire the labour."
+ ordinate_empowered_anabaptists_modifier: "Anabaptists Empowered"
+ desc_ordinate_empowered_anabaptists_modifier: "We have empowered the Anabaptist holy order in exchange for greater production capacity."
+ EST_EMPOWERED_ANA_TT: "Empowered Anabaptists"
+ ordinate_empower_anabaptists_tt: "Every owned province with an §YAnabaptist§! holy older will gain §G20%§! production efficiency and §R-5%§! manpower and the Anabaptist estate will gain 10 influence for 10 years"
+
+ ordinate_empower_charity: "§YEmpower Sisters of Charity§!"
+ desc_ordinate_empower_charity: "The Sisters of Charity, from their center in Montreal, have a strong connection to trade networks across Laurentia. If we wish to tap into this strength we can empower them in our court."
+ ordinate_empowered_charity_modifier: "Sisters of Charity Empowered"
+ desc_ordinate_empowered_charity_modifier: "We have empowered the Sisters of Charity holy order in exchange for greater trade power and prosperity growth."
+ EST_EMPOWERED_BUR_TT: "Empowered Sisters of Charity"
+ ordinate_empower_charity_tt: "Every owned province with a §YSisters of Charity§! holy older will gain §G10%§! trade power and §G0.1§! prosperity growth and the §YSisters of Charity§! estate will gain 10 influence for 10 years"
+
+ ordinate_empower_angelines: "§YEmpower Angelines§!"
+ desc_ordinate_empower_angelines: "The Angelines are the holy order with the deepest connections to our military, taking care of the injured and sick. If we wish to further use their strengths we can empower them in our court."
+ ordinate_empowered_angelines_modifier: "Angelines Empowered"
+ desc_ordinate_empowered_angelines_modifier: "We have empowered the Angeline holy order in exchange for lower regiment cost and greater defensiveness."
+ EST_EMPOWERED_ANG_TT: "Empowered Angelines"
+ ordinate_empower_angelines_tt: "Every owned province with an §YAngeline§! holy older will gain §G-10%§! regiment cost and §G10%§! defensiveness and the §YAngeline§! estate will gain 10 influence for 10 years"
+
+ ordinate_empower_monarch: "§YEmpower Secularists§!"
+ desc_ordinate_empower_monarch: "With all the competing holy orders at court, sometimes it is necessary to empower secularists who will support our nation in all matters."
+ ordinate_empower_monarch_tt: "Gain §G25§! of each monarch power"
+
+ ordinate_debate_modifier_10: "REPLACE_ME"
+ desc_ordinate_debate_modifier_10: "REPLACE_ME"
 
  #Old World
  RECLAMATION: "Reclamation"
