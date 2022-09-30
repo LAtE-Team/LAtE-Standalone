@@ -515,10 +515,8 @@ nys_cloak_dagger_tree = {
 		}
 		trigger = {
 			OR = {
-				dynasty = "Wayne"
-				dynasty = "Coeur"
-				dynasty = "Amos"
-				dynasty = "Levi"
+				has_reform = tammany_republic_reform
+				has_reform = vicar_of_lady_liberty_reform
 			}
 			republican_tradition = 90
 			government_reform_progress = 100
@@ -533,7 +531,7 @@ nys_cloak_dagger_tree = {
 	nys_league_intimidation = { # Expand the trade league through intrigue and bribery
 		icon = mission_alliances
 		required_missions = {
-			nys_tammany_republic
+			nys_family_act
 		}
 		trigger = {
 			treasury = 150
@@ -565,10 +563,41 @@ nys_cloak_dagger_tree = {
 		}
 	}
 
-	nys_no_special_favors = {
+	nys_smugglers_paradise = { # Gain a local modifier somewhere which gives unrest in exchange for local trade power. Maybe gives negative diplo rep too?
 		icon = mission_alliances
 		required_missions = {
 			nys_league_intimidation
+		}
+		trigger = {
+			OR = {
+				spymaster = 1
+				trader = 1
+				naval_reformer = 1
+			}
+			has_privateers = yes
+			4539 = {
+				has_building = marketplace
+			}
+		}
+		effect = {
+			4539 = {
+				light_ship = NYS
+				light_ship = NYS
+				light_ship = NYS
+				light_ship = NYS
+				light_ship = NYS
+				add_province_modifier = {
+					name = nys_smugglers_paradise
+					duration = -1
+				}
+			}
+		}
+	}
+
+	nys_no_special_favors = {
+		icon = mission_alliances
+		required_missions = {
+			nys_smugglers_paradise
 		}
 		trigger = {
 			has_spy_network_in = {

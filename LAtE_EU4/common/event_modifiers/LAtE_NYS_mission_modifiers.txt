@@ -92,3 +92,10 @@ nys_unknown_infiltration = { # Modifier for RED
 	land_morale = -0.1
 	naval_morale = -0.1
 }
+
+nys_smugglers_paradise = { # LIVIN' IN A SMUGGLER'S PARADISE...
+	trade_value = 10
+	privateer_efficiency = 0.2
+	local_unrest = 4
+	diplomatic_reputation = -1
+}

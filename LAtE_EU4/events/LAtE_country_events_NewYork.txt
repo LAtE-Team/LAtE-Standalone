@@ -721,5 +721,6 @@ country_event = {
 	option = {
 		name = ny_events.9.a
 		add_government_reform = four_families_reform
+		change_government_reform_progress = -100
 	}
 }
