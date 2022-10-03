@@ -7,3 +7,7 @@ nys_laid_claims = {
 	opinion = -150
 	yearly_decay = 1
 }
+
+nys_league_diplomacy = {
+	opinion = 50
+}

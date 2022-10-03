@@ -84,6 +84,8 @@ ny_family_business = {
 
 nys_heart_of_darkness = {
 	siege_ability = 0.2
+	spy_offence = 0.1
+	diplomats = 1
 	yearly_corruption = 0.5
 }
 
@@ -98,4 +100,9 @@ nys_smugglers_paradise = { # LIVIN' IN A SMUGGLER'S PARADISE...
 	privateer_efficiency = 0.2
 	local_unrest = 4
 	diplomatic_reputation = -1
+}
+
+nys_coastguard_established = {
+	block_slave_raid = yes
+	galley_power = 0.15
 }

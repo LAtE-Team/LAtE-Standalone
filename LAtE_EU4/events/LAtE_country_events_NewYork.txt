@@ -545,6 +545,13 @@ country_event = { # The Empire State
 
 	option = { # BORING!
 		name = ny_events.5.c
+		trigger = {
+			OR = {
+				ruler_has_personality = craven_personality
+				ruler_has_personality = babbling_buffoon_personality
+				ruler_has_personality = naive_personality
+			}
+		}
 		add_prestige = -5
 	}
 }
