@@ -5,9 +5,13 @@ nys_phi_spurned_protection = {
 
 nys_laid_claims = {
 	opinion = -150
-	yearly_decay = 1
+	yearly_decay = 10
 }
 
 nys_league_diplomacy = {
 	opinion = 50
+}
+
+nys_colonial_rivalry = {
+	opinion = -100
 }

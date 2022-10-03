@@ -765,3 +765,41 @@ NewYork_Missions_4 = { # Trade / Colonialism (Amos)
 		}
 	}
 }
+
+nys_amos_tree = {
+	slot = 4
+	potential = {
+		tag = NYS
+		has_country_flag = nys_familial_missions
+	}
+	has_country_shield = yes
+
+	nys_maritime_secrets = { # Infiltrate MRT for their colonial secrets, apply them to our own position in Bermuda
+		icon = mission_alliances
+		required_missions = {
+			nys_tammany_republic
+		}
+		position = 8
+		trigger = {
+			has_spy_network_in = {
+				who = MRT
+				value = 50
+			}
+			481 = {
+				owned_by = NYS
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_colonial_secrets
+				duration = 5475
+			}
+			MRT = {
+				add_opinion = {
+					who = NYS
+					modifier = nys_colonial_rivalry
+				}
+			}
+		}
+	}
+}
