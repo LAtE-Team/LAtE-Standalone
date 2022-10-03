@@ -99,11 +99,10 @@ nys_wayne_tree = {
 	has_country_shield = yes
 
 	nys_looking_westwards = {
-		position = 7
+		position = 8
 		icon = mission_alliances
 		required_missions = {
 			nys_tammany_republic
-			nys_formalise_the_militia
 		}
 		trigger = {
 			OR = {
@@ -350,11 +349,10 @@ nys_coeur_tree = {
 	has_country_shield = yes
 
 	nys_manhattan_land_efficiency_act = {
-		position = 7
+		position = 8
 		icon = mission_assemble_an_army
 		required_missions = {
 			nys_tammany_republic
-			nys_infrastructure_plan
 		}
 		provinces_to_highlight = {
 			province_id = 965
@@ -492,24 +490,27 @@ NewYork_Missions_3 = { # Tammany
 		}
 	}
 	nys_tammany_republic = {
-		position = 6
+		position = 7
 		icon = mission_assemble_an_army
 		required_missions = {
 			nys_city_reunited
+			nys_formalise_the_militia
+			nys_infrastructure_plan
+			nys_overseas_investments
 		}
 		trigger = {
 			NOT = {
 				has_ruler =  "Gareth II"
 			}
 			stability = 2
-			adm_power = 75
-			dip_power = 75
-			mil_power = 75
+			adm_power = 150
+			dip_power = 150
+			mil_power = 150
 		}
 		effect = {
-			add_adm_power = -75
-			add_dip_power = -75
-			add_mil_power = -75
+			add_adm_power = -150
+			add_dip_power = -150
+			add_mil_power = -150
 			country_event = {
 				id = ny_events.6
 			}
@@ -721,7 +722,46 @@ NewYork_Missions_4 = { # Trade / Colonialism (Amos)
 		}
 	}
 
-	# nys_trade_commitments = {
+	nys_trade_commitments = {
+		icon = mission_alliances
+		required_missions = {
+			nys_strengthen_the_league
+		}
+		trigger = {
+			advisor = trader
+			1500 = {
+				is_strongest_trade_power = ROOT
+			}
+			trade_income_percentage = 0.6
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_future_of_trade
+				duration = -1
+			}
+		}
+	}
 
-	# }
+	nys_overseas_investments = {
+		icon = mission_alliances
+		required_missions = {
+			nys_trade_commitments
+		}
+		trigger = {
+			has_spy_network_in = {
+				who = BRM
+				value = 50
+			}
+			num_of_transport = 10
+		}
+		effect = {
+			481 = {
+				add_permanent_claim = NYS
+			}
+			add_country_modifier = {
+				name = nys_amphibious_warfare
+				duration = 3650
+			}
+		}
+	}
 }

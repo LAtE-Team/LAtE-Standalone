@@ -106,3 +106,14 @@ nys_coastguard_established = {
 	block_slave_raid = yes
 	galley_power = 0.15
 }
+
+nys_future_of_trade = {
+	global_trade_power = 0.2
+	production_efficiency = -0.1
+	global_tax_modifier = -0.1
+}
+
+nys_amphibious_warfare = {
+	regiment_disembark_speed = 0.8
+	siege_blockade_progress = 1
+}
