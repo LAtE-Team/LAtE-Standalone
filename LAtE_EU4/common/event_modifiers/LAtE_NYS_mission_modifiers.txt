@@ -138,3 +138,8 @@ nys_colonial_mastery = {
 	max_absolutism = 5
 	liberty_desire_from_subject_development = -0.33
 }
+
+nys_ruthless_merchants = {
+	global_trade_power = 0.1
+	trade_steering = 0.33
+}

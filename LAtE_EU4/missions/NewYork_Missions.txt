@@ -887,11 +887,48 @@ nys_amos_tree = {
 		}
 	}
 
-	# nys_competitive_spirit = { # Gain claim on Halifax (for the harbor)
-	# 	icon = mission_alliances 
-	# }
+	nys_competitive_spirit = { # Gain claim on Halifax (for the harbor)
+		icon = mission_alliances
+		required_missions = {
+			nys_colonial_mastery
+		}
+		trigger = {
+			MRT = {
+				OR = {
+					NOT = {
+						has_opinion = {
+							who = NYS
+							value = -100
+						}
+					}
+					is_rival = NYS
+				}
+			}
+			navy_size = MRT
+		}
+		effect = {
+			4551 = {
+				add_permanent_claim = NYS
+			}
+		}
+	}
 
-	# nys_avarice = { # Own Halifax - gain trade steering buff + global trade power via "Ruthless merchants" modifier
-	# 	icon = mission_alliances
-	# }
+	nys_avarice = { # Own Halifax - gain trade steering buff + global trade power via "Ruthless merchants" modifier
+		icon = mission_alliances
+		required_missions = {
+			nys_competitive_spirit
+		}
+		trigger = {
+			4551 = {
+				owned_by = NYS
+				is_strongest_trade_power = NYS
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_ruthless_merchants
+				duration = 10950
+			}
+		}
+	}
 }

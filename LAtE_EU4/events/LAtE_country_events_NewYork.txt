@@ -700,6 +700,18 @@ country_event = { # Philadelphia's response
 			}
 		}
 		add_prestige = 10
+		# Add relations hit with rest of trade league
+		every_known_country = {
+			if = {
+				limit = { 
+					is_in_trade_league_with = NYS
+				}
+				add_opinion = {
+					who = NYS
+					modifier = nys_intimidated_league_member
+				}
+			}
+		}
 	}
 
 	option = { # Prepare for war

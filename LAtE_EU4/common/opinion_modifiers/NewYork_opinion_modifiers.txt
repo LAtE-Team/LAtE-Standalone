@@ -25,3 +25,8 @@ nys_protected_colonial_discovery = {
 	opinion = 50
 	yearly_decay = 1
 }
+
+nys_intimidated_league_member = {
+	opinion = -25
+	yearly_decay = 1
+}
