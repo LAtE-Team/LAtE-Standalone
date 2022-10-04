@@ -15,3 +15,13 @@ nys_league_diplomacy = {
 nys_colonial_rivalry = {
 	opinion = -100
 }
+
+nys_published_colonial_discovery = {
+	opinion = -50
+	yearly_decay = 1
+}
+
+nys_protected_colonial_discovery = {
+	opinion = 50
+	yearly_decay = 1
+}

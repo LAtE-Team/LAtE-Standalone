@@ -731,3 +731,58 @@ country_event = {
 		change_government_reform_progress = -100
 	}
 }
+
+country_event = {
+	id = ny_events.10
+	title = ny_events.10.t
+	desc = ny_events.10.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { # Publish our findings! Gain prestige + diplo, but strong relations penalty with any other colonial powers
+		name = ny_events.10.a
+		add_prestige = 25
+		add_dip_power = 75
+		every_known_country = {
+			if = {
+				limit = { 
+					OR = {
+						europe = {
+							has_discovered = PREV
+						}
+						africa = {
+							has_discovered = PREV
+						}
+					}
+				}
+				add_opinion = {
+					who = NYS
+					modifier = nys_published_colonial_discovery
+				}
+			}
+		}
+	}
+
+	option = { # Keep it a secret...
+		name = ny_events.10.b
+		add_prestige = -5
+		every_known_country = {
+			if = {
+				limit = { 
+					OR = {
+						europe = {
+							has_discovered = PREV
+						}
+						africa = {
+							has_discovered = PREV
+						}
+					}
+				}
+				add_opinion = {
+					who = NYS
+					modifier = nys_protected_colonial_discovery
+				}
+			}
+		}
+	}
+}

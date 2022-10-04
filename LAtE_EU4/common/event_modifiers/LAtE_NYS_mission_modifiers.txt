@@ -122,3 +122,19 @@ nys_colonial_secrets = {
 	range = 1
 	trade_range_modifier = 1
 }
+
+nys_staging_ground = {
+	colonists = 1
+	supply_limit_modifier = 0.25
+	trade_value = 15
+}
+
+nys_colonial_fervor = {
+	global_colonial_growth = 20
+	colonist_placement_chance = 0.05
+}
+
+nys_colonial_mastery = {
+	max_absolutism = 5
+	liberty_desire_from_subject_development = -0.33
+}
