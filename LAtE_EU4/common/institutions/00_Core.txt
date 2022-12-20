@@ -133,12 +133,8 @@ feudalism = {
 				#NOT = { continent = south_america }
 				#NOT = { continent = new_world }
 				owner = {
-					NOT = { has_reform = tribal_kingdom }
-					NOT = { has_reform = tribal_despotism }
-					NOT = { has_reform = tribal_federation }
-					NOT = { has_reform = siberian_native_council }
+					NOT = { government = tribal }
 					NOT = { government = native }
-					NOT = { has_reform = steppe_horde }
 				}
 			}
 		}
@@ -391,6 +387,7 @@ new_world_i = {
 	
 	can_start = {
 		is_year = 3110
+		is_institution_enabled = renaissance
 		OR = {
 			continent = north_america
 			continent = south_america
@@ -606,6 +603,7 @@ printing_press = {
 	
 	can_start = {
 		is_year = 3160
+		is_institution_enabled = new_world_i
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -621,11 +619,7 @@ printing_press = {
 		owner = {
 			adm_tech = 12
 			NOT = {
-				has_reform = siberian_native_council
-				has_reform = steppe_horde
-				has_reform = tribal_kingdom
-				has_reform = tribal_despotism
-				has_reform = tribal_federation
+				government = tribal
 			}
 		}
 	}
@@ -822,6 +816,7 @@ global_trade = {
 	
 	can_start = {
 		is_year = 3210
+		is_institution_enabled = printing_press
 		is_island = no
 		highest_value_trade_node = yes
 		OR = {
@@ -1060,7 +1055,7 @@ manufactories = {
 	
 	can_start = {
 		is_year = 3260
-		
+		is_institution_enabled = global_trade
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1499,7 +1494,7 @@ enlightenment = {
 	
 	can_start = {
 		is_year = 3310
-		
+		is_institution_enabled = manufactories
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
@@ -1837,6 +1832,7 @@ industrialization = {
 	
 	can_start = {
 		is_year = 3360
+		is_institution_enabled = enlightenment
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes
