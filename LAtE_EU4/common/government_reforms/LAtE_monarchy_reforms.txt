@@ -45,7 +45,7 @@ canadian_province = {
 		has_parliament = yes
 		custom_attributes = {
 			blocked_call_diet = yes
-			disables_nobility = yes
+			disables_estate_nobles = yes
 		}
 	}
 }
@@ -107,7 +107,7 @@ canadian_empire = {
 		has_parliament = yes
 		custom_attributes = {
 			blocked_call_diet = yes
-			disables_nobility = yes
+			disables_estate_nobles = yes
 		}
 	}
 }
@@ -125,7 +125,7 @@ mercenary_army_reform = {
 		mercenary_discipline = 0.025
 	}
 	custom_attributes = {
-		disables_nobility = yes
+		disables_estate_nobles = yes
 		mercs_do_not_cost_army_professionalism = yes
 	}
 	ai = {
@@ -147,7 +147,7 @@ anabaptist_kingdom_reform = {
 		governing_capacity = 100
 	}
 	custom_attributes = {
-		disables_church = yes
+		disables_estate_church = yes
 	}
 	ai = {
 		factor = 3
@@ -204,8 +204,8 @@ maritimer_acadien_principality = {
 		governing_capacity_modifier = -0.9
 	}
 	custom_attributes = {
-		disables_church = yes
-		disables_nobility = yes
+		disables_estate_church = yes
+		disables_estate_nobles = yes
 		# disables_burghers = yes
 	}
 }

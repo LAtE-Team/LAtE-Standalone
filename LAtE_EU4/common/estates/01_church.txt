@@ -5,7 +5,6 @@ estate_church = {
 	trigger = {
 		NOT = { religion_group = oldworld }
 		NOT = { has_government_attribute = disables_estate_church }
-		NOT = { has_government_attribute = disables_church } # Merge this with above, I implimented this before paradox :) -technecian
 		NOT = { has_country_flag = disables_estate_church_flag }
 		if = {
 			limit = {

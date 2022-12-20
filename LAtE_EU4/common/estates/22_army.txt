@@ -24,7 +24,7 @@ estate_army =
 		}
 		is_nomad = no
 		is_colonial_nation = no
-		NOT = { has_government_attribute = disables_nobility }
+		NOT = { has_government_attribute = disables_estate_nobles }
 		NOT = { has_reform = revolutionary_empire_reform }
 		NOT = { has_reform = leading_clergy_reform }
 		NOT = { has_reform = monastic_order_reform }
