@@ -13,7 +13,7 @@ KEY_discipline_modifier = {
 }
 
 KEY_siege_modifier ={
-	artillery_bonus_vs_fort = 1
+	artillery_levels_available_vs_fort = 1
 	siege_ability = 0.1
 }
 
