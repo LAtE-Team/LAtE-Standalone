@@ -1632,7 +1632,7 @@ open_range_feudalism = {
 		cowboys_influence_modifier = 0.05
 	}
 	custom_attributes = {
-		disables_nobility = yes
+		disables_estate_nobles = yes
 	}
 	ai = {
 		factor = 0.75 #generic

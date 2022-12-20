@@ -9,7 +9,6 @@ estate_nobles =
 		#NOT = { has_reform = veche_republic }
 		#NOT = { has_reform = trading_city }
 		NOT = { has_government_attribute = disables_estate_nobles }
-		NOT = { has_government_attribute = disables_nobility } # merge this with above
 		NOT = { has_country_flag = disables_estate_nobles_flag }
 		OR = {
 			has_government_attribute = enables_estate_nobles
