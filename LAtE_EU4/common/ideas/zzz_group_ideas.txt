@@ -1,94 +1,36 @@
 # Overrides for vanilla group ideas
 
-pacific_northwest_ideas = {	#From Vanilla
+default_ideas = {
 	start = {
-		naval_forcelimit_modifier = 0.25
-		land_morale = 0.10
-		may_perform_slave_raid = yes
+		stability_cost_modifier = -0.10
+		advisor_cost = -0.1
 	}
 	
 	bonus = {
-		prestige = 1
+		global_tax_modifier = 0.10
 	}
 	
-	trigger = {
-		OR = {
-			primary_culture = cascadian
-			primary_culture = canuck
-			primary_culture = inlander
-			primary_culture = salish
-			primary_culture = haida
-		}
-		religion = raven_tales
-	}
-	
-	free = yes		#will be added at load.
-	
-	great_whale_hunts = {
-		discipline = 0.05
-	}
-	
-	dugout_canoes = { 
-		trade_range_modifier = 0.2
-	}
-	
-	totem_poles = {
-		diplomatic_reputation = 1
-	}
-	
-	potlatch_feast = {
-		global_own_trade_power = 0.1
-	}
-	
-	legacy_of_raven = {
-		leader_land_manuever = 1
-	}
-
-	salmon_migrations= {
-		global_trade_goods_size_modifier = 0.10
-	}
-	
-	noble_castes = { 
-		stability_cost_modifier = -0.1
-	}
-	
-}
-
-BRZ_ideas = {
-	start = {
-		hostile_attrition = 1
-		envoy_travel_time = -0.25
-	}
-	bonus = {
-		global_trade_goods_size_modifier = 0.1
-	}	
-	trigger = {
-		OR = {
-			tag = BRZ
-			culture_group = brazilian_culture_group
-		}
-	}
 	free = yes
-
-	governorate_general = {
-		global_tax_modifier = 0.1
+	
+	increase_discipline = {
+		discipline = 0.025
 	}
-	research_of_nassau = {
-		global_institution_spread = 0.1
+	increase_taxation = {
+		global_tax_modifier = 0.05
+	}	
+	cheaper_mercenaries = {
+		merc_maintenance_modifier = -0.10
 	}
-	mines_of_minas_gerais = {
-		inflation_reduction = 0.1
+	increased_trade_power = {
+		global_trade_power = 0.05
 	}
-	halting_foreign_incursions = {
-		infantry_power = 0.1
+	increased_manpower = {
+		global_manpower_modifier = 0.05
 	}
-	entradas_and_bandeiras = {
-		core_creation = -0.15
+	increased_trade_steering = {
+		trade_steering = 0.05
 	}
-	inconfidencia_mineira = {
-		stability_cost_modifier = -0.1
-	}
-	old_seat_of_the_empire = {
-		legitimacy = 1
+	increased_production_income = {
+		production_efficiency = 0.05
 	}
 }

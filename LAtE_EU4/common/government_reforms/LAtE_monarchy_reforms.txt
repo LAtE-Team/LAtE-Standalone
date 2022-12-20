@@ -126,6 +126,7 @@ mercenary_army_reform = {
 	}
 	custom_attributes = {
 		disables_nobility = yes
+		mercs_do_not_cost_army_professionalism = yes
 	}
 	ai = {
 		factor = 3

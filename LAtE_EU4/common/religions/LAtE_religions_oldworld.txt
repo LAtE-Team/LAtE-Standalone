@@ -1264,6 +1264,11 @@ oldworld = {
 				allow = {
 					always = yes
 				}
+				
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.05
 					modifier = {
@@ -1284,6 +1289,11 @@ oldworld = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.02
 					modifier = {
@@ -1316,6 +1326,11 @@ oldworld = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0
 				}
@@ -1327,6 +1342,11 @@ oldworld = {
 				allow = {
 					always = yes
 				}
+
+				visible = {
+					always = yes
+				}
+
 				ai_will_do = {
 					factor = 0.01
 				}
@@ -1336,6 +1356,10 @@ oldworld = {
 				global_institution_spread = 0.25
 				embracement_cost = -0.2
 				allow = {
+					always = yes
+				}
+
+				visible = {
 					always = yes
 				}
 				ai_will_do = {
