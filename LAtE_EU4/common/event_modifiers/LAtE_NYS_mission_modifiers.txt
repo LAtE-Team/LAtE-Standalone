@@ -143,3 +143,8 @@ nys_ruthless_merchants = {
 	global_trade_power = 0.1
 	trade_steering = 0.33
 }
+
+nys_tax_reform = {
+	global_tax_modifier = -0.05
+	global_unrest = -1
+}

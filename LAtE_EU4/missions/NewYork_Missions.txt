@@ -932,3 +932,30 @@ nys_amos_tree = {
 		}
 	}
 }
+
+NewYork_Missions_5 = { # Culture and legislation
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = NYS
+	}
+	has_country_shield = yes
+
+	nys_tax_overhaul = { # Numbers might need tweaking. Mostly placeholder
+		icon = mission_alliances
+		required_missions = {
+			nys_city_reunited
+		}
+		trigger = {
+			monthly_income = 8
+			advisor = master_of_mint
+		}
+		effect = {
+			add_country_modifier = {
+				name = nys_tax_reform
+				duration = -1
+			}
+		}
+	}
+}
