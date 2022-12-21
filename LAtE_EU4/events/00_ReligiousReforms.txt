@@ -116,7 +116,7 @@ country_event = {
 	}
 }
 
-# Mayan reform
+# # Mayan reform
 # country_event = {
 # 	id = religious_reforms.3
 # 	title = religious_reforms.3.t

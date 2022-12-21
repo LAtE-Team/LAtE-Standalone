@@ -4,9 +4,16 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_modifier = counter_reformation } 
-			has_global_flag = counter_reformation
+			OR = {
+				has_country_flag = can_always_embrace_the_counter_reformation
+				has_global_flag = counter_reformation
+			}
 			NOT = { has_idea = ecumenism }
-			NOT = { religion_years = { protestant = 150 } }
+			# NOT = { has_idea = liberty_egalite_fraternity }
+			# OR = {
+			# 	has_country_flag = can_always_embrace_the_counter_reformation
+			# 	NOT = { religion_years = { protestant = 150 } }
+			# }
 			religion = catholic
 		}
 		allow = {
@@ -38,6 +45,11 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			# modifier = {
+			# 	factor = 0.0
+			# 	dominant_religion = reformed
+			# 	is_emperor = no
+			# }
 			modifier = {
 				factor = 0.0
 				dominant_religion = protestant

@@ -32,7 +32,12 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				will_back_next_reform = no
+				NOT = {
+					has_opinion = {
+						who = emperor
+						value = 0
+					}
+				}
 			}			
 			
 		}
@@ -47,7 +52,10 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				will_back_next_reform = yes
+				has_opinion = {
+					who = emperor
+					value = 0
+				}
 			}			
 			
 		}
