@@ -66,64 +66,64 @@ country_event = {
 			
 			#Check whether Dissensions among the Reformers incident should happen
 			#Needs 2/3 of the Empire to be owned by Reformed princes
-			while = {
-				limit = {
-					any_province = {
-						is_part_of_hre = yes
-						owner = {
-							is_part_of_hre = yes
-							religion = reformed
-						}
-						NOT = { has_province_flag = hre_post_leaguewar_reformed_owned }
-					}
-				}
-				1 = { #Stockholm is the global variable substitute
-					change_variable = {
-						which = reformed_hre_member_provinces
-						value = 1
-					}
-				}
-				random_province = {
-					limit = {
-						is_part_of_hre = yes
-						owner = {
-							is_part_of_hre = yes
-							religion = reformed
-						}
-						NOT = { has_province_flag = hre_post_leaguewar_reformed_owned }
-					}
-					set_province_flag = hre_post_leaguewar_reformed_owned
-				}
-			}
-			while = {
-				limit = {
-					any_province = {
-						is_part_of_hre = yes
-						owner = {
-							is_part_of_hre = yes
-							NOT = { religion = reformed }
-						}
-						NOT = { has_province_flag = hre_post_leaguewar_non_reformed_owned }
-					}
-				}
-				1 = {
-					change_variable = {
-						which = non_reformed_hre_member_provinces
-						value = 1
-					}
-				}
-				random_province = {
-					limit = {
-						is_part_of_hre = yes
-						owner = {
-							is_part_of_hre = yes
-							NOT = { religion = reformed }
-						}
-						NOT = { has_province_flag = hre_post_leaguewar_non_reformed_owned }
-					}
-					set_province_flag = hre_post_leaguewar_non_reformed_owned
-				}
-			}
+			# while = {
+			# 	limit = {
+			# 		any_province = {
+			# 			is_part_of_hre = yes
+			# 			owner = {
+			# 				is_part_of_hre = yes
+			# 				religion = reformed
+			# 			}
+			# 			NOT = { has_province_flag = hre_post_leaguewar_reformed_owned }
+			# 		}
+			# 	}
+			# 	1 = { #Stockholm is the global variable substitute
+			# 		change_variable = {
+			# 			which = reformed_hre_member_provinces
+			# 			value = 1
+			# 		}
+			# 	}
+			# 	random_province = {
+			# 		limit = {
+			# 			is_part_of_hre = yes
+			# 			owner = {
+			# 				is_part_of_hre = yes
+			# 				religion = reformed
+			# 			}
+			# 			NOT = { has_province_flag = hre_post_leaguewar_reformed_owned }
+			# 		}
+			# 		set_province_flag = hre_post_leaguewar_reformed_owned
+			# 	}
+			# }
+			# while = {
+			# 	limit = {
+			# 		any_province = {
+			# 			is_part_of_hre = yes
+			# 			owner = {
+			# 				is_part_of_hre = yes
+			# 				NOT = { religion = reformed }
+			# 			}
+			# 			NOT = { has_province_flag = hre_post_leaguewar_non_reformed_owned }
+			# 		}
+			# 	}
+			# 	1 = {
+			# 		change_variable = {
+			# 			which = non_reformed_hre_member_provinces
+			# 			value = 1
+			# 		}
+			# 	}
+			# 	random_province = {
+			# 		limit = {
+			# 			is_part_of_hre = yes
+			# 			owner = {
+			# 				is_part_of_hre = yes
+			# 				NOT = { religion = reformed }
+			# 			}
+			# 			NOT = { has_province_flag = hre_post_leaguewar_non_reformed_owned }
+			# 		}
+			# 		set_province_flag = hre_post_leaguewar_non_reformed_owned
+			# 	}
+			# }
 			every_province = {
 				limit = {
 					is_part_of_hre = yes
@@ -288,9 +288,9 @@ country_event = {
 			is_elector = yes
 			OR = {
 				religion = protestant
-				religion = reformed
+				# religion = reformed
 				religion = anglican
-				religion = hussite
+				# religion = hussite
 			}
 			is_free_or_tributary_trigger = yes
 		}
@@ -351,9 +351,9 @@ country_event = {
 						is_elector = yes
 						OR = {
 							religion = protestant
-							religion = reformed
+							# religion = reformed
 							religion = anglican
-							religion = hussite
+							# religion = hussite
 						}
 						is_league_enemy = ROOT
 						truce_with = ROOT
