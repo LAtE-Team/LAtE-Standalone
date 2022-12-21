@@ -1004,9 +1004,11 @@ NewYork_Missions_5 = { # Culture and legislation
 		}
 		trigger = {
 			NOT = {
-				global_unrest = 0.01
-				any_owned_province = {
-					nationalism = 0.01
+				AND = {
+					unrest = 0.01
+					any_owned_province = {
+						nationalism = 0
+					}
 				}
 			}
 		}
