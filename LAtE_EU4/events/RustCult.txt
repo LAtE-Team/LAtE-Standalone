@@ -11,7 +11,7 @@ country_event = {
 		name = "rust_cult.15.a"
 		add_legitimacy = 50
 		add_prestige = 10
-		exile_ruler_as = doing_something_else
+		exile_ruler_as = { name = doing_something_else }
 		add_stability = 1
 	}
 	option = {
