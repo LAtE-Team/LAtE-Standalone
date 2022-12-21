@@ -148,3 +148,19 @@ nys_tax_reform = {
 	global_tax_modifier = -0.05
 	global_unrest = -1
 }
+
+nys_multicultural_leanings = { # Opening our doors to people of other nations and cultures will improve our standing in the eyes of the world,
+	diplomatic_reputation = 1 # but the resulting population influx will apply pressure on our economy
+	improve_relation_modifier = 0.1
+	state_maintenance_modifier = 0.1 
+}
+
+nys_common_understanding_raritan = {
+	local_tax_modifier = 0.33
+	production_efficiency = 0.33
+	local_manpower_modifier = 0.33
+}
+
+nys_common_understanding = {
+	global_unrest = -2
+}

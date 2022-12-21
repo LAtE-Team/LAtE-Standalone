@@ -798,3 +798,62 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ny_events.11
+	title = ny_events.11.t
+	desc = ny_events.11.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.11.a
+		define_advisor = {
+			type = treasurer
+			skill = 2
+			name = "Isiah Spiro"
+			cost_multiplier = 0.5
+			religion = jewish
+		}
+	}
+
+	option = {
+		name = ny_events.11.b
+		define_advisor = {
+			type = trader
+			skill = 2
+			name = "Janie Levitt"
+			female = yes
+			cost_multiplier = 0.5
+			religion = jewish
+		}
+	}
+
+	option = {
+		name = ny_events.11.c
+		define_advisor = {
+			type = recruitmaster
+			skill = 2
+			name = "Sakeri Pirbright"
+			cost_multiplier = 0.5
+			religion = jewish
+		}
+	}
+}
+
+country_event = { # Religious Tolerance was only being applied very loosely and on an ad-hoc basis. Many minorities are finding themselves more at odds with the 
+	id = ny_events.12 # local population than ever before due to rising fears of cultural replacement
+	title = ny_events.12.t
+	desc = ny_events.12.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { # Listen to these concerns. We will overhaul the system (unpopular with primary culture, popular with minorities. -missionary strength / conversion cost?)
+		name = ny_events.12.a 
+	}
+
+	option = { # We have done more than enough for them! Get out of my sight!
+		name = ny_events.12.b # START TICKING DISASTER? - when fires, give Raritan huge unrest but strong local missionary strength. when the disaster is solved, grant
+		# missionary strength vs heretics and culture conversion cost reduction
+	}
+}

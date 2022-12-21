@@ -934,7 +934,7 @@ nys_amos_tree = {
 }
 
 NewYork_Missions_5 = { # Culture and legislation
-	slot = 3
+	slot = 5
 	generic = no
 	ai = yes
 	potential = {
@@ -943,18 +943,87 @@ NewYork_Missions_5 = { # Culture and legislation
 	has_country_shield = yes
 
 	nys_tax_overhaul = { # Numbers might need tweaking. Mostly placeholder
+		position = 3
 		icon = mission_alliances
 		required_missions = {
 			nys_city_reunited
 		}
 		trigger = {
 			monthly_income = 8
-			advisor = master_of_mint
+			OR = {
+				advisor = master_of_mint
+				advisor = treasurer
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = nys_tax_reform
 				duration = -1
+			}
+		}
+	}
+	nys_edict_of_multiculturalism = {
+		icon = mission_alliances
+		required_missions = {
+			nys_tax_overhaul
+		}
+		trigger = {
+			years_of_income = 0.5
+			dip_power = 75
+		}
+		effect = {
+			add_years_of_income = -0.5
+			add_dip_power = -75
+			add_country_modifier = {
+				name = nys_multicultural_leanings
+				duration = -1
+			}
+		}
+	}
+	nys_religious_freedom_act = {
+		icon = mission_alliances
+		required_missions = {
+			nys_edict_of_multiculturalism
+		}
+		trigger = {
+			stability = 2
+			any_owned_province = {
+				religion = jewish
+			}
+		}
+		effect = {
+			country_event = {
+				id = ny_events.11
+			}
+		}
+	}
+	nys_common_understanding = { # Lowering intolerance and general unrest will foster goodwill towards protected minorities and 
+		icon = mission_alliances # lead to a stronger contribution to the state from those groups. idea: policy does not always go hand-in-hand with the people
+		required_missions = {
+			nys_religious_freedom_act
+		}
+		trigger = {
+			NOT = {
+				global_unrest = 0.01
+				any_owned_province = {
+					nationalism = 0.01
+				}
+			}
+		}
+		effect = {
+			2639 = { # Raritan
+				add_province_modifier = {
+					name = nys_common_understanding_raritan
+					duration = 3650
+				}
+			}
+			add_country_modifier = {
+				name = nys_common_understanding
+				duration = 365
+			}
+			country_event = {
+				id = ny_events.12
+				days = 365
 			}
 		}
 	}
