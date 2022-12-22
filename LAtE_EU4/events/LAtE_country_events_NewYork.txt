@@ -849,11 +849,90 @@ country_event = { # Religious Tolerance was only being applied very loosely and 
 	is_triggered_only = yes
 
 	option = { # Listen to these concerns. We will overhaul the system (unpopular with primary culture, popular with minorities. -missionary strength / conversion cost?)
-		name = ny_events.12.a 
+		name = ny_events.12.a # Liberty is for everyone.
+		add_country_modifier = {
+			name = nys_liberty_reforms
+			duration = -1
+		}
+		every_owned_province = {
+			if = {
+				limit = { 
+					AND = {
+						religion = americanist
+						has_owner_culture = yes
+					}
+				}
+				add_province_modifier = {
+					name = nys_critics_of_liberty
+					duration = 10950
+				}
+			}
+		}
 	}
 
 	option = { # We have done more than enough for them! Get out of my sight!
 		name = ny_events.12.b # START TICKING DISASTER? - when fires, give Raritan huge unrest but strong local missionary strength. when the disaster is solved, grant
 		# missionary strength vs heretics and culture conversion cost reduction
+		2639 = {
+			hidden_effect = {
+				remove_province_triggered_modifier = legacy_of_levi
+			}
+			custom_tooltip = NYS_LEGACY_LEVI_REMOVED
+			add_province_modifier = {
+				name = nys_storm_brewing
+				duration = -1
+			}
+			custom_tooltip = NYS_MINORITY_DISASTER_WARNING
+		}
+		set_country_flag = nys_uprising_ticking
+	}
+}
+
+country_event = { # Uprising disaster start
+	id = ny_events.13
+	title = ny_events.13.t
+	desc = ny_events.13.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.13.a # Oh no!
+		add_stability = -3
+		every_owned_province = {
+			if = {
+				limit = { 
+					OR = {
+						has_owner_religion = no
+						has_owner_culture = no
+					}
+				}
+				add_province_modifier = {
+					name = nys_uprising_minority_unrest
+					duration = -1
+				}
+				leadered_peasant_rebels = 20
+			}
+		}
+	}
+}
+
+country_event = { # Uprising disaster end
+	id = ny_events.14
+	title = ny_events.14.t
+	desc = ny_events.14.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.14.a # Finally!
+		every_owned_province = {
+			if = {
+				limit = { 
+					has_province_modifier = nys_uprising_minority_unrest
+				}
+				remove_province_modifier = nys_uprising_minority_unrest
+			}
+		}
+		set_country_flag = nys_uprising_crushed
 	}
 }

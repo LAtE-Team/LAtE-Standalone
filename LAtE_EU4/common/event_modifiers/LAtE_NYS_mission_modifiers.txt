@@ -164,3 +164,26 @@ nys_common_understanding_raritan = {
 nys_common_understanding = {
 	global_unrest = -2
 }
+
+nys_liberty_reforms = {
+	num_accepted_cultures = 2
+	promote_culture_cost = -0.25
+	culture_conversion_cost = 0.1
+	global_missionary_strength = -0.02
+	tolerance_own = -1
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+}
+
+nys_critics_of_liberty = {
+	local_unrest = 2
+}
+
+nys_storm_brewing = {
+	local_missionary_strength = -0.1
+	local_unrest = 10
+}
+
+nys_uprising_minority_unrest = {
+	local_unrest = 2
+}

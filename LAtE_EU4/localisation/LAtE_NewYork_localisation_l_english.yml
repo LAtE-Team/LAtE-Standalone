@@ -42,6 +42,8 @@
 
 # Tooltips
  NYS_MILITIA:0 "When we go to war, the §YMinutemen§! will be available for hire in our capital."
+ NYS_LEGACY_LEVI_REMOVED:0 "§YLegacy of Levi§! will be removed from §YRaritan§!"
+ NYS_MINORITY_DISASTER_WARNING:0 "§RYou must quickly convert the local faith in Raritan or risk an uprising amongst your minority subjects!"
 
 # Tammany Mission Event
  nys_missions_unlocked:0 "New family-specific missions will be unlocked upon their respective elections"

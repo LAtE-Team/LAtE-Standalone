@@ -1,0 +1,57 @@
+ny_uprising_disaster = {
+	potential = {
+		tag = NYS
+		has_country_flag = nys_uprising_ticking
+		NOT = {
+			has_country_flag = nys_uprising_crushed
+		}
+	}
+
+	can_start = {
+		has_any_disaster = no
+		has_country_flag = nys_uprising_ticking
+	}
+
+	can_stop = {
+		has_any_disaster = yes
+	}
+
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = {
+				stability = 3
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			NOT = {
+				humanist_ideas = 7
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			NOT = {
+				religious_ideas = 7
+			}
+		}
+	}
+
+	can_end = {
+		religious_unity = 1
+		has_country_flag = nys_uprising_crushed
+	}
+
+	modifier = {
+		global_unrest = 5
+		diplomatic_reputation = -3
+	}
+
+	on_start = ny_events.13
+	on_end = ny_events.14
+
+	on_monthly = {
+	}
+}
