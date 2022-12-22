@@ -195,7 +195,7 @@ province_event = {
 		OR = {
 			area = weser_area
 			area = frisia_area
-			area = netherlands_area
+			# area = netherlands_area
 			area = flanders_area
 			area = picardy_area
 		}
@@ -1022,16 +1022,18 @@ province_event = {
 	
 	immediate = {
 		hidden_effect = {
-			clr_country_flag = sce_action01_flag
-			clr_country_flag = sce_action02_flag
-			clr_country_flag = sce_action03_flag
-			clr_country_flag = sce_action04_flag
-			clr_country_flag = sce_action05_flag
-			clr_country_flag = sce_action06_flag
-			clr_country_flag = sce_eventchain_flag
-			
-			set_country_flag = sce_end_rome_flag
-			remove_country_modifier = sce_search_rome
+			owner = {
+				clr_country_flag = sce_action01_flag
+				clr_country_flag = sce_action02_flag
+				clr_country_flag = sce_action03_flag
+				clr_country_flag = sce_action04_flag
+				clr_country_flag = sce_action05_flag
+				clr_country_flag = sce_action06_flag
+				clr_country_flag = sce_eventchain_flag
+				
+				set_country_flag = sce_end_rome_flag
+				remove_country_modifier = sce_search_rome
+			}
 		}
 	}
 	
@@ -1396,7 +1398,7 @@ province_event = {
 		OR = {
 			area = weser_area
 			area = frisia_area
-			area = netherlands_area
+			# area = netherlands_area
 			area = flanders_area
 			area = picardy_area
 		}
@@ -1464,7 +1466,7 @@ province_event = {
 		OR = {
 			area = weser_area
 			area = frisia_area
-			area = netherlands_area
+			# area = netherlands_area
 			area = flanders_area
 			area = picardy_area
 		}
@@ -1540,7 +1542,7 @@ province_event = {
 		OR = {
 			area = weser_area
 			area = frisia_area
-			area = netherlands_area
+			# area = netherlands_area
 			area = flanders_area
 			area = picardy_area
 		}
@@ -2668,9 +2670,11 @@ province_event = {
 		}
 		owner = {
 			OR = {
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -2729,10 +2733,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -2941,10 +2946,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -3013,10 +3019,11 @@ province_event = {
 			}
 			has_opinion = { who = FROM value = -50 }
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 		}
@@ -3091,10 +3098,11 @@ province_event = {
 		}
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -3218,10 +3226,11 @@ province_event = {
 		}
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -3264,10 +3273,11 @@ province_event = {
 				is_empty = no
 				owner = {
 					OR = {
-						technology_group = sub_saharan
-						technology_group = north_american
-						technology_group = mesoamerican
-						technology_group = south_american
+						technology_group = eastern
+						technology_group = western
+						technology_group = mexican
+						technology_group = brazilian
+						technology_group = caribbean
 						technology_group = andean
 					}
 					NOT = {
@@ -3304,10 +3314,11 @@ province_event = {
 				is_empty = no
 				owner = {
 					OR = {
-						technology_group = sub_saharan
-						technology_group = north_american
-						technology_group = mesoamerican
-						technology_group = south_american
+						technology_group = eastern
+						technology_group = western
+						technology_group = mexican
+						technology_group = brazilian
+						technology_group = caribbean
 						technology_group = andean
 					}
 				}
@@ -3412,10 +3423,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
+				technology_group = eastern
+				technology_group = western
+				technology_group = mexican
+				technology_group = brazilian
+				technology_group = caribbean
 				technology_group = andean
 			}
 			NOT = {
@@ -3494,10 +3506,12 @@ province_event = {
 			kill_leader = {
 				type = conquistador
 			}
-			add_country_modifier = {
-				name = sce_estevanico_timer
-				duration = 7300
-				hidden = yes
+			owner = {
+				add_country_modifier = {
+					name = sce_estevanico_timer
+					duration = 7300
+					hidden = yes
+				}
 			}
 		}
 	}

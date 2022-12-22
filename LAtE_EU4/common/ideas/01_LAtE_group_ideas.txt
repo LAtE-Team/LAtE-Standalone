@@ -637,3 +637,96 @@ jewish_ideas = {
 		enemy_core_creation = 1.0
 	}
 }
+
+pacific_northwest_ideas = {	#From Vanilla
+	start = {
+		naval_forcelimit_modifier = 0.25
+		land_morale = 0.10
+		may_perform_slave_raid = yes
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = cascadian
+			primary_culture = canuck
+			primary_culture = inlander
+			primary_culture = salish
+			primary_culture = haida
+		}
+		religion = raven_tales
+	}
+	
+	free = yes		#will be added at load.
+	
+	great_whale_hunts = {
+		discipline = 0.05
+	}
+	
+	dugout_canoes = { 
+		trade_range_modifier = 0.2
+	}
+	
+	totem_poles = {
+		diplomatic_reputation = 1
+	}
+	
+	potlatch_feast = {
+		global_own_trade_power = 0.1
+	}
+	
+	legacy_of_raven = {
+		leader_land_manuever = 1
+	}
+
+	salmon_migrations= {
+		global_trade_goods_size_modifier = 0.10
+	}
+	
+	noble_castes = { 
+		stability_cost_modifier = -0.1
+	}
+	
+}
+
+BRZ_ideas = {
+	start = {
+		hostile_attrition = 1
+		envoy_travel_time = -0.25
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	trigger = {
+		OR = {
+			tag = BRZ
+			culture_group = brazilian_culture_group
+		}
+	}
+	free = yes
+
+	governorate_general = {
+		global_tax_modifier = 0.1
+	}
+	research_of_nassau = {
+		global_institution_spread = 0.1
+	}
+	mines_of_minas_gerais = {
+		inflation_reduction = 0.1
+	}
+	halting_foreign_incursions = {
+		infantry_power = 0.1
+	}
+	entradas_and_bandeiras = {
+		core_creation = -0.15
+	}
+	inconfidencia_mineira = {
+		stability_cost_modifier = -0.1
+	}
+	old_seat_of_the_empire = {
+		legitimacy = 1
+	}
+}
