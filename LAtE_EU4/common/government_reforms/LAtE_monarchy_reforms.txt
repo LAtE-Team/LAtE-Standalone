@@ -206,7 +206,7 @@ maritimer_acadien_principality = {
 	custom_attributes = {
 		disables_estate_church = yes
 		disables_estate_nobles = yes
-		# disables_burghers = yes
+		disables_estate_burghers = yes
 	}
 }
 
