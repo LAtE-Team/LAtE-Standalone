@@ -2868,24 +2868,28 @@ ozarks_area = { #3
 	899 2509 2515
 }
 
-lower_plains_area = { #3
-	891 892 896
+lower_plains_area = { #4
+	891 892 896 5089
 }
 
-central_plains_area = { #5
-	898 901 903 2508 2672 
+central_plains_area = { #3 # Kansas
+	898 2672 5090
 }
+
+nebraska_area = { # 3
+	901 903 2508
+}  
 
 high_plains_area = { #5
 	889 890 2625 4884
 }
 
 dakota_area = { #5
-	906 907 909 2007
+	906 907 909 2007 5091
 }
 
 south_dakota_area = { #3
-	904 908 2512
+	908 2512 5093
 }
 
 upper_missouri_area = { #5
@@ -3454,18 +3458,26 @@ appalachia_area = { #Called "Vandalia"
 	951 2551 2526
 }
 the_gateway_area = {
-	4586 4585 4588 4597 2514
+	4586 4585 4597 2514
 }
 kentucky_area = { #3
 	940 4707 4708 4711 
 }
 
 mississippi_plain_area = { #Called Arkansas
-	894 895 897 4883
+	894 895 897
 }
 
 upper_louisiana_area = { #4
-	900 902 905 2513 
+	900 902 5092 5097
+}
+
+crowleys_ridge_area = {
+	4588 4883 5095 5096
+}
+
+iowa_area = {
+	904 905 2513 5094
 }
 
 lower_louisiana_area = { # 3

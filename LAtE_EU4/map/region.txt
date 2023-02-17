@@ -1236,9 +1236,10 @@ mississippi_region = {
 		uper_louisiana_area
 		mississippi_plain_area
 		ozarks_area
+		crowleys_ridge_area
+		iowa_area
 		#AtE Additions
 		the_gateway_area
-		lower_plains_area
 	}
 	monsoon = {
 		00.06.01
@@ -1254,6 +1255,8 @@ great_plains_region = {
 		south_dakota_area
 		upper_missouri_area
 		badlands_area
+		lower_plains_area
+		nebraska_area
 	}
 }
 

@@ -1,0 +1,13 @@
+owner = Y86
+controller = Y86
+add_core = Y86
+
+culture = grangelander
+religion = catholic
+is_city = yes
+
+
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1

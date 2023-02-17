@@ -1,0 +1,13 @@
+owner = Y53
+controller = Y53
+add_core = Y53
+
+culture = riverlander
+religion = catholic
+is_city = yes
+
+
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

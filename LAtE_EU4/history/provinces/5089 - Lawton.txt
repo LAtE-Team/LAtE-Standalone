@@ -1,0 +1,13 @@
+owner = Y82
+controller = Y82
+add_core = Y82
+
+culture = cherokee
+religion = catholic
+is_city = yes
+
+
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
