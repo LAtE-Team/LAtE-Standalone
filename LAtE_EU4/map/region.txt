@@ -1297,6 +1297,9 @@ cascadia_region = {
 		oregon_area_area
 		shasta_cascade_area
 		snake_river_area
+		middle_idaho_area
+		selkirk_area
+		yakama_area
 	}
 }
 

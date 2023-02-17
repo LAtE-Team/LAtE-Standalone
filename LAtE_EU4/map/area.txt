@@ -3511,11 +3511,15 @@ taylor_area = {
 }
 
 columbia_river_area = { 
-	2486 2488 4901 4902 4906
+	 2488 4902 4906 5107
 }
 
-oregon_area_area = { #4
-	872 2482 2483 873 4903
+yakama_area = {
+	2486 4901 5105 5106
+}
+
+oregon_area_area = { # 5
+	872 2482 873 4903 5098
 }
 
 interior_plateau_area = { #4
@@ -3527,7 +3531,11 @@ blue_mountains_area = {
 }
 
 bitteroot_area = {
-	4600 2003 2487 4599
+	4600 2003 5103
+}
+
+selkirk_area = {
+	2487 4599 5104
 }
 
 uunaay_area = {
@@ -3535,9 +3543,12 @@ uunaay_area = {
 }
 
 snake_river_area = { 
-	2019 2020 2489 
+	2020 5100 5101 5102
 }
 
+middle_idaho_area = {
+	2019 2489 5099
+}
 
 #The South
 
