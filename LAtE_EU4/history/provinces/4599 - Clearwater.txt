@@ -2,8 +2,8 @@ owner = SLB
 controller = SLB
 add_core = SLB
 
-culture = nez_perce
-religion = peyotist
+culture = inlander
+religion = gaian
 trade_goods = gold
 is_city = yes
 

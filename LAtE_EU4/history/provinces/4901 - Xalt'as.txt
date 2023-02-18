@@ -4,7 +4,7 @@ add_core = BMT
 
 culture = inlander
 religion = gaian
-trade_goods = naval_supplies
+trade_goods = wool
 is_city = yes
 
 

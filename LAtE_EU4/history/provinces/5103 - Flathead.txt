@@ -1,0 +1,13 @@
+owner = KOO
+controller = KOO
+add_core = KOO
+
+culture = ktunaxa
+religion = peyotist
+is_city = yes
+trade_goods = naval_supplies
+
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1

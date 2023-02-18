@@ -1,0 +1,13 @@
+owner = NBS
+controller = NBS
+add_core = NBS
+
+culture = mountainer
+religion = gaian
+is_city = yes
+
+
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1
