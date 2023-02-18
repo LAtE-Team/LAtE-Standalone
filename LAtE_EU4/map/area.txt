@@ -3461,7 +3461,11 @@ the_gateway_area = {
 	4586 4585 4597 2514
 }
 kentucky_area = { #3
-	940 4707 4708 4711 
+	4707  4711 5108
+}
+
+west_kentucky_area = {
+	940 4708 5109
 }
 
 mississippi_plain_area = { #Called Arkansas

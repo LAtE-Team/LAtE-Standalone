@@ -1629,6 +1629,7 @@ grand_virginia_region = {
 		great_valley_area
 		kentucky_area
 		kentuckiana_area
+		west_kentucky_area
 		appalachia_area
 		south_appalachia_area
 		choctaw_area
