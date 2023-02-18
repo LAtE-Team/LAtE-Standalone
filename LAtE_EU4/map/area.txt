@@ -303,7 +303,7 @@ guyenne_area = { #4
 # pyrenees_area = { #3
 
 languedoc_area = { #3
-	200 2753
+	200 2753 5110
 }
 
 bourgogne_area = { #4
@@ -329,6 +329,10 @@ seine_area = { #3 (Champagne and Ile de France)
 
 loire_area = { #4
 	177 178 179 184
+}
+
+pyrenees_area = { # 3
+	5111 5112 5113
 }
 
 ########################################
@@ -385,16 +389,24 @@ asturias_area = { #3
 	206 207 1745
 }
 
-basque_country = { #3
-	173 209 210
+basque_country = { #4
+	173 209 210 5115
 }
 
 leon_area = { #4
-	218 1747
+	218 1747 5119 5120
 }
 
 beieras_area = { #4
 	231 232 228 1851
+}
+
+castille_area = { #3
+	5121 5117 5118 
+}
+
+aragon_area = { #3
+	5116 5122 5114
 }
 
 alentejo_area = { #4
@@ -4115,18 +4127,13 @@ connacht_area = {}
 leinster_area = {}
 ulster_area = {}
 netherlands_area = {}
-castille_area = {}
 savoy_dauphine_area	= {}
 barbary_coast_area = {}
-castille_area	= {}
-aragon_area	= {}
 galicia_area	= {}
 baleares_area	= {}
 barbary_coast_area	= {}
-pyrenees_area	= {}
 poitou_area	= {}
 ile_de_france_area	= {}
-aragon_area	= {}
 nepal_area	= {}
 baisi_rajya_area	= {}
 mithila_area	= {}
