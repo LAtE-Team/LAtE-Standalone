@@ -22,6 +22,7 @@ france_region = {
 		seine_area
 		loire_area
 		bourgogne_area
+		romandie_area
 	}
 }
 
@@ -110,14 +111,13 @@ south_german_region = {
 		austria_proper_area
 		inner_austria_area
 		carinthia_area
-#		switzerland_area
+		switzerland_area
 		lower_bavaria_area
 		upper_bavaria_area
 		franconia_area
 		lower_swabia_area
 #		upper_swabia_area
 		upper_rhineland_area
-#		romandie_area
 		palatinate_area
 	}
 }

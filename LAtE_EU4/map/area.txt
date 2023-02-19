@@ -293,7 +293,7 @@ normandy_area = { #3
 }
 
 provence_area = { #3
-	201 2991
+	201 2991 5123
 }
 
 guyenne_area = { #4
@@ -425,12 +425,12 @@ venetia_area = { #4
 	108 111 112 1774
 }
 
-lombardy_area = { #4
-	109 1862
+lombardy_area = { #3
+	109 1862 5127
 }
 
-piedmont_area = { #4
-	1875 2979 2981
+piedmont_area = { #5
+	1875 2979 2981 5125 5126
 }
 
 tuscany_area = { #5
@@ -799,7 +799,7 @@ hinter_pommern_area = { #3
 }
 
 tirol_area = { #3
-	73
+	73 5135 5136
 }
 
 austria_proper_area = { #3
@@ -814,9 +814,13 @@ carinthia_area = { #3
 	129 130 1769
 }
 
-#switzerland_area = { #4
+switzerland_area = { #4
+	5131 5132 5133 5134
+}
 
-#romandie_area = { #3
+romandie_area = { #4
+	5124 5129 5128 5130
+}
 
 upper_rhineland_area = { #4
 	72 74 75
