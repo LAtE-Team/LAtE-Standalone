@@ -820,7 +820,7 @@ romandie_area = { #4
 }
 
 north_rhine_area = { #3
-	 78 80 1760
+	 80 1760 1761
 }
 
 luxemburg_liege_area = { #4
@@ -832,7 +832,7 @@ westphalia_area = { #5
 }
 
 hesse_area = { #4
-	79 81 83 1761 5156
+	78 79 81 83 5156
 }
 
 braunschweig_area = {

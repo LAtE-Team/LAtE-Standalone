@@ -90,10 +90,10 @@ north_german_region = {
 #		vorpommern_area
 		north_rhine_area
 #		lower_rhineland_area
-		westphalia_area
 		hesse_area
 		lower_saxony_area
 #		weser_area
+		westphalia_area
 		holstein_area
 		mecklenburg_area
 		braunschweig_area
@@ -332,21 +332,21 @@ persia_region = {
 		khuzestan_area
 		shahrizor_area
 		mogostan_area
+		birjand_area
+		merv_area
+		herat_area
+		mashhad_area
 	}
 }
 
 khorasan_region = {
 	areas = {
-		merv_area
-		balkh_area
 		kabulistan_area
 		ghor_area
 		sistan_area
 		makran_area
 		kalat_area
-		birjand_area
-		herat_area
-		mashhad_area
+		balkh_area
 	}
 }
 
@@ -604,17 +604,17 @@ west_siberia_region = {
 		ishim_area
 		kara_area
 		krasnoyarsk_area
+		yakutia_area
+		buryatia_area
 	}
 }
 
 east_siberia_region = {
 	areas = {
-		yakutia_area
 		sakha_area
 		okhotsk_area
 		magadan_area
 		kamchatka_area
-		buryatia_area
 		kolyma_area
 	}
 }
@@ -627,7 +627,6 @@ mongolia_region = {
 		zungaria_area
 		north_zungaria
 		altai_sayan_area
-		eastern_mongolia
 		central_mongolia_area
 		uliastai_area
 		turpan_kumul_area
@@ -645,6 +644,7 @@ manchuria_region = {
 		liaoning_area
 		ningguta_area
 		central_heilongjiang_area
+		eastern_mongolia
 	}
 }
 

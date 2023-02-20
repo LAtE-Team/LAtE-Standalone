@@ -6,10 +6,11 @@ india_superregion = {
 	west_india_region
 	deccan_region
 	coromandel_region
+	burma_region
+	khorasan_region
 }
 
 east_indies_superregion = {
-	burma_region
 	malaya_region
 	moluccas_region	
 	indonesia_region	
@@ -26,6 +27,7 @@ china_superregion = {
 	north_china_region
 	xinan_region
 	south_china_region
+	tibet_region
 }
 
 europe_superregion = { #Western Europe
@@ -53,20 +55,20 @@ eastern_europe_superregion = {
 	balkan_region
 	crimea_region
 	ural_region
+	caucasia_region
 }
 
 tartary_superregion = {
-	east_siberia_region
 	west_siberia_region
 	mongolia_region
 	central_asia_region
-	tibet_region
 }
 
 far_east_superregion = {
 	korea_region
 	japan_region
 	manchuria_region
+	east_siberia_region
 }
 
 africa_superregion = {
@@ -74,7 +76,6 @@ africa_superregion = {
 	guinea_region
 	sahel_region
 	horn_of_africa_region
-	maghreb_region
 }
 
 southern_africa_superregion = {
@@ -129,15 +130,8 @@ near_east_superregion = {
 	mashriq_region
 	arabia_region
 	egypt_region
-}
-
-persia_superregion = {
-
-	restrict_charter		# harder to get TC here.
-
-	khorasan_region
+	maghreb_region
 	persia_region
-	caucasia_region
 }
 
 new_world_superregion = {
