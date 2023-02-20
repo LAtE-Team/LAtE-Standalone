@@ -93,6 +93,15 @@ country_event = {
 		}
 	}
 
+	option = {
+		name = papal_stability.1.backup
+		trigger = {
+			NOT = { tag = PAP }
+			NOT = { religion = ursuline }
+			NOT = { religion = catholic }
+		}
+	}
+
 	after = {
 		set_country_flag = LAtE_PS_catholic_ordinate_contact_flag
 	}
