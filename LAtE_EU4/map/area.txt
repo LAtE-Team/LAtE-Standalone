@@ -594,11 +594,11 @@ greenland_area = { #2
 ########################################
 
 estonia_ingria_area = { #3
-	36 1842
+	36 1842 5165
 }
 
 livonia_area = { #3
-	37 38 
+	37 38 3054 5166
 }
 
 curonia_area = { #3
@@ -606,25 +606,23 @@ curonia_area = { #3
 }
 
 east_prussia_area = { #4
-	41
-}
-
-pomerelia_area = { #3 (North West Prussia)
-	43 
+	41 5164
 }
 
 west_prussia_area = { #3 (South West Prussia)
-	2997
+	43 2997
 }
 
-#wielkopolska_area = { #4
+wielkopolska_area = { #3
+	48 5153 5154
+}
 
 malopolska_area = { #5
-	262
+	262 5144 5155
 }
 
-red_ruthenia_area = { #4
-	2961
+red_ruthenia_area = { #3
+	2961 5142 5143
 }
 
 podolia_volhynia_area = { #4
@@ -634,23 +632,25 @@ podolia_volhynia_area = { #4
 #pripyat_area = { #3
 
 mazovia_area = { #4
-	257 1938
+	257 1938 5167
 }
 
 #samogitia_area = { #3
 
-#lithuania_area = { #3
+lithuania_area = { #3
+	5168 5169 5170 5171
+}
 
 west_dniepr_area = { #3 Right Bank Ukraine
 	280 1942 1944
 }
 
 east_dniepr_area = { #4 Left bank Ukraine
-	290 2407
+	290 2407 3044 3045 3046
 }
 
 sloboda_ukraine_area = {	 #3
-	291
+	291 3040 3041 3042 467
 }
 
 yedisan_area = { #3
@@ -690,7 +690,9 @@ novgorod_area = { #5
 	310 1959
 }
 
-#pskov_area = { #4
+pskov_area = { #3
+	3049 3050 3053
+}
 
 beloozero_area = { #4
 	312 314 2749 4117
@@ -701,7 +703,7 @@ astrakhan_area = { #5
 }
 
 lower_don_area = { #4
-	288 1971
+	288 1971 3091
 }
 
 kazan_area = { #3
@@ -741,7 +743,7 @@ kama_area = { #5
 }
 
 tambov_area = { #4
-	302 304 2415 
+	302 304 2415 3043
 }
 
 saratov_area = { #3
@@ -752,12 +754,12 @@ saratov_area = { #3
 # Germany			 				   #
 ########################################
 
-silesia_area = { #4
-	263
+silesia_area = { #3
+	264 5147 5148
 }
 
 bohemia_area = { #5
-	264 265
+	265 5149 5150 5151 5152
 }
 
 #erzgebirge_area = { #3
@@ -765,15 +767,7 @@ bohemia_area = { #5
 # south_saxony_area = { #3
 
 lower_bavaria_area = { #4
-	2956
-}
-
-upper_bavaria_area = {
-	65 76 2955
-}
-
-franconia_area = { #3
-	67 79
+	65 67 2955 2956
 }
 
 lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
@@ -790,25 +784,16 @@ lower_swabia_area = { #3 (incl Ansbach/Schwabishe Hall)
 
 #mittelmark_area = 
 
-vorpommern_area = { #3
-	47 
-}
-
-hinter_pommern_area = { #3
-	48
-}
-
+#vorpommern_area = {
+	
 tirol_area = { #3
 	73 5135 5136
 }
 
 austria_proper_area = { #3
-	134
+	76 132 134 
 }
 
-inner_austria_area = { #3
-	132
-}
 
 carinthia_area = { #3
 	129 130 1769
@@ -847,10 +832,12 @@ westphalia_area = { #5
 }
 
 hesse_area = { #4
-	81 83
+	79 81 83 5156
 }
 
-#braunschweig_area = { #3
+braunschweig_area = {
+	5157 5158 5159 5160 5161
+}
 
 weser_area = { #3
 	55 1874
@@ -861,11 +848,11 @@ holstein_area = { #3
 }
 
 lower_saxony_area = { #3
-	44 54 1857
+	54 1857 5162
 }
 
 mecklenburg_area = { #3
-	45 2996
+	45 47 2996
 }
 
 ########################################
@@ -897,17 +884,19 @@ wallachia_area = { #3
 }
 
 moldavia_area = { #3
-	268 1756 2405
+	268 1756 2405 5141
 }
 
 transylvania_area = { #4 #Northern Transylvania
-	157 4127
+	157 4127 5139 5140
 }
 
-#southern_transylvania_area = { #3
+southern_transylvania_area = { #3 # Banat
+	1954 5137 5138
+}
 
 slovakia_area = { #5
-	162 1318 1772
+	162 1318 1772 5145 5146
 }
 
 serbia_area = { #4
@@ -922,8 +911,8 @@ albania_area = {
 	143 4174 4175
 }
 
-bosnia_area = { #4
-	139 1828 1831 3002
+bosnia_area = { #5
+	139 140 1828 1831 3002
 }
 
 croatia_area = { #5 
@@ -934,8 +923,8 @@ east_adriatic_coast_area = { #3
 	136 137 1826
 }
 
-alfold_area = { #4
-	155 1953 1954 4125
+alfold_area = { #3
+	155 1953 4125
 }
 
 transdanubia_area = { #5
@@ -4185,7 +4174,7 @@ unused_provinces_area = {
 	#LAtE
 	49 50 51 52 53 57 58 59 60 61 62 63 66 68 69 71 77 82 85 86 92 96 98 103 104 107 131 154 156 158 165 166 175 176 181
 	187 188 196 198 202 204 205 208 211 214 215 216 217 254 255 258 266 267 269 270 272 273 274 275 276 277 278 279 289 292 
-	293 297 298 299 311 467 767 770 771 963 1742 1743 1746 1752 1757 1758 1759 1762 1763 1770 1771 1805 1834 1867 1868 1869 1870 
+	293 297 298 299 311 767 770 771 963 1742 1743 1746 1752 1757 1758 1759 1762 1763 1770 1771 1805 1834 1867 1868 1869 1870 
 	1871 1872 1873 1876 1878 1880 1931 1936 1937 1939 1941 1945 1951 1952 1960 2579 2751 2755 2957 2958 2959 2960 
 	2963 2964 2965 2966 2967 2968 2970 2971 2972 2973 2974 2975 2987 2989 2990 4112 4115 4116 4128 4148 4157 4160 4162 4173 4236
 	4238 4239 4609 

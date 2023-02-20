@@ -388,7 +388,7 @@ impassable = {
 	#After the End Additions
 	4510 4602 4603 4605 936 2552 4857 4734 4905 4904
 	#European Wastelands
-	271 140 4154 2969
+	271 4154 2969
 }
 
 mild_monsoon = {

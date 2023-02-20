@@ -87,9 +87,7 @@ north_german_region = {
 #		thuringia_area
 #		neumark_area
 #		mittelmark_area
-		vorpommern_area
-		bohemia_area
-		hinter_pommern_area
+#		vorpommern_area
 		north_rhine_area
 		lower_rhineland_area
 		westphalia_area
@@ -98,7 +96,7 @@ north_german_region = {
 		weser_area
 		holstein_area
 		mecklenburg_area
-#		braunschweig_area
+		braunschweig_area
 	}
 }
 
@@ -113,8 +111,8 @@ south_german_region = {
 		carinthia_area
 		switzerland_area
 		lower_bavaria_area
-		upper_bavaria_area
-		franconia_area
+#		upper_bavaria_area
+#		franconia_area
 		lower_swabia_area
 #		upper_swabia_area
 		upper_rhineland_area
@@ -127,7 +125,7 @@ russia_region = {
 		moscow_area
 		suzdal_area
 		novgorod_area
-#		pskov_area
+		pskov_area
 		beloozero_area
 		pomor_area
 		karelia_area
@@ -188,24 +186,29 @@ british_isles_region = {
 
 baltic_region = {
 	areas = {
-#		lithuania_area
+		lithuania_area
 		livonia_area
 		estonia_ingria_area
 		curonia_area
-		west_prussia_area
 		east_prussia_area
-		pomerelia_area
+#		pomerelia_area
 #		samogitia_area
 	}
 }
 
 poland_region = {
 	areas = {
-#		wielkopolska_area
+		wielkopolska_area
 		malopolska_area
 		red_ruthenia_area
 		mazovia_area
 		silesia_area
+		bohemia_area
+		west_prussia_area
+		transdanubia_area
+		alfold_area
+		slovakia_area
+		transylvania_area
 		
 	}
 }
@@ -215,21 +218,14 @@ ruthenia_region = {
 		west_dniepr_area
 		east_dniepr_area
 		sloboda_ukraine_area
+		zaporizhia_area
+		crimea_area
+		lower_don_area
+		yedisan_area
 #		white_ruthenia_area
 		podolia_volhynia_area
 #		pripyat_area
 
-	}
-}
-
-crimea_region = {
-	areas = {
-		crimea_area
-		lower_don_area
-		astrakhan_area
-		zaporizhia_area
-		yedisan_area
-		azov_area
 	}
 }
 
@@ -247,16 +243,7 @@ balkan_region = {
 #		western_aegean_area
 		thrace_area
 		albania_area
-	}
-}
-
-carpathia_region = {
-	areas = {
-		transdanubia_area
-		alfold_area
-		slovakia_area
-		transylvania_area
-#		southern_transylvania_area
+		southern_transylvania_area
 		wallachia_area
 		moldavia_area
 	}
@@ -370,6 +357,8 @@ caucasia_region = {
 		imereti_area
 		samtskhe_area
 		kartli_kakheti_area
+		astrakhan_area
+		azov_area
 	}
 }
 
