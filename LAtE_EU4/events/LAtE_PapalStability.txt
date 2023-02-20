@@ -415,7 +415,7 @@ country_event = {
 	}
 }
 
-#Discover of the Old World
+#Discovery of the Old World
 country_event = {
 	id = papal_stability.10
 	title = papal_stability.10.t
