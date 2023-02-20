@@ -17,7 +17,7 @@ france_region = {
 		languedoc_area
 		massif_central_area
 		#savoy_dauphine_area
-		#lorraine_area
+		lorraine_area
 		picardy_area
 		seine_area
 		loire_area
@@ -89,36 +89,36 @@ north_german_region = {
 #		mittelmark_area
 #		vorpommern_area
 		north_rhine_area
-		lower_rhineland_area
+#		lower_rhineland_area
 		westphalia_area
 		hesse_area
 		lower_saxony_area
-		weser_area
+#		weser_area
 		holstein_area
 		mecklenburg_area
 		braunschweig_area
-	}
-}
-
-
-
-
-south_german_region = {
-	areas = { 
 		tirol_area
 		austria_proper_area
 		inner_austria_area
-		carinthia_area
 		switzerland_area
 		lower_bavaria_area
-#		upper_bavaria_area
-#		franconia_area
 		lower_swabia_area
-#		upper_swabia_area
-		upper_rhineland_area
-		palatinate_area
 	}
 }
+
+
+
+
+#south_german_region = {
+#	areas = { 
+		
+#		upper_bavaria_area
+#		franconia_area
+#		upper_swabia_area
+#		upper_rhineland_area
+#		palatinate_area
+#	}
+#}
 
 russia_region = {
 	areas = {
@@ -132,6 +132,7 @@ russia_region = {
 		ryazan_area
 		tambov_area
 		north_karelia
+		smolensk_area
 	}
 }
 
@@ -191,6 +192,8 @@ baltic_region = {
 		estonia_ingria_area
 		curonia_area
 		east_prussia_area
+		white_ruthenia_area
+		polesia_area
 #		pomerelia_area
 #		samogitia_area
 	}
@@ -222,7 +225,6 @@ ruthenia_region = {
 		crimea_area
 		lower_don_area
 		yedisan_area
-#		white_ruthenia_area
 		podolia_volhynia_area
 #		pripyat_area
 
@@ -246,6 +248,7 @@ balkan_region = {
 		southern_transylvania_area
 		wallachia_area
 		moldavia_area
+		carinthia_area
 	}
 }
 
