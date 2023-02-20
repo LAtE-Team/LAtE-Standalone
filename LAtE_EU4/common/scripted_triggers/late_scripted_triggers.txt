@@ -118,7 +118,7 @@ LAtE_has_any_exploration_idea = {
 	}
 }
 
-LAtE_papal_stabillity_trigger = {
+LAtE_in_america_trigger = {
 	OR = {
 		capital_scope = {
 			continent = north_america

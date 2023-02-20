@@ -1,5 +1,5 @@
 ##############################
-# Catholic Events		     #
+# Papal Stability Events     #
 #                            #
 # Written by Technecian 	 #
 ##############################
@@ -56,12 +56,12 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
-		LAtE_papal_stabillity_trigger = yes
+		LAtE_in_america_trigger = yes
 		OR = {
 			religion = catholic
 			religion = ursuline
 		}
-		NOT = { has_country_flag = catholic_ordinate_contact_flag }
+		NOT = { has_country_flag = LAtE_PS_catholic_ordinate_contact_flag }
 		NOT = { is_year = 3060 }
 	}
 
@@ -94,7 +94,7 @@ country_event = {
 	}
 
 	after = {
-		set_country_flag = catholic_ordinate_contact_flag
+		set_country_flag = LAtE_PS_catholic_ordinate_contact_flag
 	}
 }
 
@@ -107,7 +107,7 @@ country_event = {
 
 	trigger = {
 		tag = PAP
-		NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+		NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag }
 		4563 = {
 			NOT = { religion = catholic }
 			owner = {
@@ -122,7 +122,7 @@ country_event = {
 	}
 
 	after = {
-		set_global_flag = catholic_lost_control_of_chicago_flag
+		set_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		every_known_country = {
 			limit = {
 				religion = catholic
@@ -152,7 +152,7 @@ country_event = {
 
 	trigger = {
 		tag = PAP
-		has_global_flag = catholic_lost_control_of_chicago_flag
+		has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		4563 = {
 			religion = catholic
 			owner = {
@@ -167,7 +167,7 @@ country_event = {
 	}
 
 	after = {
-		clr_global_flag = catholic_lost_control_of_chicago_flag
+		clr_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		every_known_country = {
 			limit = {
 				religion = catholic
@@ -187,20 +187,20 @@ country_event = {
 	desc = {
 		trigger = {
 			religion = catholic
-			has_global_flag = catholic_lost_control_of_chicago_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		}
 		desc = papal_stability.4.catholic.d
 	}
 	desc = {
 		trigger = {
 			NOT = { religion = catholic }
-			has_global_flag = catholic_lost_control_of_chicago_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		}
 		desc = papal_stability.4.enemy.d
 	}
 	desc = {
 		trigger = {
-			NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+			NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag }
 		}
 		desc = papal_stability.4.regained.d
 	}
@@ -212,7 +212,7 @@ country_event = {
 		name = papal_stability.4.catholic.o
 		trigger = {
 			religion = catholic
-			has_global_flag = catholic_lost_control_of_chicago_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		}
 	}
 
@@ -220,14 +220,14 @@ country_event = {
 		name = papal_stability.4.enemy.o
 		trigger = {
 			NOT = { religion = catholic }
-			has_global_flag = catholic_lost_control_of_chicago_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag
 		}
 	}
 
 	option = {
 		name = papal_stability.4.regained.o
 		trigger = {
-			NOT = { has_global_flag = catholic_lost_control_of_chicago_flag }
+			NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_chicago_flag }
 		}
 	}
 }
@@ -241,7 +241,7 @@ country_event = {
 
 	trigger = {
 		tag = PAP
-		NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+		NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag }
 		texas_region = {
 			type = all
 			NOT = { religion = catholic }
@@ -257,7 +257,7 @@ country_event = {
 	}
 
 	after = {
-		set_global_flag = catholic_lost_control_of_texas_flag
+		set_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		every_known_country = {
 			limit = {
 				religion = catholic
@@ -290,7 +290,7 @@ country_event = {
 
 	trigger = {
 		tag = PAP
-		has_global_flag = catholic_lost_control_of_texas_flag
+		has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		texas_region = {
 			type = all
 			religion = catholic
@@ -306,7 +306,7 @@ country_event = {
 	}
 
 	after = {
-		clr_global_flag = catholic_lost_control_of_texas_flag
+		clr_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		every_known_country = {
 			limit = {
 				religion = catholic
@@ -319,27 +319,27 @@ country_event = {
 	}
 }
 
-#Chicago Announcement
+#Texas Announcement
 country_event = {
 	id = papal_stability.7
 	title = papal_stability.7.t
 	desc = {
 		trigger = {
 			religion = catholic
-			has_global_flag = catholic_lost_control_of_texas_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		}
 		desc = papal_stability.7.catholic.d
 	}
 	desc = {
 		trigger = {
 			NOT = { religion = catholic }
-			has_global_flag = catholic_lost_control_of_texas_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		}
 		desc = papal_stability.7.enemy.d
 	}
 	desc = {
 		trigger = {
-			NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+			NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag }
 		}
 		desc = papal_stability.7.regained.d
 	}
@@ -351,7 +351,7 @@ country_event = {
 		name = papal_stability.7.catholic.o
 		trigger = {
 			religion = catholic
-			has_global_flag = catholic_lost_control_of_texas_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		}
 	}
 
@@ -359,14 +359,14 @@ country_event = {
 		name = papal_stability.7.enemy.o
 		trigger = {
 			NOT = { religion = catholic }
-			has_global_flag = catholic_lost_control_of_texas_flag
+			has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag
 		}
 	}
 
 	option = {
 		name = papal_stability.7.regained.o
 		trigger = {
-			NOT = { has_global_flag = catholic_lost_control_of_texas_flag }
+			NOT = { has_global_flag = LAtE_PS_catholic_lost_control_of_texas_flag }
 		}
 	}
 }
@@ -401,6 +401,7 @@ country_event = {
 	}
 }
 
+#Papacy ended announcement
 country_event = {
 	id = papal_stability.9
 	title = papal_stability.9.t
@@ -425,7 +426,7 @@ country_event = {
 
 	trigger = {
 		religion = catholic
-		LAtE_papal_stabillity_trigger = yes
+		LAtE_in_america_trigger = yes
 		europe_superregion = {
 			has_discovered = ROOT
 		}
@@ -436,7 +437,7 @@ country_event = {
 	}
 
 	immediate = {
-		set_global_flag = catholic_discovered_old_world_flag
+		set_global_flag = LAtE_PS_catholic_discovered_old_world_flag
 	}
 
 	option = {
@@ -479,7 +480,7 @@ province_event = {
 
 	trigger = {
 		religion = catholic
-		has_global_flag = catholic_discovered_old_world_flag
+		has_global_flag = LAtE_PS_catholic_discovered_old_world_flag
 		owner = {
 			religion = catholic
 			NOT = { tag = PAP }
@@ -491,12 +492,12 @@ province_event = {
 		OR = {
 			AND = {
 				NOT = { reform_desire = 30 }
-				NOT = { has_global_flag = neoroman_enabled_flag }
+				NOT = { has_global_flag = LAtE_PS_neoroman_enabled_flag }
 			}
 			AND = {
 				NOT = { reform_desire = 15 }
-				has_global_flag = neoroman_enabled_flag
-				NOT = { has_global_flag = neoroman_expanded_flag }
+				has_global_flag = LAtE_PS_neoroman_enabled_flag
+				NOT = { has_global_flag = LAtE_PS_neoroman_expanded_flag }
 			}
 		}
 	}
@@ -514,15 +515,15 @@ province_event = {
 		change_religion = sedevacanist
 		if = {
 			limit = {
-				NOT = { has_global_flag = neoroman_enabled_flag }
+				NOT = { has_global_flag = LAtE_PS_neoroman_enabled_flag }
 			}
-			set_global_flag = neoroman_enabled_flag
+			set_global_flag = LAtE_PS_neoroman_enabled_flag
 		}
 		else_if = {
 			limit = { 
-				NOT = { has_global_flag = neoroman_expanded_flag }
+				NOT = { has_global_flag = LAtE_PS_neoroman_expanded_flag }
 			}
-			set_global_flag = neoroman_expanded_flag
+			set_global_flag = LAtE_PS_neoroman_expanded_flag
 		}
 	}
 
@@ -590,10 +591,11 @@ country_event = {
 		desc = papal_stability.14.heathen.d
 	}
 	picture = RELIGION_eventPicture
+	fire_only_once = yes
 
 	trigger = {
-		has_global_flag = catholic_discovered_old_world_flag
-		LAtE_papal_stabillity_trigger = yes
+		has_global_flag = LAtE_PS_catholic_discovered_old_world_flag
+		LAtE_in_america_trigger = yes
 		has_discovered = 118 #Rome
 	}
 
@@ -610,6 +612,7 @@ country_event = {
 		trigger = {
 			religion = catholic
 		}
+		add_reform_desire = 0.05
 	}
 
 	option = {
@@ -618,6 +621,7 @@ country_event = {
 			NOT = { religion = catholic }
 			religion_group = christian
 		}
+		add_reform_desire = -0.05
 	}
 
 	option = {
@@ -625,6 +629,7 @@ country_event = {
 		trigger = {
 			NOT = { religion_group = christian }
 		}
+		add_reform_desire = -0.1
 	}
 
 	after = {
@@ -704,8 +709,8 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
-		has_global_flag = catholic_discovered_old_world_flag
-		LAtE_papal_stabillity_trigger = yes
+		has_global_flag = LAtE_PS_catholic_discovered_old_world_flag
+		LAtE_in_america_trigger = yes
 		owns_or_non_sovereign_subject_of = 118
 		118 = {
 			religion = root
@@ -714,16 +719,16 @@ country_event = {
 		OR = {
 			AND = {
 				religion = catholic
-				NOT = { has_global_flag = catholic_owns_rome }
+				NOT = { has_global_flag = LAtE_PS_catholic_owns_rome }
 			}
 			AND = {
 				NOT = { religion = catholic }
 				religion_group = christian
-				NOT = { has_global_flag = christian_owns_rome }
+				NOT = { has_global_flag = LAtE_PS_christian_owns_rome }
 			}
 			AND = {
 				NOT = { religion_group = christian }
-				NOT = { has_global_flag = heathen_owns_rome }
+				NOT = { has_global_flag = LAtE_PS_heathen_owns_rome }
 			}
 		}
 	}
@@ -737,26 +742,26 @@ country_event = {
 			limit = {
 				religion = catholic
 			}
-			set_global_flag = catholic_owns_rome
-			clr_global_flag = christian_owns_rome
-			clr_global_flag = heathen_owns_rome
+			set_global_flag = LAtE_PS_catholic_owns_rome
+			clr_global_flag = LAtE_PS_christian_owns_rome
+			clr_global_flag = LAtE_PS_heathen_owns_rome
 		}
 		if = {
 			limit = {
 				NOT = { religion = catholic }
 				religion_group = christian
 			}
-			clr_global_flag = catholic_owns_rome
-			set_global_flag = christian_owns_rome
-			clr_global_flag = heathen_owns_rome
+			clr_global_flag = LAtE_PS_catholic_owns_rome
+			set_global_flag = LAtE_PS_christian_owns_rome
+			clr_global_flag = LAtE_PS_heathen_owns_rome
 		}
 		if = {
 			limit = {
 				NOT = { religion_group = christian }
 			}
-			clr_global_flag = catholic_owns_rome
-			clr_global_flag = christian_owns_rome
-			set_global_flag = heathen_owns_rome
+			clr_global_flag = LAtE_PS_catholic_owns_rome
+			clr_global_flag = LAtE_PS_christian_owns_rome
+			set_global_flag = LAtE_PS_heathen_owns_rome
 		}
 	}
 
@@ -844,8 +849,8 @@ country_event = {
 	picture = RELIGION_eventPicture
 
 	trigger = {
-		has_global_flag = catholic_discovered_old_world_flag
-		LAtE_papal_stabillity_trigger = yes
+		has_global_flag = LAtE_PS_catholic_discovered_old_world_flag
+		LAtE_in_america_trigger = yes
 		tag = PAP
 	}
 
@@ -884,48 +889,3 @@ country_event = {
 		name = papal_stability.19.a
 	}
 }
-
-
-# Simony
-# country_event = {
-# 	id = papal_stability.4
-# 	title = papal_stability.4.t
-# 	desc = papal_stability.4.d
-# 	picture = RELIGION_eventPicture
-	
-# 	is_triggered_only = yes
-	
-# 	trigger = {
-# 		religion = catholic
-# 		NOT = { is_religion_enabled = protestant }
-# 		NOT = { tag = PAP }
-# 		NOT = {
-# 			has_global_flag = pap_disables_simony_flag
-# 		}
-# 	}
-	
-# 	mean_time_to_happen = {
-# 		days = 1
-		
-# 	}
-# 	option = {
-# 		name = papal_stability.4.a
-# 		ai_chance = {
-# 			factor = 10
-# 			modifier = {
-# 				factor = 5
-# 				has_global_flag = borgia_pope_global
-# 			}
-# 		}
-# 		add_years_of_income = 0.2
-# 		add_reform_desire = 0.002
-# 	}
-# 	option = {
-# 		name = papal_stability.4.b
-# 		ai_chance = {
-# 			factor = 10
-# 		}
-# 		add_papal_influence = 10
-# 		add_devotion = 1
-# 	}
-# }
