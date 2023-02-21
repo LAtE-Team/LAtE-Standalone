@@ -24,3 +24,8 @@ add_core= FRA
 native_size = 5
 native_ferocity = 10
 native_hostileness = 10
+
+add_province_modifier = {
+	name = ruins_modifier_1
+	duration = -1
+}

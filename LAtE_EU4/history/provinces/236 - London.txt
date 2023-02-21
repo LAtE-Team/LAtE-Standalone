@@ -33,3 +33,8 @@ center_of_trade = 2
 native_size = 5
 native_ferocity = 1
 native_hostileness = 3
+
+add_province_modifier = {
+	name = ruins_modifier_1
+	duration = -1
+}
