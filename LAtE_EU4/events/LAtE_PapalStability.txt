@@ -8,26 +8,26 @@ namespace = papal_stability
 
 #0-10 Opening and Control of Texas/Chicago
 
-country_event = {
-	id = papal_stability.0
-	title = papal_stability.0.t
-	desc = papal_stability.0.d
+# country_event = {
+# 	id = papal_stability.0
+# 	title = papal_stability.0.t
+# 	desc = papal_stability.0.d
 
-	fire_only_once = yes
-	hidden = yes
+# 	fire_only_once = yes
+# 	hidden = yes
 
-	trigger = {
-		tag = PAP
-	}
+# 	trigger = {
+# 		tag = PAP
+# 	}
 
-	immediate = {
-		add_reform_desire = -1
-	}
+# 	immediate = {
+# 		add_reform_desire = -2
+# 	}
 
-	option = {
-		name = papal_stability.0.a
-	}
-}
+# 	option = {
+# 		name = papal_stability.0.a
+# 	}
+# }
 
 #Ordinate - Catholic Contact, Game Start event
 country_event = {
@@ -74,7 +74,7 @@ country_event = {
 		trigger = {
 			tag = PAP
 		}
-		add_reform_desire = -0.2
+		add_reform_desire = 0.2
 	}
 
 	option = {
@@ -127,7 +127,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.2.a
-		add_reform_desire = -0.1
+		add_reform_desire = 0.1
 	}
 
 	after = {
@@ -172,7 +172,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.3.a
-		add_reform_desire = 0.1
+		add_reform_desire = -0.1
 	}
 
 	after = {
@@ -262,7 +262,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.5.a
-		add_reform_desire = -0.2
+		add_reform_desire = 0.2
 	}
 
 	after = {
@@ -311,7 +311,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.6.a
-		add_reform_desire = 0.2
+		add_reform_desire = -0.2
 	}
 
 	after = {
@@ -394,7 +394,7 @@ country_event = {
 	option = {
 		name = papal_stability.8.a
 		PAP = { set_papacy_active = no }
-		add_reform_desire = -10
+		add_reform_desire = 10
 	}
 
 	after = {
@@ -500,11 +500,11 @@ province_event = {
 		}
 		OR = {
 			AND = {
-				NOT = { reform_desire = 30 }
+				reform_desire = 0.70
 				NOT = { has_global_flag = LAtE_PS_neoroman_enabled_flag }
 			}
 			AND = {
-				NOT = { reform_desire = 15 }
+				reform_desire = 0.85
 				has_global_flag = LAtE_PS_neoroman_enabled_flag
 				NOT = { has_global_flag = LAtE_PS_neoroman_expanded_flag }
 			}
@@ -621,7 +621,7 @@ country_event = {
 		trigger = {
 			religion = catholic
 		}
-		add_reform_desire = 0.05
+		add_reform_desire = -0.05
 	}
 
 	option = {
@@ -630,7 +630,7 @@ country_event = {
 			NOT = { religion = catholic }
 			religion_group = christian
 		}
-		add_reform_desire = -0.05
+		add_reform_desire = 0.05
 	}
 
 	option = {
@@ -638,7 +638,7 @@ country_event = {
 		trigger = {
 			NOT = { religion_group = christian }
 		}
-		add_reform_desire = -0.1
+		add_reform_desire = 0.1
 	}
 
 	after = {
@@ -779,7 +779,7 @@ country_event = {
 		trigger = {
 			religion = catholic
 		}
-		add_reform_desire = 0.1
+		add_reform_desire = -0.1
 	}
 
 	option = {
@@ -788,7 +788,7 @@ country_event = {
 			NOT = { religion = catholic }
 			religion_group = christian
 		}
-		add_reform_desire = -0.1
+		add_reform_desire = 0.1
 	}
 
 	option = {
@@ -796,7 +796,7 @@ country_event = {
 		trigger = {
 			NOT = { religion_group = christian }
 		}
-		add_reform_desire = -0.2
+		add_reform_desire = 0.2
 	}
 
 	after = {
@@ -869,7 +869,7 @@ country_event = {
 
 	option = {
 		name = papal_stability.18.a
-		add_reform_desire = -0.1
+		add_reform_desire = 0.1
 	}
 
 	after = {

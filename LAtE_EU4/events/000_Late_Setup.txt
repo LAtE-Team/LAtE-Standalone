@@ -11,6 +11,7 @@ country_event = {
 	fire_only_once = yes
 	
 	immediate = {
+		add_reform_desire = -2
 		every_country = {
 			change_estate_land_share = {
 				estate = all

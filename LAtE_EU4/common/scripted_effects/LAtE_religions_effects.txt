@@ -67,5 +67,3 @@ rust_cultist_reduce_effect = {
 
 	custom_tooltip = RUST_CULTIST_REDUCE_TT
 }
-
-add_papal_stability = {}

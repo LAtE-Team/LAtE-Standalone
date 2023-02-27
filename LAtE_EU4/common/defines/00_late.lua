@@ -72,3 +72,5 @@ NDefines.NFrontend.CREDITS_POS_Z = 1508.0
 NDefines.NFrontend.CREDITS_LOOK_X = 3080.0
 NDefines.NFrontend.CREDITS_LOOK_Y = 19.0	
 NDefines.NFrontend.CREDITS_LOOK_Z = 1720.0
+
+NDefines.NReligion.REFORM_DESIRE_PER_YEAR = -0.002
