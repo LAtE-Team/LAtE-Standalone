@@ -118,7 +118,6 @@ nys_wayne_tree = {
 					exists = COA
 				}
 			}
-
 		}
 		effect = {
 			4582 = {
@@ -135,13 +134,13 @@ nys_wayne_tree = {
 					exists = COA
 				}
 				COA = {
-					add_treasury = -100
 					add_opinion = {
 						who = NYS
 						modifier = nys_laid_claims
 					}
 				}
 			}
+			add_treasury = -100
 		}
 	}
 	nys_redcoat_lessons = {
@@ -215,7 +214,7 @@ nys_wayne_tree = {
 			}
 		}
 	}
-	nys_anabaptist_heresy = {
+	nys_anabaptist_heresy = { # FOR LOC: This is House Wayne's initiative. It shouldn't really clash too much with the religious branch (House Levi)
 		icon = mission_assemble_an_army
 		required_missions = {
 			nys_growing_tensions
@@ -1059,6 +1058,22 @@ NewYork_Missions_5 = { # Culture and legislation
 				}
 			}
 			
+		}
+	}
+	### MORE MISSIONS HERE
+	nys_confront_agitators = {
+		icon = mission_alliances
+		required_missions = {
+
+		}
+		trigger = {
+			dynasty = "Levi"
+			war_exhaustion = 2
+		}
+		effect = {
+			country_event = {
+				id = ny_events.15
+			}
 		}
 	}
 }

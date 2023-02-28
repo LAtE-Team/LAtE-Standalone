@@ -308,6 +308,11 @@ country_event = {
 	
 	option = {
 		name = ny_events.1.a
+		trigger = {
+			NOT = {
+				has_country_flag = nys_wayne_disabled
+			} 
+		}
 		ai_chance = {
 			factor = 0
 		}
@@ -347,18 +352,41 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		random_list = {
-			25 = { 
-				set_ruler = lottery_candidate_a_@ROOT 
+		if = {
+			limit = {
+				not = {
+					has_country_flag = nys_wayne_disabled
+				}
 			}
-			25 = { 
-				set_ruler = lottery_candidate_b_@ROOT 
+			random_list = {
+				25 = { 
+					set_ruler = lottery_candidate_a_@ROOT 
+				}
+				25 = { 
+					set_ruler = lottery_candidate_b_@ROOT 
+				}
+				25 = { 
+					set_ruler = lottery_candidate_c_@ROOT 
+				}
+				25 = { 
+					set_ruler = lottery_candidate_d_@ROOT 
+				}
 			}
-			25 = { 
-				set_ruler = lottery_candidate_c_@ROOT 
+		}
+		else_if = {
+			limit = {
+				has_country_flag = nys_wayne_disabled
 			}
-			25 = { 
-				set_ruler = lottery_candidate_d_@ROOT 
+			random_list = {
+				33 = { 
+					set_ruler = lottery_candidate_b_@ROOT 
+				}
+				33 = { 
+					set_ruler = lottery_candidate_c_@ROOT 
+				}
+				33 = { 
+					set_ruler = lottery_candidate_d_@ROOT 
+				}
 			}
 		}
 		add_republican_tradition = 15
@@ -934,5 +962,32 @@ country_event = { # Uprising disaster end
 			}
 		}
 		set_country_flag = nys_uprising_crushed
+	}
+}
+
+country_event = { # Confront agitators - House Wayne offers a bargain. Maybe make the severity of the options vary depending on ruler personality?
+	id = ny_events.15
+	title = ny_events.15.t
+	desc = ny_events.15.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { # Default option
+		name = ny_events.15.a # Stand our ground, change our country's stance on war. Internal growth takes priority
+	}
+	option = {
+		name = ny_events.15.b # Hear them out...
+	}
+	option = {
+		name = ny_events.15.c # End House Wayne
+		# trigger = {
+		# 	OR = {
+		# 		ruler_has_personality = cruel_personality
+		# 		ruler_has_personality = malevolent_personality
+		# 		ruler_has_personality = sinner_personality
+		# 		ruler_has_personality = embezzler_personality
+		# 	}
+		# }
+		set_country_flag = nys_wayne_disabled
 	}
 }
