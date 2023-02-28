@@ -497,6 +497,7 @@ NewYork_Missions_3 = { # Tammany
 			nys_formalise_the_militia
 			nys_infrastructure_plan
 			nys_overseas_investments
+			nys_common_understanding
 		}
 		trigger = {
 			NOT = {
@@ -1027,6 +1028,37 @@ NewYork_Missions_5 = { # Culture and legislation
 				id = ny_events.12
 				days = 365
 			}
+		}
+	}
+	nys_commitment_to_peace = {
+		icon = mission_alliances
+		position = 8
+		required_missions = {
+			nys_tammany_republic
+		}
+		trigger = {
+			NOT = {
+				AND = {
+					has_disaster = ny_uprising_disaster
+					is_at_war = yes
+				}
+			}
+			stability = 3
+		}
+		effect = {
+			add_adm_power = 75
+			custom_tooltip = NY_UPRISING_PREVENTED_TOOLTIP
+			hidden_effect = {
+				if = {
+					limit = {
+						not = {
+							has_country_flag = nys_uprising_crushed
+						}
+					}
+					set_country_flag = nys_disaster_prevented
+				}
+			}
+			
 		}
 	}
 }

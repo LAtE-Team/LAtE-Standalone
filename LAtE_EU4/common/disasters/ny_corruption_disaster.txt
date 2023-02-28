@@ -1,4 +1,4 @@
-ny_corruption_disaster = { # Corruption will build up as you progress down the family trees (planned). If/when this reaches a set level, the families will begin to revolt
+#ny_corruption_disaster = { # Corruption will build up as you progress down the family trees (planned). If/when this reaches a set level, the families will begin to revolt
 						   # Perhaps a stab hit, noble rebel uprisings, opinion debuffs with your trade league?
 
-}
+#}

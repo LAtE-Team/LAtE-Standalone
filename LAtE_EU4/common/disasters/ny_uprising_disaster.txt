@@ -3,7 +3,10 @@ ny_uprising_disaster = {
 		tag = NYS
 		has_country_flag = nys_uprising_ticking
 		NOT = {
-			has_country_flag = nys_uprising_crushed
+			AND = {
+				has_country_flag = nys_disaster_prevented
+				has_country_flag = nys_uprising_crushed
+			}
 		}
 	}
 
