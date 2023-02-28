@@ -1,5 +1,5 @@
 # Everglades
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 153 171 219 }
 

@@ -1,5 +1,5 @@
 # Coosa
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 115 177 122 }
 

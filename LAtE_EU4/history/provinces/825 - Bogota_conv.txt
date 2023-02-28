@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = BRZ
 controller = BRZ
 add_core = BRZ

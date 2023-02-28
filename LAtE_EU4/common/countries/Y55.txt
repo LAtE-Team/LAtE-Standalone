@@ -1,5 +1,5 @@
 # Lead Belt
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 138 121 149 }
 

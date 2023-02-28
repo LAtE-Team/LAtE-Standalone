@@ -1,5 +1,5 @@
 # Cayuga
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 95 102 197 }
 

@@ -1,5 +1,5 @@
 # Bermuda
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 234 27 76 }
 

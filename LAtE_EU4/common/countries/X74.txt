@@ -1,5 +1,5 @@
 # Camagüey
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 109 154 173 }
 

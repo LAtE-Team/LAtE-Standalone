@@ -1,5 +1,5 @@
 # Osceola
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 211 181 118 }
 

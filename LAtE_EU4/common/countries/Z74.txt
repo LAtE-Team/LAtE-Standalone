@@ -1,5 +1,5 @@
 # Ogeechee
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 210 190 75 }
 

@@ -1,5 +1,5 @@
 # Danville
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 200 180 120 }
 

@@ -1,5 +1,5 @@
 # Transpecos
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 119 197 14 }
 

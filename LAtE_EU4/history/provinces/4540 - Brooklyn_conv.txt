@@ -13,3 +13,8 @@ base_tax = 8
 base_production = 8
 base_manpower = 5
 trade_goods = paper
+
+add_province_modifier = {
+	name = ruins_modifier_2
+	duration = -1
+}

@@ -1,5 +1,5 @@
 # Guyana
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 203 40 69 }
 

@@ -1,5 +1,5 @@
 # Socal
-ck2_converter_generated = yes
+
 graphical_culture = asiangfx
 color = { 241 233 144 }
 

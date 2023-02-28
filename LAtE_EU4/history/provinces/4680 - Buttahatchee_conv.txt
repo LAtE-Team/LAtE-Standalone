@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = Z04
 controller = Z04
 add_core = Z04

@@ -1,0 +1,13 @@
+owner = HDR
+controller = HDR
+add_core = HDR
+
+culture = inlander
+religion = gaian
+is_city = yes
+
+
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2

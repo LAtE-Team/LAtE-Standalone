@@ -1,5 +1,5 @@
 # Eeyou Istchee
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 12 150 100 }
 

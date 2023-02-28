@@ -1,0 +1,39 @@
+country_decisions = {
+
+	disable_ruins_growth = {
+		potential = {
+			any_owned_province = {
+				has_terrain = ruins
+			}
+			NOT = { has_country_flag = disable_ruins_growth }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = disable_ruins_growth
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	enable_ruins_growth = {
+		potential = {
+			any_owned_province = {
+				has_terrain = ruins
+			}
+			has_country_flag = disable_ruins_growth
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			clr_country_flag = disable_ruins_growth
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

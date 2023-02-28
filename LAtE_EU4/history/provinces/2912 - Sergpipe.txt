@@ -29,7 +29,6 @@ add_core = BIA
 	#owner = NED
 	#controller = NED
 	#add_core= NED
-	religion = reformed
 	culture = dutch
 #}
 # = {

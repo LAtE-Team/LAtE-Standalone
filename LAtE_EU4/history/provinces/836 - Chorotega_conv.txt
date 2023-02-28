@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = PNM
 controller = PNM
 add_core = PNM

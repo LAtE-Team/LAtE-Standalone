@@ -1,5 +1,5 @@
 # The Inner Banks
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 153 201 54 }
 

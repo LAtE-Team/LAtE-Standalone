@@ -1,5 +1,5 @@
 # Falcón
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 51 120 247 }
 

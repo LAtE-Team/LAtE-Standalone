@@ -134,7 +134,7 @@ mercenary_army_reform = {
 }
 
 anabaptist_kingdom_reform = {
-	icon = "black_army_reform"
+	icon = "orange_kingdom"
 	allow_normal_conversion = yes
 	potential = {
 		tag = HUD

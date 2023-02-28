@@ -55,3 +55,102 @@ ursuline_schism_mended_modifier = {
 ursuline_schism_mender_modifier = {
 	global_heretic_missionary_strength = 0.015
 }
+
+ordinate_empowered_ursulines_modifier = {
+	local_tax_modifier = 0.15
+}
+
+ordinate_empowered_anabaptists_modifier = {
+	local_production_efficiency = 0.2
+	local_manpower_modifier = -0.05
+}
+
+ordinate_empowered_charity_modifier = {
+	province_trade_power_modifier =  0.10
+	local_prosperity_growth = 0.1
+}
+
+ordinate_empowered_angelines_modifier = {
+	local_regiment_cost = -0.1
+	local_defensiveness = 0.1
+}
+
+ordinate_debate_modifier_1a = {
+
+}
+
+ordinate_debate_modifier_2a = {
+	
+}
+
+ordinate_debate_modifier_3a = {
+	
+}
+
+ordinate_debate_modifier_4a = {
+	
+}
+
+ordinate_debate_modifier_5a = {
+	
+}
+
+ordinate_debate_modifier_6a = {
+	
+}
+
+ordinate_debate_modifier_7a = {
+	
+}
+
+ordinate_debate_modifier_8a = {
+	
+}
+
+ordinate_debate_modifier_9a = {
+	
+}
+
+ordinate_debate_modifier_1b = {
+
+}
+
+ordinate_debate_modifier_2b = {
+	
+}
+
+ordinate_debate_modifier_3b = {
+	
+}
+
+ordinate_debate_modifier_4b = {
+	
+}
+
+ordinate_debate_modifier_5b = {
+	
+}
+
+ordinate_debate_modifier_6b = {
+	
+}
+
+ordinate_debate_modifier_7b = {
+	
+}
+
+ordinate_debate_modifier_8b = {
+	
+}
+
+ordinate_debate_modifier_9b = {
+	
+}
+
+ordinate_debate_modifier_7c = {
+	
+}
+
+ordinate_debate_modifier_10 = {
+	global_missionary_strength = 0.02
+}

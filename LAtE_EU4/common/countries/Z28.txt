@@ -1,5 +1,5 @@
 # Tullahoma
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 221 176 200 }
 

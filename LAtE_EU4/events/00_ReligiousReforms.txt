@@ -7,52 +7,52 @@
 namespace = religious_reforms
 
 # Nahuatl reform
-country_event = {
-	id = religious_reforms.1
-	title = religious_reforms.1.t
-	desc = religious_reforms.1.d
-	picture = ANGRY_MOB_eventPicture
+# country_event = {
+# 	id = religious_reforms.1
+# 	title = religious_reforms.1.t
+# 	desc = religious_reforms.1.d
+# 	picture = ANGRY_MOB_eventPicture
 
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 	
-	trigger = {
-		has_dlc = "El Dorado"
-		religion = nahuatl
-	}
+# 	trigger = {
+# 		has_dlc = "El Dorado"
+# 		religion = nahuatl
+# 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+# 	mean_time_to_happen = {
+# 		days = 1
+# 	}
 	
-	immediate = {
-		hidden_effect = {
-			add_stability = -1
-			every_subject_country = {
-				add_truce_with = ROOT
-				ROOT = {
-					add_truce_with = PREV
-				}
-			}
-			release_all_subjects = yes 
-			add_doom = 25 
-		}
-	}
+# 	immediate = {
+# 		hidden_effect = {
+# 			add_stability = -1
+# 			every_subject_country = {
+# 				add_truce_with = ROOT
+# 				ROOT = {
+# 					add_truce_with = PREV
+# 				}
+# 			}
+# 			release_all_subjects = yes 
+# 			add_doom = 25 
+# 		}
+# 	}
 	
-	option = {
-		name = religious_reforms.1.a
-		tooltip = {
-			add_stability = -1
-			every_subject_country = {
-				add_truce_with = ROOT
-				ROOT = {
-					add_truce_with = PREV
-				}
-			}
-			release_all_subjects = yes
-			add_doom = 25
-		}
-	}
-}
+# 	option = {
+# 		name = religious_reforms.1.a
+# 		tooltip = {
+# 			add_stability = -1
+# 			every_subject_country = {
+# 				add_truce_with = ROOT
+# 				ROOT = {
+# 					add_truce_with = PREV
+# 				}
+# 			}
+# 			release_all_subjects = yes
+# 			add_doom = 25
+# 		}
+# 	}
+# }
 
 # Inti reform
 country_event = {
@@ -116,50 +116,50 @@ country_event = {
 	}
 }
 
-# Mayan reform
-country_event = {
-	id = religious_reforms.3
-	title = religious_reforms.3.t
-	desc = religious_reforms.3.d
-	picture = ANGRY_MOB_eventPicture
+# # Mayan reform
+# country_event = {
+# 	id = religious_reforms.3
+# 	title = religious_reforms.3.t
+# 	desc = religious_reforms.3.d
+# 	picture = ANGRY_MOB_eventPicture
 
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 	
-	trigger = {
-		has_dlc = "El Dorado"
-		religion = mesoamerican_religion
-	}
+# 	trigger = {
+# 		has_dlc = "El Dorado"
+# 		religion = mesoamerican_religion
+# 	}
 	
-	mean_time_to_happen = {
-		days = 1
-	}
+# 	mean_time_to_happen = {
+# 		days = 1
+# 	}
 	
-	immediate = {
-		hidden_effect = { 
-			add_stability = -1
-			every_subject_country = {
-				add_truce_with = ROOT
-				ROOT = {
-					add_truce_with = PREV
-				}
-			}
-			release_all_subjects = yes
-			collapse_nation = yes
-		}
-	}
+# 	immediate = {
+# 		hidden_effect = { 
+# 			add_stability = -1
+# 			every_subject_country = {
+# 				add_truce_with = ROOT
+# 				ROOT = {
+# 					add_truce_with = PREV
+# 				}
+# 			}
+# 			release_all_subjects = yes
+# 			collapse_nation = yes
+# 		}
+# 	}
 	
-	option = {
-		name = religious_reforms.1.a
-		tooltip = {
-			add_stability = -1
-			every_subject_country = {
-				add_truce_with = ROOT
-				ROOT = {
-					add_truce_with = PREV
-				}
-			}
-			release_all_subjects = yes
-			collapse_nation = yes
-		}
-	}
-}
+# 	option = {
+# 		name = religious_reforms.1.a
+# 		tooltip = {
+# 			add_stability = -1
+# 			every_subject_country = {
+# 				add_truce_with = ROOT
+# 				ROOT = {
+# 					add_truce_with = PREV
+# 				}
+# 			}
+# 			release_all_subjects = yes
+# 			collapse_nation = yes
+# 		}
+# 	}
+# }

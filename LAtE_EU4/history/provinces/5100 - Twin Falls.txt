@@ -1,0 +1,13 @@
+owner = ESN
+controller = ESN
+add_core = ESN
+
+culture = mountainer
+religion = mormon
+is_city = yes
+
+
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1

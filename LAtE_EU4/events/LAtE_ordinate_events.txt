@@ -1,0 +1,325 @@
+##############################
+# Ordinate Events            #
+#                            #
+# Coded by Technician        #
+##############################
+
+namespace = ordinate_flavor
+
+# 1-10 reserved for religious mechanic events
+
+# Centralize or Decentralize
+country_event = {
+	id = ordinate_flavor.1
+	title = ordinate_flavor.1.t
+	desc = ordinate_flavor.1.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = ordinate_debate_modifier_1a }
+		NOT = { has_country_modifier = ordinate_debate_modifier_1b }
+	}
+
+	option = {
+		name = ordinate_flavor.1.a #Centralize the orders
+		add_country_modifier = {
+			name = ordinate_debate_modifier_1a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.1.b #Leave them decentralized
+		add_country_modifier = {
+			name = ordinate_debate_modifier_1b
+			duration = -1
+		}
+	}
+}
+
+# Men in the clergy?
+country_event = {
+	id = ordinate_flavor.2
+	title = ordinate_flavor.2.t
+	desc = ordinate_flavor.2.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = ordinate_debate_modifier_2a }
+		NOT = { has_country_modifier = ordinate_debate_modifier_2b }
+	}
+
+	option = {
+		name = ordinate_flavor.2.a #Only women in the clergy
+		add_country_modifier = {
+			name = ordinate_debate_modifier_2a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.2.b #Allow orders with male members
+		add_country_modifier = {
+			name = ordinate_debate_modifier_2b
+			duration = -1
+		}
+	}
+}
+
+# The liturgical language
+country_event = {
+	id = ordinate_flavor.3
+	title = ordinate_flavor.3.t
+	desc = ordinate_flavor.3.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = ordinate_debate_modifier_3a }
+		NOT = { has_country_modifier = ordinate_debate_modifier_3b }
+	}
+
+	option = {
+		name = ordinate_flavor.3.a #French (or maybe call it quebecois) will be the liturgical language
+		add_country_modifier = {
+			name = ordinate_debate_modifier_3a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.3.b #The liturgical language is the common language
+		add_country_modifier = {
+			name = ordinate_debate_modifier_3b
+			duration = -1
+		}
+	}
+}
+
+# Can nuns marry?
+country_event = {
+	id = ordinate_flavor.4
+	title = ordinate_flavor.4.t
+	desc = ordinate_flavor.4.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_modifier = ordinate_debate_modifier_4a }
+		NOT = { has_country_modifier = ordinate_debate_modifier_4b }
+	}
+
+	option = {
+		name = ordinate_flavor.4.a #Nuns must not marry
+		add_country_modifier = {
+			name = ordinate_debate_modifier_4a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.4.b #Nuns can marry
+		add_country_modifier = {
+			name = ordinate_debate_modifier_4b
+			duration = -1
+		}
+	}
+}
+
+#Age of reformation
+#The nature of the event
+country_event = {
+	id = ordinate_flavor.5
+	title = ordinate_flavor.5.t
+	desc = ordinate_flavor.5.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ordinate_flavor.5.a #The event was the rapture
+		add_country_modifier = {
+			name = ordinate_debate_modifier_5a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.5.b #The event was not the rapture
+		add_country_modifier = {
+			name = ordinate_debate_modifier_5b
+			duration = -1
+		}
+	}
+}
+
+#Can new orders form in the new world, or must they be an extension of old world orders
+country_event = {
+	id = ordinate_flavor.6
+	title = ordinate_flavor.6.t
+	desc = ordinate_flavor.6.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ordinate_flavor.6.a #Orders must be derived from NA
+		add_country_modifier = {
+			name = ordinate_debate_modifier_6a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.6.b #Orders can be based anywhere
+		add_country_modifier = {
+			name = ordinate_debate_modifier_6b
+			duration = -1
+		}
+	}
+}
+
+#Age of absolutism
+#The authority of the monarch
+country_event = {
+	id = ordinate_flavor.7
+	title = ordinate_flavor.7.t
+	desc = ordinate_flavor.7.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = ordinate_flavor.7.a #The orders are protected by the monarch
+		trigger = {
+			NOT = { government = theocracy }
+		}
+		add_country_modifier = {
+			name = ordinate_debate_modifier_7a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.7.b #The monarch rules with consent of the orders
+		trigger = {
+			NOT = { government = theocracy }
+		}
+		add_country_modifier = {
+			name = ordinate_debate_modifier_7b
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.7.c #The Orders have full control
+		trigger = {
+			government = theocracy
+		}
+		add_country_modifier = {
+			name = ordinate_debate_modifier_7c
+			duration = -1
+		}
+	}
+}
+
+#Undecided
+country_event = {
+	id = ordinate_flavor.8
+	title = ordinate_flavor.8.t
+	desc = ordinate_flavor.8.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = ordinate_flavor.8.a
+		add_country_modifier = {
+			name = ordinate_debate_modifier_8a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.8.b
+		add_country_modifier = {
+			name = ordinate_debate_modifier_8b
+			duration = -1
+		}
+	}
+}
+
+#Age of revolutions
+#Who can join monastic orders (public or selected) (growth of power of orders has lead to them becoming exclusive, entrenched)
+country_event = {
+	id = ordinate_flavor.9
+	title = ordinate_flavor.9.t
+	desc = ordinate_flavor.9.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ordinate_flavor.9.a #Only the pure blooded
+		add_country_modifier = {
+			name = ordinate_debate_modifier_9a
+			duration = -1
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.9.b #Anyone can join
+		add_country_modifier = {
+			name = ordinate_debate_modifier_9b
+			duration = -1
+		}
+	}
+}
+
+# All debates done, get a stab or temporary missionary strength
+country_event = {
+	id = ordinate_flavor.10
+	title = ordinate_flavor.10.t
+	desc = ordinate_flavor.10.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = ordinate_flavor.10.a
+		trigger = {
+			NOT = { stability = 3 }
+		}
+		add_stability = 1
+	}
+
+	option = {
+		name = ordinate_flavor.10.b
+		trigger = {
+			NOT = { has_country_modifier = ordinate_debate_modifier_10 }
+		}
+		add_country_modifier = {
+			name = ordinate_debate_modifier_10
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = ordinate_flavor.10.c #You shouldn't ever see this
+		trigger = {
+			AND = {
+				stability = 3
+				has_country_modifier = ordinate_debate_modifier_10
+			}
+		}
+	}
+}

@@ -16,3 +16,7 @@ trade_goods = cloth
 center_of_trade = 1 
 
 add_province_triggered_modifier = walden_pond
+add_province_modifier = {
+	name = ruins_modifier_1
+	duration = -1
+}

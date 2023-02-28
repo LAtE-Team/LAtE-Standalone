@@ -1,5 +1,5 @@
 # Baja Sur
-ck2_converter_generated = yes
+
 graphical_culture = muslimgfx
 color = { 245 212 251 }
 

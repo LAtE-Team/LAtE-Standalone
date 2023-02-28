@@ -1,0 +1,32 @@
+﻿l_english:
+# Gov ranks and names
+ DARK_CITY:0 "City-State"
+ TAMMANY_REPUBLIC:0 "Patrician Electorate"
+ CITY_WITH_EMPIRE:0 "Megapolis"
+ COUNCILLOR:0 "Councillor"
+ PATRICIAN:0 "Patrician"
+ GRAND_PATRICIAN:0 "Grand Patrician"
+ JUNTA:0 "Free Junta"
+ BENEVOLENT_DICTATORSHIP:0 "Beacon of Liberty"
+ LIBERTARIAN_EMPIRE:0 "Empire of Liberty"
+ VICAR:0 "Vicar"
+ LIBERATOR:0 "Liberator"
+ GRAND_LIBERATOR:0 "Grand Liberator"
+ LIBERATRESS:0 "Liberatress"
+ GRAND_LIBERATRESS:0 "Grand Liberatress"
+
+# Gov. reforms
+ tammany_republic_reform:0 "Tammany Republic"
+ tammany_republic_reform_desc:0 "Tammany Republic desc."
+ vicar_of_lady_liberty_reform:0 "Vicar of Lady Liberty"
+ vicar_of_lady_liberty_reform_desc:0 "Vicar of Lady Liberty desc"
+
+# Election event
+ ny_events.1.t:0 "Election in New York City"
+ ny_events.1.desc:0 "Test"
+ ny_events.1.a:0 "House Wayne"
+ ny_events.1.b:0 "House Levi"
+ ny_events.1.c:0 "House Amos"
+ ny_events.1.d:0 "House Coeur"
+ ny_events.1.da:0 "The Lottery must decide!"
+ ny_events.1.e:0 "A family member of the [Root.Monarch.GetTitle] will lead our nation."

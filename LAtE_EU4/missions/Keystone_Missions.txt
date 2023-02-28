@@ -22,7 +22,7 @@ KEY_missions_accept_anabaptists = {
     }
     
     KEY_mission_allow_growth = {
-        icon = contracts_of_correspondence
+        icon = mission_anabaptist_preacher
         position = 1
                 
         trigger = {
@@ -44,7 +44,7 @@ KEY_missions_accept_anabaptists = {
     }
 
     KEY_mission_anabaptists_prosper = {
-        icon = fund_the_monasteries
+        icon = mission_anabaptist_church
 		required_missions = {
 			KEY_mission_allow_growth
 		}
@@ -107,7 +107,7 @@ KEY_missions_expel_anabaptists = {
 			}
 			tag = DEI
 			tag = AGH
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}
 		NOT = { has_country_flag = anabaptists_accepted }
@@ -129,7 +129,7 @@ KEY_missions_expel_anabaptists = {
         trigger = {
 			OR = {
 				NOT = {
-					tag = PHI
+					tag = PLD
 				}
 				any_owned_province = {
 					is_core = root
@@ -171,7 +171,7 @@ KEY_missions_expel_anabaptists = {
     }
 
     KEY_mission_loot_their_lands = {
-        icon = mission_high_income
+        icon = mission_hudsonia_scavenge_their_lands
 		required_missions = {
 			KEY_mission_expel_from_our_lands
 		}
@@ -240,13 +240,13 @@ KEY_missions_churches = {
 		OR = {
 			tag = DEI
 			tag = AGH
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}	
     }
     
     KEY_mission_build_churches = {
-        icon = connect_further_austria
+        icon = mission_keystone_temples
         position = 4
 
 		provinces_to_highlight = {
@@ -300,11 +300,11 @@ DEI_missions_1.1 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_drill = {
-        icon = mission_assemble_an_army
+        icon = mission_americanist_knight
         position = 2
 		required_missions = {
 			DEI_mission_prepare_unification
@@ -344,7 +344,7 @@ DEI_missions_2.1 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_prepare_unification = {
@@ -577,7 +577,7 @@ DEI_missions_3.1 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_improve_capital = {
@@ -627,7 +627,7 @@ DEI_missions_4.1 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_stab_up = {
@@ -699,7 +699,7 @@ DEI_missions_1.2 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_cannons = {
@@ -736,7 +736,7 @@ DEI_missions_2.2 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_unify_deitscherei = {
@@ -825,7 +825,7 @@ DEI_missions_3.2 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_workshops = {
@@ -963,7 +963,7 @@ DEI_missions_4.2 = {
 			tag = KEY
 		}	
 		NOT = { was_tag = AGH }
-		NOT = { was_tag = PHI }
+		NOT = { was_tag = PLD }
     }
     
     DEI_mission_embrace_renaissance = {
@@ -1042,7 +1042,7 @@ AGH_missions_1 = {
     }
 
     AGH_mission_drill = {
-        icon = mission_assemble_an_army
+        icon = mission_rust_knight
         position = 2
 		required_missions = {
 			AGH_mission_grow_army
@@ -1296,7 +1296,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_improve_pittsburgh = {
-        icon = develop_the_po_valley
+        icon = mission_pittsburgh
 		required_missions = {
 			AGH_mission_improve_capital
 		}
@@ -1324,7 +1324,7 @@ AGH_missions_3 = {
     }
 
 	AGH_mission_develop_rust = {
-        icon = mission_rb_import_potatoes
+        icon = mission_iron_mines
 		required_missions = {
 			AGH_mission_improve_pittsburgh
 		}
@@ -1552,7 +1552,7 @@ AGH_missions_4 = {
     }
 
 	AGH_mission_workshops = {
-        icon = mission_early_game_buildings
+        icon = mission_metalshops
 		required_missions = {
 			AGH_mission_develop_rust
 			AGH_mission_embrace_renaissance
@@ -1696,7 +1696,7 @@ AGH_missions_4 = {
     }
 }
 
-PHI_missions_1 = {
+PLD_missions_1 = {
 	slot = 1                   # Which column the missions will appear in. 1 to 5.
     generic = no             # Whether missions within this series are considered generic.
     ai = yes                  # Whether the AI will claim missions in this series.
@@ -1706,20 +1706,20 @@ PHI_missions_1 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}	
 		OR = {
-			was_tag = PHI
-			tag = PHI
+			was_tag = PLD
+			tag = PLD
 		}
     }
 
-    PHI_mission_drill = {
-        icon = mission_assemble_an_army
+    PLD_mission_drill = {
+        icon = mission_americanist_knight
         position = 2
 		required_missions = {
-			PHI_mission_grow_army
+			PLD_mission_grow_army
 		}
 
         trigger = {
@@ -1734,10 +1734,10 @@ PHI_missions_1 = {
         }
     }
 
-    PHI_mission_cannons = {
+    PLD_mission_cannons = {
         icon = mission_cannons_firing
 		required_missions = {
-			PHI_mission_drill
+			PLD_mission_drill
 		}
 
         trigger = {
@@ -1753,7 +1753,7 @@ PHI_missions_1 = {
     }
 }
 
-PHI_missions_2 = {
+PLD_missions_2 = {
 	slot = 2                   # Which column the missions will appear in. 1 to 5.
     generic = no             # Whether missions within this series are considered generic.
     ai = yes                  # Whether the AI will claim missions in this series.
@@ -1763,16 +1763,16 @@ PHI_missions_2 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}	
 		OR = {
-			was_tag = PHI
-			tag = PHI
+			was_tag = PLD
+			tag = PLD
 		}
     }
 
-    PHI_mission_grow_army = {
+    PLD_mission_grow_army = {
         icon = mission_build_up_to_force_limit
         position = 1
 
@@ -1791,10 +1791,10 @@ PHI_missions_2 = {
 		}
     }
 
-    PHI_mission_take_delaware = {
+    PLD_mission_take_delaware = {
         icon = mission_conquer_50_development
 		required_missions = {
-			PHI_mission_grow_army
+			PLD_mission_grow_army
 		}
 
 		provinces_to_highlight = {
@@ -1821,11 +1821,11 @@ PHI_missions_2 = {
         }
     }
 
-	PHI_mission_take_susquehanna = {
+	PLD_mission_take_susquehanna = {
         icon = mission_italian_condottiere
         position = 3
 		required_missions = {
-			PHI_mission_take_delaware
+			PLD_mission_take_delaware
 		}
 
 		provinces_to_highlight = {
@@ -1865,11 +1865,11 @@ PHI_missions_2 = {
         }
     }
 
-	PHI_mission_take_allegheny = {
+	PLD_mission_take_allegheny = {
         icon = consolidate_the_stadholders
         position = 3
 		required_missions = {
-			PHI_mission_take_susquehanna
+			PLD_mission_take_susquehanna
 		}
 
 		provinces_to_highlight = {
@@ -1899,7 +1899,7 @@ PHI_missions_2 = {
     }
 }
 
-PHI_missions_3 = {
+PLD_missions_3 = {
 	slot = 3                    # Which column the missions will appear in. 1 to 5.
     generic = no             # Whether missions within this series are considered generic.
     ai = yes                  # Whether the AI will claim missions in this series.
@@ -1909,17 +1909,17 @@ PHI_missions_3 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}	
 		OR = {
-			was_tag = PHI
-			tag = PHI
+			was_tag = PLD
+			tag = PLD
 		}
     }
     
-    PHI_mission_improve_capital = {
-        icon = mission_colonial
+    PLD_mission_improve_capital = {
+        icon = mission_philadelphia
         position = 1
 
 		provinces_to_highlight = {
@@ -1938,17 +1938,17 @@ PHI_missions_3 = {
         effect = {
 			956 = {
 				add_province_modifier = {
-					name = PHI_capital_modifier_1
+					name = PLD_capital_modifier_1
 					duration = -1
 				}
 			}
         }
     }
 
-	PHI_mission_marketplace = {
-        icon = develop_the_po_valley
+	PLD_mission_marketplace = {
+        icon = mission_reading_terminal_market
 		required_missions = {
-			PHI_mission_improve_capital
+			PLD_mission_improve_capital
 		}
 
 		provinces_to_highlight = {
@@ -1974,19 +1974,19 @@ PHI_missions_3 = {
         
         effect = {
 			956 = {
-				remove_province_modifier = PHI_capital_modifier_1
+				remove_province_modifier = PLD_capital_modifier_1
 				add_province_modifier = {
-					name = PHI_capital_modifier_2
+					name = PLD_capital_modifier_2
 					duration = -1
 				}
 			}
         }
     }
 
-	PHI_mission_shipyard = {
-        icon = mission_early_game_buildings
+	PLD_mission_shipyard = {
+        icon = mission_port_of_philadelphia
 		required_missions = {
-			PHI_mission_marketplace
+			PLD_mission_marketplace
 		}
 
 		provinces_to_highlight = {
@@ -2020,9 +2020,9 @@ PHI_missions_3 = {
 
 		effect = {
 			956 = {
-				remove_province_modifier = PHI_capital_modifier_2
+				remove_province_modifier = PLD_capital_modifier_2
 				add_province_modifier = {
-					name = PHI_capital_modifier_3
+					name = PLD_capital_modifier_3
 					duration = -1
 				}
 			}
@@ -2030,10 +2030,10 @@ PHI_missions_3 = {
     
     }
 
-	PHI_mission_fleet = {
+	PLD_mission_fleet = {
         icon = mission_galleys_in_port
 		required_missions = {
-			PHI_mission_shipyard
+			PLD_mission_shipyard
 		}
 
         trigger = {
@@ -2042,7 +2042,7 @@ PHI_missions_3 = {
 
 		effect = {
 			add_country_modifier = {
-				name = PHI_fleet_modifier
+				name = PLD_fleet_modifier
 				duration = 10950
 			}
 		}
@@ -2050,7 +2050,7 @@ PHI_missions_3 = {
     }
 }
 
-PHI_missions_4 = {
+PLD_missions_4 = {
 	slot = 4                    # Which column the missions will appear in. 1 to 5.
     generic = no             # Whether missions within this series are considered generic.
     ai = yes                  # Whether the AI will claim missions in this series.
@@ -2060,20 +2060,20 @@ PHI_missions_4 = {
     potential = {
         NOT = { map_setup = map_setup_random }
 		OR = {
-			tag = PHI
+			tag = PLD
 			tag = KEY
 		}	
 		OR = {
-			was_tag = PHI
-			tag = PHI
+			was_tag = PLD
+			tag = PLD
 		}
     }
 
-	PHI_mission_barracks = {
+	PLD_mission_barracks = {
         icon = mission_have_two_subjects
 		position = 2
 		required_missions = {
-			PHI_mission_improve_capital
+			PLD_mission_improve_capital
 		}
 		
 		provinces_to_highlight = {
@@ -2108,13 +2108,13 @@ PHI_missions_4 = {
         
         effect = {
 			add_country_modifier = {
-				name = PHI_recruitment_modifier
+				name = PLD_recruitment_modifier
 				duration = 7300
 			}
         }
     }
     
-    PHI_mission_embrace_renaissance = {
+    PLD_mission_embrace_renaissance = {
         icon = continue_the_renaissance
 
         trigger = {
@@ -2129,11 +2129,11 @@ PHI_missions_4 = {
         }
     }
 
-	PHI_mission_develop_countryside = {
+	PLD_mission_develop_countryside = {
         icon = mission_rb_import_potatoes
 		required_missions = {
-			PHI_mission_shipyard
-			PHI_mission_embrace_renaissance
+			PLD_mission_shipyard
+			PLD_mission_embrace_renaissance
 		}
 
 		provinces_to_highlight = {
@@ -2174,7 +2174,7 @@ KEY_missions_1= {
     }
     
     KEY_mission_philadelphia = {
-        icon = capture_adriatic_ports
+        icon = mission_kittatinny
         position = 5
 
 		provinces_to_highlight = {
@@ -2300,7 +2300,7 @@ KEY_missions_2 = {
     }
     
     KEY_mission_baltimore = {
-        icon = fight_bosnian_heresies
+        icon = mission_baltimore
         position = 5
 
 		provinces_to_highlight = {
@@ -2326,7 +2326,7 @@ KEY_missions_2 = {
     }
 
     KEY_mission_washington = {
-        icon = Control_Junkers
+        icon = mission_march_on_washington
 		required_missions = {
 			KEY_mission_baltimore
 		}

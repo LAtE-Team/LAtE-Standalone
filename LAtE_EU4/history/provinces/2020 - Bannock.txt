@@ -2,8 +2,8 @@ owner = ESN
 controller = ESN
 add_core = ESN
 
-culture = paiute
-religion = peyotist
+culture = mountainer
+religion = mormon
 trade_goods = livestock
 is_city = yes
 add_permanent_claim = X00

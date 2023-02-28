@@ -1236,9 +1236,10 @@ mississippi_region = {
 		uper_louisiana_area
 		mississippi_plain_area
 		ozarks_area
+		crowleys_ridge_area
+		iowa_area
 		#AtE Additions
 		the_gateway_area
-		lower_plains_area
 	}
 	monsoon = {
 		00.06.01
@@ -1254,6 +1255,8 @@ great_plains_region = {
 		south_dakota_area
 		upper_missouri_area
 		badlands_area
+		lower_plains_area
+		nebraska_area
 	}
 }
 
@@ -1294,6 +1297,9 @@ cascadia_region = {
 		oregon_area_area
 		shasta_cascade_area
 		snake_river_area
+		middle_idaho_area
+		selkirk_area
+		yakama_area
 	}
 }
 
@@ -1623,6 +1629,7 @@ grand_virginia_region = {
 		great_valley_area
 		kentucky_area
 		kentuckiana_area
+		west_kentucky_area
 		appalachia_area
 		south_appalachia_area
 		choctaw_area

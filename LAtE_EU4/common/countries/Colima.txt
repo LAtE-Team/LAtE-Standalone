@@ -1,5 +1,5 @@
 # Colima
-ck2_converter_generated = yes
+
 graphical_culture = muslimgfx
 color = { 45 141 236 }
 

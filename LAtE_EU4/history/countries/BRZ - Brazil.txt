@@ -4,7 +4,7 @@ government = tribal
 add_government_reform = tribal_despotism #Pending creation of jungle horde reform, or Brazil reform (whatver comes first)
 add_government_reform = feudalism_reform
 government_rank = 3
-mercantilism = 0.1
+
 technology_group = brazilian
 primary_culture = carioca #deprecating brazilian culture
 religion = candomble

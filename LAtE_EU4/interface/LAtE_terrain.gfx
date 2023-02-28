@@ -11,4 +11,39 @@ spriteTypes = {
 		name = "GFX_combat_terrain_tundra"
 		texturefile = "gfx/interface/combat_terrain_tundra.dds"
 	}
+
+	spriteType = {
+		name = "GFX_colony_terrain_ruins"
+		texturefile = "gfx/interface/colony_terrain_ruins.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_ruins"
+		texturefile = "gfx/interface/combat_terrain_ruins.dds"
+	}
+
+	spriteType = {
+		name = "ruins_one"
+		texturefile = "gfx/interface/ideas_EU4/ruins_one.dds"
+	}
+
+	spriteType = {
+		name = "ruins_two"
+		texturefile = "gfx/interface/ideas_EU4/ruins_two.dds"
+	}
+
+	spriteType = {
+		name = "ruins_three"
+		texturefile = "gfx/interface/ideas_EU4/ruins_three.dds"
+	}
+
+	spriteType = {
+		name = "ruins_four"
+		texturefile = "gfx/interface/ideas_EU4/ruins_four.dds"
+	}
+
+	spriteType = {
+		name = "ruins_five"
+		texturefile = "gfx/interface/ideas_EU4/ruins_five.dds"
+	}
 }	

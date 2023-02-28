@@ -1,5 +1,5 @@
 # The Badlands
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 137 111 92 }
 

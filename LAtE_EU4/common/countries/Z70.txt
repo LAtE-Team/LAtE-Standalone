@@ -1,5 +1,5 @@
 # Palisades
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 180 170 205 }
 

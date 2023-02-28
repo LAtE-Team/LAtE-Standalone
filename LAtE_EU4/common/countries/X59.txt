@@ -1,5 +1,5 @@
 # Córdoba
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 66 199 220 }
 

@@ -1,5 +1,5 @@
 # Charlottesville
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 215 95 130 }
 

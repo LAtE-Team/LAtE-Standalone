@@ -1,5 +1,5 @@
 # Santee
-ck2_converter_generated = yes
+
 graphical_culture = africangfx
 color = { 57 51 181 }
 

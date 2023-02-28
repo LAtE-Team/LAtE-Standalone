@@ -1,5 +1,5 @@
 # Pueblo
-ck2_converter_generated = yes
+
 graphical_culture = westerngfx
 color = { 158 121 7 }
 

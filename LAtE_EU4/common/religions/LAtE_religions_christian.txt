@@ -426,6 +426,18 @@ christian = {
 			advisor_cost = -0.1
 		}
 
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			ordinate_council
+			ordinate_empower_ursulines
+			ordinate_empower_anabaptists
+			ordinate_empower_charity
+			ordinate_empower_angelines
+			ordinate_empower_monarch
+		}
+		aspects_name = ANGLICAN_ASPECTS
+
 		heretic = { CATHAR }
 	}
 

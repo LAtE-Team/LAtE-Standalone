@@ -1,4 +1,4 @@
-ck2_converter_generated = yes
+
 owner = W07
 controller = W07
 add_core = W07

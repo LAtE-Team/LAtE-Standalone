@@ -192,5 +192,5 @@ pacific_north_america_superregion = {
 	california_region
 	cascadia_region
 	alaska_region
-	utah_region
+	four_corners_region
 }

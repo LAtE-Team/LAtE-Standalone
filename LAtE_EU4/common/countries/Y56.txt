@@ -1,5 +1,5 @@
 # Chisholm
-ck2_converter_generated = yes
+
 graphical_culture = northamericagfx
 color = { 80 92 184 }
 

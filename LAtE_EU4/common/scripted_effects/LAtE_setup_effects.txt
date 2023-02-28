@@ -105,11 +105,11 @@ setup_vision = {
 				}
 				discover_country = ROOT 
 			}
-			utah_region = {
+			four_corners_region = {
 				limit = {
 					NOT = {
 						OR = {
-							area = deseret_area
+							area = salt_lake_area
 							area = colorado_area
 							area = yellowstone_area
 						}
@@ -336,7 +336,7 @@ setup_vision = {
 			pacific_north_america_superregion = { 
 				limit = {
 					NOT = {
-						region = utah_region
+						region = four_corners_region
 					}
 				}
 				discover_country = ROOT 

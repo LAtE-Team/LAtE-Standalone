@@ -82,6 +82,16 @@ estate_scavengers =
 		influence = 5
 	}
 
+	influence_modifier = {	
+		desc = EST_SCA_RUINS_PROVINCE
+		trigger = {
+			any_owned_province = {
+				has_terrain = ruins
+			}
+		}
+		influence = 5
+	}
+
 	influence_from_dev_modifier = 1.0
 	
 	loyalty_modifier = {

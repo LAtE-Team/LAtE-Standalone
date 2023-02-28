@@ -1,5 +1,5 @@
 # Natchitoches
-ck2_converter_generated = yes
+
 graphical_culture = easterngfx
 color = { 233 66 44 }
 
