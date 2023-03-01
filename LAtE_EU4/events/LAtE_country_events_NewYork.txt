@@ -308,6 +308,7 @@ country_event = {
 	
 	option = {
 		name = ny_events.1.a
+		set_country_flag = nys_wayne_mercs_unlocked
 		trigger = {
 			NOT = {
 				has_country_flag = nys_wayne_disabled
@@ -322,6 +323,17 @@ country_event = {
 	}
 	option = {
 		name = ny_events.1.b
+		trigger = {
+			NOT = {
+				has_country_flag = nys_levi_disabled
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = nys_wayne_disabled
+			}
+			set_country_flag = nys_wayne_mercs_unlocked
+		}
 		ai_chance = {
 			factor = 0
 		}
@@ -352,41 +364,37 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		if = {
-			limit = {
-				not = {
-					has_country_flag = nys_wayne_disabled
+		random_list = {
+			25 = { 
+				set_ruler = lottery_candidate_a_@ROOT
+				set_country_flag = nys_wayne_mercs_unlocked
+				modifier = {
+					factor = 0
+					NOT = {
+						has_country_flag = nys_wayne_disabled
+					}
 				}
 			}
-			random_list = {
-				25 = { 
-					set_ruler = lottery_candidate_a_@ROOT 
+			25 = { 
+				set_ruler = lottery_candidate_b_@ROOT 
+				modifier = {
+					factor = 0
+					NOT = {
+						has_country_flag = nys_levi_disabled
+					}
 				}
-				25 = { 
-					set_ruler = lottery_candidate_b_@ROOT 
-				}
-				25 = { 
-					set_ruler = lottery_candidate_c_@ROOT 
-				}
-				25 = { 
-					set_ruler = lottery_candidate_d_@ROOT 
+				if = {
+					limit = {
+						has_country_flag = nys_wayne_disabled
+					}
+					set_country_flag = nys_wayne_mercs_unlocked
 				}
 			}
-		}
-		else_if = {
-			limit = {
-				has_country_flag = nys_wayne_disabled
+			25 = { 
+				set_ruler = lottery_candidate_c_@ROOT 
 			}
-			random_list = {
-				33 = { 
-					set_ruler = lottery_candidate_b_@ROOT 
-				}
-				33 = { 
-					set_ruler = lottery_candidate_c_@ROOT 
-				}
-				33 = { 
-					set_ruler = lottery_candidate_d_@ROOT 
-				}
+			25 = { 
+				set_ruler = lottery_candidate_d_@ROOT 
 			}
 		}
 		add_republican_tradition = 15
@@ -464,6 +472,14 @@ country_event = {
 				faction = mr_aristocrats
 				influence = 10
 			}				
+		}
+	}
+	after = {
+		if = {
+			limit = { 
+				dynasty = "Wayne"
+			}
+			set_country_flag = nys_wayne_mercs_unlocked
 		}
 	}
 }
@@ -973,21 +989,83 @@ country_event = { # Confront agitators - House Wayne offers a bargain. Maybe mak
 	is_triggered_only = yes
 
 	option = { # Default option
-		name = ny_events.15.a # Stand our ground, change our country's stance on war. Internal growth takes priority
+		name = ny_events.15.a # Stand our ground, change our country's stance on war. Internal growth takes priority. (MAY TRIGGER WAYNE ATTACK)
+
+
+		random_list = {
+			75 = {
+				
+			}
+
+			25 = {
+				country_event = {
+					id = ny_events.18
+				}
+			}
+		}
 	}
 	option = {
 		name = ny_events.15.b # Hear them out...
 	}
 	option = {
-		name = ny_events.15.c # End House Wayne
-		# trigger = {
-		# 	OR = {
-		# 		ruler_has_personality = cruel_personality
-		# 		ruler_has_personality = malevolent_personality
-		# 		ruler_has_personality = sinner_personality
-		# 		ruler_has_personality = embezzler_personality
-		# 	}
-		# }
+		name = ny_events.15.c # We cannot trust House Wayne to follow our desire for peace. They must be destroyed.
+		random_list = {
+			75 = {
+				country_event = {
+					id = ny_events.16
+				}
+			}
+			25 = {
+				country_event = {
+					id = ny_events.17
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Wayne destroyed
+	id = ny_events.16
+	title = ny_events.16.t
+	desc = ny_events.16.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.16.a
+		add_stability = 1 
+		add_treasury = 150 # Seized assets
+		set_country_flag = nys_wayne_mercs_unlocked # Wayne's bodyguard transferred for peacekeeping reasons. Might disable
 		set_country_flag = nys_wayne_disabled
+	}
+}
+
+country_event = { # Levi destroyed by counter
+	id = ny_events.17
+	title = ny_events.17.t
+	desc = ny_events.17.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.17.a
+		add_stability = -3
+		kill_ruler = yes
+		set_country_flag = nys_levi_disabled
+	}
+}
+
+country_event = { # Wayne incensed by peace posturing, stages coup against House Levi
+	id = ny_events.18
+	title = ny_events.18.t
+	desc = ny_events.18.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = ny_events.18.a
+		add_stability = -3
+		kill_ruler = yes
+		set_country_flag = nys_levi_disabled
 	}
 }

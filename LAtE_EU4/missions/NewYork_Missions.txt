@@ -1029,6 +1029,15 @@ NewYork_Missions_5 = { # Culture and legislation
 			}
 		}
 	}
+}
+nys_amos_tree = {
+	slot = 4
+	potential = {
+		tag = NYS
+		has_country_flag = nys_familial_missions
+	}
+	has_country_shield = yes
+
 	nys_commitment_to_peace = {
 		icon = mission_alliances
 		position = 8

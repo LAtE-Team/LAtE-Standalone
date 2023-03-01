@@ -62,3 +62,20 @@ merc_militia = {
 		recover_army_morale_speed = 0.2
 	}
 }
+
+# NY Wayne bodyguard
+wayne_bodyguard = {
+	regiments_per_development = 0.03
+	cost_modifier = 0
+	home_province = 965
+	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		OR = {
+			dynasty = "Wayne"
+			has_country_flag = nys_wayne_mercs_unlocked
+		}
+	}
+	modifier = {
+		discipline = 0.05
+	}
+}
