@@ -1,48 +1,5 @@
 namespace = ny_events
 
-# country_event = { # Election on ruler death
-# 	id = ny_events.1
-# 	title = ny_events.1.t
-# 	desc = ny_events.1.desc
-# 	picture = ELECTION_REPUBLICAN_eventPicture
-
-# 	is_triggered_only = yes
-
-# 	trigger = {
-# 		always = yes
-# 		has_reform = tammany_republic_reform
-# 	}
-
-# 	option = { # Wayne tree
-# 		name = ny_events.1.a
-# 		add_republican_tradition = -5
-# 		define_ruler = {
-# 			dynasty = "Wayne"
-# 		}
-# 	}
-# 	option = { # Levi / Religious tree
-# 		name = ny_events.1.b
-# 		add_republican_tradition = -5
-# 		define_ruler = {
-# 			dynasty = "Levi"
-# 		}
-# 	}
-# 	option = { # Colonial
-# 		name = ny_events.1.c
-# 		add_republican_tradition = -5
-# 		define_ruler = {
-# 			dynasty = "Amos"
-# 		}
-# 	}
-# 	option = { # Trader
-# 		name = ny_events.1.d
-# 		add_republican_tradition = -5
-# 		define_ruler = {
-# 			dynasty = "Coeur"
-# 		}
-# 	}
-# }
-
 country_event = {
 	id = ny_events.1
 	title = ny_events.1.t
@@ -246,56 +203,14 @@ country_event = {
 					dynasty = "Coeur"
 				}
 			}
-			# if = {
-			# 	limit = {
-			# 		republic_with_female_rulers_trigger = yes
-			# 		NOT = { has_country_flag = ven_new_promissione_ducale }
-			# 	}
-				define_exiled_ruler = { # For some reason, this option still spawns a ruler with the same age as that of house Coeur. Minor issue, but annoying.
-					exiled_as = lottery_candidate_d_@ROOT
-					min_age = 50
-					max_age = 75
-					random_gender = yes
-					option = 2
-					dynasty = "Amos"
-				}
-			# }
-			# else_if = {
-			# 	limit = {
-			# 		republic_with_female_rulers_trigger = yes
-			# 		has_country_flag = ven_new_promissione_ducale
-			# 	}
-			# 	define_exiled_ruler = {
-			# 		exiled_as = lottery_candidate_d_@ROOT
-			# 		random_gender = yes
-			# 		min_age = 50
-			# 		max_age = 75
-			# 		option = 0
-			# 		dynasty = "Coeur"
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = {
-			# 		NOT = { republic_with_female_rulers_trigger = yes }
-			# 		has_country_flag = ven_new_promissione_ducale
-			# 	}
-			# 	define_exiled_ruler = {
-			# 		exiled_as = lottery_candidate_d_@ROOT
-			# 		min_age = 50
-			# 		max_age = 75
-			# 		option = 0
-			# 		dynasty = "Coeur"
-			# 	}
-			# }
-			# else = {
-			# 	define_exiled_ruler = {
-			# 		exiled_as = lottery_candidate_d_@ROOT
-			# 		min_age = 50
-			# 		max_age = 75
-			# 		option = 2
-			# 		dynasty = "Coeur"
-			# 	}
-			# }
+			define_exiled_ruler = { # For some reason, this option still spawns a ruler with the same age as that of house Coeur. Minor issue, but annoying.
+				exiled_as = lottery_candidate_d_@ROOT
+				min_age = 50
+				max_age = 75
+				random_gender = yes
+				option = 2
+				dynasty = "Amos"
+			}
 		}
 	}
 	
@@ -308,12 +223,12 @@ country_event = {
 	
 	option = {
 		name = ny_events.1.a
-		set_country_flag = nys_wayne_mercs_unlocked
 		trigger = {
 			NOT = {
 				has_country_flag = nys_wayne_disabled
 			} 
 		}
+		set_country_flag = nys_wayne_mercs_unlocked
 		ai_chance = {
 			factor = 0
 		}
@@ -364,41 +279,83 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		random_list = {
-			25 = { 
-				set_ruler = lottery_candidate_a_@ROOT
-				set_country_flag = nys_wayne_mercs_unlocked
-				modifier = {
-					factor = 0
-					NOT = {
-						has_country_flag = nys_wayne_disabled
-					}
+
+		if = { # BOTH HOUSES ALIVE
+			limit = {
+				NOT = {
+					has_country_flag = nys_wayne_disabled
+					has_country_flag = nys_levi_disabled
 				}
 			}
-			25 = { 
-				set_ruler = lottery_candidate_b_@ROOT 
-				modifier = {
-					factor = 0
-					NOT = {
-						has_country_flag = nys_levi_disabled
-					}
-				}
-				if = {
-					limit = {
-						has_country_flag = nys_wayne_disabled
-					}
+			random_list = {
+				25 = { 
+					set_ruler = lottery_candidate_a_@ROOT
 					set_country_flag = nys_wayne_mercs_unlocked
 				}
+				25 = { 
+					set_ruler = lottery_candidate_b_@ROOT 
+					if = {
+						limit = {
+							has_country_flag = nys_wayne_disabled
+						}
+						set_country_flag = nys_wayne_mercs_unlocked
+					}
+				}
+				25 = { 
+					set_ruler = lottery_candidate_c_@ROOT 
+				}
+				25 = { 
+					set_ruler = lottery_candidate_d_@ROOT 
+				}
 			}
-			25 = { 
-				set_ruler = lottery_candidate_c_@ROOT 
-			}
-			25 = { 
-				set_ruler = lottery_candidate_d_@ROOT 
-			}
+			add_republican_tradition = 15
+			custom_tooltip = lottery_candidate_bonus_plural
 		}
-		add_republican_tradition = 15
-		custom_tooltip = lottery_candidate_bonus_plural
+
+		if = { # WAYNE DISABLED
+			limit = {
+				has_country_flag = nys_wayne_disabled
+			}
+			random_list = {
+				33 = { 
+					set_ruler = lottery_candidate_b_@ROOT 
+					if = {
+						limit = {
+							has_country_flag = nys_wayne_disabled
+						}
+						set_country_flag = nys_wayne_mercs_unlocked
+					}
+				}
+				33 = { 
+					set_ruler = lottery_candidate_c_@ROOT 
+				}
+				33 = { 
+					set_ruler = lottery_candidate_d_@ROOT 
+				}
+			}
+			add_republican_tradition = 15
+			custom_tooltip = lottery_candidate_bonus_plural
+		}
+
+		if = { # LEVI DISABLED
+			limit = {
+				has_country_flag = nys_levi_disabled
+			}
+			random_list = {
+				33 = { 
+					set_ruler = lottery_candidate_a_@ROOT
+					set_country_flag = nys_wayne_mercs_unlocked
+				}
+				33 = { 
+					set_ruler = lottery_candidate_c_@ROOT 
+				}
+				33 = { 
+					set_ruler = lottery_candidate_d_@ROOT 
+				}
+			}
+			add_republican_tradition = 15
+			custom_tooltip = lottery_candidate_bonus_plural
+		}
 	}
 	option = { # nepotism
 		name = ny_events.1.e
@@ -994,7 +951,7 @@ country_event = { # Confront agitators - House Wayne offers a bargain. Maybe mak
 
 		random_list = {
 			75 = {
-				
+
 			}
 
 			25 = {
@@ -1049,9 +1006,9 @@ country_event = { # Levi destroyed by counter
 
 	option = {
 		name = ny_events.17.a
+		set_country_flag = nys_levi_disabled
 		add_stability = -3
 		kill_ruler = yes
-		set_country_flag = nys_levi_disabled
 	}
 }
 
@@ -1064,8 +1021,8 @@ country_event = { # Wayne incensed by peace posturing, stages coup against House
 
 	option = {
 		name = ny_events.18.a
+		set_country_flag = nys_levi_disabled
 		add_stability = -3
 		kill_ruler = yes
-		set_country_flag = nys_levi_disabled
 	}
 }
