@@ -119,11 +119,24 @@ LAtE_has_any_exploration_idea = {
 }
 
 LAtE_in_america_trigger = {
-	OR = {
-		capital_scope = {
+	capital_scope = {
+		OR = {
 			continent = north_america
 			continent = south_america
 		}
 	}
 	is_tribal = no
+}
+
+LAtE_repartee_contender_trigger = {
+	OR = {
+		religion = catholic
+		religion = ursuline
+		religion = anglican
+		religion = protestant
+		religion_group = oldworld
+		religion_group = afro_syncretic
+		religion_group = cult_of_saints
+	}
+	LAtE_in_america_trigger = yes
 }

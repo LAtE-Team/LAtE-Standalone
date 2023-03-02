@@ -439,6 +439,7 @@ country_event = {
 		europe_superregion = {
 			has_discovered = ROOT
 		}
+		has_global_flag = repartee_begins_flag
 	}
 
 	mean_time_to_happen = {

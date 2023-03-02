@@ -1,0 +1,260 @@
+##############################
+# Repartee (Reformation)     #
+# Events                     #
+# Written by Technecian 	 #
+##############################
+
+namespace = repartee
+
+#0-10 Opening and Control of Texas/Chicago
+
+#The Old World is Discovered, the Repartee Begins
+country_event = {
+	id = repartee.1
+	title = repartee.1.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.1.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.1.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.1.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.1.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.1.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	trigger = {
+		LAtE_repartee_contender_trigger = yes
+		europe_superregion = { #Think about what provinces should count
+			has_discovered = ROOT
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	immediate = {
+		set_global_flag = repartee_begins_flag
+		REB = {
+			set_variable = {
+				which = catholicReparteeVariable
+				value = 0
+			}
+			set_variable = {
+				which = canadianReparteeVariable
+				value = 0
+			}
+			set_variable = {
+				which = protestantReparteeVariable
+				value = 0
+			}
+			set_variable = {
+				which = oldworldReparteeVariable
+				value = 0
+			}
+			set_variable = {
+				which = latinReparteeVariable
+				value = 0
+			}
+		}
+	}
+
+	option = {
+		name = repartee.1.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		REB = {
+			change_variable = {
+				which = catholicReparteeVariable
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = repartee.1.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		REB = {
+			change_variable = {
+				which = canadianReparteeVariable
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = repartee.1.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		REB = {
+			change_variable = {
+				which = protestantReparteeVariable
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = repartee.1.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		REB = {
+			change_variable = {
+				which = oldworldReparteeVariable
+				value = 1
+			}
+		}
+	}
+
+	option = {
+		name = repartee.1.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		REB = {
+			change_variable = {
+				which = latinReparteeVariable
+				value = 1
+			}
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+			}
+			country_event = {
+				id = repartee.2
+				days = 60 
+			}
+		}
+	}
+}
+
+#Repartee begins announcement
+country_event = {
+	id = repartee.2
+	title = repartee.2.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.2.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.2.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.2.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.2.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.2.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.2.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.2.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.2.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.2.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.2.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
