@@ -8,6 +8,19 @@ namespace = repartee
 
 #0-10 Opening and Control of Texas/Chicago
 
+#Debugging event for values
+country_event = {
+	id = repartee.0
+	title = repartee.0.t
+	desc = repartee.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.0.o
+	}
+}
+
 #The Old World is Discovered, the Repartee Begins
 country_event = {
 	id = repartee.1
@@ -65,27 +78,29 @@ country_event = {
 
 	immediate = {
 		set_global_flag = repartee_begins_flag
-		REB = {
-			set_variable = {
-				which = catholicReparteeVariable
-				value = 0
-			}
-			set_variable = {
-				which = canadianReparteeVariable
-				value = 0
-			}
-			set_variable = {
-				which = protestantReparteeVariable
-				value = 0
-			}
-			set_variable = {
-				which = oldworldReparteeVariable
-				value = 0
-			}
-			set_variable = {
-				which = latinReparteeVariable
-				value = 0
-			}
+		hidden_effect = {
+			REB = {
+				set_variable = {
+					which = catholicReparteeVariable
+					value = 0
+				}
+				set_variable = {
+					which = canadianReparteeVariable
+					value = 0
+				}
+				set_variable = {
+					which = protestantReparteeVariable
+					value = 0
+				}
+				set_variable = {
+					which = oldworldReparteeVariable
+					value = 0
+				}
+				set_variable = {
+					which = latinReparteeVariable
+					value = 0
+				}
+			}			
 		}
 	}
 
@@ -94,12 +109,7 @@ country_event = {
 		trigger = {
 			religion = catholic
 		}
-		REB = {
-			change_variable = {
-				which = catholicReparteeVariable
-				value = 1
-			}
-		}
+		repartee_increment_effect = { catholic = yes }
 	}
 
 	option = {
@@ -110,12 +120,7 @@ country_event = {
 				religion = anglican
 			}	
 		}
-		REB = {
-			change_variable = {
-				which = canadianReparteeVariable
-				value = 1
-			}
-		}
+		repartee_increment_effect = { canadian = yes }
 	}
 
 	option = {
@@ -123,12 +128,7 @@ country_event = {
 		trigger = {
 			religion = protestant
 		}
-		REB = {
-			change_variable = {
-				which = protestantReparteeVariable
-				value = 1
-			}
-		}
+		repartee_increment_effect = { protestant = yes }
 	}
 
 	option = {
@@ -136,12 +136,7 @@ country_event = {
 		trigger = {
 			religion_group = oldworld
 		}
-		REB = {
-			change_variable = {
-				which = oldworldReparteeVariable
-				value = 1
-			}
-		}
+		repartee_increment_effect = { oldworld = yes }
 	}
 
 	option = {
@@ -152,12 +147,7 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		REB = {
-			change_variable = {
-				which = latinReparteeVariable
-				value = 1
-			}
-		}
+		repartee_increment_effect = { latin = yes }
 	}
 
 	after = {

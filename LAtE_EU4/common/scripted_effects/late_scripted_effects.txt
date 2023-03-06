@@ -261,3 +261,56 @@ anabaptists_expelled_effect = {
 	}
 	custom_tooltip = ANABAPTISTS_EXPELLED_TT
 }
+
+repartee_increment_effect = {
+	[[catholic]
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = catholicReparteeVariable
+					value = 1
+				}
+			}
+		}
+	]
+	[[canadian]
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = canadianReparteeVariable
+					value = 1
+				}
+			}
+		}
+	]
+	[[protestant]
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = protestantReparteeVariable
+					value = 1
+				}
+			}
+		}
+	]
+	[[oldworld]
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = oldworldReparteeVariable
+					value = 1
+				}
+			}
+		}
+	]
+	[[latin]
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = latinReparteeVariable
+					value = 1
+				}
+			}
+		}
+	]
+}

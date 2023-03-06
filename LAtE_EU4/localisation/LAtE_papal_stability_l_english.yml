@@ -80,3 +80,6 @@
  papal_stability.19.t:0 "The Pope and the Green Witch"
  papal_stability.19.d:0 "REPLACE_ME"
  papal_stability.19.a:0 "REPLACE_ME"
+
+
+  repartee.0.d: "[REB.catholicReparteeVariable.GetName] [REB.catholicReparteeVariable.GetValue]\n \n[REB.canadianReparteeVariable.GetName] [REB.canadianReparteeVariable.GetValue]\n \n[REB.protestantReparteeVariable.GetName] [REB.protestantReparteeVariable.GetValue]\n \n[REB.oldworldReparteeVariable.GetName] [REB.oldworldReparteeVariable.GetValue]\n \n[REB.latinReparteeVariable.GetName] [REB.latinReparteeVariable.GetValue]"
