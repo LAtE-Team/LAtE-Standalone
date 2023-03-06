@@ -6,7 +6,7 @@
 
 namespace = repartee
 
-#0-10 Opening and Control of Texas/Chicago
+#0-21 Discovery of the old world, Repartee begins
 
 #Debugging event for values
 country_event = {
@@ -65,8 +65,9 @@ country_event = {
 
 	trigger = {
 		LAtE_repartee_contender_trigger = yes
-		europe_superregion = { #Think about what provinces should count
+		any_province = {
 			has_discovered = ROOT
+			LAtE_in_old_world_trigger = yes
 		}
 	}
 
@@ -154,16 +155,27 @@ country_event = {
 		every_country = {
 			limit = {
 				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
 				id = repartee.2
 				days = 60 
 			}
 		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.3
+				days = 60 
+			}
+		}
 	}
 }
 
-#Repartee begins announcement
+#Repartee begins announcement - Same religion
 country_event = {
 	id = repartee.2
 	title = repartee.2.t
@@ -246,5 +258,1190 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
+	}
+}
+
+#Repartee begins announcement - Different religion
+country_event = {
+	id = repartee.3
+	title = repartee.3.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.3.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.3.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.3.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.3.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.3.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.3.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.3.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.3.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.3.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.3.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
+
+# The Discovery of Rome
+country_event = {
+	id = repartee.4
+	title = repartee.4.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.4.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.4.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.4.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.4.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.4.latin.d
+	}
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		LAtE_repartee_contender_trigger = yes
+		has_discovered = 118 #Rome
+	}
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.5
+			religion = catholic
+		}
+	}
+
+	immediate = {
+		set_global_flag = repartee_rome_discovered_flag
+	}
+
+	option = {
+		name = repartee.4.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.4.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.4.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.4.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.4.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.5
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.6
+				days = 60 
+			}
+		}
+	}
+}
+
+# Rome discovered announcement - Same religion
+country_event = {
+	id = repartee.5
+	title = repartee.5.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.5.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.5.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.5.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.5.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.5.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.5.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.5.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.5.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.5.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.5.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
+
+# Rome discovered announcement - Different religion
+country_event = {
+	id = repartee.6
+	title = repartee.6.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.6.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.6.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.6.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.6.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.6.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.6.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.6.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.6.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.6.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.6.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
+
+# The Discovery of Jerusalem
+country_event = {
+	id = repartee.7
+	title = repartee.7.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.7.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.7.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.7.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.7.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.7.latin.d
+	}
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		LAtE_repartee_contender_trigger = yes
+		has_discovered = 379 #Jerusalem
+	}
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.5
+			religion = catholic
+		}
+	}
+
+	immediate = {
+		set_global_flag = repartee_jerusalem_discovered_flag
+	}
+
+	option = {
+		name = repartee.7.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.7.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.7.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.7.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.7.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.8
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.9
+				days = 60 
+			}
+		}
+	}
+}
+
+# Rome discovered announcement - Same religion
+country_event = {
+	id = repartee.8
+	title = repartee.8.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.8.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.8.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.8.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.8.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.8.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.8.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.8.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.8.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.8.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.8.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
+
+# Rome discovered announcement - Different religion
+country_event = {
+	id = repartee.9
+	title = repartee.9.t
+	desc = {
+		trigger = {
+			religion = catholic
+		}
+		desc = repartee.9.catholic.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		desc = repartee.9.canadian.d
+	}
+	desc = {
+		trigger = {
+			religion = protestant
+		}
+		desc = repartee.9.protestant.d
+	}
+	desc = {
+		trigger = {
+			religion_group = oldworld
+		}
+		desc = repartee.9.oldworld.d
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		desc = repartee.9.latin.d
+	}
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.9.catholic.o
+		trigger = {
+			religion = catholic
+		}
+	}
+
+	option = {
+		name = repartee.9.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+	}
+
+	option = {
+		name = repartee.9.protestant.o
+		trigger = {
+			religion = protestant
+		}
+	}
+
+	option = {
+		name = repartee.9.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+	}
+
+	option = {
+		name = repartee.9.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+	}
+}
+
+# The Discovery of Europeans
+country_event = {
+	id = repartee.10
+	title = repartee.10.t
+	desc = repartee.10.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		LAtE_repartee_contender_trigger = yes
+		any_neighbor_country = {
+			AND = {
+				# is_tribal = yes #add this later when the europeans are tribal
+				capital_scope = {
+					LAtE_in_old_world_trigger = yes
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_global_flag = repartee_natives_discovered_flag
+	}
+
+	option = {
+		name = repartee.10.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.10.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.10.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.10.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.10.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.11
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.12
+				days = 60 
+			}
+		}
+	}
+}
+
+# Europeans discovered announcement - Same religion
+country_event = {
+	id = repartee.11
+	title = repartee.11.t
+	desc = repartee.11.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.11.o
+	}
+}
+
+# Europeans discovered announcement - Different religion
+country_event = {
+	id = repartee.12
+	title = repartee.12.t
+	desc = repartee.12.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.12.o
+	}
+}
+
+# The First Colonial Nation
+country_event = {
+	id = repartee.13
+	title = repartee.13.t
+	desc = repartee.13.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		has_global_flag = repartee_natives_discovered_flag
+		LAtE_repartee_contender_trigger = yes
+		any_subject_country = {
+			capital_scope = {
+				LAtE_in_old_world_trigger = yes
+			}
+			is_colonial_nation = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = repartee.13.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.13.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.13.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.13.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.13.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.14
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.15
+				days = 60 
+			}
+		}
+	}
+}
+
+# First Colonial Nation announcement - Same religion
+country_event = {
+	id = repartee.14
+	title = repartee.14.t
+	desc = repartee.14.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.14.o
+	}
+}
+
+# First Colonial Nation announcement - Different religion
+country_event = {
+	id = repartee.15
+	title = repartee.15.t
+	desc = repartee.15.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.15.o
+	}
+}
+
+# The Conquest of England
+country_event = {
+	id = repartee.16
+	title = repartee.16.t
+	desc = repartee.16.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		has_global_flag = repartee_natives_discovered_flag
+		LAtE_repartee_contender_trigger = yes
+		british_isles_region = {
+			type = all
+			country_or_non_sovereign_subject_holds = root
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = repartee.16.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.16.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.16.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.16.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.16.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.17
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.17
+				days = 60 
+			}
+		}
+	}
+}
+
+# Conquest of England announcement - Same religion
+country_event = {
+	id = repartee.17
+	title = repartee.17.t
+	desc = repartee.17.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.17.o
+	}
+}
+
+# Conquest of England announcement - Different religion
+country_event = {
+	id = repartee.17
+	title = repartee.17.t
+	desc = repartee.17.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.17.o
+	}
+}
+
+# The Conquest of the Lowlands
+country_event = {
+	id = repartee.19
+	title = repartee.19.t
+	desc = repartee.19.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		has_global_flag = repartee_natives_discovered_flag
+		LAtE_repartee_contender_trigger = yes
+		low_countries_region = {
+			type = all
+			country_or_non_sovereign_subject_holds = root
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = repartee.19.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		repartee_increment_effect = { catholic = yes }
+	}
+
+	option = {
+		name = repartee.19.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		repartee_increment_effect = { canadian = yes }
+	}
+
+	option = {
+		name = repartee.19.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		repartee_increment_effect = { protestant = yes }
+	}
+
+	option = {
+		name = repartee.19.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		repartee_increment_effect = { oldworld = yes }
+	}
+
+	option = {
+		name = repartee.19.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		repartee_increment_effect = { latin = yes }
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee.20
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee.21
+				days = 60 
+			}
+		}
+	}
+}
+
+# Conquest of the Lowlands announcement - Same religion
+country_event = {
+	id = repartee.20
+	title = repartee.20.t
+	desc = repartee.20.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.20.o
+	}
+}
+
+# Conquest of the Lowlands announcement - Different religion
+country_event = {
+	id = repartee.21
+	title = repartee.21.t
+	desc = repartee.21.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee.21.o
 	}
 }

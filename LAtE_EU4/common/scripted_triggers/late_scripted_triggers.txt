@@ -140,3 +140,43 @@ LAtE_repartee_contender_trigger = {
 	}
 	LAtE_in_america_trigger = yes
 }
+
+LAtE_in_old_world_trigger = {
+	OR = {
+		superregion = europe_superregion
+	}
+}
+
+LAtE_same_repartee_group_trigger = {
+	OR = {
+		religion = ROOT
+		AND = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+			ROOT = { 
+				OR = {
+					religion = ursuline 
+					religion = anglican
+				}
+			}
+		}
+		AND = {
+			religion_group = oldworld
+			ROOT = { religion_group = oldworld }
+		}
+		AND = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+			ROOT = {
+				OR = {
+					religion_group = afro_syncretic
+					religion_group = cult_of_saints
+				}
+			}
+		}
+	}
+}
