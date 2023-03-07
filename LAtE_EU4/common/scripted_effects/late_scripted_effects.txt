@@ -314,3 +314,151 @@ repartee_increment_effect = {
 		}
 	]
 }
+
+repartee_increase_effect = {
+	if = {
+		limit = {
+			religion = catholic
+		}
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = catholicReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = { 
+		limit = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = canadianReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			religion = protestant
+		}
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = protestantReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			religion_group = oldworld
+		}
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = oldworldReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		hidden_effect = {
+			REB = {
+				change_variable = {
+					which = latinReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+repartee_decrease_effect = {
+	if = {
+		limit = {
+			religion = catholic
+		}
+		hidden_effect = {
+			REB = {
+				subtract_variable = {
+					which = catholicReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = { 
+		limit = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}	
+		}
+		hidden_effect = {
+			REB = {
+				subtract_variable = {
+					which = canadianReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			religion = protestant
+		}
+		hidden_effect = {
+			REB = {
+				subtract_variable = {
+					which = protestantReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			religion_group = oldworld
+		}
+		hidden_effect = {
+			REB = {
+				subtract_variable = {
+					which = oldworldReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		hidden_effect = {
+			REB = {
+				subtract_variable = {
+					which = latinReparteeVariable
+					value = 1
+				}
+			}
+		}
+	}
+}
