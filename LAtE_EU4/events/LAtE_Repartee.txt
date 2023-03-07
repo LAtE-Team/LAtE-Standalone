@@ -5,6 +5,7 @@
 ##############################
 
 namespace = repartee
+namespace = repartee_notifications
 
 #0-9 Discovery of the old world, Repartee begins
 
@@ -16,8 +17,21 @@ country_event = {
 
 	is_triggered_only = yes
 
+	immediate = {
+		random_province = {
+			limit = {
+				owner = {
+					religion = catholic
+				}
+				has_port = yes
+			}
+			save_event_target_as = repartee_debug_target
+		}
+	}
+
 	option = {
 		name = repartee.0.o
+		goto = repartee_debug_target
 	}
 }
 
@@ -114,21 +128,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.1.wn
+				id = repartee_notifications.11
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.1.ln
+				id = repartee_notifications.12
 				days = 60 
 			}
 		}
@@ -137,13 +153,13 @@ country_event = {
 
 #Repartee begins announcement - Same religion
 country_event = {
-	id = repartee.1.wn
-	title = repartee.1.wn.t
+	id = repartee_notifications.11
+	title = repartee_notifications.11.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.1.wn.catholic.d
+		desc = repartee_notifications.11.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -152,19 +168,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.1.wn.canadian.d
+		desc = repartee_notifications.11.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.1.wn.protestant.d
+		desc = repartee_notifications.11.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.1.wn.oldworld.d
+		desc = repartee_notifications.11.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -173,26 +189,26 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.1.wn.latin.d
+		desc = repartee_notifications.11.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.1.wn.o
+		name = repartee_notifications.11.o
 	}
 }
 
 #Repartee begins announcement - Different religion
 country_event = {
-	id = repartee.1.ln
-	title = repartee.1.ln.t
+	id = repartee_notifications.12
+	title = repartee_notifications.12.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.1.ln.catholic.d
+		desc = repartee_notifications.12.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -201,19 +217,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.1.ln.canadian.d
+		desc = repartee_notifications.12.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.1.ln.protestant.d
+		desc = repartee_notifications.12.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.1.ln.oldworld.d
+		desc = repartee_notifications.12.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -222,14 +238,14 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.1.ln.latin.d
+		desc = repartee_notifications.12.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.1.ln.o
+		name = repartee_notifications.12.o
 	}
 }
 
@@ -303,21 +319,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.2.wn
+				id = repartee_notifications.22
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.2.ln
+				id = repartee_notifications.23
 				days = 60 
 			}
 		}
@@ -326,13 +344,13 @@ country_event = {
 
 # Rome discovered announcement - Same religion
 country_event = {
-	id = repartee.2.wn
-	title = repartee.2.wn.t
+	id = repartee_notifications.22
+	title = repartee_notifications.22.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.2.wn.catholic.d
+		desc = repartee_notifications.22.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -341,19 +359,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.2.wn.canadian.d
+		desc = repartee_notifications.22.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.2.wn.protestant.d
+		desc = repartee_notifications.22.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.2.wn.oldworld.d
+		desc = repartee_notifications.22.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -362,26 +380,26 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.2.wn.latin.d
+		desc = repartee_notifications.22.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.2.wn.o
+		name = repartee_notifications.22.o
 	}
 }
 
 # Rome discovered announcement - Different religion
 country_event = {
-	id = repartee.2.ln
-	title = repartee.2.ln.t
+	id = repartee_notifications.23
+	title = repartee_notifications.23.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.2.ln.catholic.d
+		desc = repartee_notifications.23.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -390,19 +408,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.2.ln.canadian.d
+		desc = repartee_notifications.23.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.2.ln.protestant.d
+		desc = repartee_notifications.23.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.2.ln.oldworld.d
+		desc = repartee_notifications.23.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -411,14 +429,14 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.2.ln.latin.d
+		desc = repartee_notifications.23.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.2.ln.o
+		name = repartee_notifications.23.o
 	}
 }
 
@@ -492,21 +510,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.3.wn
+				id = repartee_notifications.33
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.3.ln
+				id = repartee_notifications.34
 				days = 60 
 			}
 		}
@@ -515,13 +535,13 @@ country_event = {
 
 # Rome discovered announcement - Same religion
 country_event = {
-	id = repartee.3.wn
-	title = repartee.3.wn.t
+	id = repartee_notifications.33
+	title = repartee_notifications.33.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.3.wn.catholic.d
+		desc = repartee_notifications.33.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -530,19 +550,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.3.wn.canadian.d
+		desc = repartee_notifications.33.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.3.wn.protestant.d
+		desc = repartee_notifications.33.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.3.wn.oldworld.d
+		desc = repartee_notifications.33.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -551,26 +571,26 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.3.wn.latin.d
+		desc = repartee_notifications.33.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.3.wn.o
+		name = repartee_notifications.33.o
 	}
 }
 
 # Rome discovered announcement - Different religion
 country_event = {
-	id = repartee.3.ln
-	title = repartee.3.ln.t
+	id = repartee_notifications.34
+	title = repartee_notifications.34.t
 	desc = {
 		trigger = {
 			religion = catholic
 		}
-		desc = repartee.3.ln.catholic.d
+		desc = repartee_notifications.34.catholic.d
 	}
 	desc = {
 		trigger = {
@@ -579,19 +599,19 @@ country_event = {
 				religion = anglican
 			}
 		}
-		desc = repartee.3.ln.canadian.d
+		desc = repartee_notifications.34.canadian.d
 	}
 	desc = {
 		trigger = {
 			religion = protestant
 		}
-		desc = repartee.3.ln.protestant.d
+		desc = repartee_notifications.34.protestant.d
 	}
 	desc = {
 		trigger = {
 			religion_group = oldworld
 		}
-		desc = repartee.3.ln.oldworld.d
+		desc = repartee_notifications.34.oldworld.d
 	}
 	desc = {
 		trigger = {
@@ -600,14 +620,14 @@ country_event = {
 				religion_group = cult_of_saints
 			}
 		}
-		desc = repartee.3.ln.latin.d
+		desc = repartee_notifications.34.latin.d
 	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.3.ln.o
+		name = repartee_notifications.34.o
 	}
 }
 
@@ -650,21 +670,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.4.wn
+				id = repartee_notifications.44
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.4.ln
+				id = repartee_notifications.45
 				days = 60 
 			}
 		}
@@ -673,29 +695,29 @@ country_event = {
 
 # Europeans discovered announcement - Same religion
 country_event = {
-	id = repartee.4.wn
-	title = repartee.4.wn.t
-	desc = repartee.4.wn.d
+	id = repartee_notifications.44
+	title = repartee_notifications.44.t
+	desc = repartee_notifications.44.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.4.wn.o
+		name = repartee_notifications.44.o
 	}
 }
 
 # Europeans discovered announcement - Different religion
 country_event = {
-	id = repartee.4.ln
-	title = repartee.4.ln.t
-	desc = repartee.4.ln.d
+	id = repartee_notifications.45
+	title = repartee_notifications.45.t
+	desc = repartee_notifications.45.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.4.ln.o
+		name = repartee_notifications.45.o
 	}
 }
 
@@ -733,21 +755,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.5.wn
+				id = repartee_notifications.55
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.5.ln
+				id = repartee_notifications.56
 				days = 60 
 			}
 		}
@@ -756,29 +780,29 @@ country_event = {
 
 # First Colonial Nation announcement - Same religion
 country_event = {
-	id = repartee.5.wn
-	title = repartee.5.wn.t
-	desc = repartee.5.wn.d
+	id = repartee_notifications.55
+	title = repartee_notifications.55.t
+	desc = repartee_notifications.55.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.5.wn.o
+		name = repartee_notifications.55.o
 	}
 }
 
 # First Colonial Nation announcement - Different religion
 country_event = {
-	id = repartee.5.ln
-	title = repartee.5.ln.t
-	desc = repartee.5.ln.d
+	id = repartee_notifications.56
+	title = repartee_notifications.56.t
+	desc = repartee_notifications.56.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.5.ln.o
+		name = repartee_notifications.56.o
 	}
 }
 
@@ -814,21 +838,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.6.wn
+				id = repartee_notifications.66
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.6.ln
+				id = repartee_notifications.67
 				days = 60 
 			}
 		}
@@ -837,29 +863,29 @@ country_event = {
 
 # Conquest of England announcement - Same religion
 country_event = {
-	id = repartee.6.wn
-	title = repartee.6.wn.t
-	desc = repartee.6.wn.d
+	id = repartee_notifications.66
+	title = repartee_notifications.66.t
+	desc = repartee_notifications.66.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.6.wn.o
+		name = repartee_notifications.66.o
 	}
 }
 
 # Conquest of England announcement - Different religion
 country_event = {
-	id = repartee.6.ln
-	title = repartee.6.ln.t
-	desc = repartee.6.ln.d
+	id = repartee_notifications.67
+	title = repartee_notifications.67.t
+	desc = repartee_notifications.67.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.6.ln.o
+		name = repartee_notifications.67.o
 	}
 }
 
@@ -895,21 +921,23 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.7.wn
+				id = repartee_notifications.77
 				days = 60 
 			}
 		}
 		every_country = {
 			limit = {
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = no
 			}
 			country_event = {
-				id = repartee.7.ln
+				id = repartee_notifications.78
 				days = 60 
 			}
 		}
@@ -918,29 +946,29 @@ country_event = {
 
 # Conquest of the Lowlands announcement - Same religion
 country_event = {
-	id = repartee.7.wn
-	title = repartee.7.wn.t
-	desc = repartee.7.wn.d
+	id = repartee_notifications.77
+	title = repartee_notifications.77.t
+	desc = repartee_notifications.77.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.7.wn.o
+		name = repartee_notifications.77.o
 	}
 }
 
 # Conquest of the Lowlands announcement - Different religion
 country_event = {
-	id = repartee.7.ln
-	title = repartee.7.ln.t
-	desc = repartee.7.ln.d
+	id = repartee_notifications.78
+	title = repartee_notifications.78.t
+	desc = repartee_notifications.78.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.7.ln.o
+		name = repartee_notifications.78.o
 	}
 }
 
@@ -959,11 +987,13 @@ country_event = {
 		NOT = {
 			any_country = {
 				AND = {
+					LAtE_repartee_contender_trigger = yes
 					LAtE_same_repartee_group_trigger = yes
 					any_owned_province = {
 						has_port = yes
-					}					
+					}
 				}
+
 			}
 		}
 		NOT = {
@@ -1055,11 +1085,12 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.8.n
+				id = repartee_notifications.88
 				days = 60 
 			}
 		}
@@ -1068,15 +1099,15 @@ country_event = {
 
 # No port announcement
 country_event = {
-	id = repartee.8.n
-	title = repartee.8.n.t
-	desc = repartee.8.n.d
+	id = repartee_notifications.88
+	title = repartee_notifications.88.t
+	desc = repartee_notifications.88.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.8.n.o
+		name = repartee_notifications.88.o
 	}
 }
 
@@ -1092,9 +1123,12 @@ country_event = {
 		has_global_flag = repartee_begins_flag
 		LAtE_repartee_contender_trigger = yes
 		any_country = {
-			LAtE_same_repartee_group_trigger = yes
-			any_owned_province = {
-				has_port = yes
+			AND = {
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+				any_owned_province = {
+					has_port = yes
+				}
 			}
 		}
 		OR = {
@@ -1183,11 +1217,12 @@ country_event = {
 		every_country = {
 			limit = {
 				NOT = { tag = ROOT }
+				ai = no
 				LAtE_repartee_contender_trigger = yes
 				LAtE_same_repartee_group_trigger = yes
 			}
 			country_event = {
-				id = repartee.8.n
+				id = repartee_notifications.99
 				days = 60 
 			}
 		}
@@ -1196,14 +1231,14 @@ country_event = {
 
 # No port announcement
 country_event = {
-	id = repartee.9.n
-	title = repartee.9.n.t
-	desc = repartee.9.n.d
+	id = repartee_notifications.99
+	title = repartee_notifications.99.t
+	desc = repartee_notifications.99.d
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = repartee.9.n.o
+		name = repartee_notifications.99.o
 	}
 }
