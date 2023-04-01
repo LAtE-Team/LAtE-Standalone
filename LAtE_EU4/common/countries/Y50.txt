@@ -8,16 +8,16 @@ color = { 209 161 189 }
 
 leader_names = {
 
-	"Derrick" "Augustin" "Hélène" "Dydim" "Tête" "Vic" "Pearl" "Dylan" "Maria" "Marianne" 
-	"Jonathan" "Josette" "Henri" "Albert" "Alec" "Alexander" "Ambroise-Dydime" "Ambrose" "Andrew" "Andy" 
-	"Angus" "Antoine" "Antonine" "Arron" "Arthur" "Asham" "August" "Axel" "Baptiste" "Bob" 
-	"Brian" "Bryan" "Calvin" "Charles" "Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis" 
-	"Don" "Douglas" "Doyle" "Dwight" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George" 
-	"Gerald" "Gil" "Gregory" "Guillaume" "Harley" "Honoré" "Howard" "Ian" "Jacco" "Jaco" 
-	"Jacques" "James" "Jaxon" "Jean" "Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jules" 
-	"Kalib" "Keith" "Kevin" "Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" 
-	"Pascal" "Paul" "Peter" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" 
-	"Rick" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Solomon" "Theoren" "Thomas" "Todd" 
+	"Derrick" "Augustin" "Hélène" "Dydim" "Tête" "Vic" "Pearl" "Dylan" "Maria" "Marianne"
+	"Jonathan" "Josette" "Henri" "Albert" "Alec" "Alexander" "Ambroise-Dydime" "Ambrose" "Andrew" "Andy"
+	"Angus" "Antoine" "Antonine" "Arron" "Arthur" "Asham" "August" "Axel" "Baptiste" "Bob"
+	"Brian" "Bryan" "Calvin" "Charles" "Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis"
+	"Don" "Douglas" "Doyle" "Dwight" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George"
+	"Gerald" "Gil" "Gregory" "Guillaume" "Harley" "Honoré" "Howard" "Ian" "Jacco" "Jaco"
+	"Jacques" "James" "Jaxon" "Jean" "Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jules"
+	"Kalib" "Keith" "Kevin" "Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel"
+	"Pascal" "Paul" "Peter" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René"
+	"Rick" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Solomon" "Theoren" "Thomas" "Todd"
 	"Tom" "Tony" "Wade" "Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Derrick #0" = 1

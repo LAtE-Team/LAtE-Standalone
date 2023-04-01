@@ -8,13 +8,13 @@ color = { 121 108 227 }
 
 leader_names = {
 
-	"Gerhild" "Gebhard" "Krullig" "Godeliva" "Marjanne" "Henning" "Tjaden" "Grimhilt" "Thietmar" "Abo" 
-	"Adalbert" "Berthoald" "Bruno" "Bendix" "Byron" "Brewer" "Dankmar" "Dedo" "Edward" "Erasmus" 
-	"Eggert" "Emil" "Eilmer" "Esiko" "Gero" "Hatto" "Hermann" "Hinrich" "Hoffman" "Harzer" 
-	"Ingolf" "Jorin" "Joseph" "Kasesgar" "Kasefred" "Kuhbert" "Liudolf" "Leopold" "Leobwin" "Lerke" 
-	"Lovis" "Luke" "Leino" "Mark" "Malfind" "Magnus" "Maxilian" "Martin" "Markus" "Molkereik" 
-	"Milcher" "Miller" "Melis" "Otto" "Ordulf" "Peter" "Paschen" "Paul" "Rudolf" "Rambert" 
-	"Rindbert" "Stefan" "Sprecher" "Schlitz" "Theoderick" "Tiele" "Widukind" "Wichmann" "Wiggert" "Wolf" 
+	"Gerhild" "Gebhard" "Krullig" "Godeliva" "Marjanne" "Henning" "Tjaden" "Grimhilt" "Thietmar" "Abo"
+	"Adalbert" "Berthoald" "Bruno" "Bendix" "Byron" "Brewer" "Dankmar" "Dedo" "Edward" "Erasmus"
+	"Eggert" "Emil" "Eilmer" "Esiko" "Gero" "Hatto" "Hermann" "Hinrich" "Hoffman" "Harzer"
+	"Ingolf" "Jorin" "Joseph" "Kasesgar" "Kasefred" "Kuhbert" "Liudolf" "Leopold" "Leobwin" "Lerke"
+	"Lovis" "Luke" "Leino" "Mark" "Malfind" "Magnus" "Maxilian" "Martin" "Markus" "Molkereik"
+	"Milcher" "Miller" "Melis" "Otto" "Ordulf" "Peter" "Paschen" "Paul" "Rudolf" "Rambert"
+	"Rindbert" "Stefan" "Sprecher" "Schlitz" "Theoderick" "Tiele" "Widukind" "Wichmann" "Wiggert" "Wolf"
 	"Wiprecht" "Wolfgang" "Ziegel" }
 monarch_names = {
 	"Gerhild #0" = -1

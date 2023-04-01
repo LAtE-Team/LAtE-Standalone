@@ -6,15 +6,15 @@ country_event = {
 	title = "EVTNAME3011"
 	desc = "EVTDESC3011"
 	picture = REVOLUTION_eventPicture
-	
+
 	major = yes
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 
 	immediate = {
 		hidden_effect = { log = "[Root.GetName] has the Revolution Disaster." }
@@ -28,7 +28,7 @@ country_event = {
 					is_capital = no
 				}
 			}
-			random_owned_province = { 
+			random_owned_province = {
 				limit = {
 					development = 20
 					highest_supply_limit_in_area = yes
@@ -42,7 +42,7 @@ country_event = {
 					}
 					spawn_rebels = {
 						type = revolutionary_rebels
-						size = 3		
+						size = 3
 						win = yes
 						unrest = 10
 					}
@@ -53,7 +53,7 @@ country_event = {
 			}
 		}
 		else = {
-			random_owned_province = { 
+			random_owned_province = {
 				limit = {
 					highest_supply_limit_in_area = yes
 					is_capital = no
@@ -64,7 +64,7 @@ country_event = {
 					}
 					spawn_rebels = {
 						type = revolutionary_rebels
-						size = 3		
+						size = 3
 						win = yes
 						unrest = 10
 					}
@@ -89,7 +89,7 @@ country_event = {
 			}
 		}
 		add_stability = -3
-	
+
 		set_country_flag = had_revolution
 		if = {
 			limit = {
@@ -98,7 +98,7 @@ country_event = {
 			set_country_flag = no_revolution_bankruptcy_event
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA3011"			# Dire times are ahead of us
 		trigger = { NOT = { has_dlc = "Emperor" } }
@@ -115,7 +115,7 @@ country_event = {
 			clr_province_flag = revolution_spawn_rebels_here
 			spawn_rebels = {
 				type = revolutionary_rebels
-				size = 3		
+				size = 3
 				win = yes
 				unrest = 10
 			}
@@ -164,7 +164,7 @@ country_event = {
 			clr_province_flag = revolution_spawn_rebels_here
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 3		
+				size = 3
 				win = yes
 				unrest = 10
 			}
@@ -211,7 +211,7 @@ country_event = {
 	title = "EVTNAME3012"
 	desc = "EVTDESC3012"
 	picture = REVOLUTION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = religious_revolution }
 		NOT = { religious_unity = 1.0 }
@@ -221,14 +221,14 @@ country_event = {
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
-	
+
 	immediate = {
 		set_country_flag = religious_revolution
 		hidden_effect = {
@@ -240,7 +240,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA3012"			# One nation, one belief
 		ai_chance = { factor = 75 }
@@ -285,13 +285,13 @@ country_event = {
 	title = "EVTNAME3013"
 	desc = "EVTDESC3013"
 	picture = REVOLUTION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = serfdom }
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
@@ -307,7 +307,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA3013"			# Restrict serfdom
 		ai_chance = { factor = 30 }
@@ -353,20 +353,20 @@ country_event = {
 	title = "EVTNAME3014"
 	desc = "EVTDESC3014"
 	picture = REFORM_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = social_reform }
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	immediate = { 
-		set_country_flag = social_reform 
+	immediate = {
+		set_country_flag = social_reform
 		random_owned_province = {
 			limit = {
 				highest_supply_limit_in_area = yes
@@ -382,7 +382,7 @@ country_event = {
 			set_province_flag = spawning_rebels
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA3014"			# Suppress the free thinkers
 		ai_chance = { factor = 60 }
@@ -393,7 +393,7 @@ country_event = {
 			add_country_modifier = {
 				name = "suppress_free_thinkers"
 				duration = -1
-				desc = "END_OF_REVOLUTION"			
+				desc = "END_OF_REVOLUTION"
 			}
 		}
 		every_owned_province = {
@@ -422,22 +422,22 @@ country_event = {
 	title = "EVTNAME3015"
 	desc = "EVTDESC3015"
 	picture = REVOLUTION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = royal_bureaucracy }
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	immediate = { 
-		set_country_flag = royal_bureaucracy 
+	immediate = {
+		set_country_flag = royal_bureaucracy
 	}
-	
+
 	option = {
 		name = "EVTOPTA3015"			# Reduce the royal bureaucracy
 		ai_chance = { factor = 65 }
@@ -450,7 +450,7 @@ country_event = {
 				duration = -1
 				desc = "END_OF_REVOLUTION"
 			}
-		}		
+		}
 	}
 	option = {
 		name = "EVTOPTB3015"			# Expand the royal bureaucracy
@@ -475,7 +475,7 @@ country_event = {
 	title = "EVTNAME3016"
 	desc = "EVTDESC3016"
 	picture = REVOLUTION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = deplorable_reign }
 		OR = {
@@ -486,20 +486,20 @@ country_event = {
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = { 
-		set_country_flag = deplorable_reign 
+
+	immediate = {
+		set_country_flag = deplorable_reign
 		hidden_effect = {
 			random_owned_province = { save_event_target_as = rebel_spawn_province }
 		}
-	}	
-	
+	}
+
 	option = {
 		name = "EVTOPTA3016"			# Support
 		ai_chance = { factor = 60 }
@@ -541,7 +541,7 @@ country_event = {
 	title = "EVTNAME3017"
 	desc = "EVTDESC3017"
 	picture = BANKRUPTCY_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = road_to_bankruptcy }
 		num_of_loans = 10
@@ -549,17 +549,17 @@ country_event = {
 		NOT = { is_revolutionary_republic_trigger = yes }
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = { 
-		set_country_flag = road_to_bankruptcy 
+
+	immediate = {
+		set_country_flag = road_to_bankruptcy
 	}
-	
+
 	option = {
 		name = "EVTOPTA3017"			# Mint more money
 		ai_chance = { factor = 30 }
@@ -597,7 +597,7 @@ country_event = {
 	title = "EVTNAME3018"
 	desc = "EVTDESC3018"
 	picture = ECONOMY_eventPicture
-	
+
 	trigger = {
 		NOT = { has_country_flag = financial_crisis }
 		OR = {
@@ -612,11 +612,11 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	immediate = { 
-		set_country_flag = financial_crisis 
-	}	
-	
+
+	immediate = {
+		set_country_flag = financial_crisis
+	}
+
 	option = {
 		name = "EVTOPTA3018"			# Cut back on war expenditures
 		ai_chance = { factor = 70 }
@@ -627,7 +627,7 @@ country_event = {
 			add_country_modifier = {
 				name = "disarmament"
 				duration = -1
-				desc = "END_OF_REVOLUTION"			
+				desc = "END_OF_REVOLUTION"
 			}
 		}
 	}
@@ -641,7 +641,7 @@ country_event = {
 			add_country_modifier = {
 				name = "financial_disaster"
 				duration = -1
-				desc = "END_OF_REVOLUTION"			
+				desc = "END_OF_REVOLUTION"
 			}
 		}
 	}
@@ -708,15 +708,15 @@ country_event = {
 		}
 		picture = ELECTION_REPUBLICAN_eventPicture
 	}
-	
-	major = yes	
-	
+
+	major = yes
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
@@ -750,7 +750,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA3019"			# Restore order
 		trigger = {
@@ -813,7 +813,7 @@ country_event = {
 			}
 		}
 		add_stability_or_adm_power = yes
-		
+
 		if = {
 			limit = {
 				is_revolutionary = no
@@ -862,9 +862,9 @@ country_event = {
 	title = "EVTNAME6601"
 	desc = "EVTDESC6601"
 	picture = REVOLUTION_eventPicture
-	
+
 	major = yes
-	
+
 	trigger = {
 		revolution_event_can_happen_trigger = yes
 
@@ -873,7 +873,7 @@ country_event = {
 			is_emperor_of_china = no
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
@@ -897,7 +897,7 @@ country_event = {
 		is_revolution_target = yes
 		NOT = { has_dlc = "Art of War" }
 		NOT = { has_dlc = "Emperor" }
-		
+
 		capital_scope = {
 			NOT = {
 				controlled_by = ROOT
@@ -1031,7 +1031,7 @@ country_event = {
 				country_event = { id = revolution.18 }
 			}
 		}
-		capital_scope = {	
+		capital_scope = {
 			controller = {
 				country_event = { id = revolution.14 }
 			}
@@ -1140,7 +1140,7 @@ country_event = {
 	title = "flavor_fra.EVTNAME101"
 	desc = revolution.36.desc
 	picture = IMPORTANT_STATUE_eventPicture
-	
+
 	is_triggered_only = yes
 
 	trigger = {

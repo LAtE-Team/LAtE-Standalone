@@ -1,5 +1,5 @@
 # Conic Andean Insurgent Infantry
-	
+
 type = infantry
 unit_type = conic
 

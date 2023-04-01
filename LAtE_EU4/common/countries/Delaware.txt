@@ -8,22 +8,22 @@ color = { 199 164 41 }
 
 leader_names = {
 
-	"Nicholas" "Anthony" "Aloysius" "Andrew" "Albert" "Abner" "August" "Adam" "Abel" "Arnold" 
-	"Allen" "Arthur" "Aston" "Alphonse" "Algernon" "Archibald" "Alexander" "Adrian" "Aurelian" "Boies" 
-	"Benjamin" "Bigelow" "Bernard" "Benedict" "Browne" "Barton" "Bevil" "Baynham" "Barclay" "Baxter" 
-	"Carroll" "Cameron" "Caleb" "Clark" "Caesar" "Coplestone" "Cade" "Cale" "Canby" "Callaway" 
-	"Cahoon" "Dennis" "Daniel" "Donald" "David" "Dudd" "Danrick" "Dyre" "Dunlap" "Edmond" 
-	"Edward" "Edwin" "Eugene" "Edgar" "Eldridge" "Ethan" "Eusebius" "Eleazar" "Endymion" "Ephraim" 
-	"Frederick" "Francis" "Fitzwilliam" "Fletcher" "Franklin" "Fenwick" "Gerald" "Gary" "Gregory" "George" 
-	"Grant" "Gunning" "Gallagher" "Giles" "Gilbert" "Gervase" "Gove" "Gregg" "Hendrick" "Hugh" 
-	"Herbert" "Horace" "Harold" "Howard" "Humphrey" "Hamon" "Ignatius" "Ian" "James" "John" 
-	"Joseph" "Jerome" "Jeffrey" "Jasper" "Joshua" "Justinian" "Keith" "Kenrick" "Kensey" "Ludovic" 
-	"Luke" "Lambert" "Lockhart" "Lionel" "Luff" "Michael" "Martin" "Mark" "Maurice" "Matthew" 
-	"Milton" "Marmaduke" "Nathaniel" "Norman" "Oliver" "Outerbridge" "Ogilvy" "Patricius" "Paul" "Peter" 
-	"Philander" "Phineas" "Philip" "Philadelphus" "Percy" "Philemon" "Preston" "Richard" "Rupert" "Ronald" 
-	"Rowland" "Ralph" "Reginald" "Reorus" "Stephen" "Severin" "Sherman" "Samuel" "Simon" "Stansbury" 
-	"Saul" "Summerset" "Spencer" "Seymour" "Stanley" "Thomas" "Timothy" "Theodore" "Theobald" "Truesdell" 
-	"Vincent" "Victor" "Voshell" "Wallis" "Wilbur" "Willard" "Wingfield" "Winston" "Warwick" "Wayne" 
+	"Nicholas" "Anthony" "Aloysius" "Andrew" "Albert" "Abner" "August" "Adam" "Abel" "Arnold"
+	"Allen" "Arthur" "Aston" "Alphonse" "Algernon" "Archibald" "Alexander" "Adrian" "Aurelian" "Boies"
+	"Benjamin" "Bigelow" "Bernard" "Benedict" "Browne" "Barton" "Bevil" "Baynham" "Barclay" "Baxter"
+	"Carroll" "Cameron" "Caleb" "Clark" "Caesar" "Coplestone" "Cade" "Cale" "Canby" "Callaway"
+	"Cahoon" "Dennis" "Daniel" "Donald" "David" "Dudd" "Danrick" "Dyre" "Dunlap" "Edmond"
+	"Edward" "Edwin" "Eugene" "Edgar" "Eldridge" "Ethan" "Eusebius" "Eleazar" "Endymion" "Ephraim"
+	"Frederick" "Francis" "Fitzwilliam" "Fletcher" "Franklin" "Fenwick" "Gerald" "Gary" "Gregory" "George"
+	"Grant" "Gunning" "Gallagher" "Giles" "Gilbert" "Gervase" "Gove" "Gregg" "Hendrick" "Hugh"
+	"Herbert" "Horace" "Harold" "Howard" "Humphrey" "Hamon" "Ignatius" "Ian" "James" "John"
+	"Joseph" "Jerome" "Jeffrey" "Jasper" "Joshua" "Justinian" "Keith" "Kenrick" "Kensey" "Ludovic"
+	"Luke" "Lambert" "Lockhart" "Lionel" "Luff" "Michael" "Martin" "Mark" "Maurice" "Matthew"
+	"Milton" "Marmaduke" "Nathaniel" "Norman" "Oliver" "Outerbridge" "Ogilvy" "Patricius" "Paul" "Peter"
+	"Philander" "Phineas" "Philip" "Philadelphus" "Percy" "Philemon" "Preston" "Richard" "Rupert" "Ronald"
+	"Rowland" "Ralph" "Reginald" "Reorus" "Stephen" "Severin" "Sherman" "Samuel" "Simon" "Stansbury"
+	"Saul" "Summerset" "Spencer" "Seymour" "Stanley" "Thomas" "Timothy" "Theodore" "Theobald" "Truesdell"
+	"Vincent" "Victor" "Voshell" "Wallis" "Wilbur" "Willard" "Wingfield" "Winston" "Warwick" "Wayne"
 	"Warren" "Xavier" }
 monarch_names = {
 	"Nicholas #1" = 18

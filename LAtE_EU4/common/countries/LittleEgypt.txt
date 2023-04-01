@@ -7,17 +7,17 @@ color = { 25 75 180 }
 
 leader_names = {
 
-	"Rebecca" "Todhilda" "Raymund" "Diane" "Walther" "Angelica" "Vincentz" "Alyssa" "Adalbert" "Armstrong" 
-	"Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" "Berick" "Benjamin" "Burrill" 
-	"Bentley" "Benzene" "Bessemer" "Christian" "Christoph" "Daniel" "David" "Dean" "Dodge" "Dexter" 
-	"Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene" "Erwin" "Elwood" 
-	"Edgar" "Eisenwulf" "Eisenrich" "Eisenslaus" "Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" 
-	"Georg" "Gottfrid" "Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" 
-	"Isaac" "Johannes" "Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer" "Kasimir" 
-	"Lawrenz" "Ludewis" "Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin" "Miles" 
-	"Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter" "Preston" 
-	"Payton" "Rostwin" "Rohardt" "Roger" "Richardt" "Rainalt" "Rustin" "Steppen" "Sidmund" "Stahlrich" 
-	"Stahlgar" "Stanislaus" "Thomm" "Theodor" "Todrich" "Viktor" "Virgil" "Velibor" "Willelm" "Weyland" 
+	"Rebecca" "Todhilda" "Raymund" "Diane" "Walther" "Angelica" "Vincentz" "Alyssa" "Adalbert" "Armstrong"
+	"Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" "Berick" "Benjamin" "Burrill"
+	"Bentley" "Benzene" "Bessemer" "Christian" "Christoph" "Daniel" "David" "Dean" "Dodge" "Dexter"
+	"Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene" "Erwin" "Elwood"
+	"Edgar" "Eisenwulf" "Eisenrich" "Eisenslaus" "Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht"
+	"Georg" "Gottfrid" "Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley"
+	"Isaac" "Johannes" "Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer" "Kasimir"
+	"Lawrenz" "Ludewis" "Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin" "Miles"
+	"Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter" "Preston"
+	"Payton" "Rostwin" "Rohardt" "Roger" "Richardt" "Rainalt" "Rustin" "Steppen" "Sidmund" "Stahlrich"
+	"Stahlgar" "Stanislaus" "Thomm" "Theodor" "Todrich" "Viktor" "Virgil" "Velibor" "Willelm" "Weyland"
 	"Wayne" "Woodward" "Wilbur" "Wernher" "Woitke" "Zachary" "Zwentibold" }
 monarch_names = {
 	"Rebecca #0" = -1

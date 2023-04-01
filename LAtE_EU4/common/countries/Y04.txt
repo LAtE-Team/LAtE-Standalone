@@ -8,15 +8,15 @@ color = { 244 249 89 }
 
 leader_names = {
 
-	"Wacissa" "Adam" "Nyssa" "Jehan" "Cola" "Madeline" "Roxie" "Menard" "Oceanus" "Arlene" 
-	"Gabrielle" "Mangifera" "Audrey" "Soto" "Eloise" "Ardo" "Atlas" "Ashton" "Augustine" "Allen" 
-	"Antoine" "Autrane" "Alexandre" "Alonso" "Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun" 
-	"Colin" "Citrand" "David" "Diego" "Duarte" "Elias" "Eduard" "Francis" "Frederic" "Ferdinand" 
-	"Forrest" "Ferran" "Fulwar" "Galves" "Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar" 
-	"Gutierre" "Hernand" "Henry" "Harrison" "Humbert" "Jackson" "Jay" "Javier" "Jaumet" "Joaquim" 
-	"Junipero" "Louis" "Lasker" "Leon" "Lucas" "Macond" "Moyne" "Malaric" "Malhad" "Mitchell" 
-	"Montfort" "Mathias" "Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Offatt" "Orelian" "Palustris" 
-	"Pelecand" "Panfile" "Pere" "Ponce" "Robard" "Roland" "Ramon" "Roderic" "Sander" "Sam" 
+	"Wacissa" "Adam" "Nyssa" "Jehan" "Cola" "Madeline" "Roxie" "Menard" "Oceanus" "Arlene"
+	"Gabrielle" "Mangifera" "Audrey" "Soto" "Eloise" "Ardo" "Atlas" "Ashton" "Augustine" "Allen"
+	"Antoine" "Autrane" "Alexandre" "Alonso" "Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun"
+	"Colin" "Citrand" "David" "Diego" "Duarte" "Elias" "Eduard" "Francis" "Frederic" "Ferdinand"
+	"Forrest" "Ferran" "Fulwar" "Galves" "Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar"
+	"Gutierre" "Hernand" "Henry" "Harrison" "Humbert" "Jackson" "Jay" "Javier" "Jaumet" "Joaquim"
+	"Junipero" "Louis" "Lasker" "Leon" "Lucas" "Macond" "Moyne" "Malaric" "Malhad" "Mitchell"
+	"Montfort" "Mathias" "Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Offatt" "Orelian" "Palustris"
+	"Pelecand" "Panfile" "Pere" "Ponce" "Robard" "Roland" "Ramon" "Roderic" "Sander" "Sam"
 	"Taylor" "Tammand" "Tomas" "Tristan" "Velasce" "Victor" "Xavier" }
 monarch_names = {
 	"Wacissa #0" = -1

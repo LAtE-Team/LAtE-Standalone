@@ -7,12 +7,12 @@ color = { 113 166 210 }
 
 leader_names = {
 
-	"Marilyn" "Joaquin" "Sprague" "Ross" "Ginger" "Winchuck" "James" "Jonathan" "Bristow" "Benbow" 
-	"Clough" "Clark" "Clyde" "Casey" "Chetco" "Dale" "Eugene" "Fraser" "Fanno" "Glenn" 
-	"Hood" "Holman" "Harris" "Irrigon" "Jefferson" "Jedediah" "Jeff" "Keswick" "Kirk" "Larch" 
-	"Lewis" "Lowell" "Ladd" "Milo" "Meamber" "Metolius" "Nehalem" "Nathaniel" "Oswald" "Ochoco" 
-	"Obediah" "Pinus" "Pierson" "Quentin" "Rainier" "Stanley" "Stanford" "Silsby" "Sutter" "Sycan" 
-	"Scott" "Shepard" "Tumalo" "Trask" "Trevor" "Ukiah" "Vinzenz" "Vanduzen" "Wash" "Whychus" 
+	"Marilyn" "Joaquin" "Sprague" "Ross" "Ginger" "Winchuck" "James" "Jonathan" "Bristow" "Benbow"
+	"Clough" "Clark" "Clyde" "Casey" "Chetco" "Dale" "Eugene" "Fraser" "Fanno" "Glenn"
+	"Hood" "Holman" "Harris" "Irrigon" "Jefferson" "Jedediah" "Jeff" "Keswick" "Kirk" "Larch"
+	"Lewis" "Lowell" "Ladd" "Milo" "Meamber" "Metolius" "Nehalem" "Nathaniel" "Oswald" "Ochoco"
+	"Obediah" "Pinus" "Pierson" "Quentin" "Rainier" "Stanley" "Stanford" "Silsby" "Sutter" "Sycan"
+	"Scott" "Shepard" "Tumalo" "Trask" "Trevor" "Ukiah" "Vinzenz" "Vanduzen" "Wash" "Whychus"
 	"Zalophus" }
 monarch_names = {
 	"Marilyn #0" = -1

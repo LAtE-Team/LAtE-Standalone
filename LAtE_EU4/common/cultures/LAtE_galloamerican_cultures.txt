@@ -27,7 +27,7 @@ galloamerican = {
 			Wilfrid
 			Xavier
 		}
-		
+
 		female_names = {
 			Axelle Acadie Antoinette Alix Andrée Andréanne Adéline Adrianne Alexandra Arianne Agrippine Anne Aude
 			Béatrice

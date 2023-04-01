@@ -5,9 +5,9 @@ country_event = {
 	title = "flavor_NEN.1.TITLE"
 	desc = "flavor_NEN.1.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes	#Triggered on completion of NEN_purchase_of_aroostook mission as NEN
 	option = {	#Accepts ducats in exchange for land
 		name = "flavor_NEN.1.a"
@@ -168,9 +168,9 @@ country_event = {
 	title = "flavor_NEN.2.TITLE"
 	desc = "flavor_NEN.2.DESC"
 	picture = NOT_DISCIPLINED_SOLDIERS_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes	#Triggered on completion of NEN_sack_of_gotham mission as NEN
 	option = {	#Burn Manhattan to the ground
 		name = "flavor_NEN.2.a"

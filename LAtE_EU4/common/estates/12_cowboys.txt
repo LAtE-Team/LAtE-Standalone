@@ -1,7 +1,7 @@
 estate_cowboys =
 {
 	icon = 13
-	
+
 	# Used for when declaring independence
 	independence_government = tribal
 	starting_reform = steppe_horde
@@ -36,8 +36,8 @@ estate_cowboys =
 	}
 
 	# If true, country will get estate
-	
-	trigger = {	
+
+	trigger = {
 		has_dlc = "The Cossacks"
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = cossacks_reform }
@@ -76,7 +76,7 @@ estate_cowboys =
 	}
 	country_modifier_neutral = {
 		cavalry_power = 0.2
-	}	
+	}
 	country_modifier_angry = {
 		cavalry_cost = 0.2
 		cavalry_power = -0.1
@@ -115,7 +115,7 @@ estate_cowboys =
 	}
 
 	influence_from_dev_modifier = 2.0
-	
+
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {

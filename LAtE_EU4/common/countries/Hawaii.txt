@@ -11,11 +11,11 @@ monarch_names = {
 	"Kalakaua #1" = 10
 	"Daniel #0" = 20
 	"John #0" = 0
-	
+
 	"Lili'uokalani #1" = -10
 }
 
-leader_names = { 
+leader_names = {
 	Bourke Darling
 	Brisbane Macquarie
 	Bligh King Butler
@@ -24,7 +24,7 @@ leader_names = {
 	Robinson
 	Loftus Carrington
 	Duff Hampden Beauchamp Rawson
-	Chelmsford Yagan 
+	Chelmsford Yagan
 	Strickland Davidson
 	Grey Flinders
 	Bass
@@ -36,6 +36,6 @@ ship_names = {
 	Gascoyne Perth
 	Huon Stuart
 	Hawkesbury Toowoomba
-	Maryborough Norman 
+	Maryborough Norman
 	Warramunga Parramatta
 }

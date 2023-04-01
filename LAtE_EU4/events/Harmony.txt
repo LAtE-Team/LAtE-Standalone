@@ -8,9 +8,9 @@ country_event = {
 	title = "confucian_events.101.t"
 	desc = "confucian_events.101.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -19,7 +19,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.101.a"
 		tooltip = {
@@ -36,9 +36,9 @@ country_event = {
 	title = "confucian_events.102.t"
 	desc = "confucian_events.102.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -47,7 +47,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.102.a"
 		tooltip = {
@@ -64,9 +64,9 @@ country_event = {
 	title = "confucian_events.103.t"
 	desc = "confucian_events.103.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -75,7 +75,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.103.a"
 		tooltip = {
@@ -92,9 +92,9 @@ country_event = {
 	title = "confucian_events.104.t"
 	desc = "confucian_events.104.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -103,7 +103,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.104.a"
 		tooltip = {
@@ -120,9 +120,9 @@ country_event = {
 	title = "confucian_events.105.t"
 	desc = "confucian_events.105.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -131,7 +131,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.105.a"
 		tooltip = {
@@ -148,9 +148,9 @@ country_event = {
 	title = "confucian_events.106.t"
 	desc = "confucian_events.106.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -159,7 +159,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.106.a"
 		tooltip = {
@@ -176,9 +176,9 @@ country_event = {
 	title = "confucian_events.107.t"
 	desc = "confucian_events.107.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -187,7 +187,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.107.a"
 		tooltip = {
@@ -204,9 +204,9 @@ country_event = {
 	title = "confucian_events.108.t"
 	desc = "confucian_events.108.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -215,7 +215,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.108.a"
 		tooltip = {
@@ -232,9 +232,9 @@ country_event = {
 	title = "confucian_events.109.t"
 	desc = "confucian_events.109.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -243,7 +243,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.109.a"
 		tooltip = {
@@ -260,9 +260,9 @@ country_event = {
 	title = "confucian_events.110.t"
 	desc = "confucian_events.110.d"
 	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			clr_country_flag = harmonization_shangdi_conflict
@@ -271,7 +271,7 @@ country_event = {
 			clr_country_flag = harmonization_empowering_ceremonies
 		}
 	}
-	
+
 	option = {
 		name = "confucian_events.110.a"
 		tooltip = {

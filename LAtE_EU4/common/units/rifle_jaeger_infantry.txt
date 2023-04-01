@@ -1,6 +1,6 @@
 # Rifle Jaeger Infantry
 
-unit_type = european	
+unit_type = european
 type = infantry
 
 maneuver = 1

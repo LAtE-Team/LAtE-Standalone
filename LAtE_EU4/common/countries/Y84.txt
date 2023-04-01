@@ -8,19 +8,19 @@ color = { 64 54 29 }
 
 leader_names = {
 
-	"Ecka-peta" "Pareiya" "Tsate" "Coby" "Zi-yeh" "Tosacowadi" "Nadua" "Lenna" "Mahchettawookey" "Tosa Pokoo" 
-	"Ecka-wipe" "Leahwiddikah" "Perna-peta" "Tabaqueena" "Kumaquai" "Ekta" "Chaten-a-yacke" "Kiyou" "Coro-pwoonie" "Tahkna" 
-	"Puku" "Lotsee" "Dahteste" "Yera-petun" "Tonarcy" "Bowahquasuh" "Quenatosavit" "Topsanna" "Kobay-oburra" "Potsunakwahipu" 
-	"Wuleaboo" "Jaquan" "Boyahwahtoyehe" "Ettah" "Mo'pie" "Sargento" "Wayabatosa" "Nascha" "Tabi-tosavit" "Parusawano" 
-	"Quanah" "Cuerno" "Topsannah" "Chomoparua" "Kiwatchee" "Qua'va-a-ytchy" "Taqquanno" "Poah'pah-choko" "Gouyen" "Huera" 
-	"Paranuarimuco" "Tabby-nocca" "Chihuahua" "Leosanni" "Tabi-yetch" "Ih-Tedda" "Chony" "Sonsee-array" "Tosawi" "Eschiti" 
-	"Tavis" "Sanaco" "Po-hebitsquash" "Yanny-va-too'ah" "Pahayoko" "Anunka" "Skah" "Ohiyesa" "Chumani" "Dale" 
-	"Anson" "Oso Ballo" "Akachuata" "Warakonalta" "Tomo-a-tooah" "Parraocoom" "Poechna Quahip" "Aurel" "Argent" "Antero" 
-	"Auliffe" "Buren" "Blair" "Bouldron" "Belden" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus" 
-	"Gray" "Garrald" "Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum" 
-	"Lowry" "Lykin" "Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Oso" 
-	"Ossos" "Ossin" "Petrus" "Pike" "Plumblon" "Plumead" "Ptarmigan" "Rockhart" "Regis" "Raton" 
-	"Stone" "Silveranos" "Stonarm" "Stonear" "Sloan" "Tell" "Tarryall" "Vissarion" "Waugh" "Zebulon" 
+	"Ecka-peta" "Pareiya" "Tsate" "Coby" "Zi-yeh" "Tosacowadi" "Nadua" "Lenna" "Mahchettawookey" "Tosa Pokoo"
+	"Ecka-wipe" "Leahwiddikah" "Perna-peta" "Tabaqueena" "Kumaquai" "Ekta" "Chaten-a-yacke" "Kiyou" "Coro-pwoonie" "Tahkna"
+	"Puku" "Lotsee" "Dahteste" "Yera-petun" "Tonarcy" "Bowahquasuh" "Quenatosavit" "Topsanna" "Kobay-oburra" "Potsunakwahipu"
+	"Wuleaboo" "Jaquan" "Boyahwahtoyehe" "Ettah" "Mo'pie" "Sargento" "Wayabatosa" "Nascha" "Tabi-tosavit" "Parusawano"
+	"Quanah" "Cuerno" "Topsannah" "Chomoparua" "Kiwatchee" "Qua'va-a-ytchy" "Taqquanno" "Poah'pah-choko" "Gouyen" "Huera"
+	"Paranuarimuco" "Tabby-nocca" "Chihuahua" "Leosanni" "Tabi-yetch" "Ih-Tedda" "Chony" "Sonsee-array" "Tosawi" "Eschiti"
+	"Tavis" "Sanaco" "Po-hebitsquash" "Yanny-va-too'ah" "Pahayoko" "Anunka" "Skah" "Ohiyesa" "Chumani" "Dale"
+	"Anson" "Oso Ballo" "Akachuata" "Warakonalta" "Tomo-a-tooah" "Parraocoom" "Poechna Quahip" "Aurel" "Argent" "Antero"
+	"Auliffe" "Buren" "Blair" "Bouldron" "Belden" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus"
+	"Gray" "Garrald" "Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum"
+	"Lowry" "Lykin" "Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Oso"
+	"Ossos" "Ossin" "Petrus" "Pike" "Plumblon" "Plumead" "Ptarmigan" "Rockhart" "Regis" "Raton"
+	"Stone" "Silveranos" "Stonarm" "Stonear" "Sloan" "Tell" "Tarryall" "Vissarion" "Waugh" "Zebulon"
 	"Zirkel" }
 monarch_names = {
 	"Ecka-peta #0" = -1

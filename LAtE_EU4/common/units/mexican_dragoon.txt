@@ -1,5 +1,5 @@
 # Mexican Dragoon
-	
+
 type = cavalry
 unit_type = mexican
 

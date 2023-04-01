@@ -13,9 +13,9 @@ pacific = {
 			tolerance_heathen = 1
 			tolerance_heretic = 1
 		}
-		
+
 		heretic = { REGICIDAL }
-		
+
 		uses_harmony = yes
 
 		harmonized_modifier = harmonized_cetic
@@ -35,12 +35,12 @@ pacific = {
 			tolerance_own = 1
 			tolerance_heretic = -1
 		}
-		
+
 		uses_karma = yes
 		allow_female_defenders_of_the_faith = yes
 
 		heretic = { MASCULINIST }
-		
+
 		harmonized_modifier = harmonized_gaian
 	}
 
@@ -60,9 +60,9 @@ pacific = {
 		}
 		heretic = { SHUGENDO }
 		uses_isolationism = yes
-		
+
 		harmonized_modifier = harmonized_shinto
-		
+
 	}
 
 	nousthreskeia = {
@@ -77,9 +77,9 @@ pacific = {
 			tolerance_heathen = 1
 			tolerance_heretic = 1
 		}
-		
+
 		heretic = { GOAT_SKULL }
-		
+
 		harmonized_modifier = harmonized_nousthreskeia
 	}
 }

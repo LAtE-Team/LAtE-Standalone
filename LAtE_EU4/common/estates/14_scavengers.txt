@@ -3,8 +3,8 @@ estate_scavengers =
 	icon = 14
 
 	# If true, country will get estate
-	
-	trigger = {	
+
+	trigger = {
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = cossacks_reform }
 		NOT = { has_government_attribute = is_merchant_republic }
@@ -14,7 +14,7 @@ estate_scavengers =
 		NOT = { has_reform = siberian_tribe }
 		NOT = { has_reform = veche_republic }
 		NOT = { government = native }
-		
+
 		is_nomad = no
 		NOT = { has_reform = celestial_empire }
 		NOT = { religion_group = oldworld }
@@ -32,7 +32,7 @@ estate_scavengers =
 	}
 	country_modifier_neutral = {
 		technology_cost = -0.05
-	}	
+	}
 	country_modifier_angry = {
 		yearly_corruption = 0.1
 		global_unrest = 2
@@ -71,7 +71,7 @@ estate_scavengers =
 		}
 		loyalty = -20
 	}
-	influence_modifier = {	
+	influence_modifier = {
 		desc = EST_MANY_SCAVENGING_HUBS
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -83,7 +83,7 @@ estate_scavengers =
 	}
 
 	influence_from_dev_modifier = 1.0
-	
+
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {

@@ -8,16 +8,16 @@ color = { 36 102 8 }
 
 leader_names = {
 
-	"Henrietta" "Mercury" "Blanchet" "Clover" "Lamartine" "Claudia" "Raleigh" "Melisende" "Breunor" "Jupiter" 
-	"Beatrice" "Sylvester" "Heron" "Davis" "Winchester" "Tyler" "Raylene" "Geraint" "William" "Jocasta" 
-	"Susanne" "Baker" "Belle" "Elisabeth" "Laurina" "Polycarpus" "Alexandra" "Solon" "Timon" "Melanie" 
-	"Augusta" "Juliet" "Alyssa" "Plato" "Virginia" "Urban" "Dionysia" "Melantha" "Lionel" "Ulixes" 
-	"Pellias" "Valerian" "Dahlia" "Helen" "Stephanus" "Georgia" "Alcée" "Alcide" "Amédé" "Achille" 
-	"Anatole" "Ardoin" "Adam" "Audubon" "Aristide" "Barthelemy" "Boyd" "Bryant" "Clifton" "Charles" 
-	"Clarence" "Canray" "Claire Lee" "Caliste" "Caesar" "Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde" 
-	"Evariste" "Earl" "Eduoard" "Eustace" "Francis" "Geno" "Georgic" "Guinefort" "Garland" "Irvan" 
-	"Julien" "Justin" "Kolax" "Keith" "Lucas" "Marcus" "Maugris" "Norbert" "Odon" "Olfert" 
-	"Orion" "Pierre" "Paul" "Richmond" "Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel" 
+	"Henrietta" "Mercury" "Blanchet" "Clover" "Lamartine" "Claudia" "Raleigh" "Melisende" "Breunor" "Jupiter"
+	"Beatrice" "Sylvester" "Heron" "Davis" "Winchester" "Tyler" "Raylene" "Geraint" "William" "Jocasta"
+	"Susanne" "Baker" "Belle" "Elisabeth" "Laurina" "Polycarpus" "Alexandra" "Solon" "Timon" "Melanie"
+	"Augusta" "Juliet" "Alyssa" "Plato" "Virginia" "Urban" "Dionysia" "Melantha" "Lionel" "Ulixes"
+	"Pellias" "Valerian" "Dahlia" "Helen" "Stephanus" "Georgia" "Alcée" "Alcide" "Amédé" "Achille"
+	"Anatole" "Ardoin" "Adam" "Audubon" "Aristide" "Barthelemy" "Boyd" "Bryant" "Clifton" "Charles"
+	"Clarence" "Canray" "Claire Lee" "Caliste" "Caesar" "Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde"
+	"Evariste" "Earl" "Eduoard" "Eustace" "Francis" "Geno" "Georgic" "Guinefort" "Garland" "Irvan"
+	"Julien" "Justin" "Kolax" "Keith" "Lucas" "Marcus" "Maugris" "Norbert" "Odon" "Olfert"
+	"Orion" "Pierre" "Paul" "Richmond" "Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel"
 	"Wellman" "Wendell" }
 monarch_names = {
 	"Henrietta #0" = -1

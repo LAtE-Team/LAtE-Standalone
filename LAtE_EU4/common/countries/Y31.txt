@@ -8,18 +8,18 @@ color = { 190 40 65 }
 
 leader_names = {
 
-	"Julian" "Amalrick" "Dean" "Janette" "Ladislaus" "Daniela" "Oliver" "Gabriella" "Virginia" "Benzene" 
-	"Marklin" "Virgil" "Erica" "Susan" "Todhilda" "Payton" "Eurich" "Lenore" "Mary" "Paul" 
-	"Alfraed" "Celia" "Rita" "Angelica" "Lorelei" "Idebelle" "David" "Woodward" "Durant" "Rustin" 
-	"Eisenwulf" "Vincentz" "Mark" "Adalbert" "Armstrong" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" 
-	"Berick" "Benjamin" "Burrill" "Bentley" "Bessemer" "Christoph" "Daniel" "Dodge" "Dexter" "Dorrich" 
-	"Eric" "Etzel" "Edward" "Edmund" "Eugene" "Erwin" "Elwood" "Edgar" "Eisenrich" "Eisenslaus" 
-	"Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" "Georg" "Gottfrid" "Gerolt" "Gordon" 
-	"Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" "Johannes" "Jakob" "Justin" "Jerome" 
-	"Jagiel" "Karles" "Keifer" "Kasimir" "Lawrenz" "Ludewis" "Lumen" "Leonard" "Michael" "Morits" 
-	"Martin" "Miles" "Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Orvil" "Peter" "Preston" 
-	"Rostwin" "Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Steppen" "Sidmund" "Stahlrich" "Stahlgar" 
-	"Stanislaus" "Thomm" "Theodor" "Todrich" "Viktor" "Velibor" "Willelm" "Weyland" "Wayne" "Walther" 
+	"Julian" "Amalrick" "Dean" "Janette" "Ladislaus" "Daniela" "Oliver" "Gabriella" "Virginia" "Benzene"
+	"Marklin" "Virgil" "Erica" "Susan" "Todhilda" "Payton" "Eurich" "Lenore" "Mary" "Paul"
+	"Alfraed" "Celia" "Rita" "Angelica" "Lorelei" "Idebelle" "David" "Woodward" "Durant" "Rustin"
+	"Eisenwulf" "Vincentz" "Mark" "Adalbert" "Armstrong" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost"
+	"Berick" "Benjamin" "Burrill" "Bentley" "Bessemer" "Christoph" "Daniel" "Dodge" "Dexter" "Dorrich"
+	"Eric" "Etzel" "Edward" "Edmund" "Eugene" "Erwin" "Elwood" "Edgar" "Eisenrich" "Eisenslaus"
+	"Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" "Georg" "Gottfrid" "Gerolt" "Gordon"
+	"Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" "Johannes" "Jakob" "Justin" "Jerome"
+	"Jagiel" "Karles" "Keifer" "Kasimir" "Lawrenz" "Ludewis" "Lumen" "Leonard" "Michael" "Morits"
+	"Martin" "Miles" "Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Orvil" "Peter" "Preston"
+	"Rostwin" "Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Steppen" "Sidmund" "Stahlrich" "Stahlgar"
+	"Stanislaus" "Thomm" "Theodor" "Todrich" "Viktor" "Velibor" "Willelm" "Weyland" "Wayne" "Walther"
 	"Wilbur" "Wernher" "Woitke" "Zachary" "Zwentibold" }
 monarch_names = {
 	"Julian #0" = 1

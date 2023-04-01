@@ -8,15 +8,15 @@ color = { 79 134 189 }
 
 leader_names = {
 
-	"Charlotte" "Afrella" "Canna" "George" "Breaca" "Hudson" "Alberta" "Lorna" "Gavia" "Bill" 
-	"Marie" "Madge" "Acer" "Menefreda" "Permanence" "Redgrave" "Dominia" "Endelienta" "Wite" "Avril" 
-	"Winston" "Ive" "Dominick" "Goban" "Albert" "Aykroyd" "Alan" "Anthony" "By" "Brant" 
-	"Bennett" "Banting" "Bryce" "Carrey" "Charles" "Claude" "Castor" "Clive" "Churchill" "Darcy" 
-	"Derby" "Dalton" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Gosling" "Geddy" "Gord" 
-	"Gath" "Hamilton" "Hart" "Harland" "Horton" "Harold" "Hap" "Jarvis" "Kirk" "Kay" 
-	"Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Leslie" "Lloyd" "Lorne" "Lucas" "Macdonald" 
-	"McGee" "Monck" "Malcolm" "Munro" "Mitchell" "McMillan" "McCabe" "Matthew" "Meugan" "Marlborough" 
-	"Naismith" "Neil" "Nelligan" "Octockwig" "Owen" "Rupert" "Ronald" "Rubrum" "Riel" "Spencer" 
+	"Charlotte" "Afrella" "Canna" "George" "Breaca" "Hudson" "Alberta" "Lorna" "Gavia" "Bill"
+	"Marie" "Madge" "Acer" "Menefreda" "Permanence" "Redgrave" "Dominia" "Endelienta" "Wite" "Avril"
+	"Winston" "Ive" "Dominick" "Goban" "Albert" "Aykroyd" "Alan" "Anthony" "By" "Brant"
+	"Bennett" "Banting" "Bryce" "Carrey" "Charles" "Claude" "Castor" "Clive" "Churchill" "Darcy"
+	"Derby" "Dalton" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Gosling" "Geddy" "Gord"
+	"Gath" "Hamilton" "Hart" "Harland" "Horton" "Harold" "Hap" "Jarvis" "Kirk" "Kay"
+	"Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Leslie" "Lloyd" "Lorne" "Lucas" "Macdonald"
+	"McGee" "Monck" "Malcolm" "Munro" "Mitchell" "McMillan" "McCabe" "Matthew" "Meugan" "Marlborough"
+	"Naismith" "Neil" "Nelligan" "Octockwig" "Owen" "Rupert" "Ronald" "Rubrum" "Riel" "Spencer"
 	"Trevor" "Tim" "Thomp" "Westerfield" "Wade" "York" }
 monarch_names = {
 	"Charlotte #0" = -1

@@ -8,22 +8,22 @@ color = { 101 136 150 }
 
 leader_names = {
 
-	"Brian" "Tubal" "Raymond" "Mervyn" "Marion" "Neville" "Errol" "Desmond" "Archibald" "Yvonne" 
-	"Clancy" "Donna" "Karin" "Stern" "Iris" "Oswald" "Leigh" "Lee" "Clarence" "Lorraine" 
-	"Richard" "Rachel" "Rosamar" "Jackie" "Gordito" "Patricio" "Dilly" "Oopli" "Virgilio" "Barras" 
-	"Bamidele" "Dámaso" "Cuthbert" "Delroy" "Michael" "Jerren" "Erskine" "Ripton" "Alexander" "Arthur" 
-	"Ansell" "Anthony" "Arnhim" "Arnold" "Aston" "Audley" "Augustine" "Baldwin" "Barrington" "Ben" 
-	"Bernard" "Brendan" "Canute" "Carl" "Carlton" "Cecil" "Claudius" "Clayton" "Clement" "Cleon" 
-	"Clifford" "Clifton" "Clive" "Clyde" "Crispin" "Colin" "Conroy" "Cornwall" "Curtly" "Damian" 
-	"Darrel" "Derrick" "Desbert" "Donald" "Donovan" "Duncan" "Dwight" "Earl" "Edmund" "Edward" 
-	"Errald" "Ernest" "Everton" "Fenton" "Finley" "Forbes" "Francis" "Frederick" "Garfield" "Garnet" 
-	"George" "Gerald" "Gladstone" "Glenroy" "Glenville" "Gordon" "Grantley" "Hasely" "Herbert" "Hilary" 
-	"Horace" "Hubert" "Hugh" "Jeffrey" "Jerome" "Joseph" "Julian" "Justin" "Keith" "Kemar" 
-	"Kenneth" "Kevin" "Knowlson" "Ledley" "Lennox" "Leonard" "Leroy" "Lester" "Lincoln" "Linton" 
-	"Lloyd" "Louis" "Lynford" "Lynden" "Manley" "Mark" "Maurice" "Merle" "Milton" "Nathan" 
-	"Nicholas" "Nigel" "Noel" "Norman" "Obadele" "Oliver" "Omar" "Patrick" "Pearnel" "Percival" 
-	"Peter" "Rainford" "Robert" "Roger" "Ronald" "Rudyard" "Rupert" "Shaun" "Stafford" "Stephen" 
-	"Stokely" "Sydney" "Thomas" "Trevor" "Tyrone" "Vere" "Vernon" "Victor" "Vincent" "Vivian" 
+	"Brian" "Tubal" "Raymond" "Mervyn" "Marion" "Neville" "Errol" "Desmond" "Archibald" "Yvonne"
+	"Clancy" "Donna" "Karin" "Stern" "Iris" "Oswald" "Leigh" "Lee" "Clarence" "Lorraine"
+	"Richard" "Rachel" "Rosamar" "Jackie" "Gordito" "Patricio" "Dilly" "Oopli" "Virgilio" "Barras"
+	"Bamidele" "Dámaso" "Cuthbert" "Delroy" "Michael" "Jerren" "Erskine" "Ripton" "Alexander" "Arthur"
+	"Ansell" "Anthony" "Arnhim" "Arnold" "Aston" "Audley" "Augustine" "Baldwin" "Barrington" "Ben"
+	"Bernard" "Brendan" "Canute" "Carl" "Carlton" "Cecil" "Claudius" "Clayton" "Clement" "Cleon"
+	"Clifford" "Clifton" "Clive" "Clyde" "Crispin" "Colin" "Conroy" "Cornwall" "Curtly" "Damian"
+	"Darrel" "Derrick" "Desbert" "Donald" "Donovan" "Duncan" "Dwight" "Earl" "Edmund" "Edward"
+	"Errald" "Ernest" "Everton" "Fenton" "Finley" "Forbes" "Francis" "Frederick" "Garfield" "Garnet"
+	"George" "Gerald" "Gladstone" "Glenroy" "Glenville" "Gordon" "Grantley" "Hasely" "Herbert" "Hilary"
+	"Horace" "Hubert" "Hugh" "Jeffrey" "Jerome" "Joseph" "Julian" "Justin" "Keith" "Kemar"
+	"Kenneth" "Kevin" "Knowlson" "Ledley" "Lennox" "Leonard" "Leroy" "Lester" "Lincoln" "Linton"
+	"Lloyd" "Louis" "Lynford" "Lynden" "Manley" "Mark" "Maurice" "Merle" "Milton" "Nathan"
+	"Nicholas" "Nigel" "Noel" "Norman" "Obadele" "Oliver" "Omar" "Patrick" "Pearnel" "Percival"
+	"Peter" "Rainford" "Robert" "Roger" "Ronald" "Rudyard" "Rupert" "Shaun" "Stafford" "Stephen"
+	"Stokely" "Sydney" "Thomas" "Trevor" "Tyrone" "Vere" "Vernon" "Victor" "Vincent" "Vivian"
 	"Walter" "Wilfred" "William" "Winston" "Wendell" "Wynton" }
 monarch_names = {
 	"Brian #0" = 1

@@ -8,16 +8,16 @@ color = { 130 130 120 }
 
 leader_names = {
 
-	"Garth" "Francis" "Raleigh" "Patty" "Peggy" "Delmont" "Grace" "Humble" "Sammie" "Abelard" 
-	"Adalfrid" "Adalhelm" "Adalrich" "Aldous" "Adalfuns" "Adalbert" "Abram" "Arnuld" "Amalrich" "Andreas" 
-	"Amos" "Anaklet" "Agatho" "Bertrand" "Benjamin" "Benedikt" "Bruno" "Bernhard" "Christian" "Clemens" 
-	"Calixt" "Cajus" "Coelestin" "David" "Dietrich" "Elijah" "Eberhard" "Emmanuel" "Ernst" "Eugen" 
-	"Frederich" "Fredegar" "Ferdinand" "Felix" "Franziskus" "Fredegisel" "Georg" "Gerhard" "Gideon" "Gregor" 
-	"Gebhard" "Gotfrid" "Heinrich" "Hesso" "Hermann" "Helmuth" "Hippolyt" "Hildebrand" "Innozenz" "Johannes" 
-	"Joseph" "Jakob" "Julius" "Karl" "Konstantin" "Kasimir" "Lorenz" "Lothar" "Ludwig" "Linus" 
-	"Leonardt" "Markus" "Menno" "Marius" "Maginulf" "Martin" "Nicolaus" "Otto" "Obediah" "Otacher" 
-	"Octavius" "Oskar" "Petrus" "Paulus" "Philip" "Philibert" "Pius" "Paschalis" "Robrecht" "Rollant" 
-	"Reuchlin" "Stephan" "Simon" "Samuel" "Silvester" "Sebastian" "Theodor" "Thomas" "Urban" "Ursus" 
+	"Garth" "Francis" "Raleigh" "Patty" "Peggy" "Delmont" "Grace" "Humble" "Sammie" "Abelard"
+	"Adalfrid" "Adalhelm" "Adalrich" "Aldous" "Adalfuns" "Adalbert" "Abram" "Arnuld" "Amalrich" "Andreas"
+	"Amos" "Anaklet" "Agatho" "Bertrand" "Benjamin" "Benedikt" "Bruno" "Bernhard" "Christian" "Clemens"
+	"Calixt" "Cajus" "Coelestin" "David" "Dietrich" "Elijah" "Eberhard" "Emmanuel" "Ernst" "Eugen"
+	"Frederich" "Fredegar" "Ferdinand" "Felix" "Franziskus" "Fredegisel" "Georg" "Gerhard" "Gideon" "Gregor"
+	"Gebhard" "Gotfrid" "Heinrich" "Hesso" "Hermann" "Helmuth" "Hippolyt" "Hildebrand" "Innozenz" "Johannes"
+	"Joseph" "Jakob" "Julius" "Karl" "Konstantin" "Kasimir" "Lorenz" "Lothar" "Ludwig" "Linus"
+	"Leonardt" "Markus" "Menno" "Marius" "Maginulf" "Martin" "Nicolaus" "Otto" "Obediah" "Otacher"
+	"Octavius" "Oskar" "Petrus" "Paulus" "Philip" "Philibert" "Pius" "Paschalis" "Robrecht" "Rollant"
+	"Reuchlin" "Stephan" "Simon" "Samuel" "Silvester" "Sebastian" "Theodor" "Thomas" "Urban" "Ursus"
 	"Valentin" "Viktor" "Wilhelm" "Wibert" "Zachariah" "Zephaniah" }
 monarch_names = {
 	"Garth #0" = 1

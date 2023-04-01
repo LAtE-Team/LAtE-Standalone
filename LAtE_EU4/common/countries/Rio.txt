@@ -69,7 +69,7 @@ monarch_names = {
 	"Prudente #0" = 0
 	"Venceslau #0" = 0
 	"Zeferino #0" = 0
-	
+
 	"Isabel #0" = -15
 	"Maria #0" = -10
 	"Silvia #0" = -1

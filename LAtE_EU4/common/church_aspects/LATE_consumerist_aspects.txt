@@ -22,7 +22,7 @@ consumerist_reatail_therapy = {	#ADM aspect, increases stability
 			NOT = { stability = 0 }
 		}
 	}
-}	
+}
 
 consumerist_invisible_hand = {	#ADM aspect, reduces autonomy?
 	cost = 100

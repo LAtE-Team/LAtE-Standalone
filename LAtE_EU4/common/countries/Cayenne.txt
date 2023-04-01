@@ -8,15 +8,15 @@ color = { 53 78 69 }
 
 leader_names = {
 
-	"Lyrical" "Marc-Antoine" "Virginie" "Gabriel" "Wendy" "Albert" "Alexandre" "Amine" "Antoine" "Aubin" 
-	"Bardney" "Bastos" "Bernard" "Bob" "Cece" "Cédric" "Claude" "Cocoto" "Cyrille" "Dominique" 
-	"Donovan" "Édouard" "Élie" "Emric" "Enzo" "Eric" "Félix" "Florent" "Florian" "François" 
-	"Gary" "Gaston" "Georges" "Ghislain" "Gilles" "Grémillon" "Hadama" "Halan" "Henri" "Hubert" 
-	"Ismael" "Jaïr" "Jean" "Jean-Claude" "Jean-Philippe" "Joffrey" "José" "Jules" "Justin" "Kevin" 
-	"Kévin" "Kisinio" "Laurent" "Lecscinel" "Léon" "Léopold" "Lesly" "Livio" "Loïc" "Ludovic" 
-	"Ludrck" "Marc" "Marvin" "Mathieu" "Mickaël" "Miguel" "Mike" "Neki" "Nel" "Nithilan" 
-	"Patrice" "Raoul" "Raymond" "René" "Rhudy" "Robin" "Rodolphe" "Romain" "Roy" "Sangokou" 
-	"Shannon" "Silver" "Sloan" "Stanley" "Steeve" "Stéfan" "Stephan" "Stéphane" "Sylvio" "Thomas" 
+	"Lyrical" "Marc-Antoine" "Virginie" "Gabriel" "Wendy" "Albert" "Alexandre" "Amine" "Antoine" "Aubin"
+	"Bardney" "Bastos" "Bernard" "Bob" "Cece" "Cédric" "Claude" "Cocoto" "Cyrille" "Dominique"
+	"Donovan" "Édouard" "Élie" "Emric" "Enzo" "Eric" "Félix" "Florent" "Florian" "François"
+	"Gary" "Gaston" "Georges" "Ghislain" "Gilles" "Grémillon" "Hadama" "Halan" "Henri" "Hubert"
+	"Ismael" "Jaïr" "Jean" "Jean-Claude" "Jean-Philippe" "Joffrey" "José" "Jules" "Justin" "Kevin"
+	"Kévin" "Kisinio" "Laurent" "Lecscinel" "Léon" "Léopold" "Lesly" "Livio" "Loïc" "Ludovic"
+	"Ludrck" "Marc" "Marvin" "Mathieu" "Mickaël" "Miguel" "Mike" "Neki" "Nel" "Nithilan"
+	"Patrice" "Raoul" "Raymond" "René" "Rhudy" "Robin" "Rodolphe" "Romain" "Roy" "Sangokou"
+	"Shannon" "Silver" "Sloan" "Stanley" "Steeve" "Stéfan" "Stephan" "Stéphane" "Sylvio" "Thomas"
 	"Tom" "Tyers" "Vegeta" "Vivien" "Warren" "Yann" }
 monarch_names = {
 	"Lyrical #1" = 21

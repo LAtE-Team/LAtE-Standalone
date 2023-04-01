@@ -8,16 +8,16 @@ color = { 187 234 181 }
 
 leader_names = {
 
-	"By" "George" "Shania" "Lucas" "Malcolm" "Wite" "Thaney" "McMillan" "Permanence" "Alanis" 
-	"York" "Alexandra" "Lorna" "Aykroyd" "Claudia" "Marwenna" "Gath" "Avril" "Kay" "Gosling" 
-	"Gavia" "Lloyd" "Hart" "Ursula" "Dominick" "Ive" "Ouine" "Bethany" "Bennett" "Albert" 
-	"Victoria" "Bryce" "Tabitha" "Winston" "Judith" "Lorne" "Hamilton" "Banting" "Harold" "Thomp" 
-	"Woodward" "Henrich" "Alfraed" "Benzene" "Goban" "Mitchell" "Wade" "Clive" "Alan" "Anthony" 
-	"Acer" "Brant" "Bill" "Carrey" "Charles" "Claude" "Castor" "Churchill" "Darcy" "Derby" 
-	"Dalton" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Geddy" "Gord" "Hudson" "Harland" 
-	"Horton" "Hap" "Jarvis" "Kirk" "Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Leslie" 
-	"Macdonald" "McGee" "Monck" "Munro" "McCabe" "Matthew" "Meugan" "Marlborough" "Naismith" "Neil" 
-	"Nelligan" "Octockwig" "Owen" "Rupert" "Ronald" "Rubrum" "Redgrave" "Riel" "Spencer" "Trevor" 
+	"By" "George" "Shania" "Lucas" "Malcolm" "Wite" "Thaney" "McMillan" "Permanence" "Alanis"
+	"York" "Alexandra" "Lorna" "Aykroyd" "Claudia" "Marwenna" "Gath" "Avril" "Kay" "Gosling"
+	"Gavia" "Lloyd" "Hart" "Ursula" "Dominick" "Ive" "Ouine" "Bethany" "Bennett" "Albert"
+	"Victoria" "Bryce" "Tabitha" "Winston" "Judith" "Lorne" "Hamilton" "Banting" "Harold" "Thomp"
+	"Woodward" "Henrich" "Alfraed" "Benzene" "Goban" "Mitchell" "Wade" "Clive" "Alan" "Anthony"
+	"Acer" "Brant" "Bill" "Carrey" "Charles" "Claude" "Castor" "Churchill" "Darcy" "Derby"
+	"Dalton" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Geddy" "Gord" "Hudson" "Harland"
+	"Horton" "Hap" "Jarvis" "Kirk" "Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Leslie"
+	"Macdonald" "McGee" "Monck" "Munro" "McCabe" "Matthew" "Meugan" "Marlborough" "Naismith" "Neil"
+	"Nelligan" "Octockwig" "Owen" "Rupert" "Ronald" "Rubrum" "Redgrave" "Riel" "Spencer" "Trevor"
 	"Tim" "Westerfield" }
 monarch_names = {
 	"By #2" = 24

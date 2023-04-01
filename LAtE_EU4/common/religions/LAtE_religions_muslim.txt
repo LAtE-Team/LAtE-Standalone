@@ -1,6 +1,6 @@
 muslim = { #heretic considered as religious schools
 	defender_of_faith = yes
-		
+
 	center_of_religion = 385 # Mecca
 
 	flags_with_emblem_percentage = 33
@@ -486,7 +486,7 @@ muslim = { #heretic considered as religious schools
 					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
 				}
 			}
-			
+
 			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = ismaili_scholar_modifier
 
@@ -561,7 +561,7 @@ muslim = { #heretic considered as religious schools
 					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
 				}
 			}
-			
+
 			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = jafari_scholar_modifier
 
@@ -633,7 +633,7 @@ muslim = { #heretic considered as religious schools
 					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
 				}
 			}
-			
+
 			# If you don't set this it will expand on_invite_scholar effect which might be super big
 			invite_scholar_modifier_display = zaidi_scholar_modifier
 
@@ -657,7 +657,7 @@ muslim = { #heretic considered as religious schools
 			heir_chance = 1.0
 		}
 		heretic = { BEKTASHI ZIKRI YAZIDI }
-		
+
 		uses_piety = yes				# Uses piety mechanics
 	}
 	sunni = {
@@ -674,9 +674,9 @@ muslim = { #heretic considered as religious schools
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
-		
+
 		uses_piety = yes				# Uses piety mechanics
 	}
 
@@ -694,12 +694,12 @@ muslim = { #heretic considered as religious schools
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { DRUZE HURUFI ZAIDI }
-		
+
 		uses_piety = yes				# Uses piety mechanics
 	}
-	
+
 	ibadi = {
 		color = { 0 102 0 }
 		icon = 87
@@ -714,13 +714,13 @@ muslim = { #heretic considered as religious schools
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
-		
+
 		uses_piety = yes				# Uses piety mechanics
 	}
-	
+
 	harmonized_modifier = harmonized_muslim
-	
+
 	crusade_name = JIHAD
 }

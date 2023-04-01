@@ -8,16 +8,16 @@ color = { 140 170 190 }
 
 leader_names = {
 
-	"Dolora" "Sybil" "Aveline" "Jennette" "Tabitha" "Archibald" "Athena" "Emery" "Adam" "Athanase" 
-	"Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "Andr�" "Adrien" 
-	"Aur�le" "Baudouin" "Barth�l�my" "Balian" "Boh�mond" "Cartier" "Charles" "Cyrille" "Cecil" "Claude" 
-	"Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "�tienne" "�douard" "�phrem" 
-	"Fran�ois" "Foulques" "Fr�d�ric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" 
-	"Guillaume" "Gilles" "Gabriel" "Ga�tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" 
-	"Ignace" "Jeannot" "Jean" "Jacques" "J�rome" "Joseph" "Josselin" "Josue" "Julien" "Justin" 
-	"Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Marcel" "Napoleon" 
-	"N�r�e" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "R�al" 
-	"Rohard" "Robert" "Ren�" "Roger" "Raymond" "Renaud" "Roupen" "R�gis" "Roland" "Samuel" 
+	"Dolora" "Sybil" "Aveline" "Jennette" "Tabitha" "Archibald" "Athena" "Emery" "Adam" "Athanase"
+	"Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "Andr�" "Adrien"
+	"Aur�le" "Baudouin" "Barth�l�my" "Balian" "Boh�mond" "Cartier" "Charles" "Cyrille" "Cecil" "Claude"
+	"Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "�tienne" "�douard" "�phrem"
+	"Fran�ois" "Foulques" "Fr�d�ric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy"
+	"Guillaume" "Gilles" "Gabriel" "Ga�tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore"
+	"Ignace" "Jeannot" "Jean" "Jacques" "J�rome" "Joseph" "Josselin" "Josue" "Julien" "Justin"
+	"Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Marcel" "Napoleon"
+	"N�r�e" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "R�al"
+	"Rohard" "Robert" "Ren�" "Roger" "Raymond" "Renaud" "Roupen" "R�gis" "Roland" "Samuel"
 	"Sulpice" "Serge" "Tancr�de" "Vincent" "Wilfrid" "Xavier" }
 monarch_names = {
 	"Dolora #0" = -1

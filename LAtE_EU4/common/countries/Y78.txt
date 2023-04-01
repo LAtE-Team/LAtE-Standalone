@@ -8,13 +8,13 @@ color = { 122 184 82 }
 
 leader_names = {
 
-	"Eva" "Garcia" "Tuco" "Andrés" "Nina" "Gregorio" "Jennifer" "Linda" "Rodrigo" "José" 
-	"Damacio" "Raini" "Margarita" "Brigido" "Raul" "Martino" "Michell" "Francisco" "Salvador" "Alberto" 
-	"Carla" "Audi" "Sebastián" "Luis" "Victoria" "Flaco" "Terán" "Oribe" "Roberto" "Devendra" 
-	"Xavier" "Rebecca" "Lupa" "María" "Bautista" "Paulina" "Gory" "Manuel" "Ildefonso" "Selena" 
-	"Alexis" "Gaspar" "Almaron" "Alexandro" "Antonio" "Armando" "Agustin" "Alonso" "Baldemar" "Bernardo" 
-	"Carlos" "Domingo" "Emilio" "Eduardo" "Erasmo" "Esteban" "Elizondo" "Fernando" "Ignacio" "Juan" 
-	"Jorge" "Jesús" "Lorenzo" "León" "Marcos" "Mariano" "Marciel" "Miguel" "Pancho" "Ramón" 
+	"Eva" "Garcia" "Tuco" "Andrés" "Nina" "Gregorio" "Jennifer" "Linda" "Rodrigo" "José"
+	"Damacio" "Raini" "Margarita" "Brigido" "Raul" "Martino" "Michell" "Francisco" "Salvador" "Alberto"
+	"Carla" "Audi" "Sebastián" "Luis" "Victoria" "Flaco" "Terán" "Oribe" "Roberto" "Devendra"
+	"Xavier" "Rebecca" "Lupa" "María" "Bautista" "Paulina" "Gory" "Manuel" "Ildefonso" "Selena"
+	"Alexis" "Gaspar" "Almaron" "Alexandro" "Antonio" "Armando" "Agustin" "Alonso" "Baldemar" "Bernardo"
+	"Carlos" "Domingo" "Emilio" "Eduardo" "Erasmo" "Esteban" "Elizondo" "Fernando" "Ignacio" "Juan"
+	"Jorge" "Jesús" "Lorenzo" "León" "Marcos" "Mariano" "Marciel" "Miguel" "Pancho" "Ramón"
 	"Rafael" "Santos" "Seguín" "Serpario" "Tomás" "Teodoro" "Vicente" "Valente" }
 monarch_names = {
 	"Eva #0" = -1

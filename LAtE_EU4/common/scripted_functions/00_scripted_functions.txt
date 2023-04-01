@@ -51,7 +51,7 @@ can_increase_stability = {
 
 # ROOT = province, FROM = country
 can_add_province_to_hre = {
-	
+
 }
 
 #ROOT = province, FROM = country

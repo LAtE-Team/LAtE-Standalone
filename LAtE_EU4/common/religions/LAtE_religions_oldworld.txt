@@ -2,7 +2,7 @@ oldworld = {
 	defender_of_faith = yes
 
     harmonized_modifier = harmonized_oldworld
-	
+
 	crusade_name = RECLAMATION
 
 	religious_schools = {
@@ -287,7 +287,7 @@ oldworld = {
 				OR = {
 					knows_of_scholar_country_capital_trigger = yes
 					has_country_flag = can_always_invite_garvey_school
-					has_country_flag = privilege_can_always_invite_garvey_school 
+					has_country_flag = privilege_can_always_invite_garvey_school
 				}
 			}
 
@@ -415,7 +415,7 @@ oldworld = {
 
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			inflation_reduction = 0.2
-		}		
+		}
 
 		bank_school = {
 			potential_invite_scholar = {
@@ -620,7 +620,7 @@ oldworld = {
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			land_attrition = -0.1
 		}
-		
+
 		helionist_school = {
 			potential_invite_scholar = {
 				religion = atomicist
@@ -688,7 +688,7 @@ oldworld = {
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			development_cost = -0.1
 		}
-		
+
 		schronist_school = {
 			potential_invite_scholar = {
 				religion = atomicist
@@ -892,7 +892,7 @@ oldworld = {
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			innovativeness_gain = 0.1
 		}
-		
+
 		materialist_school = {
 			potential_invite_scholar = {
 				OR = {
@@ -1248,7 +1248,7 @@ oldworld = {
 			diplomats = 1
 			dip_tech_cost_modifier = -0.05
 		}
-		
+
 
 		heretic = { MONUMENTALIST STORM_VOICE VESTAL }
 
@@ -1260,11 +1260,11 @@ oldworld = {
 			icon_washington = {
 				discipline = 0.05
 				manpower_recovery_speed = 0.1
-				
+
 				allow = {
 					always = yes
 				}
-				
+
 				visible = {
 					always = yes
 				}
@@ -1285,7 +1285,7 @@ oldworld = {
 			icon_lincoln = {
 				global_unrest = -3
 				harsh_treatment_cost = -0.25
-				
+
 				allow = {
 					always = yes
 				}
@@ -1322,7 +1322,7 @@ oldworld = {
 			icon_roosevelt = {
 				development_cost = -0.10
 				build_cost = -0.1
-				
+
 				allow = {
 					always = yes
 				}
@@ -1335,7 +1335,7 @@ oldworld = {
 					factor = 0
 				}
 			}
-	
+
 			icon_jefferson = {
 				improve_relation_modifier = 0.25
 				ae_impact = -0.1
@@ -1416,7 +1416,7 @@ oldworld = {
 
 		# uses_judaism_power = yes
 		# aspects_name = CONSUMERIST_ASPECTS
-			
+
 		# aspects = {
 		# 	consumerist_reatail_therapy
 		# 	consumerist_invisible_hand
@@ -1526,11 +1526,11 @@ oldworld = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { VOIDIST }
-				
+
 		holy_sites = { 2495 1825 4563 955 280 }
-		
+
 		blessings = {
 			university_tradition
 			old_world_knowledge
@@ -1552,7 +1552,7 @@ oldworld = {
     rust_cultist = {
 		icon = 52
 		color = { 0.7 0.35 0.2 }
-		
+
 		country = {
 			technology_cost = -0.05
 			global_institution_spread = 0.1
@@ -1560,11 +1560,11 @@ oldworld = {
 		country_as_secondary = {
 			global_institution_spread = 0.1
 		}
-		
-		heretic = { CHROMIST EPOCHEAN }	
+
+		heretic = { CHROMIST EPOCHEAN }
 
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
-				
+
 		aspects = {
 			rust_baubles_1
 			rust_baubles_2
@@ -1638,15 +1638,15 @@ oldworld = {
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
-		
-		heretic = { OLD_THELEMIC }	
+
+		heretic = { OLD_THELEMIC }
 	}
 
 	#LAtE exclusive
 	cult_of_reason = {
 		color = { 0.2 0.5 0.7 }
 		icon = 78
-		
+
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = -1
@@ -1655,7 +1655,7 @@ oldworld = {
 			diplomats = 1
 			dip_tech_cost_modifier = -0.05
 		}
-		
+
 		heretic = { DEIST ICONODULE }
 	}
 }

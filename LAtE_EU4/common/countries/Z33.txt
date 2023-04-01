@@ -8,19 +8,19 @@ color = { 173 182 143 }
 
 leader_names = {
 
-	"Artemis" "Baldwin" "Davis" "Urban" "Laurina" "Arthur" "Robin" "Urien" "Alexandra" "Brutus" 
-	"Sarah" "Neptune" "Theophilus" "Hera" "Sosipater" "Sylvester" "Iseult" "Morgana" "Antonia" "Sterling" 
-	"Jane" "Augusta" "Lucia" "Lunsford" "India" "Gareth" "Carolina" "Vitalian" "April" "Melisende" 
-	"Paulus" "Belle" "Eudoxia" "Alyssa" "Mary" "Elaine" "Claudia" "Superbus" "Clover" "Tiberius" 
-	"Priscus" "Brandegoris" "Marcus" "Duarte" "Mathias" "Panfile" "Hermine" "Citrand" "Montfort" "Orelian" 
-	"Macond" "Oceanus" "Victor" "Jackson" "Arlene" "Eduard" "Gomer" "Humbert" "Coriolanus" "Ardo" 
-	"Atlas" "Ashton" "Augustine" "Adam" "Allen" "Antoine" "Autrane" "Alexandre" "Alonso" "Bernard" 
-	"Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "David" "Diego" "Elias" "Francis" 
-	"Frederic" "Ferdinand" "Forrest" "Ferran" "Fulwar" "Galves" "Girard" "Garcia" "Georges" "Gonzalo" 
-	"Gaspar" "Gutierre" "Hernand" "Henry" "Harrison" "Jehan" "Jay" "Javier" "Jaumet" "Joaquim" 
-	"Junipero" "Louis" "Lasker" "Leon" "Lucas" "Moyne" "Malaric" "Malhad" "Menard" "Mitchell" 
-	"Montserrat" "Melchor" "Narcis" "Offatt" "Palustris" "Pelecand" "Pere" "Ponce" "Robard" "Roland" 
-	"Ramon" "Roderic" "Soto" "Sander" "Sam" "Taylor" "Tammand" "Tomas" "Tristan" "Velasce" 
+	"Artemis" "Baldwin" "Davis" "Urban" "Laurina" "Arthur" "Robin" "Urien" "Alexandra" "Brutus"
+	"Sarah" "Neptune" "Theophilus" "Hera" "Sosipater" "Sylvester" "Iseult" "Morgana" "Antonia" "Sterling"
+	"Jane" "Augusta" "Lucia" "Lunsford" "India" "Gareth" "Carolina" "Vitalian" "April" "Melisende"
+	"Paulus" "Belle" "Eudoxia" "Alyssa" "Mary" "Elaine" "Claudia" "Superbus" "Clover" "Tiberius"
+	"Priscus" "Brandegoris" "Marcus" "Duarte" "Mathias" "Panfile" "Hermine" "Citrand" "Montfort" "Orelian"
+	"Macond" "Oceanus" "Victor" "Jackson" "Arlene" "Eduard" "Gomer" "Humbert" "Coriolanus" "Ardo"
+	"Atlas" "Ashton" "Augustine" "Adam" "Allen" "Antoine" "Autrane" "Alexandre" "Alonso" "Bernard"
+	"Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "David" "Diego" "Elias" "Francis"
+	"Frederic" "Ferdinand" "Forrest" "Ferran" "Fulwar" "Galves" "Girard" "Garcia" "Georges" "Gonzalo"
+	"Gaspar" "Gutierre" "Hernand" "Henry" "Harrison" "Jehan" "Jay" "Javier" "Jaumet" "Joaquim"
+	"Junipero" "Louis" "Lasker" "Leon" "Lucas" "Moyne" "Malaric" "Malhad" "Menard" "Mitchell"
+	"Montserrat" "Melchor" "Narcis" "Offatt" "Palustris" "Pelecand" "Pere" "Ponce" "Robard" "Roland"
+	"Ramon" "Roderic" "Soto" "Sander" "Sam" "Taylor" "Tammand" "Tomas" "Tristan" "Velasce"
 	"Xavier" }
 monarch_names = {
 	"Artemis #0" = -1

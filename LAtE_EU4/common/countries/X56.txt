@@ -8,14 +8,14 @@ color = { 81 145 60 }
 
 leader_names = {
 
-	"Miguel" "Alexander" "Simón" "Teodoro" "Marisabel" "Tyanny" "Bjork" "Elena" "Sharai" "Clara" 
-	"Luciano" "Leon" "Montes" "Che" "Richard" "Oliverio" "José" "Fernando" "Angelito" "Generosb" 
-	"Platon" "Abelardo" "Alano" "Alberto" "Alvino" "Anderson" "Ángel" "Antonio" "Carlos" "César" 
-	"Chucho" "Cipriano" "Cristoval" "Daniel" "Dante" "Didier" "Diego" "Diógenes" "Édgar" "Eduardo" 
-	"Engelbert" "Eustoquio" "Francisco" "Fruto" "Gerardo" "Gerzon" "Homero" "Hugo" "Ilich" "Isaías" 
-	"Jackson" "Javier" "Jorge" "Josmar" "Juan" "Kluivert" "Laureano" "Layneker" "Leandro" "Leonardo" 
-	"Leonel" "Luis" "Manuel" "Marco" "Marcos" "Maurice" "Napoleón" "Nelson" "Noel" "Palben" 
-	"Pedro" "Rafael" "Ramón" "Raúl" "Ricardo" "Rubén" "Sergio" "Timoteo" "Tulio" "Victorio" 
+	"Miguel" "Alexander" "Simón" "Teodoro" "Marisabel" "Tyanny" "Bjork" "Elena" "Sharai" "Clara"
+	"Luciano" "Leon" "Montes" "Che" "Richard" "Oliverio" "José" "Fernando" "Angelito" "Generosb"
+	"Platon" "Abelardo" "Alano" "Alberto" "Alvino" "Anderson" "Ángel" "Antonio" "Carlos" "César"
+	"Chucho" "Cipriano" "Cristoval" "Daniel" "Dante" "Didier" "Diego" "Diógenes" "Édgar" "Eduardo"
+	"Engelbert" "Eustoquio" "Francisco" "Fruto" "Gerardo" "Gerzon" "Homero" "Hugo" "Ilich" "Isaías"
+	"Jackson" "Javier" "Jorge" "Josmar" "Juan" "Kluivert" "Laureano" "Layneker" "Leandro" "Leonardo"
+	"Leonel" "Luis" "Manuel" "Marco" "Marcos" "Maurice" "Napoleón" "Nelson" "Noel" "Palben"
+	"Pedro" "Rafael" "Ramón" "Raúl" "Ricardo" "Rubén" "Sergio" "Timoteo" "Tulio" "Victorio"
 	"William" }
 monarch_names = {
 	"Miguel #1" = 21

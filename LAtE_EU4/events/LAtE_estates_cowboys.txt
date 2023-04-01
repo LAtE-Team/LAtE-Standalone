@@ -13,7 +13,7 @@ country_event = {
 	title = cowboys_estate_events.1.t
 	desc = cowboys_estate_events.1.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -50,13 +50,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = colonization_of_the_steppes_flag
@@ -81,7 +81,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.1.a #These Serfs must be brought back.
 		ai_chance = {
@@ -210,7 +210,7 @@ country_event = {
 	id = cowboys_estate_events.2
 	title = cowboys_estate_events.2.t
 	desc = {
-		trigger = { 
+		trigger = {
 			has_estate = estate_burghers
 			has_estate = estate_nobles
 		}
@@ -237,7 +237,7 @@ country_event = {
 		desc = cowboys_estate_events.2.d.fallback
 	}
 	picture = COSSACK_ESTATE_RAIDERS_eventPicture
-	
+
 	trigger = {
 		has_dlc = "The Cossacks"
 		num_of_cities = 6
@@ -300,11 +300,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -407,7 +407,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.2.a #Demand that the $ESTATE_COSSACKS$ be brought to Justice!
 		ai_chance = {
@@ -483,9 +483,9 @@ country_event = {
 	title = cowboys_estate_events.3.t
 	desc = cowboys_estate_events.3.d
 	picture = COSSACK_ESTATE_RAIDERS_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = cowboys_estate_events.3.a #This matter is beyond our control!
 		ai_chance = {
@@ -578,9 +578,9 @@ country_event = {
 	title = cowboys_estate_events.4.t
 	desc = cowboys_estate_events.4.d
 	picture = COSSACK_ESTATE_RAIDERS_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = cowboys_estate_events.4.a #We care little for such excuses.
 		add_opinion = { who = FROM modifier = cossack_raids_opinion }
@@ -610,9 +610,9 @@ country_event = {
 	title = cowboys_estate_events.5.t
 	desc = cowboys_estate_events.5.d
 	picture = COSSACK_ESTATE_RAIDERS_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = cowboys_estate_events.5.a #If we could only believe that.
 		add_prestige = 5
@@ -628,9 +628,9 @@ country_event = {
 	title = cowboys_estate_events.6.t
 	desc = cowboys_estate_events.6.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -655,11 +655,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 
 	option = {
 		name = cowboys_estate_events.6.a #Ok
@@ -678,7 +678,7 @@ country_event = {
 	title = cowboys_estate_events.7.t
 	desc = cowboys_estate_events.7.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -703,13 +703,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.7.a #Ok
 		add_estate_influence_modifier = {
@@ -728,14 +728,14 @@ country_event = {
 	title = cowboys_estate_events.8.t
 	desc = cowboys_estate_events.8.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
 			has_terrain = steppe
 			is_territory = no
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_cowboys
 			territory = 1
 		}
@@ -753,13 +753,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.8.a #We need more registered Cossacks!
 		add_yearly_manpower = 1
@@ -833,7 +833,7 @@ country_event = {
 	title = cowboys_estate_events.9.t
 	desc = cowboys_estate_events.9.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -852,13 +852,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.9.a #
 		ai_chance = {
@@ -932,7 +932,7 @@ country_event = {
 	title = cowboys_estate_events.10.t
 	desc = cowboys_estate_events.10.d
 	picture = COSSACK_ESTATE_RAIDERS_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		has_estate = estate_burghers
@@ -952,13 +952,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.10.a #Support the $ESTATE_COSSACKS$.
 		ai_chance = {
@@ -1051,7 +1051,7 @@ country_event = {
 	title = cowboys_estate_events.11.t
 	desc = cowboys_estate_events.11.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		num_of_colonists = 1
@@ -1077,13 +1077,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -1100,7 +1100,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.11.a #Enlist $ESTATE_COSSACKS$ Settlers.
 		ai_chance = {
@@ -1177,7 +1177,7 @@ country_event = {
 	title = cowboys_estate_events.12.t
 	desc = cowboys_estate_events.12.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -1186,7 +1186,7 @@ country_event = {
 			is_capital = no
 			is_city = yes
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_cowboys
 			territory = 1
 		}
@@ -1208,23 +1208,23 @@ country_event = {
 				modifier = EST_VAL_COSSACK_UPRISING
 			}
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_cowboys
 			territory = 10
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = cossack_revolt
 							value = estate
@@ -1283,7 +1283,7 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					estate_territory = { 
+					estate_territory = {
 						estate = estate_cowboys
 						territory = 10
 					}
@@ -1301,12 +1301,12 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				estate_territory = { 
+				estate_territory = {
 					estate = estate_cowboys
 					territory = 10
 				}
 				NOT = {
-					estate_territory = { 
+					estate_territory = {
 						estate = estate_cowboys
 						territory = 20
 					}
@@ -1324,7 +1324,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				estate_territory = { 
+				estate_territory = {
 					estate = estate_cowboys
 					territory = 20
 				}
@@ -1388,7 +1388,7 @@ country_event = {
 	title = cowboys_estate_events.13.t
 	desc = cowboys_estate_events.13.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -1399,13 +1399,13 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -1420,7 +1420,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.13.a #
 		event_target:growing_cossack_communities = {
@@ -1455,7 +1455,7 @@ country_event = {
 	title = cowboys_estate_events.14.t
 	desc = cowboys_estate_events.14.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_cowboys
 		any_owned_province = {
@@ -1478,13 +1478,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = cowboys_estate_events.14.a #Preposterous.
 		ai_chance = {
@@ -1534,11 +1534,11 @@ province_event = {
 	title = cowboys_estate_events.15.t
 	desc = cowboys_estate_events.15.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
 
 	option = {
 		name = cowboys_estate_events.15.a #Ok.
-		
+
 	}
 }

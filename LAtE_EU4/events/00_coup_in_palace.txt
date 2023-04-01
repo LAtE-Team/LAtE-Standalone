@@ -11,13 +11,13 @@ country_event = { #Coup Rumors
 	title = coup_in_palace_events.1.t
 	desc = coup_in_palace_events.1.d
 	picture = COURT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.1.a #Investigate
 		ai_chance = {
@@ -32,7 +32,7 @@ country_event = { #Coup Rumors
 			30 = {
 				custom_tooltip = "coup_ended_tooltip"
 				hidden_effect = {
-					country_event = { 
+					country_event = {
 						id = coup_in_palace_events.2
 						days = 30
 						random = 15
@@ -46,7 +46,7 @@ country_event = { #Coup Rumors
 						disaster = coup_attempt_disaster
 						value = 50
 					}
-					country_event = { 
+					country_event = {
 						id = coup_in_palace_events.3
 						days = 30
 						random = 15
@@ -77,7 +77,7 @@ country_event = { #Coup Rumors
 					value = 50
 				}
 				hidden_effect = {
-					country_event = { 
+					country_event = {
 						id = coup_in_palace_events.3
 						days = 30
 						random = 15
@@ -93,13 +93,13 @@ country_event = { #Plot Discovered
 	title = coup_in_palace_events.2.t
 	desc = coup_in_palace_events.2.d
 	picture = ACCUSATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.2.a #Hang Traitors
 		end_disaster = coup_attempt_disaster
@@ -111,13 +111,13 @@ country_event = { #Plot Continues
 	title = coup_in_palace_events.3.t
 	desc = coup_in_palace_events.3.d
 	picture = SPY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.3.a #What Will Happen?
 		random_list = {
@@ -132,7 +132,7 @@ country_event = { #Plot Continues
 					value = 50
 				}
 				hidden_effect = {
-					country_event = { 
+					country_event = {
 						id = coup_in_palace_events.3
 						days = 30
 						random = 15
@@ -148,13 +148,13 @@ country_event = { #Plot Fails
 	title = coup_in_palace_events.4.t
 	desc = coup_in_palace_events.4.d
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.4.a #The Coup Fails
 		end_disaster = coup_attempt_disaster
@@ -166,13 +166,13 @@ country_event = { #Plot Succeeds
 	title = coup_in_palace_events.5.t
 	desc = coup_in_palace_events.5.d
 	picture = BAD_WITH_MONARCH_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.5.a #The Coup Succeeds
 		add_disaster_progress = {
@@ -187,13 +187,13 @@ country_event = { #The Aftermath
 	title = coup_in_palace_events.6.t
 	desc = coup_in_palace_events.6.d
 	picture = CIVIL_WAR_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = coup_in_palace_events.6.a #What now?
 		if = {
@@ -208,7 +208,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_burghers	
+						estate = estate_burghers
 					}
 				}
 				clr_country_flag = burgher_coup
@@ -219,7 +219,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_church	
+						estate = estate_church
 					}
 				}
 				clr_country_flag = church_coup
@@ -230,7 +230,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_nobles	
+						estate = estate_nobles
 					}
 				}
 				clr_country_flag = noble_coup
@@ -241,7 +241,7 @@ country_event = { #The Aftermath
 				has_country_flag = estate_vs_heir
 			}
 			change_estate_regent_to_ruler = yes
-			clr_country_flag = estate_vs_heir	
+			clr_country_flag = estate_vs_heir
 		}
 		else_if = {
 			limit = { #Estate vs Consort
@@ -259,7 +259,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_burghers	
+						estate = estate_burghers
 					}
 				}
 			}
@@ -275,7 +275,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_church	
+						estate = estate_church
 					}
 				}
 			}
@@ -291,7 +291,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_nobles	
+						estate = estate_nobles
 					}
 				}
 			}
@@ -319,7 +319,7 @@ country_event = { #The Aftermath
 				}
 				define_ruler = {
 					regency = {
-						estate = estate_church	
+						estate = estate_church
 					}
 				}
 			}

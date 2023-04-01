@@ -8,15 +8,15 @@ color = { 71 81 145 }
 
 leader_names = {
 
-	"Natividad" "Aristóteles" "Armería" "Ángel" "Alvarado" "Anacleto" "Aarón" "Benito" "Blas" "Beltrán" 
-	"Barragán" "Balcázar" "Bernabé" "Colli" "Cristóbal" "César" "Casimiro" "Coufal" "Celestino" "Crispiniano" 
-	"Cipriano" "Cavo" "Chucho" "Díaz" "Emmanuel" "Enrique" "Everardo" "Efraín" "Elías" "Guízar" 
-	"Gaspar" "Guzmán" "Gustavo" "Guadalupe" "Gonzalo" "Guillermo" "Gael" "Guamerú" "Galindo" "Guardado" 
-	"Gallardo" "Héctor" "Humberto" "Higinio" "Ignacio" "Itzcóatl" "Isidro" "Junipero" "Joaquin" "Jesús" 
-	"Juan José" "Javier" "José María" "Lázaro" "Lico" "Mario" "Missael" "Mathias" "Nuño" "Nicolás" 
-	"Néstor" "Ney" "Oswaldo" "Octaviano" "Panduro" "Pepe" "Panchito" "Porfirio" "Prieto" "Perico" 
-	"Pedro" "Pardo" "Prisciliano" "Pascual" "Quirarte" "Rubín" "Rodrigo" "Rubio" "Refugio" "Ramón" 
-	"Silvestre" "Santiago" "Sáncho" "Sergio" "Tito" "Tilon" "Tiburon" "Tonatiuh" "Vargas" "Vicente Antonio" 
+	"Natividad" "Aristóteles" "Armería" "Ángel" "Alvarado" "Anacleto" "Aarón" "Benito" "Blas" "Beltrán"
+	"Barragán" "Balcázar" "Bernabé" "Colli" "Cristóbal" "César" "Casimiro" "Coufal" "Celestino" "Crispiniano"
+	"Cipriano" "Cavo" "Chucho" "Díaz" "Emmanuel" "Enrique" "Everardo" "Efraín" "Elías" "Guízar"
+	"Gaspar" "Guzmán" "Gustavo" "Guadalupe" "Gonzalo" "Guillermo" "Gael" "Guamerú" "Galindo" "Guardado"
+	"Gallardo" "Héctor" "Humberto" "Higinio" "Ignacio" "Itzcóatl" "Isidro" "Junipero" "Joaquin" "Jesús"
+	"Juan José" "Javier" "José María" "Lázaro" "Lico" "Mario" "Missael" "Mathias" "Nuño" "Nicolás"
+	"Néstor" "Ney" "Oswaldo" "Octaviano" "Panduro" "Pepe" "Panchito" "Porfirio" "Prieto" "Perico"
+	"Pedro" "Pardo" "Prisciliano" "Pascual" "Quirarte" "Rubín" "Rodrigo" "Rubio" "Refugio" "Ramón"
+	"Silvestre" "Santiago" "Sáncho" "Sergio" "Tito" "Tilon" "Tiburon" "Tonatiuh" "Vargas" "Vicente Antonio"
 	"Vicente María" "Zeferino" }
 monarch_names = {
 	"Natividad #1" = 18

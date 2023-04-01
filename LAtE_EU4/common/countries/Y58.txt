@@ -8,15 +8,15 @@ color = { 158 121 7 }
 
 leader_names = {
 
-	"Regina" "Henrietta" "Ana" "Elliot" "Glinda" "Theodora" "Jellia" "Bastinda" "Flower" "Lana" 
-	"Gladys" "Ronald" "Amos" "David" "Daisy" "Kimberly" "Diana" "Marceline" "Mishach" "Summer" 
-	"Leslie" "Petunia" "Jenny" "Pomeroy" "Asa" "Morris" "Glycine" "April" "Gideon" "Georgia" 
-	"Muriel" "Pastoria" "Zelena" "Maud" "Franklin" "Simon" "Elphaba" "Bessemer" "Barnum" "Mineralis" 
-	"Ossin" "Nacre" "Zebulon" "Sphalerite" "Leadblum" "Anson" "Aurel" "Argent" "Antero" "Auliffe" 
-	"Buren" "Blair" "Bouldron" "Belden" "Belcaro" "Bushnell" "Clayton" "Eolus" "Gray" "Garrald" 
-	"Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Lowry" "Lykin" "Lyon" 
-	"Mineran" "Montanos" "Marston" "Olympos" "Oso" "Ossos" "Petrus" "Pike" "Plumblon" "Plumead" 
-	"Ptarmigan" "Rockhart" "Regis" "Raton" "Stone" "Silveranos" "Stonarm" "Stonear" "Sloan" "Tell" 
+	"Regina" "Henrietta" "Ana" "Elliot" "Glinda" "Theodora" "Jellia" "Bastinda" "Flower" "Lana"
+	"Gladys" "Ronald" "Amos" "David" "Daisy" "Kimberly" "Diana" "Marceline" "Mishach" "Summer"
+	"Leslie" "Petunia" "Jenny" "Pomeroy" "Asa" "Morris" "Glycine" "April" "Gideon" "Georgia"
+	"Muriel" "Pastoria" "Zelena" "Maud" "Franklin" "Simon" "Elphaba" "Bessemer" "Barnum" "Mineralis"
+	"Ossin" "Nacre" "Zebulon" "Sphalerite" "Leadblum" "Anson" "Aurel" "Argent" "Antero" "Auliffe"
+	"Buren" "Blair" "Bouldron" "Belden" "Belcaro" "Bushnell" "Clayton" "Eolus" "Gray" "Garrald"
+	"Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Lowry" "Lykin" "Lyon"
+	"Mineran" "Montanos" "Marston" "Olympos" "Oso" "Ossos" "Petrus" "Pike" "Plumblon" "Plumead"
+	"Ptarmigan" "Rockhart" "Regis" "Raton" "Stone" "Silveranos" "Stonarm" "Stonear" "Sloan" "Tell"
 	"Tarryall" "Vissarion" "Waugh" "Zirkel" }
 monarch_names = {
 	"Regina #0" = -1

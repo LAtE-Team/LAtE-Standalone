@@ -8,19 +8,19 @@ color = { 136 128 102 }
 
 leader_names = {
 
-	"Coriolanus" "Lucia" "Catherine" "Cornelia" "Belle" "Stephanus" "Laurina" "Brandegoris" "Iseult" "Primula" 
-	"Baldwin" "Ulixes" "Heron" "Marcus" "Jocasta" "Eudoxia" "Geoffrey" "Georgia" "Valerian" "Gareth" 
-	"Lucilla" "Violet" "Claudia" "Virginia" "Nathanael" "May" "Ancell" "Polycarpus" "Sylvester" "Saturn" 
-	"Megara" "Antonia" "Melanie" "Petrus" "Antigone" "June" "Hera" "Augustus" "Achilles" "Anthemeol" 
-	"Alpheus" "Arthur" "Ambrose" "Aloys" "Armistead" "Antipas" "Bedivere" "Breunor" "Brutus" "Brangwin" 
-	"Bohemond" "Beauregard" "Braxton" "Bryan" "Cronus" "Charles" "Claudius" "Constantine" "Calhoun" "Davis" 
-	"Ector" "Frederick" "Fulwar" "Fulgent" "Griflet" "Geraint" "Goode" "Hamilcar" "Hannibal" "Isaias" 
-	"Joscelin" "Jefferson" "Jupiter" "Julius" "Justinian" "Jackson" "Laurentius" "Lucan" "Lionel" "Lucius" 
-	"Lunsford" "Lamartine" "Marcellus" "Mercury" "Merriman" "Meriwether" "Marmaduke" "Meleager" "Neptune" "Octavian" 
-	"Prudens" "Priscus" "Pulcher" "Publicola" "Paulus" "Plato" "Pluto" "Pellinore" "Percival" "Pellias" 
-	"Pompey" "Pericles" "Quadratus" "Robert" "Richard" "Rhett" "Regulus" "Robin" "Raynault" "Raleigh" 
-	"Rufus" "Raphael" "Sosipater" "Superbus" "Scipio" "Severus" "Sagremore" "Solon" "Saunder" "Tiberius" 
-	"Trophimus" "Tertius" "Theophilus" "Thomas" "Timon" "Titus" "Urien" "Urban" "Vitalian" "William" 
+	"Coriolanus" "Lucia" "Catherine" "Cornelia" "Belle" "Stephanus" "Laurina" "Brandegoris" "Iseult" "Primula"
+	"Baldwin" "Ulixes" "Heron" "Marcus" "Jocasta" "Eudoxia" "Geoffrey" "Georgia" "Valerian" "Gareth"
+	"Lucilla" "Violet" "Claudia" "Virginia" "Nathanael" "May" "Ancell" "Polycarpus" "Sylvester" "Saturn"
+	"Megara" "Antonia" "Melanie" "Petrus" "Antigone" "June" "Hera" "Augustus" "Achilles" "Anthemeol"
+	"Alpheus" "Arthur" "Ambrose" "Aloys" "Armistead" "Antipas" "Bedivere" "Breunor" "Brutus" "Brangwin"
+	"Bohemond" "Beauregard" "Braxton" "Bryan" "Cronus" "Charles" "Claudius" "Constantine" "Calhoun" "Davis"
+	"Ector" "Frederick" "Fulwar" "Fulgent" "Griflet" "Geraint" "Goode" "Hamilcar" "Hannibal" "Isaias"
+	"Joscelin" "Jefferson" "Jupiter" "Julius" "Justinian" "Jackson" "Laurentius" "Lucan" "Lionel" "Lucius"
+	"Lunsford" "Lamartine" "Marcellus" "Mercury" "Merriman" "Meriwether" "Marmaduke" "Meleager" "Neptune" "Octavian"
+	"Prudens" "Priscus" "Pulcher" "Publicola" "Paulus" "Plato" "Pluto" "Pellinore" "Percival" "Pellias"
+	"Pompey" "Pericles" "Quadratus" "Robert" "Richard" "Rhett" "Regulus" "Robin" "Raynault" "Raleigh"
+	"Rufus" "Raphael" "Sosipater" "Superbus" "Scipio" "Severus" "Sagremore" "Solon" "Saunder" "Tiberius"
+	"Trophimus" "Tertius" "Theophilus" "Thomas" "Timon" "Titus" "Urien" "Urban" "Vitalian" "William"
 	"Wade" "Winfield" "Zacharias" }
 monarch_names = {
 	"Coriolanus #0" = 1

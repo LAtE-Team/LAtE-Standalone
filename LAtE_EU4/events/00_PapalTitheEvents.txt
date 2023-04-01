@@ -6,15 +6,15 @@ country_event = {
 	title = curia.1.t
 	desc = curia.1.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # on pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		tag = PAP
 		NOT = { has_country_modifier = restoring_curia_treasury }
 	}
-	
+
 	option = { # just resting in my account
 		name = curia.1.a
 		add_years_of_income = 0.5
@@ -51,9 +51,9 @@ country_event = {
 		desc = curia.3.d2
 	}
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = curia.3.a
 		trigger = {
@@ -71,7 +71,7 @@ country_event = {
 			modifier = pope_not_paying_bank
 		}
 	}
-	
+
 	after = {
 		PAP = {
 			clr_country_flag = pope_pays_bankers
@@ -87,9 +87,9 @@ country_event = {
 	title = curia.4.t
 	desc = curia.4.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # on pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		culture_group = latin
@@ -107,12 +107,12 @@ country_event = {
 				OR = {
 					has_country_flag = moving_curia_money
 					has_country_flag = protecting_curia_money
-				}				
+				}
 			}
 		}
 		curia_treasury_size = 1000
 	}
-	
+
 	option = {
 		name = curia.4.a
 		if = {
@@ -140,13 +140,13 @@ country_event = {
 	title = curia.5.t
 	desc = curia.5.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = curia.5.a
-		ai_chance = { 
-			factor = 5 
+		ai_chance = {
+			factor = 5
 		}
 		tooltip = {
 			reduce_curia_treasury_huge_effect = yes
@@ -154,8 +154,8 @@ country_event = {
 	}
 	option = {
 		name = curia.5.b
-		ai_chance = { 
-			factor = 1 
+		ai_chance = {
+			factor = 1
 			modifier = {
 				factor = 0
 				alliance_with = FROM
@@ -181,10 +181,10 @@ country_event = {
 	title = curia.6.t
 	desc = curia.6.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes
-	
-	
+
+
 	option = {
 		name = curia.6.a
 		add_opinion = {
@@ -202,7 +202,7 @@ country_event = {
 	title = curia.7.t
 	desc = curia.7.d
 	picture = BAD_POPE_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		OR = {
@@ -211,11 +211,11 @@ country_event = {
 		}
 		is_at_war = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3
 	}
-	
+
 	option = {
 		name = curia.7.a
 		add_curia_treasury_huge_effect = yes
@@ -225,7 +225,7 @@ country_event = {
 		}
 		clr_country_flag = protecting_curia_money
 		clr_country_flag = moving_curia_money
-	}	
+	}
 }
 
 # Country loses its capital, the money disappears
@@ -234,15 +234,15 @@ country_event = {
 	title = curia.8.t
 	desc = curia.8.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		FROM = { owned_by = ROOT is_capital = yes }
 		has_country_flag = protecting_curia_money
 	}
-	
+
 	option = {
 		name = curia.8.a
 		reduce_curia_treasury_huge_effect = yes
@@ -261,9 +261,9 @@ country_event = {
 	title = curia.9.t
 	desc = curia.9.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # on pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		religion = catholic
@@ -275,7 +275,7 @@ country_event = {
 			has_country_modifier = withholding_tithes
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_saved_name = {
@@ -285,7 +285,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = curia.9.a
 		add_curia_treasury_big_effect = yes
@@ -341,9 +341,9 @@ country_event = {
 	title = curia.10.t
 	desc = curia.10.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # on pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		religion = catholic
@@ -358,13 +358,13 @@ country_event = {
 			has_country_modifier = withholding_tithes
 		}
 	}
-	
+
 	option = {
 		name = curia.10.a
 		add_country_modifier = {
 			name = "withholding_tithes"
 			duration = 7300
-		}		
+		}
 		if = {
 			limit = {
 				has_estate = estate_church
@@ -399,9 +399,9 @@ country_event = {
 	title = curia.11.t
 	desc = curia.11.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		religion = catholic
@@ -411,7 +411,7 @@ country_event = {
 		is_religion_enabled = protestant
 		NOT = { has_country_modifier = increased_tithing }
 	}
-	
+
 	option = {
 		name = curia.11.a
 		add_papal_influence = 15
@@ -432,9 +432,9 @@ country_event = {
 	title = curia.12.t
 	desc = curia.12.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes # on pulse
-	
+
 	trigger = {
 		has_dlc = "Emperor"
 		tag = PAP
@@ -455,7 +455,7 @@ country_event = {
 		}
 		curia_treasury_size = 100
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_country = {
@@ -487,7 +487,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = curia.12.a
 		reduce_curia_treasury_big_effect = yes
@@ -519,9 +519,9 @@ country_event = {
 	title = curia.13.t
 	desc = curia.13.d
 	picture = BAD_POPE_eventPicture
-	
+
 	is_triggered_only = yes
-		
+
 	option = {
 		name = curia.13.a
 		add_years_of_income = 1

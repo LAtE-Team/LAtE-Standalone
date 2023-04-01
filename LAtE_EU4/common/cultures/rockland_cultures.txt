@@ -98,64 +98,64 @@ rockland = {
 		dynasty_names = { "Vina" "of Sandy" }
 
 		male_names = {
-			Aaric Aaron Abinadi Abinadom Abraham Aethan Aha Ahab Ahah Akish Alma Amaleki Amalickiah Amaron Amasa Amgid Aminadab Aminadi Amlici Ammah Ammaron Ammon Ammoron Amnigaddah Amnor Amoron Amos Amulek Amulon Antiomno Antionah Antionum Antipus Archeantus Arnol Artax Arvol Auri Avichen Axton 
-			Baram Benjamin Bennion Bethuel Bevalier Bowden Boydell Bralan Brantly Brinton Brode 
-			Cabel Calbert Cardston Cezoram Chemish Cheston Clade Clebert Cleese Cleon Cohor Coleman Com Corban Corianton Coriantor Coriantum Coriantumr Corihor Corom Cumenihah Curtly 
-			Dahl Dalan Dallin Dallon Dannon Danstan Darnell Darris Darvell Delbert Dellon Delmas Delton Denneth Denton Dorian Draycen Drey Drury Durward 
-			Eldon Elhanan Emer Emerald Emron Enos Esrom Ethem Ether Euzel Ezias Ezra 
-			Farren Ferol Fielding Fredonius 
-			Gabrien Gadianton Garren Gaskell Gearld Gerad Giddianhi Giddonah Gideon Gidgiddonah Gidgiddoni Gilead Gilgah Gilgal Glain 
-			Hagoth Hearthom Hearthon Heber Helam Helaman Helem Helorum Hem Heston Heth Hilton Himni Hyrum 
-			Isaiah Ishmael Israel 
-			Jacob Jacom Jaden Jadon Jamis Jared Jarin Jarom Jarrell Jeneum Jeraneck Jeremiah Jeric Jeris Jerrick Johoshua Jonas Joseph Josh Joshub Josiah Judah 
-			Kadon Kamren Katriel Keigh Kelton Kempton Keston Kevan Kib Kim Kimnor Kirtland Kish Kishkumen Kneel Koln Korihor Kosner Kresten Kumen Kumenonhi 
-			Laban Lachoneus Lamah Laman Lamoni Landell Lavoy Leatus Lehi Lehonti Lemuel Leonid Lerron Lethair Levi Levor Lib Limhah Limher Limhi Linnus Lorenzo Lorian Luram Lyman 
-			Mahah Mahonri Manti Marion Marsden Mathoni Mathonihah Mauric Moriancumer Morianton Mormon Moron Moroni Moronihah Moses Mosiah Mulek Muloki 
-			Nashoba Nehemiah Nehor Nephi Nephihah Neum Nevin Nimrah Niniva Noah Nordell Novich 
-			Olmstead Omer Omner Omni Orem Orihah Orson Orvel Oryeon 
-			Paanchi Pacey Pachus Pacumeni Pagag Pahoran Parkence Platte Pratt Pryce 
-			Raden Rainey Randen Ranell Ratzon Rawlin Raystan Reed Refell Rennen Rilus Riplakish Rustin 
-			Sam Samuel Seantum Seezoram Selar Selwin Seth Shared Shaygan Shem Shemnon Sherem Sherland Shez Shiblom Shiblon Shiz Shule Shurm Stod Stryder 
-			Tabernacle Taige Tain Taisin Takoma Tatton Tawn Teancum Templer Teomner Terral Thais Theon Timothy Tithing Torin Tork Torston Tres Trevan Truss Tubaloth 
-			Ulis 
-			Valden Vallen Vardell Vardis Venla Verden Voiyant 
-			Wesson Wester Willard Winchester Woodruff Wouter Wynante Wyndon 
-			Xanderrick Xarek 
-			Yehoram Yoder 
-			Zamaleki Zann Zaquen Zarahemla Zedek Zedekiah Zedwain Zeezrom Zekiel Zelph Zemerick Zemnarihah Zenephi Zeniff Zenoa Zenock Zenos Zerahemnah Zeram Zoland Zoram 
+			Aaric Aaron Abinadi Abinadom Abraham Aethan Aha Ahab Ahah Akish Alma Amaleki Amalickiah Amaron Amasa Amgid Aminadab Aminadi Amlici Ammah Ammaron Ammon Ammoron Amnigaddah Amnor Amoron Amos Amulek Amulon Antiomno Antionah Antionum Antipus Archeantus Arnol Artax Arvol Auri Avichen Axton
+			Baram Benjamin Bennion Bethuel Bevalier Bowden Boydell Bralan Brantly Brinton Brode
+			Cabel Calbert Cardston Cezoram Chemish Cheston Clade Clebert Cleese Cleon Cohor Coleman Com Corban Corianton Coriantor Coriantum Coriantumr Corihor Corom Cumenihah Curtly
+			Dahl Dalan Dallin Dallon Dannon Danstan Darnell Darris Darvell Delbert Dellon Delmas Delton Denneth Denton Dorian Draycen Drey Drury Durward
+			Eldon Elhanan Emer Emerald Emron Enos Esrom Ethem Ether Euzel Ezias Ezra
+			Farren Ferol Fielding Fredonius
+			Gabrien Gadianton Garren Gaskell Gearld Gerad Giddianhi Giddonah Gideon Gidgiddonah Gidgiddoni Gilead Gilgah Gilgal Glain
+			Hagoth Hearthom Hearthon Heber Helam Helaman Helem Helorum Hem Heston Heth Hilton Himni Hyrum
+			Isaiah Ishmael Israel
+			Jacob Jacom Jaden Jadon Jamis Jared Jarin Jarom Jarrell Jeneum Jeraneck Jeremiah Jeric Jeris Jerrick Johoshua Jonas Joseph Josh Joshub Josiah Judah
+			Kadon Kamren Katriel Keigh Kelton Kempton Keston Kevan Kib Kim Kimnor Kirtland Kish Kishkumen Kneel Koln Korihor Kosner Kresten Kumen Kumenonhi
+			Laban Lachoneus Lamah Laman Lamoni Landell Lavoy Leatus Lehi Lehonti Lemuel Leonid Lerron Lethair Levi Levor Lib Limhah Limher Limhi Linnus Lorenzo Lorian Luram Lyman
+			Mahah Mahonri Manti Marion Marsden Mathoni Mathonihah Mauric Moriancumer Morianton Mormon Moron Moroni Moronihah Moses Mosiah Mulek Muloki
+			Nashoba Nehemiah Nehor Nephi Nephihah Neum Nevin Nimrah Niniva Noah Nordell Novich
+			Olmstead Omer Omner Omni Orem Orihah Orson Orvel Oryeon
+			Paanchi Pacey Pachus Pacumeni Pagag Pahoran Parkence Platte Pratt Pryce
+			Raden Rainey Randen Ranell Ratzon Rawlin Raystan Reed Refell Rennen Rilus Riplakish Rustin
+			Sam Samuel Seantum Seezoram Selar Selwin Seth Shared Shaygan Shem Shemnon Sherem Sherland Shez Shiblom Shiblon Shiz Shule Shurm Stod Stryder
+			Tabernacle Taige Tain Taisin Takoma Tatton Tawn Teancum Templer Teomner Terral Thais Theon Timothy Tithing Torin Tork Torston Tres Trevan Truss Tubaloth
+			Ulis
+			Valden Vallen Vardell Vardis Venla Verden Voiyant
+			Wesson Wester Willard Winchester Woodruff Wouter Wynante Wyndon
+			Xanderrick Xarek
+			Yehoram Yoder
+			Zamaleki Zann Zaquen Zarahemla Zedek Zedekiah Zedwain Zeezrom Zekiel Zelph Zemerick Zemnarihah Zenephi Zeniff Zenoa Zenock Zenos Zerahemnah Zeram Zoland Zoram
 		}
 		female_names = {
-			Aaronica Abihail Abish Abrah Acacia Adaleen Adi Adreyna Albine Aleah Alemeda Almadon Alpine Alwina Amberlin Amethist Amourette Amulet Anagene Angelic Ankanna Annysa Ara Arabeth Ardonna Arprilla Arvilla Asenath Astrolena Athaliah Audia Azure Belva 
-			Beneth Berena Berna Blessing Braquelle Brighamena Brighaminie 
-			Cadence Calan Camaris Candra Carmelit Cassa Celestian Cember Chalise Chanalin Charalla Chassia Christina Chyleen Ciri Claytra Cleota Clover Corill Cornelia Cretia Cumorah 
-			Dalita Daraca Darlada Dawn Dawnene Daysa Deborah Delilah Deneen Deza Diona Donyelle Doretta Dorraine 
-			Elda Electa Elevena Erin Esther 
-			Florice 
-			Gainel Garon Geaniel Guyanna 
-			Hahna Hannah Heneli Hilea 
-			Idonna Ireta Ireva Irlanda Isabel Isabella Isha Itha Ivis Izaiha Izola 
-			Jaelle Jaisel Janeil Jania Jelisa Jemima Jennis Jesselah Joanna Jordana Josephinie Jubeltine Judica Junean Junia 
-			Kahna Kaiah Kamri Kasiah Katriel Kena Klissann Klystia 
-			Labbaron Launale Leatrice Leaun Leola Lethea Lexine Liahonna Lorelle Lovola Luienne Lydia 
-			Macel Marbara Maridean Maridee Marshell Marvada Mavia Melora Mikatin Morona 
-			Naamah Nalomi Nanell Naoma Naomi Nara Natalie Nelida Nevona Nezla Ninnon Nova Nyla 
-			Oleta Onna Oshira 
-			Palmyra Parnal Phemia Phoebe 
-			Quince 
-			Ralissa Rexine Rhoda Rhodendra Rhodogune Rinez Rozell Rulene Ruth 
-			Salenda Samila Samsi Saren Sariah Seena Seletha Semiramis Seneth Serah Seviah Shambertine Shanalea Shantel Shay Shelise Sogna Sonna Staccato Starlene Sunan Sushelle 
-			Talesha Talma Tempali Tempalia Threna Trishelle Turquoise 
-			Uleah 
-			Valista Veloe Viella Vindalu Violet 
-			Xanne 
-			Yasmine 
-			Zarinaea Zenobia Zeruah Ziona 
+			Aaronica Abihail Abish Abrah Acacia Adaleen Adi Adreyna Albine Aleah Alemeda Almadon Alpine Alwina Amberlin Amethist Amourette Amulet Anagene Angelic Ankanna Annysa Ara Arabeth Ardonna Arprilla Arvilla Asenath Astrolena Athaliah Audia Azure Belva
+			Beneth Berena Berna Blessing Braquelle Brighamena Brighaminie
+			Cadence Calan Camaris Candra Carmelit Cassa Celestian Cember Chalise Chanalin Charalla Chassia Christina Chyleen Ciri Claytra Cleota Clover Corill Cornelia Cretia Cumorah
+			Dalita Daraca Darlada Dawn Dawnene Daysa Deborah Delilah Deneen Deza Diona Donyelle Doretta Dorraine
+			Elda Electa Elevena Erin Esther
+			Florice
+			Gainel Garon Geaniel Guyanna
+			Hahna Hannah Heneli Hilea
+			Idonna Ireta Ireva Irlanda Isabel Isabella Isha Itha Ivis Izaiha Izola
+			Jaelle Jaisel Janeil Jania Jelisa Jemima Jennis Jesselah Joanna Jordana Josephinie Jubeltine Judica Junean Junia
+			Kahna Kaiah Kamri Kasiah Katriel Kena Klissann Klystia
+			Labbaron Launale Leatrice Leaun Leola Lethea Lexine Liahonna Lorelle Lovola Luienne Lydia
+			Macel Marbara Maridean Maridee Marshell Marvada Mavia Melora Mikatin Morona
+			Naamah Nalomi Nanell Naoma Naomi Nara Natalie Nelida Nevona Nezla Ninnon Nova Nyla
+			Oleta Onna Oshira
+			Palmyra Parnal Phemia Phoebe
+			Quince
+			Ralissa Rexine Rhoda Rhodendra Rhodogune Rinez Rozell Rulene Ruth
+			Salenda Samila Samsi Saren Sariah Seena Seletha Semiramis Seneth Serah Seviah Shambertine Shanalea Shantel Shay Shelise Sogna Sonna Staccato Starlene Sunan Sushelle
+			Talesha Talma Tempali Tempalia Threna Trishelle Turquoise
+			Uleah
+			Valista Veloe Viella Vindalu Violet
+			Xanne
+			Yasmine
+			Zarinaea Zenobia Zeruah Ziona
 		}
 
 	}
 	prairielander = {
 		dynasty_names = { "MacKenzie" "Wickenheiser" "Romanow" }
-		
+
 		male_names = {
 			Abram Albert Alex Anders Anton
 			Bart Ben Brian Bruno

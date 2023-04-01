@@ -2,8 +2,8 @@ estate_press = {
 	icon = 18
 
 	# If true, country will get estate
-	
-	trigger = {	
+
+	trigger = {
 		religion_group = oldworld
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_government_attribute = is_merchant_republic }
@@ -30,7 +30,7 @@ estate_press = {
 	country_modifier_neutral = {
 		global_institution_spread = 0.11
 		advisor_cost = -0.05
-	}	
+	}
 	country_modifier_angry = {
 		advisor_cost = 0.10
 		global_unrest = 2
@@ -87,7 +87,7 @@ estate_press = {
 		}
 		influence = -40
 	}
-	
+
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
@@ -117,9 +117,9 @@ estate_press = {
 		estate_press_control_over_monetary_policy
 		estate_press_strong_duchies
 		estate_press_better_integration
-		estate_press_spin_room	
+		estate_press_spin_room
 	}
-	
+
 	agendas = {
 		estate_press_build_trade_building_in_y
 		estate_press_build_port_building_in_y
@@ -144,6 +144,6 @@ estate_press = {
 	}
 
 	color = { 140 180 180 }
-	
+
 	influence_from_dev_modifier = 1.0
 }

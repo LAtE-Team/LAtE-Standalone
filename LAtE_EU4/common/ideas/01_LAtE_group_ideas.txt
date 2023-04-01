@@ -11,7 +11,7 @@ ONT_ideas = {
 			tag = ONT
 			culture = ontarian
 		}
-		
+
 	}
 	free = yes
 
@@ -44,11 +44,11 @@ QUE_ideas = {
 		infantry_power = 0.10
 		tolerance_own = 2
 	}
-	
+
 	bonus = {
 		army_tradition_decay = -0.01
 	}
-	
+
 	trigger = {
 		OR = {
 			tag = QUE
@@ -56,11 +56,11 @@ QUE_ideas = {
 		}
 	}
 	free = yes
-	
-		
+
+
 	coureurs_des_bois = {
 		global_trade_goods_size_modifier = 0.1
-	}	
+	}
 	settling_the_interior = {
 		may_establish_frontier = yes
 		auto_explore_adjacent_to_colony = yes
@@ -95,7 +95,7 @@ maritimer_ideas = {
 			tag = MRT
 			culture = maritimer
 		}
-		
+
 	}
 	free = yes
 
@@ -112,7 +112,7 @@ maritimer_ideas = {
 		leader_naval_fire = 1
 	}
 	gaels_and_acadians = {
-		num_accepted_cultures = 2 
+		num_accepted_cultures = 2
 	}
 	luadhadh = {
 		production_efficiency = 0.1
@@ -165,7 +165,7 @@ deitsch_ideas = {		#Expanded to apply to all Anabaptists
 		OR = {
 			tag = HUD
 			religion = anabaptist
-			primary_culture = deitsch		
+			primary_culture = deitsch
 		}
 	}
 	free = yes
@@ -197,7 +197,7 @@ californian_ideas = {
 		adm_tech_cost_modifier = -0.1
 		diplomatic_reputation = 1
 	}
-	bonus = { 
+	bonus = {
 		legitimacy = 1
 		meritocracy = 1
 	}
@@ -257,7 +257,7 @@ union_ideas = {
             religion = rust_cultist
         }
     }
-	
+
 	free = yes
 
     legacy_of_the_liberator = {
@@ -294,7 +294,7 @@ rostmann_ideas = {
 		infantry_power = 0.2
     }
     bonus = {
-		technology_cost = -0.1  
+		technology_cost = -0.1
     }
 
     trigger = {
@@ -344,36 +344,36 @@ chicagoan_ideas = {
 		primary_culture = chicagoan
 		religion_group = christian
 	}
-    
+
     free = yes
 
-    # the_great_bastion 
+    # the_great_bastion
     chicagoan_idea_1 = {
 		defensiveness = 0.20
     }
-    # steamboat_diplomacy 
+    # steamboat_diplomacy
     chicagoan_idea_2 = {
 		diplomats = 1
     }
-    # sénéchaussée_des_chicago 
+    # sénéchaussée_des_chicago
     chicagoan_idea_3 = {
 		heir_chance = 0.33
 		legitimacy = 1
     }
-    # chicago_stock_exchange 
+    # chicago_stock_exchange
     chicagoan_idea_4 = {
 		global_own_trade_power = 0.1
     }
-    # devout_christians 
+    # devout_christians
     chicagoan_idea_5 = {
 		papal_influence = 1
 		tolerance_own = 2
     }
-    # urbs_in_horto 
+    # urbs_in_horto
     chicagoan_idea_6 = {
 		advisor_pool = 1
     }
-    # the_three_park_commission 
+    # the_three_park_commission
     chicagoan_idea_7 = {
 		religious_unity = 0.2
     }
@@ -390,7 +390,7 @@ pirate_ideas = {
     trigger = {
 		religion = brethren
      }
-    
+
     free = yes
 
     # Floating Cities
@@ -603,17 +603,17 @@ jewish_ideas = {
 		tolerance_own = 1
 		legitimacy = 1
 	}
-	
+
 	bonus = {
 		diplomatic_reputation = 1
 	}
-	
+
 	trigger = {
 		tag = ISR
 		religion_group = jewish_group
 	}
 	free = yes
-	
+
 	end_of_diaspora = {
 		global_unrest = -1
 	}
@@ -644,11 +644,11 @@ pacific_northwest_ideas = {	#From Vanilla
 		land_morale = 0.10
 		may_perform_slave_raid = yes
 	}
-	
+
 	bonus = {
 		prestige = 1
 	}
-	
+
 	trigger = {
 		OR = {
 			primary_culture = cascadian
@@ -659,25 +659,25 @@ pacific_northwest_ideas = {	#From Vanilla
 		}
 		religion = raven_tales
 	}
-	
+
 	free = yes		#will be added at load.
-	
+
 	great_whale_hunts = {
 		discipline = 0.05
 	}
-	
-	dugout_canoes = { 
+
+	dugout_canoes = {
 		trade_range_modifier = 0.2
 	}
-	
+
 	totem_poles = {
 		diplomatic_reputation = 1
 	}
-	
+
 	potlatch_feast = {
 		global_own_trade_power = 0.1
 	}
-	
+
 	legacy_of_raven = {
 		leader_land_manuever = 1
 	}
@@ -685,11 +685,11 @@ pacific_northwest_ideas = {	#From Vanilla
 	salmon_migrations= {
 		global_trade_goods_size_modifier = 0.10
 	}
-	
-	noble_castes = { 
+
+	noble_castes = {
 		stability_cost_modifier = -0.1
 	}
-	
+
 }
 
 BRZ_ideas = {
@@ -699,7 +699,7 @@ BRZ_ideas = {
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
-	}	
+	}
 	trigger = {
 		OR = {
 			tag = BRZ

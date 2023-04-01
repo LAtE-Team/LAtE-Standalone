@@ -8,22 +8,22 @@ color = { 191 117 38 }
 
 leader_names = {
 
-	"Leah" "Gail" "Anson" "Benjamin" "Rose" "Hank" "Lewis" "Amon" "Tom" "Merriweather" 
-	"Silas" "Horace" "Arduenna" "Pastoria" "Fairuza" "Amelia" "Zelena" "Hermione" "Myatt" "Ignace" 
-	"Garber" "Jeconiah" "Clifton" "Charlotte" "Harriet" "Almira" "Nathaniel" "Grace" "Salathiel" "Eustace" 
-	"Glycine" "Andrew" "Gideon" "Dennis" "Blaine" "Billina" "Alice" "Clara" "Georgia" "Petunia" 
-	"Summer" "Othniel" "Wesley" "Melena" "Kimberly" "Ana" "Donald" "Marty" "Holcomb" "George" 
-	"Viktor" "April" "Roquat" "Evanora" "Morgan" "Josiah" "Caley" "Muriel" "Everett" "Bastinda" 
-	"Marceline" "Maud" "Isobel" "Ruth" "Lyman" "Samuel" "Alvin" "Ada" "Rebecca" "Leonard" 
-	"Flower" "Cord" "Jezebel" "Locasta" "Hezekiah" "Solomon" "Allison" "Matilda" "Panphile" "Albinus" 
-	"Ozma" "Shadrach" "Glinda" "Theodore" "Micah" "Calvin" "Nessarose" "Ezekiel" "Rehoboam" "Truman" 
-	"Ned" "Sheldon" "Betsy" "Allen" "Adam" "Abel" "Boone" "Burnie" "Bixby" "Benton" 
-	"Bruce" "Beauregard" "Burton" "Calhoun" "Clyde" "Claude" "Collier" "Cowin" "Curlew" "Caleb" 
-	"Cain" "Clarence" "Campion" "Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" "Finn" 
-	"Fulton" "Fitch" "Gregor" "Hannibal" "Hull" "Jake" "Jim" "Lee" "Leon" "Louis" 
-	"Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Mouton" "Napoleon" "Nereus" 
-	"Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" "Quintin" "Ross" 
-	"Sid" "Squire" "Simon" "Sampson" "Stirling" "Segar" "Sherod" "Twain" "Trigg" "Todd" 
+	"Leah" "Gail" "Anson" "Benjamin" "Rose" "Hank" "Lewis" "Amon" "Tom" "Merriweather"
+	"Silas" "Horace" "Arduenna" "Pastoria" "Fairuza" "Amelia" "Zelena" "Hermione" "Myatt" "Ignace"
+	"Garber" "Jeconiah" "Clifton" "Charlotte" "Harriet" "Almira" "Nathaniel" "Grace" "Salathiel" "Eustace"
+	"Glycine" "Andrew" "Gideon" "Dennis" "Blaine" "Billina" "Alice" "Clara" "Georgia" "Petunia"
+	"Summer" "Othniel" "Wesley" "Melena" "Kimberly" "Ana" "Donald" "Marty" "Holcomb" "George"
+	"Viktor" "April" "Roquat" "Evanora" "Morgan" "Josiah" "Caley" "Muriel" "Everett" "Bastinda"
+	"Marceline" "Maud" "Isobel" "Ruth" "Lyman" "Samuel" "Alvin" "Ada" "Rebecca" "Leonard"
+	"Flower" "Cord" "Jezebel" "Locasta" "Hezekiah" "Solomon" "Allison" "Matilda" "Panphile" "Albinus"
+	"Ozma" "Shadrach" "Glinda" "Theodore" "Micah" "Calvin" "Nessarose" "Ezekiel" "Rehoboam" "Truman"
+	"Ned" "Sheldon" "Betsy" "Allen" "Adam" "Abel" "Boone" "Burnie" "Bixby" "Benton"
+	"Bruce" "Beauregard" "Burton" "Calhoun" "Clyde" "Claude" "Collier" "Cowin" "Curlew" "Caleb"
+	"Cain" "Clarence" "Campion" "Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" "Finn"
+	"Fulton" "Fitch" "Gregor" "Hannibal" "Hull" "Jake" "Jim" "Lee" "Leon" "Louis"
+	"Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Mouton" "Napoleon" "Nereus"
+	"Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" "Quintin" "Ross"
+	"Sid" "Squire" "Simon" "Sampson" "Stirling" "Segar" "Sherod" "Twain" "Trigg" "Todd"
 	"Vick" "William" "Winslow" "Winfield" "Webb" "Wheeler" "Yadkin" }
 monarch_names = {
 	"Leah #0" = -1

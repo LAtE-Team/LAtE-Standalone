@@ -14,7 +14,7 @@ country_event = {
 	picture = COSSACK_ESTATE_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -31,11 +31,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 
 	option = {
 		name = scavengers_estate_events.1.a #Ok
@@ -54,7 +54,7 @@ country_event = {
 	title = scavengers_estate_events.2.t
 	desc = scavengers_estate_events.2.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -71,13 +71,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.2.a #Ok
 		add_estate_influence_modifier = {
@@ -95,7 +95,7 @@ country_event = {
 	title = scavengers_estate_events.3.t
 	desc = scavengers_estate_events.3.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -114,15 +114,15 @@ country_event = {
 		}
 
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	is_triggered_only = yes
-	
-	
-	
+
+
+
 	option = {
 		name = scavengers_estate_events.3.a #Ok.
 		ai_chance = {
@@ -207,7 +207,7 @@ country_event = {
 	title = scavengers_estate_events.4.t
 	desc = scavengers_estate_events.4.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -225,13 +225,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.4.a #Force the merchants to pay
 		ai_chance = {
@@ -324,7 +324,7 @@ country_event = {
 	title = scavengers_estate_events.5.t
 	desc = scavengers_estate_events.5.d
 	picture = wihgfx_FEMALE_GENERAL_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -338,9 +338,9 @@ country_event = {
 		}
 
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			set_saved_name = {
@@ -356,11 +356,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.5.a #
 		ai_chance = {
@@ -428,17 +428,17 @@ country_event = {
 	title = scavengers_estate_events.6.t
 	desc = scavengers_estate_events.6.d
 	picture = GOLDEN_STOOL_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_scavengers
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.6.a #Side with adventurers
 		ai_chance = {
@@ -482,7 +482,7 @@ country_event = {
 			}
 		}
 		add_prestige = 10
-		
+
 		add_estate_loyalty = {
 			estate = estate_scavengers
 			loyalty = -15
@@ -492,27 +492,27 @@ country_event = {
 
 #Disloyal & Influential - Undermine the State
 country_event = {
-	id = scavengers_estate_events.7 
+	id = scavengers_estate_events.7
 	title = scavengers_estate_events.7.t
 	desc = scavengers_estate_events.7.d
 	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
-		
+
 		NOT = {
 			estate_loyalty = {
 				estate = estate_scavengers
 				loyalty = 30
 			}
 		}
-		
+
 		estate_influence = {
 			estate = estate_scavengers
 			influence = 70
 		}
-		
+
 		NOT = {
 			has_estate_influence_modifier = {
 				estate = estate_scavengers
@@ -528,13 +528,13 @@ country_event = {
 		}
 
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.7.a #Take it
 		ai_chance = {
@@ -545,7 +545,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { 
+				NOT = {
 					estate_influence = {
 						estate = estate_scavengers
 						influence = 80
@@ -553,11 +553,11 @@ country_event = {
 				}
 			}
 		}
-		
+
 		add_corruption = 2
-		
+
 		add_estate_scavengers_loyalty_effect = yes
-		
+
 		add_estate_influence_modifier = {
 			estate = estate_scavengers
 			desc = EST_VAL_UNDERMINING_THE_STATE
@@ -576,7 +576,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { 
+				NOT = {
 					estate_loyalty = {
 						estate = estate_scavengers
 						loyalty = 10
@@ -584,25 +584,25 @@ country_event = {
 				}
 			}
 			modifier = {
-				factor = 1.25 
+				factor = 1.25
 				estate_influence = {
 					estate = estate_scavengers
 					influence = 90
 				}
 			}
 		}
-		
+
 		add_mil_power = -100
-		
+
 		reduce_estate_scavengers_loyalty_effect = yes
-		
+
 		add_estate_influence_modifier = {
 			estate = estate_scavengers
 			desc = EST_VAL_PUT_INTO_PLACE
 			influence = -20
 			duration = 3650
 		}
-		
+
 	}
 }
 
@@ -612,12 +612,12 @@ province_event = {
 	title = scavengers_estate_events.8.t
 	desc = scavengers_estate_events.8.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
 
 	option = {
 		name = scavengers_estate_events.8.a #Ok.
-		
+
 	}
 }
 
@@ -627,7 +627,7 @@ country_event = {
 	title = scavengers_estate_events.9.t
 	desc = scavengers_estate_events.9.d
 	picture = ADVISOR_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
@@ -635,9 +635,9 @@ country_event = {
 			estate = estate_scavengers
 			influence = 40
 		}
-		
+
 		crown_land_share = 20
-		
+
 		NOT = {
 			has_estate_loyalty_modifier = {
 				estate = estate_scavengers
@@ -646,13 +646,13 @@ country_event = {
 		}
 
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = scavengers_estate_events.9.a #Let them do as they please
 		ai_chance = {
@@ -689,16 +689,16 @@ country_event = {
 				NOT = { years_of_income = 1 }
 			}
 		}
-		
+
 		add_years_of_income = -0.25
-		
+
 		add_estate_loyalty_modifier = {
 			estate = estate_scavengers
 			desc = EST_VAL_ADVICE_FROM_LOYAL_RETIRED_SCAVENGERS
 			loyalty = 10
 			duration = 7300
 		}
-		
+
 		scaled_estate_scavengers_land_share_effect = yes
 	}
 }
@@ -709,31 +709,31 @@ country_event = {
 	title = scavengers_estate_events.10.t
 	desc = scavengers_estate_events.10.d
 	picture = COSSACK_ESTATE_eventPicture
-	
+
 	trigger = {
 
 		has_estate = estate_scavengers
 		has_estate_privilege = estate_scavengers_state_bands
-		
+
 		estate_influence = {
 			estate = estate_scavengers
 			influence = 70
 		}
-		
+
 		NOT = { has_country_modifier = too_many_scavengers }
-		
+
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	
+
+
 	option = {
 		name = scavengers_estate_events.10.a #
-		
+
 		add_country_modifier = {
 			name = too_many_scavengers
 			duration = 3650
@@ -753,7 +753,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = scavengers_estate_events.11.a
 		reapply_estate_privilege = { privilege = estate_scavengers_auction_artifacts }
@@ -814,7 +814,7 @@ country_event = {
 			has_estate_privilege = estate_scavengers_raise_payroll
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -1560,37 +1560,37 @@ province_event = {
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_dev } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_dev } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_trade } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_trade } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_defense } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_defense } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_movespeed } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_movespeed } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_ships } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_ships } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_tax } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_tax } }
 		}
 
 		modifier = {
 			factor = 0.99
-			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_prod } } 
+			owner = { any_owned_province = { has_province_modifier = estate_scavengers_province_prod } }
 		}
 	}
 

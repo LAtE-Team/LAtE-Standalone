@@ -8,19 +8,19 @@ color = { 93 98 187 }
 
 leader_names = {
 
-	"Anna" "Katrina" "Oswald" "Theodosia" "Donata" "Amelia" "Tiaogeara" "Gerrit" "Gavia" "Leo" 
-	"Carillon" "Bella" "Guyasut" "Harmanus" "Brom" "Molly" "Nicholas" "Montgomery" "Andre" "Gemolo" 
-	"Geraldine" "Doris" "Renata" "Diedrich" "Charles" "Abel" "Caroline" "Margaret" "Cangueese" "Shelley" 
-	"Ogarita" "Oliver" "Richard" "Jane" "Bethany" "Hudson" "Norton" "Hillary" "Hunter" "Cyrus" 
-	"Andries" "Anton" "August" "Artur" "Albert" "Archibald" "Baltus" "Benjamin" "Cashunyon" "Cornelis" 
-	"Clinton" "Cephas" "Chester" "Cotton" "Derrick" "Daniel" "Deserontyon" "Delby" "Darius" "David" 
-	"Ebenezer" "Ethan" "Edgar" "Ernest" "Elihu" "Edwin" "Erastus" "Ellis" "Eli" "Frederick" 
-	"Franklin" "Friso" "Geoffrey" "Gideon" "Hendrick" "Hamilton" "Holbrook" "Hugh" "Himerius" "Ichabod" 
-	"Isaac" "Johannes" "Jervis" "Josiah" "Jocelyn" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent" 
-	"Kel" "Launcelot" "Lewis" "Lemuel" "Morris" "Martin" "Malcolm" "Mather" "Nathaniel" "Otetian" 
-	"Ogden" "Pindar" "Philip" "Phinehas" "Quincy" "Quentin" "Quoz" "Roger" "Raymond" "Rip" 
-	"Rodney" "Rufus" "Rollin" "Stephanus" "Stanwix" "Samuel" "Silus" "Simon" "Solon" "Traynor" 
-	"Theodore" "Tehwehron" "Tompkin" "Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester" 
+	"Anna" "Katrina" "Oswald" "Theodosia" "Donata" "Amelia" "Tiaogeara" "Gerrit" "Gavia" "Leo"
+	"Carillon" "Bella" "Guyasut" "Harmanus" "Brom" "Molly" "Nicholas" "Montgomery" "Andre" "Gemolo"
+	"Geraldine" "Doris" "Renata" "Diedrich" "Charles" "Abel" "Caroline" "Margaret" "Cangueese" "Shelley"
+	"Ogarita" "Oliver" "Richard" "Jane" "Bethany" "Hudson" "Norton" "Hillary" "Hunter" "Cyrus"
+	"Andries" "Anton" "August" "Artur" "Albert" "Archibald" "Baltus" "Benjamin" "Cashunyon" "Cornelis"
+	"Clinton" "Cephas" "Chester" "Cotton" "Derrick" "Daniel" "Deserontyon" "Delby" "Darius" "David"
+	"Ebenezer" "Ethan" "Edgar" "Ernest" "Elihu" "Edwin" "Erastus" "Ellis" "Eli" "Frederick"
+	"Franklin" "Friso" "Geoffrey" "Gideon" "Hendrick" "Hamilton" "Holbrook" "Hugh" "Himerius" "Ichabod"
+	"Isaac" "Johannes" "Jervis" "Josiah" "Jocelyn" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent"
+	"Kel" "Launcelot" "Lewis" "Lemuel" "Morris" "Martin" "Malcolm" "Mather" "Nathaniel" "Otetian"
+	"Ogden" "Pindar" "Philip" "Phinehas" "Quincy" "Quentin" "Quoz" "Roger" "Raymond" "Rip"
+	"Rodney" "Rufus" "Rollin" "Stephanus" "Stanwix" "Samuel" "Silus" "Simon" "Solon" "Traynor"
+	"Theodore" "Tehwehron" "Tompkin" "Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester"
 	"Xander" }
 monarch_names = {
 	"Anna #0" = -1

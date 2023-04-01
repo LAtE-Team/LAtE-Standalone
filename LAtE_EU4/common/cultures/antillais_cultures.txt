@@ -2,7 +2,7 @@ antillais = {
 	haitian = {
 		primary = HAT
 		dynasty_names = { "Dessalines" "Christophe" "Soulouque" }
-		
+
 		male_names = {
 			Abner Ady Alain Alexandre Alexis Alibée Alix Amiot André Anténor Antoine Aubelin Auguste
 			Beaubrun Berny Bonivert Boukman Bourmond Buteur
@@ -47,54 +47,54 @@ antillais = {
 	}
 	venteux = {
 		dynasty_names = { "Gueret" }
-		
+
 		male_names = {
-			Achille Ahmed Alain Albert Alexandre Alfred Alix Alvin Andy Anthony Antoine Arnaud Auguste 
-			Bazaine Bedi Benjamin Benji 
-			Cédric Charlemagne Charles Charles-Édouard Charles-Martel Chris Christian Christophe Christopher Cyril Cyrille 
-			Daniel David Denys Dimitri Dominique Donovan 
-			Eddy Édouard Élie Emile Emmanuel Éric 
-			Fabien Fabrice Fauvel Ferdinand Foch Fodé Franck François François-Xavier Frantz 
-			Gaël Gaston Geoffrey Georges Gérard Gilbert Guy Guy-Albert Guy-Michel 
-			Harlem Harry Héménéglide Henri Homère 
-			Jean Jean-Luc Jean-Michel Jean-Sylvain Jérémie Jérôme Joël Joffre Jonathan José José-Karl José-Thierry Joseph Julien 
-			Kaiser Karl Kenny Keny Kevin Kévin Kilian 
-			Ladji Lafayette Latouche Laury Lénaick Léon Lévy Liam Lionel Liyannka Loic Loïc Louis Louis-Joseph Louis-Marie Luc Ludovic Lueyi 
-			Malcom Malick Manu Maréchal Marc Marce Martinique Marvin Mathias Mathieu Max Médéric Medy Michel Mickael Mike Moreau 
-			Napoleone Nathan Nicolas Nyls 
-			Olivier 
-			Picard Pierre 
-			Raphael Raphaël Raymond Rémi Remy René Richard Roger Ronald Rubben Ruddy 
-			Sacha Salvat Sébastien Serge Steeve Stéphane 
-			Tanguy Tété Thélus Thierry Titouan Tom Tristan 
-			Valentin Valérien Victor 
-			Wèchness Will Willem 
-			Xercès 
-			Yann Yannis Yaya Yoann Yohann 
-			Zac Zi-Lion 
+			Achille Ahmed Alain Albert Alexandre Alfred Alix Alvin Andy Anthony Antoine Arnaud Auguste
+			Bazaine Bedi Benjamin Benji
+			Cédric Charlemagne Charles Charles-Édouard Charles-Martel Chris Christian Christophe Christopher Cyril Cyrille
+			Daniel David Denys Dimitri Dominique Donovan
+			Eddy Édouard Élie Emile Emmanuel Éric
+			Fabien Fabrice Fauvel Ferdinand Foch Fodé Franck François François-Xavier Frantz
+			Gaël Gaston Geoffrey Georges Gérard Gilbert Guy Guy-Albert Guy-Michel
+			Harlem Harry Héménéglide Henri Homère
+			Jean Jean-Luc Jean-Michel Jean-Sylvain Jérémie Jérôme Joël Joffre Jonathan José José-Karl José-Thierry Joseph Julien
+			Kaiser Karl Kenny Keny Kevin Kévin Kilian
+			Ladji Lafayette Latouche Laury Lénaick Léon Lévy Liam Lionel Liyannka Loic Loïc Louis Louis-Joseph Louis-Marie Luc Ludovic Lueyi
+			Malcom Malick Manu Maréchal Marc Marce Martinique Marvin Mathias Mathieu Max Médéric Medy Michel Mickael Mike Moreau
+			Napoleone Nathan Nicolas Nyls
+			Olivier
+			Picard Pierre
+			Raphael Raphaël Raymond Rémi Remy René Richard Roger Ronald Rubben Ruddy
+			Sacha Salvat Sébastien Serge Steeve Stéphane
+			Tanguy Tété Thélus Thierry Titouan Tom Tristan
+			Valentin Valérien Victor
+			Wèchness Will Willem
+			Xercès
+			Yann Yannis Yaya Yoann Yohann
+			Zac Zi-Lion
 		}
 		female_names = {
-			Alexa Allison Angéline Annabelle Anne Anne-Emmanuelle Anne-Laure Anne-Sophie Audrey 
+			Alexa Allison Angéline Annabelle Anne Anne-Emmanuelle Anne-Laure Anne-Sophie Audrey
 			Belle
-			Camille Caroline Cathy Céline Céphora Charlotte Christelle Christina Christine Chrystelle Cindy Clara Clarisse Coralie 
-			Dânya Darlène Déborah 
-			Elisabeth Elodie Élodie Elsa Emeline Emma Emma-Louise Emmanuelle Evelyn 
-			Fiona Florence Françoise Frédérique 
-			Ganaelle Georgia Georgina Ghislaine Ginette Gladys Guilaine 
-			Héléna Hélène 
-			Ingrid 
-			Jade Jayne Jeanne Jennifer Jenny Jesse Jessica Jill Joséphine Joyce Julie 
-			Karène Karine Katty Kelly Kérane Ketty Kezia 
-			Laure Laurie Léa Léanna Lénora Leona Liliane Lisa Loan Loreena Lorine Louise Lucie Lucile Luisia 
-			Maeva Mahina Maïké Malika Manon Marie Marie-Berthilde Marie-Thérèse Marielle Marine Marion Mary-Loïs Mathilda Maureine Maymunah Megane Melissa Moranne Morgane Moumoune 
-			Nathalie Noémie 
-			Océane Ornella 
-			Paulette Pauline Phara Phydiane 
-			Romara 
-			Salomé Samantha Sarah Sego Séréna Shantel Sley Solène Sophie Stania Stelly Stéphanie Stessy Suzelle Sylviane 
-			Tamara Thélia Thérèse 
-			Vanessa 
-			Wendie 
+			Camille Caroline Cathy Céline Céphora Charlotte Christelle Christina Christine Chrystelle Cindy Clara Clarisse Coralie
+			Dânya Darlène Déborah
+			Elisabeth Elodie Élodie Elsa Emeline Emma Emma-Louise Emmanuelle Evelyn
+			Fiona Florence Françoise Frédérique
+			Ganaelle Georgia Georgina Ghislaine Ginette Gladys Guilaine
+			Héléna Hélène
+			Ingrid
+			Jade Jayne Jeanne Jennifer Jenny Jesse Jessica Jill Joséphine Joyce Julie
+			Karène Karine Katty Kelly Kérane Ketty Kezia
+			Laure Laurie Léa Léanna Lénora Leona Liliane Lisa Loan Loreena Lorine Louise Lucie Lucile Luisia
+			Maeva Mahina Maïké Malika Manon Marie Marie-Berthilde Marie-Thérèse Marielle Marine Marion Mary-Loïs Mathilda Maureine Maymunah Megane Melissa Moranne Morgane Moumoune
+			Nathalie Noémie
+			Océane Ornella
+			Paulette Pauline Phara Phydiane
+			Romara
+			Salomé Samantha Sarah Sego Séréna Shantel Sley Solène Sophie Stania Stelly Stéphanie Stessy Suzelle Sylviane
+			Tamara Thélia Thérèse
+			Vanessa
+			Wendie
 			Yona
 		}
 
@@ -102,12 +102,12 @@ antillais = {
 	cayennais  = {
 		primary = CAY
 		dynasty_names = { "Boulet" }
-		
+
 		male_names = {
-			Albert Alexandre Amine Antoine Aubin Bardney Bastos Bernard Bob Cece Cédric Claude Cocoto Cyrille Dominique Donovan Édouard Élie Emric Enzo Eric Félix Florent Florian François Gabriel Gary Gaston Georges Ghislain Gilles Grémillon Hadama Halan Henri Hubert Ismael Jaïr Jean Jean-Claude Jean-Philippe Joffrey José Jules Justin Kevin Kévin Kisinio Laurent Lecscinel Léon Léopold Lesly Livio Loïc Ludovic Ludrck Lyrical Marc Marc-Antoine Marvin Mathieu Mickaël Miguel Mike Neki Nel Nithilan Patrice Raoul Raymond René Rhudy Robin Rodolphe Romain Roy Sangokou Shannon Silver Sloan Stanley Steeve Stéfan Stephan Stéphane Sylvio Thomas Tom Tyers Vincent Vivien Warren Yann 
+			Albert Alexandre Amine Antoine Aubin Bardney Bastos Bernard Bob Cece Cédric Claude Cocoto Cyrille Dominique Donovan Édouard Élie Emric Enzo Eric Félix Florent Florian François Gabriel Gary Gaston Georges Ghislain Gilles Grémillon Hadama Halan Henri Hubert Ismael Jaïr Jean Jean-Claude Jean-Philippe Joffrey José Jules Justin Kevin Kévin Kisinio Laurent Lecscinel Léon Léopold Lesly Livio Loïc Ludovic Ludrck Lyrical Marc Marc-Antoine Marvin Mathieu Mickaël Miguel Mike Neki Nel Nithilan Patrice Raoul Raymond René Rhudy Robin Rodolphe Romain Roy Sangokou Shannon Silver Sloan Stanley Steeve Stéfan Stephan Stéphane Sylvio Thomas Tom Tyers Vincent Vivien Warren Yann
 		}
 		female_names = {
-			Adélaïde Adrieinne Aiifa Alexandra Alice Alizée Allison Amandine Amel Anaïs Andrea Anna Annabelle Anne-Caroline Anne-Sophie Assa Audrey Aurélie Aurore Barbara Béatrice Brigitte Camille Caroline Casey Catherine Cécile Céline Chamack Charline Charlotte Chloé Christelle Christiane Christine Cindy Claire Clarisa Claude Colette Coline Coralie Coumba Delphyne Diane Dina Dorine Edith Elodie Élodie Éloïse Emilie Émilie Enora Fabé Fanny Flora Florence Florialine Françoise Frédérique Gaëlle Gévrise Gladys Gwladys Hélène Henriette Inès Irina Isabelle Jannine Janou Jarka Jeanine Jenni Jessica Jeune Joanne Johana Joline Juliana Julie Juliette Kaolynn Karine Katia Ketty Koumiba Laetitia Laëtitia Lamar Lara Laure Lauryne Lea Léa Lédoïska Lesa Liliane Lindsay Lise Livia Loriane Lucie Lucille Ludivine Luna Lunikcie Lyvann Maelle Malaïcka Malia Malicia Margaux Margot Marie Marie-Christine Marie-Laure Marine Marion Marjorie Marlène Maureen Maya Megan Mélanie Mélie Mendi Michèle Mimi Miora Morgane Myriam Nadège Naomi Natalya Nathalie Navienca Nicole Noliwé Océane Oksana Opale Ophélie-Cyrielle Paloma Patricia Priscilla Priscilya Rita Roxana Sabrina Saffina Sarah Selima Seréna Shannon Sherlyne Sheyleeza Sheyliza Sisi Solange Solenne Sophie Steffy Stephanie Stéphanie Stephy Tamara Tamily Tari Tatiana Tiity Tité Tyers Véronique Virginie Wendy Wihame Ysa 
+			Adélaïde Adrieinne Aiifa Alexandra Alice Alizée Allison Amandine Amel Anaïs Andrea Anna Annabelle Anne-Caroline Anne-Sophie Assa Audrey Aurélie Aurore Barbara Béatrice Brigitte Camille Caroline Casey Catherine Cécile Céline Chamack Charline Charlotte Chloé Christelle Christiane Christine Cindy Claire Clarisa Claude Colette Coline Coralie Coumba Delphyne Diane Dina Dorine Edith Elodie Élodie Éloïse Emilie Émilie Enora Fabé Fanny Flora Florence Florialine Françoise Frédérique Gaëlle Gévrise Gladys Gwladys Hélène Henriette Inès Irina Isabelle Jannine Janou Jarka Jeanine Jenni Jessica Jeune Joanne Johana Joline Juliana Julie Juliette Kaolynn Karine Katia Ketty Koumiba Laetitia Laëtitia Lamar Lara Laure Lauryne Lea Léa Lédoïska Lesa Liliane Lindsay Lise Livia Loriane Lucie Lucille Ludivine Luna Lunikcie Lyvann Maelle Malaïcka Malia Malicia Margaux Margot Marie Marie-Christine Marie-Laure Marine Marion Marjorie Marlène Maureen Maya Megan Mélanie Mélie Mendi Michèle Mimi Miora Morgane Myriam Nadège Naomi Natalya Nathalie Navienca Nicole Noliwé Océane Oksana Opale Ophélie-Cyrielle Paloma Patricia Priscilla Priscilya Rita Roxana Sabrina Saffina Sarah Selima Seréna Shannon Sherlyne Sheyleeza Sheyliza Sisi Solange Solenne Sophie Steffy Stephanie Stéphanie Stephy Tamara Tamily Tari Tatiana Tiity Tité Tyers Véronique Virginie Wendy Wihame Ysa
 		}
 
 	}

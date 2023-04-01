@@ -4,7 +4,7 @@ country_event = {
 	title = "EVTNAME9450"
 	desc = "EVTDESC9450"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		papacy_active = yes
 		has_heir = no
@@ -17,16 +17,16 @@ country_event = {
 		NOT = { has_reform = ottoman_government }
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
-		
+
 		modifier = {
 			factor = 0.5
 			dip = 4
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9450"
 		define_heir = {
@@ -48,7 +48,7 @@ country_event = {
 	title = "EVTNAME9451"
 	desc = "EVTDESC9451"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		heir_claim = 90
@@ -66,11 +66,11 @@ country_event = {
 		}
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 3600
 	}
-	
+
 	option = {
 		name = "EVTOPTA9451"
 		kill_heir = {}
@@ -85,7 +85,7 @@ country_event = {
 			add_building = temple
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9451"
 		kill_heir = { allow_new_heir = no }
@@ -102,7 +102,7 @@ country_event = {
 	title = "EVTNAME9452"
 	desc = "EVTDESC9452"
 	picture = ASSASSINATION_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		heir_age = 15
@@ -117,7 +117,7 @@ country_event = {
 		NOT = { has_reform = elective_monarchy }
 		NOT = { has_reform = ottoman_government }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 200
 		modifier = {
@@ -125,7 +125,7 @@ country_event = {
 			is_at_war = yes
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9452"
 		kill_ruler = yes
@@ -134,7 +134,7 @@ country_event = {
 			duration = 1825
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9452"
 		kill_heir = {}
@@ -147,7 +147,7 @@ country_event = {
 	title = "EVTNAME9453"
 	desc = "EVTDESC9453"
 	picture = COURT_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		has_wartaxes = yes
@@ -166,17 +166,17 @@ country_event = {
 		heir_age = 4
 		NOT = { has_reform = elective_monarchy }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 	}
-	
+
 	option = {
 		name = "EVTOPTA9453"
 		add_treasury = -40
 		add_war_exhaustion = -2
 	}
-	
+
 	option = {
 		name = "EVTOPTB9453"
 		add_manpower = 1
@@ -189,7 +189,7 @@ country_event = {
 	title = "EVTNAME9454"
 	desc = "EVTDESC9454"
 	picture = COURT_eventPicture
-	
+
 	trigger = {
 		government = monarchy
 		NOT = { has_reform = ottoman_government }
@@ -214,11 +214,11 @@ country_event = {
 			ai = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_known_country = {
@@ -234,7 +234,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9454"
 		define_heir = {
@@ -276,7 +276,7 @@ country_event = {
 	title = "EVTNAME9455"
 	desc = "EVTDESC9455"
 	picture = COURT_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		is_lesser_in_union = no
@@ -286,11 +286,11 @@ country_event = {
 		NOT = { has_reform = mamluk_government }
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 	}
-	
+
 	immediate = {
 		check_if_non_state_advisor_effect = { #Hidden scripted effect, is used by scripted effect and must always be cleared in after = { } using erase_advisor_flags_effect.
 			chance_of_primary = 85 #Not percentages!
@@ -304,9 +304,9 @@ country_event = {
 				33 = { set_country_flag = diplomat_flag }
 			}
 		}
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTA9455"
 		trigger = {
@@ -377,7 +377,7 @@ country_event = {
 	title = "EVTNAME9456"
 	desc = "EVTDESC9456"
 	picture = PLAGUE_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		government = monarchy
@@ -385,7 +385,7 @@ country_event = {
 		is_lesser_in_union = no
 		NOT = { has_reform = elective_monarchy }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2400
 	}
@@ -400,7 +400,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9456"
 		random_list = {
@@ -419,7 +419,7 @@ country_event = {
 	title = "EVTNAME9457"
 	desc = "EVTDESC9457"
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		is_lesser_in_union = no
@@ -431,7 +431,7 @@ country_event = {
 		NOT = { has_reform = elective_monarchy }
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1500
 		modifier = {
@@ -439,7 +439,7 @@ country_event = {
 			is_defender_of_faith = yes
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9457"
 		define_heir = {
@@ -469,7 +469,7 @@ country_event = {
 	title = "EVTNAME9458"
 	desc = "EVTDESC9458"
 	picture = TOURNAMENT_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		heir_age = 15
@@ -486,7 +486,7 @@ country_event = {
 		army_tradition =  20
 		technology_group = western
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2400
 		modifier = {
@@ -494,7 +494,7 @@ country_event = {
 			army_tradition = 40
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9458"
 		random_list = {
@@ -503,12 +503,12 @@ country_event = {
 			5 = { kill_heir = {}}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9458"
 		add_adm_power = 20
 	}
-	
+
 	option = {
 		name = "EVTOPTC9458"
 		add_prestige = 5
@@ -522,7 +522,7 @@ country_event = {
 	title = "EVTNAME9459"
 	desc = "EVTDESC9459"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = yes
 		heir_age = 15
@@ -551,7 +551,7 @@ country_event = {
 	title = "EVTNAME9460"
 	desc = "EVTDESC9460"
 	picture = COURT_eventPicture
-	
+
 	trigger = {
 		capital_scope = { continent = europe }
 		religion_group = christian
@@ -562,16 +562,16 @@ country_event = {
 		NOT = { has_reform = mamluk_government }
 		NOT = { has_reform = elective_monarchy }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
-		
+
 	}
 	option = {
 		name = "EVTOPTA9460"
 		add_prestige = -20
 	}
-	
+
 	option = {
 		name = "EVTOPTB9460"
 		add_heir_claim = -10
@@ -584,7 +584,7 @@ country_event = {
 	title = "EVTNAME9462"
 	desc = "EVTDESC9462"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	trigger = {
 		always = no
 		government = monarchy
@@ -598,11 +598,11 @@ country_event = {
 		adm_power = 200
 		has_factions = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
-	
+
 	option = {
 		name = "EVTOPTA9462"
 		ai_chance = { factor = 100 }
@@ -624,7 +624,7 @@ country_event = {
 	title = "EVTNAME9463"
 	desc = "EVTDESC9463"
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	trigger = {
 		stability = 3
 		treasury = 100
@@ -639,11 +639,11 @@ country_event = {
 			NOT = { junior_union_with = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 18
 	}
-	
+
 	option = {
 		name = "EVTOPTA9463"
 		random_country = {
@@ -663,7 +663,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB9463"
 		random_country = {
-			limit = { 
+			limit = {
 				dynasty = ROOT
 				government = monarchy
 				NOT = { stability = -2 }
@@ -682,7 +682,7 @@ country_event = {
 	title = "EVTNAME9468"
 	desc = "EVTDESC9468"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		NOT = { stability = -1 }
 		is_lesser_in_union = no
@@ -695,11 +695,11 @@ country_event = {
 		has_consort_regency = no
 		has_heir = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 700
 	}
-	
+
 	option = {
 		name = "EVTOPTA9468"
 		kill_heir = { allow_new_heir = no }
@@ -726,7 +726,7 @@ country_event = {
 	title = "EVTNAME9469"
 	desc = "EVTDESC9469"
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		government = monarchy
 		NOT = { has_reform = ottoman_government }
@@ -741,11 +741,11 @@ country_event = {
 		}
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 5000
 	}
-	
+
 	option = {
 		name = "EVTOPTA9469"
 		trigger = {
@@ -906,7 +906,7 @@ country_event = {
 			mil = 6
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9469"
 		trigger = {
@@ -1095,7 +1095,7 @@ country_event = {
 	title = "EVTNAME9470"
 	desc = "EVTDESC9470"
 	picture = DIPLOMACY_eventPicture
-	
+
 	trigger = {
 		religion_group = christian
 		government = monarchy
@@ -1121,7 +1121,7 @@ country_event = {
 			is_lesser_in_union = no
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_country = {
@@ -1138,7 +1138,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1500
 		modifier = {
@@ -1146,7 +1146,7 @@ country_event = {
 			num_of_royal_marriages = 6
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9470"
 		trigger = {
@@ -1189,9 +1189,9 @@ country_event = {
 	title = "EVTNAME9476"
 	desc = "EVTDESC9476"
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA9476"
 		add_treasury = 100
@@ -1212,8 +1212,8 @@ country_event = {
 				10 = {
 					add_stability = 2
 				}
-				
-				10 = { 
+
+				10 = {
 					add_stability = 3
 				}
 			}
@@ -1227,9 +1227,9 @@ country_event = {
 	title = "EVTNAME9477"
 	desc = "EVTDESC9477"
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA9477"
 		random_list = {
@@ -1252,7 +1252,7 @@ province_event = {
 	title = "EVTNAME9481"
 	desc = "EVTDESC9481"
 	picture = ASSASSINATION_eventPicture
-	
+
 	trigger = {
 		papacy_active = yes
 		is_capital = yes
@@ -1268,7 +1268,7 @@ province_event = {
 			NOT = { heir_age = 3 }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 4000
 		modifier = {
@@ -1276,7 +1276,7 @@ province_event = {
 			owner = { ruler_has_personality = malevolent_personality }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9481"
 		owner = {
@@ -1284,7 +1284,7 @@ province_event = {
 			set_country_flag = murdering_bastard
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9481"
 		owner = {
@@ -1300,24 +1300,24 @@ country_event = {
 	title = "EVTNAME9482"
 	desc = "EVTDESC9482"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		has_country_flag = murdering_bastard
 		NOT = { has_country_flag = contained_insanity }
 		has_regency = no
 		is_lesser_in_union = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA9482"
 		kill_ruler = yes
 		clr_country_flag = murdering_bastard
 	}
-	
+
 	option = {
 		name = "EVTOPTB9482"
 		add_prestige = -5
@@ -1338,18 +1338,18 @@ country_event = {
 		has_regency = no
 		is_lesser_in_union = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = "EVTOPTA9483"
 		add_stability = -3
 		add_prestige = -20
 		clr_country_flag = contained_insanity
 	}
-	
+
 	option = {
 		name = "EVTOPTB9483"
 		kill_ruler = yes
@@ -1367,16 +1367,16 @@ country_event = {
 	title = "EVTNAME9492"
 	desc = "EVTDESC9492"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		OR = {
 			has_country_flag = contained_insanity
 			has_country_flag = murdering_bastard
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA9492"
 		add_country_modifier = {
@@ -1394,7 +1394,7 @@ country_event = {
 	title = "EVTNAME9484"
 	desc = "EVTDESC9484"
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	trigger = {
 		prestige = 30
 		government = monarchy
@@ -1422,11 +1422,11 @@ country_event = {
 			NOT = { marriage_with = root }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 	option = {
 		name = "EVTOPTA9484"   #Time to settle down
 		random_country = {
@@ -1440,9 +1440,9 @@ country_event = {
 			}
 			create_marriage = ROOT
 		}
-		
+
 	}
-	
+
 	option = {
 		name = "EVTOPTB9484"  #No
 		add_prestige = 5
@@ -1459,7 +1459,7 @@ country_event = {
 	title = "EVTNAME9485"
 	desc = "EVTDESC9485"
 	picture = DIPLOMACY_eventPicture
-	
+
 	trigger = {
 		any_known_country = {
 			has_country_modifier = sought_after_bachelor
@@ -1471,11 +1471,11 @@ country_event = {
 		government = monarchy
 		is_lesser_in_union = no
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 	}
-	
+
 	option = {
 		name = "EVTOPTA9485"
 		random_country = {
@@ -1492,7 +1492,7 @@ country_event = {
 		add_treasury = -15
 		add_dip_power = -10
 	}
-	
+
 	option = {
 		name = "EVTOPTB9485"
 		add_treasury = 10
@@ -1506,9 +1506,9 @@ country_event = {
 	title = "EVTNAME9486"
 	desc = "EVTDESC9486"
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA9486"
 		if = {
@@ -1525,7 +1525,7 @@ country_event = {
 		add_opinion = { who = FROM modifier = opinion_marriage_offer }
 		remove_country_modifier = sought_after_bachelor
 	}
-	
+
 	option = {
 		name = "EVTOPTB9486"
 		reverse_add_opinion = { who = FROM modifier = opinion_witchcraft }
@@ -1538,9 +1538,9 @@ country_event = {
 	title = "EVTNAME9487"
 	desc = "EVTDESC9487"
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA9487"
 		if = {
@@ -1557,7 +1557,7 @@ country_event = {
 		add_opinion = { who = FROM modifier = opinion_united_dynasties }
 		remove_country_modifier = sought_after_bachelor
 	}
-	
+
 	option = {
 		name = "EVTOPTB9487"
 		reverse_add_opinion = { who = FROM modifier = opinion_refused_marriage }
@@ -1570,7 +1570,7 @@ country_event = {
 	title = "EVTNAME9488"
 	desc = "EVTDESC9488"
 	picture = MILITARY_CAMP_eventPicture
-	
+
 	trigger = {
 		government = monarchy
 		NOT = { has_reform = elective_monarchy }
@@ -1584,18 +1584,18 @@ country_event = {
 		is_lesser_in_union = no
 		war_exhaustion = 12
 	}
-	
+
 	mean_time_to_happen = {
 		months = 300
 	}
-	
+
 	option = {
 		name = "EVTOPTA9488"
 		kill_ruler = yes
 		add_war_exhaustion = -4
 		add_stability_or_adm_power = yes
 	}
-	
+
 	option = {
 		name = "EVTOPTB9488"
 		kill_heir = {}
@@ -1609,21 +1609,21 @@ country_event = {
 	title = "EVTNAME9489"
 	desc = "EVTDESC9489"
 	picture = IMPORTANT_STATUE_eventPicture
-	
+
 	trigger = {
 		war_exhaustion = 4
 		adm = 3
 	}
-	
+
 	mean_time_to_happen = {
 		months = 800
 	}
-	
+
 	option = {
 		name = "EVTOPTA9489"
 		add_prestige = 5
 	}
-	
+
 	option = {
 		name = "EVTOPTB9489"
 		add_mil_power = 25
@@ -1636,7 +1636,7 @@ country_event = {
 	title = "EVTNAME9490"
 	desc = "EVTDESC9490"
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		is_lesser_in_union = no
 		government = monarchy
@@ -1658,18 +1658,18 @@ country_event = {
 			has_country_modifier = a_woman_scorned
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1400
 	}
-	
+
 	option = {
 		name = "EVTOPTA9490"
 		define_heir = {
 			dynasty = ROOT
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTB9490"
 		add_years_of_income = 0.5
@@ -1690,7 +1690,7 @@ country_event = {
 	title = dynastic_events.1.t
 	desc = dynastic_events.1.d
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		ruler_age = 40
@@ -1702,10 +1702,10 @@ country_event = {
 		is_lesser_in_union = no
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10000
-		
+
 		modifier = {
 			factor = 0.5
 			ruler_age = 50
@@ -1727,7 +1727,7 @@ country_event = {
 			ruler_age = 90
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.1.a
 		define_heir = {
@@ -1740,7 +1740,7 @@ country_event = {
 			mil = 3
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.1.b
 		define_heir = {
@@ -1784,7 +1784,7 @@ country_event = {
 	title = dynastic_events.2.t
 	desc = dynastic_events.2.d
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		ruler_age = 20
@@ -1800,11 +1800,11 @@ country_event = {
 		}
 		has_government_attribute = heir
 	}
-	
+
 	mean_time_to_happen = {
 		months = 600
 	}
-	
+
 	option = {
 		name = dynastic_events.2.a
 		add_horde_unity = 10
@@ -1827,7 +1827,7 @@ country_event = {
 			claim = 50
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.2.b
 		add_country_modifier = {
@@ -1843,7 +1843,7 @@ country_event = {
 	title = dynastic_events.3.t
 	desc = dynastic_events.3.d
 	picture = NEW_HEIR_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		ruler_age = 40
@@ -1857,19 +1857,19 @@ country_event = {
 		is_lesser_in_union = no
 		NOT = { has_ruler_flag = talented_daughter_happened }
 	}
-	
+
 	immediate = {
 		set_ruler_flag = talented_daughter_happened
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
-		
+
 		modifier = {
 			factor = 0.9
 			ruler_age = 50
 		}
-		
+
 		modifier = {
 			factor = 0.9
 			ruler_age = 60
@@ -1887,7 +1887,7 @@ country_event = {
 			ruler_age = 90
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.3.a
 		add_horde_unity = -10
@@ -1915,7 +1915,7 @@ country_event = {
 			no_consort_with_heir = yes
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.3.b
 		random_owned_province = {
@@ -1936,9 +1936,9 @@ country_event = {
 	title = dynastic_events.4.t
 	desc = dynastic_events.4.d
 	picture = NEW_HEIR_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_heir = no
 		num_of_cities = 2
@@ -1970,11 +1970,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_known_country = {
@@ -1998,7 +1998,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.4.a
 		if = {
@@ -2038,7 +2038,7 @@ country_event = {
 			clr_country_flag = dyn_woman_pretender_flag
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.4.b
 		random_known_country = {
@@ -2082,7 +2082,7 @@ country_event = {
 	title = dynastic_events.5.t
 	desc = dynastic_events.5.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	trigger = {
 		has_heir = no
 		government = monarchy
@@ -2141,11 +2141,11 @@ country_event = {
 			is_free_or_tributary_trigger = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 	immediate = {
 		random_neighbor_country = {
 			limit = {
@@ -2198,7 +2198,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.5.a
 		event_target:nameless_neighbor_no_more = {
@@ -2208,7 +2208,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.5.b
 		add_legitimacy = 10
@@ -2221,9 +2221,9 @@ country_event = {
 	title = dynastic_events.6.t
 	desc = dynastic_events.6.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = dynastic_events.6.a
 		add_prestige = 20
@@ -2245,7 +2245,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = dynastic_events.6.b
 		FROM = {
@@ -2280,9 +2280,9 @@ country_event = {
 	title = dynastic_events.7.t
 	desc = dynastic_events.7.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = dynastic_events.7.a
 		trigger = {
@@ -2295,9 +2295,9 @@ country_event = {
 			culture = FROM
 			religion = FROM
 		}
-		create_union = FROM		
+		create_union = FROM
 	}
-	
+
 	option = {
 		name = dynastic_events.7.b
 		trigger = {
@@ -2315,7 +2315,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	after = {
 		hidden_effect = {
 			clr_country_flag = dyn_pu_accepted_flag
@@ -2330,14 +2330,14 @@ country_event = {
 	title = dynastic_events.8.t
 	desc = dynastic_events.8.d
 	picture = COURT_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_states_general_mechanic = no
 		has_government_attribute = heir
 	}
-	
+
 	option = {
 		name = dynastic_events.8.a
 		trigger = {

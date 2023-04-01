@@ -8,20 +8,20 @@ color = { 75 122 147 }
 
 leader_names = {
 
-	"Catharine" "Sara" "Charlotte" "Magdelaine" "Tom" "Yvonne" "Sandra" "Nancy" "Pascal" "Chantell" 
-	"Cuthbert" "Solomon" "Pearl" "Roseanne" "Norma" "Colleen" "John" "Honoré" "Suzanne" "Joanne" 
-	"Charles-Michel" "Gallant" "Thomas" "Ian" "Doyle" "Alec" "Wade" "Antonine" "Julie" "Dydim" 
-	"Therese" "James" "Kalib" "Thelma" "Michel" "Marie-Thérèse" "Joe" "Arron" "Paul" "Jean" 
-	"William" "Louis" "Evelyn" "Laurette" "Tanto" "Hélène" "Marguerite" "Kinnie" "Maria" "Andrea" 
-	"Frechette" "Rose-Marie" "Keith" "Derrick" "Ralph" "Josette" "Andrew" "Gil" "Marilyn" "Tony" 
-	"Denis" "Tête" "Rod" "Laura" "Mary" "Laird" "Ray" "Jules" "Christine" "Christi" 
-	"Harley" "Jani" "Bryan" "Audrey" "Elizabeth" "Isabelle" "Chanta" "Kevin" "Katherena" "Gerald" 
-	"Tamal" "Belva" "Lynne" "Moyle" "Nash" "Lewisand" "Alluviel" "Zenas" "Albert" "Alexander" 
-	"Ambroise-Dydime" "Ambrose" "Andy" "Angus" "Antoine" "Arthur" "Asham" "August" "Augustin" "Axel" 
-	"Baptiste" "Bob" "Brian" "Calvin" "Charles" "Clément" "Cyril" "David" "Don" "Douglas" 
-	"Dwight" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gregory" "Guillaume" "Henri" 
-	"Howard" "Jacco" "Jaco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Jon" "Jonathan" "Laurent-Salomon" 
-	"Lawrence" "Malcolm" "Maxime" "Peter" "Pierre" "Ranald" "Raymond" "Rene" "René" "Rick" 
+	"Catharine" "Sara" "Charlotte" "Magdelaine" "Tom" "Yvonne" "Sandra" "Nancy" "Pascal" "Chantell"
+	"Cuthbert" "Solomon" "Pearl" "Roseanne" "Norma" "Colleen" "John" "Honoré" "Suzanne" "Joanne"
+	"Charles-Michel" "Gallant" "Thomas" "Ian" "Doyle" "Alec" "Wade" "Antonine" "Julie" "Dydim"
+	"Therese" "James" "Kalib" "Thelma" "Michel" "Marie-Thérèse" "Joe" "Arron" "Paul" "Jean"
+	"William" "Louis" "Evelyn" "Laurette" "Tanto" "Hélène" "Marguerite" "Kinnie" "Maria" "Andrea"
+	"Frechette" "Rose-Marie" "Keith" "Derrick" "Ralph" "Josette" "Andrew" "Gil" "Marilyn" "Tony"
+	"Denis" "Tête" "Rod" "Laura" "Mary" "Laird" "Ray" "Jules" "Christine" "Christi"
+	"Harley" "Jani" "Bryan" "Audrey" "Elizabeth" "Isabelle" "Chanta" "Kevin" "Katherena" "Gerald"
+	"Tamal" "Belva" "Lynne" "Moyle" "Nash" "Lewisand" "Alluviel" "Zenas" "Albert" "Alexander"
+	"Ambroise-Dydime" "Ambrose" "Andy" "Angus" "Antoine" "Arthur" "Asham" "August" "Augustin" "Axel"
+	"Baptiste" "Bob" "Brian" "Calvin" "Charles" "Clément" "Cyril" "David" "Don" "Douglas"
+	"Dwight" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gregory" "Guillaume" "Henri"
+	"Howard" "Jacco" "Jaco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Jon" "Jonathan" "Laurent-Salomon"
+	"Lawrence" "Malcolm" "Maxime" "Peter" "Pierre" "Ranald" "Raymond" "Rene" "René" "Rick"
 	"Robert" "Salomon" "Shan" "Sheldon" "Theoren" "Todd" "Vic" "Wayne" "Xavier" "Yvon" }
 monarch_names = {
 	"Catharine #0" = -1

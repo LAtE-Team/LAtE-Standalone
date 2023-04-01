@@ -8,19 +8,19 @@ color = { 199 193 23 }
 
 leader_names = {
 
-	"Nestor" "Aarón" "Abel" "Adrian" "Adrián" "Agapito" "Agaton" "Aguilera" "Aimar" "Akier" 
-	"Alba" "Alcides" "Alejandro" "Alexander" "Alverez" "Andolin" "Andoni" "Andrés" "Androción" "Androniko" 
-	"Angelo" "Antíoco" "Apeles" "Aquiles" "Aristides" "Aristio" "Aristipo" "Aristóteles" "Atenágoras" "Balan" 
-	"Bazkoare" "Bernardo" "Camilo" "Carlos" "Clímaco" "Concepcion" "Corpuz" "Cristian" "Cristián" "Cristofer" 
-	"Danel" "Éder" "Efrain" "Emiliano" "Epifanio" "Ernio" "Errando" "Errolan" "Erroman" "Fabián" 
-	"Felipe" "Feo" "Florentino" "Francisco" "Gabriel" "Gaio" "Gaitan" "Gaston" "Gilberto" "Giron" 
-	"Guadalupe" "Gustavo" "Helibelton" "Heliodoro" "Héracles" "Hernan" "Herodoto" "Hidalgo" "Holguin" "Honor" 
-	"Hugo" "Idomeneo" "Isidoro" "Ismael" "Jeison" "Jerrald" "Jose" "Josue" "Juan" "Kiritz" 
-	"Lantz" "Leano" "Leontzio" "Luis" "Luken" "Macario" "Magallanez" "Manuel" "Matro" "Menelao" 
-	"Metelo" "Montealegre" "Montrel" "Nepote" "Neso" "Nicátor" "Nizias" "Pablo" "Paléfato" "Pancho" 
-	"Pedro" "Peralta" "Pirro" "Plutarco" "Plutón" "Polen" "Polentzi" "Porfiro" "Pupieno" "Radamel" 
-	"Rafael" "Ramone" "Regal" "Remedios" "Renteria" "Rubiano" "Sabas" "Sabino" "Santiago" "Sejano" 
-	"Seleuco" "Simon" "Sócrates" "Stefan" "Talamantez" "Temístocles" "Teófilo" "Txare" "Urtats" "Uztaritz" 
+	"Nestor" "Aarón" "Abel" "Adrian" "Adrián" "Agapito" "Agaton" "Aguilera" "Aimar" "Akier"
+	"Alba" "Alcides" "Alejandro" "Alexander" "Alverez" "Andolin" "Andoni" "Andrés" "Androción" "Androniko"
+	"Angelo" "Antíoco" "Apeles" "Aquiles" "Aristides" "Aristio" "Aristipo" "Aristóteles" "Atenágoras" "Balan"
+	"Bazkoare" "Bernardo" "Camilo" "Carlos" "Clímaco" "Concepcion" "Corpuz" "Cristian" "Cristián" "Cristofer"
+	"Danel" "Éder" "Efrain" "Emiliano" "Epifanio" "Ernio" "Errando" "Errolan" "Erroman" "Fabián"
+	"Felipe" "Feo" "Florentino" "Francisco" "Gabriel" "Gaio" "Gaitan" "Gaston" "Gilberto" "Giron"
+	"Guadalupe" "Gustavo" "Helibelton" "Heliodoro" "Héracles" "Hernan" "Herodoto" "Hidalgo" "Holguin" "Honor"
+	"Hugo" "Idomeneo" "Isidoro" "Ismael" "Jeison" "Jerrald" "Jose" "Josue" "Juan" "Kiritz"
+	"Lantz" "Leano" "Leontzio" "Luis" "Luken" "Macario" "Magallanez" "Manuel" "Matro" "Menelao"
+	"Metelo" "Montealegre" "Montrel" "Nepote" "Neso" "Nicátor" "Nizias" "Pablo" "Paléfato" "Pancho"
+	"Pedro" "Peralta" "Pirro" "Plutarco" "Plutón" "Polen" "Polentzi" "Porfiro" "Pupieno" "Radamel"
+	"Rafael" "Ramone" "Regal" "Remedios" "Renteria" "Rubiano" "Sabas" "Sabino" "Santiago" "Sejano"
+	"Seleuco" "Simon" "Sócrates" "Stefan" "Talamantez" "Temístocles" "Teófilo" "Txare" "Urtats" "Uztaritz"
 	"Víctor" "Victorino" "Vita" "Vitor" "Wílmar" "Zina" }
 monarch_names = {
 	"Nestor #1" = 21

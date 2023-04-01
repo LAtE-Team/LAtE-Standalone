@@ -48,7 +48,7 @@ monarch_names = {
 	"Teófilo #0" = 0
 	"Urbano #0" = 0
 	"Víctor #0" = 0
-	
+
 	"Cristina #0" = -1
 	"Felicia #0" = -1
 	"Isidora #0" = -1
@@ -70,10 +70,10 @@ ship_names = {
 	Chacubuco
 	Esmeralda
 	Huascar
-	Latorre 
+	Latorre
 	Orella
 	Riquelme
 	Serrano
 	Valparaiso "Virgilio Uribe"
 }
-	
+

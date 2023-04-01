@@ -3,13 +3,13 @@ malay = {
 	singaporean = {
 		primary = SGP
 		dynasty_names = { "Ma" "Sipanggang" "Dingxiang" }
-		
+
 		male_names = {
-			Aaron Aasima Aatifa Abdul Abdullah Adhraaa Adiputri Adnan Adrian Afaaf Agu Ah-Mee Ahmad Aishah Aisyah Albert Alex Aloysius Amal Ameerul Amos Andre Andrew Aneesa Antony Awaatif Ayden Azura Bak-Chye Benedict Benjamin Bo-Seng Boon-Hui Boon-Keng Boon-Wan Bunga Cahaya Cai-Chengjun Carlson Cempaka Chahaya Chalise Chee-Hean Chee-Keong Cheng-Bock Cheong-Ming Chin-Chye Cho-Yaw Chok-Tong Chong-Tee Choon-Seng Chun-Leong Chun-Sing Cik Cy Damien Daniel Dara Daren Darren Darryl David Davinder Dean Declan Delima Desmond Devan Dewi Dian Don Douglas Dray Eng-Hen Erfi Eric Esah Fandi Faraah Franklin George Gerald Gerard Ghaada Ghazaala Gordon Gurmit Hadeel Hairie Halim Han-Qin Hanaaa Hanoona Hans Haryati Hawraa Hayati Herman Hijau Hock-Kim Hock-Siew Hoi-Kim Horng-Siong How-Doong Howe-Liang Hsien-Loong Hsien-Yang Ian Indah Ishak Ivan Izzati Jase Jason Jasra Jay Jaya Jee-Say Jeffrey Jenab Jeremy Jiaming Jie Jithu Jonathan Joseph Joshua Julien Jun Jun-Jie Junlong Justin Juwita Kah-Kee Kameela Kan-Seng Kartika Kartini Kc Keith Kelvin Kembang Kemboja Ken-Lim Keng-Swee Keng-Yam Keng-Yong Kenneth Kenny Kevin Khaleela Kiah-Hong Kim-Heng Kim-Lai Kim-San Kim-Wee Kin-Lian Kirito Kong Kong-Chian Koseki Kris Kuan-Yew Kuning Kuntum Lark-Sye Latipah Lavinya Lawrence Lee Leng-Beng Leon Lex Ling-Fung Lionel Lou Louis Lubna Maariya Madeeha Mahsuri Mahura Maimoona Maleeha Manaahil Manjalara Manull Marcus Mariah Mariam Mark Marshall Mas Masayu Matt Matthew Mawar Maya Mayang Melati Mike Mumtaaza Murni Muzzammil Naadiya Naaifa Nadeera Najaat Najma Najwa Nakheel Naqiyya Nicholas Nikkori Nilam Nishant Oscar Peng-Boon Peng-Siong Peng-Soon Peter Phil Philip Phung-Kim Ping-Tjin Puteri Putih Qamraaa Rafeeqa Raheema Raja Rajesh Rasheeda Ravyu Richard Rodney Rohan Ronald Russell Ruwan Ryan Saadong Sabeeka Sabiyya Sabriyya Safwa Sagnwook Sahheeda Sameera Samuel Saul See-Tong Sellapan Seng-Song Seng-Wee Ser-Cher Ser-Miang Seri Shaahira Shafee'a Shahaama Shakoora Shamsul Shane Shunmugam Siddeeqa Siew-Choh Silver Simon Sinnathamby Soon-Hong Soon-Yong Sri Steve Steven Subhas Sui-Sen Sumaita Sumbula Suppiah Suria Suriawati Surintan Swee-Keat Swie-Hian Syamim Sylvester Tamanna Tan-Huang Tasneem Tat-Chuan Taufik Tawfeeqa Tawheeda Teck-Puat Teng-Cheong Teng-Fong Teratai Thaabita Thia-Khiang Thye-Poh Timothy Tock-Seng Tony Tze-Law Ulyaa Umaima Ungu Vijaya Vincent Vishva Vivian Waajida Wadee'a Waleeda Walter Wangi Wei Wei-Jie Wei-Lian Winston Xiaoyu Yaasmeen Yati Yeck-Joo Yeow-Soon Yew-Hock Yi-Jung Yip-Yan Yong-Boon Yusof Zaahira Zack Zaitoona Zeena Zuhra 
+			Aaron Aasima Aatifa Abdul Abdullah Adhraaa Adiputri Adnan Adrian Afaaf Agu Ah-Mee Ahmad Aishah Aisyah Albert Alex Aloysius Amal Ameerul Amos Andre Andrew Aneesa Antony Awaatif Ayden Azura Bak-Chye Benedict Benjamin Bo-Seng Boon-Hui Boon-Keng Boon-Wan Bunga Cahaya Cai-Chengjun Carlson Cempaka Chahaya Chalise Chee-Hean Chee-Keong Cheng-Bock Cheong-Ming Chin-Chye Cho-Yaw Chok-Tong Chong-Tee Choon-Seng Chun-Leong Chun-Sing Cik Cy Damien Daniel Dara Daren Darren Darryl David Davinder Dean Declan Delima Desmond Devan Dewi Dian Don Douglas Dray Eng-Hen Erfi Eric Esah Fandi Faraah Franklin George Gerald Gerard Ghaada Ghazaala Gordon Gurmit Hadeel Hairie Halim Han-Qin Hanaaa Hanoona Hans Haryati Hawraa Hayati Herman Hijau Hock-Kim Hock-Siew Hoi-Kim Horng-Siong How-Doong Howe-Liang Hsien-Loong Hsien-Yang Ian Indah Ishak Ivan Izzati Jase Jason Jasra Jay Jaya Jee-Say Jeffrey Jenab Jeremy Jiaming Jie Jithu Jonathan Joseph Joshua Julien Jun Jun-Jie Junlong Justin Juwita Kah-Kee Kameela Kan-Seng Kartika Kartini Kc Keith Kelvin Kembang Kemboja Ken-Lim Keng-Swee Keng-Yam Keng-Yong Kenneth Kenny Kevin Khaleela Kiah-Hong Kim-Heng Kim-Lai Kim-San Kim-Wee Kin-Lian Kirito Kong Kong-Chian Koseki Kris Kuan-Yew Kuning Kuntum Lark-Sye Latipah Lavinya Lawrence Lee Leng-Beng Leon Lex Ling-Fung Lionel Lou Louis Lubna Maariya Madeeha Mahsuri Mahura Maimoona Maleeha Manaahil Manjalara Manull Marcus Mariah Mariam Mark Marshall Mas Masayu Matt Matthew Mawar Maya Mayang Melati Mike Mumtaaza Murni Muzzammil Naadiya Naaifa Nadeera Najaat Najma Najwa Nakheel Naqiyya Nicholas Nikkori Nilam Nishant Oscar Peng-Boon Peng-Siong Peng-Soon Peter Phil Philip Phung-Kim Ping-Tjin Puteri Putih Qamraaa Rafeeqa Raheema Raja Rajesh Rasheeda Ravyu Richard Rodney Rohan Ronald Russell Ruwan Ryan Saadong Sabeeka Sabiyya Sabriyya Safwa Sagnwook Sahheeda Sameera Samuel Saul See-Tong Sellapan Seng-Song Seng-Wee Ser-Cher Ser-Miang Seri Shaahira Shafee'a Shahaama Shakoora Shamsul Shane Shunmugam Siddeeqa Siew-Choh Silver Simon Sinnathamby Soon-Hong Soon-Yong Sri Steve Steven Subhas Sui-Sen Sumaita Sumbula Suppiah Suria Suriawati Surintan Swee-Keat Swie-Hian Syamim Sylvester Tamanna Tan-Huang Tasneem Tat-Chuan Taufik Tawfeeqa Tawheeda Teck-Puat Teng-Cheong Teng-Fong Teratai Thaabita Thia-Khiang Thye-Poh Timothy Tock-Seng Tony Tze-Law Ulyaa Umaima Ungu Vijaya Vincent Vishva Vivian Waajida Wadee'a Waleeda Walter Wangi Wei Wei-Jie Wei-Lian Winston Xiaoyu Yaasmeen Yati Yeck-Joo Yeow-Soon Yew-Hock Yi-Jung Yip-Yan Yong-Boon Yusof Zaahira Zack Zaitoona Zeena Zuhra
 		}
-		
+
 		female_names = {
-			Aaisha Aamina Aatika Adhraaa Adi Adiputeri Adiputri Adlina Afiqah Afraah Agnes Ain Aishah Alexis Alicia Alvira Amanda Amaya Ameera Amelia Amniyya Angeline Annabel Aseela Ashley Barbara Beth Biru Bulat Cahaya Catherine Cathy Cempaka Chahaya Charmaine Cherilyn Chermaine Cheryl Chin-Siow Ching Chloe Christie Christina Christine Cik Claire Claudia Corrinne Dayang Denise Dorothy Dwy Ee-Tze Elaine Ellyza Embun Emma Esther Eunice Faith Fang Fareeda Farhat Fatin Fawqiyya Fawzaana Felicia Feuer Fikra Fiona Foon-Ling Gayathri Gemmie Geok-Choo Ghuzaila Gina Grace Haajara Haala Haaniya Hafizah Haibaa Haifaaa Hapsah Haryati Hazlina Heng-Chee Hilmiyya Himma Huei-Min Hujja Idranee Intan Izzati Jamie Jane Jannat Jasmine Jeanette Jenab Jiawei Jing Joelle Joey Jolene Judy Jumaana Jun Junhong Juwita Kaatima Kartika Kartini Katijah Keerthi Kelly Kembang Kemuning Ker-Wey Khaira Khairiya Khatijah Kimberly Kit-Chan Kulthum Kuning Laaiqa Latipah Lauren Leah Leanna Lee Leong Li Lim Lina Linda Lulu Ma Maazina Madeeha Mahura Maia Manaahil Manaara Manjalara Mardiyya Mariah Mariam Mas Masayu Mastoora Mavis Mawar Mawhiba May Maya Mayang Mazeeda Meifeng Melati Melur Meriam Michelle Min Min-Lee Mindy Miska Mitchie Miyuki Molly Mubeena Mujaahida Muna Murni Mushtaaqa Mutee'a Naaifa Nabilah Nadeera Najaat Naseeba Nasuha Natalie Nawar Nicole Ning Nur Nurul Olivia Ou-Xuan Pavani Pei-Ling Pertiwi Poh-Imm Puspa Puspawangi Puteh Raadiya Raaniya Rachel Raihaana Rebecca Regina Rena Rihaab Rin Rui-En Sa'adong Saadong Sabaaha Sadeeda Sadeeqa Safiyya Sai-Por Samraa Sanaaa Sarah Seiriene Sepiah Shaakira Shabeeba Shadhaa Shafaaa Shafee'a Shasha Sherilyn Sheryl Shu-Ying Siddeeqa Sri Stefanie Suchen Sumiko Suria Suriawati Syiqah Sylvia Tameema Tan Tanya Tayyiba Teratai Thaamira Tijah Turfa Umaima Valerie Vanessa Vicky Waajida Wan-Er Waneesa Wong Woon-Fong Yaasmeen Yanmei Yanzi Yi-Ling Yip Yujia Yvonne Zamrud Zena Zeth Ziqian Zoe 
+			Aaisha Aamina Aatika Adhraaa Adi Adiputeri Adiputri Adlina Afiqah Afraah Agnes Ain Aishah Alexis Alicia Alvira Amanda Amaya Ameera Amelia Amniyya Angeline Annabel Aseela Ashley Barbara Beth Biru Bulat Cahaya Catherine Cathy Cempaka Chahaya Charmaine Cherilyn Chermaine Cheryl Chin-Siow Ching Chloe Christie Christina Christine Cik Claire Claudia Corrinne Dayang Denise Dorothy Dwy Ee-Tze Elaine Ellyza Embun Emma Esther Eunice Faith Fang Fareeda Farhat Fatin Fawqiyya Fawzaana Felicia Feuer Fikra Fiona Foon-Ling Gayathri Gemmie Geok-Choo Ghuzaila Gina Grace Haajara Haala Haaniya Hafizah Haibaa Haifaaa Hapsah Haryati Hazlina Heng-Chee Hilmiyya Himma Huei-Min Hujja Idranee Intan Izzati Jamie Jane Jannat Jasmine Jeanette Jenab Jiawei Jing Joelle Joey Jolene Judy Jumaana Jun Junhong Juwita Kaatima Kartika Kartini Katijah Keerthi Kelly Kembang Kemuning Ker-Wey Khaira Khairiya Khatijah Kimberly Kit-Chan Kulthum Kuning Laaiqa Latipah Lauren Leah Leanna Lee Leong Li Lim Lina Linda Lulu Ma Maazina Madeeha Mahura Maia Manaahil Manaara Manjalara Mardiyya Mariah Mariam Mas Masayu Mastoora Mavis Mawar Mawhiba May Maya Mayang Mazeeda Meifeng Melati Melur Meriam Michelle Min Min-Lee Mindy Miska Mitchie Miyuki Molly Mubeena Mujaahida Muna Murni Mushtaaqa Mutee'a Naaifa Nabilah Nadeera Najaat Naseeba Nasuha Natalie Nawar Nicole Ning Nur Nurul Olivia Ou-Xuan Pavani Pei-Ling Pertiwi Poh-Imm Puspa Puspawangi Puteh Raadiya Raaniya Rachel Raihaana Rebecca Regina Rena Rihaab Rin Rui-En Sa'adong Saadong Sabaaha Sadeeda Sadeeqa Safiyya Sai-Por Samraa Sanaaa Sarah Seiriene Sepiah Shaakira Shabeeba Shadhaa Shafaaa Shafee'a Shasha Sherilyn Sheryl Shu-Ying Siddeeqa Sri Stefanie Suchen Sumiko Suria Suriawati Syiqah Sylvia Tameema Tan Tanya Tayyiba Teratai Thaamira Tijah Turfa Umaima Valerie Vanessa Vicky Waajida Wan-Er Waneesa Wong Woon-Fong Yaasmeen Yanmei Yanzi Yi-Ling Yip Yujia Yvonne Zamrud Zena Zeth Ziqian Zoe
 		}
 
 	}
@@ -45,13 +45,13 @@ west_african = {
 	nigerian = {
 		primary = NGR
 		dynasty_names = { "Oluwaseun" "Adeleye-Fayemi" "Fashola" }
-		
+
 		male_names = {
-			Abidemi Abimbola Abiodun Abioye Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa Afolabi Akachi Akuchi Amadi Ayo Ayodele Ayokunle Ayomide Ayotunde Azubuike Babajide Babangida Babatunde Badamasi Balarabe Bamidele Buba Buhari Chi Chibueze Chibuike Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chijindum Chike Chikelu Chikere Chima Chindo Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Danjuma Danladi Danlami Daran Dare Daren Dayo Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Eniola Enitan Enyinnaya Femi Folami Gaddo Gambo Goggo Gowon Hasan Hindatu Idowu Ikenna Jamila Kande Kayin Kayode Kubura Lamido Lanre Larai Lekan Maimuna Monsura Ndidi Ngozi Nkemdilim Nnamdi Obi Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Onyekachi Onyekachukwu Opeyemi Rago Rashidi Shibu Tanimu Temitope Turai Turaki Udo Uwani Uzochi Uzoma Yasira Yelwa Yohance 
+			Abidemi Abimbola Abiodun Abioye Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa Afolabi Akachi Akuchi Amadi Ayo Ayodele Ayokunle Ayomide Ayotunde Azubuike Babajide Babangida Babatunde Badamasi Balarabe Bamidele Buba Buhari Chi Chibueze Chibuike Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chijindum Chike Chikelu Chikere Chima Chindo Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Danjuma Danladi Danlami Daran Dare Daren Dayo Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Eniola Enitan Enyinnaya Femi Folami Gaddo Gambo Goggo Gowon Hasan Hindatu Idowu Ikenna Jamila Kande Kayin Kayode Kubura Lamido Lanre Larai Lekan Maimuna Monsura Ndidi Ngozi Nkemdilim Nnamdi Obi Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Onyekachi Onyekachukwu Opeyemi Rago Rashidi Shibu Tanimu Temitope Turai Turaki Udo Uwani Uzochi Uzoma Yasira Yelwa Yohance
 		}
-		
+
 		female_names = {
-			Abeni Abimbola Abiodun Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo Akachi Akuchi Alaba Albarka Alheri Amaka Amara Amarachi Anaca Anaka Anecky Anika Anikee Annaka Anneka Anneke Añuli Assibi Aunika Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Cara Casia Casiah Casina Cassa Cassia Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ciah Cof Coffee Coffi Coffie Colee Coley Colie Dada Dalma Darah Darrah Dayo Deloo Delu Delue Dena Dessa Dibby Dilla Dona Donae Donah Donalda Donaldina Donelda Doni Donnah Doshi Dura Durah Durrah Ebele Ekene Ekenedilichukwu Ekundayo Eniola Enitan Fa'idah Fa'iqah Fa'izah Fara Fari Farih Farra Farry Folami Fumnanya Funanya Gaddo Gambo Gbemisola Gesina Gibby Hanna Hasana Hira Ibby Idowu Ife Ige Izara Jummai Kayin Kia Ladi Lami Mansurah Mojisola Monifa Ndidi Ngozi Niesha Nis Nisa Nissa Nissah Nissanit Nisse Nissi Nissie Nissnana Nissy Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nona Nonah Nonee Noney Noni Nonia Nonie Nonita Nonna Nonnah Nonni Nonnie Nony Nonya Numa Nuna Nunna Nwanneka Nysa Nyssa Nysse Ogechi Ogechukwukama Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi Ova Ovah Ove Ovea Ovia Rama Reen Reena Reenah Reene Reenie Reeny Rena Renah Renna Rennah Resha Rina Rinah Rinna Rinnah Sakinah Simisola Talatu Tanea Tanee Taney Tani Tanie Tannea Tannee Tanney Tanni Tannie Tanny Tany Tanye Temitope Titilayo Udo Uzoma Yejide Yewande Yola Zora Zorra 
+			Abeni Abimbola Abiodun Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo Akachi Akuchi Alaba Albarka Alheri Amaka Amara Amarachi Anaca Anaka Anecky Anika Anikee Annaka Anneka Anneke Añuli Assibi Aunika Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Cara Casia Casiah Casina Cassa Cassia Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ciah Cof Coffee Coffi Coffie Colee Coley Colie Dada Dalma Darah Darrah Dayo Deloo Delu Delue Dena Dessa Dibby Dilla Dona Donae Donah Donalda Donaldina Donelda Doni Donnah Doshi Dura Durah Durrah Ebele Ekene Ekenedilichukwu Ekundayo Eniola Enitan Fa'idah Fa'iqah Fa'izah Fara Fari Farih Farra Farry Folami Fumnanya Funanya Gaddo Gambo Gbemisola Gesina Gibby Hanna Hasana Hira Ibby Idowu Ife Ige Izara Jummai Kayin Kia Ladi Lami Mansurah Mojisola Monifa Ndidi Ngozi Niesha Nis Nisa Nissa Nissah Nissanit Nisse Nissi Nissie Nissnana Nissy Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nona Nonah Nonee Noney Noni Nonia Nonie Nonita Nonna Nonnah Nonni Nonnie Nony Nonya Numa Nuna Nunna Nwanneka Nysa Nyssa Nysse Ogechi Ogechukwukama Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi Ova Ovah Ove Ovea Ovia Rama Reen Reena Reenah Reene Reenie Reeny Rena Renah Renna Rennah Resha Rina Rinah Rinna Rinnah Sakinah Simisola Talatu Tanea Tanee Taney Tani Tanie Tannea Tannee Tanney Tanni Tannie Tanny Tany Tanye Temitope Titilayo Udo Uzoma Yejide Yewande Yola Zora Zorra
 		}
 
 	}
@@ -60,7 +60,7 @@ west_african = {
 japanese_g = {
 	edokko = {
 		dynasty_names = { "Takeda" "Chiba" "Maeda" }
-		
+
 		male_names = {
 			Akikazu Akinari Akira Allen Amuro Andromeda Arinori Armin Ash Astro Ataru Atasuke Athrun Atsumori
 			Baiko Bakin Basara Batou Bokkai Britai Bunzo Byakuya
@@ -83,7 +83,7 @@ japanese_g = {
 			Uryu
 			Vash Vegeta Yachi Yakumo Yasuhiko Yasuhiro Yasunari Yasutake Yasutoki Yasutora Yataro Yodo Yoh Yoichi Yoringa Yoritomo Yoshida Yoshifumi Yoshii Yoshikazu Yoshimochi Yoshinaka Yoshinori Yugoro Yukishiro Yuri Yuta Yushiro Yusuke
 			Zatch Zenko
-		}	
+		}
 
 		female_names = {
 			Ado Aemi Agasa Aira Aishun Akane Amarante Amaya Anda Anii Anju Anna Ano Anri Ao Aoba Aoi Aqua Arale Arisu Asuka Athena Atsuko Aya Ayano Aye Ayuri Azusa
@@ -199,27 +199,27 @@ brazilian_culture_group = {
 			Zé Zeferino
 		}
 		female_names = {
-			Amélia Ana Andréa Antía Antónia Assunção 
+			Amélia Ana Andréa Antía Antónia Assunção
 			Bárbara Benedita Branca
 			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia Constancia Carlota
 			Débora Desidéria Diamantina Domitila Dores Dorotéia Dulce
-			Edite Efigênia Elisabete Eufémia Eugênia Eulália 
-			Fatimá Feliciana Felicidade Flávia Francisca Frederica 
-			Gabriela Gertrudes Glaucia Glória Graça 
-			Henriqueta Hermínia 
+			Edite Efigênia Elisabete Eufémia Eugênia Eulália
+			Fatimá Feliciana Felicidade Flávia Francisca Frederica
+			Gabriela Gertrudes Glaucia Glória Graça
+			Henriqueta Hermínia
 			Imaculada Inês Isabel
 			Jacinta Joana Joaquima Josefa Januária Judite
-			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Leopoldina Lygia 
+			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Leopoldina Lygia
 			Madalena Márcia Margarida María Matilde Micaela Mônica
 			Nathália Neves Noela
-			Ofélia Olalla Olívia 
+			Ofélia Olalla Olívia
 			Priscila Paula
-			Rafaela Raquel Rebeca Renata Roberta Rute 
-			Sabela Sara Sofia Sonia Susana 
+			Rafaela Raquel Rebeca Renata Roberta Rute
+			Sabela Sara Sofia Sonia Susana
 			Tatiana Telma Teresa
-			Úrsula Uxía 
-			Verônica Vitória 
-			Xoana 
+			Úrsula Uxía
+			Verônica Vitória
+			Xoana
 		}
 	}
 	amazonense = {
@@ -240,7 +240,7 @@ brazilian_culture_group = {
 			Márcio Marcos Mário Maurício Miguel Milton
 			Neudo
 			Óscar Ottomar
-			Paulo Pirijá Piquerobi 
+			Paulo Pirijá Piquerobi
 			Ramalho Raul Ribeiro Ricardo Rogério Romero Rui
 			Samuel Sandro Saulo
 			Telmário Thiago Tiago Tomás Tibiriçá
@@ -270,11 +270,11 @@ brazilian_culture_group = {
 			Vanda Virgínia
 		}
 	}
-	
+
 	baiano = {
 		primary = BIA
 		dynasty_names = { "Evangelista" "Santana" "Visitaçăo" }
-		
+
 		male_names = {
 			Abílio Aganjú Adão Agostinho Aleixo Andrés Anibal Antón Ângelo
 			Batista Benjamim Bento Bieito Bonifácio Brais Breixo Breno
@@ -300,28 +300,28 @@ brazilian_culture_group = {
 			Xabier
 			Zé Zeferino
 		}
-		
+
 		female_names = {
-			Amélia Ana Andréa Antía Assunção 
-			Bárbara Branca Burukú 
-			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia 
-			Débora Desidéria Diamantina Domitila 
-			Efigênia Elisabete Eufémia Eugênia Eulália 
-			Fatimá Feliciana Felicidade Flávia 
+			Amélia Ana Andréa Antía Assunção
+			Bárbara Branca Burukú
+			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia
+			Débora Desidéria Diamantina Domitila
+			Efigênia Elisabete Eufémia Eugênia Eulália
+			Fatimá Feliciana Felicidade Flávia
 			Gabriela Glaucia Glória Graça
 			Hermínia
 			Imaculada
 			Jacinta Joana Joaquima Josefa Jovita
-			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Luzia Lygia 
+			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Luzia Lygia
 			Madalena Márcia Margarida María Micaela Mônica
-			Nathália Neves Noela 
+			Nathália Neves Noela
 			Ofélia Olalla Olívia
 			Priscila
 			Rafaela Raquel Rebeca Renata Rosa
-			Sabela Sara Sofia Sonia 
+			Sabela Sara Sofia Sonia
 			Tatiana Teresa
-			Úrsula 
-			Verônica Vitória 
+			Úrsula
+			Verônica Vitória
 			Xoana
 		}
 
@@ -331,7 +331,7 @@ argentine = {
 	gaucho = {
 		primary = AGR
 		dynasty_names = { "Lamberti" "Veber" "Justino" }
-		
+
 		male_names = {
 			Adão Afonso Alarico Adalberto Aloisio Andrés António Amauri
 			Balduíno Bartolomeu Benedito Benjamim Berengár
@@ -354,7 +354,7 @@ argentine = {
 			Vermudo Vitor
 			Xabier
 		}
-		
+
 		female_names = {
 			Amélia Ana Andréa Ansetrudia Ageltrude Ansa
 			Bárbara Berina Benedita Brunhilda Berengária
@@ -383,7 +383,7 @@ east_slavic = { # Or Tatar?
 	novorusskiy = {
 		primary = NRU
 		dynasty_names = { "Flyorov" "Konstantinov" "Smirnov" }
-		
+
 		male_names = {
 			Adrian Afanas Agafon Aleksei Aleksey Alexander Alexei Alexey Alyosha Anatoli Anatoliy Andriy Anton Arkadiy Arseniy Artem Artur Ashot Avgust
 			Bogomil Bohdan Bohuslav Boleslaw Boris Borya Borys Branislav Bratislav
@@ -408,7 +408,7 @@ east_slavic = { # Or Tatar?
 			Yakov Yakiv Yaroslav Yaroslava Yefim Yelisey Yermola Yermolay Yeryoma Yevgen Yevgeniy Yevhen Yevheniy Yevstigney Yosef Yosyp Yuliy Yura Yuri Yuriy
 			Zakhar Zakharik Zinoviy
 		}
-		
+
 		female_names = {
 			Agata Agrippina Aksinya Albina Aleksandra Alina Alla Amalia Anastasia Anastasiya Anfisa Angelika Anna Antonina Anya Asya
 			Bogdana Bohuslava
@@ -431,7 +431,7 @@ east_slavic = { # Or Tatar?
 			Valentyna Valera Valeriya Varvara Varya Vasilisa Vasiliska Vasylyna Vera Veronika Vika Viktoria Viktoriya Viola Vira Vitaliya Vlada
 			Wasylyna
 			Yana Yanochka Yaroslava Yelyzaveta Yeva Yevdokiya Yevheniya Yulia Yuliana
-			Zina Zinaida Zoya Zoyka 
+			Zina Zinaida Zoya Zoyka
 		}
 
 	}

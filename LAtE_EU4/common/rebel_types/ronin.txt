@@ -4,32 +4,32 @@
 ronin_rebels = {
 
 	color = { 240 120 5 }
-	
+
 	area = nation 					# Stays within the nation
-	government = monarchy			
+	government = monarchy
 	defection = none				# Does not defect
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
 	gfx_type = culture_province
-	will_relocate = yes	
-	
+	will_relocate = yes
+
 	resilient = no
 	reinforcing = yes
 	general = no
 	smart = yes
-	
+
 	artillery = 0.0
 	infantry = 0.7
 	cavalry = 0.3
-	
+
 	morale = 1.0
-	
+
 	# Possible handle actions
 	handle_action_negotiate = no
 	handle_action_stability = yes
 	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
+	handle_action_send_missionary = yes
+
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 1
@@ -73,7 +73,7 @@ ronin_rebels = {
 			}
 		}
 	}
- 
+
  	# This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
@@ -98,27 +98,27 @@ ronin_rebels = {
 			unrest = 6
 		}
 	}
- 
+
  	# Province Scope
  	siege_won_trigger = {
  	}
 	siege_won_effect = {
 	}
-	
+
 	# Country scope
 	can_negotiate_trigger = {
 		always = no
 	}
-	
+
 	# Country scope
 	can_enforce_trigger = {
 		always = yes
 	}
-	
+
 	# Localisation for their demands
 	demands_description = "ronin_rebels_demand"
-	
-	# Country Scope	
+
+	# Country Scope
 	demands_enforced_effect = {
 		hidden_effect = {
 			add_country_modifier = {

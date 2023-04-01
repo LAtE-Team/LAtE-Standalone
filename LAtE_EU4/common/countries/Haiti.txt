@@ -48,7 +48,7 @@ monarch_names = {
 	"Séraphin #0" = 0
 	"Sylvain #0" = 0
 	"Vincent #0" = 0
-	
+
 	"Bernadette #0" = -1
 	"Camille #0" = -1
 	"Fleur #0" = -1
@@ -77,9 +77,9 @@ ship_names = {
         "le Magnifique"
         "le Neptune"
         l'Océan
-        "la Provence" 
+        "la Provence"
         "le Robuste"
         "le Sceptre" "la Superbe"
-        "la Trombe" "le Triton" 
-        "la Victoire" 
+        "la Trombe" "le Triton"
+        "la Victoire"
 }

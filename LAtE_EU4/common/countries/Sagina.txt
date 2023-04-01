@@ -7,19 +7,19 @@ color = { 40 65 11 }
 
 leader_names = {
 
-	"Chilperick" "Brutus" "Lucius" "Pelleas" "Parcenet" "Randolph" "Evaine" "Ada" "Nimue" "Gildas" 
-	"Severus" "Cordelia" "Josephine" "Constantine" "Mildred" "Griflet" "Edern" "Gringolet" "Elys" "Nennius" 
-	"Fry" "Tove" "Beatrice" "Cynthia" "Eisenslaus" "Elwood" "Stahlrich" "Dean" "Armstrong" "Rudyard" 
-	"Adalbert" "Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" "Berick" "Benjamin" 
-	"Burrill" "Bentley" "Benzene" "Bessemer" "Christian" "Christoph" "Daniel" "David" "Dodge" "Dexter" 
-	"Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene" "Erwin" "Edgar" 
-	"Eisenwulf" "Eisenrich" "Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" "Georg" "Gottfrid" 
-	"Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" "Isaac" "Johannes" 
-	"Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer" "Kasimir" "Lawrenz" "Ludewis" 
-	"Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin" "Miles" "Maynard" "Marshall" 
-	"Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter" "Preston" "Payton" "Rostwin" 
-	"Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Rustin" "Steppen" "Sidmund" "Stahlgar" "Stanislaus" 
-	"Thomm" "Theodor" "Todrich" "Vincentz" "Viktor" "Virgil" "Velibor" "Willelm" "Weyland" "Wayne" 
+	"Chilperick" "Brutus" "Lucius" "Pelleas" "Parcenet" "Randolph" "Evaine" "Ada" "Nimue" "Gildas"
+	"Severus" "Cordelia" "Josephine" "Constantine" "Mildred" "Griflet" "Edern" "Gringolet" "Elys" "Nennius"
+	"Fry" "Tove" "Beatrice" "Cynthia" "Eisenslaus" "Elwood" "Stahlrich" "Dean" "Armstrong" "Rudyard"
+	"Adalbert" "Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" "Berick" "Benjamin"
+	"Burrill" "Bentley" "Benzene" "Bessemer" "Christian" "Christoph" "Daniel" "David" "Dodge" "Dexter"
+	"Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene" "Erwin" "Edgar"
+	"Eisenwulf" "Eisenrich" "Frederich" "Filadelph" "Florent" "Ferdinand" "Franjo" "Gilberht" "Georg" "Gottfrid"
+	"Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich" "Hudson" "Harley" "Isaac" "Johannes"
+	"Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer" "Kasimir" "Lawrenz" "Ludewis"
+	"Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin" "Miles" "Maynard" "Marshall"
+	"Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter" "Preston" "Payton" "Rostwin"
+	"Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Rustin" "Steppen" "Sidmund" "Stahlgar" "Stanislaus"
+	"Thomm" "Theodor" "Todrich" "Vincentz" "Viktor" "Virgil" "Velibor" "Willelm" "Weyland" "Wayne"
 	"Walther" "Woodward" "Wilbur" "Wernher" "Woitke" "Zachary" "Zwentibold" }
 monarch_names = {
 	"Chilperick #0" = 1

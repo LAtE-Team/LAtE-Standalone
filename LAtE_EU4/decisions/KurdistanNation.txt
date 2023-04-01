@@ -34,7 +34,7 @@ country_decisions = {
 			owns_core_province = 411	# Mosul
 			owns_core_province = 2211	# Ardalan
 			owns_core_province = 2206	# Urmia
-			
+
 		}
 		effect = {
 			change_tag = ARD

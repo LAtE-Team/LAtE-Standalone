@@ -8,21 +8,21 @@ color = { 131 54 63 }
 
 leader_names = {
 
-	"Denise" "Félix" "Liliana" "Elena" "Antonio" "Javier" "Erika" "Gabriela" "Nero" "Bienvenida" 
-	"Mariaejandra" "Ismenia" "Hengelberth" "Herwis" "Alexandra" "Irene" "Maricarmen" "Hester" "Leonardo" "Laura" 
-	"Carl" "Lis" "Yusmeiro" "Ninibeth" "Leon" "Jorge" "Generosb" "Vicencio" "Aarom" "Abel" 
-	"Alberto" "Alejandro" "Alex" "Allan" "Aly" "Andrés" "Ángel" "Anténor" "Argemiro" "Arles" 
-	"Armando" "Arsenio" "Astolfo" "Augusto" "Betulio" "Bobby" "C" "Camilo" "Carlos" "Celia" 
-	"Chavela" "Dalmiro" "Daniel" "Danilo" "Darwin" "David" "Didier" "Diego" "Don" "Eddie" 
-	"Edgar" "Eduard" "Eduardo" "Edward" "Edwin" "Eider" "Elkin" "Emilio" "Ender" "Ernesto" 
-	"Esteban" "Eugenio" "Evert" "Felipe" "Fernando" "Francisco" "Gerardo" "Geremi" "Gian" "Gilberto" 
-	"Giovanny" "Grenddy" "Guillermo" "Gustavo" "Héctor" "Henry" "Heraclio" "Hernán" "Huáscar" "Hugo" 
-	"Humberto" "Iván" "Jackson" "Jaime" "Jair" "Jairo" "Jan" "Jesús" "Jhonny" "Jhoulys" 
-	"Joaquim" "Johnny" "Jonathan" "José" "Juan" "Julián" "Julio" "Leslie" "Lorenzo" "Luis" 
-	"Machado" "Manuel" "Mario" "Martin" "Massimo" "Nelson" "Nick" "Nilo" "Omar" "Orlando" 
-	"Oscar" "Oswaldo" "Pablo" "Pedro" "Pelé" "Rafael" "Ramón" "Raúl" "Renato" "René" 
-	"Ricardo" "Robert" "Roberto" "Robinson" "Rodolfo" "Rodrigo" "Rougned" "Rubén" "Rudy" "Samuel" 
-	"Santiago" "Teolindo" "Teresa" "Tony" "Tulio" "Vicente" "Víctor" "Vidal" "Wifredo" "Willie" 
+	"Denise" "Félix" "Liliana" "Elena" "Antonio" "Javier" "Erika" "Gabriela" "Nero" "Bienvenida"
+	"Mariaejandra" "Ismenia" "Hengelberth" "Herwis" "Alexandra" "Irene" "Maricarmen" "Hester" "Leonardo" "Laura"
+	"Carl" "Lis" "Yusmeiro" "Ninibeth" "Leon" "Jorge" "Generosb" "Vicencio" "Aarom" "Abel"
+	"Alberto" "Alejandro" "Alex" "Allan" "Aly" "Andrés" "Ángel" "Anténor" "Argemiro" "Arles"
+	"Armando" "Arsenio" "Astolfo" "Augusto" "Betulio" "Bobby" "C" "Camilo" "Carlos" "Celia"
+	"Chavela" "Dalmiro" "Daniel" "Danilo" "Darwin" "David" "Didier" "Diego" "Don" "Eddie"
+	"Edgar" "Eduard" "Eduardo" "Edward" "Edwin" "Eider" "Elkin" "Emilio" "Ender" "Ernesto"
+	"Esteban" "Eugenio" "Evert" "Felipe" "Fernando" "Francisco" "Gerardo" "Geremi" "Gian" "Gilberto"
+	"Giovanny" "Grenddy" "Guillermo" "Gustavo" "Héctor" "Henry" "Heraclio" "Hernán" "Huáscar" "Hugo"
+	"Humberto" "Iván" "Jackson" "Jaime" "Jair" "Jairo" "Jan" "Jesús" "Jhonny" "Jhoulys"
+	"Joaquim" "Johnny" "Jonathan" "José" "Juan" "Julián" "Julio" "Leslie" "Lorenzo" "Luis"
+	"Machado" "Manuel" "Mario" "Martin" "Massimo" "Nelson" "Nick" "Nilo" "Omar" "Orlando"
+	"Oscar" "Oswaldo" "Pablo" "Pedro" "Pelé" "Rafael" "Ramón" "Raúl" "Renato" "René"
+	"Ricardo" "Robert" "Roberto" "Robinson" "Rodolfo" "Rodrigo" "Rougned" "Rubén" "Rudy" "Samuel"
+	"Santiago" "Teolindo" "Teresa" "Tony" "Tulio" "Vicente" "Víctor" "Vidal" "Wifredo" "Willie"
 	"Wilmer" "Wilson" "Wuillians" "Xabier" }
 monarch_names = {
 	"Denise #0" = -1

@@ -7,7 +7,7 @@ amero_syncretic = {
 
         country = {
 			tolerance_own = 1
-			tolerance_heretic = -1            
+			tolerance_heretic = -1
         }
         country_as_secondary = {
 			tolerance_own = 1

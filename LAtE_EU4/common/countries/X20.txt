@@ -8,17 +8,17 @@ color = { 252 128 157 }
 
 leader_names = {
 
-	"Tuff" "Apash" "Angus" "Alluviel" "Almo" "Arco" "Armstrong" "Bruneau" "Bannock" "Benedicte" 
-	"Borah" "Bridger" "Buck" "Bench" "Baptiste" "Belzy" "Bent" "Bill" "Camas" "Clarkand" 
-	"Colter" "Calvin" "Cameawait" "Car" "Clymer" "Custer" "Clayton" "Doran" "Ellis" "Elbert" 
-	"Elbridge" "Fremont" "Ferris" "Fraser" "Fuller" "Flint" "Gallatin" "Grenville" "Gangue" "Gutzon" 
-	"Hototo" "Hall" "Hoss" "Hatcher" "Jordan" "Jim" "Jedediah" "Jocko" "Kemble" "Kipp" 
-	"Kit" "Lolo" "Lodge" "Lincoln" "Lewisand" "Langford" "Lucian" "Lanterloo" "Lupton" "Malad" 
-	"Moyle" "Malcolm" "Muggin" "Mullan" "Merriweath" "Madoc" "Meek" "Mulas" "Mapiyato" "Milward" 
-	"Ned" "Nash" "Orofino" "Ollicut" "Otter" "Osborne" "Pass" "Perce" "Pike" "Pomp" 
-	"Pocatell" "Placer" "Peno" "Raynold" "Reet" "Remington" "Reno" "Rufus" "Rulon" "Ranous" 
-	"Secesh" "Selkirk" "Sublett" "Sycan" "Seth" "Skene" "Shuman" "Stuart" "Teton" "Tuecakas" 
-	"Tindoor" "Tetoharsk" "Terch" "Trommel" "Thurman" "Teno" "Vrain" "Weitas" "Wheeler" "Wirasuap" 
+	"Tuff" "Apash" "Angus" "Alluviel" "Almo" "Arco" "Armstrong" "Bruneau" "Bannock" "Benedicte"
+	"Borah" "Bridger" "Buck" "Bench" "Baptiste" "Belzy" "Bent" "Bill" "Camas" "Clarkand"
+	"Colter" "Calvin" "Cameawait" "Car" "Clymer" "Custer" "Clayton" "Doran" "Ellis" "Elbert"
+	"Elbridge" "Fremont" "Ferris" "Fraser" "Fuller" "Flint" "Gallatin" "Grenville" "Gangue" "Gutzon"
+	"Hototo" "Hall" "Hoss" "Hatcher" "Jordan" "Jim" "Jedediah" "Jocko" "Kemble" "Kipp"
+	"Kit" "Lolo" "Lodge" "Lincoln" "Lewisand" "Langford" "Lucian" "Lanterloo" "Lupton" "Malad"
+	"Moyle" "Malcolm" "Muggin" "Mullan" "Merriweath" "Madoc" "Meek" "Mulas" "Mapiyato" "Milward"
+	"Ned" "Nash" "Orofino" "Ollicut" "Otter" "Osborne" "Pass" "Perce" "Pike" "Pomp"
+	"Pocatell" "Placer" "Peno" "Raynold" "Reet" "Remington" "Reno" "Rufus" "Rulon" "Ranous"
+	"Secesh" "Selkirk" "Sublett" "Sycan" "Seth" "Skene" "Shuman" "Stuart" "Teton" "Tuecakas"
+	"Tindoor" "Tetoharsk" "Terch" "Trommel" "Thurman" "Teno" "Vrain" "Weitas" "Wheeler" "Wirasuap"
 	"Welcher" "Willis" "Yount" "Zenas" "Zane" }
 monarch_names = {
 	"Tuff #0" = 1

@@ -8,14 +8,14 @@ color = { 0 141 182 }
 
 leader_names = {
 
-	"Callaway" "Clemens" "Collier" "Webb" "Todd" "Louis" "Tom" "Fulton" "Cowin" "Samuel" 
-	"Dodge" "Calhoun" "Adam" "Nathaniel" "Mark" "Sampson" "Sid" "Clyde" "Burton" "Allen" 
-	"Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Clifton" "Claude" "Curlew" 
-	"Caleb" "Cain" "Clarence" "Campion" "Curtis" "Eolus" "Ellis" "Earl" "Finn" "Fitch" 
-	"Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon" 
-	"Lorton" "Langhorne" "Laurel" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Napoleon" "Nereus" 
-	"Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" "Quintin" "Ross" 
-	"Squire" "Simon" "Stirling" "Segar" "Sherod" "Theodore" "Twain" "Trigg" "Vick" "William" 
+	"Callaway" "Clemens" "Collier" "Webb" "Todd" "Louis" "Tom" "Fulton" "Cowin" "Samuel"
+	"Dodge" "Calhoun" "Adam" "Nathaniel" "Mark" "Sampson" "Sid" "Clyde" "Burton" "Allen"
+	"Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Clifton" "Claude" "Curlew"
+	"Caleb" "Cain" "Clarence" "Campion" "Curtis" "Eolus" "Ellis" "Earl" "Finn" "Fitch"
+	"Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon"
+	"Lorton" "Langhorne" "Laurel" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Napoleon" "Nereus"
+	"Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" "Quintin" "Ross"
+	"Squire" "Simon" "Stirling" "Segar" "Sherod" "Theodore" "Twain" "Trigg" "Vick" "William"
 	"Winslow" "Winfield" "Wheeler" "Yadkin" }
 monarch_names = {
 	"Callaway #1" = 0

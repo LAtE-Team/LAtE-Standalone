@@ -14,7 +14,7 @@
 #		2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2725
 #		636 637 2703 2704 2705
 #	}
-#	
+#
 #	names = {
 #		name = "COLONIAL_INDONESIA_Root_GetAdjective_Indonesia"
 #	}
@@ -72,7 +72,7 @@
 #		name = "COLONIAL_MOLUCCAS_Root_GetAdjective_Moluccas"
 #	}
 #	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"	
+#		name = "COLONIAL_REGION_New_Root_GetName"
 #	}
 #}
 

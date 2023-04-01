@@ -5,15 +5,15 @@ country_event = {
 	title = celestial_empire_events.1.t
 	desc = celestial_empire_events.1.d
 	picture = SUFFERING_CHINESE_VILLAGE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	major = yes
-	
+
 	trigger = {
 		FROM = { is_emperor_of_china = yes }
 	}
-	
+
 	option = {
 		name = "celestial_empire_events.1.a"
 		add_prestige = 20
@@ -29,16 +29,16 @@ country_event = {
 	title = celestial_empire_events.2.t
 	desc = celestial_empire_events.2.d
 	picture = IMPERIAL_EXAMINATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_emperor_of_china = yes
 		has_dlc = "Mandate of Heaven"
 		NOT = { religion = confucianism }
 		NOT = { has_country_flag = reacted_to_confucianism_event } #If you form the empire multiple times you won't get this again
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = reacted_to_confucianism_event
@@ -92,7 +92,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "celestial_empire_events.2.a"
 		ai_chance = {
@@ -170,9 +170,9 @@ country_event = {
 	title = celestial_empire_events.3.t
 	desc = celestial_empire_events.3.d
 	picture = MERITOCRACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_emperor_of_china = yes
 		has_dlc = "Mandate of Heaven"
@@ -205,7 +205,7 @@ country_event = {
 			amount = 2
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = had_sinicization_event
@@ -232,7 +232,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "celestial_empire_events.3.a"
 		ai_chance = {

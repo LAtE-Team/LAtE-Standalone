@@ -7,22 +7,22 @@ color = { 113 30 75 }
 
 leader_names = {
 
-	"Lucan" "Balian" "Havelock" "Hester" "Bedivere" "Lenore" "Caelia" "Morgan" "Lorraine" "Morgause" 
-	"Hannah" "Laudine" "Florell" "Patricis" "Ardolph" "Quirinis" "Daniel" "German" "Lambert" "Ermann" 
-	"Nicholas" "Sigerich" "Sebastian" "Eilmer" "Markus" "Rambert" "Wiprecht" "Henning" "Uriens" "Paget" 
-	"Adriaen" "Aldobrandt" "Andrew" "Achilles" "Agapett" "Alberht" "Alessander" "Arnold" "Aurel" "Beppe" 
-	"Bruce" "Bartolomeus" "Benedett" "Benett" "Bruno" "Boniface" "Bonaventura" "Berthold" "Bertrand" "Christopher" 
-	"Cornelis" "Caleb" "Carles" "Cadwallader" "Caloger" "Casimir" "Carmine" "Celsus" "Constantin" "David" 
-	"Dewitt" "Darius" "Donat" "Dorian" "Duile" "Diufe" "Elihu" "Ebenezer" "Edward" "Eastman" 
-	"Elmo" "Egidis" "Erasmis" "Ercole" "Eusebe" "Eustace" "Evarist" "Ezio" "Francelin" "Frederik" 
-	"Ferdinand" "Ferrutt" "Fulgent" "Flavis" "Fulvis" "Friso" "Giovannes" "Gerard" "Giorge" "Gerolamm" 
-	"Gennard" "Gianluke" "Gianpaul" "Gioacchim" "Girald" "Goffred" "Henreyk" "Hector" "Horatis" "Humbert" 
-	"Isaac" "Isidorr" "Jonas" "Jacobbe" "Julius" "Koch" "Lewis" "Levi" "Ludovick" "Leander" 
-	"Leonard" "Leone" "Lelis" "Livis" "Loris" "Lucis" "Lamoral" "Martin" "Marinus" "Marius" 
-	"Michael" "Marcus" "Manlis" "Modestis" "Mattheus" "Narciss" "Nevis" "Nestor" "Nunzis" "Oldstead" 
-	"Osvald" "Orsinis" "Ottavis" "Ottavin" "Ottone" "Pieter" "Paulus" "Peregrin" "Rudy" "Richard" 
-	"Robertus" "Samuel" "Stephen" "Seth" "Stratis" "Salvator" "Sylvester" "Silvis" "Sedgewick" "Theo" 
-	"Thom" "Thaddeus" "Tacit" "Tullis" "Ulderic" "Vincent" "Victor" "Venceslaus" "Varian" "Wualter" 
+	"Lucan" "Balian" "Havelock" "Hester" "Bedivere" "Lenore" "Caelia" "Morgan" "Lorraine" "Morgause"
+	"Hannah" "Laudine" "Florell" "Patricis" "Ardolph" "Quirinis" "Daniel" "German" "Lambert" "Ermann"
+	"Nicholas" "Sigerich" "Sebastian" "Eilmer" "Markus" "Rambert" "Wiprecht" "Henning" "Uriens" "Paget"
+	"Adriaen" "Aldobrandt" "Andrew" "Achilles" "Agapett" "Alberht" "Alessander" "Arnold" "Aurel" "Beppe"
+	"Bruce" "Bartolomeus" "Benedett" "Benett" "Bruno" "Boniface" "Bonaventura" "Berthold" "Bertrand" "Christopher"
+	"Cornelis" "Caleb" "Carles" "Cadwallader" "Caloger" "Casimir" "Carmine" "Celsus" "Constantin" "David"
+	"Dewitt" "Darius" "Donat" "Dorian" "Duile" "Diufe" "Elihu" "Ebenezer" "Edward" "Eastman"
+	"Elmo" "Egidis" "Erasmis" "Ercole" "Eusebe" "Eustace" "Evarist" "Ezio" "Francelin" "Frederik"
+	"Ferdinand" "Ferrutt" "Fulgent" "Flavis" "Fulvis" "Friso" "Giovannes" "Gerard" "Giorge" "Gerolamm"
+	"Gennard" "Gianluke" "Gianpaul" "Gioacchim" "Girald" "Goffred" "Henreyk" "Hector" "Horatis" "Humbert"
+	"Isaac" "Isidorr" "Jonas" "Jacobbe" "Julius" "Koch" "Lewis" "Levi" "Ludovick" "Leander"
+	"Leonard" "Leone" "Lelis" "Livis" "Loris" "Lucis" "Lamoral" "Martin" "Marinus" "Marius"
+	"Michael" "Marcus" "Manlis" "Modestis" "Mattheus" "Narciss" "Nevis" "Nestor" "Nunzis" "Oldstead"
+	"Osvald" "Orsinis" "Ottavis" "Ottavin" "Ottone" "Pieter" "Paulus" "Peregrin" "Rudy" "Richard"
+	"Robertus" "Samuel" "Stephen" "Seth" "Stratis" "Salvator" "Sylvester" "Silvis" "Sedgewick" "Theo"
+	"Thom" "Thaddeus" "Tacit" "Tullis" "Ulderic" "Vincent" "Victor" "Venceslaus" "Varian" "Wualter"
 	"Wuillem" "Whitehead" "Wagner" "York" }
 monarch_names = {
 	"Lucan #0" = 27

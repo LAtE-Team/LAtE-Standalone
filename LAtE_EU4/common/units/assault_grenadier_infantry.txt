@@ -1,5 +1,5 @@
 # Assault Grenadier Infantry
-	
+
 type = infantry
 unit_type = eastern
 

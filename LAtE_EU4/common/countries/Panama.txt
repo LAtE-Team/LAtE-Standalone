@@ -8,21 +8,21 @@ color = { 15 226 206 }
 
 leader_names = {
 
-	"Xavier" "Cristina" "Josimar" "Evita" "Salazar" "Adelmo" "Adolfo" "Alajandro" "Alberto" "Alejandro" 
-	"Alfonso" "Alfredo" "Allan" "Alonso" "Alvarez" "Alvaro" "Andre" "Andrés" "Ángel" "Angelo" 
-	"Anthony" "Aquileo" "Arnulfo" "Arsenio" "Bayano" "Belisario" "Benicio" "Braulio" "Brian" "Campos" 
-	"Carlos" "Castro" "Chafil" "Charlie" "Chavela" "Clau" "Clodomiro" "Concepción" "Cruz" "Cruze" 
-	"Danilo" "Darryn" "David" "Diego" "Domingo" "Édgar" "Edwardo" "Edwin" "Eliseo" "Emmanuel" 
-	"Enrique" "Ernesto" "Esteban" "Estefan" "Estevan" "Eusebio" "Ezeuiel" "Felipe" "Felipo" "Felix" 
-	"Fernando" "Floyd" "Fortunato" "Francisco" "Gabriel" "Gaspar" "Gerardo" "Grego" "Greivin" "Guillermo" 
-	"Harmodio" "Hector" "Hilario" "Hugo" "Ignacio" "Isidro" "Jacián" "Jaime" "Javier" "Jeremías" 
-	"Jhon" "Joaquin" "Joaquín" "Joiner" "Jonathan" "Jordan" "Jorge" "José" "Juan" "Julian" 
-	"Julio" "Kevyn" "Keylor" "Leonardo" "Levi" "Luis" "Machiel" "Maniá" "Manuel" "Mao" 
-	"Marcelo" "Marco" "Marlon" "Martín" "Mateo" "Mauricio" "Miguel" "Nando" "Nicolao" "Nicolas" 
-	"Nidio" "Nilhs" "Orlando" "Oscar" "Óscar" "Oziel" "Pablo" "Panama" "Paul" "Paz" 
-	"Pedrarias" "Pedro" "Picado" "Rafael" "Ramiro" "Ramón" "Raul" "Rebessi" "Ricardo" "Roberto" 
-	"Rodolfo" "Rolando" "Romeo" "Rommel" "Rouro" "Rubén" "Rudy" "Sebastian" "Sergio" "Sevastián" 
-	"Teodorico" "Tigrí" "Tomás" "Ubarragá" "Urracá" "Valeriano" "Victor" "Víctor" "Victoriano" "Westenbe" 
+	"Xavier" "Cristina" "Josimar" "Evita" "Salazar" "Adelmo" "Adolfo" "Alajandro" "Alberto" "Alejandro"
+	"Alfonso" "Alfredo" "Allan" "Alonso" "Alvarez" "Alvaro" "Andre" "Andrés" "Ángel" "Angelo"
+	"Anthony" "Aquileo" "Arnulfo" "Arsenio" "Bayano" "Belisario" "Benicio" "Braulio" "Brian" "Campos"
+	"Carlos" "Castro" "Chafil" "Charlie" "Chavela" "Clau" "Clodomiro" "Concepción" "Cruz" "Cruze"
+	"Danilo" "Darryn" "David" "Diego" "Domingo" "Édgar" "Edwardo" "Edwin" "Eliseo" "Emmanuel"
+	"Enrique" "Ernesto" "Esteban" "Estefan" "Estevan" "Eusebio" "Ezeuiel" "Felipe" "Felipo" "Felix"
+	"Fernando" "Floyd" "Fortunato" "Francisco" "Gabriel" "Gaspar" "Gerardo" "Grego" "Greivin" "Guillermo"
+	"Harmodio" "Hector" "Hilario" "Hugo" "Ignacio" "Isidro" "Jacián" "Jaime" "Javier" "Jeremías"
+	"Jhon" "Joaquin" "Joaquín" "Joiner" "Jonathan" "Jordan" "Jorge" "José" "Juan" "Julian"
+	"Julio" "Kevyn" "Keylor" "Leonardo" "Levi" "Luis" "Machiel" "Maniá" "Manuel" "Mao"
+	"Marcelo" "Marco" "Marlon" "Martín" "Mateo" "Mauricio" "Miguel" "Nando" "Nicolao" "Nicolas"
+	"Nidio" "Nilhs" "Orlando" "Oscar" "Óscar" "Oziel" "Pablo" "Panama" "Paul" "Paz"
+	"Pedrarias" "Pedro" "Picado" "Rafael" "Ramiro" "Ramón" "Raul" "Rebessi" "Ricardo" "Roberto"
+	"Rodolfo" "Rolando" "Romeo" "Rommel" "Rouro" "Rubén" "Rudy" "Sebastian" "Sergio" "Sevastián"
+	"Teodorico" "Tigrí" "Tomás" "Ubarragá" "Urracá" "Valeriano" "Victor" "Víctor" "Victoriano" "Westenbe"
 	"William" "Yonder" }
 monarch_names = {
 	"Xavier #2" = 24

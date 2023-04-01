@@ -8,18 +8,18 @@ color = { 30 31 15 }
 
 leader_names = {
 
-	"Flower" "Theodora" "Jerome" "Flora" "Gladys" "Martha" "Nichole" "Absalom" "Abednego" "Ahad" 
-	"Amon" "Asa" "Amos" "Andrew" "Albinus" "Alvin" "Anson" "Ashton" "Adam" "Amzi" 
-	"Bartholomew" "Benjamin" "Blaine" "Byrne" "Calvin" "Carl" "Chester" "Clark" "Cole" "Daniel" 
-	"David" "Dell" "Dale" "Dennis" "Donald" "Dwight" "Douglas" "Ebeneezer" "Ezekiel" "Everett" 
-	"Emmett" "Emerson" "Elijah" "Elliot" "Eustace" "Franklin" "Frexspar" "George" "Gerald" "Gideon" 
-	"Garber" "Glen" "Hunter" "Hezekiah" "Hank" "Herman" "Horace" "Harold" "Holcomb" "Isaac" 
-	"Ignace" "Jeconiah" "Jeroboam" "Joel" "Josiah" "John" "Jacob" "Joseph" "Lucas" "Lyman" 
-	"Leslie" "Leonard" "Lavon" "Lewis" "Landon" "Mishach" "Manasseh" "Micah" "Meyer" "Marty" 
-	"Morris" "Melville" "Myatt" "Milo" "Merriweather" "Nathaniel" "Ned" "Obadiah" "Othniel" "Othman" 
-	"Oscar" "Otis" "Peter" "Paul" "Pedaiah" "Pentecost" "Pomeroy" "Panphile" "Poynter" "Pelham" 
-	"Philip" "Phineas" "Rehoboam" "Randell" "Ronald" "Roquat" "Ralph" "Rockwell" "Salathiel" "Shadrach" 
-	"Saul" "Solomon" "Samuel" "Seth" "Simon" "Silas" "Sander" "Sheldon" "Theodore" "Tom" 
+	"Flower" "Theodora" "Jerome" "Flora" "Gladys" "Martha" "Nichole" "Absalom" "Abednego" "Ahad"
+	"Amon" "Asa" "Amos" "Andrew" "Albinus" "Alvin" "Anson" "Ashton" "Adam" "Amzi"
+	"Bartholomew" "Benjamin" "Blaine" "Byrne" "Calvin" "Carl" "Chester" "Clark" "Cole" "Daniel"
+	"David" "Dell" "Dale" "Dennis" "Donald" "Dwight" "Douglas" "Ebeneezer" "Ezekiel" "Everett"
+	"Emmett" "Emerson" "Elijah" "Elliot" "Eustace" "Franklin" "Frexspar" "George" "Gerald" "Gideon"
+	"Garber" "Glen" "Hunter" "Hezekiah" "Hank" "Herman" "Horace" "Harold" "Holcomb" "Isaac"
+	"Ignace" "Jeconiah" "Jeroboam" "Joel" "Josiah" "John" "Jacob" "Joseph" "Lucas" "Lyman"
+	"Leslie" "Leonard" "Lavon" "Lewis" "Landon" "Mishach" "Manasseh" "Micah" "Meyer" "Marty"
+	"Morris" "Melville" "Myatt" "Milo" "Merriweather" "Nathaniel" "Ned" "Obadiah" "Othniel" "Othman"
+	"Oscar" "Otis" "Peter" "Paul" "Pedaiah" "Pentecost" "Pomeroy" "Panphile" "Poynter" "Pelham"
+	"Philip" "Phineas" "Rehoboam" "Randell" "Ronald" "Roquat" "Ralph" "Rockwell" "Salathiel" "Shadrach"
+	"Saul" "Solomon" "Samuel" "Seth" "Simon" "Silas" "Sander" "Sheldon" "Theodore" "Tom"
 	"Theophile" "Uriah" "Wyatt" "Wilson" "Wesley" "Whelan" "Wheeler" "Zebediah" "Zerubbabel" "Zechariah" }
 monarch_names = {
 	"Flower #0" = -1

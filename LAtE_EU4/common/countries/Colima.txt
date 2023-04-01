@@ -8,17 +8,17 @@ color = { 45 141 236 }
 
 leader_names = {
 
-	"Vicente María" "Vargas" "Ana" "Missael" "Concepción" "Rosaura" "Serenata" "Pepe" "Juan José" "Jenni" 
-	"Junipero" "Olivia" "Humberto" "Rubín" "Galilea" "Lola" "Efraín" "Quirarte" "Aristóteles" "Guardado" 
-	"Celestino" "Navarrete" "Lázaro" "Bernabé" "Perla" "Irene" "Enrique" "Lorena" "Chayito" "Susana" 
-	"Silvestre" "Begoña" "Margarita" "Vicente Antonio" "Colli" "Balcázar" "José María" "Prieto" "Gerardito" "Tiburon" 
-	"Güera" "Panchito" "Tia" "Guízar" "Shaila" "Anacleto" "Beatriz" "Dúrcal" "Gaspar" "Lupita" 
-	"Casimiro" "Flor" "Itzcóatl" "Perico" "Gustavo" "Pedro" "Pimotl" "Jesús" "Cabrillo" "Tototl" 
-	"Tlaquiach" "Guadalupe" "Díaz" "Everardo" "Elías" "Oswaldo" "Blas" "Natividad" "Crispiniano" "Armería" 
-	"Ángel" "Alvarado" "Aarón" "Benito" "Beltrán" "Barragán" "Cristóbal" "César" "Coufal" "Cipriano" 
-	"Cavo" "Chucho" "Emmanuel" "Guzmán" "Gonzalo" "Guillermo" "Gael" "Guamerú" "Galindo" "Gallardo" 
-	"Héctor" "Higinio" "Ignacio" "Isidro" "Joaquin" "Javier" "Lico" "Mario" "Mathias" "Nuño" 
-	"Nicolás" "Néstor" "Ney" "Octaviano" "Panduro" "Porfirio" "Pardo" "Prisciliano" "Pascual" "Rodrigo" 
+	"Vicente María" "Vargas" "Ana" "Missael" "Concepción" "Rosaura" "Serenata" "Pepe" "Juan José" "Jenni"
+	"Junipero" "Olivia" "Humberto" "Rubín" "Galilea" "Lola" "Efraín" "Quirarte" "Aristóteles" "Guardado"
+	"Celestino" "Navarrete" "Lázaro" "Bernabé" "Perla" "Irene" "Enrique" "Lorena" "Chayito" "Susana"
+	"Silvestre" "Begoña" "Margarita" "Vicente Antonio" "Colli" "Balcázar" "José María" "Prieto" "Gerardito" "Tiburon"
+	"Güera" "Panchito" "Tia" "Guízar" "Shaila" "Anacleto" "Beatriz" "Dúrcal" "Gaspar" "Lupita"
+	"Casimiro" "Flor" "Itzcóatl" "Perico" "Gustavo" "Pedro" "Pimotl" "Jesús" "Cabrillo" "Tototl"
+	"Tlaquiach" "Guadalupe" "Díaz" "Everardo" "Elías" "Oswaldo" "Blas" "Natividad" "Crispiniano" "Armería"
+	"Ángel" "Alvarado" "Aarón" "Benito" "Beltrán" "Barragán" "Cristóbal" "César" "Coufal" "Cipriano"
+	"Cavo" "Chucho" "Emmanuel" "Guzmán" "Gonzalo" "Guillermo" "Gael" "Guamerú" "Galindo" "Gallardo"
+	"Héctor" "Higinio" "Ignacio" "Isidro" "Joaquin" "Javier" "Lico" "Mario" "Mathias" "Nuño"
+	"Nicolás" "Néstor" "Ney" "Octaviano" "Panduro" "Porfirio" "Pardo" "Prisciliano" "Pascual" "Rodrigo"
 	"Rubio" "Refugio" "Ramón" "Santiago" "Sáncho" "Sergio" "Tito" "Tilon" "Tonatiuh" "Zeferino" }
 monarch_names = {
 	"Vicente María #0" = 1

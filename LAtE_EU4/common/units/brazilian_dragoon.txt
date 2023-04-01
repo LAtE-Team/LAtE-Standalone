@@ -1,4 +1,4 @@
-# Brazilian Dragoon 
+# Brazilian Dragoon
 
 type = cavalry
 unit_type = brazilian

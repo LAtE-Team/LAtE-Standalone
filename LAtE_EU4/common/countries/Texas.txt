@@ -7,21 +7,21 @@ color = { 4 144 178 }
 
 leader_names = {
 
-	"Henrietta" "Beth" "Annie" "Floyd" "Russell" "Abner" "Ashbel" "Almaron" "Andy" "Amos" 
-	"Asa" "Alex" "Avery" "Austin" "Buck" "Branch" "Bobby" "Ben" "Bill" "Byrd" 
-	"Bryce" "Brooks" "Bennet" "Buckaroo" "Bud" "Cotton" "Clay" "Chris" "Clint" "Cage" 
-	"Colton" "Craig" "Clovis" "Carson" "Cyril" "Charton" "Chance" "Cody" "Clyde" "Cliff" 
-	"Cash" "Cord" "Cooper" "Chase" "Cassidy" "Curly" "Dan" "Dolphin" "Dalton" "Dale" 
-	"Dustin" "Dallas" "Dwight" "Earl" "Eliel" "Emory" "Eldon" "Eloy" "Emmett" "Freeman" 
-	"Farley" "George" "Gene" "Galba" "Galen" "Grady" "Garland" "Hank" "Horace" "Hiram" 
-	"Haskell" "Houston" "Hadley" "Hoyt" "Harley" "Harlan" "Hollis" "Honest" "Isaac" "Ike" 
-	"Jesse" "Josh" "Jake" "Jack" "Justice" "Johnny" "Keith" "Kirby" "Launcelot" "Lemuel" 
-	"Lewis" "Lefty" "Lantry" "Lowell" "Lyndon" "Lyle" "Memucan" "Mirabeau" "Micajah" "Miles" 
-	"Mial" "Manson" "Marcus" "Matt" "Merle" "Mitch" "Maddox" "Monty" "Morgan" "Nate" 
-	"Nap" "Phil" "Preston" "Perry" "Red" "Rex" "Royce" "Rusty" "Randall" "Ridley" 
-	"Riley" "Rowdy" "Ross" "Slim" "Sam" "Squire" "Stetson" "Slick" "Shep" "Sixgun" 
-	"Sonny" "Sinclair" "Tex" "Tom" "Toby" "Tuck" "Terrell" "Ty" "Troy" "Trace" 
-	"Truett" "Trevor" "Taddeo" "Vernon" "Vance" "Virgil" "Wayne" "Wyland" "Wiley" "Weston" 
+	"Henrietta" "Beth" "Annie" "Floyd" "Russell" "Abner" "Ashbel" "Almaron" "Andy" "Amos"
+	"Asa" "Alex" "Avery" "Austin" "Buck" "Branch" "Bobby" "Ben" "Bill" "Byrd"
+	"Bryce" "Brooks" "Bennet" "Buckaroo" "Bud" "Cotton" "Clay" "Chris" "Clint" "Cage"
+	"Colton" "Craig" "Clovis" "Carson" "Cyril" "Charton" "Chance" "Cody" "Clyde" "Cliff"
+	"Cash" "Cord" "Cooper" "Chase" "Cassidy" "Curly" "Dan" "Dolphin" "Dalton" "Dale"
+	"Dustin" "Dallas" "Dwight" "Earl" "Eliel" "Emory" "Eldon" "Eloy" "Emmett" "Freeman"
+	"Farley" "George" "Gene" "Galba" "Galen" "Grady" "Garland" "Hank" "Horace" "Hiram"
+	"Haskell" "Houston" "Hadley" "Hoyt" "Harley" "Harlan" "Hollis" "Honest" "Isaac" "Ike"
+	"Jesse" "Josh" "Jake" "Jack" "Justice" "Johnny" "Keith" "Kirby" "Launcelot" "Lemuel"
+	"Lewis" "Lefty" "Lantry" "Lowell" "Lyndon" "Lyle" "Memucan" "Mirabeau" "Micajah" "Miles"
+	"Mial" "Manson" "Marcus" "Matt" "Merle" "Mitch" "Maddox" "Monty" "Morgan" "Nate"
+	"Nap" "Phil" "Preston" "Perry" "Red" "Rex" "Royce" "Rusty" "Randall" "Ridley"
+	"Riley" "Rowdy" "Ross" "Slim" "Sam" "Squire" "Stetson" "Slick" "Shep" "Sixgun"
+	"Sonny" "Sinclair" "Tex" "Tom" "Toby" "Tuck" "Terrell" "Ty" "Troy" "Trace"
+	"Truett" "Trevor" "Taddeo" "Vernon" "Vance" "Virgil" "Wayne" "Wyland" "Wiley" "Weston"
 	"Wilbur" "Wes" "Weldon" "Wade" "Wheeler" "Wyatt" "Zach" "Zane" }
 monarch_names = {
 	"Henrietta #0" = -1

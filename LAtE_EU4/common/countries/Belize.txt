@@ -8,20 +8,20 @@ color = { 47 154 123 }
 
 leader_names = {
 
-	"Alice" "Kaylon" "Aurora" "Lorraine" "Emma" "Steven" "Angel" "Donovan" "Adam" "Adrian" 
-	"Ajay" "Alan" "Albert" "Alexander" "Alexis" "Alfred" "Andre" "Andrew" "Antonio" "Arlen" 
-	"Arlie" "Arthur" "Aston" "Augustus" "Azeem" "Bernard" "Boombay" "Brandon" "Cadle" "Carl" 
-	"Charles" "Charlie" "Chito" "Clifford" "Colin" "Colville" "Curl" "Cuthbert" "Dale" "Daniel" 
-	"Darwin" "Dean" "Delvin" "Deon" "Donald" "Dorien" "Eamon" "Eddie" "Edric" "Eduardo" 
-	"Edward" "Edwuardo" "Elijah" "Elijio" "Elio" "Ellis" "Emil" "Emilio" "Emmeth" "Emory" 
-	"Evan" "Florencio" "Francis" "Frederick" "Gabriel" "Gardiner" "George" "Gerald" "Godfrey" "Gregorio" 
-	"Harley" "Henry" "Herbert" "Herman" "Huestes" "Ira" "Ivan" "Jaime" "Jamaal" "Jamal" 
-	"James" "Jaylon" "Jesus" "John" "Johnathan" "Jose" "Joseph" "Juan" "Keith" "Lenney" 
-	"Leopold" "Leslie" "Lloyd" "Lorenzo" "Ludin" "Ludwig" "Manuel" "Marc" "Marcial" "Marcus" 
-	"Mark" "Markiss" "Maurice" "Maxime" "Michael" "Miller" "Milton" "Mison" "Monrad" "Muir" 
-	"Neil" "Nelson" "Nicholas" "Nigel" "Norman" "Nugent" "Oscar" "Patrick" "Paul" "Pen" 
-	"Peter" "Philip" "Pierre" "Quentin" "Rafael" "Raymond" "Reynolds" "Richard" "Robert" "Ronald" 
-	"Russell" "Said" "Samuel" "Seymour" "Shyne" "Sigfried" "Smyth" "Stanley" "Swayne" "Tariq" 
+	"Alice" "Kaylon" "Aurora" "Lorraine" "Emma" "Steven" "Angel" "Donovan" "Adam" "Adrian"
+	"Ajay" "Alan" "Albert" "Alexander" "Alexis" "Alfred" "Andre" "Andrew" "Antonio" "Arlen"
+	"Arlie" "Arthur" "Aston" "Augustus" "Azeem" "Bernard" "Boombay" "Brandon" "Cadle" "Carl"
+	"Charles" "Charlie" "Chito" "Clifford" "Colin" "Colville" "Curl" "Cuthbert" "Dale" "Daniel"
+	"Darwin" "Dean" "Delvin" "Deon" "Donald" "Dorien" "Eamon" "Eddie" "Edric" "Eduardo"
+	"Edward" "Edwuardo" "Elijah" "Elijio" "Elio" "Ellis" "Emil" "Emilio" "Emmeth" "Emory"
+	"Evan" "Florencio" "Francis" "Frederick" "Gabriel" "Gardiner" "George" "Gerald" "Godfrey" "Gregorio"
+	"Harley" "Henry" "Herbert" "Herman" "Huestes" "Ira" "Ivan" "Jaime" "Jamaal" "Jamal"
+	"James" "Jaylon" "Jesus" "John" "Johnathan" "Jose" "Joseph" "Juan" "Keith" "Lenney"
+	"Leopold" "Leslie" "Lloyd" "Lorenzo" "Ludin" "Ludwig" "Manuel" "Marc" "Marcial" "Marcus"
+	"Mark" "Markiss" "Maurice" "Maxime" "Michael" "Miller" "Milton" "Mison" "Monrad" "Muir"
+	"Neil" "Nelson" "Nicholas" "Nigel" "Norman" "Nugent" "Oscar" "Patrick" "Paul" "Pen"
+	"Peter" "Philip" "Pierre" "Quentin" "Rafael" "Raymond" "Reynolds" "Richard" "Robert" "Ronald"
+	"Russell" "Said" "Samuel" "Seymour" "Shyne" "Sigfried" "Smyth" "Stanley" "Swayne" "Tariq"
 	"Theodore" "Thomas" "Tucker" "Valdemar" "Walford" "Wellington" "Wilfred" "William" "Woldrich" "Xavier" }
 monarch_names = {
 	"Alice #0" = -1

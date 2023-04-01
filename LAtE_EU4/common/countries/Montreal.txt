@@ -7,16 +7,16 @@ color = { 158 17 18 }
 
 leader_names = {
 
-	"Odon" "Sofia" "Josselin" "Claude" "Jacques" "Daniel" "Baudouin" "Anne" "Blandine" "Camillien" 
-	"Sulpice" "Andr�" "Marcel" "Napoleon" "Joseph" "Alexandre" "Roger" "Acadie" "N�r�e" "Vincent" 
-	"Roland" "Barth�l�my" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin" 
-	"Amaury" "Andronic" "Adrien" "Aur�le" "Balian" "Boh�mond" "Cartier" "Charles" "Cecil" "Camille" 
-	"Christophe" "Denis" "Damase" "Dustin" "�tienne" "�douard" "�phrem" "Fran�ois" "Foulques" "Fr�d�ric" 
-	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel" 
-	"Ga�tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jeannot" "Jean" 
-	"J�rome" "Josue" "Julien" "Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" 
-	"Maurice" "Maximilien" "Ovide" "Olivier" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "R�al" 
-	"Rohard" "Robert" "Ren�" "Raymond" "Renaud" "Roupen" "R�gis" "Samuel" "Serge" "Tancr�de" 
+	"Odon" "Sofia" "Josselin" "Claude" "Jacques" "Daniel" "Baudouin" "Anne" "Blandine" "Camillien"
+	"Sulpice" "Andr�" "Marcel" "Napoleon" "Joseph" "Alexandre" "Roger" "Acadie" "N�r�e" "Vincent"
+	"Roland" "Barth�l�my" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin"
+	"Amaury" "Andronic" "Adrien" "Aur�le" "Balian" "Boh�mond" "Cartier" "Charles" "Cecil" "Camille"
+	"Christophe" "Denis" "Damase" "Dustin" "�tienne" "�douard" "�phrem" "Fran�ois" "Foulques" "Fr�d�ric"
+	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel"
+	"Ga�tan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jeannot" "Jean"
+	"J�rome" "Josue" "Julien" "Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel"
+	"Maurice" "Maximilien" "Ovide" "Olivier" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "R�al"
+	"Rohard" "Robert" "Ren�" "Raymond" "Renaud" "Roupen" "R�gis" "Samuel" "Serge" "Tancr�de"
 	"Wilfrid" "Xavier" }
 monarch_names = {
 	"Odon #2" = 18

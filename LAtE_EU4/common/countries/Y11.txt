@@ -8,14 +8,14 @@ color = { 99 124 61 }
 
 leader_names = {
 
-	"Ardo" "Atlas" "Ashton" "Augustine" "Adam" "Allen" "Antoine" "Autrane" "Alexandre" "Alonso" 
-	"Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "Citrand" "David" "Diego" 
-	"Duarte" "Elias" "Eduard" "Francis" "Frederic" "Ferdinand" "Forrest" "Ferran" "Fulwar" "Galves" 
-	"Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar" "Gutierre" "Hernand" "Henry" "Harrison" 
-	"Humbert" "Jehan" "Jackson" "Jay" "Javier" "Jaumet" "Joaquim" "Junipero" "Louis" "Lasker" 
-	"Leon" "Lucas" "Macond" "Moyne" "Malaric" "Malhad" "Menard" "Mitchell" "Montfort" "Mathias" 
-	"Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Oceanus" "Offatt" "Orelian" "Palustris" "Pelecand" 
-	"Panfile" "Pere" "Ponce" "Robard" "Roland" "Ramon" "Roderic" "Soto" "Sander" "Sam" 
+	"Ardo" "Atlas" "Ashton" "Augustine" "Adam" "Allen" "Antoine" "Autrane" "Alexandre" "Alonso"
+	"Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "Citrand" "David" "Diego"
+	"Duarte" "Elias" "Eduard" "Francis" "Frederic" "Ferdinand" "Forrest" "Ferran" "Fulwar" "Galves"
+	"Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar" "Gutierre" "Hernand" "Henry" "Harrison"
+	"Humbert" "Jehan" "Jackson" "Jay" "Javier" "Jaumet" "Joaquim" "Junipero" "Louis" "Lasker"
+	"Leon" "Lucas" "Macond" "Moyne" "Malaric" "Malhad" "Menard" "Mitchell" "Montfort" "Mathias"
+	"Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Oceanus" "Offatt" "Orelian" "Palustris" "Pelecand"
+	"Panfile" "Pere" "Ponce" "Robard" "Roland" "Ramon" "Roderic" "Soto" "Sander" "Sam"
 	"Taylor" "Tammand" "Tomas" "Tristan" "Velasce" "Victor" "Xavier" }
 monarch_names = {
 	"Ardo #0" = 0

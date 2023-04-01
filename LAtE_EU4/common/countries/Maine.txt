@@ -7,22 +7,22 @@ color = { 220 220 20 }
 
 leader_names = {
 
-	"Marian" "Rigby" "Uther" "Zylphia" "Craddock" "Elizabeth" "Theodosia" "Cynan" "Alan" "Edmund" 
-	"Manxome" "Gyre" "Irma" "Tove" "Lorraine" "Phyllis" "Dorian" "Gloriana" "Horatio" "Philomena" 
-	"Tulgey" "Edwina" "Mildred" "Sara" "Hartnell" "Scathelock" "Cleonie" "Phoebe" "Brillig" "Errol" 
-	"Theophilus" "Angela" "Constance" "Henrich" "Owen" "Adella" "Hazel" "Winnifred" "Joanne" "Evaine" 
-	"Increase" "Duncan" "Herbert" "Meredith" "Nehem" "Zadok" "Obed" "Marmaduke" "Stephen" "Giles" 
-	"Joffrey" "Anne" "Sylvester" "Sophronia" "Arthur" "Albus" "Ajax" "Agravain" "Accolon" "Angus" 
-	"Attwell" "Baldrick" "Borogove" "Bedivere" "Breunor" "Brutus" "Brum" "Balian" "Bran" "Bruin" 
-	"Barnaby" "Brelan" "Bartle" "Capald" "Charles" "Colin" "Carloman" "Chilperick" "Constantine" "Claudas" 
-	"Cedrick" "Catigern" "Darius" "Douglas" "Dagobert" "Dagonet" "Dinadan" "Edward" "Ector" "Elyan" 
-	"Edern" "Frederick" "Fry" "Firmin" "Fergus" "Frobisher" "Gilbert" "Gordon" "Guy" "Gann" 
-	"Gallahad" "Gryphon" "Gareth" "Geraint" "Griflet" "Gringolet" "Gildas" "Hiram" "Harper" "Hurndall" 
-	"Hector" "Hengist" "Havelock" "Isambard" "Julian" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" 
-	"Lupus" "Lionel" "Lucan" "Lucius" "Manfield" "Much" "Meldrick" "Malcolm" "Mercury" "Maleagant" 
-	"Morgan" "Nelson" "Nennius" "Neddard" "Oliver" "Outgrabe" "Oberon" "Peter" "Percival" "Pertwee" 
-	"Pepin" "Phineas" "Paget" "Pelleas" "Pellinore" "Ruddigore" "Richard" "Robin" "Randolph" "Rubeus" 
-	"Rugbert" "Rudyard" "Rowland" "Sullivan" "Severus" "Sagramore" "Thaddeus" "Tennant" "Theobald" "Tarrant" 
+	"Marian" "Rigby" "Uther" "Zylphia" "Craddock" "Elizabeth" "Theodosia" "Cynan" "Alan" "Edmund"
+	"Manxome" "Gyre" "Irma" "Tove" "Lorraine" "Phyllis" "Dorian" "Gloriana" "Horatio" "Philomena"
+	"Tulgey" "Edwina" "Mildred" "Sara" "Hartnell" "Scathelock" "Cleonie" "Phoebe" "Brillig" "Errol"
+	"Theophilus" "Angela" "Constance" "Henrich" "Owen" "Adella" "Hazel" "Winnifred" "Joanne" "Evaine"
+	"Increase" "Duncan" "Herbert" "Meredith" "Nehem" "Zadok" "Obed" "Marmaduke" "Stephen" "Giles"
+	"Joffrey" "Anne" "Sylvester" "Sophronia" "Arthur" "Albus" "Ajax" "Agravain" "Accolon" "Angus"
+	"Attwell" "Baldrick" "Borogove" "Bedivere" "Breunor" "Brutus" "Brum" "Balian" "Bran" "Bruin"
+	"Barnaby" "Brelan" "Bartle" "Capald" "Charles" "Colin" "Carloman" "Chilperick" "Constantine" "Claudas"
+	"Cedrick" "Catigern" "Darius" "Douglas" "Dagobert" "Dagonet" "Dinadan" "Edward" "Ector" "Elyan"
+	"Edern" "Frederick" "Fry" "Firmin" "Fergus" "Frobisher" "Gilbert" "Gordon" "Guy" "Gann"
+	"Gallahad" "Gryphon" "Gareth" "Geraint" "Griflet" "Gringolet" "Gildas" "Hiram" "Harper" "Hurndall"
+	"Hector" "Hengist" "Havelock" "Isambard" "Julian" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot"
+	"Lupus" "Lionel" "Lucan" "Lucius" "Manfield" "Much" "Meldrick" "Malcolm" "Mercury" "Maleagant"
+	"Morgan" "Nelson" "Nennius" "Neddard" "Oliver" "Outgrabe" "Oberon" "Peter" "Percival" "Pertwee"
+	"Pepin" "Phineas" "Paget" "Pelleas" "Pellinore" "Ruddigore" "Richard" "Robin" "Randolph" "Rubeus"
+	"Rugbert" "Rudyard" "Rowland" "Sullivan" "Severus" "Sagramore" "Thaddeus" "Tennant" "Theobald" "Tarrant"
 	"Tristan" "Tiberius" "Teignmouth" "Uriens" "Vincent" "Vaisey" "Victor" "Wilbert" "Winston" "Yaffle" }
 monarch_names = {
 	"Marian #0" = -1

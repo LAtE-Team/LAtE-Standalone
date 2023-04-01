@@ -8,20 +8,20 @@ color = { 28 228 254 }
 
 leader_names = {
 
-	"Natividad" "Panduro" "Diana" "Laura" "Tuapuri" "Shaila" "Lázaro" "Gerardito" "Guardado" "Bertha" 
-	"Begoña" "Cabrillo" "Ariadna" "Vasco" "Emilia" "Melchior" "Casilda" "Daniel" "Vina" "Giraldo" 
-	"Florinda" "Beltrán" "Joaquin" "Tlaquiach" "Lupita" "Alejandra" "Lola" "Flordeluna" "Eugenia" "Everardo" 
-	"Gallardo" "Jesús" "Maria Elena" "Agripina" "Tia" "Calixta" "Penélope" "Nicuesa" "Lenia" "Güera" 
-	"Nicolás" "Oswaldo" "Dolores" "Guzmán" "Africa" "Aleida" "Rocio" "Susana" "Vicente Antonio" "Navarrete" 
-	"Santiago" "Flor" "Gael" "Paulina" "Gaspar" "Ana" "Margarita" "Rubín" "Serenata" "Zavala" 
-	"Olivia" "Zuangua" "Chimalli" "Chakuákua" "Iurhúri" "Kuíntsiri" "Domingo Cahuidzu" "Veziá Saqhi" "Silvestre" "Eufrosina" 
-	"José Kwapiia" "Iktan Yolela" "Aristóteles" "Armería" "Ángel" "Alvarado" "Anacleto" "Aarón" "Benito" "Blas" 
-	"Barragán" "Balcázar" "Bernabé" "Colli" "Cristóbal" "César" "Casimiro" "Coufal" "Celestino" "Crispiniano" 
-	"Cipriano" "Cavo" "Chucho" "Díaz" "Emmanuel" "Enrique" "Efraín" "Elías" "Guízar" "Gustavo" 
-	"Guadalupe" "Gonzalo" "Guillermo" "Guamerú" "Galindo" "Héctor" "Humberto" "Higinio" "Ignacio" "Itzcóatl" 
-	"Isidro" "Junipero" "Juan José" "Javier" "José María" "Lico" "Mario" "Missael" "Mathias" "Nuño" 
-	"Néstor" "Ney" "Octaviano" "Pepe" "Panchito" "Porfirio" "Prieto" "Perico" "Pedro" "Pardo" 
-	"Prisciliano" "Pascual" "Quirarte" "Rodrigo" "Rubio" "Refugio" "Ramón" "Sáncho" "Sergio" "Tito" 
+	"Natividad" "Panduro" "Diana" "Laura" "Tuapuri" "Shaila" "Lázaro" "Gerardito" "Guardado" "Bertha"
+	"Begoña" "Cabrillo" "Ariadna" "Vasco" "Emilia" "Melchior" "Casilda" "Daniel" "Vina" "Giraldo"
+	"Florinda" "Beltrán" "Joaquin" "Tlaquiach" "Lupita" "Alejandra" "Lola" "Flordeluna" "Eugenia" "Everardo"
+	"Gallardo" "Jesús" "Maria Elena" "Agripina" "Tia" "Calixta" "Penélope" "Nicuesa" "Lenia" "Güera"
+	"Nicolás" "Oswaldo" "Dolores" "Guzmán" "Africa" "Aleida" "Rocio" "Susana" "Vicente Antonio" "Navarrete"
+	"Santiago" "Flor" "Gael" "Paulina" "Gaspar" "Ana" "Margarita" "Rubín" "Serenata" "Zavala"
+	"Olivia" "Zuangua" "Chimalli" "Chakuákua" "Iurhúri" "Kuíntsiri" "Domingo Cahuidzu" "Veziá Saqhi" "Silvestre" "Eufrosina"
+	"José Kwapiia" "Iktan Yolela" "Aristóteles" "Armería" "Ángel" "Alvarado" "Anacleto" "Aarón" "Benito" "Blas"
+	"Barragán" "Balcázar" "Bernabé" "Colli" "Cristóbal" "César" "Casimiro" "Coufal" "Celestino" "Crispiniano"
+	"Cipriano" "Cavo" "Chucho" "Díaz" "Emmanuel" "Enrique" "Efraín" "Elías" "Guízar" "Gustavo"
+	"Guadalupe" "Gonzalo" "Guillermo" "Guamerú" "Galindo" "Héctor" "Humberto" "Higinio" "Ignacio" "Itzcóatl"
+	"Isidro" "Junipero" "Juan José" "Javier" "José María" "Lico" "Mario" "Missael" "Mathias" "Nuño"
+	"Néstor" "Ney" "Octaviano" "Pepe" "Panchito" "Porfirio" "Prieto" "Perico" "Pedro" "Pardo"
+	"Prisciliano" "Pascual" "Quirarte" "Rodrigo" "Rubio" "Refugio" "Ramón" "Sáncho" "Sergio" "Tito"
 	"Tilon" "Tiburon" "Tonatiuh" "Vargas" "Vicente María" "Zeferino" }
 monarch_names = {
 	"Natividad #2" = 27

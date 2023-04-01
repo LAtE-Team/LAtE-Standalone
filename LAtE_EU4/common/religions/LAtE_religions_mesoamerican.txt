@@ -15,19 +15,19 @@ mesoamerican = { #Mesoamerican gods in ck2
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		#doom = yes
 		#declare_war_in_regency = yes
 		#religious_reforms = yes
 		#reform_tooltip = NAHUATL_REFORM_TOOLTIP
-		
-		heretic = { NAHUATL_HERETIC }	
+
+		heretic = { NAHUATL_HERETIC }
 	}
 
     sol_invicta = {
 		icon = 45
 		color = { 0.9 0.6 0.0 }
-		
+
 		country = {
 			tolerance_own = 3
 			hostile_attrition = 1
@@ -36,8 +36,8 @@ mesoamerican = { #Mesoamerican gods in ck2
 			tolerance_own = 3
 			hostile_attrition = 1
 		}
-		
-		heretic = { DARKNESS }	
+
+		heretic = { DARKNESS }
 	}
 
 	qabantajik = { # was uahomche
@@ -54,11 +54,11 @@ mesoamerican = { #Mesoamerican gods in ck2
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		#religious_reforms = yes
 		#reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
-		
-		heretic = { MESOAMERICAN_HERETIC }	
+
+		heretic = { MESOAMERICAN_HERETIC }
 	}
 
 	neomayan = {
@@ -75,11 +75,11 @@ mesoamerican = { #Mesoamerican gods in ck2
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		#religious_reforms = yes
 		#reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
-		
-		heretic = { MESOAMERICAN_HERETIC }	
+
+		heretic = { MESOAMERICAN_HERETIC }
 	}
 
 	harmonized_modifier = harmonized_mesoamerican

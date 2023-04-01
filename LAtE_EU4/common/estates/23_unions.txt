@@ -3,7 +3,7 @@ estate_unions = {
 
 	# If true, country will get estate
 	#Replaces Burghers
-	trigger = {	
+	trigger = {
 		religion_group = oldworld
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_government_attribute = is_merchant_republic }
@@ -29,7 +29,7 @@ estate_unions = {
 	}
 	country_modifier_neutral = {
 		production_efficiency = 0.33
-	}	
+	}
 	country_modifier_angry = {
 		production_efficiency = -0.33
 		global_unrest = 2
@@ -79,7 +79,7 @@ estate_unions = {
 
 	# Influence modifiers
 	base_influence = 10
-	influence_modifier = {	
+	influence_modifier = {
 		desc = EST_HIGH_DEVELOPMENT_PROVINCE
 		trigger = {
 			any_owned_province = {
@@ -88,7 +88,7 @@ estate_unions = {
 		}
 		influence = 5
 	}
-	influence_modifier = {	
+	influence_modifier = {
 		desc = EST_VAL_COT
 		trigger = {
 			NOT = { has_reform = free_city }
@@ -102,7 +102,7 @@ estate_unions = {
 		desc = EST_VAL_LOW_TRADE_INCOME
 		trigger = {
 			NOT = { trade_income_percentage = 0.25 }
-		}	
+		}
 		influence = -5
 	}
 	influence_modifier = {
@@ -110,14 +110,14 @@ estate_unions = {
 		trigger = {
 			trade_income_percentage = 0.5
 			NOT = { trade_income_percentage = 0.75 }
-		}	
+		}
 		influence = 5
 	}
 	influence_modifier = {
 		desc = EST_VAL_VERY_HIGH_TRADE_INCOME
 		trigger = {
 			trade_income_percentage = 0.75
-		}	
+		}
 		influence = 10
 	}
 	influence_modifier = {
@@ -128,10 +128,10 @@ estate_unions = {
 				has_disaster = estate_army_disaster
 				has_disaster = estate_press_disaster
 			}
-		}	
+		}
 		influence = -40
 	}
-	
+
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
@@ -192,6 +192,6 @@ estate_unions = {
 	}
 
 	color = { 200 0 50 }
-	
+
 	influence_from_dev_modifier = 1.0
 }

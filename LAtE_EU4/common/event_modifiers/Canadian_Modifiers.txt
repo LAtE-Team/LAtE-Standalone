@@ -175,7 +175,7 @@ canadian_true_north = {
 }
 canadian_economy = {
 	global_tax_modifier = 0.15
-	production_efficiency = 0.15	
+	production_efficiency = 0.15
 }
 canadian_fur {
 	production_efficiency = 0.2

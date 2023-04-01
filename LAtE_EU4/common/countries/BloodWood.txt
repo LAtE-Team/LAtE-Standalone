@@ -68,7 +68,7 @@ monarch_names = {
 	"Yakiv #0" = 0
 	"Yevhevniy #0" = 0
 	"Yosip #0" = 0
-	
+
 	"Alachia #0" = -25
 	"Kalyna #0" = -1
 	"Oxana #0" = -1

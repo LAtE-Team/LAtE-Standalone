@@ -243,7 +243,7 @@ monarchy = {
 		english_monarchy
 		states_general_reform
 	}
-	
+
 	# Dictatorships etc
 	exclusive_reforms = {
 		military_dictatorship_reform

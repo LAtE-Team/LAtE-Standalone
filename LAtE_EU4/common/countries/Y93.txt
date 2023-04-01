@@ -8,20 +8,20 @@ color = { 190 65 3 }
 
 leader_names = {
 
-	"Jonathan" "Joanne" "Alec" "Cyril" "Clément" "Rene" "Julie" "Gil" "Andrea" "Yvon" 
-	"Laurette" "Nancy" "Kinnie" "Grosta" "Derrick" "Peter" "Raymond" "Laura" "René" "Hélène" 
-	"Pearl" "Marguerite" "Solomon" "Pierre" "Kalib" "John" "Pascal" "Henri" "Josette" "Maria" 
-	"Marie" "Colleen" "Keith" "Blanche" "Yvonne" "August" "Evelyn" "Ashenee" "Christi" "Alexander" 
-	"Shelly" "Bob" "Elizabeth" "Katherena" "Mary" "Isabelle" "Laird" "David" "Leonard" "Thelma" 
-	"Christine" "Jagiel" "Wade" "Ian" "Antonine" "Andrew" "Sharon" "Josephin" "Madeline" "Catharine" 
-	"Roseanne" "Jaxon" "Jani" "Norma" "Justin" "Rose-Marie" "Gerald" "Natalie" "Janet" "James" 
-	"Wayne" "Don" "Jacques" "Sandra" "Theoren" "Rick" "Keezheekoni" "Tête" "Jules" "Ray" 
-	"Joe" "Keme" "Ranald" "Albert" "Ambroise-Dydime" "Ambrose" "Andy" "Angus" "Antoine" "Arron" 
-	"Arthur" "Asham" "Augustin" "Axel" "Baptiste" "Brian" "Bryan" "Calvin" "Charles" "Charles-Michel" 
-	"Cuthbert" "Denis" "Douglas" "Doyle" "Dwight" "Dydim" "Dylan" "Elzéar" "Eugène" "François" 
-	"Gabriel" "Gallant" "George" "Gregory" "Guillaume" "Harley" "Honoré" "Howard" "Jacco" "Jaco" 
-	"Jean" "Jean-Baptiste" "Jess" "Jon" "Kevin" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" 
-	"Michel" "Paul" "Ralph" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Thomas" "Todd" 
+	"Jonathan" "Joanne" "Alec" "Cyril" "Clément" "Rene" "Julie" "Gil" "Andrea" "Yvon"
+	"Laurette" "Nancy" "Kinnie" "Grosta" "Derrick" "Peter" "Raymond" "Laura" "René" "Hélène"
+	"Pearl" "Marguerite" "Solomon" "Pierre" "Kalib" "John" "Pascal" "Henri" "Josette" "Maria"
+	"Marie" "Colleen" "Keith" "Blanche" "Yvonne" "August" "Evelyn" "Ashenee" "Christi" "Alexander"
+	"Shelly" "Bob" "Elizabeth" "Katherena" "Mary" "Isabelle" "Laird" "David" "Leonard" "Thelma"
+	"Christine" "Jagiel" "Wade" "Ian" "Antonine" "Andrew" "Sharon" "Josephin" "Madeline" "Catharine"
+	"Roseanne" "Jaxon" "Jani" "Norma" "Justin" "Rose-Marie" "Gerald" "Natalie" "Janet" "James"
+	"Wayne" "Don" "Jacques" "Sandra" "Theoren" "Rick" "Keezheekoni" "Tête" "Jules" "Ray"
+	"Joe" "Keme" "Ranald" "Albert" "Ambroise-Dydime" "Ambrose" "Andy" "Angus" "Antoine" "Arron"
+	"Arthur" "Asham" "Augustin" "Axel" "Baptiste" "Brian" "Bryan" "Calvin" "Charles" "Charles-Michel"
+	"Cuthbert" "Denis" "Douglas" "Doyle" "Dwight" "Dydim" "Dylan" "Elzéar" "Eugène" "François"
+	"Gabriel" "Gallant" "George" "Gregory" "Guillaume" "Harley" "Honoré" "Howard" "Jacco" "Jaco"
+	"Jean" "Jean-Baptiste" "Jess" "Jon" "Kevin" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime"
+	"Michel" "Paul" "Ralph" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Thomas" "Todd"
 	"Tom" "Tony" "Vic" "William" "Xavier" }
 monarch_names = {
 	"Jonathan #0" = 1

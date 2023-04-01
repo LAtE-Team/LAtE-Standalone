@@ -8,18 +8,18 @@ color = { 205 225 255 }
 
 leader_names = {
 
-	"Ian" "Pierre" "Gallant" "François" "Rod" "Andrew" "Dylan" "Wade" "Theoren" "Ambrose" 
-	"Lewisand" "Ollicut" "Bridger" "Placer" "Secesh" "Jordan" "Apash" "Angus" "Alluviel" "Almo" 
-	"Arco" "Armstrong" "Bruneau" "Bannock" "Benedicte" "Borah" "Buck" "Bench" "Baptiste" "Belzy" 
-	"Bent" "Bill" "Camas" "Clarkand" "Colter" "Calvin" "Cameawait" "Car" "Clymer" "Custer" 
-	"Clayton" "Doran" "Ellis" "Elbert" "Elbridge" "Fremont" "Ferris" "Fraser" "Fuller" "Flint" 
-	"Gallatin" "Grenville" "Gangue" "Gutzon" "Hototo" "Hall" "Hoss" "Hatcher" "Jim" "Jedediah" 
-	"Jocko" "Kemble" "Kipp" "Kit" "Lolo" "Lodge" "Lincoln" "Langford" "Lucian" "Lanterloo" 
-	"Lupton" "Malad" "Moyle" "Malcolm" "Muggin" "Mullan" "Merriweath" "Madoc" "Meek" "Mulas" 
-	"Mapiyato" "Milward" "Ned" "Nash" "Orofino" "Otter" "Osborne" "Pass" "Perce" "Pike" 
-	"Pomp" "Pocatell" "Peno" "Raynold" "Reet" "Remington" "Reno" "Rufus" "Rulon" "Ranous" 
-	"Selkirk" "Sublett" "Sycan" "Seth" "Skene" "Shuman" "Stuart" "Teton" "Tuecakas" "Tindoor" 
-	"Tuff" "Tetoharsk" "Terch" "Trommel" "Thurman" "Teno" "Vrain" "Weitas" "Wheeler" "Wirasuap" 
+	"Ian" "Pierre" "Gallant" "François" "Rod" "Andrew" "Dylan" "Wade" "Theoren" "Ambrose"
+	"Lewisand" "Ollicut" "Bridger" "Placer" "Secesh" "Jordan" "Apash" "Angus" "Alluviel" "Almo"
+	"Arco" "Armstrong" "Bruneau" "Bannock" "Benedicte" "Borah" "Buck" "Bench" "Baptiste" "Belzy"
+	"Bent" "Bill" "Camas" "Clarkand" "Colter" "Calvin" "Cameawait" "Car" "Clymer" "Custer"
+	"Clayton" "Doran" "Ellis" "Elbert" "Elbridge" "Fremont" "Ferris" "Fraser" "Fuller" "Flint"
+	"Gallatin" "Grenville" "Gangue" "Gutzon" "Hototo" "Hall" "Hoss" "Hatcher" "Jim" "Jedediah"
+	"Jocko" "Kemble" "Kipp" "Kit" "Lolo" "Lodge" "Lincoln" "Langford" "Lucian" "Lanterloo"
+	"Lupton" "Malad" "Moyle" "Malcolm" "Muggin" "Mullan" "Merriweath" "Madoc" "Meek" "Mulas"
+	"Mapiyato" "Milward" "Ned" "Nash" "Orofino" "Otter" "Osborne" "Pass" "Perce" "Pike"
+	"Pomp" "Pocatell" "Peno" "Raynold" "Reet" "Remington" "Reno" "Rufus" "Rulon" "Ranous"
+	"Selkirk" "Sublett" "Sycan" "Seth" "Skene" "Shuman" "Stuart" "Teton" "Tuecakas" "Tindoor"
+	"Tuff" "Tetoharsk" "Terch" "Trommel" "Thurman" "Teno" "Vrain" "Weitas" "Wheeler" "Wirasuap"
 	"Welcher" "Willis" "Yount" "Zenas" "Zane" }
 monarch_names = {
 	"Ian #3" = 0

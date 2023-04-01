@@ -11,9 +11,9 @@ country_event = { #Estate in power surpassed by another
 	title = estate_regency_events.1.t
 	desc = estate_regency_events.1.d
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
@@ -62,7 +62,7 @@ country_event = { #Estate in power surpassed by another
 			}
 		}
 	}
-	
+
 	option = {
 		name = estate_regency_events.1.a #Accept
 		ai_chance = {
@@ -79,7 +79,7 @@ country_event = { #Estate in power surpassed by another
 			}
 			define_ruler = {
 				regency = {
-					estate = estate_burghers	
+					estate = estate_burghers
 				}
 			}
 			clr_country_flag = burgher_coup
@@ -202,9 +202,9 @@ country_event = { #Estate in power wants to add a privilege
 	title = estate_regency_events.2.t
 	desc = estate_regency_events.2.d
 	picture = LIBERUM_VETO_event_Picture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate_led_regency = {
 			estate = any
@@ -212,14 +212,14 @@ country_event = { #Estate in power wants to add a privilege
 		}
 		estate_led_regency_influence = 70
 		NOT = {
-			estate_led_regency_loyalty = 90 
+			estate_led_regency_loyalty = 90
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.2.a #Accept
 		ai_chance = {
@@ -407,21 +407,21 @@ country_event = { #Estate in power attacks rivals
 	title = estate_regency_events.3.t
 	desc = estate_regency_events.3.d
 	picture = ACCUSATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate_led_regency = {
 			estate = any
 			duration = 2
 		}
-		estate_led_regency_influence = 70	
+		estate_led_regency_influence = 70
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.3.a #Allow
 		ai_chance = {
@@ -546,7 +546,7 @@ country_event = { #Estate in power attacks rivals
 			factor = 50
 			modifier = {
 				factor = 2
-				estate_led_regency_loyalty = 70	
+				estate_led_regency_loyalty = 70
 			}
 		}
 		if = {
@@ -596,9 +596,9 @@ country_event = { #Nobles offer the crown
 	title = estate_regency_events.4.t
 	desc = estate_regency_events.4.d
 	picture = COUNTRY_COLLAPSE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_heir = yes
 		has_estate_led_regency = {
@@ -616,18 +616,18 @@ country_event = { #Nobles offer the crown
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.4.a #Crown offered
 		if = {
 			limit = {
 				government = monarchy
 			}
-			random_known_country = { 
+			random_known_country = {
 				limit = {
 					government = monarchy
 					religion = ROOT
@@ -649,7 +649,7 @@ country_event = { #Nobles offer the crown
 			limit = {
 				government = tribal
 			}
-			random_known_country = { 
+			random_known_country = {
 				limit = {
 					government = tribal
 					religion = ROOT
@@ -675,9 +675,9 @@ country_event = { #Burghers try to smuggle
 	title = estate_regency_events.5.t
 	desc = estate_regency_events.5.d
 	picture = CORRUPTION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate_led_regency = {
 			estate = estate_burghers
@@ -694,14 +694,14 @@ country_event = { #Burghers try to smuggle
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.5.a #Trade Conflict
-		random_known_country = { 
+		random_known_country = {
 			limit = {
 				NOT = {
 					border_distance = {
@@ -728,9 +728,9 @@ country_event = { #Clerical fanaticism
 	title = estate_regency_events.6.t
 	desc = estate_regency_events.6.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate_led_regency = {
 			estate = estate_church
@@ -747,14 +747,14 @@ country_event = { #Clerical fanaticism
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.6.a #Religious Uniformity
-		add_ruler_modifier = { 
+		add_ruler_modifier = {
 			name = religious_intolerance_mod
 			duration = -1
 			desc = religious_intolerance_tooltip
@@ -767,16 +767,16 @@ country_event = { #Estate's leader is a loyalist
 	title = estate_regency_events.7.t
 	desc = estate_regency_events.7.d
 	picture = CONQUEST_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.7.a #Loyalist Leader
-		add_ruler_modifier = { 
+		add_ruler_modifier = {
 			name = loyalist_leader_mod
 			duration = -1
 			desc = loyalist_leader_tooltip
@@ -789,9 +789,9 @@ country_event = { #Assassination/Coup attempt
 	title = estate_regency_events.8.t
 	desc = estate_regency_events.8.d
 	picture = ASSASSINATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_heir = yes
 		OR = {
@@ -845,11 +845,11 @@ country_event = { #Assassination/Coup attempt
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.8.a #Estate revolts
 		random_list = {
@@ -870,9 +870,9 @@ country_event = { #Estate Leader is a Great Influence
 	title = estate_regency_events.9.t
 	desc = estate_regency_events.9.d
 	picture = ADVISOR_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_heir = yes
 		heir_age = 8
@@ -883,11 +883,11 @@ country_event = { #Estate Leader is a Great Influence
 		}
 		has_ruler_modifier = loyalist_leader_mod
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.9.a #Heir Education Successful
 		random_list = {
@@ -914,9 +914,9 @@ country_event = { #Coup attempt against consort
 	title = estate_regency_events.10.t
 	desc = estate_regency_events.10.d
 	picture = SPY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_consort_regency = yes
 		OR = {
@@ -958,7 +958,7 @@ country_event = { #Coup attempt against consort
 			}
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -1006,11 +1006,11 @@ country_event = { #Coup attempt against consort
 			set_country_flag = noble_coup
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = estate_regency_events.10.a #Estate revolts
 		custom_tooltip = "coup_attempt_starts_tooltip"

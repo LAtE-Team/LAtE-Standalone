@@ -8,7 +8,7 @@ on_startup = {
 		fixes.1
 		hudsonia_events.1 #Pick a path
 		maritimes_events.6
-		keystone_events.1 
+		keystone_events.1
 		#Vanilla
 		muslim_school_events.20 #Pick School
 	}
@@ -108,7 +108,7 @@ on_battle_lost_country = {
 		}
 		FROM = { country_event = { id = saints.3 } }
 	}
-	
+
 	#Immaculate Saints
 	if = {
 		limit = {
@@ -136,7 +136,7 @@ on_battle_lost_country = {
 		}
 		FROM = { country_event = { id = saints.4 } }
 	}
-	
+
 	#El Libertador
 	if = {
 		limit = {
@@ -164,7 +164,7 @@ on_battle_lost_country = {
 		}
 		FROM = { country_event = { id = saints.5 } }
 	}
-	
+
 	#El Dorado
 	if = {
 		limit = {
@@ -192,7 +192,7 @@ on_battle_lost_country = {
 		}
 		FROM = { country_event = { id = saints.6 } }
 	}
-	
+
 	#Santo Nino
 	if = {
 		limit = {
@@ -569,7 +569,7 @@ on_harmonized_mahayana = {
 on_harmonized_buddhism = { #Theravada
 	events = {
 		confucian_events.8
-	}	
+	}
 }
 on_harmonized_shinto = {
 	events = {
@@ -646,7 +646,7 @@ on_convert_by_trade_policy = {
 		# limit = {
 			# trade_company_region = trade_company_moluccas
 		# }
-		# FROM = {	
+		# FROM = {
 			# if = {
 				# limit = {
 					# ai = no

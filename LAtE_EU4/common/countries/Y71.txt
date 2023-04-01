@@ -8,14 +8,14 @@ color = { 153 158 141 }
 
 leader_names = {
 
-	"By" "McCabe" "Acer" "Giovannes" "Tim" "Bill" "Hudson" "Victoria" "Harold" "Goban" 
-	"Alan" "Riel" "Morgan" "Gray" "George" "Rupert" "Leslie" "Ian" "Ronald" "Albert" 
-	"Aykroyd" "Anthony" "Brant" "Bennett" "Banting" "Bryce" "Carrey" "Charles" "Claude" "Castor" 
-	"Clive" "Churchill" "Darcy" "Derby" "Dominick" "Dalton" "Evan" "Edgar" "Fidelis" "Fergus" 
-	"Gosling" "Geddy" "Gord" "Gath" "Hamilton" "Hart" "Harland" "Horton" "Hap" "Jarvis" 
-	"Kirk" "Kay" "Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Lloyd" "Lorne" "Lucas" 
-	"Macdonald" "McGee" "Monck" "Malcolm" "Munro" "Mitchell" "McMillan" "Matthew" "Meugan" "Marlborough" 
-	"Naismith" "Neil" "Nelligan" "Octockwig" "Owen" "Rubrum" "Redgrave" "Spencer" "Trevor" "Thomp" 
+	"By" "McCabe" "Acer" "Giovannes" "Tim" "Bill" "Hudson" "Victoria" "Harold" "Goban"
+	"Alan" "Riel" "Morgan" "Gray" "George" "Rupert" "Leslie" "Ian" "Ronald" "Albert"
+	"Aykroyd" "Anthony" "Brant" "Bennett" "Banting" "Bryce" "Carrey" "Charles" "Claude" "Castor"
+	"Clive" "Churchill" "Darcy" "Derby" "Dominick" "Dalton" "Evan" "Edgar" "Fidelis" "Fergus"
+	"Gosling" "Geddy" "Gord" "Gath" "Hamilton" "Hart" "Harland" "Horton" "Hap" "Jarvis"
+	"Kirk" "Kay" "Kevin" "Leaford" "Lawrence" "Leonard" "Lennox" "Lloyd" "Lorne" "Lucas"
+	"Macdonald" "McGee" "Monck" "Malcolm" "Munro" "Mitchell" "McMillan" "Matthew" "Meugan" "Marlborough"
+	"Naismith" "Neil" "Nelligan" "Octockwig" "Owen" "Rubrum" "Redgrave" "Spencer" "Trevor" "Thomp"
 	"Westerfield" "Wade" "Winston" "York" }
 monarch_names = {
 	"By #2" = 0

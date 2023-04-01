@@ -8,17 +8,17 @@ color = { 60 156 205 }
 
 leader_names = {
 
-	"Gya'awhlans" "Wewick" "Sgaana Hiiwans" "Kayung" "Yahl" "Atewaas" "S'gana" "Jaadaa" "Skilkaadgan" "Hluuwee" 
-	"Kaisun" "Daa Heeigan" "Hlk'yah Gaawga" "Sholeetsa" "Tahaygen" "Kikisoblu" "Skil Tiis" "Howkan" "Klinkwan" "Tsahtsaa" 
-	"Yaanans" "Ninstints" "Koya" "Gyhldeptis" "Guujaaw" "Hlgitun" "Hiidangsaa" "Yahl Kangwaas" "Ghaltsaakw" "Hiljuuwaas" 
-	"Masset" "Ladalia" "Kung" "Kit" "Yan" "Sandlenee" "Skil Hiilans" "Hluunaagad" "Sguii" "Kristin" 
-	"Gitkinjuuwaas" "Guusk'an" "Flynn" "Kagan" "Kasaan" "Sgaana Guujaanga" "Mercedes" "Kiusta" "Kimama" "Taan" 
-	"Sdiithldaa" "Tanu" "Chee Xial Taaiixou" "Guulaas" "Tsaak" "Nance" "Skidegate" "Nang Kilsdlaas" "Guubii" "Yaahl" 
-	"Skaay" "Giteewans" "Kithlaigaa" "Tsaa Hamjuuwee" "Sukkwan" "Wigaanad" "Yeptah" "Sawehamish" "Yahl Sgoansins" "Patchkanam" 
-	"Siigee" "Skedans" "Thasi" "Nang Jingwas" "Haina" "Gidansda" "Cha'atl" "Chiin" "Cuneah" "Dayaang" 
-	"Gaahlaa" "Gaahlaay" "Ganiihlaas" "Gidkun" "Ginaawaan" "Gogiid" "Gwaay Guu Ganhlin" "Gyaahlans" "Hidansuu" "Hiellan" 
-	"Hiidangsdaa" "Hiitl'daa" "Ihldiinii" "Jaahguhl" "K'ap" "Kaat" "Kilsdlaa Xidguns" "Kun" "Sgaal" "Sgaana" 
-	"Sgaann Hiwhwaans" "Skaaxwad" "Skilhlang" "Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "T'lajung Nung Kingaas" "Tl'aagaang Quna" "Tsinni" 
+	"Gya'awhlans" "Wewick" "Sgaana Hiiwans" "Kayung" "Yahl" "Atewaas" "S'gana" "Jaadaa" "Skilkaadgan" "Hluuwee"
+	"Kaisun" "Daa Heeigan" "Hlk'yah Gaawga" "Sholeetsa" "Tahaygen" "Kikisoblu" "Skil Tiis" "Howkan" "Klinkwan" "Tsahtsaa"
+	"Yaanans" "Ninstints" "Koya" "Gyhldeptis" "Guujaaw" "Hlgitun" "Hiidangsaa" "Yahl Kangwaas" "Ghaltsaakw" "Hiljuuwaas"
+	"Masset" "Ladalia" "Kung" "Kit" "Yan" "Sandlenee" "Skil Hiilans" "Hluunaagad" "Sguii" "Kristin"
+	"Gitkinjuuwaas" "Guusk'an" "Flynn" "Kagan" "Kasaan" "Sgaana Guujaanga" "Mercedes" "Kiusta" "Kimama" "Taan"
+	"Sdiithldaa" "Tanu" "Chee Xial Taaiixou" "Guulaas" "Tsaak" "Nance" "Skidegate" "Nang Kilsdlaas" "Guubii" "Yaahl"
+	"Skaay" "Giteewans" "Kithlaigaa" "Tsaa Hamjuuwee" "Sukkwan" "Wigaanad" "Yeptah" "Sawehamish" "Yahl Sgoansins" "Patchkanam"
+	"Siigee" "Skedans" "Thasi" "Nang Jingwas" "Haina" "Gidansda" "Cha'atl" "Chiin" "Cuneah" "Dayaang"
+	"Gaahlaa" "Gaahlaay" "Ganiihlaas" "Gidkun" "Ginaawaan" "Gogiid" "Gwaay Guu Ganhlin" "Gyaahlans" "Hidansuu" "Hiellan"
+	"Hiidangsdaa" "Hiitl'daa" "Ihldiinii" "Jaahguhl" "K'ap" "Kaat" "Kilsdlaa Xidguns" "Kun" "Sgaal" "Sgaana"
+	"Sgaann Hiwhwaans" "Skaaxwad" "Skilhlang" "Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "T'lajung Nung Kingaas" "Tl'aagaang Quna" "Tsinni"
 	"Wiiaa" "Xa" "Xunts" "Xuut" "Yahguaas" "Yahl Gwaawaas" "Yahl Hinku" "Yahl Naaw" }
 monarch_names = {
 	"Gya'awhlans #0" = 1

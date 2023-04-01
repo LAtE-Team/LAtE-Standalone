@@ -8,22 +8,22 @@ color = { 26 164 141 }
 
 leader_names = {
 
-	"Philip" "Aileen" "Bride" "Magnolia" "Mellan" "Simon" "Daniel" "Laurie" "Fergus" "May" 
-	"Olive" "Sinead" "Aurelia" "Caitlin" "Therese" "Ivor" "Labhras" "Keavy" "Bairre" "Patrig" 
-	"Ceallach" "Marielle" "Jonatan" "Chrestian" "Clara" "Ryerson" "Eustace" "Carey" "Aurora" "Ophelia" 
-	"Donovan" "Rearden" "Blair" "Marilla" "Goban" "Sarah" "Eilis" "Caroline" "Tessa" "Agnes" 
-	"Enos" "Garvan" "Melody" "Neasa" "Lile" "Gallant" "Sean" "Bairbre" "Enya" "Quinn" 
-	"Linda" "Fiona" "Gearalt" "Adam" "Albert" "Alex" "Alexander" "Alfred" "Allan" "Ambrose" 
-	"Andrew" "Anthony" "Archibald" "Arthur" "Augustus" "Baxter" "Benjamin" "Bernard" "Bertram" "Charles" 
-	"Chesley" "Christopher" "Clarence" "Claude" "Clayton" "Cyril" "David" "Dennis" "Dorman" "Douglas" 
-	"Edgar" "Edmund" "Edward" "Edwin" "Eli" "Elias" "Elijah" "Eric" "Ernest" "Eugene" 
-	"Francis" "Frank" "Fred" "Frederick" "Garland" "George" "Gerald" "Gilbert" "Gordon" "Harold" 
-	"Harry" "Harvey" "Hayward" "Heber" "Hedley" "Henry" "Herbert" "Howard" "Hubert" "Hugh" 
-	"Isaac" "Jack" "Jacob" "James" "Jean" "Job" "John" "Joseph" "Josiah" "Kenneth" 
-	"Kevin" "Lawrence" "Leo" "Leonard" "Leslie" "Levi" "Lewis" "Lloyd" "Malcolm" "Mark" 
-	"Martin" "Matthew" "Maurice" "Maxwell" "Michael" "Nathaniel" "Nicholas" "Norman" "Patrick" "Paul" 
-	"Peter" "Ralph" "Raymond" "Reginald" "Reuben" "Richard" "Robert" "Roland" "Ronald" "Roy" 
-	"Samuel" "Sidney" "Solomon" "Stanley" "Stephen" "Stewart" "Thomas" "Timothy" "Victor" "Vincent" 
+	"Philip" "Aileen" "Bride" "Magnolia" "Mellan" "Simon" "Daniel" "Laurie" "Fergus" "May"
+	"Olive" "Sinead" "Aurelia" "Caitlin" "Therese" "Ivor" "Labhras" "Keavy" "Bairre" "Patrig"
+	"Ceallach" "Marielle" "Jonatan" "Chrestian" "Clara" "Ryerson" "Eustace" "Carey" "Aurora" "Ophelia"
+	"Donovan" "Rearden" "Blair" "Marilla" "Goban" "Sarah" "Eilis" "Caroline" "Tessa" "Agnes"
+	"Enos" "Garvan" "Melody" "Neasa" "Lile" "Gallant" "Sean" "Bairbre" "Enya" "Quinn"
+	"Linda" "Fiona" "Gearalt" "Adam" "Albert" "Alex" "Alexander" "Alfred" "Allan" "Ambrose"
+	"Andrew" "Anthony" "Archibald" "Arthur" "Augustus" "Baxter" "Benjamin" "Bernard" "Bertram" "Charles"
+	"Chesley" "Christopher" "Clarence" "Claude" "Clayton" "Cyril" "David" "Dennis" "Dorman" "Douglas"
+	"Edgar" "Edmund" "Edward" "Edwin" "Eli" "Elias" "Elijah" "Eric" "Ernest" "Eugene"
+	"Francis" "Frank" "Fred" "Frederick" "Garland" "George" "Gerald" "Gilbert" "Gordon" "Harold"
+	"Harry" "Harvey" "Hayward" "Heber" "Hedley" "Henry" "Herbert" "Howard" "Hubert" "Hugh"
+	"Isaac" "Jack" "Jacob" "James" "Jean" "Job" "John" "Joseph" "Josiah" "Kenneth"
+	"Kevin" "Lawrence" "Leo" "Leonard" "Leslie" "Levi" "Lewis" "Lloyd" "Malcolm" "Mark"
+	"Martin" "Matthew" "Maurice" "Maxwell" "Michael" "Nathaniel" "Nicholas" "Norman" "Patrick" "Paul"
+	"Peter" "Ralph" "Raymond" "Reginald" "Reuben" "Richard" "Robert" "Roland" "Ronald" "Roy"
+	"Samuel" "Sidney" "Solomon" "Stanley" "Stephen" "Stewart" "Thomas" "Timothy" "Victor" "Vincent"
 	"Wallace" "Walter" "Wilfred" "William" "Willis" "Wilson" }
 monarch_names = {
 	"Philip #0" = 1

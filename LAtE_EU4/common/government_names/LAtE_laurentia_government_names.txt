@@ -5,7 +5,7 @@ maritimer_united_duchies = {
 		2 = UNITED_DUCHIES
 		3 = SEAFARING_EMPIRE
 	}
-	
+
 	ruler_male = {
 		1 = DUKE
 		2 = KING
@@ -17,7 +17,7 @@ maritimer_united_duchies = {
 		2 = QUEEN
 		3 = EMPRESS
 	}
-	
+
 	trigger = {
 		tag = MRT
 	}
@@ -30,7 +30,7 @@ maritimer_acadien_principality = {
 		2 = KINGDOM
 		3 = EMPIRE
 	}
-	
+
 	ruler_male = {
 		1 = DUKE
 		2 = KING

@@ -8,19 +8,19 @@ color = { 200 199 88 }
 
 leader_names = {
 
-	"Dolphus" "Ricky" "Kaylin" "Jessie" "Jackson" "Jack" "Wilbur" "Amaleen" "Chuck" "Austin" 
-	"Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur" "Boblee" "Bill" "Bo" "Bart" 
-	"Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup" "Bob" "Braxton" "Burris" "Baker" 
-	"Conway" "Casey" "Chandler" "Chester" "Cleavon" "Cleon" "Cletus" "Clint" "Cooter" "Cooper" 
-	"Cody" "Charles" "Cecil" "Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny" "Dwayne" 
-	"Dwight" "Dixon" "Dill" "Earl" "Elrod" "Enos" "Eustice" "Ewell" "Floyd" "Forrest" 
-	"Fred" "Francis" "Garth" "George" "Grattan" "Gregory" "Gilmer" "Harley" "Homer" "Horace" 
-	"Harry" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock" "Hale" "Isham" "Ike" 
-	"Jesse" "Johnny" "John" "Jed" "Jerry" "Jim" "Joe" "Junior" "Jeptha" "Jubal" 
-	"Jeremy" "Jem" "Lee" "Littlejohn" "Luther" "Lon" "Lyndon" "Larry" "Link" "Mike" 
-	"Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" "Philander" "Ray" "Raleigh" "Reb" 
-	"Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Radley" "Raymond" "Reynold" "Robert" 
-	"Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" "Terry" "Tate" "Taylor" 
+	"Dolphus" "Ricky" "Kaylin" "Jessie" "Jackson" "Jack" "Wilbur" "Amaleen" "Chuck" "Austin"
+	"Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur" "Boblee" "Bill" "Bo" "Bart"
+	"Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup" "Bob" "Braxton" "Burris" "Baker"
+	"Conway" "Casey" "Chandler" "Chester" "Cleavon" "Cleon" "Cletus" "Clint" "Cooter" "Cooper"
+	"Cody" "Charles" "Cecil" "Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny" "Dwayne"
+	"Dwight" "Dixon" "Dill" "Earl" "Elrod" "Enos" "Eustice" "Ewell" "Floyd" "Forrest"
+	"Fred" "Francis" "Garth" "George" "Grattan" "Gregory" "Gilmer" "Harley" "Homer" "Horace"
+	"Harry" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock" "Hale" "Isham" "Ike"
+	"Jesse" "Johnny" "John" "Jed" "Jerry" "Jim" "Joe" "Junior" "Jeptha" "Jubal"
+	"Jeremy" "Jem" "Lee" "Littlejohn" "Luther" "Lon" "Lyndon" "Larry" "Link" "Mike"
+	"Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" "Philander" "Ray" "Raleigh" "Reb"
+	"Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Radley" "Raymond" "Reynold" "Robert"
+	"Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" "Terry" "Tate" "Taylor"
 	"Vinton" "Wade" "Winchester" "Woody" "Whitely" "Walter" }
 monarch_names = {
 	"Dolphus #0" = 1

@@ -8,12 +8,12 @@ color = { 154 163 201 }
 
 leader_names = {
 
-	"Ignacio" "Luis" "Paola" "Carbajal" "Pancho" "Octavio" "Antonio" "Alarico" "Amalarico" "Ardón" 
-	"Álvaro" "Alfonso" "Agustín" "Aureliano" "Ahumada" "Arnulfo" "Abel" "Asa" "Benito" "Bernardo" 
-	"Beltrán" "Carlito" "César" "Doroteo" "Dimas" "David" "Elías" "Enrique" "Ernesto" "Felipe" 
-	"Gildardo" "Hipólito" "Heriberto" "Hiram" "Ismael" "Jorge" "Jesús" "José" "Jeroboam" "Manuel" 
-	"Madero" "Melquiades" "Oscar" "Oribe" "Pedro" "Paulo" "Plutarco" "Pasqual" "Rodrigo" "Recardo" 
-	"Rafael" "Roboam" "Sigerico" "Sancho" "Salvador" "Saúl" "Salomón" "Teodorico" "Venustiano" "Villa" 
+	"Ignacio" "Luis" "Paola" "Carbajal" "Pancho" "Octavio" "Antonio" "Alarico" "Amalarico" "Ardón"
+	"Álvaro" "Alfonso" "Agustín" "Aureliano" "Ahumada" "Arnulfo" "Abel" "Asa" "Benito" "Bernardo"
+	"Beltrán" "Carlito" "César" "Doroteo" "Dimas" "David" "Elías" "Enrique" "Ernesto" "Felipe"
+	"Gildardo" "Hipólito" "Heriberto" "Hiram" "Ismael" "Jorge" "Jesús" "José" "Jeroboam" "Manuel"
+	"Madero" "Melquiades" "Oscar" "Oribe" "Pedro" "Paulo" "Plutarco" "Pasqual" "Rodrigo" "Recardo"
+	"Rafael" "Roboam" "Sigerico" "Sancho" "Salvador" "Saúl" "Salomón" "Teodorico" "Venustiano" "Villa"
 	"Zacarías" }
 monarch_names = {
 	"Ignacio #0" = 1

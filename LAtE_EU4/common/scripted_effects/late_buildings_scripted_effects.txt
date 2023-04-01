@@ -102,11 +102,11 @@ add_or_upgrade_shipyard_building = {
 			limit = {
 				has_building = shipyard
 			}
-			add_building = grand_shipyard 
+			add_building = grand_shipyard
 		}
 		else_if = {
 			limit = {
-				has_building = grand_shipyard 
+				has_building = grand_shipyard
 			}
 			ROOT = { add_sailors = 0.5 }
 		}
@@ -123,11 +123,11 @@ add_or_upgrade_manpower_building = {
 			limit = {
 				has_building = barracks
 			}
-			add_building = training_fields  
+			add_building = training_fields
 		}
 		else_if = {
 			limit = {
-				has_building = training_fields  
+				has_building = training_fields
 			}
 			add_base_tax = 1
 			add_base_manpower = 1
@@ -145,11 +145,11 @@ add_or_upgrade_forcelimit_building = {
 			limit = {
 				has_building = regimental_camp
 			}
-			add_building = conscription_center   
+			add_building = conscription_center
 		}
 		else_if = {
 			limit = {
-				has_building = conscription_center   
+				has_building = conscription_center
 			}
 			add_base_manpower = 2
 		}
@@ -183,11 +183,11 @@ add_or_upgrade_courthouse_building = {
 			limit = {
 				has_building = courthouse
 			}
-			add_building = town_hall   
+			add_building = town_hall
 		}
 		else_if = {
 			limit = {
-				has_building = town_hall   
+				has_building = town_hall
 			}
 			add_base_tax = 1
 			add_base_production = 1

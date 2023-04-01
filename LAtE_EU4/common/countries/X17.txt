@@ -8,18 +8,18 @@ color = { 228 247 195 }
 
 leader_names = {
 
-	"Gallant" "Jean" "Nancy" "Laura" "Kevin" "Pearl" "Dylan" "Katherena" "Janet" "Laurette" 
-	"Ambrose" "Henri" "Ambroise-Dydime" "Yvonne" "Evelyn" "Maxime" "Rod" "Hélène" "David" "Keith" 
-	"Thelma" "Dydim" "Douglas" "Sandra" "Bryan" "Jaco" "Frechette" "Marianne" "Marguerite" "Alexander" 
-	"Maria" "Albert" "James" "Peter" "Antonine" "Carole" "Josette" "Laird" "Sara" "Blanche" 
-	"Norma" "Brian" "Shan" "Honoré" "Derrick" "Chantell" "Kinnie" "Josephin" "Alec" "Andrew" 
-	"Andy" "Angus" "Antoine" "Arron" "Arthur" "Asham" "August" "Augustin" "Axel" "Baptiste" 
-	"Bob" "Calvin" "Charles" "Charles-Michel" "Clément" "Cuthbert" "Cyril" "Denis" "Don" "Doyle" 
-	"Dwight" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gerald" "Gil" "Gregory" "Guillaume" 
-	"Harley" "Howard" "Ian" "Jacco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Joe" "John" 
-	"Jon" "Jonathan" "Jules" "Kalib" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Michel" "Pascal" 
-	"Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" "Rick" "Robert" 
-	"Salomon" "Sheldon" "Solomon" "Theoren" "Thomas" "Todd" "Tom" "Tony" "Tête" "Vic" 
+	"Gallant" "Jean" "Nancy" "Laura" "Kevin" "Pearl" "Dylan" "Katherena" "Janet" "Laurette"
+	"Ambrose" "Henri" "Ambroise-Dydime" "Yvonne" "Evelyn" "Maxime" "Rod" "Hélène" "David" "Keith"
+	"Thelma" "Dydim" "Douglas" "Sandra" "Bryan" "Jaco" "Frechette" "Marianne" "Marguerite" "Alexander"
+	"Maria" "Albert" "James" "Peter" "Antonine" "Carole" "Josette" "Laird" "Sara" "Blanche"
+	"Norma" "Brian" "Shan" "Honoré" "Derrick" "Chantell" "Kinnie" "Josephin" "Alec" "Andrew"
+	"Andy" "Angus" "Antoine" "Arron" "Arthur" "Asham" "August" "Augustin" "Axel" "Baptiste"
+	"Bob" "Calvin" "Charles" "Charles-Michel" "Clément" "Cuthbert" "Cyril" "Denis" "Don" "Doyle"
+	"Dwight" "Elzéar" "Eugène" "François" "Gabriel" "George" "Gerald" "Gil" "Gregory" "Guillaume"
+	"Harley" "Howard" "Ian" "Jacco" "Jacques" "Jaxon" "Jean-Baptiste" "Jess" "Joe" "John"
+	"Jon" "Jonathan" "Jules" "Kalib" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Michel" "Pascal"
+	"Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" "Rick" "Robert"
+	"Salomon" "Sheldon" "Solomon" "Theoren" "Thomas" "Todd" "Tom" "Tony" "Tête" "Vic"
 	"Wade" "Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Gallant #0" = 1

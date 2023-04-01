@@ -7,17 +7,17 @@ color = { 128 38 97 }
 
 leader_names = {
 
-	"Banting" "Alexandra" "Hap" "Kewinoquot" "Bagwunagijik" "Wasson" "Nawgonisee" "Henning" "Rasmus" "Adalbert" 
-	"Harald" "Lalawethika" "Shashebak" "Kogkakeshik" "Theoren" "Augustin" "George" "Bryan" "Vic" "By" 
-	"Albert" "Alec" "Alexander" "Ambroise-Dydime" "Ambrose" "Andrew" "Andy" "Angus" "Antoine" "Antonine" 
-	"Arron" "Arthur" "Asham" "August" "Axel" "Baptiste" "Bob" "Brian" "Calvin" "Charles" 
-	"Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Don" "Douglas" "Doyle" 
-	"Dwight" "Dydim" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "Gerald" "Gil" 
-	"Gregory" "Guillaume" "Harley" "Henri" "Honoré" "Howard" "Ian" "Jacco" "Jaco" "Jacques" 
-	"James" "Jaxon" "Jean" "Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jonathan" "Jules" 
-	"Kalib" "Keith" "Kevin" "Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" 
-	"Pascal" "Paul" "Peter" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" 
-	"Rick" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Solomon" "Thomas" "Todd" "Tom" 
+	"Banting" "Alexandra" "Hap" "Kewinoquot" "Bagwunagijik" "Wasson" "Nawgonisee" "Henning" "Rasmus" "Adalbert"
+	"Harald" "Lalawethika" "Shashebak" "Kogkakeshik" "Theoren" "Augustin" "George" "Bryan" "Vic" "By"
+	"Albert" "Alec" "Alexander" "Ambroise-Dydime" "Ambrose" "Andrew" "Andy" "Angus" "Antoine" "Antonine"
+	"Arron" "Arthur" "Asham" "August" "Axel" "Baptiste" "Bob" "Brian" "Calvin" "Charles"
+	"Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Don" "Douglas" "Doyle"
+	"Dwight" "Dydim" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "Gerald" "Gil"
+	"Gregory" "Guillaume" "Harley" "Henri" "Honoré" "Howard" "Ian" "Jacco" "Jaco" "Jacques"
+	"James" "Jaxon" "Jean" "Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jonathan" "Jules"
+	"Kalib" "Keith" "Kevin" "Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel"
+	"Pascal" "Paul" "Peter" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" "Rene" "René"
+	"Rick" "Robert" "Rod" "Salomon" "Shan" "Sheldon" "Solomon" "Thomas" "Todd" "Tom"
 	"Tony" "Tête" "Wade" "Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Banting #1" = 18

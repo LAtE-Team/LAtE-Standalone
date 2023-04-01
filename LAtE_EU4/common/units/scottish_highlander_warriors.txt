@@ -1,6 +1,6 @@
 # Scottish Highlander Warriors
 
-unit_type = european	
+unit_type = european
 type = infantry
 
 maneuver = 1

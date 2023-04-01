@@ -42,7 +42,7 @@ anabaptists_present_large = {
 
 walden_pond = {
 	potential = {
-		
+
 	}
 	trigger = {
 		province_is_or_accepts_religion = { religion = americanist }

@@ -30,19 +30,19 @@ monarch_names = {
 	"Hektor #0" = 10
 	"Ruprecht #0" = 10
 	"Wenzel #0" = 10
-	
+
 	"Ortrun #0" = -1
 	"Marianne #0" = -1
 	"Raffaela #0" = -1
 }
 
-leader_names = { 
+leader_names = {
 	Adam Angermann Appelt Arndt Beck Becker Bening Blasius
-	Brilz Bröser Büttner Carl Dahm Deneke Eckstein Edelmann 
-	Elsner Feil Fischer Franke Giewer Haase Hafner Hertel 
+	Brilz Bröser Büttner Carl Dahm Deneke Eckstein Edelmann
+	Elsner Feil Fischer Franke Giewer Haase Hafner Hertel
 	Hirsch Höhn Kammel Keller Kessler Koeppe Kohn Krämer
-	Kuhn Lindner Mertesdorf Meyer Mick Müller Necker Noell 
-	Oelgemöller Raabe Rainer Scharfbillig Schave Scheler 
+	Kuhn Lindner Mertesdorf Meyer Mick Müller Necker Noell
+	Oelgemöller Raabe Rainer Scharfbillig Schave Scheler
 	Schmitt Schneider Schumann Stephan Thelen Trierweiler
 	Uhlig "von Franken" "von Rothenburg" "von Schwaben"
 	"von Vitzgau" "von Weimar" Wachsmuth Wacht "von Werl"
@@ -61,6 +61,6 @@ ship_names = {
 }
 
 army_names = {
-	"Armee von $PROVINCE$" 
+	"Armee von $PROVINCE$"
 }
 

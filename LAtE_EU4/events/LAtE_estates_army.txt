@@ -12,7 +12,7 @@ country_event = {
 	title = army_estate_events.1.t
 	desc = army_estate_events.1.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		estate_influence = {
@@ -32,13 +32,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = army_estate_events.1.a #
 		ai_chance = {
@@ -153,9 +153,9 @@ country_event = {
 	title = army_estate_events.2.t
 	desc = army_estate_events.2.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_army
 		NOT = {
@@ -177,11 +177,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 
 	option = {
 		name = army_estate_events.2.a #Ok
@@ -201,7 +201,7 @@ country_event = {
 	desc = army_estate_events.3.d
 	picture = NOBLE_ESTATE_eventPicture
 	goto = noble_encroachment
-	
+
 	trigger = {
 		has_estate = estate_army
 		num_of_cities = 15
@@ -213,9 +213,9 @@ country_event = {
 			is_territory = no
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -230,7 +230,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -247,7 +247,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = army_estate_events.3.a #Allow it.
 		ai_chance = {
@@ -328,10 +328,10 @@ country_event = {
 	title = army_estate_events.4.t
 	desc = army_estate_events.4.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_army
 			territory = 1
 		}
@@ -341,9 +341,9 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -354,7 +354,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = army_estate_events.4.a #Allow it.
 		ai_chance = {
@@ -416,7 +416,7 @@ country_event = {
 	title = army_estate_events.5.t
 	desc = army_estate_events.5.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		estate_influence = {
@@ -442,13 +442,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = army_estate_events.5.a #Ok
 		add_estate_influence_modifier = {
@@ -471,7 +471,7 @@ country_event = {
 		desc = army_estate_events.6.d
 	}
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		has_estate = estate_unions
@@ -492,13 +492,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = army_estate_events.6.a #Yes
 		ai_chance = {
@@ -599,7 +599,7 @@ country_event = {
 	title = army_estate_events.7.t
 	desc = army_estate_events.7.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		has_regency = no
@@ -620,13 +620,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = { #Indifferent choice, likely appropriate if estate is just right.
 		name = army_estate_events.7.a #Moddest Ceremonies
 		ai_chance = {
@@ -722,7 +722,7 @@ country_event = {
 	title = army_estate_events.8.t
 	desc = army_estate_events.8.d
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		NOT = {
@@ -731,7 +731,7 @@ country_event = {
 				loyalty = 30
 			}
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_army
 			territory = 10
 		}
@@ -753,14 +753,14 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = noble_estate_revolt
 							value = estate
@@ -789,12 +789,12 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	option = { 
+
+	option = {
 		name = army_estate_events.8.a #Let it be.
 		ai_chance = {
 			factor = 1
@@ -845,7 +845,7 @@ country_event = {
 	title = army_estate_events.9.t
 	desc = army_estate_events.9.d
 	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		is_at_war = yes
@@ -875,14 +875,14 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
-	option = { 
+
+	option = {
 		name = army_estate_events.9.a #This isn't ideal.
 		ai_chance = {
 			factor = 1
@@ -1076,7 +1076,7 @@ country_event = {
 	title = army_estate_events.10.t
 	desc = army_estate_events.10.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_army
 		NOT = {
@@ -1116,13 +1116,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = army_estate_events.10.a #Noble
 		ai_chance = {
@@ -1404,7 +1404,7 @@ country_event = {
 	}
 	option = { #Special Case
 		name = army_estate_events.10.c.2 # Brahmins dhimmi
-		trigger = { 
+		trigger = {
 			has_estate = estate_brahmins
 			religion_group = muslim
 		}
@@ -1489,9 +1489,9 @@ country_event = {
 	title = army_estate_events.11.t
 	desc = army_estate_events.11.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_army
 		estate_loyalty = {
@@ -1502,13 +1502,13 @@ country_event = {
 			estate = estate_army
 			influence = 60
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_army
 			territory = 1
 		}
 	}
 
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
@@ -1537,11 +1537,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 
 	option = {
 		name = army_estate_events.11.a #Ok
@@ -1617,9 +1617,9 @@ province_event = {
 	title = army_estate_events.12.t
 	desc = army_estate_events.12.d
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = army_estate_events.12.a #Yes
 	}

@@ -35,7 +35,7 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 848			# Tohancapan
-			owns_core_province = 2630			# Papaloapam 
+			owns_core_province = 2630			# Papaloapam
 			owns_core_province = 2631			# Zaachila
 			owns_core_province = 2641			# Tziccoac
 			owns_core_province = 2647			# Cuetlaxtlan
@@ -85,5 +85,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 }

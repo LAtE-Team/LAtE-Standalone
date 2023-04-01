@@ -8,11 +8,11 @@ color = { 216 208 129 }
 
 leader_names = {
 
-	"Guillermo" "Francisco" "José Ignacio" "Ángela" "Adalberto" "Ángel" "Antonio" "Agustín" "Ambrosio" "Anton" 
-	"Aureliano" "Bernal" "Benito" "Carlos" "Cándido" "Cirilo" "Cruz" "Eduardo" "Enrique" "Emilio" 
-	"Eulalio" "Ezequiel" "Fernando" "Félix" "Gerardo" "Gonzalo" "Heriberto" "Hernando" "Hipólito" "Ignacio" 
-	"Indalecio" "Isidoro" "Javier" "Joaquin" "José" "José Antonio" "José Francisco" "José María" "Julián" "Leonardo" 
-	"Leonor" "Marcelino" "Marco" "Miguel" "Nicanor" "Parménides" "Pedro" "Plusultra" "Porfirio" "Quetzal" 
+	"Guillermo" "Francisco" "José Ignacio" "Ángela" "Adalberto" "Ángel" "Antonio" "Agustín" "Ambrosio" "Anton"
+	"Aureliano" "Bernal" "Benito" "Carlos" "Cándido" "Cirilo" "Cruz" "Eduardo" "Enrique" "Emilio"
+	"Eulalio" "Ezequiel" "Fernando" "Félix" "Gerardo" "Gonzalo" "Heriberto" "Hernando" "Hipólito" "Ignacio"
+	"Indalecio" "Isidoro" "Javier" "Joaquin" "José" "José Antonio" "José Francisco" "José María" "Julián" "Leonardo"
+	"Leonor" "Marcelino" "Marco" "Miguel" "Nicanor" "Parménides" "Pedro" "Plusultra" "Porfirio" "Quetzal"
 	"Rafael" "Ricardo" "Rubén" "Santiago" "Sergio" "Servando Teresa" "Venustiano" "Victorio" "Yanga" "Zacharias" }
 monarch_names = {
 	"Guillermo #1" = 18

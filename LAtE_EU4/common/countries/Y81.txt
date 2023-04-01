@@ -8,16 +8,16 @@ color = { 158 58 43 }
 
 leader_names = {
 
-	"Fellipa" "Natalia" "Irlanda" "Yñigo" "Alina" "Cabrillo" "Gustavito" "Miguel" "Marina" "Francisco" 
-	"Isabel" "Beltrán" "Cavo" "Rosalinda" "Inés" "Digna" "Gonzalo" "Gaspar" "Parosawano" "Pahhauca" 
-	"Lenna" "Cushunarahah" "Bowahquasuh" "Ettah" "Kanaretah" "Pahtrisula" "Hotoyokohwot" "Mooraquetop" "Monneconnahheh" "Perna-peta" 
-	"Diego García" "Colón" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Baltasar" "Bahamonde" "Bruno" 
-	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cuauhtémoc" "Diesel" "Demián" "Daniel" "Diego Carlos" "Epifanio" 
-	"Édgar" "Giraldo" "Gastón" "García" "Gil" "Garcilaso" "Gabino" "Hernando" "Huggo" "Honorio" 
-	"Horacio" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís" "Lorenzo" "Lope" "Leonor" 
-	"Magallanes" "Melchior" "Martín" "Marcos" "Melchor" "Mariano" "Montejo" "Ñuflo" "Olid" "Osvaldo" 
-	"Pizarro" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Rodrigo" "Roque" "Renato" "René" 
-	"Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" "Ulises" "Urbano" 
+	"Fellipa" "Natalia" "Irlanda" "Yñigo" "Alina" "Cabrillo" "Gustavito" "Miguel" "Marina" "Francisco"
+	"Isabel" "Beltrán" "Cavo" "Rosalinda" "Inés" "Digna" "Gonzalo" "Gaspar" "Parosawano" "Pahhauca"
+	"Lenna" "Cushunarahah" "Bowahquasuh" "Ettah" "Kanaretah" "Pahtrisula" "Hotoyokohwot" "Mooraquetop" "Monneconnahheh" "Perna-peta"
+	"Diego García" "Colón" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Baltasar" "Bahamonde" "Bruno"
+	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cuauhtémoc" "Diesel" "Demián" "Daniel" "Diego Carlos" "Epifanio"
+	"Édgar" "Giraldo" "Gastón" "García" "Gil" "Garcilaso" "Gabino" "Hernando" "Huggo" "Honorio"
+	"Horacio" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís" "Lorenzo" "Lope" "Leonor"
+	"Magallanes" "Melchior" "Martín" "Marcos" "Melchor" "Mariano" "Montejo" "Ñuflo" "Olid" "Osvaldo"
+	"Pizarro" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Rodrigo" "Roque" "Renato" "René"
+	"Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" "Ulises" "Urbano"
 	"Vela" "Vasco" "Wenceslao" "Xemen" }
 monarch_names = {
 	"Fellipa #0" = -1

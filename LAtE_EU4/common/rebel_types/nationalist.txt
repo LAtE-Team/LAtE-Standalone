@@ -11,27 +11,27 @@ nationalist_rebels = {
 	independence = nation_rebel_tag 		# Seeks independence for spawn province culture. Will not spawn at all if there is no suitable tag.
 	defect_delay = 60				# Can spontaneously declare independence after 60 months (earliest)
 	unit_transfer = yes				# Units switch allegiance after enforcing demands.
-	gfx_type = culture_province	
-	will_relocate = yes	
-	
+	gfx_type = culture_province
+	will_relocate = yes
+
 	resilient = no
 	reinforcing = yes
-	general = yes				
+	general = yes
 	smart = yes
-	
+
 	artillery = 0.1
 	infantry = 0.6
 	cavalry = 0.3
-	
+
 	morale = 1.0
 
 	# Possible handle actions
 	handle_action_negotiate = yes
 	handle_action_stability = yes
 	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
+	handle_action_send_missionary = yes
 	handle_action_change_culture = yes
-	
+
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 10
@@ -54,13 +54,13 @@ nationalist_rebels = {
 					}
 				}
 			}
-			tolerance_to_this = 0			
+			tolerance_to_this = 0
 	 	}
 		modifier = {
 			factor = 0.01
 			region = france_region
 			has_owner_religion = no
-			owner = { has_disaster = french_wars_of_religion }			
+			owner = { has_disaster = french_wars_of_religion }
 	 	}
 		modifier = {
 			factor = 0.01
@@ -86,7 +86,7 @@ nationalist_rebels = {
 					has_country_modifier = lost_mandate_of_heaven
 					AND = {
 						has_dlc = "Mandate of Heaven"
-						NOT = { imperial_mandate = 50 } 
+						NOT = { imperial_mandate = 50 }
 					}
 				}
 			}
@@ -115,7 +115,7 @@ nationalist_rebels = {
 		modifier = {
 			factor = 1.2
 			NOT = { is_core = owner }
-		}		
+		}
 		modifier = {
 			factor = 1.5
 			owner = {
@@ -185,7 +185,7 @@ nationalist_rebels = {
 			}
 		}
 	}
- 
+
  	# This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
@@ -210,7 +210,7 @@ nationalist_rebels = {
 			unrest = 6
 		}
 	}
- 
+
  	# Province Scope
  	siege_won_trigger = {
  		culture = REB
@@ -222,20 +222,20 @@ nationalist_rebels = {
 		}
 		add_nationalism = 10 # Add ten extra years of nationalism
 	}
-	
+
 	# Country scope
 	can_negotiate_trigger = {
 		is_at_war = no
 	}
-	
+
 	# Country scope
 	can_enforce_trigger = {
 		always = yes
 	}
-	
+
 	# Localisation for their demands
 	demands_description = "nationalist_rebels_demand"
-	
+
 	# Country scope
 	demands_enforced_effect = {
 		hidden_effect = {
@@ -245,7 +245,7 @@ nationalist_rebels = {
 				hidden = yes
 			}
 		}
-		add_prestige = -10	
+		add_prestige = -10
 		if = {
 			limit = {
 				exists = REB
@@ -258,9 +258,9 @@ nationalist_rebels = {
 				if = {
 					limit = { NOT = { is_core = REB } }
 					add_core = REB
-				}			
+				}
 				cede_province = REB
-			}			
+			}
 		}
 		if = {
 			limit = {
@@ -276,6 +276,6 @@ nationalist_rebels = {
 				add_core = REB
 			}
 			create_vassal = REB
-		}		
+		}
 	}
 }

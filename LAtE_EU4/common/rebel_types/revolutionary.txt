@@ -6,31 +6,31 @@ revolutionary_rebels = {
 	color = { 50 85 210 }
 
 	area = nation 					# Stays within the nation
-	government = republic			
+	government = republic
 	defection = none				# Does not defect
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
-	gfx_type = culture_province	
-	will_relocate = yes	
-	
+	gfx_type = culture_province
+	will_relocate = yes
+
 	resilient = no
 	reinforcing = yes
 	general = yes
 	smart = yes
 	revolutionary = yes
-	
+
 	artillery = 0.1
 	infantry = 0.6
 	cavalry = 0.3
-	
+
 	morale = 1.1
-	
+
 	# Possible handle actions
 	handle_action_negotiate = no
 	handle_action_stability = yes
 	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
+	handle_action_send_missionary = yes
+
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 1
@@ -39,13 +39,13 @@ revolutionary_rebels = {
 			owner = {
 				has_parliament = yes
 			}
-		}		
+		}
 		modifier = {
 			factor = 0
 			owner = {
 				is_revolutionary = yes
 			}
-		}	
+		}
 		modifier = {
 			factor = 2
 			is_year = 1700
@@ -94,8 +94,8 @@ revolutionary_rebels = {
 		modifier = {
 			factor = 5.0
 			owner = { has_disaster = revolution }
-		}		
-		
+		}
+
 
 		modifier = {
 			factor = 0.1
@@ -105,7 +105,7 @@ revolutionary_rebels = {
 		}
 
 	}
- 
+
  	# This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
@@ -142,7 +142,7 @@ revolutionary_rebels = {
 			has_revolution_in_province = yes
 		}
 	}
- 
+
  	# Province Scope
  	siege_won_trigger = {
  	}
@@ -164,21 +164,21 @@ revolutionary_rebels = {
 			set_revolution_in_province = yes
 		}
 	}
-	
+
 	# Country scope
 	can_negotiate_trigger = {
 		always = no
 	}
-	
+
 	# Country scope
 	can_enforce_trigger = {
 		always = yes
 	}
-	
+
 	# Localisation for their demands
 	demands_description = "revolutionary_rebels_demand"
-	
-	# Country Scope	
+
+	# Country Scope
 	demands_enforced_effect = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -222,7 +222,7 @@ revolutionary_rebels = {
 		else = {
 			if = {
 				limit = {
-					NOT = { 
+					NOT = {
 						OR = {
 							government = republic
 							has_reform = papacy_reform

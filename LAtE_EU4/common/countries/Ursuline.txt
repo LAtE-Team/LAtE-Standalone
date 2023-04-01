@@ -4,11 +4,11 @@ graphical_culture = westerngfx
 
 color = { 198 249 255 }
 
-monarch_names = {	
+monarch_names = {
 	"Benoît #0" = 0
 	"Clément #0" = 0
 	"François #0" = 0
-	
+
 	"Adrienne #0" = -1
 	"Angèle #0" = -1
 	"Anne #0" = -1

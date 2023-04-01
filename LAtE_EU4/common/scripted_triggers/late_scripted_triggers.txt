@@ -17,7 +17,7 @@ has_religious_scholars_trigger = {
 		}
 	}
 }
- 
+
 can_have_center_of_reformation_trigger = { #Province Scope
 	#$RELIGION$ needs to match the religion of the center that is being spawned.
 	continent = north_america

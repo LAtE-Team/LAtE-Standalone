@@ -8,13 +8,13 @@ color = { 15 106 65 }
 
 leader_names = {
 
-	"May" "Dawn" "Julia" "Cynthia" "Charles" "Holt" "Shizeng" "Phillip" "Elvira" "Frances" 
-	"Miranda" "Martin" "Stanley" "Oliver" "Torben" "Cali" "Presley" "Barbi" "Samantha" "Teng" 
-	"Stephen" "Michi" "Britte" "Siskel" "Bristow" "Benbow" "Clough" "Clark" "Clyde" "Casey" 
-	"Chetco" "Dale" "Eugene" "Fraser" "Fanno" "Glenn" "Hood" "Holman" "Harris" "Irrigon" 
-	"Jefferson" "Joaquin" "Jedediah" "Jeff" "Keswick" "Kirk" "Larch" "Lewis" "Lowell" "Ladd" 
-	"Milo" "Meamber" "Metolius" "Nehalem" "Nathaniel" "Oswald" "Ochoco" "Obediah" "Pinus" "Pierson" 
-	"Quentin" "Rainier" "Ross" "Stanford" "Silsby" "Sutter" "Sycan" "Scott" "Shepard" "Sprague" 
+	"May" "Dawn" "Julia" "Cynthia" "Charles" "Holt" "Shizeng" "Phillip" "Elvira" "Frances"
+	"Miranda" "Martin" "Stanley" "Oliver" "Torben" "Cali" "Presley" "Barbi" "Samantha" "Teng"
+	"Stephen" "Michi" "Britte" "Siskel" "Bristow" "Benbow" "Clough" "Clark" "Clyde" "Casey"
+	"Chetco" "Dale" "Eugene" "Fraser" "Fanno" "Glenn" "Hood" "Holman" "Harris" "Irrigon"
+	"Jefferson" "Joaquin" "Jedediah" "Jeff" "Keswick" "Kirk" "Larch" "Lewis" "Lowell" "Ladd"
+	"Milo" "Meamber" "Metolius" "Nehalem" "Nathaniel" "Oswald" "Ochoco" "Obediah" "Pinus" "Pierson"
+	"Quentin" "Rainier" "Ross" "Stanford" "Silsby" "Sutter" "Sycan" "Scott" "Shepard" "Sprague"
 	"Tumalo" "Trask" "Trevor" "Ukiah" "Vinzenz" "Vanduzen" "Wash" "Whychus" "Winchuck" "Zalophus" }
 monarch_names = {
 	"May #0" = -1

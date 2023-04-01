@@ -1,14 +1,14 @@
 # Order here is the priority for taking them, if trigger is true.
 
 QUE = {
-	NOT = { 
-		exists = CAN 
+	NOT = {
+		exists = CAN
 		is_year = 3300
 	}
 }
 
 CAN = {
-	NOT = { 
+	NOT = {
 		exists = QUE
 		is_year = 3300
 	}

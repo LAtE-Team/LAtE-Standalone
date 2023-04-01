@@ -16,7 +16,7 @@ province_event = {
 	picture = LAKE_TREASURE_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
@@ -29,10 +29,10 @@ province_event = {
 		}
 		region = italy_region
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -70,7 +70,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.1.a
 		FROM = {
@@ -98,7 +98,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
@@ -111,10 +111,10 @@ province_event = {
 		}
 		region = france_region
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -152,7 +152,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.2.a
 		FROM = {
@@ -181,7 +181,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
@@ -200,10 +200,10 @@ province_event = {
 			area = picardy_area
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -241,7 +241,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.3.a
 		FROM = {
@@ -269,7 +269,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
@@ -285,11 +285,11 @@ province_event = {
 			region = russia_region
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
-		
+
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -327,7 +327,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.4.a
 		FROM = {
@@ -356,7 +356,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
@@ -373,10 +373,10 @@ province_event = {
 			region = sahel_region
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -414,7 +414,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.5.a
 		FROM = {
@@ -442,23 +442,23 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
 			NOT = {
 				OR = {
 					has_country_flag = sce_eventchain_flag
-					has_country_flag = sce_end_shanghai_flag 
+					has_country_flag = sce_end_shanghai_flag
 				}
 			}
 		}
 		region = south_china_region
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -496,7 +496,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.6.a
 		FROM = {
@@ -524,28 +524,28 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		FROM = {
 			NOT = {
 				OR = {
 					has_country_flag = sce_eventchain_flag
-						has_country_flag = sce_end_xanadu_flag 
+						has_country_flag = sce_end_xanadu_flag
 				}
 			}
 		}
 		region = north_china_region
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		#modifier = {
 		#	factor = 2
 		#	culture_group = iroquoian
 		#}
-		
+
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -583,7 +583,7 @@ province_event = {
 		#	has_global_flag = sce_ultimate_quivira
 		#}
 	}
-	
+
 	option = {
 		name = seven_cities_events.7.a
 		FROM = {
@@ -611,7 +611,7 @@ province_event = {
 #	picture = CONQUISTADORS_eventPicture
 #
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		has_dlc = "El Dorado"
 #		FROM = {
@@ -641,15 +641,15 @@ province_event = {
 #			}
 #		}
 #	}
-#	
+#
 #	mean_time_to_happen = {
 #		days = 1
-#		
+#
 #		modifier = {
 #			factor = 2
 #			culture_group = iroquoian
 #		}
-#		
+#
 #		modifier = {
 #			factor = 2.0
 #			is_empty = no
@@ -687,7 +687,7 @@ province_event = {
 #			has_global_flag = sce_ultimate_quivira
 #		}
 #	}
-#	
+#
 #	option = {
 #		name = seven_cities_events.8.a
 #		FROM = {
@@ -717,7 +717,7 @@ province_event = {
 	picture = GUARDED_TREASURE_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -728,17 +728,17 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_action01_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				remove_country_modifier = sce_search_rome
 	 			remove_country_modifier = sce_search_paris
 	 			remove_country_modifier = sce_search_amsterdam
@@ -748,12 +748,12 @@ province_event = {
 				remove_country_modifier = sce_search_xanadu
 				remove_country_modifier = sce_search_quivira
 			}
-			kill_leader = { 
+			kill_leader = {
 				type = conquistador
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.100.a
 	}
@@ -766,8 +766,8 @@ province_event = {
 	desc = seven_cities_events.101.d
 	picture = CONQUISTADORS_eventPicture
 
-	is_triggered_only = yes 
-	
+	is_triggered_only = yes
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -779,17 +779,17 @@ province_event = {
 		}
 		has_terrain = desert
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		FROM = {
 			set_country_flag = sce_action02_flag
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.101.a
 		FROM = {
@@ -812,7 +812,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -823,17 +823,17 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		FROM = {
 			set_country_flag = sce_action03_flag
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.102.a
 		FROM = {
@@ -856,7 +856,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -867,17 +867,17 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		FROM = {
 			set_country_flag = sce_action04_flag
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.103.a
 		FROM = {
@@ -894,7 +894,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -905,17 +905,17 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		FROM = {
 			set_country_flag = sce_action05_flag
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.104.a
 		FROM = {
@@ -938,7 +938,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -949,17 +949,17 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		FROM = {
 			set_country_flag = sce_action06_flag
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.105.a
 		FROM = {
@@ -995,7 +995,7 @@ province_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1015,11 +1015,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			owner = {
@@ -1030,13 +1030,13 @@ province_event = {
 				clr_country_flag = sce_action05_flag
 				clr_country_flag = sce_action06_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				set_country_flag = sce_end_rome_flag
 				remove_country_modifier = sce_search_rome
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.200.a
 		FROM = {
@@ -1056,7 +1056,7 @@ province_event = {
 	picture = RELIGIOUS_WARS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1077,11 +1077,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -1092,13 +1092,13 @@ province_event = {
 				clr_country_flag = sce_action05_flag
 				clr_country_flag = sce_action06_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				set_country_flag = sce_end_rome_flag
 				remove_country_modifier = sce_search_rome
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.201.a
 		FROM = {
@@ -1122,7 +1122,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		region = italy_region
@@ -1146,16 +1146,16 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_global_flag = sce_ultimate_rome
-			
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1163,13 +1163,13 @@ province_event = {
 				clr_country_flag = sce_action05_flag
 				clr_country_flag = sce_action06_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				set_country_flag = sce_end_rome_flag
 				remove_country_modifier = sce_search_rome
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.202.a
 		FROM = {
@@ -1192,7 +1192,7 @@ province_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1213,18 +1213,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_paris_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_paris
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1234,7 +1234,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.203.a
 		FROM = {
@@ -1254,7 +1254,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1275,18 +1275,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_paris_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_paris
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1296,14 +1296,14 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.204.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_paris
 			}
-			
+
 			add_country_modifier = {
 				name = sce_paris_ruins
 				duration = 18250
@@ -1321,7 +1321,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1345,11 +1345,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -1357,7 +1357,7 @@ province_event = {
 				set_country_flag = sce_end_paris_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_paris
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1367,8 +1367,8 @@ province_event = {
 			}
 		}
 	}
-	
-	
+
+
 	option = {
 		name = seven_cities_events.205.a
 		FROM = {
@@ -1391,7 +1391,7 @@ province_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1418,18 +1418,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_amsterdam_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amsterdam
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1439,13 +1439,13 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.206.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_amsterdam
-			}				
+			}
 			add_prestige = -10
 		}
 	}
@@ -1459,7 +1459,7 @@ province_event = {
 	picture = INCA_CITY_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1486,18 +1486,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_amsterdam_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amsterdam
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1507,14 +1507,14 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.207.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_amsterdam
 			}
-			
+
 			add_country_modifier = {
 				name = sce_amsterdam_silver
 				duration = 18250
@@ -1532,7 +1532,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		NOT = {
@@ -1562,11 +1562,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -1574,7 +1574,7 @@ province_event = {
 				set_country_flag = sce_end_amsterdam_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amsterdam
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1584,7 +1584,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.208.a
 		FROM = {
@@ -1607,7 +1607,7 @@ province_event = {
 	picture = INCA_CITY_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1631,18 +1631,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_amberroom_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amberroom
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1652,7 +1652,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.209.a
 		FROM = {
@@ -1672,7 +1672,7 @@ province_event = {
 	picture = INCA_CITY_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1696,18 +1696,18 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_amberroom_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amberroom
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1717,14 +1717,14 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.210.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_amberroom
 			}
-			
+
 			add_country_modifier = {
 				name = sce_amberroom_fragments
 				duration = 18250
@@ -1742,7 +1742,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		NOT = {
@@ -1767,14 +1767,14 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_amberroom_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -1782,7 +1782,7 @@ province_event = {
 				set_country_flag = sce_end_amberroom_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amberroom
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1792,19 +1792,19 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.211.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_amberroom
 			}
-			
+
 			add_country_modifier = {
 				name = sce_amberroom_gold
 				duration = -1
 			}
-			
+
 		}
 	}
 }
@@ -1817,7 +1817,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1840,21 +1840,21 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_csstexas_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_csstexas_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_csstexas
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1864,7 +1864,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.212.a
 		FROM = {
@@ -1872,7 +1872,7 @@ province_event = {
 				remove_country_modifier = sce_search_csstexas
 			}
 			add_prestige = -10
-			
+
 		}
 	}
 }
@@ -1885,7 +1885,7 @@ province_event = {
 	picture = INCA_CITY_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -1908,21 +1908,21 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_csstexas_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_csstexas_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_csstexas
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -1932,19 +1932,19 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.213.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_csstexas
 			}
-			
+
 			add_country_modifier = {
 				name = sce_csstexas_fragments
 				duration = 18250
 			}
-			
+
 		}
 	}
 }
@@ -1958,7 +1958,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		NOT = {
@@ -1984,14 +1984,14 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_csstexas_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -1999,7 +1999,7 @@ province_event = {
 				set_country_flag = sce_end_csstexas_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_csstexas
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2009,19 +2009,19 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.214.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_csstexas
 			}
-			
+
 			add_country_modifier = {
 				name = sce_csstexas_gold
 				duration = -1
 			}
-			
+
 		}
 	}
 }
@@ -2034,7 +2034,7 @@ province_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -2053,21 +2053,21 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_shanghai_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_shanghai_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_shanghai
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2077,7 +2077,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.215.a
 		FROM = {
@@ -2097,7 +2097,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -2116,21 +2116,21 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_shanghai_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_shanghai_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_shanghai
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2140,19 +2140,19 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.216.a
 		FROM = {
 			tooltip = {
 				remove_country_modifier = sce_search_shanghai
 			}
-			
+
 			add_country_modifier = {
 				name = sce_shanghai_abandoned
 				duration = 18250
 			}
-			
+
 		}
 	}
 }
@@ -2166,7 +2166,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		NOT = {
@@ -2190,11 +2190,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -2202,7 +2202,7 @@ province_event = {
 				set_country_flag = sce_end_shanghai_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_shanghai
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2212,7 +2212,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.217.a
 		FROM = {
@@ -2223,7 +2223,7 @@ province_event = {
 				name = sce_shanghai_gold
 				duration = -1
 			}
-			
+
 		}
 	}
 }
@@ -2236,7 +2236,7 @@ province_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -2255,10 +2255,10 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_xanadu_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -2269,7 +2269,7 @@ province_event = {
 				set_country_flag = sce_end_xanadu_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_xanadu
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2279,7 +2279,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.218.a
 		FROM = {
@@ -2299,7 +2299,7 @@ province_event = {
 	picture = NATIVES_HIGH_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -2318,21 +2318,21 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_xanadu_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
 				set_country_flag = sce_end_xanadu_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_xanadu
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2342,7 +2342,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.219.a
 		FROM = {
@@ -2353,7 +2353,7 @@ province_event = {
 				name = sce_xanadu_abandoned
 				duration = 18250
 			}
-			
+
 		}
 	}
 }
@@ -2367,7 +2367,7 @@ province_event = {
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		NOT = {
@@ -2389,14 +2389,14 @@ province_event = {
 			NOT = {
 				has_country_flag = sce_end_xanadu_flag
 			}
-			
+
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -2404,7 +2404,7 @@ province_event = {
 				set_country_flag = sce_end_xanadu_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_xanadu
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -2414,7 +2414,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.220.a
 		FROM = {
@@ -2425,7 +2425,7 @@ province_event = {
 				name = sce_xanadu_gold
 				duration = -1
 			}
-			
+
 		}
 	}
 }
@@ -2438,7 +2438,7 @@ province_event = {
 #	picture = NOTHING_FOUND_eventPicture
 #
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		has_dlc = "El Dorado"
 #		is_empty = yes
@@ -2465,11 +2465,11 @@ province_event = {
 #			}
 #		}
 #	}
-#	
+#
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#	
+#
 #	immediate = {
 #		hidden_effect = {
 #			FROM = {
@@ -2480,13 +2480,13 @@ province_event = {
 #				clr_country_flag = sce_action05_flag
 #				clr_country_flag = sce_action06_flag
 #				clr_country_flag = sce_eventchain_flag
-#				
+#
 #				set_country_flag = sce_end_quivira_flag
 #				remove_country_modifier = sce_search_quivira
 #			}
 #		}
 #	}
-#	
+#
 #	option = {
 #		name = seven_cities_events.221.a
 #		FROM = {
@@ -2506,7 +2506,7 @@ province_event = {
 #	picture = INCA_CITY_eventPicture
 #
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		has_dlc = "El Dorado"
 #		is_empty = yes
@@ -2534,11 +2534,11 @@ province_event = {
 #			}
 #		}
 #	}
-#	
+#
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#	
+#
 #	immediate = {
 #		hidden_effect = {
 #			FROM = {
@@ -2549,13 +2549,13 @@ province_event = {
 #				clr_country_flag = sce_action05_flag
 #				clr_country_flag = sce_action06_flag
 #				clr_country_flag = sce_eventchain_flag
-#				
+#
 #				set_country_flag = sce_end_quivira_flag
 #				remove_country_modifier = sce_search_quivira
 #			}
 #		}
 #	}
-#	
+#
 #	option = {
 #		name = seven_cities_events.222.a
 #		FROM = {
@@ -2579,7 +2579,7 @@ province_event = {
 #
 #	major = yes
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		has_dlc = "El Dorado"
 #		OR = {
@@ -2610,16 +2610,16 @@ province_event = {
 #			}
 #		}
 #	}
-#	
+#
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#	
+#
 #	immediate = {
 #		hidden_effect = {
 #			FROM = {
 #				set_global_flag = sce_ultimate_quivira
-#				
+#
 #				clr_country_flag = sce_action01_flag
 #				clr_country_flag = sce_action02_flag
 #				clr_country_flag = sce_action03_flag
@@ -2627,14 +2627,14 @@ province_event = {
 #				clr_country_flag = sce_action05_flag
 #				clr_country_flag = sce_action06_flag
 #				clr_country_flag = sce_eventchain_flag
-#				
+#
 #				set_country_flag = sce_end_quivira_flag
 #				remove_country_modifier = sce_search_quivira
 #			}
 #		}
 #	}
-#	
-#	
+#
+#
 #	option = {
 #		name = seven_cities_events.223.a
 #		FROM = {
@@ -2659,7 +2659,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -2686,11 +2686,11 @@ province_event = {
 			NOT = { has_country_modifier = sce_sacagawea }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			owner = {
@@ -2698,7 +2698,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.300.a
 		FROM = {
@@ -2708,8 +2708,8 @@ province_event = {
 				name = sce_sacagawea
 				duration = 7300
 			}
-			
-		}		
+
+		}
 	}
 	option = {
 		name = seven_cities_events.300.b
@@ -2727,7 +2727,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -2753,11 +2753,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.301.a
 		FROM = {
@@ -2788,7 +2788,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -2801,11 +2801,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			kill_leader = {
@@ -2813,7 +2813,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.302.a
 		FROM = {
@@ -2872,7 +2872,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		OR = {
@@ -2894,11 +2894,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_province_modifier = {
@@ -2914,7 +2914,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.303.a
 		tooltip = {
@@ -2940,7 +2940,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -2959,7 +2959,7 @@ province_event = {
 			NOT = {
 				has_opinion_modifier = { who = FROM modifier = friendly_natives }
 				has_opinion_modifier = { who = FROM modifier = threatening_punishment }
-			}				
+			}
 		}
 		OR = {
 			continent = new_world
@@ -2970,11 +2970,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.304.a
 		FROM = {
@@ -3009,7 +3009,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -3041,11 +3041,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_province_modifier = {
@@ -3061,7 +3061,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.305.a
 		FROM = {
@@ -3084,7 +3084,7 @@ province_event = {
 	picture = NATIVES_HIGH_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -3124,11 +3124,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.306.a
 		owner = {
@@ -3212,7 +3212,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -3238,11 +3238,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.307.a
 		FROM = {
@@ -3265,7 +3265,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		OR = {
@@ -3296,11 +3296,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.308.a
 		FROM = {
@@ -3355,7 +3355,7 @@ province_event = {
 	picture = HUNTER_GATHERERS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		OR = {
@@ -3377,11 +3377,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -3393,7 +3393,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.309.a
 		FROM = {
@@ -3417,7 +3417,7 @@ province_event = {
 	picture = HUNTER_GATHERERS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = no
@@ -3435,7 +3435,7 @@ province_event = {
 			}
 			NOT = {
 				has_opinion_modifier = { who = FROM modifier = friendly_natives }
-			}			
+			}
 		}
 		OR = {
 			continent = new_world
@@ -3446,11 +3446,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.310.a
 		owner = {
@@ -3478,7 +3478,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3496,11 +3496,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			kill_leader = {
@@ -3515,7 +3515,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.400.a
 		FROM = {
@@ -3545,7 +3545,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3558,11 +3558,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.401.c
 		FROM = {
@@ -3591,9 +3591,9 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3603,11 +3603,11 @@ province_event = {
 			continent = north_america
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.402.a
 		random_list = {
@@ -3623,9 +3623,9 @@ province_event = {
 				FROM = {
 					country_event = {
 						id = seven_cities_events.404
-						tooltip = seven_cities_events.404.t					
+						tooltip = seven_cities_events.404.t
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -3660,7 +3660,7 @@ country_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = seven_cities_events.404.a
 		add_prestige = 10
@@ -3675,7 +3675,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3693,10 +3693,10 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 0.5
 			FROM = {
@@ -3704,7 +3704,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			FROM = {
@@ -3712,7 +3712,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.405.a
 		FROM = {
@@ -3738,7 +3738,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3756,16 +3756,16 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
-		
+
 		modifier = {
 			factor = 2
 			continent = oceania
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_province_modifier = {
@@ -3781,7 +3781,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.406.a
 		tooltip = {
@@ -3801,7 +3801,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3814,11 +3814,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.407.a
 		FROM = {
@@ -3835,7 +3835,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		OR = {
@@ -3855,11 +3855,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.408.a
 		FROM = {
@@ -3888,7 +3888,7 @@ province_event = {
 	picture = COASTLINE_MAP_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3906,11 +3906,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.409.a
 		FROM = {
@@ -3930,7 +3930,7 @@ province_event = {
 	picture = AZTEC_PYRAMID_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -3941,7 +3941,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -3998,7 +3998,7 @@ country_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = seven_cities_events.411.a
 		add_prestige = 5
@@ -4013,7 +4013,7 @@ country_event = {
 	picture = AZTEC_PYRAMID_eventPicture
 
 	is_triggered_only = yes
-	
+
 	option = {
 		name = seven_cities_events.412.a
 		add_years_of_income = 0.25
@@ -4028,7 +4028,7 @@ province_event = {
 	picture = NATIVES_LOW_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -4041,11 +4041,11 @@ province_event = {
 			continent = oceania
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.413.a
 		FROM = {
@@ -4068,7 +4068,7 @@ province_event = {
 	picture = CONQUISTADORS_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
@@ -4086,11 +4086,11 @@ province_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = seven_cities_events.414.a
 		add_province_modifier = {
@@ -4269,7 +4269,7 @@ country_event = {
 	picture = NOTHING_FOUND_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "El Dorado"
 		has_idea_group = exploration_ideas
@@ -4468,7 +4468,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			#El Dorado
@@ -4479,14 +4479,14 @@ country_event = {
 				clr_country_flag = sce_action05_flag
 				clr_country_flag = sce_action06_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				set_country_flag = sce_end_rome_flag
 				remove_country_modifier = sce_search_rome
 			#Fountain of Youth
 				set_country_flag = sce_end_paris_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_paris
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4497,7 +4497,7 @@ country_event = {
 				set_country_flag = sce_end_amsterdam_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amsterdam
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4508,7 +4508,7 @@ country_event = {
 				set_country_flag = sce_end_amberroom_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_amberroom
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4519,7 +4519,7 @@ country_event = {
 				set_country_flag = sce_end_csstexas_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_csstexas
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4530,7 +4530,7 @@ country_event = {
 				set_country_flag = sce_end_shanghai_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_shanghai
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4541,7 +4541,7 @@ country_event = {
 				set_country_flag = sce_end_xanadu_flag
 				clr_country_flag = sce_eventchain_flag
 				remove_country_modifier = sce_search_xanadu
-				
+
 				clr_country_flag = sce_action01_flag
 				clr_country_flag = sce_action02_flag
 				clr_country_flag = sce_action03_flag
@@ -4556,12 +4556,12 @@ country_event = {
 				clr_country_flag = sce_action05_flag
 				clr_country_flag = sce_action06_flag
 				clr_country_flag = sce_eventchain_flag
-				
+
 				set_country_flag = sce_end_quivira_flag
 				remove_country_modifier = sce_search_quivira
 		}
 	}
-	
+
 	option = {
 		name = seven_cities_events.1000.a
 		add_prestige = -10

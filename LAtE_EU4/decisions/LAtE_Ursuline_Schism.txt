@@ -38,7 +38,7 @@ country_decisions = {
 				religion = catholic
 			}
 		}
-		effect = {	
+		effect = {
 			hidden_effect = {
 				set_global_flag = ursuline_schism_mended
 			}
@@ -63,6 +63,6 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-		}	
+		}
 	}
 }

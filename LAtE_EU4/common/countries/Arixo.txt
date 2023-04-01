@@ -8,18 +8,18 @@ color = { 146 62 176 }
 
 leader_names = {
 
-	"Brumby" "Armstrong" "Angel" "Allen" "Art" "Abel" "Abaco" "Ariocarp" "Areol" "Behan" 
-	"Ben" "Burton" "Buckey" "Billy" "Beaty" "Bob" "Boyd" "Baca" "Bat" "Boone" 
-	"Buford" "Batamote" "Custer" "Carlos" "Chato" "Cleef" "Cain" "Camarillo" "Coville" "Coquimban" 
-	"Chinle" "Cayento" "Dodge" "Diehl" "Dayton" "Dowell" "Earp" "Elliot" "Eugene" "Elfego" 
-	"Elzy" "Enos" "Enoch" "Emory" "Escobaria" "Frank" "Ford" "Fraser" "Finis" "Frisco" 
-	"Forgon" "Graham" "Garland" "Hafford" "Hagler" "Horton" "Hedley" "Hank" "Harcuvar" "Ike" 
-	"Isom" "Jojo" "Lauro" "Lowell" "Lew" "Leonard" "Lansford" "Leget" "Lay" "Lee" 
-	"Laban" "Mitchell" "Morgan" "Mordecai" "Malachi" "Marion" "Marston" "Massey" "Manuelito" "Mimico" 
-	"Montford" "Mullen" "Mingus" "Newman" "Neal" "Nelson" "Nat" "Oscar" "Owen" "Oljato" 
-	"Pete" "Peludo" "Pollard" "Pat" "Pajarito" "Quinlan" "Ringo" "Rye" "Reuben" "Rosson" 
-	"Rillito" "Rafael" "Rosk" "Stuart" "Shaw" "Sylvester" "Sherman" "Shea" "Seth" "Sol" 
-	"Sclerocact" "Simon" "Tuco" "Tom" "Ted" "Tan" "Tip" "Tiburcio" "Tuba" "Uriah" 
+	"Brumby" "Armstrong" "Angel" "Allen" "Art" "Abel" "Abaco" "Ariocarp" "Areol" "Behan"
+	"Ben" "Burton" "Buckey" "Billy" "Beaty" "Bob" "Boyd" "Baca" "Bat" "Boone"
+	"Buford" "Batamote" "Custer" "Carlos" "Chato" "Cleef" "Cain" "Camarillo" "Coville" "Coquimban"
+	"Chinle" "Cayento" "Dodge" "Diehl" "Dayton" "Dowell" "Earp" "Elliot" "Eugene" "Elfego"
+	"Elzy" "Enos" "Enoch" "Emory" "Escobaria" "Frank" "Ford" "Fraser" "Finis" "Frisco"
+	"Forgon" "Graham" "Garland" "Hafford" "Hagler" "Horton" "Hedley" "Hank" "Harcuvar" "Ike"
+	"Isom" "Jojo" "Lauro" "Lowell" "Lew" "Leonard" "Lansford" "Leget" "Lay" "Lee"
+	"Laban" "Mitchell" "Morgan" "Mordecai" "Malachi" "Marion" "Marston" "Massey" "Manuelito" "Mimico"
+	"Montford" "Mullen" "Mingus" "Newman" "Neal" "Nelson" "Nat" "Oscar" "Owen" "Oljato"
+	"Pete" "Peludo" "Pollard" "Pat" "Pajarito" "Quinlan" "Ringo" "Rye" "Reuben" "Rosson"
+	"Rillito" "Rafael" "Rosk" "Stuart" "Shaw" "Sylvester" "Sherman" "Shea" "Seth" "Sol"
+	"Sclerocact" "Simon" "Tuco" "Tom" "Ted" "Tan" "Tip" "Tiburcio" "Tuba" "Uriah"
 	"Virgil" "Wyatt" "Wallace" "Yakima" }
 monarch_names = {
 	"Brumby #0" = 1

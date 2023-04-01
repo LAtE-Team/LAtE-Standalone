@@ -4,7 +4,7 @@ nautical = { #was pirate
     brethren = {
 		color = { 0.3 0.2 0.2 }
 		icon = 62
-		
+
 		country = {
 			loot_amount = 0.25
 			naval_morale = 0.1
@@ -13,7 +13,7 @@ nautical = { #was pirate
 			loot_amount = 0.25
 			naval_morale = 0.1
 		}
-		
+
 		heretic = { LUBBER }
 	}
 

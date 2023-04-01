@@ -8,22 +8,22 @@ color = { 67 120 103 }
 
 leader_names = {
 
-	"Weluela" "Raymond" "Anna" "Theodosia" "Doris" "Judith" "McCabe" "Nicholas" "Nathaniel" "Waneik" 
-	"Munro" "Quentin" "Anthony" "Ann" "Shelby" "Ernest" "Alexandra" "Mina" "Shelley" "Aliequippa" 
-	"Jane" "Ellen" "Monck" "Ogarita" "Diedrich" "Lennox" "Franklin" "Rebecca" "Margaret" "Truman" 
-	"Josiah" "Gemolo" "Kirke" "Jocelyn" "Regina" "Degonadonty" "Dorothy" "Emma" "David" "Johannes" 
-	"Elihu" "Rodney" "Baltus" "Lewis" "Kirsten" "Armgard" "Jennifer" "Elizabeth" "Simon" "Molly" 
-	"August" "Albert" "Quoz" "Geraldine" "Otetian" "William" "Hudson" "Silus" "Hamilton" "Jasper" 
-	"Viola" "Beatrix" "Ethan" "Kent" "Luna" "Carrey" "Renata" "Kevin" "Brant" "Bethany" 
-	"York" "Hiawatha" "Clair" "Charlotte" "Rufus" "Marlborough" "Frederick" "Barbara" "Artur" "Eli" 
-	"Mather" "Lorna" "Andre" "Riemmelth" "Erastus" "Avril" "Hillary" "Bill" "Ebenezer" "Matthew" 
-	"Meugan" "Holbrook" "Rip" "Malcolm" "Alan" "Andries" "Anton" "Abel" "Archibald" "Brom" 
-	"Benjamin" "Cashunyon" "Charles" "Cornelis" "Clinton" "Cangueese" "Carillon" "Cyrus" "Cephas" "Chester" 
-	"Cotton" "Derrick" "Daniel" "Deserontyon" "Delby" "Darius" "Edgar" "Edwin" "Ellis" "Friso" 
-	"Guyasut" "Geoffrey" "Gideon" "Gerrit" "Hendrick" "Hunter" "Harmanus" "Hugh" "Himerius" "Ichabod" 
-	"Isaac" "Jervis" "Jacobus" "Jovan" "Kel" "Launcelot" "Leo" "Lemuel" "Morris" "Martin" 
-	"Montgomery" "Norton" "Ogden" "Oliver" "Oswald" "Pindar" "Philip" "Phinehas" "Quincy" "Roger" 
-	"Richard" "Rollin" "Stephanus" "Stanwix" "Samuel" "Solon" "Traynor" "Theodore" "Tehwehron" "Tompkin" 
+	"Weluela" "Raymond" "Anna" "Theodosia" "Doris" "Judith" "McCabe" "Nicholas" "Nathaniel" "Waneik"
+	"Munro" "Quentin" "Anthony" "Ann" "Shelby" "Ernest" "Alexandra" "Mina" "Shelley" "Aliequippa"
+	"Jane" "Ellen" "Monck" "Ogarita" "Diedrich" "Lennox" "Franklin" "Rebecca" "Margaret" "Truman"
+	"Josiah" "Gemolo" "Kirke" "Jocelyn" "Regina" "Degonadonty" "Dorothy" "Emma" "David" "Johannes"
+	"Elihu" "Rodney" "Baltus" "Lewis" "Kirsten" "Armgard" "Jennifer" "Elizabeth" "Simon" "Molly"
+	"August" "Albert" "Quoz" "Geraldine" "Otetian" "William" "Hudson" "Silus" "Hamilton" "Jasper"
+	"Viola" "Beatrix" "Ethan" "Kent" "Luna" "Carrey" "Renata" "Kevin" "Brant" "Bethany"
+	"York" "Hiawatha" "Clair" "Charlotte" "Rufus" "Marlborough" "Frederick" "Barbara" "Artur" "Eli"
+	"Mather" "Lorna" "Andre" "Riemmelth" "Erastus" "Avril" "Hillary" "Bill" "Ebenezer" "Matthew"
+	"Meugan" "Holbrook" "Rip" "Malcolm" "Alan" "Andries" "Anton" "Abel" "Archibald" "Brom"
+	"Benjamin" "Cashunyon" "Charles" "Cornelis" "Clinton" "Cangueese" "Carillon" "Cyrus" "Cephas" "Chester"
+	"Cotton" "Derrick" "Daniel" "Deserontyon" "Delby" "Darius" "Edgar" "Edwin" "Ellis" "Friso"
+	"Guyasut" "Geoffrey" "Gideon" "Gerrit" "Hendrick" "Hunter" "Harmanus" "Hugh" "Himerius" "Ichabod"
+	"Isaac" "Jervis" "Jacobus" "Jovan" "Kel" "Launcelot" "Leo" "Lemuel" "Morris" "Martin"
+	"Montgomery" "Norton" "Ogden" "Oliver" "Oswald" "Pindar" "Philip" "Phinehas" "Quincy" "Roger"
+	"Richard" "Rollin" "Stephanus" "Stanwix" "Samuel" "Solon" "Traynor" "Theodore" "Tehwehron" "Tompkin"
 	"Vincent" "Washington" "Walter" "Whitelaw" "Worcester" "Xander" }
 monarch_names = {
 	"Weluela #0" = -1

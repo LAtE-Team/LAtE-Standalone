@@ -8,12 +8,12 @@ color = { 121 64 58 }
 
 leader_names = {
 
-	"Leonardo" "Jorge" "Abelardo" "Alano" "Alberto" "Alvino" "Anderson" "Ángel" "Antonio" "Carlos" 
-	"César" "Chucho" "Cipriano" "Cristoval" "Daniel" "Dante" "Didier" "Diego" "Diógenes" "Édgar" 
-	"Eduardo" "Engelbert" "Eustoquio" "Francisco" "Fruto" "Gerardo" "Gerzon" "Homero" "Hugo" "Ilich" 
-	"Isaías" "Jackson" "Javier" "José" "Josmar" "Juan" "Kluivert" "Laureano" "Layneker" "Leandro" 
-	"Leonel" "Luis" "Manuel" "Marco" "Marcos" "Maurice" "Miguel" "Napoleón" "Nelson" "Noel" 
-	"Palben" "Pedro" "Rafael" "Ramón" "Raúl" "Ricardo" "Rubén" "Sergio" "Simón" "Timoteo" 
+	"Leonardo" "Jorge" "Abelardo" "Alano" "Alberto" "Alvino" "Anderson" "Ángel" "Antonio" "Carlos"
+	"César" "Chucho" "Cipriano" "Cristoval" "Daniel" "Dante" "Didier" "Diego" "Diógenes" "Édgar"
+	"Eduardo" "Engelbert" "Eustoquio" "Francisco" "Fruto" "Gerardo" "Gerzon" "Homero" "Hugo" "Ilich"
+	"Isaías" "Jackson" "Javier" "José" "Josmar" "Juan" "Kluivert" "Laureano" "Layneker" "Leandro"
+	"Leonel" "Luis" "Manuel" "Marco" "Marcos" "Maurice" "Miguel" "Napoleón" "Nelson" "Noel"
+	"Palben" "Pedro" "Rafael" "Ramón" "Raúl" "Ricardo" "Rubén" "Sergio" "Simón" "Timoteo"
 	"Tulio" "Victorio" "William" }
 monarch_names = {
 	"Leonardo #0" = 21

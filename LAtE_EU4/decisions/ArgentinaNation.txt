@@ -11,7 +11,7 @@ country_decisions = {
 			NOT = { exists = ARG }
 
 			culture_group = argentine
-			
+
 			OR = {
 				ai = no
 				AND = {
@@ -39,7 +39,7 @@ country_decisions = {
 			owns_core_province = 2869	# Florida Blanca
 			owns_core_province = 2855	# Misiones
 			owns_core_province = 2846 	# Quisquisacate (Cordoba)
-			
+
 		}
 		effect = {
 			change_tag = ARG

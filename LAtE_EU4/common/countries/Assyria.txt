@@ -20,7 +20,7 @@ monarch_names = {
 	"Yahballaha #0" = 0
 	"Yohannan #0" = 0
 	"Yousef #0" = 0
-	
+
 	"Badr #0" = -1
 	"Fatimah #0" = -1
 	"Walida #0" = -1

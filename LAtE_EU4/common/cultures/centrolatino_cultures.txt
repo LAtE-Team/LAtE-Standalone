@@ -2,56 +2,56 @@ centrolatino = {
 	chapin = {
 		primary = CAM
 		dynasty_names = { "Carmona" "Gallardo" "Ibáńez" }
-		
+
 		male_names = {
-			Adolfo Adrián Alexis Alfred "Alfred Julio" Allan Álvaro Amado Anastasio Andrés "Andrés Ignacio" Antonio Armando Arnoldo Arturo Astor Augusto 
-			Benito 
-			Carías Carlos "Carlos Enrique" "Carlos Mencia" Cayetano Céleo "Cesar Diaz" Cirilo Coronado Crescencio 
-			Daniel Diego Dieter Dionisio Domingo Doroteo Dunia 
-			Edmond Eduardo Efraín Elfego Eliseo Emil Enrique Ernesto Escobar Eusebio 
-			Fabio Federico Felipe Fermín Fernando "Fernando Romeo" Fidel Florencio Fosi Francisco 
-			Galel Gerardo Gilberto Gilbratar Gómez Guillermo "Guillermo Dominguez" Gustavo "Gustavo Adolfo" 
-			Héctor 
-			Ignacio Isaác 
-			Jacobo Jaime Jairo Javier Joaquín Jorge "Jorge Mario" José "José Adalid" "José Andrés" "José Félix" "José Francisco" "José Inocencio" "José Matías" "José Napoleón" "José Rubén" Juan "Juan Federico" "Juan José" "Juan Luis" "Juan Manuel" "Juan Ramón" Julio Justo "Justo Rufino" 
-			Kelvin Kjell 
-			Lázaro Limber Luis "Luis Augusto" 
-			Mágico Manlio Manuel Marco "Marco Antonio" Mariano Mario Mateo Matías Mauricio Maximiliano Maynor Miguel "Miguel Ángel" Milton "Milton Javier" Modesto 
-			Nahún Nicolás Ninrrol Norberto 
-			Oscar Óscar "Óscar Humberto" "Óscar Mendoza" Osman Otto "Otto René" 
-			Pedro "Pío Romero" Policarpo Ponciano Porfirio 
-			Rafael Ramiro Raúl René Robel Roberto Rodolfo Rodrigo Romero Rony Ruben 
-			Sadis Salarrué Salazar Salvador Santiago Saul Sergio Shermón 
-			Tiburcio Timoteo Tomás Toño 
-			Vicente Victor Victoriano Virgilio 
-			"Wilber Eduardo" 
-			Yani 
+			Adolfo Adrián Alexis Alfred "Alfred Julio" Allan Álvaro Amado Anastasio Andrés "Andrés Ignacio" Antonio Armando Arnoldo Arturo Astor Augusto
+			Benito
+			Carías Carlos "Carlos Enrique" "Carlos Mencia" Cayetano Céleo "Cesar Diaz" Cirilo Coronado Crescencio
+			Daniel Diego Dieter Dionisio Domingo Doroteo Dunia
+			Edmond Eduardo Efraín Elfego Eliseo Emil Enrique Ernesto Escobar Eusebio
+			Fabio Federico Felipe Fermín Fernando "Fernando Romeo" Fidel Florencio Fosi Francisco
+			Galel Gerardo Gilberto Gilbratar Gómez Guillermo "Guillermo Dominguez" Gustavo "Gustavo Adolfo"
+			Héctor
+			Ignacio Isaác
+			Jacobo Jaime Jairo Javier Joaquín Jorge "Jorge Mario" José "José Adalid" "José Andrés" "José Félix" "José Francisco" "José Inocencio" "José Matías" "José Napoleón" "José Rubén" Juan "Juan Federico" "Juan José" "Juan Luis" "Juan Manuel" "Juan Ramón" Julio Justo "Justo Rufino"
+			Kelvin Kjell
+			Lázaro Limber Luis "Luis Augusto"
+			Mágico Manlio Manuel Marco "Marco Antonio" Mariano Mario Mateo Matías Mauricio Maximiliano Maynor Miguel "Miguel Ángel" Milton "Milton Javier" Modesto
+			Nahún Nicolás Ninrrol Norberto
+			Oscar Óscar "Óscar Humberto" "Óscar Mendoza" Osman Otto "Otto René"
+			Pedro "Pío Romero" Policarpo Ponciano Porfirio
+			Rafael Ramiro Raúl René Robel Roberto Rodolfo Rodrigo Romero Rony Ruben
+			Sadis Salarrué Salazar Salvador Santiago Saul Sergio Shermón
+			Tiburcio Timoteo Tomás Toño
+			Vicente Victor Victoriano Virgilio
+			"Wilber Eduardo"
+			Yani
 		}
-			
+
 		female_names = {
-			Adela Aguas Aida "Aida Karina" Alba Alcina Ale Alejandra Alessandra Amanda Ana "Ana Cristina" "Ana García" "Ana Luisa" "Ana María" "Ana Regina" "Ana Rivas" "Ana Vilma" Andrea Anita Aurore 
-			Banthita "Banthita Janphon" Bertha Blanca 
-			Carmel Carol Catarina Cáthia Cecilia Claribel Claudia Consuelo Corina 
-			Dania "Dania Patricia" Daphne Dina 
-			Elena Eleonora Elisa Elizabeth Elvia Emma Eva Evelyn 
-			Fabiola Francesca 
-			Gabriela Gabriele Gaby Georgina Gilma "Gilma Robles" Gina Giovanna 
-			Helen Hipólita 
-			Ilma Ingrid Inocete Iris Irma Isabel Isabella 
-			Jacinta Jeimy Jessica Joselina Josii-Ann Juana Julieta Juliza 
-			Kaila Karina Kellee Keylin 
-			Larissa Laura Leticia Lilian Loly Lorena Lourdes Lucila Luisa 
-			Magda Manon Marcela Margarita María "María Josefa" "Maria Luisa" Maribel "Maribel Vasquez" Maricel "Maricel Rosales" Marisol Marlen Martina Mary Matilde Mayella Mayra Melanie Mercedez Michelle Milena Miriam Mita Myrna 
-			Nadia Nataly Neida Nina Nineth Noemi Nora Norma 
-			Olivia Otilia 
-			Patricia Paulette Perla Prudencia 
-			Raquel "Raquel Roxanne" Rebeca Regina "Regina José" Rigoberta Rocsi Rogelia Rosa "Rosa Elena" "Rosa Judith" Rosalina Rosibel Roxana Roxanne Rufina 
-			Sabi Sadia Sandra Sara Sarai Satcha Shery Shiraine Silvia Siomara Sirena Soluna Somaya 
-			Tania Tysha 
-			Vane Vanessa Victoria Vilma 
-			Waldina 
-			Ximena Xiomara 
-			Yadira Yessenia 
+			Adela Aguas Aida "Aida Karina" Alba Alcina Ale Alejandra Alessandra Amanda Ana "Ana Cristina" "Ana García" "Ana Luisa" "Ana María" "Ana Regina" "Ana Rivas" "Ana Vilma" Andrea Anita Aurore
+			Banthita "Banthita Janphon" Bertha Blanca
+			Carmel Carol Catarina Cáthia Cecilia Claribel Claudia Consuelo Corina
+			Dania "Dania Patricia" Daphne Dina
+			Elena Eleonora Elisa Elizabeth Elvia Emma Eva Evelyn
+			Fabiola Francesca
+			Gabriela Gabriele Gaby Georgina Gilma "Gilma Robles" Gina Giovanna
+			Helen Hipólita
+			Ilma Ingrid Inocete Iris Irma Isabel Isabella
+			Jacinta Jeimy Jessica Joselina Josii-Ann Juana Julieta Juliza
+			Kaila Karina Kellee Keylin
+			Larissa Laura Leticia Lilian Loly Lorena Lourdes Lucila Luisa
+			Magda Manon Marcela Margarita María "María Josefa" "Maria Luisa" Maribel "Maribel Vasquez" Maricel "Maricel Rosales" Marisol Marlen Martina Mary Matilde Mayella Mayra Melanie Mercedez Michelle Milena Miriam Mita Myrna
+			Nadia Nataly Neida Nina Nineth Noemi Nora Norma
+			Olivia Otilia
+			Patricia Paulette Perla Prudencia
+			Raquel "Raquel Roxanne" Rebeca Regina "Regina José" Rigoberta Rocsi Rogelia Rosa "Rosa Elena" "Rosa Judith" Rosalina Rosibel Roxana Roxanne Rufina
+			Sabi Sadia Sandra Sara Sarai Satcha Shery Shiraine Silvia Siomara Sirena Soluna Somaya
+			Tania Tysha
+			Vane Vanessa Victoria Vilma
+			Waldina
+			Ximena Xiomara
+			Yadira Yessenia
 			"Zoad Nataly" Zury
 		}
 
@@ -59,54 +59,54 @@ centrolatino = {
 	istmeno = {
 		primary = PNM
 		dynasty_names = { "Cedeno" "Vives" "Bello" "Moralez" "de Las Minas" "de Santa María" "de San Miguelito" "de Paraiso" "Fabela" "Negret" "Araújo" "Vives" "de Tisma" }
-		
+
 		male_names = {
-			Aaron Adelmo Adolfo Alajandro Alberto Alejandro Alfonso Alfredo Allan Alonso Alvarez Alvaro Andre Andrés Ángel Angelo Anthony Aquileo Arnulfo Arsenio 
-			Bayano Belisario Benicio Braulio Brian 
-			Campos Carlos Castro Chafil Charlie Chavela Clau Clodomiro Concepción Cruz Cruze 
-			Danilo Darryn David Diego Domingo 
-			Édgar Edwardo Edwin Eliseo Emmanuel Enrique Ernesto Esteban Estefan Estevan Eusebio Ezeuiel 
-			Felipe Felipo Felix Fernando Floyd Fortunato Francisco 
-			Gabriel Gaspar Gerardo Grego Greivin Guillermo 
-			Harmodio Hector Hilario Hugo 
-			Ignacio Isidro 
-			Jacián Jaime Javier Jeremías Jhon Joaquin Joaquín Joiner Jonathan Jordan Jorge José Josimar Juan Julian Julio 
-			Kevyn Keylor Leonardo Levi Luis 
-			Machiel Maniá Manuel Mao Marcelo Marco Marlon Martín Mateo Mauricio Miguel 
-			Nando Nicolao Nicolas Nidio Nilhs 
-			Orlando Oscar Óscar Oziel 
-			Pablo Panama Paul Paz Pedrarias Pedro Picado 
-			Rafael Ramiro Ramón Raul Rebessi Ricardo Roberto Rodolfo Rolando Romeo Rommel Rouro Rubén Rudy 
-			Salazar Sebastian Sergio Sevastián 
-			Teodorico Tigrí Tomás 
-			Ubarragá Urracá 
-			Valeriano Victor Víctor Victoriano 
-			Westenbe William 
-			Xavier 
-			Yonder 
+			Aaron Adelmo Adolfo Alajandro Alberto Alejandro Alfonso Alfredo Allan Alonso Alvarez Alvaro Andre Andrés Ángel Angelo Anthony Aquileo Arnulfo Arsenio
+			Bayano Belisario Benicio Braulio Brian
+			Campos Carlos Castro Chafil Charlie Chavela Clau Clodomiro Concepción Cruz Cruze
+			Danilo Darryn David Diego Domingo
+			Édgar Edwardo Edwin Eliseo Emmanuel Enrique Ernesto Esteban Estefan Estevan Eusebio Ezeuiel
+			Felipe Felipo Felix Fernando Floyd Fortunato Francisco
+			Gabriel Gaspar Gerardo Grego Greivin Guillermo
+			Harmodio Hector Hilario Hugo
+			Ignacio Isidro
+			Jacián Jaime Javier Jeremías Jhon Joaquin Joaquín Joiner Jonathan Jordan Jorge José Josimar Juan Julian Julio
+			Kevyn Keylor Leonardo Levi Luis
+			Machiel Maniá Manuel Mao Marcelo Marco Marlon Martín Mateo Mauricio Miguel
+			Nando Nicolao Nicolas Nidio Nilhs
+			Orlando Oscar Óscar Oziel
+			Pablo Panama Paul Paz Pedrarias Pedro Picado
+			Rafael Ramiro Ramón Raul Rebessi Ricardo Roberto Rodolfo Rolando Romeo Rommel Rouro Rubén Rudy
+			Salazar Sebastian Sergio Sevastián
+			Teodorico Tigrí Tomás
+			Ubarragá Urracá
+			Valeriano Victor Víctor Victoriano
+			Westenbe William
+			Xavier
+			Yonder
 		}
-			
+
 		female_names = {
-			Adelgonda Adolfa Adolfina Adriana Agata Agatha Aitana Alba Alegría Alejandra Alexa Alicia Ana Anahi Andrea Angela Annie Anyi Arsenia Ascencion Asuncion 
-			Beatriz Belia 
-			Camilla Carmen Cata Chloé Cinthya Claudia Cristina 
-			Daniela Daphne Diana Dina Dinorah Dominga 
-			Elena Elizabeth Esefania Estefani Estefania Estella Ester Eva Evita 
-			Giannina Grecia Guadalupe 
-			Ingrid Irene Irichelle Isabel Isabell Ivelisse Ivy 
-			Jacqueline Jane Jasleen Jazmín Jocelyn Jordana Joselin Josenith Justine 
-			Karen Karla Katherione Kathy Kayla Kenya Kimberly 
-			Laura Libia Lidia Lily Lola Lorena Lorna Lucia Luisa 
-			Mabel Manuela Maria Mariam Maribel Maribelle Marilyn Maritza Markita Marlen Mary Melissa Merce Mercedes Mey Milena Mireya Monique Monserrat 
-			Nadia Natalia Natalie Nazareth Noilyn 
-			Ofelia Olevia Olga 
-			Pabla Pamela Paulette Paz Pilar 
-			Reina Roberta Rosa Roxana 
-			Sakura Sara Savannah Sierra Sileny Sofia Stephanie Stephany Sylvia 
-			Teresa Tica Tierra 
-			Vanessa Veronica 
-			Xaviera Ximena 
-			Yamilex Yanina Yazmin Yendry Yvelis Yvelisse 
+			Adelgonda Adolfa Adolfina Adriana Agata Agatha Aitana Alba Alegría Alejandra Alexa Alicia Ana Anahi Andrea Angela Annie Anyi Arsenia Ascencion Asuncion
+			Beatriz Belia
+			Camilla Carmen Cata Chloé Cinthya Claudia Cristina
+			Daniela Daphne Diana Dina Dinorah Dominga
+			Elena Elizabeth Esefania Estefani Estefania Estella Ester Eva Evita
+			Giannina Grecia Guadalupe
+			Ingrid Irene Irichelle Isabel Isabell Ivelisse Ivy
+			Jacqueline Jane Jasleen Jazmín Jocelyn Jordana Joselin Josenith Justine
+			Karen Karla Katherione Kathy Kayla Kenya Kimberly
+			Laura Libia Lidia Lily Lola Lorena Lorna Lucia Luisa
+			Mabel Manuela Maria Mariam Maribel Maribelle Marilyn Maritza Markita Marlen Mary Melissa Merce Mercedes Mey Milena Mireya Monique Monserrat
+			Nadia Natalia Natalie Nazareth Noilyn
+			Ofelia Olevia Olga
+			Pabla Pamela Paulette Paz Pilar
+			Reina Roberta Rosa Roxana
+			Sakura Sara Savannah Sierra Sileny Sofia Stephanie Stephany Sylvia
+			Teresa Tica Tierra
+			Vanessa Veronica
+			Xaviera Ximena
+			Yamilex Yanina Yazmin Yendry Yvelis Yvelisse
 		}
 
 	}

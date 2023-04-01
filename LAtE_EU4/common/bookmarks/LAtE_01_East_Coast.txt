@@ -3,10 +3,10 @@ bookmark =
 	name = "EAST_COAST_NAME"
 	desc = "EAST_COAST_DESC"
 	date = 3053.11.11
-	
+
 	center = 965
 	default = yes
-	
+
 	country = ONT
 	country = QUE
     country = MRT
@@ -15,7 +15,7 @@ bookmark =
 	country = RED
 	country = NYS
 	country = AGH
-	
+
 	country = WDC
 	country = VER
 	country = MNE
@@ -29,7 +29,7 @@ bookmark =
 	#country = MIC #No content
 	#country = HUD #New content
 	#country = URS #No conent
-	
+
 	#country = RED #No conent
 	#country = NYS #No content
 	#country = AGH #New content

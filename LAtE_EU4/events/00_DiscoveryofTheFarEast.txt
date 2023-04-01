@@ -4,7 +4,7 @@ country_event = {
 	title = "EVTNAME9000"
 	desc = "EVTDESC9000"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		NOT = { has_global_flag = japan_has_encountered_the_west }
 		technology_group = western
@@ -17,11 +17,11 @@ country_event = {
 			has_discovered = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+
 	option = {
 		name = "EVTOPTA9000"
 		add_prestige = 10
@@ -35,7 +35,7 @@ country_event = {
 	title = "EVTNAME9001"
 	desc = "EVTDESC9001"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		technology_group = western
 		NOT = { 1020 = { has_discovered = ROOT } }
@@ -44,7 +44,7 @@ country_event = {
 			has_discovered = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -63,7 +63,7 @@ country_event = {
 	title = "EVTNAME9004"
 	desc = "EVTDESC9004"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_global_flag = japan_is_closed }
 		has_reform = daimyo
@@ -74,7 +74,7 @@ country_event = {
 		}
 		NOT = { has_country_flag = jap_christian_pater_flag }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -94,11 +94,11 @@ country_event = {
 			has_country_modifier = western_embassy_mission
 		}
 	}
-	
+
 	immediate = {
 		set_country_flag = jap_christian_pater_flag
 	}
-	
+
 	option = {
 		name = "EVTOPTA9004"
 		ai_chance = {
@@ -125,7 +125,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB9004"
-		ai_chance = { factor = 75 }		
+		ai_chance = { factor = 75 }
 		add_adm_power = -20
 		add_prestige = 2
 	}
@@ -137,7 +137,7 @@ province_event = {
 	title = "EVTNAME9006"
 	desc = "EVTDESC9006"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		NOT = { has_global_flag = japan_is_closed }
 		has_province_modifier = local_christian_mission
@@ -146,7 +146,7 @@ province_event = {
 		}
 		has_global_flag = japan_has_encountered_the_west
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -162,7 +162,7 @@ province_event = {
 			owner = { innovativeness_ideas = 7 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9006"
 		ai_chance = {
@@ -207,7 +207,7 @@ province_event = {
 	title = "EVTNAME9008"
 	desc = "EVTDESC9008"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		religion = catholic
 		culture_group = japanese_g
@@ -216,7 +216,7 @@ province_event = {
 			religion = shinto
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 2000
 		modifier = {
@@ -240,7 +240,7 @@ province_event = {
 			has_global_flag = japan_is_closed
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9008"
 		random_list = {
@@ -267,13 +267,13 @@ country_event = {
 	title = "EVTNAME9010"
 	desc = "EVTDESC9010"
 	picture = NAVAL_MILITARY_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_global_flag = japan_is_closed }
 		NOT = { has_country_modifier = jap_red_ship_timer }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 700
 		modifier = {
@@ -319,7 +319,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -329,7 +329,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9010"
 		random_list = {
@@ -358,7 +358,7 @@ country_event = {
 	title = "EVTNAME9012"
 	desc = "EVTDESC9012"
 	picture = DIPLOMACY_eventPicture
-	
+
 	trigger = {
 		has_country_modifier = western_embassy_mission
 		any_owned_province = {
@@ -367,7 +367,7 @@ country_event = {
 		NOT = { religion = catholic }
 		NOT = { has_global_flag = japan_is_closed }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -383,7 +383,7 @@ country_event = {
 			dip = 3
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9012"
 		add_adm_power = 20
@@ -417,7 +417,7 @@ province_event = {
 	title = "EVTNAME9014"
 	desc = "EVTDESC9014"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		religion = catholic
 		owner = {
@@ -425,7 +425,7 @@ province_event = {
 			NOT = { has_country_modifier = jap_kirishitan_harrassed_timer }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 600
 		modifier = {
@@ -433,7 +433,7 @@ province_event = {
 			has_global_flag = japan_is_closed
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			owner = {
@@ -445,7 +445,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9014"
 		spawn_rebels = {
@@ -462,14 +462,14 @@ country_event = {
 	title = "EVTNAME9016"
 	desc = "EVTDESC9016"
 	picture = INVENTION_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		has_global_flag = japan_has_encountered_the_west
 		NOT = { has_global_flag = japan_is_closed }
 		NOT = { has_country_modifier = jap_tempura_timer }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 		modifier = {
@@ -483,9 +483,9 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			NOT = { innovativeness_ideas = 4 }
-		}	
+		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -495,7 +495,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9016"
 		add_prestige = 5
@@ -512,7 +512,7 @@ country_event = {
 	title = "EVTNAME9018"
 	desc = "EVTDESC9018"
 	picture = LAND_MILITARY_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		has_global_flag = japan_has_encountered_the_west
@@ -522,7 +522,7 @@ country_event = {
 		}
 		NOT = { has_country_modifier = a_batch_of_western_muskets }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -534,7 +534,7 @@ country_event = {
 			innovativeness_ideas = 6
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9018"
 		add_country_modifier = {
@@ -549,19 +549,19 @@ country_event = {
 	}
 }
 
-# Kabuki Theatre 
+# Kabuki Theatre
 country_event = {
 	id = 9020
 	title = "EVTNAME9020"
 	desc = "EVTDESC9020"
 	picture = THEATRE_eventPicture
-	
+
 	trigger = {
 		is_year = 1600
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_kabuki_timer }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 400
 		modifier = {
@@ -569,7 +569,7 @@ country_event = {
 			has_idea = patron_of_art
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -579,7 +579,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9020"
 		add_years_of_income = 0.2
@@ -588,7 +588,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB9020"
-		define_advisor = { 
+		define_advisor = {
 			type = artist
 			discount = yes
 			skill = 2
@@ -602,12 +602,12 @@ country_event = {
 	title = "EVTNAME9022"
 	desc = "EVTDESC9022"
 	picture = MILITARY_CAMP_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_ronin_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -617,7 +617,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -637,7 +637,7 @@ country_event = {
 			war_exhaustion = 8
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9022"
 		add_years_of_income = -0.2
@@ -669,12 +669,12 @@ country_event = {
 	title = "EVTNAME9024"
 	desc = "EVTDESC9024"
 	picture = THEATRE_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_nogaku_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -684,7 +684,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 350
 		modifier = {
@@ -698,7 +698,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9024"
 		add_prestige = 10
@@ -716,7 +716,7 @@ country_event = {
 	title = "EVTNAME9026"
 	desc = "EVTDESC9026"
 	picture = ADVISOR_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = {
@@ -725,7 +725,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -737,7 +737,7 @@ country_event = {
 			has_idea = patron_of_art
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9026"
 		random_owned_province = {
@@ -760,13 +760,13 @@ country_event = {
 	title = "EVTNAME9028"
 	desc = "EVTDESC9028"
 	picture = COURT_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		army_tradition = 10
 		NOT = { has_country_modifier = jap_loyal_samurai_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -776,7 +776,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -798,7 +798,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9028"
 		add_legitimacy = 5
@@ -818,13 +818,13 @@ country_event = {
 	title = "EVTNAME9030"
 	desc = "EVTDESC9030"
 	picture = ADVISOR_eventPicture
-	
+
 	trigger = {
 		NOT = { num_of_cities = 2 } #OPM Flavor
 		religion = shinto
 		NOT = { has_country_modifier = jap_monk_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -834,7 +834,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -846,7 +846,7 @@ country_event = {
 			NOT = { innovativeness_ideas = 2 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9030"
 		add_years_of_income = -0.25
@@ -864,12 +864,12 @@ country_event = {
 	title = "EVTNAME9032"
 	desc = "EVTDESC9032"
 	picture = RELIGION_eventPicture
-	
+
 	trigger = {
 		religion = shinto
 		NOT = { has_country_modifier = jap_shrine_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -879,8 +879,8 @@ country_event = {
 			}
 		}
 	}
-	
-	
+
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -892,7 +892,7 @@ country_event = {
 			NOT = { stability = 0 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9032"
 		add_adm_power = 50
@@ -912,14 +912,14 @@ country_event = {
 	title = "EVTNAME9034"
 	desc = "EVTDESC9034"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		religion = shinto
 		is_month = 0
 		NOT = { is_month = 5 }
 		NOT = { has_country_modifier = jap_hanami_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -929,7 +929,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -937,7 +937,7 @@ country_event = {
 			NOT = { stability = 0 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9034"
 		add_adm_power = 25
@@ -955,12 +955,12 @@ country_event = {
 	title = "EVTNAME9036"
 	desc = "EVTDESC9036"
 	picture = ADVISOR_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_koku_tax_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -970,7 +970,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -990,7 +990,7 @@ country_event = {
 			NOT = { stability = 0 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9036"
 		add_years_of_income = 1
@@ -1015,12 +1015,12 @@ country_event = {
 	title = "EVTNAME9038"
 	desc = "EVTDESC9038"
 	picture = DEATH_OF_HEIR_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_geisha_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -1030,7 +1030,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -1054,7 +1054,7 @@ country_event = {
 			has_idea = patron_of_art
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9038"
 		add_adm_power = -25
@@ -1072,14 +1072,14 @@ country_event = {
 	title = "EVTNAME9040"
 	desc = "EVTDESC9040"
 	picture = BATTLE_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		has_heir = yes
 		NOT = { stability = -2 }
 		NOT = { prestige = 0 }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 650
 		modifier = {
@@ -1095,7 +1095,7 @@ country_event = {
 			NOT = { legitimacy = 50 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9040"
 		kill_ruler = yes
@@ -1116,7 +1116,7 @@ country_event = {
 	title = "EVTNAME9042"
 	desc = "EVTDESC9042"
 	picture = BATTLE_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { legitimacy = 60 }
@@ -1125,7 +1125,7 @@ country_event = {
 		}
 		NOT = { has_country_modifier = jap_unruly_daimyo_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -1135,7 +1135,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 650
 		modifier = {
@@ -1151,7 +1151,7 @@ country_event = {
 			stability = 1
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9042"
 		add_country_modifier = {
@@ -1179,13 +1179,13 @@ country_event = {
 	title = "EVTNAME9044"
 	desc = "EVTDESC9044"
 	picture = REFORM_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		inflation = 10
 		NOT = { has_country_modifier = jap_koku_reform_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -1195,7 +1195,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -1219,7 +1219,7 @@ country_event = {
 			stability = 2
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9044"
 		create_advisor = master_of_mint
@@ -1241,7 +1241,7 @@ country_event = {
 	title = "EVTNAME9046"
 	desc = "EVTDESC9046"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		has_global_flag = japan_has_encountered_the_west
@@ -1252,7 +1252,7 @@ country_event = {
 		NOT = { has_global_flag = japan_is_closed }
 		NOT = { has_country_modifier = jap_rangaku_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -1262,7 +1262,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 550
 		modifier = {
@@ -1290,7 +1290,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9046"
 		add_country_modifier = {
@@ -1316,12 +1316,12 @@ country_event = {
 	title = "EVTNAME9050"
 	desc = "EVTDESC9050"
 	picture = PLAGUE_eventPicture
-	
+
 	trigger = {
 		has_reform = daimyo
 		NOT = { has_country_modifier = jap_rice_fail_timer }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -1331,7 +1331,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 450
 		modifier = {
@@ -1347,7 +1347,7 @@ country_event = {
 			stability = 1
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9050"
 		add_stability = -1

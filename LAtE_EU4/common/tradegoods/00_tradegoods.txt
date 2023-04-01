@@ -45,7 +45,7 @@ grain = {
 			OR = {
 				has_climate = arid
 				has_climate = tropical
-				
+
 			}
 		}
 		modifier = {
@@ -130,11 +130,11 @@ wine = {
 			NOT = { area = nootka_area }
 			NOT = { area = columbia_river_area }
 			NOT = { area = interior_plateau_area }
-			
+
 			NOT = { region = france_region }
 			NOT = { region = italy_region }
 			NOT = { region = iberia_region }
-			
+
 		}
 		modifier = {
 			factor = 0.25
@@ -167,7 +167,7 @@ wine = {
 				}
 			}
 		}
-		
+
 		#AtE Additions
 		# modifier = {	#Done through individual province files
 			# factor = 100
@@ -185,12 +185,12 @@ wine = {
 				# province_id = 4528 #Essex
 				# province_id = 987 #Welland (Canadian Niagra region)
 				# province_id = 4531 #Hastings (Prince Edward County)
-				# province_id = 4578 #Niagra 
+				# province_id = 4578 #Niagra
 				# province_id = 4580 #Canadea (Finger Lakes)
 				# province_id = 4541 #Newburgh (Hudson Valley)
 			# }
 		# }
-		
+
 	}
 }
 
@@ -276,7 +276,7 @@ wool = {
 		}
 		modifier = {
 			factor = 0.5
-			
+
 		}
 	}
 }
@@ -360,7 +360,7 @@ fur = {
 	province = {
 		 province_trade_power_modifier = 0.10
 	}
-	
+
 	chance = {
 		factor = 15
 		modifier = {
@@ -581,7 +581,7 @@ copper = {
 				has_terrain = glacier
 				has_terrain = jungle
 				has_terrain = farmlands
-				
+
 				AND = {
 					has_terrain = grasslands
 					has_terrain = woods
@@ -591,10 +591,10 @@ copper = {
 					NOT = { area = actual_susquehanna_area }
 					NOT = { area = ohio_country_area }
 					NOT = { area = detroit_area }
-					NOT = { area = michigan_area }					
+					NOT = { area = michigan_area }
 				}
 			}
-			
+
 		}
 		modifier = {
 			factor = 0
@@ -673,12 +673,12 @@ copper = {
 			factor = 10
 			OR = {
 			    #The Rust Belt
-				area = miami_river_area 
-				area = susquehanna_area 
-				area = actual_susquehanna_area 
-				area = ohio_country_area 
-				area = detroit_area 
-				area = michigan_area 
+				area = miami_river_area
+				area = susquehanna_area
+				area = actual_susquehanna_area
+				area = ohio_country_area
+				area = detroit_area
+				area = michigan_area
 			}
 		}
 	}
@@ -687,7 +687,7 @@ copper = {
 gold = {
 	color = { 1.0 0.84 0.19 }
 	#no modifiers
-	
+
 	chance = {
 		factor = 5
 		modifier = {
@@ -850,13 +850,13 @@ iron = {
 			factor = 10
 			#The Rust Belt
 			OR = {
-				area = miami_river_area 
-				area = susquehanna_area 
-				area = actual_susquehanna_area 
-				area = ohio_country_area 
-				area = detroit_area 
-				area = michigan_area 
-				area = laurentian_area 
+				area = miami_river_area
+				area = susquehanna_area
+				area = actual_susquehanna_area
+				area = ohio_country_area
+				area = detroit_area
+				area = michigan_area
+				area = laurentian_area
 			}
 		}
 		modifier = {
@@ -899,7 +899,7 @@ slaves = {
 		modifier = {
 			factor = 0
 			island = yes
-		}		
+		}
 		modifier = {
 			factor = 2.0
 			OR = {
@@ -1114,7 +1114,7 @@ chinaware = {
 			NOT = { region = south_china_region }
 			NOT = { region = japan_region }
 			#LAtE
-			NOT = { culture_group = californian }	
+			NOT = { culture_group = californian }
 		}
 		modifier = {
 			factor = 0
@@ -1273,12 +1273,12 @@ cotton = {
 			NOT = { region = deccan_region }
 			NOT = { region = anatolia_region }
 			NOT = { region = mongolia_region }
-			#LAtE 
+			#LAtE
 			NOT = { region = sahel_region }
 			NOT = { region = niger_region }
 			NOT = { region = north_china_region }
 			NOT = { region = south_china_region }
-			NOT = { region = iberia_region }	
+			NOT = { region = iberia_region }
 		}
 		modifier = {
 			factor = 0
@@ -1370,7 +1370,7 @@ sugar = {
 			NOT = { region = deccan_region }
 			NOT = { region = west_india_region }
 			NOT = { area = mascarenes_area }
-			
+
 			#LAtE Additions for Europe/North Africa
 			NOT = { region = maghreb_region }	#Islamic states grew sugar in North Africa and South Iberia from 700 to 1500
 			NOT = { region = iberia_region }
@@ -1451,7 +1451,7 @@ tobacco = {
 				has_terrain = drylands
 				has_terrain = desert
 			}
-		}	
+		}
 		modifier = {		#Colonial cash crops in the old world
 			factor = 2.5
 			OR = {
@@ -1459,7 +1459,7 @@ tobacco = {
 				region = xinan_region
 				region = korea_region
 				region = manchuria_region
-				region = balkan_region 
+				region = balkan_region
 				region = anatolia_region
 				region = italy_region
 				region = france_region
@@ -1560,7 +1560,7 @@ silk = {
 		}
 		modifier = {
 			factor = 0
-			
+
 			NOT = { region = south_china_region }
 			NOT = { region = xinan_region }
 			NOT = { region = north_china_region }
@@ -1594,7 +1594,7 @@ dyes = {
 	province = {
 		 province_trade_power_modifier = 0.10
 	}
-	
+
 	chance = {
 		factor = 15
 		modifier = {
@@ -2005,7 +2005,7 @@ coal = {
 	is_valuable = yes
 
 	rnw_latent_chance = 7 # Kind of on average how many provinces we want to spawn with it
-	
+
 	trigger = {
 		OR = {
 			development_discounting_tribal = 20
@@ -2017,11 +2017,11 @@ coal = {
 		}
 		owner = { has_institution = enlightenment }
 	}
-	
+
 	modifier = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	
+
 	province = {
 		local_state_maintenance_modifier = -0.2
 	}

@@ -44,7 +44,7 @@ monarch_names = {
 	"Ogin" = 30
 	"Earl" = 30
 	"Bong" = 30
-	"Shylock Rosenfeld" = 30	
+	"Shylock Rosenfeld" = 30
 }
 leader_names = {
         "Hernandez"

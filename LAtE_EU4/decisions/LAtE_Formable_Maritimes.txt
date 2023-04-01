@@ -112,7 +112,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	restore_order = {
 		major = yes
 		potential = {

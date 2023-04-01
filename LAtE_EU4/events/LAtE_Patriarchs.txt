@@ -22,13 +22,13 @@ country_event = {
 			religion = americanist
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -65,7 +65,7 @@ country_event = {
 	}
 }
 
-# 
+#
 country_event = {
 	id = patriarch_events.2
 	title = patriarch_events.2.t
@@ -81,13 +81,13 @@ country_event = {
 			religion = americanist
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -187,13 +187,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -334,13 +334,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -407,13 +407,13 @@ country_event = {
 			NOT = { has_province_flag = land_theft_from_monastics }
 		}
 	}
-	
+
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
