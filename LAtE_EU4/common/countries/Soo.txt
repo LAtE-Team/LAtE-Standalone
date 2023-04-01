@@ -8,14 +8,14 @@ color = { 187 196 130 }
 
 leader_names = {
 
-	"Garrison" "Loke" "Stenvar" "Odd" "Karolina" "Hanna" "Bjartur" "Casper" "Bodil" "Ivarr" 
-	"Torleif" "Arto" "Arnbjorg" "Thomm" "Lumen" "Ladislaus" "Marshall" "Durant" "Stahlrich" "Nathan" 
-	"Stahlgar" "Armstrong" "Hudson" "Axel" "Ander" "Nelkir" "Snorre" "Pierre" "Michel" "Ludvig" 
-	"Rudolf" "Arne" "Albert" "Aapo" "Aimo" "Alvar" "Anton" "Aulis" "Christer" "Erno" 
-	"Eino" "Edvard" "Edvin" "Emil" "Eero" "Elias" "Fredrik" "Filip" "Frans" "Harve" 
-	"Henrik" "Heikki" "Harri" "Heino" "Ivar" "Jimmer" "Johan" "Joakim" "Juho" "Jorma" 
-	"Kris" "Kalan" "Kupar" "Kivi" "Karl" "Kauko" "Lunta" "Leo" "Otto" "Osmo" 
-	"Ole" "Pasi" "Reuben" "Remnar" "Ransom" "Samuel" "Seppo" "Tommo" "Tohmas" "Torvald" 
+	"Garrison" "Loke" "Stenvar" "Odd" "Karolina" "Hanna" "Bjartur" "Casper" "Bodil" "Ivarr"
+	"Torleif" "Arto" "Arnbjorg" "Thomm" "Lumen" "Ladislaus" "Marshall" "Durant" "Stahlrich" "Nathan"
+	"Stahlgar" "Armstrong" "Hudson" "Axel" "Ander" "Nelkir" "Snorre" "Pierre" "Michel" "Ludvig"
+	"Rudolf" "Arne" "Albert" "Aapo" "Aimo" "Alvar" "Anton" "Aulis" "Christer" "Erno"
+	"Eino" "Edvard" "Edvin" "Emil" "Eero" "Elias" "Fredrik" "Filip" "Frans" "Harve"
+	"Henrik" "Heikki" "Harri" "Heino" "Ivar" "Jimmer" "Johan" "Joakim" "Juho" "Jorma"
+	"Kris" "Kalan" "Kupar" "Kivi" "Karl" "Kauko" "Lunta" "Leo" "Otto" "Osmo"
+	"Ole" "Pasi" "Reuben" "Remnar" "Ransom" "Samuel" "Seppo" "Tommo" "Tohmas" "Torvald"
 	"Toivo" "Wolf" }
 monarch_names = {
 	"Garrison #0" = 1

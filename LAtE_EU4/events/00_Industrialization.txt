@@ -41,7 +41,7 @@ country_event = {
 	title = "industrialization_events.1.t"
 	desc = "industrialization_events.1.d"
 	picture = ATMOSPHERIC_ENGINE_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -59,7 +59,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = atmospheric_engine_flag
@@ -79,11 +79,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.1.a"
 		custom_tooltip = industrialization_events.1.a.tt
@@ -103,10 +103,10 @@ country_event = {
 	id = industrialization_events.2
 	title = "industrialization_events.2.t"
 	picture = URBANIZATION_eventPicture
-	
+
 
 	desc = industrialization_events.2.d
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -124,7 +124,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = coke_blast_furnaces_flag
@@ -149,11 +149,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.2.a"
 		custom_tooltip = industrialization_events.2.a.tt
@@ -177,9 +177,9 @@ country_event = {
 	id = industrialization_events.3
 	title = "industrialization_events.3.t"
 	picture = ATMOSPHERIC_ENGINE_eventPicture
-	
+
 	desc = industrialization_events.3.d
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -198,7 +198,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = watt_steam_engine_flag
@@ -223,11 +223,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.3.a"
 		custom_tooltip = industrialization_events.3.a.tt
@@ -251,7 +251,7 @@ country_event = {
 	title = "industrialization_events.4.t"
 	desc = "industrialization_events.4.d"
 	picture = INDUSTRIALIZATION_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -268,7 +268,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = rotherham_plough_flag
@@ -292,11 +292,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.4.a"
 		custom_tooltip = industrialization_events.4.a.tt
@@ -320,7 +320,7 @@ country_event = {
 	title = "industrialization_events.5.t"
 	desc = "industrialization_events.5.d"
 	picture = TEXTILE_INDUSTRY_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -338,7 +338,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = flying_shuttle_flag
@@ -363,11 +363,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.5.a"
 		custom_tooltip = industrialization_events.5.a.tt
@@ -391,7 +391,7 @@ country_event = {
 	title = "industrialization_events.6.t"
 	desc = "industrialization_events.6.d"
 	picture = TEXTILE_INDUSTRY_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -410,7 +410,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = spinning_jenny_flag
@@ -435,11 +435,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = "industrialization_events.6.a"
 		custom_tooltip = industrialization_events.6.a.tt
@@ -467,9 +467,9 @@ country_event = {
 	title = "industrialization_events.7.t"
 	desc = "industrialization_events.7.d"
 	picture = LARGE_SHIPYARD_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -532,7 +532,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -586,7 +586,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -656,7 +656,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.7.a"
 		add_years_of_income = -0.35
@@ -695,9 +695,9 @@ country_event = {
 	title = "industrialization_events.8.t"
 	desc = "industrialization_events.8.d"
 	picture = INDUSTRIALIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -713,7 +713,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -745,7 +745,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -797,7 +797,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.8.a"
 		event_target:agricultural_province = {
@@ -824,9 +824,9 @@ country_event = {
 	title = "industrialization_events.9.t"
 	desc = "industrialization_events.9.d"
 	picture = URBANIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -895,7 +895,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = { #industrialization_province
 		hidden_effect = {
 			random_owned_province = {
@@ -964,7 +964,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1034,7 +1034,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.9.a"
 		event_target:industrialization_province = {
@@ -1073,9 +1073,9 @@ country_event = {
 	title = "industrialization_events.10.t"
 	desc = "industrialization_events.10.d"
 	picture = TEXTILE_INDUSTRY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1096,7 +1096,7 @@ country_event = {
 			base_manpower = 2
 		}
 	}
-	
+
 	immediate = { #industrialization_province
 		hidden_effect = {
 			random_owned_province = {
@@ -1121,7 +1121,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1192,7 +1192,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.10.a"
 		event_target:industrialization_province = {
@@ -1210,9 +1210,9 @@ country_event = {
 	title = "industrialization_events.11.t"
 	desc = "industrialization_events.11.d"
 	picture = PRINTING_PRESS_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1234,7 +1234,7 @@ country_event = {
 			NOT = { has_latent_trade_goods = coal }
 		}
 	}
-	
+
 	immediate = { #industrialization_province
 		hidden_effect = {
 			random_owned_province = {
@@ -1258,7 +1258,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1315,7 +1315,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.11.a"
 		event_target:industrialization_province = {
@@ -1334,9 +1334,9 @@ country_event = {
 	title = "industrialization_events.12.t"
 	desc = "industrialization_events.12.d"
 	picture = URBANIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1359,7 +1359,7 @@ country_event = {
 			province_without_special_goods_produced_trigger = yes
 		}
 	}
-	
+
 	immediate = { #glass_province
 		hidden_effect = {
 			random_owned_province = {
@@ -1382,7 +1382,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1439,7 +1439,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.12.a"
 		event_target:glass_province = {
@@ -1460,9 +1460,9 @@ country_event = {
 	title = "industrialization_events.13.t"
 	desc = "industrialization_events.13.d"
 	picture = URBANIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1498,7 +1498,7 @@ country_event = {
 			base_manpower = 2
 		}
 	}
-	
+
 	immediate = { #urbanization_province
 		hidden_effect = {
 			random_owned_province = {
@@ -1521,7 +1521,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1617,7 +1617,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.13.a"
 		event_target:urbanization_province = {
@@ -1647,9 +1647,9 @@ country_event = {
 	title = "industrialization_events.14.t"
 	desc = "industrialization_events.14.d"
 	picture = URBANIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1685,7 +1685,7 @@ country_event = {
 			base_manpower = 2
 		}
 	}
-	
+
 	immediate = { #iron_province (not necessarily Iron)
 		hidden_effect = {
 			random_owned_province = {
@@ -1711,7 +1711,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1808,7 +1808,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.14.a"
 		event_target:iron_province = {
@@ -1837,9 +1837,9 @@ country_event = {
 	title = "industrialization_events.15.t"
 	desc = "industrialization_events.15.d"
 	picture = TEXTILE_INDUSTRY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -1878,7 +1878,7 @@ country_event = {
 			base_manpower = 2
 		}
 	}
-	
+
 	immediate = { #textile_province
 		hidden_effect = {
 			random_owned_province = {
@@ -1904,7 +1904,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2003,7 +2003,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.15.a"
 		event_target:textile_province = {
@@ -2032,9 +2032,9 @@ country_event = {
 	title = "industrialization_events.16.t"
 	desc = "industrialization_events.16.d"
 	picture = LARGE_SHIPYARD_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2066,7 +2066,7 @@ country_event = {
 			base_manpower = 2
 		}
 	}
-	
+
 	immediate = { #ship_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2089,7 +2089,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2176,7 +2176,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.16.a"
 		event_target:ship_province = {
@@ -2207,9 +2207,9 @@ country_event = {
 	title = "industrialization_events.17.t"
 	desc = "industrialization_events.17.d"
 	picture = RIOTING_workers_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2219,7 +2219,7 @@ country_event = {
 			NOT = { has_province_flag = luddite_protests }
 		}
 	}
-	
+
 	immediate = { #luddite_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2232,7 +2232,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2327,7 +2327,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.17.a"
 		ai_chance = {
@@ -2362,9 +2362,9 @@ country_event = {
 	title = "industrialization_events.18.t"
 	desc = "industrialization_events.18.d"
 	picture = RIOTING_workers_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2377,7 +2377,7 @@ country_event = {
 			NOT = { has_province_flag = impoverished_artisans }
 		}
 	}
-	
+
 	immediate = { #poor_artisans_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2393,7 +2393,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2488,7 +2488,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.18.a"
 		ai_chance = {
@@ -2517,9 +2517,9 @@ country_event = {
 	title = "industrialization_events.19.t"
 	desc = "industrialization_events.19.d"
 	picture = PLAGUE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2531,7 +2531,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = { #disease_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2547,7 +2547,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2558,7 +2558,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.19.a"
 		ai_chance = {
@@ -2583,9 +2583,9 @@ country_event = {
 	title = "industrialization_events.20.t"
 	desc = "industrialization_events.20.d"
 	picture = RIOTING_workers_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2599,7 +2599,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = { #mining_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2619,7 +2619,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2630,7 +2630,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.20.a"
 		event_target:mining_province = {
@@ -2645,9 +2645,9 @@ country_event = {
 	title = "industrialization_events.21.t"
 	desc = "industrialization_events.21.d"
 	picture = PLAGUE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2656,7 +2656,7 @@ country_event = {
 			NOT = { has_province_flag = great_fire }
 		}
 	}
-	
+
 	immediate = { #fire_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2669,7 +2669,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2680,7 +2680,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.21.a"
 		event_target:fire_province = {
@@ -2713,9 +2713,9 @@ country_event = {
 	title = "industrialization_events.22.t"
 	desc = "industrialization_events.22.d"
 	picture = TEXTILE_INDUSTRY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rule Britannia"
 		has_institution = enlightenment
@@ -2735,7 +2735,7 @@ country_event = {
 			base_production = 2
 		}
 	}
-	
+
 	immediate = { #overseas_production_province
 		hidden_effect = {
 			random_owned_province = {
@@ -2752,7 +2752,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -2798,7 +2798,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "industrialization_events.22.a"
 		add_dip_power = -25

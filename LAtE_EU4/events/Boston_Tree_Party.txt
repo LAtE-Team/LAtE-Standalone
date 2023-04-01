@@ -4,7 +4,7 @@ country_event = {
 	title = "boston.1.title"
 	desc = "boston.1.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		968 = {
 			controlled_by = ROOT
@@ -12,7 +12,7 @@ country_event = {
 		NOT = { dominant_culture = british }
 		NOT = { has_global_flag = boston_tree_party }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}

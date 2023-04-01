@@ -8,14 +8,14 @@ color = { 45 98 223 }
 
 leader_names = {
 
-	"Durán" "Armijo" "Alfonso" "Aurelio" "Angelico" "Anaya" "Adolfo" "Alire" "Arturo" "Anzar" 
-	"Baustita" "Bernardo" "Borrell" "Bera" "Cristóbal" "Carlito" "César" "Chole" "Conrado" "Chácon" 
-	"Dennis" "Dagoberto" "Diego" "Domingo" "Ezequiel" "Eloy" "Eduardo" "Eulogio" "Enrique" "Eulate" 
-	"Fernando" "Francisco" "Felipe" "Facundo" "Félix" "Gallegos" "Guadalupe" "Gaspar" "Guillermo" "Gervasio" 
-	"Ivan" "Jemez" "Joaquín" "José" "Jorge" "Jonathán" "Javier" "Leo" "Lázaro" "Luis" 
-	"Lalo" "Mendizabal" "Manzanares" "Margarito" "Moctesuma" "Mariano" "Mogollon" "Manso" "Nambé" "Nicolas" 
-	"Nieto" "Otermin" "Otero" "Picuris" "Popé" "Pino" "Pelayo" "Rudolfo" "Reies" "Rubén" 
-	"Rigoberto" "Rampó" "Rael" "Sergio" "Soto" "Sal" "Sunifredo" "Suniario" "Taos" "Tesuque" 
+	"Durán" "Armijo" "Alfonso" "Aurelio" "Angelico" "Anaya" "Adolfo" "Alire" "Arturo" "Anzar"
+	"Baustita" "Bernardo" "Borrell" "Bera" "Cristóbal" "Carlito" "César" "Chole" "Conrado" "Chácon"
+	"Dennis" "Dagoberto" "Diego" "Domingo" "Ezequiel" "Eloy" "Eduardo" "Eulogio" "Enrique" "Eulate"
+	"Fernando" "Francisco" "Felipe" "Facundo" "Félix" "Gallegos" "Guadalupe" "Gaspar" "Guillermo" "Gervasio"
+	"Ivan" "Jemez" "Joaquín" "José" "Jorge" "Jonathán" "Javier" "Leo" "Lázaro" "Luis"
+	"Lalo" "Mendizabal" "Manzanares" "Margarito" "Moctesuma" "Mariano" "Mogollon" "Manso" "Nambé" "Nicolas"
+	"Nieto" "Otermin" "Otero" "Picuris" "Popé" "Pino" "Pelayo" "Rudolfo" "Reies" "Rubén"
+	"Rigoberto" "Rampó" "Rael" "Sergio" "Soto" "Sal" "Sunifredo" "Suniario" "Taos" "Tesuque"
 	"Tranquilino" "Trujillo" "Trinidad" "Tuco" "Tomás" "Uey" "Vicente" "Victor" "Xemen" "Zeta" }
 monarch_names = {
 	"Durán #1" = 18

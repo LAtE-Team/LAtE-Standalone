@@ -27,14 +27,14 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+
 		heretic = { ZEN }
-		
+
 		harmonized_modifier = harmonized_buddhism
-		
+
 		uses_karma = yes
 	}
-	
+
 	vajrayana = {
 		color = { 204 76 76 }
 		icon = 82
@@ -58,14 +58,14 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+
 		heretic = { ZEN }
-		
+
 		uses_karma = yes
-	
+
 		harmonized_modifier = harmonized_vajrayana
 	}
-	
+
 	mahayana = {
 		color = { 204 76 127 }
 		icon = 83
@@ -89,11 +89,11 @@ eastern = {
 				duration = 3650
 			}
 		}
-		
+
 		harmonized_modifier = harmonized_mahayana
-		
+
 		heretic = { ZEN }
-		
+
 		uses_karma = yes
 	}
 
@@ -111,9 +111,9 @@ eastern = {
 		heretic = { TAOIST }
 		uses_harmony = yes
 	}
-	
+
 	crusade_name = CRUSADE
-	
+
 }
 
 zoroastrian_group = {
@@ -142,8 +142,8 @@ zoroastrian_group = {
 			blessing_manthras
 			blessing_dakhma
 		}
-		
-		heretic = { MAZDAKI MANICHEAN }	
+
+		heretic = { MAZDAKI MANICHEAN }
 	}
 
 	yazidi = {
@@ -164,12 +164,12 @@ zoroastrian_group = {
 			advisor_pool = 1
 		}
 		heretic = { YARSANI ISHIKI }
-		
+
 		has_patriarchs = yes		# Uses patriarch authority
 	}
-	
+
 	harmonized_modifier = harmonized_zoroastrian_group
-	
+
 	crusade_name = HOLY_WAR
-	
+
 }

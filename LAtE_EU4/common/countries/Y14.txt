@@ -8,21 +8,21 @@ color = { 242 218 77 }
 
 leader_names = {
 
-	"Rain" "Arnaud" "Isis" "Booker" "Elizabeth" "Aisha" "Latisha" "Alexander" "Amanda" "Buck" 
-	"Pristine" "Morgause" "Mike" "Cletus" "Jean" "Angel" "Chester" "Henrietta" "Hattie" "Bo" 
-	"Breanna" "Belle" "Audrey" "John" "Talulla" "Maddy" "Tammie" "Faylene" "Rosemary" "Jo" 
-	"Chandler" "Braxton" "Braylon" "Rubyjane" "Sue" "Haley" "Diamond" "Sharla" "Dixon" "Huey" 
-	"Deangelo" "Willa" "Tamara" "Adina" "Tituba" "Kaylin" "Gertrude" "Cassius" "Latifa" "Ariel" 
-	"Calpurnia" "Amery" "Antoine" "Ali" "Armstrong" "Alain" "Avery" "Avon" "Coleman" "Chris" 
-	"Caleb" "Carver" "Claudius" "Clarence" "Clay" "Columbus" "Cal" "Cab" "Darnell" "Denzel" 
-	"Dave" "Darius" "Deandre" "Dennis" "Dubois" "Douglass" "Darryl" "Evan" "Eldridge" "Elgin" 
-	"Elijah" "Freeman" "Frederick" "Grady" "George" "Garvey" "Grant" "Hasker" "Henry" "Hassan" 
-	"Jason" "Jaylon" "Jamal" "Jordan" "Joshua" "Josiah" "Julius" "Jamie" "James" "Joel" 
-	"Jonas" "Kanye" "Kwame" "Kevin" "Kobe" "Lamar" "Lawrence" "Lucius" "Leroy" "Langston" 
-	"Louis" "Luther" "Lincoln" "Levi" "Leslie" "Marquis" "Michael" "Malik" "Maurice" "Marcus" 
-	"Mosiah" "Malcolm" "Morton" "Marlo" "Nathan" "Omar" "Ossian" "Quantell" "Quint" "Ray" 
-	"Rufus" "Reginald" "Riley" "Robert" "Sam" "Scipio" "Scott" "Sheridan" "Sherman" "Sterling" 
-	"Tecumseh" "Tyrone" "Terrell" "Terrance" "Tom" "Tim" "Terry" "Virgil" "Willie" "Wilson" 
+	"Rain" "Arnaud" "Isis" "Booker" "Elizabeth" "Aisha" "Latisha" "Alexander" "Amanda" "Buck"
+	"Pristine" "Morgause" "Mike" "Cletus" "Jean" "Angel" "Chester" "Henrietta" "Hattie" "Bo"
+	"Breanna" "Belle" "Audrey" "John" "Talulla" "Maddy" "Tammie" "Faylene" "Rosemary" "Jo"
+	"Chandler" "Braxton" "Braylon" "Rubyjane" "Sue" "Haley" "Diamond" "Sharla" "Dixon" "Huey"
+	"Deangelo" "Willa" "Tamara" "Adina" "Tituba" "Kaylin" "Gertrude" "Cassius" "Latifa" "Ariel"
+	"Calpurnia" "Amery" "Antoine" "Ali" "Armstrong" "Alain" "Avery" "Avon" "Coleman" "Chris"
+	"Caleb" "Carver" "Claudius" "Clarence" "Clay" "Columbus" "Cal" "Cab" "Darnell" "Denzel"
+	"Dave" "Darius" "Deandre" "Dennis" "Dubois" "Douglass" "Darryl" "Evan" "Eldridge" "Elgin"
+	"Elijah" "Freeman" "Frederick" "Grady" "George" "Garvey" "Grant" "Hasker" "Henry" "Hassan"
+	"Jason" "Jaylon" "Jamal" "Jordan" "Joshua" "Josiah" "Julius" "Jamie" "James" "Joel"
+	"Jonas" "Kanye" "Kwame" "Kevin" "Kobe" "Lamar" "Lawrence" "Lucius" "Leroy" "Langston"
+	"Louis" "Luther" "Lincoln" "Levi" "Leslie" "Marquis" "Michael" "Malik" "Maurice" "Marcus"
+	"Mosiah" "Malcolm" "Morton" "Marlo" "Nathan" "Omar" "Ossian" "Quantell" "Quint" "Ray"
+	"Rufus" "Reginald" "Riley" "Robert" "Sam" "Scipio" "Scott" "Sheridan" "Sherman" "Sterling"
+	"Tecumseh" "Tyrone" "Terrell" "Terrance" "Tom" "Tim" "Terry" "Virgil" "Willie" "Wilson"
 	"Washington" "Xavier" "Xerxes" "Zeebo" "Zeus" }
 monarch_names = {
 	"Rain #0" = -1

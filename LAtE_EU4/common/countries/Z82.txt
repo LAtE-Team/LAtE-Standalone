@@ -8,21 +8,21 @@ color = { 208 86 28 }
 
 leader_names = {
 
-	"Tertius" "Zacharias" "Blanchet" "Alexa" "Jocasta" "Neptune" "Alyssa" "Peach" "Lucilla" "Hamilcar" 
-	"Guinevere" "Iseult" "Jupiter" "Terrance" "Ector" "Sylvester" "Laurina" "Heron" "Lon" "Robert" 
-	"Trophimus" "Gwendolyn" "Lunsford" "Geoffrey" "Augusta" "Billup" "Clover" "Urien" "Helen" "Megara" 
-	"Catherine" "Cola" "Larlene" "Doc" "Pericles" "Bedivere" "Lucia" "Dixon" "Mary" "Pulcher" 
-	"Rhett" "Pamilia" "Vitalian" "Mercedes" "Petrus" "Calpurnia" "Scarlett" "Severus" "Harriet" "Marcus" 
-	"Elisabeth" "Saunder" "Sosipater" "Publicola" "Primrose" "Levi" "Fulwar" "Scipio" "Virginia" "Coriolanus" 
-	"Joanna" "Darius" "Willie" "Antonia" "Violet" "Richard" "Griflet" "Carolina" "Juliet" "Ambrose" 
-	"Pellinore" "Augustus" "Ancell" "Achilles" "Anthemeol" "Alpheus" "Arthur" "Aloys" "Armistead" "Antipas" 
-	"Breunor" "Brutus" "Brandegoris" "Brangwin" "Baldwin" "Bohemond" "Beauregard" "Braxton" "Bryan" "Cronus" 
-	"Charles" "Claudius" "Constantine" "Calhoun" "Davis" "Frederick" "Fulgent" "Geraint" "Gareth" "Goode" 
-	"Hannibal" "Isaias" "Joscelin" "Jefferson" "Julius" "Justinian" "Jackson" "Laurentius" "Lucan" "Lionel" 
-	"Lucius" "Lamartine" "Marcellus" "Mercury" "Merriman" "Meriwether" "Marmaduke" "Meleager" "Nathanael" "Octavian" 
-	"Prudens" "Polycarpus" "Priscus" "Paulus" "Plato" "Pluto" "Percival" "Pellias" "Pompey" "Quadratus" 
-	"Regulus" "Robin" "Raynault" "Raleigh" "Rufus" "Raphael" "Superbus" "Saturn" "Sagremore" "Stephanus" 
-	"Solon" "Tiberius" "Theophilus" "Thomas" "Timon" "Titus" "Urban" "Ulixes" "Valerian" "William" 
+	"Tertius" "Zacharias" "Blanchet" "Alexa" "Jocasta" "Neptune" "Alyssa" "Peach" "Lucilla" "Hamilcar"
+	"Guinevere" "Iseult" "Jupiter" "Terrance" "Ector" "Sylvester" "Laurina" "Heron" "Lon" "Robert"
+	"Trophimus" "Gwendolyn" "Lunsford" "Geoffrey" "Augusta" "Billup" "Clover" "Urien" "Helen" "Megara"
+	"Catherine" "Cola" "Larlene" "Doc" "Pericles" "Bedivere" "Lucia" "Dixon" "Mary" "Pulcher"
+	"Rhett" "Pamilia" "Vitalian" "Mercedes" "Petrus" "Calpurnia" "Scarlett" "Severus" "Harriet" "Marcus"
+	"Elisabeth" "Saunder" "Sosipater" "Publicola" "Primrose" "Levi" "Fulwar" "Scipio" "Virginia" "Coriolanus"
+	"Joanna" "Darius" "Willie" "Antonia" "Violet" "Richard" "Griflet" "Carolina" "Juliet" "Ambrose"
+	"Pellinore" "Augustus" "Ancell" "Achilles" "Anthemeol" "Alpheus" "Arthur" "Aloys" "Armistead" "Antipas"
+	"Breunor" "Brutus" "Brandegoris" "Brangwin" "Baldwin" "Bohemond" "Beauregard" "Braxton" "Bryan" "Cronus"
+	"Charles" "Claudius" "Constantine" "Calhoun" "Davis" "Frederick" "Fulgent" "Geraint" "Gareth" "Goode"
+	"Hannibal" "Isaias" "Joscelin" "Jefferson" "Julius" "Justinian" "Jackson" "Laurentius" "Lucan" "Lionel"
+	"Lucius" "Lamartine" "Marcellus" "Mercury" "Merriman" "Meriwether" "Marmaduke" "Meleager" "Nathanael" "Octavian"
+	"Prudens" "Polycarpus" "Priscus" "Paulus" "Plato" "Pluto" "Percival" "Pellias" "Pompey" "Quadratus"
+	"Regulus" "Robin" "Raynault" "Raleigh" "Rufus" "Raphael" "Superbus" "Saturn" "Sagremore" "Stephanus"
+	"Solon" "Tiberius" "Theophilus" "Thomas" "Timon" "Titus" "Urban" "Ulixes" "Valerian" "William"
 	"Wade" "Winfield" }
 monarch_names = {
 	"Tertius #0" = 1

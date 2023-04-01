@@ -8,17 +8,17 @@ color = { 172 231 234 }
 
 leader_names = {
 
-	"Frederic" "Jeanne" "Jackson" "Louis" "Mercedita" "Lasker" "May" "Malik" "Jessie" "Blanche" 
-	"Sterling" "Chris" "Garvey" "Dorothea" "Lichelle" "Layla" "Washington" "Jasmine" "Debra" "Cassius" 
-	"Michael" "Antoine" "Victor" "Sonja" "Angelina" "Angela" "Ardo" "Marlo" "Carmen" "Danielle" 
-	"Adam" "Pere" "Humbert" "Palustris" "Faith" "Atlas" "Ashton" "Augustine" "Allen" "Autrane" 
-	"Alexandre" "Alonso" "Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "Citrand" 
-	"David" "Diego" "Duarte" "Elias" "Eduard" "Francis" "Ferdinand" "Forrest" "Ferran" "Fulwar" 
-	"Galves" "Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar" "Gutierre" "Hernand" "Henry" 
-	"Harrison" "Jehan" "Jay" "Javier" "Jaumet" "Joaquim" "Junipero" "Leon" "Lucas" "Macond" 
-	"Moyne" "Malaric" "Malhad" "Menard" "Mitchell" "Montfort" "Mathias" "Montserrat" "Melchor" "Marcus" 
-	"Neptune" "Narcis" "Oceanus" "Offatt" "Orelian" "Pelecand" "Panfile" "Ponce" "Robard" "Roland" 
-	"Ramon" "Roderic" "Soto" "Sander" "Sam" "Taylor" "Tammand" "Tomas" "Tristan" "Velasce" 
+	"Frederic" "Jeanne" "Jackson" "Louis" "Mercedita" "Lasker" "May" "Malik" "Jessie" "Blanche"
+	"Sterling" "Chris" "Garvey" "Dorothea" "Lichelle" "Layla" "Washington" "Jasmine" "Debra" "Cassius"
+	"Michael" "Antoine" "Victor" "Sonja" "Angelina" "Angela" "Ardo" "Marlo" "Carmen" "Danielle"
+	"Adam" "Pere" "Humbert" "Palustris" "Faith" "Atlas" "Ashton" "Augustine" "Allen" "Autrane"
+	"Alexandre" "Alonso" "Bernard" "Bell" "Carles" "Chester" "Cotton" "Calhoun" "Colin" "Citrand"
+	"David" "Diego" "Duarte" "Elias" "Eduard" "Francis" "Ferdinand" "Forrest" "Ferran" "Fulwar"
+	"Galves" "Girard" "Garcia" "Gomer" "Georges" "Gonzalo" "Gaspar" "Gutierre" "Hernand" "Henry"
+	"Harrison" "Jehan" "Jay" "Javier" "Jaumet" "Joaquim" "Junipero" "Leon" "Lucas" "Macond"
+	"Moyne" "Malaric" "Malhad" "Menard" "Mitchell" "Montfort" "Mathias" "Montserrat" "Melchor" "Marcus"
+	"Neptune" "Narcis" "Oceanus" "Offatt" "Orelian" "Pelecand" "Panfile" "Ponce" "Robard" "Roland"
+	"Ramon" "Roderic" "Soto" "Sander" "Sam" "Taylor" "Tammand" "Tomas" "Tristan" "Velasce"
 	"Xavier" }
 monarch_names = {
 	"Frederic #0" = 1

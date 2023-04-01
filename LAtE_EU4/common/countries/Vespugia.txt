@@ -66,7 +66,7 @@ monarch_names = {
 	"Tristan #0" = 0
 	"Urien #0" = 0
 	"Vaughan #0" = 0
-	
+
 	"Ceridwen #0" = -1
 	"Elain #0" = -1
 	"Gwenyth #0" = -1

@@ -16,7 +16,7 @@ estate_antiquarians_disaster = {
 		}
 		is_at_war = no
 	}
-	
+
 	can_stop = {
 		OR = {
 			has_any_disaster = yes
@@ -28,7 +28,7 @@ estate_antiquarians_disaster = {
 			}
 		}
 	}
-	
+
 	down_progress = {
 		factor = 0
 		modifier = {
@@ -41,7 +41,7 @@ estate_antiquarians_disaster = {
 			}
 		}
 	}
-	
+
 	progress = {
 		modifier = {
 			factor = 0.5
@@ -84,7 +84,7 @@ estate_antiquarians_disaster = {
 			is_at_war = no
 		}
 	}
-	
+
 	can_end = {
 		custom_trigger_tooltip = {
 			tooltip = EST_CRUSHED_CHURCH
@@ -94,8 +94,8 @@ estate_antiquarians_disaster = {
 			}
 		}
 	}
-	
-	modifier = {	
+
+	modifier = {
 		technology_cost = 0.2
 		idea_cost = 0.2
 		tolerance_heretic = -2
@@ -104,7 +104,7 @@ estate_antiquarians_disaster = {
 
 	on_start = LAtE_estate_disasters.21.s
 	on_end = LAtE_estate_disasters.21.e
-	
+
 	on_monthly = {
 	}
 }

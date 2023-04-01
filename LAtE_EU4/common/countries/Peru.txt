@@ -72,7 +72,7 @@ monarch_names = {
 	"Ricardo #0" = 0
 	"Sergio #0" = 0
 	"Valentín #0" = 0
-	
+
 	"Pacífica #0" = -1
 	"Valencia #0" = -1
 	"Nereida #0" = -1
@@ -97,6 +97,6 @@ ship_names = {
 	Larrea
 	Mariategui Montero
 	Paita Pisagua
-	"Sanchez Carrion" Santillana 
+	"Sanchez Carrion" Santillana
 	Velarde
 }

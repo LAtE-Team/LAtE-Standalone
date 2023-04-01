@@ -12,6 +12,6 @@ ship_names = {
 	Gascoyne Perth
 	Huon Stuart
 	Hawkesbury Toowoomba
-	Maryborough Norman 
+	Maryborough Norman
 	Warramunga Parramatta
 }

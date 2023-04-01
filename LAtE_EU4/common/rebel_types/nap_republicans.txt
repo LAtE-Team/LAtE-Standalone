@@ -7,35 +7,35 @@ nap_republican_rebels = {
 	color = { 50 85 210 }
 
 	area = nation 					# Stays within the nation
-	government = republic			
+	government = republic
 	defection = none				# Does not defect
 	independence = none				# Does not strive for independence
 	unit_transfer = yes
-	gfx_type = culture_province	
-	will_relocate = yes	
-	
+	gfx_type = culture_province
+	will_relocate = yes
+
 	resilient = no
 	reinforcing = yes
 	general = yes
 	smart = yes
-	
+
 	artillery = 0.1
 	infantry = 0.6
 	cavalry = 0.3
-	
+
 	morale = 1.1
-	
+
 	# Possible handle actions
 	handle_action_negotiate = yes
 	handle_action_stability = yes
 	handle_action_build_core = yes
-	handle_action_send_missionary = yes		
-	
+	handle_action_send_missionary = yes
+
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
 		factor = 0
 	}
- 
+
  	# This is checked for EACH province in the Area of Operations
 	movement_evaluation = {
 		factor = 1
@@ -64,27 +64,27 @@ nap_republican_rebels = {
 			unrest = 6
 		}
 	}
- 
+
  	# Province Scope
  	siege_won_trigger = {
  	}
 	siege_won_effect = {
 	}
-	
+
 	# Country scope
 	can_negotiate_trigger = {
 		is_lesser_in_union = no
 	}
-	
+
 	# Country scope
 	can_enforce_trigger = {
 		always = yes
 	}
-	
+
 	# Localisation for their demands
 	demands_description = "establish_a_republic"
-	
-	# Country Scope	
+
+	# Country Scope
 	demands_enforced_effect = {
 		hidden_effect = {
 			add_country_modifier = {
@@ -109,7 +109,7 @@ nap_republican_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { 
+				NOT = {
 					OR = {
 						government = republic
 						has_reform = papacy_reform

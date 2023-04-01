@@ -8,16 +8,16 @@ color = { 174 219 40 }
 
 leader_names = {
 
-	"Clair" "Anna" "Carrey" "Canna" "Cherry" "Jarvis" "Shania" "Morwen" "Rupert" "Lennox" 
-	"York" "Teath" "Winston" "Tabitha" "Endelienta" "Marie" "Redgrave" "Charlotte" "George" "Hap" 
-	"Ouine" "Thomp" "Anthony" "Dalton" "Nelligan" "Madrun" "Madge" "Thaney" "Gord" "Rubrum" 
-	"Banting" "Afrella" "Bonnie" "Alberta" "Acer" "Avril" "Lorna" "Matthew" "Marwenna" "McMillan" 
-	"Brant" "Naismith" "Hamilton" "Alexandra" "Ursula" "Woodward" "Alfraed" "Rosa" "Goban" "Albert" 
-	"Aykroyd" "Alan" "By" "Bennett" "Bill" "Bryce" "Charles" "Claude" "Castor" "Clive" 
-	"Churchill" "Darcy" "Derby" "Dominick" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Gosling" 
-	"Geddy" "Gath" "Hudson" "Hart" "Harland" "Horton" "Harold" "Kirk" "Kay" "Kevin" 
-	"Leaford" "Lawrence" "Leonard" "Leslie" "Lloyd" "Lorne" "Lucas" "Macdonald" "McGee" "Monck" 
-	"Malcolm" "Munro" "Mitchell" "McCabe" "Meugan" "Marlborough" "Neil" "Octockwig" "Owen" "Ronald" 
+	"Clair" "Anna" "Carrey" "Canna" "Cherry" "Jarvis" "Shania" "Morwen" "Rupert" "Lennox"
+	"York" "Teath" "Winston" "Tabitha" "Endelienta" "Marie" "Redgrave" "Charlotte" "George" "Hap"
+	"Ouine" "Thomp" "Anthony" "Dalton" "Nelligan" "Madrun" "Madge" "Thaney" "Gord" "Rubrum"
+	"Banting" "Afrella" "Bonnie" "Alberta" "Acer" "Avril" "Lorna" "Matthew" "Marwenna" "McMillan"
+	"Brant" "Naismith" "Hamilton" "Alexandra" "Ursula" "Woodward" "Alfraed" "Rosa" "Goban" "Albert"
+	"Aykroyd" "Alan" "By" "Bennett" "Bill" "Bryce" "Charles" "Claude" "Castor" "Clive"
+	"Churchill" "Darcy" "Derby" "Dominick" "Evan" "Edgar" "Fidelis" "Fergus" "Gray" "Gosling"
+	"Geddy" "Gath" "Hudson" "Hart" "Harland" "Horton" "Harold" "Kirk" "Kay" "Kevin"
+	"Leaford" "Lawrence" "Leonard" "Leslie" "Lloyd" "Lorne" "Lucas" "Macdonald" "McGee" "Monck"
+	"Malcolm" "Munro" "Mitchell" "McCabe" "Meugan" "Marlborough" "Neil" "Octockwig" "Owen" "Ronald"
 	"Riel" "Spencer" "Trevor" "Tim" "Westerfield" "Wade" }
 monarch_names = {
 	"Clair #0" = -1

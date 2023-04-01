@@ -8,18 +8,18 @@ color = { 98 111 202 }
 
 leader_names = {
 
-	"Jacob" "Gabriel" "Alice" "Mae" "Marshall" "Benjamin" "Henri" "Toney" "Francis" "Murdena" 
-	"Bernd" "Kopit" "Aqpalibaaqtuq" "Alexander" "Kji-Keptin" "Pamela" "Elsie" "Viola" "Katherine" "Marie" 
-	"Anne" "Sofia" "Anastasia" "Angèle" "Justina" "Honoria" "Blandine" "Madeleine" "Celestina" "Francisca" 
-	"Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" 
-	"André" "Adrien" "Aurèle" "Baudouin" "Barthélémy" "Balian" "Bohémond" "Cartier" "Charles" "Cyrille" 
-	"Cecil" "Claude" "Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "Étienne" 
-	"Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges" 
-	"Gautier" "Geoffroy" "Guillaume" "Gilles" "Gaétan" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" 
-	"Ignace" "Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" 
-	"Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Marcel" "Napoleon" 
-	"Nérée" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" 
-	"Rohard" "Robert" "René" "Roger" "Raymond" "Renaud" "Roupen" "Régis" "Roland" "Samuel" 
+	"Jacob" "Gabriel" "Alice" "Mae" "Marshall" "Benjamin" "Henri" "Toney" "Francis" "Murdena"
+	"Bernd" "Kopit" "Aqpalibaaqtuq" "Alexander" "Kji-Keptin" "Pamela" "Elsie" "Viola" "Katherine" "Marie"
+	"Anne" "Sofia" "Anastasia" "Angèle" "Justina" "Honoria" "Blandine" "Madeleine" "Celestina" "Francisca"
+	"Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre"
+	"André" "Adrien" "Aurèle" "Baudouin" "Barthélémy" "Balian" "Bohémond" "Cartier" "Charles" "Cyrille"
+	"Cecil" "Claude" "Camille" "Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "Étienne"
+	"Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ferreol" "Ghislain" "Guy" "Georges"
+	"Gautier" "Geoffroy" "Guillaume" "Gilles" "Gaétan" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore"
+	"Ignace" "Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin"
+	"Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Marcel" "Napoleon"
+	"Nérée" "Ovide" "Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal"
+	"Rohard" "Robert" "René" "Roger" "Raymond" "Renaud" "Roupen" "Régis" "Roland" "Samuel"
 	"Sulpice" "Serge" "Tancrède" "Vincent" "Wilfrid" "Xavier" }
 monarch_names = {
 	"Jacob #6" = 33

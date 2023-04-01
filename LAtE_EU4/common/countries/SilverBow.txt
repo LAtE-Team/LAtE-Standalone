@@ -7,18 +7,18 @@ color = { 0 47 122 }
 
 leader_names = {
 
-	"Waha" "Anita" "Widmark" "Numaga" "Nat-se" "Hootseba" "Poongatse" "Uweka" "Siskel" "Wewawewa" 
-	"Sui'hoo" "Sylvia" "Dale" "Newton" "Wendell" "Joe" "Clark" "Lisa" "Teng" "Sawabe" 
-	"Fue" "Verde" "Michael" "Kristen" "Tuhudda" "Gibson" "Eleanor" "Channing" "Toohoo'o" "Nana" 
-	"Lucille" "Weze-ga'yoo" "Brian" "U-ban-nu" "No-bve" "Tsagase'e" "Constance" "Nuga" "Jeanette" "Winnemucca" 
-	"Trommel" "Glenna" "Isappu" "Tawa" "Chlahben" "Matthew" "Brendan" "Thasi" "Tahaygen" "Hidansuu" 
-	"Ada" "Awan" "Bagootsoo" "Cui-ui" "Delsin" "Eesha" "Egan" "Esa" "Ggwe'na'a" "Hastiin" 
-	"Honi" "Howi" "Joe-ely" "Kaadu" "Kene" "Kin-naa'a" "Kootsoo" "Kuubba" "Mahkah" "Manege" 
-	"Micco" "Na-gah" "Naguddu" "Nigan" "Nimerigar" "Niyol" "Nodda" "Nooyooadu" "Nuunuawunu" "Oha'a" 
-	"Oitsi" "Onennamucca" "Paggwe" "Pahe" "Pamogo" "Pannunudu" "Paulina" "Piaisan" "Poito" "Pokoh" 
-	"Poohwi" "Poot-see" "Pu'wihi" "Qui-am-i" "Ross-hardin" "Shilah" "Shinoh" "Sumu" "Taboo'oo" "Tate" 
-	"Tau-gu" "Tavibo" "Tenaya" "Tibow" "Tillohash" "Tocho" "Togu" "Tooonugwetsedu" "Truckee" "Tse'nahaha" 
-	"Tubboge" "Tuggweggwetseba" "Wa'etse" "Wahveveh" "Wannnga'a" "Watsukwe" "Wesa" "Wesepooggoo" "Wintook" "Wovoka" 
+	"Waha" "Anita" "Widmark" "Numaga" "Nat-se" "Hootseba" "Poongatse" "Uweka" "Siskel" "Wewawewa"
+	"Sui'hoo" "Sylvia" "Dale" "Newton" "Wendell" "Joe" "Clark" "Lisa" "Teng" "Sawabe"
+	"Fue" "Verde" "Michael" "Kristen" "Tuhudda" "Gibson" "Eleanor" "Channing" "Toohoo'o" "Nana"
+	"Lucille" "Weze-ga'yoo" "Brian" "U-ban-nu" "No-bve" "Tsagase'e" "Constance" "Nuga" "Jeanette" "Winnemucca"
+	"Trommel" "Glenna" "Isappu" "Tawa" "Chlahben" "Matthew" "Brendan" "Thasi" "Tahaygen" "Hidansuu"
+	"Ada" "Awan" "Bagootsoo" "Cui-ui" "Delsin" "Eesha" "Egan" "Esa" "Ggwe'na'a" "Hastiin"
+	"Honi" "Howi" "Joe-ely" "Kaadu" "Kene" "Kin-naa'a" "Kootsoo" "Kuubba" "Mahkah" "Manege"
+	"Micco" "Na-gah" "Naguddu" "Nigan" "Nimerigar" "Niyol" "Nodda" "Nooyooadu" "Nuunuawunu" "Oha'a"
+	"Oitsi" "Onennamucca" "Paggwe" "Pahe" "Pamogo" "Pannunudu" "Paulina" "Piaisan" "Poito" "Pokoh"
+	"Poohwi" "Poot-see" "Pu'wihi" "Qui-am-i" "Ross-hardin" "Shilah" "Shinoh" "Sumu" "Taboo'oo" "Tate"
+	"Tau-gu" "Tavibo" "Tenaya" "Tibow" "Tillohash" "Tocho" "Togu" "Tooonugwetsedu" "Truckee" "Tse'nahaha"
+	"Tubboge" "Tuggweggwetseba" "Wa'etse" "Wahveveh" "Wannnga'a" "Watsukwe" "Wesa" "Wesepooggoo" "Wintook" "Wovoka"
 	"Ysa" }
 monarch_names = {
 	"Waha #0" = 1

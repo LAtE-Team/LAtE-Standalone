@@ -18,7 +18,7 @@ anglican_divorce_consort = {
 		custom_tooltip = divorce_consort_tooltip
 		hidden_effect = {
 			remove_consort = yes
-		}		
+		}
 	}
 	ai_will_do = {
 		factor = 2
@@ -108,7 +108,7 @@ anglican_justify_reign = {
 		add_legitimacy_equivalent = {
 			amount = 10
 			republican_tradition = 5
-		}		
+		}
 	}
 	ai_will_do = {
 		factor = 1

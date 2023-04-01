@@ -79,7 +79,7 @@
 #Mix in everything (76)
 colonial_nam = {
 	color = { 120 160 100 }
-	
+
 	provinces = {
 		605 606 607 608 610 611 613 615 616
 		1016 1022 1823 1844

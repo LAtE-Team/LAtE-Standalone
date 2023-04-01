@@ -45,7 +45,7 @@ leader_names = {
 	Lambart
 	Martyn McCarthy Moore Meade Macartney
 	Nugent
-	O'Neill O'Brien O'Connell O'Hara O'Malley O'Donnell O'Carroll 
+	O'Neill O'Brien O'Connell O'Hara O'Malley O'Donnell O'Carroll
 	Parsons Pakenham Plunkett Preston
 	Ridgeway
 	Sterne
@@ -95,7 +95,7 @@ monarch_names = {
 	"Pádraig #0" = 0
 	"Ríagáin #0" = 0
 	"Somhairle #0" = 0
-	
+
 	"Saraid #0" = -1
 	"Órfhlaith #0" = -1
 	"Fedelma #0" = -1
@@ -111,4 +111,4 @@ ship_names = {
 	Orla
 	Roisin
 	Ulster
-} 
+}

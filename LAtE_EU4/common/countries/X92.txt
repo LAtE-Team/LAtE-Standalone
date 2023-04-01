@@ -8,15 +8,15 @@ color = { 228 202 195 }
 
 leader_names = {
 
-	"Pizarro" "Huggo" "Bají" "Hernando" "Anayáhuari" "Rodrigo" "Pewa" "Siwa" "Demián" "Baltasar" 
-	"Wenceslao" "Orellana" "Diesel" "Kóci" "Biriná" "Picíra" "Kacísiniri" "Koriméni" "Naríhuani" "Ricibúrsiri" 
-	"Daniel" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Bahamonde" "Beltrán" "Bruno" "Colón" 
-	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cabrillo" "Cavo" "Cuauhtémoc" "Diego García" "Diego Carlos" "Epifanio" 
-	"Édgar" "Francisco" "Gonzalo" "Giraldo" "Gastón" "Gaspar" "Gustavito" "García" "Gil" "Garcilaso" 
-	"Gabino" "Honorio" "Horacio" "Inés" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís" 
-	"Lorenzo" "Lope" "Leonor" "Magallanes" "Melchior" "Martín" "Miguel" "Marcos" "Melchor" "Mariano" 
-	"Montejo" "Ñuflo" "Olid" "Osvaldo" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Roque" 
-	"Renato" "René" "Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" 
+	"Pizarro" "Huggo" "Bají" "Hernando" "Anayáhuari" "Rodrigo" "Pewa" "Siwa" "Demián" "Baltasar"
+	"Wenceslao" "Orellana" "Diesel" "Kóci" "Biriná" "Picíra" "Kacísiniri" "Koriméni" "Naríhuani" "Ricibúrsiri"
+	"Daniel" "Américo" "Alejo" "Alvarado" "Aldo" "Bartolomé" "Bahamonde" "Beltrán" "Bruno" "Colón"
+	"Cristóbal" "Cruz" "Cabeza" "Coronado" "Cabrillo" "Cavo" "Cuauhtémoc" "Diego García" "Diego Carlos" "Epifanio"
+	"Édgar" "Francisco" "Gonzalo" "Giraldo" "Gastón" "Gaspar" "Gustavito" "García" "Gil" "Garcilaso"
+	"Gabino" "Honorio" "Horacio" "Inés" "Jofre" "Jerónimo" "Jacinto" "Kino" "León" "Luís"
+	"Lorenzo" "Lope" "Leonor" "Magallanes" "Melchior" "Martín" "Miguel" "Marcos" "Melchor" "Mariano"
+	"Montejo" "Ñuflo" "Olid" "Osvaldo" "Porfirio" "Pánfilo" "Ponce" "Puná" "Pío" "Roque"
+	"Renato" "René" "Rosario" "Ruy" "Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán"
 	"Ulises" "Urbano" "Vela" "Vasco" "Xemen" "Yñigo" }
 monarch_names = {
 	"Pizarro #0" = 1

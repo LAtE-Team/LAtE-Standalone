@@ -12,7 +12,7 @@ country_decisions = {
 					NOT = { government = theocracy }
 				}
 			}
-			OR = {  
+			OR = {
 				primary_culture = hannoverian #Westphalian
 				primary_culture = pommeranian
 				primary_culture = hessian	#Rhienish
@@ -75,7 +75,7 @@ country_decisions = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = BIZ
-			}			
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

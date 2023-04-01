@@ -8,18 +8,18 @@ color = { 10 132 222 }
 
 leader_names = {
 
-	"Lorna" "Barbara" "Geddy" "Winston" "Oswald" "Macdonald" "Shelley" "Friso" "Dominia" "By" 
-	"Riemmelth" "Riel" "Shania" "Westerfield" "Clive" "Montgomery" "Canna" "Ouine" "Naismith" "Wade" 
-	"Juthwara" "Judith" "Breaca" "Bill" "Kevin" "Castor" "Hamilton" "Lennox" "Rupert" "Weluela" 
-	"Theodosia" "Madge" "Thomas" "Lucas" "Menefreda" "Harold" "Teath" "Endelienta" "Almeda" "Cagintria" 
-	"Darcy" "Madrun" "Kirk" "Alan" "Derby" "Everwella" "Claudia" "Hudson" "Thaney" "Cherry" 
-	"Tabitha" "Mitchell" "Fergus" "Malcolm" "Bernice" "Dominick" "Afrella" "Charles" "Alanis" "Avril" 
-	"Ann" "Georgia" "Bethany" "Gosling" "Hap" "Tompkin" "Rose" "Wenbruia" "Permanence" "Gavia" 
-	"Thomp" "Hiawatha" "Degonadonty" "Alexandra" "Geraldine" "Edgar" "Anna" "Liesl" "Kennet" "Jakob" 
-	"Werner" "Albert" "Aykroyd" "Anthony" "Acer" "Brant" "Bennett" "Banting" "Bryce" "Carrey" 
-	"Claude" "Churchill" "Dalton" "Evan" "Fidelis" "George" "Gray" "Gord" "Gath" "Hart" 
-	"Harland" "Horton" "Jarvis" "Kay" "Leaford" "Lawrence" "Leonard" "Leslie" "Lloyd" "Lorne" 
-	"McGee" "Monck" "Munro" "McMillan" "McCabe" "Matthew" "Meugan" "Marlborough" "Neil" "Nelligan" 
+	"Lorna" "Barbara" "Geddy" "Winston" "Oswald" "Macdonald" "Shelley" "Friso" "Dominia" "By"
+	"Riemmelth" "Riel" "Shania" "Westerfield" "Clive" "Montgomery" "Canna" "Ouine" "Naismith" "Wade"
+	"Juthwara" "Judith" "Breaca" "Bill" "Kevin" "Castor" "Hamilton" "Lennox" "Rupert" "Weluela"
+	"Theodosia" "Madge" "Thomas" "Lucas" "Menefreda" "Harold" "Teath" "Endelienta" "Almeda" "Cagintria"
+	"Darcy" "Madrun" "Kirk" "Alan" "Derby" "Everwella" "Claudia" "Hudson" "Thaney" "Cherry"
+	"Tabitha" "Mitchell" "Fergus" "Malcolm" "Bernice" "Dominick" "Afrella" "Charles" "Alanis" "Avril"
+	"Ann" "Georgia" "Bethany" "Gosling" "Hap" "Tompkin" "Rose" "Wenbruia" "Permanence" "Gavia"
+	"Thomp" "Hiawatha" "Degonadonty" "Alexandra" "Geraldine" "Edgar" "Anna" "Liesl" "Kennet" "Jakob"
+	"Werner" "Albert" "Aykroyd" "Anthony" "Acer" "Brant" "Bennett" "Banting" "Bryce" "Carrey"
+	"Claude" "Churchill" "Dalton" "Evan" "Fidelis" "George" "Gray" "Gord" "Gath" "Hart"
+	"Harland" "Horton" "Jarvis" "Kay" "Leaford" "Lawrence" "Leonard" "Leslie" "Lloyd" "Lorne"
+	"McGee" "Monck" "Munro" "McMillan" "McCabe" "Matthew" "Meugan" "Marlborough" "Neil" "Nelligan"
 	"Octockwig" "Owen" "Ronald" "Rubrum" "Redgrave" "Spencer" "Trevor" "Tim" "York" }
 monarch_names = {
 	"Lorna #0" = -1

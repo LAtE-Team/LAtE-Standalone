@@ -1,5 +1,5 @@
 # Patagonian Mountain Warriors
-	
+
 type = infantry
 unit_type = conic
 

@@ -7,20 +7,20 @@ color = { 100 113 193 }
 
 leader_names = {
 
-	"Christine" "Madame" "Chanta" "Shan" "Andrea" "T�te" "Chantell" "Marilyn" "Janet" "Malcolm" 
-	"Norma" "Charles" "Maria" "Calvin" "James" "Madeline" "Michel" "Tanto" "Dwight" "Katherena" 
-	"Albert" "Augustin" "Audrey" "Pascal" "Elizabeth" "Cl�ment" "Antoine" "Peter" "Laura" "Catharine" 
-	"Nancy" "Jani" "H�l�ne" "Carole" "Laurette" "Isabelle" "Shelly" "David" "Josephin" "Magdelaine" 
-	"Thelma" "Pearl" "Jean-Baptiste" "Louis" "Yvonne" "Rene" "Guillaume" "Ambroise-Dydime" "Yvon" "Jacques" 
-	"Gabriel" "Frechette" "Honor�" "Howard" "Kinnie" "Marie" "Joanne" "Rose-Marie" "Marguerite" "Kevin" 
-	"Don" "Sandra" "Bob" "Xavier" "Suzanne" "Eug�ne" "John" "Julie" "Therese" "Colleen" 
-	"Alexander" "Jacco" "August" "Laird" "Ian" "Gallant" "Salomon" "Wayne" "Joe" "Andrew" 
-	"Dylan" "Wade" "Theoren" "George" "Bryan" "Vic" "Alec" "Ambrose" "Andy" "Angus" 
-	"Antonine" "Arron" "Arthur" "Asham" "Axel" "Baptiste" "Brian" "Charles-Michel" "Cuthbert" "Cyril" 
-	"Denis" "Derrick" "Douglas" "Doyle" "Dydim" "Elz�ar" "Fran�ois" "Gerald" "Gil" "Gregory" 
-	"Harley" "Henri" "Jaco" "Jaxon" "Jean" "Jess" "Jon" "Jonathan" "Jules" "Kalib" 
-	"Keith" "Laurent-Salomon" "Lawrence" "Maxime" "Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond" 
-	"Ren�" "Rick" "Robert" "Rod" "Sheldon" "Solomon" "Thomas" "Todd" "Tom" "Tony" 
+	"Christine" "Madame" "Chanta" "Shan" "Andrea" "T�te" "Chantell" "Marilyn" "Janet" "Malcolm"
+	"Norma" "Charles" "Maria" "Calvin" "James" "Madeline" "Michel" "Tanto" "Dwight" "Katherena"
+	"Albert" "Augustin" "Audrey" "Pascal" "Elizabeth" "Cl�ment" "Antoine" "Peter" "Laura" "Catharine"
+	"Nancy" "Jani" "H�l�ne" "Carole" "Laurette" "Isabelle" "Shelly" "David" "Josephin" "Magdelaine"
+	"Thelma" "Pearl" "Jean-Baptiste" "Louis" "Yvonne" "Rene" "Guillaume" "Ambroise-Dydime" "Yvon" "Jacques"
+	"Gabriel" "Frechette" "Honor�" "Howard" "Kinnie" "Marie" "Joanne" "Rose-Marie" "Marguerite" "Kevin"
+	"Don" "Sandra" "Bob" "Xavier" "Suzanne" "Eug�ne" "John" "Julie" "Therese" "Colleen"
+	"Alexander" "Jacco" "August" "Laird" "Ian" "Gallant" "Salomon" "Wayne" "Joe" "Andrew"
+	"Dylan" "Wade" "Theoren" "George" "Bryan" "Vic" "Alec" "Ambrose" "Andy" "Angus"
+	"Antonine" "Arron" "Arthur" "Asham" "Axel" "Baptiste" "Brian" "Charles-Michel" "Cuthbert" "Cyril"
+	"Denis" "Derrick" "Douglas" "Doyle" "Dydim" "Elz�ar" "Fran�ois" "Gerald" "Gil" "Gregory"
+	"Harley" "Henri" "Jaco" "Jaxon" "Jean" "Jess" "Jon" "Jonathan" "Jules" "Kalib"
+	"Keith" "Laurent-Salomon" "Lawrence" "Maxime" "Paul" "Pierre" "Ralph" "Ranald" "Ray" "Raymond"
+	"Ren�" "Rick" "Robert" "Rod" "Sheldon" "Solomon" "Thomas" "Todd" "Tom" "Tony"
 	"William" }
 monarch_names = {
 	"Christine #0" = -1

@@ -24,51 +24,51 @@ NDefines.NFrontend.TIME_UNTIL_ROTATE = 1.5 						-- Time when rotation start (fr
 NDefines.NFrontend.CAMERA_SPEED_START = 0.04  					-- Initial animation speed
 NDefines.NFrontend.CAMERA_SPEED_ROTATE = 0.04						-- Rotation speed
 NDefines.NFrontend.GUI_MOVE_SPEED = 300							-- How fast sliding gui objects move ( pixels/s )
-	
+
 NDefines.NFrontend.FADE_IN_DONE_TIME = 2.2
 NDefines.NFrontend.GUI_START_MOVE_TIME = 1.4
 NDefines.NFrontend.CAMERA_START_MOVE_TIME = 3.0
-	
+
 NDefines.NFrontend.CAMERA_SPEED_IN_MENUS = 0.1
-	
+
 NDefines.NFrontend.FRONTEND_POS_X = 1300.0
 NDefines.NFrontend.FRONTEND_POS_Y = 900.0
 NDefines.NFrontend.FRONTEND_POS_Z = 1500.0
 NDefines.NFrontend.FRONTEND_LOOK_X = 1300.0
 NDefines.NFrontend.FRONTEND_LOOK_Y = 0.0
 NDefines.NFrontend.FRONTEND_LOOK_Z = 1519.0
-	
+
 NDefines.NFrontend.SETTINGS_POS_X = 1300.0
 NDefines.NFrontend.SETTINGS_POS_Y = 551.0
 NDefines.NFrontend.SETTINGS_POS_Z = 978.0
 NDefines.NFrontend.SETTINGS_LOOK_X = 2998.0
-NDefines.NFrontend.SETTINGS_LOOK_Y = 0.0		
+NDefines.NFrontend.SETTINGS_LOOK_Y = 0.0
 NDefines.NFrontend.SETTINGS_LOOK_Z = 1364.0
-	
+
 NDefines.NFrontend.MP_OPTIONS_POS_X = 1300.0
 NDefines.NFrontend.MP_OPTIONS_POS_Y = 922.0
 NDefines.NFrontend.MP_OPTIONS_POS_Z = 1048.0
 NDefines.NFrontend.MP_OPTIONS_LOOK_X = 1300.0
-NDefines.NFrontend.MP_OPTIONS_LOOK_Y = 0.0	
+NDefines.NFrontend.MP_OPTIONS_LOOK_Y = 0.0
 NDefines.NFrontend.MP_OPTIONS_LOOK_Z = 1159.0
-	
+
 NDefines.NFrontend.TUTORIAL_POS_X = 2894.0
 NDefines.NFrontend.TUTORIAL_POS_Y = 124.0
 NDefines.NFrontend.TUTORIAL_POS_Z = 1319.0
 NDefines.NFrontend.TUTORIAL_LOOK_X = 2881.0
-NDefines.NFrontend.TUTORIAL_LOOK_Y = 21.0	
+NDefines.NFrontend.TUTORIAL_LOOK_Y = 21.0
 NDefines.NFrontend.TUTORIAL_LOOK_Z = 1463.0
-	
+
 NDefines.NFrontend.CONTENT_POS_X = 1300.0
 NDefines.NFrontend.CONTENT_POS_Y = 922.0
 NDefines.NFrontend.CONTENT_POS_Z = 1308.0
 NDefines.NFrontend.CONTENT_LOOK_X = 1300.0
-NDefines.NFrontend.CONTENT_LOOK_Y = 0.0	
+NDefines.NFrontend.CONTENT_LOOK_Y = 0.0
 NDefines.NFrontend.CONTENT_LOOK_Z = 1519.0
-	
+
 NDefines.NFrontend.CREDITS_POS_X = 3077.0
 NDefines.NFrontend.CREDITS_POS_Y = 231.0
 NDefines.NFrontend.CREDITS_POS_Z = 1508.0
 NDefines.NFrontend.CREDITS_LOOK_X = 3080.0
-NDefines.NFrontend.CREDITS_LOOK_Y = 19.0	
+NDefines.NFrontend.CREDITS_LOOK_Y = 19.0
 NDefines.NFrontend.CREDITS_LOOK_Z = 1720.0

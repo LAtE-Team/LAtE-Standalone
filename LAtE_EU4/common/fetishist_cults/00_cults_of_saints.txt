@@ -135,7 +135,7 @@ gracia_dorado = {
 #Philippines
 santo_nino = {
 	diplomatic_reputation = 1
-	
+
 	allow = {
 		religion = sacred_heart
 		OR = {
@@ -160,7 +160,7 @@ jose_rizal = {
 	allow = {
 		religion = sacred_heart
 		OR = {
-			has_unlocked_cult = jose_rizal	
+			has_unlocked_cult = jose_rizal
 			technology_group = brazilian
 		}
 	}
@@ -268,7 +268,7 @@ los_angeles = { # Cetic
 		religion = sacred_heart
 		has_unlocked_cult = los_angeles
 	}
-	global_trade_goods_size_modifier = 0.1	
+	global_trade_goods_size_modifier = 0.1
 	ai_will_do = {
 		factor = 10
 		modifier = {

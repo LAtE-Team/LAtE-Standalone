@@ -6,21 +6,21 @@ rust_cultist_improve_effect = {
 		add_prestige = 10
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_3
 		}
 		clr_country_flag = rust_cult_improvements_3
 		set_country_flag = rust_cult_improvements_4
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_2
 		}
 		clr_country_flag = rust_cult_improvements_2
 		set_country_flag = rust_cult_improvements_3
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_1
 		}
 		clr_country_flag = rust_cult_improvements_1
@@ -35,21 +35,21 @@ rust_cultist_improve_effect = {
 
 rust_cultist_reduce_effect = {
 	if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_4
 		}
 		clr_country_flag = rust_cult_improvements_4
 		set_country_flag = rust_cult_improvements_3
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_3
 		}
 		clr_country_flag = rust_cult_improvements_3
 		set_country_flag = rust_cult_improvements_2
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			has_country_flag = rust_cult_improvements_2
 		}
 		clr_country_flag = rust_cult_improvements_2

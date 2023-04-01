@@ -4,13 +4,13 @@
 	# unique_government = yes
 
 	# color = { 210 195 35 }
-	
+
 	# tribal = yes
-	
+
 	# valid_for_new_country = no
 	# allow_convert = no
 	# valid_for_nation_designer = yes
-	# nation_designer_cost = 0	
+	# nation_designer_cost = 0
 	# nation_designer_trigger = {
 		# technology_group = brazilian
 	# }

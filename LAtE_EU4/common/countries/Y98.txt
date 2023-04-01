@@ -8,22 +8,22 @@ color = { 193 74 40 }
 
 leader_names = {
 
-	"Rhonda" "Mickey" "David" "Frances" "Hendry" "Martin" "Kwullethu" "Tzeatchen" "Mopechucope" "Muguara" 
-	"Parraocoom" "Powell" "Galen" "Hud" "Oort" "Lance" "Ryan" "Alan" "Albert" "Alec" 
-	"Alfred" "Andrew" "Angel" "Anthony" "Arthur" "Benicio" "Blaine" "Boyer" "Brando" "Brandon" 
-	"Brynn" "Buddy" "Burt" "Burton" "Buster" "Carson" "Cary" "Cesar" "Charles" "Charlton" 
-	"Clark" "Claude" "Clift" "Clint" "Colman" "Conrad" "Cooper" "Curt" "Dana" "Daniel" 
-	"Dean" "Denzel" "Dick" "Douglas" "Dustin" "Ebert" "Edward" "Errol" "Erskine" "Everett" 
-	"Flynn" "Ford" "Fortunio" "Foster" "Frank" "Fred" "Fredric" "Gary" "Gene" "George" 
-	"Glenn" "Granger" "Grant" "Gregory" "Gus" "Harold" "Harris" "Heath" "Helmut" "Henry" 
-	"Herbert" "Herman" "Heston" "Holden" "Hudson" "Humphrey" "Jack" "Jacob" "James" "Jeremy" 
-	"Jerry" "Joel" "John" "Johnny" "Jose" "Joseph" "Julian" "Kane" "Karl" "Keaton" 
-	"Kenneth" "Kevin" "Kirk" "Ladd" "Laurence" "Lawrence" "Leon" "Leonid" "Liam" "Marcel" 
-	"Marlon" "Mason" "Max" "Melvyn" "Michael" "Mitchum" "Montgomery" "Morgan" "Murray" "Nathan" 
-	"Niven" "Oliver" "Orson" "Parker" "Paul" "Peter" "Philip" "Preston" "Quinn" "Ray" 
-	"Rex" "Richard" "Rick" "Robert" "Rock" "Roger" "Roman" "Ronald" "Rudolf" "Russel" 
-	"Russell" "Samuel" "Sanders" "Sidney" "Signor" "Sinatra" "Siskel" "Sonny" "Spence" "Spencer" 
-	"Stan" "Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Tyrone" "Victor" "Vincent" "Walter" 
+	"Rhonda" "Mickey" "David" "Frances" "Hendry" "Martin" "Kwullethu" "Tzeatchen" "Mopechucope" "Muguara"
+	"Parraocoom" "Powell" "Galen" "Hud" "Oort" "Lance" "Ryan" "Alan" "Albert" "Alec"
+	"Alfred" "Andrew" "Angel" "Anthony" "Arthur" "Benicio" "Blaine" "Boyer" "Brando" "Brandon"
+	"Brynn" "Buddy" "Burt" "Burton" "Buster" "Carson" "Cary" "Cesar" "Charles" "Charlton"
+	"Clark" "Claude" "Clift" "Clint" "Colman" "Conrad" "Cooper" "Curt" "Dana" "Daniel"
+	"Dean" "Denzel" "Dick" "Douglas" "Dustin" "Ebert" "Edward" "Errol" "Erskine" "Everett"
+	"Flynn" "Ford" "Fortunio" "Foster" "Frank" "Fred" "Fredric" "Gary" "Gene" "George"
+	"Glenn" "Granger" "Grant" "Gregory" "Gus" "Harold" "Harris" "Heath" "Helmut" "Henry"
+	"Herbert" "Herman" "Heston" "Holden" "Hudson" "Humphrey" "Jack" "Jacob" "James" "Jeremy"
+	"Jerry" "Joel" "John" "Johnny" "Jose" "Joseph" "Julian" "Kane" "Karl" "Keaton"
+	"Kenneth" "Kevin" "Kirk" "Ladd" "Laurence" "Lawrence" "Leon" "Leonid" "Liam" "Marcel"
+	"Marlon" "Mason" "Max" "Melvyn" "Michael" "Mitchum" "Montgomery" "Morgan" "Murray" "Nathan"
+	"Niven" "Oliver" "Orson" "Parker" "Paul" "Peter" "Philip" "Preston" "Quinn" "Ray"
+	"Rex" "Richard" "Rick" "Robert" "Rock" "Roger" "Roman" "Ronald" "Rudolf" "Russel"
+	"Russell" "Samuel" "Sanders" "Sidney" "Signor" "Sinatra" "Siskel" "Sonny" "Spence" "Spencer"
+	"Stan" "Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Tyrone" "Victor" "Vincent" "Walter"
 	"Ward" "Wayne" "Widmark" "William" "Wyler" "Yancy" "Yul" }
 monarch_names = {
 	"Rhonda #0" = -1

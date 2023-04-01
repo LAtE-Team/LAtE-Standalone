@@ -11,26 +11,26 @@ country_event = {
 	id = catholic_flavor.1
 	title = catholic_flavor.1.t
 	desc = {
-		trigger = {  
+		trigger = {
 			religion = catholic
 		}
 		desc = catholic_flavor.1.catholic.d
 	}
 	desc = {
-		trigger = {  
+		trigger = {
 			religion = ursuline
 		}
 		desc = catholic_flavor.1.ursuline.d
 	}
 	desc = {
-		trigger = {  
+		trigger = {
 			NOT = { religion = catholic }
 			NOT = { religion = ursuline }
 		}
 		desc = catholic_flavor.1.christian.d
 	}
 	picture = POPE_PREACHING_eventPicture
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -72,7 +72,7 @@ country_event = {
 	option = {
 		name = catholic_flavor.1.c
 		trigger = {
-			religion = ursuline	
+			religion = ursuline
 		}
 		change_religion = ursuline
 		hidden_effect = {
@@ -89,7 +89,7 @@ country_event = {
 	option = {
 		name = catholic_flavor.1.d
 		trigger = {
-			religion = ursuline	
+			religion = ursuline
 		}
 		add_stability = -1
 		ai_chance = {
@@ -101,7 +101,7 @@ country_event = {
 		name = catholic_flavor.1.e
 		trigger = {
 			NOT = { religion = catholic }
-			NOT = { religion = ursuline }	
+			NOT = { religion = ursuline }
 		}
 	}
 }

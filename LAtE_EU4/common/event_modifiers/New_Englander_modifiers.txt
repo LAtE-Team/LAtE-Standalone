@@ -7,7 +7,7 @@ nen_religious_pacification = {
 	missionary_maintenance_cost = -0.2
 }
 nen_yankee_unification = {
-	core_creation = -0.10 
+	core_creation = -0.10
 }
 nen_crusaders_fervor = {
 	global_missionary_strength = 0.01

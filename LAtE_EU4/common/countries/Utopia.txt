@@ -4,12 +4,12 @@ graphical_culture = asiangfx
 
 color = { 240 220 20 }
 
-monarch_names = {	
+monarch_names = {
 	"Paramount #0" = 10
 	"Calynx #0" = 0
 	"Phantis #0" = 0
 	"Scaphio #0" = 0
-	
+
 	"Kalyba #0" = -1
 	"Melene #0" = -1
 	"Nekaya #0" = -1

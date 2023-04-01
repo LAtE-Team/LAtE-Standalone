@@ -8,15 +8,15 @@ color = { 164 228 148 }
 
 leader_names = {
 
-	"Ignace" "Olivier" "Charles" "Albert" "Alan" "Rohard" "Louis" "Édouard" "Barthélémy" "Cyrille" 
-	"François" "Adam" "Athanase" "Ambrose" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" 
-	"André" "Adrien" "Aurèle" "Baudouin" "Balian" "Bohémond" "Cartier" "Cecil" "Claude" "Camille" 
-	"Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "Étienne" "Éphrem" "Foulques" "Frédéric" 
-	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel" 
-	"Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Jeannot" "Jean" "Jacques" 
-	"Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" "Laurent" "Lucien" "Leo" "Marc" 
-	"Michel" "Maurice" "Maximilien" "Marcel" "Napoleon" "Nérée" "Ovide" "Odon" "Onfroy" "Pascal" 
-	"Pierre" "Paul" "Philippe" "Réal" "Robert" "René" "Roger" "Raymond" "Renaud" "Roupen" 
+	"Ignace" "Olivier" "Charles" "Albert" "Alan" "Rohard" "Louis" "Édouard" "Barthélémy" "Cyrille"
+	"François" "Adam" "Athanase" "Ambrose" "Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre"
+	"André" "Adrien" "Aurèle" "Baudouin" "Balian" "Bohémond" "Cartier" "Cecil" "Claude" "Camille"
+	"Christophe" "Camillien" "Denis" "Damase" "Dustin" "Daniel" "Étienne" "Éphrem" "Foulques" "Frédéric"
+	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel"
+	"Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Jeannot" "Jean" "Jacques"
+	"Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" "Laurent" "Lucien" "Leo" "Marc"
+	"Michel" "Maurice" "Maximilien" "Marcel" "Napoleon" "Nérée" "Ovide" "Odon" "Onfroy" "Pascal"
+	"Pierre" "Paul" "Philippe" "Réal" "Robert" "René" "Roger" "Raymond" "Renaud" "Roupen"
 	"Régis" "Roland" "Samuel" "Sulpice" "Serge" "Tancrède" "Vincent" "Wilfrid" "Xavier" }
 monarch_names = {
 	"Ignace #1" = 18

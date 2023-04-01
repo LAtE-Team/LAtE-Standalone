@@ -8,18 +8,18 @@ color = { 0 0 115 }
 
 leader_names = {
 
-	"Ihldiinii" "Henry" "Pratchett" "Shannon" "Josh" "Kimana" "Hluuwee" "Raina" "Sguii" "Ltsuq" 
-	"Sandlenee" "Cha'atl" "Xuut" "Klinkwan" "Kagan" "Skaay" "Kit" "Nang Kilsdlaas" "Wah-Kah-Nee" "Tl'aagaang Quna" 
-	"Kwaa Hiiwans" "Kayung" "Yaanans" "Sgaann Hiwhwaans" "Hluunaagad" "Aitchelitz" "Gyaahlans" "Masset" "Tsaak" "Tahaygen" 
-	"Willow" "Gaahlaa" "Waawga" "Tanu" "Haina" "Maria" "Sgaana" "Cumshewa" "S'gana" "Guusk'an" 
-	"Gwaay Guu Ganhlin" "Guubii" "Howkan" "Xhalkuts" "Yahl Sgoansins" "Kiusta" "Sgaana Guujaanga" "Kaat" "Wiiaa" "Naani" 
-	"Yahl Gwaawaas" "Yahl" "Tsang" "Kwoiyang" "Iris" "Kilsdlaa Xidguns" "Skidegate" "Chiin" "Koya" "Kimama" 
-	"Ninstints" "Esperanza" "Boyle" "Kristine" "Jacquiline" "Jenny" "Yahl Kangwaas" "Skedans" "Hiellan" "T'lajung Nung Kingaas" 
-	"Ginaawaan" "Tsaa Hamjuuwee" "Justin" "Warren" "Thasi" "Atewaas" "Chee Xial Taaiixou" "Cuneah" "Dayaang" "Gaahlaay" 
-	"Ganiihlaas" "Ghaltsaakw" "Gidansda" "Gidkun" "Giteewans" "Gitkinjuuwaas" "Gogiid" "Guujaaw" "Guulaas" "Gya'awhlans" 
-	"Hidansuu" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hiljuuwaas" "Hlgitun" "Jaahguhl" "K'ap" "Kithlaigaa" "Kun" 
-	"Kung" "Nang Jingwas" "Sdiithldaa" "Sgaal" "Siigee" "Skaaxwad" "Skil Hiilans" "Skil Tiis" "Skilhlang" "Skilkaadgan" 
-	"Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "Taan" "Tsahtsaa" "Tsinni" "Wigaanad" "Xa" 
+	"Ihldiinii" "Henry" "Pratchett" "Shannon" "Josh" "Kimana" "Hluuwee" "Raina" "Sguii" "Ltsuq"
+	"Sandlenee" "Cha'atl" "Xuut" "Klinkwan" "Kagan" "Skaay" "Kit" "Nang Kilsdlaas" "Wah-Kah-Nee" "Tl'aagaang Quna"
+	"Kwaa Hiiwans" "Kayung" "Yaanans" "Sgaann Hiwhwaans" "Hluunaagad" "Aitchelitz" "Gyaahlans" "Masset" "Tsaak" "Tahaygen"
+	"Willow" "Gaahlaa" "Waawga" "Tanu" "Haina" "Maria" "Sgaana" "Cumshewa" "S'gana" "Guusk'an"
+	"Gwaay Guu Ganhlin" "Guubii" "Howkan" "Xhalkuts" "Yahl Sgoansins" "Kiusta" "Sgaana Guujaanga" "Kaat" "Wiiaa" "Naani"
+	"Yahl Gwaawaas" "Yahl" "Tsang" "Kwoiyang" "Iris" "Kilsdlaa Xidguns" "Skidegate" "Chiin" "Koya" "Kimama"
+	"Ninstints" "Esperanza" "Boyle" "Kristine" "Jacquiline" "Jenny" "Yahl Kangwaas" "Skedans" "Hiellan" "T'lajung Nung Kingaas"
+	"Ginaawaan" "Tsaa Hamjuuwee" "Justin" "Warren" "Thasi" "Atewaas" "Chee Xial Taaiixou" "Cuneah" "Dayaang" "Gaahlaay"
+	"Ganiihlaas" "Ghaltsaakw" "Gidansda" "Gidkun" "Giteewans" "Gitkinjuuwaas" "Gogiid" "Guujaaw" "Guulaas" "Gya'awhlans"
+	"Hidansuu" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hiljuuwaas" "Hlgitun" "Jaahguhl" "K'ap" "Kithlaigaa" "Kun"
+	"Kung" "Nang Jingwas" "Sdiithldaa" "Sgaal" "Siigee" "Skaaxwad" "Skil Hiilans" "Skil Tiis" "Skilhlang" "Skilkaadgan"
+	"Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "Taan" "Tsahtsaa" "Tsinni" "Wigaanad" "Xa"
 	"Xunts" "Yahguaas" "Yahl Hinku" "Yahl Naaw" }
 monarch_names = {
 	"Ihldiinii #0" = 1

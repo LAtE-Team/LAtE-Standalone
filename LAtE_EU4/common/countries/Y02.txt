@@ -8,18 +8,18 @@ color = { 22 128 190 }
 
 leader_names = {
 
-	"Pere" "Willow" "Bernard" "Jeanne" "Madeline" "Mitchell" "Delia" "Sam" "Lucia" "David" 
-	"Alexandre" "Gabrielle" "Beryl" "Citrand" "Eduard" "Cola" "Eloise" "Malaric" "Mangifera" "Petra" 
-	"Offatt" "Antoine" "Autrane" "Girard" "Velasce" "Taylor" "Jeannette" "Leon" "Fay" "Allen" 
-	"Fern" "Grace" "Alonso" "Eulalia" "Pearl" "Oceanus" "Torreya" "Audrey" "Beulah" "Gonzalo" 
-	"Macond" "Galves" "Malhad" "Rita" "Wacissa" "Allison" "Caroline" "Roxie" "Gutierre" "Roslyn" 
-	"Aucilla" "Ponce" "Hernand" "Marianne" "Victor" "Hanna" "Georges" "Humbert" "Pina" "Sandy" 
-	"Louis" "Margarida" "Jay" "Flora" "Mathias" "Urban" "Anna" "Ashton" "Xavier" "Sander" 
-	"Hermine" "Gomer" "Javier" "Perdida" "Forrest" "Elias" "Henry" "Danielle" "Palustris" "Phil" 
-	"Debra" "Ardo" "Atlas" "Augustine" "Adam" "Bell" "Carles" "Chester" "Cotton" "Calhoun" 
-	"Colin" "Diego" "Duarte" "Francis" "Frederic" "Ferdinand" "Ferran" "Fulwar" "Garcia" "Gaspar" 
-	"Harrison" "Jehan" "Jackson" "Jaumet" "Joaquim" "Junipero" "Lasker" "Lucas" "Moyne" "Menard" 
-	"Montfort" "Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Orelian" "Pelecand" "Panfile" "Robard" 
+	"Pere" "Willow" "Bernard" "Jeanne" "Madeline" "Mitchell" "Delia" "Sam" "Lucia" "David"
+	"Alexandre" "Gabrielle" "Beryl" "Citrand" "Eduard" "Cola" "Eloise" "Malaric" "Mangifera" "Petra"
+	"Offatt" "Antoine" "Autrane" "Girard" "Velasce" "Taylor" "Jeannette" "Leon" "Fay" "Allen"
+	"Fern" "Grace" "Alonso" "Eulalia" "Pearl" "Oceanus" "Torreya" "Audrey" "Beulah" "Gonzalo"
+	"Macond" "Galves" "Malhad" "Rita" "Wacissa" "Allison" "Caroline" "Roxie" "Gutierre" "Roslyn"
+	"Aucilla" "Ponce" "Hernand" "Marianne" "Victor" "Hanna" "Georges" "Humbert" "Pina" "Sandy"
+	"Louis" "Margarida" "Jay" "Flora" "Mathias" "Urban" "Anna" "Ashton" "Xavier" "Sander"
+	"Hermine" "Gomer" "Javier" "Perdida" "Forrest" "Elias" "Henry" "Danielle" "Palustris" "Phil"
+	"Debra" "Ardo" "Atlas" "Augustine" "Adam" "Bell" "Carles" "Chester" "Cotton" "Calhoun"
+	"Colin" "Diego" "Duarte" "Francis" "Frederic" "Ferdinand" "Ferran" "Fulwar" "Garcia" "Gaspar"
+	"Harrison" "Jehan" "Jackson" "Jaumet" "Joaquim" "Junipero" "Lasker" "Lucas" "Moyne" "Menard"
+	"Montfort" "Montserrat" "Melchor" "Marcus" "Neptune" "Narcis" "Orelian" "Pelecand" "Panfile" "Robard"
 	"Roland" "Ramon" "Roderic" "Soto" "Tammand" "Tomas" "Tristan" }
 monarch_names = {
 	"Pere #0" = 1

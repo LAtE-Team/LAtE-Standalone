@@ -7,21 +7,21 @@ color = { 222 153 146 }
 
 leader_names = {
 
-	"Maleagant" "Aphrodite" "Dorothy" "Johanne" "Lucan" "Pellinore" "Severus" "Carloman" "Vaisey" "Hurndall" 
-	"Vertiline" "Millicent" "Wilbert" "Dagonet" "Dagobert" "Anne" "Tennant" "Bran" "Sophronia" "Theodosia" 
-	"Robin" "Philomena" "Winnifred" "Winston" "Gwendoline" "Adriaen" "Berthold" "Jacobbe" "Gioacchim" "Paulus" 
-	"Gerard" "Lupus" "Theophilus" "Agravain" "Bartle" "Rudyard" "Arthur" "Alan" "Albus" "Ajax" 
-	"Accolon" "Angus" "Attwell" "Baldrick" "Brillig" "Borogove" "Bedivere" "Breunor" "Brutus" "Brum" 
-	"Balian" "Bruin" "Barnaby" "Brelan" "Capald" "Charles" "Colin" "Chilperick" "Constantine" "Craddock" 
-	"Claudas" "Cedrick" "Cynan" "Catigern" "Dorian" "Darius" "Douglas" "Dinadan" "Edward" "Edmund" 
-	"Errol" "Ector" "Elyan" "Edern" "Frederick" "Fry" "Firmin" "Fergus" "Frobisher" "Gilbert" 
-	"Gyre" "Gordon" "Guy" "Gann" "Gallahad" "Gryphon" "Gareth" "Geraint" "Griflet" "Gringolet" 
-	"Gildas" "Giles" "Hiram" "Horatio" "Hartnell" "Harper" "Hector" "Hengist" "Havelock" "Isambard" 
-	"Julian" "Joffrey" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" "Lionel" "Lucius" "Manfield" 
-	"Much" "Meldrick" "Manxome" "Malcolm" "Mercury" "Morgan" "Marmaduke" "Nelson" "Nennius" "Neddard" 
-	"Oliver" "Outgrabe" "Owen" "Oberon" "Peter" "Percival" "Pertwee" "Pepin" "Phineas" "Paget" 
-	"Pelleas" "Ruddigore" "Richard" "Randolph" "Rubeus" "Rugbert" "Rigby" "Rowland" "Sullivan" "Scathelock" 
-	"Sylvester" "Sagramore" "Thaddeus" "Tove" "Tulgey" "Theobald" "Tarrant" "Tristan" "Tiberius" "Teignmouth" 
+	"Maleagant" "Aphrodite" "Dorothy" "Johanne" "Lucan" "Pellinore" "Severus" "Carloman" "Vaisey" "Hurndall"
+	"Vertiline" "Millicent" "Wilbert" "Dagonet" "Dagobert" "Anne" "Tennant" "Bran" "Sophronia" "Theodosia"
+	"Robin" "Philomena" "Winnifred" "Winston" "Gwendoline" "Adriaen" "Berthold" "Jacobbe" "Gioacchim" "Paulus"
+	"Gerard" "Lupus" "Theophilus" "Agravain" "Bartle" "Rudyard" "Arthur" "Alan" "Albus" "Ajax"
+	"Accolon" "Angus" "Attwell" "Baldrick" "Brillig" "Borogove" "Bedivere" "Breunor" "Brutus" "Brum"
+	"Balian" "Bruin" "Barnaby" "Brelan" "Capald" "Charles" "Colin" "Chilperick" "Constantine" "Craddock"
+	"Claudas" "Cedrick" "Cynan" "Catigern" "Dorian" "Darius" "Douglas" "Dinadan" "Edward" "Edmund"
+	"Errol" "Ector" "Elyan" "Edern" "Frederick" "Fry" "Firmin" "Fergus" "Frobisher" "Gilbert"
+	"Gyre" "Gordon" "Guy" "Gann" "Gallahad" "Gryphon" "Gareth" "Geraint" "Griflet" "Gringolet"
+	"Gildas" "Giles" "Hiram" "Horatio" "Hartnell" "Harper" "Hector" "Hengist" "Havelock" "Isambard"
+	"Julian" "Joffrey" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" "Lionel" "Lucius" "Manfield"
+	"Much" "Meldrick" "Manxome" "Malcolm" "Mercury" "Morgan" "Marmaduke" "Nelson" "Nennius" "Neddard"
+	"Oliver" "Outgrabe" "Owen" "Oberon" "Peter" "Percival" "Pertwee" "Pepin" "Phineas" "Paget"
+	"Pelleas" "Ruddigore" "Richard" "Randolph" "Rubeus" "Rugbert" "Rigby" "Rowland" "Sullivan" "Scathelock"
+	"Sylvester" "Sagramore" "Thaddeus" "Tove" "Tulgey" "Theobald" "Tarrant" "Tristan" "Tiberius" "Teignmouth"
 	"Uriens" "Uther" "Vincent" "Victor" "Yaffle" }
 monarch_names = {
 	"Maleagant #0" = 1

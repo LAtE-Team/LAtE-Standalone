@@ -8,18 +8,18 @@ color = { 162 181 30 }
 
 leader_names = {
 
-	"Quincy" "Reuchlin" "James" "Cameron" "Tertius" "Robert" "Lucilla" "Iseult" "Raphael" "Justinian" 
-	"Scarlett" "Claudius" "Jocasta" "Alan" "Anthony" "George" "Trevor" "Albert" "Baltus" "Josiah" 
-	"Andries" "Anton" "August" "Artur" "Abel" "Archibald" "Andre" "Brom" "Benjamin" "Cashunyon" 
-	"Charles" "Cornelis" "Clinton" "Cangueese" "Carillon" "Cyrus" "Cephas" "Chester" "Cotton" "Derrick" 
-	"Diedrich" "Daniel" "Deserontyon" "Delby" "Darius" "David" "Ebenezer" "Ethan" "Edgar" "Ernest" 
-	"Elihu" "Edwin" "Erastus" "Ellis" "Eli" "Frederick" "Franklin" "Friso" "Guyasut" "Geoffrey" 
-	"Gideon" "Gerrit" "Gemolo" "Hudson" "Hendrick" "Hunter" "Hamilton" "Holbrook" "Harmanus" "Hugh" 
-	"Himerius" "Ichabod" "Isaac" "Johannes" "Jervis" "Jocelyn" "Jacobus" "Jasper" "Jovan" "Kirke" 
-	"Kent" "Kel" "Launcelot" "Leo" "Lewis" "Lemuel" "Morris" "Martin" "Montgomery" "Malcolm" 
-	"Mather" "Nicholas" "Nathaniel" "Norton" "Otetian" "Ogden" "Oliver" "Oswald" "Pindar" "Philip" 
-	"Phinehas" "Quentin" "Quoz" "Roger" "Richard" "Raymond" "Rip" "Rodney" "Rufus" "Rollin" 
-	"Stephanus" "Stanwix" "Samuel" "Silus" "Simon" "Solon" "Traynor" "Theodore" "Tehwehron" "Tompkin" 
+	"Quincy" "Reuchlin" "James" "Cameron" "Tertius" "Robert" "Lucilla" "Iseult" "Raphael" "Justinian"
+	"Scarlett" "Claudius" "Jocasta" "Alan" "Anthony" "George" "Trevor" "Albert" "Baltus" "Josiah"
+	"Andries" "Anton" "August" "Artur" "Abel" "Archibald" "Andre" "Brom" "Benjamin" "Cashunyon"
+	"Charles" "Cornelis" "Clinton" "Cangueese" "Carillon" "Cyrus" "Cephas" "Chester" "Cotton" "Derrick"
+	"Diedrich" "Daniel" "Deserontyon" "Delby" "Darius" "David" "Ebenezer" "Ethan" "Edgar" "Ernest"
+	"Elihu" "Edwin" "Erastus" "Ellis" "Eli" "Frederick" "Franklin" "Friso" "Guyasut" "Geoffrey"
+	"Gideon" "Gerrit" "Gemolo" "Hudson" "Hendrick" "Hunter" "Hamilton" "Holbrook" "Harmanus" "Hugh"
+	"Himerius" "Ichabod" "Isaac" "Johannes" "Jervis" "Jocelyn" "Jacobus" "Jasper" "Jovan" "Kirke"
+	"Kent" "Kel" "Launcelot" "Leo" "Lewis" "Lemuel" "Morris" "Martin" "Montgomery" "Malcolm"
+	"Mather" "Nicholas" "Nathaniel" "Norton" "Otetian" "Ogden" "Oliver" "Oswald" "Pindar" "Philip"
+	"Phinehas" "Quentin" "Quoz" "Roger" "Richard" "Raymond" "Rip" "Rodney" "Rufus" "Rollin"
+	"Stephanus" "Stanwix" "Samuel" "Silus" "Simon" "Solon" "Traynor" "Theodore" "Tehwehron" "Tompkin"
 	"Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester" "Xander" }
 monarch_names = {
 	"Quincy #1" = 18

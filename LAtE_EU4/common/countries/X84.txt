@@ -8,16 +8,16 @@ color = { 158 174 230 }
 
 leader_names = {
 
-	"Opal" "Clyde" "Umatilla" "Azalez" "Seena" "Irrigon" "Joaquin" "Neahkahnie" "Meamber" "Lostine" 
-	"Millicoma" "Quentin" "Stanford" "Psuedotsuga" "Yaquina" "Molalla" "Metolius" "Marilyn" "Ginger" "Hilgard" 
-	"Sarah" "Alta" "Josephine" "Nicole" "Kayden" "Tesla" "Aleia" "Davis" "Robin" "Newton" 
-	"Mildred" "Denzel" "Oleander" "Angela" "Shasta" "Spring" "Benbow" "Chloe" "Gus" "Kristen" 
-	"Andrew" "Isa" "Anna" "Hood" "Juniper" "Cherilyn" "Tsahtsaa" "Mirounga" "Tumalo" "Iris" 
-	"Ukiah" "Nestucca" "Shada" "Annie" "Williamette" "Crystal" "Oswald" "Ochoco" "Clough" "Fraser" 
-	"Ewauna" "Dale" "Alsea" "Larch" "Emerson" "Wash" "Nathaniel" "Vinzenz" "Milo" "Bristow" 
-	"Clark" "Casey" "Chetco" "Eugene" "Fanno" "Glenn" "Holman" "Harris" "Jefferson" "Jedediah" 
-	"Jeff" "Keswick" "Kirk" "Lewis" "Lowell" "Ladd" "Nehalem" "Obediah" "Pinus" "Pierson" 
-	"Rainier" "Ross" "Stanley" "Silsby" "Sutter" "Sycan" "Scott" "Shepard" "Sprague" "Trask" 
+	"Opal" "Clyde" "Umatilla" "Azalez" "Seena" "Irrigon" "Joaquin" "Neahkahnie" "Meamber" "Lostine"
+	"Millicoma" "Quentin" "Stanford" "Psuedotsuga" "Yaquina" "Molalla" "Metolius" "Marilyn" "Ginger" "Hilgard"
+	"Sarah" "Alta" "Josephine" "Nicole" "Kayden" "Tesla" "Aleia" "Davis" "Robin" "Newton"
+	"Mildred" "Denzel" "Oleander" "Angela" "Shasta" "Spring" "Benbow" "Chloe" "Gus" "Kristen"
+	"Andrew" "Isa" "Anna" "Hood" "Juniper" "Cherilyn" "Tsahtsaa" "Mirounga" "Tumalo" "Iris"
+	"Ukiah" "Nestucca" "Shada" "Annie" "Williamette" "Crystal" "Oswald" "Ochoco" "Clough" "Fraser"
+	"Ewauna" "Dale" "Alsea" "Larch" "Emerson" "Wash" "Nathaniel" "Vinzenz" "Milo" "Bristow"
+	"Clark" "Casey" "Chetco" "Eugene" "Fanno" "Glenn" "Holman" "Harris" "Jefferson" "Jedediah"
+	"Jeff" "Keswick" "Kirk" "Lewis" "Lowell" "Ladd" "Nehalem" "Obediah" "Pinus" "Pierson"
+	"Rainier" "Ross" "Stanley" "Silsby" "Sutter" "Sycan" "Scott" "Shepard" "Sprague" "Trask"
 	"Trevor" "Vanduzen" "Whychus" "Winchuck" "Zalophus" }
 monarch_names = {
 	"Opal #0" = -1

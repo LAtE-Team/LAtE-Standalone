@@ -8,17 +8,17 @@ color = { 107 125 190 }
 
 leader_names = {
 
-	"Pierson" "Ochoco" "Joaquin" "Jeff" "Quentin" "Alta" "Ladd" "Annie" "Abiqua" "Yakweakwioose" 
-	"Kirk" "Manzanita" "Clyde" "Williamette" "Sutter" "Minam" "Iris" "Shepard" "Juniper" "Jedediah" 
-	"Maud" "Stanford" "Crystal" "Jefferson" "Harris" "Vinzenz_Vincent" "Lostine" "Psuedotsuga" "Neahkahnie" "Ginger" 
-	"Murrelet" "Branta" "Tumalo" "McKenzie" "Multnomah" "Pinus" "Winchuck" "Edna" "Nehalem" "Coquille" 
-	"Trevor" "Larch" "Love" "Dale" "Silsby" "Wallowa" "Catherine" "Alsea" "Zostera" "Irrigon" 
-	"Hood" "Keswick" "Mabel" "Sprague" "Molalla" "Metolius" "Milo" "Bernicla" "Ewauna" "Ukiah" 
-	"Azalez" "Winema" "Lewis" "Cecilia" "Eda" "Kent" "Eugene" "Hannah" "Pacifica" "Yulalona" 
-	"Opal" "Wash" "Shasta" "Glenn" "Columbia" "Emma" "Morton" "Doran" "Sarah" "Yaquina" 
-	"Casey" "Fraser" "Ashlie" "Laoma" "Trask" "Nathaniel" "Chetco" "Isa" "Vanduzen" "Zoe" 
-	"Millicoma" "Hilgard" "Tolowa" "Ross" "Zalophus" "Chloe" "Tara" "Rainier" "Obediah" "Stanley" 
-	"Ponderosa" "Sycan" "Lowell" "Boudicca" "Bristow" "Benbow" "Clough" "Clark" "Fanno" "Holman" 
+	"Pierson" "Ochoco" "Joaquin" "Jeff" "Quentin" "Alta" "Ladd" "Annie" "Abiqua" "Yakweakwioose"
+	"Kirk" "Manzanita" "Clyde" "Williamette" "Sutter" "Minam" "Iris" "Shepard" "Juniper" "Jedediah"
+	"Maud" "Stanford" "Crystal" "Jefferson" "Harris" "Vinzenz_Vincent" "Lostine" "Psuedotsuga" "Neahkahnie" "Ginger"
+	"Murrelet" "Branta" "Tumalo" "McKenzie" "Multnomah" "Pinus" "Winchuck" "Edna" "Nehalem" "Coquille"
+	"Trevor" "Larch" "Love" "Dale" "Silsby" "Wallowa" "Catherine" "Alsea" "Zostera" "Irrigon"
+	"Hood" "Keswick" "Mabel" "Sprague" "Molalla" "Metolius" "Milo" "Bernicla" "Ewauna" "Ukiah"
+	"Azalez" "Winema" "Lewis" "Cecilia" "Eda" "Kent" "Eugene" "Hannah" "Pacifica" "Yulalona"
+	"Opal" "Wash" "Shasta" "Glenn" "Columbia" "Emma" "Morton" "Doran" "Sarah" "Yaquina"
+	"Casey" "Fraser" "Ashlie" "Laoma" "Trask" "Nathaniel" "Chetco" "Isa" "Vanduzen" "Zoe"
+	"Millicoma" "Hilgard" "Tolowa" "Ross" "Zalophus" "Chloe" "Tara" "Rainier" "Obediah" "Stanley"
+	"Ponderosa" "Sycan" "Lowell" "Boudicca" "Bristow" "Benbow" "Clough" "Clark" "Fanno" "Holman"
 	"Meamber" "Oswald" "Scott" "Vinzenz" "Whychus" }
 monarch_names = {
 	"Pierson #2" = 30

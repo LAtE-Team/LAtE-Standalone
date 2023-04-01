@@ -357,7 +357,7 @@ celestial_empire = {
 		burghers_influence_modifier = -0.1
 		governing_capacity = 500
 	}
-	
+
 	ai = {
 		factor = 1000 # should always be picked if available
 	}
@@ -487,7 +487,7 @@ chinese_warlord = {
 		governing_capacity = 500
 		liberty_desire = 50
 	}
-	
+
 	ai = {
 		factor = 1000
 	}
@@ -527,7 +527,7 @@ kalmar_union = {
 			}
 		}
 	}
-	
+
 	custom_attributes = {
 		locked_government_type = yes
 		kalmar_union_succession = yes
@@ -1600,7 +1600,7 @@ musa_rule = {
 	}
 }
 
-#LAtE 
+#LAtE
 open_range_feudalism = {
 	icon = "castle"
 	allow_normal_conversion = yes
@@ -2487,7 +2487,7 @@ clergy_in_administration_reform = {
 	}
 	modifiers = {
 		free_adm_policy = 1
-		
+
 		brahmins_hindu_influence_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.05
 
@@ -2779,22 +2779,22 @@ general_estates_reform = {
 legislative_sejm = {
 	icon = "legislative_sejm_reform"
 	allow_normal_conversion = yes
-	
+
 	potential = {
 		has_reform = elective_monarchy
 		has_dlc = "Res Publica"
 	}
-	
+
 	trigger = {
 		has_reform = elective_monarchy
 	}
-	
+
 	modifiers = {
 		local_heir_adm = 1
 		local_heir_dip = 1
 		local_heir_mil = 1
 	}
-	
+
 	ai = {
 		factor = 1
 	}
@@ -2803,20 +2803,20 @@ legislative_sejm = {
 integrated_sejmiks = {
 	icon = "integrated_sejmiks_reform"
 	allow_normal_conversion = yes
-	
+
 	potential = {
 		has_reform = elective_monarchy
 		has_dlc = "Res Publica"
 	}
-	
+
 	trigger = {
 		has_reform = elective_monarchy
 	}
-	
+
 	modifiers = {
 		years_of_nationalism = -5
 	}
-	
+
 	ai = {
 		factor = 1
 	}
@@ -3159,10 +3159,10 @@ become_rev_republic_reform = {
 	icon = "become_rev_republic_reform"
 	allow_normal_conversion = yes
 
-	potential = { 
+	potential = {
 		is_revolutionary = yes
 	}
-	
+
 	trigger = {
 		has_reform = revolutionary_empire_reform
 		if = {

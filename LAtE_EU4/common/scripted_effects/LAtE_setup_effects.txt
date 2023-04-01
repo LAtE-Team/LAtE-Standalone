@@ -1,7 +1,7 @@
 setup_vision = {
 	if = {
 		limit = { exists = yes }
-		
+
 		set_country_flag = init_vision
 
         #North America
@@ -11,7 +11,7 @@ setup_vision = {
                     continent = north_america
                 }
             }
-			
+
 			north_america = {
 				limit = {
 					NOT = {
@@ -91,7 +91,7 @@ setup_vision = {
                     continent = south_america
                 }
             }
-			
+
 			south_america = {
 				discover_country = ROOT
 			}
@@ -99,11 +99,11 @@ setup_vision = {
 			central_america_superregion = { discover_country = ROOT }
 			southeast_america_region = { discover_country = ROOT }
 			texas_region = { discover_country = ROOT }
-			california_region = { 
+			california_region = {
 				limit = {
 					NOT = { province_id = 2481 }
 				}
-				discover_country = ROOT 
+				discover_country = ROOT
 			}
 			utah_region = {
 				limit = {
@@ -185,7 +185,7 @@ setup_vision = {
 						continent = europe
 						region = maghreb_region
 					}
-					NOT = { 
+					NOT = {
 						OR = {
 							region = russia_region
 							region = crimea_region
@@ -333,13 +333,13 @@ setup_vision = {
 
 			far_east_superregion = { discover_country = ROOT }
 			east_siberia_region = { discover_country = ROOT }
-			pacific_north_america_superregion = { 
+			pacific_north_america_superregion = {
 				limit = {
 					NOT = {
 						region = utah_region
 					}
 				}
-				discover_country = ROOT 
+				discover_country = ROOT
 			}
 			sea_of_japan_area = { discover_country = ROOT }
 			sea_of_okhotsk_area = { discover_country = ROOT }
@@ -403,7 +403,7 @@ setup_vision = {
 			1431 = { discover_country = ROOT }
 			1430 = { discover_country = ROOT }
 			1432 = { discover_country = ROOT }
-			1399 = { discover_country = ROOT }	
+			1399 = { discover_country = ROOT }
 			1400 = { discover_country = ROOT }
 		}
 
@@ -428,7 +428,7 @@ setup_vision = {
 			philipine_sea_area = { discover_country = ROOT }
 			coral_sea_area = { discover_country = ROOT }
 		}
-    }    
+    }
 
 
 

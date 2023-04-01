@@ -7,7 +7,7 @@ country_event = {
     desc = monument_events.1.d
 	picture = GREAT_BUILDING_eventPicture
 	goto = monument_province
-	
+
 	trigger = {
 		has_dlc = "Leviathan"
 		any_owned_province = {
@@ -19,7 +19,7 @@ country_event = {
 		}
 		NOT = { has_country_modifier = monumental_pride }
 	}
-	
+
 	 immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -34,7 +34,7 @@ country_event = {
 			}
 		}
     }
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -64,7 +64,7 @@ country_event = {
     desc = monument_events.2.d
 	picture = ADVISOR_eventPicture
 	goto = monument_province_2
-	
+
 	trigger = {
 		has_dlc = "Leviathan"
 		any_owned_province = {
@@ -82,7 +82,7 @@ country_event = {
 		}
 		NOT = { has_country_modifier = monument_boost }
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -113,7 +113,7 @@ country_event = {
 			}
 		}
     }
-	
+
 	mean_time_to_happen = {
 		months = 800
 	}
@@ -149,9 +149,9 @@ country_event = {
     desc = monument_events.3.d
 	picture = ST_PETERS_CHURCH_eventPicture
 	goto = basilica_province
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		always = no
 		has_dlc = "Leviathan"
@@ -165,7 +165,7 @@ country_event = {
 			religion = catholic
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -180,7 +180,7 @@ country_event = {
 			}
 		}
     }
-	
+
 	mean_time_to_happen = {
 		months = 180
 	}
@@ -233,11 +233,11 @@ country_event = {
     desc = monument_events.4.d
 	picture = SHWEDAGON_PAGON_eventPicture
 	goto = pagoda_province
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	 immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -283,7 +283,7 @@ country_event = {
     title = none
     desc = none
 	picture = GREAT_BUILDING_eventPicture
-	
+
 	hidden = yes
 
 	trigger = {
@@ -306,7 +306,7 @@ country_event = {
 			religion_group = muslim
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -328,7 +328,7 @@ country_event = {
     title = none
     desc = none
 	picture = GREAT_BUILDING_eventPicture
-	
+
 	hidden = yes
 
 	trigger = {
@@ -349,7 +349,7 @@ country_event = {
 		NOT = { religion_group = muslim }
 		146 = { NOT = { religion_group = muslim } }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}

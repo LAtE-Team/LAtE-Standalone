@@ -16,7 +16,7 @@ estate_unions_disaster = {
 		}
 		is_at_war = no
 	}
-	
+
 	can_stop = {
 		OR = {
 			has_any_disaster = yes
@@ -24,11 +24,11 @@ estate_unions_disaster = {
 				estate_influence = {
 					estate = estate_unions
 					influence = 100
-				}		
+				}
 			}
 		}
 	}
-	
+
 	down_progress = {
 		factor = 0
 		modifier = {
@@ -41,7 +41,7 @@ estate_unions_disaster = {
 			}
 		}
 	}
-	
+
 	progress = {
 		modifier = {
 			factor = 0.5
@@ -82,9 +82,9 @@ estate_unions_disaster = {
 				}
 			}
 			is_at_war = no
-		}	
+		}
 	}
-	
+
 	can_end = {
 		custom_trigger_tooltip = {
 			tooltip = EST_CRUSHED_VAISYAS
@@ -92,11 +92,11 @@ estate_unions_disaster = {
 				NOT = { has_country_flag = unions_estate_in_power }
 				has_country_flag = army_estate_in_power
 				has_country_flag = antiquarians_estate_in_power
-			}						
+			}
 		}
 	}
-	
-	modifier = {	
+
+	modifier = {
 		land_morale = -0.1
 		global_manpower_modifier = -0.25
 		land_forcelimit_modifier = -0.25
@@ -105,7 +105,7 @@ estate_unions_disaster = {
 
 	on_start = LAtE_estate_disasters.23.s
 	on_end = LAtE_estate_disasters.23.e
-	
+
 	on_monthly = {
 	}
 }

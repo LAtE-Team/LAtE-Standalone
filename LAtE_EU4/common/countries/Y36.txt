@@ -8,14 +8,14 @@ color = { 202 101 167 }
 
 leader_names = {
 
-	"Dearborn" "Samuel" "Aldo" "Ashburn" "Austin" "Albin" "Anatol" "Aron" "Alecsey" "Artur" 
-	"Boris" "Belmont" "Brian" "Bernard" "Bartosh" "Boleck" "Bruno" "Cragin" "Chatham" "Clarendon" 
-	"Calsag" "Cyrus" "Cormick" "Comslav" "Cormac" "Connor" "Corbor" "Damen" "Daley" "Douglas" 
-	"Deering" "Dagmar" "Drobogall" "Dobroghan" "Dunning" "Elwood" "Elsdon" "Emil" "Frank" "Ferguslav" 
-	"Fionnslav" "Fuller" "Fulton" "Felick" "Gobnet" "Goban" "Gallmil" "Garfield" "Gresham" "Gormdan" 
-	"Grannuslav" "Homan" "Ian" "Irving" "Izaack" "Jozef" "Koz" "Krak" "Leary" "Lincoln" 
-	"Liam" "Logan" "Maelpiast" "Marshall" "Morgan" "Muiropolk" "Micky" "Popiel" "Pulaski" "Pullman" 
-	"Ruaidbog" "Roscoe" "Ryan" "Stanislaus" "Stefan" "Slavrí" "Scott" "Sheridan" "Tralley" "Vladgen" 
+	"Dearborn" "Samuel" "Aldo" "Ashburn" "Austin" "Albin" "Anatol" "Aron" "Alecsey" "Artur"
+	"Boris" "Belmont" "Brian" "Bernard" "Bartosh" "Boleck" "Bruno" "Cragin" "Chatham" "Clarendon"
+	"Calsag" "Cyrus" "Cormick" "Comslav" "Cormac" "Connor" "Corbor" "Damen" "Daley" "Douglas"
+	"Deering" "Dagmar" "Drobogall" "Dobroghan" "Dunning" "Elwood" "Elsdon" "Emil" "Frank" "Ferguslav"
+	"Fionnslav" "Fuller" "Fulton" "Felick" "Gobnet" "Goban" "Gallmil" "Garfield" "Gresham" "Gormdan"
+	"Grannuslav" "Homan" "Ian" "Irving" "Izaack" "Jozef" "Koz" "Krak" "Leary" "Lincoln"
+	"Liam" "Logan" "Maelpiast" "Marshall" "Morgan" "Muiropolk" "Micky" "Popiel" "Pulaski" "Pullman"
+	"Ruaidbog" "Roscoe" "Ryan" "Stanislaus" "Stefan" "Slavrí" "Scott" "Sheridan" "Tralley" "Vladgen"
 	"Viktor" "Wentworth" }
 monarch_names = {
 	"Dearborn #1" = 18

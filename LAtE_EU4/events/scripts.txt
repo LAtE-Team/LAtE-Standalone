@@ -10,12 +10,12 @@ country_event = {
 	title = LAtE_scripts.1.TITLE
 	desc = LAtE_scripts.1.DESC
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = LAtE_scripts.1.a
-		
+
 		every_country = {
 			limit = {
 				is_subject = yes
@@ -35,11 +35,11 @@ country_event = {
 country_event = {
 	ID = LAtE_scripts.2
 	title = LAtE_scripts.2.TITLE
-	desc = LAtE_scripts.2.DESC	
+	desc = LAtE_scripts.2.DESC
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = LAtE_scripts.2.a
 		every_province = {
@@ -51,5 +51,5 @@ country_event = {
 			add_base_manpower = 1
 		}
 	}
-	
+
 }

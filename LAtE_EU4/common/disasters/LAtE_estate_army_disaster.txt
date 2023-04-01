@@ -16,7 +16,7 @@ estate_army_disaster = {
 		}
 		is_at_war = no
 	}
-	
+
 	can_stop = {
 		OR = {
 			has_any_disaster = yes
@@ -24,11 +24,11 @@ estate_army_disaster = {
 				estate_influence = {
 					estate = estate_army
 					influence = 100
-				}		
+				}
 			}
 		}
 	}
-	
+
 	down_progress = {
 		factor = 0
 		modifier = {
@@ -41,7 +41,7 @@ estate_army_disaster = {
 			}
 		}
 	}
-	
+
 	progress = {
 		modifier = {
 			factor = 0.5
@@ -84,7 +84,7 @@ estate_army_disaster = {
 			is_at_war = no
 		}
 	}
-	
+
 	can_end = {
 		custom_trigger_tooltip = {
 			tooltip = EST_CRUSHED_NOBLES
@@ -93,7 +93,7 @@ estate_army_disaster = {
 			}
 		}
 	}
-	
+
 	modifier = {
 		global_tax_modifier = -0.25
 		global_trade_power = -0.25
@@ -102,7 +102,7 @@ estate_army_disaster = {
 
 	on_start = LAtE_estate_disasters.22.s
 	on_end = LAtE_estate_disasters.22.e
-	
+
 	on_monthly = {
 	}
 }

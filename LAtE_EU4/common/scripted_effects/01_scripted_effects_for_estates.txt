@@ -727,7 +727,7 @@ on_religion_change_estate_privileges_effect = {
 			remove_province_modifier = estate_church_united_faith_and_culture
 		}
 		every_owned_province = {
-			limit = {				
+			limit = {
 				NOT = { has_province_modifier = estate_church_united_faith_and_culture }
 				religion = ROOT
 				OR = {
@@ -768,7 +768,7 @@ on_harmonized_religion_estate_privileges_effect = {
 			remove_province_modifier = estate_church_united_faith_and_culture
 		}
 		every_owned_province = {
-			limit = {				
+			limit = {
 				NOT = { has_province_modifier = estate_church_united_faith_and_culture }
 				owner = {
 					OR = {
@@ -2293,7 +2293,7 @@ on_primary_culture_changed_privileges_effect = {
 reapply_estate_privilege = {
 	# privilege: The privilege we want to reapply
 	if = {
-		limit = { 
+		limit = {
 			can_revoke_estate_privilege = $privilege$
 		}
 		hidden_effect = {
@@ -2979,7 +2979,7 @@ spawn_rebels_from_unhappy_estate = {
 
 pick_random_estate_if_present = {
 	random_list = {
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_brahmins
 				NOT = { has_country_flag = estate_brahmins_$flag$ }
@@ -2989,7 +2989,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_brahmins
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_church
 				NOT = { has_country_flag = estate_church_$flag$ }
@@ -2999,17 +2999,17 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_church
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_maratha
 				NOT = { has_country_flag = estate_maratha_$flag$ }
 			}
-			set_country_flag = estate_maratha_$flag$ 
+			set_country_flag = estate_maratha_$flag$
 			[[estate_action]
 			$estate_action$ = estate_maratha
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_nobles
 				NOT = { has_country_flag = estate_nobles_$flag$ }
@@ -3019,7 +3019,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_nobles
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_burghers
 				NOT = { has_country_flag = estate_burghers_$flag$ }
@@ -3029,7 +3029,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_burghers
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_vaisyas
 				NOT = { has_country_flag = estate_vaisyas_$flag$ }
@@ -3039,7 +3039,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_vaisyas
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_cossacks
 				NOT = { has_country_flag = estate_cossacks_$flag$ }
@@ -3049,7 +3049,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_cossacks
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_nomadic_tribes
 				NOT = { has_country_flag = estate_nomadic_tribes_$flag$ }
@@ -3059,7 +3059,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_nomadic_tribes
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_dhimmi
 				NOT = { has_country_flag = estate_dhimmi_$flag$ }
@@ -3069,7 +3069,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_dhimmi
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_jains
 				NOT = { has_country_flag = estate_jains_$flag$ }
@@ -3079,7 +3079,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_jains
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_rajput
 				NOT = { has_country_flag = estate_rajput_$flag$ }
@@ -3089,7 +3089,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_rajput
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_anabaptists
 				NOT = { has_country_flag = estate_anabaptists_$flag$ }
@@ -3099,7 +3099,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_anabaptists
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_scavengers
 				NOT = { has_country_flag = estate_scavengers_$flag$ }
@@ -3109,7 +3109,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_scavengers
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_cowboys
 				NOT = { has_country_flag = estate_cowboys_$flag$ }
@@ -3119,7 +3119,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_cowboys
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_antiquarians
 				NOT = { has_country_flag = estate_antiquarians_$flag$ }
@@ -3129,7 +3129,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_antiquarians
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_army
 				NOT = { has_country_flag = estate_army_$flag$ }
@@ -3139,7 +3139,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_army
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_unions
 				NOT = { has_country_flag = estate_unions_$flag$ }
@@ -3149,7 +3149,7 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_unions
 			]
 		}
-		1 = { 
+		1 = {
 			trigger = {
 				has_estate = estate_press
 				NOT = { has_country_flag = estate_press_$flag$ }
@@ -3264,8 +3264,8 @@ take_estate_land_share_gigantic = {
 apply_estate_monopoly_modifier = {
 	if = {
 		limit = { owner = { has_estate_privilege = $privilege$ } }
-		add_province_modifier = { 
-			name = $privilege$_mod 
+		add_province_modifier = {
+			name = $privilege$_mod
 			duration = -1
 		}
 	}

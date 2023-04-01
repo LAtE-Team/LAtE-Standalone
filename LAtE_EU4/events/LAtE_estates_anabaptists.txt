@@ -1,6 +1,6 @@
 ###########################################################
 # Events for the Anabaptist Estate
-# First 10 Generic 
+# First 10 Generic
 # Written by Technecian
 ###########################################################
 
@@ -9,13 +9,13 @@
 namespace = anabaptists_estate_events
 
 province_event = {
-	id = anabaptists_estate_events.1 
+	id = anabaptists_estate_events.1
 	title = anabaptists_estate_events.1.t
 	desc = anabaptists_estate_events.1.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = anabaptists_estate_events.1.a #Yes
 	}
@@ -27,9 +27,9 @@ country_event = {
 	title = anabaptists_estate_events.2.t
 	desc = anabaptists_estate_events.2.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		NOT = {
@@ -45,11 +45,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.1.a #Ok
 		add_estate_influence_modifier = {
@@ -67,9 +67,9 @@ country_event = {
 	title = anabaptists_estate_events.3.t
 	desc = anabaptists_estate_events.3.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		NOT = {
@@ -85,11 +85,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.1.a #Ok
 		add_estate_influence_modifier = {
@@ -107,9 +107,9 @@ country_event = {
 	title = anabaptists_estate_events.4.t
 	desc = anabaptists_estate_events.4.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		NOT = {
@@ -118,7 +118,7 @@ country_event = {
 				loyalty = 30
 			}
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
@@ -134,11 +134,11 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			while = {
@@ -204,9 +204,9 @@ country_event = {
 	title = anabaptists_estate_events.5.t
 	desc = anabaptists_estate_events.5.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		NOT = {
@@ -215,7 +215,7 @@ country_event = {
 				loyalty = 30
 			}
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
@@ -231,7 +231,7 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -262,9 +262,9 @@ country_event = {
 	title = anabaptists_estate_events.6.t
 	desc = anabaptists_estate_events.6.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		NOT = {
@@ -276,12 +276,12 @@ country_event = {
 		NOT = {
 			has_country_modifier = anabaptist_resistance
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -301,9 +301,9 @@ country_event = {
 	title = anabaptists_estate_events.7.t
 	desc = anabaptists_estate_events.7.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
         estate_loyalty = {
@@ -313,12 +313,12 @@ country_event = {
 		NOT = {
 			has_country_modifier = anabaptist_help_construction
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -338,16 +338,16 @@ country_event = {
 	title = anabaptists_estate_events.8.t
 	desc = anabaptists_estate_events.8.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
         estate_loyalty = {
             estate = estate_anabaptists
             loyalty = 50
         }
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
@@ -362,7 +362,7 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -392,16 +392,16 @@ country_event = {
 	title = anabaptists_estate_events.9.t
 	desc = anabaptists_estate_events.9.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
         estate_loyalty = {
             estate = estate_anabaptists
             loyalty = 50
         }
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_anabaptists
 			territory = 1
 		}
@@ -417,7 +417,7 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -460,9 +460,9 @@ country_event = {
 	title = anabaptists_estate_events.10.t
 	desc = anabaptists_estate_events.10.d
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		has_estate = estate_church
@@ -474,11 +474,11 @@ country_event = {
 			has_country_modifier = anabaptists_denounced_as_heathens
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.10.a
 		ai_chance = {
@@ -539,7 +539,7 @@ country_event = {
 			duration = 7300
 		}
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.10.b
 		ai_chance = {
@@ -608,9 +608,9 @@ country_event = {
 	title = anabaptists_estate_events.11.t
 	desc = anabaptists_estate_events.11.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_anabaptists
 		estate_influence = {
@@ -630,11 +630,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.11.a
 		ai_chance = {
@@ -664,7 +664,7 @@ country_event = {
 			duration = 7300
 		}
 	}
-	
+
 	option = {
 		name = anabaptists_estate_events.10.b
 		ai_chance = {
@@ -698,7 +698,7 @@ country_event = {
 	title = anabaptists_estate_events.12.t # Anabaptists requests privileges
 	desc = anabaptists_estate_events.12.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	major = yes
 	major_trigger = {
 		OR = {
@@ -725,15 +725,15 @@ country_event = {
     mean_time_to_happen = {
         months = 3
     }
-	
+
 	option = {
-		name = anabaptists_estate_events.12.a	
+		name = anabaptists_estate_events.12.a
         anabaptists_accepted_effect = yes
         ai_chance = { factor = 2 }
 	}
 
 	option = {
-		name = anabaptists_estate_events.12.b	
+		name = anabaptists_estate_events.12.b
         anabaptists_rejected_effect = yes
         ai_chance = { factor = 8 }
 	}
@@ -745,7 +745,7 @@ province_event = {
 	title = anabaptists_estate_events.13.t # Anabaptists requests privileges
 	desc = anabaptists_estate_events.13.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
     trigger = {
         NOT = { owner = { has_country_modifier = anabaptists_estate_events_growth_cooldown } }
         NOT = { has_province_modifier = anabaptists_present_large }
@@ -818,14 +818,14 @@ province_event = {
             }
         }
     }
-	
+
 	option = {
-		name = anabaptists_estate_events.13.a	
+		name = anabaptists_estate_events.13.a
         anabaptists_estate_growth_effect = yes
 	}
 
 	option = {
-		name = anabaptists_estate_events.13.b	
+		name = anabaptists_estate_events.13.b
         owner = {
             add_estate_loyalty_modifier = {
                 estate = estate_anabaptists
@@ -843,7 +843,7 @@ province_event = {
 	title = anabaptists_estate_events.14.t # Anabaptists requests privileges
 	desc = anabaptists_estate_events.14.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
     trigger = {
         NOT = { owner = { has_country_modifier = anabaptists_estate_events_conversion_cooldown } }
         has_province_modifier = anabaptists_present_large
@@ -892,14 +892,14 @@ province_event = {
             }
         }
     }
-	
+
 	option = {
-		name = anabaptists_estate_events.14.a	
+		name = anabaptists_estate_events.14.a
         change_religion = anabaptist
 	}
 
 	option = {
-		name = anabaptists_estate_events.14.b	
+		name = anabaptists_estate_events.14.b
         owner = {
             add_estate_loyalty_modifier = {
                 estate = estate_anabaptists
@@ -917,13 +917,13 @@ province_event = {
 	title = anabaptists_estate_events.15.t # Anabaptists requests privileges
 	desc = anabaptists_estate_events.15.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
     trigger = {
-        NOT = { owner = { has_country_flag = anabaptists_accepted } } 
+        NOT = { owner = { has_country_flag = anabaptists_accepted } }
         OR = {
             owner = { has_country_flag = anabaptists_expelled }
             AND = {
-				NOT = { owner = { religion_group = christian } } 
+				NOT = { owner = { religion_group = christian } }
 				NOT = { owner = { has_country_flag = anabaptists_accepted } }
 			}
         }
@@ -983,8 +983,8 @@ province_event = {
 								religion_group = christian
 								is_neighbor_of = PREV
 								NOT = { has_country_flag = anabaptists_rejected }
-								NOT = { has_country_flag = anabaptists_expelled }	
-								NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }				
+								NOT = { has_country_flag = anabaptists_expelled }
+								NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 							}
 					}
 				}
@@ -998,7 +998,7 @@ province_event = {
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 						}
 						country_event = { id = anabaptists_estate_events.16 }
-					}							
+					}
 				}
 			}
 			else_if = {
@@ -1008,7 +1008,7 @@ province_event = {
 							religion_group = christian
 							has_country_flag = anabaptists_accepted
 							NOT = { has_country_flag = anabaptists_rejected }
-							NOT = { has_country_flag = anabaptists_expelled }					
+							NOT = { has_country_flag = anabaptists_expelled }
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 						}
 					}
@@ -1023,7 +1023,7 @@ province_event = {
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 						}
 						country_event = { id = anabaptists_estate_events.16 }
-					}							
+					}
 				}
 			}
 			else_if = {
@@ -1033,9 +1033,9 @@ province_event = {
 							religion_group = christian
 							culture_group = amerodeutsch
 							NOT = { has_country_flag = anabaptists_rejected }
-							NOT = { has_country_flag = anabaptists_expelled }					
+							NOT = { has_country_flag = anabaptists_expelled }
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
-						}								
+						}
 					}
 				}
 				owner = {
@@ -1048,7 +1048,7 @@ province_event = {
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 						}
 						country_event = { id = anabaptists_estate_events.16 }
-					}							
+					}
 				}
 			}
 			else_if = {
@@ -1057,9 +1057,9 @@ province_event = {
 						any_known_country = {
 							religion_group = christian
 							NOT = { has_country_flag = anabaptists_rejected }
-							NOT = { has_country_flag = anabaptists_expelled }					
-							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }					
-						}								
+							NOT = { has_country_flag = anabaptists_expelled }
+							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+						}
 					}
 				}
 				owner = {
@@ -1071,14 +1071,14 @@ province_event = {
 							NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 						}
 						country_event = { id = anabaptists_estate_events.16 }
-					}							
+					}
 				}
 			}
 		}
     }
-	
+
 	option = {
-		name = anabaptists_estate_events.15.a	
+		name = anabaptists_estate_events.15.a
         anabaptists_estate_shrink_effect = yes
         random_list = {
             20 = {
@@ -1107,15 +1107,15 @@ country_event = {
             has_country_flag = anabaptists_accepted
         }
         desc = anabaptists_estate_events.16.d
-    } 
+    }
 	desc = {
         trigger = {
             NOT = { has_country_flag = anabaptists_accepted }
         }
         desc = anabaptists_estate_events.16.d.long
-    } 
+    }
 	picture = 10_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
 
 	major = yes
@@ -1145,7 +1145,7 @@ country_event = {
 				is_city = yes
 				NOT = { has_province_flag = anabaptist_growth }
 			}
-            anabaptists_estate_growth_effect = yes 
+            anabaptists_estate_growth_effect = yes
 		}
         if = {
             limit = {

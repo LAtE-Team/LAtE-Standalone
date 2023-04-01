@@ -1,5 +1,5 @@
 # Patagonian Arquebusiers
-	
+
 type = infantry
 unit_type = conic
 

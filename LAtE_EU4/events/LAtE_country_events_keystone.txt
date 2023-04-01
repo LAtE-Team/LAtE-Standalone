@@ -1,11 +1,11 @@
 namespace = keystone_events
 
 country_event = {
-	id = keystone_events.1 
+	id = keystone_events.1
 	title = keystone_events.1.t
 	desc = keystone_events.1.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
 	trigger = {
 		OR = {
@@ -25,7 +25,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = keystone_events.1.a #Yes
 		anabaptists_accepted_effect = yes
@@ -60,9 +60,9 @@ country_event = {
 	title = keystone_events.2.t
 	desc = keystone_events.2.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = keystone_events.2.a #Yes
 		FROM = {
@@ -72,7 +72,7 @@ country_event = {
 			factor = 3
 			modifier = {
 				factor = 0
-				total_development = FROM				
+				total_development = FROM
 			}
 		}
 	}
@@ -82,7 +82,7 @@ country_event = {
 		reverse_add_opinion = {
 			who = FROM
 			modifier = outrageous_demands
-		}		
+		}
 		ai_chance = {
 			factor = 3
 			modifier = {
@@ -110,7 +110,7 @@ country_event = {
 
 country_event = {
 	id = keystone_events.3
-	title = keystone_events.3.t	
+	title = keystone_events.3.t
 	desc = {
 		trigger = {
 			FROM = { vassal_of = ROOT }
@@ -126,9 +126,9 @@ country_event = {
 
 	}
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = keystone_events.3.a #Cool!
 		trigger = {
@@ -153,11 +153,11 @@ country_event = {
 	title = keystone_events.4.t
 	desc = keystone_events.4.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
-		name = keystone_events.4.a 
+		name = keystone_events.4.a
 		trigger = {
 			religion = americanist
 		}
@@ -181,7 +181,7 @@ country_event = {
 			}
 			else = {
 				root = {
-					add_prestige = 20					
+					add_prestige = 20
 				}
 			}
 
@@ -203,7 +203,7 @@ country_event = {
 			factor = 1
 		}
 	}
-	
+
 	option = {
 		name = keystone_events.4.c
 		trigger = {
@@ -222,9 +222,9 @@ country_event = {
 	title = keystone_events.5.t
 	desc = keystone_events.5.d
 	picture = 11_Jain_Estate_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = keystone_events.5.a #Yes
 		trigger = {

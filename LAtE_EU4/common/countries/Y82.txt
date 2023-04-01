@@ -8,20 +8,20 @@ color = { 22 202 44 }
 
 leader_names = {
 
-	"Riphath" "Reed" "Milcah" "Benet" "Justine" "Ephah" "Mehetabel" "Priscilla" "Jerah" "Azubah" 
-	"Barret" "Huldah" "Herod" "Obed" "Martha" "Hadoram" "Seth" "Caryn" "Bethel" "Ruth" 
-	"Hagar" "Candace" "Hamutal" "Burris" "Walden" "Baptist" "Miriam" "Zarephath" "Caiaphas" "Will-usdi" 
-	"Kowetatahee" "Degan" "Ghigau" "Chescoonwho" "Salleekookoolah" "Turner" "Byron" "Chester" "Ty" "Uzziel" 
-	"Wilson" "Taber" "Adonias" "Alf" "Art" "Ashford" "Abibo" "Allen" "Arach" "Aram" 
-	"Azor" "Amon" "Asaph" "Boston" "Backus" "Clark" "Cotter" "Conway" "Chanute" "Coop" 
-	"Calhoun" "Cran" "Cyrus" "Darter" "Dwayne" "Dedan" "Emery" "Elvin" "Elwood" "Elishah" 
-	"Elam" "Eber" "Griffin" "Guire" "Glenn" "Gene" "Gamaliel" "Gomer" "Gyges" "Gether" 
-	"Garrah" "Harris" "Hunt" "Hillel" "Heron" "Hyrcan" "Hul" "Hodiah" "Ilroy" "Jesse" 
-	"Jordan" "Jedediah" "Jethro" "Joezer" "Jochanan" "Japtheth" "Javan" "Jobab" "Joel" "Jotham" 
-	"Jairus" "Kelley" "Lamar" "Leggett" "Levi" "Lud" "Milburn" "Mul" "Melchi" "Natan" 
-	"Nahum" "Orel" "Origer" "Obal" "Ophir" "Porter" "Powell" "Pyatt" "Pollion" "Perachiah" 
-	"Peleg" "Quantrill" "Russell" "Riley" "Rubin" "Rainie" "Rufe" "Rhoder" "Redbone" "Ross" 
-	"Siloam" "Slim" "Shetach" "Sanders" "Sturkie" "Sheleph" "Sirach" "Truman" "Tarf" "Tucker" 
+	"Riphath" "Reed" "Milcah" "Benet" "Justine" "Ephah" "Mehetabel" "Priscilla" "Jerah" "Azubah"
+	"Barret" "Huldah" "Herod" "Obed" "Martha" "Hadoram" "Seth" "Caryn" "Bethel" "Ruth"
+	"Hagar" "Candace" "Hamutal" "Burris" "Walden" "Baptist" "Miriam" "Zarephath" "Caiaphas" "Will-usdi"
+	"Kowetatahee" "Degan" "Ghigau" "Chescoonwho" "Salleekookoolah" "Turner" "Byron" "Chester" "Ty" "Uzziel"
+	"Wilson" "Taber" "Adonias" "Alf" "Art" "Ashford" "Abibo" "Allen" "Arach" "Aram"
+	"Azor" "Amon" "Asaph" "Boston" "Backus" "Clark" "Cotter" "Conway" "Chanute" "Coop"
+	"Calhoun" "Cran" "Cyrus" "Darter" "Dwayne" "Dedan" "Emery" "Elvin" "Elwood" "Elishah"
+	"Elam" "Eber" "Griffin" "Guire" "Glenn" "Gene" "Gamaliel" "Gomer" "Gyges" "Gether"
+	"Garrah" "Harris" "Hunt" "Hillel" "Heron" "Hyrcan" "Hul" "Hodiah" "Ilroy" "Jesse"
+	"Jordan" "Jedediah" "Jethro" "Joezer" "Jochanan" "Japtheth" "Javan" "Jobab" "Joel" "Jotham"
+	"Jairus" "Kelley" "Lamar" "Leggett" "Levi" "Lud" "Milburn" "Mul" "Melchi" "Natan"
+	"Nahum" "Orel" "Origer" "Obal" "Ophir" "Porter" "Powell" "Pyatt" "Pollion" "Perachiah"
+	"Peleg" "Quantrill" "Russell" "Riley" "Rubin" "Rainie" "Rufe" "Rhoder" "Redbone" "Ross"
+	"Siloam" "Slim" "Shetach" "Sanders" "Sturkie" "Sheleph" "Sirach" "Truman" "Tarf" "Tucker"
 	"Tiras" "Tubal" "Urias" "Withrow" "Witt" "Wharton" "Yell" "Zechariah" "Zemah" "Zerub" }
 monarch_names = {
 	"Riphath #0" = 1

@@ -8,21 +8,21 @@ color = { 92 86 71 }
 
 leader_names = {
 
-	"Coriolanus" "Urban" "Morgana" "Winfield" "Eudoxia" "Bryan" "Constantine" "Valerian" "Saturn" "Elaine" 
-	"Mary" "Silvana" "Beatrice" "Blanchet" "Marcellus" "Rhett" "Augusta" "Neptune" "Sarah" "Megara" 
-	"May" "Joscelin" "Lamartine" "Dionysia" "Rhea" "Peach" "Melisende" "Hera" "Helen" "Robert" 
-	"Lucia" "Georgia" "Polycarpus" "Lucilla" "Publicola" "Henrietta" "Juliet" "Davis" "Ector" "Armistead" 
-	"Franklin" "Quorum" "John" "Carver" "Logan" "James" "Mason" "Stephen" "Priscus" "Ronald" 
-	"Geraint" "Marcus" "Arthur" "Albert" "Arnold" "Alphonse" "Alexander" "Anthony" "Benning" "Burleith" 
-	"Booker" "Barnaby" "Burke" "Bergstrom" "Benjamin" "Benedict" "Bernard" "Bannister" "Brutus" "Charles" 
-	"Chase" "Clark" "Cloture" "Calvin" "Cornelius" "Douglass" "Dewey" "Dupont" "Eugene" "Elliot" 
-	"Emerson" "Edgar" "Elias" "Filibuster" "Farragut" "Garfield" "Golias" "George" "Grant" "Hawthorne" 
-	"Herbert" "Hamilton" "Harrison" "Hancock" "Henry" "Jefferson" "Jackson" "Jussolis" "Justus" "Julius" 
-	"Julian" "Kent" "Knox" "Lincoln" "Lamond" "Langston" "Lawrence" "Lewis" "Locke" "Luther" 
-	"Monroe" "Myer" "Morgan" "Meriweather" "Maxwell" "Michael" "Mark" "Naylor" "Nicholas" "Petworth" 
-	"Penn" "Prentice" "Peter" "Paul" "Pershing" "Patton" "Preamble" "Quincy" "Quentin" "Rexford" 
-	"Rutherford" "Rutledge" "Shaw" "Shipley" "Smith" "Seymour" "Samuel" "Sherman" "Sidney" "Silvan" 
-	"Truxton" "Totten" "Tenley" "Thaddeus" "Theodore" "Truman" "Thomas" "Ulysses" "Vernon" "Victor" 
+	"Coriolanus" "Urban" "Morgana" "Winfield" "Eudoxia" "Bryan" "Constantine" "Valerian" "Saturn" "Elaine"
+	"Mary" "Silvana" "Beatrice" "Blanchet" "Marcellus" "Rhett" "Augusta" "Neptune" "Sarah" "Megara"
+	"May" "Joscelin" "Lamartine" "Dionysia" "Rhea" "Peach" "Melisende" "Hera" "Helen" "Robert"
+	"Lucia" "Georgia" "Polycarpus" "Lucilla" "Publicola" "Henrietta" "Juliet" "Davis" "Ector" "Armistead"
+	"Franklin" "Quorum" "John" "Carver" "Logan" "James" "Mason" "Stephen" "Priscus" "Ronald"
+	"Geraint" "Marcus" "Arthur" "Albert" "Arnold" "Alphonse" "Alexander" "Anthony" "Benning" "Burleith"
+	"Booker" "Barnaby" "Burke" "Bergstrom" "Benjamin" "Benedict" "Bernard" "Bannister" "Brutus" "Charles"
+	"Chase" "Clark" "Cloture" "Calvin" "Cornelius" "Douglass" "Dewey" "Dupont" "Eugene" "Elliot"
+	"Emerson" "Edgar" "Elias" "Filibuster" "Farragut" "Garfield" "Golias" "George" "Grant" "Hawthorne"
+	"Herbert" "Hamilton" "Harrison" "Hancock" "Henry" "Jefferson" "Jackson" "Jussolis" "Justus" "Julius"
+	"Julian" "Kent" "Knox" "Lincoln" "Lamond" "Langston" "Lawrence" "Lewis" "Locke" "Luther"
+	"Monroe" "Myer" "Morgan" "Meriweather" "Maxwell" "Michael" "Mark" "Naylor" "Nicholas" "Petworth"
+	"Penn" "Prentice" "Peter" "Paul" "Pershing" "Patton" "Preamble" "Quincy" "Quentin" "Rexford"
+	"Rutherford" "Rutledge" "Shaw" "Shipley" "Smith" "Seymour" "Samuel" "Sherman" "Sidney" "Silvan"
+	"Truxton" "Totten" "Tenley" "Thaddeus" "Theodore" "Truman" "Thomas" "Ulysses" "Vernon" "Victor"
 	"Washington" "Wesley" "Woodrow" "Walter" "William" "Zachary" }
 monarch_names = {
 	"Coriolanus #4" = 30

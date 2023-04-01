@@ -8,20 +8,20 @@ color = { 0 82 165 }
 
 leader_names = {
 
-	"Brad" "Damian" "Beverly" "Irine" "Laura" "Garner" "Jinx" "Ebbe" "Jaime" "Mario" 
-	"Hiidangsdaa" "Edward" "Valerie" "Susan" "Mineralis" "Chogan" "Apenakosapop" "Matoseapiw" "Matchitehew" "Megedagik" 
-	"Thomas" "Kuhbert" "Thietmar" "Harzer" "Charles-Michel" "Michel" "Craig" "Adam" "Allen" "Andrew" 
-	"Art" "Ashby" "Bosko" "Boyle" "Brandon" "Breen" "Brendan" "Brock" "Carr" "Clive" 
-	"Collin" "Corbett" "Cramer" "Creed" "Curtis" "Dallas" "Daniel" "Donald" "Douglass" "Dunn" 
-	"Eckhart" "Egan" "Ehren" "Elliott" "Ellis" "Emerson" "Engelbart" "Eric" "Ernest" "Farel" 
-	"Faust" "Feldberg" "Francis" "Frank" "Fred" "Gabe" "Gaffer" "Galen" "Glenn" "Goldblum" 
-	"Gordon" "Graham" "Gray" "Greg" "Gus" "Hagen" "Hammond" "Henry" "Hud" "Jack" 
-	"Jarman" "Jason" "Jay" "Jeff" "Jello" "Jonathan" "Josh" "Judd" "Justin" "Kaufman" 
-	"Keith" "Kirk" "Kumail" "Kurt" "Kyle" "Lance" "Lawrence" "Linus" "Linux" "Logan" 
-	"Lou" "Lucas" "Malcolm" "Marcus" "Mark" "Marshall" "Matt" "Mel" "Mikey" "Monte" 
-	"Nicholas" "Norman" "Obo" "Oort" "Orlando" "Oswalt" "Patton" "Peter" "Pharoah" "Pietro" 
-	"Powell" "Pratchett" "Ray" "Robb" "Roe" "Rozz" "Rupp" "Ryan" "Salim" "Sam" 
-	"Schoon" "Sean" "Shepard" "Simon" "Spike" "Steffan" "Steve" "Stewart" "Storm" "Terrell" 
+	"Brad" "Damian" "Beverly" "Irine" "Laura" "Garner" "Jinx" "Ebbe" "Jaime" "Mario"
+	"Hiidangsdaa" "Edward" "Valerie" "Susan" "Mineralis" "Chogan" "Apenakosapop" "Matoseapiw" "Matchitehew" "Megedagik"
+	"Thomas" "Kuhbert" "Thietmar" "Harzer" "Charles-Michel" "Michel" "Craig" "Adam" "Allen" "Andrew"
+	"Art" "Ashby" "Bosko" "Boyle" "Brandon" "Breen" "Brendan" "Brock" "Carr" "Clive"
+	"Collin" "Corbett" "Cramer" "Creed" "Curtis" "Dallas" "Daniel" "Donald" "Douglass" "Dunn"
+	"Eckhart" "Egan" "Ehren" "Elliott" "Ellis" "Emerson" "Engelbart" "Eric" "Ernest" "Farel"
+	"Faust" "Feldberg" "Francis" "Frank" "Fred" "Gabe" "Gaffer" "Galen" "Glenn" "Goldblum"
+	"Gordon" "Graham" "Gray" "Greg" "Gus" "Hagen" "Hammond" "Henry" "Hud" "Jack"
+	"Jarman" "Jason" "Jay" "Jeff" "Jello" "Jonathan" "Josh" "Judd" "Justin" "Kaufman"
+	"Keith" "Kirk" "Kumail" "Kurt" "Kyle" "Lance" "Lawrence" "Linus" "Linux" "Logan"
+	"Lou" "Lucas" "Malcolm" "Marcus" "Mark" "Marshall" "Matt" "Mel" "Mikey" "Monte"
+	"Nicholas" "Norman" "Obo" "Oort" "Orlando" "Oswalt" "Patton" "Peter" "Pharoah" "Pietro"
+	"Powell" "Pratchett" "Ray" "Robb" "Roe" "Rozz" "Rupp" "Ryan" "Salim" "Sam"
+	"Schoon" "Sean" "Shepard" "Simon" "Spike" "Steffan" "Steve" "Stewart" "Storm" "Terrell"
 	"Tucker" "Tyler" "Vincent" "Wagner" "Warren" "Wash" "Wrick" "Wright" }
 monarch_names = {
 	"Brad #0" = 1

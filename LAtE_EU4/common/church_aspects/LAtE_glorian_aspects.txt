@@ -26,7 +26,7 @@ glorian_aspect_call_of_the_sea = { #Consume oranges and worship the sea
 
 glorian_aspect_great_isles = {
 	cost = 100
-	modifier = { 
+	modifier = {
 		prestige = 0.5
 	}
 	ai_will_do = {
@@ -59,7 +59,7 @@ glorian_aspect_mystic_princes = {
 
 glorian_aspect_war_paint = {
 	cost = 100
-	modifier = { 
+	modifier = {
 		land_morale = 0.05
 		naval_morale = 0.05
 	}
@@ -102,7 +102,7 @@ glorian_aspect_lingua_anglica = {
 
 glorian_aspect_holy_feudalism = {
 	cost = 100
-	modifier = { 
+	modifier = {
 		global_tax_modifier = 0.1
 	}
 	ai_will_do = {
@@ -140,7 +140,7 @@ glorian_aspect_local_taverns = {
 
 glorian_aspect_pearl_of_the_atlantic = {
 	cost = 100
-	modifier = { 
+	modifier = {
 		trade_steering = 0.1
 		trade_efficiency = 0.1
 	}
@@ -311,7 +311,7 @@ glorian_aspect_tarot = {
 		modifier = {
 			factor = 2
 			num_of_rebel_controlled_provinces = 1
-		}	
+		}
 	}
 }
 
@@ -335,7 +335,7 @@ glorian_aspect_ritual_burning = {
 		modifier = {
 			factor = 2
 			num_of_rebel_controlled_provinces = 1
-		}	
+		}
 	}
 }
 

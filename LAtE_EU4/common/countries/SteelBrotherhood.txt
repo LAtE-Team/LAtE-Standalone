@@ -8,17 +8,17 @@ color = { 157 162 178 }
 
 leader_names = {
 
-	"Ralston" "Adalbert" "Armstrong" "Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost" 
-	"Berick" "Benjamin" "Burrill" "Bentley" "Benzene" "Bessemer" "Christoph" "Daniel" "David" "Dean" 
-	"Dodge" "Dexter" "Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene" 
-	"Erwin" "Elwood" "Edgar" "Eisenwulf" "Eisenrich" "Eisenslaus" "Frederich" "Filadelph" "Florent" "Ferdinand" 
-	"Franjo" "Gilberht" "Georg" "Gottfrid" "Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich" 
-	"Hudson" "Harley" "Johannes" "Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer" 
-	"Kasimir" "Lawrenz" "Ludewis" "Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin" 
-	"Miles" "Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter" 
-	"Preston" "Payton" "Rostwin" "Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Rustin" "Steppen" 
-	"Sidmund" "Stahlrich" "Stahlgar" "Stanislaus" "Thomm" "Theodor" "Todrich" "Vincentz" "Viktor" "Virgil" 
-	"Velibor" "Willelm" "Weyland" "Wayne" "Walther" "Woodward" "Wilbur" "Wernher" "Woitke" "Zachary" 
+	"Ralston" "Adalbert" "Armstrong" "Alfraed" "Amalrick" "Adalfuns" "Adam" "Aripert" "Anthony" "Adalrost"
+	"Berick" "Benjamin" "Burrill" "Bentley" "Benzene" "Bessemer" "Christoph" "Daniel" "David" "Dean"
+	"Dodge" "Dexter" "Durant" "Dorrich" "Eric" "Etzel" "Eurich" "Edward" "Edmund" "Eugene"
+	"Erwin" "Elwood" "Edgar" "Eisenwulf" "Eisenrich" "Eisenslaus" "Frederich" "Filadelph" "Florent" "Ferdinand"
+	"Franjo" "Gilberht" "Georg" "Gottfrid" "Gerolt" "Gordon" "Gelbin" "Hugo" "Hammo" "Henrich"
+	"Hudson" "Harley" "Johannes" "Jakob" "Justin" "Julian" "Jerome" "Jagiel" "Karles" "Keifer"
+	"Kasimir" "Lawrenz" "Ludewis" "Lumen" "Leonard" "Ladislaus" "Michael" "Morits" "Martin" "Marklin"
+	"Miles" "Maynard" "Marshall" "Nicholaus" "Nathan" "Otto" "Oliver" "Orvil" "Paul" "Peter"
+	"Preston" "Payton" "Rostwin" "Rohardt" "Roger" "Raymund" "Richardt" "Rainalt" "Rustin" "Steppen"
+	"Sidmund" "Stahlrich" "Stahlgar" "Stanislaus" "Thomm" "Theodor" "Todrich" "Vincentz" "Viktor" "Virgil"
+	"Velibor" "Willelm" "Weyland" "Wayne" "Walther" "Woodward" "Wilbur" "Wernher" "Woitke" "Zachary"
 	"Zwentibold" }
 monarch_names = {
 	"Ralston #0" = 18

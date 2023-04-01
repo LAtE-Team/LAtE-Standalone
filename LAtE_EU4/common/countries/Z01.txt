@@ -8,22 +8,22 @@ color = { 122 60 29 }
 
 leader_names = {
 
-	"Pere" "Willow" "Bernard" "Jeanne" "Madeline" "Mitchell" "Delia" "Sam" "Lucia" "David" 
-	"Alexandre" "Gabrielle" "Beryl" "Citrand" "Eduard" "Cola" "Eloise" "Malaric" "Mangifera" "Petra" 
-	"Offatt" "Antoine" "Autrane" "Girard" "Velasce" "Taylor" "Jeannette" "Leon" "Fay" "Allen" 
-	"Fern" "Grace" "Alonso" "Eulalia" "Pearl" "Oceanus" "Torreya" "Audrey" "Beulah" "Gonzalo" 
-	"Macond" "Galves" "Malhad" "Rita" "Wacissa" "Allison" "Caroline" "Roxie" "Gutierre" "Roslyn" 
-	"Aucilla" "Ponce" "Hernand" "Marianne" "Victor" "Hanna" "Georges" "Humbert" "Pina" "Sandy" 
-	"Louis" "Margarida" "Jay" "Flora" "Mathias" "Urban" "Anna" "Ashton" "Xavier" "Sander" 
-	"Hermine" "Gomer" "Javier" "Perdida" "Forrest" "Elias" "Henry" "Danielle" "Palustris" "Phil" 
-	"Debra" "Atlas" "Jackson" "Arlene" "Adam" "Abel" "Boone" "Burnie" "Bixby" "Benton" 
-	"Bruce" "Beauregard" "Burton" "Calhoun" "Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew" 
-	"Caleb" "Cain" "Clarence" "Campion" "Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" 
-	"Finn" "Fulton" "Fitch" "Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" 
-	"Josiah" "Lee" "Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan" 
-	"Mouton" "Nathaniel" "Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" 
-	"Putnam" "Preston" "Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Samuel" "Stirling" 
-	"Segar" "Sherod" "Theodore" "Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow" 
+	"Pere" "Willow" "Bernard" "Jeanne" "Madeline" "Mitchell" "Delia" "Sam" "Lucia" "David"
+	"Alexandre" "Gabrielle" "Beryl" "Citrand" "Eduard" "Cola" "Eloise" "Malaric" "Mangifera" "Petra"
+	"Offatt" "Antoine" "Autrane" "Girard" "Velasce" "Taylor" "Jeannette" "Leon" "Fay" "Allen"
+	"Fern" "Grace" "Alonso" "Eulalia" "Pearl" "Oceanus" "Torreya" "Audrey" "Beulah" "Gonzalo"
+	"Macond" "Galves" "Malhad" "Rita" "Wacissa" "Allison" "Caroline" "Roxie" "Gutierre" "Roslyn"
+	"Aucilla" "Ponce" "Hernand" "Marianne" "Victor" "Hanna" "Georges" "Humbert" "Pina" "Sandy"
+	"Louis" "Margarida" "Jay" "Flora" "Mathias" "Urban" "Anna" "Ashton" "Xavier" "Sander"
+	"Hermine" "Gomer" "Javier" "Perdida" "Forrest" "Elias" "Henry" "Danielle" "Palustris" "Phil"
+	"Debra" "Atlas" "Jackson" "Arlene" "Adam" "Abel" "Boone" "Burnie" "Bixby" "Benton"
+	"Bruce" "Beauregard" "Burton" "Calhoun" "Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew"
+	"Caleb" "Cain" "Clarence" "Campion" "Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl"
+	"Finn" "Fulton" "Fitch" "Gregor" "Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim"
+	"Josiah" "Lee" "Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan"
+	"Mouton" "Nathaniel" "Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick"
+	"Putnam" "Preston" "Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Samuel" "Stirling"
+	"Segar" "Sherod" "Theodore" "Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow"
 	"Winfield" "Webb" "Wheeler" "Yadkin" }
 monarch_names = {
 	"Pere #3" = 42

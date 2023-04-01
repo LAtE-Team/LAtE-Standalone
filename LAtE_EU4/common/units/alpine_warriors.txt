@@ -1,5 +1,5 @@
 # Alpine Warriors
-	
+
 unit_type = european
 type = infantry
 

@@ -9,8 +9,8 @@
 # Friendly is defined as at positive relations or owned by the same country that owns the province.
 
 #######################################
-# Feudalism.  
-# 
+# Feudalism.
+#
 # Most in the old world start with it.
 #######################################
 
@@ -35,7 +35,7 @@ feudalism = {
 			}
 		}
 	}
-	
+
 	# no need for events, as its there from the start.
 	#can_start = {	is_year = 1000	}
 	#start_chance = 100
@@ -127,7 +127,7 @@ feudalism = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = CAPITAL_IN_OLD_WORLD_FEUDAL
-			
+
 				is_capital = yes
 				#NOT = { continent = north_america }
 				#NOT = { continent = south_america }
@@ -146,7 +146,7 @@ feudalism = {
 					has_institution = feudalism
 				}
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_feudalism_embraced
 				is_owned_by_trade_company = no
@@ -156,10 +156,10 @@ feudalism = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -185,7 +185,7 @@ feudalism = {
 
 #######################################
 # Renaissance
-# 
+#
 # Flows from italy
 #######################################
 
@@ -205,7 +205,7 @@ renaissance = {
 	history = {
 		always = no
 	}
-	
+
 	can_start = {
 		is_year = 3060
 		OR = {
@@ -223,21 +223,21 @@ renaissance = {
 		NOT = { religion = norse_pagan_reformed }
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.2
-	
-	
-	
 
-	
-	
+
+	on_start = institution_events.2
+
+
+
+
+
+
 	can_embrace = {
 		owner = { has_institution = feudalism }
 	}
 
 
-	
+
 	embracement_speed = {
 		modifier = {
 			scale = yes
@@ -327,7 +327,7 @@ renaissance = {
 					has_institution = renaissance
 				}
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_renaissance_embraced
 				is_owned_by_trade_company = no
@@ -337,10 +337,10 @@ renaissance = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -367,7 +367,7 @@ renaissance = {
 
 #######################################
 # New World
-# 
+#
 # Probably going to need to rejig this a whole bunch
 #######################################
 new_world_i = {
@@ -384,7 +384,7 @@ new_world_i = {
 	history = {
 		always = no
 	}
-	
+
 	can_start = {
 		is_year = 3110
 		is_institution_enabled = renaissance
@@ -401,7 +401,7 @@ new_world_i = {
 			is_capital = yes
 		}
 		is_in_capital_area = yes
-		owner = { 
+		owner = {
 			LAtE_has_any_exploration_idea = yes
 			#at least one province colonised or colonising, or have a subject colony
 			OR = {
@@ -433,23 +433,23 @@ new_world_i = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.3
-	
-	
-	
 
-	
-	
+
+	on_start = institution_events.3
+
+
+
+
+
+
 	can_embrace = {
 		always = yes
 	}
 
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			factor = 1.2
 			scale = yes
@@ -459,9 +459,9 @@ new_world_i = {
 					new_world_i = 100
 				}
 			}
-			
+
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			scale = yes
@@ -481,7 +481,7 @@ new_world_i = {
 				}
 			}
 		}
-		
+
 		#Port provinces in countries with colonial subjects
 		modifier = {
 			factor = 10
@@ -515,7 +515,7 @@ new_world_i = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 5
 			scale = yes
@@ -544,7 +544,7 @@ new_world_i = {
 					has_institution = new_world_i
 				}
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_new_world_i_embraced
 				is_owned_by_trade_company = no
@@ -554,10 +554,10 @@ new_world_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -600,7 +600,7 @@ printing_press = {
 	history = {
 		always = no
 	}
-	
+
 	can_start = {
 		is_year = 3160
 		is_institution_enabled = new_world_i
@@ -624,18 +624,18 @@ printing_press = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.4
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			factor = 0.6
 			scale = yes
@@ -646,7 +646,7 @@ printing_press = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.2
 			scale = yes
@@ -755,7 +755,7 @@ printing_press = {
 				}
 				NOT = { continent = owner }
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_printing_press_embraced
 				is_owned_by_trade_company = no
@@ -765,10 +765,10 @@ printing_press = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -809,11 +809,11 @@ global_trade = {
 
 	historical_start_date = 3210.1.1
 	historical_start_province = 965 # New York
-	
+
 	history = {
 		always = no
 	}
-	
+
 	can_start = {
 		is_year = 3210
 		is_institution_enabled = printing_press
@@ -837,18 +837,18 @@ global_trade = {
 
 	}
 	start_chance = 25		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.5
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			factor = 0.4 #Not scaled
 			province_trade_power = 15
@@ -924,11 +924,11 @@ global_trade = {
 				has_port = no
 				any_neighbor_province = {
 					global_trade = 100
-					
+
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			scale = yes
@@ -940,11 +940,11 @@ global_trade = {
 				has_port = yes
 				any_neighbor_province = {
 					global_trade = 100
-					
+
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 5
 			scale = yes
@@ -965,7 +965,7 @@ global_trade = {
 				}
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.5
 			printing_press = 100
@@ -979,7 +979,7 @@ global_trade = {
 				}
 				continent = owner
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_global_trade_embraced
 				is_owned_by_trade_company = no
@@ -997,7 +997,7 @@ global_trade = {
 				}
 				NOT = { continent = owner }
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_global_trade_embraced_other_continent
 				is_owned_by_trade_company = no
@@ -1007,10 +1007,10 @@ global_trade = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -1052,7 +1052,7 @@ manufactories = {
 	history = {
 		is_year = 3260
 	}
-	
+
 	can_start = {
 		is_year = 3260
 		is_institution_enabled = global_trade
@@ -1081,16 +1081,16 @@ manufactories = {
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.6
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		modifier = {
 			factor = 0.5
@@ -1129,7 +1129,7 @@ manufactories = {
 					trade_goods = fish
 					trade_goods = salt
 				}
-					
+
 				manufactories_origin = {
 					same_continent = PREV
 				}
@@ -1418,7 +1418,7 @@ manufactories = {
 				}
 				continent = owner
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_manufactories_embraced
 				is_owned_by_trade_company = no
@@ -1436,7 +1436,7 @@ manufactories = {
 				}
 				NOT = { continent = owner }
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_manufactories_embraced_other_continent
 				is_owned_by_trade_company = no
@@ -1446,10 +1446,10 @@ manufactories = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -1491,7 +1491,7 @@ enlightenment = {
 	history = {
 		always = no
 	}
-	
+
 	can_start = {
 		is_year = 3310
 		is_institution_enabled = manufactories
@@ -1515,20 +1515,20 @@ enlightenment = {
 					DIP = 5
 				}
 			}
-			
+
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.7
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		modifier = {
 			factor = 0.4
@@ -1754,7 +1754,7 @@ enlightenment = {
 				}
 				continent = owner
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_enlightenment_embraced
 				is_owned_by_trade_company = no
@@ -1772,7 +1772,7 @@ enlightenment = {
 				}
 				NOT = { continent = owner }
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_enlightenment_embraced_other_continent
 				is_owned_by_trade_company = no
@@ -1782,10 +1782,10 @@ enlightenment = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -1815,7 +1815,7 @@ enlightenment = {
 # Industrialisation
 #######################################
 industrialization = {
-		
+
 	trade_company_efficiency = 2.0
 
 	bonus = {
@@ -1829,7 +1829,7 @@ industrialization = {
 	history = {
 		always = no #The mod does not make use of province history
 	}
-	
+
 	can_start = {
 		is_year = 3360
 		is_institution_enabled = enlightenment
@@ -1889,16 +1889,16 @@ industrialization = {
 		}
 	}
 	start_chance = 100		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.80
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		#Split between RB and non-RB for these four as RB gives more possibilities for spread (so higher for non-RB to compensate
 		modifier = {
@@ -2400,7 +2400,7 @@ industrialization = {
 				}
 				continent = owner
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_industrialization_embraced
 				is_owned_by_trade_company = no
@@ -2418,7 +2418,7 @@ industrialization = {
 				}
 				NOT = { continent = owner }
 			}
-			
+
 			custom_trigger_tooltip = {
 				tooltip = tooltip_industrialization_embraced_other_continent
 				is_owned_by_trade_company = no
@@ -2428,10 +2428,10 @@ industrialization = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes

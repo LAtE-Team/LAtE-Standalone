@@ -8,13 +8,13 @@ color = { 46 96 15 }
 
 leader_names = {
 
-	"Meleager" "Samuel" "Comus" "Louis" "Eli" "Bubba" "Winchester" "Tyler" "Geraint" "Polycarpus" 
-	"Sylvester" "Davis" "Dahlia" "Breunor" "Coriolanus" "Alcée" "Alcide" "Amédé" "Achille" "Anatole" 
-	"Ardoin" "Adam" "Audubon" "Aristide" "Barthelemy" "Boyd" "Bryant" "Clifton" "Charles" "Clarence" 
-	"Canray" "Claire Lee" "Caliste" "Caesar" "Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde" "Evariste" 
-	"Earl" "Eduoard" "Eustace" "Francis" "Geno" "Georgic" "Guinefort" "Garland" "Irvan" "Julien" 
-	"Justin" "Kolax" "Keith" "Lucas" "Lionel" "Marcus" "Maugris" "Norbert" "Odon" "Olfert" 
-	"Orion" "Pierre" "Paul" "Richmond" "Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel" 
+	"Meleager" "Samuel" "Comus" "Louis" "Eli" "Bubba" "Winchester" "Tyler" "Geraint" "Polycarpus"
+	"Sylvester" "Davis" "Dahlia" "Breunor" "Coriolanus" "Alcée" "Alcide" "Amédé" "Achille" "Anatole"
+	"Ardoin" "Adam" "Audubon" "Aristide" "Barthelemy" "Boyd" "Bryant" "Clifton" "Charles" "Clarence"
+	"Canray" "Claire Lee" "Caliste" "Caesar" "Cedric" "Dillard" "D'Jalma" "Edgar" "Edmonde" "Evariste"
+	"Earl" "Eduoard" "Eustace" "Francis" "Geno" "Georgic" "Guinefort" "Garland" "Irvan" "Julien"
+	"Justin" "Kolax" "Keith" "Lucas" "Lionel" "Marcus" "Maugris" "Norbert" "Odon" "Olfert"
+	"Orion" "Pierre" "Paul" "Richmond" "Solomon" "Sécaire" "Thomy" "Tyrann" "Toutant" "Vernel"
 	"Wellman" "Wendell" }
 monarch_names = {
 	"Meleager #1" = 18

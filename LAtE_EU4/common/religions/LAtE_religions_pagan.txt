@@ -15,7 +15,7 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		heretic = { SNAKE_CLAN }
 	}
 
@@ -27,8 +27,8 @@ pagan = {
 			tolerance_heretic = 1
 		}
 		can_have_secondary_religion = yes
-		
-		heretic = { OLD_REVELATIONIST }	
+
+		heretic = { OLD_REVELATIONIST }
 	}
 
     trailwalker = {
@@ -58,7 +58,7 @@ pagan = {
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
-		
+
 		heretic = { OLD_OCCULTIST }
 	}
 
@@ -76,10 +76,10 @@ pagan = {
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		personal_deity = yes
-		
-		heretic = { OLD_NORSE }	
+
+		heretic = { OLD_NORSE }
 	}
 
     celticist = { #celtic_pagan in ck2
@@ -93,8 +93,8 @@ pagan = {
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
-		
-		heretic = { OLD_CELTICIST }	
+
+		heretic = { OLD_CELTICIST }
 	}
 
     aria_de_machete = {
@@ -124,8 +124,8 @@ pagan = {
 		country_as_secondary = {
 			development_cost = -0.1
 		}
-		
-		heretic = { GOAT_SKULL }	
+
+		heretic = { GOAT_SKULL }
 	}
 	finnish_pagan_reformed = {
 		icon = 69
@@ -138,7 +138,7 @@ pagan = {
 			num_accepted_cultures = 1
 			defensiveness = 0.1
 		}
-		heretic = { OLD_SUOMENUSKO }	
+		heretic = { OLD_SUOMENUSKO }
 	}
 	matrem = {
 		icon = 70
@@ -153,8 +153,8 @@ pagan = {
 			tolerance_own = 2
 			loot_amount = 0.25
 		}
-		
-		heretic = { MASCULINIST }	
+
+		heretic = { MASCULINIST }
 	}
 
 	#Vanilla
@@ -170,18 +170,18 @@ pagan = {
 			tolerance_own = 1
 			global_autonomy = -0.05
 		}
-		
+
 		province = {
 			local_missionary_strength = 0.02
 		}
-		
+
 		authority = yes
 		religious_reforms = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
-		
-		heretic = { INTI_HERETIC }	
+
+		heretic = { INTI_HERETIC }
 	}
-	
+
 	tengri_pagan_reformed = {
 		icon = 89
 		color = { 25 76 217 }

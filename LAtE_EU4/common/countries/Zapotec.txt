@@ -8,16 +8,16 @@ color = { 67 145 161 }
 
 leader_names = {
 
-	"Alicia" "Huggo" "Rufina" "Epifanio" "Susana" "Itatí" "Cuauhtémoc" "Penélope" "Ponce" "Tia" 
-	"Honorio" "Vanessa" "Aldonza" "Puná" "Magnolia" "León" "Renato" "Ninón" "Bartolomé" "Marimar" 
-	"Cruz" "Eugenia" "Natalia" "Antonieta" "Esteban Kkalee" "Taiyari Yizee" "José Kwapiia" "Iktan Yolela" "Nucano Beloo" "Édgar" 
-	"Diego García" "Américo" "Alejo" "Alvarado" "Aldo" "Baltasar" "Bahamonde" "Beltrán" "Bruno" "Colón" 
-	"Cristóbal" "Cabeza" "Coronado" "Cabrillo" "Cavo" "Diesel" "Demián" "Daniel" "Diego Carlos" "Francisco" 
-	"Gonzalo" "Giraldo" "Gastón" "Gaspar" "Gustavito" "García" "Gil" "Garcilaso" "Gabino" "Hernando" 
-	"Horacio" "Inés" "Jofre" "Jerónimo" "Jacinto" "Kino" "Luís" "Lorenzo" "Lope" "Leonor" 
-	"Magallanes" "Melchior" "Martín" "Miguel" "Marcos" "Melchor" "Mariano" "Montejo" "Ñuflo" "Olid" 
-	"Osvaldo" "Pizarro" "Porfirio" "Pánfilo" "Pío" "Rodrigo" "Roque" "René" "Rosario" "Ruy" 
-	"Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" "Ulises" "Urbano" "Vela" "Vasco" 
+	"Alicia" "Huggo" "Rufina" "Epifanio" "Susana" "Itatí" "Cuauhtémoc" "Penélope" "Ponce" "Tia"
+	"Honorio" "Vanessa" "Aldonza" "Puná" "Magnolia" "León" "Renato" "Ninón" "Bartolomé" "Marimar"
+	"Cruz" "Eugenia" "Natalia" "Antonieta" "Esteban Kkalee" "Taiyari Yizee" "José Kwapiia" "Iktan Yolela" "Nucano Beloo" "Édgar"
+	"Diego García" "Américo" "Alejo" "Alvarado" "Aldo" "Baltasar" "Bahamonde" "Beltrán" "Bruno" "Colón"
+	"Cristóbal" "Cabeza" "Coronado" "Cabrillo" "Cavo" "Diesel" "Demián" "Daniel" "Diego Carlos" "Francisco"
+	"Gonzalo" "Giraldo" "Gastón" "Gaspar" "Gustavito" "García" "Gil" "Garcilaso" "Gabino" "Hernando"
+	"Horacio" "Inés" "Jofre" "Jerónimo" "Jacinto" "Kino" "Luís" "Lorenzo" "Lope" "Leonor"
+	"Magallanes" "Melchior" "Martín" "Miguel" "Marcos" "Melchor" "Mariano" "Montejo" "Ñuflo" "Olid"
+	"Osvaldo" "Pizarro" "Porfirio" "Pánfilo" "Pío" "Rodrigo" "Roque" "René" "Rosario" "Ruy"
+	"Soto" "Sandoval" "Sergio" "Santiago" "Tito" "Tristán" "Ulises" "Urbano" "Vela" "Vasco"
 	"Wenceslao" "Xemen" "Yñigo" }
 monarch_names = {
 	"Alicia #0" = -1

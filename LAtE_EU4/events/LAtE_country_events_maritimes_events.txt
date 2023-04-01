@@ -5,9 +5,9 @@ country_event = {
 	title = maritimes_events.1.t
 	desc = maritimes_events.1.d
 	picture = ELECTION_REPUBLICAN_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		always = yes
 		has_reform = maritimer_united_duchies
@@ -17,7 +17,7 @@ country_event = {
 			is_statists_in_power = yes
 		}
 	}
-	
+
 	option = {
 		name = elections.720.a
 		define_ruler = {
@@ -28,7 +28,7 @@ country_event = {
 			id = maritimes_events.3
 		}
 	}
-	
+
 	option = {
 		name = elections.720.g
 		define_ruler = {
@@ -58,9 +58,9 @@ country_event = {
 	title = maritimes_events.2.t
 	desc = maritimes_events.2.d
 	picture = ELECTION_REPUBLICAN_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_reform = maritimer_united_duchies
 		has_states_general_mechanic = yes
@@ -69,7 +69,7 @@ country_event = {
 			is_statists_in_power = yes
 		}
 	}
-	
+
 	option = {
 		name = maritimes_events.2.a
 		define_ruler = {
@@ -80,7 +80,7 @@ country_event = {
 			id = maritimes_events.3
 		}
 	}
-	
+
 	option = {
 		name = maritimes_events.2.b
 		define_ruler = {
@@ -667,7 +667,7 @@ country_event = {
 		name = maritimes_events.5.a
 		add_prestige = 25
 		if = {
-			limit = { 
+			limit = {
 				NOT = {
 				tag = MRT
 				}
@@ -735,7 +735,7 @@ country_event = {
 			factor = 9
 			modifier = {
 				factor = 0
-				total_development = MRT				
+				total_development = MRT
 			}
 		}
 	}
@@ -779,7 +779,7 @@ country_event = {
 		}
 		desc = maritimes_events.8.d.a
 	}
-	
+
 	desc = {
 		trigger = {
 			NOT = {
@@ -791,7 +791,7 @@ country_event = {
 		desc = maritimes_events.8.d.b
 	}
 	picture = CONQUEST_eventPicture
-	
+
 	is_triggered_only = yes
 	fire_only_once = yes
 

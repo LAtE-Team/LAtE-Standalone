@@ -5,19 +5,19 @@ default_ideas = {
 		stability_cost_modifier = -0.10
 		advisor_cost = -0.1
 	}
-	
+
 	bonus = {
 		global_tax_modifier = 0.10
 	}
-	
+
 	free = yes
-	
+
 	increase_discipline = {
 		discipline = 0.025
 	}
 	increase_taxation = {
 		global_tax_modifier = 0.05
-	}	
+	}
 	cheaper_mercenaries = {
 		merc_maintenance_modifier = -0.10
 	}

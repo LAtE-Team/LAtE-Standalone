@@ -1,7 +1,7 @@
 # European Americanized Infantry
 
 unit_type = european
-type = infantry	
+type = infantry
 
 maneuver = 1
 offensive_morale = 4

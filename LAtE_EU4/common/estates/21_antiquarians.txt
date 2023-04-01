@@ -35,7 +35,7 @@ estate_antiquarians =
 	country_modifier_neutral = {
 		global_tax_modifier = 0.05
 		technology_cost = -0.05
-	}	
+	}
 	country_modifier_angry = {
 		global_tax_modifier = -0.1
 		papal_influence = -1
@@ -76,7 +76,7 @@ estate_antiquarians =
 		desc = EST_VAL_STATE_RELIGIOUS_MINORITY
 		trigger = {
 			NOT = { dominant_religion = ROOT }
-		}	
+		}
 		influence = -15
 	}
 	influence_modifier = {

@@ -20,7 +20,7 @@ increase_ruler_power = {
 	else = {
 		add_dip_power = 50
 	}
-	]	
+	]
 	[[mil]
 	if = {
 		limit = {

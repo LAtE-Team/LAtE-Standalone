@@ -8,21 +8,21 @@ color = { 112 123 76 }
 
 leader_names = {
 
-	"Doreen" "Martha" "Jellia" "Almira" "Alice" "Evanora" "Holcomb" "Jeroboam" "Oscar" "Isobel" 
-	"Billina" "Gladys" "Frexspar" "Ozma" "Zechariah" "Emerson" "Clark" "Petunia" "Everett" "Merriweather" 
-	"Whelan" "Grace" "April" "Marty" "Blaine" "Bertha" "Solomon" "Muriel" "Panphile" "Jacob" 
-	"Theodore" "Rehoboam" "Jeconiah" "Joel" "Flower" "Glycine" "Belle" "Ada" "Clyde" "Joseph" 
-	"Adriana" "Virginia" "Summer" "Victoria" "Perry" "Daisy" "Elphaba" "Melena" "Daniel" "Ralph" 
-	"Othniel" "Georgia" "Byrne" "Bastinda" "David" "Matilda" "Dorothy" "Lurline" "Garber" "Locasta" 
-	"Absalom" "Abednego" "Ahad" "Amon" "Asa" "Amos" "Andrew" "Albinus" "Alvin" "Anson" 
-	"Ashton" "Adam" "Amzi" "Bartholomew" "Benjamin" "Calvin" "Carl" "Chester" "Cole" "Dell" 
-	"Dale" "Dennis" "Donald" "Dwight" "Douglas" "Ebeneezer" "Ezekiel" "Emmett" "Elijah" "Elliot" 
-	"Eustace" "Franklin" "George" "Gerald" "Gideon" "Glen" "Hunter" "Hezekiah" "Hank" "Herman" 
-	"Horace" "Harold" "Isaac" "Ignace" "Josiah" "John" "Jerome" "Lucas" "Lyman" "Leslie" 
-	"Leonard" "Lavon" "Lewis" "Landon" "Mishach" "Manasseh" "Micah" "Meyer" "Morris" "Melville" 
-	"Myatt" "Milo" "Nathaniel" "Ned" "Obadiah" "Othman" "Otis" "Peter" "Paul" "Pedaiah" 
-	"Pentecost" "Pomeroy" "Poynter" "Pelham" "Philip" "Phineas" "Randell" "Ronald" "Roquat" "Rockwell" 
-	"Salathiel" "Shadrach" "Saul" "Samuel" "Seth" "Simon" "Silas" "Sander" "Sheldon" "Tom" 
+	"Doreen" "Martha" "Jellia" "Almira" "Alice" "Evanora" "Holcomb" "Jeroboam" "Oscar" "Isobel"
+	"Billina" "Gladys" "Frexspar" "Ozma" "Zechariah" "Emerson" "Clark" "Petunia" "Everett" "Merriweather"
+	"Whelan" "Grace" "April" "Marty" "Blaine" "Bertha" "Solomon" "Muriel" "Panphile" "Jacob"
+	"Theodore" "Rehoboam" "Jeconiah" "Joel" "Flower" "Glycine" "Belle" "Ada" "Clyde" "Joseph"
+	"Adriana" "Virginia" "Summer" "Victoria" "Perry" "Daisy" "Elphaba" "Melena" "Daniel" "Ralph"
+	"Othniel" "Georgia" "Byrne" "Bastinda" "David" "Matilda" "Dorothy" "Lurline" "Garber" "Locasta"
+	"Absalom" "Abednego" "Ahad" "Amon" "Asa" "Amos" "Andrew" "Albinus" "Alvin" "Anson"
+	"Ashton" "Adam" "Amzi" "Bartholomew" "Benjamin" "Calvin" "Carl" "Chester" "Cole" "Dell"
+	"Dale" "Dennis" "Donald" "Dwight" "Douglas" "Ebeneezer" "Ezekiel" "Emmett" "Elijah" "Elliot"
+	"Eustace" "Franklin" "George" "Gerald" "Gideon" "Glen" "Hunter" "Hezekiah" "Hank" "Herman"
+	"Horace" "Harold" "Isaac" "Ignace" "Josiah" "John" "Jerome" "Lucas" "Lyman" "Leslie"
+	"Leonard" "Lavon" "Lewis" "Landon" "Mishach" "Manasseh" "Micah" "Meyer" "Morris" "Melville"
+	"Myatt" "Milo" "Nathaniel" "Ned" "Obadiah" "Othman" "Otis" "Peter" "Paul" "Pedaiah"
+	"Pentecost" "Pomeroy" "Poynter" "Pelham" "Philip" "Phineas" "Randell" "Ronald" "Roquat" "Rockwell"
+	"Salathiel" "Shadrach" "Saul" "Samuel" "Seth" "Simon" "Silas" "Sander" "Sheldon" "Tom"
 	"Theophile" "Uriah" "Wyatt" "Wilson" "Wesley" "Wheeler" "Zebediah" "Zerubbabel" }
 monarch_names = {
 	"Doreen #1" = -19

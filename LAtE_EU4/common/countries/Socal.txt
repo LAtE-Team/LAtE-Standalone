@@ -8,21 +8,21 @@ color = { 241 233 144 }
 
 leader_names = {
 
-	"Ronald" "William" "Alan" "Albert" "Alec" "Alfred" "Andrew" "Angel" "Anthony" "Arthur" 
-	"Benicio" "Blaine" "Boyer" "Brando" "Brandon" "Brynn" "Buddy" "Burt" "Burton" "Buster" 
-	"Carson" "Cary" "Cesar" "Charles" "Charlton" "Clark" "Claude" "Clift" "Clint" "Colman" 
-	"Conrad" "Cooper" "Curt" "Dana" "Daniel" "David" "Dean" "Denzel" "Dick" "Douglas" 
-	"Dustin" "Ebert" "Edward" "Errol" "Erskine" "Everett" "Flynn" "Ford" "Fortunio" "Foster" 
-	"Frank" "Fred" "Fredric" "Gary" "Gene" "George" "Glenn" "Granger" "Grant" "Gregory" 
-	"Gus" "Harold" "Harris" "Heath" "Helmut" "Hendry" "Henry" "Herbert" "Herman" "Heston" 
-	"Holden" "Hudson" "Humphrey" "Jack" "Jacob" "James" "Jeremy" "Jerry" "Joel" "John" 
-	"Johnny" "Jose" "Joseph" "Julian" "Kane" "Karl" "Keaton" "Kenneth" "Kevin" "Kirk" 
-	"Ladd" "Laurence" "Lawrence" "Leon" "Leonid" "Liam" "Marcel" "Marlon" "Martin" "Mason" 
-	"Max" "Melvyn" "Michael" "Mickey" "Mitchum" "Montgomery" "Morgan" "Murray" "Nathan" "Niven" 
-	"Oliver" "Orson" "Parker" "Paul" "Peter" "Philip" "Preston" "Quinn" "Ray" "Rex" 
-	"Richard" "Rick" "Robert" "Rock" "Roger" "Roman" "Rudolf" "Russel" "Russell" "Ryan" 
-	"Samuel" "Sanders" "Sidney" "Signor" "Sinatra" "Siskel" "Sonny" "Spence" "Spencer" "Stan" 
-	"Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Tyrone" "Victor" "Vincent" "Walter" "Ward" 
+	"Ronald" "William" "Alan" "Albert" "Alec" "Alfred" "Andrew" "Angel" "Anthony" "Arthur"
+	"Benicio" "Blaine" "Boyer" "Brando" "Brandon" "Brynn" "Buddy" "Burt" "Burton" "Buster"
+	"Carson" "Cary" "Cesar" "Charles" "Charlton" "Clark" "Claude" "Clift" "Clint" "Colman"
+	"Conrad" "Cooper" "Curt" "Dana" "Daniel" "David" "Dean" "Denzel" "Dick" "Douglas"
+	"Dustin" "Ebert" "Edward" "Errol" "Erskine" "Everett" "Flynn" "Ford" "Fortunio" "Foster"
+	"Frank" "Fred" "Fredric" "Gary" "Gene" "George" "Glenn" "Granger" "Grant" "Gregory"
+	"Gus" "Harold" "Harris" "Heath" "Helmut" "Hendry" "Henry" "Herbert" "Herman" "Heston"
+	"Holden" "Hudson" "Humphrey" "Jack" "Jacob" "James" "Jeremy" "Jerry" "Joel" "John"
+	"Johnny" "Jose" "Joseph" "Julian" "Kane" "Karl" "Keaton" "Kenneth" "Kevin" "Kirk"
+	"Ladd" "Laurence" "Lawrence" "Leon" "Leonid" "Liam" "Marcel" "Marlon" "Martin" "Mason"
+	"Max" "Melvyn" "Michael" "Mickey" "Mitchum" "Montgomery" "Morgan" "Murray" "Nathan" "Niven"
+	"Oliver" "Orson" "Parker" "Paul" "Peter" "Philip" "Preston" "Quinn" "Ray" "Rex"
+	"Richard" "Rick" "Robert" "Rock" "Roger" "Roman" "Rudolf" "Russel" "Russell" "Ryan"
+	"Samuel" "Sanders" "Sidney" "Signor" "Sinatra" "Siskel" "Sonny" "Spence" "Spencer" "Stan"
+	"Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Tyrone" "Victor" "Vincent" "Walter" "Ward"
 	"Wayne" "Widmark" "Wyler" "Yancy" "Yul" }
 monarch_names = {
 	"Ronald #1" = 18

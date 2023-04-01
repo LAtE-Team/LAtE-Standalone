@@ -15,10 +15,10 @@ jewish_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		uses_judaism_power = yes
 		aspects_name = JEWISH_ASPECTS
-			
+
 		aspects = {
 			judaism_rosh_hashanah_aspect
 			judaism_simchat_torah_aspect
@@ -30,7 +30,7 @@ jewish_group = {
 			judaism_remember_passover_aspect
 			judaism_purim_teachings_aspect
 		}
-		
+
 		heretic = { SAMARITAN KARAITE }
 
 		celebrate = {
@@ -104,7 +104,7 @@ jewish_group = {
 			}
 		}
 	}
-    
+
     reform_faith = {
 		icon = 64
 		color = { 0.5 0.7 0.2 }
@@ -123,7 +123,7 @@ jewish_group = {
 			land_morale = 0.05
 			global_unrest = -1
 		}
-		
+
 		heretic = { KARAITE SAMARITAN }
 	}
 

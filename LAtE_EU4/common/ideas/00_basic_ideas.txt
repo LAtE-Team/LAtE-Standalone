@@ -19,7 +19,7 @@ aristocracy_ideas = {
 	trigger = {
 		has_government_attribute = enables_aristocratic_idea_group
 	}
-	
+
 	noble_knights = {
 		cavalry_power = 0.15
 		cavalry_cost = -0.20
@@ -46,15 +46,15 @@ aristocracy_ideas = {
 	noble_resilience = {
 		mercenary_manpower = 0.25
 	}
-	
+
 
 	ai_will_do = {
 		factor = 0.45
-		
+
 		modifier = {
 			factor = 0.5
 			is_subject = yes
-		}	
+		}
 	}
 }
 
@@ -103,16 +103,16 @@ plutocracy_ideas = {
 
 horde_gov_ideas = {
 	category = MIL
-	
+
 	bonus = {
 		cavalry_power = 0.25
 		nomadic_tribes_loyalty_modifier = 0.1
 	}
-	
+
 	trigger = {
 		has_government_attribute = enables_horde_idea_group
 	}
-	
+
 	horse_lords = {
 		cavalry_cost = -0.33
 		cav_to_inf_ratio = 0.10
@@ -129,13 +129,13 @@ horde_gov_ideas = {
 	horde_loyalty = {
 		global_unrest = -1
 	}
-	watchers_of_the_silk_road = {	
+	watchers_of_the_silk_road = {
 		caravan_power = 0.20
 	}
 	a_magnanimous_empire = {
 		num_accepted_cultures = 2
 	}
-	
+
 	ai_will_do = {
 		factor = 20
 	}
@@ -143,14 +143,14 @@ horde_gov_ideas = {
 
 theocracy_gov_ideas = {
 	category = MIL
-	
+
 	bonus = {
 		global_heretic_missionary_strength = 0.01
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1
 	}
-	
+
 	trigger = {
 		has_government_attribute = enables_divine_idea_group
 	}
@@ -334,7 +334,7 @@ spy_ideas = {
 		rebel_support_efficiency = 1
 		discovered_relations_impact = -1
 	}
-	
+
 	claim_fabrication = {
 		fabricate_claims_cost = -0.25
 		can_fabricate_for_vassals = yes
@@ -347,8 +347,8 @@ spy_ideas = {
 	efficient_spies = {
 		spy_offence = 0.5
 		siege_ability = 0.1
-	}	
-	
+	}
+
 	agent_training = {
 		diplomats = 1
 		advisor_cost = -0.15
@@ -358,7 +358,7 @@ spy_ideas = {
 		global_spy_defence = 0.33
 		yearly_corruption = -0.2
 	}
-	
+
 	privateers = {
 		capture_ship_chance = 0.25
 		privateer_efficiency = 0.33
@@ -459,7 +459,7 @@ defensive_ideas = {
 
 	bonus = {
 		hostile_attrition = 1
-		max_hostile_attrition = 1 
+		max_hostile_attrition = 1
 	}
 
 	battlefield_commisions = {
@@ -611,7 +611,7 @@ exploration_ideas = {
 	colonial_ventures = {
 		colonists = 1
 	}
-	
+
 	overseas_exploration = {
 		range = 0.5
 	}
@@ -643,7 +643,7 @@ exploration_ideas = {
 		modifier = {
 			factor = 0
 			is_subject = yes
-		}		
+		}
 		modifier = {
 			factor = 0
 			primitives = yes
@@ -658,9 +658,9 @@ exploration_ideas = {
 				any_owned_province = {
 					has_port = yes
 					sea_zone = {
-						NOT = { 
+						NOT = {
 							OR = {
-								area = gulf_of_mexico_area 
+								area = gulf_of_mexico_area
 								area = hudson_bay_sea_area
 								area = great_lakes_sea_area
 							}
@@ -668,18 +668,18 @@ exploration_ideas = {
 					}
 				}
 			}
-			NOT = { 
-				any_owned_province = { 
+			NOT = {
+				any_owned_province = {
 					is_in_capital_area = yes
 					has_empty_adjacent_province = yes
-				} 
+				}
 			}
 		}
 		modifier = {
 			factor = 0.1
 			NOT = { num_of_ports = 3 }
-			NOT = { 
-				any_owned_province = { 
+			NOT = {
+				any_owned_province = {
 					is_in_capital_area = yes
 					has_empty_adjacent_province = yes
 				}
@@ -765,7 +765,7 @@ maritime_ideas = {
 
 	bonus = {
 		sea_repair = yes
-		movement_speed_in_fleet_modifier = 1 
+		movement_speed_in_fleet_modifier = 1
 	}
 
 	merchant_traditions = {
@@ -1059,11 +1059,11 @@ influence_ideas = {
 	tribute_system = {
 		vassal_income = 0.25
 	}
-	
+
 	additional_loyalist_recruitment = {
 		reduced_liberty_desire = 15
 	}
-	
+
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.25
 	}

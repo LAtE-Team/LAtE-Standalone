@@ -76,7 +76,7 @@ country_event = {
 				}
 				overlord = { save_event_target_as = probably_bavaria }
 			}
-			
+
 			clr_country_flag = theo_local_noble_flag
 			clr_country_flag = theo_foreign_noble_flag
 			clr_country_flag = theo_merchants_son_flag
@@ -85,7 +85,7 @@ country_event = {
 			clr_country_flag = theo_papal_protege_flag
 			clr_country_flag = theo_imam_khatib_flag
 			clr_country_flag = theo_influential_reformer_flag
-			
+
 			#Local Noble,etc:
 			if = {
 				limit = {
@@ -96,7 +96,7 @@ country_event = {
 					}
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 					}
@@ -117,7 +117,7 @@ country_event = {
 					religion = hinduism
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 						religion = hinduism
@@ -134,7 +134,7 @@ country_event = {
 					}
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 					}
@@ -152,7 +152,7 @@ country_event = {
 					}
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 						religion = hinduism
@@ -169,7 +169,7 @@ country_event = {
 					}
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 					}
@@ -187,7 +187,7 @@ country_event = {
 					}
 				}
 				random_owned_province = {
-					limit = { 
+					limit = {
 						is_capital = no
 						is_state = yes
 						religion = hinduism
@@ -205,7 +205,7 @@ country_event = {
 				}
 				save_event_target_as = papal_protoge_country
 			}
-			
+
 		}
 	}
 
@@ -375,15 +375,15 @@ country_event = {
 				estate = estate_brahmins
 				loyalty = -10
 			}
-		}		
+		}
 		set_country_flag = theo_foreign_noble_flag # USED IN DEVOTION.TXT
-		random_neighbor_country = { 
+		random_neighbor_country = {
 			limit = {
 				government = monarchy
 				has_regency = no
 				religion = ROOT
 			}
-			ROOT = { 
+			ROOT = {
 				if = {
 					limit = {
 						NOT = {
@@ -393,21 +393,21 @@ country_event = {
 							}
 						}
 					}
-					define_heir = { 
-						dynasty = PREV 
+					define_heir = {
+						dynasty = PREV
 						age = 35
 						culture = PREV
 						hidden = yes
-					} 
+					}
 				}
 				else = {
-					define_heir = { 
-						dynasty = PREV 
+					define_heir = {
+						dynasty = PREV
 						age = 35
 						culture = PREV
 						female = yes
 						hidden = yes
-					} 
+					}
 				}
 			}
 			add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
@@ -458,7 +458,7 @@ country_event = {
 			}
 		}
 		set_country_flag = theo_merchants_son_flag # USED IN DEVOTION.TXT
-		
+
 		if = {
 			limit = {
 				has_saved_event_target = burgher_province
@@ -835,7 +835,7 @@ country_event = {
 				estate = estate_nobles
 				loyalty = -15
 			}
-		}		
+		}
 		if = {
 			limit = {
 				has_global_modifier_value = {
@@ -877,7 +877,7 @@ country_event = {
 				estate = estate_burghers
 				loyalty = 10
 			}
-		}		
+		}
 		if = {
 			limit = {
 				has_estate = estate_church
@@ -906,7 +906,7 @@ country_event = {
 				hidden = yes
 			}
 		}
-		if = { 
+		if = {
 			limit = { religion = protestant }
 			add_church_power = 10
 		}
@@ -1045,7 +1045,7 @@ country_event = {
 				limit = { has_owner_religion = no }
 				create_revolt = 1
 			}
-		}				
+		}
 	}
 }
 
@@ -1101,7 +1101,7 @@ country_event = {
 			NOT = { mil= 4 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA1091" # Make your opinion clear to them
 		ai_chance = { factor = 45 }
@@ -1113,7 +1113,7 @@ country_event = {
 				NOT = { has_opinion = { who = ROOT value = -50 } }
 			}
 			add_opinion = { who = ROOT modifier = opinion_forceful_conversion }
-		}	
+		}
 		add_papal_influence = -10
 	}
 	option = {

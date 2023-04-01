@@ -53,14 +53,14 @@ monarch_names = {
 	"Thomas #0" = 0
 	"Vincent #0" = 0
 	"Zacharias #0" = 0
-	
+
 	"Margaretha #0" = -1
 	"Rosanne #0" = -1
 	"Tamara #0" = -1
 }
 
 leader_names = {
-	"Van der Aa" "Van Assendelft" 
+	"Van der Aa" "Van Assendelft"
 	"Van Bronkhorst" Batenburg Bentinck Brandt "Van Brederode" Brouwer
 	Coehoorn Coen Crijnssen "Van Culemborg"
 	Daendels "Van Diemen" "Van der Does" "Van Duivenvoorde"
@@ -92,22 +92,22 @@ ship_names = {
 	"Kleene Sint Joris" Komeeetster "Kronede Arend"
 	Leyden "Liefde van Hoorn"
 	"Maagd van Dordrecht" Mars Mauritius Middelburg Minerva Moon Monnikendam Muiderberg
-	Nassau "Nieuw Vlissingen" 
+	Nassau "Nieuw Vlissingen"
 	Olifant Onrust Ooievaar Oranje
-	Patientia Posthorn "Prins Friso" "Prins Willem" 
+	Patientia Posthorn "Prins Friso" "Prins Willem"
 	Rotterdam Rozendaal
 	Schakerloo Schermer Spiegel Staten-Generaal Statenlande Ster "St. Iago de Victoria" "St. Marten" "St. Matthuis"
-	Tholen Tyger 
+	Tholen Tyger
 	"Vereenigde Provincieën" Vlissingen Vrede Vrijheid
 	Waakzaamheid "Walcheren" "Wapen van Holland" "Wapen van Medenblik" Wassenaar Winhond "Witte Leeuw" Woerden Zeerijp
-	"Zeven Provincien" Zierikzee Zon Zuidholland "Zwarte Leeuw" 
+	"Zeven Provincien" Zierikzee Zon Zuidholland "Zwarte Leeuw"
 }
 
 
 army_names = {
-	"Staatse Leger" "Prinselijk Leger" "Leger van $PROVINCE$" 
+	"Staatse Leger" "Prinselijk Leger" "Leger van $PROVINCE$"
 }
 
 fleet_names = {
-	"Staatse Vloot" "Noordzeevloot" "Oostzeevloot" "Oost-Indiëvloot" "West-Indiëvloot" "Middellandse Zeevloot"  "Vloot van $PROVINCE$" 
+	"Staatse Vloot" "Noordzeevloot" "Oostzeevloot" "Oost-Indiëvloot" "West-Indiëvloot" "Middellandse Zeevloot"  "Vloot van $PROVINCE$"
 }

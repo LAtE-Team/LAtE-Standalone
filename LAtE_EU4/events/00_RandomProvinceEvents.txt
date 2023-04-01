@@ -24,10 +24,10 @@ province_event = {
 	}
 
 	is_mtth_scaled_to_size = 1
-	
+
 	mean_time_to_happen = {
 		months = 600
-		
+
 		modifier = {
 			factor = 0.8
 			owner = {
@@ -82,10 +82,10 @@ province_event = {
 	}
 
 	is_mtth_scaled_to_size = 1
-	
+
 	mean_time_to_happen = {
 		months = 700
-		
+
 		modifier = {
 			factor = 0.8
 			owner = { luck = yes }
@@ -172,7 +172,7 @@ province_event = {
 
 	mean_time_to_happen = {
 		months = 600
-		
+
 		modifier = {
 			factor = 0.8
 			owner = { adm = 5 }
@@ -192,7 +192,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA5073"		# Increase tax income.
 		add_base_tax = 1
-		
+
 	}
 	option = {
 		name = "EVTOPT5073_new"		# Increase production
@@ -253,7 +253,7 @@ province_event = {
 
 	mean_time_to_happen = {
 		months = 600
-		
+
 		modifier = {
 			factor = 10
 			any_neighbor_province = {
@@ -295,7 +295,7 @@ province_event = {
 					}
 				}
 			}
-		}		
+		}
 		modifier = {
 			factor = 1.1
 			owner = { NOT = { dip = 1 } }
@@ -315,7 +315,7 @@ province_event = {
 			owner = {
 				dip = 6
 			}
-		}		
+		}
 	}
 
 	immediate = {
@@ -342,7 +342,7 @@ province_event = {
 		event_target:claim_province = {
 			add_claim = ROOT
 			owner = {
-				add_casus_belli = {	
+				add_casus_belli = {
 					target = ROOT
 					type = cb_insult
 					months = 36
@@ -391,7 +391,7 @@ province_event = {
 
 	mean_time_to_happen = {
 		months = 600
-		
+
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
@@ -399,7 +399,7 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			owner = { historical_rival_with = ROOT }
-		}		
+		}
 		modifier = {
 			factor = 1.2
 			owner = { NOT = { dip = 1 } }
@@ -452,7 +452,7 @@ province_event = {
 		event_target:claim_province = {
 			add_claim = ROOT
 			owner = {
-				add_casus_belli = {	
+				add_casus_belli = {
 					target = ROOT
 					type = cb_insult
 					months = 12
@@ -502,7 +502,7 @@ province_event = {
 
 	mean_time_to_happen = {
 		months = 600
-		
+
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
@@ -510,7 +510,7 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			owner = { historical_rival_with = ROOT }
-		}		
+		}
 		modifier = {
 			factor = 2.0
 			owner = { NOT = { dip = 1 } }
@@ -518,7 +518,7 @@ province_event = {
 		modifier = {
 			factor = 2.0
 			owner = { has_idea = humanist_tolerance }
-		}		
+		}
 		modifier = {
 			factor = 2.0
 			owner = { luck = yes }
@@ -564,7 +564,7 @@ province_event = {
 		event_target:claim_province = {
 			add_claim = ROOT
 			owner = {
-				add_casus_belli = {	
+				add_casus_belli = {
 					target = ROOT
 					type = cb_insult
 					months = 12
@@ -608,7 +608,7 @@ province_event = {
 		NOT = { controller = { tag = REB } }
 		NOT = { controller = { tag = NAT } }
 		NOT = { controller = { tag = PIR } }
-		controller = { 
+		controller = {
 			NOT = { war_exhaustion = 5 }
 		}
 		is_city = yes
@@ -619,19 +619,19 @@ province_event = {
 		modifier = {
 			factor = 5.0
 			owner = { luck = yes }
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			has_owner_religion = no
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			owner = { NOT = { prestige = 0 } }
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			owner = { NOT = { prestige = -50 } }
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			owner = { NOT = { stability = 0 } }
@@ -653,7 +653,7 @@ province_event = {
 	desc = "EVTDESC757"
 	picture = ANGRY_MOB_eventPicture
 	goto = root
-	
+
 	trigger = {
 		owner = { NOT = { num_of_rebel_controlled_provinces = 3 } }
 		owner = { overextension_percentage = 1.01 }
@@ -667,7 +667,7 @@ province_event = {
 		modifier = {
 			factor = 5.0
 			owner = { luck = yes }
-		}		
+		}
 		modifier = {
 			factor = 2.0
 			owner = {
@@ -728,7 +728,7 @@ province_event = {
 	desc = "EVTDESC758"
 	picture = HRE_eventPicture
 	goto = root
-	
+
 	trigger = {
 		is_capital = yes
 		is_part_of_hre = yes
@@ -766,7 +766,7 @@ province_event = {
 			owner = { stability = 3 }
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA758"
 		owner = { add_prestige = 10 }
@@ -794,7 +794,7 @@ province_event = {
 		owner = { war_exhaustion = 5 }
 		garrison = 1000
 		has_siege = no
-		
+
 	}
 
 	mean_time_to_happen = {
@@ -802,7 +802,7 @@ province_event = {
 		modifier = {
 			factor = 5.0
 			owner = { luck = yes }
-		}		
+		}
 		modifier = {
 			factor = 0.8
 			has_owner_religion = no
@@ -818,12 +818,12 @@ province_event = {
 province_event = {
 	id = 6331
 	title = "EVTNAME6331"
-	desc = "EVTDESC6331" 
+	desc = "EVTDESC6331"
 	picture = RELIGION_eventPicture
 	goto = root
-	
+
 	trigger = {
-		owner = { 
+		owner = {
 			has_idea_group = humanist_ideas
 			NOT = { has_country_modifier = narrowminded_modifier }
 		}
@@ -840,13 +840,13 @@ province_event = {
 	}
 
 	is_mtth_scaled_to_size = 1
-	
+
 	option = {
 		name = "EVTOPTA6331"
 		add_province_modifier = {
 			name = "heresy"
 			duration = 3650
-		}		
+		}
 	}
 
 	option = {
@@ -858,7 +858,7 @@ province_event = {
 			}
 		}
 	}
-} 
+}
 
 # Border Tension
 province_event = {
@@ -867,7 +867,7 @@ province_event = {
 	desc = "EVTDESC9471"
 	picture = LAND_MILITARY_eventPicture
 	goto = root
-	
+
 	trigger = {
 		is_capital = no
 		any_neighbor_province = {
@@ -886,13 +886,13 @@ province_event = {
 			}
 		}
 	}
-	
+
 	is_mtth_scaled_to_size = 1
-	
+
 	mean_time_to_happen = {
 		months = 800
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_neighbor_province = {
@@ -915,7 +915,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "EVTOPTA9471"
 		event_target:neighbour_country = {
@@ -936,9 +936,9 @@ country_event = {
 	desc = "EVTDESC6436"
 	picture = LAND_MILITARY_eventPicture
 	goto = from
-	
-	is_triggered_only = yes	
-	
+
+	is_triggered_only = yes
+
 	option = {
 		name = "EVTOPTA6436"
 		add_claim = FROM

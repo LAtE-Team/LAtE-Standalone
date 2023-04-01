@@ -3,7 +3,7 @@
 
 graphical_culture = northamericagfx
 
-color = { 0 74 128 } 
+color = { 0 74 128 }
 
 revolutionary_colors = { 14  8  5 } #Pale blue field, gold star, red hammer and sickle
 
@@ -108,8 +108,8 @@ monarch_names = {
 	"Pattehus #0" = 10
 	"Shoolkkanam #0" = 10
 	"Chloksuts #0" = 10
-	
-	"Kikisoblu #0" = -1 	
+
+	"Kikisoblu #0" = -1
 	"Wewick #0" = -1
 	"Sholeetsa #0" = -1
 	"Ladalia #0" = -1
@@ -118,12 +118,12 @@ monarch_names = {
 
 leader_names = {
 	Samish Sawehamish Semiahmoo Shishalh Siletz Skagits Skokomish Snohomish Snoqualmie Songhees Squamish Squaxin Stillaguamish Stolo Aitchelitz Chawathil Cheam
-	Kwantlen Katzie Leqamel Matsqui Popkum Shxwowhamel Skway Skowkale Skwah Soowalhie Chehalis Sumas Tzeatchen Yakweakwioose Suiaxbixw Suquamish Swinomish 
+	Kwantlen Katzie Leqamel Matsqui Popkum Shxwowhamel Skway Skowkale Skwah Soowalhie Chehalis Sumas Tzeatchen Yakweakwioose Suiaxbixw Suquamish Swinomish
 	Tsawassen "Tsleil-Waututh" Tulalip Xacuabs
 }
 
 ship_names = {
 	Samish Sawehamish Semiahmoo Shishalh Siletz Skagits Skokomish Snohomish Snoqualmie Songhees Squamish Squaxin Stillaguamish Stolo Aitchelitz Chawathil Cheam
-	Kwantlen Katzie Leqamel Matsqui Popkum Shxwowhamel Skway Skowkale Skwah Soowalhie Chehalis Sumas Tzeatchen Yakweakwioose Suiaxbixw Suquamish Swinomish 
+	Kwantlen Katzie Leqamel Matsqui Popkum Shxwowhamel Skway Skowkale Skwah Soowalhie Chehalis Sumas Tzeatchen Yakweakwioose Suiaxbixw Suquamish Swinomish
 	Tsawassen "Tsleil-Waututh" Tulalip Xacuabs
 }

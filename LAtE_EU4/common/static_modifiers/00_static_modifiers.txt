@@ -617,8 +617,8 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
-	
-	
+
+
 }
 
 privateering = {
@@ -837,8 +837,8 @@ defender_of_faith = {
 	prestige = 1							#1% extra prestige yearly
 	missionaries = 1
 	devotion = 0.5
-	
-	
+
+
 }
 
 defender_of_faith_refused_cta = {
@@ -890,7 +890,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	
+
 }
 
 # Multiplied by the amount of papal influence
@@ -1416,7 +1416,7 @@ gov_rank_10 = {
 # For autonomy mechanics
 autonomy_increased = {
 	local_unrest = -10
-	
+
 	picture="autonomy_increased"
 }
 
@@ -1796,7 +1796,7 @@ hussars_regiment = {
 
 marine_regiment = {
     # shock_damage_received = 0.1
-    # regiment_disembark_speed = 2 
+    # regiment_disembark_speed = 2
 }
 
 banner_regiment = {

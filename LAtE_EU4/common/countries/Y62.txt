@@ -8,16 +8,16 @@ color = { 116 114 255 }
 
 leader_names = {
 
-	"Jaxon" "Sheldon" "Evelyn" "Madame" "Joe" "Guillaume" "Paul" "Albert" "Alec" "Alexander" 
-	"Ambroise-Dydime" "Ambrose" "Andrew" "Andy" "Angus" "Antoine" "Antonine" "Arron" "Arthur" "Asham" 
-	"August" "Augustin" "Axel" "Baptiste" "Bob" "Brian" "Bryan" "Calvin" "Charles" "Charles-Michel" 
-	"Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Don" "Douglas" "Doyle" "Dwight" 
-	"Dydim" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George" "Gerald" "Gil" 
-	"Gregory" "Harley" "Henri" "Honoré" "Howard" "Ian" "Jacco" "Jaco" "Jacques" "James" 
-	"Jean" "Jean-Baptiste" "Jess" "John" "Jon" "Jonathan" "Jules" "Kalib" "Keith" "Kevin" 
-	"Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" "Pascal" "Peter" "Pierre" 
-	"Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" "Rick" "Robert" "Rod" "Salomon" 
-	"Shan" "Solomon" "Theoren" "Thomas" "Todd" "Tom" "Tony" "Tête" "Vic" "Wade" 
+	"Jaxon" "Sheldon" "Evelyn" "Madame" "Joe" "Guillaume" "Paul" "Albert" "Alec" "Alexander"
+	"Ambroise-Dydime" "Ambrose" "Andrew" "Andy" "Angus" "Antoine" "Antonine" "Arron" "Arthur" "Asham"
+	"August" "Augustin" "Axel" "Baptiste" "Bob" "Brian" "Bryan" "Calvin" "Charles" "Charles-Michel"
+	"Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Don" "Douglas" "Doyle" "Dwight"
+	"Dydim" "Dylan" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George" "Gerald" "Gil"
+	"Gregory" "Harley" "Henri" "Honoré" "Howard" "Ian" "Jacco" "Jaco" "Jacques" "James"
+	"Jean" "Jean-Baptiste" "Jess" "John" "Jon" "Jonathan" "Jules" "Kalib" "Keith" "Kevin"
+	"Laird" "Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" "Pascal" "Peter" "Pierre"
+	"Ralph" "Ranald" "Ray" "Raymond" "Rene" "René" "Rick" "Robert" "Rod" "Salomon"
+	"Shan" "Solomon" "Theoren" "Thomas" "Todd" "Tom" "Tony" "Tête" "Vic" "Wade"
 	"Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Jaxon #0" = 1

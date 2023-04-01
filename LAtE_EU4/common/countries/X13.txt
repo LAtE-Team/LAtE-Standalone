@@ -8,21 +8,21 @@ color = { 237 190 72 }
 
 leader_names = {
 
-	"Giteewans" "Kayung" "Sandlenee" "Yahl" "Skil Tiis" "Yahl Hinku" "Kimana" "Hluunaagad" "Wewick" "Yahl Sgoansins" 
-	"Kimani" "Masset" "Guusk'an" "Shada" "Kwaa Hiiwans" "Anne" "S'gana" "Tsang" "Skilkaadgan" "Elvamox" 
-	"Kaat" "Kikisoblu" "Waawga" "Hiidangsaa" "Sgaana" "Haiwee" "Stuut Jubgaab" "Gya'awhlans" "Absaquil" "Haina" 
-	"Gwaay Guu Ganhlin" "Atfalati" "Dzalarhons" "Hlgitun" "Yan" "Chiin" "Cuneah" "Ladalia" "Gidansda" "Tsahtsaa" 
-	"K'ap" "Gyaahlans" "Nasyah" "Yaahl" "Skaay" "Ninstints" "Naani" "Kimama" "Dayaang" "Sgaana Hiiwans" 
-	"Ginaawaan" "Kiusta" "Daa Heeigan" "Ihldiinii" "Taawga Halaa Leyga" "Kaisun" "Hiitl'daa" "Yahl Gwaawaas" "Yaanans" "Skilhlang" 
-	"Skidegate" "Yahguaas" "Skaaxwad" "Tsaa Hamjuuwee" "Olahl" "Hluuwee" "Kit" "Howkan" "Kagan" "Sgaal" 
-	"Gitkinjuuwaas" "Sgaann Hiwhwaans" "Hlgan Hiildaans" "Klinkwan" "Nang Kilsdlaas" "Guujaaw" "Siigee" "Hlk'yah Gaawga" "Kung" "Skedans" 
-	"Gogiid" "Gaahlaay" "Jaadaa" "Xa" "Kasaan" "Tsinni" "Xuut" "Willow" "Tl'aagaang Quna" "Tsaak" 
-	"Guubii" "Cynthia" "Aleshanee" "Sguii" "Hidansuu" "Clatsop" "Xanj" "Kyla" "Guulaas" "Rhys" 
-	"Leqamel" "Cha'atl" "Gabe" "Yahl Naaw" "Wiiaa" "Tumulth" "Kun" "Sholeetsa" "Teaga" "Tanu" 
-	"Oklumin" "Daniela" "Kwoiyang" "Wah-Kah-Nee" "Jaahguhl" "Sgaana Guujaanga" "Gyhldeptis" "Yahl Kangwaas" "Sonia" "Kaufman" 
-	"T'lajung Nung Kingaas" "Kristin" "Nang Jingwas" "Ganiihlaas" "Tahaygen" "Seeallapahan" "Koya" "Chee Xial Taaiixou" "Sukkwan" "Sdiithldaa" 
-	"Hiellan" "Cumshewa" "Nittawosew" "Wigaanad" "Thasi" "Quootis-hooi" "Dorothy" "Kwallatum" "Kilsdlaa Xidguns" "Skil Hiilans" 
-	"Hiljuuwaas" "Skilkwiitlaas" "Soowalhie" "Ginaaskilaas" "Kithlaigaa" "Evelyn" "Atewaas" "Multnomah" "Gaahlaa" "Ghaltsaakw" 
+	"Giteewans" "Kayung" "Sandlenee" "Yahl" "Skil Tiis" "Yahl Hinku" "Kimana" "Hluunaagad" "Wewick" "Yahl Sgoansins"
+	"Kimani" "Masset" "Guusk'an" "Shada" "Kwaa Hiiwans" "Anne" "S'gana" "Tsang" "Skilkaadgan" "Elvamox"
+	"Kaat" "Kikisoblu" "Waawga" "Hiidangsaa" "Sgaana" "Haiwee" "Stuut Jubgaab" "Gya'awhlans" "Absaquil" "Haina"
+	"Gwaay Guu Ganhlin" "Atfalati" "Dzalarhons" "Hlgitun" "Yan" "Chiin" "Cuneah" "Ladalia" "Gidansda" "Tsahtsaa"
+	"K'ap" "Gyaahlans" "Nasyah" "Yaahl" "Skaay" "Ninstints" "Naani" "Kimama" "Dayaang" "Sgaana Hiiwans"
+	"Ginaawaan" "Kiusta" "Daa Heeigan" "Ihldiinii" "Taawga Halaa Leyga" "Kaisun" "Hiitl'daa" "Yahl Gwaawaas" "Yaanans" "Skilhlang"
+	"Skidegate" "Yahguaas" "Skaaxwad" "Tsaa Hamjuuwee" "Olahl" "Hluuwee" "Kit" "Howkan" "Kagan" "Sgaal"
+	"Gitkinjuuwaas" "Sgaann Hiwhwaans" "Hlgan Hiildaans" "Klinkwan" "Nang Kilsdlaas" "Guujaaw" "Siigee" "Hlk'yah Gaawga" "Kung" "Skedans"
+	"Gogiid" "Gaahlaay" "Jaadaa" "Xa" "Kasaan" "Tsinni" "Xuut" "Willow" "Tl'aagaang Quna" "Tsaak"
+	"Guubii" "Cynthia" "Aleshanee" "Sguii" "Hidansuu" "Clatsop" "Xanj" "Kyla" "Guulaas" "Rhys"
+	"Leqamel" "Cha'atl" "Gabe" "Yahl Naaw" "Wiiaa" "Tumulth" "Kun" "Sholeetsa" "Teaga" "Tanu"
+	"Oklumin" "Daniela" "Kwoiyang" "Wah-Kah-Nee" "Jaahguhl" "Sgaana Guujaanga" "Gyhldeptis" "Yahl Kangwaas" "Sonia" "Kaufman"
+	"T'lajung Nung Kingaas" "Kristin" "Nang Jingwas" "Ganiihlaas" "Tahaygen" "Seeallapahan" "Koya" "Chee Xial Taaiixou" "Sukkwan" "Sdiithldaa"
+	"Hiellan" "Cumshewa" "Nittawosew" "Wigaanad" "Thasi" "Quootis-hooi" "Dorothy" "Kwallatum" "Kilsdlaa Xidguns" "Skil Hiilans"
+	"Hiljuuwaas" "Skilkwiitlaas" "Soowalhie" "Ginaaskilaas" "Kithlaigaa" "Evelyn" "Atewaas" "Multnomah" "Gaahlaa" "Ghaltsaakw"
 	"Xhalkuts" "Gidkun" "Hiidangsdaa" "Skilkingaans" "Skuujgee Gong" "Taan" "Xunts" }
 monarch_names = {
 	"Giteewans #0" = 1

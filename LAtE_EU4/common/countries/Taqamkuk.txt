@@ -8,15 +8,15 @@ color = { 26 164 141 }
 
 leader_names = {
 
-	"Marshall" "Rachel-Mary" "Joe" "Sam" "Jacques-Pierre" "Nora" "Bernie" "Leonard" "Kji-Keptin" "Katherine" 
-	"Dorothy" "Pamela" "Alice" "Azure" "Everett" "Mae" "Allan" "Annie" "Murdena" "Jean-Baptiste" 
-	"Qimmiq" "Quamaniq" "K'eyush" "Pukak" "Ikniqpalagaq" "Mistasiniy" "Nilak" "Anernerk" "Irdlirvirisissong" "Tulimak" 
-	"Tikaani" "Availuk" "Kattituyok" "Kassuq" "Pattangayok" "Danielle" "Cipay" "Hugh" "Acimus" "Atiqtalaaq" 
-	"Nunataq" "Viola" "Mary" "Mistaisimit" "Silaluk" "Hazel" "Beechil" "Annie-Mae" "Silas" "Jerry" 
-	"Lee" "Lawrence" "Rachel" "Rita" "Alexander" "Nauja" "Laoise" "Michael" "Henri" "Ikiaq" 
-	"Cope" "Donald" "Marie" "Puti" "Elsie" "Frank" "Robert" "Daniel" "Sarah" "Ahnah" 
-	"Natasha" "Aqpalibaaqtuq" "Étienne" "Pinehis" "Paul" "Benjamin" "Remnar" "Maurice" "Brunhilda" "Bernd" 
-	"Charles" "Francis" "Frye" "Gabriel" "Jacob" "John" "Joseph" "Kopit" "Noel" "Peter" 
+	"Marshall" "Rachel-Mary" "Joe" "Sam" "Jacques-Pierre" "Nora" "Bernie" "Leonard" "Kji-Keptin" "Katherine"
+	"Dorothy" "Pamela" "Alice" "Azure" "Everett" "Mae" "Allan" "Annie" "Murdena" "Jean-Baptiste"
+	"Qimmiq" "Quamaniq" "K'eyush" "Pukak" "Ikniqpalagaq" "Mistasiniy" "Nilak" "Anernerk" "Irdlirvirisissong" "Tulimak"
+	"Tikaani" "Availuk" "Kattituyok" "Kassuq" "Pattangayok" "Danielle" "Cipay" "Hugh" "Acimus" "Atiqtalaaq"
+	"Nunataq" "Viola" "Mary" "Mistaisimit" "Silaluk" "Hazel" "Beechil" "Annie-Mae" "Silas" "Jerry"
+	"Lee" "Lawrence" "Rachel" "Rita" "Alexander" "Nauja" "Laoise" "Michael" "Henri" "Ikiaq"
+	"Cope" "Donald" "Marie" "Puti" "Elsie" "Frank" "Robert" "Daniel" "Sarah" "Ahnah"
+	"Natasha" "Aqpalibaaqtuq" "Étienne" "Pinehis" "Paul" "Benjamin" "Remnar" "Maurice" "Brunhilda" "Bernd"
+	"Charles" "Francis" "Frye" "Gabriel" "Jacob" "John" "Joseph" "Kopit" "Noel" "Peter"
 	"Peter-Paul" "Sandy" "Sylliboy" "Toney" "Wilfred" }
 monarch_names = {
 	"Marshall #3" = 33

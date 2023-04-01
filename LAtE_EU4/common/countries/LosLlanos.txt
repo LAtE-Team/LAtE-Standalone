@@ -8,16 +8,16 @@ color = { 91 195 60 }
 
 leader_names = {
 
-	"Orlondo" "Buena" "Jerico" "Gabriella" "Abran" "Alano" "Alejandro" "Alexander" "Alfonso" "Alvaro" 
-	"Alvino" "Andres" "Angelino" "Angelito" "Aquila" "Armando" "Arnoldo" "Bartolo" "Beltran" "Bemabe" 
-	"Bembe" "Betulio" "Bonifacio" "Bonifaco" "Calvino" "Carlos" "César" "Chano" "Charro" "Che" 
-	"Chucho" "Ciceron" "Claudio" "Criston" "Damario" "Edwin" "Elias" "Eloy" "Emesto" "Estevon" 
-	"Ezequiel" "Faron" "Felipe" "Fernando" "Flavio" "Frederico" "Gabriel" "Galtero" "Generosb" "Giovanni" 
-	"Guadalupe" "Guido" "Guillermo" "Hidalgo" "Honor" "Hugo" "Ignado" "Igone" "Joaquin" "Johan" 
-	"Jorge" "José" "Josef" "Juan" "Julio" "Leon" "Lonzo" "Lorenzo" "Luciano" "Luis" 
-	"Macario" "Magglio" "Manny" "Manuelo" "Marco" "Marcos" "Martino" "Massimo" "Mauro" "Milagro" 
-	"Montes" "Neron" "Nicolas" "Niguel" "Normando" "Oliverio" "Omar" "Platon" "Ramiro" "Ramón" 
-	"Raul" "Rayman" "Reyes" "Richard" "Salomón" "Santiago" "Stefano" "Tabor" "Teodoro" "Toli" 
+	"Orlondo" "Buena" "Jerico" "Gabriella" "Abran" "Alano" "Alejandro" "Alexander" "Alfonso" "Alvaro"
+	"Alvino" "Andres" "Angelino" "Angelito" "Aquila" "Armando" "Arnoldo" "Bartolo" "Beltran" "Bemabe"
+	"Bembe" "Betulio" "Bonifacio" "Bonifaco" "Calvino" "Carlos" "César" "Chano" "Charro" "Che"
+	"Chucho" "Ciceron" "Claudio" "Criston" "Damario" "Edwin" "Elias" "Eloy" "Emesto" "Estevon"
+	"Ezequiel" "Faron" "Felipe" "Fernando" "Flavio" "Frederico" "Gabriel" "Galtero" "Generosb" "Giovanni"
+	"Guadalupe" "Guido" "Guillermo" "Hidalgo" "Honor" "Hugo" "Ignado" "Igone" "Joaquin" "Johan"
+	"Jorge" "José" "Josef" "Juan" "Julio" "Leon" "Lonzo" "Lorenzo" "Luciano" "Luis"
+	"Macario" "Magglio" "Manny" "Manuelo" "Marco" "Marcos" "Martino" "Massimo" "Mauro" "Milagro"
+	"Montes" "Neron" "Nicolas" "Niguel" "Normando" "Oliverio" "Omar" "Platon" "Ramiro" "Ramón"
+	"Raul" "Rayman" "Reyes" "Richard" "Salomón" "Santiago" "Stefano" "Tabor" "Teodoro" "Toli"
 	"Tomás" "Tonio" "Vicente" }
 monarch_names = {
 	"Orlondo #0" = 18

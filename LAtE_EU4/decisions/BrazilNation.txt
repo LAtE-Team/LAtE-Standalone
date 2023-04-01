@@ -72,7 +72,7 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = reformed_brazil_flag
-			
+
 			brazil_region = {
 				limit = {
 					NOT = { owned_by = ROOT }

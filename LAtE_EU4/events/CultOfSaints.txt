@@ -20,7 +20,7 @@ country_event = {
 
 	option = {
 		name = saints.1.a
-		unlock_cult = marian_guadalupe 
+		unlock_cult = marian_guadalupe
 	}
 }
 #Discovering Santa Muerte
@@ -42,7 +42,7 @@ country_event = {
 
 	option = {
 		name = saints.2.a
-		unlock_cult = marian_santa_muerte 
+		unlock_cult = marian_santa_muerte
 	}
 }
 #Discovering El Santo
@@ -64,7 +64,7 @@ country_event = {
 
 	option = {
 		name = saints.3.a
-		unlock_cult = marian_el_santo 
+		unlock_cult = marian_el_santo
 	}
 }
 #Discovering Immaculate Saints
@@ -86,7 +86,7 @@ country_event = {
 
 	option = {
 		name = saints.4.a
-		unlock_cult = gracia_inmaculado 
+		unlock_cult = gracia_inmaculado
 	}
 }
 #Discovering El Libertador
@@ -108,7 +108,7 @@ country_event = {
 
 	option = {
 		name = saints.5.a
-		unlock_cult = gracia_libertador 
+		unlock_cult = gracia_libertador
 	}
 }
 #Discovering El Dorado
@@ -130,7 +130,7 @@ country_event = {
 
 	option = {
 		name = saints.6.a
-		unlock_cult = gracia_dorado 
+		unlock_cult = gracia_dorado
 	}
 }
 #Discovering Santo Nino
@@ -152,7 +152,7 @@ country_event = {
 
 	option = {
 		name = saints.7.a
-		unlock_cult = santo_nino 
+		unlock_cult = santo_nino
 	}
 }
 #Discovering Jose Rizal
@@ -174,7 +174,7 @@ country_event = {
 
 	option = {
 		name = saints.8.a
-		unlock_cult = jose_rizal 
+		unlock_cult = jose_rizal
 	}
 }
 #Discovering Maria Kannon
@@ -196,7 +196,7 @@ country_event = {
 
 	option = {
 		name = saints.9.a
-		unlock_cult = maria_kannon 
+		unlock_cult = maria_kannon
 	}
 }
 #Unlocking cults from other religions
@@ -205,9 +205,9 @@ country_event = {
 	title = saints.10.t #Never Seen
 	desc = saints.10.t #Never Seen
 	picture = POPE_PREACHING_eventPicture #Never Seen
-	
+
 	hidden = yes
-		
+
 	immediate = {
 		random_neighbor_country = {
 			limit = {
@@ -614,9 +614,9 @@ country_event = {
 	title = saints.20.t #Never Seen
 	desc = saints.20.t #Never Seen
 	picture = POPE_PREACHING_eventPicture #Never Seen
-	
+
 	hidden = yes
-		
+
 	immediate = {
 		random_owned_province = {
 			limit = {
@@ -789,7 +789,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -811,7 +811,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -833,7 +833,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -855,7 +855,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -877,7 +877,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -899,7 +899,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -921,7 +921,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -943,7 +943,7 @@ country_event = {
 	picture = TRIBES_MEETING_eventPicture
 
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 	}
@@ -964,11 +964,11 @@ country_event = {
 	title = saints.100.t
 	desc = saints.100.t
 	picture = POPE_PREACHING_eventPicture #Never Seen
-	
+
 	hidden = yes
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_dlc = "Rights of Man"
 		religion = sacred_heart
@@ -977,7 +977,7 @@ country_event = {
 			ruler_has_personality = gracia_personality
 		}
 	}
-	
+
 	immediate = {
 		if = {
 			limit = {
@@ -995,7 +995,7 @@ country_event = {
 			remove_ruler_personality = marian_personality
 		}
 	}
-	
+
 	option = {
 		name = "OK"
 	}

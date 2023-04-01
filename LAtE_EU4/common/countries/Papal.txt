@@ -32,17 +32,17 @@ historical_units = {
 
 leader_names = {
 
-	"Salvator" "Petrus Romanus" "Adam" "Samuel" "Redeemed" "Hallelujah" "Righteous" "Blessed-Be" "Barnabas" "Agrippine" 
-	"Orsen" "Praised-Be" "How-Great-Thou-Art" "Deliverance" "Humble" "Zealot" "Advent" "Praise-God" "Christophilus" "Praiseworthy" 
-	"God-Is-Gracious" "David" "Relictus" "Given" "Creature" "He-Has-Heard" "Smite-The-Unbeliever" "Stone" "Cruxipher" "Amen" 
-	"Allen" "Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Burton" "Calhoun" 
-	"Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew" "Caleb" "Cain" "Clarence" "Campion" 
-	"Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" "Finn" "Fulton" "Fitch" "Gregor" 
-	"Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon" "Louis" 
-	"Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Nathaniel" 
-	"Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston" 
-	"Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Stirling" "Segar" "Sherod" "Theodore" 
-	"Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow" "Winfield" "Webb" "Wheeler" 
+	"Salvator" "Petrus Romanus" "Adam" "Samuel" "Redeemed" "Hallelujah" "Righteous" "Blessed-Be" "Barnabas" "Agrippine"
+	"Orsen" "Praised-Be" "How-Great-Thou-Art" "Deliverance" "Humble" "Zealot" "Advent" "Praise-God" "Christophilus" "Praiseworthy"
+	"God-Is-Gracious" "David" "Relictus" "Given" "Creature" "He-Has-Heard" "Smite-The-Unbeliever" "Stone" "Cruxipher" "Amen"
+	"Allen" "Abel" "Boone" "Burnie" "Bixby" "Benton" "Bruce" "Beauregard" "Burton" "Calhoun"
+	"Clifton" "Clyde" "Claude" "Collier" "Cowin" "Curlew" "Caleb" "Cain" "Clarence" "Campion"
+	"Clemens" "Curtis" "Dodge" "Eolus" "Ellis" "Earl" "Finn" "Fulton" "Fitch" "Gregor"
+	"Hannibal" "Hank" "Horace" "Hull" "Jake" "Jim" "Josiah" "Lee" "Leon" "Louis"
+	"Lorton" "Langhorne" "Laurel" "Mark" "Micaiah" "Marshall" "Morris" "Morgan" "Mouton" "Nathaniel"
+	"Napoleon" "Nereus" "Niphon" "Orion" "Porter" "Pleasant" "Perry" "Patrick" "Putnam" "Preston"
+	"Quintin" "Ross" "Sid" "Squire" "Simon" "Sampson" "Stirling" "Segar" "Sherod" "Theodore"
+	"Twain" "Tom" "Trigg" "Todd" "Vick" "William" "Winslow" "Winfield" "Webb" "Wheeler"
 	"Yadkin" }
 monarch_names = {
 	"Salvator #3" = 18

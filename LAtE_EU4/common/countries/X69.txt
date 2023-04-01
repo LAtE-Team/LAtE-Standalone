@@ -8,22 +8,22 @@ color = { 255 204 174 }
 
 leader_names = {
 
-	"Ruby" "Mary" "Simon" "Peggy" "Rosemary" "Elrod" "Reb" "Jozelle" "Haley" "Trigger" 
-	"Mae" "Rubyjane" "Lee" "Loribelle" "Dwight" "Mike" "Stephanie" "Rachel" "Casey" "Chandler" 
-	"Lyndon" "Cleavon" "Annie" "Raleigh" "Faylene" "Mayella" "Link" "Hank" "Justine" "Cambria" 
-	"Henry" "Savannah" "Gregory" "Crystal" "Buffy" "Vicki" "Jack" "Leanne" "Desiree" "Debbie" 
-	"April" "Patrick" "Jake" "Nathaniel" "Campion" "Wolf" "Tolbert" "Ray" "Alyssa" "Jagiel" 
-	"Selkirk" "Jimmy" "Austin" "Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur" "Boblee" 
-	"Bill" "Bo" "Bart" "Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup" "Bob" 
-	"Braxton" "Burris" "Baker" "Conway" "Chuck" "Chester" "Cleon" "Cletus" "Clint" "Cooter" 
-	"Cooper" "Cody" "Charles" "Cecil" "Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny" 
-	"Dwayne" "Dixon" "Dolphus" "Dill" "Earl" "Enos" "Eustice" "Ewell" "Floyd" "Forrest" 
-	"Fred" "Francis" "Garth" "George" "Grattan" "Gilmer" "Harley" "Homer" "Horace" "Harry" 
-	"Humble" "Heck" "Harris" "Hancock" "Hale" "Isham" "Ike" "Jesse" "Johnny" "John" 
-	"Jackson" "Jed" "Jerry" "Jessie" "Jim" "Joe" "Junior" "Jeptha" "Jubal" "Jeremy" 
-	"Jem" "Littlejohn" "Luther" "Lon" "Larry" "Maxwell" "Nate" "Nathan" "Otis" "Philus" 
-	"Purvis" "Philander" "Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Ricky" "Radley" 
-	"Raymond" "Reynold" "Robert" "Saggory" "Spencer" "Tiberius" "Tommylee" "Tyler" "Terry" "Tate" 
+	"Ruby" "Mary" "Simon" "Peggy" "Rosemary" "Elrod" "Reb" "Jozelle" "Haley" "Trigger"
+	"Mae" "Rubyjane" "Lee" "Loribelle" "Dwight" "Mike" "Stephanie" "Rachel" "Casey" "Chandler"
+	"Lyndon" "Cleavon" "Annie" "Raleigh" "Faylene" "Mayella" "Link" "Hank" "Justine" "Cambria"
+	"Henry" "Savannah" "Gregory" "Crystal" "Buffy" "Vicki" "Jack" "Leanne" "Desiree" "Debbie"
+	"April" "Patrick" "Jake" "Nathaniel" "Campion" "Wolf" "Tolbert" "Ray" "Alyssa" "Jagiel"
+	"Selkirk" "Jimmy" "Austin" "Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur" "Boblee"
+	"Bill" "Bo" "Bart" "Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup" "Bob"
+	"Braxton" "Burris" "Baker" "Conway" "Chuck" "Chester" "Cleon" "Cletus" "Clint" "Cooter"
+	"Cooper" "Cody" "Charles" "Cecil" "Dean" "Dale" "Delmont" "Delmer" "Doc" "Donny"
+	"Dwayne" "Dixon" "Dolphus" "Dill" "Earl" "Enos" "Eustice" "Ewell" "Floyd" "Forrest"
+	"Fred" "Francis" "Garth" "George" "Grattan" "Gilmer" "Harley" "Homer" "Horace" "Harry"
+	"Humble" "Heck" "Harris" "Hancock" "Hale" "Isham" "Ike" "Jesse" "Johnny" "John"
+	"Jackson" "Jed" "Jerry" "Jessie" "Jim" "Joe" "Junior" "Jeptha" "Jubal" "Jeremy"
+	"Jem" "Littlejohn" "Luther" "Lon" "Larry" "Maxwell" "Nate" "Nathan" "Otis" "Philus"
+	"Purvis" "Philander" "Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Ricky" "Radley"
+	"Raymond" "Reynold" "Robert" "Saggory" "Spencer" "Tiberius" "Tommylee" "Tyler" "Terry" "Tate"
 	"Taylor" "Vinton" "Wade" "Winchester" "Woody" "Wilbur" "Whitely" "Walter" }
 monarch_names = {
 	"Ruby #0" = -1

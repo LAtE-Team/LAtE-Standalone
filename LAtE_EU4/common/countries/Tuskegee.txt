@@ -8,17 +8,17 @@ color = { 115 55 99 }
 
 leader_names = {
 
-	"Emma" "Huey" "Omar" "Jade" "Amery" "Antoine" "Ali" "Alexander" "Arnaud" "Armstrong" 
-	"Alain" "Avery" "Avon" "Braylon" "Booker" "Coleman" "Chris" "Caleb" "Carver" "Cassius" 
-	"Claudius" "Clarence" "Clay" "Chandler" "Columbus" "Cal" "Cab" "Darnell" "Denzel" "Dave" 
-	"Darius" "Deangelo" "Deandre" "Dennis" "Dubois" "Douglass" "Darryl" "Evan" "Eldridge" "Elgin" 
-	"Elijah" "Freeman" "Frederick" "Grady" "George" "Garvey" "Grant" "Hasker" "Henry" "Hassan" 
-	"Jason" "Jaylon" "Jamal" "Jordan" "Joshua" "Josiah" "Julius" "Jamie" "James" "Joel" 
-	"Jonas" "Kanye" "Kwame" "Kevin" "Kobe" "Lamar" "Lawrence" "Lucius" "Leroy" "Langston" 
-	"Louis" "Luther" "Lincoln" "Levi" "Leslie" "Marquis" "Michael" "Malik" "Maurice" "Marcus" 
-	"Mosiah" "Malcolm" "Morton" "Marlo" "Nathan" "Ossian" "Quantell" "Quint" "Ray" "Rufus" 
-	"Reginald" "Riley" "Robert" "Sam" "Scipio" "Scott" "Sheridan" "Sherman" "Sterling" "Tecumseh" 
-	"Tyrone" "Terrell" "Terrance" "Tom" "Tim" "Terry" "Virgil" "Willie" "Wilson" "Washington" 
+	"Emma" "Huey" "Omar" "Jade" "Amery" "Antoine" "Ali" "Alexander" "Arnaud" "Armstrong"
+	"Alain" "Avery" "Avon" "Braylon" "Booker" "Coleman" "Chris" "Caleb" "Carver" "Cassius"
+	"Claudius" "Clarence" "Clay" "Chandler" "Columbus" "Cal" "Cab" "Darnell" "Denzel" "Dave"
+	"Darius" "Deangelo" "Deandre" "Dennis" "Dubois" "Douglass" "Darryl" "Evan" "Eldridge" "Elgin"
+	"Elijah" "Freeman" "Frederick" "Grady" "George" "Garvey" "Grant" "Hasker" "Henry" "Hassan"
+	"Jason" "Jaylon" "Jamal" "Jordan" "Joshua" "Josiah" "Julius" "Jamie" "James" "Joel"
+	"Jonas" "Kanye" "Kwame" "Kevin" "Kobe" "Lamar" "Lawrence" "Lucius" "Leroy" "Langston"
+	"Louis" "Luther" "Lincoln" "Levi" "Leslie" "Marquis" "Michael" "Malik" "Maurice" "Marcus"
+	"Mosiah" "Malcolm" "Morton" "Marlo" "Nathan" "Ossian" "Quantell" "Quint" "Ray" "Rufus"
+	"Reginald" "Riley" "Robert" "Sam" "Scipio" "Scott" "Sheridan" "Sherman" "Sterling" "Tecumseh"
+	"Tyrone" "Terrell" "Terrance" "Tom" "Tim" "Terry" "Virgil" "Willie" "Wilson" "Washington"
 	"Xavier" "Xerxes" "Zeebo" "Zeus" }
 monarch_names = {
 	"Emma #0" = -1

@@ -1,5 +1,5 @@
 country_decisions = {
-	
+
 	canada_nation_diplomatically = { # Canadian Wedding
 		major = yes
 		potential = {
@@ -153,9 +153,9 @@ country_decisions = {
 		ai_importance = 200
 		do_not_integrate = ONT
 		do_not_integrate = QUE
-	}	
-	
-	canada_nation_militarily = { 
+	}
+
+	canada_nation_militarily = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_canada_flag }
@@ -174,16 +174,16 @@ country_decisions = {
 			capital_scope = {
 				region = canada_region
 			}
-			
+
 		}
 		allow = {
-			NOT = { exists = CAN } 
+			NOT = { exists = CAN }
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			legitimacy = 100
-			
+
 			owns_core_province = 2670 #Toronto
 			owns_core_province = 4537 #Ottawa
 			owns_core_province = 993 #Montreal
@@ -208,8 +208,8 @@ country_decisions = {
 				limit = { NOT = { government_rank = 3 } }
 				set_government_rank = 3
 			}
-			
-			
+
+
 			change_tag = CAN
 			if = {
 				limit = {

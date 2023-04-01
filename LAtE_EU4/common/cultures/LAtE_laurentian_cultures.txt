@@ -42,7 +42,7 @@ laurentian = {
 			Vernon Vinnie
 			Walter Washington Whitfield Wade Wayne Wilson
 		}
-		
+
 		female_names = {
 			Anita Annette
 			Barbara Betty Brenda Bertha

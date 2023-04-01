@@ -8,16 +8,16 @@ color = { 221 208 210 }
 
 leader_names = {
 
-	"Odon" "Sofia" "Josselin" "Claude" "Jacques" "Daniel" "Baudouin" "Anne" "Blandine" "Camillien" 
-	"Sulpice" "André" "Marcel" "Napoleon" "Joseph" "Alexandre" "Roger" "Acadie" "Nérée" "Vincent" 
-	"Roland" "Barthélémy" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin" 
-	"Amaury" "Andronic" "Adrien" "Aurèle" "Balian" "Bohémond" "Cartier" "Charles" "Cecil" "Camille" 
-	"Christophe" "Denis" "Damase" "Dustin" "Étienne" "Édouard" "Éphrem" "François" "Foulques" "Frédéric" 
-	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel" 
-	"Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jeannot" "Jean" 
-	"Jérome" "Josue" "Julien" "Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" 
-	"Maurice" "Maximilien" "Ovide" "Olivier" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" 
-	"Rohard" "Robert" "René" "Raymond" "Renaud" "Roupen" "Régis" "Samuel" "Serge" "Tancrède" 
+	"Odon" "Sofia" "Josselin" "Claude" "Jacques" "Daniel" "Baudouin" "Anne" "Blandine" "Camillien"
+	"Sulpice" "André" "Marcel" "Napoleon" "Joseph" "Alexandre" "Roger" "Acadie" "Nérée" "Vincent"
+	"Roland" "Barthélémy" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" "Augustin"
+	"Amaury" "Andronic" "Adrien" "Aurèle" "Balian" "Bohémond" "Cartier" "Charles" "Cecil" "Camille"
+	"Christophe" "Denis" "Damase" "Dustin" "Étienne" "Édouard" "Éphrem" "François" "Foulques" "Frédéric"
+	"Fabien" "Ferreol" "Ghislain" "Guy" "Georges" "Gautier" "Geoffroy" "Guillaume" "Gilles" "Gabriel"
+	"Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" "Jeannot" "Jean"
+	"Jérome" "Josue" "Julien" "Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel"
+	"Maurice" "Maximilien" "Ovide" "Olivier" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal"
+	"Rohard" "Robert" "René" "Raymond" "Renaud" "Roupen" "Régis" "Samuel" "Serge" "Tancrède"
 	"Wilfrid" "Xavier" }
 monarch_names = {
 	"Odon #2" = 18

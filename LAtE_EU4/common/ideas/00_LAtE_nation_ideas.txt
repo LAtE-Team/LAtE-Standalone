@@ -3,16 +3,16 @@ HLR_ideas = {
 		possible_policy = 1
 		diplomatic_reputation = 2
 	}
-	
+
 	bonus = {
 		administrative_efficiency = 0.05
-	}	
+	}
 
 	trigger = {
 		tag = HLR
 	}
 	free = yes
-	
+
 	hlr_imperial_throne = {
 		legitimacy = 1.5 #unique (it's the HRE :D)
 	}
@@ -48,7 +48,7 @@ redcoat_ideas = {
 		tag = RED
 	}
 	free = yes
-	
+
 	invasion_of_the_redcoats = {
 		warscore_cost_vs_other_religion = -0.20
 	}
@@ -80,27 +80,27 @@ CAN_ideas = {
 		trade_efficiency = 0.1
 		land_attrition = -0.15
 	}
-	
+
 	bonus = {
 		republican_tradition = 0.3
 		legitimacy = 1
 	}
-	
+
 	trigger = {
 		tag = CAN
 	}
 	free = yes
-	
+
 	settling_the_interior = {
 		may_establish_frontier = yes
 		auto_explore_adjacent_to_colony = yes
-	}		
+	}
 	the_hudson_bay_company = {
 		merchants = 1
 	}
 	singing_lumberjacks = {
 		production_efficiency = 0.10
-	}	
+	}
 	the_maritimes = {
 		navy_tradition = 1
 	}
@@ -157,16 +157,16 @@ WDC_ideas = {
 		tolerance_heathen = 1
 		global_missionary_strength = 0.03
 	}
-	
+
 	bonus = {
 		global_manpower_modifier = 0.25
 	}
-	
+
 	trigger = {
 		tag = WDC
 	}
 	free = yes
-	
+
 	white_house = {
 		prestige = 1
 		legitimacy = 1
@@ -197,11 +197,11 @@ brotherhood_ideas = {
 		development_cost = -0.15
 		shock_damage = 0.25
 	}
-	
+
 	bonus = {
 		free_leader_pool = 1
 	}
-	
+
 	trigger = {
 		OR = {
 			tag = SBH
@@ -209,7 +209,7 @@ brotherhood_ideas = {
 		}
 	}
 	free = yes
-	
+
 	# Advanced Weaponry
 	bos_idea_1 = {
 		siege_ability = 0.1
@@ -289,10 +289,10 @@ tagalog_ideas = {
 nys_ideas = {		#New Yorker Ideas
     start = {
         global_trade_power = 0.20
-        trade_steering = 0.25 
+        trade_steering = 0.25
     }
     bonus = {
-		merchants = 1 
+		merchants = 1
 	}
 
     trigger = {
@@ -307,7 +307,7 @@ nys_ideas = {		#New Yorker Ideas
         devotion = 1
     }
     nys_idea_2 = {
-        num_accepted_cultures = 2 
+        num_accepted_cultures = 2
     }
     nys_idea_3 = {
         local_development_cost = -0.15
@@ -337,11 +337,11 @@ ARZ_ideas = {
     bonus = {
 	    unjustified_demands = -0.30
 	    }
-	    
+
 	trigger = {
 		tag = ARZ
 	}
-	
+
 	free = yes
 
         #fortified borders
@@ -384,7 +384,7 @@ CLM_ideas = {	#Republic of Colima ideas
 	bonus = {
 		range = 0.25
 	}
-	
+
 	trigger = {
 		tag = CLM
 		government = republic
@@ -397,7 +397,7 @@ CLM_ideas = {	#Republic of Colima ideas
 	clm_idea_6 = { land_morale = 0.15 }     					 #Lucha de Apuestas
 	clm_idea_7 = { range = 0.25 }     							 #Into the Pacific
 
-	
+
 	free = yes
 }
 
@@ -451,7 +451,7 @@ CBN_ideas = {
 		tag = CBN
 	}
 	free = yes
-	
+
 	cbn_tobacco_production = {
 		global_trade_goods_size_modifier = 0.10
 	}
@@ -491,7 +491,7 @@ NEN_ideas = {
 		}
 	}
 	free = yes
-	
+
 	nen_new_england_timber = {
 		build_cost = -0.10
 		global_ship_cost = -0.10

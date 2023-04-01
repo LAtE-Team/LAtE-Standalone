@@ -60,7 +60,7 @@ north_atlantic = {
 			Clifford Caden Cadogan Cathal Cairbre Calvagh Carbrey Cathan Cavan Ceallach Cian Cinaed Clancy Clarence Colin Cillian
 			Columban Comgall Comgan Conan Connor Conley Cormac Chrestian Cork Cyrus Cearbhall
 			David Doughal Daley Dara Dalach Dermot Derry Desmond Donald Donovan Doran Doyle Driscoll Duane Daniel Dullahan
-			Domnall Donnchad 
+			Domnall Donnchad
 			Evan Eamon Eadbhard Eoghan Eoin Erskine Eustace Enos
 			Fergus Farquhar Fergal Fechin Felim Fillin Finley Finbar Finn Finnegan Fintan Fallomon
 			Graydon Gallagher Gilroy Garvan Gearalt Goban Gobnet Grady Greagoir Gallant Garrett
@@ -159,7 +159,7 @@ north_atlantic = {
 	new_english = {
 		primary = NEN
 		dynasty_names = { "Teach" "Greenhill" "Black" }
-		
+
 		male_names = {
 			Abraham Adam Arthur Archibald Alan Albus Ajax Angus Attwell
 			Barton Baldrick Balthasar Brutus Balian Bran Batholomew Barnaby Brelan
@@ -184,7 +184,7 @@ north_atlantic = {
 			Wilbert Winston Wilbur
 			Zacharias
 		}
-		
+
 		female_names = {
 			Athena Antimony Anne Alice Annadella Agnes Agatha Aveline Aphrodite Abigailw
 			Belle Barbara Bridget Bethiah

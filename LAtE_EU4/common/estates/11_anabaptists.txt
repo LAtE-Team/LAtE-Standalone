@@ -2,8 +2,8 @@ estate_anabaptists = {
 	icon = 12
 
 	# If true, country will get estate
-	
-	trigger = {	
+
+	trigger = {
 		OR = {
             has_estate = estate_anabaptists
             has_country_flag = anabaptists_accepted
@@ -30,7 +30,7 @@ estate_anabaptists = {
 	}
 	country_modifier_neutral = {
 		build_cost = -0.10
-	}	
+	}
 	country_modifier_angry = {
 		global_unrest = 2
 	}
@@ -87,7 +87,7 @@ estate_anabaptists = {
 		influence = -40
 	}
 
-	influence_modifier = {	
+	influence_modifier = {
 		desc = EST_ANA_COMMUNITIES
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -110,7 +110,7 @@ estate_anabaptists = {
 		}
 		influence = 5
 	}
-	influence_modifier = {	
+	influence_modifier = {
 		desc = EST_ANA_MANY_COMMUNITIES
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -152,7 +152,7 @@ estate_anabaptists = {
 		estate_anabaptists_private_trade_fleets
 		estate_anabaptists_grant_liberties
 	}
-	
+
 	agendas = {
 		estate_anabaptists_build_trade_building_in_y
 		estate_anabaptists_build_port_building_in_y
@@ -177,6 +177,6 @@ estate_anabaptists = {
 	}
 
 	color = { 140 180 180 }
-	
+
 	influence_from_dev_modifier = 1.0
 }

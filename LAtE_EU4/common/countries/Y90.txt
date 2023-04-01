@@ -8,19 +8,19 @@ color = { 48 230 255 }
 
 leader_names = {
 
-	"Magdelaine" "Carole" "Dylan" "Laird" "Angus" "Madame" "Audrey" "Madeline" "Honoré" "Ian" 
-	"Norma" "Jani" "Laura" "Katherena" "Gil" "Sara" "Roseanne" "John" "Ray" "Charles" 
-	"Antonine" "Maxime" "Marguerite" "Tom" "Maria" "Ambrose" "Sandra" "Chantell" "Cyril" "Frechette" 
-	"Theoren" "Jess" "Joanne" "Josephin" "Chanta" "George" "Andy" "Derrick" "Thelma" "Christi" 
-	"Colleen" "Isabelle" "Christine" "Doyle" "Ambroise-Dydime" "Clément" "Jaco" "Pierre" "Shelly" "Rick" 
-	"Vic" "Suzanne" "Catharine" "Yvonne" "Julie" "Charlotte" "Janet" "Kalib" "Jean-Baptiste" "Laurette" 
-	"Wade" "Ralph" "Axel" "Malcolm" "Denis" "Shan" "Mary" "Sharon" "Albert" "Alec" 
-	"Alexander" "Andrew" "Antoine" "Arron" "Arthur" "Asham" "August" "Augustin" "Baptiste" "Bob" 
-	"Brian" "Bryan" "Calvin" "Charles-Michel" "Cuthbert" "David" "Don" "Douglas" "Dwight" "Dydim" 
-	"Elzéar" "Eugène" "François" "Gabriel" "Gallant" "Gerald" "Gregory" "Guillaume" "Harley" "Henri" 
-	"Howard" "Jacco" "Jacques" "James" "Jaxon" "Jean" "Joe" "Jon" "Jonathan" "Jules" 
-	"Keith" "Kevin" "Laurent-Salomon" "Lawrence" "Louis" "Michel" "Pascal" "Paul" "Peter" "Ranald" 
-	"Raymond" "Rene" "René" "Robert" "Rod" "Salomon" "Sheldon" "Solomon" "Thomas" "Todd" 
+	"Magdelaine" "Carole" "Dylan" "Laird" "Angus" "Madame" "Audrey" "Madeline" "Honoré" "Ian"
+	"Norma" "Jani" "Laura" "Katherena" "Gil" "Sara" "Roseanne" "John" "Ray" "Charles"
+	"Antonine" "Maxime" "Marguerite" "Tom" "Maria" "Ambrose" "Sandra" "Chantell" "Cyril" "Frechette"
+	"Theoren" "Jess" "Joanne" "Josephin" "Chanta" "George" "Andy" "Derrick" "Thelma" "Christi"
+	"Colleen" "Isabelle" "Christine" "Doyle" "Ambroise-Dydime" "Clément" "Jaco" "Pierre" "Shelly" "Rick"
+	"Vic" "Suzanne" "Catharine" "Yvonne" "Julie" "Charlotte" "Janet" "Kalib" "Jean-Baptiste" "Laurette"
+	"Wade" "Ralph" "Axel" "Malcolm" "Denis" "Shan" "Mary" "Sharon" "Albert" "Alec"
+	"Alexander" "Andrew" "Antoine" "Arron" "Arthur" "Asham" "August" "Augustin" "Baptiste" "Bob"
+	"Brian" "Bryan" "Calvin" "Charles-Michel" "Cuthbert" "David" "Don" "Douglas" "Dwight" "Dydim"
+	"Elzéar" "Eugène" "François" "Gabriel" "Gallant" "Gerald" "Gregory" "Guillaume" "Harley" "Henri"
+	"Howard" "Jacco" "Jacques" "James" "Jaxon" "Jean" "Joe" "Jon" "Jonathan" "Jules"
+	"Keith" "Kevin" "Laurent-Salomon" "Lawrence" "Louis" "Michel" "Pascal" "Paul" "Peter" "Ranald"
+	"Raymond" "Rene" "René" "Robert" "Rod" "Salomon" "Sheldon" "Solomon" "Thomas" "Todd"
 	"Tony" "Tête" "Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Magdelaine #0" = -1

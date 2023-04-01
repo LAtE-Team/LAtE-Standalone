@@ -2,17 +2,17 @@
 
 graphical_culture = westerngfx
 
-color = { 203  164  103 }	
+color = { 203  164  103 }
 
 # Used for colonial nations
-historical_idea_groups = {	
+historical_idea_groups = {
 	expansion_ideas
-	trade_ideas		
-	plutocracy_ideas	
+	trade_ideas
+	plutocracy_ideas
 	economic_ideas
-	quality_ideas	
-	maritime_ideas	
-	quantity_ideas	
+	quality_ideas
+	maritime_ideas
+	quantity_ideas
 	administrative_ideas
 }
 

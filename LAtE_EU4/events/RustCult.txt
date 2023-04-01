@@ -4,7 +4,7 @@ country_event = {
 	title = "rust_cult.15.title"
 	desc = "rust_cult.15.desc"
 	picture = PRAYING_eventPicture
-	
+
 	is_triggered_only = yes
 
 	option = {

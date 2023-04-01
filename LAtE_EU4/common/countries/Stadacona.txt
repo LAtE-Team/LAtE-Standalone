@@ -8,16 +8,16 @@ color = { 243 136 133 }
 
 leader_names = {
 
-	"Maurice" "Olivier" "Roupen" "Camillien" "Tancrède" "Guy" "Samuel" "Geneviève" "Concordie" "Béatrice" 
-	"Hélène" "Ferreol" "Cecil" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain" 
-	"Augustin" "Amaury" "Andronic" "Alexandre" "André" "Adrien" "Aurèle" "Baudouin" "Barthélémy" "Balian" 
-	"Bohémond" "Cartier" "Charles" "Claude" "Camille" "Christophe" "Denis" "Damase" "Dustin" "Daniel" 
-	"Étienne" "Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ghislain" "Georges" "Gautier" 
-	"Geoffroy" "Guillaume" "Gilles" "Gabriel" "Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert" 
-	"Isidore" "Ignace" "Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" 
-	"Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maximilien" "Marcel" "Napoleon" 
-	"Nérée" "Ovide" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" "Rohard" 
-	"Robert" "René" "Roger" "Raymond" "Renaud" "Régis" "Roland" "Sulpice" "Serge" "Vincent" 
+	"Maurice" "Olivier" "Roupen" "Camillien" "Tancrède" "Guy" "Samuel" "Geneviève" "Concordie" "Béatrice"
+	"Hélène" "Ferreol" "Cecil" "Cyrille" "Adam" "Athanase" "Ambrose" "Albert" "Alphonse" "Alain"
+	"Augustin" "Amaury" "Andronic" "Alexandre" "André" "Adrien" "Aurèle" "Baudouin" "Barthélémy" "Balian"
+	"Bohémond" "Cartier" "Charles" "Claude" "Camille" "Christophe" "Denis" "Damase" "Dustin" "Daniel"
+	"Étienne" "Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ghislain" "Georges" "Gautier"
+	"Geoffroy" "Guillaume" "Gilles" "Gabriel" "Gaétan" "Henri" "Hector" "Hilaire" "Hughes" "Hubert"
+	"Isidore" "Ignace" "Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien"
+	"Justin" "Louis" "Laurent" "Lucien" "Leo" "Marc" "Michel" "Maximilien" "Marcel" "Napoleon"
+	"Nérée" "Ovide" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" "Rohard"
+	"Robert" "René" "Roger" "Raymond" "Renaud" "Régis" "Roland" "Sulpice" "Serge" "Vincent"
 	"Wilfrid" "Xavier" }
 monarch_names = {
 	"Maurice #1" = 18

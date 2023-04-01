@@ -27,7 +27,7 @@ amerodeutsch = {
 			Wilhelm Walther Wibert
 			Zachariah Zephaniah Zacharias
 		}
-		
+
 		female_names = {
 			Adelgiese Adelina Adela Alessa Agathe Amelia Anna Annegret Astrid
 			Bethany Benigna Beatrix Brunhilde Brigitte
@@ -78,7 +78,7 @@ amerodeutsch = {
 			Werner
 			Zac Zachary Zeke Ezekiel
 		}
-		
+
 		female_names = {
 			Abby Abigail Aganetha Allison Alison Anna Anne
 			Barbara Becky Beatrice Betty Elizabeth

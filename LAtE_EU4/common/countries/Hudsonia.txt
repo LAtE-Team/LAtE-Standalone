@@ -7,21 +7,21 @@ color = { 223 89 10 }
 
 leader_names = {
 
-	"Cotton" "Elizabeth" "Clair" "Gerrit" "Kirk" "Leaford" "Amelia" "Josiah" "Aliequippa" "Dorothy" 
-	"Degonadonty" "Molly" "Marwenna" "Traynor" "Baltus" "Chelsea" "Barbara" "Worcester" "Artur" "Bella" 
-	"Isaac" "Ernest" "Andries" "Ogden" "Cornelis" "Hugh" "Katrina" "Jocelyn" "Caroline" "Lauren" 
-	"Shelley" "Erastus" "Jennifer" "Holbrook" "Tehwehron" "Mina" "Doris" "Quincy" "Frederick" "Bethany" 
-	"Anna" "Hudson" "Delby" "Ebenezer" "Ogarita" "Lemuel" "Leona" "Phinehas" "Walter" "Truman" 
-	"Viola" "Jane" "Hannah" "Mather" "Himerius" "Theodosia" "Tiaogeara" "Oliver" "Pauline" "Friso" 
-	"Hendrick" "Chester" "Owandah" "Waneik" "Silus" "Clinton" "Tompkin" "Regina" "Geraldine" "Gemolo" 
-	"Hillary" "Edgar" "Margaret" "Oswald" "Kirsten" "Ellen" "Ellis" "David" "Roger" "Luna" 
-	"Emma" "Elihu" "Nicholas" "Ethan" "Charles" "Cangueese" "Martin" "Quoz" "Norton" "Rufus" 
-	"Hunter" "Thaney" "Renata" "Ichabod" "Rollin" "August" "Lewis" "Anton" "Albert" "Abel" 
-	"Archibald" "Andre" "Brom" "Benjamin" "Cashunyon" "Carillon" "Cyrus" "Cephas" "Derrick" "Diedrich" 
-	"Daniel" "Deserontyon" "Darius" "Edwin" "Eli" "Franklin" "Guyasut" "Geoffrey" "Gideon" "Hamilton" 
-	"Harmanus" "Johannes" "Jervis" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent" "Kel" "Launcelot" 
-	"Leo" "Morris" "Montgomery" "Malcolm" "Nathaniel" "Otetian" "Pindar" "Philip" "Quentin" "Richard" 
-	"Raymond" "Rip" "Rodney" "Stephanus" "Stanwix" "Samuel" "Simon" "Solon" "Theodore" "Vincent" 
+	"Cotton" "Elizabeth" "Clair" "Gerrit" "Kirk" "Leaford" "Amelia" "Josiah" "Aliequippa" "Dorothy"
+	"Degonadonty" "Molly" "Marwenna" "Traynor" "Baltus" "Chelsea" "Barbara" "Worcester" "Artur" "Bella"
+	"Isaac" "Ernest" "Andries" "Ogden" "Cornelis" "Hugh" "Katrina" "Jocelyn" "Caroline" "Lauren"
+	"Shelley" "Erastus" "Jennifer" "Holbrook" "Tehwehron" "Mina" "Doris" "Quincy" "Frederick" "Bethany"
+	"Anna" "Hudson" "Delby" "Ebenezer" "Ogarita" "Lemuel" "Leona" "Phinehas" "Walter" "Truman"
+	"Viola" "Jane" "Hannah" "Mather" "Himerius" "Theodosia" "Tiaogeara" "Oliver" "Pauline" "Friso"
+	"Hendrick" "Chester" "Owandah" "Waneik" "Silus" "Clinton" "Tompkin" "Regina" "Geraldine" "Gemolo"
+	"Hillary" "Edgar" "Margaret" "Oswald" "Kirsten" "Ellen" "Ellis" "David" "Roger" "Luna"
+	"Emma" "Elihu" "Nicholas" "Ethan" "Charles" "Cangueese" "Martin" "Quoz" "Norton" "Rufus"
+	"Hunter" "Thaney" "Renata" "Ichabod" "Rollin" "August" "Lewis" "Anton" "Albert" "Abel"
+	"Archibald" "Andre" "Brom" "Benjamin" "Cashunyon" "Carillon" "Cyrus" "Cephas" "Derrick" "Diedrich"
+	"Daniel" "Deserontyon" "Darius" "Edwin" "Eli" "Franklin" "Guyasut" "Geoffrey" "Gideon" "Hamilton"
+	"Harmanus" "Johannes" "Jervis" "Jacobus" "Jasper" "Jovan" "Kirke" "Kent" "Kel" "Launcelot"
+	"Leo" "Morris" "Montgomery" "Malcolm" "Nathaniel" "Otetian" "Pindar" "Philip" "Quentin" "Richard"
+	"Raymond" "Rip" "Rodney" "Stephanus" "Stanwix" "Samuel" "Simon" "Solon" "Theodore" "Vincent"
 	"William" "Washington" "Whitelaw" "Xander" }
 monarch_names = {
 	"Cotton #0" = 1

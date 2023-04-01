@@ -1,6 +1,6 @@
 # Swiss Guards
 
-unit_type = european	
+unit_type = european
 type = infantry
 
 maneuver = 1

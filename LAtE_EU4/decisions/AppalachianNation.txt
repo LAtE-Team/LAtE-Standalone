@@ -36,8 +36,8 @@ country_decisions = {
 			is_at_war = no
 			owns_core_province = 4651		# Land of Sky
 			owns_core_province = 2551		# Monongahela
-			owns_core_province = 4710		# Chatanooga 
-			owns_core_province = 2548		# Clinch 
+			owns_core_province = 4710		# Chatanooga
+			owns_core_province = 2548		# Clinch
 		}
 		effect = {
 			change_tag = APP
@@ -103,5 +103,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 }

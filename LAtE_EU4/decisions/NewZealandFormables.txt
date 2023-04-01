@@ -36,10 +36,10 @@ country_decisions = {
 			owns_core_province = 1108	# Tauranga
 			owns_core_province = 1109	# Timaru
 			owns_core_province = 1246	# Waihopai (Southland)
-			owns_core_province = 2738	# Waitaha 
+			owns_core_province = 2738	# Waitaha
 			owns_core_province = 2737	# Ahuriri
 			owns_core_province = 2739	# Kiririroa
-			owns_core_province = 4887	# Manawatu-Wanganui 
+			owns_core_province = 4887	# Manawatu-Wanganui
 			owns_core_province = 4888	# Taupo
 			owns_core_province = 4889	# Wellington
 			owns_core_province = 4890	# Marlborough
@@ -91,7 +91,7 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = formed_new_zealand_flag
-			
+
 			#Claims on Australia East Coast
 			add_permanent_claim = 1087
 			add_permanent_claim = 4844
@@ -101,12 +101,12 @@ country_decisions = {
 			add_permanent_claim = 4842
 			add_permanent_claim = 1092
 			add_permanent_claim = 1094
-			add_permanent_claim = 2733	
-			
+			add_permanent_claim = 2733
+
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
+
 }

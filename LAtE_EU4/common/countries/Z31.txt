@@ -8,21 +8,21 @@ color = { 200 152 53 }
 
 leader_names = {
 
-	"Bobbi" "Peach" "Melanie" "Dwight" "Desiree" "Juliet" "Melisende" "Rachel" "Bedivere" "Claudia" 
-	"Goode" "Tiffany" "Winchester" "Mercury" "Ann" "Woody" "Radley" "Pearl" "Gregory" "Allison" 
-	"Rita" "Waynelle" "Robbie" "Francis" "Reb" "Jozelle" "Jessie" "Littlejohn" "Caroline" "Mary" 
-	"Vitalian" "Johnny" "Bernard" "Austin" "Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur" 
-	"Boblee" "Bill" "Bo" "Bart" "Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup" 
-	"Bob" "Braxton" "Burris" "Baker" "Conway" "Casey" "Chandler" "Chuck" "Chester" "Cleavon" 
-	"Cleon" "Cletus" "Clint" "Cooter" "Cooper" "Cody" "Charles" "Cecil" "Dean" "Dale" 
-	"Delmont" "Delmer" "Doc" "Donny" "Dwayne" "Dixon" "Dolphus" "Dill" "Earl" "Elrod" 
-	"Enos" "Eustice" "Ewell" "Floyd" "Forrest" "Fred" "Garth" "George" "Grattan" "Gilmer" 
-	"Harley" "Homer" "Horace" "Harry" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock" 
-	"Hale" "Isham" "Ike" "Jesse" "John" "Jackson" "Jed" "Jerry" "Jim" "Joe" 
-	"Junior" "Jeptha" "Jubal" "Jeremy" "Jem" "Jack" "Lee" "Luther" "Lon" "Lyndon" 
-	"Larry" "Link" "Mike" "Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" "Philander" 
-	"Ray" "Raleigh" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Ricky" "Raymond" "Reynold" 
-	"Robert" "Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" "Terry" "Tate" 
+	"Bobbi" "Peach" "Melanie" "Dwight" "Desiree" "Juliet" "Melisende" "Rachel" "Bedivere" "Claudia"
+	"Goode" "Tiffany" "Winchester" "Mercury" "Ann" "Woody" "Radley" "Pearl" "Gregory" "Allison"
+	"Rita" "Waynelle" "Robbie" "Francis" "Reb" "Jozelle" "Jessie" "Littlejohn" "Caroline" "Mary"
+	"Vitalian" "Johnny" "Bernard" "Austin" "Adley" "Alexander" "Abe" "Avery" "Atticus" "Arthur"
+	"Boblee" "Bill" "Bo" "Bart" "Bodean" "Bubba" "Buck" "Buddy" "Bucephalus" "Billup"
+	"Bob" "Braxton" "Burris" "Baker" "Conway" "Casey" "Chandler" "Chuck" "Chester" "Cleavon"
+	"Cleon" "Cletus" "Clint" "Cooter" "Cooper" "Cody" "Charles" "Cecil" "Dean" "Dale"
+	"Delmont" "Delmer" "Doc" "Donny" "Dwayne" "Dixon" "Dolphus" "Dill" "Earl" "Elrod"
+	"Enos" "Eustice" "Ewell" "Floyd" "Forrest" "Fred" "Garth" "George" "Grattan" "Gilmer"
+	"Harley" "Homer" "Horace" "Harry" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock"
+	"Hale" "Isham" "Ike" "Jesse" "John" "Jackson" "Jed" "Jerry" "Jim" "Joe"
+	"Junior" "Jeptha" "Jubal" "Jeremy" "Jem" "Jack" "Lee" "Luther" "Lon" "Lyndon"
+	"Larry" "Link" "Mike" "Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" "Philander"
+	"Ray" "Raleigh" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" "Ricky" "Raymond" "Reynold"
+	"Robert" "Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" "Terry" "Tate"
 	"Taylor" "Vinton" "Wade" "Wilbur" "Whitely" "Walter" }
 monarch_names = {
 	"Bobbi #0" = -1

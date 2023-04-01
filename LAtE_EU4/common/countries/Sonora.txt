@@ -8,17 +8,17 @@ color = { 169 104 75 }
 
 leader_names = {
 
-	"Darío" "Lázaro" "Ángel" "Adrián" "Arellano" "Anselmo" "Arango" "Agustín" "Anacleto" "Armando" 
-	"Atilano" "Arnoldo" "Alejando" "Audencio" "Arechiga" "Baldenegro" "Benjamín" "Braulio" "Belisario" "Bonifacio" 
-	"Bacauda" "Coronel" "Cipriano" "Carlos" "Christoforo" "Calixto" "Candelario" "Celso" "Cesáreo" "Campeyo" 
-	"Conancio" "Canuto" "Doroteo" "Delgado" "Emilio" "Eugenio" "Eulalio" "Esteban" "Exuperio" "Eladio" 
-	"Eufemio" "Eusebio" "Erubiel" "Fonte" "Félix" "Fernando" "Felipe" "Federico" "Fructuoso" "Faluax" 
-	"Guzmán" "Gallardo" "Gregorio" "Gastélum" "Héctor" "Homobono" "Hipólito" "Hilario" "Homar" "Isidro" 
-	"Ismael" "Ignacio" "Isicio" "Idefonso" "Javier" "Joaquín" "Jesús" "Julio" "Justo" "Lucio" 
-	"Luis" "Laulfo" "Marcos" "Maldonado" "Mateo" "Maximiano" "Molinar" "Martiniano" "Magdaleno" "Maclovio" 
-	"Montano" "Melancio" "Miguel" "Montalvo" "Natividad" "Nicolás" "Orozco" "Orestes" "Pablo" "Ponce" 
-	"Palma" "Pancho" "Pascual" "Praumato" "Paulato" "Pretextat" "Paciano" "Próspero" "Plutarco" "Quintero" 
-	"Quinto" "Quevedo" "Roque" "Raúl" "Rosalío" "Simental" "Saturnino" "Severino" "Sinticio" "Sisberto" 
+	"Darío" "Lázaro" "Ángel" "Adrián" "Arellano" "Anselmo" "Arango" "Agustín" "Anacleto" "Armando"
+	"Atilano" "Arnoldo" "Alejando" "Audencio" "Arechiga" "Baldenegro" "Benjamín" "Braulio" "Belisario" "Bonifacio"
+	"Bacauda" "Coronel" "Cipriano" "Carlos" "Christoforo" "Calixto" "Candelario" "Celso" "Cesáreo" "Campeyo"
+	"Conancio" "Canuto" "Doroteo" "Delgado" "Emilio" "Eugenio" "Eulalio" "Esteban" "Exuperio" "Eladio"
+	"Eufemio" "Eusebio" "Erubiel" "Fonte" "Félix" "Fernando" "Felipe" "Federico" "Fructuoso" "Faluax"
+	"Guzmán" "Gallardo" "Gregorio" "Gastélum" "Héctor" "Homobono" "Hipólito" "Hilario" "Homar" "Isidro"
+	"Ismael" "Ignacio" "Isicio" "Idefonso" "Javier" "Joaquín" "Jesús" "Julio" "Justo" "Lucio"
+	"Luis" "Laulfo" "Marcos" "Maldonado" "Mateo" "Maximiano" "Molinar" "Martiniano" "Magdaleno" "Maclovio"
+	"Montano" "Melancio" "Miguel" "Montalvo" "Natividad" "Nicolás" "Orozco" "Orestes" "Pablo" "Ponce"
+	"Palma" "Pancho" "Pascual" "Praumato" "Paulato" "Pretextat" "Paciano" "Próspero" "Plutarco" "Quintero"
+	"Quinto" "Quevedo" "Roque" "Raúl" "Rosalío" "Simental" "Saturnino" "Severino" "Sinticio" "Sisberto"
 	"Torres" "Teodoro" "Teodomiro" "Toribio" "Teoderico" "Trinidad" "Tovar" "Vito" "Zambada" "Zertuche" }
 monarch_names = {
 	"Darío #1" = 18

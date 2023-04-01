@@ -8,22 +8,22 @@ color = { 211 241 144 }
 
 leader_names = {
 
-	"Rita" "Jeremy" "Cary" "Ernestine" "Diane" "Rosemond" "Angel" "Gus" "Grant" "Edward" 
-	"Shelley" "Mary" "Niven" "Katharine" "Gene" "Sidney" "Betty" "Vincent" "Katie" "Ronald" 
-	"George" "Jack" "Elmira" "Siskel" "Benicio" "Tyrone" "Brian" "Joaquin" "Martin" "Alan" 
-	"Albert" "Alec" "Alfred" "Andrew" "Anthony" "Arthur" "Blaine" "Boyer" "Brando" "Brandon" 
-	"Brynn" "Buddy" "Burt" "Burton" "Buster" "Carson" "Cesar" "Charles" "Charlton" "Clark" 
-	"Claude" "Clift" "Clint" "Colman" "Conrad" "Cooper" "Curt" "Dana" "Daniel" "David" 
-	"Dean" "Denzel" "Dick" "Douglas" "Dustin" "Ebert" "Errol" "Erskine" "Everett" "Flynn" 
-	"Ford" "Fortunio" "Foster" "Frank" "Fred" "Fredric" "Gary" "Glenn" "Granger" "Gregory" 
-	"Harold" "Harris" "Heath" "Helmut" "Hendry" "Henry" "Herbert" "Herman" "Heston" "Holden" 
-	"Hudson" "Humphrey" "Jacob" "James" "Jerry" "Joel" "John" "Johnny" "Jose" "Joseph" 
-	"Julian" "Kane" "Karl" "Keaton" "Kenneth" "Kevin" "Kirk" "Ladd" "Laurence" "Lawrence" 
-	"Leon" "Leonid" "Liam" "Marcel" "Marlon" "Mason" "Max" "Melvyn" "Michael" "Mickey" 
-	"Mitchum" "Montgomery" "Morgan" "Murray" "Nathan" "Oliver" "Orson" "Parker" "Paul" "Peter" 
-	"Philip" "Preston" "Quinn" "Ray" "Rex" "Richard" "Rick" "Robert" "Rock" "Roger" 
-	"Roman" "Rudolf" "Russel" "Russell" "Ryan" "Samuel" "Sanders" "Signor" "Sinatra" "Sonny" 
-	"Spence" "Spencer" "Stan" "Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Victor" "Walter" 
+	"Rita" "Jeremy" "Cary" "Ernestine" "Diane" "Rosemond" "Angel" "Gus" "Grant" "Edward"
+	"Shelley" "Mary" "Niven" "Katharine" "Gene" "Sidney" "Betty" "Vincent" "Katie" "Ronald"
+	"George" "Jack" "Elmira" "Siskel" "Benicio" "Tyrone" "Brian" "Joaquin" "Martin" "Alan"
+	"Albert" "Alec" "Alfred" "Andrew" "Anthony" "Arthur" "Blaine" "Boyer" "Brando" "Brandon"
+	"Brynn" "Buddy" "Burt" "Burton" "Buster" "Carson" "Cesar" "Charles" "Charlton" "Clark"
+	"Claude" "Clift" "Clint" "Colman" "Conrad" "Cooper" "Curt" "Dana" "Daniel" "David"
+	"Dean" "Denzel" "Dick" "Douglas" "Dustin" "Ebert" "Errol" "Erskine" "Everett" "Flynn"
+	"Ford" "Fortunio" "Foster" "Frank" "Fred" "Fredric" "Gary" "Glenn" "Granger" "Gregory"
+	"Harold" "Harris" "Heath" "Helmut" "Hendry" "Henry" "Herbert" "Herman" "Heston" "Holden"
+	"Hudson" "Humphrey" "Jacob" "James" "Jerry" "Joel" "John" "Johnny" "Jose" "Joseph"
+	"Julian" "Kane" "Karl" "Keaton" "Kenneth" "Kevin" "Kirk" "Ladd" "Laurence" "Lawrence"
+	"Leon" "Leonid" "Liam" "Marcel" "Marlon" "Mason" "Max" "Melvyn" "Michael" "Mickey"
+	"Mitchum" "Montgomery" "Morgan" "Murray" "Nathan" "Oliver" "Orson" "Parker" "Paul" "Peter"
+	"Philip" "Preston" "Quinn" "Ray" "Rex" "Richard" "Rick" "Robert" "Rock" "Roger"
+	"Roman" "Rudolf" "Russel" "Russell" "Ryan" "Samuel" "Sanders" "Signor" "Sinatra" "Sonny"
+	"Spence" "Spencer" "Stan" "Stanley" "Stewart" "Sydney" "Torben" "Tracy" "Victor" "Walter"
 	"Ward" "Wayne" "Widmark" "William" "Wyler" "Yancy" "Yul" }
 monarch_names = {
 	"Rita #0" = -1

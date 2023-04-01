@@ -8,17 +8,17 @@ color = { 200 168 138 }
 
 leader_names = {
 
-	"Frechette" "Magdelaine" "Katherena" "Tony" "Chanta" "Rene" "Dylan" "Solomon" "Kevin" "Pearl" 
-	"Nancy" "Marilyn" "Salomon" "Henri" "Don" "Jaco" "Mary" "Tanto" "Sheldon" "Marie-Thérèse" 
-	"Arthur" "Tête" "Charlotte" "Christi" "Ambrose" "Therese" "Joanne" "Arron" "Janet" "Shelly" 
-	"Marguerite" "Albert" "Alec" "Alexander" "Ambroise-Dydime" "Andrew" "Andy" "Angus" "Antoine" "Antonine" 
-	"Asham" "August" "Augustin" "Axel" "Baptiste" "Bob" "Brian" "Bryan" "Calvin" "Charles" 
-	"Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Douglas" "Doyle" "Dwight" 
-	"Dydim" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George" "Gerald" "Gil" "Gregory" 
-	"Guillaume" "Harley" "Honoré" "Howard" "Ian" "Jacco" "Jacques" "James" "Jaxon" "Jean" 
-	"Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jonathan" "Jules" "Kalib" "Keith" "Laird" 
-	"Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" "Pascal" "Paul" "Peter" "Pierre" 
-	"Ralph" "Ranald" "Ray" "Raymond" "René" "Rick" "Robert" "Rod" "Shan" "Theoren" 
+	"Frechette" "Magdelaine" "Katherena" "Tony" "Chanta" "Rene" "Dylan" "Solomon" "Kevin" "Pearl"
+	"Nancy" "Marilyn" "Salomon" "Henri" "Don" "Jaco" "Mary" "Tanto" "Sheldon" "Marie-Thérèse"
+	"Arthur" "Tête" "Charlotte" "Christi" "Ambrose" "Therese" "Joanne" "Arron" "Janet" "Shelly"
+	"Marguerite" "Albert" "Alec" "Alexander" "Ambroise-Dydime" "Andrew" "Andy" "Angus" "Antoine" "Antonine"
+	"Asham" "August" "Augustin" "Axel" "Baptiste" "Bob" "Brian" "Bryan" "Calvin" "Charles"
+	"Charles-Michel" "Clément" "Cuthbert" "Cyril" "David" "Denis" "Derrick" "Douglas" "Doyle" "Dwight"
+	"Dydim" "Elzéar" "Eugène" "François" "Gabriel" "Gallant" "George" "Gerald" "Gil" "Gregory"
+	"Guillaume" "Harley" "Honoré" "Howard" "Ian" "Jacco" "Jacques" "James" "Jaxon" "Jean"
+	"Jean-Baptiste" "Jess" "Joe" "John" "Jon" "Jonathan" "Jules" "Kalib" "Keith" "Laird"
+	"Laurent-Salomon" "Lawrence" "Louis" "Malcolm" "Maxime" "Michel" "Pascal" "Paul" "Peter" "Pierre"
+	"Ralph" "Ranald" "Ray" "Raymond" "René" "Rick" "Robert" "Rod" "Shan" "Theoren"
 	"Thomas" "Todd" "Tom" "Vic" "Wade" "Wayne" "William" "Xavier" "Yvon" }
 monarch_names = {
 	"Frechette #0" = -1

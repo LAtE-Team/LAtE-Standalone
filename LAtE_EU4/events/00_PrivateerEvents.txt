@@ -57,7 +57,7 @@ country_event = {
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	trigger = {
-		NOT = { 
+		NOT = {
 			has_reform = colonial_government
 		}
 		any_active_trade_node = {

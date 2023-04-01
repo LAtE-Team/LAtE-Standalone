@@ -35,8 +35,8 @@ canadian_province = {
 	}
 
 	conditional = {
-		allow = { 
-			has_dlc = "Third Rome" 
+		allow = {
+			has_dlc = "Third Rome"
 			has_dlc = "Common Sense"
 		}
 		government_abilities = {
@@ -97,8 +97,8 @@ canadian_empire = {
 	}
 
 	conditional = {
-		allow = { 
-			has_dlc = "Third Rome" 
+		allow = {
+			has_dlc = "Third Rome"
 			has_dlc = "Common Sense"
 		}
 		government_abilities = {

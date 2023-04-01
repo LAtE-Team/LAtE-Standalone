@@ -8,22 +8,22 @@ color = { 234 39 49 }
 
 leader_names = {
 
-	"Stokely" "Ronald" "Noor" "Yasin" "Clarke" "Reece" "Gregorio" "Breno" "Uxío" "Quim" 
-	"Cibrán" "Raimundo" "Plinio" "Tristão" "Abdool" "Abdul" "Abdur" "Aftab" "Aked" "Alex" 
-	"Alexander" "Alfred" "Alvin" "Andre" "Andrew" "Andy" "Anthony" "Assad" "Aubrey" "Barrington" 
-	"Basil" "Beni" "Berkeley" "Bernard" "Billy" "Birchmore" "Brandon" "Bruce" "Carl" "Charles" 
-	"Charlie" "Claude" "Clayton" "Clem" "Cliff" "Clive" "Clyde" "Colin" "Courtney" "Cy" 
-	"Cyril" "Dale" "Danny" "David" "Denis" "Derek" "Derwin" "Devendra" "Egbert" "Eion" 
-	"Errol" "Esuan" "Faoud" "Faris" "Fitz" "Frank" "Fred" "Gajanand" "George" "Glendon" 
-	"Gordon" "Harischandra" "Harold" "Henry" "Ian" "Imran" "Ivan" "Ivor" "Jack" "Jagdish" 
-	"Jaison" "James" "Jan" "Jeff" "Jeremy" "Joe" "John" "Jonathan" "Kampta" "Kamroze" 
-	"Keemo" "Keith" "Kennard" "Kenneth" "Kenny" "Kevin" "Krish" "Laddie" "Lance" "Latchman" 
-	"Len" "Lennox" "Leon" "Leslie" "Linden" "Lloyd" "Mahendra" "Malcolm" "Marc" "Mark" 
-	"Martin" "Maurice" "Michael" "Milton" "Monte" "Narsingh" "Neil" "Neville" "Nezam" "Oscar" 
-	"Patrick" "Paul" "Peter" "Philbert" "Pierre" "Ramnaresh" "Ramnarine" "Randolph" "Ranuel" "Ray" 
-	"Rayon" "Reon" "Robert" "Roger" "Rohan" "Rondell" "Ronsford" "Roy" "Royston" "Ruel" 
-	"Rupert" "Russell" "Ryan" "Saheed" "Sergio" "Sew" "Sewnarine" "Shimron" "Shivnarine" "Stanley" 
-	"Stephon" "Steve" "Steven" "Sudesh" "Sunil" "Tagenarine" "Timur" "Travis" "Trevon" "Troy" 
+	"Stokely" "Ronald" "Noor" "Yasin" "Clarke" "Reece" "Gregorio" "Breno" "Uxío" "Quim"
+	"Cibrán" "Raimundo" "Plinio" "Tristão" "Abdool" "Abdul" "Abdur" "Aftab" "Aked" "Alex"
+	"Alexander" "Alfred" "Alvin" "Andre" "Andrew" "Andy" "Anthony" "Assad" "Aubrey" "Barrington"
+	"Basil" "Beni" "Berkeley" "Bernard" "Billy" "Birchmore" "Brandon" "Bruce" "Carl" "Charles"
+	"Charlie" "Claude" "Clayton" "Clem" "Cliff" "Clive" "Clyde" "Colin" "Courtney" "Cy"
+	"Cyril" "Dale" "Danny" "David" "Denis" "Derek" "Derwin" "Devendra" "Egbert" "Eion"
+	"Errol" "Esuan" "Faoud" "Faris" "Fitz" "Frank" "Fred" "Gajanand" "George" "Glendon"
+	"Gordon" "Harischandra" "Harold" "Henry" "Ian" "Imran" "Ivan" "Ivor" "Jack" "Jagdish"
+	"Jaison" "James" "Jan" "Jeff" "Jeremy" "Joe" "John" "Jonathan" "Kampta" "Kamroze"
+	"Keemo" "Keith" "Kennard" "Kenneth" "Kenny" "Kevin" "Krish" "Laddie" "Lance" "Latchman"
+	"Len" "Lennox" "Leon" "Leslie" "Linden" "Lloyd" "Mahendra" "Malcolm" "Marc" "Mark"
+	"Martin" "Maurice" "Michael" "Milton" "Monte" "Narsingh" "Neil" "Neville" "Nezam" "Oscar"
+	"Patrick" "Paul" "Peter" "Philbert" "Pierre" "Ramnaresh" "Ramnarine" "Randolph" "Ranuel" "Ray"
+	"Rayon" "Reon" "Robert" "Roger" "Rohan" "Rondell" "Ronsford" "Roy" "Royston" "Ruel"
+	"Rupert" "Russell" "Ryan" "Saheed" "Sergio" "Sew" "Sewnarine" "Shimron" "Shivnarine" "Stanley"
+	"Stephon" "Steve" "Steven" "Sudesh" "Sunil" "Tagenarine" "Timur" "Travis" "Trevon" "Troy"
 	"Tyrique" "Veerasammy" "Vibart" "Vishaul" "Walter" "Wilfred" "William" "Wilson" "Wordsworth" "Yannick" }
 monarch_names = {
 	"Stokely #1" = 0

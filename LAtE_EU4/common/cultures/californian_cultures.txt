@@ -27,7 +27,7 @@ californian = {
 			Walter Ward Wayne Widmark William Wyler
 			Yancy Yul
 		}
-		
+
 		female_names = {
 			Alice Angela Anita Ann Anna Audrey Ava
 			Barbara Bette Betty Brigitte
@@ -80,7 +80,7 @@ californian = {
 			Valor Victor Vince
 			Walter Ware Warren Wash Wayne William Willie Wood
 		}
-		
+
 		female_names = {
 			Aarthi Abby Abigail Aileen Aisha Ali Alicia Alma Aly Amy Angela Angelou Anne Arabella Ashlie Asriela Audrey Aunjanue Aya
 			Barbara Beatrice Bernicia Bonnie Bridgit Brigid Brooke
@@ -135,7 +135,7 @@ californian = {
 			Yeng Yorston
 			Zack Zeb Zimm
 		}
-		
+
 		female_names = {
 			Adah Adrienne Agnes Aleia Alexis Alice Allison Amanda Amy Angela Ann Anna April Ashley Autumn
 			Bao Barbi Betsy Betty Brenda Britte Caitlin Cali Carter Cecilia Celina Chelsea Cherilyn Cynthia

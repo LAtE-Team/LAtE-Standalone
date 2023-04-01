@@ -14,7 +14,7 @@ american_feudal_ideas = {
 		}
 	}
 	free = yes
-	
+
 	right_to_rule = {
 		global_unrest = -1
         legitimacy = 1
@@ -40,7 +40,7 @@ american_feudal_ideas = {
 		province_warscore_cost = -0.15
         unjustified_demands = -0.25
 	}
-	
+
 }
 
 russian_warlord_ideas = {
@@ -59,7 +59,7 @@ russian_warlord_ideas = {
 		}
 	}
 	free = yes
-	
+
 	russian_warlord_era = {
 		army_tradition_from_battle = 0.33
 		drill_gain_modifier = 0.33
@@ -84,5 +84,5 @@ russian_warlord_ideas = {
 	unification_wars = {
 		core_creation = -0.1
 	}
-	
+
 }

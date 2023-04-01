@@ -117,9 +117,9 @@ catholic_st_louis = {
 		NOT = { tag = PAP }
 	}
 
-	trigger = {	
+	trigger = {
 		NOT = { overlord_of = PAP }
-		owns_or_vassal_of = 4585 # St Louis		
+		owns_or_vassal_of = 4585 # St Louis
 	}
 
 	papal_influence = -10
@@ -135,7 +135,7 @@ am_papal_subjugation = {
 		NOT = { tag = PAP }
 	}
 
-	trigger = {	
+	trigger = {
 		overlord_of = PAP
 	}
 
@@ -202,7 +202,7 @@ evangelical_mod = {
 		4618 = { religion = protestant }
 		4563 = { religion = protestant }
 	}
-	
+
 	prestige = 0.5
 	missionaries = 1
 }

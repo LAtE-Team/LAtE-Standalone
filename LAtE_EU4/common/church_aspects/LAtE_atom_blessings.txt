@@ -116,7 +116,7 @@ perpetual_quarantine = {
 		}
 	}
 	modifier = {
-		harsh_treatment_cost = -0.2	
+		harsh_treatment_cost = -0.2
 	}
 	ai_will_do = {
 		factor = 10

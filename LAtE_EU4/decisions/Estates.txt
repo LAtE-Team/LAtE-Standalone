@@ -18,12 +18,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_nobles
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -95,7 +95,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	curtail_estate_church = {
 		major = yes
 		potential = {
@@ -104,12 +104,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_church
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -125,7 +125,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	curtail_estate_brahmins = {
 		major = yes
 		potential = {
@@ -134,12 +134,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_brahmins
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -155,7 +155,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	curtail_estate_burghers = {
 		major = yes
 		potential = {
@@ -164,12 +164,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_burghers
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -193,12 +193,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_vaisyas
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -222,12 +222,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_nomadic_tribes
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -251,12 +251,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_jains
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -280,12 +280,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_anabaptists
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -313,12 +313,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_anabaptists
 					influence = 30
-				}				
+				}
 			}
 		}
 		effect = {
@@ -386,8 +386,8 @@ country_decisions = {
 										religion_group = christian
 										is_neighbor_of = ROOT
 										NOT = { has_country_flag = anabaptists_rejected }
-										NOT = { has_country_flag = anabaptists_expelled }	
-										NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }				
+										NOT = { has_country_flag = anabaptists_expelled }
+										NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 									}
 							}
 						}
@@ -401,7 +401,7 @@ country_decisions = {
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 								}
 								country_event = { id = anabaptists_estate_events.16 }
-							}							
+							}
 						}
 					}
 					else_if = {
@@ -411,7 +411,7 @@ country_decisions = {
 									religion_group = christian
 									has_country_flag = anabaptists_accepted
 									NOT = { has_country_flag = anabaptists_rejected }
-									NOT = { has_country_flag = anabaptists_expelled }					
+									NOT = { has_country_flag = anabaptists_expelled }
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 								}
 							}
@@ -426,7 +426,7 @@ country_decisions = {
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 								}
 								country_event = { id = anabaptists_estate_events.16 }
-							}							
+							}
 						}
 					}
 					else_if = {
@@ -436,9 +436,9 @@ country_decisions = {
 									religion_group = christian
 									culture_group = amerodeutsch
 									NOT = { has_country_flag = anabaptists_rejected }
-									NOT = { has_country_flag = anabaptists_expelled }					
+									NOT = { has_country_flag = anabaptists_expelled }
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
-								}								
+								}
 							}
 						}
 						owner = {
@@ -451,7 +451,7 @@ country_decisions = {
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 								}
 								country_event = { id = anabaptists_estate_events.16 }
-							}							
+							}
 						}
 					}
 					else_if = {
@@ -460,9 +460,9 @@ country_decisions = {
 								any_known_country = {
 									religion_group = christian
 									NOT = { has_country_flag = anabaptists_rejected }
-									NOT = { has_country_flag = anabaptists_expelled }					
-									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }					
-								}								
+									NOT = { has_country_flag = anabaptists_expelled }
+									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
+								}
 							}
 						}
 						owner = {
@@ -474,7 +474,7 @@ country_decisions = {
 									NOT = { has_country_modifier = anabaptists_estate_events_migration_cooldown }
 								}
 								country_event = { id = anabaptists_estate_events.16 }
-							}							
+							}
 						}
 					}
 				}
@@ -499,12 +499,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_scavengers
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -525,12 +525,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_army
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -542,7 +542,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	curtail_estate_antiquarians = {
 		major = yes
 		potential = {
@@ -551,12 +551,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_antiquarians
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -581,12 +581,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_unions
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -610,12 +610,12 @@ country_decisions = {
 		allow = {
 			stability = 1
 			NOT = { num_of_rebel_armies = 1 }
-			NOT = { num_of_rebel_controlled_provinces = 1 }			
+			NOT = { num_of_rebel_controlled_provinces = 1 }
 			NOT = {
 				estate_influence = {
 					estate = estate_press
 					influence = 60
-				}				
+				}
 			}
 		}
 		effect = {
@@ -637,8 +637,8 @@ country_decisions = {
 			always = no
 			NOT = { has_reform = cossacks_reform }
 			has_dlc = "The Cossacks"
-			NOT = { has_country_flag = embraced_steppes } 
-			NOT = { is_emperor_of_china = yes } 
+			NOT = { has_country_flag = embraced_steppes }
+			NOT = { is_emperor_of_china = yes }
 			NOT = { is_revolutionary = yes }
 		}
 		allow = {
@@ -652,7 +652,7 @@ country_decisions = {
 				change_government_to_republic = yes
 			}
 			add_government_reform = cossacks_reform
-			set_country_flag = embraced_steppes 
+			set_country_flag = embraced_steppes
 		}
 		ai_will_do = {
 			factor = 1

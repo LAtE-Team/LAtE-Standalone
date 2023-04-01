@@ -157,7 +157,7 @@ country_decisions = {
 			924 = { add_base_tax = 2 }
 			set_country_flag = formed_alabama_flag
 			if = {
-				limit = { 
+				limit = {
 					has_custom_ideas = no
 #					NOT = { has_idea_group = ABM_ideas }
 				}
@@ -180,5 +180,5 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	
+
 }

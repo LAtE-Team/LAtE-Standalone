@@ -8,16 +8,16 @@ color = { 240 240 220 }
 
 leader_names = {
 
-	"Henri" "Louise" "Daniel" "Raymond" "Fidelis" "Gosling" "Judith" "Ambrose" "Cecil" "Anne" 
-	"Ferreol" "Damase" "Cartier" "Aurèle" "Guy" "Marcel" "Cyrille" "Adam" "Athanase" "Albert" 
-	"Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "André" "Adrien" "Baudouin" "Barthélémy" 
-	"Balian" "Bohémond" "Charles" "Claude" "Camille" "Christophe" "Camillien" "Denis" "Dustin" "Étienne" 
-	"Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ghislain" "Georges" "Gautier" "Geoffroy" 
-	"Guillaume" "Gilles" "Gabriel" "Gaétan" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace" 
-	"Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" "Louis" 
-	"Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Napoleon" "Nérée" "Ovide" 
-	"Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" "Rohard" "Robert" 
-	"René" "Roger" "Renaud" "Roupen" "Régis" "Roland" "Samuel" "Sulpice" "Serge" "Tancrède" 
+	"Henri" "Louise" "Daniel" "Raymond" "Fidelis" "Gosling" "Judith" "Ambrose" "Cecil" "Anne"
+	"Ferreol" "Damase" "Cartier" "Aurèle" "Guy" "Marcel" "Cyrille" "Adam" "Athanase" "Albert"
+	"Alphonse" "Alain" "Augustin" "Amaury" "Andronic" "Alexandre" "André" "Adrien" "Baudouin" "Barthélémy"
+	"Balian" "Bohémond" "Charles" "Claude" "Camille" "Christophe" "Camillien" "Denis" "Dustin" "Étienne"
+	"Édouard" "Éphrem" "François" "Foulques" "Frédéric" "Fabien" "Ghislain" "Georges" "Gautier" "Geoffroy"
+	"Guillaume" "Gilles" "Gabriel" "Gaétan" "Hector" "Hilaire" "Hughes" "Hubert" "Isidore" "Ignace"
+	"Jeannot" "Jean" "Jacques" "Jérome" "Joseph" "Josselin" "Josue" "Julien" "Justin" "Louis"
+	"Laurent" "Lucien" "Leo" "Marc" "Michel" "Maurice" "Maximilien" "Napoleon" "Nérée" "Ovide"
+	"Olivier" "Odon" "Onfroy" "Pascal" "Pierre" "Paul" "Philippe" "Réal" "Rohard" "Robert"
+	"René" "Roger" "Renaud" "Roupen" "Régis" "Roland" "Samuel" "Sulpice" "Serge" "Tancrède"
 	"Vincent" "Wilfrid" "Xavier" }
 monarch_names = {
 	"Henri #1" = 18

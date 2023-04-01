@@ -14,7 +14,7 @@ country_event = {
 	title = antiquarians_estate_events.1.t
 	desc = antiquarians_estate_events.1.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		religion_group = oldworld
@@ -49,13 +49,13 @@ country_event = {
 			num_of_loans = 5
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.1.a #Make it clear that they need to contribute.
 		ai_chance = {
@@ -133,9 +133,9 @@ country_event = {
 	title = antiquarians_estate_events.2.t
 	desc = antiquarians_estate_events.2.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		NOT = {
@@ -157,11 +157,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.2.a #Ok
 		add_estate_influence_modifier = {
@@ -179,9 +179,9 @@ country_event = {
 	title = antiquarians_estate_events.3.t
 	desc = antiquarians_estate_events.3.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		NOT = {
@@ -203,11 +203,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.3.a #Ok
 		add_estate_influence_modifier = {
@@ -225,9 +225,9 @@ country_event = {
 	title = antiquarians_estate_events.4.t
 	desc = antiquarians_estate_events.4.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		has_estate = estate_unions
@@ -248,11 +248,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.4.a #Then we must force them to pay!
 		ai_chance = {
@@ -389,9 +389,9 @@ country_event = {
 	title = antiquarians_estate_events.5.t
 	desc = antiquarians_estate_events.5.d
 	picture = CHURCH_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		NOT = {
@@ -405,17 +405,17 @@ country_event = {
 			is_capital = no
 			is_city = yes
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_antiquarians
 			territory = 10
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = peasant_clergy_revolt
 							value = estate
@@ -444,11 +444,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.5.a #Ok
 		add_stability = -1
@@ -472,9 +472,9 @@ country_event = {
 	title = antiquarians_estate_events.6.t
 	desc = antiquarians_estate_events.6.d
 	picture = CHURCH_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		estate_influence = {
@@ -494,11 +494,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.6.a #Agree
 		ai_chance = {
@@ -556,9 +556,9 @@ country_event = {
 	title = antiquarians_estate_events.7.t
 	desc = antiquarians_estate_events.7.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		estate_loyalty = {
@@ -570,7 +570,7 @@ country_event = {
 			influence = 70
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			if = {
@@ -586,11 +586,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.7.a #Agree
 		trigger_switch = {
@@ -620,9 +620,9 @@ country_event = {
 	title = antiquarians_estate_events.8.t
 	desc = antiquarians_estate_events.8.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		has_estate = estate_army
@@ -640,11 +640,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.8.a #Side with the $estate_antiquarians$.
 		ai_chance = {
@@ -830,9 +830,9 @@ country_event = {
 	title = antiquarians_estate_events.9.t
 	desc = antiquarians_estate_events.9.d
 	picture = CHURCH_ESTATE_2_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		has_estate = estate_army
@@ -854,11 +854,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.9.a #
 		ai_chance = {
@@ -941,9 +941,9 @@ country_event = {
 	title = antiquarians_estate_events.10.t
 	desc = antiquarians_estate_events.10.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_antiquarians
 		NOT = {
@@ -959,11 +959,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = antiquarians_estate_events.10.a #Do not meddle in the affairs of the $estate_antiquarians$.
 		ai_chance = {
@@ -1016,10 +1016,10 @@ province_event = {
 	title = antiquarians_estate_events.11.t
 	desc = antiquarians_estate_events.11.d
 	picture = CHURCH_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
 
-	
+
 	option = {
 		name = antiquarians_estate_events.11.a #
 	}

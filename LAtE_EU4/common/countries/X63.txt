@@ -8,17 +8,17 @@ color = { 57 202 140 }
 
 leader_names = {
 
-	"Orlondo" "Milagro" "Bartolo" "Jerico" "Flavio" "Ramón" "Ubaldo" "Yoel" "Narciso" "Alfonso" 
-	"Jeffrén" "Montes" "Leon" "Joaquin" "Teodoro" "Jorge" "Uxío" "Benedito" "Valerio" "Maximiliano" 
-	"Guilherme" "Leonardo" "Abran" "Alano" "Alejandro" "Alexander" "Alvaro" "Alvino" "Andres" "Angelino" 
-	"Angelito" "Aquila" "Armando" "Arnoldo" "Beltran" "Bemabe" "Bembe" "Betulio" "Bonifacio" "Bonifaco" 
-	"Calvino" "Carlos" "César" "Chano" "Charro" "Che" "Chucho" "Ciceron" "Claudio" "Criston" 
-	"Damario" "Edwin" "Elias" "Eloy" "Emesto" "Estevon" "Ezequiel" "Faron" "Felipe" "Fernando" 
-	"Frederico" "Gabriel" "Galtero" "Generosb" "Giovanni" "Guadalupe" "Guido" "Guillermo" "Hidalgo" "Honor" 
-	"Hugo" "Ignado" "Igone" "Johan" "José" "Josef" "Juan" "Julio" "Lonzo" "Lorenzo" 
-	"Luciano" "Luis" "Macario" "Magglio" "Manny" "Manuelo" "Marco" "Marcos" "Martino" "Massimo" 
-	"Mauro" "Neron" "Nicolas" "Niguel" "Normando" "Oliverio" "Omar" "Platon" "Ramiro" "Raul" 
-	"Rayman" "Reyes" "Richard" "Salomón" "Santiago" "Stefano" "Tabor" "Toli" "Tomás" "Tonio" 
+	"Orlondo" "Milagro" "Bartolo" "Jerico" "Flavio" "Ramón" "Ubaldo" "Yoel" "Narciso" "Alfonso"
+	"Jeffrén" "Montes" "Leon" "Joaquin" "Teodoro" "Jorge" "Uxío" "Benedito" "Valerio" "Maximiliano"
+	"Guilherme" "Leonardo" "Abran" "Alano" "Alejandro" "Alexander" "Alvaro" "Alvino" "Andres" "Angelino"
+	"Angelito" "Aquila" "Armando" "Arnoldo" "Beltran" "Bemabe" "Bembe" "Betulio" "Bonifacio" "Bonifaco"
+	"Calvino" "Carlos" "César" "Chano" "Charro" "Che" "Chucho" "Ciceron" "Claudio" "Criston"
+	"Damario" "Edwin" "Elias" "Eloy" "Emesto" "Estevon" "Ezequiel" "Faron" "Felipe" "Fernando"
+	"Frederico" "Gabriel" "Galtero" "Generosb" "Giovanni" "Guadalupe" "Guido" "Guillermo" "Hidalgo" "Honor"
+	"Hugo" "Ignado" "Igone" "Johan" "José" "Josef" "Juan" "Julio" "Lonzo" "Lorenzo"
+	"Luciano" "Luis" "Macario" "Magglio" "Manny" "Manuelo" "Marco" "Marcos" "Martino" "Massimo"
+	"Mauro" "Neron" "Nicolas" "Niguel" "Normando" "Oliverio" "Omar" "Platon" "Ramiro" "Raul"
+	"Rayman" "Reyes" "Richard" "Salomón" "Santiago" "Stefano" "Tabor" "Toli" "Tomás" "Tonio"
 	"Vicente" }
 monarch_names = {
 	"Orlondo #2" = 0

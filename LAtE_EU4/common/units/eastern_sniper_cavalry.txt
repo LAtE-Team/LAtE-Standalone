@@ -1,5 +1,5 @@
 # Eastern Sniper Cavalry
-	
+
 type = cavalry
 unit_type = eastern
 

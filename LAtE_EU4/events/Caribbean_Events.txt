@@ -4,7 +4,7 @@ country_event = {
 	title = "caribbean.1.title"
 	desc = "caribbean.1.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		tag = CBN
 		NOT = { has_country_flag = caribbean_discovered }
@@ -12,7 +12,7 @@ country_event = {
 			has_discovered = ROOT
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -36,16 +36,16 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		set_country_flag = had_cbn_civil_war
 		add_stability = -3
 	}
-	
+
 	option = {
 		name = "caribbean.2.a"
 		ai_chance = {
@@ -74,23 +74,23 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		remove_country_modifier = caribbean_tolerance_disaster
 		remove_country_modifier = caribbean_conversion_disaster
 	}
-	
+
 	option = {
 		name = "caribbean.3.a"
 		ai_chance = {
 			factor = 1
 		}
 		hidden_effect = {
-			country_event = { 
+			country_event = {
 				id = caribbean.8
 				days = 1095
 				random = 730
@@ -103,7 +103,7 @@ province_event = {
 	title = "caribbean.4.title"
 	desc = "caribbean.4.desc"
 	picture = RELIGIOUS_CONVERSION_eventPicture
-	
+
 	trigger = {
 		OR = {
 			AND = {
@@ -125,7 +125,7 @@ province_event = {
 			primary_culture = west_indian
 		}
 	}
-	
+
 	is_mtth_scaled_to_size = 1
 
 	mean_time_to_happen = {
@@ -143,7 +143,7 @@ country_event = {
 	title = "caribbean.5.title"
 	desc = "caribbean.5.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		exists = FLD
 		482 = {
@@ -152,7 +152,7 @@ country_event = {
 		tag = CBN
 		NOT = { has_country_flag = caribbean_offered}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 36
 	}
@@ -161,11 +161,11 @@ country_event = {
 
 	option = {
 		name = "caribbean.5.a"
-		ai_chance = { 
+		ai_chance = {
 			factor = 50
 		}
 		FLD = {
-			country_event = { 
+			country_event = {
 				id = caribbean.6
 				days = 5
 			}
@@ -173,7 +173,7 @@ country_event = {
 	}
 	option = {
 		name = "caribbean.5.b"
-		ai_chance = { 
+		ai_chance = {
 			factor = 50
 		}
 	}
@@ -183,7 +183,7 @@ country_event = {
 	title = "caribbean.6.title"
 	desc = "caribbean.6.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		tag = FLD
 	}
@@ -193,7 +193,7 @@ country_event = {
 
 	option = {
 		name = "caribbean.6.a"
-		ai_chance = { 
+		ai_chance = {
 			factor = 100
 		}
 		add_treasury = -200
@@ -206,7 +206,7 @@ country_event = {
 	}
 	option = {
 		name = "caribbean.6.b"
-		ai_chance = { 
+		ai_chance = {
 			factor = 0
 		}
 	}
@@ -216,7 +216,7 @@ country_event = {
 	title = "caribbean.7.title"
 	desc = "caribbean.7.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		NOT = { exists = X79 }
 		leeward_islands_area = {
@@ -230,7 +230,7 @@ country_event = {
 		tag = CBN
 		NOT = { has_country_flag = caribbean_antilles }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -250,7 +250,7 @@ country_event = {
 	title = "caribbean.8.title"
 	desc = "caribbean.8.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		tag = CBN
 	}
@@ -258,7 +258,7 @@ country_event = {
 
 	option = {
 		name = "caribbean.8.a"
-		ai_chance = { 
+		ai_chance = {
 			factor = 30
 		}
 		add_years_of_income = -2
@@ -292,7 +292,7 @@ country_event = {
 	}
 	option = {
 		name = "caribbean.8.b"
-		ai_chance = { 
+		ai_chance = {
 			factor = 70
 		}
 		cuba_area = {
@@ -329,11 +329,11 @@ country_event = {
 	title = "caribbean.9.title"
 	desc = "caribbean.9.desc"
 	picture = MERCHANTS_TALKING_eventPicture
-	
+
 	trigger = {
 		tag = CBN
 	}
-	
+
 	mean_time_to_happen = {
 		months = 600
 	}
@@ -341,7 +341,7 @@ country_event = {
 
 	option = {
 		name = "caribbean.9.a"
-		ai_chance = { 
+		ai_chance = {
 			factor = 100
 		}
 		define_advisor = {

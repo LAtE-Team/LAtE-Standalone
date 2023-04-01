@@ -23,7 +23,7 @@ ameronordic = {
 			Widukind Wichmann Wiggert Wolf Wiprecht Wolfgang
 			Ziegel
 		}
-		
+
 		female_names = {
 			Alhet Aenor Aldegunde
 			Brunhilda
@@ -66,7 +66,7 @@ ameronordic = {
 			Tommo Tohmas Torvald Toivo
 			Wolf
 		}
-		
+
 		female_names = {
 			Auni Anna Ada Amalia Amanda Annaliisa Aurora
 			Beth Brita
@@ -113,7 +113,7 @@ ameronordic = {
 			Wendell Wilbur Wiglaf Werner Walter Wilmar Wulfgar Wulfrik
 			Yngvar
 		}
-		
+
 		female_names = {
 			Agathe Aela Alva Amanda Anja Anniken Anita Arnbjorg Antonia Audhild Agnis Agna Agni Alfhild Astrid Abelone Anska
 			Beata Benedikte Bergljot Birgit Bjorg Bodil Borghild Brynhild Beitlid Bjartur Bolfrida Brida

@@ -3,20 +3,20 @@
 compatibility_127 = {
 	start = {
 	}
-	
+
 	bonus = {
 	}
 
 	trigger = {
 		always = no
 	}
-	
+
 	free = yes
-	
+
 	excellent_shipwrights = {
 	}
 	establish_cadet_branches = {
-	}	
+	}
 	pragmatism = {
 	}
 	resilient_state = {

@@ -73,7 +73,7 @@ AGH_pittsburgh_modifier = {
 }
 
 AGH_factories_modifier = {
-	trade_goods_size = 0.5	
+	trade_goods_size = 0.5
 }
 
 PHI_capital_modifier_1 = {

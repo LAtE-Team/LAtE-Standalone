@@ -19,12 +19,12 @@ monarch_names = {
 	"Cupid #0" = 1
 	"Donner #0" = 1
 	"Blitzen #0" = 1
-	
+
 	"Lucy #0" = -1
 	"Rebecca #0" = -1
 }
 
-leader_names = { 
+leader_names = {
 	Kringle
 	Claus
 	Noel

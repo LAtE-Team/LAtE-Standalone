@@ -8,22 +8,22 @@ color = { 218 227 135 }
 
 leader_names = {
 
-	"Lena" "Leslie" "Carson" "Heath" "Peter" "Halle" "Marcel" "Rosemond" "Leonid" "Daniel" 
-	"Hudson" "Shirley" "Harris" "Thao" "Jerry" "Dean" "Andrew" "Lucy" "Ebert" "Lizabeth" 
-	"Jeanette" "Gus" "Greene" "Gladys" "Murray" "Kathleen" "Jayne" "Camila" "Dora" "Walter" 
-	"Anthony" "Stanley" "Kerr" "Nolan" "Newton" "Grace" "Georgianna" "Montgomery" "Yvonne" "Jose" 
-	"Sydney" "Ashley" "Cynthia" "Liam" "Spencer" "Jeffrey" "Ann" "Morgan" "Merle" "Sidney" 
-	"Joseph" "Albert" "David" "Ralph" "Ella" "Laura" "Carole" "Millie" "Jeanne" "Marlene" 
-	"Monib" "Agnes" "Hedy" "Ava" "Lovisa" "Alice" "Lilian" "Ford" "Paige" "Quinn" 
-	"Kim" "Helen" "Dorothy" "Douglas" "Rhonda" "Tenaya" "Ysa" "Padooa" "Winona" "Nuga" 
-	"Ada" "Angel" "Keaton" "Lewis" "Gene" "Snoqualmie" "Awan" "Bagootsoo" "Cui-ui" "Delsin" 
-	"Eesha" "Egan" "Esa" "Ggwe'na'a" "Hastiin" "Honi" "Hootseba" "Howi" "Isappu" "Joe-ely" 
-	"Kaadu" "Kene" "Kin-naa'a" "Kootsoo" "Kuubba" "Mahkah" "Manege" "Micco" "Na-gah" "Naguddu" 
-	"Nana" "Nat-se" "Nigan" "Nimerigar" "Niyol" "Nodda" "Nooyooadu" "Numaga" "Nuunuawunu" "Oha'a" 
-	"Oitsi" "Onennamucca" "Paggwe" "Pahe" "Pamogo" "Pannunudu" "Paulina" "Piaisan" "Poito" "Pokoh" 
-	"Poohwi" "Poongatse" "Poot-see" "Pu'wihi" "Qui-am-i" "Ross-hardin" "Shilah" "Shinoh" "Sumu" "Taboo'oo" 
-	"Tate" "Tau-gu" "Tavibo" "Tibow" "Tillohash" "Tocho" "Togu" "Toohoo'o" "Tooonugwetsedu" "Truckee" 
-	"Tsagase'e" "Tse'nahaha" "Tubboge" "Tuggweggwetseba" "Uweka" "Wa'etse" "Waha" "Wahveveh" "Wannnga'a" "Watsukwe" 
+	"Lena" "Leslie" "Carson" "Heath" "Peter" "Halle" "Marcel" "Rosemond" "Leonid" "Daniel"
+	"Hudson" "Shirley" "Harris" "Thao" "Jerry" "Dean" "Andrew" "Lucy" "Ebert" "Lizabeth"
+	"Jeanette" "Gus" "Greene" "Gladys" "Murray" "Kathleen" "Jayne" "Camila" "Dora" "Walter"
+	"Anthony" "Stanley" "Kerr" "Nolan" "Newton" "Grace" "Georgianna" "Montgomery" "Yvonne" "Jose"
+	"Sydney" "Ashley" "Cynthia" "Liam" "Spencer" "Jeffrey" "Ann" "Morgan" "Merle" "Sidney"
+	"Joseph" "Albert" "David" "Ralph" "Ella" "Laura" "Carole" "Millie" "Jeanne" "Marlene"
+	"Monib" "Agnes" "Hedy" "Ava" "Lovisa" "Alice" "Lilian" "Ford" "Paige" "Quinn"
+	"Kim" "Helen" "Dorothy" "Douglas" "Rhonda" "Tenaya" "Ysa" "Padooa" "Winona" "Nuga"
+	"Ada" "Angel" "Keaton" "Lewis" "Gene" "Snoqualmie" "Awan" "Bagootsoo" "Cui-ui" "Delsin"
+	"Eesha" "Egan" "Esa" "Ggwe'na'a" "Hastiin" "Honi" "Hootseba" "Howi" "Isappu" "Joe-ely"
+	"Kaadu" "Kene" "Kin-naa'a" "Kootsoo" "Kuubba" "Mahkah" "Manege" "Micco" "Na-gah" "Naguddu"
+	"Nana" "Nat-se" "Nigan" "Nimerigar" "Niyol" "Nodda" "Nooyooadu" "Numaga" "Nuunuawunu" "Oha'a"
+	"Oitsi" "Onennamucca" "Paggwe" "Pahe" "Pamogo" "Pannunudu" "Paulina" "Piaisan" "Poito" "Pokoh"
+	"Poohwi" "Poongatse" "Poot-see" "Pu'wihi" "Qui-am-i" "Ross-hardin" "Shilah" "Shinoh" "Sumu" "Taboo'oo"
+	"Tate" "Tau-gu" "Tavibo" "Tibow" "Tillohash" "Tocho" "Togu" "Toohoo'o" "Tooonugwetsedu" "Truckee"
+	"Tsagase'e" "Tse'nahaha" "Tubboge" "Tuggweggwetseba" "Uweka" "Wa'etse" "Waha" "Wahveveh" "Wannnga'a" "Watsukwe"
 	"Wesa" "Wesepooggoo" "Wewawewa" "Winnemucca" "Wintook" "Wovoka" }
 monarch_names = {
 	"Lena #0" = -1

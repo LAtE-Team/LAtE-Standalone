@@ -8,16 +8,16 @@ color = { 210 0 20 }
 
 leader_names = {
 
-	"Claudia" "Monica" "Margarita" "Clara" "Michele" "Jaime" "Oscar" "Isabel" "Manuel" "Aurelio" 
-	"Alejandro" "Ángel" "Antonio" "Alfredo" "Anselmo" "Agostino" "Armentario" "Albito" "Álvaro" "Arsenio" 
-	"Blas Roca" "Bolivar" "Batista" "Bartolomé" "Bienvenido" "Basilio" "Barbarito" "Carlos" "Claudio" "Cándido" 
-	"Calixto" "César" "Castro" "Desiderio" "Elián" "Eduardo" "Eliécer" "Efraín" "Ernesto" "Enrique" 
-	"Fidel" "Fulgencio" "Fadrique" "Felix" "Felipe" "Diego" "Damián" "Guillermo" "Gonazlo" "Guy" 
-	"Garcia" "Gaspar" "Hugo" "Hernando" "Humberto" "Isidoro" "Ignacio" "Jorge" "José" "Jerónimo" 
-	"Jacinto" "Luis" "Lorenzo" "Laureano" "Léon" "Martin" "Miguelito" "Mailoco" "Metopio" "Marlon" 
-	"Marco" "Nuno" "Nicasio" "Osvaldo" "Orosio" "Orlando" "Orestes" "Pedro" "Paulo" "Pacheco" 
-	"Ponciano" "Perucho" "Raúl" "Ramon" "Rosendo" "Recaredo" "Rabinato" "Roberto" "Simon" "Sergio" 
-	"Sabarico" "Suario" "Sebastián" "Sancho" "Severino" "Silvio" "Tomás" "Teodomiro" "Vasco" "Vicente" 
+	"Claudia" "Monica" "Margarita" "Clara" "Michele" "Jaime" "Oscar" "Isabel" "Manuel" "Aurelio"
+	"Alejandro" "Ángel" "Antonio" "Alfredo" "Anselmo" "Agostino" "Armentario" "Albito" "Álvaro" "Arsenio"
+	"Blas Roca" "Bolivar" "Batista" "Bartolomé" "Bienvenido" "Basilio" "Barbarito" "Carlos" "Claudio" "Cándido"
+	"Calixto" "César" "Castro" "Desiderio" "Elián" "Eduardo" "Eliécer" "Efraín" "Ernesto" "Enrique"
+	"Fidel" "Fulgencio" "Fadrique" "Felix" "Felipe" "Diego" "Damián" "Guillermo" "Gonazlo" "Guy"
+	"Garcia" "Gaspar" "Hugo" "Hernando" "Humberto" "Isidoro" "Ignacio" "Jorge" "José" "Jerónimo"
+	"Jacinto" "Luis" "Lorenzo" "Laureano" "Léon" "Martin" "Miguelito" "Mailoco" "Metopio" "Marlon"
+	"Marco" "Nuno" "Nicasio" "Osvaldo" "Orosio" "Orlando" "Orestes" "Pedro" "Paulo" "Pacheco"
+	"Ponciano" "Perucho" "Raúl" "Ramon" "Rosendo" "Recaredo" "Rabinato" "Roberto" "Simon" "Sergio"
+	"Sabarico" "Suario" "Sebastián" "Sancho" "Severino" "Silvio" "Tomás" "Teodomiro" "Vasco" "Vicente"
 	"Vidal" "Walfredo" "Xerome" "Xavier" }
 monarch_names = {
 	"Claudia #0" = -1

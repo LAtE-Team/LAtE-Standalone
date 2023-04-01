@@ -8,19 +8,19 @@ color = { 202 26 26 }
 
 leader_names = {
 
-	"Havelock" "Giles" "Gringolet" "Lupus" "Theophilus" "Anne" "Agravain" "Bartle" "Severus" "Rudyard" 
-	"Richard" "Dinadan" "Capald" "Albus" "Sylvester" "Phineas" "Oliver" "Rubeus" "Outgrabe" "Arthur" 
-	"Alan" "Ajax" "Accolon" "Angus" "Attwell" "Baldrick" "Brillig" "Borogove" "Bedivere" "Breunor" 
-	"Brutus" "Brum" "Balian" "Bran" "Bruin" "Barnaby" "Brelan" "Charles" "Colin" "Carloman" 
-	"Chilperick" "Constantine" "Craddock" "Claudas" "Cedrick" "Cynan" "Catigern" "Dorian" "Darius" "Douglas" 
-	"Dagobert" "Dagonet" "Edward" "Edmund" "Errol" "Ector" "Elyan" "Edern" "Frederick" "Fry" 
-	"Firmin" "Fergus" "Frobisher" "Gilbert" "Gyre" "Gordon" "Guy" "Gann" "Gallahad" "Gryphon" 
-	"Gareth" "Geraint" "Griflet" "Gildas" "Hiram" "Horatio" "Hartnell" "Harper" "Hurndall" "Hector" 
-	"Hengist" "Isambard" "Julian" "Joffrey" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" "Lionel" 
-	"Lucan" "Lucius" "Manfield" "Much" "Meldrick" "Manxome" "Malcolm" "Mercury" "Maleagant" "Morgan" 
-	"Marmaduke" "Nelson" "Nennius" "Neddard" "Owen" "Oberon" "Peter" "Percival" "Pertwee" "Pepin" 
-	"Paget" "Pelleas" "Pellinore" "Ruddigore" "Robin" "Randolph" "Rugbert" "Rigby" "Rowland" "Sullivan" 
-	"Scathelock" "Sagramore" "Thaddeus" "Tove" "Tennant" "Tulgey" "Theobald" "Tarrant" "Tristan" "Tiberius" 
+	"Havelock" "Giles" "Gringolet" "Lupus" "Theophilus" "Anne" "Agravain" "Bartle" "Severus" "Rudyard"
+	"Richard" "Dinadan" "Capald" "Albus" "Sylvester" "Phineas" "Oliver" "Rubeus" "Outgrabe" "Arthur"
+	"Alan" "Ajax" "Accolon" "Angus" "Attwell" "Baldrick" "Brillig" "Borogove" "Bedivere" "Breunor"
+	"Brutus" "Brum" "Balian" "Bran" "Bruin" "Barnaby" "Brelan" "Charles" "Colin" "Carloman"
+	"Chilperick" "Constantine" "Craddock" "Claudas" "Cedrick" "Cynan" "Catigern" "Dorian" "Darius" "Douglas"
+	"Dagobert" "Dagonet" "Edward" "Edmund" "Errol" "Ector" "Elyan" "Edern" "Frederick" "Fry"
+	"Firmin" "Fergus" "Frobisher" "Gilbert" "Gyre" "Gordon" "Guy" "Gann" "Gallahad" "Gryphon"
+	"Gareth" "Geraint" "Griflet" "Gildas" "Hiram" "Horatio" "Hartnell" "Harper" "Hurndall" "Hector"
+	"Hengist" "Isambard" "Julian" "Joffrey" "Joseph" "Ludovick" "Lovarck" "Lesland" "Lancelot" "Lionel"
+	"Lucan" "Lucius" "Manfield" "Much" "Meldrick" "Manxome" "Malcolm" "Mercury" "Maleagant" "Morgan"
+	"Marmaduke" "Nelson" "Nennius" "Neddard" "Owen" "Oberon" "Peter" "Percival" "Pertwee" "Pepin"
+	"Paget" "Pelleas" "Pellinore" "Ruddigore" "Robin" "Randolph" "Rugbert" "Rigby" "Rowland" "Sullivan"
+	"Scathelock" "Sagramore" "Thaddeus" "Tove" "Tennant" "Tulgey" "Theobald" "Tarrant" "Tristan" "Tiberius"
 	"Teignmouth" "Uriens" "Uther" "Vincent" "Vaisey" "Victor" "Wilbert" "Winston" "Yaffle" }
 monarch_names = {
 	"Havelock #1" = 0

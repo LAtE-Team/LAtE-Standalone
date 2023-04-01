@@ -8,20 +8,20 @@ color = { 56 188 125 }
 
 leader_names = {
 
-	"Radley" "Peach" "Sapphire" "Erneshia" "Robert" "Alexander" "Forrest" "Cambria" "Trisha" "Betty" 
-	"Donny" "Woody" "Link" "Hattie" "Bodean" "Gertrude" "Harry" "Larlene" "Garth" "Lon" 
-	"Jozelle" "Brittney" "Braxton" "Dale" "Debbie" "Bob" "Vanity" "Patty" "Faylene" "Austin" 
-	"Adley" "Abe" "Avery" "Atticus" "Arthur" "Boblee" "Bill" "Bo" "Bart" "Bubba" 
-	"Buck" "Buddy" "Bucephalus" "Billup" "Burris" "Baker" "Conway" "Casey" "Chandler" "Chuck" 
-	"Chester" "Cleavon" "Cleon" "Cletus" "Clint" "Cooter" "Cooper" "Cody" "Charles" "Cecil" 
-	"Dean" "Delmont" "Delmer" "Doc" "Dwayne" "Dwight" "Dixon" "Dolphus" "Dill" "Earl" 
-	"Elrod" "Enos" "Eustice" "Ewell" "Floyd" "Fred" "Francis" "George" "Grattan" "Gregory" 
-	"Gilmer" "Harley" "Homer" "Horace" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock" 
-	"Hale" "Isham" "Ike" "Jesse" "Johnny" "John" "Jackson" "Jed" "Jerry" "Jessie" 
-	"Jim" "Joe" "Junior" "Jeptha" "Jubal" "Jeremy" "Jem" "Jack" "Lee" "Littlejohn" 
-	"Luther" "Lyndon" "Larry" "Mike" "Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis" 
-	"Philander" "Ray" "Raleigh" "Reb" "Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus" 
-	"Ricky" "Raymond" "Reynold" "Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler" 
+	"Radley" "Peach" "Sapphire" "Erneshia" "Robert" "Alexander" "Forrest" "Cambria" "Trisha" "Betty"
+	"Donny" "Woody" "Link" "Hattie" "Bodean" "Gertrude" "Harry" "Larlene" "Garth" "Lon"
+	"Jozelle" "Brittney" "Braxton" "Dale" "Debbie" "Bob" "Vanity" "Patty" "Faylene" "Austin"
+	"Adley" "Abe" "Avery" "Atticus" "Arthur" "Boblee" "Bill" "Bo" "Bart" "Bubba"
+	"Buck" "Buddy" "Bucephalus" "Billup" "Burris" "Baker" "Conway" "Casey" "Chandler" "Chuck"
+	"Chester" "Cleavon" "Cleon" "Cletus" "Clint" "Cooter" "Cooper" "Cody" "Charles" "Cecil"
+	"Dean" "Delmont" "Delmer" "Doc" "Dwayne" "Dwight" "Dixon" "Dolphus" "Dill" "Earl"
+	"Elrod" "Enos" "Eustice" "Ewell" "Floyd" "Fred" "Francis" "George" "Grattan" "Gregory"
+	"Gilmer" "Harley" "Homer" "Horace" "Hank" "Humble" "Henry" "Heck" "Harris" "Hancock"
+	"Hale" "Isham" "Ike" "Jesse" "Johnny" "John" "Jackson" "Jed" "Jerry" "Jessie"
+	"Jim" "Joe" "Junior" "Jeptha" "Jubal" "Jeremy" "Jem" "Jack" "Lee" "Littlejohn"
+	"Luther" "Lyndon" "Larry" "Mike" "Maxwell" "Nate" "Nathan" "Otis" "Philus" "Purvis"
+	"Philander" "Ray" "Raleigh" "Reb" "Robbie" "Rocky" "Roscoe" "Rowan" "Roy" "Rufus"
+	"Ricky" "Raymond" "Reynold" "Saggory" "Spencer" "Simon" "Tiberius" "Tommylee" "Trigger" "Tyler"
 	"Terry" "Tate" "Taylor" "Vinton" "Wade" "Winchester" "Wilbur" "Whitely" "Walter" }
 monarch_names = {
 	"Radley #0" = 1

@@ -5,11 +5,11 @@ country_event = {		#Hudson's Bay Question - for QUE
 	title = "flavor_CAN.2.TITLE"
 	desc = "flavor_CAN.2.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes	#Triggered on completion of que_ont_control_ontario mission as QUE
-	
+
 	option = {	#Give claims to ONT
 		name = "flavor_CAN.2.a"
 		ai_chance = { factor = 0}
@@ -71,11 +71,11 @@ country_event = {	#Event for ONT to keep claims on greater Quebec, or give to QU
 	title = "flavor_CAN.3.TITLE"
 	desc = "flavor_CAN.3.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {	#Give claims to QUE
 		name = "flavor_CAN.3.a"
 		ai_chance = { factor = 0}
@@ -170,7 +170,7 @@ country_event = {	#Event for ONT to keep claims on greater Quebec, or give to QU
 					}
 					add_permanent_claim = QUE
 				}
-			}	
+			}
 		}
 	}
 	option = {	#Take claims as ONT
@@ -275,11 +275,11 @@ country_event = {	#Event for QUE if it has a colony in Britain. Gives option to 
 	title = "flavor_CAN.4.TITLE"
 	desc = "flavor_CAN.4.DESC"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes	#Triggered on completion of que_colonize_britain mission
-	
+
 	option = {	#Makes primary culture of colony Ontarian
 		name = "flavor_CAN.4.a"
 		ai_chance = { factor = 0}
@@ -310,11 +310,11 @@ country_event = {	#Hidden event triggered by flavor_CAN.4. Makes all Quebecois p
 	title = "flavor_CAN.5.TITLE"
 	desc = "flavor_CAN.5.DESC"
 	picture = ADVISOR_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "flavor_CAN.5.a"
 		every_owned_province = {
@@ -334,11 +334,11 @@ country_event = {	#Event for ONT to make primary culture in French colony Quebec
 	title = "flavor_CAN.6.TITLE"
 	desc = "flavor_CAN.6.DESC"
 	picture = DEBATE_REPUBLICAN_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes	#Triggered on completion of ont_colonize_france mission.
-	
+
 	option = {	#Make primary culture of colony Quebecois
 		name = "flavor_CAN.6.a"
 		ai_chance = { factor = 0}
@@ -359,7 +359,7 @@ country_event = {	#Event for ONT to make primary culture in French colony Quebec
 	}
 	option = {
 		name = "flavor_CAN.6.b"
-		ai_chance = { factor = 1}	
+		ai_chance = { factor = 1}
 	}
 }
 
@@ -368,11 +368,11 @@ country_event = { #Event for colony turning Ontarian provinces Quebecois
 	title = "flavor_CAN.7.TITLE"
 	desc = "flavor_CAN.7.DESC"
 	picture = ADVISOR_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "flavor_CAN.7.a"
 		every_owned_province = {
@@ -392,11 +392,11 @@ country_event = {	#Not used
 	title = "flavor_CAN.8.TITLE"
 	desc = "flavor_CAN.8.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "flavor_CAN.6.a"
 		add_prestige = 50
@@ -412,11 +412,11 @@ country_event = {	#Not used
 	title = "flavor_CAN.9.TITLE"
 	desc = "flavor_CAN.9.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "flavor_CAN.9.a"
 		add_prestige = 50
@@ -425,18 +425,18 @@ country_event = {	#Not used
 			duration = -1
 		}
 	}
-}	
+}
 
 country_event = {	#Not used.
 	id = flavor_CAN.10
 	title = "flavor_CAN.10.TITLE"
 	desc = "flavor_CAN.10.DESC"
 	picture = COURT_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "flavor_CAN.10.a"
 		capital_scope = {
@@ -449,4 +449,4 @@ country_event = {	#Not used.
 			}
 		}
 	}
-}	
+}

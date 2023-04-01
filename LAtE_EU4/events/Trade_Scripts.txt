@@ -7,13 +7,13 @@ country_event = {
 	title = late_trade.2.title
 	desc = late_trade.2.desc
 	picture = "BANKRUPTCY_eventPicture"
-	
+
 	is_triggered_only = yes
 	hidden = yes
-	
+
 	option = {
 		name = late_trade.2.a
-		
+
 		#Level 1 - Coastal
 		every_province = {
 			limit = {
@@ -96,7 +96,7 @@ country_event = {
 					province_id = 876 #Yavapai (Pheonix)
 					province_id = 742 #Angostura
 					province_id = 899 #Salem
-					province_id = 4511 #Reno 
+					province_id = 4511 #Reno
 
 				}
 			}
@@ -116,7 +116,7 @@ country_event = {
 					province_id = 1008 #Winnipeg
 					province_id = 891 #Naisha (Oklahoma)
 					province_id = 898 #Kansas
-					province_id = 4585 #St Louis 
+					province_id = 4585 #St Louis
 					province_id = 895 #Arkansas
 					province_id = 4574 #Cincinatti
 					province_id = 4624 #Pittsburgh
@@ -127,7 +127,7 @@ country_event = {
 			}
 			center_of_trade = 2
 		}
-	
+
 	}
 
 }

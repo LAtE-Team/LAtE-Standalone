@@ -7,16 +7,16 @@ color = { 30 182 30 }
 
 leader_names = {
 
-	"Ihldiinii" "Kayung" "Klinkwan" "Skil Tiis" "Kagan" "Tsang" "Jaadaa" "Yahl Kangwaas" "Hluunaagad" "Hlk'yah Gaawga" 
-	"Haiwee" "Xuut" "Guulaas" "Daa Heeigan" "Gidkun" "Drake" "Raven" "Hussain" "Howkan" "Hiljuuwaas" 
-	"Gogiid" "Sawehamish" "Stodumkan" "Skwah" "Skilhlang" "Bench" "Bill" "Zenas" "Thasi" "Atewaas" 
-	"Cha'atl" "Chee Xial Taaiixou" "Chiin" "Cuneah" "Dayaang" "Gaahlaa" "Gaahlaay" "Ganiihlaas" "Ghaltsaakw" "Gidansda" 
-	"Ginaawaan" "Giteewans" "Gitkinjuuwaas" "Guujaaw" "Guusk'an" "Gwaay Guu Ganhlin" "Gya'awhlans" "Gyaahlans" "Haina" "Hidansuu" 
-	"Hiellan" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hlgitun" "Hluuwee" "Jaahguhl" "K'ap" "Kaat" "Kilsdlaa Xidguns" 
-	"Kithlaigaa" "Kiusta" "Koya" "Kun" "Kung" "Masset" "Nang Jingwas" "Nang Kilsdlaas" "S'gana" "Sdiithldaa" 
-	"Sgaal" "Sgaana" "Sgaann Hiwhwaans" "Siigee" "Skaaxwad" "Skaay" "Skedans" "Skidegate" "Skil Hiilans" "Skilkaadgan" 
-	"Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "T'lajung Nung Kingaas" "Taan" "Tahaygen" "Tanu" "Tl'aagaang Quna" 
-	"Tsaa Hamjuuwee" "Tsaak" "Tsahtsaa" "Tsinni" "Wigaanad" "Wiiaa" "Xa" "Xunts" "Yahguaas" "Yahl" 
+	"Ihldiinii" "Kayung" "Klinkwan" "Skil Tiis" "Kagan" "Tsang" "Jaadaa" "Yahl Kangwaas" "Hluunaagad" "Hlk'yah Gaawga"
+	"Haiwee" "Xuut" "Guulaas" "Daa Heeigan" "Gidkun" "Drake" "Raven" "Hussain" "Howkan" "Hiljuuwaas"
+	"Gogiid" "Sawehamish" "Stodumkan" "Skwah" "Skilhlang" "Bench" "Bill" "Zenas" "Thasi" "Atewaas"
+	"Cha'atl" "Chee Xial Taaiixou" "Chiin" "Cuneah" "Dayaang" "Gaahlaa" "Gaahlaay" "Ganiihlaas" "Ghaltsaakw" "Gidansda"
+	"Ginaawaan" "Giteewans" "Gitkinjuuwaas" "Guujaaw" "Guusk'an" "Gwaay Guu Ganhlin" "Gya'awhlans" "Gyaahlans" "Haina" "Hidansuu"
+	"Hiellan" "Hiidangsaa" "Hiidangsdaa" "Hiitl'daa" "Hlgitun" "Hluuwee" "Jaahguhl" "K'ap" "Kaat" "Kilsdlaa Xidguns"
+	"Kithlaigaa" "Kiusta" "Koya" "Kun" "Kung" "Masset" "Nang Jingwas" "Nang Kilsdlaas" "S'gana" "Sdiithldaa"
+	"Sgaal" "Sgaana" "Sgaann Hiwhwaans" "Siigee" "Skaaxwad" "Skaay" "Skedans" "Skidegate" "Skil Hiilans" "Skilkaadgan"
+	"Skilkingaans" "Skilkwiitlaas" "Skuujgee Gong" "Stuut Jubgaab" "Sukkwan" "T'lajung Nung Kingaas" "Taan" "Tahaygen" "Tanu" "Tl'aagaang Quna"
+	"Tsaa Hamjuuwee" "Tsaak" "Tsahtsaa" "Tsinni" "Wigaanad" "Wiiaa" "Xa" "Xunts" "Yahguaas" "Yahl"
 	"Yahl Gwaawaas" "Yahl Hinku" "Yahl Naaw" "Yahl Sgoansins" }
 monarch_names = {
 	"Ihldiinii #0" = 1

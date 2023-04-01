@@ -8,20 +8,20 @@ color = { 207 202 170 }
 
 leader_names = {
 
-	"Paraérciniro" "Luis" "Jesús" "Ree" "Jórsinila" "Bacá" "Cuta" "Francisco" "Maci" "Kóci" 
-	"Ropokókiri" "Gará" "Tito" "Ahuí" "Biré" "Ricibúrsiri" "Abi" "Abijí" "Acá" "Acénisa" 
-	"Acmu" "Ahúmari" "Amí" "Anahuí" "Ané" "Areponápuchi" "Arí" "Arihuá" "Ariósibá" "Asári" 
-	"Asésiñ" "Atisi" "Awáscina" "Awírsiniri" "Ayásimi" "Baarí" "Bahi" "Bahíncina" "Bene" "Benérsina" 
-	"Bichihuá" "Biné" "Binori" "Biquiyá" "Biriná" "Bitebá" "Bitechí" "Botonáma" "Buchí" "Bucurí" 
-	"Bure" "Burito" "Candameña" "Caniri" "Capi" "Capó" "Carari" "Carichí" "Carihué" "Chabé" 
-	"Chibi" "Chicúri" "Cíba" "Cota" "Echi" "Gamé" "Gerérami" "Hué" "Huiyé" "Icínsima" 
-	"Isi" "Isíinsia" "Iyé" "Jabu" "Jicuri" "Juri" "Kacísiniri" "Káwi" "Kéchicaniri" "Kobisi" 
-	"Korútisimi" "Kupa" "Maparí" "Marí" "Muchari" "Muné" "Muquira" "Muripi" "Musena" "Naharápnima" 
-	"Nahuají" "Napari" "Napé" "Napíciu" "Naquí" "Narákuri" "Narcurí" "Naré" "Naríhuani" "Narúciri" 
-	"Nata" "Nira" "Noca" "Noko" "Ohi" "Omero" "Opéscanaro" "Opésciniro" "Osa" "Pagótami" 
-	"Pakótami" "Páksinima" "Pamachi" "Picíra" "Pura" "Químare" "Rahui" "Rajá" "Reméncani" "Rihibánsa" 
-	"Riné" "Rokó" "Roróoncani" "Sapársimi" "Saté" "Seba" "Seka" "Simásnura" "Sináscina" "Siwa" 
-	"Sokoruame" "Soma" "Sopori" "Soru" "Sumé" "Suré" "Súrniri" "Tarí" "Teporaca" "Ticíksima" 
+	"Paraérciniro" "Luis" "Jesús" "Ree" "Jórsinila" "Bacá" "Cuta" "Francisco" "Maci" "Kóci"
+	"Ropokókiri" "Gará" "Tito" "Ahuí" "Biré" "Ricibúrsiri" "Abi" "Abijí" "Acá" "Acénisa"
+	"Acmu" "Ahúmari" "Amí" "Anahuí" "Ané" "Areponápuchi" "Arí" "Arihuá" "Ariósibá" "Asári"
+	"Asésiñ" "Atisi" "Awáscina" "Awírsiniri" "Ayásimi" "Baarí" "Bahi" "Bahíncina" "Bene" "Benérsina"
+	"Bichihuá" "Biné" "Binori" "Biquiyá" "Biriná" "Bitebá" "Bitechí" "Botonáma" "Buchí" "Bucurí"
+	"Bure" "Burito" "Candameña" "Caniri" "Capi" "Capó" "Carari" "Carichí" "Carihué" "Chabé"
+	"Chibi" "Chicúri" "Cíba" "Cota" "Echi" "Gamé" "Gerérami" "Hué" "Huiyé" "Icínsima"
+	"Isi" "Isíinsia" "Iyé" "Jabu" "Jicuri" "Juri" "Kacísiniri" "Káwi" "Kéchicaniri" "Kobisi"
+	"Korútisimi" "Kupa" "Maparí" "Marí" "Muchari" "Muné" "Muquira" "Muripi" "Musena" "Naharápnima"
+	"Nahuají" "Napari" "Napé" "Napíciu" "Naquí" "Narákuri" "Narcurí" "Naré" "Naríhuani" "Narúciri"
+	"Nata" "Nira" "Noca" "Noko" "Ohi" "Omero" "Opéscanaro" "Opésciniro" "Osa" "Pagótami"
+	"Pakótami" "Páksinima" "Pamachi" "Picíra" "Pura" "Químare" "Rahui" "Rajá" "Reméncani" "Rihibánsa"
+	"Riné" "Rokó" "Roróoncani" "Sapársimi" "Saté" "Seba" "Seka" "Simásnura" "Sináscina" "Siwa"
+	"Sokoruame" "Soma" "Sopori" "Soru" "Sumé" "Suré" "Súrniri" "Tarí" "Teporaca" "Ticíksima"
 	"Tonachi" "Torécani" "Uba" "Ubáscani" "Urí" "Wari" "Wasa" "Wikaráncane" "Wikuwáscina" "Wiri" }
 monarch_names = {
 	"Paraérciniro #1" = 18

@@ -8,18 +8,18 @@ color = { 134 133 121 }
 
 leader_names = {
 
-	"Ebenezer" "Charles" "Samuel" "Morris" "Deserontyon" "Geraldine" "Hillary" "Archibald" "Johannes" "Geraint" 
-	"Lucan" "Ector" "Arnold" "Meleager" "Anthemeol" "Josiah" "Alexandra" "Andries" "Anton" "August" 
-	"Artur" "Albert" "Abel" "Andre" "Baltus" "Brom" "Benjamin" "Cashunyon" "Cornelis" "Clinton" 
-	"Cangueese" "Carillon" "Cyrus" "Cephas" "Chester" "Cotton" "Derrick" "Diedrich" "Daniel" "Delby" 
-	"Darius" "David" "Ethan" "Edgar" "Ernest" "Elihu" "Edwin" "Erastus" "Ellis" "Eli" 
-	"Frederick" "Franklin" "Friso" "Guyasut" "Geoffrey" "Gideon" "Gerrit" "Gemolo" "Hudson" "Hendrick" 
-	"Hunter" "Hamilton" "Holbrook" "Harmanus" "Hugh" "Himerius" "Ichabod" "Isaac" "Jervis" "Jocelyn" 
-	"Jacobus" "Jasper" "Jovan" "Kirke" "Kent" "Kel" "Launcelot" "Leo" "Lewis" "Lemuel" 
-	"Martin" "Montgomery" "Malcolm" "Mather" "Nicholas" "Nathaniel" "Norton" "Otetian" "Ogden" "Oliver" 
-	"Oswald" "Pindar" "Philip" "Phinehas" "Quincy" "Quentin" "Quoz" "Roger" "Richard" "Raymond" 
-	"Rip" "Rodney" "Rufus" "Rollin" "Stephanus" "Stanwix" "Silus" "Simon" "Solon" "Traynor" 
-	"Theodore" "Tehwehron" "Tompkin" "Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester" 
+	"Ebenezer" "Charles" "Samuel" "Morris" "Deserontyon" "Geraldine" "Hillary" "Archibald" "Johannes" "Geraint"
+	"Lucan" "Ector" "Arnold" "Meleager" "Anthemeol" "Josiah" "Alexandra" "Andries" "Anton" "August"
+	"Artur" "Albert" "Abel" "Andre" "Baltus" "Brom" "Benjamin" "Cashunyon" "Cornelis" "Clinton"
+	"Cangueese" "Carillon" "Cyrus" "Cephas" "Chester" "Cotton" "Derrick" "Diedrich" "Daniel" "Delby"
+	"Darius" "David" "Ethan" "Edgar" "Ernest" "Elihu" "Edwin" "Erastus" "Ellis" "Eli"
+	"Frederick" "Franklin" "Friso" "Guyasut" "Geoffrey" "Gideon" "Gerrit" "Gemolo" "Hudson" "Hendrick"
+	"Hunter" "Hamilton" "Holbrook" "Harmanus" "Hugh" "Himerius" "Ichabod" "Isaac" "Jervis" "Jocelyn"
+	"Jacobus" "Jasper" "Jovan" "Kirke" "Kent" "Kel" "Launcelot" "Leo" "Lewis" "Lemuel"
+	"Martin" "Montgomery" "Malcolm" "Mather" "Nicholas" "Nathaniel" "Norton" "Otetian" "Ogden" "Oliver"
+	"Oswald" "Pindar" "Philip" "Phinehas" "Quincy" "Quentin" "Quoz" "Roger" "Richard" "Raymond"
+	"Rip" "Rodney" "Rufus" "Rollin" "Stephanus" "Stanwix" "Silus" "Simon" "Solon" "Traynor"
+	"Theodore" "Tehwehron" "Tompkin" "Truman" "Vincent" "William" "Washington" "Walter" "Whitelaw" "Worcester"
 	"Xander" }
 monarch_names = {
 	"Ebenezer #1" = 18

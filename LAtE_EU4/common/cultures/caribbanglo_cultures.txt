@@ -25,7 +25,7 @@ caribbanglo = {
 			Vere Vernon Victor Vincent Vivian
 			Walter Wilfred William Winston Wendell Wynton
 		}
-		
+
 		female_names = {
 			Alicia Alison Althea Angela Annette Amber Andrea Anita Anne Audrey
 			Barbara Beryl Beverly Billie
@@ -76,7 +76,7 @@ caribbanglo = {
 			Wayne Wendell Wilfred William Winston
 			Yasin Yorke
 		}
-		
+
 		female_names = {
 			Afiyah Ahkeela Aleesha Angela Ann Arin Audrey Avanell Aveann Avionne Ayanna
 			Barbara Beverly Brianna
@@ -131,7 +131,7 @@ caribbanglo = {
 			Yeu
 			Zico
 		}
-		
+
 		female_names = {
 			Adella Alice Alicia Alison Alma Angela Anita Anne Annette Ashia Ashley Audrey
 			Belle Bermuda
@@ -327,7 +327,7 @@ caribbanglo = {
 		male_names = {
 			Abdool Abdul Abdur Aftab Aked Alex Alexander Alfred Alvin Andre Andrew Andy Anthony Assad Aubrey Barrington Basil Beni Berkeley Bernard Billy Birchmore Brandon Bruce Carl Charles Charlie Christopher Claude Clayton Clem Cliff Clive Clyde Colin Courtney Cy Cyril Dale Danny David Denis Derek Derwin Devendra Egbert Eion Errol Esuan Faoud Faris Fitz Frank Fred Gajanand George Glendon Gordon Harischandra Harold Henry Ian Imran Ivan Ivor Jack Jagdish Jaison James Jan Jeff Jeremy Joe John Jonathan Kampta Kamroze Keemo Keith Kennard Kenneth Kenny Kevin Krish Laddie Lance Latchman Len Lennox Leon Leslie Linden Lloyd Mahendra Malcolm Marc Mark Martin Maurice Michael Milton Monte Narsingh Neil Neville Nezam Oscar Patrick Paul Peter Philbert Pierre Ramnaresh Ramnarine Randolph Ranuel Ray Rayon Reon Robert Roger Rohan Rondell Ronsford Roy Royston Ruel Rupert Russell Ryan Saheed Sergio Sew Sewnarine Shimron Shivnarine Stanley Stephon Steve Steven Sudesh Sunil Tagenarine Timur Travis Trevon Troy Tyrique Veerasammy Vibart Vishaul Walter Wilfred William Wilson Wordsworth Yannick
 		}
-		
+
 		female_names = {
 			Alana Aliann Alison Amanda Andrea Ann Anneasa Arti Ashana Ashley Beryl Brittany Candace Candacy Carolyn Christa Claire Crystal Deolatchmee Doreen Elly Grace Indranie Jan Janet Joyce Kara Karen Katherina Kayla Lakshmi Laura Laxmi Lisa Mahadai Maria Mariam Marian Marlia Maya Meiling Mona Murleen Narmala Natalya Niketa Odessa Olivia Oonya Pauline Pretty Rajkumari Ruqayyah Ryhaan Sandra Shakira Shari Sharon Shauna Sheleza Shemaine Subrina Taniasha Tremayne Varshni Viola Yvette Yvonne
 		}

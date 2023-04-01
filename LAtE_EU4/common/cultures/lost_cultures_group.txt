@@ -8,7 +8,7 @@ lost_cultures_group = {
 			Star Misty Spirit Lucky Honey Lady Rain Stormy Annie Willow Dreamer Midnight Twilight Buttermilk Silhouette "Lady Wonder" Rainbow Epona Denise Charisma
 		}
 		dynasty_names = {
-			Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle 
+			Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle
 		}
 	}
 	cat = {

@@ -8,11 +8,11 @@ color = { 108 32 85 }
 
 leader_names = {
 
-	"Rockhart" "Petriff" "Belden" "Mar" "Fayola" "Oso" "Aurel" "Argent" "Antero" "Auliffe" 
-	"Buren" "Blair" "Bouldron" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus" "Gray" "Garrald" 
-	"Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum" "Lowry" "Lykin" 
-	"Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Ossos" "Ossin" "Petrus" 
-	"Pike" "Plumblon" "Plumead" "Ptarmigan" "Regis" "Raton" "Stone" "Silveranos" "Stonarm" "Stonear" 
+	"Rockhart" "Petriff" "Belden" "Mar" "Fayola" "Oso" "Aurel" "Argent" "Antero" "Auliffe"
+	"Buren" "Blair" "Bouldron" "Belcaro" "Barnum" "Bushnell" "Clayton" "Eolus" "Gray" "Garrald"
+	"Hale" "Hendrick" "Hague" "Herard" "Hesperus" "Jasper" "Ledon" "Leadblum" "Lowry" "Lykin"
+	"Lyon" "Mineran" "Mineralis" "Montanos" "Marston" "Morris" "Olympos" "Ossos" "Ossin" "Petrus"
+	"Pike" "Plumblon" "Plumead" "Ptarmigan" "Regis" "Raton" "Stone" "Silveranos" "Stonarm" "Stonear"
 	"Sloan" "Tell" "Tarryall" "Vissarion" "Waugh" "Zebulon" "Zirkel" }
 monarch_names = {
 	"Rockhart #0" = 21

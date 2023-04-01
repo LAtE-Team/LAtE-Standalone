@@ -8,19 +8,19 @@ color = { 152 105 71 }
 
 leader_names = {
 
-	"Denis" "Kinnie" "Chansomps" "Kiche" "Shepen" "Honoré" "Madame" "Nittawosew" "Nijlon" "Hurit" 
-	"Theoren" "Kamenna" "Rowtag" "Alsoomse" "Pitahpekis" "Echa" "Kimi" "Charlotte" "Takoyestamix" "Marilyn" 
-	"Laura" "Julie" "Jon" "Etchemin" "Huritt" "Achachak" "Kanen" "Makkitotosimew" "Muscowequan" "Stamiscotocar" 
-	"Hausis" "Hassun" "Etlelooaat" "Segenam" "Ashenee" "Numees" "Koko" "Akkamakkoye" "Alawa" "Sooleawa" 
-	"Wawetseka" "Nadie" "Sinopa" "Namopisi" "Pules" "Kika" "Nichena" "Sokw" "Mukki" "Sokanon" 
-	"Askuwheteau" "Machk" "Robert" "Mati" "Akkakitcipimiwotas" "Matunaagd" "Pearl" "Andrea" "Attistahmacan" "Zoatzetapitapiw" 
-	"Matisa" "Abooksigun" "Wapun" "Aranck" "Jacques" "Nuttah" "Samoset" "Tahki" "Keegsquaw" "Kaneonuskatew" 
-	"Achak" "Askook" "Menashen" "Telsche" "Powaw" "Kitchi" "Wajiwa" "Oota dabun" "Luitgard" "Nuna" 
-	"Astina" "Sunukkuhkau" "Wikimak" "Matisoon" "Pannoowau" "Kanti" "Alec" "Armstrong" "Mingan" "Chogan" 
-	"Natoseonistors" "Thomas" "Reuben" "Jean-Baptiste" "Yvon" "James" "Tête" "Michel" "Abukcheech" "Ahanu" 
-	"Ahtahkakoop" "Anakausuen" "Apenakosapop" "Apisi" "Chapomexico" "Echahow" "Eluwilussit" "Enkoodabaoo" "Hokama" "Kawacatoose" 
-	"Keme" "Kestejoo" "Kisecawchuck" "Kootomais" "Makkapitew" "Matchitehew" "Matoseapiw" "Matwau" "Megedagik" "Mekasto" 
-	"Mekledoodum" "Nixkamich" "Nootau" "Pamoon" "Pokapiwotoian" "Powahque" "Sakoyeaotan" "Sotenah" "Sucki" "Tihkoosue" 
+	"Denis" "Kinnie" "Chansomps" "Kiche" "Shepen" "Honoré" "Madame" "Nittawosew" "Nijlon" "Hurit"
+	"Theoren" "Kamenna" "Rowtag" "Alsoomse" "Pitahpekis" "Echa" "Kimi" "Charlotte" "Takoyestamix" "Marilyn"
+	"Laura" "Julie" "Jon" "Etchemin" "Huritt" "Achachak" "Kanen" "Makkitotosimew" "Muscowequan" "Stamiscotocar"
+	"Hausis" "Hassun" "Etlelooaat" "Segenam" "Ashenee" "Numees" "Koko" "Akkamakkoye" "Alawa" "Sooleawa"
+	"Wawetseka" "Nadie" "Sinopa" "Namopisi" "Pules" "Kika" "Nichena" "Sokw" "Mukki" "Sokanon"
+	"Askuwheteau" "Machk" "Robert" "Mati" "Akkakitcipimiwotas" "Matunaagd" "Pearl" "Andrea" "Attistahmacan" "Zoatzetapitapiw"
+	"Matisa" "Abooksigun" "Wapun" "Aranck" "Jacques" "Nuttah" "Samoset" "Tahki" "Keegsquaw" "Kaneonuskatew"
+	"Achak" "Askook" "Menashen" "Telsche" "Powaw" "Kitchi" "Wajiwa" "Oota dabun" "Luitgard" "Nuna"
+	"Astina" "Sunukkuhkau" "Wikimak" "Matisoon" "Pannoowau" "Kanti" "Alec" "Armstrong" "Mingan" "Chogan"
+	"Natoseonistors" "Thomas" "Reuben" "Jean-Baptiste" "Yvon" "James" "Tête" "Michel" "Abukcheech" "Ahanu"
+	"Ahtahkakoop" "Anakausuen" "Apenakosapop" "Apisi" "Chapomexico" "Echahow" "Eluwilussit" "Enkoodabaoo" "Hokama" "Kawacatoose"
+	"Keme" "Kestejoo" "Kisecawchuck" "Kootomais" "Makkapitew" "Matchitehew" "Matoseapiw" "Matwau" "Megedagik" "Mekasto"
+	"Mekledoodum" "Nixkamich" "Nootau" "Pamoon" "Pokapiwotoian" "Powahque" "Sakoyeaotan" "Sotenah" "Sucki" "Tihkoosue"
 	"Togquos" "Wematin" }
 monarch_names = {
 	"Denis #0" = 1

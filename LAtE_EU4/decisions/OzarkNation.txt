@@ -34,7 +34,7 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 897			# Arkansas
-			owns_core_province = 896			# Sequoyah 
+			owns_core_province = 896			# Sequoyah
 			owns_core_province = 899			# Salem
 			owns_core_province = 894			# Timberland
 		}
@@ -83,5 +83,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 }

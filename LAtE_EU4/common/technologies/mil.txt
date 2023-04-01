@@ -9,12 +9,12 @@ monarch_power = MIL
 technology = {
 	# Tech 0
 	year = 2950
-	
+
 	sprite_level = 1
 
 	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	0.8	
+	infantry_shock 		= 	0.20
+	cavalry_shock  		= 	0.8
 	land_morale 		= 	2.0
 }
 
@@ -24,12 +24,12 @@ technology = {
 	expects_institution = {
 		feudalism = 0.25
 	}
-	
+
 	infantry_shock		= 	0.1
 	infantry_fire 		= 	0.1
-	
+
 	fort_15th = yes
-	
+
 	enable = eastern_halberd_infantry
 	enable = posse_cavalry
 	enable = southern_knights
@@ -39,13 +39,13 @@ technology = {
 	enable = brazilian_longspear
 	enable = argentinian_archer
 	enable = brazilian_spearmen
-	enable = gaucho_bow	
-	enable = cangaco_bow	
-	enable = plains_cowboy_cavalry	
+	enable = gaucho_bow
+	enable = cangaco_bow
+	enable = plains_cowboy_cavalry
 	enable = plains_swarm_cavalry
-	enable = rocklander_generalists	
+	enable = rocklander_generalists
 	enable = western_knights
-	enable = ranger_cavalry	
+	enable = ranger_cavalry
 	enable = european_macemen
 	enable = british_longbowmen
 	enable = european_companion_cavalry
@@ -83,10 +83,10 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 	}
-	
+
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
-	
+
 	combat_width = 5
 }
 
@@ -98,7 +98,7 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 	}
-	
+
 	land_morale = 	0.5
 	may_drill = yes
 }
@@ -111,7 +111,7 @@ technology = {
 	}
 
 	#Pike Square
-	
+
 
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
@@ -124,24 +124,24 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.15
 	}
-	
+
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
 	cavalry_shock		= 	0.2
 
-	enable = minutemen_infantry	
-	enable = sniper_infantry	
+	enable = minutemen_infantry
+	enable = sniper_infantry
 	enable = maritimer_gallowglass_infantry
 	enable = western_ranger_infantry
-	enable = brazilian_footsoldier		
-	enable = argentinian_footsoldier	
+	enable = brazilian_footsoldier
+	enable = argentinian_footsoldier
 	enable = oe_tao
 	enable = european_ambush_infantry
 	enable = scottish_highlander_warriors
 	enable = swiss_guards
 	enable = afghan_tribal_warfare
-	enable = morrocan_tribal_warfare	
+	enable = morrocan_tribal_warfare
 	enable = reformed_boomerang_warrior
 	enable = pirihimana
 	enable = reformed_uralic_warriors
@@ -158,7 +158,7 @@ technology = {
 	enable = south_african_warrior
 	enable = west_african_warrior
 	enable = platinean_pikemen
-	
+
 	combat_width = 2
 }
 
@@ -169,18 +169,18 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.3
 	}
-	
+
 	#Arquebus
 	military_tactics 	= 	0.25
 	infantry_shock		= 	0.30
 	infantry_fire 		= 	0.20
-	
-	
+
+
 	barracks = yes
 
 
 	enable = jundi_cavalry
-	enable = cerrado_cavalry	
+	enable = cerrado_cavalry
 	enable = argentinian_camisasco
 	enable = european_horsemen
 	enable = westasian_horsemen
@@ -192,7 +192,7 @@ technology = {
 	enable = african_somali_cavalry
 	enable = african_tuareg_cavalry
 	enable = improved_conic_gaucho_cavalry
-	
+
 	combat_width = 2
 }
 
@@ -203,12 +203,12 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.5
 	}
-	
+
 	#The limber
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
-	enable = large_cast_bronze_mortar 
+	enable = large_cast_bronze_mortar
 	enable = houfnice
 }
 
@@ -220,12 +220,12 @@ technology = {
 		renaissance = 0.5
 	}
 
-	
+
 	#Pike and Shot
 	infantry_fire		= 	0.25
 	cavalry_shock		=	0.8
 
-	
+
 	regimental_camp = yes
 }
 
@@ -238,14 +238,14 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.15
 	}
-	
+
 	#Ditch
-	
+
 	enable = contract_infantry
 	enable = rust_belt_picket_infantry
 	enable = reformed_gallowglass_infantry
 	enable = pike_infantry
-	enable = brazilian_arquebusier	
+	enable = brazilian_arquebusier
 	enable = plains_outlaws
 	enable = early_digger
 	enable = zebenya_infantry
@@ -253,9 +253,9 @@ technology = {
 	enable = eurasian_streltsy
 	enable = istinggar_musketeers
 	enable = jiaozhi_musketeers
-	
+
 	military_tactics 	= 	0.25
-	combat_width = 1	
+	combat_width = 1
 }
 
 technology = {
@@ -266,13 +266,13 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.3
 	}
-	
+
 	#Reiter
 	maneuver_value 		= 	0.25
 
 	enable = western_abrams
-	enable = culverin		
-	enable = pedrero 
+	enable = culverin
+	enable = pedrero
 	enable = hudsonian_dragoons
 	enable = peatsachel_riders
 	enable = european_cossacks
@@ -303,17 +303,17 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.5
 	}
-	
+
 	#Matchlock Musket
 	infantry_shock		= 	0.20
 	cavalry_fire		= 	0.5
 
-	
+
 	weapons = yes
-	
+
 	combat_width = 2
 }
-	
+
 technology = {
 	# Tech 12
 	year = 3157
@@ -322,17 +322,17 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.5
 	}
-	
+
 	#Spanish Square
 	sprite_level = 2
-	
+
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
 
 	enable = continental_infantry
-	enable = interumnelian_housecarl_infantry	
-	enable = mineiro_banner	
-	enable = offensive_trapper_infantry 
+	enable = interumnelian_housecarl_infantry
+	enable = mineiro_banner
+	enable = offensive_trapper_infantry
 	enable = defensive_trapper_infantry
 	enable = plains_tribesmen
 	enable = guerilla_infantry
@@ -354,11 +354,11 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.15
 	}
-	
+
 	#Trunnions
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
-	
+
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
 	enable = russian_hussar
@@ -373,15 +373,15 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.3
 	}
-	
+
 	#Star Bastions
 	fort_16th = yes
 	infantry_fire		=	0.3
-	
-	enable = canadian_mounted_men 
+
+	enable = canadian_mounted_men
 	enable = reformed_western_abrams
-	enable = western_mounted_men	
-	enable = rocky_mountain_cowboys	
+	enable = western_mounted_men
+	enable = rocky_mountain_cowboys
 	enable = brazilian_charge_cavalry
 	enable = cowboy_lancers
 	enable = european_winged_hussars
@@ -397,7 +397,7 @@ technology = {
 	enable = african_hussar
 	enable = patagonian_arquebusiers
 	enable = patagonian_tank_cavalry
-	
+
 	combat_width = 2
 }
 
@@ -410,16 +410,16 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
-	
+
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
-	
 
-	
-	enable = assault_infantry 
-	enable = earlian_infantry	
-	enable = lookout_infantry	
+
+
+	enable = assault_infantry
+	enable = earlian_infantry
+	enable = lookout_infantry
 	enable = western_continental_infantry
 	enable = brazilian_mass_infantry
 	enable = plains_musketeers
@@ -442,16 +442,16 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
-	
+
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	1.0	
+	artillery_fire 		= 	1.0
 
 
 	training_fields = yes
-	
+
 	combat_width = 1
-	
+
 	enable = chambered_demi_cannon
 }
 
@@ -465,11 +465,11 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.15
 	}
-	
+
 	cavalry_shock		=	1.0
-	supply_limit		= 	0.5	
-	
-	enable = grossense_banner		
+	supply_limit		= 	0.5
+
+	enable = grossense_banner
 	enable = reformed_southeast_asian_cavalry
 	enable = african_swarm
 }
@@ -484,20 +484,20 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.3
 	}
-	
+
 	#Carbine
 	maneuver_value 		= 	0.25
 
-		
-	enable = grangelander_gallop_cavalry	
-	enable = leather_cannon	
+
+	enable = grangelander_gallop_cavalry
+	enable = leather_cannon
 	enable = mounted_outlaw_cavalry
 	enable = reformed_lancero_cavalry
 	enable = mexican_guerilla_cavalry
 	enable = yaqui_musket_cavalry
 	enable = eurasian_mass_infantry
 	enable = patagonian_swarm_cavalry
-	
+
 	combat_width = 2
 }
 
@@ -511,24 +511,24 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.5
 	}
-	
+
 	#Gustavian Infantry
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
 
 	fort_17th = yes
 
-	
-	enable = reformed_continental_infantry  
-	enable = harrian_infantry		
+
+	enable = reformed_continental_infantry
+	enable = harrian_infantry
 	enable = canadian_highlander_infantry
-	enable = battleborn_infantry	
-	enable = brazilian_musketeer	
+	enable = battleborn_infantry
+	enable = brazilian_musketeer
 	enable = plains_infantry
 	enable = rifle_jaeger_infantry
 	enable = european_swarm_cavalry
 	enable = westasian_swarm
-	enable = tamil_guerilla_warfare	
+	enable = tamil_guerilla_warfare
 	enable = iranian_guerilla_warfare
 	enable = advanced_digger
 	enable = oceanic_swarm_cavalry
@@ -550,12 +550,12 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.5
 	}
-	
+
 	#Killing Grounds
-	
+
 	infantry_fire		= 	0.5
-		
-	enable = swivel_cannon		
+
+	enable = swivel_cannon
 	enable = russian_swarm
 
 	combat_width = 2
@@ -572,11 +572,11 @@ technology = {
 		global_trade = 0.5
 		manufactories = 0.15
 	}
-	
+
 	#Line Infantry
 	sprite_level = 3
 	military_tactics 	= 	0.25
-	
+
 	infantry_shock 		=	0.5
 }
 
@@ -591,20 +591,20 @@ technology = {
 		global_trade = 0.5
 		manufactories = 0.3
 	}
-	
+
 	#Cartridge	(1620)?)
 	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
-	
+
 	combat_width = 2
-	
+
 	conscription_center = yes
 
-	
-	enable = flying_abrams	
-	enable = cowboy_cavalry	
-	enable = coehorn_mortar		
+
+	enable = flying_abrams
+	enable = cowboy_cavalry
+	enable = coehorn_mortar
 }
 
 technology = {
@@ -618,21 +618,21 @@ technology = {
 		global_trade = 0.5
 		manufactories = 0.5
 	}
-	
+
 	#Light Cavalry
-	
+
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
 	enable = assault_cavalry
-	enable = reformed_hudsonian_dragoons		
-	enable = abrams_cavalry		
-	enable = frontiersmen_infantry	
-	enable = carolina_infantry 	
-	enable = line_infantry	
-	enable = brazilian_dragoon	
-	enable = mountaineer_infantry	
+	enable = reformed_hudsonian_dragoons
+	enable = abrams_cavalry
+	enable = frontiersmen_infantry
+	enable = carolina_infantry
+	enable = line_infantry
+	enable = brazilian_dragoon
+	enable = mountaineer_infantry
 	enable = plains_cavalry
 	enable = beho_banner
 	enable = european_dragoons
@@ -665,9 +665,9 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.15
 	}
-	
+
 	#Covered Way
-	fort_18th	= yes	
+	fort_18th	= yes
 	military_tactics 	= 	0.25
 
 	combat_width = 2
@@ -685,12 +685,12 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.3
 	}
-	
+
 	#Metallurgy
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
-	
-	enable = royal_mortar	
+
+	enable = royal_mortar
 }
 
 technology = {
@@ -705,22 +705,22 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.5
 	}
-	
+
 	#Light Infantry Companies
 	sprite_level = 4
 
 	land_morale			=	1.0
 
-	enable = grey_coat_infantry	
-	enable = orange_coat_infantry	
-	enable = maple_coat_infantry	
-	enable = tidewater_infantry   
-	enable = beehive_infantry		
-	enable = reformed_brazilian_musketeer	
-	enable = rocky_mountain_lancers		
+	enable = grey_coat_infantry
+	enable = orange_coat_infantry
+	enable = maple_coat_infantry
+	enable = tidewater_infantry
+	enable = beehive_infantry
+	enable = reformed_brazilian_musketeer
+	enable = rocky_mountain_lancers
 	enable = reformed_cowboy_cavalry
 	enable = reformed_posse_cavalry
-	enable = reformed_abrams_cavalry	
+	enable = reformed_abrams_cavalry
 	enable = eastern_mounted_carbines
 	enable = plains_riflemen
 	enable = pa_pum_army
@@ -743,7 +743,7 @@ technology = {
 	enable = americanized_south_african_infantry
 	enable = americanized_west_african_infantry
 	enable = conic_andean_insurgent_infantry
-	
+
 	combat_width = 2
 }
 
@@ -759,10 +759,10 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.5
 	}
-	
+
 	#Bayonet
 	supply_limit		=	0.5
-	infantry_fire		= 	0.5	
+	infantry_fire		= 	0.5
 }
 
 technology = {
@@ -778,18 +778,18 @@ technology = {
 		enlightenment = 0.5
 		industrialization = 0.25
 	}
-	
+
 	#Cuirassier
 	maneuver_value 		= 	0.25
-	infantry_shock		=	0.5	
-	
-	enable = western_cuirassiers	
+	infantry_shock		=	0.5
+
+	enable = western_cuirassiers
 	enable = advanced_cowboy_cavalry
-	enable = reformed_brazilian_rifle	
+	enable = reformed_brazilian_rifle
 	enable = eastern_sniper_cavalry
-	enable = eastern_lancers	
+	enable = eastern_lancers
 	enable = quebecois_cuirassiers
-	enable = reformed_brazilian_cavalry	
+	enable = reformed_brazilian_cavalry
 	enable = enforcer_infantry
 	enable = eastern_square_infantry
 	enable = plains_posses
@@ -816,10 +816,10 @@ technology = {
 		enlightenment = 0.5
 		industrialization = 0.5
 	}
-	
+
 	#Defense in Depth
-		
-	enable = flying_battery  
+
+	enable = flying_battery
 }
 
 technology = {
@@ -835,18 +835,18 @@ technology = {
 		enlightenment = 1
 		industrialization = 0.5
 	}
-	
+
 	#Impulse Warfare
-	#sprite_level = 5	
-	
+	#sprite_level = 5
+
 	military_tactics	=	0.25
 	land_morale			=	1.0
 	maneuver_value = 0.25
-	
+
 	enable = avalanche_infantry
-	enable = assault_grenadier_infantry	
-	enable = eastern_drill_infantry	
-	enable = plinker_infantry	
+	enable = assault_grenadier_infantry
+	enable = eastern_drill_infantry
+	enable = plinker_infantry
 	enable = hollow_square_infantry
 	enable = reformed_plains_rifles
 	enable = european_americanized_infantry
@@ -870,7 +870,7 @@ technology = {
 		enlightenment = 0.5
 		industrialization = 1
 	}
-	
+
 	#Rifle
 	cavalry_shock		=	1.0
 	infantry_fire		=	1.0
@@ -890,9 +890,9 @@ technology = {
 		enlightenment = 1
 		industrialization = 1
 	}
-	
+
 	#Field Howitzer
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
-	artillery_fire		=	2.0	
+	artillery_fire		=	2.0
 }

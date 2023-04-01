@@ -13,7 +13,7 @@ country_event = {
 	title = burghers_estate_events.1.t
 	desc = burghers_estate_events.1.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		NOT = {
@@ -37,7 +37,7 @@ country_event = {
 	}
 
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -60,7 +60,7 @@ country_event = {
 	title = burghers_estate_events.2.t
 	desc = burghers_estate_events.2.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		has_estate = estate_nobles
@@ -68,7 +68,7 @@ country_event = {
 			estate = estate_nobles
 			influence = 25
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_burghers
 			territory = 1
 		}
@@ -90,9 +90,9 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -237,7 +237,7 @@ country_event = {
 	title = burghers_estate_events.3.t
 	desc = burghers_estate_events.3.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		NOT = {
@@ -259,13 +259,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
-	} 
-	
+	}
+
 	option = {
 		name = burghers_estate_events.3.a #Ok
 		add_estate_influence_modifier = {
@@ -283,9 +283,9 @@ country_event = {
 	title = burghers_estate_events.4.t
 	desc = burghers_estate_events.4.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		any_owned_province = {
@@ -306,7 +306,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -328,7 +328,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -347,7 +347,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = burghers_estate_events.4.a #Ok
 		give_estate_land_share_medium = { estate = estate_burghers }
@@ -381,7 +381,7 @@ country_event = {
 	title = burghers_estate_events.5.t
 	desc = burghers_estate_events.5.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		estate_territory = {
@@ -410,22 +410,22 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
 			factor = 2.0
 			inflation = 5 #Rising Prices
 		}
-	} 
-	
+	}
+
 	immediate = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = bread_revolt_vs_burghers
 							value = estate
@@ -593,7 +593,7 @@ country_event = {
 	title = burghers_estate_events.6.t
 	desc = burghers_estate_events.6.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		estate_influence = {
@@ -617,13 +617,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
-	} 
-	
+	}
+
 	option = {
 		name = burghers_estate_events.6.a #The Clergy cannot do whatever they please!
 		ai_chance = {
@@ -748,7 +748,7 @@ country_event = {
 	title = burghers_estate_events.7.t
 	desc = burghers_estate_events.7.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		estate_influence = {
@@ -776,9 +776,9 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -787,7 +787,7 @@ country_event = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = extended_burgher_privileges
 							value = estate
@@ -819,7 +819,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = burghers_estate_events.7.a #
 		ai_chance = {
@@ -887,7 +887,7 @@ country_event = {
 	title = burghers_estate_events.8.t
 	desc = burghers_estate_events.8.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		num_of_trade_embargos = 1
@@ -904,13 +904,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
-	} 
-	
+	}
+
 	option = {
 		name = burghers_estate_events.8.a #We must support the $ESTATE_BURGHERS$
 		ai_chance = {
@@ -992,12 +992,12 @@ country_event = {
 	title = burghers_estate_events.9.t
 	desc = burghers_estate_events.9.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		dip_tech = 5
 		num_of_cities = 8
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_burghers
 			territory = 1
 		}
@@ -1026,13 +1026,13 @@ country_event = {
 			is_capital = no
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -1093,7 +1093,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = burghers_estate_events.9.a #Support the Capitalists
 		ai_chance = {
@@ -1171,7 +1171,7 @@ country_event = {
 	title = burghers_estate_events.10.t
 	desc = burghers_estate_events.10.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		estate_influence = {
@@ -1191,13 +1191,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = burghers_estate_events.10.a # "We must not stand in the way of these new men."
 		ai_chance = {
@@ -1286,7 +1286,7 @@ country_event = {
 			duration = 5475
 		}
 		add_estate_loyalty = {
-			estate = estate_burghers	
+			estate = estate_burghers
 			loyalty = -20
 		}
 		if = {
@@ -1317,10 +1317,10 @@ country_event = {
 	title = burghers_estate_events.11.t
 	desc = burghers_estate_events.11.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_burghers
 			territory = 1
 		}
@@ -1351,9 +1351,9 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -1362,11 +1362,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = burghers_estate_events.11.a #
 		trigger_switch = {
@@ -1416,7 +1416,7 @@ country_event = {
 	title = burghers_estate_events.12.t
 	desc = burghers_estate_events.12.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		NOT = {
@@ -1432,14 +1432,14 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
-	
+
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = burghers_estate_events.12.a #Compensate the Traders.
 		ai_chance = {
@@ -1515,10 +1515,10 @@ country_event = {
 	title = burghers_estate_events.13.t
 	desc = burghers_estate_events.13.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_burghers
 			territory = 1
 		}
@@ -1543,9 +1543,9 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -1632,11 +1632,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	option = {
 		name = burghers_estate_events.13.a #
 		ai_chance = {
@@ -1711,7 +1711,7 @@ country_event = {
 	title = burghers_estate_events.14.t
 	desc = burghers_estate_events.14.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		estate_influence = {
@@ -1732,9 +1732,9 @@ country_event = {
 		}
 		mercantilism = 15
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1742,7 +1742,7 @@ country_event = {
 			dip_tech = 20
 		}
 	}
-	
+
 	option = {
 		name = burghers_estate_events.14.a #
 		ai_chance = {
@@ -1790,7 +1790,7 @@ country_event = {
 	title = burghers_estate_events.15.t
 	desc = burghers_estate_events.15.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		NOT = {
@@ -1799,7 +1799,7 @@ country_event = {
 				loyalty = 30
 			}
 		}
-		estate_territory = { 
+		estate_territory = {
 			estate = estate_burghers
 			territory = 10
 		}
@@ -1813,14 +1813,14 @@ country_event = {
 			is_city = yes
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			while = {
 				limit = {
-					NOT = { 
+					NOT = {
 						development_in_provinces = {
 							has_province_flag = city_protests
 							value = estate
@@ -1857,7 +1857,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1870,7 +1870,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = burghers_estate_events.15.a #
 		ai_chance = {
@@ -1912,9 +1912,9 @@ province_event = {
 	title = burghers_estate_events.16.t
 	desc = burghers_estate_events.16.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = burghers_estate_events.16.a #Ok.
 	}
@@ -1926,7 +1926,7 @@ country_event = {
 	title = burghers_estate_events.17.t
 	desc = burghers_estate_events.17.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	trigger = {
 		has_estate = estate_burghers
 		has_estate_privilege = estate_burghers_tropical_nation
@@ -1937,9 +1937,9 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = burghers_estate_events.17.a #Ok.
 		every_owned_province = {

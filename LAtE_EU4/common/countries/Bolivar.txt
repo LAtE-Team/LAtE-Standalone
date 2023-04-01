@@ -8,16 +8,16 @@ color = { 152 173 137 }
 
 leader_names = {
 
-	"Simóneta" "Ubaldo" "Jeffrén" "Abundi" "Adolba" "Aitor" "Albert" "Alejandro" "Alex" "Alfonso" 
-	"Alí" "Alvino" "Amleto" "Ander" "Antonio" "Buinton" "Carlos" "Cesar" "César" "Cheo" 
-	"Cipriano" "Daniel" "David" "Deolis" "Edorta" "Eduardo" "Edwin" "Eleazar" "Eneko" "Enrique" 
-	"Enzo" "Ernesto" "Fabricio" "Félix" "Fernando" "Francisco" "Fred" "Gabriel" "Giovanni" "Godofredo" 
-	"Gorka" "Gregory" "Gualberto" "Guillermo" "Gustavo" "Héctor" "Hugo" "Iker" "Isaías" "Iván" 
-	"Jesús" "Jimy" "Jon" "Jonathan" "Jorge" "José" "Josef" "Jóvito" "Juan" "Julen" 
-	"Leopoldo" "Les" "Luca" "Luis" "Luz" "Marcelino" "Marcos" "Mariano" "Marwin" "Massimo" 
-	"Maurice" "Mikel" "Narciso" "Nestor" "Nicolás" "Oscar" "Oswaldo" "Pancho" "Pastor" "Pedro" 
-	"Pepe" "Pompeyo" "Rafael" "Ramón" "Raúl" "Richard" "Robert" "Rómulo" "Rubén" "Salomón" 
-	"Simón" "Socorro" "Stalin" "Teodoro" "Tomás" "Unai" "Víctor" "Videl" "Wilfredo" "Wolfgang" 
+	"Simóneta" "Ubaldo" "Jeffrén" "Abundi" "Adolba" "Aitor" "Albert" "Alejandro" "Alex" "Alfonso"
+	"Alí" "Alvino" "Amleto" "Ander" "Antonio" "Buinton" "Carlos" "Cesar" "César" "Cheo"
+	"Cipriano" "Daniel" "David" "Deolis" "Edorta" "Eduardo" "Edwin" "Eleazar" "Eneko" "Enrique"
+	"Enzo" "Ernesto" "Fabricio" "Félix" "Fernando" "Francisco" "Fred" "Gabriel" "Giovanni" "Godofredo"
+	"Gorka" "Gregory" "Gualberto" "Guillermo" "Gustavo" "Héctor" "Hugo" "Iker" "Isaías" "Iván"
+	"Jesús" "Jimy" "Jon" "Jonathan" "Jorge" "José" "Josef" "Jóvito" "Juan" "Julen"
+	"Leopoldo" "Les" "Luca" "Luis" "Luz" "Marcelino" "Marcos" "Mariano" "Marwin" "Massimo"
+	"Maurice" "Mikel" "Narciso" "Nestor" "Nicolás" "Oscar" "Oswaldo" "Pancho" "Pastor" "Pedro"
+	"Pepe" "Pompeyo" "Rafael" "Ramón" "Raúl" "Richard" "Robert" "Rómulo" "Rubén" "Salomón"
+	"Simón" "Socorro" "Stalin" "Teodoro" "Tomás" "Unai" "Víctor" "Videl" "Wilfredo" "Wolfgang"
 	"Xabier" "Yoel" "Yon" }
 monarch_names = {
 	"Simóneta #1" = -19
