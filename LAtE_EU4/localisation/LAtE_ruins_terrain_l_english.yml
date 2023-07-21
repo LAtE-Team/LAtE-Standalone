@@ -72,8 +72,8 @@
  desc_ruins_merchants_contribution_modifier: "The Merchants have been forced to contribute to the renovations of the ruins in our nation, inhibiting their ability to trade."
 
  #Misc
- ruins: "Ruins"
- ruins_desc: "The ruins terrain represents the remains of some great pre-event megalopolis."
+ ruins: "Tell"
+ ruins_desc: "The tell terrain represents the remains of some great pre-event megalopolis."
  ruins_start_upgrade_tt:0 "We will begin to renovate the ruins of [Root.GetName]"
  ruins_province_cooldown_tt:0 "We will not be notified about renovating the ruins of [Root.GetName] for at least 4 years"
  ruins_global_cooldown_tt:0 "We will not be notified about renovating any ruins for at least 10 years"
