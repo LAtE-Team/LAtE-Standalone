@@ -3,7 +3,7 @@
 #owner = SAV
 #controller = SAV
 culture = piedmontese
-religion = hellenic_pagan
+religion = matrem
 hre = no
 base_tax = 1
 base_production = 1

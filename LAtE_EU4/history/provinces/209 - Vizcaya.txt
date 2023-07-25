@@ -18,6 +18,6 @@ is_city = no
 
 
 
-native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_size = 20
+native_ferocity = 5
+native_hostileness = 8
