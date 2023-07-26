@@ -1,9 +1,15 @@
-#140 - Balkan Waste
+#140 - Sarajevo
 
- 
+culture = bosnian
+religion = matrem
+capital = "Sarajevo"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = no
 
-
-
-native_size = 5
-native_ferocity = 1
-native_hostileness = 3
+native_size = 10
+native_ferocity = 3
+native_hostileness = 5

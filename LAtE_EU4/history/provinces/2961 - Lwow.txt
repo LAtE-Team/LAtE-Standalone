@@ -4,7 +4,7 @@
 #controller = POL
 capital= "Lwow"
 culture = ruthenian
-religion = atomicist
+religion = matrem
 trade_goods = unknown
 hre = no
 base_tax = 1

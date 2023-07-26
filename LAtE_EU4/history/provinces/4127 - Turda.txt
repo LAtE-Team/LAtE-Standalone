@@ -2,8 +2,8 @@
 
 #owner = HUN
 #controller = HUN 
-culture = romanian
-religion = hellenic_pagan
+culture = transylvanian
+religion = matrem
 capital = "Turda"
 trade_goods = salt # Famous salt mines
 hre = no

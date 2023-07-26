@@ -1,7 +1,7 @@
 #Kurland, center at Goldingen
 
 culture = latvian
-religion = matrem
+religion = animist
 hre = no
 base_tax = 1
 base_production = 1

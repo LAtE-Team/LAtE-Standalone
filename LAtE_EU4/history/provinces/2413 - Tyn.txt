@@ -14,7 +14,7 @@ add_core = UNF
 owner = UNF
 controller = UNF
 culture = russian
-religion = atomicist
+religion = matrem
 
  
 

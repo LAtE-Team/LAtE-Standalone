@@ -3,8 +3,8 @@
 #controller = HAB
 #add_core= HAB
 #add_core= STY
-culture = austrian
-religion = celticist
+culture = slovene
+religion = matrem
 base_tax = 1
 base_production = 1
 trade_goods = unknown

@@ -3,8 +3,8 @@
 add_core = ATG
 owner = ATG
 controller = ATG
-culture = novgorodian
-religion = atomicist
+culture = russian
+religion = matrem
 capital = "Cherny Yar"
 trade_goods = unknown
 hre = no

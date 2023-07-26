@@ -2,8 +2,8 @@
 
 #owner = HUN
 #controller = HUN 
-culture = romanian
-religion = hellenic_pagan
+culture = transylvanian
+religion = matrem
 capital = "Oradea"
 trade_goods = naval_supplies
 hre = no
@@ -17,6 +17,6 @@ is_city = no
 
 
 
-native_size = 5
+native_size = 10
 native_ferocity = 1
 native_hostileness = 3

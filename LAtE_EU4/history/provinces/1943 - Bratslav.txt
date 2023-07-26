@@ -1,7 +1,7 @@
 #Bratslav/East Podolia
 
 culture = ruthenian
-religion = atomicist
+religion = matrem
 hre = no
 base_tax = 1
 base_production = 1

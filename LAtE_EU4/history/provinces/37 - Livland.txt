@@ -1,7 +1,7 @@
 #273 - Livland
 
 culture = latvian
-religion = matrem
+religion = animist
 capital = "Fellin"
 trade_goods = unknown
 hre = no

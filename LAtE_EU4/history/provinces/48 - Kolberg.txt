@@ -1,6 +1,6 @@
 #48 - Kolberg
 
-culture = pommeranian
+culture = polish
 religion = matrem
 hre = no
 base_tax = 1

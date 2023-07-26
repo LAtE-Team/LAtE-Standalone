@@ -1,7 +1,7 @@
 #284 - Crimea
 
 culture = ruthenian
-religion = atomicist
+religion = matrem
 hre = no
 base_tax = 5
 base_production = 5

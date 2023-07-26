@@ -2,8 +2,8 @@
 
 #owner = LIT
 #controller = LIT
-religion = "catholic"
-culture = lithuanian
+religion = matrem
+culture = ruthenian
 capital = "Trakai"
 trade_goods = unknown
 hre = no

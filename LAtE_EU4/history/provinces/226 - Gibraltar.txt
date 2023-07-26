@@ -1,7 +1,7 @@
 #226 - Gibraltar
 
 culture = british
-religion = thelema
+religion = matrem
 hre = no
 base_tax = 1
 base_production = 1

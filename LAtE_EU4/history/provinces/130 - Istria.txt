@@ -2,7 +2,7 @@
 
 #owner = VEN
 #controller = VEN
-culture = croatian
+culture = slovene
 religion = hellenic_pagan
 capital = "Trieste"
 trade_goods = salt #Accounted for 1/4 of the total Salt imports of Venice

@@ -1,7 +1,7 @@
 #1974 - Yedishkul
 
 culture = ruthenian
-religion = atomicist
+religion = matrem
 hre = no
 base_tax = 4
 base_production = 4

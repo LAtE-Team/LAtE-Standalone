@@ -2,8 +2,8 @@
 
 #owner = GOL
 #controller = GOL
-culture = hessian
-religion = atomicist
+culture = russian
+religion = matrem
 hre = no
 base_tax = 2 
 base_production = 2
