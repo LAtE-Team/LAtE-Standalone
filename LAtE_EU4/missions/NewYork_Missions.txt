@@ -1031,7 +1031,7 @@ NewYork_Missions_5 = { # Culture and legislation
 	}
 }
 nys_amos_tree = {
-	slot = 4
+	slot = 5
 	potential = {
 		tag = NYS
 		has_country_flag = nys_familial_missions
@@ -1070,18 +1070,35 @@ nys_amos_tree = {
 		}
 	}
 	### MORE MISSIONS HERE
-	nys_confront_agitators = {
+	# nys_confront_agitators = {
+	# 	icon = mission_alliances
+	# 	required_missions = {
+	# 		nys_commitment_to_peace
+	# 	}
+	# 	trigger = {
+	# 		dynasty = "Levi"
+	# 		war_exhaustion = 2
+	# 	}
+	# 	effect = {
+	# 		country_event = {
+	# 			id = ny_events.15
+	# 		}
+	# 	}
+	# }
+	nys_future_council = { # With our internal approach organised, we can begin to decide our policy on those who are not affiliated with NYS in the years to come. <Initiate a series of debates>
 		icon = mission_alliances
 		required_missions = {
-
+			nys_commitment_to_peace
 		}
 		trigger = {
-			dynasty = "Levi"
-			war_exhaustion = 2
+			NOT = {
+				unrest = 0
+			}
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
-				id = ny_events.15
+				id = ny_events.19
 			}
 		}
 	}

@@ -938,6 +938,8 @@ country_event = { # Uprising disaster end
 	}
 }
 
+############ NOT CURRENTLY IN USE - SAVED FOR LATER? ############################
+
 country_event = { # Confront agitators - House Wayne offers a bargain. Maybe make the severity of the options vary depending on ruler personality?
 	id = ny_events.15
 	title = ny_events.15.t
@@ -1024,5 +1026,32 @@ country_event = { # Wayne incensed by peace posturing, stages coup against House
 		set_country_flag = nys_levi_disabled
 		add_stability = -3
 		kill_ruler = yes
+	}
+}
+
+##################### END OF OUTDATED EVENTS ##################
+
+country_event = { # Peace festivals - enact, or reject?
+	id = ny_events.19
+	title = ny_events.19.t
+	desc = ny_events.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { # Peaceful resolutions are right, and feasible. We do not need to send our sons to die. Violence will be used as a last resort, both internally and externally.
+		name = ny_events.19.a
+		add_country_modifier = {
+			name = nys_commitment_to_peace
+			duration = -1
+		}
+	}
+
+	option = { # We cannot promise the people such a thing. Force of arms is our strongest weapon against tyranny
+		name = ny_events.19.b
+		add_stability = -1
+		add_country_modifier = {
+			name = nys_offensive_vigilance
+			duration = -1
+		}
 	}
 }
