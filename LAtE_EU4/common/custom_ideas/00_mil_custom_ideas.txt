@@ -56,17 +56,13 @@ mil_idea_modifiers = {
 			}
 		}
 	}
-	custom_idea_possible_mercenaries = {
-		possible_mercenaries = 0.125
+	custom_idea_mercenary_manpower = {
+		mercenary_manpower = 0.125
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18
 		chance = {
-			factor = 0.75
-			modifier = {
-				factor = 1.1
-				government = republic
-			}
+			factor = 0.5
 		}
 	}
 	custom_idea_land_forcelimit_modifier = {

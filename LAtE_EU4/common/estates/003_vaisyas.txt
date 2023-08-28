@@ -12,13 +12,12 @@ estate_vaisyas = {
 			has_country_flag = enables_estate_vaisyas_flag
 			AND = {
 				technology_group = westasian
-			religion = hinduism
+				religion = hinduism
 				NOT = { has_government_attribute = is_pirate_republic_reform }
 				#NOT = { has_government_attribute = is_merchant_republic }
 				#NOT = { has_reform = veche_republic }
 				#NOT = { has_reform = trading_city }
 				NOT = { is_revolutionary_republic_trigger = yes }
-				NOT = { has_reform = cossacks_reform }
 				NOT = { government = native }
 				NOT = { has_reform = siberian_tribe }
 				OR = {
@@ -181,6 +180,13 @@ estate_vaisyas = {
 		estate_vaisyas_monopoly_of_glass
 		estate_vaisyas_monopoly_of_paper
 		estate_vaisyas_khmer_irrigation
+		estate_vaisyas_land_trade_rights
+		estate_vaisyas_development_of_cities
+		estate_vaisyas_control_over_the_coinage
+		estate_vaisyas_economical_boost
+		estate_vaisyas_expanded_guild_rights
+		estate_vaisyas_force_impressment
+		estate_vaisyas_financial_demand
 	}
 
 	agendas = {

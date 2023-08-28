@@ -5,8 +5,6 @@ defaults_reform = {
 	heirs_can_be_generals = yes
 	fixed_rank = 0
 	republican_name = no
-	militarised_society = no
-	government_abilities = { }
 	claim_states = no
 	religion = no
 	republic = no
@@ -39,6 +37,7 @@ defaults_reform = {
 	papacy = no
 	has_harem = no
 	has_pashas = no
+	has_janissaries = no
 	allow_vassal_war = no
 	allow_vassal_alliance = no
 	min_autonomy = 0
@@ -56,6 +55,7 @@ defaults_reform = {
 	start_territory_to_estates = 0.8
 	has_term_election = no
 	force_admiral_leader = no
+	force_general_leader = no
 	admirals_become_rulers = no
 	generals_become_rulers = no
 	allow_banners = no
@@ -69,6 +69,11 @@ defaults_reform = {
 	allow_cawa = no
 	can_change_primary_culture = yes
 	allow_carolean = no
+	can_inherit_personal_unions = yes
+	block_cultural_union = no
+	has_cultural_union = no 
+	can_remove_idea_group = yes
+	mercs_do_not_cost_army_professionalism = no
 }
 
 # legacy governments
@@ -483,7 +488,9 @@ prussian_republic = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	
 	custom_attributes = {
@@ -1889,7 +1896,9 @@ prussian_monarchy_legacy = {
 
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 
 	ai = {
@@ -2019,6 +2028,13 @@ shogunate_legacy = {
 		technology_group = eastasian
 		capital_scope = { region = japan_region }
 		owns = 1020
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
 	}
 
     fixed_rank = 2
@@ -2484,47 +2500,6 @@ sacred_kingdom_legacy = {
 		factor = 5
 	}
 }
-sacred_kingdom = {
-	icon = "divine_guidance_reform"
-	allow_normal_conversion = yes
-	lock_level_when_selected = yes
-	potential = {
-		has_dlc = "Origins"
-		religion_group = pagan
-	}
-	trigger = {
-		OR = {
-			NOT = { has_institution = enlightenment }	#Why should any enlightened person ever want to support this system?
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = sacred_kingdom
-			}
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	nation_designer_trigger = {
-		religion_group = pagan
-	}
-	legacy_equivalent = sacred_kingdom_legacy
-	maintain_dynasty = yes
-	
-	removed_effect = {
-		if = {
-			limit = {
-				NOT = { has_institution = enlightenment }
-			}
-			add_stability = -2
-		}
-	}
-
-	modifiers = {
-		tolerance_own = 2
-		max_absolutism = 25
-		legitimacy = 0.5
-	}
-}
-
 negusa_nagast_legacy = {
 	icon = "chieftain"
 	allow_normal_conversion = no
@@ -2563,46 +2538,6 @@ negusa_nagast_legacy = {
 		factor = 5
 	}
 }
-negusa_nagast = {
-	icon = "chieftain"
-	allow_normal_conversion = yes
-	lock_level_when_selected = yes
-	potential = {
-		OR = {
-			have_had_reform = negusa_nagast
-		}
-	}
-	trigger = {
-		OR = {
-			have_had_reform = negusa_nagast
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 40
-	legacy_equivalent = negusa_nagast_legacy
-
-	modifiers = {
-		move_capital_cost_modifier = -0.75
-		global_unrest = -1
-		stability_cost_modifier = -0.1
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Origins"
-		}
-		custom_attributes = {
-			has_itinerant_capital = yes
-		}
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Origins"
-		}
-		allow_cawa = yes
-	}
-}
 
 solomonic_empire_legacy = {
 	# government mechanics flags go here
@@ -2636,41 +2571,6 @@ solomonic_empire_legacy = {
 		factor = 5
 	}
 }
-solomonic_empire = {
-	icon = "king"
-	allow_normal_conversion = yes
-	lock_level_when_selected = yes
-	potential = {
-		OR = {
-			have_had_reform = solomonic_empire
-			has_country_flag = unlocked_solomid_empire_reform
-		}
-	}
-	trigger = {
-		OR = {
-			have_had_reform = solomonic_empire
-			has_country_flag = unlocked_solomid_empire_reform
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 50
-	legacy_equivalent = solomonic_empire_legacy
-	fixed_rank = 3
-
-	modifiers = {
-		tolerance_own = 2
-		max_absolutism = 20
-		global_unrest = -2
-		amount_of_cawa = 1
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Origins"
-		}
-		allow_cawa = yes
-	}
-}
 
 matrilineal_system_legacy = {
 	# government mechanics flags go here
@@ -2683,30 +2583,6 @@ matrilineal_system_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 30
 
-	modifiers = {
-		heir_chance = -0.5
-		female_advisor_chance = 0.5
-		legitimacy = 1
-	}
-}
-matrilineal_system = {
-	icon = "british_queen"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = matrilineal_system_legacy
-	potential = {
-		OR = {
-			primary_culture = nubian
-			have_had_reform = matrilineal_system
-		}
-	}
-	trigger = {
-		OR = {
-			primary_culture = nubian
-			have_had_reform = matrilineal_system
-		}
-	}
 	modifiers = {
 		heir_chance = -0.5
 		female_advisor_chance = 0.5
@@ -2751,51 +2627,6 @@ tribal_confederacy_legacy = {
 				set_estate_privilege = estate_nobles_decentralized_tribe
 			}
 		}
-	}
-}
-tribal_confederacy = {
-	icon = "native_settle_down_reform"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	lock_level_when_selected = yes
-	nation_designer_cost = 30
-	legacy_equivalent = tribal_confederacy_legacy
-
-	potential = {
-		have_had_reform = tribal_confederacy
-		NOT = { has_country_flag = centralized_tribes_level_3 }	#Already centralized the tribes
-	}
-
-	modifiers = {
-		nobles_influence_modifier = 0.15
-		nobles_loyalty_modifier = 0.1
-		global_unrest = -1
-		max_absolutism = -20
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Origins"
-		}
-		custom_attributes = {
-			has_internal_tribes = yes
-			locked_government_type = yes
-		}
-	}
-
-	effect = {
-		hidden_effect = {
-			if = {
-				limit = {
-					has_dlc = "Origins"
-				}
-				set_estate_privilege = estate_nobles_decentralized_tribe
-			}
-		}
-	}
-
-	ai = {
-		factor = 0
 	}
 }
 
@@ -2849,81 +2680,6 @@ mossi_federal_kingdom_legacy = {
 		}
 	}
 }
-mossi_federal_kingdom = {
-	icon = "native_war_band_reform"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = tribal_confederacy_legacy
-
-	potential = {
-		OR = {
-			AND = {
-				is_playing_custom_nation = yes
-				have_had_reform = mossi_federal_kingdom
-			}
-			AND = {
-				has_country_flag = msi_mossi_kingdom_event
-			}
-		}
-	}
-
-	modifiers = {
-		nobles_influence_modifier = 0.15
-		nobles_loyalty_modifier = 0.1
-		global_unrest = -1
-		max_absolutism = -20
-	}
-
-	effect = {
-		if = {
-			limit = {
-				has_country_flag = msi_unlocked_perma_reward
-			}
-			remove_country_modifier = msi_centralization_focus
-			add_country_modifier = {
-				name = msi_federal_kingdom_focus
-				duration = -1
-				desc = msi_federal_kingdom_focus_desc
-			}
-		}
-	}
-
-	removed_effect = {
-		if = {
-			limit = {
-				has_country_flag = msi_unlocked_perma_reward
-			}
-			remove_country_modifier = msi_federal_kingdom_focus
-			add_country_modifier = {
-				name = msi_centralization_focus
-				duration = -1
-				desc = msi_centralization_focus_desc
-			}
-		}
-	}
-
-	conditional = {
-		allow = {
-			OR = {
-				has_dlc = "Origins"
-				has_dlc = "Cradle of Civilization"
-			}
-		}
-		custom_attributes = {
-			has_federal_kingdoms = yes
-		}
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Cradle of Civilization"
-		}
-		government_abilities = {
-			tribal_federation_mechanic
-		}
-	}
-}
 
 musa_rule_legacy = {
 	# government mechanics flags go here
@@ -2942,32 +2698,6 @@ musa_rule_legacy = {
 		legitimacy = 0.5
 	}
 }
-musa_rule = {
-	icon = "chieftain"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = musa_rule_legacy
-	potential = {
-		OR = {
-			have_had_reform = musa_rule
-		}
-	}
-	trigger = {
-		OR = {
-			have_had_reform = musa_rule
-		}
-	}
-	modifiers = {
-		advisor_pool = 1
-		stability_cost_modifier = -0.05
-		legitimacy = 0.5
-	}
-
-	ai = {
-		factor = 1
-	}
-}
 
 great_man_legacy = {
 	# government mechanics flags go here
@@ -2983,43 +2713,6 @@ great_man_legacy = {
 	modifiers = {
 		leader_cost = -0.1
 		production_efficiency = 0.1
-	}
-}
-great_man = {
-	icon = "chieftain"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = great_man_legacy
-	potential = {
-		OR = {
-			AND = {
-				religion = animism
-				capital_scope = {
-					has_terrain = jungle
-				}
-			}
-			have_had_reform = great_man
-		}
-	}
-	trigger = {
-		OR = {
-			AND = {
-				religion = animism
-				capital_scope = {
-					has_terrain = jungle
-				}
-			}
-			have_had_reform = great_man
-		}
-	}
-	modifiers = {
-		leader_cost = -0.1
-		production_efficiency = 0.1
-	}
-
-	ai = {
-		factor = 1
 	}
 }
 
@@ -3045,43 +2738,9 @@ shaka_regime_legacy = {
 		allow = {
 			has_dlc = "Rights of Man"
 		}
-		militarised_society = yes
-	}
-}
-shaka_regime = {
-	icon = "chieftain"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = shaka_regime_legacy
-	potential = {
-		OR = {
-			tag = ZUL
-			have_had_reform = shaka_regime
+		government_abilities = {
+			militarization_mechanic
 		}
-	}
-	trigger = {
-		OR = {
-			tag = ZUL
-			have_had_reform = shaka_regime
-		}
-	}
-	modifiers = {
-		monarch_military_power = 2
-		global_unrest = -2
-		war_exhaustion = -0.02
-		governing_capacity_modifier = -0.5
-	}
-
-	conditional = {
-		allow = {
-			has_dlc = "Rights of Man"
-		}
-		militarised_society = yes
-	}
-
-	ai = {
-		factor = 1
 	}
 }
 
@@ -3111,34 +2770,5 @@ feudal_tribe_legacy = {
 		custom_attributes = {
 			has_tributaries = yes
 		}
-	}
-}
-feudal_tribe = {
-	icon = "tribal_civil_society"
-	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 30
-	legacy_equivalent = feudal_tribe_legacy
-	lock_level_when_selected = yes
-	potential = {
-	}
-	trigger = {
-	}
-	modifiers = {
-		vassal_income = 0.1
-		global_tax_modifier = 0.1
-	}
-
-	conditional = {
-		allow = { 
-			has_dlc = "Mandate of Heaven"
-		}
-		custom_attributes = {
-			has_tributaries = yes
-		}
-	}
-
-	ai = {
-		factor = 0
 	}
 }

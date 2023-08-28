@@ -14,6 +14,14 @@ estate_anabaptists = {
 			has_estate = estate_anabaptists
 		}
 	}
+
+	modifier_definition = {
+		type = privileges
+		key = anabaptists_privilege_slots
+		trigger = {
+			has_estate = estate_anabaptists
+		}
+	}
 }
 
 estate_cowboys = {
@@ -32,6 +40,14 @@ estate_cowboys = {
 			has_estate = estate_cowboys
 		}
 	}
+
+	modifier_definition = {
+		type = privileges
+		key = cowboys_privilege_slots
+		trigger = {
+			has_estate = estate_cowboys
+		}
+	}
 }
 
 estate_scavengers = {
@@ -45,6 +61,14 @@ estate_scavengers = {
 	modifier_definition = {
 		type = influence
 		key = scavengers_influence_modifier
+		trigger = {
+			has_estate = estate_scavengers
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = scavengers_privilege_slots
 		trigger = {
 			has_estate = estate_scavengers
 		}
@@ -67,6 +91,14 @@ estate_antiquarians = {
 			has_estate = estate_antiquarians
 		}
 	}
+
+	modifier_definition = {
+		type = privileges
+		key = antiquarians_privilege_slots
+		trigger = {
+			has_estate = estate_antiquarians
+		}
+	}
 }
 
 estate_army = {
@@ -81,6 +113,14 @@ estate_army = {
 	modifier_definition = {
 		type = influence
 		key = army_influence_modifier
+		trigger = {
+			has_estate = estate_army
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = army_privilege_slots
 		trigger = {
 			has_estate = estate_army
 		}
@@ -103,6 +143,14 @@ estate_unions = {
 			has_estate = estate_unions
 		}
 	}
+
+	modifier_definition = {
+		type = privileges
+		key = unions_privilege_slots
+		trigger = {
+			has_estate = estate_unions
+		}
+	}
 }
 
 estate_press = {
@@ -117,6 +165,14 @@ estate_press = {
 	modifier_definition = {
 		type = influence
 		key = press_influence_modifier
+		trigger = {
+			has_estate = estate_press
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = press_privilege_slots
 		trigger = {
 			has_estate = estate_press
 		}

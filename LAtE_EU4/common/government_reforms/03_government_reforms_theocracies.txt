@@ -190,7 +190,9 @@ prussian_theocratic_reform = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
@@ -225,7 +227,9 @@ militarized_crusader_order_reform = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
