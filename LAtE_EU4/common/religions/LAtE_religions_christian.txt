@@ -19,6 +19,12 @@ christian = {
 			tolerance_own = 1
 			global_heathen_missionary_strength = 0.01
 		}
+		allowed_center_conversion = {
+			protestant
+			catholic
+			ursuline
+			anglican
+		}
 		
 		country_as_secondary = {
 			diplomatic_reputation = 1

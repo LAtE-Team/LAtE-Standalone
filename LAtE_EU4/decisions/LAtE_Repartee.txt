@@ -1,0 +1,43 @@
+country_decisions = {
+
+	repartee_excavate = {
+		potential = {
+			OR = {
+				has_global_flag = repartee_begins_flag
+				has_global_flag = repartee_ended_flag
+			}
+			any_owned_province = {
+				has_terrain = ruins
+				LAtE_in_old_world_trigger = yes
+			}
+			NOT = {
+				calc_true_if = {
+					amount = 3
+					any_province = {
+						has_province_flag = repartee_excavated_province_flag
+					}
+				}
+			}
+		}
+		allow = {
+			NOT = {
+				has_country_flag = currently_excavating
+			}
+			any_owned_province = {
+				has_terrain = ruins
+				LAtE_in_old_world_trigger = yes
+				has_province_modifier = ruins_modifier_2
+			}
+		}
+		effect = {
+			set_country_flag = currently_excavating
+			# country_event = {
+			# 	id = repartee.20
+			# }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

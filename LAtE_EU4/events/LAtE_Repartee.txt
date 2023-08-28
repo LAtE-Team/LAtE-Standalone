@@ -8,6 +8,7 @@ namespace = repartee
 namespace = repartee_notifications
 
 #0-9 Discovery of the old world, Repartee begins
+#10-19 Printing press and Repartee result
 
 #Debugging event for values
 country_event = {
@@ -17,21 +18,28 @@ country_event = {
 
 	is_triggered_only = yes
 
-	immediate = {
-		random_province = {
-			limit = {
-				owner = {
-					religion = catholic
-				}
-				has_port = yes
-			}
-			save_event_target_as = repartee_debug_target
-		}
-	}
+	# immediate = {
+	# 	random_province = {
+	# 		limit = {
+	# 			owner = {
+	# 				religion = catholic
+	# 			}
+	# 			has_port = yes
+	# 		}
+	# 		save_event_target_as = repartee_debug_target
+	# 	}
+	# }
 
 	option = {
 		name = repartee.0.o
-		goto = repartee_debug_target
+		# goto = repartee_debug_target
+	}
+
+	option = {
+		name = repartee.0.o2
+		capital_scope = {
+			add_reform_center = catholic			
+		}
 	}
 }
 
@@ -1240,5 +1248,744 @@ country_event = {
 
 	option = {
 		name = repartee_notifications.99.o
+	}
+}
+
+# The printing press
+country_event = {
+	id = repartee.10
+	title = repartee.10.t
+	desc = repartee.10.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		LAtE_repartee_contender_trigger = yes
+		any_owned_province = {
+			is_institution_origin = printing_press
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_global_flag = repartee_printing_press_flag
+	}
+
+	option = {
+		name = repartee.10.o
+		repartee_increase_effect = yes
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1010
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1011
+				days = 60 
+			}
+		}
+	}
+}
+
+# Printing Press Victory Announcement
+country_event = {
+	id = repartee_notifications.1010
+	title = repartee_notifications.1010.t
+	desc = repartee_notifications.1010.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee_notifications.1010.o
+	}
+}
+
+# Printing Press Loss Announcement
+country_event = {
+	id = repartee_notifications.1011
+	title = repartee_notifications.1011.t
+	desc = repartee_notifications.1011.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee_notifications.1011.o
+	}
+}
+
+# The Repartee - Someone gets 7?
+country_event = {
+	id = repartee.11
+	title = repartee.11.t
+	desc = repartee.11.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_begins_flag
+		LAtE_repartee_contender_trigger = yes
+		has_institution = printing_press
+		LAtE_repartee_winner_trigger = yes
+		LAtE_potential_repartee_winner_trigger = yes
+		# No ties
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_winner_trigger = yes					
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			ai = no
+		}
+	}
+
+	immediate = {
+		clr_global_flag = repartee_begins_flag
+		set_global_flag = repartee_ended_flag
+		set_country_flag = repartee_country_winner_flag
+	}
+
+	option = {
+		name = repartee.11.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		capital_scope = {
+			add_reform_center = catholic
+		}
+		hidden_effect = {
+			set_global_flag = repartee_catholic_victory_flag
+		}
+	}
+
+	option = {
+		name = repartee.11.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		if = {
+			limit = {
+				religion = ursuline
+			}
+			capital_scope = {
+				add_reform_center = ursuline				
+			}
+		}
+		else_if = {
+			limit = {
+				religion = anglican
+			}
+			capital_scope = {
+				add_reform_center = anglican				
+			}
+		}
+		hidden_effect = {
+			set_global_flag = repartee_canadian_victory_flag
+		}
+	}
+
+	option = {
+		name = repartee.11.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		capital_scope = {
+			add_reform_center = protestant
+		}
+		hidden_effect = {
+			set_global_flag = repartee_protestant_victory_flag
+		}
+	}
+
+	option = {
+		name = repartee.11.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		if = {
+			limit = {
+				religion = americanist
+			}
+			capital_scope = {
+				add_reform_center = americanist				
+			}
+		}
+		else_if = {
+			limit = {
+				religion = rust_cultist
+			}
+			capital_scope = {
+				add_reform_center = rust_cultist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = consumerist
+			}
+			capital_scope = {
+				add_reform_center = consumerist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = atomicist
+			}
+			capital_scope = {
+				add_reform_center = atomicist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = glorian
+			}
+			capital_scope = {
+				add_reform_center = glorian
+			}
+		}
+		hidden_effect = {
+			set_global_flag = repartee_oldworld_victory_flag
+		}
+	}
+
+	option = {
+		name = repartee.11.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		# Figure out what to do here - new religion?
+		hidden_effect = {
+			set_global_flag = repartee_latin_victory_flag
+		}
+	}
+
+	option = {
+		name = repartee.11.debug.o
+		trigger = {
+			LAtE_repartee_contender_trigger = no
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1111
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1112
+				days = 60 
+			}
+		}
+	}
+}
+
+# Repartee Victory Announcement
+country_event = {
+	id = repartee_notifications.1111
+	title = repartee_notifications.1111.t
+	desc = repartee_notifications.1111.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee_notifications.1111.o
+	}
+}
+
+# Repartee Failure Announcement
+country_event = {
+	id = repartee_notifications.1112
+	title = repartee_notifications.1112.t
+	desc = repartee_notifications.1112.d
+	picture = RELIGION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = repartee_notifications.1112.o
+	}
+}
+
+# The Repartee - Extra Victory for winning extra hard
+country_event = {
+	id = repartee.12
+	title = repartee.12.t
+	desc = repartee.12.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_ended_flag
+		LAtE_repartee_contender_trigger = yes
+		has_institution = printing_press
+		LAtE_repartee_winner_trigger = yes
+		LAtE_potential_repartee_winner_trigger = yes
+		# No Ties
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_winner_trigger = yes					
+				}
+			}
+		}
+		# No one made it halfway
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_halfway_trigger = yes
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_country_flag = repartee_country_winner_flag
+	}
+
+	option = {
+		name = repartee.12.catholic.o
+		trigger = {
+			religion = catholic
+		}
+		capital_scope = {
+			add_reform_center = catholic
+		}
+	}
+
+	option = {
+		name = repartee.12.canadian.o
+		trigger = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+		}
+		if = {
+			limit = {
+				religion = ursuline
+			}
+			capital_scope = {
+				add_reform_center = ursuline				
+			}
+		}
+		else_if = {
+			limit = {
+				religion = anglican
+			}
+			capital_scope = {
+				add_reform_center = anglican				
+			}
+		}
+	}
+
+	option = {
+		name = repartee.12.protestant.o
+		trigger = {
+			religion = protestant
+		}
+		capital_scope = {
+			add_reform_center = protestant
+		}
+	}
+
+	option = {
+		name = repartee.12.oldworld.o
+		trigger = {
+			religion_group = oldworld
+		}
+		if = {
+			limit = {
+				religion = americanist
+			}
+			capital_scope = {
+				add_reform_center = americanist				
+			}
+		}
+		else_if = {
+			limit = {
+				religion = rust_cultist
+			}
+			capital_scope = {
+				add_reform_center = rust_cultist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = consumerist
+			}
+			capital_scope = {
+				add_reform_center = consumerist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = atomicist
+			}
+			capital_scope = {
+				add_reform_center = atomicist
+			}
+		}
+		else_if = {
+			limit = {
+				religion = glorian
+			}
+			capital_scope = {
+				add_reform_center = glorian
+			}
+		}
+	}
+
+	option = {
+		name = repartee.12.latin.o
+		trigger = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+		}
+		# Figure out what to do here - new religion?
+	}
+
+	option = {
+		name = repartee.12.debug.o
+		trigger = {
+			LAtE_repartee_contender_trigger = no
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1111
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1112
+				days = 60 
+			}
+		}
+	}
+}
+
+# The Repartee - Extra Victory for catholics
+country_event = {
+	id = repartee.13
+	title = repartee.13.t
+	desc = repartee.13.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_catholic_victory_flag
+		LAtE_repartee_contender_trigger = yes
+		religion = catholic
+		has_institution = printing_press
+		LAtE_repartee_winner_trigger = yes
+		LAtE_potential_repartee_winner_trigger = yes
+		# No Ties
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_winner_trigger = yes					
+				}
+			}
+		}
+		# No one made it halfway
+		NOT = { reform_desire = 0.5 }
+		papacy_active = yes
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_country_flag = repartee_country_winner_flag
+	}
+
+	option = {
+		name = repartee.13.o
+		capital_scope = {
+			add_reform_center = catholic
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1111
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1112
+				days = 60 
+			}
+		}
+	}
+}
+
+# The Repartee - Extra Victory for canadians
+country_event = {
+	id = repartee.13
+	title = repartee.13.t
+	desc = repartee.13.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_canadian_victory_flag
+		LAtE_repartee_contender_trigger = yes
+		OR = {
+			religion = anglican
+			religion = ursuline
+		}
+		has_institution = printing_press
+		LAtE_repartee_winner_trigger = yes
+		LAtE_potential_repartee_winner_trigger = yes
+		# No Ties
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_winner_trigger = yes					
+				}
+			}
+		}
+		# Canadian specific
+		CAN = { exists = yes }
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_country_flag = repartee_country_winner_flag
+	}
+
+	option = {
+		name = repartee.13.o
+		if = {
+			limit = {
+				religion = ursuline
+			}
+			capital_scope = {
+				add_reform_center = ursuline
+			}
+		}
+		else_if = {
+			limit = {
+				religion = anglican
+			}
+			capital_scope = {
+				add_reform_center = anglican
+			}
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1111
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1112
+				days = 60 
+			}
+		}
+	}
+}
+
+# The Repartee - Extra Victory for protestants
+country_event = {
+	id = repartee.14
+	title = repartee.14.t
+	desc = repartee.14.d
+
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = repartee_canadian_victory_flag
+		LAtE_repartee_contender_trigger = yes
+		OR = {
+			religion = anglican
+			religion = ursuline
+		}
+		has_institution = printing_press
+		LAtE_repartee_winner_trigger = yes
+		LAtE_potential_repartee_winner_trigger = yes
+		# No Ties
+		NOT = {
+			any_country = {
+				AND = {
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = no
+					LAtE_repartee_winner_trigger = yes
+				}
+			}
+		}
+		# Canadian specific
+		CAN = { exists = yes }
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_country_flag = repartee_country_winner_flag
+	}
+
+	option = {
+		name = repartee.14.o
+		if = {
+			limit = {
+				religion = ursuline
+			}
+			capital_scope = {
+				add_reform_center = ursuline
+			}
+		}
+		else_if = {
+			limit = {
+				religion = anglican
+			}
+			capital_scope = {
+				add_reform_center = anglican
+			}
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				NOT = { tag = ROOT }
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = yes
+			}
+			country_event = {
+				id = repartee_notifications.1111
+				days = 60 
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				LAtE_repartee_contender_trigger = yes
+				LAtE_same_repartee_group_trigger = no
+			}
+			country_event = {
+				id = repartee_notifications.1112
+				days = 60 
+			}
+		}
 	}
 }

@@ -23,6 +23,7 @@ can_have_center_of_reformation_trigger = { #Province Scope
 	continent = north_america
 	OR = {
 		religion = confederated
+		religion = catholic
 	}
 	NOT = { province_id = 4585 }
 	is_in_capital_area = yes
@@ -118,6 +119,7 @@ LAtE_has_any_exploration_idea = {
 	}
 }
 
+# Is the country in america and not tribal
 LAtE_in_america_trigger = {
 	capital_scope = {
 		OR = {
@@ -128,6 +130,7 @@ LAtE_in_america_trigger = {
 	is_tribal = no
 }
 
+# Is the country in any repartee group?
 LAtE_repartee_contender_trigger = {
 	OR = {
 		religion = catholic
@@ -141,12 +144,14 @@ LAtE_repartee_contender_trigger = {
 	LAtE_in_america_trigger = yes
 }
 
+# Used for repartee to see if a province is in the Old World
 LAtE_in_old_world_trigger = {
 	OR = {
 		superregion = europe_superregion
 	}
 }
 
+# Is this country in the same repartee group as ROOT
 LAtE_same_repartee_group_trigger = {
 	OR = {
 		religion = ROOT
@@ -175,6 +180,150 @@ LAtE_same_repartee_group_trigger = {
 				OR = {
 					religion_group = afro_syncretic
 					religion_group = cult_of_saints
+				}
+			}
+		}
+	}
+}
+
+# Did the group make it to 7
+LAtE_repartee_winner_trigger = {
+	OR = {
+		AND = {
+			religion = catholic
+			REB = {
+				check_variable = {
+					which = catholicReparteeVariable
+					value = 7
+				}
+			}
+		}
+		AND = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+			REB = {
+				check_variable = {
+					which = canadianReparteeVariable
+					value = 7
+				}
+			}
+		}
+		AND = {
+			religion = protestant
+			REB = {
+				check_variable = {
+					which = protestantReparteeVariable
+					value = 7
+				}
+			}
+		}
+		AND = {
+			religion_group = oldworld
+			REB = {
+				check_variable = {
+					which = oldworldReparteeVariable
+					value = 7
+				}
+			}
+		}
+		AND = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+			REB = {
+				check_variable = {
+					which = latinReparteeVariable
+					value = 7
+				}
+			}
+		}
+	}
+}
+
+# Did the group make it to 4
+LAtE_repartee_halfway_trigger = {
+	OR = {
+		AND = {
+			religion = catholic
+			REB = {
+				check_variable = {
+					which = catholicReparteeVariable
+					value = 4
+				}
+			}
+		}
+		AND = {
+			OR = {
+				religion = ursuline
+				religion = anglican
+			}
+			REB = {
+				check_variable = {
+					which = canadianReparteeVariable
+					value = 4
+				}
+			}
+		}
+		AND = {
+			religion = protestant
+			REB = {
+				check_variable = {
+					which = protestantReparteeVariable
+					value = 4
+				}
+			}
+		}
+		AND = {
+			religion_group = oldworld
+			REB = {
+				check_variable = {
+					which = oldworldReparteeVariable
+					value = 4
+				}
+			}
+		}
+		AND = {
+			OR = {
+				religion_group = afro_syncretic
+				religion_group = cult_of_saints
+			}
+			REB = {
+				check_variable = {
+					which = latinReparteeVariable
+					value = 4
+				}
+			}
+		}
+	}
+}
+
+# Who can spawn the COR (i.e. win) - either scored a point or no one alive scored a point
+LAtE_potential_repartee_winner_trigger = {
+	OR = {
+		has_country_flag = repartee_participant_flag
+		NOT = {
+			any_country = {
+				AND = {
+					exists = yes
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = yes
+					has_country_flag = repartee_participant_flag
+				}
+			}
+		}
+	}
+	OR = {
+		NOT = { has_country_flag = repartee_country_winner_flag }
+		NOT = {
+			any_country = {
+				AND = {
+					exists = yes
+					NOT = { tag = ROOT }
+					LAtE_repartee_contender_trigger = yes
+					LAtE_same_repartee_group_trigger = yes
 				}
 			}
 		}
