@@ -11,6 +11,7 @@ ursuline_order = {
         }
         NOT = { has_country_flag = anabaptist_holy_order_flag }
     }
+    color = { 141 153 119 }
     cost = 50
     cost_type = adm_power
     per_province_effect = {
@@ -42,6 +43,7 @@ ursuline_order = {
             NOT = { religion = ROOT }
         }
     }
+    localization = holy_order
 }
 
 anabaptist_order = {
@@ -53,6 +55,7 @@ anabaptist_order = {
         }
         has_country_flag = anabaptist_holy_order_flag
     }
+    color = { 35 113 186 } 
     cost = 50
     cost_type = adm_power
     per_province_effect = {
@@ -72,6 +75,7 @@ anabaptist_order = {
             NOT = { religion = ROOT }
         }
     }
+    localization = holy_order
 }
 
 charity_order = {
@@ -86,6 +90,7 @@ charity_order = {
             }
         }
     }
+    color = { 19 79 44 } 
     cost = 50
     cost_type = dip_power
     per_province_effect = {
@@ -109,6 +114,7 @@ charity_order = {
             NOT = { culture = ROOT }
         }
     }
+    localization = holy_order
 }
 
 angeline_order = {
@@ -123,6 +129,7 @@ angeline_order = {
             }
         }
     }
+    color = { 65 77 86 }
     cost = 50
     cost_type = mil_power
     per_province_effect = {
@@ -146,4 +153,5 @@ angeline_order = {
             devastation = 50
         }
     }
+    localization = holy_order
 }
