@@ -1,3 +1,41 @@
+open_range_feudalism = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			technology_group = western
+			technology_group = eastern
+			technology_group = mexican
+		}
+		any_owned_province = {
+			superregion = great_plains_superregion
+		}
+	}
+	nation_designer_trigger = {
+		OR = {
+			technology_group = western
+			technology_group = eastern
+			technology_group = mexican
+		}
+		any_owned_province = {
+			superregion = great_plains_superregion
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	modifiers = {
+		max_absolutism = 5
+		manpower_recovery_speed = 0.1
+		cowboys_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		disables_estate_nobles = yes
+	}
+	ai = {
+		factor = 0.75 #generic
+	}
+}
+
 canadian_province = {
 	icon = "russian_principality"
 	allow_normal_conversion = yes
