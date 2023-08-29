@@ -1085,6 +1085,7 @@ nys_amos_tree = {
 	# 		}
 	# 	}
 	# }
+	
 	nys_future_council = { # With our internal approach organised, we can begin to decide our policy on those who are not affiliated with NYS in the years to come. <Initiate a series of debates>
 		icon = mission_alliances
 		required_missions = {
