@@ -184,7 +184,6 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
 	curtail_estate_vaisyas = {
 		major = yes
 		potential = {
@@ -213,7 +212,6 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
 	curtail_estate_nomadic_tribes = {
 		major = yes
 		potential = {
@@ -242,7 +240,6 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
 	curtail_estate_jains = {
 		major = yes
 		potential = {
@@ -637,7 +634,6 @@ country_decisions = {
 			always = no
 			NOT = { has_reform = cossacks_reform }
 			has_dlc = "The Cossacks"
-			NOT = { has_country_flag = embraced_steppes } 
 			NOT = { is_emperor_of_china = yes } 
 			NOT = { is_revolutionary = yes }
 		}
@@ -649,11 +645,10 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = { NOT = { government = republic } }
-				change_government_to_republic = yes
+				change_government = republic
 			}
 			add_government_reform = cossacks_reform
-			set_country_flag = embraced_steppes 
-		}
+					}
 		ai_will_do = {
 			factor = 1
 		}
@@ -671,7 +666,7 @@ country_decisions = {
 			NOT = { has_reform = siberian_tribe }
 			NOT = { has_reform = cossacks_reform }
 			NOT = { has_reform = veche_republic }
-			NOT = { has_reform = pirate_republic_reform }
+			NOT = { has_government_attribute = is_pirate_republic_reform }
 			is_nomad = no
 			is_colonial_nation = no
 			NOT = { has_reform = celestial_empire }
