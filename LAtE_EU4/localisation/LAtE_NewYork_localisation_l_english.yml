@@ -23,7 +23,7 @@
 
 # Election event
  ny_events.1.t:0 "Election in New York City"
- ny_events.1.desc:0 "HEY, I'M ELECTIN' HERE!"
+ ny_events.1.desc:0 "The time has come to elect a new leader. Each candidate has sworn to put their utmost into protecting and developing the state. Who will win this time?"
  ny_events.1.a:0 "House Wayne"
  ny_events.1.b:0 "House Levi"
  ny_events.1.c:0 "House Coeur"
@@ -33,12 +33,12 @@
 
 # Restore Tammany Republic
  new_york_restore_tammany_title:0 "Restore Tammany"
- new_york_restore_tammany_desc:0 "REPLACE_ME"
+ new_york_restore_tammany_desc:0 "Restore the nation to its rightful state under a republic."
 
 # Dictatorship event
- ny_events.2.t:0 "REPLACE_ME"
+ ny_events.2.t:0 "Singular Rule"
  ny_events.2.desc:0 "REPLACE_ME"
- ny_events.2.a:0 "REPLACE_ME"
+ ny_events.2.a:0 "What is a flock without its shepherd?"
 
 # Tooltips
  NYS_MILITIA:0 "When we go to war, the §YMinutemen§! will be available for hire in our capital."
@@ -47,17 +47,17 @@
  NY_UPRISING_PREVENTED_TOOLTIP:0 "§GReligious tensions will be further eased in your country! (Disables Religious Uprising disaster)§!"
 
 # Tammany Mission Event
- nys_missions_unlocked:0 "New family-specific missions will be unlocked upon their respective elections"
+ nys_missions_unlocked:0 "§GNew family-specific missions will be unlocked!§!"
  nys_stay_tammany:0 "This will strengthen the Republic"
  nys_leave_tammany:0 "This will embolden the would-be dictators in the hall..."
 
 # Missions and descriptions + mission-relevant event modifiers
  nys_secure_military_funding_title:0 "Military Funding"
- nys_secure_military_funding_desc:0 "REPLACE_ME"
- nys_city_reunited_title:0 "A City Reunited"
- nys_city_reunited_desc:0 "REPLACE_ME"
+ nys_secure_military_funding_desc:0 "Our expansion into Unami emphasized the importance of a standing army to our government. Many are beginning to doubt the feasibility of relying solely on citizen levies forever. The more savvy elements in the cabinet have put forward a strategy of securing favorable arms deals within the city, which will no doubt bring down the projected cost of maintaining a professional army."
+ nys_city_reunited_title:0 "A State Reunited"
+ nys_city_reunited_desc:0 "With the coast of Unami now in the forefront of our nation's mind, families from all walks of life are clamoring for access to this virgin land. A new grant has been allocated to support citizen settlers who wish to move to the area."
  nys_military_funding_secured:0 "Military Funding Secured"
- desc_nys_military_funding_secured:0 "REPLACE_ME"
+ desc_nys_military_funding_secured:0 "A careful campaign of propaganda and... "persuasion"... has seen a staggering increase in recruits to our armed forces."
  nys_the_reservists_title:0 "The Reservists"
  nys_the_reservists_desc:0 "REPLACE_ME"
  nys_reservist_base:0 "Reservist Base"
@@ -116,7 +116,7 @@
  nys_libertys_city_title:0 "Liberty's City"
  nys_libertys_city_desc:0 "REPLACE_ME"
  nys_stake_our_claim_title:0 "Stake Our Claim"
- nys_stake_our_claim_desc:0 "REPLACE_ME"
+ nys_stake_our_claim_desc:0 "The land to the south has long been controlled by the state of Jersey. It is of paramount importance that we reclaim the coastline, so that we may begin our grand plan."
  nys_overseas_investments_title:0 "Overseas Investments"
  nys_overseas_investments_desc:0 "REPLACE_ME"
  nys_common_understanding_title:0 "Common Understanding"
@@ -199,7 +199,7 @@
  ny_events.3.t:0 "War on Hudsonia"
  ny_events.3.desc:0 "REPLACE_ME"
  ny_events.3.a:0 "It is time."
- ny_events.4.t:0 "Hudsonian Heathens"
+ ny_events.4.t:0 "Hudsonian Heretics"
  ny_events.4.desc:0 "REPLACE_ME"
  ny_events.4.a:0 "Mercy."
  nys_chose_tolerance:0 "Chose Tolerance"
