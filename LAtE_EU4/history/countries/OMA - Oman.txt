@@ -82,8 +82,8 @@ religious_school = hanbali_school
 
 1560.1.1 = {
 	heir = {
-		name = "Habh�n"
-		monarch_name = "Habh�n"
+		name = "Habhan"
+		monarch_name = "Habhan"
 		dynasty = "Nabhan"
 		birth_date = 1560.1.1
 		death_Date = 1617.2.16
@@ -96,7 +96,7 @@ religious_school = hanbali_school
 
 1615.1.1 = {
 	monarch = {
-		name = "Habh�n"
+		name = "Habhan"
 		dynasty = "Nabhan"
 		adm = 4
 		dip = 0
@@ -132,7 +132,7 @@ religious_school = hanbali_school
 
 1624.1.1 = {
 	monarch = {
-		name = "N�sir"
+		name = "Nasir"
 		dynasty = "Ya'ariba"
 		adm = 4
 		dip = 3
@@ -142,8 +142,8 @@ religious_school = hanbali_school
 
 1624.1.1 = {
 	heir = {
-		name = "Sult�n"
-		monarch_name = "Sult�n I"
+		name = "Sultan"
+		monarch_name = "Sultan I"
 		dynasty = "Ya'ariba"
 		birth_date = 1620.1.1
 		death_Date = 1668.11.12
@@ -156,7 +156,7 @@ religious_school = hanbali_school
 
 1649.4.5 = {
 	monarch = {
-		name = "Sult�n I"
+		name = "Sultan I"
 		dynasty = "Ya'ariba"
 		adm = 2
 		dip = 1
@@ -215,8 +215,8 @@ religious_school = hanbali_school
 
 1679.1.1 = {
 	heir = {
-		name = "Sult�n II"
-		monarch_name = "Sult�n II"
+		name = "Sultan II"
+		monarch_name = "Sultan II"
 		dynasty = "Ya'ariba"
 		birth_date = 1679.1.1
 		death_date = 1718.1.1
@@ -229,7 +229,7 @@ religious_school = hanbali_school
 
 1711.10.16 = {
 	monarch = {
-		name = "Sult�n II"
+		name = "Sultan II"
 		dynasty = "Ya'ariba"
 		adm = 2
 		dip = 0
@@ -239,8 +239,8 @@ religious_school = hanbali_school
 
 1711.10.16 = {
 	heir = {
-		name = "Muhann�"
-		monarch_name = "Muhann�"
+		name = "Muhanna"
+		monarch_name = "Muhanna"
 		dynasty = "Ya'ariba"
 		birth_date = 1700.1.1
 		death_Date = 1720.1.1
@@ -253,7 +253,7 @@ religious_school = hanbali_school
 
 1718.1.1 = {
 	monarch = {
-		name = "Muhann�"
+		name = "Muhanna"
 		dynasty = "Ya'ariba"
 		adm = 3
 		dip = 3
@@ -309,8 +309,8 @@ religious_school = hanbali_school
 
 1728.4.12 = {
 	heir = {
-		name = "Sult�n"
-		monarch_name = "Sult�n III"
+		name = "Sultan"
+		monarch_name = "Sultan III"
 		birth_date = 1700.1.1
 		death_Date = 1743.7.2
 		claim = 95
@@ -322,7 +322,7 @@ religious_school = hanbali_school
 
 1742.2.1 = {
 	monarch = {
-		name = "Sult�n III"
+		name = "Sultan III"
 		dynasty = "Ya'ariba"
 		adm = 0
 		dip = 1
@@ -352,8 +352,8 @@ religious_school = hanbali_school
 
 1750.1.1 = {
 	heir = {
-		name = "S�'�d"
-		monarch_name = "S�'�d I"
+		name = "Sa'ad"
+		monarch_name = "Sa'ad I"
 		dynasty = "Al Said"
 		birth_date = 1750.1.1
 		death_date = 1804.11.16
@@ -366,7 +366,7 @@ religious_school = hanbali_school
 
 1783.12.16 = {
 	monarch = {
-		name = "S�'�d I"
+		name = "Sa'ad I"
 		dynasty = "Al Said"
 		adm = 3
 		dip = 1
@@ -376,8 +376,8 @@ religious_school = hanbali_school
 
 1783.12.16 = {
 	heir = {
-		name = "S�lim"
-		monarch_name = "S�lim I"
+		name = "Salim"
+		monarch_name = "Salim I"
 		dynasty = "Al Said"
 		birth_date = 1780.1.1
 		death_Date = 1806.9.14
@@ -390,7 +390,7 @@ religious_school = hanbali_school
 
 1804.11.16 = {
 	monarch = {
-		name = "S�lim I"
+		name = "Salim I"
 		dynasty = "Al Said"
 		adm = 2
 		dip = 1
@@ -400,8 +400,8 @@ religious_school = hanbali_school
 
 1804.11.16 = {
 	heir = {
-		name = "S�'�d"
-		monarch_name = "S�'�d II"
+		name = "Sa'ad"
+		monarch_name = "Sa'ad II"
 		dynasty = "Al Said"
 		birth_date = 1797.6.5
 		death_Date = 1856.10.19
@@ -414,7 +414,7 @@ religious_school = hanbali_school
 
 1806.9.14 = {
 	monarch = {
-		name = "S�'�d II"
+		name = "Sa'ad II"
 		dynasty = "Al Said"
 		adm = 3
 		dip = 2
